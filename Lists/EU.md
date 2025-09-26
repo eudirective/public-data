@@ -90,6 +90,7 @@ CJEU Case Law
 ⦁	Bidar (C-209/03) — Education rights for mobile students.
 ⦁	Trojani (C-456/02) — Social assistance for mobile citizens.
 ⦁	Rottmann line of cases confirming links between nationality decisions and EU citizenship.
+⦁	Case C-503/03 Commission v Spain
 
 ECHR Jurisprudence
 ⦁	ECHR, Biao v. Denmark (2016, Grand Chamber) — Non-discrimination in family reunification.
