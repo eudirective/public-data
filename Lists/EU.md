@@ -90,7 +90,11 @@ CJEU Case Law
 ⦁	Bidar (C-209/03) — Education rights for mobile students.
 ⦁	Trojani (C-456/02) — Social assistance for mobile citizens.
 ⦁	Rottmann line of cases confirming links between nationality decisions and EU citizenship.
-⦁	Case C-503/03 Commission v Spain
+⦁	Case C-503/03 Commission v Spain - visas/entry refusals solely on the basis of an SIS alerts are unlawful
+⦁	Rutili (C-36/75) -  established that public policy derogations must be narrowly construed.
+⦁	Bouchereau (C-30/77) - introduced the “genuine, present and sufficiently serious threat” test.
+⦁	Orfanopoulos (C-482/01) - reinforced proportionality and individual assessment in expulsion cases.
+
 
 ECHR Jurisprudence
 ⦁	ECHR, Biao v. Denmark (2016, Grand Chamber) — Non-discrimination in family reunification.
