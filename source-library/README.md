@@ -35,3 +35,8 @@ The 42 added official-guidance records are stored in their owning target folders
 ## Czech national source pack
 
 The candidate inventory for Czech national sources is under [`czechia/`](czechia/README.md). It contains 31 candidate records: 10 official guidance pages have review-candidate conversions, 17 legal texts remain blocked pending e-Sbírka API registration, and four court or oversight discovery channels are monitor-only. No Czech source has been accepted. The pack's source list and candidate manifest define the inventory; its pack instructions describe the retrieval and review workflow.
+
+
+## Online acquisition candidates
+
+The [2026-10-15 online acquisition candidate register](references/online-acquisition-candidates-2026-10-15.md) records 83 additional official-source candidates compared with current EU and national inventories. It is a discovery register; its candidates are not retrieved or accepted legal texts.
