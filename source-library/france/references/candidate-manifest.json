@@ -84,7 +84,7 @@
       "url": "https://www.france-visas.gouv.fr/web/france-visas/famille-de-citoyen-europeen",
       "retrieved": true,
       "accepted": false,
-      "retrieval_status": "browser_snapshot_raw_capture_required",
+      "retrieval_status": "browser_summary_raw_capture_required",
       "topic_ids": [
         "VISA-01",
         "VISA-11",
@@ -127,5 +127,7 @@
       ],
       "scope_note": "Judicial review route for administrative residence decisions; identify the specific CESEDA and visa-review provisions before relying on this general code."
     }
-  ]
+  ],
+  "retrieved_converted_candidate_count": 0,
+  "page_accessed_note_count": 1
 }

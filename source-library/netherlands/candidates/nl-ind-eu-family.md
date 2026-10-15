@@ -1,123 +1,18 @@
 # IND — Verification against EU law for family members
 
-- Source ID: nl-ind-eu-family - Official URL: https://ind.nl/en/residence-permits/family-and-partner/verification-against-eu-law-for-union-citizen-family-members - Retrieved: 2026-10-15T22:57:07Z - Publisher response: HTML; converted from <main> - Raw HTML SHA-256: 0b4901ec3afc18c98b5bcdd7fdbabff09e00728e0a48c9dabb05cb3d92887a30 - Status: retrieved and converted review candidate; not accepted
+- Source ID: nl-ind-eu-family
+- Official URL: https://ind.nl/en/residence-permits/family-and-partner/verification-against-eu-law-for-union-citizen-family-members
+- Retrieved: 2026-10-15T22:57:07Z
+- Publisher response: HTML; converted from <main>
+- Raw HTML SHA-256: 0b4901ec3afc18c98b5bcdd7fdbabff09e00728e0a48c9dabb05cb3d92887a30
+- Status: retrieved and converted review candidate; not accepted
 
 # Verification against EU law for Union citizen family members
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Last update: 25 September 2026 
 
 You are coming to the Netherlands to live with a citizen of the European Union (EU), European Economic Area (EEA) or Switzerland as a family member. You do not have the nationality of an EU or EEA country, or Switzerland. Find out what the requirements are and how you can apply for EU verification.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 - For whom is the application for verification against EU law? 
@@ -128,27 +23,9 @@ You are coming to the Netherlands to live with a citizen of the European Union (
 Requirements, process and costs
 
 
-
-
-
-
-
-
-
-
-
 - 
 
 Application forms
-
-
-
-
-
-
-
-
-
 
 
 - The residence document 
@@ -157,78 +34,7 @@ Application forms
 - See also 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # For whom is the application for verification against EU law? 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 When you apply for verification against EU law, the IND assesses whether you come under EU law. EU law provides for free movement of persons within the EU. This freedom of movement also applies to citizens of the EEA and Switzerland. In this text we call all these people Union citizens, or in other words citizens of the Union. You must apply for verification against EU law if you are a Union citizen family member but do not have the nationality of one of these countries. View the EU/EEA Member States .
@@ -257,67 +63,7 @@ You apply for EU assessment via this page.
 Are you coming to the Netherlands from another EU, EEA or Swiss country together with a Dutch national? And did you and the Dutch national live in that other country under EU law? Then go to the page Returning with a Dutch national from another EU/EEA country or Switzerland .
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Requirements, process and costs
-
 
 
 # 
@@ -325,110 +71,14 @@ Are you coming to the Netherlands from another EU, EEA or Swiss country together
 These requirements apply to verification against EU law.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Show details 
 Hide details 
-
-
 
 
 - 
 
 
 # 1. Check requirements
-
-
-
-
-
-
-
-
-
-
-
 
 
 The following requirements apply to you:
@@ -506,27 +156,10 @@ The following requirements apply to you:
 - You need care from the Union citizen, or from the spouse or registered partner of the Union citizen. You need this care because you have serious health problems.
 
 
-
-
-
-
-
-
 - 
 
 
 # 2. Collect documents
-
-
-
-
-
-
-
-
-
-
-
 
 
 Do you want to know which documents you need in your situation to make the application? Then answer a few questions to get your document overview.
@@ -536,27 +169,10 @@ Go to questions for your document overview
 Have official foreign documents legalised and translated into Dutch, English, French or German.
 
 
-
-
-
-
-
-
 - 
 
 
 # 3. Travel to the Netherlands
-
-
-
-
-
-
-
-
-
-
-
 
 
 You can only apply for verification against EU law from within the Netherlands. This means that you must travel to the Netherlands first. Sometimes you need a visa facilitation. Check at NetherlandsWorldwide if you need a visa facilitation for the Netherlands to travel to the Netherlands.
@@ -581,37 +197,15 @@ You need these documents to travel to the Netherlands:
 - Documents that demonstrate you are a family member of an EU, EEA or Swiss citizen. For example the certificate of birth, marriage, or registered partnership.
 
 
-
-
-
-
-
 - 
 
 
 # 4. Apply
 
 
-
-
-
-
-
-
-
-
-
-
-
 You can apply online or in writing by post. You can find the application form under Application forms.
 
 You submit the application yourself. Or your authorise the Dutch citizen to submit the application for you. The authorisation can be found with the application form.
-
-
-
-
-
-
 
 
 - 
@@ -620,41 +214,13 @@ You submit the application yourself. Or your authorise the Dutch citizen to subm
 # 5. Pay for application
 
 
-
-
-
-
-
-
-
-
-
-
-
 The application costs € 85,00. You must pay € 46,00 for a minor. For all fees and exceptions, visit our web page Fees: application costs .
-
-
-
-
-
-
 
 
 - 
 
 
 # 6. Wait for decision on application
-
-
-
-
-
-
-
-
-
-
-
 
 
 The IND must make a decision within 6 months. This is called the decision period.
@@ -679,33 +245,13 @@ Has the decision period expired? And do you still not have a decision on your ap
 Follow the application in My IND .
 
 
-
-
-
-
-
-
 - 
 
 
 # 7. Decision on application
 
 
-
-
-
-
-
-
-
-
-
-
-
 You will receive the decision in a letter. The decision will be positive or negative.
-
-
-
 
 
 - Positive decision: you will get a residence document.
@@ -714,114 +260,22 @@ You will receive the decision in a letter. The decision will be positive or nega
 - Negative decision: you will not get a residence document. You can object against this decision . 
 
 
-
-
-
-
-
-
 - 
 
 
 # 8. Collect residence document
 
 
-
-
-
-
-
-
-
-
-
-
-
 When the residence document is ready at an IND desk, you will receive a letter. You must make an appointment to collect it. Make an appointment to collect your residence document . 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Application forms
 
 
-
 # 
 
 
-
-
-
-
-
-
 # Online application for verification against EU law 
-
-
-
 
 
 Are you the partner or (grand)child of the Union citizen? And is the Union citizen not a Dutch national? Then the Union citizen can submit the application online for you using iDEAL | Wero.
@@ -830,178 +284,37 @@ Are you the partner or (grand)child of the Union citizen? And is the Union citiz
 Apply online 
 
 
-
-
-
 You need a DigiD 
-
-
-
-
-
 
 
 # Written application forms
 
 
-
-
 Do you want to submit the application by post? Or is it not possible to apply online in your situation? Then use the written application form that applies to your situation:
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Use this form if you are the partner or (adopted)child of the EU citizen.
-
-
-
-
 
 
 Application residence document: residence with EU family member for partner and child B10001E
 (PDF, 405.29 KB) 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Use this form if you are another family member than partner or child. For example, the parent, (great)grandparent, (great)grandchild, nephew/niece, uncle/aunt.
-
-
-
-
 
 
 Application residence document: residence with EU family member for family members other than partner and child B10002E
 (PDF, 388.43 KB) 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Use this form if you want to do a follow-up application and your situation with the EU citizen has changed.
-
-
-
-
 
 
 Follow up application residence document: after residence with EU family member B10006E
 (PDF, 364.96 KB) 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # The residence document
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Find out what else you need to know about the residence document.
@@ -1060,76 +373,7 @@ Find out more on the page Staying in the Netherlands if your situation with the 
 Have you met the requirements for residency for 5 consecutive years? Then you can apply for permanent residency .
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # See also
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 - Living in the Netherlands 
@@ -1152,147 +396,31 @@ Have you met the requirements for residency for 5 consecutive years? Then you ca
 - B10/2 Aliens Act Implementation Guidelines (Vreemdelingencirculaire 2000)​ 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 - 
-
-
 
 
 For whom is the application for verification against EU law? 
 
 
-
-
-
-
-
-
-
 - 
-
-
-
-
 
 
 Requirements, process and costs
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 - 
-
-
-
-
 
 
 Application forms
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 - 
-
-
 
 
 The residence document
 
 
-
-
-
-
-
-
-
 - 
-
-
 
 
 See also 

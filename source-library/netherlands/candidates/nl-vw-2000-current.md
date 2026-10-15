@@ -1,9 +1,13 @@
 # Vreemdelingenwet 2000 — current official text
 
-- Source ID: nl-vw-2000-current - Official URL: https://wetten.overheid.nl/BWBR0011823?g=2026-10-16 - Retrieved: 2026-10-15T22:57:07Z - Publisher response: HTML; converted from <div> - Raw HTML SHA-256: 2415afb1f0f2e23d1feb9aa14fbb13b08b5a1e4be3f6dbf4a31fd8138a82fc42 - Status: retrieved and converted review candidate; not accepted
+- Source ID: nl-vw-2000-current
+- Official URL: https://wetten.overheid.nl/BWBR0011823?g=2026-10-16
+- Retrieved: 2026-10-15T22:57:07Z
+- Publisher response: HTML; converted from <div>
+- Raw HTML SHA-256: 2415afb1f0f2e23d1feb9aa14fbb13b08b5a1e4be3f6dbf4a31fd8138a82fc42
+- Status: retrieved and converted review candidate; not accepted
 
 # Vreemdelingenwet 2000
-
 
 
 Toekomstige wijziging(en) voorzien met ingang van: 28-03-2028. 
@@ -15,8 +19,6 @@ Zie het wijzigingenoverzicht .
 Geraadpleegd op 15-10-2026. 
 
 Geldend van 01-09-2026 t/m heden.
-
-
 
 
 - Toon relaties in LiDO 
@@ -37,24 +39,11 @@ Geldend van 01-09-2026 t/m heden.
 - Sla de regeling op 
 
 
-
-
-
-
-
-
-
 Origineel opschrift en aanhef 
-
-
 
 
 Wet van 23 november 2000 tot algehele herziening van de Vreemdelingenwet (Vreemdelingenwet
 2000)
-
-
-
-
 
 
 Wij Beatrix, bij de gratie Gods, Koningin der Nederlanden, Prinses van Oranje-Nassau,
@@ -70,40 +59,13 @@ die in Nederland verblijf houden, en de grensbewaking, te herzien en daartoe een
 Vreemdelingenwet vast te stellen;
 
 
-
-
 Zo is het, dat Wij, de Raad van State gehoord, en met gemeen overleg der Staten-Generaal,
 hebben goedgevonden en verstaan, gelijk Wij goedvinden en verstaan bij deze:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Hoofdstuk 1. Inleidende bepalingen
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -120,20 +82,11 @@ hebben goedgevonden en verstaan, gelijk Wij goedvinden en verstaan bij deze:
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Afdeling 1. Definities
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -152,16 +105,7 @@ hebben goedgevonden en verstaan, gelijk Wij goedvinden en verstaan bij deze:
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
-
 # Artikel 1 
-
-
 
 
 - Toon relaties in LiDO 
@@ -185,14 +129,7 @@ hebben goedgevonden en verstaan, gelijk Wij goedvinden en verstaan bij deze:
 [Wijziging(en) zonder datum inwerkingtreding aanwezig. Zie het wijzigingenoverzicht .]
 
 
-
-
-
-
 In deze wet en de daarop berustende bepalingen wordt verstaan onder:
-
-
-
 
 
 - 
@@ -200,9 +137,6 @@ aanvraag tot het verlenen van een verblijfsvergunning asiel: een verzoek om inte
 bescherming als bedoeld in artikel 3, onderdeel 12, van de Procedureverordening dan
 wel een aanvraag om verblijf als gezinslid van een vreemdeling die internationale
 bescherming geniet, als bedoeld in de artikelen 29b, 29c en 29d;
-
-
-
 
 
 - 
@@ -214,28 +148,16 @@ en te werken op het grondgebied van een lidstaat, alsmede inzake een gemeenschap
 pakket rechten voor werknemers uit derde landen die legaal in een lidstaat verblijven;
 
 
-
-
-
 - 
 ambtenaren belast met de grensbewaking: de ambtenaren, bedoeld in artikel 46 ;
-
-
-
 
 
 - 
 ambtenaren belast met het toezicht op referenten: de ambtenaren, bedoeld in artikel 47a ;
 
 
-
-
-
 - 
 ambtenaren belast met het toezicht op vreemdelingen: de ambtenaren, bedoeld in artikel 47 ;
-
-
-
 
 
 - 
@@ -243,14 +165,8 @@ Asiel- en migratiebeheerverordening: Verordening (EU) 2024/1351 van het Europees
 tot wijziging van de Verordeningen (EU) 2021/1147 en (EU) 2021/1060 en tot intrekking van Verordening (EU) nr. 604/2013 ;
 
 
-
-
-
 - 
 asielgrensprocedure: de asielgrensprocedure bedoeld in artikel 43 van de Procedureverordening;
-
-
-
 
 
 - 
@@ -259,22 +175,13 @@ als impliciet of expliciet ingetrokken overeenkomstig artikel 36, tweede lid, va
 de Procedureverordening;
 
 
-
-
-
 - 
 buitengrenzen: de Nederlandse zeegrenzen, alsmede lucht- of zeehavens waar grenscontrole
 op personen wordt uitgeoefend;
 
 
-
-
-
 - 
 erkende referent: de referent die krachtens artikel 2c als zodanig is erkend;
-
-
-
 
 
 - 
@@ -282,13 +189,8 @@ Etias-verordening: Verordening (EU) 2018/1240 van het Europees Parlement en de R
 Europees reisinformatie- en -autorisatiesysteem (Etias) en tot wijziging van de Verordeningen (EU) nr. 1077/2011 , (EU) nr. 515/2014 , (EU) 2016/399 , (EU) 2016/1624 en (EU) 2017/2226 ;
 
 
-
-
-
 - 
 Europese verordeningen die betrekking hebben op biometrische gegevens:
-
-
 
 
 - 
@@ -300,17 +202,11 @@ van de lidstaten en Europol om vergelijkingen van Eurodac-gegevens ten behoeve v
 rechtshandhaving, tot wijziging van de Verordeningen (EU) 2018/1240 en (EU) 2019/818 van het Europees Parlement en de Raad en tot intrekking van Verordening (EU) nr. 603/2013 van het Europees Parlement en de Raad;
 
 
-
-
-
 - 
 2° 
 Verordening (EG) nr. 767/2008 van het Europees Parlement en de Raad van 9 juli 2008 betreffende het visuminformatiesysteem
 (VIS) en de uitwisseling tussen de lidstaten van gegevens op het gebied van visa voor
 kort verblijf (VIS-verordening);
-
-
-
 
 
 - 
@@ -319,15 +215,9 @@ Verordening (EG) nr. 810/2009 van het Europees Parlement en de Raad van 13 juli 
 visumcode (Visumcode);
 
 
-
-
-
 - 
 4° Verordening (EG) nr. 1030/2002 van de Raad van 13 juni 2002 betreffende de invoering
 van een uniform model voor verblijfstitels voor onderdanen van derde landen;
-
-
-
 
 
 - 
@@ -340,12 +230,6 @@ tot het EES voor rechtshandhavingsdoeleinden en tot wijziging van de overeenkoms
 ter uitvoering van het te Schengen gesloten akkoord en Verordeningen (EG) nr. 767/2008 en (EU) nr. 1077/2011 ;
 
 
-
-
-
-
-
-
 - 
 gecombineerde vergunning: verblijfsvergunning regulier voor bepaalde tijd als bedoeld
 in artikel 14 , verleend door Onze Minister onder de beperking «arbeid in loondienst», «lerend werken»
@@ -353,22 +237,14 @@ of «seizoenarbeid», tevens zijnde vergunning voor het verrichten van werkzaamh
 bij een specifieke werkgever, met het aanvullend document;
 
 
-
-
-
 - 
 gemeenschapsonderdanen:
-
-
 
 
 - 
 1°. onderdanen van de lidstaten van de Europese Unie die op grond van het Verdrag betreffende
 de werking van de Europese Unie gerechtigd zijn een andere lidstaat binnen te komen
 en er te verblijven;
-
-
-
 
 
 - 
@@ -378,9 +254,6 @@ de Europese Unie genomen besluit gerechtigd zijn een lidstaat binnen te komen en
 te verblijven;
 
 
-
-
-
 - 
 3°. onderdanen van een staat die partij is bij de Overeenkomst betreffende de Europese
 Economische Ruimte van 2 mei 1992, die ter zake van binnenkomst en verblijf in een
@@ -388,16 +261,10 @@ lidstaat rechten genieten die gelijk zijn aan die van burgers van de lidstaten v
 de Europese Unie;
 
 
-
-
-
 - 
 4°. familieleden van de onder 3° genoemden die de nationaliteit van een derde staat bezitten
 en die krachtens bovengenoemde Overeenkomst gerechtigd zijn een lidstaat binnen te
 komen en er te verblijven;
-
-
-
 
 
 - 
@@ -407,33 +274,18 @@ en haar lidstaten, enerzijds, en de Zwitserse Bondsstaat, anderzijds, over het v
 verkeer van personen (Trb. 2000, 16 en 86);
 
 
-
-
-
 - 
 6°. familieleden van de onder 5° genoemden die de nationaliteit van een derde staat bezitten
 en die krachtens de onder 5° genoemde Overeenkomst gerechtigd zijn een lidstaat binnen
 te komen en er te verblijven;
 
 
-
-
-
-
-
-
 - 
 Gezinsherenigingsrichtlijn: Richtlijn 2003/86/EG van de Raad van 22 september 2003 inzake het recht op gezinshereniging;
 
 
-
-
-
 - 
 herhaalde aanvraag: een aanvraag, die op grond van artikel 4:6, tweede lid, van de Algemene wet bestuursrecht kan worden afgewezen;
-
-
-
 
 
 - 
@@ -441,14 +293,8 @@ Hervestigingsverordening: Verordening (EU) 2024/1350 van het Europees Parlement 
 voor hervestiging en toelating op humanitaire gronden, en tot wijziging van Verordening (EU) 2021/1147 ;
 
 
-
-
-
 - 
 inreisverbod: het inreisverbod, bedoeld in artikel 3, punt 6, van de Terugkeerrichtlijn;
-
-
-
 
 
 - 
@@ -456,14 +302,8 @@ internationale bescherming: internationale bescherming als bedoeld in artikel 3,
 onderdeel 3, van de Kwalificatieverordening;
 
 
-
-
-
 - 
 de korpschef: de korpschef, bedoeld in artikel 27 van de Politiewet 2012 ;
-
-
-
 
 
 - 
@@ -474,9 +314,6 @@ bescherming in aanmerking komen, en voor de inhoud van de verleende bescherming,
 wijziging van Richtlijn 2003/109/EG van de Raad en tot intrekking van Richtlijn 2011/95/EU van het Europees Parlement en de Raad;
 
 
-
-
-
 - 
 langdurig ingezetene: houder van een EU-verblijfsvergunning voor langdurig ingezetenen
 als bedoeld in Richtlĳn 2003/109/EG van de Raad van 25 november 2003 betreffende de
@@ -485,22 +322,13 @@ bescherming genieten, dan wel van een door een andere lidstaat op grond van deze
 afgegeven EU-verblijfsvergunning voor langdurig ingezetenen;
 
 
-
-
-
 - 
 minderjarige: eenieder die de leeftijd van 18 jaar nog niet heeft bereikt;
-
-
-
 
 
 - 
 Niet-begeleide minderjarige: een persoon zoals gedefinieerd in artikel 2, onderdeel
 5, van de Opvangrichtlijn;
-
-
-
 
 
 - 
@@ -509,14 +337,8 @@ artikel 10, tweede lid, van de Screeningsverordening en artikel 43, vierde lid, 
 de Procedureverordening;
 
 
-
-
-
 - 
 Onze Minister: Onze Minister van Asiel en Migratie;
-
-
-
 
 
 - 
@@ -524,14 +346,8 @@ Opvangrichtlijn: Richtlijn (EU) 2024/1346 van het Europees parlement en de Raad 
 voor de opvang van verzoekers om internationale bescherming (herschikking);
 
 
-
-
-
 - 
 overdrachtsbesluit: het besluit, bedoeld in artikel 42 van de Asiel- en migratiebeheerverordening;
-
-
-
 
 
 - 
@@ -539,30 +355,18 @@ persoonsgegevens en verwerking van persoonsgegevens: hetgeen daaronder wordt ver
 in artikel 4, aanhef en onder 1 en 2, van de Algemene verordening gegevensbescherming;
 
 
-
-
-
 - 
 Procedureverordening: Verordening (EU) 2024/1348 van het Europees Parlement en de Raad van 14 mei 2024 tot vaststelling van een gemeenschappelijke
 procedure voor internationale bescherming in de Unie en tot intrekking van Richtlijn 2013/32/EU ;
-
-
-
 
 
 - 
 referent: degene die overeenkomstig artikel 2a een verklaring heeft afgelegd of als zodanig is aangewezen;
 
 
-
-
-
 - 
 reisautorisatie: een reisautorisatie als bedoeld in artikel 3, eerste lid, onder
 5, van de Etias-verordening;
-
-
-
 
 
 - 
@@ -573,16 +377,10 @@ tussen de inspanning van de lidstaten voor de opvang en het dragen van de conseq
 van de opvang van deze personen;
 
 
-
-
-
 - 
 Schengengrenscode: Verordening (EU) 2016/399 van het Europees Parlement en de Raad
 van 9 maart 2016 betreffende een Uniecode voor de overschrijding van de grenzen door
 personen (Schengengrenscode);
-
-
-
 
 
 - 
@@ -590,15 +388,9 @@ Screeningsautoriteiten: de bij of krachtens artikel 2ff, eerste, tweede en derde
 aangewezen autoriteiten;
 
 
-
-
-
 - 
 Screeningsverordening: Verordening (EU) 2024/1356 van het Europees Parlement en de Raad van 14 mei 2024 tot invoering van de screening
 van onderdanen van derde landen aan de buitengrenzen en tot wijziging van de Verordeningen (EG) nr. 767/2008 , (EU) 2017/2226 , (EU) 2018/1240 en (EU) 2019/817 ;
-
-
-
 
 
 - 
@@ -608,23 +400,14 @@ de Overeenkomst ter uitvoering van het Akkoord van Schengen en tot wijziging en 
 van Verordening (EG) nr. 1987/2006 ;
 
 
-
-
-
 - 
 SIS-verordening terugkeer: Verordening (EU) 2018/1860 van het Europees Parlement en de Raad van 28 november 2018 betreffende het gebruik
 van het Schengeninformatiesysteem voor de terugkeer van illegaal verblijvende onderdanen
 van derde landen;
 
 
-
-
-
 - 
 terugkeerbesluit: het terugkeerbesluit, bedoeld in artikel 3, punt 4, van de Terugkeerrichtlijn;
-
-
-
 
 
 - 
@@ -633,14 +416,8 @@ Terugkeerrichtlijn: Richtlijn 2008/115/EG van het Europees Parlement en de Raad 
 de terugkeer van onderdanen van derde landen die illegaal op hun grondgebied verblijven;
 
 
-
-
-
 - 
 tijdelijke bescherming: rechtmatig verblijf in de zin van artikel 8, onder f of h , van de vreemdeling wiens uitzetting in verband met een aanvraag als bedoeld in artikel 28 op grond van de richtlijn tijdelijke bescherming achterwege blijft;
-
-
-
 
 
 - 
@@ -648,15 +425,9 @@ verblijf op asielgerelateerde gronden: het verblijf van de vreemdeling in Nederl
 op de gronden bedoeld in de artikelen 29 tot en met 29d;
 
 
-
-
-
 - 
 verblijf op reguliere gronden: het verblijf van een vreemdeling in Nederland op grond
 van deze wet anders dan op de gronden bedoeld in de artikelen 29 tot en met 29d;
-
-
-
 
 
 - 
@@ -665,17 +436,11 @@ voor interoperabiliteit tussen de Unie-informatiesystemen op het gebied van gren
 en visa en tot wijziging van Verordeningen (EG) nr. 767/2008 , (EU) 2016/399 , (EU) 2017/2226 , (EU) 2018/1240 , (EU) 2018/1726 en (EU) 2018/1861 van het Europees Parlement en de Raad, Beschikking 2004/512/EG van de Raad en Besluit 2008/633 /JBZ van de Raad;
 
 
-
-
-
 - 
 Verordening interoperabiliteit politiële en justitiële samenwerking, asiel en migratie:
 Verordening (EU) 2019/818 van het Europees Parlement en de Raad van 20 mei 2019 tot vaststelling van een kader
 voor interoperabiliteit tussen de Unie-informatiesystemen op het gebied van politiële
 en justitiële samenwerking, asiel en migratie en tot wijziging van Verordeningen (EU) 2018/1726 , (EU) 2018/1862 en (EU) 2019/816 ;
-
-
-
 
 
 - 
@@ -686,27 +451,12 @@ York tot stand gekomen Protocol betreffende de status van vluchtelingen (Trb. 19
 76);
 
 
-
-
-
 - 
 vreemdeling: ieder die de Nederlandse nationaliteit niet bezit en niet op grond van
 een wettelijke bepaling als Nederlander moet worden behandeld;
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 1a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -727,14 +477,7 @@ een wettelijke bepaling als Nederlander moet worden behandeld;
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
 In deze wet en de daarop berustende bepalingen wordt verstaan onder:
-
-
-
 
 
 - 
@@ -743,24 +486,15 @@ annulering van een visum: intrekking van een visum met terugwerkende kracht tot 
 verlening;
 
 
-
-
-
 - 
 b. 
 machtiging tot voorlopig verblijf: visum voor de toegang tot Nederland voor verblijf van meer dan 90 dagen;
-
-
-
 
 
 - 
 c. 
 terugkeervisum: visum voor de toegang tot Nederland van een vreemdeling die Nederland tijdelijk zal
 verlaten;
-
-
-
 
 
 - 
@@ -772,19 +506,7 @@ of van de Commissie van de Europese Gemeenschappen, alsmede de onder b en c bedo
 visa.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 1b 
-
-
 
 
 - Toon relaties in LiDO 
@@ -803,29 +525,12 @@ visa.
 
 
 - Sla het regelingonderdeel op 
-
 
 
 [Vervallen per 01-06-2013]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Afdeling 2. De Adviesraad Migratie
-
-
 
 
 - Toon relaties in LiDO 
@@ -844,20 +549,11 @@ visa.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 2 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -876,20 +572,8 @@ visa.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Er is een Adviesraad Migratie.
-
-
-
-
-
-
 
 
 - 
@@ -899,21 +583,9 @@ anderszins werkzaamheden verrichten in ondergeschiktheid aan Onze Ministers, wor
 niet tot lid benoemd.
 
 
-
-
-
-
-
-
 - 
 3 Als voorzitter wordt bij voorkeur een rechterlijk ambtenaar met rechtspraak belast
 benoemd.
-
-
-
-
-
-
 
 
 - 
@@ -921,21 +593,9 @@ benoemd.
 en het beleid ter zake, waaronder begrepen wijzigingen van deze wet.
 
 
-
-
-
-
-
-
 - 
 5 Bij algemene maatregel van bestuur worden regels gesteld over de inrichting en de
 werkwijze van de adviesraad.
-
-
-
-
-
-
 
 
 - 
@@ -943,22 +603,7 @@ werkwijze van de adviesraad.
 te winnen welke zij voor de vervulling van haar taak nodig acht. 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Afdeling 3. De referent
-
-
 
 
 - Toon relaties in LiDO 
@@ -977,20 +622,11 @@ te winnen welke zij voor de vervulling van haar taak nodig acht.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Paragraaf 1. Algemeen
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -1007,20 +643,11 @@ te winnen welke zij voor de vervulling van haar taak nodig acht.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 2a 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -1037,12 +664,6 @@ te winnen welke zij voor de vervulling van haar taak nodig acht.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -1050,14 +671,9 @@ te winnen welke zij voor de vervulling van haar taak nodig acht.
 kan in ieder geval als referent optreden:
 
 
-
-
 - 
 a. een Nederlander, die in Nederland verblijft of met die vreemdeling in Nederland gaat
 verblijven;
-
-
-
 
 
 - 
@@ -1065,21 +681,9 @@ b. een vreemdeling, die rechtmatig in Nederland verblijft op grond van artikel 8
 vreemdeling in Nederland gaat verblijven;
 
 
-
-
-
 - 
 c. een onderneming of rechtspersoon, dan wel een vestiging daarvan, die is ingeschreven
 in het handelsregister, bedoeld in artikel 2 van de Handelsregisterwet 2007 .
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -1089,16 +693,8 @@ in artikel 14 van een vreemdeling een daartoe strekkende schriftelijke verklarin
 tenzij hij door Onze Minister als referent is aangewezen.
 
 
-
-
-
-
-
-
 - 
 3 Bij of krachtens algemene maatregel van bestuur:
-
-
 
 
 - 
@@ -1106,46 +702,19 @@ a. worden nadere regels gesteld omtrent de natuurlijke personen en organisaties,
 als referent kunnen optreden;
 
 
-
-
-
 - 
 b. wordt ten aanzien van referenten voorzien in zorgplichten jegens de vreemdeling;
-
-
-
 
 
 - 
 c. kunnen regels worden gesteld omtrent de aanwijzing als referent.
 
 
-
-
-
-
-
-
-
-
-
 - 
 4 Onze Minister stelt het model van de verklaring, bedoeld in het tweede lid, vast.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 2b 
-
-
 
 
 - Toon relaties in LiDO 
@@ -1166,16 +735,8 @@ c. kunnen regels worden gesteld omtrent de aanwijzing als referent.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Het referentschap eindigt in ieder geval, indien:
-
-
 
 
 - 
@@ -1183,14 +744,8 @@ a. ten behoeve van het verblijf van de vreemdeling in Nederland een ander als re
 optreedt;
 
 
-
-
-
 - 
 b. de verblijfsvergunning van de vreemdeling is gewijzigd;
-
-
-
 
 
 - 
@@ -1198,15 +753,9 @@ c. de vreemdeling in het bezit is gesteld van een verblijfsvergunning voor onbep
 tijd als bedoeld in artikel 20 ;
 
 
-
-
-
 - 
 d. de vreemdeling Nederlander wordt of krachtens enige wet als Nederlander moet worden
 behandeld;
-
-
-
 
 
 - 
@@ -1216,30 +765,12 @@ ten grondslag liggende relatie tot de vreemdeling, dan wel van het definitieve v
 van de vreemdeling uit Nederland;
 
 
-
-
-
 - 
 f. de vreemdeling is overleden.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 Onze Minister stelt de gewezen referent in kennis van de beëindiging van diens referentschap.
-
-
-
-
-
-
 
 
 - 
@@ -1247,22 +778,7 @@ f. de vreemdeling is overleden.
 de beëindiging van het referentschap.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 2. Erkenning als referent
-
-
 
 
 - Toon relaties in LiDO 
@@ -1281,20 +797,11 @@ de beëindiging van het referentschap.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 2c 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -1313,16 +820,8 @@ de beëindiging van het referentschap.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Onze Minister is bevoegd:
-
-
 
 
 - 
@@ -1330,20 +829,8 @@ a. de aanvraag tot erkenning als referent in te willigen, af te wijzen, dan wel 
 in behandeling te nemen, en
 
 
-
-
-
 - 
 b. de erkenning als referent te schorsen, in te trekken dan wel te wijzigen.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -1351,20 +838,8 @@ b. de erkenning als referent te schorsen, in te trekken dan wel te wijzigen.
 wil verblijven.
 
 
-
-
-
-
-
-
 - 
 3 De erkenning als referent geldt voor onbepaalde tijd.
-
-
-
-
-
-
 
 
 - 
@@ -1375,41 +850,17 @@ of onderzoek door derden of het openbaar ministerie, dan wel een verklaring omtr
 het gedrag, afgegeven volgens de Wet justitiële en strafvorderlijke gegevens , nodig is.
 
 
-
-
-
-
-
-
 - 
 5 De aanvrager is in door Onze Minister te bepalen gevallen en volgens door Onze Minister
 te geven regels leges verschuldigd terzake van de afdoening van een aanvraag omtrent
 de erkenning als referent. Artikel 4:5, vierde lid, van de Algemene wet bestuursrecht is niet van toepassing.
 
 
-
-
-
-
-
-
 - 
 6 Onze Minister houdt een openbaar register van erkende referenten.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 2d 
-
-
 
 
 - Toon relaties in LiDO 
@@ -1428,12 +879,6 @@ de erkenning als referent. Artikel 4:5, vierde lid, van de Algemene wet bestuurs
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -1443,22 +888,10 @@ of bescheiden kan verkrijgen uit bij regeling van Onze Minister aan te wijzen ad
 tenzij hierdoor een goede uitvoering van de wet wordt belet.
 
 
-
-
-
-
-
-
 - 
 2 Overeenkomstig bij regeling van Onze Minister gestelde regels verstrekt de aanvrager
 Onze Minister op diens verzoek en al dan niet in persoon alsnog de gegevens en bescheiden,
 die van belang zijn voor de beoordeling van de aanvraag.
-
-
-
-
-
-
 
 
 - 
@@ -1467,19 +900,7 @@ eerste lid van toepassing is en kunnen administraties of delen daarvan worden aa
 waarvoor het eerste lid tijdelijk niet van toepassing is.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 2e 
-
-
 
 
 - Toon relaties in LiDO 
@@ -1500,32 +921,18 @@ waarvoor het eerste lid tijdelijk niet van toepassing is.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Onze Minister kan de aanvraag tot erkenning als referent of tot wijziging van de erkenning
 als referent afwijzen, indien:
-
-
 
 
 - 
 a. de aanvrager, voor zover vereist op grond van de Handelsregisterwet 2007 , niet is ingeschreven in het handelsregister, bedoeld in artikel 2 van die wet ;
 
 
-
-
-
 - 
 b. de continuïteit en solvabiliteit van de onderneming, rechtspersoon of organisatie
 onvoldoende is gewaarborgd;
-
-
-
 
 
 - 
@@ -1534,16 +941,10 @@ rechtspersoon of organisatie betrokken natuurlijke of rechtspersonen of ondernem
 onvoldoende vast staat;
 
 
-
-
-
 - 
 d. de erkenning als referent van de aanvrager of van de direct of indirect bij die onderneming,
 rechtspersoon of organisatie betrokken rechtspersonen of ondernemingen binnen een
 periode van vijf jaar direct voorafgaand aan de aanvraag is ingetrokken;
-
-
-
 
 
 - 
@@ -1552,23 +953,8 @@ de vreemdeling in Nederland verblijft of wil verblijven, waaronder in ieder geva
 kan worden verstaan de aansluiting bij en naleving van een gedragscode.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 Natuurlijke personen worden niet als referent erkend.
-
-
-
-
-
-
 
 
 - 
@@ -1576,19 +962,7 @@ kan worden verstaan de aansluiting bij en naleving van een gedragscode.
 een verklaring omtrent het gedrag over, afgegeven volgens de Wet justitiële en strafvorderlijke gegevens .
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 2f 
-
-
 
 
 - Toon relaties in LiDO 
@@ -1609,21 +983,9 @@ een verklaring omtrent het gedrag over, afgegeven volgens de Wet justitiële en 
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Onze Minister kan de erkenning als referent schorsen op grond van ernstige vermoedens
 dat er grond bestaat om toepassing te geven aan artikel 2g .
-
-
-
-
-
-
 
 
 - 
@@ -1632,22 +994,10 @@ omtrent de intrekking is bekendgemaakt of de dag waarop sedert de schorsing drie
 zijn verstreken.
 
 
-
-
-
-
-
-
 - 
 3 De termijn, bedoeld in het tweede lid, kan worden verlengd, indien naar het oordeel
 van Onze Minister advies van of onderzoek door derden of het openbaar ministerie nodig
 is.
-
-
-
-
-
-
 
 
 - 
@@ -1655,19 +1005,7 @@ is.
 niet als erkend referent wordt aangemerkt.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 2g 
-
-
 
 
 - Toon relaties in LiDO 
@@ -1688,28 +1026,15 @@ niet als erkend referent wordt aangemerkt.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
 Onze Minister kan de erkenning als referent intrekken, indien:
-
-
-
 
 
 - 
 a. de erkenning is verleend op grond van onjuiste of onvolledige gegevens;
 
 
-
-
-
 - 
 b. de erkende referent niet langer voldoet aan de voorwaarden voor erkenning;
-
-
-
 
 
 - 
@@ -1717,26 +1042,11 @@ c. de erkende referent zich niet heeft gehouden aan zijn verplichtingen als refe
 of
 
 
-
-
-
 - 
 d. de erkende referent daarom verzoekt.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 2h 
-
-
 
 
 - Toon relaties in LiDO 
@@ -1757,21 +1067,11 @@ d. de erkende referent daarom verzoekt.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
 Bij of krachtens algemene maatregel van bestuur worden nadere regels gesteld omtrent:
-
-
-
 
 
 - 
 a. de toepassing van deze paragraaf, waarbij beperkingen als bedoeld in artikel 14, derde lid , kunnen worden aangewezen waarvoor erkenning als referent niet mogelijk is;
-
-
-
 
 
 - 
@@ -1779,29 +1079,7 @@ b. de indiening en behandeling van een aanvraag omtrent de erkenning als referen
 de door de aanvrager te verstrekken gegevens.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Hoofdstuk 1a. Nationale visa
-
-
 
 
 - Toon relaties in LiDO 
@@ -1820,20 +1098,11 @@ de door de aanvrager te verstrekken gegevens.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Afdeling 1. Algemeen
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -1850,20 +1119,11 @@ de door de aanvrager te verstrekken gegevens.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Paragraaf 1. Interdepartementale coördinatie
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -1880,20 +1140,11 @@ de door de aanvrager te verstrekken gegevens.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 2i 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -1910,12 +1161,6 @@ de door de aanvrager te verstrekken gegevens.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -1923,12 +1168,6 @@ de door de aanvrager te verstrekken gegevens.
 van Buitenlandse Zaken betrokken is bij een besluit inzake verlening van een machtiging
 tot voorlopig verblijf beslist Onze Minister in overeenstemming met Onze Minister
 van Buitenlandse Zaken.
-
-
-
-
-
-
 
 
 - 
@@ -1940,33 +1179,12 @@ van en voor zover het de buitenlandse betrekkingen kan raken in overeenstemming 
 Onze Minister van Buitenlandse Zaken.
 
 
-
-
-
-
-
-
 - 
 3 Bij of krachtens algemene maatregel van bestuur kunnen nadere regels worden gesteld
 over het bepaalde in het eerste en tweede lid.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 2. Benodigde visa
-
-
 
 
 - Toon relaties in LiDO 
@@ -1985,20 +1203,11 @@ over het bepaalde in het eerste en tweede lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 2j 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -2015,10 +1224,6 @@ over het bepaalde in het eerste en tweede lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Een ten behoeve van de toegang tot Nederland door Onze Minister verleend visum waarvan
@@ -2028,19 +1233,7 @@ volkenrechtelijke organisatie daaraan is gelijkgesteld, geldt als het ingevolge 
 krachtens dit hoofdstuk bepaalde.
 
 
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 3. Bevoegdheid
-
-
 
 
 - Toon relaties in LiDO 
@@ -2059,20 +1252,11 @@ krachtens dit hoofdstuk bepaalde.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 2k 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -2091,14 +1275,7 @@ krachtens dit hoofdstuk bepaalde.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
 Onze Minister is bevoegd:
-
-
-
 
 
 - 
@@ -2106,37 +1283,16 @@ a. de aanvraag tot het verlenen van een machtiging tot voorlopig verblijf dan we
 in te willigen, af te wijzen dan wel niet in behandeling te nemen;
 
 
-
-
-
 - 
 b. een machtiging tot voorlopig verblijf dan wel terugkeervisum te wijzigen, hetzij op
 aanvraag, hetzij ambtshalve wegens veranderde omstandigheden;
-
-
-
 
 
 - 
 c. een machtiging tot voorlopig verblijf dan wel terugkeervisum in te trekken of te annuleren.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 4. Leges; voorschriften, beperkingen en verplichtingen
-
-
 
 
 - Toon relaties in LiDO 
@@ -2155,20 +1311,11 @@ c. een machtiging tot voorlopig verblijf dan wel terugkeervisum in te trekken of
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 2l 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -2185,12 +1332,6 @@ c. een machtiging tot voorlopig verblijf dan wel terugkeervisum in te trekken of
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -2199,29 +1340,11 @@ dan wel terugkeervisum, is de vreemdeling Onze Minister een bij ministeriële re
 vast te stellen vergoeding verschuldigd.
 
 
-
-
-
-
-
-
 - 
 2 Het eerste lid is niet van toepassing indien op grond van de Rijkswet op de consulaire tarieven reeds een vergoeding is verschuldigd.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 2m 
-
-
 
 
 - Toon relaties in LiDO 
@@ -2240,12 +1363,6 @@ vast te stellen vergoeding verschuldigd.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -2255,22 +1372,10 @@ worden verbonden. Deze voorschriften kunnen in ieder geval strekken tot het stel
 van zekerheid.
 
 
-
-
-
-
-
-
 - 
 2 Onze Minister kan het terugkeervisum met het oog op de bescherming van de belangen
 waarop het bepaalde bij of krachtens deze wet betrekking heeft onder beperkingen verlenen
 en daaraan voorschriften verbinden.
-
-
-
-
-
-
 
 
 - 
@@ -2281,13 +1386,8 @@ geldigheidsduur inkorten dan wel de machtiging tot voorlopig verblijf of het ter
 intrekken:
 
 
-
-
 - 
 a. op aanvraag;
-
-
-
 
 
 - 
@@ -2295,28 +1395,13 @@ b. indien uit naderhand gebleken feiten en omstandigheden komt vast te staan dat
 ervan onjuist was;
 
 
-
-
-
 - 
 c. indien feiten en omstandigheden zodanig zijn gewijzigd dat deze zich verzetten tegen
 de handhaving of ongewijzigde handhaving van het verleende; of
 
 
-
-
-
 - 
 d. indien de vreemdeling de op hem rustende verplichtingen krachtens deze wet niet naleeft.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -2324,22 +1409,7 @@ d. indien de vreemdeling de op hem rustende verplichtingen krachtens deze wet ni
 tot voorlopig verblijf annuleren op de gronden, vermeld in het derde lid.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 5. Buiten behandeling laten, hoorplicht, rechtsmiddelenclausule en motivering
-
-
 
 
 - Toon relaties in LiDO 
@@ -2358,20 +1428,11 @@ tot voorlopig verblijf annuleren op de gronden, vermeld in het derde lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 2n 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -2388,12 +1449,6 @@ tot voorlopig verblijf annuleren op de gronden, vermeld in het derde lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -2402,14 +1457,9 @@ buiten behandeling laten zonder de aanvrager in de gelegenheid te hebben gesteld
 aanvraag aan te vullen indien:
 
 
-
-
 - 
 a. de door de vreemdeling ingediende aanvraag niet door de vreemdeling in persoon is
 ingediend;
-
-
-
 
 
 - 
@@ -2417,46 +1467,19 @@ b. voor de aanvraag in voorkomend geval geen gebruik is gemaakt van een daartoe 
 formulier dat volledig is ingevuld en ondertekend;
 
 
-
-
-
 - 
 c. de aanvraag niet is gesteld in de Nederlandse, Franse of Engelse taal; of
-
-
-
 
 
 - 
 d. de ter afdoening van de aanvraag verschuldigde leges niet zijn betaald.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 De artikelen 4:7 en 4:8 van de Algemene wet bestuursrecht zijn niet van toepassing.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 2o 
-
-
 
 
 - Toon relaties in LiDO 
@@ -2475,10 +1498,6 @@ d. de ter afdoening van de aanvraag verschuldigde leges niet zijn betaald.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Indien Onze Minister overeenkomstig de aanvraag besluit, kan hij in afwijking van
@@ -2486,22 +1505,7 @@ de artikelen 3:45 en 3:47 van de Algemene wet bestuursrecht vermelding van de mo
 laten.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Afdeling 2. Machtiging tot voorlopig verblijf
-
-
 
 
 - Toon relaties in LiDO 
@@ -2520,20 +1524,11 @@ laten.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Paragraaf 1. Verlening en weigering
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -2550,20 +1545,11 @@ laten.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 2p 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -2580,24 +1566,12 @@ laten.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
 1 Onze Minister kan een machtiging tot voorlopig verblijf verlenen aan de vreemdeling
 ten aanzien van wie is aangetoond dat hij voldoet aan de vereisten voor toegang en
 verlening van een verblijfsvergunning.
-
-
-
-
-
-
 
 
 - 
@@ -2607,19 +1581,7 @@ van humanitaire aard daartoe nopen dan wel het belang van de internationale betr
 de verlening van een machtiging tot voorlopig verblijf vordert.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 2q 
-
-
 
 
 - Toon relaties in LiDO 
@@ -2640,22 +1602,10 @@ de verlening van een machtiging tot voorlopig verblijf vordert.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Onze Minister kan een machtiging tot voorlopig verblijf weigeren indien ten aanzien
 van de vreemdeling niet is aangetoond dat deze voldoet aan de voorwaarden, bedoeld
 in artikel 2p, eerste lid , onverminderd het tweede lid van dat artikel.
-
-
-
-
-
-
 
 
 - 
@@ -2665,19 +1615,7 @@ voorlopig verblijf verzet of de vreemdeling niet voldoet aan het overigens bij o
 krachtens dit hoofdstuk bepaalde.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 2r 
-
-
 
 
 - Toon relaties in LiDO 
@@ -2696,12 +1634,6 @@ krachtens dit hoofdstuk bepaalde.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -2715,12 +1647,6 @@ kan Onze Minister de termijn, bedoeld in de tweede volzin, eenmaal met ten hoogs
 drie maanden verlengen.
 
 
-
-
-
-
-
-
 - 
 2 De geldigheidsduur van een machtiging tot voorlopig verblijf bedraagt ten hoogste
 90 dagen vanaf de datum van afgifte, met dien verstande dat een machtiging tot voorlopig
@@ -2731,12 +1657,6 @@ bedoeld in artikel 14 ambtshalve is verleend. De geldigheidsduur van een machtig
 kan niet worden verlengd.
 
 
-
-
-
-
-
-
 - 
 3 De geldigheidsduur van een machtiging tot voorlopig verblijf kan de geldigheidsduur
 van het document voor grensoverschrijding van de vreemdeling niet overschrijden, met
@@ -2745,22 +1665,7 @@ tot voorlopig verblijf nog tenminste drie maanden geldig moet zijn. Onze Ministe
 kan in bijzondere gevallen ontheffing verlenen van het bepaalde in de eerste volzin.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 2. Aanvraag en afgifte
-
-
 
 
 - Toon relaties in LiDO 
@@ -2779,20 +1684,11 @@ kan in bijzondere gevallen ontheffing verlenen van het bepaalde in de eerste vol
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 2s 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -2811,16 +1707,8 @@ kan in bijzondere gevallen ontheffing verlenen van het bepaalde in de eerste vol
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 De aanvraag omtrent de machtiging tot voorlopig verblijf wordt ingediend:
-
-
 
 
 - 
@@ -2831,21 +1719,9 @@ van de Nederlandse Antillen of het Kabinet van de Gouverneur van Aruba aldaar, d
 de vreemdeling, of
 
 
-
-
-
 - 
 b. bij Onze Minister door de referent, dan wel in bij of krachtens algemene maatregel
 van bestuur bepaalde gevallen door de erkende referent van de vreemdeling.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -2854,21 +1730,9 @@ maatregel van bestuur bepaalde gevallen ingediend door de vreemdeling of zijn we
 vertegenwoordiger in persoon.
 
 
-
-
-
-
-
-
 - 
 3 De machtiging tot voorlopig verblijf wordt bij de vertegenwoordiging dan wel het Kabinet,
 bedoeld in het eerste lid, aan de vreemdeling in persoon afgegeven.
-
-
-
-
-
-
 
 
 - 
@@ -2877,22 +1741,7 @@ dan wel ontheffing verlenen van de verplichtingen, bedoeld in het eerste en twee
 lid.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 3. Vereiste gegevens; beslistermijn
-
-
 
 
 - Toon relaties in LiDO 
@@ -2911,20 +1760,11 @@ lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 2t 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -2943,17 +1783,9 @@ lid.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Gegevens en bescheiden worden niet verkregen van de vreemdeling of diens referent,
 voor zover:
-
-
 
 
 - 
@@ -2962,21 +1794,9 @@ Minister aan te wijzen administraties, tenzij hierdoor een goede uitvoering van 
 wet wordt belet, of
 
 
-
-
-
 - 
 b. de aanvraag is ingediend door de erkende referent, en deze omtrent die gegevens en
 bescheiden eigen verklaringen heeft overgelegd.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -2984,21 +1804,9 @@ bescheiden eigen verklaringen heeft overgelegd.
 waarheid opgesteld.
 
 
-
-
-
-
-
-
 - 
 3 De aanvrager verstrekt Onze Minister op diens verzoek en al dan niet in persoon alsnog
 de gegevens en bescheiden, die van belang zijn voor de beoordeling van de aanvraag.
-
-
-
-
-
-
 
 
 - 
@@ -3007,43 +1815,20 @@ waarop het eerste lid, onder a, van toepassing is, en kunnen regels worden geste
 omtrent:
 
 
-
-
 - 
 a. de administraties of delen daarvan waarvoor het eerste lid, onder a, tijdelijk niet
 van toepassing is;
-
-
-
 
 
 - 
 b. de eigen verklaringen, bedoeld in het eerste lid, onder b;
 
 
-
-
-
 - 
 c. de toepassing van het derde lid.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 2u 
-
-
 
 
 - Toon relaties in LiDO 
@@ -3067,22 +1852,10 @@ c. de toepassing van het derde lid.
 [Toekomstige wijziging(en) voorzien met ingang van: 28-03-2028. Zie het wijzigingenoverzicht .]
 
 
-
-
-
-
-
-
 - 
 1 Onze Minister beslist binnen 90 dagen na ontvangst van een aanvraag om verlening of
 wijziging van een machtiging tot voorlopig verblijf. Onze Minister kan deze termijn
 verlengen met ten hoogste drie maanden.
-
-
-
-
-
-
 
 
 - 
@@ -3092,24 +1865,12 @@ houdend met verblijf als houder van de Europese blauwe kaart of overplaatsing bi
 een onderneming bekend binnen 90 dagen en kan die termijn niet worden verlengd.
 
 
-
-
-
-
-
-
 - 
 3 In afwijking van het eerste lid maakt Onze Minister de beslissing op een aanvraag
 om verlening van een machtiging tot voorlopig verblijf onder een beperking verband
 houdend met wetenschappelijk onderzoek, studie, lerend werken, of uitwisseling in
 het kader van Europees vrijwilligerswerk bekend binnen 60 dagen en kan die termijn
 niet worden verlengd.
-
-
-
-
-
-
 
 
 - 
@@ -3121,22 +1882,7 @@ omstandigheden die verband houden met het complexe karakter van de behandeling v
 de aanvraag.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 4. Overige bepalingen
-
-
 
 
 - Toon relaties in LiDO 
@@ -3155,20 +1901,11 @@ de aanvraag.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 2v 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -3185,10 +1922,6 @@ de aanvraag.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Onze Minister brengt de machtiging tot voorlopig verblijf aan in het document voor
@@ -3197,22 +1930,7 @@ in artikel 1 van Verordening (EG) nr. 333/2002 van de Raad van de Europese Unie 
 18 februari 2002 (PbEG 2002, L53/4).
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Afdeling 3. Terugkeervisum
-
-
 
 
 - Toon relaties in LiDO 
@@ -3231,20 +1949,11 @@ in artikel 1 van Verordening (EG) nr. 333/2002 van de Raad van de Europese Unie 
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 2w 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -3261,12 +1970,6 @@ in artikel 1 van Verordening (EG) nr. 333/2002 van de Raad van de Europese Unie 
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -3275,21 +1978,9 @@ die Nederland tijdelijk zal verlaten gedurende het tijdvak dat hij rechtmatig ve
 heeft op grond van artikel 8, aanhef en onder a tot en met h of l .
 
 
-
-
-
-
-
-
 - 
 2 Geen terugkeervisum wordt verleend ten behoeve van de terugkeer uit het land van herkomst
 van de vreemdeling die rechtmatig verblijf heeft op grond van artikel 8, aanhef en onder c en d .
-
-
-
-
-
-
 
 
 - 
@@ -3298,19 +1989,7 @@ van de vreemdeling die een aanvraag tot het verlenen van een verblijfsvergunning
 als bedoeld in artikel 28 heeft gedaan en rechtmatig verblijf heeft op grond van artikel 8, aanhef en onder f, g of h .
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 2x 
-
-
 
 
 - Toon relaties in LiDO 
@@ -3331,16 +2010,8 @@ als bedoeld in artikel 28 heeft gedaan en rechtmatig verblijf heeft op grond van
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Een terugkeervisum kan worden geweigerd indien:
-
-
 
 
 - 
@@ -3348,22 +2019,13 @@ a. de vreemdeling niet door overlegging van documenten aannemelijk heeft gemaakt
 sprake is van een dringende reden die geen uitstel van vertrek mogelijk maakt;
 
 
-
-
-
 - 
 b. de vreemdeling niet zelfstandig beschikt over een geldig document voor grensoverschrijding;
-
-
-
 
 
 - 
 c. de vreemdeling zich gedurende zijn verblijf in Nederland aan maatregelen van toezicht
 op grond van deze wet heeft onttrokken;
-
-
-
 
 
 - 
@@ -3372,15 +2034,9 @@ feiten, tenuitvoerlegging van een vonnis of om andere gewichtige redenen bezwaar
 tegen vertrek uit Nederland van de vreemdeling;
 
 
-
-
-
 - 
 e. het naar het oordeel van Onze Minister in de rede ligt dat binnen de geldigheidsduur
 van het terugkeervisum een beslissing als bedoeld in artikel 8, onderdeel f, g of h , kan worden verwacht;
-
-
-
 
 
 - 
@@ -3393,22 +2049,10 @@ de verplichting tot het beschikken over een machtiging tot voorlopig verblijf is
 of ontheven; of
 
 
-
-
-
 - 
 g. de vreemdeling een gevaar vormt voor de openbare orde of de nationale veiligheid dan
 wel zich schuldig heeft gemaakt aan of verdacht wordt van terrorisme, oorlogsmisdaden,
 of andere misdaden tegen de menselijkheid.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -3416,19 +2060,7 @@ of andere misdaden tegen de menselijkheid.
 de toepassing van de gronden, bedoeld in het eerste lid.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 2y 
-
-
 
 
 - Toon relaties in LiDO 
@@ -3447,12 +2079,6 @@ de toepassing van de gronden, bedoeld in het eerste lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -3461,21 +2087,9 @@ verleende verblijfsvergunning niet overschrijden en bedraagt ten hoogste een jaa
 Het terugkeervisum kan worden verleend voor een of meer reizen.
 
 
-
-
-
-
-
-
 - 
 2 In afwijking van het eerste lid bedraagt de geldigheidsduur van een terugkeervisum
 ten behoeve van een vreemdeling die rechtmatig verblijf houdt op grond van artikel 8, onderdeel f, g of h , ten hoogste drie maanden en is het geldig voor één reis.
-
-
-
-
-
-
 
 
 - 
@@ -3483,29 +2097,11 @@ ten behoeve van een vreemdeling die rechtmatig verblijf houdt op grond van artik
 lid.
 
 
-
-
-
-
-
-
 - 
 4 De geldigheidsduur van een terugkeervisum kan niet worden verlengd.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 2z 
-
-
 
 
 - Toon relaties in LiDO 
@@ -3524,10 +2120,6 @@ lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Een terugkeervisum wordt door de vreemdeling in persoon aangevraagd. Bij of krachtens
@@ -3535,16 +2127,7 @@ algemene maatregel van bestuur kunnen nadere regels worden gesteld omtrent de wi
 van indiening en de behandeling van een aanvraag tot verlening van een terugkeervisum.
 
 
-
-
-
-
-
-
-
 # Artikel 2aa 
-
-
 
 
 - Toon relaties in LiDO 
@@ -3563,10 +2146,6 @@ van indiening en de behandeling van een aanvraag tot verlening van een terugkeer
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Onze Minister beslist binnen twee weken na ontvangst van een aanvraag om verlening
@@ -3574,16 +2153,7 @@ van een terugkeervisum. Onze Minister kan deze termijn verlengen met ten hoogste
 weken.
 
 
-
-
-
-
-
-
-
 # Artikel 2bb 
-
-
 
 
 - Toon relaties in LiDO 
@@ -3602,10 +2172,6 @@ weken.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Onze Minister brengt het terugkeervisum aan in het document voor grensoverschrijding
@@ -3614,19 +2180,7 @@ Verordening (EG) nr. 333/2002 van de Raad van de Europese Gemeenschappen van 18 
 2002 (PbEG 2002, L53/4).
 
 
-
-
-
-
-
-
-
-
-
-
 # Afdeling 4. Nadere regels
-
-
 
 
 - Toon relaties in LiDO 
@@ -3645,20 +2199,11 @@ Verordening (EG) nr. 333/2002 van de Raad van de Europese Gemeenschappen van 18 
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 2cc 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -3675,12 +2220,6 @@ Verordening (EG) nr. 333/2002 van de Raad van de Europese Gemeenschappen van 18 
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -3692,37 +2231,13 @@ ingevolge dit hoofdstuk aan de vreemdeling, de referent of aan andere belanghebb
 worden bekendgemaakt.
 
 
-
-
-
-
-
-
 - 
 2 Bij of krachtens algemene maatregel van bestuur kan worden bepaald in welke gevallen
 aan de verplichtingen die krachtens dit hoofdstuk op de vreemdeling rusten kan worden
 voldaan door diens wettelijke vertegenwoordiger.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Hoofdstuk 1b. Reisautorisatie
-
-
 
 
 - Toon relaties in LiDO 
@@ -3746,25 +2261,12 @@ voldaan door diens wettelijke vertegenwoordiger.
 [Tekst zonder datum inwerkingtreding. Zie het wijzigingenoverzicht .]
 
 
-
-
-
 Dit onderdeel is (nog) niet in werking getreden; zie het wijzigingenoverzicht .
-
-
-
-
-
-
-
-
 
 
 # Hoofdstuk 1c. Screening
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -3781,20 +2283,11 @@ Dit onderdeel is (nog) niet in werking getreden; zie het wijzigingenoverzicht .
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 2ff 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -3811,24 +2304,12 @@ Dit onderdeel is (nog) niet in werking getreden; zie het wijzigingenoverzicht .
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
 1 Onze Minister is overeenkomstig de Screeningsverordening belast met de uitvoering
 van de taken en bezit daartoe de bevoegdheden die de Screeningsverordening aan de
 Screeningsautoriteiten toekent.
-
-
-
-
-
-
 
 
 - 
@@ -3842,22 +2323,10 @@ van die persoon en de registratie in Eurodac van die persoon, overeenkomstig art
 15, eerste lid, onderdeel b, en de artikelen 22, 23 en 24 van Verordening (EU) 2024/1358 , naargelang het geval.
 
 
-
-
-
-
-
-
 - 
 3 Onverminderd het eerste en tweede lid kunnen bij algemene maatregel van bestuur een
 of meerdere autoriteiten of instanties worden aangewezen die een of meerdere taken
 van de Screeningsautoriteiten uitvoeren.
-
-
-
-
-
-
 
 
 - 
@@ -3868,19 +2337,7 @@ gedurende de screening, in een taal die de vreemdeling begrijpt, of waarvan rede
 kan worden aangenomen dat de vreemdeling deze begrijpt.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 2gg 
-
-
 
 
 - Toon relaties in LiDO 
@@ -3901,22 +2358,10 @@ kan worden aangenomen dat de vreemdeling deze begrijpt.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Onze Minister voorziet in de uitvoering van de in artikel 12, eerste lid, van de Screeningsverordening
 bedoelde voorlopige medische controle door gekwalificeerd medisch personeel en in
 de aanstelling van personen als bedoeld in artikel 13, derde lid, van de Screeningsverordening.
-
-
-
-
-
-
 
 
 - 
@@ -3926,19 +2371,7 @@ zijn om te kunnen voldoen aan de verplichting opgenomen in artikel 17, eerste li
 onderdeel d, respectievelijk artikel 17, eerste lid, onderdeel e, van de Screeningsverordening.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 2hh 
-
-
 
 
 - Toon relaties in LiDO 
@@ -3957,12 +2390,6 @@ onderdeel d, respectievelijk artikel 17, eerste lid, onderdeel e, van de Screeni
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -3971,17 +2398,9 @@ artikel 10, tweede en vierde lid, van de Screeningsverordening en artikel 43, vi
 lid, van de Procedureverordening bedoelde vereisten.
 
 
-
-
-
-
-
-
 - 
 2 Bij of krachtens algemene maatregel van bestuur kunnen ten aanzien van het in het
 eerste lid bedoelde onafhankelijke toezichtmechanisme:
-
-
 
 
 - 
@@ -3990,29 +2409,11 @@ eerste lid bedoelde onafhankelijke toezichtmechanisme:
 en overeenkomstig de taken en bevoegdheden die de wet deze instanties toekent;
 
 
-
-
-
 - 
 – nadere regels worden gesteld met het oog op de goede werking van het mechanisme.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 2ii 
-
-
 
 
 - Toon relaties in LiDO 
@@ -4031,10 +2432,6 @@ en overeenkomstig de taken en bevoegdheden die de wet deze instanties toekent;
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Het College voor de rechten van de mens neemt deel aan de werking van het onafhankelijk
@@ -4042,20 +2439,7 @@ toezichtmechanisme, overeenkomstig de taken en bevoegdheden op grond van de Wet 
 voor de rechten van de mens.
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Hoofdstuk 2. Toegang
-
-
 
 
 - Toon relaties in LiDO 
@@ -4074,20 +2458,11 @@ voor de rechten van de mens.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 3 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -4106,17 +2481,9 @@ voor de rechten van de mens.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 In andere dan de in de Schengengrenscode geregelde gevallen, wordt toegang tot Nederland
 geweigerd aan de vreemdeling die:
-
-
 
 
 - 
@@ -4125,14 +2492,8 @@ het bezit is van een document voor grensoverschrijding waarin het benodigde visu
 ontbreekt;
 
 
-
-
-
 - 
 b. een gevaar oplevert voor de openbare orde of nationale veiligheid;
-
-
-
 
 
 - 
@@ -4141,32 +2502,14 @@ in Nederland als in die van zijn reis naar een plaats buiten Nederland waar zijn
 gewaarborgd is, of
 
 
-
-
-
 - 
 d. niet voldoet aan de voorwaarden die bij of krachtens algemene maatregel van bestuur
 zijn gesteld.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 Bij of krachtens algemene maatregel van bestuur worden regels gesteld over de weigering
 van toegang op grond van deze wet of ter uitvoering van de Schengengrenscode.
-
-
-
-
-
-
 
 
 - 
@@ -4175,35 +2518,18 @@ van een verblijfsvergunning asiel als bedoeld in artikel 28 te willen indienen, 
 wordt uitgevoerd getoetst aan:
 
 
-
-
 - 
 a. de grond voor het niet in behandeling nemen als bedoeld in artikel 30 ;
-
-
-
 
 
 - 
 b. de gronden voor niet-ontvankelijkverklaring, bedoeld in artikel 30a ; en
 
 
-
-
-
 - 
 c. de gronden voor afwijzing wegens kennelijke ongegrondheid, genoemd in artikel 30b , met dien verstande dat een van de in artikel 42, eerste lid, onderdelen a tot en
 met g, en j, en artikel 42, derde lid, onderdeel b, van de Procedureverordening genoemde
 gevallen van toepassing is.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -4214,21 +2540,9 @@ van het tijdstip waarop de vreemdeling aan de grens te kennen geeft een aanvraag
 bedoeld in het derde lid te willen indienen.
 
 
-
-
-
-
-
-
 - 
 5 De vreemdeling wordt onverwijld in kennis gesteld van het uitstel van het besluit
 tot weigering van toegang tot Nederland.
-
-
-
-
-
-
 
 
 - 
@@ -4241,30 +2555,12 @@ weken worden verlengd wanneer de vreemdeling wordt herplaatst overeenkomstig art
 67, elfde lid, van de Asiel- en migratiebeheerverordening.
 
 
-
-
-
-
-
-
 - 
 7 Bij of krachtens algemene maatregel van bestuur kunnen nadere regels worden gesteld
 over de asielgrensprocedure.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 4 
-
-
 
 
 - Toon relaties in LiDO 
@@ -4283,12 +2579,6 @@ over de asielgrensprocedure.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -4299,22 +2589,10 @@ de vreemdeling niet wordt voldaan aan artikel 6, eerste lid, onder a of b, van d
 Schengengrenscode of aan artikel 3, eerste lid, onder a , van deze wet.
 
 
-
-
-
-
-
-
 - 
 2 De vervoerder kan worden verplicht om een afschrift te nemen van het op de vreemdeling
 betrekking hebbende document voor grensoverschrijding en dit ter hand te stellen aan
 de ambtenaren belast met de grensbewaking.
-
-
-
-
-
-
 
 
 - 
@@ -4324,12 +2602,6 @@ omtrent de bemanning te verzamelen en te verstrekken aan de ambtenaren belast me
 de grensbewaking.
 
 
-
-
-
-
-
-
 - 
 4 Bij of krachtens algemene maatregel van bestuur worden nadere regels gesteld omtrent
 de toepassing van het eerste tot en met het derde lid. Daarbij kan ter uitvoering
@@ -4337,30 +2609,12 @@ van een verdrag of bindende EU-rechtshandeling het gebruik van de elektronische 
 worden voorgeschreven.
 
 
-
-
-
-
-
-
 - 
 5 Het eerste tot en met het derde lid zijn ook van toepassing op iedere vervoerder die
 zich buiten Nederland schuldig maakt aan schending van de in die leden bedoelde verplichtingen.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 5 
-
-
 
 
 - Toon relaties in LiDO 
@@ -4381,22 +2635,10 @@ zich buiten Nederland schuldig maakt aan schending van de in die leden bedoelde 
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 De vreemdeling aan wie toegang is geweigerd, dient Nederland onmiddellijk te verlaten,
 met inachtneming van de aanwijzingen welke hem daartoe door een ambtenaar belast met
 de grensbewaking, zijn gegeven.
-
-
-
-
-
-
 
 
 - 
@@ -4406,19 +2648,7 @@ Nederland onmiddellijk te verlaten met dat vervoer of een hem door een ambtenaar
 met de grensbewaking aangewezen vervoermiddel.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 6 
-
-
 
 
 - Toon relaties in LiDO 
@@ -4437,12 +2667,6 @@ met de grensbewaking aangewezen vervoermiddel.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -4454,21 +2678,9 @@ dit overeenkomstig het bepaalde in de artikelen 5, 6 en 8, eerste en derde lid, 
 de Screeningsverordening plaatsvindt.
 
 
-
-
-
-
-
-
 - 
 2 Een ruimte of plaats, bedoeld in het eerste lid, kan worden beveiligd tegen ongeoorloofd
 vertrek.
-
-
-
-
-
-
 
 
 - 
@@ -4485,22 +2697,10 @@ toepassing van de screeningsprocedure overeenkomstig het bepaalde in de artikele
 lid, is van overeenkomstige toepassing.
 
 
-
-
-
-
-
-
 - 
 4 Bij of krachtens algemene maatregel van bestuur kunnen regels worden gesteld met betrekking
 tot het voor de beveiligde ruimte of plaats, bedoeld in het eerste lid, geldende regime,
 waaronder begrepen de nodige beheersmaatregelen. Hoofdstuk 9 van de Algemene wet bestuursrecht is niet van toepassing.
-
-
-
-
-
-
 
 
 - 
@@ -4515,12 +2715,6 @@ wet wordt ingetrokken of indien een van beide kamers van de Staten-Generaal besl
 het voorstel niet aan te nemen, wordt de algemene maatregel van bestuur ingetrokken.
 
 
-
-
-
-
-
-
 - 
 6 Onze Minister kan de maatregel, bedoeld in het eerste en tweede lid, opleggen aan
 de vreemdeling aan wie toegang is geweigerd en op wie voorafgaand aan de toegangsweigering
@@ -4530,30 +2724,12 @@ uitzetting binnen redelijke termijn bestaat, voor een zo kort mogelijke periode.
 59, vijfde en zesde lid, is van overeenkomstige toepassing.
 
 
-
-
-
-
-
-
 - 
 7 Bij of krachtens algemene maatregel van bestuur worden nadere regels gesteld over
 toepassing van het derde en het zesde lid.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 6a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -4572,12 +2748,6 @@ toepassing van het derde en het zesde lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -4585,30 +2755,12 @@ toepassing van het derde en het zesde lid.
 met inachtneming van artikel 44 van de Asiel- en migratiebeheerverordening.
 
 
-
-
-
-
-
-
 - 
 2 Bij of krachtens algemene maatregel van bestuur worden nadere regels gesteld omtrent
 de toepassing van het eerste lid.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 7 
-
-
 
 
 - Toon relaties in LiDO 
@@ -4627,10 +2779,6 @@ de toepassing van het eerste lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Indien de vreemdeling aan wie de toegang is geweigerd, op grond van de Schengengrenscode,
@@ -4638,20 +2786,7 @@ enig wettelijk voorschrift dan wel een voor Nederland bindend besluit van een vo
 organisatie zijn vrijheid is ontnomen, blijft de toegang geweigerd.
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Hoofdstuk 3. Verblijf
-
-
 
 
 - Toon relaties in LiDO 
@@ -4670,20 +2805,11 @@ organisatie zijn vrijheid is ontnomen, blijft de toegang geweigerd.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Afdeling 1. Rechtmatig verblijf
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -4700,20 +2826,11 @@ organisatie zijn vrijheid is ontnomen, blijft de toegang geweigerd.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 8 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -4732,43 +2849,24 @@ organisatie zijn vrijheid is ontnomen, blijft de toegang geweigerd.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
 De vreemdeling heeft in Nederland uitsluitend rechtmatig verblijf:
-
-
-
 
 
 - 
 a. op grond van een verblijfsvergunning voor bepaalde tijd als bedoeld in artikel 14 ;
 
 
-
-
-
 - 
 b. op grond van een verblijfsvergunning voor onbepaalde tijd als bedoeld in artikel 20 , of een EU-verblijfsvergunning voor langdurig ingezetenen als bedoeld in artikel 45a indien op het aan de vreemdeling verschafte document, bedoeld in artikel 9 , geen aantekening als bedoeld in artikel 45c, eerste lid , is geplaatst;
-
-
-
 
 
 - 
 c. op grond van een verblijfsvergunning asiel als bedoeld in artikel 28;
 
 
-
-
-
 - 
 d. op grond van een EU-verblijfsvergunning voor langdurig ingezetenen als bedoeld in
 artikel 45a indien op het aan de vreemdeling verschafte document, bedoeld in artikel 9 , de aantekening, bedoeld in artikel 45c, eerste lid , is geplaatst;
-
-
-
 
 
 - 
@@ -4777,14 +2875,9 @@ krachtens het Verdrag betreffende de werking van de Europese Unie dan wel de Ove
 betreffende de Europese Economische Ruimte;
 
 
-
-
-
 - 
 f. in afwachting van de beslissing op een aanvraag tot het verlenen van de verblijfsvergunning,
 bedoeld in:
-
-
 
 
 - 
@@ -4793,20 +2886,11 @@ beslissing uitzetting van de aanvrager achterwege dient te blijven totdat op de 
 is beslist, of
 
 
-
-
-
 - 
 2° artikel 28, terwijl de vreemdeling overeenkomstig artikel 10, eerste lid, van de Procedureverordening
 het recht heeft om op het grondgebied van Nederland te verblijven totdat op de aanvraag
 is beslist, tenzij artikel 10, derde of vierde lid, van de Procedureverordening van
 toepassing is;
-
-
-
-
-
-
 
 
 - 
@@ -4817,13 +2901,8 @@ of krachtens deze wet of op grond van een rechterlijke beslissing uitzetting van
 aanvrager achterwege dient te blijven totdat op de aanvraag is beslist;
 
 
-
-
-
 - 
 h. in afwachting van:
-
-
 
 
 - 
@@ -4834,9 +2913,6 @@ beslissing uitzetting van de aanvrager achterwege dient te blijven totdat op het
 of het beroepschrift is beslist; of
 
 
-
-
-
 - 
 2° de beslissing op een bezwaarschrift of beroepschrift, terwijl overeenkomstig artikel
 68, tweede of vierde lid, van de Procedureverordening sprake is van een recht om op
@@ -4845,24 +2921,12 @@ uitzetting of overdracht van de aanvrager achterwege dient te blijven totdat op 
 bezwaarschrift of het beroepschrift is beslist;
 
 
-
-
-
-
-
-
 - 
 i. gedurende de vrije termijn, bedoeld in artikel 12 , zolang het verblijf van de vreemdeling bij of krachtens artikel 12 is toegestaan;
 
 
-
-
-
 - 
 j. indien tegen de uitzetting beletselen bestaan als bedoeld in artikel 64 ; 
-
-
-
 
 
 - 
@@ -4870,15 +2934,9 @@ k. gedurende de periode waarin de vreemdeling door Onze Minister in de gelegenhe
 gesteld aangifte te doen van overtreding van artikel 273f van het Wetboek van Strafrecht ;
 
 
-
-
-
 - 
 l. indien de vreemdeling verblijfsrecht ontleent aan het Associatiebesluit 1/80 van de
 Associatieraad EEG/Turkije;
-
-
-
 
 
 - 
@@ -4887,19 +2945,7 @@ in artikel 28 niet in behandeling is genomen op grond van artikel 30 terwijl hij
 lidstaat in de zin van de Asiel- en migratiebeheerverordening.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 9 
-
-
 
 
 - Toon relaties in LiDO 
@@ -4920,21 +2966,9 @@ lidstaat in de zin van de Asiel- en migratiebeheerverordening.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Onze Minister verschaft aan de vreemdeling, die rechtmatig verblijf heeft op grond
 van artikel 8, onder a, b en d, f tot en met h en j tot en met m , en aan de vreemdeling die rechtmatig verblijf heeft op grond van artikel 8, onder e , en gemeenschapsonderdaan is als bedoeld in artikel 1, sub 2°, 4° en 6° , een document of schriftelijke verklaring, waaruit het rechtmatig verblijf blijkt.
-
-
-
-
-
-
 
 
 - 
@@ -4943,14 +2977,9 @@ van artikel 8, onder c, de verblijfstitel waaruit het rechtmatig verblijf blijkt
 bedoeld in:
 
 
-
-
 - 
 a. artikel 24 van de Kwalificatieverordening, indien de vreemdeling de vluchtelingenstatus
 of subsidiairebeschermingsstatus heeft;
-
-
-
 
 
 - 
@@ -4959,16 +2988,10 @@ heeft als gezinslid van een vreemdeling die de vluchtelingenstatus of subsidiair
 heeft, als bedoeld in artikel 29b;
 
 
-
-
-
 - 
 c. artikel 13, tweede lid, van de Gezinsherenigingsrichtlijn, indien de vreemdeling verblijf
 heeft als bedoeld in artikel 29c, als gezinslid van een vreemdeling die de vluchtelingenstatus
 heeft; of
-
-
-
 
 
 - 
@@ -4976,26 +2999,11 @@ d. het eerste lid, indien de vreemdeling verblijf heeft als bedoeld in artikel 2
 gezinslid van een vreemdeling die de subsidiairebeschermingsstatus heeft.
 
 
-
-
-
-
-
-
-
-
-
 - 
 3 De geldigheidsduur van de verblijfstitel, bedoeld in het tweede lid, onderdeel a,
 vangt aan op de datum van verlening van de verblijfsvergunning asiel, bedoeld in artikel
 44, tweede lid, en heeft een initiële geldigheidsduur van drie jaar. Wanneer de geldigheidsduur
 verstrijkt, kan deze met drie jaar worden verlengd.
-
-
-
-
-
-
 
 
 - 
@@ -5008,12 +3016,6 @@ die is afgegeven aan de vreemdeling die de vluchtelingenstatus of subsidiairebes
 heeft, niet is verstreken.
 
 
-
-
-
-
-
-
 - 
 5 Onze Minister verschaft aan de vreemdeling die rechtmatig verblijf heeft op grond
 van artikel 8, onder e , en gemeenschapsonderdaan is als bedoeld in artikel 1, sub 1°, 3° en 5° een document, waaruit het rechtmatig verblijf blijkt, indien de vreemdeling het duurzaam
@@ -5022,21 +3024,9 @@ vrij verkeer en verblijf op het grondgebied van de lidstaten voor burgers van de
 en hun familieleden, tot wijziging van Verordening (EEG) 1612/68 en tot intrekking van Richtlijnen 64/221/EEG , 68/360/EEG , 72/194/EEG , 73/148/EEG , 75/34/EEG , 75/35/EEG , 90/364/EEG , 90/365/EEG en 93/96/EEG (PbEU L 158).
 
 
-
-
-
-
-
-
 - 
 6 Onze Minister verschaft desgevraagd een dergelijk document of schriftelijke verklaring
 aan de vreemdeling die rechtmatig verblijf heeft op grond van artikel 8, onder i .
-
-
-
-
-
-
 
 
 - 
@@ -5045,16 +3035,8 @@ desgevraagd een kopie van het document of de schriftelijke verklaring over, dat 
 aangemerkt als een bescheid als bedoeld in artikel 4:3, tweede lid, van de Algemene wet bestuursrecht .
 
 
-
-
-
-
-
-
 - 
 8 Onze Minister kan regels stellen over:
-
-
 
 
 - 
@@ -5062,14 +3044,8 @@ a. de bescheiden, bedoeld in het eerste, zesde en zevende lid, en kan daarbij mo
 vaststellen voor de documenten en de schriftelijke verklaring;
 
 
-
-
-
 - 
 b. de geldigheidsduur van de verblijfstitel, bedoeld in het tweede lid;
-
-
-
 
 
 - 
@@ -5077,14 +3053,9 @@ c. de gevallen waarin de verblijfstitel, bedoeld in het tweede lid, in afwijking
 het derde en vierde lid, een kortere geldigheidsduur dan drie jaren heeft;
 
 
-
-
-
 - 
 d. de administratieve formaliteiten voor verlenging van de geldigheidsduur van de verblijfstitel,
 bedoeld in het tweede lid, ter uitvoering van:
-
-
 
 
 - 
@@ -5092,15 +3063,9 @@ bedoeld in het tweede lid, ter uitvoering van:
 a;
 
 
-
-
-
 - 
 2° artikel 23, tweede lid, van de Kwalificatieverordening met betrekking tot onderdeel
 b;
-
-
-
 
 
 - 
@@ -5108,31 +3073,13 @@ b;
 c;
 
 
-
-
-
-
-
-
 - 
 e. de administratieve formaliteiten voor verlenging van de geldigheidsduur van de verblijfstitel,
 bedoeld in het tweede lid, onderdeel d; of
 
 
-
-
-
 - 
 f. de vergoeding, bedoeld in artikel 24, derde lid, van de Kwalificatieverordening.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -5140,19 +3087,7 @@ f. de vergoeding, bedoeld in artikel 24, derde lid, van de Kwalificatieverordeni
 dat de verblijfsvergunning asiel vervalt indien deze op dat moment niet is ingetrokken.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 9a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -5171,26 +3106,12 @@ dat de verblijfsvergunning asiel vervalt indien deze op dat moment niet is inget
 
 
 - Sla het regelingonderdeel op 
-
 
 
 [Vervallen per 01-07-2025]
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 10 
-
-
 
 
 - Toon relaties in LiDO 
@@ -5209,12 +3130,6 @@ dat de verblijfsvergunning asiel vervalt indien deze op dat moment niet is inget
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -5224,41 +3139,17 @@ een bestuursorgaan. De eerste volzin is van overeenkomstige toepassing op de bij
 wet of algemene maatregel van bestuur aangewezen ontheffingen of vergunningen.
 
 
-
-
-
-
-
-
 - 
 2 Van het eerste lid kan worden afgeweken indien de aanspraak betrekking heeft op het
 onderwijs, de verlening van medisch noodzakelijke zorg, de voorkoming van inbreuken
 op de volksgezondheid, of de rechtsbijstand aan de vreemdeling.
 
 
-
-
-
-
-
-
 - 
 3 De toekenning van aanspraken geeft geen recht op rechtmatig verblijf.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 11 
-
-
 
 
 - Toon relaties in LiDO 
@@ -5279,22 +3170,10 @@ op de volksgezondheid, of de rechtsbijstand aan de vreemdeling.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 De aanspraken van de vreemdeling die rechtmatig verblijf heeft zijn in overeenstemming
 met de aard van het verblijf. Tenzij bij of krachtens het wettelijk voorschrift waarop
 de aanspraak is gegrond anders is bepaald, is daarbij het tweede lid van toepassing.
-
-
-
-
-
-
 
 
 - 
@@ -5302,13 +3181,8 @@ de aanspraak is gegrond anders is bepaald, is daarbij het tweede lid van toepass
 verstrekkingen en uitkeringen, indien hij:
 
 
-
-
 - 
 a. rechtmatig verblijf heeft, als bedoeld in artikel 8, onder a, tot en met e en l ;
-
-
-
 
 
 - 
@@ -5316,31 +3190,13 @@ b. rechtmatig verblijf heeft, als bedoeld in artikel 8, onder f, g, h , en een a
 deze vreemdelingen zijn neergelegd;
 
 
-
-
-
 - 
 c. rechtmatig verblijf heeft, als bedoeld in artikel 8, onder i tot en met k , voor de aanspraken die uitdrukkelijk aan deze vreemdelingen zijn toegekend.
-
-
-
-
-
-
-
-
-
 
 
 - 
 3 Het eerste en tweede lid zijn van overeenkomstige toepassing op de bij wet of algemene
 maatregel van bestuur aangewezen ontheffingen of vergunningen. 
-
-
-
-
-
-
 
 
 - 
@@ -5351,35 +3207,18 @@ in de Nederlandse taal en kennis van de Nederlandse maatschappij als bedoeld in 
 7, eerste lid, van de Wet inburgering 2021.
 
 
-
-
-
-
-
-
 - 
 5 Indien het COA een verplichting als bedoeld in het vierde lid heeft opgelegd en de
 vreemdeling deze verplichting niet of onvoldoende nakomt, is het COA bevoegd materiële
 voorzieningen te beperken of in te trekken.
 
 
-
-
-
-
-
-
 - 
 6 Bij algemene maatregel van bestuur kunnen nadere regels worden gegeven over:
 
 
-
-
 - 
 a. de aard en omvang van de op te leggen maatregelen;
-
-
-
 
 
 - 
@@ -5387,36 +3226,15 @@ b. de voorwaarden die aan inperking of intrekking van de voorzieningen kunnen wo
 verbonden;
 
 
-
-
-
 - 
 c. de duur van de maatregelen;
-
-
-
 
 
 - 
 d. de gevolgen voor de vreemdeling, indien deze alsnog voldoet aan de opgelegde verplichtingen.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 12 
-
-
 
 
 - Toon relaties in LiDO 
@@ -5435,12 +3253,6 @@ d. de gevolgen voor de vreemdeling, indien deze alsnog voldoet aan de opgelegde 
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -5450,13 +3262,8 @@ maatregel van bestuur te bepalen termijn toegestaan in Nederland te verblijven, 
 hij:
 
 
-
-
 - 
 a. de bij of krachtens deze wet gestelde regels in acht neemt;
-
-
-
 
 
 - 
@@ -5465,27 +3272,12 @@ in Nederland als in die van zijn reis naar een plaats buiten Nederland waar zijn
 gewaarborgd is;
 
 
-
-
-
 - 
 c. geen arbeid voor een werkgever verricht in strijd met de Wet arbeid vreemdelingen ;
 
 
-
-
-
 - 
 d. geen gevaar oplevert voor de openbare orde of de nationale veiligheid.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -5494,22 +3286,7 @@ bij algemene maatregel van bestuur te onderscheiden categorieën van vreemdeling
 kunnen verschillende termijnen worden vastgesteld.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Afdeling 2. De verblijfsvergunning
-
-
 
 
 - Toon relaties in LiDO 
@@ -5528,20 +3305,11 @@ kunnen verschillende termijnen worden vastgesteld.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 13 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -5558,24 +3326,14 @@ kunnen verschillende termijnen worden vastgesteld.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Een aanvraag tot het verlenen van een verblijfsvergunning wordt slechts ingewilligd
 indien:
 
 
-
-
-
 - 
 a. internationale verplichtingen daartoe nopen;
-
-
-
 
 
 - 
@@ -5583,31 +3341,13 @@ b. met de aanwezigheid van de vreemdeling een wezenlijk Nederlands belang is ged
 of
 
 
-
-
-
 - 
 c. klemmende redenen van humanitaire aard daartoe nopen.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Afdeling 3. De verblijfsvergunning regulier
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -5624,20 +3364,11 @@ c. klemmende redenen van humanitaire aard daartoe nopen.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Paragraaf 1. De verblijfsvergunning voor bepaalde tijd
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -5654,20 +3385,11 @@ c. klemmende redenen van humanitaire aard daartoe nopen.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 14 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -5686,16 +3408,8 @@ c. klemmende redenen van humanitaire aard daartoe nopen.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Onze Minister is bevoegd:
-
-
 
 
 - 
@@ -5703,15 +3417,9 @@ a. de aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd i
 willigen, af te wijzen dan wel niet in behandeling te nemen;
 
 
-
-
-
 - 
 b. de aanvraag tot het verlengen van de geldigheidsduur ervan in te willigen, af te wijzen
 dan wel niet in behandeling te nemen;
-
-
-
 
 
 - 
@@ -5719,14 +3427,8 @@ c. een verblijfsvergunning voor bepaalde tijd op aanvraag of ambtshalve te wijzi
 veranderde omstandigheden;
 
 
-
-
-
 - 
 d. een verblijfsvergunning voor bepaalde tijd in te trekken;
-
-
-
 
 
 - 
@@ -5734,25 +3436,10 @@ e. ambtshalve een verblijfsvergunning voor bepaalde tijd te verlenen dan wel de 
 ervan te verlengen.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 Onze Minister verleent de houder van een geldige machtiging tot voorlopig verblijf
 binnen twee weken nadat deze zich overeenkomstig artikel 54, eerste lid, onder e , heeft aangemeld, ambtshalve een verblijfsvergunning voor bepaalde tijd onder dezelfde
 beperking als die waaronder de machtiging tot voorlopig verblijf is verleend.
-
-
-
-
-
-
 
 
 - 
@@ -5763,32 +3450,13 @@ regels worden gesteld over de ambtshalve verlening, wijziging en verlenging, de 
 en de voorschriften.
 
 
-
-
-
-
-
-
 - 
 4 De verblijfsvergunning voor bepaalde tijd wordt verleend voor ten hoogste vijf achtereenvolgende
 jaren. Bij algemene maatregel van bestuur worden regels gesteld over de geldigheidsduur
 van de verblijfsvergunning en de verlenging van de geldigheidsduur van de verblijfsvergunning.
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 14a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -5807,10 +3475,6 @@ van de verblijfsvergunning en de verlenging van de geldigheidsduur van de verbli
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Onze Minister besluit niet over de verlening, verlenging of intrekking van een gecombineerde
@@ -5819,16 +3483,7 @@ wordt geweigerd of ingetrokken op grond van een andere afwijzings- of intrekking
 bedoeld in artikel 16 , 18 of 19 .
 
 
-
-
-
-
-
-
-
 # Artikel 15 
-
-
 
 
 - Toon relaties in LiDO 
@@ -5847,10 +3502,6 @@ bedoeld in artikel 16 , 18 of 19 .
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 In de algemene maatregel van bestuur, bedoeld in artikel 14, derde lid , wordt bepaald, dat de verblijfsvergunning voor bepaalde tijd, bedoeld in artikel 14 , kan worden verleend onder een beperking verband houdend met verblijf als familie-
@@ -5858,16 +3509,7 @@ of gezinslid aan gezinsleden van Nederlanders en vreemdelingen die rechtmatig ve
 als bedoeld in artikel 8, onder a tot en met e en l .
 
 
-
-
-
-
-
-
-
 # Artikel 16 
-
-
 
 
 - Toon relaties in LiDO 
@@ -5888,17 +3530,9 @@ als bedoeld in artikel 8, onder a tot en met e en l .
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Een aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd als bedoeld
 in artikel 14 kan worden afgewezen indien:
-
-
 
 
 - 
@@ -5906,14 +3540,8 @@ a. de vreemdeling niet beschikt over een geldige machtiging tot voorlopig verbli
 overeenkomt met het verblijfsdoel waarvoor de verblijfsvergunning is aangevraagd;
 
 
-
-
-
 - 
 b. de vreemdeling niet beschikt over een geldig document voor grensoverschrijding;
-
-
-
 
 
 - 
@@ -5922,14 +3550,8 @@ dan wel, indien de persoon bij wie de vreemdeling wil verblijven, niet zelfstand
 en duurzaam beschikt over voldoende middelen van bestaan;
 
 
-
-
-
 - 
 d. de vreemdeling een gevaar vormt voor de openbare orde of nationale veiligheid;
-
-
-
 
 
 - 
@@ -5938,14 +3560,8 @@ naar een ziekte aangewezen bij of krachtens de Wet publieke gezondheid , ter bes
 ziekte te ondergaan;
 
 
-
-
-
 - 
 f. de vreemdeling voor een werkgever arbeid verricht, zonder dat aan de Wet arbeid vreemdelingen is voldaan;
-
-
-
 
 
 - 
@@ -5953,16 +3569,10 @@ g. de vreemdeling niet voldoet aan de beperking, verband houdende met het doel w
 hij wil verblijven;
 
 
-
-
-
 - 
 h. de vreemdeling, die niet behoort tot een der categorieën, bedoeld in artikel 17, eerste lid , na verkrijging van rechtmatig verblijf in Nederland inburgeringsplichtig zou zijn
 op grond van de artikelen 3 en 4 van de Wet inburgering 2021 en niet beschikt over kennis op basisniveau van de Nederlandse taal en de Nederlandse
 maatschappij;
-
-
-
 
 
 - 
@@ -5972,14 +3582,8 @@ of wijzigen van een visum of een verblijfsvergunning hebben geleid of zouden heb
 geleid;
 
 
-
-
-
 - 
 j. de vreemdeling in Nederland verblijf heeft gehouden, anders dan op grond van artikel 8 .
-
-
-
 
 
 - 
@@ -5987,24 +3591,9 @@ k. ten behoeve van het verblijf van de vreemdeling geen verklaring van een refer
 overgelegd als bedoeld in artikel 2a, tweede lid .
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 Bij of krachtens algemene maatregel van bestuur kunnen regels worden gesteld over
 de toepassing van de gronden, bedoeld in het eerste lid.
-
-
-
-
-
-
 
 
 - 
@@ -6014,19 +3603,7 @@ aangetoond in Suriname of Nederland lager onderwijs in de Nederlandse taal te he
 gevolgd.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 16a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -6047,24 +3624,13 @@ gevolgd.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 De aanvraag tot het wijzigen van een verblijfsvergunning voor bepaalde tijd als bedoeld
 in artikel 14 kan worden afgewezen:
 
 
-
-
 - 
 a. op de gronden, bedoeld in artikel 16, eerste lid, onderdelen b tot en met g en k ; of
-
-
-
 
 
 - 
@@ -6072,24 +3638,9 @@ b. indien de vreemdeling niet heeft voldaan aan het bij of krachtens algemene ma
 van bestuur vast te stellen inburgeringsvereiste.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 Bij of krachtens algemene maatregel van bestuur kunnen regels worden gesteld over
 de toepassing van de gronden, bedoeld in het eerste lid, onderdeel a.
-
-
-
-
-
-
 
 
 - 
@@ -6098,19 +3649,7 @@ b, worden in ieder geval regels gesteld omtrent de inhoud van het inburgeringstr
 en het te behalen niveau, alsmede omtrent de vrijstellingen en ontheffingen.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 17 
-
-
 
 
 - Toon relaties in LiDO 
@@ -6131,18 +3670,10 @@ en het te behalen niveau, alsmede omtrent de vrijstellingen en ontheffingen.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Een aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd als bedoeld
 in artikel 14 wordt niet afgewezen wegens het ontbreken van een geldige machtiging tot voorlopig
 verblijf, indien het betreft:
-
-
 
 
 - 
@@ -6150,15 +3681,9 @@ a. de vreemdeling die de nationaliteit bezit van één der door bij regeling van
 in overeenstemming met Onze Minister van Buitenlandse Zaken aan te wijzen landen;
 
 
-
-
-
 - 
 b. de gemeenschapsonderdaan, voorzover niet reeds vrijgesteld op grond van een aanwijzing
 als bedoeld onder a;
-
-
-
 
 
 - 
@@ -6166,14 +3691,8 @@ c. de vreemdeling voor wie het gelet op diens gezondheidstoestand niet verantwoo
 om te reizen;
 
 
-
-
-
 - 
 d. de vreemdeling die slachtoffer of getuige-aangever is van mensenhandel;
-
-
-
 
 
 - 
@@ -6181,35 +3700,17 @@ e. de vreemdeling die onmiddellijk voorafgaande aan de aanvraag in het bezit was
 een verblijfsvergunning asiel als bedoeld in artikel 28;
 
 
-
-
-
 - 
 f. de vreemdeling die tijdig een aanvraag heeft ingediend tot wijziging van een verblijfsvergunning;
-
-
-
 
 
 - 
 g. de vreemdeling die behoort tot een bij algemene maatregel van bestuur aangewezen categorie;
 
 
-
-
-
 - 
 h. een langdurig ingezetene uit een andere EU-lidstaat, dan wel diens echtgenoot of minderjarig
 kind ingeval het gezin reeds was gevormd in die andere lidstaat.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -6221,19 +3722,7 @@ Minister te brengen. Gelijktijdig met de bekendmaking wordt het ontwerp aan de b
 kamers der Staten-Generaal overgelegd.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 17a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -6254,17 +3743,9 @@ kamers der Staten-Generaal overgelegd.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Een aanvraag tot het verlenen van een verblijfsvergunning voor bepaalde tijd als bedoeld
 in artikel 14 wordt niet afgewezen met toepassing van artikel 16, eerste lid, onderdeel j , indien het betreft:
-
-
 
 
 - 
@@ -6272,35 +3753,17 @@ a. de vreemdeling die direct voorafgaand aan de aanvraag rechtmatig verblijf hee
 op grond van artikel 8, onder j ;
 
 
-
-
-
 - 
 b. de vreemdeling die in aanmerking komt voor verblijf onder een beperking als bedoeld
 in artikel 15 ;
-
-
-
 
 
 - 
 c. de vreemdeling die minderjarig en alleenstaand is;
 
 
-
-
-
 - 
 d. de vreemdeling die als slachtoffer of getuige-aangever als bedoeld in artikel 17, eerste lid, onder d , direct voorafgaand aan de aanvraag verblijf heeft gehad op grond van artikel 8, onder a , en in aanmerking komt voor verblijf onder een andere beperking.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -6309,19 +3772,7 @@ de aanvraag, bedoeld in het eerste lid, niet wordt afgewezen, op grond dat de to
 van artikel 16, eerste lid, onder j , van een onevenredige hardheid zou kunnen getuigen.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 18 
-
-
 
 
 - Toon relaties in LiDO 
@@ -6342,31 +3793,17 @@ van artikel 16, eerste lid, onder j , van een onevenredige hardheid zou kunnen g
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Een aanvraag tot het verlengen van de geldigheidsduur van een verblijfsvergunning
 voor bepaalde tijd als bedoeld in artikel 14 kan worden afgewezen indien:
-
-
 
 
 - 
 a. de houder daarvan zijn hoofdverblijf buiten Nederland heeft gevestigd;
 
 
-
-
-
 - 
 b. de vreemdeling niet beschikt over een geldig document voor grensoverschrijding;
-
-
-
 
 
 - 
@@ -6375,23 +3812,14 @@ terwijl die gegevens tot afwijzing van de oorspronkelijke aanvraag tot het verle
 of verlengen zouden hebben geleid;
 
 
-
-
-
 - 
 d. de vreemdeling niet meer zelfstandig en duurzaam beschikt over voldoende middelen
 van bestaan dan wel de persoon bij wie de vreemdeling verblijft niet meer zelfstandig
 en duurzaam beschikt over voldoende middelen van bestaan;
 
 
-
-
-
 - 
 e. de vreemdeling een gevaar vormt voor de openbare orde of nationale veiligheid;
-
-
-
 
 
 - 
@@ -6399,14 +3827,8 @@ f. niet wordt voldaan aan de beperking waaronder de vergunning is verleend of ee
 dat aan de vergunning is verbonden;
 
 
-
-
-
 - 
 g. de vreemdeling voor een werkgever arbeid verricht, zonder dat aan de Wet arbeid vreemdelingen is voldaan;
-
-
-
 
 
 - 
@@ -6414,20 +3836,8 @@ h. ten behoeve van het verblijf van de vreemdeling geen verklaring van een refer
 overgelegd als bedoeld in artikel 2a, tweede lid ;
 
 
-
-
-
 - 
 i. de vreemdeling niet heeft voldaan aan de inburgeringsplicht, bedoeld in artikel 6, eerste lid, van de Wet inburgering 2021 .
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -6435,19 +3845,7 @@ i. de vreemdeling niet heeft voldaan aan de inburgeringsplicht, bedoeld in artik
 de toepassing van de gronden, bedoeld in het eerste lid.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 19 
-
-
 
 
 - Toon relaties in LiDO 
@@ -6466,10 +3864,6 @@ de toepassing van de gronden, bedoeld in het eerste lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 De verblijfsvergunning voor bepaalde tijd kan worden ingetrokken op de gronden bedoeld
@@ -6477,19 +3871,7 @@ in artikel 18, eerste lid , met uitzondering van onderdeel b, en wordt ingetrokk
 ambtshalve een verblijfsvergunning als bedoeld in artikel 28, eerste lid, onderdeel c, subonderdeel 3° , wordt verleend.
 
 
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 2. De verblijfsvergunning voor onbepaalde tijd
-
-
 
 
 - Toon relaties in LiDO 
@@ -6508,20 +3890,11 @@ ambtshalve een verblijfsvergunning als bedoeld in artikel 28, eerste lid, onderd
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 20 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -6540,16 +3913,8 @@ ambtshalve een verblijfsvergunning als bedoeld in artikel 28, eerste lid, onderd
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Onze Minister is bevoegd:
-
-
 
 
 - 
@@ -6557,14 +3922,8 @@ a. de aanvraag tot het verlenen van een verblijfsvergunning voor onbepaalde tijd
 willigen, af te wijzen dan wel niet in behandeling te nemen;
 
 
-
-
-
 - 
 b. een verblijfsvergunning voor onbepaalde tijd in te trekken;
-
-
-
 
 
 - 
@@ -6572,33 +3931,12 @@ c. ambtshalve een verblijfsvergunning voor onbepaalde tijd te verlenen aan de vr
 wiens EU-verblijfsvergunning voor langdurig ingezetenen op grond van artikel 45d is ingetrokken.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 Een verblijfsvergunning voor onbepaalde tijd wordt niet onder beperkingen verleend.
 Aan de vergunning worden geen voorschriften verbonden.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 21 
-
-
 
 
 - Toon relaties in LiDO 
@@ -6617,12 +3955,6 @@ Aan de vergunning worden geen voorschriften verbonden.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -6632,14 +3964,9 @@ jaren rechtmatig verblijf heeft genoten als bedoeld in artikel 8, onder a, c, e,
 slechts worden afgewezen indien de vreemdeling:
 
 
-
-
 - 
 a. al of niet tezamen met het gezinslid bij wie hij verblijft, niet zelfstandig en duurzaam
 beschikt over voldoende middelen van bestaan;
-
-
-
 
 
 - 
@@ -6648,30 +3975,18 @@ gegevens tot afwijzing van de aanvraag tot het verlenen, wijzigen of verlengen z
 hebben geleid;
 
 
-
-
-
 - 
 c. bij onherroepelijk geworden rechterlijk vonnis is veroordeeld wegens een misdrijf
 waartegen een gevangenisstraf van drie jaren of meer is bedreigd, dan wel hem ter
 zake de maatregel, bedoeld in artikel 37a van het Wetboek van Strafrecht , is opgelegd;
 
 
-
-
-
 - 
 d. een gevaar vormt voor de nationale veiligheid;
 
 
-
-
-
 - 
 e. zijn hoofdverblijf buiten Nederland heeft gevestigd;
-
-
-
 
 
 - 
@@ -6679,33 +3994,15 @@ f. op de dag waarop de aanvraag is ontvangen, een verblijfsrecht van tijdelijke 
 heeft; of
 
 
-
-
-
 - 
 g. niet heeft voldaan aan het bij of krachtens algemene maatregel van bestuur vast te
 stellen inburgeringsvereiste.
-
-
-
-
-
-
-
-
-
 
 
 - 
 2 In afwijking van het eerste lid, wordt de aanvraag niet afgewezen op grond van het
 eerste lid, onder a, indien de vreemdeling gedurende een tijdvak van tien aaneengesloten
 jaren rechtmatig verblijf als bedoeld in artikel 8, onder a of l , of op grond van een EU-verblijfsvergunning voor langdurig ingezetenen heeft gehad.
-
-
-
-
-
-
 
 
 - 
@@ -6715,12 +4012,6 @@ houdende met gezinshereniging rechtmatig verblijf heeft gehad en sindsdien zijn 
 niet buiten Nederland heeft verplaatst en inmiddels 18 jaar is, tenzij de gezinsband
 werd verbroken binnen een jaar na verlening van de verblijfsvergunning, bedoeld in
 artikel 14 .
-
-
-
-
-
-
 
 
 - 
@@ -6735,24 +4026,12 @@ voor een misdrijf als bedoeld in artikel 22b, eerste lid, van het Wetboek van St
 gesteld.
 
 
-
-
-
-
-
-
 - 
 5 Onder een tijdvak als bedoeld in het eerste en tweede lid van dit artikel wordt verstaan
 een tijdvak onmiddellijk voorafgaande aan de dag waarop de verblijfsvergunning voor
 onbepaalde tijd is aangevraagd. Voor de berekening van het tijdvak wordt de periode
 van rechtmatig verblijf in Nederland vóór het bereiken van de achtjarige leeftijd
 buiten beschouwing gelaten.
-
-
-
-
-
-
 
 
 - 
@@ -6762,31 +4041,13 @@ gevallen dan bedoeld in het eerste tot en met vierde lid worden aangewezen waari
 een verblijfsvergunning voor onbepaalde tijd als bedoeld in artikel 20 kan worden verleend.
 
 
-
-
-
-
-
-
 - 
 7 Bij of krachtens de algemene maatregel van bestuur, bedoeld in het eerste lid, onderdeel
 g, worden in ieder geval regels gesteld omtrent de inhoud van het inburgeringstraject
 en het te behalen niveau, alsmede omtrent de vrijstellingen en ontheffingen.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 21a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -6805,26 +4066,12 @@ en het te behalen niveau, alsmede omtrent de vrijstellingen en ontheffingen.
 
 
 - Sla het regelingonderdeel op 
-
 
 
 [Vervallen per 29-03-2014]
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 22 
-
-
 
 
 - Toon relaties in LiDO 
@@ -6843,25 +4090,14 @@ en het te behalen niveau, alsmede omtrent de vrijstellingen en ontheffingen.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
 1 De verblijfsvergunning voor onbepaalde tijd, bedoeld in artikel 20 , kan worden ingetrokken indien:
 
 
-
-
 - 
 a. de houder daarvan zijn hoofdverblijf buiten Nederland heeft gevestigd;
-
-
-
 
 
 - 
@@ -6870,29 +4106,14 @@ terwijl die gegevens tot afwijzing van de aanvraag tot het verlenen, wijzigen of
 zouden hebben geleid;
 
 
-
-
-
 - 
 c. de houder daarvan bij onherroepelijk geworden rechterlijk vonnis is veroordeeld wegens
 een misdrijf waartegen een gevangenisstraf van drie jaren of meer is bedreigd, dan
 wel hem terzake de maatregel, bedoeld in artikel 37a van het Wetboek van Strafrecht , is opgelegd; of
 
 
-
-
-
 - 
 d. de vreemdeling een gevaar vormt voor de nationale veiligheid.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -6900,22 +4121,7 @@ d. de vreemdeling een gevaar vormt voor de nationale veiligheid.
 de gronden, bedoeld in het eerste lid.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 3. Procedurele bepalingen
-
-
 
 
 - Toon relaties in LiDO 
@@ -6934,20 +4140,11 @@ de gronden, bedoeld in het eerste lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 23 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -6966,21 +4163,9 @@ de gronden, bedoeld in het eerste lid.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 De aanvraag tot het verlenen, verlengen of wijzigen van een verblijfsvergunning wordt
 ingediend door de vreemdeling, zijn wettelijk vertegenwoordiger of zijn referent.
-
-
-
-
-
-
 
 
 - 
@@ -6989,31 +4174,13 @@ van bestuur bepaalde gevallen ingediend door de vreemdeling, zijn wettelijk vert
 of zijn erkende referent.
 
 
-
-
-
-
-
-
 - 
 3 In afwijking van artikel 2:1, tweede en derde lid, van de Algemene wet bestuursrecht en in afwijking van het eerste en tweede lid, wordt de aanvraag in bij of krachtens
 algemene maatregel van bestuur bepaalde gevallen ingediend door de vreemdeling of
 zijn wettelijk vertegenwoordiger in persoon.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 24 
-
-
 
 
 - Toon relaties in LiDO 
@@ -7037,31 +4204,17 @@ zijn wettelijk vertegenwoordiger in persoon.
 [Wijziging(en) zonder datum inwerkingtreding aanwezig. Zie het wijzigingenoverzicht .]
 
 
-
-
-
-
-
-
 - 
 1 Bij of krachtens algemene maatregel van bestuur worden regels gesteld omtrent:
-
-
 
 
 - 
 a. de wijze van indiening en behandeling van een aanvraag;
 
 
-
-
-
 - 
 b. het al dan niet in persoon door de vreemdeling, diens wettelijk vertegenwoordiger
 of diens referent verstrekken van gegevens welke van belang zijn voor de aanvraag;
-
-
-
 
 
 - 
@@ -7073,15 +4226,6 @@ kan geschieden door middel van het toezenden of uitreiken van een document en do
 het stellen van aantekeningen in een daarbij aan te wijzen document.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 De vreemdeling is, in door Onze Minister te bepalen gevallen en volgens door Onze
 Minister te geven regels, leges verschuldigd terzake van de afdoening van een aanvraag.
@@ -7091,19 +4235,7 @@ achterwege blijft, wordt de aanvraag niet in behandeling genomen dan wel het doc
 niet afgegeven. Artikel 4:5, vierde lid, Algemene wet bestuursrecht is niet van toepassing.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 24a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -7124,17 +4256,9 @@ niet afgegeven. Artikel 4:5, vierde lid, Algemene wet bestuursrecht is niet van 
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Gegevens en bescheiden worden niet verkregen van de vreemdeling of diens referent,
 voor zover:
-
-
 
 
 - 
@@ -7143,32 +4267,14 @@ Minister aan te wijzen administraties, tenzij hierdoor een goede uitvoering van 
 wet wordt belet, of
 
 
-
-
-
 - 
 b. de aanvraag is ingediend door de erkende referent, en deze omtrent die gegevens en
 bescheiden eigen verklaringen heeft overgelegd.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 De eigen verklaringen, bedoeld in het eerste lid, onder b, worden volledig en naar
 waarheid opgesteld.
-
-
-
-
-
-
 
 
 - 
@@ -7178,18 +4284,10 @@ De aanvrager van een gecombineerde vergunning verstrekt Onze Minister de gegeven
 en bescheiden op basis waarvan kan worden beoordeeld of aan de Wet arbeid vreemdelingen is voldaan.
 
 
-
-
-
-
-
-
 - 
 4 Bij regeling van Onze Minister worden regels gesteld omtrent de gegevens en bescheiden
 waarop het eerste lid, onder a, van toepassing is, en kunnen regels worden gesteld
 omtrent:
-
-
 
 
 - 
@@ -7197,39 +4295,15 @@ a. de administraties of delen daarvan waarvoor het eerste lid, onder a, tijdelij
 van toepassing is;
 
 
-
-
-
 - 
 b. de eigen verklaringen, bedoeld in het eerste lid, onder b;
-
-
-
 
 
 - 
 c. de toepassing van het derde lid.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 4. De beschikking op de aanvraag
-
-
 
 
 - Toon relaties in LiDO 
@@ -7248,20 +4322,11 @@ c. de toepassing van het derde lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 25 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -7278,52 +4343,26 @@ c. de toepassing van het derde lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
 1 Binnen 90 dagen wordt een beschikking gegeven op de aanvraag tot:
 
 
-
-
 - 
 a. het verlenen van een verblijfsvergunning voor bepaalde tijd als bedoeld in artikel 14 ;
-
-
-
 
 
 - 
 b. het verlengen van de geldigheidsduur ervan;
 
 
-
-
-
 - 
 c. het wijzigen van een verblijfsvergunning voor bepaalde tijd als bedoeld in artikel 14 ;
 
 
-
-
-
 - 
 d. het verlenen van een verblijfsvergunning voor onbepaalde tijd als bedoeld in artikel 20 .
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -7333,20 +4372,8 @@ beoordeling van de aanvraag advies van of onderzoek door derden of het openbaar 
 nodig is.
 
 
-
-
-
-
-
-
 - 
 3 Onze Minister stelt de vreemdeling in kennis van de verlenging.
-
-
-
-
-
-
 
 
 - 
@@ -7359,23 +4386,11 @@ kan worden verlengd. Indien de langdurig ingezetene of het gezinslid krachtens a
 maanden.
 
 
-
-
-
-
-
-
 - 
 5 In afwijking van het eerste en tweede lid wordt de beschikking op een aanvraag tot
 het verlenen van een verblijfsvergunning als bedoeld in artikel 14 onder een beperking verband houdend met verblijf als houder van de Europese blauwe
 kaart of overplaatsing binnen een onderneming bekend gemaakt binnen 90 dagen en kan
 die termijn niet worden verlengd.
-
-
-
-
-
-
 
 
 - 
@@ -7385,22 +4400,7 @@ werken of uitwisseling in het kader van Europees vrijwilligerswerk bekendgemaakt
 60 dagen en kan die termijn niet worden verlengd.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 5. De inwilliging van de aanvraag
-
-
 
 
 - Toon relaties in LiDO 
@@ -7419,20 +4419,11 @@ werken of uitwisseling in het kader van Europees vrijwilligerswerk bekendgemaakt
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 26 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -7449,12 +4440,6 @@ werken of uitwisseling in het kader van Europees vrijwilligerswerk bekendgemaakt
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -7463,22 +4448,10 @@ met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij aan alle vo
 voldoet, maar niet eerder dan met ingang van de dag waarop de aanvraag is ontvangen.
 
 
-
-
-
-
-
-
 - 
 2 De geldigheidsduur van de verblijfsvergunning voor bepaalde tijd als bedoeld in artikel 14 wordt verlengd met ingang van de dag waarop de vreemdeling heeft aangetoond dat hij
 aan alle voorwaarden voldoet, maar niet eerder dan met ingang van de dag na die waarop
 de geldigheidsduur van de verblijfsvergunning waarvoor verlenging is gevraagd afloopt.
-
-
-
-
-
-
 
 
 - 
@@ -7489,22 +4462,7 @@ die waarop de geldigheidsduur van de verblijfsvergunning waarvoor verlenging is 
 afloopt.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 6. De afwijzing van de aanvraag
-
-
 
 
 - Toon relaties in LiDO 
@@ -7523,20 +4481,11 @@ afloopt.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 27 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -7553,12 +4502,6 @@ afloopt.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -7568,21 +4511,13 @@ tegen de vreemdeling is uitgevaardigd en aan de daaruit voortvloeiende terugkeer
 niet is voldaan, en heeft van rechtswege tot gevolg dat:
 
 
-
-
 - 
 a. de vreemdeling niet langer rechtmatig verblijf heeft tenzij er een andere rechtsgrond
 voor rechtmatig verblijf van toepassing is;
 
 
-
-
-
 - 
 b. de vreemdeling Nederland uit eigen beweging dient te verlaten binnen de in artikel 62 gestelde termijn, bij gebreke waarvan de vreemdeling kan worden uitgezet, en
-
-
-
 
 
 - 
@@ -7592,46 +4527,20 @@ zijn elke plaats te betreden, daaronder begrepen een woning, zonder de toestemmi
 van de bewoner, teneinde de vreemdeling uit te zetten.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 Het eerste lid is van overeenkomstige toepassing indien:
-
-
 
 
 - 
 a. ingevolge artikel 24 of ingevolge artikel 4:5 van de Algemene wet bestuursrecht is besloten dat de aanvraag niet in behandeling wordt genomen;
 
 
-
-
-
 - 
 b. het rechtmatig verblijf van rechtswege is geëindigd;
 
 
-
-
-
 - 
 c. een verblijfsvergunning is ingetrokken of de geldigheidsduur ervan niet is verlengd.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -7639,20 +4548,8 @@ c. een verblijfsvergunning is ingetrokken of de geldigheidsduur ervan niet is ve
 of beroep heeft ingesteld en de werking van de beschikking is opgeschort.
 
 
-
-
-
-
-
-
 - 
 4 De beschikking, bedoeld in het eerste lid, kan tevens een inreisverbod inhouden.
-
-
-
-
-
-
 
 
 - 
@@ -7663,25 +4560,7 @@ afgewezen, niet als terugkeerbesluit, indien dat niet in overeenstemming is met 
 Terugkeerrichtlijn en het beginsel van non-refoulement.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Afdeling 4. De verblijfsvergunning asiel
-
-
 
 
 - Toon relaties in LiDO 
@@ -7700,20 +4579,11 @@ Terugkeerrichtlijn en het beginsel van non-refoulement.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Paragraaf 1. De verblijfsvergunning asiel
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -7730,20 +4600,11 @@ Terugkeerrichtlijn en het beginsel van non-refoulement.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 27a 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -7760,12 +4621,6 @@ Terugkeerrichtlijn en het beginsel van non-refoulement.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -7775,58 +4630,29 @@ van de taken en bevoegdheden die aan die autoriteiten worden toegekend door de P
 de Asiel- en migratiebeheerverordening en de Kwalificatieverordening.
 
 
-
-
-
-
-
-
 - 
 2 Overeenkomstig artikel 4, tweede lid, van de Procedureverordening zijn belast met
 de uitoefening van de daarin opgenomen taken en bevoegdheden:
-
-
 
 
 - 
 a. Onze Minister;
 
 
-
-
-
 - 
 b. Onze Minister van Justitie en Veiligheid;
-
-
-
 
 
 - 
 c. de korpschef;
 
 
-
-
-
 - 
 d. het Centraal Orgaan opvang asielzoekers;
 
 
-
-
-
 - 
 e. de ambtenaren bedoeld in de artikelen 46, eerste lid, en 47, eerste lid.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -7835,19 +4661,7 @@ over de toekenning van taken en bevoegdheden uit de Procedureverordening, de Asi
 en migratiebeheerverordening en de Kwalificatieverordening.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 28 
-
-
 
 
 - Toon relaties in LiDO 
@@ -7868,16 +4682,8 @@ en migratiebeheerverordening en de Kwalificatieverordening.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Onze Minister is bevoegd:
-
-
 
 
 - 
@@ -7886,20 +4692,12 @@ te wijzen, niet in behandeling te nemen, niet-ontvankelijk te verklaren dan wel 
 behandeling te stellen;
 
 
-
-
-
 - 
 b. een verblijfsvergunning asiel in te trekken;
 
 
-
-
-
 - 
 c. ambtshalve een verblijfsvergunning asiel te verlenen aan:
-
-
 
 
 - 
@@ -7908,16 +4706,10 @@ de in artikel 29c gestelde voorwaarden en die houder is van een geldige machtigi
 tot voorlopig verblijf;
 
 
-
-
-
 - 
 2° het gezinslid van een vreemdeling die de subsidiairebeschermingsstatus heeft, die
 voldoet aan de in artikel 29d gestelde voorwaarden en die houder is van een geldige
 machtiging tot voorlopig verblijf; of
-
-
-
 
 
 - 
@@ -7929,18 +4721,6 @@ Europese Overeenkomst inzake de overdracht van verantwoordelijkheid met betrekki
 tot vluchtelingen van 16 oktober 1980 (Trb. 1981, 239).
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 - 
 2 De verblijfsvergunning die ambtshalve wordt verleend in de situatie, bedoeld in het
 eerste lid, onderdeel c, subonderdelen 1° en 2°, wordt verleend binnen twee weken
@@ -7948,19 +4728,7 @@ nadat de houder van een geldige machtiging tot voorlopig verblijf zich overeenko
 artikel 54, eerste lid, onderdeel e, heeft aangemeld.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 29 
-
-
 
 
 - Toon relaties in LiDO 
@@ -7979,12 +4747,6 @@ artikel 54, eerste lid, onderdeel e, heeft aangemeld.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -7994,30 +4756,12 @@ die op grond van de hoofdstukken II en III, van de Kwalificatieverordening in aa
 komt voor de vluchtelingenstatus, bedoeld in artikel 13 van de Kwalificatieverordening.
 
 
-
-
-
-
-
-
 - 
 2 Bij of krachtens algemene maatregel van bestuur kunnen regels worden gesteld met betrekking
 tot dit artikel.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 29a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -8036,12 +4780,6 @@ tot dit artikel.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -8051,30 +4789,12 @@ die op grond van de hoofdstukken II en V, van de Kwalificatieverordening in aanm
 komt voor de subsidiairebeschermingsstatus, bedoeld in artikel 18 van de Kwalificatieverordening.
 
 
-
-
-
-
-
-
 - 
 2 Bij of krachtens algemene maatregel van bestuur kunnen regels worden gesteld met betrekking
 tot dit artikel.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 29b 
-
-
 
 
 - Toon relaties in LiDO 
@@ -8093,12 +4813,6 @@ tot dit artikel.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -8108,21 +4822,9 @@ in aanmerking komt voor verblijf als gezinslid van een vreemdeling die de vlucht
 of de subsidiairebeschermingsstatus heeft.
 
 
-
-
-
-
-
-
 - 
 2 Bij of krachtens algemene maatregel van bestuur kunnen regels worden gesteld met betrekking
 tot dit artikel.
-
-
-
-
-
-
 
 
 - 
@@ -8130,19 +4832,7 @@ tot dit artikel.
 bedoeld in artikel 9, zestiende lid, van de Hervestigingsverordening.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 29c 
-
-
 
 
 - Toon relaties in LiDO 
@@ -8161,12 +4851,6 @@ bedoeld in artikel 9, zestiende lid, van de Hervestigingsverordening.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -8179,27 +4863,16 @@ verleend, dan wel binnen die drie maanden door of ten behoeve van dat gezinslid 
 machtiging tot voorlopig verblijf is aangevraagd:
 
 
-
-
 - 
 a. de meerderjarige echtgenoot;
-
-
-
 
 
 - 
 b. het biologische of geadopteerde minderjarige kind;
 
 
-
-
-
 - 
 c. de ouders, indien die vreemdeling een alleenstaande minderjarige is;
-
-
-
 
 
 - 
@@ -8208,25 +4881,10 @@ is, die broer of zus gelijktijdig met een ouder, bedoeld in onderdeel c, de aanv
 heeft ingediend en ten laste komt van die ouder.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 De verblijfsvergunning asiel wordt niet geweigerd indien de overschrijding van de
 in het eerste lid bedoelde termijn op grond van bijzondere omstandigheden objectief
 verschoonbaar is.
-
-
-
-
-
-
 
 
 - 
@@ -8234,19 +4892,7 @@ verschoonbaar is.
 tot dit artikel.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 29d 
-
-
 
 
 - Toon relaties in LiDO 
@@ -8265,12 +4911,6 @@ tot dit artikel.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -8280,16 +4920,8 @@ subsidiairebeschermingsstatus heeft, indien dat gezinslid op het tijdstip van bi
 van die vreemdeling tot diens gezin behoorde.
 
 
-
-
-
-
-
-
 - 
 2 De verblijfsvergunning asiel, bedoeld in het eerste lid, kan worden geweigerd, indien:
-
-
 
 
 - 
@@ -8297,14 +4929,8 @@ a. nog geen twee jaar zijn verstreken sinds de verlening van de verblijfsvergunn
 bedoeld in artikel 29a, aan de vreemdeling, bedoeld in het eerste lid;
 
 
-
-
-
 - 
 b. de vreemdeling niet zelfstandig en duurzaam beschikt over voldoende middelen van bestaan;
-
-
-
 
 
 - 
@@ -8312,24 +4938,9 @@ c. de vreemdeling niet over huisvesting beschikt, waaronder mede wordt verstaan 
 op een doorstroomlocatie.
 
 
-
-
-
-
-
-
-
-
-
 - 
 3 Het tweede lid, onderdelen b en c, is niet van toepassing indien de vreemdeling een
 alleenstaande minderjarige is.
-
-
-
-
-
-
 
 
 - 
@@ -8338,19 +4949,7 @@ tot dit artikel. Daarbij wordt bepaald in welke gevallen een verblijfsvergunning
 wordt verleend.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 30 
-
-
 
 
 - Toon relaties in LiDO 
@@ -8369,12 +4968,6 @@ wordt verleend.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -8385,30 +4978,12 @@ is vastgesteld dat een andere lidstaat verantwoordelijk is voor de behandeling v
 de aanvraag.
 
 
-
-
-
-
-
-
 - 
 2 Bij of krachtens algemene maatregel van bestuur kunnen nadere regels worden gesteld
 over de toepassing van het eerste lid.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 30a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -8427,12 +5002,6 @@ over de toepassing van het eerste lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -8442,21 +5011,9 @@ als bedoeld in artikel 28 niet-ontvankelijk verklaren in de gevallen, bedoeld in
 in de gevallen, bedoeld in artikel 38, tweede lid, van de Procedureverordening.
 
 
-
-
-
-
-
-
 - 
 2 Het besluit een aanvraag niet-ontvankelijk te verklaren, wordt voor de toepassing
 van het bepaalde bij of krachtens deze wet gelijkgesteld met een afwijzing.
-
-
-
-
-
-
 
 
 - 
@@ -8464,19 +5021,7 @@ van het bepaalde bij of krachtens deze wet gelijkgesteld met een afwijzing.
 over de toepassing van het eerste lid.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 30b 
-
-
 
 
 - Toon relaties in LiDO 
@@ -8495,12 +5040,6 @@ over de toepassing van het eerste lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -8511,12 +5050,6 @@ een van de gevallen bedoeld in artikel 42, eerste en derde lid, van de Procedure
 van toepassing is.
 
 
-
-
-
-
-
-
 - 
 2 Onze Minister kan een aanvraag tot het verlenen van een verblijfsvergunning asiel
 als bedoeld in artikel 28 afwijzen als kennelijk ongegrond, indien reeds is vastgesteld
@@ -8524,14 +5057,9 @@ dat de vreemdeling niet in aanmerking komt voor internationale bescherming op gr
 van de Kwalificatieverordening, overeenkomstig:
 
 
-
-
 - 
 a. artikel 40, vierde lid, van de Procedureverordening in de fase waarin de aanvraag
 expliciet wordt ingetrokken; of
-
-
-
 
 
 - 
@@ -8539,33 +5067,12 @@ b. artikel 41, eerste en vijfde lid, van de Procedureverordening op het ogenblik
 de aanvraag impliciet wordt ingetrokken.
 
 
-
-
-
-
-
-
-
-
-
 - 
 3 Bij of krachtens algemene maatregel van bestuur kunnen nadere regels worden gesteld
 over de toepassing van dit artikel.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 30c 
-
-
 
 
 - Toon relaties in LiDO 
@@ -8584,12 +5091,6 @@ over de toepassing van dit artikel.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -8597,26 +5098,12 @@ over de toepassing van dit artikel.
 als bedoeld in artikel 28 buiten behandeling stellen als:
 
 
-
-
 - 
 a. expliciet ingetrokken overeenkomstig artikel 40 van de Procedureverordening; of
 
 
-
-
-
 - 
 b. impliciet ingetrokken overeenkomstig artikel 41 van de Procedureverordening.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -8624,30 +5111,12 @@ b. impliciet ingetrokken overeenkomstig artikel 41 van de Procedureverordening.
 het bepaalde bij of krachtens deze wet gelijkgesteld met een afwijzing.
 
 
-
-
-
-
-
-
 - 
 3 Bij of krachtens algemene maatregel van bestuur kunnen nadere regels worden gesteld
 over de toepassing van het eerste en tweede lid.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 31 
-
-
 
 
 - Toon relaties in LiDO 
@@ -8666,12 +5135,6 @@ over de toepassing van het eerste en tweede lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -8681,13 +5144,8 @@ Procedureverordening afwijzen als ongegrond, indien de aanvrager op grond van de
 niet in aanmerking komt voor:
 
 
-
-
 - 
 a. de vluchtelingenstatus, bedoeld in artikel 13 van de Kwalificatieverordening;
-
-
-
 
 
 - 
@@ -8695,32 +5153,14 @@ b. de subsidiairebeschermingsstatus, bedoeld in artikel 18 van de Kwalificatieve
 of
 
 
-
-
-
 - 
 c. verblijf als gezinslid, als bedoeld in artikel 23, eerste lid, van de Kwalificatieverordening.
-
-
-
-
-
-
-
-
-
 
 
 - 
 2 Onze Minister kan een aanvraag tot het verlenen van een verblijfsvergunning asiel
 als bedoeld in artikel 29c of 29d afwijzen, indien niet wordt voldaan aan de daarin
 gestelde voorwaarden.
-
-
-
-
-
-
 
 
 - 
@@ -8730,28 +5170,14 @@ de vreemdeling niet in aanmerking komt voor internationale bescherming op grond 
 de Kwalificatieverordening, overeenkomstig:
 
 
-
-
 - 
 a. artikel 40, vierde lid, van de Procedureverordening in de fase waarin de aanvraag
 expliciet wordt ingetrokken; of
 
 
-
-
-
 - 
 b. artikel 41, eerste en vijfde lid, van de Procedureverordening op het ogenblik waarop
 de aanvraag impliciet wordt ingetrokken.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -8762,30 +5188,12 @@ die de vluchtelingenstatus of de subsidiairebeschermingsstatus heeft of het desb
 gezinslid bijzondere banden heeft.
 
 
-
-
-
-
-
-
 - 
 5 Bij of krachtens algemene maatregel van bestuur kunnen regels worden gesteld over
 de toepassing van dit artikel.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 31a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -8804,26 +5212,12 @@ de toepassing van dit artikel.
 
 
 - Sla het regelingonderdeel op 
-
 
 
 [Vervallen per 20-07-2015]
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 32 
-
-
 
 
 - Toon relaties in LiDO 
@@ -8842,12 +5236,6 @@ de toepassing van dit artikel.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -8855,21 +5243,9 @@ de toepassing van dit artikel.
 de artikelen 65 en 66 van de Procedureverordening op grond van artikel 14 van de Kwalificatieverordening.
 
 
-
-
-
-
-
-
 - 
 2 Onze Minister trekt de verblijfsvergunning asiel, bedoeld in artikel 29a, in overeenkomstig
 de artikelen 65 en 66 van de Procedureverordening op grond van artikel 19 van de Kwalificatieverordening.
-
-
-
-
-
-
 
 
 - 
@@ -8880,28 +5256,14 @@ van het eerste of tweede lid is ingetrokken of ten aanzien van wie toepassing is
 aan het zesde lid.
 
 
-
-
-
-
-
-
 - 
 4 Onze Minister kan de verblijfsvergunning asiel, bedoeld in artikel 29b, voorts intrekken
 in de gevallen bedoeld in artikel 23, derde tot en met vijfde lid, van de Kwalificatieverordening.
 
 
-
-
-
-
-
-
 - 
 5 Onze Minister kan de verblijfsvergunning asiel, bedoeld in de artikelen 29c en 29d
 voorts intrekken, indien:
-
-
 
 
 - 
@@ -8910,21 +5272,12 @@ terwijl die gegevens tot afwijzing van de oorspronkelijke aanvraag tot het verle
 zouden hebben geleid;
 
 
-
-
-
 - 
 b. de vreemdeling een gevaar vormt voor de openbare orde of nationale veiligheid;
 
 
-
-
-
 - 
 c. de gronden voor verlening, bedoeld in de artikelen 29c of 29d, zijn komen te vervallen;
-
-
-
 
 
 - 
@@ -8933,25 +5286,10 @@ met de vreemdeling die internationale bescherming geniet en die houder is van de
 asiel, bedoeld in de artikelen 29 of 29a.
 
 
-
-
-
-
-
-
-
-
-
 - 
 6 Bij de afsluiting, bedoeld in artikel 66, zesde lid, van de Procedureverordening,
 vermeldt Onze Minister dat in het dossier van de vreemdeling en vermeldt hij daarbij
 de rechtsgrond voor die afsluiting.
-
-
-
-
-
-
 
 
 - 
@@ -8959,19 +5297,7 @@ de rechtsgrond voor die afsluiting.
 dit artikel.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 32a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -8990,10 +5316,6 @@ dit artikel.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Bij regeling van Onze Minister kunnen overeenkomstig artikel 64, eerste lid, van de
@@ -9003,16 +5325,7 @@ land of als veilig land van herkomst worden aangewezen, voor zover dat andere la
 zijn dan die welke op het niveau van de Unie als zodanig zijn aangewezen.
 
 
-
-
-
-
-
-
-
 # Artikel 33 
-
-
 
 
 - Toon relaties in LiDO 
@@ -9033,26 +5346,12 @@ zijn dan die welke op het niveau van de Unie als zodanig zijn aangewezen.
 - Sla het regelingonderdeel op 
 
 
-
 [Vervallen per 12-06-2026]
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Artikel 34 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -9071,26 +5370,12 @@ zijn dan die welke op het niveau van de Unie als zodanig zijn aangewezen.
 - Sla het regelingonderdeel op 
 
 
-
 [Vervallen per 12-06-2026]
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Artikel 35 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -9107,29 +5392,12 @@ zijn dan die welke op het niveau van de Unie als zodanig zijn aangewezen.
 
 
 - Sla het regelingonderdeel op 
-
 
 
 [Vervallen per 12-06-2026]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 2. Procedurele bepalingen
-
-
 
 
 - Toon relaties in LiDO 
@@ -9148,20 +5416,11 @@ zijn dan die welke op het niveau van de Unie als zodanig zijn aangewezen.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 36 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -9178,12 +5437,6 @@ zijn dan die welke op het niveau van de Unie als zodanig zijn aangewezen.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -9192,18 +5445,10 @@ zijn dan die welke op het niveau van de Unie als zodanig zijn aangewezen.
 ingediend door de vreemdeling of zijn wettelijk vertegenwoordiger.
 
 
-
-
-
-
-
-
 - 
 2 Overeenkomstig artikel 19 van de Procedureverordening en artikel 21 van de Asiel-
 en migratiebeheerverordening worden bij regeling van Onze Minister regels gesteld
 over:
-
-
 
 
 - 
@@ -9212,15 +5457,9 @@ tijdens de behandeling van de aanvraag om een verblijfsvergunning asiel als bedo
 in artikel 28 kosteloze juridische counseling verstrekken, bijstaan of vertegenwoordigen;
 
 
-
-
-
 - 
 b. de accreditatie van niet-gouvernementele organisaties die deze vreemdeling juridische
 diensten of vertegenwoordiging bieden; en
-
-
-
 
 
 - 
@@ -9229,22 +5468,7 @@ juridische counseling en wettelijke vertegenwoordiging, waaronder regels over he
 uitsluiten of beperken daarvan.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 37 
-
-
 
 
 - Toon relaties in LiDO 
@@ -9265,31 +5489,18 @@ uitsluiten of beperken daarvan.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
 Bij of krachtens algemene maatregel van bestuur worden ter uitvoering van de Procedureverordening
 en de Asiel- en migratiebeheerverordening regels gesteld omtrent:
-
-
-
 
 
 - 
 a. de wijze van indiening en behandeling van een aanvraag;
 
 
-
-
-
 - 
 b. de procedure voor de behandeling van een aanvraag tot het verlenen van een verblijfsvergunning
 asiel als bedoeld in artikel 28, indien dat noodzakelijk is ter uitvoering van de
 Procedureverordening of de Asiel- en migratiebeheerverordening;
-
-
-
 
 
 - 
@@ -9301,19 +5512,7 @@ door middel van het toezenden of uitreiken van een document en door het stellen 
 aantekeningen in een daarbij aan te wijzen document.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 38 
-
-
 
 
 - Toon relaties in LiDO 
@@ -9334,24 +5533,12 @@ aantekeningen in een daarbij aan te wijzen document.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Indien de vreemdeling in de gelegenheid wordt gesteld zich omtrent de aanvraag tot
 het verlenen van een verblijfsvergunning of het verlengen van de geldigheidsduur ervan
 te doen horen, wordt de vreemdeling gehoord in een taal waaraan de vreemdeling de
 voorkeur geeft, tenzij er een andere taal kan worden gebruikt die hij begrijpt en
 waarin hij helder kan communiceren.
-
-
-
-
-
-
 
 
 - 
@@ -9363,30 +5550,12 @@ wordt hij erop gewezen dat hij daartoe verklaringen moet afleggen en alle bewijs
 waarover hij beschikt of redelijkerwijs de beschikking kan krijgen moet overleggen.
 
 
-
-
-
-
-
-
 - 
 3 Bij of krachtens algemene maatregel van bestuur kunnen regels worden gesteld met betrekking
 tot het tweede lid.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 39 
-
-
 
 
 - Toon relaties in LiDO 
@@ -9405,10 +5574,6 @@ tot het tweede lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 De artikelen 4:7 en 4:8 van de Algemene wet bestuursrecht zijn niet van toepassing
@@ -9416,16 +5581,7 @@ op de aanvraag tot het verlenen van een verblijfsvergunning asiel als bedoeld in
 28.
 
 
-
-
-
-
-
-
-
 # Artikel 40 
-
-
 
 
 - Toon relaties in LiDO 
@@ -9444,26 +5600,12 @@ op de aanvraag tot het verlenen van een verblijfsvergunning asiel als bedoeld in
 
 
 - Sla het regelingonderdeel op 
-
 
 
 [Vervallen per 12-06-2026]
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 41 
-
-
 
 
 - Toon relaties in LiDO 
@@ -9482,12 +5624,6 @@ op de aanvraag tot het verlenen van een verblijfsvergunning asiel als bedoeld in
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -9497,21 +5633,9 @@ eerste lid, van de Procedureverordening onder opgave van redenen schriftelijk in
 gesteld.
 
 
-
-
-
-
-
-
 - 
 2 Het eerste lid is van overeenkomstige toepassing indien Onze Minister voornemens is
 de verblijfsvergunning asiel, bedoeld in de artikelen 29b, 29c of 29d, in te trekken.
-
-
-
-
-
-
 
 
 - 
@@ -9524,22 +5648,10 @@ worden bij de schriftelijke mededeling gevoegd, voor zover de vreemdeling geen k
 kan hebben van de inhoud van deze stukken.
 
 
-
-
-
-
-
-
 - 
 4 De vreemdeling brengt zijn zienswijze in afwijking van artikel 4:9 van de Algemene
 wet bestuursrecht schriftelijk naar voren binnen de door Onze Minister bepaalde redelijke
 termijn.
-
-
-
-
-
-
 
 
 - 
@@ -9548,33 +5660,12 @@ blijft de verblijfsvergunning asiel in te trekken, dan wordt de vreemdeling in d
 gelegenheid gesteld zich te doen horen.
 
 
-
-
-
-
-
-
 - 
 6 Bij of krachtens algemene maatregel van bestuur worden regels gesteld omtrent de termijn,
 bedoeld in het vierde lid, alsmede de toepassing van de voorgaande leden.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 3. De beschikking op de aanvraag
-
-
 
 
 - Toon relaties in LiDO 
@@ -9593,20 +5684,11 @@ bedoeld in het vierde lid, alsmede de toepassing van de voorgaande leden.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 42 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -9623,26 +5705,12 @@ bedoeld in het vierde lid, alsmede de toepassing van de voorgaande leden.
 
 
 - Sla het regelingonderdeel op 
-
 
 
 [Vervallen per 12-06-2026]
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 43 
-
-
 
 
 - Toon relaties in LiDO 
@@ -9661,10 +5729,6 @@ bedoeld in het vierde lid, alsmede de toepassing van de voorgaande leden.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Onze Minister kan, overeenkomstig artikel 35, zevende lid, van de Procedureverordening,
@@ -9675,16 +5739,7 @@ artikel 35, vierde lid, van de Procedureverordening vastgestelde termijnen vanwe
 een onzekere situatie in het land van herkomst die naar verwachting tijdelijk is.
 
 
-
-
-
-
-
-
-
 # Artikel 43a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -9703,10 +5758,6 @@ een onzekere situatie in het land van herkomst die naar verwachting tijdelijk is
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Onverminderd artikel 4:5 van de Algemene wet bestuursrecht worden de termijnen als
@@ -9716,19 +5767,7 @@ op de aanvraag tot het verlenen van een verblijfsvergunning asiel als bedoeld in
 de duur van de tijdelijke bescherming.
 
 
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 4. De inwilliging van de aanvraag
-
-
 
 
 - Toon relaties in LiDO 
@@ -9749,16 +5788,7 @@ de duur van de tijdelijke bescherming.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
-
 # Artikel 44 
-
-
 
 
 - Toon relaties in LiDO 
@@ -9782,22 +5812,10 @@ de duur van de tijdelijke bescherming.
 [Wijziging(en) zonder datum inwerkingtreding aanwezig. Zie het wijzigingenoverzicht .]
 
 
-
-
-
-
-
-
 - 
 1 Verlening van de verblijfsvergunning asiel, bedoeld in artikel 28 , die rechtmatig verblijf inhoudt, heeft van rechtswege tot gevolg de beëindiging
 van de verstrekkingen voorzien bij of krachtens de Wet Centraal Orgaan opvang asielzoekers of een ander wettelijk voorschrift dat soortgelijke verstrekkingen regelt. De verstrekkingen
 worden beëindigd op de wijze voorzien bij of krachtens de Wet Centraal Orgaan opvang asielzoekers of in het andere wettelijk voorschrift en binnen de daartoe gestelde termijn.
-
-
-
-
-
-
 
 
 - 
@@ -9806,34 +5824,13 @@ in de artikelen 29 tot en met 29d, wordt ingewilligd, wordt deze verblijfsvergun
 verleend met ingang van de dag na de bekendmaking van de beschikking.
 
 
-
-
-
-
-
-
 - 
 3 De verblijfsvergunning asiel, bedoeld in artikel 28, eerste lid, onderdeel c, subonderdeel
 3°, wordt verleend met ingang van de datum waarop de verblijfsvergunning als bedoeld
 in artikel 14 is ingetrokken.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 5. De afwijzing van de aanvraag
-
-
 
 
 - Toon relaties in LiDO 
@@ -9852,20 +5849,11 @@ in artikel 14 is ingetrokken.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 44a 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -9882,10 +5870,6 @@ in artikel 14 is ingetrokken.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Indien een aanvraag tot het verlenen van een verblijfsvergunning asiel als bedoeld
@@ -9893,14 +5877,8 @@ in artikel 28, niet in behandeling wordt genomen op grond van artikel 30, eerste
 dat:
 
 
-
-
-
 - 
 a. de vreemdeling rechtmatig verblijf heeft op grond van artikel 8, onder m ;
-
-
-
 
 
 - 
@@ -9909,15 +5887,9 @@ betreden, daaronder begrepen een woning zonder toestemming van de bewoner, tenei
 de vreemdeling over te dragen;
 
 
-
-
-
 - 
 c. de vreemdeling door Onze Minister overeenkomstig de Asiel- en migratiebeheerverordening
 kan worden overgedragen aan een verantwoordelijke lidstaat;
-
-
-
 
 
 - 
@@ -9931,19 +5903,7 @@ met inbegrip van het Handvest van de grondrechten van de Europese Unie, en inter
 verplichtingen.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 45 
-
-
 
 
 - Toon relaties in LiDO 
@@ -9964,12 +5924,6 @@ verplichtingen.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 De beschikking waarbij een aanvraag tot het verlenen van de verblijfsvergunning asiel,
 bedoeld in artikel 28, wordt afgewezen, geldt als terugkeerbesluit, tenzij reeds eerder
@@ -9977,30 +5931,19 @@ een terugkeerbesluit tegen de vreemdeling is uitgevaardigd en aan de daaruit voo
 terugkeerverplichting niet is voldaan, en heeft van rechtswege tot gevolg dat:
 
 
-
-
 - 
 a. de vreemdeling niet langer rechtmatig in Nederland verblijft tenzij een andere rechtsgrond
 voor rechtmatig verblijf als bedoeld in artikel 8 van toepassing is;
-
-
-
 
 
 - 
 b. de vreemdeling Nederland uit eigen beweging dient te verlaten binnen de in artikel 62 gestelde termijn, bij gebreke waarvan de vreemdeling kan worden uitgezet;
 
 
-
-
-
 - 
 c. de verstrekkingen voorzien bij of krachtens de Wet Centraal Orgaan opvang asielzoekers of een ander wettelijk voorschrift dat soortgelijke verstrekkingen regelt worden
 beëindigd op de bij of krachtens die wet of dat wettelijke voorschrift voorziene wijze
 en binnen de daartoe gestelde termijn;
-
-
-
 
 
 - 
@@ -10010,9 +5953,6 @@ zijn elke plaats te betreden, daaronder begrepen een woning zonder toestemming v
 de bewoner, teneinde de vreemdeling uit te zetten;
 
 
-
-
-
 - 
 e. de ambtenaren belast met het toezicht op vreemdelingen bevoegd zijn na ommekomst van
 de termijn als bedoeld in onderdeel c een onroerende zaak gedwongen te ontruimen teneinde
@@ -10020,24 +5960,9 @@ het onderdak of het verblijf in de woonruimte als verstrekking geboden, bedoeld 
 onderdeel c, te beëindigen.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 Het eerste lid is van overeenkomstige toepassing indien de verblijfsvergunning asiel,
 bedoeld in artikel 28, is ingetrokken.
-
-
-
-
-
-
 
 
 - 
@@ -10046,28 +5971,14 @@ tot het verlenen van de verblijfsvergunning asiel, bedoeld in artikel 28, wordt 
 niet als terugkeerbesluit, indien:
 
 
-
-
 - 
 a. dat niet in overeenstemming is met de Terugkeerrichtlijn en het beginsel van non-refoulement;
 of
 
 
-
-
-
 - 
 b. de beschikking is genomen in de asielgrensprocedure met toepassing van artikel 3,
 zesde lid.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -10079,21 +5990,9 @@ Na afloop van de duur van het besluit treden de opgeschorte rechtsgevolgen opnie
 in.
 
 
-
-
-
-
-
-
 - 
 5 De vreemdeling op wie het besluit als bedoeld in het vierde lid van toepassing is,
 wordt geacht rechtmatig verblijf als bedoeld in artikel 8, onder j , te hebben.
-
-
-
-
-
-
 
 
 - 
@@ -10105,31 +6004,13 @@ blijft. De opgeschorte gevolgen, bedoeld in het eerste lid, treden opnieuw in na
 van de tijdelijke bescherming.
 
 
-
-
-
-
-
-
 - 
 7 Het verblijf van de vreemdeling, bedoeld in het zesde lid, wordt gelijkgesteld met
 rechtmatig verblijf in de zin van artikel 8, onder f .
 
 
-
-
-
-
-
-
 - 
 8 De beschikking, bedoeld in het eerste lid, kan tevens een inreisverbod inhouden.
-
-
-
-
-
-
 
 
 - 
@@ -10143,25 +6024,7 @@ het grondgebied te begeven van de lidstaat die een geldige verblijfsvergunning o
 andere toestemming tot verblijf heeft gegeven.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Afdeling 5. De status van langdurig ingezetene
-
-
 
 
 - Toon relaties in LiDO 
@@ -10180,20 +6043,11 @@ andere toestemming tot verblijf heeft gegeven.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Paragraaf 1. De EU-verblijfsvergunning voor langdurig ingezetenen
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -10210,20 +6064,11 @@ andere toestemming tot verblijf heeft gegeven.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 45a 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -10242,16 +6087,8 @@ andere toestemming tot verblijf heeft gegeven.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Onze Minister is bevoegd:
-
-
 
 
 - 
@@ -10259,20 +6096,8 @@ a. de aanvraag tot het verlenen van een EU-verblijfsvergunning voor langdurig in
 in te willigen, af te wijzen dan wel niet in behandeling te nemen;
 
 
-
-
-
 - 
 b. een EU-verblijfsvergunning voor langdurig ingezetenen in te trekken.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -10281,19 +6106,7 @@ voor langdurig ingezetenen. De status van langdurig ingezetene is permanent, onv
 artikel 45d .
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 45b 
-
-
 
 
 - Toon relaties in LiDO 
@@ -10314,17 +6127,9 @@ artikel 45d .
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 De aanvraag tot het verlenen van een EU-verblijfsvergunning voor langdurig ingezetenen
 wordt afgewezen, indien de vreemdeling direct voorafgaande aan de aanvraag:
-
-
 
 
 - 
@@ -10332,29 +6137,17 @@ a. een verblijfsrecht van tijdelijke aard heeft op grond van een verblijfsvergun
 voor bepaalde tijd als bedoeld in artikel 14 ;
 
 
-
-
-
 - 
 b. een formeel beperkt verblijfsrecht heeft;
-
-
-
 
 
 - 
 c. verblijf heeft op grond van een bijzondere geprivilegieerde status;
 
 
-
-
-
 - 
 d. verblijf heeft op grond van een verblijfsvergunning asiel als bedoeld in artikel 28,
 die niet is verleend op grond van de artikelen 29 of 29a;
-
-
-
 
 
 - 
@@ -10364,20 +6157,9 @@ in het bezit is van een verblijfsvergunning als bedoeld in artikel 28, die niet 
 verleend op grond van de artikelen 29 of 29a.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 Onverminderd het eerste lid kan de aanvraag tot het verlenen van een EU-verblijfsvergunning
 voor langdurig ingezetenen slechts worden afgewezen, indien de vreemdeling:
-
-
 
 
 - 
@@ -10385,23 +6167,14 @@ a. niet gedurende vijf jaren ononderbroken en direct voorafgaande aan de aanvraa
 verblijf als bedoeld in artikel 8 heeft gehad, met inachtneming van het derde lid;
 
 
-
-
-
 - 
 b. in de periode, bedoeld onder a, zes of meer achtereenvolgende maanden of in totaal
 tien of meer maanden buiten Nederland heeft verbleven;
 
 
-
-
-
 - 
 c. al of niet tezamen met de gezinsleden bij wie hij verblijft, niet zelfstandig en duurzaam
 beschikt over voldoende middelen van bestaan;
-
-
-
 
 
 - 
@@ -10410,14 +6183,8 @@ waartegen een gevangenisstraf van drie jaren of meer is bedreigd, dan wel hem te
 zake de maatregel, bedoeld in artikel 37a van het Wetboek van Strafrecht , is opgelegd;
 
 
-
-
-
 - 
 e. een gevaar vormt voor de nationale veiligheid;
-
-
-
 
 
 - 
@@ -10425,21 +6192,9 @@ f. niet beschikt over een toereikende ziektekostenverzekering voor hemzelf en de
 laste komende gezinsleden; of
 
 
-
-
-
 - 
 g. niet heeft voldaan aan het bij of krachtens algemene maatregel van bestuur vast te
 stellen inburgeringsvereiste.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -10449,24 +6204,12 @@ niet meegeteld, met uitzondering van verblijf voor studie of beroepsopleiding, d
 voor de helft wordt meegeteld.
 
 
-
-
-
-
-
-
 - 
 4 Voor de berekening van de periode, bedoeld in het tweede lid, onderdeel a, wordt de
 periode tussen de datum van indiening van de aanvraag waarop een verblijfsvergunning
 asiel als bedoeld in de artikelen 29 of 29a werd verleend en de datum waarop de in
 artikel 9, tweede lid, onder a, bedoelde verblijfstitel werd afgegeven, volledig in
 aanmerking genomen.
-
-
-
-
-
-
 
 
 - 
@@ -10478,33 +6221,15 @@ verbleef, niet in aanmerking genomen bij de berekening van de periode, bedoeld i
 het tweede lid, onder a.
 
 
-
-
-
-
-
-
 - 
 6 Onze Minister kan het vijfde lid buiten toepassing laten indien de vreemdeling aantoont
 dat de redenen om in de andere lidstaat te wonen of te verblijven zonder dat hij daartoe
 het recht had, te wijten zijn aan omstandigheden die buiten zijn controle lagen.
 
 
-
-
-
-
-
-
 - 
 7 Bij of krachtens algemene maatregel van bestuur kunnen regels worden gesteld over
 de toepassing van het eerste lid en het tweede lid, onderdelen a tot en met f.
-
-
-
-
-
-
 
 
 - 
@@ -10513,19 +6238,7 @@ g, worden in ieder geval regels gesteld omtrent de inhoud van het inburgeringstr
 en het te behalen niveau, alsmede omtrent de vrijstellingen en ontheffingen.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 45c 
-
-
 
 
 - Toon relaties in LiDO 
@@ -10544,12 +6257,6 @@ en het te behalen niveau, alsmede omtrent de vrijstellingen en ontheffingen.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -10561,24 +6268,12 @@ artikel 28 die is verleend op grond van de artikelen 29 of 29a, tenzij de grond 
 die verlening is vervallen.
 
 
-
-
-
-
-
-
 - 
 2 Indien de EU-verblijfsvergunning voor langdurig ingezetenen wordt verleend aan een
 onderdaan van een derde land die reeds een verblijfsdocument bezit dat door een andere
 lidstaat is afgegeven en dat de aantekening «Internationale bescherming op [datum]
 verleend door [lidstaat]» bevat, wordt op het document, bedoeld in artikel 9 , dezelfde aantekening geplaatst, tenzij de internationale bescherming bij een definitief
 besluit van die andere lidstaat is ingetrokken.
-
-
-
-
-
-
 
 
 - 
@@ -10590,30 +6285,12 @@ afgegeven, wordt de aantekening op het document, bedoeld in artikel 9, dienovere
 gewijzigd.
 
 
-
-
-
-
-
-
 - 
 4 Bij of krachtens algemene maatregel van bestuur kunnen nadere regels worden gesteld
 over het bepaalde in het eerste, tweede en derde lid.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 45d 
-
-
 
 
 - Toon relaties in LiDO 
@@ -10634,16 +6311,8 @@ over het bepaalde in het eerste, tweede en derde lid.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 De EU-verblijfsvergunning voor langdurig ingezetenen kan worden ingetrokken, indien:
-
-
 
 
 - 
@@ -10652,28 +6321,14 @@ grondgebied van de Europese Unie, dan wel zes jaar of langer buiten Nederland he
 verbleven; of
 
 
-
-
-
 - 
 b. de vreemdeling een actuele en ernstige bedreiging voor de openbare orde of de nationale
 veiligheid vormt.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 De EU-verblijfsvergunning voor langdurig ingezetenen van de vreemdeling op wiens document,
 bedoeld in artikel 9 , de aantekening, bedoeld in artikel 45c, eerste lid , is geplaatst, kan worden ingetrokken, indien:
-
-
 
 
 - 
@@ -10683,28 +6338,14 @@ dan wel heeft aangezet tot of anderszins heeft deelgenomen aan deze misdrijven o
 daden; of
 
 
-
-
-
 - 
 b. de vreemdeling feiten verkeerd heeft weergegeven of heeft achtergehouden, of valse
 documenten heeft gebruikt, en dit doorslaggevend is geweest voor de verlening van
 de verblijfsvergunning, bedoeld in artikel 28 .
 
 
-
-
-
-
-
-
-
-
-
 - 
 3 De EU-verblijfsvergunning voor langdurig ingezetenen wordt ingetrokken, indien:
-
-
 
 
 - 
@@ -10712,20 +6353,8 @@ a. de vreemdeling langdurig ingezetene is geworden in een andere lidstaat van de
 Unie; of
 
 
-
-
-
 - 
 b. de verblijfsvergunning op frauduleuze wijze is verkregen.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -10733,22 +6362,7 @@ b. de verblijfsvergunning op frauduleuze wijze is verkregen.
 met betrekking tot het eerste, tweede en het derde lid.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 2. Procedurele bepalingen
-
-
 
 
 - Toon relaties in LiDO 
@@ -10767,20 +6381,11 @@ met betrekking tot het eerste, tweede en het derde lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 45e 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -10797,26 +6402,13 @@ met betrekking tot het eerste, tweede en het derde lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Het bij of krachtens de artikelen 23 , 24 en 24a bepaalde is van overeenkomstige toepassing op de aanvraag tot het verlenen van een
 EU-verblijfsvergunning voor langdurig ingezetenen.
 
 
-
-
-
-
-
-
-
 # Artikel 45f 
-
-
 
 
 - Toon relaties in LiDO 
@@ -10835,10 +6427,6 @@ EU-verblijfsvergunning voor langdurig ingezetenen.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Indien Onze Minister voornemens is om de EU-verblijfsvergunning voor langdurig ingezetenen
@@ -10847,19 +6435,7 @@ als bedoeld in artikel 45c, eerste lid, in te trekken, is artikel 41 van overeen
 toepassing.
 
 
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 3. De beschikking op de aanvraag
-
-
 
 
 - Toon relaties in LiDO 
@@ -10878,20 +6454,11 @@ toepassing.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 45g 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -10908,24 +6475,12 @@ toepassing.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
 1 De beschikking op de aanvraag tot het verlenen van de EU-verblijfsvergunning voor
 langdurig ingezetenen wordt bekendgemaakt uiterlijk zes maanden na ontvangst van de
 aanvraag.
-
-
-
-
-
-
 
 
 - 
@@ -10935,20 +6490,8 @@ Minister sprake is van bijzondere omstandigheden die verband houden met het comp
 karakter van de behandeling van de aanvraag.
 
 
-
-
-
-
-
-
 - 
 3 Onze Minister stelt de vreemdeling in kennis van de verlenging.
-
-
-
-
-
-
 
 
 - 
@@ -10956,22 +6499,7 @@ karakter van de behandeling van de aanvraag.
 geldt voor de toepassing van artikel 4:17, derde lid, van de Algemene wet bestuursrecht als de dag waarop de termijn voor het geven van de beschikking is verstreken.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 4. De inwilliging van de aanvraag
-
-
 
 
 - Toon relaties in LiDO 
@@ -10990,20 +6518,11 @@ geldt voor de toepassing van artikel 4:17, derde lid, van de Algemene wet bestuu
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 45h 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -11022,21 +6541,9 @@ geldt voor de toepassing van artikel 4:17, derde lid, van de Algemene wet bestuu
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 De EU-verblijfsvergunning voor langdurig ingezetenen wordt verleend met ingang van
 de datum waarop de vreemdeling heeft aangetoond dat hij aan alle voorwaarden voldoet.
-
-
-
-
-
-
 
 
 - 
@@ -11047,29 +6554,7 @@ voor langdurig ingezetenen verleend met ingang van de dag na die waarop de geldi
 van de verblijfsvergunning, bedoeld in artikel 14 dan wel artikel 28 afloopt.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Hoofdstuk 4. Handhaving
-
-
 
 
 - Toon relaties in LiDO 
@@ -11088,20 +6573,11 @@ van de verblijfsvergunning, bedoeld in artikel 14 dan wel artikel 28 afloopt.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Afdeling 1. Toezicht op de naleving
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -11118,20 +6594,11 @@ van de verblijfsvergunning, bedoeld in artikel 14 dan wel artikel 28 afloopt.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Paragraaf 1. Aanwijzing
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -11148,20 +6615,11 @@ van de verblijfsvergunning, bedoeld in artikel 14 dan wel artikel 28 afloopt.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 46 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -11178,12 +6636,6 @@ van de verblijfsvergunning, bedoeld in artikel 14 dan wel artikel 28 afloopt.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -11191,13 +6643,8 @@ van de verblijfsvergunning, bedoeld in artikel 14 dan wel artikel 28 afloopt.
 voorschriften met betrekking tot de grensbewaking zijn belast:
 
 
-
-
 - 
 a. de ambtenaren van de Koninklijke marechaussee;
-
-
-
 
 
 - 
@@ -11205,14 +6652,8 @@ b. de ambtenaren die zijn tewerkgesteld bij de regionale eenheid in het gebied w
 de haven van Rotterdam is gelegen;
 
 
-
-
-
 - 
 c. de directeur van een grenslogies als bedoeld in artikel 3 van het Reglement regime grenslogies ;
-
-
-
 
 
 - 
@@ -11221,26 +6662,12 @@ Zaken en Koninkrijksrelaties en van Defensie, aangewezen ambtenaren van politie 
 bedoeld in artikel 2, onder a, c en d, van de Politiewet 2012 die zijn aangesteld voor de uitvoering van de politietaak.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 Bij algemene maatregel van bestuur worden regels gesteld omtrent:
 
 
-
-
 - 
 a. de in het belang van de grensbewaking te treffen voorzieningen;
-
-
-
 
 
 - 
@@ -11248,33 +6675,12 @@ b. de verplichtingen waaraan personen zijn onderworpen met het oog op de control
 het belang van de grensbewaking.
 
 
-
-
-
-
-
-
-
-
-
 - 
 3 De bij of krachtens het eerste lid aangewezen ambtenaren belast met de grensbewaking
 zijn de in artikel 2, onder 14, van de Schengengrenscode bedoelde grenswachters.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 47 
-
-
 
 
 - Toon relaties in LiDO 
@@ -11293,12 +6699,6 @@ zijn de in artikel 2, onder 14, van de Schengengrenscode bedoelde grenswachters.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -11306,33 +6706,16 @@ zijn de in artikel 2, onder 14, van de Schengengrenscode bedoelde grenswachters.
 vreemdelingen zijn belast:
 
 
-
-
 - 
 a. de ambtenaren van politie, bedoeld in artikel 2, onder a, c en d, van de Politiewet 2012 , die zijn aangesteld voor de uitvoering van de politietaak;
-
-
-
 
 
 - 
 b. de ambtenaren van de Koninklijke marechaussee;
 
 
-
-
-
 - 
 c. de bij besluit van Onze Minister aangewezen ambtenaren.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -11340,30 +6723,12 @@ c. de bij besluit van Onze Minister aangewezen ambtenaren.
 vreemdelingen uit onder leiding van de korpschef.
 
 
-
-
-
-
-
-
 - 
 3 De ambtenaren van de Koninklijke marechaussee oefenen het toezicht op vreemdelingen
 uit onder leiding van de Commandant der Koninklijke marechaussee.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 47a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -11384,21 +6749,9 @@ uit onder leiding van de Commandant der Koninklijke marechaussee.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Met het toezicht op de naleving van de wettelijke voorschriften met betrekking tot
 referenten zijn belast de bij besluit van Onze Minister aangewezen ambtenaren.
-
-
-
-
-
-
 
 
 - 
@@ -11408,19 +6761,7 @@ op de naleving van de wettelijke voorschriften met betrekking tot referenten tev
 zijn belast de ambtenaren van politie, bedoeld in artikel 2, onder a, c en d, van de Politiewet 2012 , die zijn aangesteld voor de uitvoering van de politietaak, in welk geval artikel 47, tweede lid , van overeenkomstige toepassing is.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 48 
-
-
 
 
 - Toon relaties in LiDO 
@@ -11441,21 +6782,9 @@ zijn belast de ambtenaren van politie, bedoeld in artikel 2, onder a, c en d, va
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 De korpschef en de Commandant der Koninklijke marechaussee geven Onze Minister door
 hem gevraagde inlichtingen over de uitvoering van deze wet en van de Schengengrenscode.
-
-
-
-
-
-
 
 
 - 
@@ -11464,37 +6793,17 @@ aanwijzingen geven over de uitvoering van deze wet en van de Schengengrenscode. 
 Minister kan individuele aanwijzingen geven aan de ambtenaren, bedoeld in de artikelen 47, eerste lid , en 47a .
 
 
-
-
-
-
-
-
 - 
 3 Onze Minister kan aanwijzingen geven over de inrichting van de werkprocessen en bedrijfsvoering
 aan:
-
-
 
 
 - 
 a. de korpschef, door tussenkomst van Onze Minister van Veiligheid en Justitie;
 
 
-
-
-
 - 
 b. de Commandant der Koninklijke marechaussee, door tussenkomst van de Minister van Defensie.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -11502,22 +6811,7 @@ b. de Commandant der Koninklijke marechaussee, door tussenkomst van de Minister 
 tweede en derde lid. 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 2. Bevoegdheden
-
-
 
 
 - Toon relaties in LiDO 
@@ -11536,20 +6830,11 @@ tweede en derde lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 49 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -11566,12 +6851,6 @@ tweede en derde lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -11579,40 +6858,16 @@ tweede en derde lid.
 nodig, de artikelen 5:12 , 5:13 en 5:20, eerste en tweede lid, van de Algemene wet bestuursrecht van overeenkomstige toepassing.
 
 
-
-
-
-
-
-
 - 
 2 Op de uitoefening door de ambtenaren belast met de grensbewaking van de uit de Schengengrenscode
 voortvloeiende taken zijn de artikelen 5:12 , 5:13 en 5:20, eerste en tweede lid, van de Algemene wet bestuursrecht eveneens van overeenkomstige toepassing.
-
-
-
-
-
-
 
 
 - 
 3 Onze Minister is bevoegd tot overeenkomstige toepassing van artikel 5:20, derde lid, van de Algemene wet bestuursrecht ten aanzien van de in het eerste en tweede lid bedoelde bevoegdheden en taken.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 50 
-
-
 
 
 - Toon relaties in LiDO 
@@ -11631,12 +6886,6 @@ voortvloeiende taken zijn de artikelen 5:12 , 5:13 en 5:20, eerste en tweede lid
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -11652,12 +6901,6 @@ beschikken ter vaststelling van zijn identiteit, nationaliteit en verblijfsrecht
 positie.
 
 
-
-
-
-
-
-
 - 
 2 Indien de identiteit van de staande gehouden persoon niet onmiddellijk kan worden
 vastgesteld, of indien dit noodzakelijk is voor de toepassing van artikel 7 van de
@@ -11665,12 +6908,6 @@ Screeningsverordening, mag hij worden overgebracht naar een plaats bestemd voor 
 of een plaats bestemd voor screening. Hij wordt aldaar niet langer dan gedurende zes
 uren opgehouden, met dien verstande, dat de tijd tussen middernacht en negen uur voormiddags
 niet wordt meegerekend.
-
-
-
-
-
-
 
 
 - 
@@ -11681,12 +6918,6 @@ van artikel 7 van de Screeningsverordening, mag hij worden overgebracht naar een
 bestemd voor verhoor of een plaats bestemd voor screening. Hij wordt aldaar niet langer
 dan gedurende zes uren opgehouden, met dien verstande, dat de tijd tussen middernacht
 en negen uur voormiddags niet wordt meegerekend.
-
-
-
-
-
-
 
 
 - 
@@ -11700,21 +6931,9 @@ langer wordt opgehouden dan 72 uur op de plaats bestemd voor verhoor of een plaa
 bestemd voor screening.
 
 
-
-
-
-
-
-
 - 
 5 De in het eerste lid bedoelde ambtenaren zijn bevoegd de opgehouden persoon aan diens
 kleding of lichaam te onderzoeken, alsmede zaken van deze persoon te doorzoeken.
-
-
-
-
-
-
 
 
 - 
@@ -11722,19 +6941,7 @@ kleding of lichaam te onderzoeken, alsmede zaken van deze persoon te doorzoeken.
 van de voorgaande leden van dit artikel.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 50a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -11753,12 +6960,6 @@ van de voorgaande leden van dit artikel.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -11770,21 +6971,9 @@ van de vreemdeling op grond van artikel 59, eerste lid, aanhef en onder b , 59a 
 en negen uur voormiddags niet wordt meegerekend.
 
 
-
-
-
-
-
-
 - 
 2 De in het eerste lid bedoelde ambtenaren zijn bevoegd de opgehouden persoon aan diens
 kleding of lichaam te onderzoeken, alsmede zaken van deze persoon te doorzoeken.
-
-
-
-
-
-
 
 
 - 
@@ -11792,19 +6981,7 @@ kleding of lichaam te onderzoeken, alsmede zaken van deze persoon te doorzoeken.
 van de voorgaande leden van dit artikel.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 51 
-
-
 
 
 - Toon relaties in LiDO 
@@ -11823,12 +7000,6 @@ van de voorgaande leden van dit artikel.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -11842,21 +7013,9 @@ stilhoudt en naar een door hen aangewezen plaats overbrengt teneinde het vervoer
 te onderzoeken.
 
 
-
-
-
-
-
-
 - 
 2 
 Artikel 5:19, vijfde lid, van de Algemene wet bestuursrecht is van overeenkomstige toepassing op de vordering als bedoeld in het eerste lid.
-
-
-
-
-
-
 
 
 - 
@@ -11869,19 +7028,7 @@ naar een door hen aangewezen plaats overbrengt teneinde het luchtvaartuig te ond
 Bij of krachtens algemene maatregel van bestuur kunnen nadere regels worden gesteld.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 52 
-
-
 
 
 - Toon relaties in LiDO 
@@ -11900,12 +7047,6 @@ Bij of krachtens algemene maatregel van bestuur kunnen nadere regels worden gest
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -11916,12 +7057,6 @@ alsmede om hierin aantekeningen te maken. Bij of krachtens algemene maatregel va
 bestuur worden hierover nadere regels gesteld.
 
 
-
-
-
-
-
-
 - 
 2 Het reis- of identiteitspapier wordt aan de vreemdeling teruggegeven indien hij te
 kennen geeft Nederland te willen verlaten en hij ook daadwerkelijk vertrekt. Ingeval
@@ -11929,19 +7064,7 @@ van uitzetting kan het reis- en identiteitspapier worden overgedragen aan de per
 belast met de grensbewaking in het land waar de toelating is gewaarborgd.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 53 
-
-
 
 
 - Toon relaties in LiDO 
@@ -11960,12 +7083,6 @@ belast met de grensbewaking in het land waar de toelating is gewaarborgd.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -11976,12 +7093,6 @@ een redelijk vermoeden bestaat dat op deze plaats een vreemdeling verblijft die 
 rechtmatig verblijf heeft.
 
 
-
-
-
-
-
-
 - 
 2 De ambtenaren, bedoeld in het eerste lid, zijn tevens bevoegd elke plaats te betreden,
 daar onder begrepen een woning zonder de toestemming van de bewoner, voor zover dat
@@ -11989,19 +7100,7 @@ nodig is ter uitzetting van de vreemdeling dan wel voor de inbewaringstelling va
 de vreemdeling op grond van artikel 59 .
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 53a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -12020,12 +7119,6 @@ de vreemdeling op grond van artikel 59 .
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -12038,24 +7131,12 @@ de identiteit van de betrokken vreemdeling met een redelijke mate van zekerheid 
 worden afgeleid.
 
 
-
-
-
-
-
-
 - 
 2 De ambtenaren zijn tevens bevoegd elke bij een onderneming behorende ruimte te betreden
 en te doorzoeken voor zover dat redelijkerwijs noodzakelijk is voor de in het eerste
 lid bedoelde zaken, indien een staande gehouden vreemdeling wiens identiteit niet
 onmiddellijk kan worden vastgesteld, in die onderneming werkzaam is en indien vermoed
 wordt dat de vreemdeling een bij de onderneming behorende ruimte als woonruimte gebruikt.
-
-
-
-
-
-
 
 
 - 
@@ -12065,32 +7146,14 @@ wordt niet overgegaan dan nadat de vreemdeling is uitgenodigd deze vrijwillig af
 geven.
 
 
-
-
-
-
-
-
 - 
 4 De doorzoeking vindt slechts plaats voor zover dit redelijkerwijs niet leidt tot substantiële
 schade aan de ruimte of aan de zaken die zich in deze ruimte bevinden.
 
 
-
-
-
-
-
-
 - 
 5 De doorzoeking vindt slechts plaats in aanwezigheid van een bevoegd ambtenaar, tevens
 hulpofficier van Justitie.
-
-
-
-
-
-
 
 
 - 
@@ -12101,19 +7164,7 @@ tijdelijke inbewaringneming vatbare voorwerpen te voorkomen. Deze maatregelen ku
 de vrijheid van de personen die zich ter plaatse bevinden beperken.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 53b 
-
-
 
 
 - Toon relaties in LiDO 
@@ -12134,21 +7185,9 @@ de vrijheid van de personen die zich ter plaatse bevinden beperken.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 
 Artikel 10 van de Algemene wet op het binnentreden is van overeenkomstige toepassing op de bevoegdheid tot doorzoeking.
-
-
-
-
-
-
 
 
 - 
@@ -12157,34 +7196,13 @@ deze redelijkerwijs noodzakelijk was voor de tijdelijke inbewaringneming van de 
 bedoeld in artikel 53a, eerste en tweede lid.
 
 
-
-
-
-
-
-
 - 
 3 Het verslag wordt toegezonden aan de officier van justitie.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Paragraaf 3. Maatregelen van toezicht
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -12201,20 +7219,11 @@ bedoeld in artikel 53a, eerste en tweede lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 54 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -12231,12 +7240,6 @@ bedoeld in artikel 53a, eerste en tweede lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -12244,14 +7247,9 @@ bedoeld in artikel 53a, eerste en tweede lid.
 worden voorzien in een verplichting tot:
 
 
-
-
 - 
 a. het kennis geven van verandering van woon- of verblijfplaats binnen Nederland en van
 vertrek naar het buitenland;
-
-
-
 
 
 - 
@@ -12259,14 +7257,8 @@ b. het al dan niet in persoon verstrekken van gegevens welke van belang kunnen z
 de toepassing van de bij of krachtens deze wet gestelde regels;
 
 
-
-
-
 - 
 c. het verlenen van medewerking aan het vastleggen van gegevens met het oog op identificatie;
-
-
-
 
 
 - 
@@ -12275,48 +7267,24 @@ bij of krachtens de Wet publieke gezondheid , ter bescherming van de volksgezond
 aanvraag om een verblijfsvergunning;
 
 
-
-
-
 - 
 e. aanmelding binnen een bepaalde termijn na binnenkomst in Nederland;
-
-
-
 
 
 - 
 f. periodieke aanmelding;
 
 
-
-
-
 - 
 g. het inleveren van het document of schriftelijke verklaring als bedoeld in artikel 9 waaruit het rechtmatig verblijf blijkt;
-
-
-
 
 
 - 
 h. het stellen van zekerheid;
 
 
-
-
-
 - 
 i. het overleggen van documenten, anders dan bedoeld onder g.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -12324,27 +7292,13 @@ i. het overleggen van documenten, anders dan bedoeld onder g.
 gewezen referenten voorzien in verplichtingen tot:
 
 
-
-
 - 
 a. het al dan niet in persoon verstrekken van gegevens en bescheiden welke van belang
 kunnen zijn voor de toepassing van de bij of krachtens deze wet gestelde regels, en
 
 
-
-
-
 - 
 b. het administreren en beheren van gegevens en bescheiden als bedoeld onder a.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -12353,19 +7307,7 @@ veiligheid nodig oordeelt, kan hij aan een vreemdeling een individuele verplicht
 tot periodieke aanmelding bij de korpschef opleggen.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 55 
-
-
 
 
 - Toon relaties in LiDO 
@@ -12384,12 +7326,6 @@ tot periodieke aanmelding bij de korpschef opleggen.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -12399,12 +7335,6 @@ is, dient zich, in verband met het onderzoek naar de inwilligbaarheid van de aan
 om een verblijfsvergunning, onderscheidenlijk de toepassing van de Screeningsverordening,
 beschikbaar te houden op een door Onze Minister aangewezen plaats, overeenkomstig
 hem daartoe door de bevoegde autoriteit gegeven aanwijzingen.
-
-
-
-
-
-
 
 
 - 
@@ -12417,12 +7347,6 @@ of bescheiden, die noodzakelijk zijn voor de beoordeling van zijn aanvraag. Geli
 bevoegdheid bestaat indien de vreemdeling te kennen geeft een aanvraag te willen indienen.
 
 
-
-
-
-
-
-
 - 
 3 De ambtenaren belast met de grensbewaking en de ambtenaren belast met het toezicht
 op vreemdelingen zijn bevoegd een vreemdeling die zich in verband met het onderzoek
@@ -12431,19 +7355,7 @@ in een verwijdercentrum bevindt, aan diens kleding of lichaam te onderzoeken, al
 zijn bagage te doorzoeken met het oog op de veiligheid op die plaats.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 55.0a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -12462,12 +7374,6 @@ zijn bagage te doorzoeken met het oog op de veiligheid op die plaats.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -12479,21 +7385,9 @@ van vreemdelingen waarbij rekening wordt gehouden met de capaciteit van de betro
 geografische gebieden.
 
 
-
-
-
-
-
-
 - 
 2 De vreemdeling wordt zo snel mogelijk schriftelijk in kennis gesteld van de toewijzing
 aan een geografisch gebied en van de geografische grenzen van dat gebied.
-
-
-
-
-
-
 
 
 - 
@@ -12501,36 +7395,12 @@ aan een geografisch gebied en van de geografische grenzen van dat gebied.
 toestemming verzoeken om dat gebied tijdelijk te verlaten.
 
 
-
-
-
-
-
-
 - 
 4 Bij of krachtens algemene maatregel van bestuur worden nadere voorwaarden gesteld
 voor de toepassing van dit artikel.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Afdeling 2. Bestuurlijke boete
-
-
 
 
 - Toon relaties in LiDO 
@@ -12549,20 +7419,11 @@ voor de toepassing van dit artikel.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 55a 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -12579,12 +7440,6 @@ voor de toepassing van dit artikel.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -12594,21 +7449,9 @@ Minister kunnen nadere regels worden gesteld omtrent de hoogte van de bestuurlij
 boete.
 
 
-
-
-
-
-
-
 - 
 2 Het rapport vermeldt in ieder geval de bij het beboetbare feit betrokken persoon of
 personen.
-
-
-
-
-
-
 
 
 - 
@@ -12617,26 +7460,7 @@ constateren van de overtreding nog geen 24 maanden zijn verstreken nadat een eer
 overtreding van eenzelfde wettelijke verplichting is geconstateerd.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Hoofdstuk 5. Vrijheidsbeperkende en vrijheidsontnemende maatregelen
-
-
 
 
 - Toon relaties in LiDO 
@@ -12655,20 +7479,11 @@ overtreding van eenzelfde wettelijke verplichting is geconstateerd.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 56 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -12685,12 +7500,6 @@ overtreding van eenzelfde wettelijke verplichting is geconstateerd.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -12700,26 +7509,12 @@ te voorkomen dat de vreemdeling onderduikt wanneer er een onderduikrisico bestaa
 door Onze Minister de vrijheid van beweging worden beperkt van de vreemdeling die:
 
 
-
-
 - 
 a. geen rechtmatig verblijf heeft;
 
 
-
-
-
 - 
 b. rechtmatig verblijf heeft op grond van artikel 8, met uitzondering van de onderdelen b, d en e .
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -12728,19 +7523,7 @@ vreemdeling te kennen geeft Nederland te willen verlaten en hiertoe voor hem ook
 bestaat.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 57 
-
-
 
 
 - Toon relaties in LiDO 
@@ -12759,12 +7542,6 @@ bestaat.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -12775,20 +7552,8 @@ ook indien de beschikking waarbij de aanvraag is afgewezen nog niet onherroepeli
 is dan wel het beroep de werking van de beschikking opschort.
 
 
-
-
-
-
-
-
 - 
 2 Op aanvraag van de vreemdeling kan een andere ruimte of plaats worden aangewezen.
-
-
-
-
-
-
 
 
 - 
@@ -12799,22 +7564,10 @@ gehouden en de beschikking tot afwijzing meer dan acht weken na de indiening van
 aanvraag is gegeven.
 
 
-
-
-
-
-
-
 - 
 4 De aanwijzing, bedoeld in het eerste lid, vervalt indien de beschikking waarbij de
 aanvraag is afgewezen is vernietigd of zodra het vertrek van de vreemdeling uit de
 ruimte of plaats nodig is om Nederland te verlaten.
-
-
-
-
-
-
 
 
 - 
@@ -12822,19 +7575,7 @@ ruimte of plaats nodig is om Nederland te verlaten.
 de vreemdeling de beperking van zijn bewegingsvrijheid niet in acht heeft genomen.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 58 
-
-
 
 
 - Toon relaties in LiDO 
@@ -12853,12 +7594,6 @@ de vreemdeling de beperking van zijn bewegingsvrijheid niet in acht heeft genome
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -12867,29 +7602,11 @@ in artikel 57, eerste lid , de vreemdeling een ruimte of plaats aanwijzen, die i
 vertrek.
 
 
-
-
-
-
-
-
 - 
 2 De artikelen 6, vierde lid , 57, tweede tot en met vijfde lid en 59, derde lid , zijn van overeenkomstige toepassing.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 59 
-
-
 
 
 - Toon relaties in LiDO 
@@ -12910,38 +7627,18 @@ vertrek.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Indien het belang van de openbare orde of de nationale veiligheid zulks vordert kan,
 met het oog op de uitzetting, door Onze Minister in vreemdelingenbewaring worden gesteld
 de vreemdeling die:
 
 
-
-
 - 
 a. geen rechtmatig verblijf heeft;
 
 
-
-
-
 - 
 b. die rechtmatig verblijf heeft op grond van artikel 8, onder f, g en h , niet zijnde een vreemdeling als bedoeld in artikel 59a of 59b .
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -12951,22 +7648,10 @@ openbare orde geacht de vreemdelingenbewaring van de vreemdeling te vorderen, te
 de vreemdeling rechtmatig verblijf heeft gehad op grond van artikel 8, onder a tot en met e, en l .
 
 
-
-
-
-
-
-
 - 
 3 Vreemdelingenbewaring van een vreemdeling blijft achterwege indien en wordt beëindigd
 zodra hij te kennen geeft Nederland te willen verlaten en hiertoe voor hem ook gelegenheid
 bestaat.
-
-
-
-
-
-
 
 
 - 
@@ -12974,21 +7659,9 @@ bestaat.
 geen geval langer dan vier weken.
 
 
-
-
-
-
-
-
 - 
 5 Onverminderd het vierde lid duurt de vreemdelingenbewaring krachtens het eerste lid
 niet langer dan zes maanden.
-
-
-
-
-
-
 
 
 - 
@@ -12999,21 +7672,9 @@ vergen, op grond dat de vreemdeling niet meewerkt aan zijn uitzetting of de daar
 benodigde documentatie uit derde landen nog ontbreekt.
 
 
-
-
-
-
-
-
 - 
 7 Het vijfde en zesde lid zijn van overeenkomstige toepassing op de vreemdeling aan
 wie de verplichting of maatregel, bedoeld in artikel 6, eerste of tweede lid , dan wel artikel 58 is opgelegd.
-
-
-
-
-
-
 
 
 - 
@@ -13024,19 +7685,7 @@ zover dit noodzakelijk is voor het verkrijgen van informatie omtrent de identite
 nationaliteit en de verblijfsrechtelijke positie van de betreffende vreemdeling.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 59a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -13055,12 +7704,6 @@ nationaliteit en de verblijfsrechtelijke positie van de betreffende vreemdeling.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -13069,30 +7712,12 @@ toepassing is, met het oog op de overdracht aan een verantwoordelijke lidstaat i
 vreemdelingenbewaring stellen met inachtneming van artikel 44 van de Asiel- en migratiebeheerverordening.
 
 
-
-
-
-
-
-
 - 
 2 
 Artikel 59, derde lid , is van overeenkomstige toepassing.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 59b 
-
-
 
 
 - Toon relaties in LiDO 
@@ -13113,26 +7738,15 @@ Artikel 59, derde lid , is van overeenkomstige toepassing.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 De vreemdeling die rechtmatig verblijf heeft op grond van artikel 8, aanhef en onder
 f, subonderdeel 2° of onder h, subonderdeel 2°, voor zover dit betrekking heeft op
 een aanvraag tot het verlenen van een verblijfsvergunning als bedoeld in artikel 28 , kan door Onze Minister in vreemdelingenbewaring worden gesteld, indien:
 
 
-
-
 - 
 a. vreemdelingenbewaring noodzakelijk is met het oog op vaststelling van de identiteit
 of nationaliteit van de vreemdeling;
-
-
-
 
 
 - 
@@ -13143,13 +7757,8 @@ de aanvrager niet in vreemdelingenbewaring zou worden gehouden, met name wanneer
 is van een onderduikrisico;
 
 
-
-
-
 - 
 c. de vreemdeling:
-
-
 
 
 - 
@@ -13157,14 +7766,8 @@ c. de vreemdeling:
 hoofde van de Terugkeerrichtlijn;
 
 
-
-
-
 - 
 2°. reeds de mogelijkheid van toegang tot de asielprocedure heeft gehad; en
-
-
-
 
 
 - 
@@ -13172,18 +7775,9 @@ hoofde van de Terugkeerrichtlijn;
 om de uitvoering van het terugkeerbesluit uit te stellen of te verijdelen;
 
 
-
-
-
-
-
-
 - 
 d. de vreemdeling een gevaar vormt voor de nationale veiligheid of openbare orde als
 bedoeld in artikel 10, vierde lid, onderdeel f, van de Opvangrichtlijn; of
-
-
-
 
 
 - 
@@ -13192,25 +7786,10 @@ vrijheidsbeperkende maatregel, bedoeld in artikel 56, eerste lid, in het geval d
 vreemdeling die maatregel niet naleeft en het onderduikrisico blijft bestaan.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 De vreemdelingenbewaring krachtens het eerste lid, duurt zo kort mogelijk, uitsluitend
 zo lang de in het eerste lid genoemde gronden van toepassing zijn en niet langer dan
 zes maanden.
-
-
-
-
-
-
 
 
 - 
@@ -13218,13 +7797,8 @@ zes maanden.
 zes maanden verlengen, indien er sprake is van:
 
 
-
-
 - 
 a. complexe feitelijke of juridische kwesties; of
-
-
-
 
 
 - 
@@ -13234,26 +7808,11 @@ dat de vreemdeling de krachtens artikel 9 van de Procedureverordening op hem rus
 verplichtingen niet nakomt.
 
 
-
-
-
-
-
-
-
-
-
 - 
 4 De vreemdeling wordt niet in vreemdelingenbewaring gesteld om de enkele reden dat
 hij een aanvraag tot het verlenen van een verblijfsvergunning asiel als bedoeld in
 artikel 28 heeft ingediend of op basis van zijn nationaliteit. De vreemdelingenbewaring
 mag niet bestraffend van aard zijn.
-
-
-
-
-
-
 
 
 - 
@@ -13265,14 +7824,9 @@ maatregelen niet doeltreffend kunnen worden toegepast, en nadat overeenkomstig a
 voor zo kort mogelijke duur in vreemdelingenbewaring worden gehouden:
 
 
-
-
 - 
 a. in het geval van begeleide minderjarigen, wanneer de ouder of hoofdverzorger van de
 minderjarige in vreemdelingenbewaring wordt gehouden, of
-
-
-
 
 
 - 
@@ -13280,22 +7834,7 @@ b. in het geval van niet-begeleide minderjarigen, wanneer de minderjarige door d
 wordt beschermd.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 59c 
-
-
 
 
 - Toon relaties in LiDO 
@@ -13316,32 +7855,14 @@ wordt beschermd.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Onze Minister stelt een vreemdeling slechts in vreemdelingenbewaring op grond van
 artikel 59 , 59a of 59b , voor zover geen minder dwingende maatregelen doeltreffend kunnen worden toegepast.
 
 
-
-
-
-
-
-
 - 
 2 Vreemdelingenbewaring van een vreemdeling blijft achterwege of wordt beëindigd, indien
 deze niet langer noodzakelijk is met het oog op het doel van de vreemdelingenbewaring.
-
-
-
-
-
-
 
 
 - 
@@ -13351,19 +7872,7 @@ de vreemdelingenbewaring is gebaseerd en de reden dat geen minder dwingende maat
 doeltreffend kunnen worden toegepast, bedoeld in het eerste lid.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 60 
-
-
 
 
 - Toon relaties in LiDO 
@@ -13382,10 +7891,6 @@ doeltreffend kunnen worden toegepast, bedoeld in het eerste lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Bij of krachtens algemene maatregel van bestuur worden nadere regels gegeven omtrent
@@ -13394,20 +7899,7 @@ verhaal van de kosten van vreemdelingenbewaring op de vreemdeling zelf en, indie
 hij minderjarig is, op degenen die het wettig gezag over hem uitoefenen.
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Hoofdstuk 6. Vertrek, uitzetting en overdracht, inreisverbod en ongewenstverklaring
-
-
 
 
 - Toon relaties in LiDO 
@@ -13426,20 +7918,11 @@ hij minderjarig is, op degenen die het wettig gezag over hem uitoefenen.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Afdeling 1. Vertrek
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -13456,20 +7939,11 @@ hij minderjarig is, op degenen die het wettig gezag over hem uitoefenen.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 61 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -13488,21 +7962,9 @@ hij minderjarig is, op degenen die het wettig gezag over hem uitoefenen.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 De vreemdeling die niet of niet langer rechtmatig verblijf heeft, dient Nederland
 uit eigen beweging te verlaten binnen de in artikel 62 bepaalde termijn.
-
-
-
-
-
-
 
 
 - 
@@ -13511,29 +7973,11 @@ is ingetrokken, is opgeschort, kan van de vreemdeling medewerking worden gevorde
 aan de voorbereiding van het vertrek uit Nederland. 
 
 
-
-
-
-
-
-
 - 
 3 Het indienen van een klacht als bedoeld in artikel 9:1 van de Algemene wet bestuursrecht schort de verplichting, bedoeld in het eerste lid, niet op.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 62 
-
-
 
 
 - Toon relaties in LiDO 
@@ -13554,21 +7998,9 @@ aan de voorbereiding van het vertrek uit Nederland.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Nadat tegen de vreemdeling, niet zijnde gemeenschapsonderdaan, een terugkeerbesluit
 is uitgevaardigd, dient hij Nederland uit eigen beweging binnen vier weken te verlaten.
-
-
-
-
-
-
 
 
 - 
@@ -13577,13 +8009,8 @@ lid, verkorten, dan wel, in afwijking van het eerste lid, bepalen dat een vreemd
 Nederland onmiddellijk moet verlaten, indien:
 
 
-
-
 - 
 a. er een onderduikrisico bestaat;
-
-
-
 
 
 - 
@@ -13593,33 +8020,15 @@ kennelijk ongegrond of wegens het verstrekken van onjuiste of onvolledige gegeve
 of
 
 
-
-
-
 - 
 c. de vreemdeling een gevaar vormt voor de openbare orde, de openbare veiligheid of de
 nationale veiligheid.
-
-
-
-
-
-
-
-
-
 
 
 - 
 3 Nadat het rechtmatig verblijf van de gemeenschapsonderdaan is geëindigd, dient hij
 Nederland uit eigen beweging binnen een maand na de kennisgeving daarvan te verlaten.
 Onze Minister kan deze termijn verkorten in naar behoren aangetoonde dringende gevallen.
-
-
-
-
-
-
 
 
 - 
@@ -13629,19 +8038,7 @@ individuele geval. Bij ministeriële regeling worden regels gesteld over de duur
 de verlenging en worden de gevallen aangewezen waarin de termijn kan worden verlengd.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 62a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -13662,12 +8059,6 @@ de verlenging en worden de gevallen aangewezen waarin de termijn kan worden verl
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Onze Minister stelt de vreemdeling, niet zijnde gemeenschapsonderdaan, die niet of
 niet langer rechtmatig verblijf heeft, schriftelijk in kennis van de verplichting
@@ -13675,22 +8066,14 @@ Nederland uit eigen beweging te verlaten en van de termijn waarbinnen hij aan di
 verplichting moet voldoen, tenzij:
 
 
-
-
 - 
 a. reeds eerder een terugkeerbesluit tegen de vreemdeling is uitgevaardigd en aan de
 daaruit voortvloeiende terugkeerverplichting niet is voldaan,
 
 
-
-
-
 - 
 b. de vreemdeling in bezit is van een door een andere lidstaat afgegeven geldige verblijfsvergunning
 of andere toestemming tot verblijf, of
-
-
-
 
 
 - 
@@ -13699,24 +8082,9 @@ grond van een op 13 januari 2009 geldende bilaterale of multilaterale overeenkom
 of regeling.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 De kennisgeving, bedoeld in het eerste lid, geldt als terugkeerbesluit en kan tevens
 een inreisverbod inhouden.
-
-
-
-
-
-
 
 
 - 
@@ -13727,19 +8095,7 @@ vertrek van vreemdeling is vereist, wordt tegen de vreemdeling een terugkeerbesl
 uitgevaardigd.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 62b 
-
-
 
 
 - Toon relaties in LiDO 
@@ -13758,12 +8114,6 @@ uitgevaardigd.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -13772,29 +8122,11 @@ en migratiebeheerverordening schriftelijk in kennis van het besluit om hem over 
 dragen aan de verantwoordelijke lidstaat.
 
 
-
-
-
-
-
-
 - 
 2 De kennisgeving, bedoeld in het eerste lid, geldt als een overdrachtsbesluit.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 62c 
-
-
 
 
 - Toon relaties in LiDO 
@@ -13813,29 +8145,13 @@ dragen aan de verantwoordelijke lidstaat.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Het rechtmatig verblijf op grond van artikel 8, onder m , eindigt van rechtswege nadat de vreemdeling Nederland kennelijk uit eigen beweging
 heeft verlaten, dan wel de feitelijke overdracht is gerealiseerd.
 
 
-
-
-
-
-
-
-
-
-
-
 # Afdeling 2. Uitzetting en overdracht
-
-
 
 
 - Toon relaties in LiDO 
@@ -13854,20 +8170,11 @@ heeft verlaten, dan wel de feitelijke overdracht is gerealiseerd.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 63 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -13884,12 +8191,6 @@ heeft verlaten, dan wel de feitelijke overdracht is gerealiseerd.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -13897,20 +8198,8 @@ heeft verlaten, dan wel de feitelijke overdracht is gerealiseerd.
 gestelde termijn Nederland uit eigen beweging heeft verlaten, kan worden uitgezet.
 
 
-
-
-
-
-
-
 - 
 2 Onze Minister is bevoegd tot uitzetting.
-
-
-
-
-
-
 
 
 - 
@@ -13919,19 +8208,7 @@ is ingetrokken is opgeschort, kan van de vreemdeling medewerking worden gevorder
 aan de voorbereiding van de uitzetting.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 63a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -13950,10 +8227,6 @@ aan de voorbereiding van de uitzetting.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 De vreemdeling tegen wie een overdrachtsbesluit is uitgevaardigd, kan overeenkomstig
@@ -13961,16 +8234,7 @@ artikel 46, eerste lid, van de Asiel- en migratiebeheerverordening door Onze Min
 worden overgedragen aan de verantwoordelijke lidstaat in de zin van de Asiel- en migratiebeheerverordening.
 
 
-
-
-
-
-
-
-
 # Artikel 64 
-
-
 
 
 - Toon relaties in LiDO 
@@ -13989,26 +8253,13 @@ worden overgedragen aan de verantwoordelijke lidstaat in de zin van de Asiel- en
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Uitzetting blijft achterwege zolang het gelet op de gezondheidstoestand van de vreemdeling
 of die van een van zijn gezinsleden niet verantwoord is om te reizen.
 
 
-
-
-
-
-
-
-
 # Artikel 65 
-
-
 
 
 - Toon relaties in LiDO 
@@ -14029,16 +8280,8 @@ of die van een van zijn gezinsleden niet verantwoord is om te reizen.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 De vreemdeling:
-
-
 
 
 - 
@@ -14046,23 +8289,11 @@ a. die Nederland is binnengekomen aan boord van een vaartuig of luchtvaartuig in
 bij een vervoersonderneming en die Nederland onmiddellijk dient te verlaten, of
 
 
-
-
-
 - 
 b. die met het oog op zijn uitzetting is aangehouden binnen zes maanden nadat hij is
 binnengekomen aan boord van een vaartuig of luchtvaartuig in gebruik bij een vervoersonderneming,
 kan worden uitgezet door plaatsing aan boord van een vaartuig of luchtvaartuig in
 gebruik bij dezelfde vervoersonderneming.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -14074,22 +8305,10 @@ binnen redelijke tijd na de aanhouding mogelijk, dan kunnen de kosten van uitzet
 uit Nederland op die vervoersonderneming worden verhaald.
 
 
-
-
-
-
-
-
 - 
 3 Gezagvoerders van vaartuigen en luchtvaartuigen verlenen aan de uitzetting van de
 vreemdeling alle medewerking die de ambtenaar belast met de grensbewaking redelijkerwijs
 kan vorderen.
-
-
-
-
-
-
 
 
 - 
@@ -14098,19 +8317,7 @@ geniet tot een later tijdstip dan dat van vertrek van het vaartuig of luchtvaart
 aan boord waarvan hij is binnengekomen.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 66 
-
-
 
 
 - Toon relaties in LiDO 
@@ -14129,12 +8336,6 @@ aan boord waarvan hij is binnengekomen.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -14145,34 +8346,13 @@ op de vreemdeling zelf en, indien hij minderjarig is, op degenen die het wetteli
 gezag over hem uitoefenen of uitoefenden.
 
 
-
-
-
-
-
-
 - 
 2 Het terzake van uitzetting verschuldigde bedrag kan worden ingevorderd bij dwangbevel.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Afdeling 3. Inreisverbod
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -14189,20 +8369,11 @@ gezag over hem uitoefenen of uitoefenden.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 66a 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -14219,12 +8390,6 @@ gezag over hem uitoefenen of uitoefenden.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -14232,13 +8397,8 @@ gezag over hem uitoefenen of uitoefenden.
 is, op wie artikel 64 niet van toepassing is en die Nederland:
 
 
-
-
 - 
 a. onmiddellijk moet verlaten ingevolge artikel 62, tweede lid , of
-
-
-
 
 
 - 
@@ -14248,24 +8408,9 @@ wordt uitgevaardigd dan wel een beschikking die mede strekt tot wijziging van he
 reeds gegeven terugkeerbesluit.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 Onze Minister kan een inreisverbod uitvaardigen tegen de vreemdeling, die geen gemeenschapsonderdaan
 is en die Nederland niet onmiddellijk moet verlaten.
-
-
-
-
-
-
 
 
 - 
@@ -14273,12 +8418,6 @@ is en die Nederland niet onmiddellijk moet verlaten.
 van de toegang en het verblijf gesignaleerd in de daartoe bij of krachtens een verdrag,
 een EU-verordening, -richtlijn, of -besluit of een algemene maatregel van bestuur
 aangewezen informatie- dan wel signaleringssystemen.
-
-
-
-
-
-
 
 
 - 
@@ -14289,21 +8428,9 @@ duur wordt berekend met ingang van de datum waarop de vreemdeling Nederland daad
 heeft verlaten.
 
 
-
-
-
-
-
-
 - 
 5 Indien de bekendmaking van de beschikking, waarbij het inreisverbod is uitgevaardigd,
 geschiedt door toezending, wordt van de beschikking mededeling gedaan in de Staatscourant.
-
-
-
-
-
-
 
 
 - 
@@ -14312,35 +8439,18 @@ van weigering van de toegang geen rechtmatig verblijf hebben, met uitzondering v
 het rechtmatig verblijf:
 
 
-
-
 - 
 a. van de vreemdeling die een eerste aanvraag tot het verlenen van een verblijfsvergunning
 als bedoeld in artikel 28 heeft ingediend, zolang op die aanvraag nog niet is beslist;
-
-
-
 
 
 - 
 b. bedoeld in artikel 8, onder j , en
 
 
-
-
-
 - 
 c. van de vreemdeling wiens uitzetting op grond van een rechterlijke beslissing achterwege
 dient te blijven totdat op het bezwaarschrift of beroepschrift is beslist.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -14349,22 +8459,14 @@ aanvraag tot het verlenen van een verblijfsvergunning als bedoeld in artikel 28 
 wie een inreisverbod geldt geen rechtmatig verblijf hebben, in geval de vreemdeling:
 
 
-
-
 - 
 a. bij onherroepelijk geworden rechtelijk vonnis is veroordeeld wegens een misdrijf waartegen
 een gevangenisstraf van drie jaren of meer is bedreigd dan wel hem ter zake de maatregel
 als bedoeld in artikel 37a van het Wetboek van Strafrecht is opgelegd;
 
 
-
-
-
 - 
 b. een gevaar vormt voor de openbare orde of de nationale veiligheid;
-
-
-
 
 
 - 
@@ -14372,21 +8474,9 @@ c. naar het oordeel van Onze Minister een ernstige bedreiging vormt als bedoeld 
 vierde lid, dan wel
 
 
-
-
-
 - 
 d. ingevolge een verdrag of in het belang van de internationale betrekkingen van Nederland
 ieder verblijf dient te worden ontzegd.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -14394,19 +8484,7 @@ ieder verblijf dient te worden ontzegd.
 afzien van het uitvaardigen van een inreisverbod.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 66b 
-
-
 
 
 - Toon relaties in LiDO 
@@ -14425,12 +8503,6 @@ afzien van het uitvaardigen van een inreisverbod.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -14438,33 +8510,12 @@ afzien van het uitvaardigen van een inreisverbod.
 van de vreemdeling besluiten tot opheffing of tijdelijke opheffing van het inreisverbod.
 
 
-
-
-
-
-
-
 - 
 2 Bij of krachtens algemene maatregel van bestuur kunnen regels worden gesteld over
 de toepassing van deze afdeling.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Afdeling 4. Ongewenstverklaring
-
-
 
 
 - Toon relaties in LiDO 
@@ -14483,20 +8534,11 @@ de toepassing van deze afdeling.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 67 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -14513,26 +8555,15 @@ de toepassing van deze afdeling.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
 1 Tenzij afdeling 3 van toepassing is, kan Onze Minister de vreemdeling ongewenst verklaren:
 
 
-
-
 - 
 a. indien hij niet rechtmatig in Nederland verblijft en bij herhaling een bij deze wet
 strafbaar gesteld feit heeft begaan;
-
-
-
 
 
 - 
@@ -14541,35 +8572,17 @@ misdrijf waartegen een gevangenisstraf van drie jaren of meer is bedreigd dan we
 hem terzake de maatregel als bedoeld in artikel 37a van het Wetboek van Strafrecht is opgelegd;
 
 
-
-
-
 - 
 c. indien hij een gevaar vormt voor de openbare orde of nationale veiligheid en geen
 rechtmatig verblijf heeft als bedoeld in artikel 8, onder a tot en met e dan wel l ;
-
-
-
 
 
 - 
 d. ingevolge een verdrag, of
 
 
-
-
-
 - 
 e. in het belang van de internationale betrekkingen van Nederland.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -14578,29 +8591,11 @@ verklaard, geschiedt door toezending, wordt van de beschikking mededeling gedaan
 de Staatscourant.
 
 
-
-
-
-
-
-
 - 
 3 In afwijking van artikel 8 kan de ongewenst verklaarde vreemdeling geen rechtmatig verblijf hebben.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 67a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -14619,10 +8614,6 @@ de Staatscourant.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Onze Minister kan een besluit als bedoeld in artikel 24, eerste lid, onder a, van
@@ -14630,16 +8621,7 @@ de SIS-verordening grenscontroles nemen, indien de in het tweede lid van artikel
 van die verordening genoemde situaties zich voordoen.
 
 
-
-
-
-
-
-
-
 # Artikel 68 
-
-
 
 
 - Toon relaties in LiDO 
@@ -14660,20 +8642,8 @@ van die verordening genoemde situaties zich voordoen.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Onze Minister kan op aanvraag van de vreemdeling besluiten tot opheffing van de ongewenstverklaring.
-
-
-
-
-
-
 
 
 - 
@@ -14682,37 +8652,12 @@ buiten Nederland verblijf heeft gehad en zich in die periode geen van de gronden
 bedoeld in artikel 67, eerste lid , hebben voorgedaan.
 
 
-
-
-
-
-
-
 - 
 3 Bij of krachtens algemene maatregel van bestuur kunnen regels worden gesteld omtrent
 de toepassing van deze afdeling. 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Hoofdstuk 7. Rechtsmiddelen
-
-
 
 
 - Toon relaties in LiDO 
@@ -14731,20 +8676,11 @@ de toepassing van deze afdeling.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Afdeling 1. Algemene bepalingen
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -14761,20 +8697,11 @@ de toepassing van deze afdeling.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 69 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -14791,28 +8718,14 @@ de toepassing van deze afdeling.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
 1 In afwijking van artikel 6:7 van de Algemene wet bestuursrecht bedraagt de termijn voor het indienen van een bezwaar- of beroepschrift vier weken.
 
 
-
-
-
-
-
-
 - 
 2 In afwijking van het eerste lid, bedraagt de beroepstermijn:
-
-
 
 
 - 
@@ -14820,34 +8733,20 @@ a. één week, indien de aanvraag tot het verlenen van een verblijfsvergunning a
 bedoeld in artikel 28:
 
 
-
-
 - 
 1° niet in behandeling is genomen op grond van artikel 30;
-
-
-
 
 
 - 
 2° niet-ontvankelijk is verklaard op grond van artikel 30a;
 
 
-
-
-
 - 
 3° is afgewezen als kennelijk ongegrond op grond van artikel 30b;
 
 
-
-
-
 - 
 4° buiten behandeling is gesteld op grond van artikel 30c, eerste lid, onderdeel b; of
-
-
-
 
 
 - 
@@ -14855,16 +8754,8 @@ bedoeld in artikel 28:
 het beroep zich richt tot het daarmee samenhangende terugkeerbesluit.
 
 
-
-
-
-
-
-
 - 
 b. twee weken, indien:
-
-
 
 
 - 
@@ -14872,32 +8763,14 @@ b. twee weken, indien:
 28 is ingewilligd op grond van artikel 29a;
 
 
-
-
-
 - 
 2° de aanvraag tot het verlenen van een verblijfsvergunning asiel als bedoeld in artikel
 28 is afgewezen als ongegrond op grond van artikel 31; of
 
 
-
-
-
 - 
 3° de verblijfsvergunning asiel als bedoeld in artikel 28 is ingetrokken op grond van
 artikel 32.
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -14906,21 +8779,9 @@ in artikel 93 niet aan enige termijn gebonden. De termijn voor het instellen van
 bedoeld in artikel 95 , bedraagt één week.
 
 
-
-
-
-
-
-
 - 
 4 In afwijking van het eerste lid bedraagt de beroepstermijn één week, indien een overdrachtsbesluit
 is genomen op grond van artikel 62b .
-
-
-
-
-
-
 
 
 - 
@@ -14928,26 +8789,12 @@ is genomen op grond van artikel 62b .
 beroep:
 
 
-
-
 - 
 a. twee weken, in de gevallen bedoeld in het tweede lid, onderdeel a; of
 
 
-
-
-
 - 
 b. vier weken, in de gevallen bedoeld in het tweede lid, onderdeel b.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -14956,12 +8803,6 @@ de Procedureverordening, wordt ingediend binnen een week na de bekendmaking van 
 besluit tot afwijzing van de asielaanvraag of het besluit tot intrekking van de verblijfsvergunning
 asiel, bedoeld in de artikelen 29 of 29a, in de gevallen, bedoeld in artikel 68, derde
 lid, van de Procedureverordening.
-
-
-
-
-
-
 
 
 - 
@@ -14974,19 +8815,7 @@ als bedoeld in artikel 44a of 62b niet opgeschort indien de vreemdeling geen ver
 om een voorlopige voorziening heeft ingediend.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 70 
-
-
 
 
 - Toon relaties in LiDO 
@@ -15005,12 +8834,6 @@ om een voorlopige voorziening heeft ingediend.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -15019,31 +8842,13 @@ beroep ingesteld door de vreemdeling in persoon, zijn wettelijke vertegenwoordig
 zijn bijzondere gemachtigde, zijn referent of een advocaat.
 
 
-
-
-
-
-
-
 - 
 2 Indien de vreemdeling van zijn vrijheid is ontnomen kan hij het bezwaar, administratief
 beroep, het beroep op de rechtbank of hoger beroep ook instellen door middel van de
 schriftelijke verklaring, bedoeld in artikel 451a van het Wetboek van Strafvordering 
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 71 
-
-
 
 
 - Toon relaties in LiDO 
@@ -15062,25 +8867,12 @@ schriftelijke verklaring, bedoeld in artikel 451a van het Wetboek van Strafvorde
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Op het beroep tegen een besluit, genomen op grond van de artikelen 43 en 45, vierde lid , zijn de artikelen 70, eerste lid , en 89 van overeenkomstige toepassing.
 
 
-
-
-
-
-
-
-
 # Artikel 71a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -15099,12 +8891,6 @@ Op het beroep tegen een besluit, genomen op grond van de artikelen 43 en 45, vie
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -15113,30 +8899,12 @@ bedoeld in artikel 8:88, eerste lid, van die wet tot vergoeding van schade die e
 besluit ten aanzien van deze vreemdeling als zodanig.
 
 
-
-
-
-
-
-
 - 
 2 In afwijking van artikel 8:94, eerste lid, van de Algemene wet bestuursrecht is artikel 8:10a, eerste tot en met derde lid, van die wet niet van overeenkomstige toepassing indien het verzoek wordt behandeld door de Afdeling
 bestuursrechtspraak van de Raad van State.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 71b 
-
-
 
 
 - Toon relaties in LiDO 
@@ -15155,30 +8923,13 @@ bestuursrechtspraak van de Raad van State.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
 
 
 Paragraaf 4.1.3.2 en de artikelen 8:55c en 8:55f, van de Algemene wet bestuursrecht zijn niet van toepassing op besluiten ten aanzien van aanvragen op grond van deze
 wet en beslissingen op bezwaar tegen deze besluiten.
 
 
-
-
-
-
-
-
-
-
-
-
 # Afdeling 2. Regulier
-
-
 
 
 - Toon relaties in LiDO 
@@ -15197,20 +8948,11 @@ wet en beslissingen op bezwaar tegen deze besluiten.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Paragraaf 1. Algemeen
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -15227,20 +8969,11 @@ wet en beslissingen op bezwaar tegen deze besluiten.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 72 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -15259,20 +8992,8 @@ wet en beslissingen op bezwaar tegen deze besluiten.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Deze afdeling is van toepassing indien de afdelingen 3 en 5 van dit hoofdstuk niet van toepassing zijn.
-
-
-
-
-
-
 
 
 - 
@@ -15281,22 +9002,10 @@ tot voorlopig verblijf, wordt voor de toepassing van dit hoofdstuk gelijkgesteld
 een beschikking omtrent een verblijfsvergunning regulier gegeven krachtens deze wet.
 
 
-
-
-
-
-
-
 - 
 3 Voor de toepassing van deze afdeling wordt met een beschikking tevens gelijkgesteld
 een handeling van een bestuursorgaan ten aanzien van een vreemdeling als zodanig,
 waaronder begrepen het niet verlenen van de verblijfsvergunning overeenkomstig artikel 14, tweede lid 
-
-
-
-
-
-
 
 
 - 
@@ -15304,19 +9013,7 @@ waaronder begrepen het niet verlenen van de verblijfsvergunning overeenkomstig a
 een kennisgeving als bedoeld in artikel 62a, eerste lid of artikel 62b, eerste lid .
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 72a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -15335,11 +9032,6 @@ een kennisgeving als bedoeld in artikel 62a, eerste lid of artikel 62b, eerste l
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
 
 
 Artikel 8:88, eerste lid, van de Algemene wet bestuursrecht is van overeenkomstige toepassing op een verzoek tot vergoeding van schade die een
@@ -15347,16 +9039,7 @@ vreemdeling lijdt als gevolg van een onrechtmatige handeling van dit bestuursorg
 ten aanzien van deze vreemdeling als zodanig. Artikel 71a is van overeenkomstige toepassing.
 
 
-
-
-
-
-
-
-
 # Artikel 73 
-
-
 
 
 - Toon relaties in LiDO 
@@ -15375,12 +9058,6 @@ ten aanzien van deze vreemdeling als zodanig. Artikel 71a is van overeenkomstige
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -15390,17 +9067,9 @@ administratief beroep is verstreken of, indien bezwaar is gemaakt of administrat
 beroep is ingesteld, totdat op het bezwaar of administratief beroep is beslist.
 
 
-
-
-
-
-
-
 - 
 2 Het eerste lid is niet van toepassing indien de aanvraag is afgewezen dan wel de verblijfsvergunning
 is ingetrokken op de grond, bedoeld in artikel:
-
-
 
 
 - 
@@ -15408,15 +9077,9 @@ a.
 16, eerste lid, onder a of d ;
 
 
-
-
-
 - 
 b. 
 18, eerste lid, onder e , en indien het een gecombineerde vergunning betreft, onder g;
-
-
-
 
 
 - 
@@ -15424,29 +9087,14 @@ c.
 21, eerste lid, onder c of d ;
 
 
-
-
-
 - 
 d. 
 artikel 22, eerste lid, onder c of d ;
 
 
-
-
-
 - 
 e. 
 45b, tweede lid, onder d of e .
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -15455,21 +9103,9 @@ van een herhaalde aanvraag of indien het bezwaarschrift of het administratief be
 niet tijdig is ingediend.
 
 
-
-
-
-
-
-
 - 
 4 Het eerste lid is evenmin van toepassing indien de vreemdeling rechtens zijn vrijheid
 is of wordt ontnomen op grond van artikel 59 , 59a of 59b .
-
-
-
-
-
-
 
 
 - 
@@ -15479,19 +9115,7 @@ bezwaar is gemaakt of administratief beroep is ingesteld, niet van toepassing op
 verplichting, bedoeld in artikel 62, eerste of derde lid .
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 74 
-
-
 
 
 - Toon relaties in LiDO 
@@ -15510,29 +9134,12 @@ verplichting, bedoeld in artikel 62, eerste of derde lid .
 
 
 - Sla het regelingonderdeel op 
-
 
 
 [Vervallen per 26-03-2008]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 2. Bezwaar
-
-
 
 
 - Toon relaties in LiDO 
@@ -15551,20 +9158,11 @@ verplichting, bedoeld in artikel 62, eerste of derde lid .
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 75 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -15581,26 +9179,12 @@ verplichting, bedoeld in artikel 62, eerste of derde lid .
 
 
 - Sla het regelingonderdeel op 
-
 
 
 [Vervallen per 01-01-2013]
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 76 
-
-
 
 
 - Toon relaties in LiDO 
@@ -15619,12 +9203,6 @@ verplichting, bedoeld in artikel 62, eerste of derde lid .
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -15633,34 +9211,13 @@ tot voorlopig verblijf, bedoeld in artikel 1a, onderdeel b , de verblijfsvergunn
 het indienen van het bezwaarschrift is verstreken.
 
 
-
-
-
-
-
-
 - 
 2 Onverminderd artikel 7:10, derde lid, van de Algemene wet bestuursrecht , kan de beslissing worden verdaagd voor ten hoogste dertien weken indien naar het
 oordeel van Onze Minister voor de beoordeling van het bezwaarschrift advies van of
 onderzoek door derden of het openbaar ministerie nodig is.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 3. Administratief beroep
-
-
 
 
 - Toon relaties in LiDO 
@@ -15679,20 +9236,11 @@ onderzoek door derden of het openbaar ministerie nodig is.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 77 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -15709,12 +9257,6 @@ onderzoek door derden of het openbaar ministerie nodig is.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -15722,33 +9264,12 @@ onderzoek door derden of het openbaar ministerie nodig is.
 Onze Minister is genomen, met uitzondering van een beschikking als bedoeld in artikel 72, tweede lid , kan bij Onze Minister administratief beroep worden ingesteld.
 
 
-
-
-
-
-
-
 - 
 2 In afwijking van het eerste lid staat geen administratief beroep open tegen een beschikking
 die is gegeven op grond van de artikelen 6 , 6a en 50, tweede, derde en vierde lid , en tegen de ophouding op grond van artikel 50a, eerste lid .
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 4. Beroep op de rechtbank
-
-
 
 
 - Toon relaties in LiDO 
@@ -15767,20 +9288,11 @@ die is gegeven op grond van de artikelen 6 , 6a en 50, tweede, derde en vierde l
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 78 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -15797,10 +9309,6 @@ die is gegeven op grond van de artikelen 6 , 6a en 50, tweede, derde en vierde l
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Indien een verzoek om een voorlopige voorziening is gedaan teneinde uitzetting te
@@ -15810,22 +9318,7 @@ beslist de voorzieningenrechter van de rechtbank zoveel mogelijk tevens over dat
 of administratief beroep.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Afdeling 3. Asiel
-
-
 
 
 - Toon relaties in LiDO 
@@ -15844,20 +9337,11 @@ of administratief beroep.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Paragraaf 1. Algemeen
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -15874,20 +9358,11 @@ of administratief beroep.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 79 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -15904,25 +9379,14 @@ of administratief beroep.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
 1 Deze afdeling is slechts van toepassing indien beroep wordt ingesteld tegen:
 
 
-
-
 - 
 a. een besluit omtrent een verblijfsvergunning als bedoeld in artikel 28;
-
-
-
 
 
 - 
@@ -15930,23 +9394,14 @@ b. een besluit omtrent een EU-verblijfsvergunning voor langdurig ingezetenen van
 vreemdeling die in het bezit is van een verblijfsvergunning als bedoeld in artikel 28 ;
 
 
-
-
-
 - 
 c. een besluit omtrent de intrekking van een EU-verblijfsvergunning voor langdurig ingezetenen
 van een vreemdeling op wiens document, bedoeld in artikel 9 , de aantekening, bedoeld in artikel 45c, eerste lid , is geplaatst dan wel omtrent het wijzigen of schrappen van die aantekening;
 
 
-
-
-
 - 
 d. een besluit omtrent tijdelijke bescherming of toepassing van artikel 45, vierde lid , indien de vreemdeling in de gelegenheid is gesteld zijn zienswijze over het voornemen
 van dat besluit te geven;
-
-
-
 
 
 - 
@@ -15958,24 +9413,9 @@ laatstgenoemd besluit in de gelegenheid is gesteld omstandigheden aan te voeren 
 daarvoor relevant kunnen zijn.
 
 
-
-
-
-
-
-
-
-
-
 - 
 2 Deze afdeling is van overeenkomstige toepassing indien beroep wordt ingesteld tegen
 een besluit als bedoeld in de artikelen 43 en 45, vierde lid .
-
-
-
-
-
-
 
 
 - 
@@ -15986,19 +9426,7 @@ artikel 14 te verlenen dan wel over het voornemen om de uitzetting of overdracht
 van artikel 64 achterwege te laten.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 80 
-
-
 
 
 - Toon relaties in LiDO 
@@ -16019,15 +9447,8 @@ van artikel 64 achterwege te laten.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
 In afwijking van artikel 8:1 van de Algemene wet bestuursrecht kan geen beroep worden
 ingesteld tegen:
-
-
-
 
 
 - 
@@ -16035,30 +9456,12 @@ a. het besluit tot afsluiting, dat is genomen met toepassing van artikel 32, zes
 of
 
 
-
-
-
 - 
 b. het besluit tot buitenbehandelingstelling, bedoeld in artikel 30c, eerste lid, onderdeel
 a.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 2. Beroep op de rechtbank
-
-
 
 
 - Toon relaties in LiDO 
@@ -16079,16 +9482,7 @@ a.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
-
 # Artikel 81 
-
-
 
 
 - Toon relaties in LiDO 
@@ -16112,23 +9506,10 @@ a.
 [Wijziging(en) zonder datum inwerkingtreding aanwezig. Zie het wijzigingenoverzicht .]
 
 
-
-
-
-
 In afwijking van de artikelen 8:41, eerste lid , en 8:82, eerste lid, van de Algemene wet bestuursrecht wordt door de griffier geen griffierecht geheven.
 
 
-
-
-
-
-
-
-
 # Artikel 82 
-
-
 
 
 - Toon relaties in LiDO 
@@ -16147,12 +9528,6 @@ In afwijking van de artikelen 8:41, eerste lid , en 8:82, eerste lid, van de Alg
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -16162,43 +9537,20 @@ de werking van het besluit omtrent een verblijfsvergunning asiel als bedoeld in 
 op het beroep is beslist.
 
 
-
-
-
-
-
-
 - 
 2 Het eerste lid is niet van toepassing, indien:
-
-
 
 
 - 
 a. artikel 68, derde lid, van de Procedureverordening van toepassing is;
 
 
-
-
-
 - 
 b. artikel 43, derde lid, van de Asiel- en migratiebeheerverordening van toepassing is;
 
 
-
-
-
 - 
 c. het een besluit als bedoeld in artikel 43 of 45, vierde lid, betreft.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -16207,19 +9559,7 @@ omtrent het recht om al dan niet in afwachting van de uitspraak op een verzoek o
 een voorlopige voorziening in Nederland te mogen verblijven.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 83 
-
-
 
 
 - Toon relaties in LiDO 
@@ -16240,36 +9580,16 @@ een voorlopige voorziening in Nederland te mogen verblijven.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 De rechtbank houdt bij de beoordeling van het beroep rekening met:
-
-
 
 
 - 
 a. feiten en omstandigheden die na het bestreden besluit zijn aangevoerd, en
 
 
-
-
-
 - 
 b. wijzigingen van beleid die na het bestreden besluit zijn bekendgemaakt.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -16277,13 +9597,8 @@ b. wijzigingen van beleid die na het bestreden besluit zijn bekendgemaakt.
 deze relevant kunnen zijn voor:
 
 
-
-
 - 
 a. de beschikking omtrent de verblijfsvergunning, bedoeld in artikel 28;
-
-
-
 
 
 - 
@@ -16291,40 +9606,19 @@ b. de beschikking omtrent de EU-verblijfsvergunning voor langdurig ingezetenen v
 vreemdeling die in het bezit is van een verblijfsvergunning als bedoeld in artikel 28 ;
 
 
-
-
-
 - 
 c. een besluit omtrent de intrekking van een EU-verblijfsvergunning voor langdurig ingezetenen
 van een vreemdeling op wiens document, bedoeld in artikel 9 , de aantekening, bedoeld in artikel 45c, eerste lid , is geplaatst dan wel omtrent het wijzigen of schrappen van die aantekening;
-
-
-
 
 
 - 
 d. de ambtshalve verlening van een vergunning als bedoeld in artikel 14 , dan wel het achterwege laten van de uitzetting of overdracht op grond van artikel 64 .
 
 
-
-
-
-
-
-
-
-
-
 - 
 3 Met de in het eerste lid bedoelde gegevens wordt geen rekening gehouden voor zover
 de goede procesorde zich daartegen verzet of de afdoening van de zaak daardoor ontoelaatbaar
 wordt vertraagd.
-
-
-
-
-
-
 
 
 - 
@@ -16336,12 +9630,6 @@ procesorde zich daartegen verzet of de afdoening van de zaak daardoor ontoelaatb
 wordt vertraagd.
 
 
-
-
-
-
-
-
 - 
 5 Onze Minister laat de wederpartij en de rechtbank zo spoedig mogelijk schriftelijk
 weten of de gegevens, bedoeld in het eerste lid, aanleiding zijn voor handhaving,
@@ -16349,34 +9637,17 @@ wijziging of intrekking van het bestreden besluit. De rechtbank kan daarvoor een
 stellen.
 
 
-
-
-
-
-
-
 - 
 6 Indien Onze Minister zich beroept op gegevens als bedoeld in het eerste lid, biedt
 de rechtbank de vreemdeling de gelegenheid om daarop schriftelijk te reageren.
-
-
-
-
-
-
 
 
 - 
 7 Het vijfde en zesde lid zijn niet van toepassing indien:
 
 
-
-
 - 
 a. aan een schriftelijke reactie redelijkerwijs geen behoefte bestaat;
-
-
-
 
 
 - 
@@ -16388,30 +9659,12 @@ ingezetenen van een vreemdeling op wiens document, bedoeld in artikel 9 , de aan
 in artikel 14 , dan wel het achterwege laten van de uitzetting of overdracht op grond van artikel 64 ;
 
 
-
-
-
 - 
 c. de goede procesorde zich daartegen verzet of de afdoening van de zaak daardoor ontoelaatbaar
 wordt vertraagd.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 83.0a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -16430,10 +9683,6 @@ wordt vertraagd.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Indien beroep is ingesteld tegen een besluit dat een gelijke strekking heeft als een
@@ -16444,16 +9693,7 @@ afwijzing indien hier wegens bijzondere, op de individuele zaak betrekking hebbe
 feiten en omstandigheden, de noodzaak toe bestaat.
 
 
-
-
-
-
-
-
-
 # Artikel 83a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -16472,10 +9712,6 @@ feiten en omstandigheden, de noodzaak toe bestaat.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Overeenkomstig artikel 67, derde lid, van de Procedureverordening omvat de toetsing
@@ -16484,16 +9720,7 @@ juridische gronden, met inbegrip van, indien van toepassing, een onderzoek naar 
 behoefte aan internationale bescherming.
 
 
-
-
-
-
-
-
-
 # Artikel 83b 
-
-
 
 
 - Toon relaties in LiDO 
@@ -16514,16 +9741,8 @@ behoefte aan internationale bescherming.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 De rechtbank doet binnen vier weken na het instellen van het beroep uitspraak, indien:
-
-
 
 
 - 
@@ -16531,50 +9750,24 @@ a. de aanvraag tot het verlenen van een verblijfsvergunning asiel als bedoeld in
 28:
 
 
-
-
 - 
 1° niet in behandeling is genomen op grond van artikel 30;
-
-
-
 
 
 - 
 2° niet-ontvankelijk is verklaard op grond van artikel 30a;
 
 
-
-
-
 - 
 3° is afgewezen als kennelijk ongegrond op grond van artikel 30b;
-
-
-
 
 
 - 
 4° buiten behandeling is gesteld op grond van artikel 30c; of
 
 
-
-
-
-
-
-
 - 
 b. het beroep zich richt tegen een overdrachtsbesluit als bedoeld in artikel 62b.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -16585,17 +9778,9 @@ verlenen van een verblijfsvergunning asiel als bedoeld in artikel 28, indien de 
 is behandeld in de asielgrensprocedure. Deze termijn kan niet worden verlengd.
 
 
-
-
-
-
-
-
 - 
 3 In afwijking van het eerste lid, doet de rechtbank uitspraak binnen drieëntwintig
 weken na het instellen van het beroep, indien:
-
-
 
 
 - 
@@ -16603,15 +9788,9 @@ a. de aanvraag tot het verlenen van een verblijfsvergunning asiel als bedoeld in
 28 is ingewilligd op grond van artikel 29a;
 
 
-
-
-
 - 
 b. de aanvraag tot het verlenen van een verblijfsvergunning asiel als bedoeld in artikel
 28 is afgewezen als ongegrond op grond van artikel 31; of
-
-
-
 
 
 - 
@@ -16619,32 +9798,11 @@ c. de verblijfsvergunning asiel als bedoeld in artikel 28 is ingetrokken op gron
 artikel 32.
 
 
-
-
-
-
-
-
-
-
-
 - 
 4 In de gevallen, bedoeld in het eerste en derde lid, is artikel 8:52, tweede en derde lid, van de Algemene wet bestuursrecht van overeenkomstige toepassing.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 83ba 
-
-
 
 
 - Toon relaties in LiDO 
@@ -16663,12 +9821,6 @@ artikel 32.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -16679,12 +9831,6 @@ tot opschorting van de uitvoering van een overdrachtsbesluit als bedoeld in de a
 44a of 62b.
 
 
-
-
-
-
-
-
 - 
 2 Indien de voorzieningenrechter de voorlopige voorziening heeft toegewezen, tracht
 de rechtbank, in afwijking van artikel 83b, eerste lid, onderdeel a, subonderdeel
@@ -16692,19 +9838,7 @@ de rechtbank, in afwijking van artikel 83b, eerste lid, onderdeel a, subonderdee
 binnen een maand uitspraak te doen in de hoofdzaak.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 83bb 
-
-
 
 
 - Toon relaties in LiDO 
@@ -16723,10 +9857,6 @@ binnen een maand uitspraak te doen in de hoofdzaak.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 De opname van het persoonlijk onderhoud of een schriftelijke weergave daarvan, bedoeld
@@ -16734,16 +9864,7 @@ in artikel 14 van de Procedureverordening, wordt als bewijs toegelaten in de ber
 bij de rechtbank.
 
 
-
-
-
-
-
-
-
 # Artikel 83bc 
-
-
 
 
 - Toon relaties in LiDO 
@@ -16764,22 +9885,12 @@ bij de rechtbank.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
 Indien de rechtbank toepassing geeft aan artikel 8:72, vierde lid, onderdeel b, van
 de Algemene wet bestuursrecht, stelt de rechtbank de termijn vast op:
 
 
-
-
-
 - 
 a. ten hoogste zes weken, in de gevallen, bedoeld in artikel 35, eerste lid, van de Procedureverordening;
-
-
-
 
 
 - 
@@ -16787,33 +9898,12 @@ b. ten hoogste tien weken, in de gevallen, bedoeld in artikel 35, derde lid, van
 of
 
 
-
-
-
 - 
 c. ten hoogste vijf maanden, in de gevallen, bedoeld in artikel 35, vierde lid, van de
 Procedureverordening.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Afdeling 4. Hoger beroep
-
-
 
 
 - Toon relaties in LiDO 
@@ -16832,20 +9922,11 @@ Procedureverordening.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 83c 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -16862,33 +9943,15 @@ Procedureverordening.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
 1 Op het hoger beroep zijn de titels 8.1 tot en met 8.3 van de Algemene wet bestuursrecht van overeenkomstige toepassing, met uitzondering van de artikelen 8:1 tot en met 8:5 , 8:6, eerste lid , 8:7 tot en met 8:9 , 8:10a, eerste tot en met derde lid , 8:13 , 8:41, tweede lid , 8:54, tweede lid , 8:55 , en 8:74 , voor zover in deze wet niet anders is bepaald.
 
 
-
-
-
-
-
-
 - 
 2 
 Artikel 8:108, eerste en derde lid, van de Algemene wet bestuursrecht is niet van toepassing.
-
-
-
-
-
-
 
 
 - 
@@ -16899,23 +9962,12 @@ in het derde lid van dat artikel, gelijk aan de termijn voor het instellen van h
 beroep.
 
 
-
-
-
-
-
-
 - 
 4 De artikelen 8:110 tot en met 8:112 van de Algemene wet bestuursrecht zijn niet van toepassing op een hoger beroep:
 
 
-
-
 - 
 a. als bedoeld in artikel 95, eerste lid ;
-
-
-
 
 
 - 
@@ -16924,22 +9976,7 @@ uitmaakt van of wordt opgelegd tegelijk met het besluit op een aanvraag om een v
 als bedoeld in artikel 14, 20 of 28, dan wel ingevolge artikel 6:19 van de Algemene wet bestuursrecht wordt betrokken bij het hoger beroep tegen een dergelijk besluit.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 84 
-
-
 
 
 - Toon relaties in LiDO 
@@ -16963,55 +10000,27 @@ als bedoeld in artikel 14, 20 of 28, dan wel ingevolge artikel 6:19 van de Algem
 [Wijziging(en) zonder datum inwerkingtreding aanwezig. Zie het wijzigingenoverzicht .]
 
 
-
-
-
-
 In afwijking van artikel 8:104, eerste lid, van de Algemene wet bestuursrecht staat geen hoger beroep open tegen een uitspraak van de rechtbank of van de voorzieningenrechter
 van de rechtbank:
-
-
-
 
 
 - 
 a. over een besluit of handeling op grond van artikel 6, eerste lid , artikel 6a, eerste lid , hoofdstuk 4 of hoofdstuk 5 ;
 
 
-
-
-
 - 
 b. over een visum voor een verblijf van 90 dagen of minder;
-
-
-
 
 
 - 
 c. na toepassing van artikel 78 , of
 
 
-
-
-
 - 
 d. over de toekenning van de vergoeding, bedoeld in artikel 106 .
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 85 
-
-
 
 
 - Toon relaties in LiDO 
@@ -17032,32 +10041,14 @@ d. over de toekenning van de vergoeding, bedoeld in artikel 106 .
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 In aanvulling op artikel 6:5, onderdeel d, van de Algemene wet bestuursrecht bevat het beroepschrift een of meer grieven tegen de uitspraak van de rechtbank of
 de voorzieningenrechter van de rechtbank.
 
 
-
-
-
-
-
-
 - 
 2 Een grief omschrijft het onderdeel van de uitspraak waarmee de indiener zich niet
 kan verenigen alsmede de gronden waarop de indiener zich daarmee niet kan verenigen.
-
-
-
-
-
-
 
 
 - 
@@ -17066,19 +10057,7 @@ hoger beroep, wordt het hoger beroep niet-ontvankelijk verklaard. Artikel 6:6 va
 6:5, eerste lid, onder c en d, of aan het eerste lid of tweede lid van dit artikel
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 86 
-
-
 
 
 - Toon relaties in LiDO 
@@ -17097,12 +10076,6 @@ hoger beroep, wordt het hoger beroep niet-ontvankelijk verklaard. Artikel 6:6 va
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -17111,21 +10084,9 @@ bedrag dient plaats te vinden, twee weken. De voorzitter van de Afdeling bestuur
 van de Raad van State kan een kortere termijn stellen.
 
 
-
-
-
-
-
-
 - 
 2 In afwijking van artikel 8:41, eerste lid, van de Algemene wet bestuursrecht wordt door de secretaris geen griffierecht geheven, indien hoger beroep wordt ingesteld
 tegen een uitspraak die is gedaan met toepassing van afdeling 3 van dit hoofdstuk.
-
-
-
-
-
-
 
 
 - 
@@ -17134,19 +10095,7 @@ voorziening indien hoger beroep wordt ingesteld tegen een uitspraak die is gedaa
 met toepassing van afdeling 3 van dit hoofdstuk .
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 87 
-
-
 
 
 - Toon relaties in LiDO 
@@ -17165,26 +10114,12 @@ met toepassing van afdeling 3 van dit hoofdstuk .
 
 
 - Sla het regelingonderdeel op 
-
 
 
 [Vervallen per 01-07-2013]
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 88 
-
-
 
 
 - Toon relaties in LiDO 
@@ -17203,26 +10138,12 @@ met toepassing van afdeling 3 van dit hoofdstuk .
 
 
 - Sla het regelingonderdeel op 
-
 
 
 [Vervallen per 01-01-2013]
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 89 
-
-
 
 
 - Toon relaties in LiDO 
@@ -17241,12 +10162,6 @@ met toepassing van afdeling 3 van dit hoofdstuk .
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -17254,30 +10169,12 @@ met toepassing van afdeling 3 van dit hoofdstuk .
 toepassing van afdeling 8.2.3 van de Algemene wet bestuursrecht .
 
 
-
-
-
-
-
-
 - 
 2 De Afdeling bestuursrechtspraak van de Raad van State doet uiterlijk drieëntwintig
 weken na ontvangst van het beroepschrift uitspraak.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 90 
-
-
 
 
 - Toon relaties in LiDO 
@@ -17296,26 +10193,13 @@ weken na ontvangst van het beroepschrift uitspraak.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 In afwijking van artikel 8:18, eerste lid, van de Algemene wet bestuursrecht wordt een verzoek om wraking van een lid van de enkelvoudige kamer behandeld door
 een enkelvoudige kamer waarin de rechter wiens wraking is verzocht geen zitting heeft.
 
 
-
-
-
-
-
-
-
 # Artikel 91 
-
-
 
 
 - Toon relaties in LiDO 
@@ -17336,21 +10220,9 @@ een enkelvoudige kamer waarin de rechter wiens wraking is verzocht geen zitting 
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 De Afdeling bestuursrechtspraak van de Raad van State kan zich bij haar uitspraak
 beperken tot een beoordeling van de aangevoerde grieven.
-
-
-
-
-
-
 
 
 - 
@@ -17359,19 +10231,7 @@ grief niet tot vernietiging kan leiden, kan zij zich bij de vermelding van de gr
 van haar uitspraak beperken tot dit oordeel.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 92 
-
-
 
 
 - Toon relaties in LiDO 
@@ -17390,10 +10250,6 @@ van haar uitspraak beperken tot dit oordeel.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 In afwijking van artikel 8:86 van de Algemene wet bestuursrecht kan de Voorzitter van de Afdeling bestuursrechtspraak van de Raad van State bij zijn
@@ -17401,16 +10257,7 @@ uitspraak op een verzoek om voorlopige voorziening ook onmiddellijk uitspraak in
 hoofdzaak doen, indien het verzoek niet ter zitting is behandeld.
 
 
-
-
-
-
-
-
-
 # Artikel 92a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -17429,29 +10276,13 @@ hoofdzaak doen, indien het verzoek niet ter zitting is behandeld.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Deze afdeling is van overeenkomstige toepassing op het hoger beroep tegen een uitspraak
 van de rechtbank als bedoeld in artikel 8:104, eerste lid, onder c, van de Algemene wet bestuursrecht .
 
 
-
-
-
-
-
-
-
-
-
-
 # Afdeling 5. Bijzondere rechtsmiddelen
-
-
 
 
 - Toon relaties in LiDO 
@@ -17472,16 +10303,7 @@ van de rechtbank als bedoeld in artikel 8:104, eerste lid, onder c, van de Algem
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
-
 # Artikel 93 
-
-
 
 
 - Toon relaties in LiDO 
@@ -17505,41 +10327,17 @@ van de rechtbank als bedoeld in artikel 8:104, eerste lid, onder c, van de Algem
 [Wijziging(en) zonder datum inwerkingtreding aanwezig. Zie het wijzigingenoverzicht .]
 
 
-
-
-
-
-
-
 - 
 1 Een aanwijzing op grond van artikel 6, eerste, tweede of derde lid , artikel 6a , of op grond van artikel 55, eerste lid , een beslissing op grond van artikel 55.0a, de ophouding en de verlenging van de
 ophouding bedoeld in artikel 50, tweede, derde en vierde lid , de ophouding bedoeld in artikel 50a, eerste lid , en een ingevolge hoofdstuk 5 van deze wet genomen maatregel strekkende tot vrijheidsbeperking of vrijheidsontneming
 worden voor de toepassing van artikel 8:1 van de Algemene wet bestuursrecht gelijkgesteld met een besluit.
 
 
-
-
-
-
-
-
 - 
 2 In afwijking van artikel 8:41 van de Algemene wet bestuursrecht wordt door de griffier geen griffierecht geheven.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 94 
-
-
 
 
 - Toon relaties in LiDO 
@@ -17558,12 +10356,6 @@ worden voor de toepassing van artikel 8:1 van de Algemene wet bestuursrecht geli
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -17574,22 +10366,10 @@ tot oplegging van een vrijheidsontnemende maatregel. Het beroep strekt tevens to
 een verzoek om toekenning van schadevergoeding.
 
 
-
-
-
-
-
-
 - 
 2 Indien aan de vreemdeling, bedoeld in het eerste lid, een besluit tot weigering van
 toegang tot Nederland is uitgereikt, wordt het beroep, bedoeld in het eerste lid,
 geacht mede een beroep tegen dit besluit te omvatten.
-
-
-
-
-
-
 
 
 - 
@@ -17598,22 +10378,10 @@ tot weigering van toegang tot Nederland en het opleggen van de vrijheidsontnemen
 maatregel meer dan achtentwintig dagen zijn verstreken.
 
 
-
-
-
-
-
-
 - 
 4 De rechtbank bepaalt onmiddellijk het tijdstip van het onderzoek ter zitting. De rechtbank
 roept de vreemdeling op om in persoon dan wel in persoon of bij raadsman en Onze Minister
 om bij gemachtigde te verschijnen teneinde te worden gehoord. In afwijking van artikel 8:42, tweede lid, van de Algemene wet bestuursrecht kan de in dat artikel bedoelde termijn niet worden verlengd.
-
-
-
-
-
-
 
 
 - 
@@ -17629,12 +10397,6 @@ de dag van de oplegging van de vrijheidsontnemende maatregel wordt de maatregel 
 opgeheven.
 
 
-
-
-
-
-
-
 - 
 6 Indien de rechtbank bij het beroep van oordeel is dat de toepassing of tenuitvoerlegging
 van de maatregel in strijd is met deze wet dan wel bij afweging van alle daarbij betrokken
@@ -17643,31 +10405,13 @@ de rechtbank de opheffing van de maatregel of een wijziging van de wijze van ten
 daarvan.
 
 
-
-
-
-
-
-
 - 
 7 Het eerste, vijfde en zesde lid zijn van overeenkomstige toepassing op een besluit
 tot verlenging van een vrijheidsontnemende maatregel als bedoeld in artikel 59, zesde lid , of artikel 59b, derde lid . In afwijking van artikel 8:57 van de Algemene wet bestuursrecht kan de rechtbank ook zonder toestemming van partijen bepalen dat het onderzoek ter
 zitting achterwege blijft.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 95 
-
-
 
 
 - Toon relaties in LiDO 
@@ -17688,20 +10432,8 @@ zitting achterwege blijft.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 In afwijking van artikel 84, onder a , staat tegen de uitspraak van de rechtbank, bedoeld in artikel 94, vijfde lid , hoger beroep open op de Afdeling bestuursrechtspraak van de Raad van State.
-
-
-
-
-
-
 
 
 - 
@@ -17710,29 +10442,11 @@ Afdeling 4 is van toepassing. In afwijking van artikel 84, onder d , strekt het 
 in artikel 106 .
 
 
-
-
-
-
-
-
 - 
 3 In afwijking van de artikelen 8:41, eerste lid , en 8:82 van de Algemene wet bestuursrecht wordt door de secretaris geen griffierecht geheven.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 96 
-
-
 
 
 - Toon relaties in LiDO 
@@ -17751,12 +10465,6 @@ in artikel 106 .
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -17766,22 +10474,10 @@ van het beroepschrift. In afwijking van artikel 8:57 van de Algemene wet bestuur
 zitting achterwege blijft.
 
 
-
-
-
-
-
-
 - 
 2 De rechtbank doet mondeling of schriftelijk uitspraak. De schriftelijke uitspraak
 wordt binnen zeven dagen na de sluiting van het onderzoek gedaan. In afwijking van
 artikel 8:66, tweede lid, van de Algemene wet bestuursrecht kan de in dat artikel bedoelde termijn niet worden verlengd.
-
-
-
-
-
-
 
 
 - 
@@ -17792,30 +10488,12 @@ In dat geval beveelt de rechtbank de opheffing van de maatregel of een wijziging
 de wijze van tenuitvoerlegging daarvan.
 
 
-
-
-
-
-
-
 - 
 4 Het eerste lid is van overeenkomstige toepassing indien het beroep, bedoeld in artikel
 94, niet ongegrond is verklaard en de vrijheidsontnemende maatregel desondanks voortduurt.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 96a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -17834,12 +10512,6 @@ de wijze van tenuitvoerlegging daarvan.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -17852,23 +10524,11 @@ hebben ingesteld tegen het voortduren van de vrijheidsontnemende maatregel. Het 
 strekt tevens tot een verzoek om toekenning van schadevergoeding.
 
 
-
-
-
-
-
-
 - 
 2 Het eerste lid is van overeenkomstige toepassing indien het beroep, bedoeld in artikel
 94, of het beroep tegen het voortduren van de vrijheidsontnemende maatregel, bedoeld
 in artikel 96, niet ongegrond is verklaard en de vrijheidsontnemende maatregel desondanks
 voortduurt.
-
-
-
-
-
-
 
 
 - 
@@ -17880,12 +10540,6 @@ die intrekking beschouwd als een kennisgeving over het voortduren van een vrijhe
 maatregel, als bedoeld in het eerste lid.
 
 
-
-
-
-
-
-
 - 
 4 Indien de vreemdelingenbewaring op grond van artikel 59, zesde lid, of artikel 59b,
 derde lid, wordt verlengd, stelt Onze Minister, in afwijking van het eerste lid, gelijktijdig
@@ -17895,22 +10549,10 @@ vijfde lid, of artikel 59b, tweede lid, bedoelde termijn waarover nog geen recht
 toets heeft plaatsgevonden.
 
 
-
-
-
-
-
-
 - 
 5 De rechtbank sluit het vooronderzoek binnen een week na ontvangst van de kennisgeving.
 In afwijking van artikel 8:57 van de Algemene wet bestuursrecht kan de rechtbank ook
 zonder toestemming van partijen bepalen dat het onderzoek ter zitting achterwege blijft.
-
-
-
-
-
-
 
 
 - 
@@ -17921,30 +10563,12 @@ teneinde te worden gehoord. In afwijking van artikel 8:42, tweede lid, van de Al
 wet bestuursrecht kan de in dat artikel bedoelde termijn niet worden verlengd.
 
 
-
-
-
-
-
-
 - 
 7 Artikel 94, zesde lid, artikel 95, derde lid, en artikel 96, tweede lid, zijn van
 overeenkomstige toepassing.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 97 
-
-
 
 
 - Toon relaties in LiDO 
@@ -17963,26 +10587,13 @@ overeenkomstige toepassing.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Bij of krachtens algemene maatregel van bestuur kunnen nadere regels worden gesteld
 ten aanzien van de wijze van horen van de vreemdeling.
 
 
-
-
-
-
-
-
-
 # Artikel 98 
-
-
 
 
 - Toon relaties in LiDO 
@@ -18001,12 +10612,6 @@ ten aanzien van de wijze van horen van de vreemdeling.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -18014,21 +10619,9 @@ ten aanzien van de wijze van horen van de vreemdeling.
 door één of meer van zijn raadslieden doen bijstaan.
 
 
-
-
-
-
-
-
 - 
 2 De raadsman wordt bij het horen in de gelegenheid gesteld de nodige opmerkingen te
 maken.
-
-
-
-
-
-
 
 
 - 
@@ -18039,14 +10632,9 @@ Stichting Rechtsbijstand Asiel die terzake van de vrijheidsontnemende maatregele
 relevante opleiding en ervaring bezit, en
 
 
-
-
 - 
 a. aan wie door een universiteit dan wel de Open Universiteit als bedoeld in de Wet op het hoger onderwijs en wetenschappelijk onderzoek de graad Bachelor op het gebied van het recht en tevens de graad Master op het gebied
 van het recht is verleend, of
-
-
-
 
 
 - 
@@ -18054,22 +10642,7 @@ b. die aan een universiteit dan wel de Open Universiteit als bedoeld in de Wet o
 heeft verkregen.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 99 
-
-
 
 
 - Toon relaties in LiDO 
@@ -18090,30 +10663,12 @@ heeft verkregen.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 De vreemdeling is steeds bevoegd een of meer raadslieden te kiezen.
 
 
-
-
-
-
-
-
 - 
 2 Daartoe is ook zijn wettige vertegenwoordiger of zijn bijzondere gemachtigde bevoegd.
-
-
-
-
-
-
 
 
 - 
@@ -18125,30 +10680,12 @@ toevoegen indien de in de voorgaande volzin bedoelde personen niet in staat word
 geacht de keuze binnen redelijke termijn te maken.
 
 
-
-
-
-
-
-
 - 
 4 De ingevolge het tweede of derde lid gekozen raadsman treedt af zodra de vreemdeling
 zelf een raadsman heeft gekozen.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 100 
-
-
 
 
 - Toon relaties in LiDO 
@@ -18169,21 +10706,9 @@ zelf een raadsman heeft gekozen.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Op verzoek van de vreemdeling wordt hem een raadsman toegevoegd zodra hem ingevolge
 deze wet zijn vrijheid is ontnomen. Artikel 99, derde lid , is van overeenkomstige toepassing.
-
-
-
-
-
-
 
 
 - 
@@ -18193,21 +10718,9 @@ de vreemdeling zich bevindt. Ingeval hoger beroep is ingesteld op grond van arti
 tot het geven van de last tot toevoeging aan het bestuur van de raad voor rechtsbijstand.
 
 
-
-
-
-
-
-
 - 
 3 Voorzover de wet niet op andere wijze in de toevoeging voorziet, kan het bestuur van
 de raad voor rechtsbijstand aan de vreemdeling op diens verzoek een raadsman toevoegen.
-
-
-
-
-
-
 
 
 - 
@@ -18217,19 +10730,7 @@ raadsman te dragen en waarin ook overigens, naar het oordeel van dat bureau, vol
 grond voor toevoeging bestaat. 
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 101 
-
-
 
 
 - Toon relaties in LiDO 
@@ -18250,21 +10751,9 @@ grond voor toevoeging bestaat.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Bij verhindering of ontstentenis van de toegevoegde raadsman wordt zo nodig aan de
 vreemdeling onverwijld een andere raadsman toegevoegd.
-
-
-
-
-
-
 
 
 - 
@@ -18272,20 +10761,8 @@ vreemdeling onverwijld een andere raadsman toegevoegd.
 worden toegevoegd.
 
 
-
-
-
-
-
-
 - 
 3 Toevoeging van een andere raadsman geschiedt door het bureau bedoeld in artikel 100, tweede of derde lid .
-
-
-
-
-
-
 
 
 - 
@@ -18294,19 +10771,7 @@ ingevolge de artikelen 94, 96 en 96a, dan geeft de voorzitter van de kamer last 
 toevoeging van een andere raadsman aan het bureau bedoeld in artikel 100, tweede of derde lid .
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 102 
-
-
 
 
 - Toon relaties in LiDO 
@@ -18325,26 +10790,13 @@ toevoeging van een andere raadsman aan het bureau bedoeld in artikel 100, tweede
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Bij algemene maatregel van bestuur worden regelen gegeven omtrent de beloning van
 toegevoegde raadslieden, met inbegrip van advocaten die overeenkomstig artikel 101 als raadsman optreden, en de vergoeding van hun onkosten.
 
 
-
-
-
-
-
-
-
 # Artikel 103 
-
-
 
 
 - Toon relaties in LiDO 
@@ -18363,10 +10815,6 @@ toegevoegde raadslieden, met inbegrip van advocaten die overeenkomstig artikel 1
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Indien Onze Minister dit wenselijk oordeelt kan hij de beloning en vergoeding van
@@ -18375,16 +10823,7 @@ en de berekening van de te verhalen bedragen worden regelen gesteld bij algemene
 van bestuur.
 
 
-
-
-
-
-
-
-
 # Artikel 104 
-
-
 
 
 - Toon relaties in LiDO 
@@ -18403,10 +10842,6 @@ van bestuur.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 De raadsman heeft vrije toegang tot de vreemdeling. Hij kan hem alleen spreken en
@@ -18416,16 +10851,7 @@ gestelde regelen met betrekking tot het voor de ruimte of plaats, waar de vreemd
 zich bevindt, geldende regime.
 
 
-
-
-
-
-
-
-
 # Artikel 105 
-
-
 
 
 - Toon relaties in LiDO 
@@ -18444,25 +10870,12 @@ zich bevindt, geldende regime.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Met betrekking tot de kennisgeving van gerechtelijke mededelingen ingevolge de artikelen 94 tot en met 101 zijn de artikelen 36b tot en met 36e , 36g , 36h en 36n van het Wetboek van Strafvordering van overeenkomstige toepassing.
 
 
-
-
-
-
-
-
-
 # Artikel 106 
-
-
 
 
 - Toon relaties in LiDO 
@@ -18481,12 +10894,6 @@ Met betrekking tot de kennisgeving van gerechtelijke mededelingen ingevolge de a
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -18498,38 +10905,13 @@ dat niet in vermogensschade bestaat. De artikelen 534 en 536 van het Wetboek van
 verzoek is overleden, geschiedt de toekenning ten behoeve van zijn erfgenamen. 
 
 
-
-
-
-
-
-
 - 
 2 Het eerste lid is van overeenkomstige toepassing, indien de Afdeling bestuursrechtspraak
 van de Raad van State de opheffing van de maatregel strekkende tot vrijheidsontneming
 of -beperking beveelt.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Hoofdstuk 8. Algemene en strafbepalingen
-
-
 
 
 - Toon relaties in LiDO 
@@ -18548,20 +10930,11 @@ of -beperking beveelt.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Paragraaf 1. Biometrie
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -18578,20 +10951,11 @@ of -beperking beveelt.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 106aa 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -18608,12 +10972,6 @@ of -beperking beveelt.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -18623,17 +10981,9 @@ gegevens af te nemen van de in artikel 13, eerste lid, van de Eurodac-verordenin
 bedoelde personen voor de in dat artikellid genoemde doeleinden.
 
 
-
-
-
-
-
-
 - 
 2 Bij of krachtens algemene maatregel van bestuur kunnen nadere regels worden gesteld
 over:
-
-
 
 
 - 
@@ -18641,29 +10991,11 @@ a. de wijze van het afnemen en verwerken van de biometrische gegevens, bedoeld i
 eerste lid; en
 
 
-
-
-
 - 
 b. de maatregelen als bedoeld in artikel 13, derde lid, van de Eurodac-verordening.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 106a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -18682,12 +11014,6 @@ b. de maatregelen als bedoeld in artikel 13, derde lid, van de Eurodac-verordeni
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -18699,12 +11025,6 @@ deze wet. De gezichtsopname en vingerafdrukken worden vergeleken met de gezichts
 en vingerafdrukken in de vreemdelingenadministratie.
 
 
-
-
-
-
-
-
 - 
 2 Voor het verifiëren van de authenticiteit van het document, bedoeld in artikel 9 , of de verificatie van de identiteit van een vreemdeling kunnen voor zover dit niet
 mogelijk is op grond van de Europese verordeningen die betrekking hebben op biometrische
@@ -18712,12 +11032,6 @@ gegevens, met het oog op de uitvoering van deze wet vingerafdrukken worden afgen
 Van deze vingerafdrukken worden één of twee en indien dit geen resultaat oplevert
 meer vingerafdrukken gebruikt voor vergelijking met de vingerafdrukken op het document
 of in de vreemdelingenadministratie.
-
-
-
-
-
-
 
 
 - 
@@ -18728,42 +11042,20 @@ toezicht op vreemdelingen en Onze Minister van Buitenlandse Zaken voor zover het
 om het vaststellen of het verifiëren van de identiteit.
 
 
-
-
-
-
-
-
 - 
 4 Het eerste lid is niet van toepassing op:
-
-
 
 
 - 
 a. gemeenschapsonderdanen, en
 
 
-
-
-
 - 
 b. de vreemdeling die behoort tot een bij algemene maatregel aangewezen categorie.
 
 
-
-
-
-
-
-
-
-
-
 - 
 5 Bij of krachtens algemene maatregel van bestuur worden nadere regels gesteld over:
-
-
 
 
 - 
@@ -18771,33 +11063,12 @@ a. de wijze van het afnemen en verwerken van de gezichtsopnames en de vingerafdr
 bedoeld in het eerste en tweede lid, en
 
 
-
-
-
 - 
 b. de maatregelen die kunnen worden getroffen in het geval geen vingerafdrukken van de
 vreemdeling kunnen worden verkregen.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 1a. Gegevensverstrekking en -verwerking
-
-
 
 
 - Toon relaties in LiDO 
@@ -18816,20 +11087,11 @@ vreemdeling kunnen worden verkregen.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 107 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -18846,12 +11108,6 @@ vreemdeling kunnen worden verkregen.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -18859,13 +11115,8 @@ vreemdeling kunnen worden verkregen.
 bevat:
 
 
-
-
 - 
 a. de gezichtsopnames en vingerafdrukken, bedoeld in artikel 106a, eerste lid ;
-
-
-
 
 
 - 
@@ -18873,49 +11124,29 @@ b. andere persoons- en verwijsgegevens van vreemdelingen die volgens een door On
 vastgestelde werkwijze zijn geïdentificeerd en geregistreerd;
 
 
-
-
-
 - 
 c. andere gegevens, waaronder persoonsgegevens, die van belang zijn voor de uitvoering
 van deze wet en de Rijkswet op het Nederlanderschap ;
-
-
-
 
 
 - 
 d. gegevens, waaronder persoonsgegevens, verwerkt op grond van:
 
 
-
-
 - 
 1°. de SIS-verordening grenscontroles;
-
-
-
 
 
 - 
 2°. de SIS-verordening terugkeer;
 
 
-
-
-
 - 
 3°. de Europese verordeningen die betrekking hebben op biometrische gegevens;
 
 
-
-
-
 - 
 4°. de Etias-verordening;
-
-
-
 
 
 - 
@@ -18923,29 +11154,12 @@ d. gegevens, waaronder persoonsgegevens, verwerkt op grond van:
 de Verordening interoperabiliteit politiële en justitiële samenwerking, asiel en migratie;
 
 
-
-
-
 - 
 6°. de Screeningsverordening.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 - 
 2 De vreemdelingenadministratie heeft tot doel de verwerking van:
-
-
 
 
 - 
@@ -18953,14 +11167,9 @@ a. de in het eerste lid, onder a, bedoelde gegevens voor de uitvoering van deze 
 de Rijkswet op het Nederlanderschap , de Wet vaststellingsprocedure staatloosheid en de daarop gebaseerde regelgeving;
 
 
-
-
-
 - 
 b. de in het eerste lid, onder b en c, bedoelde gegevens, voor zover dat noodzakelijk
 is voor:
-
-
 
 
 - 
@@ -18968,24 +11177,12 @@ is voor:
 en verwijsgegevens van vreemdelingen;
 
 
-
-
-
 - 
 2°. de uitvoering van deze wet, de Rijkswet op het Nederlanderschap en andere, bij regeling van Onze Minister aan te wijzen wettelijke voorschriften;
 
 
-
-
-
 - 
 3°. de evaluatie van bestaand beleid en de voorbereiding van nieuw beleid;
-
-
-
-
-
-
 
 
 - 
@@ -18994,31 +11191,13 @@ verordening, voor zover dit noodzakelijk is in verband met een besluit van Onze 
 en eventuele daarmee samenhangende procedures in rechte;
 
 
-
-
-
 - 
 d. de Screeningsverordening.
-
-
-
-
-
-
-
-
-
 
 
 - 
 3 Aan een vreemdeling wordt in de vreemdelingenadministratie een uniek vreemdelingennummer
 toegekend.
-
-
-
-
-
-
 
 
 - 
@@ -19031,18 +11210,10 @@ kan worden beoordeeld of is voldaan aan de Wet arbeid vreemdelingen . Bij die ve
 burgerservicenummer, bedoeld in artikel 1, onder b, van de Wet algemene bepalingen burgerservicenummer , en van andere, bij regeling van Onze Minister aangewezen, nummers.
 
 
-
-
-
-
-
-
 - 
 5 Onverminderd het in het tweede lid, onder a, genoemde doel, en in aanvulling op het
 bepaalde bij of krachtens artikel 107a , kunnen gegevens als bedoeld in het eerste lid, onder a, uitsluitend beschikbaar
 worden gesteld met het oog op:
-
-
 
 
 - 
@@ -19050,85 +11221,44 @@ a. het verstrekken van een reisdocument door een diplomatieke vertegenwoordiging
 behoeve van terugkeer;
 
 
-
-
-
 - 
 b. de identificatie van slachtoffers van rampen en ongevallen;
-
-
-
 
 
 - 
 c. de opsporing en vervolging van strafbare feiten;
 
 
-
-
-
 - 
 d. de toepassing van artikel 55c van het Wetboek van Strafvordering ;
-
-
-
 
 
 - 
 e. de uitvoering van de Wet op de inlichtingen- en veiligheidsdiensten 2017 ; en
 
 
-
-
-
 - 
 f. de uitvoering van:
-
-
 
 
 - 
 1°. de SIS-verordening grenscontroles;
 
 
-
-
-
 - 
 2°. de SIS-verordening terugkeer;
-
-
-
 
 
 - 
 3°. de Europese verordeningen die betrekking hebben op biometrische gegevens;
 
 
-
-
-
 - 
 4°. de Etias-verordening;
 
 
-
-
-
 - 
 5°. de Screeningsverordening.
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -19140,27 +11270,13 @@ en na schriftelijke machtiging van de rechter-commissaris op vordering van de of
 van justitie:
 
 
-
-
 - 
 a. indien er een redelijk vermoeden bestaat dat de verdachte een vreemdeling is, of
-
-
-
 
 
 - 
 b. in het belang van het onderzoek en het opsporingsonderzoek op een dood spoor is beland,
 dan wel snel resultaat geboden is bij de opheldering van het misdrijf.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -19169,12 +11285,6 @@ de gegevens en inlichtingen te verstrekken die Onze Minister behoeft voor de uit
 van deze wet en voor de uitvoering van de Rijkswet op het Nederlanderschap. Deze bestuursorganen
 kunnen daarbij gebruik maken van het vreemdelingennummer, het burgerservicenummer,
 bedoeld in artikel 1, onder b, van de Wet algemene bepalingen burgerservicenummer , en van andere, bij regeling van Onze Minister aangewezen, nummers.
-
-
-
-
-
-
 
 
 - 
@@ -19186,22 +11296,10 @@ hun taak, met uitzondering van de gezichtsopnames en vingerafdrukken, bedoeld in
 eerste lid. Daarbij kan gebruik worden gemaakt van het vreemdelingennummer.
 
 
-
-
-
-
-
-
 - 
 9 De organisaties en instellingen, bedoeld in het achtste lid, kunnen bij de verstrekking
 van gegevens en inlichtingen omtrent een vreemdeling aan Onze Minister gebruik maken
 van het vreemdelingennummer.
-
-
-
-
-
-
 
 
 - 
@@ -19209,24 +11307,13 @@ van het vreemdelingennummer.
 indien de persoonlijke levenssfeer van de betrokkene daardoor onevenredig wordt geschaad.
 
 
-
-
-
-
-
-
 - 
 11 Bij of krachtens algemene maatregel van bestuur kunnen regels worden gesteld omtrent:
-
-
 
 
 - 
 a. de in de vreemdelingenadministratie op te nemen gegevens, de vastlegging van die gegevens
 en de doorlevering van die gegevens;
-
-
-
 
 
 - 
@@ -19242,29 +11329,14 @@ Minister bekend is dat de betrokkene niet langer behoort tot de categorie vreemd
 waarvan deze kunnen worden afgenomen;
 
 
-
-
-
 - 
 c. de gevallen, waarin en de wijze waarop in ieder geval gegevens en inlichtingen dienen
 te worden verstrekt, en
 
 
-
-
-
 - 
 d. de gevallen, waarin de verstrekking van gegevens en inlichtingen anders dan kosteloos
 geschiedt.
-
-
-
-
-
-
-
-
-
 
 
 - 
@@ -19273,29 +11345,11 @@ instellingsbesturen van uit de openbare kas bekostigde instellingen en bevoegde 
 van uit de openbare kas bekostigde scholen en instellingen.
 
 
-
-
-
-
-
-
 - 
 13 Met betrekking tot de vreemdelingenadministratie is Onze Minister de verwerkingsverantwoordelijke.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 107a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -19314,12 +11368,6 @@ van uit de openbare kas bekostigde scholen en instellingen.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -19330,12 +11378,6 @@ het verblijf en de uitzetting van vreemdelingen en het toezicht op vreemdelingen
 grond van deze wet dan wel de Schengengrenscode.
 
 
-
-
-
-
-
-
 - 
 2 De gegevens, bedoeld in het eerste lid, worden verwerkt door of namens Onze Minister
 en de in de artikelen 46 tot en met 48 aangewezen ambtenaren. Zij kunnen worden verwerkt door derden, voor zover deze betrokken
@@ -19343,24 +11385,13 @@ zijn bij de uitvoering van deze wet of de Schengengrenscode en daartoe noodzakel
 de beschikking over deze gegevens moeten verkrijgen.
 
 
-
-
-
-
-
-
 - 
 3 Bij regeling van Onze Minister worden regels gesteld ter waarborging van de persoonlijke
 levenssfeer. Daarbij wordt in ieder geval geregeld:
 
 
-
-
 - 
 a. op welke wijze de verwerking, bedoeld in het eerste lid, plaatsvindt;
-
-
-
 
 
 - 
@@ -19368,15 +11399,9 @@ b. op welke wijze door passende technische en organisatorische maatregelen deze 
 worden beveiligd tegen verlies of onrechtmatige verwerking;
 
 
-
-
-
 - 
 c. welke gegevens, aan welke personen of instanties, voor welk doel en op welke wijze
 kunnen worden verstrekt;
-
-
-
 
 
 - 
@@ -19385,22 +11410,7 @@ verwerkt voor het doel waarvoor ze zijn verzameld of voor zover het verwerken me
 dat doel verenigbaar is, alsmede hoe daarop wordt toegezien.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 107b 
-
-
 
 
 - Toon relaties in LiDO 
@@ -19419,12 +11429,6 @@ dat doel verenigbaar is, alsmede hoe daarop wordt toegezien.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -19437,20 +11441,8 @@ van een geautomatiseerd grenscontrole systeem, en voor zover de verwerking niet 
 is toegestaan op grond van Europese verordeningen.
 
 
-
-
-
-
-
-
 - 
 2 Gegevens als bedoeld in het eerste lid worden maximaal 24 uur bewaard.
-
-
-
-
-
-
 
 
 - 
@@ -19458,22 +11450,7 @@ is toegestaan op grond van Europese verordeningen.
 de verwerking van gegevens, bedoeld in het eerste lid.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 2. Strafbepalingen
-
-
 
 
 - Toon relaties in LiDO 
@@ -19492,20 +11469,11 @@ de verwerking van gegevens, bedoeld in het eerste lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 108 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -19522,12 +11490,6 @@ de verwerking van gegevens, bedoeld in het eerste lid.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -19537,31 +11499,13 @@ bij of krachtens de Schengengrenscode, overtreding van een voorschrift, vastgest
 bij of krachtens de artikelen 2t, tweede en derde lid , 5, eerste en tweede lid , 24a, tweede en derde lid , 46, tweede lid, aanhef, en onder b , alsmede handelen in strijd met artikel 56, eerste lid , dan wel handelen in strijd met een verplichting opgelegd bij of krachtens de artikelen 2a, derde lid, onder b , 6, eerste of derde lid , 6a, eerste lid , 54 , 55 , 57, eerste lid , 58, eerste lid , of 65, derde lid .
 
 
-
-
-
-
-
-
 - 
 2 Overtreding van een voorschrift, vastgesteld bij of krachtens artikel 4, eerste tot en met derde lid , wordt gestraft met hechtenis van ten hoogste zes maanden of geldboete van de vierde
 categorie.
 
 
-
-
-
-
-
-
 - 
 3 De in het eerste en tweede lid strafbaar gestelde feiten zijn overtredingen.
-
-
-
-
-
-
 
 
 - 
@@ -19572,23 +11516,11 @@ strafbaar gesteld in de artikelen 179 tot en met 182 en 184 van het Wetboek van 
 gedaan of ondernomen door henzelf.
 
 
-
-
-
-
-
-
 - 
 5 In afwijking van het eerste lid wordt handelen in strijd met een verplichting, opgelegd
 bij of krachtens artikel 54, eerste lid, onder b, e of g , gestraft met geldboete van de tweede categorie, indien het feit wordt begaan door
 een gemeenschapsonderdaan. Het derde lid en de eerste volzin van het vierde lid zijn
 van overeenkomstige toepassing.
-
-
-
-
-
-
 
 
 - 
@@ -19599,22 +11531,7 @@ met toepassing van artikel 66a, zevende lid . Het derde lid en de eerste volzin 
 toepassing.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 3. Afwijkingen
-
-
 
 
 - Toon relaties in LiDO 
@@ -19633,20 +11550,11 @@ toepassing.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 109 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -19663,12 +11571,6 @@ toepassing.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
 
 
 - 
@@ -19680,22 +11582,10 @@ besluit en daartoe deze wet in overeenstemming moet worden gebracht met het verd
 of het besluit.
 
 
-
-
-
-
-
-
 - 
 2 De voordracht voor een krachtens het eerste lid vast te stellen algemene maatregel
 van bestuur wordt niet eerder gedaan dan vier weken nadat het ontwerp aan de beide
 kamers der Staten-Generaal is overgelegd.
-
-
-
-
-
-
 
 
 - 
@@ -19709,22 +11599,10 @@ Indien het voorstel tot wet wordt verheven, vervalt de algemene maatregel van be
 op het tijdstip van inwerkingtreding van die wet.
 
 
-
-
-
-
-
-
 - 
 4 Ter uitvoering van een verdrag, EU-verordening, -richtlijn of -besluit, op grond waarvan
 de grenscontrole plaatsvindt aan buitengrenzen, wordt in de artikelen 5, tweede lid , 54, eerste lid, aanhef en onder a en e , 56, tweede lid , 59, derde lid , en 66a, vierde lid , onder «Nederland» mede verstaan de gebieden waarop dat verdrag, die verordening,
 die richtlijn of dat besluit van toepassing is.
-
-
-
-
-
-
 
 
 - 
@@ -19734,19 +11612,7 @@ orde in, onderscheidenlijk de nationale veiligheid van andere bij dat verdrag aa
 staten.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 109a 
-
-
 
 
 - Toon relaties in LiDO 
@@ -19767,15 +11633,8 @@ staten.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
 De verplichtingen die voor Nederland voortvloeien uit de Terugkeerrichtlijn, gelden
 niet ten aanzien van vreemdelingen:
-
-
-
 
 
 - 
@@ -19783,26 +11642,11 @@ a. aan wie de toegang is geweigerd overeenkomstig artikel 14 van de Schengengren
 en die vervolgens geen rechtmatig verblijf als bedoeld in artikel 8 hebben verkregen; of
 
 
-
-
-
 - 
 b. jegens wie een procedure van uitlevering als bedoeld in de Uitleveringswet loopt.
 
 
-
-
-
-
-
-
-
-
-
-
 # Artikel 110 
-
-
 
 
 - Toon relaties in LiDO 
@@ -19823,21 +11667,9 @@ b. jegens wie een procedure van uitlevering als bedoeld in de Uitleveringswet lo
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
-
-
 - 
 1 Onverminderd de artikelen 7, eerste lid , en 8, eerste lid, van de Coördinatiewet uitzonderingstoestanden kan, ingeval buitengewone omstandigheden dit noodzakelijk maken, bij koninklijk besluit,
 op voordracht van Onze Minister-president, artikel 111 in werking worden gesteld.
-
-
-
-
-
-
 
 
 - 
@@ -19846,22 +11678,10 @@ van wet aan de Tweede Kamer gezonden omtrent het voortduren van de werking van d
 bij dat besluit in werking gestelde bepaling.
 
 
-
-
-
-
-
-
 - 
 3 Wordt het voorstel van wet door de Staten-Generaal verworpen, dan wordt bij koninklijk
 besluit, op voordracht van Onze Minister-president, de bepaling die ingevolge het
 eerste lid in werking is gesteld, onverwijld buiten werking gesteld.
-
-
-
-
-
-
 
 
 - 
@@ -19870,21 +11690,9 @@ die ingevolge het eerste lid in werking is gesteld, buiten werking gesteld, zodr
 de omstandigheden dit naar Ons oordeel toelaten.
 
 
-
-
-
-
-
-
 - 
 5 Het besluit als bedoeld in het eerste, derde en vierde lid, wordt op de daarin te
 bepalen wijze bekendgemaakt. Het treedt in werking terstond na de bekendmaking.
-
-
-
-
-
-
 
 
 - 
@@ -19892,18 +11700,7 @@ bepalen wijze bekendgemaakt. Het treedt in werking terstond na de bekendmaking.
 in het Staatsblad.
 
 
-
-
-
-
-
-
-
-
-
 # Artikel 111 
-
-
 
 
 - Toon relaties in LiDO 
@@ -19927,31 +11724,12 @@ in het Staatsblad.
 [Tekst zonder datum inwerkingtreding. Zie het wijzigingenoverzicht .]
 
 
-
-
-
-
-
 [Red: Dit artikel is nog niet in werking getreden; ingeval buitengewone omstandigheden
 dit noodzakelijk maken kan bij koninklijk besluit, op voordracht van Onze Minister-President,
 dit artikel in werking treden.]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 4. Verblijf op grond van internationale verplichtingen
-
-
 
 
 - Toon relaties in LiDO 
@@ -19970,20 +11748,11 @@ dit artikel in werking treden.]
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 112 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -20000,10 +11769,6 @@ dit artikel in werking treden.]
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Bij of krachtens algemene maatregel van bestuur kunnen, ter uitvoering van een verdrag,
@@ -20012,19 +11777,7 @@ regels worden gesteld in verband met het rechtmatig verblijf van vreemdelingen, 
 ten gunste van deze vreemdelingen kan worden afgeweken van deze wet.
 
 
-
-
-
-
-
-
-
-
-
-
 # Paragraaf 5. Bepalingen van internationaal privaatrecht en overige bepalingen
-
-
 
 
 - Toon relaties in LiDO 
@@ -20043,20 +11796,11 @@ ten gunste van deze vreemdelingen kan worden afgeweken van deze wet.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 113 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -20073,26 +11817,12 @@ ten gunste van deze vreemdelingen kan worden afgeweken van deze wet.
 
 
 - Sla het regelingonderdeel op 
-
 
 
 [Vervallen per 01-01-2012]
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 114 
-
-
 
 
 - Toon relaties in LiDO 
@@ -20111,10 +11841,6 @@ ten gunste van deze vreemdelingen kan worden afgeweken van deze wet.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
 
 
 Een vreemdeling aan wie een verblijfsvergunning asiel als bedoeld in artikel 28 is
@@ -20122,23 +11848,7 @@ verleend, geniet dezelfde behandeling als een Nederlander, wat betreft rechtsing
 waaronder begrepen rechtsbijstand en vrijstelling van de cautio judicatum solvi.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Hoofdstuk 9. Overgangs- en slotbepalingen
-
-
 
 
 - Toon relaties in LiDO 
@@ -20157,20 +11867,11 @@ waaronder begrepen rechtsbijstand en vrijstelling van de cautio judicatum solvi.
 
 
 - Sla het regelingonderdeel op 
-
-
-
-
-
-
-
 
 
 # Artikel 115 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -20187,26 +11888,12 @@ waaronder begrepen rechtsbijstand en vrijstelling van de cautio judicatum solvi.
 
 
 - Sla het regelingonderdeel op 
-
 
 
 [Vervallen per 28-02-2026]
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 116 
-
-
 
 
 - Toon relaties in LiDO 
@@ -20227,26 +11914,12 @@ waaronder begrepen rechtsbijstand en vrijstelling van de cautio judicatum solvi.
 - Sla het regelingonderdeel op 
 
 
-
 [Vervallen per 01-06-2013]
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Artikel 117 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -20265,26 +11938,12 @@ waaronder begrepen rechtsbijstand en vrijstelling van de cautio judicatum solvi.
 - Sla het regelingonderdeel op 
 
 
-
 [Vervallen per 01-06-2013]
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Artikel 118 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -20303,26 +11962,12 @@ waaronder begrepen rechtsbijstand en vrijstelling van de cautio judicatum solvi.
 - Sla het regelingonderdeel op 
 
 
-
 [Vervallen per 01-06-2013]
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Artikel 119 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -20341,26 +11986,12 @@ waaronder begrepen rechtsbijstand en vrijstelling van de cautio judicatum solvi.
 - Sla het regelingonderdeel op 
 
 
-
 [Vervallen per 01-06-2013]
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Artikel 120 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -20379,26 +12010,12 @@ waaronder begrepen rechtsbijstand en vrijstelling van de cautio judicatum solvi.
 - Sla het regelingonderdeel op 
 
 
-
 [Vervallen per 01-06-2013]
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Artikel 121 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -20417,26 +12034,12 @@ waaronder begrepen rechtsbijstand en vrijstelling van de cautio judicatum solvi.
 - Sla het regelingonderdeel op 
 
 
-
 [Vervallen per 01-06-2013]
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Artikel 122 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -20455,26 +12058,12 @@ waaronder begrepen rechtsbijstand en vrijstelling van de cautio judicatum solvi.
 - Sla het regelingonderdeel op 
 
 
-
 [Vervallen per 01-06-2013]
-
-
-
-
-
-
-
-
-
-
-
 
 
 # Artikel 123 
 
 
-
-
 - Toon relaties in LiDO 
 
 
@@ -20491,26 +12080,12 @@ waaronder begrepen rechtsbijstand en vrijstelling van de cautio judicatum solvi.
 
 
 - Sla het regelingonderdeel op 
-
 
 
 [Vervallen per 01-06-2013]
 
 
-
-
-
-
-
-
-
-
-
-
-
 # Artikel 124 
-
-
 
 
 - Toon relaties in LiDO 
@@ -20531,43 +12106,15 @@ waaronder begrepen rechtsbijstand en vrijstelling van de cautio judicatum solvi.
 - Sla het regelingonderdeel op 
 
 
-
-
-
-
 Deze wet wordt aangehaald als: Vreemdelingenwet 2000.
-
-
-
-
-
-
-
-
-
-
-
 
 
 Origineel slotformulier en ondertekening 
 
 
-
-
-
-
-
-
-
 Lasten en bevelen dat deze in het Staatsblad zal worden geplaatst en dat alle ministeries,
 autoriteiten, colleges en ambtenaren wie zulks aangaat, aan de nauwkeurige uitvoering
 de hand zullen houden.
-
-
-
-
-
-
 
 
 Gegeven te 's-Gravenhage, 23 november 2000
@@ -20576,45 +12123,21 @@ Gegeven te 's-Gravenhage, 23 november 2000
 Beatrix
 
 
-
-
-
-
-
-
 De Minister van Justitie,
-
-
 
 
 A. H. Korthals 
 
 
-
-
-
-
-
-
-
 De Staatssecretaris van Justitie,
-
-
 
 
 M. J. Cohen 
 
 
-
-
-
-
-
-
 Uitgegeven de zevende december 2000
 
 De Minister van Justitie,
-
 
 
 A. H. Korthals 
