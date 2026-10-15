@@ -3,9 +3,9 @@
 - Source ID: fr-france-visas-family-eu
 - Official URL: https://www.france-visas.gouv.fr/web/france-visas/famille-de-citoyen-europeen
 - Retrieved: 2026-10-15T22:58:05Z
-- Publisher capture: public browser text view; direct HTTP download returned 403
-- Conversion: public page text converted to Markdown; raw HTML bytes were not retained
-- Status: converted review candidate; raw source capture still required
+- Page access: browser-rendered official text; direct HTTP download returned 403
+- Content: short summary derived from browser-rendered official text; no source-text conversion
+- Status: raw source capture and conversion still required
 
 # Famille de citoyen européen
 
