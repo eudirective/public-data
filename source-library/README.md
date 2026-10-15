@@ -40,3 +40,8 @@ The candidate inventory for Czech national sources is under [`czechia/`](czechia
 ## Online acquisition candidates
 
 The [2026-10-15 online acquisition candidate register](references/online-acquisition-candidates-2026-10-15.md) records 83 additional official-source candidates compared with current EU and national inventories. It is a discovery register; its candidates are not retrieved or accepted legal texts.
+
+
+### National acquisition expansion
+
+The [2026-10-16 candidate extension for Portugal, Spain, France, the Netherlands, Belgium and Italy](references/national-acquisition-candidates-2026-10-16.md) applies the current acquisition taxonomy to six additional countries. It is a discovery register; candidates remain pending official retrieval and review.
