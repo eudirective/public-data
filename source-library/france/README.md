@@ -1,9 +1,13 @@
-# France national source pack
+# France source candidates
 
-**Status:** 7 candidates; 0 downloaded/converted source texts; one browser-derived source note; 0 accepted sources. This scoped inventory is not a completeness claim.
+**Status:** 47 official-source candidates; 0 downloaded/converted legal source texts; one browser-derived France-Visas summary; 0 accepted; 0 France retrieval or conversion rules implemented. This bounded discovery register is not a completeness claim.
 
-- [Source list](references/source-list.md)
 - [Candidate manifest](references/candidate-manifest.json)
-- Retrieved review candidates are under `candidates/`.
+- [Source list](references/source-list.md)
+- [Sustainability assessment](references/sustainability-assessment.md)
 
-The pack records official national laws, operational guidance and procedural sources relevant to EU free movement, family members, civil status, adoption and remedies. EU law stays in the shared core. Each candidate still needs source identity, current-version, language and scope review. The France-Visas page was available in the browser, but the saved note is a summary, not a source-text conversion. Direct HTTP retrieval returned 403; raw capture and conversion remain outstanding. Other unconverted items remain pending retrieval.
+The register reconciles the earlier seven-candidate France pack and adds national legal-source discovery and DILA bulk-data routes, residence and visa guidance, procedure and remedies, courts, public access, privacy, oversight, and legal aid. Candidates remain discovery-only unless the manifest explicitly marks a route monitor-only.
+
+The official DILA LEGI bulk-data route is the strongest proposed legislation acquisition path because the official dataset and HTTPS directory are public without API registration. Baseline/delta replay, date-specific source identity, schema conversion, and offline reproducibility have not been verified. The separate Légifrance API requires PISTE registration, accepted terms, application credentials, and quota management.
+
+France-Visas and ANEF are dynamic services. Monitor only their public pages, links, and form definitions; never automate applications or collect case data. The CESEDA EU-family section must remain linked to the Conseil d'État's partial annulment in decision no. 450285 of 24 February 2022.
