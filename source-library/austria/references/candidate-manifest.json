@@ -1,0 +1,803 @@
+{
+  "manifest_version": "0.1.0-candidate",
+  "pack": "austria-national-source-candidates",
+  "jurisdiction": "AT",
+  "inventory_research_date": "2026-10-18",
+  "scope": "Austrian national legislation and official guidance relevant to EU/EEA/Swiss free movement, third-country family members, administrative procedure, and remedies. This is a bounded initial discovery slice, not a complete Austrian-law inventory.",
+  "status": "discovery_only",
+  "retrieval_status": "no_austria_runtime_rule_implemented",
+  "accepted_source_count": 0,
+  "candidate_source_count": 37,
+  "official_hosts": [
+    "ris.bka.gv.at",
+    "www.ris.bka.gv.at",
+    "oesterreich.gv.at",
+    "www.oesterreich.gv.at",
+    "eausweise.oesterreich.gv.at",
+    "www.bmeia.gv.at",
+    "dsb.gv.at",
+    "www.dsb.gv.at",
+    "volksanwaltschaft.gv.at",
+    "www.volksanwaltschaft.gv.at",
+    "n-lex.europa.eu"
+  ],
+  "secondary_hosts": [],
+  "documents": [
+    {
+      "id": "at-nag-51",
+      "title": "Niederlassungs- und Aufenthaltsgesetz § 51 — residence rights of EEA citizens",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004242&Paragraf=51",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20004242",
+        "Paragraf": "51"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official_search_result_only; direct page open failed in this reader",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML; current ELI and version metadata are exposed on the page",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "RIGHTS-01"
+      ]
+    },
+    {
+      "id": "at-nag-52",
+      "title": "Niederlassungs- und Aufenthaltsgesetz § 52 — residence rights of family members of EEA citizens",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004242&Paragraf=52",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20004242",
+        "Paragraf": "52"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official_source_inspected",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML with current version list, last-updated date, document number, and ELI",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "RIGHTS-02",
+        "RIGHTS-03",
+        "RIGHTS-04"
+      ]
+    },
+    {
+      "id": "at-nag-53a",
+      "title": "Niederlassungs- und Aufenthaltsgesetz § 53a — EEA permanent-residence certificate",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004242&Paragraf=53a",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20004242",
+        "Paragraf": "53a",
+        "Dokumentnummer": "NOR40128790",
+        "ELI": "https://ris.bka.gv.at/eli/bgbl/i/2005/100/P53a/NOR40128790"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official_source_inspected; current text effective 2011-07-01 and page shows last update 2025-09-15",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML with stable statute/paragraph locator, document number, ELI, and version history",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "RIGHTS-06",
+        "RIGHTS-07"
+      ]
+    },
+    {
+      "id": "at-nag-53",
+      "title": "Niederlassungs- und Aufenthaltsgesetz § 53 — EEA registration certificate and evidence",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004242&Paragraf=53",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20004242",
+        "Paragraf": "53",
+        "Dokumentnummer": "NOR40149045",
+        "ELI": "https://ris.bka.gv.at/eli/bgbl/i/2005/100/P53/NOR40149045"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official_source_inspected; current text effective 2013-04-18 and page shows last update 2025-09-15",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML with stable statute/paragraph locator, document number, ELI, and version history",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "RIGHTS-01",
+        "PRACTICE-01"
+      ]
+    },
+    {
+      "id": "at-nag-54",
+      "title": "Niederlassungs- und Aufenthaltsgesetz § 54 — residence cards for third-country family members",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004242&Paragraf=54",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20004242",
+        "Paragraf": "54"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official_current_record_opened; inspect the complete rule text before retrieval implementation",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML with version-history links and ELI",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "RIGHTS-02"
+      ]
+    },
+    {
+      "id": "at-nag-54a",
+      "title": "Niederlassungs- und Aufenthaltsgesetz § 54a — permanent residence cards",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004242&Paragraf=54a",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20004242",
+        "Paragraf": "54a"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official_source_inspected",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML; current version and update dates visible",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "RIGHTS-06"
+      ]
+    },
+    {
+      "id": "at-nag-55",
+      "title": "Niederlassungs- und Aufenthaltsgesetz § 55 — review of continued EEA residence rights",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004242&Paragraf=55",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20004242",
+        "Paragraf": "55"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official_current_record_inspected; inspect complete rule text before retrieval implementation",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML with version-history links and ELI",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "RIGHTS-06",
+        "RIGHTS-07"
+      ]
+    },
+    {
+      "id": "at-nag-56",
+      "title": "Niederlassungs- und Aufenthaltsgesetz § 56 — other EEA-family settlement cases",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004242&Paragraf=56",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20004242",
+        "Paragraf": "56"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official_current_record_inspected",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML with version-history links and ELI",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "RIGHTS-03",
+        "RIGHTS-04"
+      ]
+    },
+    {
+      "id": "at-nag-57",
+      "title": "Niederlassungs- und Aufenthaltsgesetz § 57 — Swiss nationals, family members, and returning Austrians",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004242&Paragraf=57",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20004242",
+        "Paragraf": "57",
+        "Dokumentnummer": "NOR40128795",
+        "ELI": "https://www.ris.bka.gv.at/eli/bgbl/i/2005/100/P57/NOR40128795"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official_source_inspected; current section effective 2011-07-01 and page identifies version history",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML with stable statute/paragraph locator, document number, ELI, and version history",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "RIGHTS-02",
+        "PRACTICE-11"
+      ]
+    },
+    {
+      "id": "at-nag-dv-5",
+      "title": "Niederlassungs- und Aufenthaltsgesetz-Durchführungsverordnung § 5 — card form and content",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004470&Paragraf=5",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20004470",
+        "Paragraf": "5"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official_source_inspected",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML; annex E/F artifacts require separate inspection",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "BORDER-01"
+      ]
+    },
+    {
+      "id": "at-avg-17",
+      "title": "Allgemeines Verwaltungsverfahrensgesetz 1991 § 17 — inspection of administrative files",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005768&Paragraf=17",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "10005768",
+        "Paragraf": "17"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "direct_verification_blocked_in_research_reader; official search result exposes the provision, but live runtime retrieval remains unverified",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML lead; acquisition route not yet tested",
+      "topic_ids": [
+        "DATA-06",
+        "ADMIN-02"
+      ]
+    },
+    {
+      "id": "at-avg-73",
+      "title": "Allgemeines Verwaltungsverfahrensgesetz 1991 § 73 — decision deadlines and delay route",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005768&Paragraf=73",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "10005768",
+        "Paragraf": "73"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "direct_verification_blocked_in_research_reader; official search result exposes the current provision, but live runtime retrieval remains unverified",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML; current version evidence and ELI are visible",
+      "topic_ids": [
+        "ADMIN-02",
+        "REMEDY-03"
+      ]
+    },
+    {
+      "id": "at-vwgvg-7",
+      "title": "Verwaltungsgerichtsverfahrensgesetz § 7 — administrative complaint right and general time limit",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20008255&Paragraf=7",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20008255",
+        "Paragraf": "7",
+        "Dokumentnummer": "NOR40235305",
+        "ELI": "https://www.ris.bka.gv.at/eli/bgbl/i/2013/33/P7/NOR40235305"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official_source_inspected; current text shows a general four-week period subject to applicable special rules",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML with stable statute/paragraph locator, document number, ELI, and version history",
+      "topic_ids": [
+        "ADMIN-02",
+        "REMEDY-03"
+      ]
+    },
+    {
+      "id": "at-guidance-family-card",
+      "title": "Aufenthaltskarte und Daueraufenthaltskarte for third-country family members of EU/EEA/Swiss citizens",
+      "source_type": "official_guidance",
+      "language": "de",
+      "url": "https://eausweise.oesterreich.gv.at/de/themen/menschen_aus_anderen_staaten/aufenthalt/1/Seite.120830",
+      "issuing_authority": "oesterreich.gv.at editorial team; page content responsibility attributed to the Federal Ministry of the Interior",
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official_source_inspected",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official portal HTML; page identifier and visible last-updated date",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "VISA-01",
+        "RIGHTS-02",
+        "PRACTICE-01"
+      ]
+    },
+    {
+      "id": "at-guidance-family-index",
+      "title": "Aufenthalt in Österreich for third-country family members of EU/EEA/Swiss citizens",
+      "source_type": "official_guidance_directory",
+      "language": "de",
+      "url": "https://www.oesterreich.gv.at/de/themen/menschen_aus_anderen_staaten/aufenthalt/1",
+      "issuing_authority": "oesterreich.gv.at editorial team",
+      "functional_relationship": "related_source",
+      "verification_status": "official_source_inspected",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official portal topic index; links to current detailed routes and visible last-updated date",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "PRACTICE-01",
+        "PRACTICE-02"
+      ]
+    },
+    {
+      "id": "at-dsb-complaint",
+      "title": "Datenschutzbehörde — complaint procedure and forms",
+      "source_type": "official_guidance",
+      "language": "de",
+      "url": "https://dsb.gv.at/eingabe-an-die-dsb/beschwerde",
+      "issuing_authority": "Austrian Data Protection Authority",
+      "functional_relationship": "related_source",
+      "verification_status": "official_source_inspected",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official HTML page with linked online and downloadable forms; no content-date check yet",
+      "topic_ids": [
+        "DATA-07",
+        "DATA-09",
+        "PRACTICE-01",
+        "PRACTICE-02"
+      ]
+    },
+    {
+      "id": "at-volksanwaltschaft-complaint",
+      "title": "Volksanwaltschaft — complaint guide for problems with public authorities",
+      "source_type": "official_guidance",
+      "language": "de",
+      "url": "https://volksanwaltschaft.gv.at/fuer-probleme-mit-behoerden/beschwerdewegweiser/",
+      "issuing_authority": "Austrian Ombudsman Board",
+      "functional_relationship": "related_source",
+      "verification_status": "official_source_inspected",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official HTML guidance with linked form and jurisdiction limits; no content-date check yet",
+      "topic_ids": [
+        "REMEDY-08",
+        "PRACTICE-01",
+        "PRACTICE-02"
+      ]
+    },
+    {
+      "id": "at-ifg-1",
+      "title": "Informationsfreiheitsgesetz § 1 — scope of information access",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20012537&Paragraf=1",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20012537",
+        "Paragraf": "1",
+        "ELI": "https://ris.bka.gv.at/eli/bgbl/i/2024/5/P1/NOR40260535"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official_source_inspected; current section effective 2025-09-01",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML with effective date, document number, and ELI",
+      "topic_ids": [
+        "DATA-10",
+        "ADMIN-02",
+        "PRACTICE-11"
+      ]
+    },
+    {
+      "id": "at-ifg-7",
+      "title": "Informationsfreiheitsgesetz § 7 — information request procedure",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20012537&Paragraf=7",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20012537",
+        "Paragraf": "7",
+        "ELI": "https://ris.bka.gv.at/eli/bgbl/i/2024/5/P7/NOR40260541"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official_source_inspected; current section effective 2025-09-01",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML with effective date, document number, and ELI",
+      "topic_ids": [
+        "DATA-10",
+        "ADMIN-02"
+      ]
+    },
+    {
+      "id": "at-ifg-8",
+      "title": "Informationsfreiheitsgesetz § 8 — time limit for information access",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20012537&Paragraf=8",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20012537",
+        "Paragraf": "8",
+        "ELI": "https://ris.bka.gv.at/eli/bgbl/i/2024/5/P8/NOR40260542"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official_search_result_only; current section route and extension rule surfaced, direct section inspection pending",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML lead; stable current-section locator and ELI surfaced",
+      "topic_ids": [
+        "DATA-10",
+        "ADMIN-02",
+        "REMEDY-03"
+      ]
+    },
+    {
+      "id": "at-ifg-11",
+      "title": "Informationsfreiheitsgesetz § 11 — formal decision and judicial remedy after refusal",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20012537&Paragraf=11",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20012537",
+        "Paragraf": "11",
+        "ELI": "https://ris.bka.gv.at/eli/bgbl/i/2024/5/P11/NOR40260545"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official_source_inspected; current section effective 2025-09-01",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML with effective date, document number, and ELI",
+      "topic_ids": [
+        "DATA-10",
+        "REMEDY-03",
+        "ADMIN-02"
+      ]
+    },
+    {
+      "id": "at-ifg-14",
+      "title": "Informationsfreiheitsgesetz § 14 — judicial review for specified private information holders",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20012537&Paragraf=14",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20012537",
+        "Paragraf": "14",
+        "ELI": "https://ris.bka.gv.at/eli/bgbl/i/2024/5/P14/NOR40260548"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official_source_inspected; current section effective 2025-09-01",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML with effective date, document number, and ELI",
+      "topic_ids": [
+        "DATA-10",
+        "REMEDY-03",
+        "ADMIN-02"
+      ]
+    },
+    {
+      "id": "at-vwgvg-8",
+      "title": "Verwaltungsgerichtsverfahrensgesetz § 8 — complaint for administrative delay",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20008255&Paragraf=8",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20008255",
+        "Paragraf": "8",
+        "ELI": "https://www.ris.bka.gv.at/eli/bgbl/i/2013/33/P8/NOR40147921"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official_search_result_only; current text and six-month default period surfaced, direct section open timed out in this reader",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML lead with stable statute/paragraph locator and ELI",
+      "topic_ids": [
+        "ADMIN-02",
+        "REMEDY-03"
+      ]
+    },
+    {
+      "id": "at-lvwg-ni-2019-518",
+      "title": "Landesverwaltungsgericht Niederösterreich, LVwG-AV-518/001-2019 — EEA-family residence-card decision",
+      "source_type": "official_case_law",
+      "language": "de",
+      "url": "https://ris.bka.gv.at/JudikaturEntscheidung.wxe?Abfrage=Lvwg&Dokumentnummer=LVWGT_NI_20191205_LVwG_AV_518_001_2019_00",
+      "publisher_identifier": {
+        "system": "RIS Landesverwaltungsgerichte",
+        "court": "Landesverwaltungsgericht Niederösterreich",
+        "case_number": "LVwG-AV-518/001-2019",
+        "Dokumentnummer": "LVWGT_NI_20191205_LVwG_AV_518_001_2019_00",
+        "ECLI": "ECLI:AT:LVWGNI:2019:LVwG.AV.518.001.2019"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official_case_record_inspected; RIS page exposes decision date, case number, ECLI, and last-updated date",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS case-law HTML with stable document-number route; no monitored discovery query implemented",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "RIGHTS-02",
+        "REMEDY-03"
+      ]
+    },
+    {
+      "id": "at-lvwg-wien-2022-6086",
+      "title": "Verwaltungsgericht Wien, VGW-151/094/6086/2022 — Aufenthaltskarte challenge under NAG §§ 54 and 57",
+      "source_type": "official_case_law",
+      "language": "de",
+      "url": "https://ris.bka.gv.at/Dokumente/Lvwg/LVWGT_WI_20220808_VGW_151_094_6086_2022_00/LVWGT_WI_20220808_VGW_151_094_6086_2022_00.html",
+      "publisher_identifier": {
+        "system": "RIS Landesverwaltungsgerichte",
+        "court": "Verwaltungsgericht Wien",
+        "case_number": "VGW-151/094/6086/2022",
+        "Dokumentnummer": "LVWGT_WI_20220808_VGW_151_094_6086_2022_00",
+        "ECLI": "ECLI:AT:LVWGWI:2022:VGW.151.094.6086.2022"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official_case_record_inspected; page exposes court, decision date, case number, and ECLI",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS case-law HTML with stable document-number route; no monitored discovery query implemented",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "RIGHTS-02",
+        "REMEDY-03"
+      ]
+    },
+    {
+      "id": "at-bmeia-visa",
+      "title": "BMEIA — visa information, EEA/Swiss family-member exemptions, prior consultation and refusal remedies",
+      "source_type": "official_guidance",
+      "language": "en",
+      "url": "https://www.bmeia.gv.at/en/entry-and-residence/visa",
+      "issuing_authority": "Federal Ministry for European and International Affairs (BMEIA)",
+      "functional_relationship": "related_source",
+      "verification_status": "official_source_inspected; includes family-member exemptions, prior-consultation information, fees, and refusal review guidance",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official ministry HTML; dynamic visa information and fee/deadline content; mission-specific routes require separate discovery",
+      "topic_ids": [
+        "VISA-01",
+        "VISA-08",
+        "PRACTICE-01",
+        "PRACTICE-02",
+        "MISSION-21"
+      ]
+    },
+    {
+      "id": "at-bmeia-settlement-residence",
+      "title": "BMEIA — settlement and residence, consular application routes and EEA/Swiss family cases",
+      "source_type": "official_guidance",
+      "language": "en",
+      "url": "https://www.bmeia.gv.at/en/travel-stay/entrance-and-residence-in-austria/settlement-and-residence",
+      "issuing_authority": "Federal Ministry for European and International Affairs (BMEIA)",
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official_source_inspected; central page links to first-party government portals and competent authority routes",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official ministry HTML with a stable-looking route and linked residence topics; local consular practice remains separate",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "PRACTICE-01",
+        "PRACTICE-02",
+        "MISSION-21"
+      ]
+    },
+    {
+      "id": "at-nag-3-authority",
+      "title": "Niederlassungs- und Aufenthaltsgesetz § 3 — authorities and decision/review responsibility",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004242&Paragraf=3",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20004242",
+        "Paragraf": "3"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official_current consolidated statute inspected 2026-10-18; § 3 identifies the ordinary NAG authority and distinguishes provincial-administrative-court from BFA/BVwG review",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML with statute/paragraph locator, version history, document number, and ELI; exact raw response not captured",
+      "topic_ids": [
+        "ADMIN-02",
+        "REMEDY-03"
+      ]
+    },
+    {
+      "id": "at-nag-4-venue",
+      "title": "Niederlassungs- und Aufenthaltsgesetz § 4 — local authority and court venue",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004242&Paragraf=4",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20004242",
+        "Paragraf": "4"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official current consolidated statute inspected 2026-10-18; § 4 links local authority and provincial-court venue to residence and authority seat",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML with statute/paragraph locator, version history, document number, and ELI; exact raw response not captured",
+      "topic_ids": [
+        "ADMIN-02",
+        "REMEDY-03"
+      ]
+    },
+    {
+      "id": "at-vwgh-ra-2022-22-0149",
+      "title": "VwGH Ra 2022/22/0149 — NAG § 55 procedure in residence-card proceedings",
+      "source_type": "official_case_law",
+      "language": "de",
+      "url": "https://ris.bka.gv.at/JudikaturEntscheidung.wxe?Abfrage=Vwgh&Dokumentnummer=JWT_2022220149_20230511L00",
+      "publisher_identifier": {
+        "system": "RIS Verwaltungsgerichtshof",
+        "court": "Verwaltungsgerichtshof",
+        "case_number": "Ra 2022/22/0149",
+        "Dokumentnummer": "JWT_2022220149_20230511L00",
+        "ECLI": "ECLI:AT:VWGH:2023:RA2022220149.L00"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official RIS decision and metadata inspected; decision dated 2023-05-11; addresses NAG § 55(3) and VwGVG § 17 in a fact-specific residence-card proceeding",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS case-law HTML with stable document-number route; no monitored decision-discovery query implemented",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "REMEDY-02",
+        "REMEDY-03"
+      ]
+    },
+    {
+      "id": "at-bvwg-g306-2026-2325799",
+      "title": "BVwG G306 2325799-1 — review of a BFA decision following NAG § 55(3) procedure",
+      "source_type": "official_case_law",
+      "language": "de",
+      "url": "https://ris.bka.gv.at/Dokument.wxe?Abfrage=Bvwg&Dokumentnummer=BVWGT_20260615_G306_2325799_1_00",
+      "publisher_identifier": {
+        "system": "RIS Bundesverwaltungsgericht",
+        "court": "Bundesverwaltungsgericht",
+        "case_number": "G306 2325799-1",
+        "Dokumentnummer": "BVWGT_20260615_G306_2325799_1_00",
+        "ECLI": "ECLI:AT:BVWG:2026:G306.2325799.1.00"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official RIS decision and metadata inspected; decision dated 2026-06-15; a single fact-specific example, not a coverage proxy",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS case-law HTML with stable document-number route; no monitored decision-discovery query implemented",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "REMEDY-03"
+      ]
+    },
+    {
+      "id": "at-bvwg-w112-2246194-2-2023",
+      "title": "BVwG W112 2246194-2 — NAG §§ 54(7) and 55(3) procedural route",
+      "source_type": "official_case_law",
+      "language": "de",
+      "url": "https://ris.bka.gv.at/JudikaturEntscheidung.wxe?Abfrage=Bvwg&Dokumentnummer=BVWGT_20230329_W112_2246194_2_00",
+      "publisher_identifier": {
+        "system": "RIS Bundesverwaltungsgericht",
+        "court": "Bundesverwaltungsgericht",
+        "case_number": "W112 2246194-2",
+        "Dokumentnummer": "BVWGT_20230329_W112_2246194_2_00",
+        "ECLI": "ECLI:AT:BVWG:2023:W112.2246194.2.00"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official RIS decision text and metadata inspected; decision dated 2023-03-29, last updated 2026-08-14; no separate Rechtssatz is indexed; discusses the NAG § 54(7) exception to the § 55(3) route",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS case-law HTML with stable document-number route; no monitored decision-discovery query implemented",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "REMEDY-03"
+      ]
+    },
+    {
+      "id": "at-nag-dv-anl-5",
+      "title": "Niederlassungs- und Aufenthaltsgesetz-Durchführungsverordnung Anlage 5 (Anlage E) — residence card form",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=5&Artikel=&Gesetzesnummer=20004470&Paragraf=&Uebergangsrecht=",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20004470",
+        "Anlage": "5",
+        "Dokumentnummer": "NOR40221013",
+        "ELI": "https://ris.bka.gv.at/eli/bgbl/ii/2005/451/ANL5/NOR40221013"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official_current_annex_page_inspected_2026-10-18; Anlage E is documented as a PDF; payload bytes not retrieved",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "RIS current Annex 5 HTML resolver with document number, ELI and version history; separate PDF payload requires identity and conversion checks",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "BORDER-01"
+      ]
+    },
+    {
+      "id": "at-nag-dv-anl-6",
+      "title": "Niederlassungs- und Aufenthaltsgesetz-Durchführungsverordnung Anlage 6 (Anlage F) — permanent residence card form",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=6&Artikel=&Gesetzesnummer=20004470&Paragraf=&Uebergangsrecht=",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20004470",
+        "Anlage": "6",
+        "Dokumentnummer": "NOR40221015",
+        "ELI": "https://ris.bka.gv.at/eli/bgbl/ii/2005/451/ANL6/NOR40221015"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official_current_annex_page_inspected_2026-10-18; Anlage F is documented as a PDF; payload bytes not retrieved",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "RIS current Annex 6 HTML resolver with document number, ELI and version history; separate PDF payload requires identity and conversion checks",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "BORDER-01"
+      ]
+    },
+    {
+      "id": "at-ifg-15",
+      "title": "Informationsfreiheitsgesetz § 15 — Data Protection Authority advice and evaluation role",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=&Artikel=&Gesetzesnummer=20012537&Paragraf=15&Uebergangsrecht=",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20012537",
+        "Paragraf": "15",
+        "Dokumentnummer": "NOR40260549",
+        "ELI": "https://ris.bka.gv.at/eli/bgbl/i/2024/5/P15/NOR40260549"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official_current_section_inspected_2026-10-18; effective 2025-09-01; last updated 2024-02-26",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML with effective date, document number and ELI; not a judicial appeal route",
+      "topic_ids": [
+        "DATA-10",
+        "ADMIN-02",
+        "PRACTICE-11"
+      ]
+    },
+    {
+      "id": "at-guidance-visa-application",
+      "title": "oesterreich.gv.at — Antrag auf Visum: consular competence and local evidence requirements",
+      "source_type": "official_guidance",
+      "language": "de",
+      "url": "https://www.oesterreich.gv.at/de/themen/menschen_aus_anderen_staaten/visum_fuer_oesterreich/Seite.3550010",
+      "issuing_authority": "Federal Ministry of the Interior (content responsible)",
+      "functional_relationship": "related_source",
+      "verification_status": "official_source_inspected_2026-10-18; page last updated 2026-01-01; it states that supporting evidence may vary by location and links to BMEIA representation information",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official oesterreich.gv.at HTML with stable page ID, visible last-update date, structured sections, and linked forms/representation directory; raw response not captured",
+      "topic_ids": [
+        "VISA-01",
+        "VISA-08",
+        "MISSION-21",
+        "PRACTICE-01",
+        "PRACTICE-02"
+      ]
+    },
+    {
+      "id": "at-bmeia-representation-directory",
+      "title": "BMEIA — Verzeichnis der Österreichischen Vertretungsbehörden: consular districts and visa arrangements",
+      "source_type": "official_guidance_directory",
+      "language": "de",
+      "url": "https://www.bmeia.gv.at/reports/oesterreichische-vertretungen-im-ausland",
+      "issuing_authority": "Federal Ministry for European and International Affairs (BMEIA)",
+      "functional_relationship": "related_source",
+      "verification_status": "official_source_inspected_2026-10-18; page states Stand 2026-10-16 and lists consular districts, responsible representations, and visa-issuance arrangements",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "large official HTML directory with visible as-of date and mission-level records; raw response and change behavior not captured",
+      "topic_ids": [
+        "MISSION-21",
+        "VISA-01",
+        "PRACTICE-01",
+        "PRACTICE-02"
+      ]
+    }
+  ],
+  "bounded_search_gaps": [
+    "Mission-specific Austrian consular pages and local instructions for applicant locations remain open; central guidance and the current directory identify routes but do not establish location-specific appointments, checklists, and family-member intake",
+    "Austria-specific case-law query coverage and update protocol across the official BVwG, VwGH, and LVwG search applications; the source-specific interfaces are documented, but LVwG contains selected decisions only and five inspected cases are not a complete inventory",
+    "NAG § 3–4 establishes ordinary authority and court venue, but procedural posture still matters: §§ 54–55 and the § 54(7) exception need broader current-case comparison before one route can be stated for every residence-card dispute",
+    "Information Freedom Act jurisdiction and oversight coverage across information-holder categories; current candidates do not establish one universal route for all public bodies",
+    "Land-level practice, forms, and competent-authority variations, including the special ombudsman arrangements in Tyrol and Vorarlberg"
+  ]
+}
