@@ -7,13 +7,14 @@
   "status": "discovery_only",
   "retrieval_status": "no_austria_runtime_rule_implemented",
   "accepted_source_count": 0,
-  "candidate_source_count": 34,
+  "candidate_source_count": 36,
   "official_hosts": [
     "ris.bka.gv.at",
     "www.ris.bka.gv.at",
     "oesterreich.gv.at",
     "www.oesterreich.gv.at",
     "eausweise.oesterreich.gv.at",
+    "www.bmeia.gv.at",
     "dsb.gv.at",
     "www.dsb.gv.at",
     "volksanwaltschaft.gv.at",
@@ -731,10 +732,47 @@
         "ADMIN-02",
         "PRACTICE-11"
       ]
+    },
+    {
+      "id": "at-guidance-visa-application",
+      "title": "oesterreich.gv.at — Antrag auf Visum: consular competence and local evidence requirements",
+      "source_type": "official_guidance",
+      "language": "de",
+      "url": "https://www.oesterreich.gv.at/de/themen/menschen_aus_anderen_staaten/visum_fuer_oesterreich/Seite.3550010",
+      "issuing_authority": "Federal Ministry of the Interior (content responsible)",
+      "functional_relationship": "related_source",
+      "verification_status": "official_source_inspected_2026-10-18; page last updated 2026-01-01; it states that supporting evidence may vary by location and links to BMEIA representation information",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official oesterreich.gv.at HTML with stable page ID, visible last-update date, structured sections, and linked forms/representation directory; raw response not captured",
+      "topic_ids": [
+        "VISA-01",
+        "VISA-08",
+        "MISSION-21",
+        "PRACTICE-01",
+        "PRACTICE-02"
+      ]
+    },
+    {
+      "id": "at-bmeia-representation-directory",
+      "title": "BMEIA — Verzeichnis der Österreichischen Vertretungsbehörden: consular districts and visa arrangements",
+      "source_type": "official_guidance_directory",
+      "language": "de",
+      "url": "https://www.bmeia.gv.at/reports/oesterreichische-vertretungen-im-ausland",
+      "issuing_authority": "Federal Ministry for European and International Affairs (BMEIA)",
+      "functional_relationship": "related_source",
+      "verification_status": "official_source_inspected_2026-10-18; page states Stand 2026-10-16 and lists consular districts, responsible representations, and visa-issuance arrangements",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "large official HTML directory with visible as-of date and mission-level records; raw response and change behavior not captured",
+      "topic_ids": [
+        "MISSION-21",
+        "VISA-01",
+        "PRACTICE-01",
+        "PRACTICE-02"
+      ]
     }
   ],
   "bounded_search_gaps": [
-    "Mission-specific Austrian consular instructions: local appointments, checklists, representation arrangements, and family-member intake details; central BMEIA pages do not close this location-specific coverage",
+    "Mission-specific Austrian consular pages and local instructions for applicant locations remain open; central guidance and the current directory identify routes but do not establish location-specific appointments, checklists, and family-member intake",
     "Broad RIS case-law discovery and update method across BVwG, VwGH, and all nine Landesverwaltungsgerichte; four inspected decisions are examples, not a complete decision inventory",
     "NAG § 3–4 establishes ordinary authority and court venue, but procedural posture still matters: §§ 54–55 and the § 54(7) exception need broader current-case comparison before one route can be stated for every residence-card dispute",
     "Information Freedom Act jurisdiction and oversight coverage across information-holder categories; current candidates do not establish one universal route for all public bodies",
