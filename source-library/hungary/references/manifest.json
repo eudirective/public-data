@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "pack": "hungary-national-source-system",
-  "version": "0.1.0",
-  "research_date": "2026-10-11",
+  "version": "0.3.0",
+  "research_date": "2026-10-18",
   "scope": "Only Hungarian national material represented in the supplied Hungary/OIF archive. Shared EU law and CJEU decisions remain in the EU core packs.",
   "official_hosts": [
     "njt.hu",
@@ -831,7 +831,9 @@
       "category": "equal-treatment",
       "publisher": "Alapvető Jogok Biztosának Hivatala",
       "format": "pdf",
-      "discovery_only": true
+      "validation_markers": [
+        "A hatósági ügyek intézésének rendjével kapcsolatos adatok"
+      ]
     },
     {
       "id": "ajbh-general-complaint-submission",
@@ -839,7 +841,17 @@
       "category": "remedies",
       "publisher": "Alapvető Jogok Biztosának Hivatala",
       "format": "pdf",
-      "discovery_only": true
+      "identity_validation_pending": "The official PDF returned 403 during the recorded review, so no content identity marker has been confirmed."
+    },
+    {
+      "id": "ajbh-equal-treatment-request-procedure-2024",
+      "url": "https://www.ajbh.hu/documents/10180/160450/T%C3%A1j%C3%A9koztat%C3%B3%2Bf%C3%BCzet_2024.pdf/37e09aa0-bc59-c2ac-ba81-767b67bfb8d7?t=1711035444903&version=1.0",
+      "category": "equal-treatment",
+      "publisher": "Alapvető Jogok Biztosának Hivatala",
+      "format": "pdf",
+      "validation_markers": [
+        "Az alapvető jogok biztosához az egyenlő bánásmód követelményének"
+      ]
     }
   ],
   "archive_targets": [
@@ -881,7 +893,20 @@
       "category": "guidance",
       "publisher": "Alapvető Jogok Biztosának Hivatala",
       "official_catalogue": "https://www.ajbh.hu/",
-      "status": "official-site-automated-fetch-blocked-by-bot-challenge"
+      "status": "official_direct_pdf_routes_pinned; catalogue_discovery_enabled; direct_access_unverified",
+      "resolved_source_id": "ajbh-general-complaint-submission",
+      "additional_resolved_source_ids": [
+        "ajbh-equal-treatment-directorate",
+        "ajbh-equal-treatment-request-procedure-2024"
+      ],
+      "remaining_blocked_source_ids": [
+        "ajbh-equal-treatment-application-submission",
+        "ajbh-equal-treatment-authority-procedure"
+      ],
+      "identity_validation_pending_source_ids": [
+        "ajbh-general-complaint-submission"
+      ],
+      "note": "Three official direct PDFs are registered as candidates for the existing PDF converter. Discovery-only AJBH catalogue pages are now included in discovery runs so replacement UUID links can be surfaced. Automated retrieval remains unverified. The 2025 general-complaint PDF stays blocked until its document identity can be confirmed from first-party content."
     },
     {
       "id": "oif-2023-foi-annual-report",
