@@ -1,101 +1,918 @@
 {
   "manifest_version": "0.1.0-candidate",
-  "pack": "belgium-national-source-library",
-  "inventory_source": "references/source-list.md",
-  "inventory_research_date": "2026-10-16",
-  "status": "partially_retrieved_review_candidates",
-  "retrieval_status": "partially_retrieved",
+  "pack": "belgium-national-source-candidates",
+  "jurisdiction": "BE",
+  "inventory_research_date": "2026-10-18",
+  "scope": "A bounded discovery register of Belgian first-party sources relevant to free movement, third-country family members, visa and residence procedures, administrative process and remedies, cross-border civil-status evidence, privacy, and access to administrative records. It is not an exhaustive Belgian source inventory.",
+  "status": "discovery_and_converted_review_candidates",
+  "retrieval_status": "partially_retrieved_review_candidates",
   "accepted_source_count": 0,
-  "candidate_source_count": 5,
-  "retrieved_review_candidate_count": 2,
+  "candidate_source_count": 39,
+  "official_hosts": [
+    "n-lex.europa.eu",
+    "ejustice.just.fgov.be",
+    "www.ejustice.just.fgov.be",
+    "dofi.ibz.be",
+    "diplomatie.belgium.be",
+    "unitedkingdom.diplomatie.belgium.be",
+    "unitedarabemirates.diplomatie.belgium.be",
+    "www.federalombudsman.be",
+    "ibz.rrn.fgov.be",
+    "www.ibz.rrn.fgov.be",
+    "www.rvv-cce.be",
+    "rvv-cce.be",
+    "dataprotectionauthority.be",
+    "www.dataprotectionauthority.be",
+    "wallex.wallonie.be",
+    "codex.vlaanderen.be",
+    "be.brussels",
+    "justice.belgium.be",
+    "www.justice.belgium.be"
+  ],
+  "secondary_hosts": [],
   "documents": [
     {
-      "id": "be-01-law-of-16-july-2004-establishing-the-code-of-private-international-law",
-      "title": "Law of 16 July 2004 establishing the Code of Private International Law",
+      "id": "be-nlex-discovery",
+      "title": "N-Lex national-law portal — Belgium discovery lead",
+      "source_type": "discovery_catalog",
+      "language": "multilingual",
+      "url": "https://n-lex.europa.eu/n-lex/",
+      "publisher_identifier": {
+        "system": "European Union N-Lex portal",
+        "jurisdiction_route": "Belgium"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official EU discovery portal; used as a lead to national-law publishers, not as a Belgian publisher or complete source inventory",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "portal and links to national legislation systems; coverage differs by jurisdiction and source class",
+      "topic_ids": [
+        "PRACTICE-11",
+        "PRACTICE-12"
+      ]
+    },
+    {
+      "id": "be-law-1980-fr",
+      "title": "Loi du 15 décembre 1980 sur l'accès au territoire, le séjour, l'établissement et l'éloignement des étrangers — French Justel record",
       "source_type": "national_legislation",
-      "language": "be",
+      "language": "fr",
+      "url": "https://www.ejustice.just.fgov.be/eli/loi/1980/12/15/1980121550/justel",
+      "publisher_identifier": {
+        "system": "Belgian Official Gazette / Justel",
+        "NUMAC": "1980121550",
+        "ELI": "https://www.ejustice.just.fgov.be/eli/loi/1980/12/15/1980121550/justel"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official current consolidated record inspected; page states text updated 2026-06-24, 136 archived versions, and 331 implementing decrees",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "long consolidated HTML with article links, amendments, footnotes, future-law markers, version archive, and implementing-instrument links",
+      "topic_ids": [
+        "FOUND-04",
+        "FOUND-05",
+        "RIGHTS-02",
+        "RESIDENCE-01",
+        "RESIDENCE-02",
+        "REMEDY-02"
+      ],
+      "legacy_candidate_ids": [
+        "be-03-law-of-15-december-1980-on-access-to-the-territory-residence-establishment-"
+      ],
+      "legacy_candidate_note": "Prior inventory identifier retained as an alias for this French-language record."
+    },
+    {
+      "id": "be-law-1980-nl",
+      "title": "Wet van 15 december 1980 betreffende de toegang tot het grondgebied, het verblijf, de vestiging en de verwijdering van vreemdelingen — Dutch Justel record",
+      "source_type": "national_legislation",
+      "language": "nl",
+      "url": "https://www.ejustice.just.fgov.be/eli/wet/1980/12/15/1980121550/justel",
+      "publisher_identifier": {
+        "system": "Belgian Official Gazette / Justel",
+        "NUMAC": "1980121550",
+        "ELI": "https://www.ejustice.just.fgov.be/eli/wet/1980/12/15/1980121550/justel"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official Dutch current consolidated record inspected; page states text updated 2026-06-24, 136 archived versions, and 331 implementing decrees",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "long consolidated HTML; a separate language representation of the same NUMAC record",
+      "topic_ids": [
+        "FOUND-04",
+        "FOUND-05",
+        "RIGHTS-02",
+        "RESIDENCE-01",
+        "RESIDENCE-02",
+        "REMEDY-02"
+      ]
+    },
+    {
+      "id": "be-rd-1981-fr",
+      "title": "Arrêté royal du 8 octobre 1981 — implementing decree on access, residence, settlement and removal",
+      "source_type": "national_legislation",
+      "language": "fr",
+      "url": "https://www.ejustice.just.fgov.be/eli/arrete/1981/10/08/1981001949/justel",
+      "publisher_identifier": {
+        "system": "Belgian Official Gazette / Justel",
+        "NUMAC": "1981001949",
+        "ELI": "https://www.ejustice.just.fgov.be/eli/arrete/1981/10/08/1981001949/justel"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official current consolidated record opened through the IBZ legislation index; full amendment and version metadata require source-specific extraction",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "long consolidated HTML with annex and implementing-procedure references",
+      "topic_ids": [
+        "RESIDENCE-01",
+        "RESIDENCE-02",
+        "RESIDENCE-08",
+        "VISA-04",
+        "PRACTICE-02"
+      ],
+      "legacy_candidate_ids": [
+        "be-04-royal-decree-of-8-october-1981-implementing-the-law-on-foreign-nationals"
+      ],
+      "legacy_candidate_note": "The prior inventory used NUMAC 1981001946; the official current 8 October 1981 decree record verified from IBZ is NUMAC 1981001949."
+    },
+    {
+      "id": "be-rd-1981-nl",
+      "title": "Koninklijk besluit van 8 oktober 1981 — implementing decree on access, residence, settlement and removal",
+      "source_type": "national_legislation",
+      "language": "nl",
+      "url": "https://www.ejustice.just.fgov.be/eli/besluit/1981/10/08/1981001949/justel",
+      "publisher_identifier": {
+        "system": "Belgian Official Gazette / Justel",
+        "NUMAC": "1981001949",
+        "ELI": "https://www.ejustice.just.fgov.be/eli/besluit/1981/10/08/1981001949/justel"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official Dutch current consolidated record opened; the full version and amendment history requires source-specific extraction",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "long consolidated HTML, separate language representation of the same NUMAC record",
+      "topic_ids": [
+        "RESIDENCE-01",
+        "RESIDENCE-02",
+        "RESIDENCE-08",
+        "VISA-04",
+        "PRACTICE-02"
+      ]
+    },
+    {
+      "id": "be-ibz-legislation-index",
+      "title": "Immigration Office legislation index",
+      "source_type": "official_authority_index",
+      "language": "en",
+      "url": "https://dofi.ibz.be/en/documentation/legislation",
+      "publisher_identifier": {
+        "system": "Belgian Immigration Office (IBZ/Dofi)",
+        "page": "legislation"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official page opened; names the 1980 Law and 1981 Royal Decree, warns both have many amendments, and links consolidated Justel records and annex indexes",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "JavaScript-dependent authority hub linking to current legislation records and forms",
+      "topic_ids": [
+        "PRACTICE-01",
+        "PRACTICE-11",
+        "PRACTICE-12"
+      ]
+    },
+    {
+      "id": "be-annex-index-fr",
+      "title": "IBZ index of annexes to the Immigration Law and Royal Decree — French",
+      "source_type": "official_form_index",
+      "language": "fr",
+      "url": "https://dofi.ibz.be/fr/documentation/legislation/liste-des-annexes-la-loi-du-15-decembre-1980-et-larrete-royal-du-8",
+      "publisher_identifier": {
+        "system": "IBZ official forms index",
+        "language": "fr"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official page inspected; lists Annexes 19, 19ter, and 20 with linked payloads and descriptions",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "dynamic HTML index with direct file links; individual filenames and file paths are versioned and can change",
+      "topic_ids": [
+        "PRACTICE-02",
+        "RESIDENCE-01",
+        "RESIDENCE-02",
+        "RESIDENCE-08"
+      ]
+    },
+    {
+      "id": "be-annex-index-nl",
+      "title": "IBZ list of annexes to the Immigration Law and Royal Decree — Dutch",
+      "source_type": "official_form_index",
+      "language": "nl",
+      "url": "https://dofi.ibz.be/nl/documentation/legislation/lijst-van-de-bijlagen-bij-de-wet-van-15-december-1980-en-bij-het",
+      "publisher_identifier": {
+        "system": "IBZ official forms index",
+        "language": "nl"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official Dutch index reached by following the IBZ language switch; page has separate language-specific links",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "dynamic HTML index; confirm current direct file URL and language from the index on each retrieval",
+      "topic_ids": [
+        "PRACTICE-02",
+        "RESIDENCE-01",
+        "RESIDENCE-02",
+        "RESIDENCE-08"
+      ]
+    },
+    {
+      "id": "be-annex-19-fr",
+      "title": "Annexe 19 — application for registration certificate / Swiss national registration application",
+      "source_type": "official_form",
+      "language": "fr",
+      "url": "https://dofi.ibz.be/sites/default/files/2025-09/Annexe%2019_2025_0.pdf",
+      "publisher_identifier": {
+        "system": "Royal Decree Annex 19",
+        "form": "Annexe 19",
+        "observed_file_version": "2025"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official linked PDF opened; one page identifies Annexe 19 and cites Immigration Law articles 40, 40bis, 40ter, 42, and 47/2",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "PDF discovered from the official French annex index; use the parent index to rediscover rather than pinning this versioned file URL",
+      "topic_ids": [
+        "PRACTICE-02",
+        "RESIDENCE-01",
+        "RIGHTS-02"
+      ]
+    },
+    {
+      "id": "be-annex-19ter-fr",
+      "title": "Annexe 19ter — application for a residence card by a family member of an EU citizen or Swiss national",
+      "source_type": "official_form",
+      "language": "fr",
+      "url": "https://dofi.ibz.be/sites/default/files/2021-12/Annexe%2019ter_2015.pdf",
+      "publisher_identifier": {
+        "system": "Royal Decree Annex 19ter",
+        "form": "Annexe 19ter"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official index entry inspected, but the linked PDF URL currently returned a short HTML error response instead of a PDF payload",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "versioned PDF link from official index; current endpoint identity and format validation failed in this read-only inspection",
+      "topic_ids": [
+        "PRACTICE-02",
+        "RESIDENCE-02",
+        "RIGHTS-02"
+      ]
+    },
+    {
+      "id": "be-annex-20-fr",
+      "title": "Annexe 20 — decision refusing residence longer than three months",
+      "source_type": "official_form",
+      "language": "fr",
+      "url": "https://dofi.ibz.be/sites/default/files/2025-09/Annexe%2020_2025_0.pdf",
+      "publisher_identifier": {
+        "system": "Royal Decree Annex 20",
+        "form": "Annexe 20",
+        "observed_file_version": "2025"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official linked two-page PDF opened; document title matches Annex 20",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "versioned PDF linked from official annex index; rediscover and validate from parent index",
+      "topic_ids": [
+        "PRACTICE-02",
+        "REMEDY-02",
+        "RESIDENCE-02"
+      ]
+    },
+    {
+      "id": "be-eu-entry-residence",
+      "title": "Right of entry and residence — EU citizens",
+      "source_type": "official_administrative_guidance",
+      "language": "en",
+      "url": "https://dofi.ibz.be/en/themes/citizens-european-union/right-entry-and-residence",
+      "publisher_identifier": {
+        "system": "IBZ/Dofi",
+        "page": "right-entry-and-residence"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official page inspected; identifies provisions in force since 2025-09-01 and explains Annex 19 municipal application and Immigration Office decisions",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "JavaScript-dependent long HTML page with tables, links, dynamic notices, and language/version variants",
+      "topic_ids": [
+        "RESIDENCE-01",
+        "RESIDENCE-02",
+        "RESIDENCE-05",
+        "RESIDENCE-08",
+        "RIGHTS-01",
+        "RIGHTS-02",
+        "PRACTICE-01"
+      ]
+    },
+    {
+      "id": "be-eu-family-guidance",
+      "title": "Family reunification — EU and third-country family members",
+      "source_type": "official_administrative_guidance",
+      "language": "en",
+      "url": "https://dofi.ibz.be/en/themes/citizens-european-union/family-reunification",
+      "publisher_identifier": {
+        "system": "IBZ/Dofi",
+        "page": "family-reunification"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official page opened, but the rendered text is incomplete/malformed, labels linked pages as work in progress, and contains a broad EU/EEA/Swiss glossary that needs legal-source cross-checking",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "JavaScript-dependent guidance with incomplete rendered page content and linked subpages",
+      "topic_ids": [
+        "RIGHTS-02",
+        "RIGHTS-03",
+        "RESIDENCE-02",
+        "VISA-01",
+        "PRACTICE-01"
+      ]
+    },
+    {
+      "id": "be-mobile-belgian-40ter",
+      "title": "Family reunification with a Belgian who exercised free movement — Article 40ter §1 guidance",
+      "source_type": "official_administrative_guidance",
+      "language": "nl",
+      "url": "https://dofi.ibz.be/nl/themes/ressortissants-dun-pays-tiers/regroupement-familial/avec-un-belge/gezinshereniging-met-een-0",
+      "publisher_identifier": {
+        "system": "IBZ/Dofi",
+        "law": "Law of 15 December 1980",
+        "article": "40ter §1"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official Dutch guidance inspected in search output; states Article 40ter §1 as amended in 2024 and effective 2024-09-01; full page route should be reopened before implementation",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "language-specific dynamic HTML; distinguish mobile Belgian returnees from Belgian nationals who did not exercise free movement",
+      "topic_ids": [
+        "RIGHTS-02",
+        "RIGHTS-05",
+        "RESIDENCE-02",
+        "PRACTICE-01"
+      ]
+    },
+    {
+      "id": "be-d-visa-article9",
+      "title": "D visa application under Article 9",
+      "source_type": "official_administrative_guidance",
+      "language": "en",
+      "url": "https://dofi.ibz.be/en/themes/third-country-nationals/residence-permit-articles-9-9bis-9ter/d-visa-application-article-9",
+      "publisher_identifier": {
+        "system": "IBZ/Dofi",
+        "law": "Law of 15 December 1980",
+        "article": "9"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official search result exposed route and process text, but current direct page open returned a human-verification challenge",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "dynamic HTML; page points applicants to the locally competent Belgian post and its external service-provider instructions",
+      "topic_ids": [
+        "VISA-02",
+        "VISA-03",
+        "VISA-04",
+        "RESIDENCE-11",
+        "MISSION-04",
+        "PRACTICE-01"
+      ]
+    },
+    {
+      "id": "be-registration-certificate-change",
+      "title": "Registration certificate format change from 28 September 2026",
+      "source_type": "official_operational_notice",
+      "language": "en",
+      "url": "https://dofi.ibz.be/en/news/registration-certificate-change-28-september-2026",
+      "publisher_identifier": {
+        "system": "IBZ/Dofi",
+        "publication_date": "2026-08-17"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official notice inspected; states gradual introduction of booklet format from 2026-09-28 while current documents remain valid until expiry and residence rights remain unchanged",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "dated news HTML; distinguish the domestic Registration Certificate (orange card) from Annex 19 and EU residence-card terminology",
+      "topic_ids": [
+        "RESIDENCE-08",
+        "RESIDENCE-10",
+        "PRACTICE-10"
+      ]
+    },
+    {
+      "id": "be-visa-hub",
+      "title": "Visa for Belgium — central FPS Foreign Affairs page",
+      "source_type": "official_consular_guidance",
+      "language": "en",
+      "url": "https://diplomatie.belgium.be/en/travel-belgium/visa-belgium",
+      "publisher_identifier": {
+        "system": "FPS Foreign Affairs",
+        "page": "visa-belgium"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official hub inspected; last updated 2026-10-12; links the Immigration Office, competent posts, representation rules, current matrix PDFs, and privacy material",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "stable-looking navigation hub with separately versioned linked documents and location-specific subpages",
+      "topic_ids": [
+        "VISA-02",
+        "VISA-03",
+        "MISSION-04",
+        "MISSION-19",
+        "MISSION-20",
+        "PRACTICE-01"
+      ]
+    },
+    {
+      "id": "be-visa-competence-matrix",
+      "title": "Visa for Belgium — competence and representation matrix dated 12 October 2026",
+      "source_type": "official_consular_directory",
+      "language": "en",
+      "url": "https://diplomatie.belgium.be/sites/default/files/2026-10/Visa_Competence_and_Representation_EN_12102026.pdf",
+      "publisher_identifier": {
+        "system": "FPS Foreign Affairs",
+        "document": "Visa Competence and Representation",
+        "date": "2026-10-12"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official 16-page PDF opened from the current central visa hub; includes competent mission, short-stay representation, and external service-provider columns",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "dated table PDF; resolve it through the hub rather than pinning the dated file path; extraction must preserve country-to-mission rows",
+      "topic_ids": [
+        "VISA-02",
+        "MISSION-04",
+        "MISSION-19",
+        "MISSION-20",
+        "MISSION-25",
+        "PRACTICE-02"
+      ]
+    },
+    {
+      "id": "be-embassy-directory",
+      "title": "Belgian embassies and consulates directory",
+      "source_type": "official_consular_directory",
+      "language": "en",
+      "url": "https://diplomatie.belgium.be/en/embassies-and-consulates",
+      "publisher_identifier": {
+        "system": "FPS Foreign Affairs",
+        "directory": "embassies-and-consulates"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official directory opened from the central visa page",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "dynamic directory; requires resolving applicant residence to the responsible post and then to the post's own instructions",
+      "topic_ids": [
+        "MISSION-04",
+        "MISSION-09",
+        "MISSION-19",
+        "PRACTICE-01"
+      ]
+    },
+    {
+      "id": "be-uk-mission-eu-family-visa",
+      "title": "Third-country family members of EU citizens and the EU directive — Belgium in the United Kingdom",
+      "source_type": "mission_specific_consular_guidance",
+      "language": "en",
+      "url": "https://unitedkingdom.diplomatie.belgium.be/en/travel-belgium/visa-belgium/third-country-family-members-eu-citizens-and-eu-directive",
+      "publisher_identifier": {
+        "system": "Belgian Embassy in the United Kingdom",
+        "page": "third-country-family-members-eu-citizens-and-eu-directive"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official post page opened; describes direct consular filing, appointment and TLS options; no page-update date observed and appointment availability is volatile",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "mission-specific HTML with links to an external visa service and local appointment instructions",
+      "topic_ids": [
+        "VISA-03",
+        "VISA-04",
+        "VISA-05",
+        "VISA-06",
+        "MISSION-22",
+        "MISSION-25",
+        "PRACTICE-04"
+      ]
+    },
+    {
+      "id": "be-uae-mission-eu-family-visa",
+      "title": "Schengen visa for a family member of a Belgian or EU national — Belgium in the United Arab Emirates",
+      "source_type": "mission_specific_consular_guidance",
+      "language": "en",
+      "url": "https://unitedarabemirates.diplomatie.belgium.be/en/travel-belgium/visa-belgium/schengen-visa-family-member-belgian-or-eu-national",
+      "publisher_identifier": {
+        "system": "Belgian Embassy in the United Arab Emirates",
+        "page": "schengen-visa-family-member-belgian-or-eu-national"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official page opened; last updated 2026-05-21; explains VFS, walk-in conditions, and the distinction between mobile and non-mobile Belgian nationals",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "location-specific HTML with changing local provider, appointment and document instructions",
+      "topic_ids": [
+        "VISA-01",
+        "VISA-03",
+        "VISA-04",
+        "VISA-05",
+        "MISSION-22",
+        "MISSION-25",
+        "PRACTICE-04"
+      ]
+    },
+    {
+      "id": "be-visa-gdpr",
+      "title": "General Data Protection Regulation information for visa applicants",
+      "source_type": "official_privacy_guidance",
+      "language": "en",
+      "url": "https://diplomatie.belgium.be/en/travel-belgium/visa-belgium/general-data-protection-regulation-gdpr",
+      "publisher_identifier": {
+        "system": "FPS Foreign Affairs",
+        "page": "visa-belgium/general-data-protection-regulation-gdpr"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official page inspected; last updated 2026-02-24; identifies visa data processing and applicant rights",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML guidance, separately linked from the visa hub; distinguish general GDPR information from the VIS-specific notice",
+      "topic_ids": [
+        "DATA-06",
+        "DATA-07",
+        "DATA-09",
+        "MISSION-32",
+        "PRACTICE-01"
+      ]
+    },
+    {
+      "id": "be-visa-privacy-statement",
+      "title": "Visa-application privacy statement",
+      "source_type": "official_privacy_notice",
+      "language": "en",
+      "url": "https://diplomatie.belgium.be/en/travel-belgium/visa-belgium/privacy-statement-visa",
+      "publisher_identifier": {
+        "system": "FPS Foreign Affairs",
+        "page": "privacy-statement-visa"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official linked page identified; last published update observed as 2022-02-01, older than the separate 2026 GDPR information page",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML privacy notice; track separately from the current hub and determine whether it has been superseded",
+      "topic_ids": [
+        "DATA-06",
+        "DATA-09",
+        "MISSION-32",
+        "PRACTICE-01"
+      ]
+    },
+    {
+      "id": "be-administrative-motivation-act",
+      "title": "Law of 29 July 1991 on the formal statement of reasons for administrative acts",
+      "source_type": "national_legislation",
+      "language": "fr",
+      "url": "https://www.ejustice.just.fgov.be/eli/loi/1991/07/29/1991000416/justel",
+      "publisher_identifier": {
+        "system": "Belgian Official Gazette / Justel",
+        "NUMAC": "1991000416"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official Justel record opened; identifies the Act and entry into force; source is relevant to reason-giving and review, not an immigration-specific appeal code",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "consolidated HTML with legislative notes and amendment/version information",
+      "topic_ids": [
+        "ADMIN-01",
+        "ADMIN-02",
+        "REMEDY-02",
+        "PRACTICE-11"
+      ]
+    },
+    {
+      "id": "be-publicity-act-1994",
+      "title": "Law of 11 April 1994 on the publicity of administration — federal access to records",
+      "source_type": "national_legislation",
+      "language": "fr",
+      "url": "https://www.ejustice.just.fgov.be/eli/loi/1994/04/11/1994000357/justel",
+      "publisher_identifier": {
+        "system": "Belgian Official Gazette / Justel",
+        "NUMAC": "1994000357"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official current Justel record opened; statutory scope is federal bodies and certain other bodies only when acting under federal competence",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "consolidated HTML; statutory scope must not be generalized to every regional, community, or municipal body",
+      "topic_ids": [
+        "DATA-10",
+        "ADMIN-02",
+        "REMEDY-01",
+        "REMEDY-02",
+        "PRACTICE-11"
+      ]
+    },
+    {
+      "id": "be-federal-cada-appeal",
+      "title": "Federal Commission for Access to and Re-use of Administrative Documents — administrative appeal route",
+      "source_type": "official_administrative_remedy_guidance",
+      "language": "fr",
+      "url": "https://www.ibz.rrn.fgov.be/fr/commissions/publicite-de-ladministration/le-recours-administratif",
+      "publisher_identifier": {
+        "system": "Federal CADA",
+        "competence": "federal publicity-of-administration law"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official commission route inspected in prior source review; the described path pairs reconsideration request with a commission opinion request; reopen current page before implementation",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official HTML procedural guidance with separate federal remit; do not conflate with regional CADA bodies",
+      "topic_ids": [
+        "DATA-10",
+        "REMEDY-01",
+        "REMEDY-02",
+        "PRACTICE-01"
+      ]
+    },
+    {
+      "id": "be-council-state-laws",
+      "title": "Coordinated laws on the Council of State",
+      "source_type": "national_legislation",
+      "language": "fr",
+      "url": "https://www.ejustice.just.fgov.be/eli/loi/1973/01/12/1973011250/justel",
+      "publisher_identifier": {
+        "system": "Belgian Official Gazette / Justel",
+        "NUMAC": "1973011250"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official consolidated record opened; the current Justel record exposes amendment/version history",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "large consolidated HTML; court procedure is not by itself a complete immigration appeal or deadline map",
+      "topic_ids": [
+        "ADMIN-02",
+        "REMEDY-02",
+        "REMEDY-03",
+        "PRACTICE-11"
+      ]
+    },
+    {
+      "id": "be-federal-ombudsman-filing",
+      "title": "Federal Ombudsman — filing a complaint",
+      "source_type": "official_oversight_guidance",
+      "language": "en",
+      "url": "https://www.federalombudsman.be/en/filing-a-complaint",
+      "publisher_identifier": {
+        "system": "Federal Ombudsman",
+        "page": "filing-a-complaint"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official complaint route inspected in the prior Belgium source review; current first-party page is linked to the Ombudsman's process guidance",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML complaint guidance; complaints are not a substitute for statutory judicial appeal deadlines",
+      "topic_ids": [
+        "REMEDY-01",
+        "REMEDY-08",
+        "PRACTICE-01"
+      ]
+    },
+    {
+      "id": "be-federal-ombudsman-process",
+      "title": "Federal Ombudsman — complaint process and federal jurisdiction",
+      "source_type": "official_oversight_guidance",
+      "language": "en",
+      "url": "https://www.federalombudsman.be/en/complaints-process",
+      "publisher_identifier": {
+        "system": "Federal Ombudsman",
+        "page": "complaints-process"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official process page opened; its jurisdiction and sequence are distinct from court review",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML procedural guidance, subject to updates in remit and submission procedure",
+      "topic_ids": [
+        "REMEDY-08",
+        "PRACTICE-01"
+      ]
+    },
+    {
+      "id": "be-code-pil",
+      "title": "Code of Private International Law of 16 July 2004",
+      "source_type": "national_legislation",
+      "language": "fr",
+      "url": "https://www.ejustice.just.fgov.be/eli/loi/2004/07/16/2004009511/justel",
+      "publisher_identifier": {
+        "system": "Belgian Official Gazette / Justel",
+        "NUMAC": "2004009511"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official current consolidated Justel record inspected; current record states updated 2026-06-12 and includes provisions on foreign authentic acts and public documents",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "long consolidated HTML with amendment notes and dated versions; not a finding that EU mobility recognition and domestic recognition are equivalent",
+      "topic_ids": [
+        "FAMILY-03",
+        "FAMILY-06",
+        "FAMILY-09",
+        "FAMILY-24",
+        "PRACTICE-11"
+      ]
+    },
+    {
+      "id": "be-rvv-case-sample-320874",
+      "title": "Council for Alien Law Litigation selected-jurisprudence record — judgment 320874, 30 January 2025",
+      "source_type": "administrative_case_law",
+      "language": "fr",
+      "url": "https://www.rvv-cce.be/sites/default/files/mr-arr/sel-arr-202501-f.pdf",
+      "publisher_identifier": {
+        "system": "Council for Alien Law Litigation (RvV/CCE)",
+        "case_number": "320874",
+        "date": "2025-01-30"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official indexed monthly selected-jurisprudence PDF is a search lead; direct court and PDF opens returned HTTP 403 in this inspection; the complete judgment was not verified",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "selected monthly PDF, not a complete judgment corpus or comprehensive search result",
+      "topic_ids": [
+        "REMEDY-02",
+        "REMEDY-03",
+        "PRACTICE-06"
+      ]
+    },
+    {
+      "id": "be-dpa-complaint-fr",
+      "title": "Belgian Data Protection Authority — introduce a complaint (French)",
+      "source_type": "official_data_protection_remedy",
+      "language": "fr",
+      "url": "https://www.dataprotectionauthority.be/citoyen/agir/introduire-une-plainte",
+      "publisher_identifier": {
+        "system": "Belgian Data Protection Authority (APD/GBA)",
+        "page": "introduire-une-plainte"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official page inspected; current text describes information, mediation, and complaint options and says the first-line mediation policy applies from 2026-03-01",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "language-specific HTML with forms, portal requirements, and links that may change; police and intelligence processing may use separate oversight bodies",
+      "topic_ids": [
+        "DATA-06",
+        "DATA-07",
+        "REMEDY-01",
+        "REMEDY-08",
+        "PRACTICE-01"
+      ]
+    },
+    {
+      "id": "be-dpa-complaint-nl",
+      "title": "Belgian Data Protection Authority — submit a complaint (Dutch)",
+      "source_type": "official_data_protection_remedy",
+      "language": "nl",
+      "url": "https://dataprotectionauthority.be/burger/acties/klacht-indienen",
+      "publisher_identifier": {
+        "system": "Belgian Data Protection Authority (APD/GBA)",
+        "page": "klacht-indienen"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official Dutch-language counterpart identified; language-specific content and form links require direct verification before implementation",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "language-specific HTML; do not silently substitute French or English in a Dutch source record",
+      "topic_ids": [
+        "DATA-06",
+        "DATA-07",
+        "REMEDY-01",
+        "REMEDY-08",
+        "PRACTICE-01"
+      ]
+    },
+    {
+      "id": "be-wallonia-publicity-decree",
+      "title": "Walloon Decree of 30 March 1995 on publicity of the Administration",
+      "source_type": "regional_legislation",
+      "language": "fr",
+      "url": "https://wallex.wallonie.be/eli/loi-decret/1995/03/30/1995027312",
+      "publisher_identifier": {
+        "system": "WALLEX",
+        "NUMAC": "1995027312",
+        "record": "19975"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official current record opened; a version-specific historic ELI result warned that it was no longer applicable; the current PDF surfaced includes changes through 2026-03-26 and a 2026-04-01 version",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "versioned regional law record with separate current and historic editions; resolve current applicability from the publisher index and visible dates",
+      "topic_ids": [
+        "DATA-10",
+        "ADMIN-02",
+        "REMEDY-01",
+        "REMEDY-02",
+        "PRACTICE-11"
+      ]
+    },
+    {
+      "id": "be-flanders-bestuursdecreet",
+      "title": "Flemish Bestuursdecreet of 7 December 2018",
+      "source_type": "regional_legislation",
+      "language": "nl",
+      "url": "https://codex.vlaanderen.be/PrintDocument.ashx?geannoteerd=false&id=1030009",
+      "publisher_identifier": {
+        "system": "Vlaamse Codex",
+        "NUMAC": "2018032457",
+        "record_id": "1030009"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official codex record inspected; provides article-level effective dates and amendment relations; includes public-record procedures for Flemish and local authorities within its scope",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML legal text with alternate annotated/unannotated views and per-article date/status fields",
+      "topic_ids": [
+        "DATA-10",
+        "ADMIN-02",
+        "REMEDY-01",
+        "REMEDY-02",
+        "PRACTICE-11"
+      ]
+    },
+    {
+      "id": "be-brussels-cada-guidance",
+      "title": "Brussels-Capital Region Commission for Access to Administrative Documents (CADA) overview",
+      "source_type": "regional_administrative_guidance",
+      "language": "fr",
+      "url": "https://be.brussels/fr/propos-de-la-region/structure-et-organisation/administrations-et-institutions-de-la-region/commission-dacces-aux-documents-administratifs-cada",
+      "publisher_identifier": {
+        "system": "Brussels-Capital Region",
+        "institution": "CADA"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official regional page inspected; describes the joint decree/ordinance of 2019 and current commission structure, with a roster section dated from 2026-06-01",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "dynamic regional guidance linking to legislation and CADA decisions; distinguish Brussels regional, Common Community Commission, and French Community Commission competence",
+      "topic_ids": [
+        "DATA-10",
+        "ADMIN-02",
+        "REMEDY-01",
+        "REMEDY-02",
+        "PRACTICE-01"
+      ]
+    },
+    {
+      "id": "be-01-law-of-16-july-2004-establishing-the-code-of-private-international-law",
+      "title": "Wet van 16 juli 2004 houdende het Wetboek van internationaal privaatrecht — Dutch Justel record",
+      "source_type": "national_legislation",
+      "language": "nl",
       "url": "https://www.ejustice.just.fgov.be/eli/wet/2004/07/16/2004009511/justel",
-      "retrieved": false,
-      "accepted": false,
-      "retrieval_status": "pending_retrieval",
+      "publisher_identifier": {
+        "system": "Belgian Official Gazette / Justel",
+        "NUMAC": "2004009511",
+        "ELI": "https://www.ejustice.just.fgov.be/eli/wet/2004/07/16/2004009511/justel"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official Dutch route identified in the prior mirror inventory; the current Dutch page was not directly reopened in this pass",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "long consolidated HTML; separate Dutch language representation of the same instrument as be-code-pil",
       "topic_ids": [
         "FAMILY-01",
         "FAMILY-03",
         "FAMILY-04",
         "FAMILY-06",
         "FAMILY-11"
-      ],
-      "scope_note": "Marriage, parentage, adoption and foreign decision effects; obtain current consolidated text from the official Justel publisher."
+      ]
     },
     {
       "id": "be-02-immigration-office-guidance-for-family-members-of-eu-citizens",
-      "title": "Immigration Office guidance for family members of EU citizens",
+      "title": "Immigration Office guidance for family members of EU citizens — prior family page",
       "source_type": "official_guidance",
-      "language": "be",
+      "language": "en",
       "url": "https://dofi.ibz.be/en/themes/citizens-european-union/family",
+      "publisher_identifier": {
+        "system": "IBZ/Dofi",
+        "page": "family"
+      },
       "retrieved": true,
       "accepted": false,
-      "retrieval_status": "converted_review_candidate",
+      "retrieval_status": "converted_review_candidate_legacy_capture",
+      "retrieved_at": "2026-10-15T22:57:07Z",
+      "raw_html_sha256": "0e02e7a60e22e6e6679b39aeb0640deb3a8e1e3eb2225818e7ca0cdabac3bd2e",
+      "document_path": "../candidates/be-ibz-eu-family.md",
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "prior official-page conversion is preserved as a review candidate; current page route and relationship to the family-reunification page were not rechecked",
+      "retrieval_shape": "browser-rendered article HTML; converted output is incomplete and raw source bytes are not present",
       "topic_ids": [
         "RESIDENCE-01",
         "RESIDENCE-08",
         "VISA-01",
         "ADMIN-04"
-      ],
-      "scope_note": "Official authority guidance for family entry and residence; retrieve linked forms, evidentiary rules, and appeal information.",
-      "document_path": "../candidates/be-ibz-eu-family.md"
+      ]
     },
     {
-      "id": "be-03-law-of-15-december-1980-on-access-to-the-territory-residence-establishment-",
-      "title": "Law of 15 December 1980 on access to the territory, residence, establishment and removal of foreign nationals",
-      "source_type": "national_legislation",
-      "language": "be",
-      "url": "https://www.ejustice.just.fgov.be/eli/loi/1980/12/15/1980121550/justel",
-      "retrieved": false,
-      "accepted": false,
-      "retrieval_status": "pending_retrieval",
-      "topic_ids": [
-        "RESIDENCE-01",
-        "RESIDENCE-08",
-        "REMEDY-12"
-      ],
-      "scope_note": "Statutory basis around residence, refusal, removal and remedies; verify exact ELI identity, current articles and coordination with EU law."
-    },
-    {
-      "id": "be-04-royal-decree-of-8-october-1981-implementing-the-law-on-foreign-nationals",
-      "title": "Royal Decree of 8 October 1981 implementing the law on foreign nationals",
-      "source_type": "national_legislation",
-      "language": "be",
-      "url": "https://www.ejustice.just.fgov.be/eli/arrete/1981/10/08/1981001946/justel",
-      "retrieved": false,
-      "accepted": false,
-      "retrieval_status": "pending_retrieval",
-      "topic_ids": [
-        "RESIDENCE-08",
-        "VISA-01",
-        "ADMIN-04",
-        "REMEDY-12"
-      ],
-      "scope_note": "Detailed residence-document and procedure rules; confirm the ELI identifier and retrieve the current consolidated text from Justel."
-    },
-    {
-      "id": "be-05-federal-justice-guidance:-recognition-and-registration-of-foreign-adoptions",
+      "id": "be-05-federal-justice-guidance-recognition-registration-foreign-adoptions",
       "title": "Federal Justice guidance: recognition and registration of foreign adoptions",
       "source_type": "official_guidance",
-      "language": "be",
-      "url": "https://www.justice.belgium.be/fr/themes_et_dossiers/personnes_et_familles/adoption/adoption_a_letranger",
+      "language": "fr",
+      "url": "https://justice.belgium.be/fr/themes_et_dossiers/personnes_et_familles/adoption/adoption_a_letranger",
+      "prior_inventory_url": "https://www.justice.belgium.be/fr/themes_et_dossiers/personnes_et_familles/adoption/adoption_a_letranger",
+      "publisher_identifier": {
+        "system": "Federal Public Service Justice",
+        "page": "adoption_a_letranger"
+      },
       "retrieved": true,
       "accepted": false,
-      "retrieval_status": "converted_review_candidate",
+      "retrieval_status": "converted_review_candidate_legacy_capture",
+      "retrieved_at": "2026-10-15T22:57:07Z",
+      "raw_html_sha256": "5aae1f7be8324de3934c5fb9de185fa079a0bce7d9491ed1c1cc157722a1b931",
+      "document_path": "../candidates/be-justice-international-adoption.md",
+      "functional_relationship": "related_source",
+      "verification_status": "prior French official-page conversion is preserved as a review candidate; current route and content were not rechecked in this pass",
+      "retrieval_shape": "browser-rendered article HTML; converted output is present but raw source bytes are absent",
       "topic_ids": [
         "FAMILY-11",
         "FAMILY-12",
         "FAMILY-13",
         "FAMILY-15",
         "FAMILY-19"
-      ],
-      "scope_note": "Names the Federal Central Authority, documents and sequence for foreign-adoption recognition; includes competency and registration steps.",
-      "document_path": "../candidates/be-justice-international-adoption.md"
+      ]
     }
-  ]
+  ],
+  "bounded_search_gaps": [
+    "No official German-speaking Community transparency/access-to-records source was verified. German-language search was bounded and inconclusive; this is not a claim that no such rule or service exists.",
+    "Municipal and community-level access-to-records coverage and local registration procedures remain incomplete; the 1994 federal law does not cover every regional, community, or municipal authority.",
+    "Only UK and UAE mission examples were inspected. The competence matrix is a routing aid, not a review of every applicant-residence country, local checklist, or outsourced provider.",
+    "The RvV/CCE direct site and sample PDF returned HTTP 403; the selected monthly publication is not a complete case-law corpus.",
+    "The current Annex 19ter index link returned an HTML error response; a current valid form payload and identity must be rediscovered and checked.",
+    "The 2018 Belgian personal-data processing law and several national civil-status/adoption records were not directly verified in this pass; the Code of Private International Law is only a bounded lead for foreign civil-status evidence.",
+    "No Belgian runtime retrieval, response validator, converter, offline replay, or repeatable change detector exists; no Belgian API or registration route was verified."
+  ],
+  "retrieved_review_candidate_count": 2,
+  "discovery_only_candidate_count": 37
 }
