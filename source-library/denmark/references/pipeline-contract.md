@@ -6,18 +6,20 @@ The national lane is fixed to 16 official Retsinformation ELI records in `pack-m
 
 The shared EU/CJEU lane is fixed to the 23 IDs in `core-source-ids.json`. It uses `eudirective-core/scripts/source-maintenance.mjs` with a validated source-ID filter and stores observations and unpromoted conversions in project-root `temp/`. Never run its unfiltered scan as part of a Danish pack refresh.
 
+The shared EU core retrieval rule constrains sources to registered official hosts and validates document identity, response type, language, and content shape. Version 1.0.1 keeps its per-request timeout active through body streaming and rejects responses over 50 MB. It is shared across the monitor and therefore changes should be checked against all source types and jurisdiction packs, not Denmark alone.
+
 ## Danish retrieval
 
 For each pinned `https://www.retsinformation.dk/eli/lta/YYYY/NUMBER`:
 
-1. Fetch `/xml` from the official host. Save exact response bytes content-addressed and record URL, final URL, media type, retrieval time, HTTP validators, and SHA-256.
+1. Fetch `/xml` from the official host with a 45-second timeout and 30 MB response cap. Save exact response bytes content-addressed and record URL, final URL, media type, retrieval time, HTTP validators, and SHA-256. Reject unsupported XML charset declarations and malformed UTF-8.
 2. Validate `Year`, `Number`, `DocumentId`, `AccessionNumber`, and `DocumentTitle` against the manifest. Reject redirects away from Retsinformation and any identity mismatch.
 3. Convert the structured `DokumentIndhold` in document order. Preserve headings, chapters, paragraph labels, numbered lists, and text. Ignore `Meta` and page-interface elements. Do not infer coverage of image-only, layout-only, or other non-text matter.
 4. Some older ELI XML records contain only metadata. For those records, use the first-party Retsinformation document endpoint `POST /api/document/eli/lta/YYYY/NUMBER` with JSON `{ "isRawHtml": true }`. Require exactly one record and verify its document ID, accession, and title against the ELI XML metadata. Extract only the `INDHOLD` legal-text container; do not include its table of contents or site chrome. Store the extracted official HTML content-addressed and hash it.
 5. If neither representation contains the legal body, fail closed and report the exact source. Do not use a third-party transcription or silently fall back to a search-result rendering.
 6. Render stable UTF-8 Markdown with the ELI, citation, source IDs, source hashes, version status/date fields, converter version, and a clear coverage statement. Keep retrieval timestamps in the machine-readable report/state, not in Markdown, so identical official bytes and converter versions yield identical Markdown bytes.
 
-The legacy body endpoint is part of Retsinformation's official website application and is not the published harvest API. Treat its route/schema as a dependency: verify status, response type, and identity on every use, fail closed on a changed shape, and review it against the public ELI technical documentation when the site changes.
+The legacy body endpoint is part of Retsinformation's official website application and is not the published harvest API. It uses a 45-second timeout and 30 MB response cap. Treat its route/schema as a dependency: verify status, response type, and identity on every use, fail closed on a changed shape, and review it against the public ELI technical documentation when the site changes.
 
 ## Change discovery and new consolidations
 
@@ -41,7 +43,9 @@ The public documentation is [ELI channels](https://www.retsinformation.dk/eli/te
 - The project-root `temp/` tree holds immutable official XML, HTML fallback bodies, Atom and sitemap snapshots, state, reports, and update candidates.
 - `documents/national/` holds accepted Markdown for the registered Danish instruments.
 - A failed request, unexpected response shape, ELI identity mismatch, or conversion error does not advance state and does not stage a partial national pack.
-- `--ack <source-id>` promotes one reviewed candidate directly to `documents/national/` and records its Markdown hash. It does not certify currentness or legal completeness.
+- `--ack <source-id>` promotes one reviewed candidate only if it matches the latest complete successful `--sync` report from the current script version and its saved XML and fallback HTML bytes still match their recorded hashes. `--ack-all` applies those checks to candidates in that report and skips unchanged observations without candidates. Neither action certifies currentness or legal completeness.
+- `--verify` replays every saved observation using the current converter version, checks content-addressed XML and fallback HTML, compares regenerated Markdown hashes, and checks accepted copies where an accepted hash is recorded. A changed converter version requires a fresh `--sync` before replay.
+- Offline replay proves deterministic conversion of saved bytes, not publisher discovery completeness or legal currentness. Inspect the official document and review amendment/currentness evidence before acceptance.
 - A new amendment or later consolidated ELI must be added to a reviewed manifest change before it becomes a pinned tracked source. Never replace historical source bytes or a previous version in place.
 
 ## Run commands
@@ -50,7 +54,8 @@ The public documentation is [ELI channels](https://www.retsinformation.dk/eli/te
 node scripts/sync-pack.mjs --check
 node scripts/sync-pack.mjs --discover
 node scripts/sync-pack.mjs --sync
-node scripts/sync-pack.mjs --ack aliens-act-2025-1183
+node scripts/sync-pack.mjs --verify
+node scripts/sync-pack.mjs --ack <source-id>
 node scripts/core-lane.mjs --check
 node scripts/core-lane.mjs --sync
 ```
