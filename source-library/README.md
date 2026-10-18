@@ -47,3 +47,8 @@ The [2026-10-15 online acquisition candidate register](references/online-acquisi
 The [2026-10-16 candidate extension for Portugal, Spain, France, the Netherlands, Belgium and Italy](references/national-acquisition-candidates-2026-10-16.md) applies the current acquisition taxonomy to six additional countries. It contains 39 source candidates.
 
 Six national pack folders now hold the per-country inventories and 8 converted review candidates from official HTML plus one France-Visas browser-derived source note (raw capture and conversion pending). All remain unaccepted pending source identity, version and scope review. See [Portugal](portugal/README.md), [Spain](spain/README.md), [France](france/README.md), [the Netherlands](netherlands/README.md), [Belgium](belgium/README.md), and [Italy](italy/README.md).
+
+
+## Estonia source discovery
+
+The [Estonia source catalog](estonia/references/source-catalog.json) contains 40 official discovery candidates across legislation, residence, guidance and forms, visas and missions, administrative procedure, remedies, privacy, oversight, and courts. No source has been accepted and no Estonia retrieval rule is implemented. Riigi Teataja documents an XML API route, but its current-version query, live response, and conversion behavior remain unverified. See the [sustainability assessment](estonia/references/sustainability-assessment.md) and the [31-jurisdiction expansion ledger](references/eea-switzerland-country-expansion.md).
