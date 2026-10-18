@@ -1,0 +1,831 @@
+{
+  "catalog_version": 1,
+  "catalog_date": "2026-10-18",
+  "catalog_status": "discovery candidates only; refresh currentness and official content before legal use",
+  "jurisdiction": "Finland (FI)",
+  "scope": "Official Finnish sources related to EU, EEA and Swiss free movement; third-country family members; visa and consular routes; administrative procedure, access to information, remedies, oversight, privacy, legal aid and administrative courts. This is a bounded discovery register, not a statement of legal equivalence or complete coverage.",
+  "accepted_source_count": 0,
+  "candidate_source_count": 36,
+  "acquisition_rule_status": "not implemented",
+  "official_change_channels": {
+    "national_legal_database": "https://www.finlex.fi/",
+    "open_data_documentation": "https://www.finlex.fi/en/open-data",
+    "open_api_description": "https://opendata.finlex.fi/finlex/avoindata/v1",
+    "nlex_discovery": "https://n-lex.europa.eu/n-lex/info/info-fi/index"
+  },
+  "previous_findings_carried_forward": [
+    "The Danish EU-residence regulation remains a functional comparison seed. Finland's Aliens Act is a broad statute containing EU/EEA/Swiss residence rules; similarity of function does not establish equivalent wording, scope or procedure.",
+    "Earlier cross-state smoke results named Finlex and Migri but left them provisional because direct inspection was blocked. This review rechecked those leads at official publisher pages and records the remaining access limits.",
+    "The expansion taxonomy's gaps in procedure, file access, consular practice, remedies, privacy, legal aid, oversight and courts were searched as separate source classes.",
+    "Czechia's stable official PDF fallback and registration/access checks were carried forward as adapter-design lessons only; they do not establish a suitable Finnish retrieval method.",
+    "Estonia's documented XML route and future-effective version issue were carried forward as reminders to separate retrieval format from date-specific legal currentness.",
+    "N-Lex was used as a discovery route for Finland's national legal database. Its profile describes Finlex; first-party Finlex, Migri, MFA, court and oversight pages remain the responsible sources for verification."
+  ],
+  "search_coverage": [
+    {
+      "source_class": "National legislation and legal-source discovery",
+      "search_outcome": "candidate(s) found; English-version currency gaps remain",
+      "official_channels": [
+        "Finlex",
+        "N-Lex"
+      ],
+      "query_terms": [
+        "ulkomaalaislaki 301/2004",
+        "EU-kansalainen oleskeluoikeus",
+        "hallintolaki 434/2003",
+        "laki oikeudenkäynnistä hallintoasioissa 808/2019",
+        "Finlex open data"
+      ],
+      "languages": [
+        "fi",
+        "sv",
+        "en"
+      ],
+      "coverage_limit": "Finlex's current Finnish Aliens Act page exceeded the research client's 4 MiB response limit. The official English Aliens Act translation metadata shows an amendment cutoff of 389/2023; several procedural translations are older still. No date-bound consolidated API response was fetched."
+    },
+    {
+      "source_class": "Finlex retrieval and conversion route",
+      "search_outcome": "documented API and package-download routes found; live payload not verified",
+      "official_channels": [
+        "Finlex open-data documentation",
+        "Finlex OpenAPI description"
+      ],
+      "query_terms": [
+        "Finlex avoin data REST API Akoma Ntoso",
+        "Finlex API User-Agent 429 page limit"
+      ],
+      "languages": [
+        "en"
+      ],
+      "coverage_limit": "Official documentation describes no registration, TLS 1.2+, a required User-Agent, page/limit pagination, HTTP 429 throttling, Akoma Ntoso XML, relative attachment/PDF links, and daily package updates. Workspace DNS blocked a live endpoint check; schema-specific conversion and terms beyond the published documentation remain unverified."
+    },
+    {
+      "source_class": "EU/EEA/Swiss residence, family routes and guidance",
+      "search_outcome": "candidate(s) found; direct page inspection partly blocked",
+      "official_channels": [
+        "Finnish Immigration Service (Migri)",
+        "Finlex"
+      ],
+      "query_terms": [
+        "EU-kansalaisen oleskeluoikeuden rekisteröinti",
+        "EU-kansalaisen perheenjäsen oleskelukortti",
+        "family member EU citizen Finland"
+      ],
+      "languages": [
+        "fi",
+        "sv",
+        "en"
+      ],
+      "coverage_limit": "Migri search results exposed relevant guidance, but a direct research-client request to its registration page returned 403. Search-result evidence is not a successful page inspection. Special routes involving Finnish citizens and family members need separate legal cross-checking."
+    },
+    {
+      "source_class": "Population registration and Nordic routes",
+      "search_outcome": "candidate(s) found; service and residence-right procedures remain distinct",
+      "official_channels": [
+        "Digital and Population Data Services Agency (DVV)"
+      ],
+      "query_terms": [
+        "kotikunta pohjoismaan kansalainen",
+        "municipality of residence Finland Nordic citizen",
+        "EU registration DVV"
+      ],
+      "languages": [
+        "fi",
+        "sv",
+        "en"
+      ],
+      "coverage_limit": "DVV population-registration forms and municipality-of-residence processes are not substitutes for Migri's EU right-of-residence registration. Some form pages request personal data and are service surfaces, not automation targets."
+    },
+    {
+      "source_class": "Visa, consular and mission practice",
+      "search_outcome": "candidate(s) found; country-specific instructions and fees are dynamic",
+      "official_channels": [
+        "Ministry for Foreign Affairs (MFA)",
+        "Finland Visa application portal"
+      ],
+      "query_terms": [
+        "viisumi Suomeen",
+        "viisumin epääminen oikaisuvaatimus",
+        "visa to visit Finland appeal"
+      ],
+      "languages": [
+        "fi",
+        "sv",
+        "en"
+      ],
+      "coverage_limit": "MFA guidance describes mission and visa-centre channels, time limits, filing languages and fees. Mission representation, local appointments, providers and current prices require discovery from live parent pages; the online visa portal accepts personal data and is monitor-only."
+    },
+    {
+      "source_class": "Administrative procedure, evidence, language and file access",
+      "search_outcome": "candidate(s) found; version-specific checks remain",
+      "official_channels": [
+        "Finlex",
+        "Oikeus.fi"
+      ],
+      "query_terms": [
+        "hallintolaki tiedonsaanti asianosainen",
+        "viranomaisen asiakirja julkisuus",
+        "asiointikieli hallintomenettely"
+      ],
+      "languages": [
+        "fi",
+        "sv",
+        "en"
+      ],
+      "coverage_limit": "Finnish statutes are the controlling records. English translations have separate completion and amendment dates; the practical application of general procedure and language rules to immigration-specific decisions needs provision-level review."
+    },
+    {
+      "source_class": "Appeals, administrative courts and case law",
+      "search_outcome": "candidate(s) found; case-law coverage is selective",
+      "official_channels": [
+        "Oikeus.fi",
+        "Finnish courts",
+        "Supreme Administrative Court",
+        "Finlex"
+      ],
+      "query_terms": [
+        "hallintovalitus määräaika",
+        "ulkomaalaisasia hallinto-oikeus",
+        "immigration affairs Supreme Administrative Court precedent"
+      ],
+      "languages": [
+        "fi",
+        "sv",
+        "en"
+      ],
+      "coverage_limit": "General appeals guidance does not replace decision-specific appeal instructions. The Supreme Administrative Court selects precedents for publication and provides English translations only for some summaries; no complete immigration-decision corpus or bulk route was established."
+    },
+    {
+      "source_class": "Privacy, data access, oversight and legal aid",
+      "search_outcome": "candidate(s) found; remedy scope and language access need further checking",
+      "official_channels": [
+        "Data Protection Ombudsman",
+        "Parliamentary Ombudsman",
+        "Chancellor of Justice",
+        "National Legal Services Authority"
+      ],
+      "query_terms": [
+        "tietosuojavaltuutettu kantelu",
+        "eduskunnan oikeusasiamies kantelu",
+        "oikeuskansleri kantelu",
+        "oikeusapu hakemus"
+      ],
+      "languages": [
+        "fi",
+        "sv",
+        "en"
+      ],
+      "coverage_limit": "Oversight complaints, data-protection remedies and legal-aid eligibility are distinct routes. English service guidance may be incomplete; legal-aid e-services are reported as Finnish/Swedish only."
+    }
+  ],
+  "sources": [
+    {
+      "id": "fi-finlex-portal",
+      "title": "Finlex legal information database",
+      "authority": "finlex.fi",
+      "class": "official_legislation_and_case_law_portal",
+      "language": "fi-sv-en",
+      "official_url": "https://www.finlex.fi/en/",
+      "publisher_identifier": {
+        "system": "finlex.fi",
+        "record": "Finlex portal"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official portal inspected; identifies legislation, case law, treaties, authorities and open-data sections",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML portal; separate search, API and data-package routes",
+      "seed_status": "candidate",
+      "check_note": "Finlex is maintained by the Legal Register Centre; content ownership varies by contributing authority, so the publisher of each record must be checked."
+    },
+    {
+      "id": "fi-nlex-profile",
+      "title": "N-Lex Finland national database profile",
+      "authority": "N-Lex",
+      "class": "national_law_discovery_catalog",
+      "language": "fi-en",
+      "official_url": "https://n-lex.europa.eu/n-lex/info/info-fi/index",
+      "publisher_identifier": {
+        "system": "N-Lex",
+        "record": "Finland database profile"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official EU discovery profile inspected; profile identifies Finlex and describes its databases",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML discovery profile and links to national database",
+      "seed_status": "candidate",
+      "check_note": "N-Lex is a discovery interface, not the Finnish legal publisher or a source for all guidance, forms, court or oversight classes."
+    },
+    {
+      "id": "fi-finlex-open-data",
+      "title": "Finlex open-data overview",
+      "authority": "Finlex",
+      "class": "official_retrieval_documentation",
+      "language": "en",
+      "official_url": "https://www.finlex.fi/en/open-data",
+      "publisher_identifier": {
+        "system": "Finlex",
+        "record": "Open data"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official documentation page inspected; documents REST API and package-download options",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML documentation; Akoma Ntoso XML API and downloadable data packages",
+      "seed_status": "candidate",
+      "check_note": "Official page says API data follows publication with a small delay and UI data packages update daily."
+    },
+    {
+      "id": "fi-finlex-integration-guide",
+      "title": "Finlex open-data integration quick guide",
+      "authority": "Finlex",
+      "class": "official_api_documentation",
+      "language": "en",
+      "official_url": "https://www.finlex.fi/en/open-data/integration-quick-guide",
+      "publisher_identifier": {
+        "system": "Finlex",
+        "record": "Integration quick guide"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official integration guide inspected; API usage constraints and response examples recorded",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML guide; OpenAPI-described REST endpoints, Akoma Ntoso XML, relative attachments and PDFs",
+      "seed_status": "candidate",
+      "check_note": "Guide states no identification or registration is required, requires TLS 1.2+ and a User-Agent, documents page/limit pagination and HTTP 429 throttling, and gives attachment/PDF HATEOAS examples."
+    },
+    {
+      "id": "fi-aliens-act-fi",
+      "title": "Ulkomaalaislaki (Aliens Act), 301/2004, Finnish current text",
+      "authority": "Finlex ELI",
+      "class": "national_statute",
+      "language": "fi",
+      "official_url": "https://www.finlex.fi/fi/lainsaadanto/2004/301",
+      "publisher_identifier": {
+        "system": "Finlex ELI",
+        "record": "301/2004; current consolidation date shown as 2026-06-26"
+      },
+      "functional_relationship": "close_functional_match",
+      "verification_status": "Official search result identifies the current act and ELI date; direct page inspection exceeded the research client's 4 MiB response limit",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Finlex current-law HTML; official API documentation offers Akoma Ntoso XML route, not live-smoke-tested here",
+      "seed_status": "candidate",
+      "check_note": "Broad statute with EU/EEA/Swiss residence provisions; §3's scope and Chapter 10 should be verified in the exact date-bound native text before source acceptance."
+    },
+    {
+      "id": "fi-aliens-act-en",
+      "title": "Aliens Act 301/2004, English translation",
+      "authority": "Finlex translation history",
+      "class": "translated_statute",
+      "language": "en",
+      "official_url": "https://www.finlex.fi/en/legislation/translations/2004/eng/301",
+      "publisher_identifier": {
+        "system": "Finlex translation history",
+        "record": "301/2004; amendments tracked through 389/2023; completed 2023-12-20"
+      },
+      "functional_relationship": "close_functional_match",
+      "verification_status": "Official translation-history page inspected; identifies the English edition and its amendment cutoff",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML metadata page linking to PDF translation",
+      "seed_status": "candidate",
+      "check_note": "Translation is unofficial and does not reflect amendments after 389/2023; do not treat its age as evidence of current 2026 wording."
+    },
+    {
+      "id": "fi-administrative-procedure-act",
+      "title": "Hallintolaki (Administrative Procedure Act), 434/2003",
+      "authority": "Finlex ELI",
+      "class": "national_procedure_statute",
+      "language": "fi",
+      "official_url": "https://finlex.fi/fi/lainsaadanto/2003/434",
+      "publisher_identifier": {
+        "system": "Finlex ELI",
+        "record": "434/2003; current ELI date surfaced as 2025-06-27"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official Finlex current-law record identified; exact provision text not independently inspected",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Current-law HTML; documented open-data XML route not live-smoke-tested",
+      "seed_status": "candidate",
+      "check_note": "General administrative procedure source; immigration-specific applicability and exceptions require provision-level review."
+    },
+    {
+      "id": "fi-administrative-judicial-procedure-act",
+      "title": "Laki oikeudenkäynnistä hallintoasioissa (Act on Judicial Procedure in Administrative Matters), 808/2019",
+      "authority": "Finlex ELI",
+      "class": "national_remedies_statute",
+      "language": "fi",
+      "official_url": "https://finlex.fi/fi/lainsaadanto/2019/808",
+      "publisher_identifier": {
+        "system": "Finlex ELI",
+        "record": "808/2019; current ELI date surfaced as 2021-06-29"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official Finlex current-law record identified; exact provision text not independently inspected",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Current-law HTML; documented open-data XML route not live-smoke-tested",
+      "seed_status": "candidate",
+      "check_note": "Core general procedure for administrative court proceedings; immigration decisions may have special rules and time limits."
+    },
+    {
+      "id": "fi-administrative-procedure-act-en",
+      "title": "Administrative Procedure Act 434/2003, English translation",
+      "authority": "Finlex translation history",
+      "class": "translated_statute",
+      "language": "en",
+      "official_url": "https://finlex.fi/en/legislation/translations/2003/eng/434",
+      "publisher_identifier": {
+        "system": "Finlex translation history",
+        "record": "434/2003; completed 2019-01-07; amendment cutoff 893/2015"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official translation-history page inspected; records an older amendment cutoff",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML metadata page linking to English translation",
+      "seed_status": "candidate",
+      "check_note": "English text is materially stale as a guide to the current statute; verify Finnish wording and later amendments."
+    },
+    {
+      "id": "fi-administrative-judicial-act-en",
+      "title": "Act on Judicial Procedure in Administrative Matters 808/2019, English translation",
+      "authority": "Finlex translation history",
+      "class": "translated_statute",
+      "language": "en",
+      "official_url": "https://finlex.fi/en/legislation/translations/2019/eng/808",
+      "publisher_identifier": {
+        "system": "Finlex translation history",
+        "record": "808/2019; completed 2024-01-19; amendment cutoff 639/2021"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official translation-history page inspected; amendment cutoff recorded",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML metadata page linking to English translation",
+      "seed_status": "candidate",
+      "check_note": "Translation predates later amendment leads and must not be treated as the current consolidated English law."
+    },
+    {
+      "id": "fi-openness-act",
+      "title": "Act on the Openness of Government Activities, 621/1999",
+      "authority": "Finlex",
+      "class": "national_access_to_information_statute",
+      "language": "en-fi",
+      "official_url": "https://finlex.fi/en/legislation/1999/621",
+      "publisher_identifier": {
+        "system": "Finlex",
+        "record": "621/1999; official English record; currentness requires date-bound check"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official English statute record located; current consolidated version and translation cutoff require direct version review",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Finlex legislation page",
+      "seed_status": "candidate",
+      "check_note": "Relevant to public access and access to one's own case documents; special confidentiality and party-access rules need separate review."
+    },
+    {
+      "id": "fi-data-protection-act",
+      "title": "Tietosuojalaki (Data Protection Act), 1050/2018",
+      "authority": "Finlex ELI",
+      "class": "national_data_protection_statute",
+      "language": "fi-en",
+      "official_url": "https://finlex.fi/fi/lainsaadanto/2018/1050",
+      "publisher_identifier": {
+        "system": "Finlex ELI",
+        "record": "1050/2018; current ELI date surfaced as 2025-06-27; English translation through 29/2024"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official current Finnish record and English translation metadata identified; full current text not independently checked",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Current-law page and unofficial translated statute page",
+      "seed_status": "candidate",
+      "check_note": "Relevant to personal-data safeguards and national implementation; the EU GDPR and other sector laws also apply."
+    },
+    {
+      "id": "fi-language-act",
+      "title": "Kielilaki (Language Act), 423/2003",
+      "authority": "Finlex",
+      "class": "national_language_rights_statute",
+      "language": "fi-sv-en",
+      "official_url": "https://finlex.fi/fi/lainsaadanto/2003/423",
+      "publisher_identifier": {
+        "system": "Finlex",
+        "record": "423/2003; current Finnish record; English translation date/cutoff requires confirmation"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official current Finnish record identified; language-right provisions and current English version need full inspection",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Finlex current-law page; separate translation record",
+      "seed_status": "candidate",
+      "check_note": "Åland and Sámi language arrangements involve additional instruments and must not be inferred from this Act alone."
+    },
+    {
+      "id": "fi-legal-aid-act",
+      "title": "Oikeusapulaki (Legal Aid Act), 257/2002",
+      "authority": "Finlex",
+      "class": "national_legal_aid_statute",
+      "language": "fi",
+      "official_url": "https://finlex.fi/fi/lainsaadanto/2002/257",
+      "publisher_identifier": {
+        "system": "Finlex",
+        "record": "257/2002; current-version and amendment status not fully checked"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official Finnish record identified; current consolidation and amendments remain to be checked",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Finlex current-law page",
+      "seed_status": "candidate",
+      "check_note": "Related to practical remedies; eligibility, cross-border scope and representation should be checked in the date-specific text."
+    },
+    {
+      "id": "fi-police-personal-data-act",
+      "title": "Act on the Processing of Personal Data by the Police, 616/2019",
+      "authority": "Finlex",
+      "class": "national_sectoral_data_protection_statute",
+      "language": "fi",
+      "official_url": "https://finlex.fi/fi/lainsaadanto/2019/616",
+      "publisher_identifier": {
+        "system": "Finlex",
+        "record": "616/2019"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official Finnish legal record identified; scope and current text not fully checked",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Finlex current-law page",
+      "seed_status": "candidate",
+      "check_note": "Potentially relevant to police processing in immigration and entry-ban matters; ancillary and subject to scope review."
+    },
+    {
+      "id": "fi-migri-eu-registration",
+      "title": "Registration of an EU citizen's right of residence",
+      "authority": "Migri",
+      "class": "immigration_authority_guidance",
+      "language": "en-fi-sv",
+      "official_url": "https://migri.fi/en/registration-of-right-of-residence",
+      "publisher_identifier": {
+        "system": "Migri",
+        "record": "EU citizen registration guidance"
+      },
+      "functional_relationship": "close_functional_match",
+      "verification_status": "Official search result inspected; direct page access returned 403 in the research client, so page body was not verified",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Official HTML guidance with links to forms and Enter Finland; direct inspection blocked",
+      "seed_status": "candidate",
+      "check_note": "Search evidence describes registration after three months, family routes, service channels and appeal; Nordic citizens use a different registration route."
+    },
+    {
+      "id": "fi-migri-eu-family-guidance",
+      "title": "I am an EU citizen or a family member",
+      "authority": "Migri",
+      "class": "immigration_authority_guidance",
+      "language": "en-fi-sv",
+      "official_url": "https://migri.fi/en/i-am-an-eu-citizen-or-a-family-member",
+      "publisher_identifier": {
+        "system": "Migri",
+        "record": "EU citizen and family member landing page"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "Official search result identified relevant scope and route distinctions; page not directly inspected",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML topic landing page and application-finder links",
+      "seed_status": "candidate",
+      "check_note": "Search snippet includes EU, Icelandic, Liechtenstein, Norwegian and Swiss nationals, while Nordic citizens follow a distinct procedure."
+    },
+    {
+      "id": "fi-migri-family-residence-card",
+      "title": "Residence card for a family member of an EU citizen",
+      "authority": "Migri",
+      "class": "immigration_authority_guidance",
+      "language": "fi-en",
+      "official_url": "https://migri.fi/residence-card-for-family-members",
+      "publisher_identifier": {
+        "system": "Migri",
+        "record": "Family member residence card guidance"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "Official search result identified the route and appeal information; direct page inspection not completed",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML authority guidance with linked application routes",
+      "seed_status": "candidate",
+      "check_note": "Applies to qualifying non-EU family members; scope includes Iceland, Liechtenstein, Norway and Switzerland in the official result. Finnish-citizen return routes require separate verification."
+    },
+    {
+      "id": "fi-migri-family-application",
+      "title": "Application for a family member of an EU citizen",
+      "authority": "Migri",
+      "class": "immigration_application_guidance",
+      "language": "en-fi",
+      "official_url": "https://migri.fi/en/application-for-family-member",
+      "publisher_identifier": {
+        "system": "Migri",
+        "record": "EU family member application guidance"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "Official page lead identified; application-specific requirements and current forms need direct verification",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML guidance linked to an online personal-data service",
+      "seed_status": "candidate",
+      "check_note": "Record only public instructions and form definitions; do not submit applications or collect case data."
+    },
+    {
+      "id": "fi-migri-fees",
+      "title": "Migri processing fees and payment methods",
+      "authority": "Migri",
+      "class": "immigration_authority_fee_guidance",
+      "language": "en-fi",
+      "official_url": "https://migri.fi/en/processing-fees-and-payment-methods",
+      "publisher_identifier": {
+        "system": "Migri",
+        "record": "Processing fees"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official fee page search result identified; amounts are volatile and need dated page capture",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Dynamic HTML fee table",
+      "seed_status": "candidate",
+      "check_note": "Search result showed a €53 EU right-of-residence registration fee; this amount must be rechecked from the page at each review."
+    },
+    {
+      "id": "fi-migri-processing-times",
+      "title": "Estimated processing times for EU citizen matters",
+      "authority": "Migri",
+      "class": "immigration_authority_processing_time_guidance",
+      "language": "en-fi",
+      "official_url": "https://migri.fi/en/-/arvioidut-kasittelyajat-taulukko-en-eu",
+      "publisher_identifier": {
+        "system": "Migri",
+        "record": "EU processing-time table"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official dynamic table identified; current estimates must be captured from live page",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Dynamic HTML table",
+      "seed_status": "candidate",
+      "check_note": "Operational estimates can change and are distinct from statutory decision deadlines."
+    },
+    {
+      "id": "fi-dvv-foreign-registration",
+      "title": "DVV foreigner registration and municipality-of-residence information",
+      "authority": "DVV",
+      "class": "population_register_guidance",
+      "language": "fi-sv-en",
+      "official_url": "https://dvv.fi/en/international-moving",
+      "publisher_identifier": {
+        "system": "DVV",
+        "record": "International moving and registration information"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "Official DVV route identified; distinct population-register and Migri procedures need cross-link review",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML guidance with service and appointment links",
+      "seed_status": "candidate",
+      "check_note": "Municipality-of-residence registration is separate from registration of an EU citizen's right of residence. Nordic nationals use a distinct route."
+    },
+    {
+      "id": "fi-dvv-municipality-form",
+      "title": "Application for a municipality of residence in Finland",
+      "authority": "DVV e-form",
+      "class": "official_population_register_form",
+      "language": "en-fi-sv",
+      "official_url": "https://lomakkeet.dvv.fi/lomakkeet/6889/lomake.html?rinnakkaislomake=en",
+      "publisher_identifier": {
+        "system": "DVV e-form",
+        "record": "Municipality of residence application form 6889"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official form search result inspected; identity and personal-data fields visible in page output",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Dynamic web form; manual applicant submission",
+      "seed_status": "candidate",
+      "check_note": "Monitor public form identity and linked instructions only; do not automate submission or retain personal data."
+    },
+    {
+      "id": "fi-mfa-visa-guide",
+      "title": "A visa to visit Finland",
+      "authority": "Ministry for Foreign Affairs",
+      "class": "foreign_ministry_visa_guidance",
+      "language": "en-fi-sv",
+      "official_url": "https://um.fi/visa-to%20visit-finland",
+      "publisher_identifier": {
+        "system": "Ministry for Foreign Affairs",
+        "record": "Visa to visit Finland"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official MFA page inspected; application channels, fee references and appeal route described",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML guidance with dynamic mission and provider links",
+      "seed_status": "candidate",
+      "check_note": "Page distinguishes EU-family free-movement routes and describes rectification and court appeal time limits; fee and country instructions require refresh."
+    },
+    {
+      "id": "fi-mfa-visa-faq",
+      "title": "FAQ: visas and residence permits",
+      "authority": "Ministry for Foreign Affairs",
+      "class": "foreign_ministry_visa_faq",
+      "language": "en-fi",
+      "official_url": "https://um.fi/faq-visas-and-residence-permits",
+      "publisher_identifier": {
+        "system": "Ministry for Foreign Affairs",
+        "record": "Visa and residence permit FAQ"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official search result identified visa review route and filing time limit; direct full-page inspection not completed",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML FAQ",
+      "seed_status": "candidate",
+      "check_note": "Use the controlling legislation and decision-specific instructions for current deadlines and fees."
+    },
+    {
+      "id": "fi-finlandvisa-portal",
+      "title": "Finland Visa application portal",
+      "authority": "MFA Finland Visa",
+      "class": "official_visa_application_service",
+      "language": "multiple",
+      "official_url": "https://finlandvisa.fi",
+      "publisher_identifier": {
+        "system": "MFA Finland Visa",
+        "record": "Online visa application service"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Linked from official MFA visa guidance; portal contents and current provider integrations not assessed",
+      "retrieval_status": "monitor_only_personal_data_service",
+      "retrieval_shape": "Interactive online application service",
+      "seed_status": "monitor_only",
+      "check_note": "Reference only for public route availability; never automate submissions or ingest applicant case data."
+    },
+    {
+      "id": "fi-oikeus-appeal-guidance",
+      "title": "Appealing against the decision of an authority",
+      "authority": "Oikeus.fi",
+      "class": "judicial_authority_appeal_guidance",
+      "language": "en-fi",
+      "official_url": "https://www.oikeus.fi/en/themes/appealing-against-the-decision-of-an-authority/",
+      "publisher_identifier": {
+        "system": "Oikeus.fi",
+        "record": "Appealing against authority decision"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official Ministry of Justice judicial website page inspected; general administrative appeal process described",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML public guidance with links to courts",
+      "seed_status": "candidate",
+      "check_note": "General route information; it does not replace the time limit and filing instructions attached to a specific authority decision."
+    },
+    {
+      "id": "fi-oikeus-public-access",
+      "title": "Right to receive information about government activities",
+      "authority": "Oikeus.fi",
+      "class": "judicial_authority_access_guidance",
+      "language": "en-fi",
+      "official_url": "https://www.oikeus.fi/en/services/right-to-receive-information-about-government-activities/",
+      "publisher_identifier": {
+        "system": "Oikeus.fi",
+        "record": "Right to receive public information"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official Oikeus.fi guidance inspected; request, delay and review routes described",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML guidance",
+      "seed_status": "candidate",
+      "check_note": "Public-document access and party access to one's own administrative file overlap but are not identical."
+    },
+    {
+      "id": "fi-administrative-courts",
+      "title": "Regional Administrative Courts",
+      "authority": "Finnish courts",
+      "class": "official_court_system_information",
+      "language": "en-fi-sv",
+      "official_url": "https://www.tuomioistuimet.fi/en/judiciary/regional-administrative-courts/",
+      "publisher_identifier": {
+        "system": "Finnish courts",
+        "record": "Regional Administrative Courts"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official court-administration page inspected; court structure and jurisdiction notes recorded",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML court information with changing links and contact details",
+      "seed_status": "candidate",
+      "check_note": "Administrative court jurisdiction is divided regionally, with some matter types concentrated nationally; the correct venue depends on the decision and statute."
+    },
+    {
+      "id": "fi-administrative-court-procedure",
+      "title": "The procedure in administrative courts",
+      "authority": "Finnish courts",
+      "class": "official_court_procedure_guidance",
+      "language": "en-fi",
+      "official_url": "https://www.tuomioistuimet.fi/en/courts/helsinki-administrative-court/services/the-procedure-in-administrative-courts/",
+      "publisher_identifier": {
+        "system": "Finnish courts",
+        "record": "Procedure in administrative courts"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official court page inspected; written procedure, evidence and appeal route described",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML procedural guidance",
+      "seed_status": "candidate",
+      "check_note": "General process only; statutory exceptions and immigration-specific rules must be checked independently."
+    },
+    {
+      "id": "fi-kho-precedents",
+      "title": "Supreme Administrative Court precedents",
+      "authority": "KHO",
+      "class": "official_supreme_administrative_court_case_law",
+      "language": "fi-sv-en",
+      "official_url": "https://www.kho.fi/en/case-law/precedents/",
+      "publisher_identifier": {
+        "system": "KHO",
+        "record": "Published precedents and selected English summaries"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official court page inspected; publication criteria and selective English summaries noted",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML precedent index and decision pages",
+      "seed_status": "candidate",
+      "check_note": "Only selected decisions are published as precedents; English translations are not available for every case. Not a complete case-law corpus."
+    },
+    {
+      "id": "fi-kho-publication-policy",
+      "title": "Supreme Administrative Court publication policy for case law",
+      "authority": "KHO",
+      "class": "official_case_law_publication_policy",
+      "language": "en-fi",
+      "official_url": "https://www.kho.fi/en/case-law/publication-policy-for-case-law/",
+      "publisher_identifier": {
+        "system": "KHO",
+        "record": "Publication policy for case law"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official court policy page inspected; selectivity, identifiers and decision-summary fields described",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML policy page",
+      "seed_status": "candidate",
+      "check_note": "The publication policy confirms that precedent selection is discretionary and published decisions are not a complete representation of all cases."
+    },
+    {
+      "id": "fi-parliamentary-ombudsman",
+      "title": "Parliamentary Ombudsman of Finland",
+      "authority": "Parliamentary Ombudsman",
+      "class": "constitutional_oversight_authority",
+      "language": "fi-sv-en",
+      "official_url": "https://www.oikeusasiamies.fi/en",
+      "publisher_identifier": {
+        "system": "Parliamentary Ombudsman",
+        "record": "Complaint and oversight information"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official oversight source located; official brochure/search result describes written complaint route; current landing-page structure needs direct review",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "HTML oversight portal and complaint form/document links",
+      "seed_status": "candidate",
+      "check_note": "Complaint procedure is a legality-oversight route, not an appeal that replaces ordinary judicial remedies."
+    },
+    {
+      "id": "fi-chancellor-of-justice",
+      "title": "Chancellor of Justice of Finland",
+      "authority": "Chancellor of Justice",
+      "class": "constitutional_oversight_authority",
+      "language": "fi-sv-en",
+      "official_url": "https://oikeuskansleri.fi/en/",
+      "publisher_identifier": {
+        "system": "Chancellor of Justice",
+        "record": "Official oversight portal"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official site linked in Finlex authority navigation; direct complaint-page route not verified in this search",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Official authority portal; complaint route not assessed",
+      "seed_status": "candidate",
+      "check_note": "Separate constitutional legality-oversight body; do not merge its complaint route with Ombudsman or court remedies."
+    },
+    {
+      "id": "fi-data-protection-ombudsman",
+      "title": "Office of the Data Protection Ombudsman",
+      "authority": "Data Protection Ombudsman",
+      "class": "data_protection_oversight_authority",
+      "language": "fi-sv-en",
+      "official_url": "https://tietosuoja.fi/en/home",
+      "publisher_identifier": {
+        "system": "Data Protection Ombudsman",
+        "record": "Official supervisory authority portal"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official site linked from Finlex authority navigation; complaint guidance and current page route require direct review",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Official authority portal and forms",
+      "seed_status": "candidate",
+      "check_note": "Potential route for personal-data complaints; verify language, admissibility, identity checks and relationship to judicial remedies before use."
+    },
+    {
+      "id": "fi-national-legal-services-e-service",
+      "title": "Legal Aid e-services",
+      "authority": "National Legal Services Authority",
+      "class": "official_legal_aid_application_service",
+      "language": "fi-sv",
+      "official_url": "https://www.oikeuspalveluvirasto.fi/en/legal-aid/using-our-services/e-services/",
+      "publisher_identifier": {
+        "system": "National Legal Services Authority",
+        "record": "Legal aid e-services guidance"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official National Legal Services Authority page inspected; confirms application function and Finnish/Swedish-only e-service",
+      "retrieval_status": "monitor_only_personal_data_service",
+      "retrieval_shape": "HTML service guidance and authenticated application service",
+      "seed_status": "monitor_only",
+      "check_note": "Public instructions can be monitored; do not automate an application, authentication, or submission."
+    }
+  ]
+}
