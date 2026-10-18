@@ -50,6 +50,34 @@
       "allowed_hosts": [
         "ec.europa.eu"
       ]
+    },
+    {
+      "id": "eu-visa-annex-16-prior-consultation",
+      "title": "Visa Code Annex 16 — third countries subject to prior consultation",
+      "url": "https://ec.europa.eu/assets/home/visa-documents/visa-documents.json",
+      "allowed_hosts": [
+        "ec.europa.eu",
+        "home-affairs.ec.europa.eu"
+      ],
+      "catalog_lookup": {
+        "row_title": "List of third countries whose nationals or specific categories of such nationals subject to prior consultation",
+        "file_column": 4
+      },
+      "identity": "Annex\\s+16[\\s\\S]{0,240}subject to prior consultation"
+    },
+    {
+      "id": "eu-visa-airport-transit-visa-list",
+      "title": "Visa Code airport transit visa list",
+      "url": "https://ec.europa.eu/assets/home/visa-documents/visa-documents.json",
+      "allowed_hosts": [
+        "ec.europa.eu",
+        "home-affairs.ec.europa.eu"
+      ],
+      "catalog_lookup": {
+        "row_title": "List of third countries whose nationals are subject to hold airport transit visa requirement when passing through the international transit areas of airports situated on the territory of individual Member States",
+        "file_column": 4
+      },
+      "identity": "List of third countries whose nationals are required to be in possession of an airport transit visa"
     }
   ]
 }
