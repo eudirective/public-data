@@ -7,7 +7,7 @@ State: discovery-only candidates; 40 candidate records, zero accepted sources, a
 
 ## Assessment boundary
 
-The current source-pack inventory has no Estonia pack. The 40 records in [candidate-manifest.json](candidate-manifest.json) cover official legislation and discovery portals, EU/EEA/Swiss residence, forms, visa and mission routes, general procedure, remedies, privacy, oversight, access to information, legal aid, and courts. Search outcomes and version doubts are recorded independently of source relationships and retrieval status. The count is a bounded research register, not a claim that Estonia's source universe is complete.
+The current source-pack inventory has no Estonia pack. The 40 records in [source-catalog.json](source-catalog.json) cover official legislation and discovery portals, EU/EEA/Swiss residence, forms, visa and mission routes, general procedure, remedies, privacy, oversight, access to information, legal aid, and courts. Search outcomes and version doubts are recorded independently of source relationships and retrieval status. The count is a bounded research register, not a claim that Estonia's source universe is complete.
 
 There is no implemented Estonia rule to rate. This review assigns **no sustainability verdict**. The notes below assess proposed routes and identify evidence required before adapter work.
 
