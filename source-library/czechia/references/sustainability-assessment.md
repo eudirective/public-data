@@ -1,0 +1,49 @@
+# Czechia source-rule sustainability assessment
+
+**Assessment date:** 18 October 2026  
+**Pack version:** 0.4.0  
+**Manifest:** 43 candidates; 0 accepted  
+**Scope:** the two implemented acquisition rules in `scripts/sync-czechia.mjs`. Discovery-only records and proposed routes are listed separately and receive no sustainability verdict.
+
+## Summary
+
+The pack has one reusable HTML guidance rule configured for 13 official pages and one date-bound e-Sbírka PDF rule configured for 17 acts. Neither rule has a successful current live retrieval from this workspace: `--check` recorded 13 guidance failures and 17 law targets blocked, all caused by DNS `EAI_AGAIN` errors against the official hosts. This is evidence of a workspace network limitation, not a publisher outage. The separate browser research session opened the new Czech Ministry of Interior and Foreign Affairs pages, and their current page headings/content were checked there.
+
+The HTML rule is **fragile (medium confidence)**: its identity and decoding controls are stronger after this review and 10 saved HTML candidates replay offline, but the rule fetches pinned pages rather than rediscovering all source links or future pages, the body selector is heuristic, and linked attachments are not retrieved. The e-Sbírka PDF rule is **undetermined (low confidence)** until the date-bound public route succeeds through the pack and its extracted representation is compared with the official document. The remaining 13 records are monitor-only and have no implemented retrieval rule, so no verdict is assigned to them.
+
+## Implemented rule findings
+
+| Rule and records | Maturity and route | Identity, version, conversion, and change behavior | Dependencies and gaps | Verdict / confidence |
+|---|---|---|---|---|
+| Official HTML guidance — `cz-mzv-eu-family-visa`, `cz-ipc-family-temporary`, `cz-ipc-eu-registration`, `cz-ipc-family-permanent`, `cz-ipc-fiction-residence`, `cz-ipc-obligations`, `cz-gov-family-temporary`, `cz-gov-family-permanent`, `cz-gov-fiction-residence`, `cz-ombudsman-complaints`, `cz-ipc-eu-category-definitions`, `cz-ipc-forms-directory`, `cz-mzv-visa-forms-index` | Implemented, shared `guidance` lane. Fetches each exact HTTPS URL, permits at most five redirects within the official-host allowlist, validates HTTP status, HTML media type, declared and streamed size, and minimum payload size. | Requires a configured H1 identity after whitespace/typographic normalization; checks HTTP and HTML charset declarations for conflicts and uses strict decoding; extracts a recognized main/article region; converts deterministically and preserves HTTP(S) links. Raw bytes and Markdown hashes are stored by `--sync`; `--verify` replays saved bytes; `--reconvert` refuses to overwrite a manually changed candidate. Fresh downloads compare payload and candidate hashes. `--ack` now requires the exact saved payload and candidate hashes to match an offline replay before promotion; `--verify` also checks the accepted-copy hash. | Only ten older pages have saved official bytes. Their latest offline replay passed 10/10 after this converter change. The live `--check` on 18 October retrieved 0/13 because DNS resolution failed for `ipc.gov.cz`, `mzv.gov.cz`, `portal.gov.cz`, and `www.ochrance.cz`. Pinned page URLs do not rediscover newly added pages; the forms index preserves changing attachment links but does not fetch attachments. Heuristic body-region selection and flattened tables need visual/manual comparison. The three added HTML pages still need pack retrieval and candidate review. | **Fragile / medium.** Identity validation is materially improved, but current live behavior, page movement recovery, and content completeness remain unverified or manual. |
+| e-Sbírka public date-bound PDF — `cz-esbirka-1993-1`, `cz-esbirka-1999-326`, `cz-esbirka-2004-500`, `cz-esbirka-2002-150`, `cz-esbirka-1990-85`, `cz-esbirka-2004-634`, `cz-esbirka-1999-106`, `cz-esbirka-1999-349`, `cz-esbirka-2019-110`, `cz-esbirka-2017-150`, `cz-esbirka-2000-301`, `cz-esbirka-2012-89`, `cz-esbirka-2012-91`, `cz-esbirka-2006-115`, `cz-esbirka-2013-186`, `cz-esbirka-2000-133`, `cz-esbirka-2008-273` | Implemented, shared `stable_url_pdf` lane. Derives `/sb/{year}/{number}/{UTC-date}.pdf` from each official act record. e-Sbírka documents stable URLs and PDF representations; its REST API requires registration/key access, so this rule does not depend on that API. | Validates HTTPS allowlisted redirects, status, PDF media type and signature, payload size, minimum extracted text, and the expected `number/year Sb.` citation. It records the requested consolidation date and exact bytes/hash; conversion groups PDF text items into lines. Table layout, footnotes, scanned pages, full act title/edition, and legal-version status are not validated by the current adapter. Changes are only detected after a successful full retrieval; legal currentness remains a separate review. | Official documentation supports the route design, but the pack has never completed a successful retrieval of these 17 targets in this workspace. The 18 October check failed DNS resolution for `e-sbirka.gov.cz`; this does not prove the URL route itself fails. PDF text extraction has not been compared against a retrieved original in this run. | **Undetermined / low.** The smallest resolving evidence is one successful end-to-end official PDF retrieval, citation/title/date check, and side-by-side conversion review; then repeat across structurally different acts. |
+
+## Candidate-only and monitor-only records
+
+No rule verdict applies to these 13 records: `cz-uoou`, `cz-nss-search`, `cz-nss-collection`, `cz-usoud-search`, `cz-ipc-form-registration`, `cz-ipc-form-family-temporary`, `cz-ipc-form-family-renewal`, `cz-ipc-form-family-document-change`, `cz-ipc-form-family-permanent`, `cz-mzv-schengen-form-en`, `cz-mzv-missions-directory`, `cz-mzv-mission-ankara-visas`, and `cz-mzv-mission-los-angeles-requirements`.
+
+The MOI and MFA parent indexes are more durable rediscovery points than attachment URLs; direct form files remain monitor-only until a parent-link resolver, PDF identity checks, and conversion/review behavior are implemented. Only blank forms are in scope. The MFA mission directory is alphabetically paginated and mission instructions vary by local jurisdiction; two sample missions do not establish complete mission coverage. Court and data-protection sites are discovery channels, not collected individual decisions or active feeds.
+
+## Scope and prior findings carried forward
+
+The existing Czech source list, e-Sbírka stable-URL decision, monitor-only court/data-protection channels, and previous research on the Czech forms and mission routes were reconciled. Official Czech MOI guidance states that similar rights apply to citizens of Iceland, Liechtenstein, Norway, and Switzerland; it separately identifies some UK Withdrawal Agreement beneficiaries. Switzerland must remain distinct from EU membership and EEA EFTA membership. The official forms index says residence applications/extensions must use the official form and forms must be completed in Czech. The ministry’s current mission directory is paginated and local mission routes differ.
+
+Current official pages inspected: [MOI citizenship/family definitions](https://ipc.gov.cz/en/visa-and-residence-permit-types/eu-nationals/who-are-eu-citizens-and-their-family-members-2/), [MOI forms directory](https://ipc.gov.cz/en/forms-and-documents/forms-and-documents-for-third-country-nationals-and-eu-citizens-and-their-family-members-2/), [MFA forms index](https://mzv.gov.cz/jnp/en/information_for_aliens/visa_form/index.html), and [MFA mission directory](https://mzv.gov.cz/jnp/en/diplomatic_missions/czech_missions_abroad/index.html). The date-bound legal route is documented at [e-Sbírka stable URLs and ELI](https://e-sbirka.gov.cz/pristup-pres-stale-url-a-eli); the separate API registration requirement is at [e-Sbírka REST API](https://e-sbirka.gov.cz/restful-api).
+
+## Repairs made
+
+- Bumped the Czech pack to 0.4.0 and expanded its manifest/source list from 31 to 43 candidates, keeping 0 accepted.
+- Added the official scope, forms, and visa-form index pages as active HTML candidates with expected page headings; added five MOI form PDFs, one MFA blank form, a paginated mission directory, and two sample mission pages as monitor-only.
+- Added strict HTML charset handling, page-H1 identity validation, HTTP(S) link preservation, and an offline reconversion path for saved raw bytes.
+- Guarded acknowledgement with raw/candidate hash and offline replay checks; verification also checks accepted-copy hashes. Sync refuses to overwrite a candidate that differs from its recorded hash.
+- Exposed `reconvert` through the local Czechia pack action and documented the updated state and limits.
+
+## Evidence and remaining work
+
+- `node --check .../czechia/scripts/sync-czechia.mjs`: passed.
+- `--reconvert`: 10 saved official HTML records processed, 6 candidates refreshed for review, 4 unchanged, 0 failures; no network access and no promotion.
+- `--verify`: 10/10 saved candidate conversions verified, 0 failures.
+- Read-only `--check` on 18 October 2026: 0/13 guidance retrieved, 13 failures; 0/17 law PDFs retrieved, 17 blocked; all errors were `EAI_AGAIN` DNS failures. It did not write the sync report or accept candidates.
+- Browser inspection confirmed the new official parent pages and current page content, but this is not a pack-level retrieval/conversion check.
+
+The Czech expansion remains incomplete: all 17 legal routes still need live pack validation; the 3 new active HTML records need retrieval and review; form and mission records need durable parent-index rediscovery before they can become active; and the source list remains a bounded inventory rather than proof of complete Czech coverage. No source was promoted or accepted in this assessment.

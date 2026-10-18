@@ -1,13 +1,13 @@
 {
-  "manifest_version": "0.2.0-candidate",
+  "manifest_version": "0.4.0-candidate",
   "pack": "czechia-national-legal-sources",
   "inventory_source": "references/source-list.md",
-  "inventory_research_date": "2026-10-15",
-  "scope": "Candidate Czech national legislation, official guidance, and official court/oversight discovery channels relevant to EU free movement and family members. EU and CJEU source texts are excluded.",
+  "inventory_research_date": "2026-10-18",
+  "scope": "Candidate Czech national legislation and official guidance, forms, consular instructions, and official court/oversight discovery channels relevant to EU free movement and family members. EU and CJEU source texts are excluded. Czech official guidance also describes similar rights for Icelandic, Liechtenstein, Norwegian, and Swiss citizens; UK Withdrawal Agreement cases are distinct.",
   "status": "partially_retrieved_review_candidates",
-  "retrieval_status": "partially_retrieved",
+  "retrieval_status": "partially_retrieved_guidance_with_stable_url_pdf_pending_live_check",
   "accepted_source_count": 0,
-  "candidate_source_count": 31,
+  "candidate_source_count": 43,
   "official_hosts": [
     "e-sbirka.gov.cz",
     "ipc.gov.cz",
@@ -18,7 +18,8 @@
     "sbirka.nssoud.cz",
     "uoou.gov.cz",
     "usoud.cz",
-    "vyhledavac.nssoud.cz"
+    "vyhledavac.nssoud.cz",
+    "www.e-sbirka.cz"
   ],
   "secondary_hosts": [],
   "documents": [
@@ -35,7 +36,8 @@
         "ADMIN-01",
         "REMEDY-03"
       ],
-      "retrieval_status": "blocked_api_registration"
+      "retrieval_status": "stable_url_pdf_pending_live_check",
+      "retrieval_method": "derive_date_bound_pdf_from_official_esbirka_stable_record"
     },
     {
       "id": "cz-esbirka-1999-326",
@@ -56,7 +58,8 @@
         "REMEDY-02",
         "MISSION-18"
       ],
-      "retrieval_status": "blocked_api_registration"
+      "retrieval_status": "stable_url_pdf_pending_live_check",
+      "retrieval_method": "derive_date_bound_pdf_from_official_esbirka_stable_record"
     },
     {
       "id": "cz-esbirka-2004-500",
@@ -72,7 +75,8 @@
         "REMEDY-01",
         "REMEDY-03"
       ],
-      "retrieval_status": "blocked_api_registration"
+      "retrieval_status": "stable_url_pdf_pending_live_check",
+      "retrieval_method": "derive_date_bound_pdf_from_official_esbirka_stable_record"
     },
     {
       "id": "cz-esbirka-2002-150",
@@ -86,7 +90,8 @@
         "REMEDY-02",
         "REMEDY-04"
       ],
-      "retrieval_status": "blocked_api_registration"
+      "retrieval_status": "stable_url_pdf_pending_live_check",
+      "retrieval_method": "derive_date_bound_pdf_from_official_esbirka_stable_record"
     },
     {
       "id": "cz-esbirka-1990-85",
@@ -100,7 +105,8 @@
         "REMEDY-01",
         "ADMIN-03"
       ],
-      "retrieval_status": "blocked_api_registration"
+      "retrieval_status": "stable_url_pdf_pending_live_check",
+      "retrieval_method": "derive_date_bound_pdf_from_official_esbirka_stable_record"
     },
     {
       "id": "cz-esbirka-2004-634",
@@ -115,7 +121,8 @@
         "VISA-06",
         "RESIDENCE-08"
       ],
-      "retrieval_status": "blocked_api_registration"
+      "retrieval_status": "stable_url_pdf_pending_live_check",
+      "retrieval_method": "derive_date_bound_pdf_from_official_esbirka_stable_record"
     },
     {
       "id": "cz-esbirka-1999-106",
@@ -130,7 +137,8 @@
         "REMEDY-01",
         "MISSION-31"
       ],
-      "retrieval_status": "blocked_api_registration"
+      "retrieval_status": "stable_url_pdf_pending_live_check",
+      "retrieval_method": "derive_date_bound_pdf_from_official_esbirka_stable_record"
     },
     {
       "id": "cz-esbirka-1999-349",
@@ -146,7 +154,8 @@
         "MISSION-30",
         "MISSION-38"
       ],
-      "retrieval_status": "blocked_api_registration"
+      "retrieval_status": "stable_url_pdf_pending_live_check",
+      "retrieval_method": "derive_date_bound_pdf_from_official_esbirka_stable_record"
     },
     {
       "id": "cz-esbirka-2019-110",
@@ -161,7 +170,8 @@
         "DATA-09",
         "MISSION-32"
       ],
-      "retrieval_status": "blocked_api_registration"
+      "retrieval_status": "stable_url_pdf_pending_live_check",
+      "retrieval_method": "derive_date_bound_pdf_from_official_esbirka_stable_record"
     },
     {
       "id": "cz-uoou",
@@ -193,7 +203,8 @@
         "MISSION-32",
         "MISSION-39"
       ],
-      "retrieval_status": "blocked_api_registration"
+      "retrieval_status": "stable_url_pdf_pending_live_check",
+      "retrieval_method": "derive_date_bound_pdf_from_official_esbirka_stable_record"
     },
     {
       "id": "cz-mzv-eu-family-visa",
@@ -210,7 +221,8 @@
         "MISSION-25",
         "REMEDY-03"
       ],
-      "retrieval_status": "candidate_ready"
+      "retrieval_status": "candidate_ready",
+      "expected_heading": "Family Members of EU Citizens"
     },
     {
       "id": "cz-esbirka-2000-301",
@@ -226,7 +238,8 @@
         "DATA-01",
         "RESIDENCE-10"
       ],
-      "retrieval_status": "blocked_api_registration"
+      "retrieval_status": "stable_url_pdf_pending_live_check",
+      "retrieval_method": "derive_date_bound_pdf_from_official_esbirka_stable_record"
     },
     {
       "id": "cz-esbirka-2012-89",
@@ -240,7 +253,8 @@
         "FAMILY-01",
         "FAMILY-16"
       ],
-      "retrieval_status": "blocked_api_registration"
+      "retrieval_status": "stable_url_pdf_pending_live_check",
+      "retrieval_method": "derive_date_bound_pdf_from_official_esbirka_stable_record"
     },
     {
       "id": "cz-esbirka-2012-91",
@@ -255,7 +269,8 @@
         "FAMILY-16",
         "DATA-02"
       ],
-      "retrieval_status": "blocked_api_registration"
+      "retrieval_status": "stable_url_pdf_pending_live_check",
+      "retrieval_method": "derive_date_bound_pdf_from_official_esbirka_stable_record"
     },
     {
       "id": "cz-esbirka-2006-115",
@@ -270,7 +285,8 @@
         "FAMILY-01",
         "FAMILY-07"
       ],
-      "retrieval_status": "blocked_api_registration"
+      "retrieval_status": "stable_url_pdf_pending_live_check",
+      "retrieval_method": "derive_date_bound_pdf_from_official_esbirka_stable_record"
     },
     {
       "id": "cz-esbirka-2013-186",
@@ -284,7 +300,8 @@
         "RIGHTS-10",
         "FAMILY-12"
       ],
-      "retrieval_status": "blocked_api_registration"
+      "retrieval_status": "stable_url_pdf_pending_live_check",
+      "retrieval_method": "derive_date_bound_pdf_from_official_esbirka_stable_record"
     },
     {
       "id": "cz-esbirka-2000-133",
@@ -299,7 +316,8 @@
         "DATA-01",
         "DATA-06"
       ],
-      "retrieval_status": "blocked_api_registration"
+      "retrieval_status": "stable_url_pdf_pending_live_check",
+      "retrieval_method": "derive_date_bound_pdf_from_official_esbirka_stable_record"
     },
     {
       "id": "cz-esbirka-2008-273",
@@ -315,7 +333,8 @@
         "BORDER-10",
         "DATA-07"
       ],
-      "retrieval_status": "blocked_api_registration"
+      "retrieval_status": "stable_url_pdf_pending_live_check",
+      "retrieval_method": "derive_date_bound_pdf_from_official_esbirka_stable_record"
     },
     {
       "id": "cz-ipc-family-temporary",
@@ -332,7 +351,8 @@
         "RESIDENCE-06",
         "ADMIN-10"
       ],
-      "retrieval_status": "candidate_ready"
+      "retrieval_status": "candidate_ready",
+      "expected_heading": "Temporary Residence Permit of an EU Citizen’s Family Member"
     },
     {
       "id": "cz-ipc-eu-registration",
@@ -347,7 +367,8 @@
         "RESIDENCE-01",
         "RESIDENCE-10"
       ],
-      "retrieval_status": "candidate_ready"
+      "retrieval_status": "candidate_ready",
+      "expected_heading": "Registration Certificate"
     },
     {
       "id": "cz-ipc-family-permanent",
@@ -362,7 +383,8 @@
         "RESIDENCE-07",
         "RESIDENCE-09"
       ],
-      "retrieval_status": "candidate_ready"
+      "retrieval_status": "candidate_ready",
+      "expected_heading": "Permanent Residence Permit of an EU Citizen’s Family Member"
     },
     {
       "id": "cz-ipc-fiction-residence",
@@ -377,7 +399,8 @@
         "RESIDENCE-05",
         "RESIDENCE-06"
       ],
-      "retrieval_status": "candidate_ready"
+      "retrieval_status": "candidate_ready",
+      "expected_heading": "Fiction of Residence of an EU Citizen’s Family Member in the Czech Republic"
     },
     {
       "id": "cz-ipc-obligations",
@@ -392,7 +415,8 @@
         "ADMIN-04",
         "DATA-01"
       ],
-      "retrieval_status": "candidate_ready"
+      "retrieval_status": "candidate_ready",
+      "expected_heading": "Obligations of EU Citizens and Their Family Members"
     },
     {
       "id": "cz-gov-family-temporary",
@@ -408,7 +432,8 @@
         "ADMIN-04",
         "ADMIN-12"
       ],
-      "retrieval_status": "candidate_ready"
+      "retrieval_status": "candidate_ready",
+      "expected_heading": "Application for a temporary residence permit for a family member of an EU citizen"
     },
     {
       "id": "cz-gov-family-permanent",
@@ -423,7 +448,8 @@
         "RESIDENCE-07",
         "RESIDENCE-09"
       ],
-      "retrieval_status": "candidate_ready"
+      "retrieval_status": "candidate_ready",
+      "expected_heading": "Application for a permanent residence permit for a family member of an EU citizen"
     },
     {
       "id": "cz-gov-fiction-residence",
@@ -438,7 +464,8 @@
         "RESIDENCE-05",
         "RESIDENCE-06"
       ],
-      "retrieval_status": "candidate_ready"
+      "retrieval_status": "candidate_ready",
+      "expected_heading": "Certificate of fiction of residence for a family member of an EU citizen"
     },
     {
       "id": "cz-ombudsman-complaints",
@@ -452,7 +479,8 @@
         "REMEDY-05",
         "PRACTICE-05"
       ],
-      "retrieval_status": "candidate_ready"
+      "retrieval_status": "candidate_ready",
+      "expected_heading": "Submit a complaint"
     },
     {
       "id": "cz-nss-search",
@@ -499,9 +527,230 @@
         "PRACTICE-04"
       ],
       "retrieval_status": "monitor_only_not_fetched"
+    },
+    {
+      "id": "cz-ipc-eu-category-definitions",
+      "title": "Ministry of the Interior Information Portal: who are EU citizens and their family members",
+      "source_type": "official_guidance",
+      "language": "en",
+      "url": "https://ipc.gov.cz/en/visa-and-residence-permit-types/eu-nationals/who-are-eu-citizens-and-their-family-members-2/",
+      "expected_heading": "Who are EU Citizens and Their Family Members",
+      "retrieved": false,
+      "accepted": false,
+      "topic_ids": [
+        "RIGHTS-01",
+        "RIGHTS-02",
+        "RIGHTS-10"
+      ],
+      "retrieval_status": "not_retrieved_candidate"
+    },
+    {
+      "id": "cz-ipc-forms-directory",
+      "title": "Ministry of the Interior Information Portal: forms and documents for third-country nationals and EU citizens and their family members",
+      "source_type": "official_forms_directory",
+      "language": "en",
+      "url": "https://ipc.gov.cz/en/forms-and-documents/forms-and-documents-for-third-country-nationals-and-eu-citizens-and-their-family-members-2/",
+      "expected_heading": "Forms and Documents",
+      "retrieved": false,
+      "accepted": false,
+      "topic_ids": [
+        "ADMIN-04",
+        "RESIDENCE-01",
+        "RESIDENCE-02",
+        "RESIDENCE-07",
+        "RESIDENCE-10"
+      ],
+      "retrieval_status": "not_retrieved_candidate"
+    },
+    {
+      "id": "cz-mzv-visa-forms-index",
+      "title": "Ministry of Foreign Affairs: application forms for visas and permits",
+      "source_type": "official_forms_directory",
+      "language": "en",
+      "url": "https://mzv.gov.cz/jnp/en/information_for_aliens/visa_form/index.html",
+      "expected_heading": "Application Forms for Visas and Permits",
+      "retrieved": false,
+      "accepted": false,
+      "topic_ids": [
+        "VISA-01",
+        "VISA-03",
+        "VISA-07",
+        "MISSION-18"
+      ],
+      "retrieval_status": "not_retrieved_candidate"
+    },
+    {
+      "id": "cz-ipc-form-registration",
+      "title": "Blank application form for an EU citizen registration certificate",
+      "source_type": "official_application_form_pdf",
+      "language": "cs-en",
+      "url": "https://ipc.gov.cz/wp-content/uploads/2025/01/Tiskopis-zadosti-o-osvedceni-o-registraci-%C2%A787a_vyplnovaci-12122024_ZAM.pdf",
+      "topic_ids": [
+        "RIGHTS-01",
+        "RESIDENCE-01"
+      ],
+      "discovered_from": "cz-ipc-forms-directory",
+      "link_title": "Application form for a registration certificate for EU citizens",
+      "retrieved": false,
+      "accepted": false,
+      "monitor_only": true,
+      "retrieval_status": "monitor_only_parent_link_rediscovery_required"
+    },
+    {
+      "id": "cz-ipc-form-family-temporary",
+      "title": "Blank application form for a family member’s temporary residence permit",
+      "source_type": "official_application_form_pdf",
+      "language": "cs-en",
+      "url": "https://ipc.gov.cz/tiskopis-zadost-o-prechodny-pobyt-%C2%A787b_vyplnovaci_zam/",
+      "topic_ids": [
+        "RIGHTS-02",
+        "RESIDENCE-02",
+        "RESIDENCE-05"
+      ],
+      "discovered_from": "cz-ipc-forms-directory",
+      "link_title": "Application form for a temporary residence permit for a family member of an EU citizen",
+      "retrieved": false,
+      "accepted": false,
+      "monitor_only": true,
+      "retrieval_status": "monitor_only_parent_link_rediscovery_required"
+    },
+    {
+      "id": "cz-ipc-form-family-renewal",
+      "title": "Blank application form for renewal of an EU family-member residence card",
+      "source_type": "official_application_form_pdf",
+      "language": "cs-en",
+      "url": "https://ipc.gov.cz/wp-content/uploads/2025/01/Tiskopis-zadosti-o-prodlouzeni-pobytove-karty-%C2%A77p_vyplnovaci-12122024_ZAM.pdf",
+      "topic_ids": [
+        "RIGHTS-02",
+        "RESIDENCE-05",
+        "RESIDENCE-07"
+      ],
+      "discovered_from": "cz-ipc-forms-directory",
+      "link_title": "Application form for renewal of a residence card (or residence permit) of family member of an EU citizen",
+      "retrieved": false,
+      "accepted": false,
+      "monitor_only": true,
+      "retrieval_status": "monitor_only_parent_link_rediscovery_required"
+    },
+    {
+      "id": "cz-ipc-form-family-document-change",
+      "title": "Uniform blank form for change, replacement, or exchange of EU citizen/family-member residence documents",
+      "source_type": "official_application_form_pdf",
+      "language": "cs-en",
+      "url": "https://ipc.gov.cz/wp-content/uploads/2025/01/Zadost-o-zmenu-v-PKP-vymenu-a-vydani-nahraniho-PKP-vyplnitelny12122024_ZAM.pdf",
+      "topic_ids": [
+        "ADMIN-04",
+        "RESIDENCE-10"
+      ],
+      "discovered_from": "cz-ipc-forms-directory",
+      "link_title": "Application form for EU citizens and their family members",
+      "retrieved": false,
+      "accepted": false,
+      "monitor_only": true,
+      "retrieval_status": "monitor_only_parent_link_rediscovery_required"
+    },
+    {
+      "id": "cz-ipc-form-family-permanent",
+      "title": "Blank application form for permanent residence for an EU citizen and family members",
+      "source_type": "official_application_form_pdf",
+      "language": "cs-en",
+      "url": "https://ipc.gov.cz/wp-content/uploads/2025/01/Tiskopis-zadosti-o-TP-vyplnovaci_12122024_ZAM.pdf",
+      "topic_ids": [
+        "RIGHTS-06",
+        "RESIDENCE-07",
+        "RESIDENCE-09"
+      ],
+      "discovered_from": "cz-ipc-forms-directory",
+      "link_title": "Application form for a permanent residence permit for an EU citizen and his/her family members",
+      "retrieved": false,
+      "accepted": false,
+      "monitor_only": true,
+      "retrieval_status": "monitor_only_parent_link_rediscovery_required"
+    },
+    {
+      "id": "cz-mzv-schengen-form-en",
+      "title": "Blank English Schengen visa application form",
+      "source_type": "official_application_form_pdf",
+      "language": "en",
+      "url": "https://mzv.gov.cz/public/fe/ee/98/6103975_3488176_ENGLISH.pdf",
+      "topic_ids": [
+        "VISA-01",
+        "VISA-03"
+      ],
+      "discovered_from": "cz-mzv-visa-forms-index",
+      "link_title": "ENGLISH (PDF, 88 KB)",
+      "retrieved": false,
+      "accepted": false,
+      "monitor_only": true,
+      "retrieval_status": "monitor_only_parent_link_rediscovery_required"
+    },
+    {
+      "id": "cz-mzv-missions-directory",
+      "title": "Ministry of Foreign Affairs directory of Czech missions abroad",
+      "source_type": "official_mission_directory",
+      "language": "en",
+      "url": "https://mzv.gov.cz/jnp/en/diplomatic_missions/czech_missions_abroad/index.html",
+      "topic_ids": [
+        "MISSION-01",
+        "MISSION-18",
+        "MISSION-19"
+      ],
+      "retrieval_status": "monitor_only_paged_directory",
+      "monitor_note": "Directory is split into alphabetic subpages and then mission-specific pages. Mission procedures are local and change independently; this parent directory is a discovery route, not a complete guidance feed.",
+      "retrieved": false,
+      "accepted": false,
+      "monitor_only": true
+    },
+    {
+      "id": "cz-mzv-mission-ankara-visas",
+      "title": "Czech Embassy in Ankara: general visa instructions (sample mission-specific route)",
+      "source_type": "official_consular_guidance",
+      "language": "en",
+      "url": "https://mzv.gov.cz/ankara/en/visa_and_consular_information/general_information_about_visas.html",
+      "topic_ids": [
+        "VISA-03",
+        "VISA-05",
+        "MISSION-18",
+        "MISSION-19"
+      ],
+      "retrieval_status": "monitor_only_local_practice_sample",
+      "monitor_note": "Illustrates local jurisdiction and appointment rules; not a representative rule for all missions.",
+      "retrieved": false,
+      "accepted": false,
+      "monitor_only": true
+    },
+    {
+      "id": "cz-mzv-mission-los-angeles-requirements",
+      "title": "Czech Consulate General in Los Angeles: short-stay Schengen requirements (sample mission-specific route)",
+      "source_type": "official_consular_guidance",
+      "language": "en",
+      "url": "https://mzv.gov.cz/losangeles/en/visa_information/visa_requirements/short_term_schengen_visa_requirements.html",
+      "topic_ids": [
+        "VISA-01",
+        "VISA-03",
+        "VISA-05",
+        "MISSION-18"
+      ],
+      "retrieval_status": "monitor_only_local_practice_sample",
+      "monitor_note": "Illustrates local document and appointment requirements; not a representative rule for all missions.",
+      "retrieved": false,
+      "accepted": false,
+      "monitor_only": true
     }
   ],
   "retrieved_source_count": 10,
   "blocked_source_count": 17,
-  "monitor_only_source_count": 4
+  "monitor_only_source_count": 4,
+  "legal_retrieval": {
+    "publisher": "e-Sbírka",
+    "route_template": "/sb/{year}/{number}/{yyyy-mm-dd}.pdf",
+    "date_source": "UTC date of the check; requested consolidation snapshot, not a legal-currentness assertion",
+    "response_requirements": [
+      "application/pdf",
+      "PDF signature",
+      "act citation in extracted text",
+      "at least 1000 extracted characters"
+    ],
+    "live_status": "implemented_live_smoke_blocked_by_workspace_dns"
+  }
 }
