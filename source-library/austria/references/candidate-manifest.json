@@ -7,7 +7,7 @@
   "status": "discovery_only",
   "retrieval_status": "no_austria_runtime_rule_implemented",
   "accepted_source_count": 0,
-  "candidate_source_count": 36,
+  "candidate_source_count": 37,
   "official_hosts": [
     "ris.bka.gv.at",
     "www.ris.bka.gv.at",
@@ -667,6 +667,28 @@
       ]
     },
     {
+      "id": "at-bvwg-w112-2246194-2-2023",
+      "title": "BVwG W112 2246194-2 — NAG §§ 54(7) and 55(3) procedural route",
+      "source_type": "official_case_law",
+      "language": "de",
+      "url": "https://ris.bka.gv.at/JudikaturEntscheidung.wxe?Abfrage=Bvwg&Dokumentnummer=BVWGT_20230329_W112_2246194_2_00",
+      "publisher_identifier": {
+        "system": "RIS Bundesverwaltungsgericht",
+        "court": "Bundesverwaltungsgericht",
+        "case_number": "W112 2246194-2",
+        "Dokumentnummer": "BVWGT_20230329_W112_2246194_2_00",
+        "ECLI": "ECLI:AT:BVWG:2023:W112.2246194.2.00"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official RIS decision text and metadata inspected; decision dated 2023-03-29, last updated 2026-08-14; no separate Rechtssatz is indexed; discusses the NAG § 54(7) exception to the § 55(3) route",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS case-law HTML with stable document-number route; no monitored decision-discovery query implemented",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "REMEDY-03"
+      ]
+    },
+    {
       "id": "at-nag-dv-anl-5",
       "title": "Niederlassungs- und Aufenthaltsgesetz-Durchführungsverordnung Anlage 5 (Anlage E) — residence card form",
       "source_type": "national_legislation",
@@ -773,7 +795,7 @@
   ],
   "bounded_search_gaps": [
     "Mission-specific Austrian consular pages and local instructions for applicant locations remain open; central guidance and the current directory identify routes but do not establish location-specific appointments, checklists, and family-member intake",
-    "Austria-specific case-law query coverage and update protocol across the official BVwG, VwGH, and LVwG search applications; the source-specific interfaces are documented, but LVwG contains selected decisions only and four inspected cases are not a complete inventory",
+    "Austria-specific case-law query coverage and update protocol across the official BVwG, VwGH, and LVwG search applications; the source-specific interfaces are documented, but LVwG contains selected decisions only and five inspected cases are not a complete inventory",
     "NAG § 3–4 establishes ordinary authority and court venue, but procedural posture still matters: §§ 54–55 and the § 54(7) exception need broader current-case comparison before one route can be stated for every residence-card dispute",
     "Information Freedom Act jurisdiction and oversight coverage across information-holder categories; current candidates do not establish one universal route for all public bodies",
     "Land-level practice, forms, and competent-authority variations, including the special ombudsman arrangements in Tyrol and Vorarlberg"
