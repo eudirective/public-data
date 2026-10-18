@@ -7,7 +7,7 @@
   "status": "discovery_only",
   "retrieval_status": "no_austria_runtime_rule_implemented",
   "accepted_source_count": 0,
-  "candidate_source_count": 27,
+  "candidate_source_count": 31,
   "official_hosts": [
     "ris.bka.gv.at",
     "www.ris.bka.gv.at",
@@ -579,12 +579,97 @@
         "PRACTICE-02",
         "MISSION-21"
       ]
+    },
+    {
+      "id": "at-nag-3-authority",
+      "title": "Niederlassungs- und Aufenthaltsgesetz § 3 — authorities and decision/review responsibility",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004242&Paragraf=3",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20004242",
+        "Paragraf": "3"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official_current consolidated statute inspected 2026-10-18; § 3 identifies the ordinary NAG authority and distinguishes provincial-administrative-court from BFA/BVwG review",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML with statute/paragraph locator, version history, document number, and ELI; exact raw response not captured",
+      "topic_ids": [
+        "ADMIN-02",
+        "REMEDY-03"
+      ]
+    },
+    {
+      "id": "at-nag-4-venue",
+      "title": "Niederlassungs- und Aufenthaltsgesetz § 4 — local authority and court venue",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004242&Paragraf=4",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20004242",
+        "Paragraf": "4"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official current consolidated statute inspected 2026-10-18; § 4 links local authority and provincial-court venue to residence and authority seat",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML with statute/paragraph locator, version history, document number, and ELI; exact raw response not captured",
+      "topic_ids": [
+        "ADMIN-02",
+        "REMEDY-03"
+      ]
+    },
+    {
+      "id": "at-vwgh-ra-2022-22-0149",
+      "title": "VwGH Ra 2022/22/0149 — NAG § 55 procedure in residence-card proceedings",
+      "source_type": "official_case_law",
+      "language": "de",
+      "url": "https://ris.bka.gv.at/JudikaturEntscheidung.wxe?Abfrage=Vwgh&Dokumentnummer=JWT_2022220149_20230511L00",
+      "publisher_identifier": {
+        "system": "RIS Verwaltungsgerichtshof",
+        "court": "Verwaltungsgerichtshof",
+        "case_number": "Ra 2022/22/0149",
+        "Dokumentnummer": "JWT_2022220149_20230511L00",
+        "ECLI": "ECLI:AT:VWGH:2023:RA2022220149.L00"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official RIS decision and metadata inspected; decision dated 2023-05-11; addresses NAG § 55(3) and VwGVG § 17 in a fact-specific residence-card proceeding",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS case-law HTML with stable document-number route; no monitored decision-discovery query implemented",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "REMEDY-02",
+        "REMEDY-03"
+      ]
+    },
+    {
+      "id": "at-bvwg-g306-2026-2325799",
+      "title": "BVwG G306 2325799-1 — review of a BFA decision following NAG § 55(3) procedure",
+      "source_type": "official_case_law",
+      "language": "de",
+      "url": "https://ris.bka.gv.at/Dokument.wxe?Abfrage=Bvwg&Dokumentnummer=BVWGT_20260615_G306_2325799_1_00",
+      "publisher_identifier": {
+        "system": "RIS Bundesverwaltungsgericht",
+        "court": "Bundesverwaltungsgericht",
+        "case_number": "G306 2325799-1",
+        "Dokumentnummer": "BVWGT_20260615_G306_2325799_1_00",
+        "ECLI": "ECLI:AT:BVWG:2026:G306.2325799.1.00"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official RIS decision and metadata inspected; decision dated 2026-06-15; a single fact-specific example, not a coverage proxy",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS case-law HTML with stable document-number route; no monitored decision-discovery query implemented",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "REMEDY-03"
+      ]
     }
   ],
   "bounded_search_gaps": [
     "Mission-specific Austrian consular instructions: local appointments, checklists, representation arrangements, and family-member intake details; central BMEIA pages do not close this location-specific coverage",
-    "Broad RIS case-law discovery and update method across BVwG, VwGH, and the nine Landesverwaltungsgerichte; two inspected LVwG cases are examples, not a complete decision inventory",
-    "Decision-specific filing and appeal details for NAG residence-card decisions; VwGVG § 7 records the general period but special statutory routes and authority/court allocation still need confirmation",
+    "Broad RIS case-law discovery and update method across BVwG, VwGH, and all nine Landesverwaltungsgerichte; four inspected decisions are examples, not a complete decision inventory",
+    "NAG § 3–4 establishes ordinary authority and court venue, but procedural posture still matters: §§ 54–55 and the § 54(7) exception need broader current-case comparison before one route can be stated for every residence-card dispute",
     "Information Freedom Act jurisdiction and oversight coverage across information-holder categories; current candidates do not establish one universal route for all public bodies",
     "Land-level practice, forms, and competent-authority variations, including the special ombudsman arrangements in Tyrol and Vorarlberg"
   ]
