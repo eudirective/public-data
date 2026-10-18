@@ -7,7 +7,7 @@
   "status": "discovery_only",
   "retrieval_status": "no_austria_runtime_rule_implemented",
   "accepted_source_count": 0,
-  "candidate_source_count": 31,
+  "candidate_source_count": 34,
   "official_hosts": [
     "ris.bka.gv.at",
     "www.ris.bka.gv.at",
@@ -663,6 +663,73 @@
       "topic_ids": [
         "RESIDENCE-02",
         "REMEDY-03"
+      ]
+    },
+    {
+      "id": "at-nag-dv-anl-5",
+      "title": "Niederlassungs- und Aufenthaltsgesetz-Durchführungsverordnung Anlage 5 (Anlage E) — residence card form",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=5&Artikel=&Gesetzesnummer=20004470&Paragraf=&Uebergangsrecht=",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20004470",
+        "Anlage": "5",
+        "Dokumentnummer": "NOR40221013",
+        "ELI": "https://ris.bka.gv.at/eli/bgbl/ii/2005/451/ANL5/NOR40221013"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official_current_annex_page_inspected_2026-10-18; Anlage E is documented as a PDF; payload bytes not retrieved",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "RIS current Annex 5 HTML resolver with document number, ELI and version history; separate PDF payload requires identity and conversion checks",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "BORDER-01"
+      ]
+    },
+    {
+      "id": "at-nag-dv-anl-6",
+      "title": "Niederlassungs- und Aufenthaltsgesetz-Durchführungsverordnung Anlage 6 (Anlage F) — permanent residence card form",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=6&Artikel=&Gesetzesnummer=20004470&Paragraf=&Uebergangsrecht=",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20004470",
+        "Anlage": "6",
+        "Dokumentnummer": "NOR40221015",
+        "ELI": "https://ris.bka.gv.at/eli/bgbl/ii/2005/451/ANL6/NOR40221015"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "official_current_annex_page_inspected_2026-10-18; Anlage F is documented as a PDF; payload bytes not retrieved",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "RIS current Annex 6 HTML resolver with document number, ELI and version history; separate PDF payload requires identity and conversion checks",
+      "topic_ids": [
+        "RESIDENCE-02",
+        "BORDER-01"
+      ]
+    },
+    {
+      "id": "at-ifg-15",
+      "title": "Informationsfreiheitsgesetz § 15 — Data Protection Authority advice and evaluation role",
+      "source_type": "national_legislation",
+      "language": "de",
+      "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=&Artikel=&Gesetzesnummer=20012537&Paragraf=15&Uebergangsrecht=",
+      "publisher_identifier": {
+        "system": "RIS Bundesrecht konsolidiert",
+        "Gesetzesnummer": "20012537",
+        "Paragraf": "15",
+        "Dokumentnummer": "NOR40260549",
+        "ELI": "https://ris.bka.gv.at/eli/bgbl/i/2024/5/P15/NOR40260549"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "official_current_section_inspected_2026-10-18; effective 2025-09-01; last updated 2024-02-26",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "official RIS current-section HTML with effective date, document number and ELI; not a judicial appeal route",
+      "topic_ids": [
+        "DATA-10",
+        "ADMIN-02",
+        "PRACTICE-11"
       ]
     }
   ],
