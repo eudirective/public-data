@@ -20,11 +20,16 @@ const jsonPath = path.join(WORK, 'state.json');
 const reportPath = path.join(WORK, 'latest-report.json');
 const reconvertReportPath = path.join(WORK, 'latest-reconversion.json');
 const CONVERTER_VERSION = 'hungary-source-md-v2-page-ocr';
+const MAX_SOURCE_BYTES = 25 * 1024 * 1024;
 let state = { schema_version: 1, sources: {}, discoveries: [] };
 try { state = JSON.parse(await readFile(jsonPath, 'utf8')); } catch (e) { if (e.code !== 'ENOENT') throw e; }
 const allSources = [...manifest.laws.filter(x => !x.discovery_only).map(x => ({ ...x, kind: 'law' })), ...manifest.oif_pages.filter(x => !x.discovery_only).map(x => ({ ...x, kind: 'oif' }))];
-const discoverySources = manifest.discovery.flatMap(row => row.url.includes('{year}')
-  ? [0,1,2].map(offset => ({ ...row, id: `${row.id}-${new Date().getUTCFullYear()-offset}`, url: row.url.replace('{year}', String(new Date().getUTCFullYear()-offset)) }))
+const configuredDiscoverySources = [
+  ...manifest.discovery,
+  ...manifest.oif_pages.filter(source => source.discovery_only).map(source => ({ ...source, kind: 'catalogue' }))
+];
+const discoverySources = configuredDiscoverySources.flatMap(row => row.url.includes('{year}')
+  ? Array.from({ length: row.year_window || 1 }, (_, offset) => ({ ...row, id: `${row.id}-${new Date().getUTCFullYear()-offset}`, url: row.url.replace('{year}', String(new Date().getUTCFullYear()-offset)) }))
   : [row]);
 const text = b => new TextDecoder('utf-8').decode(b);
 function cleanHtml(html) {
@@ -49,6 +54,20 @@ function cleanHtml(html) {
     .replace(/&#x([\da-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16))).replace(/[\t\u00a0 ]+/g, ' ')
     .replace(/ *\n */g, '\n').replace(/\n{3,}/g, '\n\n').trim();
   return body;
+}
+function assertPayloadFormat(source, bytes, contentType='') {
+  if (source.format==='pdf' && (bytes.subarray(0,5).toString('ascii')!=='%PDF-' || !/application\/pdf/i.test(contentType))) throw Error('PDF source did not match its registered media type and signature');
+  if (source.format==='html' && !/text\/html|application\/xhtml\+xml/i.test(contentType)) throw Error(`HTML source had unexpected content type ${contentType||'(missing)'}`);
+}
+function assertIdentityRule(source) {
+  if (source.identity_validation_pending) throw Error(`source identity validation is pending: ${source.identity_validation_pending}`);
+  if (source.publisher==='Alapvető Jogok Biztosának Hivatala' && source.format==='pdf' && !source.validation_markers?.length) throw Error('AJBH PDF source has no reviewed content identity marker');
+}
+function assertBodyIdentity(source, body) {
+  if (!source.validation_markers?.length) return;
+  const lower=body.toLocaleLowerCase('hu');
+  const missing=source.validation_markers.filter(marker=>!lower.includes(marker.toLocaleLowerCase('hu')));
+  if (missing.length) throw Error(`source identity validation failed; missing markers: ${missing.join(', ')}`);
 }
 async function pdfText(bytes) {
   const { getDocument } = await import('pdfjs-dist/legacy/build/pdf.mjs');
@@ -101,18 +120,38 @@ function frontmatter(source, url, rawHash, bodyHash, body) {
   const title = source.citation || source.id;
   return `---\nsource_id: ${JSON.stringify(source.id)}\npublisher: ${JSON.stringify(source.publisher || (source.kind === 'law' ? 'Nemzeti Jogszabálytár' : 'Országos Idegenrendészeti Főigazgatóság'))}\ncategory: ${JSON.stringify(source.category)}\nlanguage: hu\nsource_url: ${JSON.stringify(url)}\nraw_sha256: ${rawHash}\nbody_sha256: ${bodyHash}\nconverter: ${CONVERTER_VERSION}\n---\n\n# ${title}\n\n${body.trim()}\n`;
 }
-async function fetchOfficial(url) {
+async function readBoundedBody(response, url) {
+  if (!response.body) throw Error(`empty response: ${url}`);
+  const reader=response.body.getReader(), chunks=[]; let size=0;
+  try {
+    while (true) {
+      const {done,value}=await reader.read(); if (done) break;
+      size+=value.byteLength;
+      if (size>MAX_SOURCE_BYTES) { await reader.cancel(); throw Error(`source response exceeded the ${MAX_SOURCE_BYTES}-byte limit: ${url}`); }
+      chunks.push(Buffer.from(value));
+    }
+  } finally { reader.releaseLock(); }
+  return Buffer.concat(chunks,size);
+}
+async function fetchOfficial(url, expectedFormat='html') {
   let current = url;
   for (let hop = 0; hop < 6; hop++) {
     const u = new URL(current);
     if (u.protocol !== 'https:' || !manifest.official_hosts.includes(u.hostname)) throw Error(`non-official or insecure URL refused: ${current}`);
     let r;
-    try { r = await fetch(current, { redirect: 'manual', headers: { 'user-agent': 'HungaryNationalSourceSystem/0.1.0', accept: 'text/html,application/xhtml+xml,application/pdf' } }); }
+    const accept=expectedFormat==='pdf'?'application/pdf':'text/html,application/xhtml+xml';
+    try { r = await fetch(current, { redirect: 'manual', headers: { 'user-agent': 'HungaryNationalSourceSystem/0.2.0', accept } }); }
     catch (e) { throw Error(`request failed (${e.cause?.code || e.cause?.message || e.message}): ${current}`); }
     if ([301,302,303,307,308].includes(r.status)) { const loc=r.headers.get('location'); if (!loc) throw Error(`redirect without Location: ${current}`); current=new URL(loc,current).href; continue; }
     if (!r.ok) throw Error(`HTTP ${r.status} ${r.statusText}: ${current}`);
-    const bytes=Buffer.from(await r.arrayBuffer()); if (!bytes.length) throw Error(`empty response: ${current}`);
-    return { bytes, url: current, contentType: r.headers.get('content-type') || '' };
+    const contentType=r.headers.get('content-type')||'';
+    const validType=expectedFormat==='pdf'?/application\/pdf/i.test(contentType):/text\/html|application\/xhtml\+xml/i.test(contentType);
+    if (!validType) throw Error(`unexpected ${expectedFormat} content type ${contentType||'(missing)'}: ${current}`);
+    const declaredLength=Number(r.headers.get('content-length'));
+    if (Number.isFinite(declaredLength)&&declaredLength>MAX_SOURCE_BYTES) throw Error(`source response exceeded the ${MAX_SOURCE_BYTES}-byte limit: ${current}`);
+    const bytes=await readBoundedBody(r,current); if (!bytes.length) throw Error(`empty response: ${current}`);
+    if (expectedFormat==='pdf'&&bytes.subarray(0,5).toString('ascii')!=='%PDF-') throw Error(`response did not have a PDF signature: ${current}`);
+    return { bytes, url: current, contentType, format: expectedFormat };
   }
   throw Error(`redirect limit reached: ${url}`);
 }
@@ -127,12 +166,17 @@ function pageLinks(html, base) {
       const label=cleanHtml(m[2]);
       const isNjt = u.hostname === 'njt.jog.gov.hu';
       const relevant = /szabad mozg|idegenrend|mened[eé]k|k[uü]lf[oö]ldi|adatv[eé]delem|k[oö]z[eé]rdek[uű] adat|k[oö]zirat|anyak[oö]nyv|szem[eé]lyi adat|lakc[ií]m|tart[oó]zkod[aá]s|v[ií]zum|elj[aá]r[aá]si d[ií]j|digit[aá]lis [aá]llam/i.test(label);
-      const isPdf = /\.pdf(?:$|[?#])/i.test(`${u.pathname}${u.search}`);
+      const isPdf = /\.pdf(?:\/|$|[?#])/i.test(`${u.pathname}${u.search}`);
       const archiveStatForm = /106[-_ ]?(?:TI|Ált|Alt)|106.*(?:6332|201)[-_ ]?2026/i.test(decodeURIComponent(`${u.href} ${label}`));
       if ((isNjt && u.pathname.includes('/eli/') && relevant) || (!isNjt && (archiveStatForm || isPdf || /formanyomtatv|statisztik|szerz[oő]d[eé]s|adatlap|v[eé]grehajt[aá]si|jogszab[aá]ly|hat[aá]rozat|k[oö]zbeszerz[eé]s|d[ií]j|ad[aá]tv[eé]d/i.test(`${u.href} ${label}`)))) out.push({ url:u.href, label });
     } catch {}
   }
   return [...new Map(out.map(x=>[x.url,x])).values()].sort((a,b)=>a.url.localeCompare(b.url));
+}
+function validateCataloguePage(html, url) {
+  const visible=cleanHtml(html);
+  if (visible.length<120) throw Error(`catalogue exposed too little visible text (${visible.length} characters): ${url}`);
+  if (/(?:checking your browser|verify (?:that )?you are human|robot check|captcha|cloudflare ray id|access denied|request blocked|403 forbidden)/i.test(visible)) throw Error(`catalogue returned an access challenge instead of source content: ${url}`);
 }
 if (mode === 'verify') {
   const failures=[];
@@ -143,9 +187,14 @@ if (mode === 'verify') {
   if (expectedIds.size !== allSources.length) failures.push({id:'manifest',error:'duplicate active source IDs'});
   for (const [id, row] of Object.entries(state.sources)) {
     try {
+      const source=allSources.find(item=>item.id===id);
+      if (!source) throw Error('source ID is missing from the active manifest');
+      assertIdentityRule(source);
       const raw=await readFile(projectTempPath(path.join(ROOT,row.raw_path)));
+      assertPayloadFormat(source,raw,row.content_type||'');
       if (sha(raw)!==row.raw_sha256) throw Error('raw hash mismatch');
       const body=raw.subarray(0,5).toString()==='%PDF-' ? await pdfText(raw) : cleanHtml(text(raw));
+      assertBodyIdentity(source,body);
       if (sha(Buffer.from(body))!==row.body_sha256) throw Error('converted body hash mismatch');
       const md=await readFile(path.join(ROOT,row.markdown_path),'utf8');
       if (!md.includes(`body_sha256: ${row.body_sha256}`) || !md.endsWith(`${body.trim()}\n`)) throw Error('Markdown replay mismatch');
@@ -159,7 +208,9 @@ if (mode === 'verify') {
     try {
       const row=state.sources[source.id];
       if (!row) throw Error('source is missing from saved state');
+      assertIdentityRule(source);
       const raw=await readFile(projectTempPath(path.join(ROOT,row.raw_path)));
+      assertPayloadFormat(source,raw,row.content_type||'');
       if (sha(raw)!==row.raw_sha256) throw Error('raw hash mismatch');
       const body=raw.subarray(0,5).toString()==='%PDF-' ? await pdfText(raw) : cleanHtml(text(raw));
       if (body.length<120) throw Error(`extracted official content too short (${body.length})`);
@@ -167,10 +218,7 @@ if (mode === 'verify') {
         const lower=body.toLocaleLowerCase('hu'), expected=source.citation.toLocaleLowerCase('hu');
         if (!(source.special_title ? source.special_title.some(x=>lower.includes(x.toLocaleLowerCase('hu'))) : lower.includes(expected))) throw Error(`title/citation validation failed for ${source.citation}`);
       }
-      if (source.validation_markers?.length) {
-        const lower=body.toLocaleLowerCase('hu'), missing=source.validation_markers.filter(marker=>!lower.includes(marker.toLocaleLowerCase('hu')));
-        if (missing.length) throw Error(`source identity validation failed; missing markers: ${missing.join(', ')}`);
-      }
+      assertBodyIdentity(source,body);
       const bodyHash=sha(Buffer.from(body));
       staged.push({source,row,bodyHash,changed:row.body_sha256!==bodyHash,markdown:frontmatter(source,row.url,row.raw_sha256,bodyHash,body)});
     } catch(e) { failures.push({id:source.id,error:e.message}); }
@@ -192,7 +240,9 @@ if (mode === 'verify') {
   const failures=[], discoveryFailures=[], fetched=[], discoveries=[], pendingWrites=[];
   for (const source of allSources) {
     try {
-      const got=await fetchOfficial(source.url);
+      assertIdentityRule(source);
+      const got=await fetchOfficial(source.url,source.format||'html');
+      assertPayloadFormat(source,got.bytes,got.contentType);
       const rawHash=sha(got.bytes), rawExt=got.bytes.subarray(0,5).toString()==='%PDF-'?'pdf':'html';
       const body=rawExt==='pdf' ? await pdfText(got.bytes) : cleanHtml(text(got.bytes));
       if (body.length < 120) throw Error(`extracted official content too short (${body.length})`);
@@ -201,11 +251,7 @@ if (mode === 'verify') {
         const extracted = body.toLocaleLowerCase('hu');
         if (!(source.special_title ? source.special_title.some(x => extracted.includes(x.toLocaleLowerCase('hu'))) : extracted.includes(expected))) throw Error(`title/citation validation failed for ${source.citation}`);
       }
-      if (source.validation_markers?.length) {
-        const extracted = body.toLocaleLowerCase('hu');
-        const missing = source.validation_markers.filter(marker => !extracted.includes(marker.toLocaleLowerCase('hu')));
-        if (missing.length) throw Error(`source identity validation failed; missing markers: ${missing.join(', ')}`);
-      }
+      assertBodyIdentity(source,body);
       const bodyHash=sha(Buffer.from(body)), old=state.sources[source.id];
       const rawRel=`work/raw/${source.id}/${rawHash}.${rawExt}`, mdRel=`documents/${source.kind==='law'?'laws':'oif'}/${source.category}/${source.id}.md`;
       const result={id:source.id,url:got.url,status:old?.body_sha256===bodyHash?'unchanged':old?'changed':'new',raw_sha256:rawHash,body_sha256:bodyHash,content_type:got.contentType};
@@ -220,24 +266,28 @@ if (mode === 'verify') {
   }
   for (const source of discoverySources) {
     try {
-      const got=await fetchOfficial(source.url);
+      const got=await fetchOfficial(source.url,'html');
       if (!got.contentType.includes('html')) throw Error(`catalogue is not HTML (${got.contentType})`);
+      validateCataloguePage(text(got.bytes),got.url);
       discoveries.push(...pageLinks(text(got.bytes),got.url).map(x=>({ ...x, discovered_from:source.id })));
     } catch(e) { discoveryFailures.push({id:source.id,url:source.url,error:e.message}); }
   }
   const unique=[...new Map(discoveries.map(x=>[x.url,x])).values()].sort((a,b)=>a.url.localeCompare(b.url));
   const previous=new Set(state.discoveries.map(x=>x.url));
   const novel=unique.filter(x=>!previous.has(x.url));
-  if (mode==='sync' && failures.length===0 && discoveryFailures.length===0) {
+  let syncCommit='not_requested';
+  if (mode==='sync') {
     try {
       for (const item of pendingWrites) await atomic(item.file,item.data);
-      state.discoveries=unique; state.checked_at=now();
+      if (discoveryFailures.length===0) state.discoveries=unique;
+      state.checked_at=now();
       await atomic(jsonPath,JSON.stringify(state,null,2)+'\n');
-    } catch (e) { failures.push({id:'sync-commit',error:e.message}); }
+      syncCommit=failures.length===0&&discoveryFailures.length===0?'complete':'partial_successes_saved';
+    } catch (e) { failures.push({id:'sync-commit',error:e.message}); syncCommit='commit_failed'; }
   }
   const archiveTargetMatches=(manifest.archive_targets||[]).map(target=>{const expected=(target.official_filename||target.title).toLocaleLowerCase('hu');const matches=unique.filter(x=>{let pathname='';try{pathname=decodeURIComponent(new URL(x.url).pathname)}catch{}return `${pathname} ${x.label}`.toLocaleLowerCase('hu').includes(expected)}).map(x=>x.url);const pinned=state.sources[target.resolved_source_id];return{id:target.id,title:target.title,resolved_source_id:target.resolved_source_id||null,official_file_url:target.official_file_url||null,pinned_source_retrieved:Boolean(pinned),pinned_source_status:pinned?.status||null,discovered_official_matches:matches}});
-  const report={schema_version:1,pack:manifest.pack,mode,run_at:now(),source_count:allSources.length,success_count:fetched.length,failure_count:failures.length+discoveryFailures.length,fetched,failures,discovery_failures:discoveryFailures,archive_targets:manifest.archive_targets||[],archive_target_matches:archiveTargetMatches,discovery:{count:unique.length,new_count:novel.length,items:mode==='discover'?unique:novel}};
+  const report={schema_version:1,pack:manifest.pack,mode,run_at:now(),source_count:allSources.length,success_count:fetched.length,failure_count:failures.length+discoveryFailures.length,sync_commit:syncCommit,fetched,failures,discovery_failures:discoveryFailures,archive_targets:manifest.archive_targets||[],archive_target_matches:archiveTargetMatches,discovery:{count:unique.length,new_count:novel.length,items:mode==='discover'?unique:novel,baseline_updated:mode==='sync'&&discoveryFailures.length===0}};
   await atomic(reportPath,JSON.stringify(report,null,2)+'\n');
-  console.log(JSON.stringify({mode,sources:allSources.length,ok:fetched.length,failed:failures.length,discovery_failed:discoveryFailures.length,archive_targets:(manifest.archive_targets||[]).length,new_official_links:novel.length,report:reportPath},null,2));
+  console.log(JSON.stringify({mode,sources:allSources.length,ok:fetched.length,failed:failures.length,discovery_failed:discoveryFailures.length,sync_commit:syncCommit,archive_targets:(manifest.archive_targets||[]).length,new_official_links:novel.length,report:reportPath},null,2));
   if (failures.length || discoveryFailures.length) process.exitCode=1;
 }
