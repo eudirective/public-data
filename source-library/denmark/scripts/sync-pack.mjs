@@ -12,7 +12,8 @@ const WORK = projectTempPath(path.join(ROOT, 'work'));
 const DOCUMENTS = path.join(ROOT, 'documents');
 const HOST = 'www.retsinformation.dk';
 const FEED = 'https://www.retsinformation.dk/eli/eli-update-feed.atom';
-const VERSION = '0.2.1';
+const VERSION = '0.2.3';
+const MAX_RESPONSE_BYTES = 30_000_000;
 const now = () => new Date().toISOString().replace(/\.\d{3}Z$/, 'Z');
 const sha = b => createHash('sha256').update(b).digest('hex');
 const safe = s => s.toLowerCase().replace(/[^a-z0-9._-]+/g, '-').replace(/^-|-$/g, '');
@@ -38,6 +39,15 @@ function parseXml(xml) {
     stack.at(-1).children.push(xmlEntities(token));
   }
   return root;
+}
+function decodeOfficialXml(bytes, contentType, label) {
+  const headerCharset = contentType?.match(/charset\s*=\s*["']?([^;"'\s]+)/i)?.[1];
+  const declaration = bytes.subarray(0, 512).toString('ascii').match(/<\?xml\b[^>]*\bencoding\s*=\s*["']([^"']+)["']/i)?.[1];
+  for (const charset of [headerCharset, declaration].filter(Boolean)) {
+    if (!/^utf-?8$/i.test(charset)) throw Error(`unsupported XML charset ${charset} at ${label}`);
+  }
+  try { return new TextDecoder('utf-8', { fatal: true }).decode(bytes); }
+  catch { throw Error(`official XML is not valid UTF-8 at ${label}`); }
 }
 function children(node, name) { return (node?.children || []).filter(x => typeof x === 'object' && x.name === name); }
 function first(node, name) { return children(node, name)[0] || null; }
@@ -114,22 +124,28 @@ function extractIndhold(html) {
   }
   throw Error('official rendered HTML INDHOLD container did not close');
 }
-async function convertOfficialHtml(source, xmlMeta, xmlHash, fetched) {
+async function renderOfficialHtml(source, xmlMeta, xmlHash, officialHtml, title = xmlMeta.title) {
+  const htmlBytes = Buffer.from(officialHtml, 'utf8'), htmlHash = sha(htmlBytes);
+  const coreScript = pathToFileURL(path.resolve(ROOT, '../../eudirective-core-work/eudirective-core/scripts/source-maintenance.mjs')).href;
+  const { htmlText, VERSION: coreVersion } = await import(coreScript);
+  const body = htmlText(`<div id="document1">${officialHtml}</div>`, { source_type: 'charter', source_id: source.id });
+  if (body.length < 500) throw Error(`official HTML conversion implausibly short for ${source.id}`);
+  const markdown = `# ${title}\n\n- Citation: ${source.citation}\n- Official ELI source: ${source.eli}\n- Official rendered HTML endpoint: https://${HOST}/api/document/${new URL(source.eli).pathname.slice(1)}\n- Official document ID: ${xmlMeta.document_id}\n- Official accession: ${xmlMeta.accession}\n- Official XML metadata SHA-256: ${xmlHash}\n- Official HTML SHA-256: ${htmlHash}\n- Converter: EU core source-maintenance ${coreVersion} HTML tokenizer, scoped to the official INDHOLD legal-text container\n- Coverage: text in Retsinformation's official rendered document HTML; non-text attachments and visual layout are not represented.\n\n> This older record's XML contains metadata only. The text was retrieved from Retsinformation's first-party document endpoint. The fixed ELI identifies a historical instrument and does not prove current consolidation.\n\n${body}\n`;
+  return { markdown, html_bytes: htmlBytes, markdown_sha256: sha(Buffer.from(markdown, 'utf8')), metadata: { ...xmlMeta, title, html_sha256: htmlHash } };
+}
+async function convertOfficialHtml(source, xmlMeta, xmlHash) {
   const eliPath = new URL(source.eli).pathname.slice(1), endpoint = `https://${HOST}/api/document/${eliPath}`;
-  const res = await fetch(endpoint, { method: 'POST', redirect: 'manual', headers: { 'user-agent': `denmark-legal-source-system/${VERSION}`, accept: 'application/json', 'content-type': 'application/json' }, body: JSON.stringify({ isRawHtml: true }) });
+  const res = await fetch(endpoint, { method: 'POST', redirect: 'manual', headers: { 'user-agent': `denmark-legal-source-system/${VERSION}`, accept: 'application/json', 'content-type': 'application/json' }, body: JSON.stringify({ isRawHtml: true }), signal: AbortSignal.timeout(45000) });
   if (!res.ok || !/application\/json/i.test(res.headers.get('content-type') || '')) throw Error(`official Retsinformation document endpoint returned HTTP ${res.status}`);
-  const records = await res.json();
+  const responseBytes = await readLimitedBody(res, endpoint);
+  let records;
+  try { records = JSON.parse(new TextDecoder('utf-8', { fatal: true }).decode(responseBytes)); }
+  catch { throw Error('official Retsinformation document endpoint returned invalid UTF-8 JSON'); }
   if (!Array.isArray(records) || records.length !== 1) throw Error(`official document endpoint returned ${records?.length ?? 'invalid'} records`);
   const doc = records[0];
   if (String(doc.id) !== String(xmlMeta.unique_document_id) || doc.accessionNumber !== xmlMeta.accession) throw Error(`rendered HTML identity mismatch for ${source.id}`);
   if (!doc.documentHtml || norm(doc.title) !== norm(xmlMeta.title)) throw Error(`rendered HTML title/content mismatch for ${source.id}`);
-  const officialHtml = extractIndhold(doc.documentHtml), htmlHash = sha(Buffer.from(officialHtml, 'utf8'));
-  const coreScript = pathToFileURL(path.resolve(ROOT, '../../eudirective-core-work/eudirective-core/scripts/source-maintenance.mjs')).href;
-  const { htmlText } = await import(coreScript);
-  const body = htmlText(`<div id="document1">${officialHtml}</div>`, { source_type: 'charter', source_id: source.id });
-  if (body.length < 500) throw Error(`official HTML conversion implausibly short for ${source.id}`);
-  const markdown = `# ${doc.title}\n\n- Citation: ${source.citation}\n- Official ELI source: ${source.eli}\n- Official rendered HTML endpoint: ${endpoint}\n- Official document ID: ${xmlMeta.document_id}\n- Official accession: ${xmlMeta.accession}\n- Official XML metadata SHA-256: ${xmlHash}\n- Official HTML SHA-256: ${htmlHash}\n- Converter: EU core deterministic HTML tokenizer, scoped to the official INDHOLD legal-text container\n- Coverage: text in Retsinformation's official rendered document HTML; non-text attachments and visual layout are not represented.\n\n> This older record's XML contains metadata only. The text was retrieved from Retsinformation's first-party document endpoint. The fixed ELI identifies a historical instrument and does not prove current consolidation.\n\n${body}\n`;
-  return { markdown, html_bytes: Buffer.from(officialHtml, 'utf8'), markdown_sha256: sha(Buffer.from(markdown, 'utf8')), metadata: { ...xmlMeta, html_sha256: htmlHash } };
+  return renderOfficialHtml(source, xmlMeta, xmlHash, extractIndhold(doc.documentHtml), doc.title);
 }
 async function fetchOfficial(url, accept) {
   let current = url;
@@ -138,10 +154,32 @@ async function fetchOfficial(url, accept) {
     const res = await fetch(current, { redirect: 'manual', headers: { 'user-agent': `denmark-legal-source-system/${VERSION}`, accept }, signal: AbortSignal.timeout(45000) });
     if ([301, 302, 303, 307, 308].includes(res.status)) { const loc = res.headers.get('location'); if (!loc) throw Error(`redirect missing Location: ${current}`); current = new URL(loc, current).href; continue; }
     if (!res.ok) throw Error(`HTTP ${res.status} from ${current}`);
-    const bytes = Buffer.from(await res.arrayBuffer()); if (!bytes.length) throw Error(`empty response from ${current}`);
+    const bytes = await readLimitedBody(res, current); if (!bytes.length) throw Error(`empty response from ${current}`);
     return { bytes, final_url: current, content_type: res.headers.get('content-type'), etag: res.headers.get('etag'), last_modified: res.headers.get('last-modified') };
   }
   throw Error(`too many redirects for ${url}`);
+}
+async function readLimitedBody(response, label) {
+  const declared = Number(response.headers.get('content-length'));
+  if (Number.isFinite(declared) && declared > MAX_RESPONSE_BYTES) throw Error(`response exceeds ${MAX_RESPONSE_BYTES} byte limit at ${label}`);
+  if (!response.body) return Buffer.alloc(0);
+  const reader = response.body.getReader(), parts = [];
+  let size = 0;
+  try {
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      size += value.byteLength;
+      if (size > MAX_RESPONSE_BYTES) {
+        await reader.cancel();
+        throw Error(`response exceeds ${MAX_RESPONSE_BYTES} byte limit at ${label}`);
+      }
+      parts.push(Buffer.from(value));
+    }
+  } finally {
+    reader.releaseLock();
+  }
+  return Buffer.concat(parts, size);
 }
 function atomEntries(xml, manifest) {
   const root = parseXml(xml), entries = [];
@@ -171,13 +209,13 @@ async function mapLimit(items, limit, fn) {
 }
 async function getSitemapSnapshot() {
   const top = await fetchOfficial('https://www.retsinformation.dk/eli/sitemap.xml', 'application/xml, text/xml;q=0.9');
-  const topTree = parseXml(top.bytes.toString('utf8'));
+  const topTree = parseXml(decodeOfficialXml(top.bytes, top.content_type, 'ELI sitemap index'));
   const pageUrls = descendants(topTree, 'loc').map(n => text(n)).filter(u => /\/eli\/sitemap\.xml\?page=\d+/.test(u));
   if (!pageUrls.length) throw Error('official ELI sitemap index contains no page URLs');
   const pages = await mapLimit(pageUrls, 5, async rawUrl => {
     const u = new URL(rawUrl); if (u.hostname === 'retsinformation.dk') u.hostname = HOST;
     const r = await fetchOfficial(u.href, 'application/xml, text/xml;q=0.9');
-    const tree = parseXml(r.bytes.toString('utf8'));
+    const tree = parseXml(decodeOfficialXml(r.bytes, r.content_type, u.href));
     return { url: u.href, bytes: r.bytes, entries: descendants(tree, 'url').map(node => ({ loc: text(first(node, 'loc')), lastmod: text(first(node, 'lastmod')) || null })).filter(x => x.loc) };
   });
   const entries = Object.fromEntries(pages.flatMap(p => p.entries.map(e => [new URL(e.loc).pathname, e.lastmod])));
@@ -203,37 +241,104 @@ async function readJson(file, fallback) { try { return JSON.parse(await readFile
 async function atomic(file, data) { await atomicProjectWrite(file, data); }
 const stateFile = path.join(WORK, 'state.json'), reportFile = path.join(WORK, 'latest-report.json');
 const manifest = JSON.parse(await readFile(MANIFEST_PATH, 'utf8'));
-const mode = process.argv.find(x => ['--check', '--sync', '--discover', '--ack', '--ack-all'].includes(x)) || '--check';
+const mode = process.argv.find(x => ['--check', '--sync', '--discover', '--verify', '--ack', '--ack-all'].includes(x)) || '--check';
 const ackId = mode === '--ack' ? process.argv[process.argv.indexOf('--ack') + 1] : null;
-if (mode === '--ack') {
+async function requireRecentSyncReport() {
+  const report = await readJson(reportFile, null);
+  if (!report || report.mode !== '--sync' || report.skill_version !== VERSION || report.failed_count !== 0 || report.observations?.length !== manifest.documents.length) {
+    throw Error('--ack requires a complete successful --sync report from this version; run --sync again');
+  }
+  return report;
+}
+async function validateCandidateEvidence(report, source, candidate) {
+  const observation = report.observations.find(x => x.source_id === source.id);
+  if (!observation || !observation.xml_sha256 || sha(candidate) !== observation.markdown_sha256) throw Error(`Candidate does not match the latest successful report: ${source.id}`);
+  const xml = await readFile(path.join(WORK, 'raw', `${observation.xml_sha256}.xml`));
+  if (sha(xml) !== observation.xml_sha256) throw Error(`Saved XML hash mismatch: ${source.id}`);
+  if (observation.html_sha256) {
+    const html = await readFile(path.join(WORK, 'raw', `${observation.html_sha256}.html`));
+    if (sha(html) !== observation.html_sha256) throw Error(`Saved rendered HTML hash mismatch: ${source.id}`);
+  }
+  return observation;
+}
+if (mode === '--verify') {
+  const previous = await readJson(stateFile, { version: 1, sources: {} }), results = [];
+  for (const source of manifest.documents) {
+    try {
+      const saved = previous.sources[source.id];
+      if (!saved?.xml_sha256 || !saved.markdown_sha256) throw Error('No saved sync observation; run --sync first');
+      if (saved.converter_version !== VERSION) throw Error(`Saved conversion used version ${saved.converter_version || 'unknown'}; run --sync with ${VERSION} before offline replay`);
+      const xmlBytes = await readFile(path.join(WORK, 'raw', `${saved.xml_sha256}.xml`));
+      if (sha(xmlBytes) !== saved.xml_sha256) throw Error('Saved XML SHA-256 mismatch');
+      const xmlText = decodeOfficialXml(xmlBytes, saved.content_type, saved.source_url || source.eli);
+      let converted = convertXml(xmlText, source, { xml_sha256: saved.xml_sha256 });
+      if (!converted) {
+        const xmlMeta = metadata(parseXml(xmlText));
+        if (xmlMeta.year !== new URL(source.eli).pathname.split('/').at(-2) || String(Number(xmlMeta.number)) !== String(Number(new URL(source.eli).pathname.split('/').at(-1)))) throw Error('Saved metadata ELI identity mismatch');
+        if (source.expected_document_id && xmlMeta.document_id !== source.expected_document_id) throw Error('Saved metadata DocumentId mismatch');
+        if (source.expected_unique_document_id && xmlMeta.unique_document_id !== source.expected_unique_document_id) throw Error('Saved metadata UniqueDocumentId mismatch');
+        if (source.expected_accession && xmlMeta.accession !== source.expected_accession) throw Error('Saved metadata accession mismatch');
+        const expectedTitles = [source.title, ...(source.search_names || [])].map(norm);
+        if (xmlMeta.title && !expectedTitles.some(k => norm(xmlMeta.title) === k || norm(xmlMeta.title).startsWith(k) || k.startsWith(norm(xmlMeta.title)))) throw Error(`Saved metadata title mismatch: ${xmlMeta.title}`);
+        if (!saved.html_sha256) throw Error('Saved legacy XML has no rendered HTML hash');
+        const htmlBytes = await readFile(path.join(WORK, 'raw', `${saved.html_sha256}.html`));
+        if (sha(htmlBytes) !== saved.html_sha256) throw Error('Saved rendered HTML SHA-256 mismatch');
+        converted = await renderOfficialHtml(source, xmlMeta, saved.xml_sha256, new TextDecoder('utf-8', { fatal: true }).decode(htmlBytes), saved.title || xmlMeta.title);
+      }
+      if (converted.markdown_sha256 !== saved.markdown_sha256) throw Error('Offline conversion does not match saved Markdown SHA-256');
+      const candidatePath = path.join(WORK, 'candidates', `${safe(source.id)}.md`);
+      try { const candidate = await readFile(candidatePath); if (sha(candidate) !== saved.markdown_sha256) throw Error('Review candidate SHA-256 mismatch'); }
+      catch (e) { if (e.code !== 'ENOENT') throw e; }
+      let accepted = 'not-hash-tracked';
+      if (saved.accepted_markdown_sha256) {
+        const acceptedBytes = await readFile(path.join(DOCUMENTS, source.file));
+        if (sha(acceptedBytes) !== saved.accepted_markdown_sha256) throw Error('Accepted Markdown SHA-256 mismatch');
+        accepted = 'verified';
+      }
+      results.push({ source_id: source.id, status: 'verified', markdown_sha256: converted.markdown_sha256, accepted_copy: accepted });
+    } catch (e) { results.push({ source_id: source.id, status: 'error', error: e.message }); }
+  }
+  const report = { report_version: 1, skill_version: VERSION, mode, checked_at: now(), source_count: manifest.documents.length, verified_count: results.filter(x => x.status === 'verified').length, failed_count: results.filter(x => x.status === 'error').length, results };
+  await atomic(path.join(WORK, 'latest-verify.json'), JSON.stringify(report, null, 2) + '\n');
+  console.log(JSON.stringify({ mode, verified: report.verified_count, failed: report.failed_count, report: path.join(WORK, 'latest-verify.json') }, null, 2));
+  if (report.failed_count) process.exitCode = 1;
+} else if (mode === '--ack') {
   if (!ackId || !manifest.documents.some(x => x.id === ackId)) throw Error('--ack requires a known source id');
-  const candidate = path.join(WORK, 'candidates', `${safe(ackId)}.md`), dest = path.join(DOCUMENTS, manifest.documents.find(x => x.id === ackId).file);
-  await atomic(dest, await readFile(candidate));
+  const source = manifest.documents.find(x => x.id === ackId), report = await requireRecentSyncReport();
+  const candidate = path.join(WORK, 'candidates', `${safe(ackId)}.md`), dest = path.join(DOCUMENTS, source.file);
+  const candidateBytes = await readFile(candidate);
+  const observation = await validateCandidateEvidence(report, source, candidateBytes);
+  await atomic(dest, candidateBytes);
   const state = await readJson(stateFile, { version: 1, sources: {}, last_atom_check: null });
-  state.sources[ackId] ||= {}; state.sources[ackId].accepted_markdown_sha256 = sha(await readFile(dest)); state.sources[ackId].accepted_at = now();
+  state.sources[ackId] = { ...(state.sources[ackId] || {}), ...observation, accepted_markdown_sha256: sha(candidateBytes), accepted_at: now() };
   await atomic(stateFile, JSON.stringify(state, null, 2) + '\n'); await rm(candidate); console.log(JSON.stringify({ accepted: ackId, path: dest }, null, 2));
 } else if (mode === '--ack-all') {
-  const report=await readJson(reportFile,null);
-  if(!report||report.failed_count!==0||report.observations?.length!==manifest.documents.length)throw Error('--ack-all requires a complete successful official-source check');
+  const report=await requireRecentSyncReport(), pending=[];
   for(const item of report.observations){
-    const source=manifest.documents.find(x=>x.id===item.source_id),candidate=path.join(WORK,'candidates',`${safe(item.source_id)}.md`);
-    if(!source||sha(await readFile(candidate))!==item.markdown_sha256)throw Error(`Candidate hash mismatch: ${item.source_id}`);
+    const source=manifest.documents.find(x=>x.id===item.source_id); if(!source)throw Error(`Unknown source in report: ${item.source_id}`);
+    const candidate=path.join(WORK,'candidates',`${safe(item.source_id)}.md`);
+    let bytes;
+    try { bytes=await readFile(candidate); }
+    catch(e) { if(e.code==='ENOENT')continue; throw e; }
+    await validateCandidateEvidence(report,source,bytes);
+    pending.push({source,item,candidate,bytes});
   }
+  if(!pending.length)throw Error('--ack-all found no current review candidates');
   const state=await readJson(stateFile,{version:1,sources:{}});
-  for(const item of report.observations){
-    const source=manifest.documents.find(x=>x.id===item.source_id),candidate=path.join(WORK,'candidates',`${safe(source.id)}.md`),dest=path.join(DOCUMENTS,source.file);
-    await atomic(dest,await readFile(candidate));
+  for(const {source,item,candidate,bytes} of pending){
+    const dest=path.join(DOCUMENTS,source.file);
+    await atomic(dest,bytes);
     if(sha(await readFile(dest))!==item.markdown_sha256)throw Error(`Accepted file hash mismatch: ${source.id}`);
-    state.sources[source.id]||={};state.sources[source.id].accepted_markdown_sha256=item.markdown_sha256;state.sources[source.id].accepted_at=now();
+    state.sources[source.id]={...(state.sources[source.id]||{}),...item,accepted_markdown_sha256:item.markdown_sha256,accepted_at:now()};
   }
   await atomic(stateFile,JSON.stringify(state,null,2)+'\n');
-  for (const item of report.observations) await rm(path.join(WORK, 'candidates', `${safe(item.source_id)}.md`), { force: true });
-  console.log(JSON.stringify({accepted:report.observations.length,documents:DOCUMENTS},null,2));
+  for (const {candidate} of pending) await rm(candidate, { force: true });
+  console.log(JSON.stringify({accepted:pending.length,documents:DOCUMENTS},null,2));
 } else {
   const previous = await readJson(stateFile, { version: 1, sources: {}, last_atom_check: null });
   const at = now(), failures = [], observations = [], rawDir = path.join(WORK, 'raw'), candidateDir = path.join(WORK, 'candidates');
   const feedFetch = await fetchOfficial(FEED, 'application/atom+xml, application/xml;q=0.9');
-  const feedText = feedFetch.bytes.toString('utf8'); if (!/<(?:\w+:)?feed\b/i.test(feedText)) throw Error('official ELI update feed has unexpected XML shape');
+  const feedText = decodeOfficialXml(feedFetch.bytes, feedFetch.content_type, FEED); if (!/<(?:\w+:)?feed\b/i.test(feedText)) throw Error('official ELI update feed has unexpected XML shape');
   const feedEntries = atomEntries(feedText, manifest);
   const oldCheck = previous.last_atom_check ? Date.parse(previous.last_atom_check) : null;
   const retentionGap = oldCheck !== null && Date.now() - oldCheck > 55 * 24 * 60 * 60 * 1000;
@@ -246,7 +351,7 @@ if (mode === '--ack') {
     const rows = await mapLimit(legalPaths, 5, async p => {
       try {
         const url = `https://${HOST}${p}/xml`, r = await fetchOfficial(url, 'application/xml, text/xml;q=0.9');
-        const meta = metadata(parseXml(r.bytes.toString('utf8')));
+        const meta = metadata(parseXml(decodeOfficialXml(r.bytes, r.content_type, url)));
         return { eli: `https://${HOST}${p}`, title: meta.title, year: meta.year, number: meta.number, lastmod: sitemap.entries[p], candidates: titleCandidates(meta.title || '', manifest, p) };
       } catch (e) { return { eli: `https://${HOST}${p}`, lastmod: sitemap.entries[p], error: e.message, candidates: [] }; }
     });
@@ -277,11 +382,13 @@ if (mode === '--ack') {
   if (mode !== '--discover') for (const source of manifest.documents) {
     try {
       const url = `${source.eli}/xml`, response = await fetchOfficial(url, 'application/xml, text/xml;q=0.9');
-      if (!/xml/i.test(response.content_type || '') || !/<Dokument\b/.test(response.bytes.subarray(0, 5000).toString('utf8'))) throw Error(`unexpected official XML response type/body (${response.content_type})`);
-      const xmlDigest = sha(response.bytes), observed = { source_id: source.id, source_url: url, final_url: response.final_url, content_type: response.content_type, etag: response.etag, last_modified: response.last_modified, xml_sha256: xmlDigest, bytes: response.bytes.length };
-      let converted = convertXml(response.bytes.toString('utf8'), source, observed, at), fallbackHtml = false;
+      if (!/xml/i.test(response.content_type || '')) throw Error(`unexpected official XML response type (${response.content_type})`);
+      const xmlText = decodeOfficialXml(response.bytes, response.content_type, url);
+      if (!/<Dokument\b/.test(xmlText.slice(0, 5000))) throw Error(`unexpected official XML body (${response.content_type})`);
+      const xmlDigest = sha(response.bytes), observed = { source_id: source.id, source_url: url, final_url: response.final_url, content_type: response.content_type, etag: response.etag, last_modified: response.last_modified, xml_sha256: xmlDigest, bytes: response.bytes.length, converter_version: VERSION };
+      let converted = convertXml(xmlText, source, observed, at), fallbackHtml = false;
       if (!converted) {
-        const xmlMeta = metadata(parseXml(response.bytes.toString('utf8')));
+        const xmlMeta = metadata(parseXml(xmlText));
         const year = new URL(source.eli).pathname.split('/').at(-2), number = new URL(source.eli).pathname.split('/').at(-1);
         if (xmlMeta.year !== year || String(Number(xmlMeta.number)) !== String(Number(number))) throw Error(`official PDF metadata identity mismatch for ${source.id}`);
         if (source.expected_document_id && xmlMeta.document_id !== source.expected_document_id) throw Error(`DocumentId mismatch for ${source.id}: ${xmlMeta.document_id}`);
@@ -290,7 +397,7 @@ if (mode === '--ack') {
         const expectedTitles = [source.title, ...(source.search_names || [])].map(norm);
         if (xmlMeta.title && !expectedTitles.some(k => norm(xmlMeta.title) === k || norm(xmlMeta.title).startsWith(k) || k.startsWith(norm(xmlMeta.title)))) throw Error(`official title mismatch for ${source.id}: ${xmlMeta.title}`);
         Object.assign(observed, xmlMeta);
-        converted = await convertOfficialHtml(source, xmlMeta, xmlDigest, at);
+        converted = await convertOfficialHtml(source, xmlMeta, xmlDigest);
         Object.assign(observed, { html_sha256: converted.metadata.html_sha256, rendered_document_id: xmlMeta.unique_document_id, rendered_accession: xmlMeta.accession });
         fallbackHtml = true;
       }
