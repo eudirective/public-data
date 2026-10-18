@@ -1,0 +1,640 @@
+{
+  "manifest_version": "0.1.0-candidate",
+  "pack": "croatia-national-source-candidates",
+  "jurisdiction": "HR",
+  "inventory_research_date": "2026-10-18",
+  "scope": "Official Croatian source discovery for EEA/Swiss free movement and third-country family members, residence, visas, administrative procedure, evidence, remedies, privacy, oversight, legal aid, and courts.",
+  "status": "discovery_only",
+  "retrieval_status": "no_croatia_runtime_rule_implemented",
+  "accepted_source_count": 0,
+  "candidate_source_count": 41,
+  "official_hosts": [
+    "azop.hr",
+    "e-predmet.pravosudje.hr",
+    "mup.gov.hr",
+    "mvep.gov.hr",
+    "n-lex.europa.eu",
+    "narodne-novine.nn.hr",
+    "odluke.sudovi.hr",
+    "pristupinfo.hr",
+    "www.ombudsman.hr"
+  ],
+  "secondary_hosts": [],
+  "documents": [
+    {
+      "id": "hr-nlex",
+      "title": "N-Lex Croatia",
+      "source_type": "discovery_catalog",
+      "language": "en",
+      "url": "https://n-lex.europa.eu/n-lex/legis_hr/nn_hr_form",
+      "publisher_identifier": {
+        "system": "n-lex.europa.eu",
+        "record": "hr-nlex"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official EU catalogue inspected; links to the Croatian central catalogue",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Search portal HTML"
+    },
+    {
+      "id": "hr-nn-data-access",
+      "title": "Narodne novine data access",
+      "source_type": "publisher_access_documentation",
+      "language": "hr-en",
+      "url": "https://narodne-novine.nn.hr/data_access.aspx",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-nn-data-access"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Publisher says anonymous/free access, stable URLs, HTML/PDF, sitemap and metadata; site terms reserve copyright",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Documentation HTML"
+    },
+    {
+      "id": "hr-nn-api",
+      "title": "Narodne novine API",
+      "source_type": "official_api_documentation",
+      "language": "hr-en",
+      "url": "https://narodne-novine.nn.hr/nn_api.aspx",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-nn-api"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "API docs specify metadata only, published ELI editions, JSON-LD/RDF/XML, max 3 requests/sec; no registration stated",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "API documentation"
+    },
+    {
+      "id": "hr-eea-act",
+      "title": "EEA citizens and family members Act, NN 66/19",
+      "source_type": "national_act",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_07_66_1288.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-eea-act"
+      },
+      "functional_relationship": "close_functional_match",
+      "verification_status": "Official text inspected; covers EEA entry/residence/work, extends citizen provisions to Swiss nationals, and has special Croatian-national family scope",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML"
+    },
+    {
+      "id": "hr-eea-act-amend-53-20",
+      "title": "Amendment NN 53/20",
+      "source_type": "amending_act",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_04_53_1060.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-eea-act-amend-53-20"
+      },
+      "functional_relationship": "close_functional_match",
+      "verification_status": "MUP index lists it; official Gazette record opened",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML"
+    },
+    {
+      "id": "hr-eea-act-amend-144-20",
+      "title": "Amendments NN 144/20",
+      "source_type": "amending_act",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_144_2767.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-eea-act-amend-144-20"
+      },
+      "functional_relationship": "close_functional_match",
+      "verification_status": "MUP index lists it; official Gazette record opened",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML"
+    },
+    {
+      "id": "hr-eea-act-amend-114-22",
+      "title": "Amendment NN 114/22",
+      "source_type": "amending_act",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_10_114_1696.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-eea-act-amend-114-22"
+      },
+      "functional_relationship": "close_functional_match",
+      "verification_status": "MUP index lists it; official Gazette record opened",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML"
+    },
+    {
+      "id": "hr-eea-reg",
+      "title": "EEA entry/residence regulation, NN 107/20",
+      "source_type": "implementing_regulation",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_10_107_2009.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-eea-reg"
+      },
+      "functional_relationship": "close_functional_match",
+      "verification_status": "Official text inspected; MUP lists amendments through NN 155/22",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML and PDF"
+    },
+    {
+      "id": "hr-eea-reg-amend-148-20",
+      "title": "Amendment NN 148/20",
+      "source_type": "amending_regulation",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_148_2905.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-eea-reg-amend-148-20"
+      },
+      "functional_relationship": "close_functional_match",
+      "verification_status": "Official amendment record opened from MUP index",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML"
+    },
+    {
+      "id": "hr-eea-reg-amend-86-21",
+      "title": "Amendment NN 86/21",
+      "source_type": "amending_regulation",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2021_07_86_1596.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-eea-reg-amend-86-21"
+      },
+      "functional_relationship": "close_functional_match",
+      "verification_status": "Official amendment record opened from MUP index",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML"
+    },
+    {
+      "id": "hr-eea-reg-amend-155-22",
+      "title": "Amendment NN 155/22",
+      "source_type": "amending_regulation",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_155_2448.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-eea-reg-amend-155-22"
+      },
+      "functional_relationship": "close_functional_match",
+      "verification_status": "Official amendment record opened from MUP index",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML"
+    },
+    {
+      "id": "hr-mup-propis-index",
+      "title": "MUP foreign-national legislation index",
+      "source_type": "official_legislation_index",
+      "language": "hr",
+      "url": "https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/propisi-652/652",
+      "publisher_identifier": {
+        "system": "mup.gov.hr",
+        "record": "hr-mup-propis-index"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "Current official page inspected; records EEA and third-country amendment chains through 2026",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Dynamic HTML"
+    },
+    {
+      "id": "hr-mup-eea-guidance",
+      "title": "MUP EEA/Swiss residence guidance",
+      "source_type": "official_guidance",
+      "language": "hr",
+      "url": "https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/boravak-i-rad-drzavljana-drzava-clanica-egp-a-i-clanova-njihovih-obitelji/282191",
+      "publisher_identifier": {
+        "system": "mup.gov.hr",
+        "record": "hr-mup-eea-guidance"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "Official page inspected; updated 2025-10-09; explains evidence and family categories",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Dynamic HTML"
+    },
+    {
+      "id": "hr-form-1b",
+      "title": "Form 1b",
+      "source_type": "official_form",
+      "language": "hr",
+      "url": "https://mup.gov.hr/UserDocsImages//dokumenti/stranci/2021//OBRAZAC%201B-Prijava%20privremenog%20boravka%20za%20drz%CC%8Cavljane%20drz%CC%8Cave%20c%CC%8Clanice%20EGP-a.pdf",
+      "publisher_identifier": {
+        "system": "mup.gov.hr",
+        "record": "hr-form-1b"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "Official PDF linked from current guide; 3 pages; revision date not established",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Static URL under 2021 directory"
+    },
+    {
+      "id": "hr-form-2b",
+      "title": "Form 2b",
+      "source_type": "official_form",
+      "language": "hr",
+      "url": "https://mup.gov.hr/UserDocsImages//dokumenti/stranci/2021//OBRAZAC%202B-Zahtjev%20za%20izdavanje%20boravis%CC%8Cne%20iskaznice%20za%20c%CC%8Clana%20obitelji%20drz%CC%8Cavljana%20drz%CC%8Cave%20c%CC%8Clanice%20EGP-a%20koji%20nije%20drz%CC%8Cavljanin%20drz%CC%8Cave%20c%CC%8Clanice%20EGP-a.pdf",
+      "publisher_identifier": {
+        "system": "mup.gov.hr",
+        "record": "hr-form-2b"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "Official PDF linked from current guide; 3 pages; revision date not established",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Static URL under 2021 directory"
+    },
+    {
+      "id": "hr-form-3b",
+      "title": "Form 3b",
+      "source_type": "official_form",
+      "language": "hr",
+      "url": "https://mup.gov.hr/UserDocsImages//dokumenti/stranci/2021//OBRAZAC%203B-Prijava%20stalnog%20boravka%20za%20drz%CC%8Cavljana%20drz%CC%8Cave%20c%CC%8Clanice%20EGP-a%20i%20c%CC%8Clana%20njegove%20obitelji.pdf",
+      "publisher_identifier": {
+        "system": "mup.gov.hr",
+        "record": "hr-form-3b"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "Official PDF linked from current guide; 3 pages; revision date not established",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Static URL under 2021 directory"
+    },
+    {
+      "id": "hr-form-6b",
+      "title": "Form 6b",
+      "source_type": "official_form",
+      "language": "hr",
+      "url": "https://mup.gov.hr/UserDocsImages//dokumenti/stranci/2021//OBRAZAC%206B-%20Prijava%20i%20odjava%20boravis%CC%8Cta%20i%20prebivalis%CC%8Cta%2C%20prijava%20promjene%20adrese%20za%20drz%CC%8Cavljane%20EGP-a.pdf",
+      "publisher_identifier": {
+        "system": "mup.gov.hr",
+        "record": "hr-form-6b"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "Official 2-page PDF; redirects to a comma-encoded URL; revision date not established",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Static URL under 2021 directory"
+    },
+    {
+      "id": "hr-foreigners-amend-55-26",
+      "title": "Foreigners Act amendment NN 55/26",
+      "source_type": "amending_act",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_05_55_692.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-foreigners-amend-55-26"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official text inspected; MUP index lists base Act and amendments through 55/26",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML"
+    },
+    {
+      "id": "hr-third-country-residence-rule",
+      "title": "Amendment to third-country residence regulation NN 43/26",
+      "source_type": "amending_regulation",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_04_43_511.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-third-country-residence-rule"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official amendment opened from current MUP index; modifies NN 20/22 and 155/22",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML"
+    },
+    {
+      "id": "hr-third-country-procedure-rule",
+      "title": "Amendment to third-country procedure regulation NN 116/26",
+      "source_type": "amending_regulation",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_10_116_1388.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-third-country-procedure-rule"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official amendment opened from current MUP index; MUP lists prior versions NN 136/21, 145/23, 102/25",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML"
+    },
+    {
+      "id": "hr-visa-ordinance",
+      "title": "Visa Ordinance NN 109/21",
+      "source_type": "visa_regulation",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_109_1919.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-visa-ordinance"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "Official full text inspected; defines visa procedures at missions, borders, and police; amendment status beyond bounded search remains open",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML"
+    },
+    {
+      "id": "hr-mvep-visa-regulations",
+      "title": "MVEP visa regulations index",
+      "source_type": "official_regulations_index",
+      "language": "hr",
+      "url": "https://mvep.gov.hr/konzularne-informacije-259677/vize-264600/propisi-264587/264587",
+      "publisher_identifier": {
+        "system": "mvep.gov.hr",
+        "record": "hr-mvep-visa-regulations"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "Official parent page opened",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Dynamic HTML"
+    },
+    {
+      "id": "hr-mvep-visa-application",
+      "title": "MVEP Schengen visa application procedure",
+      "source_type": "official_guidance",
+      "language": "en",
+      "url": "https://mvep.gov.hr/services-consular-portal/consular-information-22802/visas-22807/issuance-procedure/applying-for-a-schengen-visa-for-croatia/262010?big=0",
+      "publisher_identifier": {
+        "system": "mvep.gov.hr",
+        "record": "hr-mvep-visa-application"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "Official English page inspected; online completion plus in-person/printed submission route",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Dynamic HTML and changing provider links"
+    },
+    {
+      "id": "hr-mvep-visa-overview",
+      "title": "MVEP visa overview",
+      "source_type": "official_guidance",
+      "language": "en",
+      "url": "https://mvep.gov.hr/visas-180450/visa-requirements-overview-180451/180451?big=1",
+      "publisher_identifier": {
+        "system": "mvep.gov.hr",
+        "record": "hr-mvep-visa-overview"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "Official page confirms Croatia applies Schengen acquis from 2023-01-01",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Dynamic HTML"
+    },
+    {
+      "id": "hr-mvep-family-visas",
+      "title": "MVEP family members of EEA or Swiss citizens",
+      "source_type": "official_guidance",
+      "language": "en",
+      "url": "https://mvep.gov.hr/consular-information-130483/visas-180450/family-members-of-citizens-of-the-eea-or-switzerland/180456",
+      "publisher_identifier": {
+        "system": "mvep.gov.hr",
+        "record": "hr-mvep-family-visas"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "Official family-specific page inspected; identifies card-based visa exemption and priority/expedited processing, with Pretoria-specific appointment text",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Dynamic HTML"
+    },
+    {
+      "id": "hr-mvep-missions",
+      "title": "MVEP mission directory",
+      "source_type": "official_directory",
+      "language": "hr",
+      "url": "https://mvep.gov.hr/diplomatske-misije-i-konzularni-uredi/veleposlanstva-rh-u-svijetu/22966",
+      "publisher_identifier": {
+        "system": "mvep.gov.hr",
+        "record": "hr-mvep-missions"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official directory identified; mission sample found, complete provider coverage not checked",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Dynamic directory and mission pages"
+    },
+    {
+      "id": "hr-mvep-stale-faq",
+      "title": "MVEP legacy FAQ",
+      "source_type": "stale_official_guidance_lead",
+      "language": "en",
+      "url": "https://mvep.gov.hr/page/161375?big=0",
+      "publisher_identifier": {
+        "system": "mvep.gov.hr",
+        "record": "hr-mvep-stale-faq"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official page inspected; says Croatia is not in Schengen, contrary to current MVEP overview",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Exclude from operative rules"
+    },
+    {
+      "id": "hr-general-admin-act",
+      "title": "General Administrative Procedure Act NN 47/09",
+      "source_type": "general_procedure_act",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2009_04_47_1065.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-general-admin-act"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official full text inspected; general procedures and evidence; amendment NN 110/21 is separately listed",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML"
+    },
+    {
+      "id": "hr-general-admin-amend",
+      "title": "Amendment NN 110/21",
+      "source_type": "amending_act",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_110_1930.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-general-admin-amend"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official amendment opened",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML"
+    },
+    {
+      "id": "hr-admin-disputes-act",
+      "title": "Administrative Disputes Act NN 36/24",
+      "source_type": "administrative_remedies_act",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_03_36_564.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-admin-disputes-act"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official full text inspected; took effect 2024-07-01",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML"
+    },
+    {
+      "id": "hr-ombudsman-act",
+      "title": "Ombudsman Act NN 76/12",
+      "source_type": "oversight_act",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2012_07_76_1761.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-ombudsman-act"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official act record identified; current consolidated status not verified",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML"
+    },
+    {
+      "id": "hr-ombudsman-complaints",
+      "title": "Ombudsman complaint process",
+      "source_type": "oversight_complaint_guidance",
+      "language": "hr",
+      "url": "https://www.ombudsman.hr/en/kako-podnijeti-prituzbu/",
+      "publisher_identifier": {
+        "system": "www.ombudsman.hr",
+        "record": "hr-ombudsman-complaints"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official process page inspected; this route does not replace appeal deadlines",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Dynamic HTML/forms"
+    },
+    {
+      "id": "hr-access-info-act",
+      "title": "Access to Information Act NN 25/13",
+      "source_type": "access_to_information_act",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/full/2013_02_25_403.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-access-info-act"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official text inspected; later amendments NN 85/15 and 69/22 cited by official materials",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML"
+    },
+    {
+      "id": "hr-access-info-commissioner",
+      "title": "Information Commissioner user guide",
+      "source_type": "access_to_information_guidance",
+      "language": "en",
+      "url": "https://pristupinfo.hr/pristup-informacijama-za-korisnike/?lang=en",
+      "publisher_identifier": {
+        "system": "pristupinfo.hr",
+        "record": "hr-access-info-commissioner"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official Commissioner page inspected; outlines access and appeal process",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Dynamic HTML"
+    },
+    {
+      "id": "hr-personal-data-act",
+      "title": "AZOP national-legislation index",
+      "source_type": "data_protection_act",
+      "language": "en-hr",
+      "url": "https://azop.hr/national-legislation/",
+      "publisher_identifier": {
+        "system": "azop.hr",
+        "record": "hr-personal-data-act"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official supervisory-authority page inspected; use Gazette for authoritative current text",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Dynamic HTML index"
+    },
+    {
+      "id": "hr-azop-vis-sis",
+      "title": "AZOP VIS/SIS rights guidance",
+      "source_type": "data_protection_guidance",
+      "language": "en",
+      "url": "https://azop.hr/processing-of-personal-data-in-the-schengen-information-system-sis-and-the-visa-information-system-vis-2/",
+      "publisher_identifier": {
+        "system": "azop.hr",
+        "record": "hr-azop-vis-sis"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "Official regulator page inspected; distinguishes VIS and SIS controller paths",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Dynamic HTML"
+    },
+    {
+      "id": "hr-azop-complaint",
+      "title": "AZOP complaint form route",
+      "source_type": "data_protection_complaint",
+      "language": "hr",
+      "url": "https://azop.hr/zahtjev-za-utvrdivanje-povrede-prava/",
+      "publisher_identifier": {
+        "system": "azop.hr",
+        "record": "hr-azop-complaint"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official procedure page identified; form requires personal data and attachments",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Public form definition only"
+    },
+    {
+      "id": "hr-court-decisions",
+      "title": "Croatian court decisions search",
+      "source_type": "court_decision_repository",
+      "language": "hr",
+      "url": "https://odluke.sudovi.hr/",
+      "publisher_identifier": {
+        "system": "odluke.sudovi.hr",
+        "record": "hr-court-decisions"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official judicial search inspected; substantial anonymized corpus; complete coverage not established",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Dynamic search portal"
+    },
+    {
+      "id": "hr-e-predmet",
+      "title": "e-Predmet case-status service",
+      "source_type": "court_case_status_service",
+      "language": "hr",
+      "url": "https://e-predmet.pravosudje.hr/",
+      "publisher_identifier": {
+        "system": "e-predmet.pravosudje.hr",
+        "record": "hr-e-predmet"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official court service identified; status lookup, not a published decision corpus",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Dynamic interactive service"
+    },
+    {
+      "id": "hr-legal-aid-act",
+      "title": "Free Legal Aid Act NN 143/13",
+      "source_type": "legal_aid_act",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_12_143_3064.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-legal-aid-act"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official text inspected; MUP index does not list this Act; official amendment NN 98/19 is separately recorded",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML"
+    },
+    {
+      "id": "hr-legal-aid-amend-98-19",
+      "title": "Amendment to Free Legal Aid Act NN 98/19",
+      "source_type": "amending_act",
+      "language": "hr",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/full/2019_10_98_1920.html",
+      "publisher_identifier": {
+        "system": "narodne-novine.nn.hr",
+        "record": "hr-legal-aid-amend-98-19"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official amendment text inspected; currentness still requires checking whether later amendments exist",
+      "retrieval_status": "discovery_only_rule_not_implemented",
+      "retrieval_shape": "Stable ELI/HTML"
+    }
+  ]
+}
