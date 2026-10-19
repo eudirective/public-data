@@ -10,6 +10,11 @@ const output = path.join(ROOT, 'references/manifest.json');
 const text = await readFile(input, 'utf8');
 const sectionRows = [...text.matchAll(/^## (\d+)\. (.+)$/gm)];
 const sourceRows = [];
+const documentClassFor = sourceType => ({
+  national_legislation: 'legislation',
+  court_decision: 'case_law',
+  official_guidance: 'guidance',
+})[sourceType] || null;
 const norm = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
 for (let si = 0; si < sectionRows.length; si++) {
@@ -37,9 +42,12 @@ for (let si = 0; si < sectionRows.length; si++) {
       const source_quality = number === 10 ? url.hostname === 'www.scj.ro' || url.hostname === 'legislatie.just.ro' ? 'official_text' : url.hostname === 'apjgalati.ro' ? 'court_authored_digest' : 'reproduced_judgment' : null;
       const id = portalId ? `ro-portal-${portalId}` : portalFormKey ? `ro-portal-form-${portalFormKey.toLowerCase()}` : scjRecordId ? `ro-scj-${scjRecordId}` : `ro-${norm(url.hostname)}-${norm(url.pathname || 'home') || 'home'}`;
       const description = detail.replace(/\s+[—–]\s+/g, ' — ').replace(/[.;:]$/, '');
+      const document_class = documentClassFor(source_type);
       sourceRows.push({
         id, title: bold || label, description, section_number: number, section_title: section,
         source_type, language: 'ro', url: url.href, retrieval_format: documentedPortalWsdl ? 'soap_wsdl' : 'html', portal_document_id: portalId, portal_form_key: portalFormKey, scj_record_id: scjRecordId,
+        document_class,
+        document_path: !monitor_only && document_class ? `documents/${document_class}/${id}.md` : null,
         citation_hint: bold || null, monitor_only,
         search_title: bold || null,
         source_quality,

@@ -8,7 +8,7 @@ import { atomicProjectWrite, projectTempPath } from '../../../runtime-storage.mj
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const WORK = projectTempPath(path.join(ROOT, 'work'));
-const CORE = path.join(ROOT, 'core');
+const DOCUMENTS = path.join(ROOT, 'documents');
 const MANIFEST_PATH = path.join(ROOT, 'references/manifest.json');
 const VERSION = '0.2.1';
 const PORTAL = 'legislatie.just.ro';
@@ -16,6 +16,13 @@ const OFFICIAL_HTTP_WSDL = 'http://portalquery.just.ro/query.asmx?WSDL';
 const NOW = () => new Date().toISOString().replace(/\.\d{3}Z$/, 'Z');
 const sha = b => createHash('sha256').update(b).digest('hex');
 const safe = s => s.toLowerCase().replace(/[^a-z0-9._-]+/g, '-').replace(/^-|-$/g, '');
+function acceptedPath(source) {
+  if (!source.document_class || !source.document_path) throw Error(`missing reviewed-document path for ${source.id}`);
+  const destination = path.resolve(ROOT, source.document_path);
+  if (!destination.startsWith(DOCUMENTS + path.sep)) throw Error(`reviewed-document path escapes documents/: ${source.document_path}`);
+  if (path.basename(destination) !== `${safe(source.id)}.md`) throw Error(`reviewed-document filename does not match source ID: ${source.id}`);
+  return destination;
+}
 const unescapeHtml = s => String(s).replace(/&(#x[\da-f]+|#\d+|amp|lt|gt|quot|apos|nbsp|ndash|mdash|rsquo|lsquo|rdquo|ldquo|sect|copy|hellip);/gi, (whole, ent) => {
   if (ent[0] === '#') { const n = ent[1].toLowerCase() === 'x' ? parseInt(ent.slice(2), 16) : Number(ent.slice(1)); return Number.isInteger(n) && n > 0 && n <= 0x10ffff ? String.fromCodePoint(n) : whole; }
   return ({ amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', ndash: '–', mdash: '—', rsquo: '’', lsquo: '‘', rdquo: '”', ldquo: '“', sect: '§', copy: '©', hellip: '…' })[ent.toLowerCase()] || whole;
@@ -221,7 +228,8 @@ if (mode === '--search-check') {
   console.log(JSON.stringify({ search_url: result.request_url, results: result.rows.length, result_total: result.total, response_sha256: sha(result.bytes) }, null, 2));
 } else if (mode === '--ack') {
   const source = manifest.documents.find(x => x.id === ackId); if (!source || source.monitor_only) throw Error('--ack requires a known converted source ID');
-  const candidate = path.join(WORK, 'candidates', `${safe(ackId)}.md`), dest = path.join(CORE, `${source.source_type}/${safe(ackId)}.md`);
+  const candidate = path.join(WORK, 'candidates', `${safe(ackId)}.md`), dest = acceptedPath(source);
+  await mkdir(path.dirname(dest), { recursive: true });
   await atomic(dest, await readFile(candidate));
   const state = await json(statePath, { version: 1, sources: {}, search_hits: {} }); state.sources[ackId] ||= {}; state.sources[ackId].accepted_markdown_sha256 = sha(await readFile(dest)); state.sources[ackId].accepted_at = NOW();
   await atomic(statePath, JSON.stringify(state, null, 2) + '\n'); await rm(candidate); console.log(JSON.stringify({ accepted: ackId, path: dest }, null, 2));
@@ -237,14 +245,15 @@ if (mode === '--search-check') {
   }
   for(const item of converted){
     const source=manifest.documents.find(x=>x.id===item.source_id);
-    const candidate=path.join(WORK,'candidates',`${safe(source.id)}.md`),dest=path.join(CORE,`${source.source_type}/${safe(source.id)}.md`);
+    const candidate=path.join(WORK,'candidates',`${safe(source.id)}.md`),dest=acceptedPath(source);
+    await mkdir(path.dirname(dest),{recursive:true});
     await atomic(dest,await readFile(candidate));
     if(sha(await readFile(dest))!==item.markdown_sha256)throw Error(`Accepted document hash mismatch: ${source.id}`);
     state.sources[source.id]||={};state.sources[source.id].accepted_markdown_sha256=item.markdown_sha256;state.sources[source.id].accepted_at=NOW();
   }
   await atomic(statePath,JSON.stringify(state,null,2)+'\n');
   for (const item of converted) await rm(path.join(WORK, 'candidates', `${safe(item.source_id)}.md`), { force: true });
-  console.log(JSON.stringify({accepted:converted.length,documents:CORE},null,2));
+  console.log(JSON.stringify({accepted:converted.length,documents:DOCUMENTS},null,2));
 } else {
   const previous = await json(statePath, { version: 1, sources: {}, search_hits: {} }), checkedAt = NOW();
   const observations = [], failures = [], candidates = [], staged = [], rawDir = path.join(WORK, 'raw');
@@ -264,8 +273,8 @@ if (mode === '--search-check') {
       const markdown = fragment ? candidateMarkdown(source, pageTitle, language, body) : null, markdownHash = markdown ? sha(Buffer.from(markdown, 'utf8')) : null;
       let stageMarkdown = false;
       if (mode === '--sync' && markdown) {
-        const acceptedPath = path.join(CORE, source.source_type, `${safe(source.id)}.md`);
-        try { stageMarkdown = sha(await readFile(acceptedPath)) !== markdownHash; }
+        const acceptedFile = acceptedPath(source);
+        try { stageMarkdown = sha(await readFile(acceptedFile)) !== markdownHash; }
         catch { stageMarkdown = true; }
       }
       const old = previous.sources[source.id] || {}, change = !old.source_sha256 ? 'first_observation' : old.body_sha256 !== bodyHash ? 'legal_content_changed' : old.markdown_sha256 !== markdownHash ? 'conversion_changed' : old.source_sha256 !== sourceHash ? 'official_page_changed' : 'unchanged';
