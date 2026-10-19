@@ -1,11 +1,11 @@
 # Croatia source-route sustainability assessment
 
-Status date: 18 October 2026  
-State: discovery-only candidates; zero accepted sources; no Croatian retrieval/conversion rule implemented.
+Status date: 19 October 2026  
+State: 41 candidates; 40 exact source responses converted and replay-verified with the shared bounded HTTPS rule; one interactive search surface had no stable body; zero accepted sources. No Croatian source-specific currentness adapter is implemented.
 
 ## Assessment boundary
 
-The source-rule sustainability rubric applies to implemented acquisition rules. Croatia currently has no such rules, so this report assigns no rule verdict. The findings below assess proposed publisher routes and identify evidence still needed before implementation.
+The generic acquisition and conversion rule has been exercised, but it does not itself prove Croatian legal currentness, amendment completeness, or a right to reproduce copyrighted content. The register remains unaccepted. A source-specific sustainability verdict is therefore limited to retrieval/replay, not legal-source coverage.
 
 ## Strongest proposed route: Narodne novine
 
@@ -13,7 +13,7 @@ The official publisher documents anonymous, free access to published documents a
 
 The API is explicitly metadata-only, works for published editions with ELI metadata, excludes public-advertisement editions, and documents a maximum of three requests per second. No registration requirement is stated. Full text should be retrieved from the ELI HTML/PDF representations, not assumed to come from this API. The site’s terms state that published content is copyright-protected and may be used only under applicable law. Before any mirroring, storage, conversion, or republication, obtain a documented legal basis and define retention/access limits.
 
-**Current route status:** discovery and metadata sustainability look promising; full-text retrieval, licensing basis, response validation, deterministic conversion, replay fixtures, and a runtime smoke check remain unimplemented. No rule verdict.
+**Observed route status:** 40 official candidate responses were converted and replayed. Stable ELI HTML/PDF availability and the metadata API remain useful, but the generic rule did not use the API metadata to validate each legal identifier or edition. Copyright terms still require a documented reuse basis. Retrieval/replay is **partially demonstrated**; currentness and legal reuse are unresolved.
 
 ## Croatian free-movement legislation
 
@@ -47,5 +47,5 @@ The Ombudsman, Information Commissioner, AZOP, and judiciary each own distinct w
 - Run a live read-only smoke check separately from conversion testing; confirm no sensitive application or complaint submissions are fetched.
 - Complete current-version checks for general procedure, remedies, oversight, data protection, legal aid, and the visa instruments.
 
-Until these items are complete, Croatia remains discovery only. No source-rule verdict is assigned.
+The shared rule has demonstrated reproducible retrieval/conversion for 40 candidate pages. Croatia is still a review-candidate pack: the current EEA consolidation is not reconstructed, amendment chains need completeness review, legal reuse terms are unresolved, and the interactive e-Predmet page remains textless. No source is accepted.
 

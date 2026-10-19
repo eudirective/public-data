@@ -6,6 +6,10 @@
 **Languages:** Croatian official sources; English official guidance where available.  
 **Scope:** legislation and guidance for free movement and third-country family members, visas, forms, general procedure, evidence, administrative remedies, privacy, oversight, legal aid, and courts. A candidate is not accepted and does not establish legal equivalence.
 
+## Capture outcome (2026-10-19)
+
+The shared bounded HTTPS rule attempted all 41 candidates. Forty exact responses converted and replayed offline; `hr-e-predmet` returned an application/search surface without a stable text body. No source was accepted. This confirms retrievability for the recorded responses, not currentness of every amendment chain or permission to reuse copyrighted Gazette text. Details are in [`croatia-capture-results.json`](croatia-capture-results.json).
+
 ## Candidate register
 
 | ID | Candidate and relationship to comparison baseline | Verification and version evidence | Retrieval shape and next step |

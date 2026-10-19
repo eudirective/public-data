@@ -4,7 +4,11 @@ Skill: author-source-pack-rules v1.0.1
 
 **Scope:** bounded discovery across Greek Gazette/legal publication; EU/EEA/Swiss and UK residence; visas and mission practice; civil status/family evidence; administrative procedure and access; courts, complaints, privacy, oversight, legal aid and selected regional administration. Greece is an EU Member State. EEA EFTA, Swiss, UK Withdrawal Agreement and Greek-national family routes remain distinct. This is not a complete-source claim or legal-equivalence opinion.
 
-**Inventory:** 56 candidates; 0 accepted; no source bytes saved locally or converted; no Greece retrieval/conversion rule. Candidate relationship, verification status and rule status are separate fields in the [candidate manifest](candidate-manifest.json).
+**Inventory/capture:** 56 candidates; 40 candidate texts converted and replay-verified on 19 October 2026; 16 retrieval failures (14 HTTP 403 and 2 TLS certificate errors); 0 accepted. Capture details: `greece-capture-results.json`. Candidate relationship, verification status and rule status are separate fields in the [candidate manifest](candidate-manifest.json).
+
+## Capture outcome (2026-10-19)
+
+The shared capture rule saved and converted 40 of 56 candidate URLs; 16 requests failed (14 HTTP 403 and 2 TLS validation errors). Offline replay passed for the converted candidates. The National Printing House search-site terms restrict copying/conversion absent permission; therefore these remain unaccepted review captures, and this work does not establish a right to mirror or redistribute them. The two locator URLs for PD 106/2007 returned the same PDF bytes. Pypdf emitted a missing-fontTools warning for an embedded CFF Type1 barcode font in that PDF; a sample review shows readable Greek body text, but extraction quality has not been reviewed across all documents.
 
 | Candidate ID | Official source | Source class | Relationship to Danish EU-residence seed | Verification status | Rule status |
 |---|---|---|---|---|---|
