@@ -1,6 +1,6 @@
 # EU source retrieval library
 
-The reusable national-pack layout is documented in [the country-pack template](templates/country-pack/LAYOUT.md). The latest structural inventory is in [the folder audit](references/library-folder-audit-2026-10-19.md); the 27 newer candidate inventories now have country-level core coverage notices, but their official EU-language mirrors are still unpopulated and require language-by-language review.
+The reusable national-pack layout is documented in [the country-pack template](templates/country-pack/LAYOUT.md). The latest structural inventory is in [the folder audit](references/library-folder-audit-2026-10-19.md). The shared English EU corpus serves every pack; country-level `core/` folders are kept only when they contain actual official EU-language files. Ireland and Malta use that shared corpus for English instead of duplicating English files.
 
 This local library is a derived retrieval workspace. Its expanded core inventory is `core-source-pack-manifest-0.7.0.json` (69 logical records / 70 English representations); the historical skill bundle remains at 0.6.0 and the protected project `sources/` mirror is unchanged.
 

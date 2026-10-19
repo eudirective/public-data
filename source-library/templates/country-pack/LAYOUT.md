@@ -1,18 +1,9 @@
 # Country source-pack template
 
-Use this layout for a national source pack. Keep the shared EU source mirror, accepted national material, and unaccepted candidates in separate locations.
+Use this layout for a national source pack. Keep any country-specific EU-language files, accepted national material, and unaccepted candidates in separate locations.
 
 ```text
 <country>/
-├── core/                         # Shared EU sources in official language versions
-│   ├── README.md                 # Language coverage; unavailable versions stay explicit
-│   ├── eu/
-│   ├── case_law/
-│   │   ├── notes/
-│   │   └── full_text/
-│   └── guidance/
-│       ├── notes/
-│       └── handbooks/
 ├── documents/                    # Reviewed national sources only
 │   ├── legislation/
 │   ├── guidance/
@@ -38,10 +29,25 @@ Use this layout for a national source pack. Keep the shared EU source mirror, ac
 └── SKILL.md                      # Only when an operational skill uses this pack
 ```
 
+An EU-language mirror is optional. Add `<country>/core/` only when it contains actual official EU-publisher files in a language-specific representation:
+
+```text
+<country>/core/
+├── README.md                     # Describes the files actually present
+├── eu/
+├── case_law/
+│   ├── notes/
+│   └── full_text/
+└── guidance/
+    ├── notes/
+    └── handbooks/
+```
+
 ## Placement rules
 
-- The library-level `source-library/core/` is the canonical English EU corpus. A country's `core/` contains only official EU language representations for that pack's language coverage. It never contains that country's national legislation, guidance, or decisions.
-- List each country language and its actual coverage in `core/README.md`. Do not create translations. When EUR-Lex or another official EU publisher does not supply a language version, record it as unavailable and refer to the shared canonical source.
+- The library-level `source-library/core/` is the canonical English EU corpus and is available to every country pack. Do not duplicate its English files in country folders.
+- Create a country's optional `core/` only alongside actual, retrieved official EU-publisher representations in another language. Its `README.md` describes those files. Do not create empty `core/` folders, coverage-only README stubs, or placeholder folders for unavailable translations.
+- English is an official language in Ireland and Malta, and the shared English corpus already serves their English-language EU material; neither needs country-specific English files. Add Irish or Maltese representations only if the plugin needs them and actual official files are available. For other countries, add only language-specific EU representations that are actually held in the library. A country `core/` never contains that country's national legislation, guidance, or decisions.
 - `documents/` is for national material that has passed the pack's documented source review. Use the source-type folders; do not mix sources by discovery pass or retrieval method.
 - `candidates/` contains unaccepted captures and conversions. Organize it by source type. Put catalogues, search surfaces, and textless portals under `discovery/`. Do not create parallel `monitor-candidates/` trees.
 - `references/candidate-manifest.json` is the canonical inventory. The source list is its human-readable counterpart. Keep retrieval evidence, legal-currentness review, scope, and sustainability findings distinct.

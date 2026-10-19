@@ -2,16 +2,16 @@
 
 Audit date: 19 October 2026
 
-Branch reviewed: `codex/repair-source-library-folders-20261019`
+Branch reviewed: `codex/remove-empty-core-stubs-20261019` (based on `main` at `5122881`)
 Scope: every directory in the complete `source-library/` tree, including the 31 EU/EEA/Swiss jurisdiction folders, their nested folders, shared EU core, existing national packs, helper material, and new candidate inventories. This is a structural audit; source acceptance and legal-currentness review are recorded separately.
 
 The reusable pack layout is specified in [`templates/country-pack/LAYOUT.md`](../templates/country-pack/LAYOUT.md).
 
 ## Findings
 
-1. **The 27 newer candidate inventories now have country-level `core/README.md` coverage notices, but no local EU-language representations.** The canonical English EU corpus remains `source-library/core/`; the notices make clear that language coverage is unassessed and do not claim translations. Only Denmark, Hungary, Romania, and Sweden currently contain country-level EU-language mirror files. Icelandic and Norwegian translations must not be invented; their language coverage needs an explicit publisher-based assessment.
+1. **Country-level EU-language cores are content-driven, not mandatory empty folders.** The canonical English EU corpus is `source-library/core/` and serves every pack, so English files are not duplicated. Only Denmark, Hungary, Romania, and Sweden currently have country-level EU-language files. Ireland and Malta use the shared English corpus; do not create country-specific English files for them. Irish or Maltese files belong in a country core only if the plugin needs them and official files are actually retrieved. Other localized files likewise require actual content before a country `core/` is created.
 2. **Romania's core/documents boundary is now corrected.** Its national legislation, court decisions, and authority material have moved to class-specific `documents/` folders; only Romanian EU-language representations remain in `core/`. The pack now has top-level and subfolder READMEs, and its manifests and retrieval scripts record and use the new document paths. Denmark, Hungary, and Sweden still use distinct national-document taxonomies.
-3. **The 27 newer inventories remain candidate registers, not complete runnable national packs.** All have a `README.md`, `references/`, a machine-readable inventory, and now a core coverage notice, but none has reviewed national `documents/`. Their national text captures remain candidates. Only Czechia has an operational country skill among these 27; the other folders are inventory/research packs.
+3. **The 27 newer inventories remain candidate registers, not complete runnable national packs.** All have a `README.md`, `references/`, and a machine-readable inventory, but none has reviewed national `documents/`. Their national text captures remain candidates. Only Czechia has an operational country skill among these 27; the other folders are inventory/research packs.
 4. **Candidate organization varies.** Candidate files are generally flat within `candidates/`. Czechia now uses typed folders and has merged its discovery captures into that tree. Belgium, Estonia, Finland, Italy, the Netherlands, Portugal, and Spain still use a separate `monitor-candidates/` tree. This splits materials by the pass that found them rather than by source class. The target template puts all unaccepted materials in `candidates/<source-class>/`, with discovery-only surfaces in `candidates/discovery/`.
 5. **Pack metadata has gaps.** Portugal, Romania, Spain, and Sweden lack a file named `sustainability-assessment.md`. Denmark still lacks a top-level `README.md`. Finland and Estonia use `source-catalog.json` as an inventory artifact rather than a file named `source-list.md`; the target template standardizes the machine-readable manifest and its human-readable view.
 6. **Scripts and work files are inconsistently placed.** Pack-specific scripts remain at the country root in Austria, Estonia, Finland, Germany, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, the Netherlands, Norway, Poland, Slovakia, Spain, Sweden, and Switzerland; Denmark, Hungary, Romania, and Czechia now have `scripts/` directories. Czechia's 94 committed `work/` files have been moved: 43 review conversions now live in typed `candidates/` folders, and raw publisher responses plus run state live under project `temp/`. Other packs still need a pass to distinguish reusable reference artifacts from operational captures.
@@ -33,37 +33,37 @@ The reusable pack layout is specified in [`templates/country-pack/LAYOUT.md`](..
 
 | Jurisdiction | Current folders | Template status |
 |---|---|---|
-| Austria | `core/`, `candidates/`, `references/` | Candidate-only; language coverage notice, mirror pending |
-| Belgium | `core/`, `candidates/`, `monitor-candidates/`, `references/` | Candidate-only; language notice; duplicate candidate lane |
-| Bulgaria | `core/`, `candidates/`, `references/` | Candidate-only; language coverage notice, mirror pending |
-| Croatia | `core/`, `candidates/`, `references/` | Candidate-only; language coverage notice, mirror pending |
-| Cyprus | `core/`, `candidates/`, `references/` | Candidate-only; language coverage notice, mirror pending |
-| Czechia | `core/`, `candidates/`, `references/`, `scripts/` | Candidate-only; language notice; typed candidate folders; raw captures in project temp |
+| Austria | `candidates/`, `references/` | Candidate-only; no country-level EU-language files |
+| Belgium | `candidates/`, `monitor-candidates/`, `references/` | Candidate-only; duplicate candidate lane |
+| Bulgaria | `candidates/`, `references/` | Candidate-only; no country-level EU-language files |
+| Croatia | `candidates/`, `references/` | Candidate-only; no country-level EU-language files |
+| Cyprus | `candidates/`, `references/` | Candidate-only; no country-level EU-language files |
+| Czechia | `candidates/`, `references/`, `scripts/` | Candidate-only; typed candidate folders; raw captures in project temp |
 | Denmark | `core/`, `documents/`, `references/`, `scripts/`, `evaluations/` | Established pack; missing top-level README |
-| Estonia | `core/`, `candidates/`, `monitor-candidates/`, `references/` | Candidate-only; language notice, duplicate lane; root scripts |
-| Finland | `core/`, `candidates/`, `monitor-candidates/`, `references/` | Candidate-only; language notice, duplicate lane; root scripts |
-| France | `core/`, `candidates/`, `references/` | Candidate-only; language coverage notice, mirror pending |
-| Germany | `core/`, `candidates/`, `references/` | Candidate-only; language notice; root sync script |
-| Greece | `core/`, `candidates/`, `references/` | Candidate-only; language coverage notice, mirror pending |
+| Estonia | `candidates/`, `monitor-candidates/`, `references/` | Candidate-only; duplicate lane; root scripts |
+| Finland | `candidates/`, `monitor-candidates/`, `references/` | Candidate-only; duplicate lane; root scripts |
+| France | `candidates/`, `references/` | Candidate-only; no country-level EU-language files |
+| Germany | `candidates/`, `references/` | Candidate-only; root sync script |
+| Greece | `candidates/`, `references/` | Candidate-only; no country-level EU-language files |
 | Hungary | `core/`, `documents/`, `references/`, `scripts/` | Established pack; closest match to the target boundary |
-| Iceland | `core/`, `candidates/`, `references/` | Candidate-only; language coverage notice, mirror pending |
-| Ireland | `core/`, `candidates/`, `references/` | Candidate-only; language notice; root sync script |
-| Italy | `core/`, `candidates/`, `monitor-candidates/`, `references/` | Candidate-only; language notice, duplicate lane; root sync script |
-| Latvia | `core/`, `candidates/`, `references/` | Candidate-only; language notice; root sync script |
-| Liechtenstein | `core/`, `candidates/`, `references/` | Candidate-only; language notice; root sync script |
-| Lithuania | `core/`, `candidates/`, `references/` | Candidate-only; language notice; root sync script |
-| Luxembourg | `core/`, `candidates/`, `references/` | Candidate-only; language notice; root sync script |
-| Malta | `core/`, `candidates/`, `references/` | Candidate-only; language notice; root sync script |
-| Netherlands | `core/`, `candidates/`, `monitor-candidates/`, `references/` | Candidate-only; language notice, duplicate lane; root sync script |
-| Norway | `core/`, `candidates/`, `references/` | Candidate-only; language notice; root sync script |
-| Poland | `core/`, `candidates/`, `references/` | Candidate-only; language notice; root sync script |
-| Portugal | `core/`, `candidates/`, `monitor-candidates/`, `references/` | Candidate-only; language notice, duplicate lane; missing sustainability assessment; no root scripts |
+| Iceland | `candidates/`, `references/` | Candidate-only; no country-level EU-language files |
+| Ireland | `candidates/`, `references/` | Candidate-only; English covered by shared core; no duplicate English files |
+| Italy | `candidates/`, `monitor-candidates/`, `references/` | Candidate-only; duplicate lane; root sync script |
+| Latvia | `candidates/`, `references/` | Candidate-only; root sync script |
+| Liechtenstein | `candidates/`, `references/` | Candidate-only; root sync script |
+| Lithuania | `candidates/`, `references/` | Candidate-only; root sync script |
+| Luxembourg | `candidates/`, `references/` | Candidate-only; no country-level EU-language files |
+| Malta | `candidates/`, `references/` | Candidate-only; English covered by shared core; no duplicate English files |
+| Netherlands | `candidates/`, `monitor-candidates/`, `references/` | Candidate-only; duplicate lane; root sync script |
+| Norway | `candidates/`, `references/` | Candidate-only; root sync script |
+| Poland | `candidates/`, `references/` | Candidate-only; root sync script |
+| Portugal | `candidates/`, `monitor-candidates/`, `references/` | Candidate-only; duplicate lane; missing sustainability assessment; no root scripts |
 | Romania | `core/`, `documents/`, `references/`, `scripts/` | Boundary corrected; national files in documents; missing sustainability assessment |
-| Slovakia | `core/`, `candidates/`, `references/` | Candidate-only; language notice; root sync script |
-| Slovenia | `core/`, `candidates/`, `references/` | Candidate-only; language coverage notice, mirror pending |
-| Spain | `core/`, `candidates/`, `monitor-candidates/`, `references/` | Candidate-only; language notice, duplicate lane; missing sustainability assessment; root sync script |
+| Slovakia | `candidates/`, `references/` | Candidate-only; root sync script |
+| Slovenia | `candidates/`, `references/` | Candidate-only; no country-level EU-language files |
+| Spain | `candidates/`, `monitor-candidates/`, `references/` | Candidate-only; duplicate lane; missing sustainability assessment; root sync script |
 | Sweden | `core/`, `documents/`, `references/` | Established pack; missing sustainability assessment; maintenance scripts at pack root |
-| Switzerland | `core/`, `candidates/`, `references/` | Candidate-only; language notice; root sync script |
+| Switzerland | `candidates/`, `references/` | Candidate-only; root sync script |
 
 ## Other library-level folders
 
@@ -77,7 +77,7 @@ The reusable pack layout is specified in [`templates/country-pack/LAYOUT.md`](..
 ## Recommended remediation order
 
 1. Keep this template as the source-pack layout authority.
-2. Populate the 27 core coverage notices with verified language-by-language findings, then add official language mirrors only where official versions can be retrieved and verified.
+2. Keep country-level `core/` folders only when they contain actual official EU-language files; rely on the shared English corpus and do not add empty folders or coverage-only stubs. Ireland and Malta need no duplicate English files.
 3. Create `documents/` only as national records pass review; keep current records under categorized `candidates/` until then.
 4. Normalize the seven remaining `monitor-candidates/` trees into typed candidate folders and move remaining pack-root scripts into `scripts/`; Czechia's work-tree exception has been resolved.
 5. Add missing pack READMEs and sustainability assessments, then reconcile source-list naming and manifest schema.
