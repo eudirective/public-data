@@ -25,9 +25,9 @@ The reusable pack layout is specified in [`templates/country-pack/LAYOUT.md`](..
 - **Denmark:** `core/` follows the shared EU-language split. `documents/{guidance,national}/` is too broad and `national/` does not distinguish source types. `evaluations/fixtures/` is a pack-specific test/evaluation area outside the reusable source layout; keep it only with a documented purpose.
 - **Hungary:** `core/` follows the shared EU-language split. `documents/laws/` is divided by legal topic, while `documents/oif/` is divided by authority function; this is useful detail but mixes subject and source-type taxonomies. Map each subfolder to a source class before any cleanup, preserving the Hungarian pack's fine-grained organization where useful.
 - **Romania:** the former `core/national_legislation/`, `core/court_decision/`, `core/official_guidance/`, and Romanian files in `core/guidance/` have been moved to `documents/{legislation,case_law,guidance,forms,procedure}/`. The two EU complaint notes remain under `core/guidance/notes/`; the Romanian EU files remain in `core/eu/` and `core/case_law/`. `core/README.md`, `documents/README.md`, and the pack README now document the boundary.
-- **Sweden:** `documents/{amendments,case-law,guidance,migrfs,statutes}/` mixes document form, source type, and publisher-specific naming. `module-notes/source-notes/` is a separate module-support branch, and `references/certs/` holds auxiliary validation material. Preserve those purposes but document them; normalize only the national source folders against the shared type taxonomy.
+- **Sweden:** `documents/{amendments,case-law,guidance,migrfs,statutes}/` mixes document form, source type, and publisher-specific naming. `references/certs/` holds auxiliary validation material. Normalize only the national source folders against the shared type taxonomy.
 - **Czechia:** `scripts/` now holds both source-specific updaters. All 43 candidate conversions are filed under `candidates/{legislation,guidance,forms,discovery}/`; 62 committed raw responses and the guidance state/report have moved to project temp. The JSON manifests retain stable IDs and pack-relative `work/raw/` references, resolved by the updater into temp storage.
-- **Support and historical material:** `eudirective-core-work/eudirective-core/scripts/` is shared maintenance code; `turkiye/module-notes/source-notes/` is applicant-country module support; `visa-code-handbook-i-2020/accepted/` is a historical edition archive; `references/` at the library root holds cross-country reports; `templates/` now holds the reusable pack layout. `__pycache__/` is generated cache and is ignored by Git.
+- **Support and historical material:** `eudirective-core-work/eudirective-core/scripts/` is shared maintenance code; `visa-code-handbook-i-2020/accepted/` is a historical edition archive; `references/` at the library root holds cross-country reports; `templates/` now holds the reusable pack layout. `__pycache__/` is generated cache and is ignored by Git.
 
 ## Jurisdiction inventory
 
@@ -71,8 +71,11 @@ The reusable pack layout is specified in [`templates/country-pack/LAYOUT.md`](..
 - `references/` holds library-wide expansion, comparison, and inventory reports.
 - `eudirective-core-work/` holds the shared maintenance helper referenced by the core-language workflows; it is support code rather than source content.
 - `visa-code-handbook-i-2020/` is a separately labeled historical handbook set, not a current country pack.
-- `turkiye/` contains applicant-country module notes, not an EU/EEA member-state source pack.
 - `__pycache__/` is generated Python cache and is ignored by Git.
+
+## Adjacent repository support
+
+- [`../../module-notes/`](../../module-notes/README.md) holds Sweden- and Türkiye-module research summaries outside `source-library/`. They are not source corpus records and have no retained source bytes, hashes, or automated retrieval/conversion rules.
 
 ## Recommended remediation order
 
