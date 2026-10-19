@@ -7,7 +7,7 @@
     "retrieval": "Use only the official URLs and hosts in the manifest. Make ordinary public HTTPS requests to one record at a time. Do not use RIS OGD/API, registration, parallel requests, authentication, browser challenge bypass, or undocumented bulk exports. If OGD is introduced later, first follow the current RIS OGD FAQ notice, timing, rate, and attribution requirements.",
     "change_handling": "Keep the last reviewed/accepted source unchanged. Any new bytes or changed publisher identity create a candidate for human review. A retrieval failure, redirect outside an allowlisted official host, missing identity marker, or unexpected media type is a failed observation; it does not replace the prior candidate.",
     "reuse": "Check the publisher terms recorded for each source before redistribution. RIS OGD data attribution is CC BY 4.0 when that route is used; these rules currently use the public RIS web application and linked attachments.",
-    "cadence": "Check legislation and linked attachments at least quarterly and before reliance; check volatile guidance and directories monthly; run case-law discovery monthly when that coverage is required. These are manual maintenance intervals, not a scheduled job."
+    "cadence": "The GitHub Actions Austria source monitor checks the fixed manifest monthly and can be run manually. It stages changed captures and derived candidates for human review; it does not update accepted/current candidates. Broad case-law discovery, mission-page discovery, and Land-practice discovery remain manual until explicitly automated."
   },
   "rules": [
     {
@@ -95,7 +95,7 @@
           "manual-page-review-v1"
         ]
       },
-      "sustainability": "Conditionally sustainable for these exact records. Search coverage remains incomplete because RIS court collections differ in coverage and the Austria-specific query set is not established."
+      "sustainability": "The monitor checks the five exact records monthly and stages changed pages for review. The Austria-specific query families and cross-court filters are documented in coverage-register.md, but result discovery and screening across BVwG, VwGH and all nine LVwG collections remain manual."
     },
     {
       "id": "official-guidance-page-v1",
@@ -122,10 +122,11 @@
           "Stage changed text for review; do not auto-accept."
         ],
         "rule_ids": [
-          "manual-page-review-v1"
+          "manual-page-review-v1",
+          "scheduled-main-region-review-v1"
         ]
       },
-      "sustainability": "Conditionally sustainable with monthly manual review and a human main-content check. The current body-based conversions are not reliable enough for automatic replay."
+      "sustainability": "The monitor checks fixed manifest pages monthly and stages changed pages for review. Human review of main text, linked forms and authority routes remains required; mission-level discovery is outside the fixed manifest."
     },
     {
       "id": "official-oversight-page-v1",
@@ -149,7 +150,8 @@
           "Record linked forms and submission routes."
         ],
         "rule_ids": [
-          "manual-page-review-v1"
+          "manual-page-review-v1",
+          "scheduled-main-region-review-v1"
         ]
       },
       "sustainability": "Manual and conditional. Page links and forms can change independently; holder-specific jurisdiction coverage is open."
@@ -170,7 +172,8 @@
       },
       "conversion": {
         "rule_ids": [
-          "discovery-index-review-v1"
+          "discovery-index-review-v1",
+          "scheduled-main-region-review-v1"
         ],
         "selector": "Human-reviewed headings and target links; current body extraction is not a verified main-content rule.",
         "validation": [
@@ -201,10 +204,11 @@
           "Follow each mission link before reporting local requirements."
         ],
         "rule_ids": [
-          "discovery-index-review-v1"
+          "discovery-index-review-v1",
+          "scheduled-filtered-body-review-v1"
         ]
       },
-      "sustainability": "Suitable as a monthly discovery signal, but it cannot stand in for mission-specific instructions."
+      "sustainability": "The fixed BMEIA directory page is checked monthly for change and identity, and changed captures are staged for review. Following the current directory entries to mission-specific pages remains a separate location-dependent discovery task."
     },
     {
       "id": "ris-annex-pdf-v1",
@@ -296,5 +300,25 @@
       "last_checked": "2026-10-19",
       "use": "Find or re-resolve the Austrian official legal database and EUR-Lex transposition/case-law entry points. Do not cite N-Lex as the publisher of Austrian law."
     }
-  ]
+  ],
+  "monitor": {
+    "script": "source-library/austria/sync_austria_sources.py",
+    "workflow": ".github/workflows/austria-source-monitor.yml",
+    "schedule_utc": "37 3 1 * *",
+    "scope": "Only the fixed records in references/candidate-manifest.json; no broad RIS search, mission-page discovery, or Land-practice discovery.",
+    "change_output": "Changed raw captures and derived review candidates are staged under source-library/austria/pending-updates/ and proposed through a pull request. The workflow never accepts or overwrites candidate content.",
+    "network": "Ordinary serial HTTPS GETs to manifest allowlisted official hosts; no RIS OGD/API, authentication, challenge bypass, or parallel retrieval.",
+    "activation": "The workflow must be merged to the repository default branch. Repository Actions settings must allow GITHUB_TOKEN to create pull requests.",
+    "selectors": {
+      "at-guidance-family-card": "main",
+      "at-guidance-family-index": "main",
+      "at-dsb-complaint": "main",
+      "at-volksanwaltschaft-complaint": "main#page-main-content",
+      "at-bmeia-visa": "main#content",
+      "at-bmeia-settlement-residence": "main#content",
+      "at-guidance-visa-application": "main",
+      "at-bmeia-representation-directory": "filtered body fallback; human review remains mandatory",
+      "at-lvwg-wien-2022-6086": "div.contentBlock"
+    }
+  }
 }
