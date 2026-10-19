@@ -1,5 +1,7 @@
 # Portugal source inventory (2026-10-16)
 
+**Status (19 October 2026):** the 7-record scoped set has one converted AIMA guidance candidate and six exact Diário da República responses that are all 2,346-byte OutSystems application shells with no legal text. The separate 60-record monitor pass saved 46 responses, converted/replayed 19 pages, found 27 textless shells, and had 14 failures. Nothing is accepted. These are bounded discovery and capture results, not proof of complete Portuguese legal coverage.
+
 **Scope:** candidates from the reviewed national acquisition register; pending source identity, version and completeness review.
 
 | Priority / evidence | Candidate | Official source | Taxonomy | Scope note |

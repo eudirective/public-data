@@ -1,9 +1,19 @@
 # Bulgaria source discovery register
 
-Research date: 18 October 2026  
+Research date: 18 October 2026; capture pass: 19 October 2026  
 Scope: official national sources relating to EU/EEA/Swiss family mobility, entry and residence, visas, administrative procedure, review, privacy, and oversight. Bulgaria is an EU Member State; each national route was checked independently. The comparison leads were the Denmark, Sweden, Czechia, Hungary, and Romania source reviews.
 
-This is a bounded discovery register, not an accepted source pack or a complete inventory of Bulgarian law. It contains 35 candidates and 0 accepted sources. Candidate presence does not establish legal equivalence, currentness, or completeness. The machine-readable records are in `candidate-manifest.json`.
+This is a bounded candidate register, not an accepted source pack or a complete inventory of Bulgarian law. It contains 35 candidates and 0 accepted sources. On 2026-10-19, the shared capture rule converted 24 texts and recorded 11 failures or blocks. Candidate presence does not establish legal equivalence, currentness, or completeness. The machine-readable records are in `candidate-manifest.json`; the exact per-candidate capture ledger is `bulgaria-capture-results.json`.
+
+
+## Capture outcome (2026-10-19)
+
+| Result | Candidate IDs | Outcome |
+|---|---|---|
+| Converted and replay-verified | 24 candidates | Exact public responses and derived text are retained as unaccepted review candidates.
+| Ministry MFA redirected to bot validation | `bg-mfa-visa-hub`, `bg-mfa-visa-form`, `bg-mfa-missions`, `bg-dubai-eu-family` | Redirects pointed to `validate.perfdrive.com`; no challenge was followed or bypassed.
+| TLS certificate validation failed | `bg-apc`, `bg-ombudsman-act`, `bg-personal-data-act`, `bg-data-complaints`, `bg-legal-aid-act` | No certificate bypass or alternate unverified transport was used.
+| Other publisher errors | `bg-pris-visa-ordinance` (HTTP 500), `bg-access-info` (HTTP 404) | Retained as per-candidate failures; no candidate accepted.
 
 ## Candidate register
 
