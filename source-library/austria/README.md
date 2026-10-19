@@ -1,14 +1,19 @@
-# Austria national-source candidates
+# Austria national source pack
 
-The 37-record Austria register covers NAG free-movement sections and authority/venue rules, Swiss eligibility, NAG-DV Annex E/F, IFG access and DSB oversight, general remedies, sample administrative-court decisions, central BMEIA visa/residence guidance, visa-application guidance, and BMEIA's representation directory. Thirty-five texts now have unaccepted review-candidate conversions; the two official Annex E/F PDF payloads are linked from RIS but their bytes are not captured. Nothing is accepted, and no Austria action is exposed by the monitor MCP. Mission-specific instructions and broad court-search coverage remain open.
+**Status (19 October 2026):** all 37 declared records have an official response captured; 35 are Markdown review candidates and two are native PDF review candidates. Zero sources are accepted.
 
-The saved RIS HTML responses contain the operative text inside `div.contentBlock`. [`convert_ris_capture.py`](convert_ris_capture.py) converts the exact saved responses offline, checks source and output hashes, and replays its own 26 conversions. The other nine existing page outputs are hash-checked by this verifier. This is a conversion rule, not a recurring retrieval/sync rule; the selector is publisher-specific and undocumented, so treat it as fragile until RIS provides a stable documented format for these texts. Raw responses remain under the ignored repository `temp/austria/raw/` path.
+This is a bounded discovery pack for Austrian free-movement and family-member residence, visa and consular routes, administrative procedure, file access, remedies, public-information access, and selected administrative-court decisions. It records N-Lex as a discovery route to RIS and EUR-Lex, not as an authoritative publisher. It is not an exhaustive inventory of Austrian law or local administrative practice.
 
-Run `python3 convert_ris_capture.py convert` to convert any remaining saved RIS responses and `python3 convert_ris_capture.py verify` for offline hash/replay checks. These commands do not fetch from RIS.
+- Candidate inventory: [manifest](references/candidate-manifest.json)
+- Retrieval evidence: [capture ledger](references/capture-ledger.json)
+- Per-source retrieval and conversion rules: [source rules](references/source-rules.json)
+- Human-readable inventory and discovery log: [source list](references/source-list.md)
+- Sustainability findings and open coverage gaps: [assessment](references/sustainability-assessment.md)
+- German-language EU and CJEU references: [Austria shared-core index](references/shared-core.json), pointing to the canonical [German source index](../shared-core-index-DE.json)
+- Offline RIS converter: [scripts/convert_ris_capture.py](scripts/convert_ris_capture.py)
 
-- Candidate register and search log: [`references/source-list.md`](references/source-list.md)
-- Candidate metadata: [`references/candidate-manifest.json`](references/candidate-manifest.json)
-- Source-rule assessment: [`references/sustainability-assessment.md`](references/sustainability-assessment.md)
-- Country sequence and coverage state: [`../references/eea-switzerland-country-expansion.md`](../references/eea-switzerland-country-expansion.md)
+Austria has no country-local `core/` directory. Shared German material is referenced once through the library-level index; the entries currently link to official publishers and are not locally mirrored. Individual EUR-Lex German-language availability remains unverified for most records.
 
-The initial comparison seed is Denmark's EU-residence regulation. Austria's national law and guidance are recorded by function and scope; no legal equivalence is asserted.
+The converter works only with saved captures. It does not fetch from RIS, does not accept sources, and does not certify legal currentness. The source rules specify manual review intervals; there is no scheduled Austria sync job. Candidate changes must remain staged for human review. Keep the last reviewed source unchanged when retrieval, identity checks, or conversion fail.
+
+The two NAG-DV Annex E/F forms are retained in their native PDF format under `candidates/forms/`. Their visual/form content is not represented as text-only Markdown.

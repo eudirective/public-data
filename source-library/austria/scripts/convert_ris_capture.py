@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Convert saved Austrian RIS section HTML from its publisher text container.
+"""Convert or verify saved Austrian RIS section HTML from its publisher text container.
 
 This helper is deliberately offline. It consumes only the exact HTML responses
-listed in references/austria-capture-results.json, verifies their SHA-256, and
-does not make network requests or promote sources to the trusted corpus.
+listed in references/capture-ledger.json, verifies their SHA-256, and does not
+make network requests or promote sources to the trusted corpus.
 """
 
 from __future__ import annotations
@@ -15,12 +15,11 @@ import re
 import sys
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urljoin
 
 
-PACK_DIR = Path(__file__).resolve().parent
+PACK_DIR = Path(__file__).resolve().parents[1]
 MANIFEST_PATH = PACK_DIR / "references" / "candidate-manifest.json"
-CAPTURE_PATH = PACK_DIR / "references" / "austria-capture-results.json"
+CAPTURE_PATH = PACK_DIR / "references" / "capture-ledger.json"
 RULE_VERSION = "ris-contentblock-v1"
 VOID_TAGS = {
     "area", "base", "br", "col", "embed", "hr", "img", "input", "link",
@@ -151,8 +150,17 @@ def render_candidate(record: dict, capture: dict, text: str) -> bytes:
 
 
 def candidate_output_path(record: dict) -> Path:
+    existing = record.get("candidate_text_path")
+    if existing:
+        return resolve_repo_path(existing)
     safe_id = re.sub(r"[^a-z0-9-]+", "-", record["id"].lower()).strip("-")
-    return PACK_DIR / "candidates" / f"{safe_id}.md"
+    folder = {
+        "national_legislation": "legislation",
+        "official_case_law": "case_law",
+        "official_guidance": "guidance",
+        "official_guidance_directory": "discovery",
+    }.get(record.get("source_type"), "discovery")
+    return PACK_DIR / "candidates" / folder / f"{safe_id}.md"
 
 
 def sync_records() -> tuple[dict, dict]:
@@ -171,11 +179,12 @@ def convert() -> int:
     manifest, capture_ledger = sync_records()
     manifest_records = {r["id"]: r for r in manifest["documents"]}
     converted = 0
-    annexes = 0
+    pending = 0
 
     for capture in capture_ledger["records"]:
-        if capture.get("retrieval_status") != "discovery_surface_no_text":
+        if capture.get("retrieval_status") != "pending_conversion":
             continue
+        pending += 1
         record = manifest_records[capture["candidate_id"]]
         raw_path = resolve_repo_path(capture["raw_path"])
         raw = raw_path.read_bytes()
@@ -184,21 +193,6 @@ def convert() -> int:
             raise ValueError(f"Raw hash mismatch for {record['id']}: {actual_hash}")
 
         text, links = extract_text(raw)
-        if record["id"] in {"at-nag-dv-anl-5", "at-nag-dv-anl-6"}:
-            pdf_links = [urljoin(capture.get("resolved_url") or record["url"], href) for href in links if href.lower().split("?", 1)[0].endswith(".pdf")]
-            if len(pdf_links) != 2:
-                raise ValueError(f"Expected two official PDFs for {record['id']}, found {pdf_links}")
-            target = pdf_links[1]
-            capture["linked_pdf_url"] = target
-            capture["retrieval_status"] = "official_pdf_linked_not_captured"
-            capture["retrieval_note"] = f"RIS page identifies the current annex and links its PDF at {target}; PDF bytes were not captured in this run."
-            record["linked_pdf_url"] = target
-            record["retrieval_status"] = "official_pdf_linked_not_captured"
-            record["retrieval_note"] = capture["retrieval_note"]
-            record["retrieved"] = True
-            annexes += 1
-            continue
-
         if not text or len(text) < 200:
             raise ValueError(f"RIS text container is empty or unexpectedly short for {record['id']}: {len(text)} characters")
 
@@ -235,18 +229,19 @@ def convert() -> int:
         record.pop("retrieval_note", None)
         converted += 1
 
-    manifest["retrieved_review_candidate_count"] = sum(bool(r.get("retrieved")) for r in manifest["documents"])
-    manifest["converted_review_candidate_count"] = sum(r.get("retrieval_status") == "converted_review_candidate" for r in manifest["documents"])
-    manifest["retrieval_status"] = (
-        f"{manifest['converted_review_candidate_count']} review-candidate conversions; "
-        f"{annexes} linked annex PDFs not captured; 0 accepted"
-    )
-    capture_ledger["conversion_rule"] = RULE_VERSION
-    capture_ledger["converted_review_candidate_count"] = manifest["converted_review_candidate_count"]
-    capture_ledger["linked_pdf_not_captured_count"] = annexes
+    if pending:
+        manifest["retrieved_review_candidate_count"] = sum(bool(r.get("retrieved")) for r in manifest["documents"])
+        manifest["converted_review_candidate_count"] = sum(r.get("candidate_text_path") is not None for r in manifest["documents"])
+        manifest["native_pdf_review_candidate_count"] = sum(r.get("native_source_path") is not None for r in manifest["documents"])
+        manifest["retrieval_status"] = (
+            f"{manifest['converted_review_candidate_count']} Markdown review candidates; "
+            f"{manifest['native_pdf_review_candidate_count']} native PDF review candidates; 0 accepted"
+        )
+        capture_ledger["conversion_rule"] = RULE_VERSION
+        capture_ledger["converted_review_candidate_count"] = manifest["converted_review_candidate_count"]
     save_json(MANIFEST_PATH, manifest)
     save_json(CAPTURE_PATH, capture_ledger)
-    print(f"converted={converted} linked_pdfs_not_captured={annexes} accepted=0")
+    print(f"converted={converted} pending_conversion_records={pending} accepted=0")
     return 0
 
 
@@ -256,18 +251,28 @@ def verify() -> int:
     verified = 0
     for capture in capture_ledger["records"]:
         record = manifest_records[capture["candidate_id"]]
-        if capture.get("retrieval_status") == "official_pdf_linked_not_captured":
-            if not capture.get("linked_pdf_url") or record.get("linked_pdf_url") != capture.get("linked_pdf_url"):
-                raise ValueError(f"Linked annex URL missing or inconsistent for {record['id']}")
+        payload = capture.get("linked_payload")
+        if payload:
+            candidate_path = resolve_repo_path(payload["candidate_path"])
+            if not candidate_path.is_file():
+                raise ValueError(f"Native PDF candidate missing for {record['id']}: {candidate_path}")
+            candidate = candidate_path.read_bytes()
+            if not candidate.startswith(b"%PDF-") or digest(candidate) != payload.get("source_sha256"):
+                raise ValueError(f"Native PDF signature or hash mismatch for {record['id']}")
+            raw_path = resolve_repo_path(payload.get("raw_path", ""))
+            if raw_path.is_file() and digest(raw_path.read_bytes()) != payload.get("source_sha256"):
+                raise ValueError(f"Raw PDF response hash mismatch for {record['id']}")
+            verified += 1
             continue
         raw_path = resolve_repo_path(capture.get("raw_path", ""))
-        if not raw_path.is_file():
+        raw_present = raw_path.is_file()
+        if not raw_present:
             if capture.get("retrieval_status") == "retrieval_or_conversion_error":
                 continue
-            raise ValueError(f"Raw response missing for {record['id']}: {raw_path}")
-        raw = raw_path.read_bytes()
-        if digest(raw) != capture.get("source_sha256"):
-            raise ValueError(f"Raw response hash mismatch for {record['id']}")
+        else:
+            raw = raw_path.read_bytes()
+            if digest(raw) != capture.get("source_sha256"):
+                raise ValueError(f"Raw response hash mismatch for {record['id']}")
         if capture.get("retrieval_status") != "converted_review_candidate":
             continue
         output_path = resolve_repo_path(capture.get("candidate_text_path", ""))
@@ -276,13 +281,13 @@ def verify() -> int:
         output = output_path.read_bytes()
         if digest(output) != capture.get("converted_sha256"):
             raise ValueError(f"Converted candidate hash mismatch for {record['id']}")
-        if capture.get("conversion_rule_version") == RULE_VERSION:
+        if raw_present and capture.get("conversion_rule_version") == RULE_VERSION:
             text, _ = extract_text(raw)
             replay = render_candidate(record, capture, text)
             if replay != output:
                 raise ValueError(f"Offline replay mismatch for {record['id']}")
         verified += 1
-    print(f"verified_conversions={verified} linked_pdfs_not_captured={sum(r.get('retrieval_status') == 'official_pdf_linked_not_captured' for r in capture_ledger['records'])}")
+    print(f"verified_records={verified}")
     return 0
 
 

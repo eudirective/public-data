@@ -8,7 +8,7 @@ metadata:
 
 # <Jurisdiction> legal source system
 
-Use this workflow only for the scope recorded in `references/source-list.md`. The machine-readable source inventory is `references/candidate-manifest.json`.
+Use this workflow only for the scope recorded in `references/source-list.md`. The machine-readable source inventory is `references/candidate-manifest.json`; per-source retrieval and conversion rules are in `references/source-rules.json`.
 
 ## Retrieval and conversion
 
