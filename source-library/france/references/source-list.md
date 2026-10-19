@@ -6,6 +6,12 @@ Skill: author-source-pack-rules v1.0.1
 
 **Inventory:** 47 candidates; 0 accepted; no France retrieval/conversion rule. See [the machine-readable candidate manifest](candidate-manifest.json) and [sustainability assessment](sustainability-assessment.md).
 
+## Capture outcome (2026-10-19)
+
+The shared bounded rule converted and replay-verified 17 of 47 candidate pages. No legal statute text was captured: the seven direct CESEDA/Civil Code/administrative-code candidates and other Legifrance routes returned 403. The remaining 30 failures comprise 25 HTTP 403, 3 timeouts, 1 redirect to a non-allowlisted host, and 1 HTTP 404. The official DILA LEGI dataset catalogue and HTTPS directory were captured as discovery records, not as law text.
+
+The DILA dataset page states that full consolidated legal text is available under the Licence Ouverte/Open Licence, with HTTPS access; the directory lists a 1.1 GB `Freemium_legi_global` baseline and dated LEGI change archives. This looks like a registration-free route around the Legifrance API gate, but no targeted statute extraction, baseline/delta replay, or XML conversion has been proven yet.
+
 | Candidate ID | Official source | Functional relationship to the Danish EU-residence seed | Verification status | Rule status |
 |---|---|---|---|---|
 | fr-01-ceseda-book-ii-eu-citizens-and-family-members-(including-articles-l.233-1-o | [Code de l'entrée et du séjour des étrangers et du droit d'asile (CESEDA), Book II: EU citizens and family members](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070158/LEGISCTA000042800206/2026-05-01) | partial_functional_match | Official search result identifies current Book II section; exact current consolidated text and all linked effects not independently checked | discovery_only_rule_not_implemented |

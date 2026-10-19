@@ -1,56 +1,38 @@
-# Cyprus proposed-route sustainability assessment
+# Cyprus source-rule sustainability assessment
 
-Status date: 18 October 2026  
-State: discovery-only candidates; zero accepted sources; no Cyprus retrieval or conversion rule implemented.
+Assessment date: 19 October 2026  
+Pack state: 44 candidates; 5 source texts converted and replay-verified; 6 shell pages; 31 HTTP 403 responses; 2 HTTP 404 responses; 0 accepted.
 
 ## Assessment boundary
 
-The source-rule sustainability rubric applies to implemented acquisition rules. Cyprus has none, so this review assigns no rule verdict. It assesses whether the documented publisher routes could support a maintainable rule and what evidence is still required. Candidate records and attractive URLs do not themselves satisfy identity, retrieval, conversion, currentness, or legal-use requirements.
+The shared bounded HTTPS capture rule is implemented and replayable. It does not establish a complete Cyprus legal corpus, current consolidated versions, or authority to reuse the content. The low retrieval rate is a client-access limitation and must not be interpreted as proof that official pages or laws are unavailable. Search-index text is not treated as a full capture.
 
-## Official legislation route: Government Printing Office
+## Official publication routes
 
-The Government Printing Office Gazette is the primary national publication route identified. Its English interface says information is available in Greek only. The archive is a legacy dynamic page with query, expand, and paging parameters. This makes hard-coded issue-query URLs brittle, but a sustainable discovery method may be possible if a stable archive/issue route can be resolved and the publisher permits the intended access.
+The Government Printing Office’s main and archive pages respond with interactive shells. The official Gov.cy service says that users can search Gazette issues and annexes. Most direct Gazette, Ministry of Interior/Migration, MFA, Ombudsman, Information Commissioner, and Data Protection Authority routes returned HTTP 403. The rule did not try alternate headers, cookies, browser challenges, or other bypasses.
 
-No documented API, feed, or registration requirement was located in the bounded search. Do not assume a web page is an API or infer that automated retrieval is authorized. Before implementing a rule, confirm the canonical archive and issue routes, terms/access limits, pagination behavior, supported file formats, stable identifiers, and whether older issues remain addressable. Capture one issue and annex as official fixtures; validate publication date, issue/annex identity, Greek language, PDF/HTML type, redirects, and hashes.
+A reliable alternate exists for one historical source: the official [Government Gazette issue PDF](https://www.mof.gov.cy/mof/gpo/gazette.nsf/All/5ECD762847398688C2258728003A22A7/%24file/A.4110%209.2.2007%20P.%20I%20Meros%20I.pdf?OpenElement=) for original Law 7(I)/2007 was retrieved as a 2.5 MB PDF, converted, and replay-verified. It is the original promulgated law, not current consolidated wording. Its amendments remain separate texts and need a verified chain.
 
-## English consolidations and version history
+The official Office of the Law Commissioner’s index is discoverable through Gov.cy search results and advertises an English consolidation of the free-movement law covering 2007–2023. The index returned 403 and its previously indexed direct PDF URL returned 404 in this capture environment. The Law Commissioner’s access-to-information consolidation route also returned 404. Do not treat either missing download as proof the text no longer exists; rediscover the current official file URL from the publisher index once accessible.
 
-The Office of the Law Commissioner provides selected translations and consolidations. The located free-movement consolidation is titled for Laws 2007 to 2023; the Access to Information consolidation covers 2017 to 2018. These are useful navigation and interpretation aids, but have bounded amendment cut-offs and are not authentic legal texts. A monitor must rediscover them from the parent index, read displayed consolidation scope, and cross-check subsequent changes in the Gazette. A source that has not visibly changed may still be stale if a later amendment exists.
+Official search indexing also reveals current Gov.cy pages for residence cards, MEU1/MEU2 forms and related family guidance. Direct page retrieval and web-page opening returned 403 in this environment. Those search results help identify the authoritative routes but do not provide replayable exact response bytes. Keep those records pending rather than substituting snippets.
 
-The Migration Department's legislation index links to CyLaw consolidations and identifies them as unofficial. Those can assist discovery only. The official Gazette amendment chain remains necessary. The same applies to the CyLaw legal-aid text, whose amendment list includes 2024 acts and 2025 corrections but is not authoritative.
+## Conversion and candidate evidence
 
-## Migration guidance and forms
+Adding source-declared HTML encoding support enabled deterministic conversion of three legacy CyLaw pages declared as Windows-1253, plus an N-Lex candidate and a Supreme Court page; the changed N-Lex output is staged for review. The CyLaw records are discovery candidates and their publisher status must be distinguished from official Government Gazette publications. The one captured official law is the 2007 Gazette PDF. No text is accepted.
 
-Newer gov.cy Migration Department pages organize EU/EEA citizens, MEU1/MEU2/MEU3, extended family (MVIS8), family of Cypriot citizens, and Withdrawal Agreement cases on separate pages. Many forms are DOCX or PDF attachments reached through parent pages. A robust route should rediscover attachments from the official parent page on each refresh, then validate title, form number, language, file signature, revision clues, and final host; record a changed or missing attachment for review rather than silently following an old URL.
+The shared rule provides bounded downloads, official-host checks, TLS validation, exact response hashes, deterministic conversions, and offline replay. Its result is **fragile / low confidence** for Cyprus coverage because 31 routes still return 403, the core official portal pages are interactive, and source-specific legal identity/currentness validation is incomplete.
 
-The source pages often returned HTTP 403 to this research client while official search results remained visible. That is an access limitation of the review environment, not proof of public inaccessibility. Before implementation, validate the pages and files in an ordinary authorized client and record response status, headers, redirects, and size. If automated access is not consistently available, keep the route manual or discovery-only; do not introduce a proxy or registration workaround.
+## Sustainability actions
 
-A sustainable source taxonomy must retain separate legal scope for EU citizens, EEA EFTA nationals, Swiss nationals, non-EU/EEA family members, extended family, Cypriot citizens' family members, and UK Withdrawal Agreement beneficiaries. A generic “EU family” URL is not enough to establish legal coverage. Conflicting MEU1 deadline statements (including the four-month EURES wording) require checking against current law and forms before any rule operationalizes deadlines.
+1. Ask the Government Printing Office and Gov.cy/Migration Department for a stable public access route or machine-readable export for Gazette issues, current MEU guidance and forms. Do not infer an API or add automated access based on a search result.
+2. Reacquire the Law Commissioner index and its current 2007–2023 consolidated PDF from a valid official link; confirm the file version and identify every post-2023 amendment.
+3. Preserve original Gazette editions separately from consolidated text. Validate instrument number, issue date, amendments, language, and annexes before calling a text current.
+4. Keep retrieval on ordinary TLS-validated HTTPS. Do not bypass 403 responses or treat search-engine snippets as source bytes.
+5. For Ministry/MFA forms and guidance, establish parent-page link rediscovery and verify the linked file identity/version.
+6. Define judicial coverage by court, index, date range, publication limits and stable change signals; interactive case search alone is not a complete corpus.
+7. Review reuse rights before storing derived text for distribution; no general permission was established by this pass.
 
-## Visa, Schengen, and mission routes
+## Conclusion
 
-The MFA central page, visa application form, mission directory, and local mission pages are all changeable. An implementation should rediscover the central links, validate language, title, application form version, and destination mission, and treat external visa-provider links as separate endpoints with their own access/terms. Mission examples from Armenia and Athens demonstrate local variation but do not establish coverage across all posts.
-
-A serious unresolved content conflict exists: the MFA visa hub suggests certain EU-family residence-card holders may travel in Schengen, while a January 2026 Cyprus government PDF says Cyprus-issued residence documents do not yet exempt third-country holders from a Schengen visa. The national visa and Cyprus Schengen-integration status are time-sensitive. Do not create an operative travel or visa rule from either page until the precise card, sponsor, legal basis, and current EU source are reconciled.
-
-## Oversight, remedies, privacy, and courts
-
-The Ombudsman, Information Commissioner, Data Protection Commissioner, Law Office, and separate court bodies publish distinct procedures and decision/search routes. Guidance and forms may change independently from statutes. Keep public blank-form definitions and public procedure only. Never retrieve submitted complaints, identity records, visa applications, or case files.
-
-Court decision surfaces are split between Supreme Court and Supreme Constitutional Court routes and are query-driven. Current search pages do not establish complete coverage, reliable bulk retrieval, or a stable API. Any court monitor must name the court, date window, query, language, and known coverage.
-
-Access-to-information sources offer a plausible parent-index/FAQ route, but the English OLC consolidation ends in 2018 while official Commissioner pages are dynamic. The data-protection English PDF was located through the official commissioner, but amendment status remains unverified. The current Legal Aid Law amendment chain is visible only in a secondary CyLaw lead in this review; current official Gazette texts are still needed.
-
-## Sustainability decision gates before any rule
-
-- Confirm official publisher identity, canonical parent and document URLs, access terms, and any automation restrictions.
-- Identify stable source keys and version evidence for Gazette issues, amendments, consolidations, guidance, and forms. Do not treat a recent web-page timestamp as proof that its linked law is current.
-- Resolve whether public pages and attachments are retrievable without account/API registration. No API or registration requirement was documented in this bounded search; do not infer that none exists.
-- Define allowlisted hosts, redirect rules, status/media-type/size/language checks, attachment identity checks, hashes, and fail-closed behavior. A 403, login, CAPTCHA, or changed page shape should create a review item.
-- Preserve Greek source bytes and declare the conversion method. PDF text extraction may lose layout, tables, Greek diacritics, scanned pages, or annex structure; validate against page images and keep a human review step. DOCX conversion must preserve fields, tables, and bilingual labels.
-- Treat translated consolidations as dated convenience copies and reconstruct currentness through official Gazette amendments. Keep the Greek authoritative text and English translation linked but separate.
-- Build captured positive/negative fixtures and deterministic offline replay before acceptance; separately run a read-only live smoke check. Do not promote candidates during validation.
-- Resolve the Schengen/residence-card inconsistency and MEU1 deadline discrepancy before supporting operational answers.
-- Define strict exclusion of completed visa forms, complaints, identity documents, case files, and other personal submissions.
-
-Until these checks are completed, Cyprus remains discovery-only. No retrieval/conversion rule verdict is assigned.
+One official historical Gazette law is now captured and replay-verified, and four other candidate pages convert. The current official legal consolidation and most government guidance remain inaccessible through this capture client. The rule is operational but not sustainable for complete Cyprus coverage until the Government Printing Office and ministry routes provide stable retrievable documents and currentness can be validated. All candidates remain unaccepted.
