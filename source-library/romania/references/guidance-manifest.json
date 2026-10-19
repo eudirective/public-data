@@ -9,7 +9,9 @@
       "url": "https://eviza.mae.ro/ro_FAQ",
       "allowed_hosts": [
         "eviza.mae.ro"
-      ]
+      ],
+      "document_class": "guidance",
+      "document_path": "documents/guidance/ro-eviza-faq-ro.md"
     },
     {
       "id": "ro-eviza-faq-en",
@@ -17,7 +19,9 @@
       "url": "https://eviza.mae.ro/FAQ",
       "allowed_hosts": [
         "eviza.mae.ro"
-      ]
+      ],
+      "document_class": "guidance",
+      "document_path": "documents/guidance/ro-eviza-faq-en.md"
     },
     {
       "id": "ro-igi-information-request-form",
@@ -25,7 +29,9 @@
       "url": "https://igi.mai.gov.ro/formular-solicitare-informatii-publice/",
       "allowed_hosts": [
         "igi.mai.gov.ro"
-      ]
+      ],
+      "document_class": "forms",
+      "document_path": "documents/forms/ro-igi-information-request-form.md"
     },
     {
       "id": "ro-igi-information-request-procedure",
@@ -33,7 +39,9 @@
       "url": "https://igi.mai.gov.ro/solicitare-informatii-legislatie/",
       "allowed_hosts": [
         "igi.mai.gov.ro"
-      ]
+      ],
+      "document_class": "procedure",
+      "document_path": "documents/procedure/ro-igi-information-request-procedure.md"
     },
     {
       "id": "ro-igi-negative-information-response",
@@ -41,7 +49,9 @@
       "url": "https://igi.mai.gov.ro/formular-reclamatie-raspuns-negativ/",
       "allowed_hosts": [
         "igi.mai.gov.ro"
-      ]
+      ],
+      "document_class": "guidance",
+      "document_path": "documents/guidance/ro-igi-negative-information-response.md"
     },
     {
       "id": "ro-igi-petitions",
@@ -49,7 +59,9 @@
       "url": "https://igi.mai.gov.ro/formular-petitii/",
       "allowed_hosts": [
         "igi.mai.gov.ro"
-      ]
+      ],
+      "document_class": "guidance",
+      "document_path": "documents/guidance/ro-igi-petitions.md"
     },
     {
       "id": "ro-avp-petition",
@@ -57,7 +69,9 @@
       "url": "https://avp.ro/wp-content/uploads/2020/11/model-petitie.pdf",
       "allowed_hosts": [
         "avp.ro"
-      ]
+      ],
+      "document_class": "forms",
+      "document_path": "documents/forms/ro-avp-petition.md"
     },
     {
       "id": "ro-anspdcp-complaint-procedure",
@@ -65,7 +79,9 @@
       "url": "https://www.dataprotection.ro/servlet/ViewDocument?id=1517",
       "allowed_hosts": [
         "www.dataprotection.ro"
-      ]
+      ],
+      "document_class": "procedure",
+      "document_path": "documents/procedure/ro-anspdcp-complaint-procedure.md"
     },
     {
       "id": "ro-anspdcp-complaint-form",
@@ -73,7 +89,9 @@
       "url": "https://www.dataprotection.ro/admin/servlet/ViewDocument?id=1491",
       "allowed_hosts": [
         "www.dataprotection.ro"
-      ]
+      ],
+      "document_class": "forms",
+      "document_path": "documents/forms/ro-anspdcp-complaint-form.md"
     },
     {
       "id": "ro-igi-central-administration",
@@ -81,7 +99,9 @@
       "url": "https://igi.mai.gov.ro/aparat-central/",
       "allowed_hosts": [
         "igi.mai.gov.ro"
-      ]
+      ],
+      "document_class": "guidance",
+      "document_path": "documents/guidance/ro-igi-central-administration.md"
     }
   ]
 }
