@@ -1,5 +1,7 @@
 # EU source retrieval library
 
+The reusable national-pack layout is documented in [the country-pack template](templates/country-pack/LAYOUT.md). The latest structural inventory is in [the folder audit](references/library-folder-audit-2026-10-19.md); the 27 new jurisdiction folders are candidate inventories and do not yet have country-level core mirrors.
+
 This local library is a derived retrieval workspace. Its expanded core inventory is `core-source-pack-manifest-0.7.0.json` (69 logical records / 70 English representations); the historical skill bundle remains at 0.6.0 and the protected project `sources/` mirror is unchanged.
 
 This library stores current source and module material consumed by the plugin skills. The historical C1 compatibility fixture is kept separately in the `eudirective/skills` repository at `freemovement-law/skills/eudirective-core/tests/fixtures/core-source-pack-0.6.1/`; it is used only for synthetic replay, not as current legal content. `sweden/module-notes/source-notes/` and `turkiye/module-notes/source-notes/` hold hashed module summaries; they are not current legal texts. The eudirective skills resolve these files through their source-library path helpers. Current retrieval results belong in each installation's persistent plugin `data/` directory.
