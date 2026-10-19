@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "jurisdiction": "<ISO-3166-1-alpha-2>",
+  "updated": "YYYY-MM-DD",
+  "inventory_scope": "<defined scope>",
+  "entries": []
+}
