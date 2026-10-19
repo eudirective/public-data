@@ -5,17 +5,17 @@ import { createHash } from 'node:crypto';
 import { mkdir, readFile, readdir, copyFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { atomicProjectWrite } from '../../../runtime-storage.mjs';
+import { atomicProjectWrite, projectTempPath } from '../../../runtime-storage.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const WORK = path.join(ROOT, 'work');
+const WORK = projectTempPath(path.join(ROOT, 'work'));
 const RAW = path.join(WORK, 'raw');
-const CANDIDATES = path.join(WORK, 'candidates');
-const ACCEPTED = path.join(ROOT, 'accepted');
+const CANDIDATES = path.join(ROOT, 'candidates');
+const DOCUMENTS = path.join(ROOT, 'documents');
 const MANIFEST_PATH = path.join(ROOT, 'references', 'candidate-manifest.json');
 const STATE_PATH = path.join(WORK, 'state.json');
 const REPORT_PATH = path.join(WORK, 'latest-report.json');
-const VERSION = '0.4.0';
+const VERSION = '0.4.1';
 const HTML_CONVERSION_VERSION = '0.3.0';
 const MAX_SOURCE_BYTES = 25 * 1024 * 1024;
 const sha = bytes => createHash('sha256').update(bytes).digest('hex');
@@ -36,9 +36,24 @@ function workFile(relative, area) {
   if (portable.startsWith('/') || /^[A-Za-z]:/.test(portable) || portable.split('/').includes('..')) {
     throw new Error(`Refused unsafe saved work path: ${relative}`);
   }
-  if (!portable.startsWith(`work/${area}/`)) throw new Error(`Saved work path is outside work/${area}: ${relative}`);
-  return path.resolve(ROOT, ...portable.split('/'));
+  if (area === 'raw') {
+    if (!portable.startsWith('work/raw/')) throw new Error(`Saved path is outside work/raw: ${relative}`);
+    return projectTempPath(path.resolve(ROOT, ...portable.split('/')));
+  }
+  if (!portable.startsWith('candidates/')) throw new Error(`Saved candidate path is outside candidates/: ${relative}`);
+  const resolved = path.resolve(ROOT, ...portable.split('/'));
+  if (!resolved.startsWith(`${CANDIDATES}${path.sep}`)) throw new Error(`Saved candidate path is outside candidates/: ${relative}`);
+  return resolved;
 }
+function candidateClass(source) {
+  const type = source.source_type;
+  if (type === 'national_legislation' || type === 'constitutional_text') return 'legislation';
+  if (type === 'official_guidance' || type === 'official_public_service_guidance' || type === 'official_consular_guidance') return 'guidance';
+  if (type === 'official_application_form_pdf') return 'forms';
+  if (type === 'official_guidance_directory' || type === 'official_forms_directory' || type === 'official_mission_directory' || type === 'discovery_repository') return 'discovery';
+  throw new Error(`No candidate folder mapping for source type ${type || '(missing)'}.`);
+}
+function candidateRelativePath(source) { return path.posix.join('candidates', candidateClass(source), `${safe(source.id)}.md`); }
 function errorDetails(error) {
   const cause = error?.cause;
   return [error?.message || String(error), cause?.code, cause?.message]
@@ -320,7 +335,7 @@ const mode = process.argv.find(arg => ['--check', '--sync', '--verify', '--recon
 if (mode === '--ack') {
   const id = process.argv[process.argv.indexOf('--ack') + 1];
   const source = manifest.documents.find(item => item.id === id);
-  if (!source || source.monitor_only || source.source_type === 'national_legislation' || source.source_type === 'constitutional_text') throw new Error('--ack requires a retrieved official guidance candidate ID.');
+  if (!source || source.monitor_only || candidateClass(source) !== 'guidance') throw new Error('--ack requires a retrieved official guidance candidate ID.');
   const row = state.sources[id];
   if (!row?.raw_path || !row?.candidate_path) throw new Error(`Cannot acknowledge ${id}: no saved official retrieval state exists.`);
   const raw = await readFile(workFile(row.raw_path, 'raw'));
@@ -329,9 +344,13 @@ if (mode === '--ack') {
   if (sha(candidate) !== row.markdown_sha256) throw new Error(`Cannot acknowledge ${id}: candidate differs from its recorded hash.`);
   const converted = await renderSavedMarkdown(source, row, raw);
   if (sha(Buffer.from(converted.markdown, 'utf8')) !== row.markdown_sha256) throw new Error(`Cannot acknowledge ${id}: candidate does not match an offline replay of the saved official source.`);
-  const target = path.join(ACCEPTED, `${safe(id)}.md`), bytes = candidate;
+  const target = path.join(DOCUMENTS, 'guidance', `${safe(id)}.md`), bytes = candidate;
   await atomic(target, bytes);
-  state.sources[id] = { ...(state.sources[id] || {}), accepted_markdown_sha256: sha(bytes), accepted_at: now() };
+  const manifestItem = manifest.documents.find(item => item.id === id);
+  manifestItem.accepted = true;
+  manifestItem.document_path = path.posix.join('documents', 'guidance', `${safe(id)}.md`);
+  await atomic(MANIFEST_PATH, `${JSON.stringify(manifest, null, 2)}\n`);
+  state.sources[id] = { ...(state.sources[id] || {}), accepted_document_path: manifestItem.document_path, accepted_markdown_sha256: sha(bytes), accepted_at: now() };
   await atomic(STATE_PATH, `${JSON.stringify(state, null, 2)}\n`);
   console.log(JSON.stringify({ accepted: id, path: target, sha256: sha(bytes) }, null, 2));
 } else if (mode === '--verify') {
@@ -347,7 +366,8 @@ if (mode === '--ack') {
       const converted = await renderSavedMarkdown(source, row, raw);
       if (sha(Buffer.from(converted.markdown, 'utf8')) !== row.markdown_sha256 || sha(candidate) !== row.markdown_sha256) throw new Error('offline conversion replay or candidate hash mismatch');
       if (row.accepted_markdown_sha256) {
-        const accepted = await readFile(path.join(ACCEPTED, `${safe(id)}.md`));
+        const acceptedPath = row.accepted_document_path ? path.resolve(ROOT, ...row.accepted_document_path.split('/')) : path.join(DOCUMENTS, 'guidance', `${safe(id)}.md`);
+        const accepted = await readFile(acceptedPath);
         if (sha(accepted) !== row.accepted_markdown_sha256) throw new Error('saved accepted-copy hash mismatch');
       }
     } catch (error) { failures.push({ source_id: id, error: error.message }); }
@@ -405,7 +425,7 @@ if (mode === '--ack') {
         const previous = state.sources[source.id] || {}, sourceUnchanged = previous.source_bytes_sha256 === sourceHash, markdownUnchanged = previous.markdown_sha256 === markdownHash;
         const status = sourceUnchanged && markdownUnchanged ? 'unchanged' : !sourceUnchanged && markdownUnchanged ? 'source_changed_markdown_unchanged' : 'candidate_ready';
         const rawPath = path.posix.join('work', 'raw', safe(source.id), `${sourceHash}.${response.format}`);
-        const candidatePath = previous.candidate_path || path.posix.join('work', 'candidates', `${safe(source.id)}.md`);
+        const candidatePath = previous.candidate_path || candidateRelativePath(source);
         if (mode === '--sync') {
           let candidateBytes;
           try { candidateBytes = await readFile(workFile(candidatePath, 'candidates')); }

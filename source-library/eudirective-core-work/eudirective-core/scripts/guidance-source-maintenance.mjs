@@ -13,7 +13,7 @@ const workspace = path.resolve(here, '../../..');
 const locations = {
   denmark: ['eudirective-source-library-0.6.0/denmark', 'documents/guidance'],
   sweden: ['eudirective-source-library-0.6.0/sweden', 'documents/guidance'],
-  romania: ['eudirective-source-library-0.6.0/romania', 'core/guidance'],
+  romania: ['eudirective-source-library-0.6.0/romania', 'documents'],
   eu: ['eudirective-source-library-0.6.0', 'core/guidance/official'],
 };
 const sha = value => createHash('sha256').update(value).digest('hex');
@@ -119,6 +119,14 @@ async function loadConfig(pack) {
   state.sources ||= {}; state.pending ||= {}; state.observations ||= {};
   return {pack,root,docs:path.join(root,docs),manifest,work,stateFile,state};
 }
+function documentPath(config,source){
+  if(config.pack==='romania'){
+    const category=source.document_class;
+    if(!['guidance','forms','procedure','case_law','legislation','oversight'].includes(category))throw Error(`Romania guidance source has no valid document_class: ${source.id}`);
+    return path.join(config.docs,category,source.id+'.md');
+  }
+  return path.join(config.docs,source.id+'.md');
+}
 function catalogueDocumentUrl(bytes,source){
   let catalogue;
   try{catalogue=JSON.parse(bytes.toString('utf8'));}catch{throw Error('Official visa-document catalogue is not valid JSON');}
@@ -173,7 +181,9 @@ export async function run(pack,action='sync',sourceId=null) {
     if(!source||!pending)throw Error('ack requires a known source ID with a pending update');
     const candidate=path.join(c.work,pending.candidate_path),bytes=await readFile(candidate);
     if(sha(bytes)!==pending.markdown_sha256)throw Error(`Pending Markdown hash mismatch: ${sourceId}`);
-    await atomicProjectWrite(path.join(c.docs,source.id+'.md'),bytes);
+    const acceptedPath=documentPath(c,source);
+    await mkdir(path.dirname(acceptedPath),{recursive:true});
+    await atomicProjectWrite(acceptedPath,bytes);
     c.state.sources[sourceId]={...pending,accepted_at:report.checked_at};
     delete c.state.pending[sourceId];
     await atomicProjectWrite(c.stateFile,JSON.stringify(c.state,null,2)+'\n');
@@ -185,7 +195,7 @@ export async function run(pack,action='sync',sourceId=null) {
   }
   for(const src of c.manifest.sources){
     try {
-      const mdPath=path.join(c.docs,src.id+'.md');
+      const mdPath=documentPath(c,src);
       if(action==='verify'){
         const accepted=c.state.sources[src.id], pending=c.state.pending[src.id], saved=accepted||pending||c.state.observations[src.id];
         if(!saved)throw Error('No saved accepted source or pending observation');
