@@ -103,24 +103,30 @@
       "source_ids": [
         "hr-general-admin-act",
         "hr-general-admin-amend",
-        "hr-admin-disputes-act"
+        "hr-admin-disputes-act",
+        "hr-constitutional-court-zus-169-2-2026"
       ],
       "relationship": "national_procedure_and_judicial_review",
-      "instrument": "General Administrative Procedure Act NN 47/09, 110/21 and Administrative Disputes Act NN 36/24",
+      "instrument": "General Administrative Procedure Act NN 47/09, 110/21; Administrative Disputes Act NN 36/24; Constitutional Court decision NN 39/26 concerning Article 169(2)",
       "official_locator": "https://narodne-novine.nn.hr/clanci/sluzbeni/2009_04_47_1065.html",
       "related_instrument_locator": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_03_36_564.html",
-      "dependency_review_status": "scope_and_remedy_crosswalk_required",
+      "dependency_review_status": "ordinary_remedy_crosswalk_open; transitional_decision_reviewed",
       "evidence": [
         "Existing official sources located; compare application, supplementation, hearing, service, delay/omission, appeal, court deadlines, suspensive effect, and interim relief.",
         "Accepted source records are now available for the General Administrative Procedure Act chain NN 47/09 + 110/21 and the Administrative Disputes Act NN 36/24. ZUS Articles 3 and 12 expressly cover claims against decisions, conduct and failure to act/decide within a statutory deadline. The exact application and remedy path for each EEA-family decision remains unmapped.",
-        "Official Ministry source identifies the current GAPA chain; official Croatian courts law listings identify ZUS NN 36/24. Neither listing substitutes for a consolidated text, exhaustive dependency scan or remedy crosswalk."
+        "Official Ministry source identifies the current GAPA chain; official Croatian courts law listings identify ZUS NN 36/24. Neither listing substitutes for a consolidated text, exhaustive dependency scan or remedy crosswalk.",
+        "The Constitutional Court decision NN 39/26 was reviewed on 2026-10-21. It starts constitutional review and repeals ZUS/24 Article 169(2), a transition rule for proceedings where a hearing had closed before 1 July 2024. The decision is relevant to transitional cases; no effect is inferred for ordinary current EEA procedures."
       ],
       "review_questions": [
         "Map GAPA and ZUS provisions to EEA-family applications, service, decision time limits, challenge to silence, appeal exhaustion, interim measures and execution.",
-        "Compare each general provision in procedural-crosswalk.md with the current EEA Act/regulation and visa/Foreigners Act route before treating any immigration issue as mapped."
+        "Compare each general provision in procedural-crosswalk.md with the current EEA Act/regulation and visa/Foreigners Act route before treating any immigration issue as mapped.",
+        "For any proceeding within the old-law transition, verify the decision’s exact effective timing and application to the case; do not generalize it to current residence applications."
       ],
       "national_provision_crosswalk": "references/procedural-crosswalk.md",
-      "crosswalk_status": "preliminary_primary_text_reviewed_immigration_application_open"
+      "crosswalk_status": "preliminary_primary_text_reviewed_immigration_application_open",
+      "additional_related_instrument_locators": [
+        "https://narodne-novine.nn.hr/clanci/sluzbeni/2026_04_39_485.html"
+      ]
     },
     {
       "id": "hr-law-enforcement-data-regime",
@@ -853,11 +859,13 @@
         "hr-general-procedure-and-admin-courts",
         "hr-administrative-court-fees-and-legal-aid"
       ],
-      "evidence": "Reviewed the captured act, its repeal/effective-date clauses, current official courts law listings and core Articles 3 and 12. Known material dependencies include general administrative procedure, EEA-specific substantive/procedural rules, the Court Fees Act and court-fee tariff, and legal-aid rules. The dependency inventory remains explicitly non-exhaustive.",
+      "evidence": "Reviewed the captured act, its repeal/effective-date clauses, current official courts law listings and core Articles 3 and 12. Known material dependencies include general administrative procedure, EEA-specific substantive/procedural rules, the Court Fees Act and court-fee tariff, and legal-aid rules. The dependency inventory remains explicitly non-exhaustive. The 2026-03-31 Constitutional Court decision published as NN 39/26 was checked; it expressly addresses Article 169(2), the transitional rule. Its exact effective timing and application to particular pending cases remain open.",
       "remaining_work": [
         "Complete source-wide cross-reference and amendment/validity inventory.",
-        "Crosswalk claim eligibility, deadlines, interim protection, fees and legal aid by immigration decision type; verify relevant case-law interpretation."
-      ]
+        "Crosswalk claim eligibility, deadlines, interim protection, fees and legal aid by immigration decision type; verify relevant case-law interpretation.",
+        "Verify the exact effect and temporal application of Constitutional Court decision NN 39/26 only if a proceeding depends on the former-law transition."
+      ],
+      "reviewed_on": "2026-10-21"
     },
     {
       "source_id": "hr-azop-complaint",
@@ -1578,6 +1586,18 @@
       "evidence": "Article 39 and the Free Legal Aid Act base definition are linked; the full instrument must be scanned for material annual-law references.",
       "remaining_work": [
         "Inspect/capture the full source, enumerate every material reference, amendment, successor and procedural dependency, then resolve each linked edge."
+      ]
+    },
+    {
+      "source_id": "hr-constitutional-court-zus-169-2-2026",
+      "status": "known_edges_not_exhaustive",
+      "reviewed_on": "2026-10-21",
+      "dependency_ids": [
+        "hr-general-procedure-and-admin-courts"
+      ],
+      "evidence": "Official decision NN 39/26 expressly concerns and repeals Administrative Disputes Act Article 169(2), a transitional provision for cases under the former Act where the hearing had closed before 1 July 2024.",
+      "remaining_work": [
+        "Verify exact effective timing and application to an individual transitional proceeding if one is in scope; no general current EEA procedure effect is inferred."
       ]
     }
   ],
