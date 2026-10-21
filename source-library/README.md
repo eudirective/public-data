@@ -139,7 +139,7 @@ The [Slovenia register](slovenia/references/candidate-manifest.json) has 42 cand
 
 ## Slovakia candidate pack
 
-The [Slovakia register](slovakia/references/candidate-manifest.json) has 40 candidates. Fifteen date-bound Slov-Lex laws were captured with their binding PDFs and eleven linked annex PDFs; 16 additional guidance, directory, court, or oversight pages were converted. All 31 candidate-text conversions passed offline replay. Eight MFA retrievals returned HTTP 403. The dynamic archive page links to a static year register visible in browser research, but its exact-byte local capture is pending after a workspace DNS failure. No locally stored artifact is accepted; consolidated-text reuse terms remain unresolved. See the [README](slovakia/README.md) and [sustainability assessment](slovakia/references/sustainability-assessment.md).
+The [Slovakia register](slovakia/references/candidate-manifest.json) has 40 candidates. Fifteen current Slov-Lex laws and four scoped MZV links are usable as external official references; 0 local artifacts or topics are accepted. Thirty-one local candidate conversions passed offline replay, and eight MFA local retrievals returned HTTP 403. Use official date-bound records and binding PDFs directly; archive capture, API access, and reuse clearance are not prerequisites for link use. Mission practice, procedural mapping, and case-law discovery remain open. See the [README](slovakia/README.md), [source acceptance register](slovakia/references/source-acceptance.json), [coverage register](slovakia/references/coverage-register.md), and [sustainability assessment](slovakia/references/sustainability-assessment.md).
 
 ## Poland candidate pack
 
