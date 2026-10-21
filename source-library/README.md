@@ -143,7 +143,7 @@ The [Slovakia register](slovakia/references/candidate-manifest.json) has 40 cand
 
 ## Poland candidate pack
 
-The [Poland register](poland/references/candidate-manifest.json) now contains 54 candidates. The official ELI API and listed public publisher pages yielded 51 saved responses and 50 replay-verified conversions; seven PDFs used pinned pypdf 6.21.1. ELI current-act search found newer consolidated texts DU/2026/1065 and DU/2026/44, retained alongside earlier editions. Three requests failed, and the e-Konsulat portal had no extractable text body. No locally stored artifact is accepted. See the [README](poland/README.md), [source list](poland/references/source-list.md), and [sustainability assessment](poland/references/sustainability-assessment.md).
+The [Poland register](poland/references/candidate-manifest.json) now contains 54 candidates. The official ELI API and listed public publisher pages yielded 51 saved responses and 50 replay-verified conversions; seven PDFs used pinned pypdf 6.21.1. ELI current-act search found newer consolidated texts DU/2026/1065 and DU/2026/44, retained alongside earlier editions. Three requests failed, and the e-Konsulat portal had no extractable text body. Nine official ELI legal-record links are accepted within scoped human review; 0 local copies or topics are accepted, and 45 other records remain under review. See the [README](poland/README.md), [source list](poland/references/source-list.md), [source acceptance register](poland/references/source-acceptance.json), and [sustainability assessment](poland/references/sustainability-assessment.md).
 
 ## 31-jurisdiction candidate inventory
 
