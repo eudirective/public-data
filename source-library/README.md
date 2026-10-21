@@ -93,7 +93,7 @@ The [Liechtenstein register](liechtenstein/references/candidate-manifest.json) c
 
 ## Malta national-source candidates
 
-The Malta register contains 48 candidates. Forty-seven were retrieved and converted to unaccepted review candidates; only the Judiciary portal root returned 403. Three stale Identità URLs were resolved through current parent pages. All conversions replay offline. Known legislation now uses the official ELI PDF route; the old visa Annex link was replaced with a versioned EUR-Lex consolidation. Mission attachment currentness and reuse terms remain unresolved. See the Malta README and sustainability assessment.
+The Malta register contains 55 candidates. Forty-seven earlier responses remain unaccepted local review artifacts; one Judiciary-root capture returned 403. The review accepted 41 official links within scope, left 11 for human/currentness review, and set aside three duplicate or misleading routes. It added the missing S.L. 217.04 text and current Form F.01, plus EU residence-card and visa dependencies. No local copies or topics are accepted; see the [Malta README](malta/README.md), [source acceptance](malta/references/source-acceptance.json), [coverage](malta/references/coverage-register.md), and [dependencies](malta/references/dependency-register.json).
 
 ## Norway national-source candidates
 
@@ -147,6 +147,6 @@ The [Poland register](poland/references/candidate-manifest.json) now contains 54
 
 ## 31-jurisdiction candidate inventory
 
-The [EEA and Switzerland expansion ledger](references/eea-switzerland-country-expansion.md) now reconciles all 31 jurisdiction folders: 27 dated candidate inventories plus established Denmark, Hungary, Romania, and Sweden packs. It records 1,216 candidate entries across the current inventories; entries are not all full texts and are not all accepted references. External-link usability, local-copy acceptance, topic coverage, and country completion are tracked separately.
+The [EEA and Switzerland expansion ledger](references/eea-switzerland-country-expansion.md) now reconciles all 31 jurisdiction folders: 27 dated candidate inventories plus established Denmark, Hungary, Romania, and Sweden packs. It records 1,223 candidate entries across the current inventories; entries are not all full texts and are not all accepted references. External-link usability, local-copy acceptance, topic coverage, and country completion are tracked separately.
 
 The [Hungary pack comparison](references/hungary-comparison-2026-10-19.md) documents which parts of its source and update approach transfer to the expansion. NJT consolidated texts remain human-reviewed government references; the updater excludes NJT retrieval and catalogue polling under the recorded portal terms. Gazette amendments are targeted supplements, not a routine reconstruction workflow.
