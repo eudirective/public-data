@@ -80,7 +80,7 @@ The [Italy scoped inventory](italy/references/candidate-manifest.json) contains 
 
 ## Latvia national-source candidates
 
-The [Latvia register](latvia/references/candidate-manifest.json) contains 49 candidates. The direct capture pass converted 41 official HTML pages and two PDFs to unaccepted Markdown; six discovery or case-law repository routes remain monitor-only. The PDF extractions are replayable. Current identity of the PMLP form, individual decisions, publisher arrangements for recurring capture, and update coverage remain open. A Gazette signature check is needed only if relying on that file's seal. See the [Latvia README](latvia/README.md) and [sustainability assessment](latvia/references/sustainability-assessment.md).
+The [Latvia register](latvia/references/candidate-manifest.json) contains 52 records. Forty-one official links are accepted within scope; seven references remain pending and four stale links are not relied upon. No local copy or topic is accepted. The capture pass converted 41 official HTML pages and two PDFs to unaccepted Markdown; six court/discovery routes have no individual text. Three additional primary laws cover address registration, population-register records, and civil-status documentation. The current PMLP form, post-July 2026 application steps, the Regulation 675 transition, individual decisions, and recurring-copy terms remain open. See the [Latvia README](latvia/README.md), [source acceptance](latvia/references/source-acceptance.json), [coverage register](latvia/references/coverage-register.md), and [sustainability assessment](latvia/references/sustainability-assessment.md).
 
 
 ## Lithuania national-source candidates
