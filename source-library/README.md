@@ -125,7 +125,7 @@ The [Croatia register](croatia/references/candidate-manifest.json) tracks 75 rec
 
 ## Bulgaria candidate pack
 
-The [Bulgaria register](bulgaria/references/candidate-manifest.json) has 35 candidates. The shared bounded capture converted and replay-verified 24 texts; 11 requests remain unresolved: four MFA links redirected to a third-party bot-validation host, five failed TLS validation, one returned HTTP 500, and one returned 404. Use the MVR Visa Ordinance text through April 2019 as the closest located government version, record that cutoff, and consult the identified 2025 decrees only where relevant; no full amendment reconstruction is required. See the [README](bulgaria/README.md) and [sustainability assessment](bulgaria/references/sustainability-assessment.md).
+The [Bulgaria register](bulgaria/references/candidate-manifest.json) has 36 records, 0 accepted local copies, and two official Visa Ordinance references reviewed as usable by link. The original bounded capture converted and replay-verified 24 texts; 11 requests remain unresolved: four MFA links redirected to a third-party bot-validation host, five failed TLS validation, one returned HTTP 500, and one returned 404. Use the MFA consolidated ordinance through State Gazette issue 4/2025 with the targeted Decree №221/2025 changes; the MVR-linked edition through April 2019 is historical only. No full amendment reconstruction is required. See the [README](bulgaria/README.md), [source acceptance register](bulgaria/references/source-acceptance.json), and [sustainability assessment](bulgaria/references/sustainability-assessment.md).
 
 
 ## Greece candidate pack
