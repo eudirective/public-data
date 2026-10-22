@@ -129,6 +129,18 @@
       "english_official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2667"
     },
     {
+      "source_id": "eu:32016r1191",
+      "identity": "32016R1191",
+      "title": "Regulation (EU) 2016/1191 simplifying requirements for certain public documents",
+      "language": "HR",
+      "official_language_url": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:32016R1191",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "english_shared_path": null,
+      "english_official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R1191",
+      "review_state": "The official English text and Article 2 scope were reviewed on 2026-10-23. It covers specified Member-State public documents, including marriage and parentage records; Article 2(3) excludes third-country public documents and Article 2(4) excludes recognition of the legal effects of another Member State's document. The Croatian route is recorded but its text was not independently checked. No local copy or topic-completion finding is implied."
+    },
+    {
       "source_id": "eu:32023r2685",
       "identity": "32023R2685",
       "title": "Regulation (EU) 2023/2685 on digitalisation of the visa procedure",
