@@ -1,13 +1,13 @@
 {
   "schema_version": "1.3.0",
   "jurisdiction": "DK",
-  "as_of": "2026-10-21",
+  "as_of": "2026-10-23",
   "accepted_source_count": 0,
   "accepted_current_law_source_count": 0,
   "accepted_derived_text_count": 0,
   "accepted_topic_count": 0,
   "country_review_complete": false,
-  "accepted_external_reference_count": 2,
+  "accepted_external_reference_count": 4,
   "external_reference_decisions": [
     {
       "source_id": "eu-residence-regulation-2020-1457",
@@ -51,8 +51,50 @@
         "verified_locations": "Complete three-page official PDF; §§ 1-2 identify the amended order, changed provisions, repeals, and commencement date.",
         "retrieval_limit": "No exact response bytes were stored locally. The decision accepts the official external reference within this stated scope only."
       }
+    },
+    {
+      "source_id": "marriage-law-consolidation-2026-663",
+      "decision": "accepted_with_narrow_external_scope",
+      "accepted_role": "Official Retsinformation consolidation of the Danish Marriage Act, published as LBK nr 663 on 1 July 2026. The PDF states that it consolidates LBK nr 1080/2023 with the change in § 18 of Law nr 469/2025. Sections 22 b–22 c provide the reviewed foreign-marriage and registered-partnership recognition rules. Use this exact dated consolidation for those provisions and verify later changes if material to the issue.",
+      "not_accepted": [
+        "A locally retained or converted copy.",
+        "A complete provision-level map of Danish family-law recognition or topic coverage.",
+        "Proof that no amendment or commencement issue arose after the 1 July 2026 consolidation."
+      ],
+      "evidence": {
+        "official_source_url": "https://www.retsinformation.dk/eli/lta/2026/663/pdf",
+        "stable_record_url": "https://www.retsinformation.dk/eli/lta/2026/663",
+        "checked_on": "2026-10-23",
+        "official_publication_date": "2026-07-16",
+        "language": "da",
+        "version": "LBK nr 663 af 1. juli 2026; the PDF identifies LBK nr 1080/2023 and the amendment made by § 18 of Law nr 469/2025.",
+        "verified_locations": "Official PDF cover and Lovtidende A publication lines; §§ 22 b–22 c on recognition of foreign marriages and registered partnerships; § 22 b(4) EU/EEA spouse exception.",
+        "research_browser_note": "The ELI HTML view returned a JavaScript shell, but the official Retsinformation PDF was directly readable and the title, consolidation basis, publication date, and relevant provisions were confirmed.",
+        "retrieval_limit": "The record accepts the official external PDF only within this version and scope; no local copy or country review is accepted."
+      }
+    },
+    {
+      "source_id": "adoption-law-consolidation-2026-669",
+      "decision": "accepted_with_narrow_external_scope",
+      "accepted_role": "Official Retsinformation consolidation of the Danish Adoption Act, published as LBK nr 669 on 1 July 2026. The PDF identifies the 2019 base and amendments from 2022, 2023, 2024 and 2025. Use this dated text for the statutory adoption provisions, including provisions concerning children arriving from another country, subject to the listed transitional rules.",
+      "not_accepted": [
+        "A locally retained or converted copy.",
+        "Complete international-adoption procedure, authority practice, or topic coverage.",
+        "Proof that no amendment or commencement issue arose after the 1 July 2026 consolidation."
+      ],
+      "evidence": {
+        "official_source_url": "https://www.retsinformation.dk/eli/lta/2026/669/pdf",
+        "stable_record_url": "https://www.retsinformation.dk/eli/lta/2026/669",
+        "checked_on": "2026-10-23",
+        "official_publication_date": "2026-07-18",
+        "language": "da",
+        "version": "LBK nr 669 af 1. juli 2026; consolidates changes through § 20 of Law nr 469/2025. The PDF states that Adoption Act § 30(3) is to be repealed on 1 January 2027.",
+        "verified_locations": "Official PDF cover and Lovtidende A publication lines; § 1 on adoptions involving a child from another country; the final transitional provisions, including the stated 1 January 2027 repeal.",
+        "research_browser_note": "The ELI HTML view returned a JavaScript shell, but the official Retsinformation PDF was directly readable and the identity, amendment list, relevant provision, and transitional note were confirmed.",
+        "retrieval_limit": "The record accepts the official external PDF only within this version and scope; no local copy or country review is accepted."
+      }
     }
   ],
   "policy": "A clear government-published legal source may be accepted for direct reference within its displayed status, version, content, and caveats. Gazette amendment-chain reconstruction is not a blanket prerequisite. External-reference acceptance is separate from local-copy acceptance, topic adequacy, and country completion.",
-  "count_note": "accepted_source_count and accepted_current_law_source_count count accepted retained local artifacts; both remain 0. Two official external references are accepted within the narrow scopes above. No Danish local conversion was promoted by this review."
+  "count_note": "accepted_source_count and accepted_current_law_source_count count accepted retained local artifacts; both remain 0. Four official external references are accepted within the narrow scopes above. No Danish local conversion was promoted by this review."
 }
