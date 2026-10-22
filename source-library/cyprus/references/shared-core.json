@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "jurisdiction": "CY",
-  "updated": "2026-10-19",
+  "updated": "2026-10-23",
   "shared_core_indexes": [
     {
       "language": "EN",
@@ -43,6 +43,26 @@
       "canonical_path": null,
       "storage_state": "external_only_not_mirrored",
       "review_state": "Official URL identified in the dependency register; no local shared-core representation or Cyprus acceptance."
+    },
+    {
+      "source_id": "eu:12016m",
+      "identity": "12016M",
+      "title": "Consolidated version of the Treaty on European Union",
+      "language": "EN",
+      "official_language_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12016M/TXT",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "EUR-Lex identifies 15 March 2025 as the current consolidated version, published from the 2016/C 202 treaty texts. This is a consolidated treaty text, not the original signed treaty. The local-language EUR-Lex route is recorded; the English official record and current-version date were reviewed on 2026-10-23. No local copy or topic-completion finding is implied."
+    },
+    {
+      "source_id": "eu:12016e",
+      "identity": "12016E",
+      "title": "Consolidated version of the Treaty on the Functioning of the European Union",
+      "language": "EN",
+      "official_language_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12016E/TXT",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "EUR-Lex identifies 15 March 2025 as the current consolidated version, published from the 2016/C 202 treaty texts. This is a consolidated treaty text, not the original signed treaty. The local-language EUR-Lex route is recorded; the English official record and current-version date were reviewed on 2026-10-23. No local copy or topic-completion finding is implied."
     }
   ],
   "reuse_rule": "Use local English representations only through the canonical library index; the indexed shared text is not a Cyprus source acceptance or topic-coverage decision. External-only links are not local captures. Preserve national statutory wording and review the official instrument before legal reliance."

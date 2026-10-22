@@ -99,6 +99,24 @@
       "local_path": null,
       "state": "external_only",
       "verification_status": "Official English EUR-Lex text and instrument identity reviewed on 2026-10-23; the Czech official route is recorded but its text was not independently checked. Regulation (EU) 2025/1208 covers identity cards and residence documents under Directive 2004/38, with EEA relevance. The 3 August 2026 transition date has passed; check Article 8 and the actual document before assessing validity. No local copy or topic-completion finding is implied."
+    },
+    {
+      "source_id": "eu:12016m",
+      "language": "EN",
+      "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12016M/TXT",
+      "official_local_language_url": "https://eur-lex.europa.eu/legal-content/CS/TXT/?uri=CELEX:12016M/TXT",
+      "local_path": null,
+      "state": "external_only",
+      "verification_status": "EUR-Lex identifies 15 March 2025 as the current consolidated version, published from the 2016/C 202 treaty texts. This is a consolidated treaty text, not the original signed treaty. The local-language EUR-Lex route is recorded; the English official record and current-version date were reviewed on 2026-10-23. No local copy or topic-completion finding is implied. The Czech official route is linked but its text was not independently checked."
+    },
+    {
+      "source_id": "eu:12016e",
+      "language": "EN",
+      "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12016E/TXT",
+      "official_local_language_url": "https://eur-lex.europa.eu/legal-content/CS/TXT/?uri=CELEX:12016E/TXT",
+      "local_path": null,
+      "state": "external_only",
+      "verification_status": "EUR-Lex identifies 15 March 2025 as the current consolidated version, published from the 2016/C 202 treaty texts. This is a consolidated treaty text, not the original signed treaty. The local-language EUR-Lex route is recorded; the English official record and current-version date were reviewed on 2026-10-23. No local copy or topic-completion finding is implied. The Czech official route is linked but its text was not independently checked."
     }
   ],
   "reuse_rule": "Resolve shared English source IDs through the one library-level language index. Czech EUR-Lex links are external-only references; their presence does not imply a locally held Czech-language representation or verified content."

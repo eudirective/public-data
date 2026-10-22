@@ -127,6 +127,30 @@
       "english_shared_path": null,
       "review_state": "Official English EUR-Lex text and instrument identity reviewed on 2026-10-23; the Croatian route is recorded but its text was not independently checked. The act amends the Visa Code, VIS and related instruments; it is not a consolidated Visa Code. Article 8(2) sets general application from the Commission decision under Article 7(1), with exceptions in Article 8(3). Verify the decision and Croatian participation before treating the EU Visa Application Platform as operational. No local copy or topic-completion finding is implied.",
       "english_official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2667"
+    },
+    {
+      "source_id": "eu:12016m",
+      "identity": "12016M",
+      "title": "Consolidated version of the Treaty on European Union",
+      "language": "HR",
+      "official_language_url": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:12016M/TXT",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "english_shared_path": null,
+      "english_official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12016M/TXT",
+      "review_state": "EUR-Lex identifies 15 March 2025 as the current consolidated version, published from the 2016/C 202 treaty texts. This is a consolidated treaty text, not the original signed treaty. The local-language EUR-Lex route is recorded; the English official record and current-version date were reviewed on 2026-10-23. No local copy or topic-completion finding is implied. The Croatian route is linked but its text was not independently checked."
+    },
+    {
+      "source_id": "eu:12016e",
+      "identity": "12016E",
+      "title": "Consolidated version of the Treaty on the Functioning of the European Union",
+      "language": "HR",
+      "official_language_url": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:12016E/TXT",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "english_shared_path": null,
+      "english_official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12016E/TXT",
+      "review_state": "EUR-Lex identifies 15 March 2025 as the current consolidated version, published from the 2016/C 202 treaty texts. This is a consolidated treaty text, not the original signed treaty. The local-language EUR-Lex route is recorded; the English official record and current-version date were reviewed on 2026-10-23. No local copy or topic-completion finding is implied. The Croatian route is linked but its text was not independently checked."
     }
   ],
   "reuse_rule": "Use the shared English representation only through its canonical source-library/core/ path where listed. Croatian EUR-Lex translations are official external-only links until acquired and reviewed; do not create a country core folder or describe a link as a stored representation.",

@@ -95,6 +95,22 @@
       "local_path": null,
       "local_state": "external_only",
       "version_note": "Official Dutch-language EUR-Lex record; the English official text and instrument identity were reviewed on 2026-10-23. Article 7i includes an accelerated-procedure safeguard for family members within Directive 2004/38. This is an amending act, not a consolidated Visa Code. Under Articles 7(1) and 8(2), general application depends on a Commission decision; Article 8(3) gives earlier dates for specified provisions. Verify the decision and national notifications before treating the EU Visa Application Platform as operational. The reference does not establish local-copy acceptance or topic coverage."
+    },
+    {
+      "source_id": "eu:12016m",
+      "title": "Consolidated version of the Treaty on European Union",
+      "official_url": "https://eur-lex.europa.eu/eli/treaty/teu_2016/oj?locale=nl",
+      "local_path": null,
+      "local_state": "external_only",
+      "version_note": "EUR-Lex identifies 15 March 2025 as the current consolidated version, published from the 2016/C 202 treaty texts. This is a consolidated treaty text, not the original signed treaty. The local-language EUR-Lex route is recorded; the English official record and current-version date were reviewed on 2026-10-23. No local copy or topic-completion finding is implied. Official Dutch-language route recorded; Dutch text was not independently checked."
+    },
+    {
+      "source_id": "eu:12016e",
+      "title": "Consolidated version of the Treaty on the Functioning of the European Union",
+      "official_url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/oj?locale=nl",
+      "local_path": null,
+      "local_state": "external_only",
+      "version_note": "EUR-Lex identifies 15 March 2025 as the current consolidated version, published from the 2016/C 202 treaty texts. This is a consolidated treaty text, not the original signed treaty. The local-language EUR-Lex route is recorded; the English official record and current-version date were reviewed on 2026-10-23. No local copy or topic-completion finding is implied. Official Dutch-language route recorded; Dutch text was not independently checked."
     }
   ]
 }
