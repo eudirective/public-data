@@ -133,6 +133,76 @@
       "canonical_path": null,
       "storage_state": "external_only_not_mirrored",
       "review_state": "Official InfoCuria judgment record reviewed on 2026-10-23: 10 May 2017, ECLI:EU:C:2017:354; language of the case: Dutch. English-language Court record linked. Scope: Assessment under Article 20 TFEU of a third-country parent’s derived residence claim, including the child's dependency, best interests and family-life circumstances; parentage alone does not decide the claim. The source remains external-only; no local copy, country-topic coverage, or country completion is implied."
+    },
+    {
+      "source_id": "eu:32019r1111",
+      "identity": "02019R1111-20190702",
+      "title": "Council Regulation (EU) 2019/1111 (Brussels IIb) on jurisdiction, recognition and enforcement in matrimonial matters and parental responsibility, and on international child abduction",
+      "language": "EN",
+      "official_language_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019R1111-20190702",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official EUR-Lex record and source identity reviewed on 2026-10-23. EUR-Lex current consolidated text displayed as 2 July 2019; no later consolidation was listed in the record reviewed on 23 October 2026. Scope: Jurisdiction, recognition and enforcement for covered matrimonial and parental-responsibility decisions, and international child abduction. It excludes adoption decisions and does not establish parentage. Limitations: Check the applicable case-date, national procedural implementation, and any later act-specific amendments before relying on a provision. External-only reference; no local copy or country-topic coverage/completion is implied."
+    },
+    {
+      "source_id": "eu:32022r0922",
+      "identity": "32022R0922",
+      "title": "Council Regulation (EU) 2022/922 on the Schengen evaluation and monitoring mechanism",
+      "language": "EN",
+      "official_language_url": "https://eur-lex.europa.eu/eli/reg/2022/922/oj/eng",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official EUR-Lex record and source identity reviewed on 2026-10-23. Official Journal act published 15 June 2022; in force and applicable from 1 October 2022; EUR-Lex displayed no consolidated version on 23 October 2026. Scope: Peer evaluation and monitoring of application of the Schengen acquis, including visas, external borders, return, information systems, agency and private-service activities, and fundamental-rights safeguards. Limitations: This is an oversight/evaluation mechanism, not an individual complaint or appeal procedure; evaluation reports may be restricted. External-only reference; no local copy or country-topic coverage/completion is implied."
+    },
+    {
+      "source_id": "eu:32019r1896",
+      "identity": "02019R1896-20231231",
+      "title": "Regulation (EU) 2019/1896 establishing the European Border and Coast Guard",
+      "language": "EN",
+      "official_language_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019R1896-20231231",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official EUR-Lex record and source identity reviewed on 2026-10-23. Latest consolidated version listed by EUR-Lex on 23 October 2026, dated 31 December 2023; the record includes the 2021/1134 amendment. Scope: European Border and Coast Guard/Frontex mandate, joint operations, standing corps, fundamental-rights oversight and complaints, and Member-State responsibilities. Limitations: This does not set individual visa or residence-card eligibility rules. Review related implementing measures and national responsibilities for the issue at hand. External-only reference; no local copy or country-topic coverage/completion is implied."
+    },
+    {
+      "source_id": "eu:32019r0817",
+      "identity": "02019R0817-20260612",
+      "title": "Regulation (EU) 2019/817 on interoperability of EU information systems in the borders and visa fields",
+      "language": "EN",
+      "official_language_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019R0817-20260612",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official EUR-Lex record and source identity reviewed on 2026-10-23. Current EUR-Lex consolidated version dated 12 June 2026; record last reviewed by EUR-Lex on 28 August 2026. Scope: Interoperability of border and visa information systems, including identity matching, search, data access, correction, erasure and oversight safeguards. Limitations: System components have staged operational dates set by separate implementing decisions; do not infer a component's operational status from the consolidated regulation alone. External-only reference; no local copy or country-topic coverage/completion is implied."
+    },
+    {
+      "source_id": "eu:32019r0818",
+      "identity": "02019R0818-20260612",
+      "title": "Regulation (EU) 2019/818 on interoperability of EU information systems for police/judicial cooperation, asylum and migration",
+      "language": "EN",
+      "official_language_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019R0818-20260612",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official EUR-Lex record and source identity reviewed on 2026-10-23. Current EUR-Lex consolidated version dated 12 June 2026; record states that version is in force. Scope: Interoperability for police and judicial cooperation, asylum and migration, including data-access and data-protection rules. Limitations: System components have staged operational dates set by separate implementing decisions; check the relevant component, purpose and national authority before relying on it. External-only reference; no local copy or country-topic coverage/completion is implied."
+    },
+    {
+      "source_id": "eu:32025r0013",
+      "identity": "02025R0013-20250108",
+      "title": "Regulation (EU) 2025/13 on advance passenger information for law-enforcement purposes",
+      "language": "EN",
+      "official_language_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02025R0013-20250108",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official EUR-Lex record and source identity reviewed on 2026-10-23. EUR-Lex current consolidated version dated 8 January 2025, corrected by Corrigendum OJ L 90502 of 17 June 2025. Scope: Collection and router transfer of API and other PNR data for prevention, detection, investigation and prosecution of terrorism and serious crime on extra-EU and selected intra-EU flights. Limitations: This is distinct from Regulation (EU) 2025/12 on border-control API. Consult the corrigendum, commencement provisions, and Member-State intra-EU flight notifications before applying. External-only reference; no local copy or country-topic coverage/completion is implied."
+    },
+    {
+      "source_id": "eu:32001l0051",
+      "identity": "32001L0051",
+      "title": "Council Directive 2001/51/EC on carrier obligations and sanctions under Article 26 of the Schengen Convention",
+      "language": "EN",
+      "official_language_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32001L0051",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official EUR-Lex record and source identity reviewed on 2026-10-23. Original Official Journal text, 28 June 2001. EUR-Lex displayed no consolidated-text link in the record checked on 23 October 2026; later transposition/currentness was not determined. Scope: Carrier return duties and financial penalties related to transporting third-country nationals without required travel documents; the Directive excludes international-protection cases from its financial-penalty rule. Limitations: National transposition and application must be checked separately; this is not a general entry-eligibility rule. External-only reference; no local copy or country-topic coverage/completion is implied."
     }
   ],
   "reuse_rule": "Use local English representations only through the canonical library index; the indexed shared text is not a Cyprus source acceptance or topic-coverage decision. External-only links are not local captures. Preserve national statutory wording and review the official instrument before legal reliance."
