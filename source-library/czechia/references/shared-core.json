@@ -119,6 +119,15 @@
       "verification_status": "The official English text and Article 2 scope were reviewed on 2026-10-23. It covers specified Member-State public documents, including marriage and parentage records; Article 2(3) excludes third-country public documents and Article 2(4) excludes recognition of the legal effects of another Member State's document. The Czech official route is recorded but its text was not independently checked. No local copy or topic-completion finding is implied."
     },
     {
+      "source_id": "eu:32018r1240",
+      "language": "EN",
+      "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02018R1240-20260612",
+      "official_local_language_url": "https://eur-lex.europa.eu/legal-content/CS/TXT/?uri=CELEX:02018R1240-20260612",
+      "local_path": null,
+      "state": "external_only",
+      "verification_status": "EUR-Lex identifies the current consolidated version dated 12 June 2026. Article 2(1)(c) covers visa-exempt third-country family members of Union citizens or equivalent free-movement beneficiaries who lack the specified residence card or permit; Article 2(2)(b)-(c) excludes qualifying cardholders. On 2026-10-23 the official ETIAS FAQ said the system was not operating and no applications were being collected; the Commission scheduled launch for Q4 2026 without an exact date. Recheck official operational status and the actual residence document before applying. The Czech official route is recorded but its text was not independently checked. No local copy or topic-completion finding is implied."
+    },
+    {
       "source_id": "eu:12016m",
       "language": "EN",
       "official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12016M/TXT",
