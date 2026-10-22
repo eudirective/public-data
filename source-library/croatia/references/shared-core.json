@@ -129,6 +129,18 @@
       "english_official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2667"
     },
     {
+      "source_id": "eu:32023r2685",
+      "identity": "32023R2685",
+      "title": "Regulation (EU) 2023/2685 on digitalisation of the visa procedure",
+      "language": "HR",
+      "official_language_url": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:32023R2685",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "english_shared_path": null,
+      "english_official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2685",
+      "review_state": "Official English text and instrument identity reviewed on 2026-10-23. This amending act changes the uniform visa format to a digital format, but Article 3 defers general application to a Commission implementing decision under Article 2(1), with a limited exception for Article 1 point 2 from 27 December 2023. Check the decision in the Official Journal before describing digital visas as operational. This is not a consolidated text of Regulation (EC) No 1683/95. The Croatian route is recorded but its text was not independently checked. No local copy or topic-completion finding is implied."
+    },
+    {
       "source_id": "eu:12016m",
       "identity": "12016M",
       "title": "Consolidated version of the Treaty on European Union",
