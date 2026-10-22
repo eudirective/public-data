@@ -63,6 +63,76 @@
       "canonical_path": null,
       "storage_state": "external_only_not_mirrored",
       "review_state": "EUR-Lex identifies 15 March 2025 as the current consolidated version, published from the 2016/C 202 treaty texts. This is a consolidated treaty text, not the original signed treaty. The local-language EUR-Lex route is recorded; the English official record and current-version date were reviewed on 2026-10-23. No local copy or topic-completion finding is implied."
+    },
+    {
+      "source_id": "eu:62016cj0165",
+      "identity": "62016CJ0165",
+      "title": "CJEU judgment Lounes, C-165/16",
+      "language": "EN",
+      "official_language_url": "https://infocuria.curia.europa.eu/tabs/redirect/juris/documents.jsf?critereEcli=ECLI%3AEU%3AC%3A2017%3A862&language=EN",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official InfoCuria judgment record reviewed on 2026-10-23: 14 November 2017, ECLI:EU:C:2017:862; language of the case: English. English-language Court record linked. Scope: Derived residence of a third-country family member where the mobile Union citizen acquired the host Member State's nationality while retaining the nationality of origin. The source remains external-only; no local copy, country-topic coverage, or country completion is implied."
+    },
+    {
+      "source_id": "eu:62009cj0034",
+      "identity": "62009CJ0034",
+      "title": "CJEU judgment Ruiz Zambrano, C-34/09",
+      "language": "EN",
+      "official_language_url": "https://infocuria.curia.europa.eu/tabs/redirect/juris/documents.jsf?critereEcli=ECLI%3AEU%3AC%3A2011%3A124&language=EN",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official InfoCuria judgment record reviewed on 2026-10-23: 8 March 2011, ECLI:EU:C:2011:124; language of the case: French. English-language Court record linked. Scope: Article 20 TFEU and the exceptional derived residence position where refusal would deprive a Union-citizen child of the genuine enjoyment of the substance of Union citizenship rights. The source remains external-only; no local copy, country-topic coverage, or country completion is implied."
+    },
+    {
+      "source_id": "eu:62018cj0129",
+      "identity": "62018CJ0129",
+      "title": "CJEU judgment SM (Child placed under Algerian kafala), C-129/18",
+      "language": "EN",
+      "official_language_url": "https://infocuria.curia.europa.eu/tabs/redirect/juris/documents.jsf?critereEcli=ECLI%3AEU%3AC%3A2019%3A248&language=EN",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official InfoCuria judgment record reviewed on 2026-10-23: 26 March 2019, ECLI:EU:C:2019:248; language of the case: English. English-language Court record linked. Scope: A child under Algerian kafala is not a direct descendant under Directive 2004/38 Article 2(2)(c); the host Member State must facilitate entry and residence after an individual assessment under Article 3(2)(a). The source remains external-only; no local copy, country-topic coverage, or country completion is implied."
+    },
+    {
+      "source_id": "eu:62023cj0713",
+      "identity": "62023CJ0713",
+      "title": "CJEU judgment Wojewoda Mazowiecki, C-713/23",
+      "language": "EN",
+      "official_language_url": "https://infocuria.curia.europa.eu/tabs/redirect/juris/documents.jsf?critereEcli=ECLI%3AEU%3AC%3A2025%3A917&language=EN",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official InfoCuria judgment record reviewed on 2026-10-23: 25 November 2025, ECLI:EU:C:2025:917; language of the case: Polish. English-language Court record linked. Scope: Recognition and, where needed, transcription of a same-sex marriage lawfully concluded by Union citizens while exercising free movement, for return and family-life purposes. The source remains external-only; no local copy, country-topic coverage, or country completion is implied."
+    },
+    {
+      "source_id": "eu:62020cj0490",
+      "identity": "62020CJ0490",
+      "title": "CJEU judgment Stolichna obshtina, rayon “Pancharevo” (V.M.A.), C-490/20",
+      "language": "EN",
+      "official_language_url": "https://infocuria.curia.europa.eu/tabs/redirect/juris/documents.jsf?critereEcli=ECLI%3AEU%3AC%3A2021%3A1008&language=EN",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official InfoCuria judgment record reviewed on 2026-10-23: 14 December 2021, ECLI:EU:C:2021:1008; language of the case: Bulgarian. English-language Court record linked. Scope: A Union-citizen child’s identity document and free-movement rights where the host Member State's birth certificate names two mothers; this is a movement/document holding, not general harmonisation of parentage law. The source remains external-only; no local copy, country-topic coverage, or country completion is implied."
+    },
+    {
+      "source_id": "eu:62023cj0004",
+      "identity": "62023CJ0004",
+      "title": "CJEU judgment Mirin, C-4/23",
+      "language": "EN",
+      "official_language_url": "https://infocuria.curia.europa.eu/tabs/redirect/juris/documents.jsf?critereEcli=ECLI%3AEU%3AC%3A2024%3A845&language=EN",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official InfoCuria judgment record reviewed on 2026-10-23: 4 October 2024, ECLI:EU:C:2024:845; language of the case: Romanian. English-language Court record linked. Scope: Recognition of a Union citizen's first-name and gender-identity change lawfully obtained in another Member State while exercising free movement; it does not establish a general civil-status recognition rule. The source remains external-only; no local copy, country-topic coverage, or country completion is implied."
+    },
+    {
+      "source_id": "eu:62015cj0133",
+      "identity": "62015CJ0133",
+      "title": "CJEU judgment Chavez-Vilchez and Others, C-133/15",
+      "language": "EN",
+      "official_language_url": "https://infocuria.curia.europa.eu/tabs/redirect/juris/documents.jsf?critereEcli=ECLI%3AEU%3AC%3A2017%3A354&language=EN",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official InfoCuria judgment record reviewed on 2026-10-23: 10 May 2017, ECLI:EU:C:2017:354; language of the case: Dutch. English-language Court record linked. Scope: Assessment under Article 20 TFEU of a third-country parent’s derived residence claim, including the child's dependency, best interests and family-life circumstances; parentage alone does not decide the claim. The source remains external-only; no local copy, country-topic coverage, or country completion is implied."
     }
   ],
   "reuse_rule": "Use local English representations only through the canonical library index; the indexed shared text is not a Cyprus source acceptance or topic-coverage decision. External-only links are not local captures. Preserve national statutory wording and review the official instrument before legal reliance."

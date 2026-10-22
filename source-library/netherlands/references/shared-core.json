@@ -14,7 +14,19 @@
       "local_path": null,
       "local_state": "external_only",
       "version_note": "EUR-Lex identifies 16 June 2011 as the current consolidated version.",
-      "used_by": ["nl-10", "nl-11", "nl-12", "nl-13", "nl-15", "nl-16", "nl-18", "nl-19", "nl-20", "nl-21", "nl-60"]
+      "used_by": [
+        "nl-10",
+        "nl-11",
+        "nl-12",
+        "nl-13",
+        "nl-15",
+        "nl-16",
+        "nl-18",
+        "nl-19",
+        "nl-20",
+        "nl-21",
+        "nl-60"
+      ]
     },
     {
       "source_id": "EU-REG-810-2009-NL",
@@ -23,7 +35,12 @@
       "local_path": null,
       "local_state": "external_only",
       "version_note": "Use the current consolidated version displayed by EUR-Lex; its English shared-core representation is already stored at ../core/eu/eu_32009r0810_EN.md.",
-      "used_by": ["nl-34", "nl-35", "nl-36", "nl-37"]
+      "used_by": [
+        "nl-34",
+        "nl-35",
+        "nl-36",
+        "nl-37"
+      ]
     },
     {
       "source_id": "EU-DIR-2003-86-NL",
@@ -32,7 +49,10 @@
       "local_path": null,
       "local_state": "external_only",
       "version_note": "Use the current official Dutch-language record for the separate third-country sponsor route.",
-      "used_by": ["nl-23", "nl-24"]
+      "used_by": [
+        "nl-23",
+        "nl-24"
+      ]
     },
     {
       "source_id": "EU-REG-2016-1191-NL",
@@ -41,7 +61,13 @@
       "local_path": null,
       "local_state": "external_only",
       "version_note": "Official EUR-Lex Dutch-language edition; check its scope and any displayed consolidated version before applying to a specific civil-status record.",
-      "used_by": ["nl-42", "nl-43", "nl-53", "nl-54", "nl-55"]
+      "used_by": [
+        "nl-42",
+        "nl-43",
+        "nl-53",
+        "nl-54",
+        "nl-55"
+      ]
     },
     {
       "source_id": "EU-REG-2019-1157-NL",
@@ -50,7 +76,10 @@
       "local_path": null,
       "local_state": "external_only_historical_invalidity_reference",
       "version_note": "CJEU judgment C-61/22 declared the act invalid; consult only to understand the invalidity judgment's temporal effects and transition to Regulation 2025/1208.",
-      "used_by": ["nl-18", "nl-60"]
+      "used_by": [
+        "nl-18",
+        "nl-60"
+      ]
     },
     {
       "source_id": "EU-REG-2025-1208-NL",
@@ -59,7 +88,12 @@
       "local_path": null,
       "local_state": "external_only",
       "version_note": "Official Dutch-language edition. Its residence-card transition dates include 3 August 2026; review the current Dutch card specimen against the applicable requirements.",
-      "used_by": ["nl-18", "nl-30", "nl-31", "nl-60"]
+      "used_by": [
+        "nl-18",
+        "nl-30",
+        "nl-31",
+        "nl-60"
+      ]
     },
     {
       "source_id": "EU-UK-WITHDRAWAL-NL",
@@ -68,7 +102,9 @@
       "local_path": null,
       "local_state": "external_only",
       "version_note": "Official Dutch-language treaty text; identify the beneficiary and family provisions relevant to the case.",
-      "used_by": ["nl-22"]
+      "used_by": [
+        "nl-22"
+      ]
     },
     {
       "source_id": "EEA-AGREEMENT-NL",
@@ -77,7 +113,13 @@
       "local_path": null,
       "local_state": "external_only",
       "version_note": "Official treaty reference; check applicable EEA incorporation and amendments for the issue at hand.",
-      "used_by": ["nl-15", "nl-16", "nl-18", "nl-19", "nl-20"]
+      "used_by": [
+        "nl-15",
+        "nl-16",
+        "nl-18",
+        "nl-19",
+        "nl-20"
+      ]
     },
     {
       "source_id": "EU-CH-FREE-MOVEMENT-NL",
@@ -86,7 +128,13 @@
       "local_path": null,
       "local_state": "external_only",
       "version_note": "Official treaty reference; Swiss free-movement rights have a distinct legal basis from Directive 2004/38.",
-      "used_by": ["nl-15", "nl-16", "nl-18", "nl-19", "nl-20"]
+      "used_by": [
+        "nl-15",
+        "nl-16",
+        "nl-18",
+        "nl-19",
+        "nl-20"
+      ]
     },
     {
       "source_id": "EU-REG-2023-2667-NL",
@@ -127,6 +175,62 @@
       "local_path": null,
       "local_state": "external_only",
       "version_note": "EUR-Lex identifies 15 March 2025 as the current consolidated version, published from the 2016/C 202 treaty texts. This is a consolidated treaty text, not the original signed treaty. The local-language EUR-Lex route is recorded; the English official record and current-version date were reviewed on 2026-10-23. No local copy or topic-completion finding is implied. Official Dutch-language route recorded; Dutch text was not independently checked."
+    },
+    {
+      "source_id": "eu:62016cj0165",
+      "title": "CJEU judgment Lounes, C-165/16",
+      "official_url": "https://infocuria.curia.europa.eu/tabs/redirect/juris/documents.jsf?critereEcli=ECLI%3AEU%3AC%3A2017%3A862&language=EN",
+      "local_path": null,
+      "local_state": "external_only",
+      "version_note": "Official InfoCuria judgment record reviewed on 2026-10-23: 14 November 2017, ECLI:EU:C:2017:862; language of the case: English. English-language Court record linked. Scope: Derived residence of a third-country family member where the mobile Union citizen acquired the host Member State's nationality while retaining the nationality of origin. The source remains external-only; no local copy, country-topic coverage, or country completion is implied."
+    },
+    {
+      "source_id": "eu:62009cj0034",
+      "title": "CJEU judgment Ruiz Zambrano, C-34/09",
+      "official_url": "https://infocuria.curia.europa.eu/tabs/redirect/juris/documents.jsf?critereEcli=ECLI%3AEU%3AC%3A2011%3A124&language=EN",
+      "local_path": null,
+      "local_state": "external_only",
+      "version_note": "Official InfoCuria judgment record reviewed on 2026-10-23: 8 March 2011, ECLI:EU:C:2011:124; language of the case: French. English-language Court record linked. Scope: Article 20 TFEU and the exceptional derived residence position where refusal would deprive a Union-citizen child of the genuine enjoyment of the substance of Union citizenship rights. The source remains external-only; no local copy, country-topic coverage, or country completion is implied."
+    },
+    {
+      "source_id": "eu:62018cj0129",
+      "title": "CJEU judgment SM (Child placed under Algerian kafala), C-129/18",
+      "official_url": "https://infocuria.curia.europa.eu/tabs/redirect/juris/documents.jsf?critereEcli=ECLI%3AEU%3AC%3A2019%3A248&language=EN",
+      "local_path": null,
+      "local_state": "external_only",
+      "version_note": "Official InfoCuria judgment record reviewed on 2026-10-23: 26 March 2019, ECLI:EU:C:2019:248; language of the case: English. English-language Court record linked. Scope: A child under Algerian kafala is not a direct descendant under Directive 2004/38 Article 2(2)(c); the host Member State must facilitate entry and residence after an individual assessment under Article 3(2)(a). The source remains external-only; no local copy, country-topic coverage, or country completion is implied."
+    },
+    {
+      "source_id": "eu:62023cj0713",
+      "title": "CJEU judgment Wojewoda Mazowiecki, C-713/23",
+      "official_url": "https://infocuria.curia.europa.eu/tabs/redirect/juris/documents.jsf?critereEcli=ECLI%3AEU%3AC%3A2025%3A917&language=EN",
+      "local_path": null,
+      "local_state": "external_only",
+      "version_note": "Official InfoCuria judgment record reviewed on 2026-10-23: 25 November 2025, ECLI:EU:C:2025:917; language of the case: Polish. English-language Court record linked. Scope: Recognition and, where needed, transcription of a same-sex marriage lawfully concluded by Union citizens while exercising free movement, for return and family-life purposes. The source remains external-only; no local copy, country-topic coverage, or country completion is implied."
+    },
+    {
+      "source_id": "eu:62020cj0490",
+      "title": "CJEU judgment Stolichna obshtina, rayon “Pancharevo” (V.M.A.), C-490/20",
+      "official_url": "https://infocuria.curia.europa.eu/tabs/redirect/juris/documents.jsf?critereEcli=ECLI%3AEU%3AC%3A2021%3A1008&language=EN",
+      "local_path": null,
+      "local_state": "external_only",
+      "version_note": "Official InfoCuria judgment record reviewed on 2026-10-23: 14 December 2021, ECLI:EU:C:2021:1008; language of the case: Bulgarian. English-language Court record linked. Scope: A Union-citizen child’s identity document and free-movement rights where the host Member State's birth certificate names two mothers; this is a movement/document holding, not general harmonisation of parentage law. The source remains external-only; no local copy, country-topic coverage, or country completion is implied."
+    },
+    {
+      "source_id": "eu:62023cj0004",
+      "title": "CJEU judgment Mirin, C-4/23",
+      "official_url": "https://infocuria.curia.europa.eu/tabs/redirect/juris/documents.jsf?critereEcli=ECLI%3AEU%3AC%3A2024%3A845&language=EN",
+      "local_path": null,
+      "local_state": "external_only",
+      "version_note": "Official InfoCuria judgment record reviewed on 2026-10-23: 4 October 2024, ECLI:EU:C:2024:845; language of the case: Romanian. English-language Court record linked. Scope: Recognition of a Union citizen's first-name and gender-identity change lawfully obtained in another Member State while exercising free movement; it does not establish a general civil-status recognition rule. The source remains external-only; no local copy, country-topic coverage, or country completion is implied."
+    },
+    {
+      "source_id": "eu:62015cj0133",
+      "title": "CJEU judgment Chavez-Vilchez and Others, C-133/15",
+      "official_url": "https://infocuria.curia.europa.eu/tabs/redirect/juris/documents.jsf?critereEcli=ECLI%3AEU%3AC%3A2017%3A354&language=EN",
+      "local_path": null,
+      "local_state": "external_only",
+      "version_note": "Official InfoCuria judgment record reviewed on 2026-10-23: 10 May 2017, ECLI:EU:C:2017:354; language of the case: Dutch. English-language Court record linked. Scope: Assessment under Article 20 TFEU of a third-country parent’s derived residence claim, including the child's dependency, best interests and family-life circumstances; parentage alone does not decide the claim. The source remains external-only; no local copy, country-topic coverage, or country completion is implied."
     }
   ]
 }
