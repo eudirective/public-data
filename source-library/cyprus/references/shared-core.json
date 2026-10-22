@@ -203,6 +203,77 @@
       "canonical_path": null,
       "storage_state": "external_only_not_mirrored",
       "review_state": "Official EUR-Lex record and source identity reviewed on 2026-10-23. Original Official Journal text, 28 June 2001. EUR-Lex displayed no consolidated-text link in the record checked on 23 October 2026; later transposition/currentness was not determined. Scope: Carrier return duties and financial penalties related to transporting third-country nationals without required travel documents; the Directive excludes international-protection cases from its financial-penalty rule. Limitations: National transposition and application must be checked separately; this is not a general entry-eligibility rule. External-only reference; no local copy or country-topic coverage/completion is implied."
+    },
+    {
+      "source_id": "untc:vcdr-1961",
+      "identity": "UNTS vol. 500, p. 95",
+      "title": "Vienna Convention on Diplomatic Relations (1961)",
+      "language": "EN",
+      "official_language_url": "https://treaties.un.org/pages/ViewDetailsIII.aspx?chapter=3&clang=_en&mtdsg_no=III-3&src=TREATY",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official UN Treaty Collection record inspected on 2026-10-23. It identifies the Convention as concluded at Vienna on 18 April 1961 and in force from 24 April 1964; the linked status page states its data were current as at 22 October 2026 and links the certified true copy (UNTS vol. 500, p. 95). Check the specific states' participation, declarations/reservations, and relevant diplomatic status before applying. This external link does not establish country coverage or a local text acceptance.",
+      "version_note": "UN Treaty Collection record; no consolidated text version applies.",
+      "status_url": "https://treaties.un.org/pages/ViewDetailsIII.aspx?chapter=3&clang=_en&mtdsg_no=III-3&src=TREATY"
+    },
+    {
+      "source_id": "untc:vccr-1963",
+      "identity": "UNTS vol. 596, p. 261; UNTC registration no. 8638",
+      "title": "Vienna Convention on Consular Relations (1963)",
+      "language": "EN",
+      "official_language_url": "https://treaties.un.org/Pages/showDetails.aspx?objid=0800000280050686",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official UN Treaty Collection record inspected on 2026-10-23. It identifies the Convention as concluded at Vienna on 24 April 1963 and in force from 19 March 1967, links the English text, and lists each participant's action, notification/deposit date, and date of effect. Check the relevant states' participation, declarations/reservations, and the scope of any Article 36 issue before applying. The record was inspected on this date; the page does not display a dated status snapshot. No country-specific treaty determination or local text acceptance is implied.",
+      "version_note": "UN Treaty Collection treaty text and participant-action register; no consolidated text version applies.",
+      "status_url": "https://treaties.un.org/Pages/showDetails.aspx?objid=0800000280050686"
+    },
+    {
+      "source_id": "hcch:convention-12",
+      "identity": "HCCH Convention No. 12 (5 October 1961)",
+      "title": "Convention of 5 October 1961 Abolishing the Requirement of Legalisation for Foreign Public Documents (Apostille Convention)",
+      "language": "EN",
+      "official_language_url": "https://www.hcch.net/en/instruments/conventions/full-text/?cid=41",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official HCCH text inspected on 2026-10-23. Article 1 covers specified public documents for use in another contracting state and excludes documents executed by diplomatic or consular agents and administrative documents dealing directly with commercial or customs operations. The separate status table distinguishes contracting parties from entry into force for each party and lists declarations. Check the actual issuing and receiving states, effective dates, and any relevant declarations. Apostille coverage and document authenticity are not established by this link alone; no country-specific determination or local text acceptance is implied.",
+      "version_note": "Official HCCH Convention text; associated status table last updated 30 June 2026.",
+      "status_url": "https://www.hcch.net/en/instruments/conventions/status-table/?cid=41"
+    },
+    {
+      "source_id": "hcch:convention-33",
+      "identity": "HCCH Convention No. 33 (29 May 1993)",
+      "title": "Convention of 29 May 1993 on Protection of Children and Co-operation in Respect of Intercountry Adoption",
+      "language": "EN",
+      "official_language_url": "https://www.hcch.net/en/instruments/conventions/full-text/?cid=69",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official HCCH text inspected on 2026-10-23. It applies to intercountry adoptions that establish a permanent parent-child relationship and meet the Convention's conditions; recognition depends on Convention procedures, including the required certification, rather than adoption status alone. Use the separate HCCH status record to check both states, effective dates for the relationship, acceptance of accessions, and declarations. This reference does not decide an individual adoption's recognition or imply a country-specific determination or local text acceptance.",
+      "version_note": "Official HCCH Convention text; party and relationship status is maintained separately in the HCCH status table.",
+      "status_url": "https://www.hcch.net/en/instruments/conventions/status-table/?cid=69"
+    },
+    {
+      "source_id": "hcch:convention-33-status",
+      "identity": "HCCH Convention No. 33 status table",
+      "title": "HCCH status table: Convention of 29 May 1993 on Intercountry Adoption",
+      "language": "EN",
+      "official_language_url": "https://www.hcch.net/en/instruments/conventions/status-table/?cid=69",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "The table distinguishes contracting parties from entry into force, and records state-specific dates, declarations, and acceptance of accessions. Check both relevant states and the effective relationship date for a particular adoption. Table inspection establishes no case-specific applicability or country completion.",
+      "version_note": "Official HCCH status table; last updated 17 June 2025."
+    },
+    {
+      "source_id": "hcch:convention-34",
+      "identity": "HCCH Convention No. 34 (19 October 1996)",
+      "title": "Convention of 19 October 1996 on Jurisdiction, Applicable Law, Recognition, Enforcement and Co-operation in Respect of Parental Responsibility and Measures for the Protection of Children",
+      "language": "EN",
+      "official_language_url": "https://www.hcch.net/en/instruments/conventions/full-text/?cid=70",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official HCCH text inspected on 2026-10-23. It addresses jurisdiction, applicable law, recognition/enforcement, and co-operation concerning parental responsibility and child-protection measures; it is not an intercountry-adoption recognition convention. The separate status table distinguishes party status from entry into force and lists state-specific declarations. Check the states, dates, and measure at issue. No country-specific determination, adoption coverage, or local text acceptance is implied.",
+      "version_note": "Official HCCH Convention text; associated status table last updated 18 September 2025.",
+      "status_url": "https://www.hcch.net/en/instruments/conventions/status-table/?cid=70"
     }
   ],
   "reuse_rule": "Use local English representations only through the canonical library index; the indexed shared text is not a Cyprus source acceptance or topic-coverage decision. External-only links are not local captures. Preserve national statutory wording and review the official instrument before legal reliance."
