@@ -7,7 +7,7 @@
   "accepted_derived_text_count": 0,
   "accepted_topic_count": 0,
   "country_review_complete": false,
-  "accepted_external_reference_count": 14,
+  "accepted_external_reference_count": 15,
   "legacy_inventory": {
     "national_manifest_targets": 79,
     "national_targets_with_reviewed_markdown": 71,
@@ -190,7 +190,7 @@
       "reviewed_content": "The official page identifies the act and subject, displays the dated consolidation history and article contents, and provides the statutory text. The linked 19 April 2024 consolidation and Law nr. 99/2024 amendment were checked for identity and relationship.",
       "limitations": [
         "The latest displayed consolidation is dated 19 April 2024. A bounded official-domain search on 23 October 2026 used 12 targeted queries across Portal Legislativ and Monitorul Oficial, returned 41 result cards, and screened duplicate or irrelevant hits; no later direct amending act was located. Search indexing is not exhaustive, so post-cutoff currentness remains open.",
-        "This is an official dated reference, not an article-by-article review of domestic or intercountry adoption rules and not a topic-completion finding.",
+        "A limited route and provision crosswalk for domestic and intercountry adoption is now recorded in coverage-register.md. It is not a full applicant/child evidence checklist, remedy map, receiving-state recognition analysis, or topic-completion finding.",
         "No existing local conversion, attachment, or monitored-manifest target is newly accepted by this link decision."
       ]
     },
@@ -238,8 +238,24 @@
       "reviewed_content": "The Portal Legislativ page identifies the Government-issued rules, their relationship to Law nr. 273/2004 and HG nr. 579/2016, and displays the consolidation history through 19 September 2024. The contents list articles 1–133 and six annex forms. The current text includes the note that Civil Sentence nr. 416/2022 annulled Article 83(1) of the annex as amended by HG nr. 798/2021; the separate ÎCCJ Decision nr. 326/2025 record remains linked for its limited context.",
       "limitations": [
         "The latest displayed consolidation is dated 19 September 2024. The bounded 23 October 2026 official-domain search did not establish whether later amendments or a later consolidation exist; post-cutoff currentness remains open for human review.",
-        "This accepts an official link for its displayed text and scope only. It does not complete the domestic/intercountry route, Hague dependency, document and consent, recognition/effects, remedy, or operational crosswalk.",
+        "A limited route and provision crosswalk for domestic and intercountry adoption is now recorded in coverage-register.md. Exact case-specific documents, forms, remedies, Hague relationships, receiving-state recognition/effects, and operational contacts remain open.",
         "No existing local conversion, attachment, or monitored-manifest target is newly accepted by this link decision."
+      ]
+    },
+    "ro-portal-55426-foreign-adoption-authorizations": {
+      "status": "usable_official_reference",
+      "publisher": "Portal Legislativ, Romanian Government legal-information portal",
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/55426",
+      "rediscovery_url": "https://legislatie.just.ro/",
+      "checked_on": "2026-10-23",
+      "language": "Romanian",
+      "version_or_cutoff": "The official consolidated-form page and search result state that HG nr. 1.441/2004 was updated through 12 August 2016.",
+      "scope": "Government Decision nr. 1.441/2004 on authorization of foreign private organizations to conduct international-adoption activities in Romania; cited by Article 64 of Law nr. 273/2004.",
+      "reviewed_content": "The official Portal Legislativ result identifies the Government as issuer, the instrument's exact title and 12 August 2016 cutoff, and reproduces Article 1's requirement that foreign organizations be accredited in their state of origin and authorized under the Romanian decision. The Law nr. 273/2004 page independently cites HG nr. 1.441/2004 in its Article 64 footnote. Direct opening of the Portal Legislativ page returned 502 in the research viewer, so the full text and attachments were not reviewed.",
+      "limitations": [
+        "The displayed cutoff is 12 August 2016. This review did not establish whether later amendments, a later consolidation or changes to the authorization process exist; currentness remains open for human review.",
+        "This is a dated official reference only. It does not establish the present authorization criteria, the current list/status of foreign organizations, or whether a particular organization is authorized.",
+        "No local copy or attachment is accepted."
       ]
     }
   },
@@ -252,11 +268,12 @@
       "focus_source_ids": [
         "ro-portal-232354",
         "ro-portal-798-2021-adoption-annex",
-        "ro-portal-288410-adoption-rules"
+        "ro-portal-288410-adoption-rules",
+        "ro-portal-55426-foreign-adoption-authorizations"
       ],
-      "reason": "The official Law nr. 273/2004 record displays a consolidation only through 19 April 2024; its newer direct amendments were not established by a bounded official-domain search on 23 October 2026 (12 queries, 41 result cards, duplicate and irrelevant hits screened). A usable consolidated HG nr. 579/2016 methodological-rules page is now available through 19 September 2024 and includes the Article 83(1) annulment note, but changes after that cutoff were not established.",
-      "review_question": "Can a human reviewer confirm whether Portal Legislativ or Monitorul Oficial provides later direct amendments or consolidated forms for Law nr. 273/2004 after 19 April 2024 or the HG nr. 579/2016 methodological rules after 19 September 2024, while preserving the recorded Article 83(1) annulment status?",
-      "effect": "The accepted Law nr. 273/2004, consolidated methodological-rules, HG nr. 798/2021 historical replacement-annex, and ÎCCJ Decision nr. 326/2025 links remain usable within their stated dates and scopes. This narrowed offer does not block other source or topic research and does not add monitored targets or accept local copies."
+      "reason": "The official Law nr. 273/2004 record displays a consolidation only through 19 April 2024; its newer direct amendments were not established by a bounded official-domain search on 23 October 2026 (12 queries, 41 result cards, duplicate and irrelevant hits screened). The consolidated HG nr. 579/2016 rules page is available through 19 September 2024 and includes the Article 83(1) annulment note. The official HG nr. 1.441/2004 page states a cutoff of 12 August 2016, but its full text could not be opened in the research viewer and later currentness was not established.",
+      "review_question": "Can a human reviewer confirm later amendments or consolidated texts for Law nr. 273/2004 after 19 April 2024, the HG nr. 579/2016 rules after 19 September 2024, and HG nr. 1.441/2004 after 12 August 2016; verify the current foreign-organization authorization procedure and list; and preserve the Article 83(1) annulment status?",
+      "effect": "The accepted Law nr. 273/2004, methodological-rules, HG nr. 1.441/2004 dated reference, HG nr. 798/2021 historical replacement-annex, and ÎCCJ Decision nr. 326/2025 links remain usable only within their stated dates and scopes. This narrowed offer does not block other source or topic research, add monitored targets, or accept local copies."
     }
   ]
 }

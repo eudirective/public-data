@@ -20,7 +20,7 @@ The initial procedural map from Law nr. 544/2001 identifies Article 7 response p
 
 ## Adoption references
 
-The Law nr. 273/2004 page displays a consolidation history through 19 April 2024, including Law nr. 99/2024. The official consolidated methodological rules under HG nr. 579/2016 display a history through 19 September 2024 and list articles 1–133 and six annex forms. Their current page includes the note that Article 83(1) of the annex as replaced by HG nr. 798/2021 was annulled; the 2025 ÎCCJ decision remains a separate, narrow status reference. A bounded official-domain search on 23 October 2026 (12 queries; 41 result cards, duplicate and irrelevant hits screened) did not locate a later direct amendment. These cutoffs and the bounded search do not certify post-cutoff currentness or complete domestic/intercountry adoption coverage; see the provision map and human-review offer in the coverage and acceptance registers.
+The Law nr. 273/2004 page displays a consolidation history through 19 April 2024, including Law nr. 99/2024. The official consolidated methodological rules under HG nr. 579/2016 display a history through 19 September 2024 and list articles 1–133 and six annex forms. Their current page includes the note that Article 83(1) of the annex as replaced by HG nr. 798/2021 was annulled; the 2025 ÎCCJ decision remains a separate, narrow status reference. A bounded official-domain search on 23 October 2026 (12 queries; 41 result cards, duplicate and irrelevant hits screened) did not locate a later direct amendment. The coverage register now maps ordinary-residence routes, consent, applicant/child evidence, domestic and intercountry steps, court jurisdiction and statutory appeal periods. The official HG nr. 1.441/2004 authorization reference is accepted only through its displayed 12 August 2016 cutoff; the research viewer did not expose the full text. Receiving-state evidence and recognition, administrative remedies, current forms, authorization details and post-cutoff currentness remain open; the bounded search does not certify current law.
 
 ## Sustainability of the existing workflow
 
@@ -37,6 +37,7 @@ The current manifest remains unchanged at 79 national targets plus the separate 
 - Review current mission-specific visa and consular instructions and the relevant IGI procedures; identify appointment, document, submission and outsourcing details from official parent pages.
 - Expand case-law discovery beyond the 14 selected follow-up records and record searches, included decisions and exclusions.
 - Reconcile the data-protection, Ombudsman and equality-body routes by issue.
+- Complete the adoption evidence and remedy crosswalk: validate current forms and child-residence proofs, map review of administrative decisions, inspect the full HG nr. 1.441/2004 foreign-organization authorization text and current authorized-body list, and identify each receiving state's recognition/effects and Hague relationship. Currentness after the recorded Law and rules cutoffs remains open for human review.
 
 No baseline topic is complete and Romania's country review remains open. See [coverage-register.md](coverage-register.md) and [source-acceptance.json](source-acceptance.json).
 
