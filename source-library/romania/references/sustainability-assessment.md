@@ -1,6 +1,6 @@
 # Romania source sustainability assessment
 
-**Reviewed:** 21 October 2026
+**Reviewed:** 23 October 2026
 
 **Result:** official consolidated references are usable within recorded dates and scope; legal-source discovery, topic adequacy, and country review remain incomplete.
 
@@ -17,6 +17,10 @@ OUG nr. 51/2008 was missing from the existing Romanian source list. Its official
 The official Portal Legislativ records for Law nr. 544/2001 and HG nr. 123/2002 were opened directly on 21 October 2026. Both identify the instrument and publisher and display their consolidated-form history; the displayed cutoffs are 10 May 2024 and 28 June 2022 respectively. The earlier 502 responses were a limitation of the research viewer, not evidence that these sources were unavailable. Both dated official links are now accepted for reference use, with later material changes to be checked when relevant. Read HG nr. 123/2002 with the listed amending HG nr. 478/2016.
 
 The initial procedural map from Law nr. 544/2001 identifies Article 7 response periods (10 days, or up to 30 days with notice by day 10, and a 5-day refusal notice), Article 21 internal complaint (30 days, with a 15-day response if upheld), and Article 22 tribunal review (within 30 days after the Article 7 period, urgent procedure and no stamp duty). This is a starting crosswalk, not a completed analysis of exceptions, later amendments, or the relationship to immigration-record requests and immigration remedies. Neither link decision accepts a local conversion or completes a topic.
+
+## Adoption references
+
+The Law nr. 273/2004 page displays a consolidation history through 19 April 2024, including Law nr. 99/2024. The official consolidated methodological rules under HG nr. 579/2016 display a history through 19 September 2024 and list articles 1–133 and six annex forms. Their current page includes the note that Article 83(1) of the annex as replaced by HG nr. 798/2021 was annulled; the 2025 ÎCCJ decision remains a separate, narrow status reference. A bounded official-domain search on 23 October 2026 (12 queries; 41 result cards, duplicate and irrelevant hits screened) did not locate a later direct amendment. These cutoffs and the bounded search do not certify post-cutoff currentness or complete domestic/intercountry adoption coverage; see the provision map and human-review offer in the coverage and acceptance registers.
 
 ## Sustainability of the existing workflow
 
@@ -39,4 +43,4 @@ No baseline topic is complete and Romania's country review remains open. See [co
 
 ## Conversion replay and repair
 
-The 79-target manifest resolves to its 71 retained Markdown references and eight monitor-only targets. This checkout has no Romanian replay script or retained raw-source snapshots for those conversions, so deterministic replay and any target-specific repair remain unsupported. Existing local files remain unaccepted; the dated official links remain the usable references within their source-acceptance scopes. The separate adoption currentness offer remains open.
+The 79-target manifest resolves to its 71 retained Markdown references and eight monitor-only targets. This batch checkout has no Romanian replay helper or retained raw-source snapshots. A read-only inspection of the sibling `/tmp/public-data` checkout found a Romanian sync helper and converted documents but no captures/raw directory or captured source bytes, so deterministic replay and any target-specific repair remain unsupported. Existing local files remain unaccepted; the dated official links remain usable within their source-acceptance scopes. The adoption currentness offer remains open for changes after the recorded cutoffs.
