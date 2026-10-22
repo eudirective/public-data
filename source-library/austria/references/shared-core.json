@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "jurisdiction": "AT",
-  "updated": "2026-10-19",
+  "updated": "2026-10-23",
   "shared_core_indexes": [
     {
       "language": "DE",
@@ -81,5 +81,22 @@
       "access_mode": "official publisher links; local representation not held"
     }
   ],
-  "reuse_rule": "Austria and Germany refer to the same library-level German source index. Do not copy EU files into either national pack or create filesystem symlinks."
+  "reuse_rule": "Austria and Germany refer to the same library-level German source index. Do not copy EU files into either national pack or create filesystem symlinks.",
+  "external_only_references": [
+    {
+      "source_id": "eu:32023r2667",
+      "identity": "32023R2667",
+      "title": "Regulation (EU) 2023/2667 on digitalisation of the visa procedure",
+      "language": "DE",
+      "official_language_url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32023R2667",
+      "english_official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2667",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "review_state": "Official English EUR-Lex text and instrument identity reviewed on 2026-10-23; the German EUR-Lex route is recorded but its text was not independently checked. This is an amending act, not a consolidated Visa Code. Article 8(2) makes general application depend on the Commission decision under Article 7(1), while Article 8(3) lists earlier application dates. Verify the Commission decision and any Austrian notification before describing the EU Visa Application Platform as operational. No local copy or topic-completion finding is implied.",
+      "used_by": [
+        "at-bmeia-visa",
+        "at-guidance-visa-application"
+      ]
+    }
+  ]
 }

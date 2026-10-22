@@ -87,6 +87,14 @@
       "local_state": "external_only",
       "version_note": "Official treaty reference; Swiss free-movement rights have a distinct legal basis from Directive 2004/38.",
       "used_by": ["nl-15", "nl-16", "nl-18", "nl-19", "nl-20"]
+    },
+    {
+      "source_id": "EU-REG-2023-2667-NL",
+      "title": "Regulation (EU) 2023/2667 on digitalisation of the visa procedure",
+      "official_url": "https://eur-lex.europa.eu/eli/reg/2023/2667/oj?locale=nl",
+      "local_path": null,
+      "local_state": "external_only",
+      "version_note": "Official Dutch-language EUR-Lex record; the English official text and instrument identity were reviewed on 2026-10-23. Article 7i includes an accelerated-procedure safeguard for family members within Directive 2004/38. This is an amending act, not a consolidated Visa Code. Under Articles 7(1) and 8(2), general application depends on a Commission decision; Article 8(3) gives earlier dates for specified provisions. Verify the decision and national notifications before treating the EU Visa Application Platform as operational. The reference does not establish local-copy acceptance or topic coverage."
     }
   ]
 }

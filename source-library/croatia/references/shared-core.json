@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "HR",
-  "updated": "2026-10-19",
+  "updated": "2026-10-23",
   "local_core_state": "no_country_local_core_files",
   "shared_core_manifest": "source-library/core-source-pack-manifest-0.7.0.json",
   "entries": [
@@ -115,6 +115,18 @@
       "storage_state": "external_only_not_mirrored",
       "english_shared_path": "source-library/core/eu/eu_12012p_EN.md",
       "review_state": "official Croatian link external-only; shared English text is locally held; Article 47 is a dependency for effective-remedy and fee review"
+    },
+    {
+      "source_id": "eu:32023r2667",
+      "identity": "32023R2667",
+      "title": "Regulation (EU) 2023/2667 on digitalisation of the visa procedure",
+      "language": "HR",
+      "official_language_url": "https://eur-lex.europa.eu/legal-content/HR/TXT/?uri=CELEX:32023R2667",
+      "canonical_path": null,
+      "storage_state": "external_only_not_mirrored",
+      "english_shared_path": null,
+      "review_state": "Official English EUR-Lex text and instrument identity reviewed on 2026-10-23; the Croatian route is recorded but its text was not independently checked. The act amends the Visa Code, VIS and related instruments; it is not a consolidated Visa Code. Article 8(2) sets general application from the Commission decision under Article 7(1), with exceptions in Article 8(3). Verify the decision and Croatian participation before treating the EU Visa Application Platform as operational. No local copy or topic-completion finding is implied.",
+      "english_official_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2667"
     }
   ],
   "reuse_rule": "Use the shared English representation only through its canonical source-library/core/ path where listed. Croatian EUR-Lex translations are official external-only links until acquired and reviewed; do not create a country core folder or describe a link as a stored representation.",
