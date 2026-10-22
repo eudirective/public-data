@@ -99,3 +99,23 @@
 - Germany's 15 candidates require a separately reviewed national pack before distribution as a country module.
 - Keep shared EU/CJEU sources in core and attach language versions to the same source identity.
 - Separate repair tasks for incomplete Romania conversions, the expired Denmark administrative-procedure snapshot, and Hungary conversion cleanup are outside this candidate list.
+
+## Reconciliation against the library (2026-10-23)
+
+This is a manual repository reconciliation against the current working branch and its source records, not a Source Monitor run, source-text acceptance, or topic-completion result. The October 15 comparison above is historical. Citations inside another law, a dependency note, or a candidate manifest do not count as a dedicated source record.
+
+| Group | Current disposition |
+|---|---|
+| 1. EU legislation and institutions (31) | Eight rows now have a dedicated reference or a newer-version replacement in one or more country `references/shared-core.json` files: the two 2012 Treaty rows are represented by the 2016 consolidated TEU/TFEU; Regulations 2016/1191, 2025/1208, 2023/2667, 2023/2685, and 2018/1240 have external-only references; Regulation 2025/12 has official-reference records. The other 23 rows still need a source-record decision or acquisition. Some are cited in existing texts or dependency notes only. |
+| 2. CJEU and ECtHR judgments (13) | No candidate judgment has a standalone record in the current shared-core retrieval index. Mentions in national or EU texts do not satisfy this gap. Verify each case locator and add selected official judgment references before considering local text capture. |
+| 3. International treaties and treaty registers (10) | No dedicated source record was found for these candidates in the checked library inventories. Treaty text, status by state, reservations, and effective dates remain distinct evidence tasks. |
+| 4. Germany (15) | All 15 proposal items are carried in Germany's later source inventory. Germany now reports 47 candidates and 44 conversions as unaccepted review candidates; its statute retrieval manifest reports 18 records and zero accepted sources. These candidates need source/semantic review and explicit acceptance or a documented disposition; presence in the source list or a converted file does not close them. |
+| 5. Denmark (4) | No dedicated record for these four marriage/adoption sources was found in the current Denmark inventories. The two July 2026 Retsinformation pages return a JavaScript shell in the available page reader, so their exact text/currentness still needs confirmation through the official record metadata or another documented official route. |
+| 6. Sweden (4) | No dedicated record for these four statutes was found in the current Swedish pack. The Riksdag pages are live official text routes; current amendment markers should be recorded when adding them. |
+| 7. Hungary (1) | Act I of 2010 now has a usable official-reference record and source-list entry, link-only, with the NJT consolidation displayed as 1 October 2026. Its scope is civil registration; it does not resolve foreign-document recognition or evidentiary sufficiency. |
+| 8. Romania (2) | Neither adoption source has a dedicated record in the current Romania manifest or source-acceptance register. The official page for Law 273/2004 exposes a 19 April 2024 consolidation; post-2024 currentness remains to be checked. |
+| 9. Operational official collections (3) | No dedicated record was found for the three Commission collections. Keep these as operational evidence sources, separate from legislation and case law. |
+
+**Next review batch:** first resolve the seven priority-A judgments in group 2, the unrepresented priority-A EU instruments in group 1, and the six priority-A treaty records in group 3. Then process the Sweden, Denmark, and Romania national-law gaps. Germany's 15 items can move from discovery/capture to acceptance only after the relevant source and semantic checks. Keep all candidate tasks open until their own lifecycle and scope questions are resolved.
+
+**Repository evidence:** `source-library/retrieval-index.json`; the Austria, Croatia, Cyprus, Czechia, and Netherlands `references/shared-core.json` records; `source-library/germany/references/source-list.md`, `candidate-manifest.json`, and `gii-retrieval-manifest.json`; `source-library/hungary/references/source-acceptance.json` and `source-list.md`; and the Denmark, Sweden, and Romania current reference inventories.
