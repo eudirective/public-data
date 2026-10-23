@@ -111,3 +111,47 @@ Use the shared language index to avoid duplicate EU texts. No Finnish national-l
 ## Search record
 
 Searches were run on 23 October 2026. Official-host queries used exact Finnish act numbers and titles on Finlex; the court number on `kho.fi`; Migri guideline titles and the official `soveltamisohjeet`/`guidelines-for-application-of-law` index; the exact Police order identifier on Finlex, Poliisi.fi and `intermin.fi`; the exact Word filename; CELEX identifiers on EUR-Lex; and the visa procedure on `um.fi`. Search results were screened for publisher, title/identifier, and whether the hit was a legal text, a guidance index, an attachment, or merely a related result. Official file links found above are lead locators pending the per-source identity/date checks in this note. No claim of exhaustive national-site discovery is made.
+
+## Follow-up searches for failed retrievals
+
+**Follow-up checked:** 23 October 2026. This addendum records official-site search results and retrieval routes discovered after the first download test. Search results and direct links remain leads unless the note expressly says a raw file was retrieved. The web search view did not expose total result counts; counts below refer to relevant exact locators surfaced, not the search engine's total results.
+
+### Migri instruction PDFs
+
+The official [Finnish application-guidance index](https://migri.fi/soveltamisohjeet) still lists **Ohje lapsen asian käsittelystä – Lapsen etu -ohje**, **Ohje ulkomaalaisen maasta poistamisesta – Maastapoistamisohje**, and **Oleskelulupa perhesiteen perusteella**. Follow-up searches scoped to Migri's document host and each exact title surfaced **zero new direct attachment locators**; the results were the index or public applicant-facing guidance and forms. The index itself returned HTTP 403 when opened in the research viewer, and earlier direct Migri requests also met a Cloudflare challenge. The exact PDF URLs and version metadata remain unverified. Use the official index in a normal user browser to follow its attachment links; do not treat related public guidance or forms as substitutes for these internal instructions.
+
+For **Profilointi asian selvittämisessä, päätöksenteossa ja ulkomaalaisvalvonnassa** (MIG-2521602), the exact-title/identifier search surfaced the same official PDF URL already recorded above and **zero alternate official mirrors or file locators**. The direct PDF request remains blocked in the prior test; no raw was captured.
+
+The distinct EU-family staff instruction **Euroopan unionin kansalaisen, häneen rinnastettavan sekä hänen perheenjäsenensä maassa oleskelu** also produced **zero exact-title official file locators** in this follow-up. The matching Migri index did not list it. Public EU-family pages remain different source material.
+
+### Police communications order
+
+The official [Police Board instructions and orders index](https://poliisi.fi/ohjeet-ja-maaraykset) now provides a strong current-source lead: **Poliisin viestintä**, order **POL-2025-163559**, dated 18 December 2025 and listed as valid 1 January 2026–31 December 2028. The official index's search result exposes the direct [PDF attachment](https://poliisi.fi/documents/25235045/138938434/Poliisin%20viestint%C3%A4.pdf/5024297c-bb52-c354-ddc2-f9e87c9c0cad?t=1767005435861). It is a current order on the same subject, but its status as the formal successor to the ZIP's expired **POL-2019-71117** is **not verified**: the PDF could not be opened in the research viewer to inspect its “amends/repeals” field. Exact-ID follow-up searches surfaced **zero official copy locators for POL-2019-71117**. Keep the old order's historical-copy question open and treat POL-2025-163559 as a current candidate pending inspection of the PDF itself.
+
+### Visa rectification notice
+
+The exact **Rectification Request 2022 - FI.docx** search again surfaced **zero exact official DOCX locators**. It did surface a different official [Finland Abroad PDF, “Instructions for Rectification Request”](https://finlandabroad.fi/documents/2544010/0/oikaisuvaatimusohjeet%2Benglanniksi.pdf/14cf4ad2-98a9-ff87-5116-d1f4b4bd98fb?t=1556260324241). The PDF is in English and contains Embassy of Finland Bangkok contact details; it is a mission-specific comparator, not the requested Finnish 2022 DOCX and not a current general template. The current [MFA visa guidance](https://um.fi/visa-to-visit-finland) says rectification instructions are provided with the decision. Retain the exact ZIP file as historical/unlocated, and use the MFA's current page for current general procedure; do not substitute the Bangkok PDF.
+
+### Finnish EUR-Lex text routes
+
+The searches found official Finnish-language routes for the three shared EU texts, but a search result or rendered page is not a locally captured raw:
+
+| Instrument | Official Finnish route found | What the search establishes / remaining check |
+| --- | --- | --- |
+| Directive 2004/38/EC | [EUR-Lex Finnish consolidated rendition, 16 June 2011](https://eur-lex.europa.eu/eli/dir/2004/38/2011-06-16/fin/pdf); the original Finnish CELEX page and Finnish corrigenda are also indexed. | Confirms an official FI rendition and a PDF route. The indexed consolidated rendition is dated 2011; inspect the EUR-Lex version/corrigenda record and later legal changes before treating it as current. |
+| Visa Code, Regulation 810/2009 | [EUR-Lex Finnish original text](https://eur-lex.europa.eu/legal-content/FI/ALL/?uri=CELEX%3A32009R0810). | Confirms the official Finnish original text. EUR-Lex separately identifies the current consolidated version dated 28 June 2024, but this search did not verify a direct Finnish-language rendering of that consolidated version. Do not label the original text as the current consolidation; resolve the Finnish version and later 2026 provision-level changes. |
+| Schengen Borders Code, Regulation 2016/399 | [EUR-Lex Finnish ELI page](https://eur-lex.europa.eu/eli/reg/2016/399/oj?locale=fi). | The official page displays Finnish text, lists FI among the HTML/PDF language choices, and identifies the current consolidated version as 12 October 2025. This is the clearest alternate route for the earlier blocked `/legal-content/FI/TXT/` URL. |
+
+### Retrieval attempt and limits
+
+The official-site searches surfaced the routes above, but this follow-up created **no new raw files**. A repeat local HTTP attempt could not resolve hostnames from the shell (`Temporary failure in name resolution`), so that attempt gives no new publisher response status. The previous observed Migri 403, EUR-Lex 202 with an empty body, and MFA 403 remain the only recorded direct-request outcomes for those sites. The Police order PDF also returned 403 in the research viewer. No bot challenge was bypassed, no external records request was sent, and none of these new links is recorded as a locally captured or accepted copy.
+
+| Search scope and exact terms | Relevant official locators surfaced | Disposition |
+| --- | ---: | --- |
+| Migri document host: exact titles for “Lapsen etu -ohje”, “Maastapoistamisohje”, and “Oleskelulupa perhesiteen perusteella” | 0 new direct attachment URLs; 1 official index lists the targets | Locator recovery still open; normal-browser index route remains. |
+| Migri document host: “MIG-2521602” / exact profiling title | 1 previously known official PDF URL; 0 alternate URLs | Same locator, retrieval blocked; no raw. |
+| Poliisi.fi: exact “POL-2019-71117” and “Poliisin viestintä”; official orders index | 0 old-order URLs; 1 current order PDF, POL-2025-163559 | Current candidate found; succession relationship unverified. |
+| Finlandabroad.fi / um.fi: exact “Rectification Request 2022 - FI.docx” and Finnish visa rectification terms | 0 exact DOCX URLs; 1 different mission-specific official PDF | Exact file remains unlocated; current MFA guidance and historical comparator identified. |
+| EUR-Lex CELEX / ELI Finnish routes for 2004/38, 810/2009 and 2016/399 | 1 official FI route per instrument | Routes found, but no new raw downloads; current-version checks remain separate. |
+
+The Source Update Monitor pack inventory was also checked during this follow-up: it has no Finland pack, so it cannot run Finland-specific source acceptance, retrieval, or completion checks.
