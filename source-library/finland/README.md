@@ -5,6 +5,7 @@
 - [Candidate manifest](references/candidate-manifest.json)
 - [Source catalog](references/source-catalog.json)
 - [External source acceptance register](references/source-acceptance.json)
+- [Retrieval routes for unregistered sources identified by the ZIP audit](references/missing-source-retrieval-methods-2026-10-23.md)
 - [Sustainability assessment](references/sustainability-assessment.md)
 - [Finlex capture manifest](references/finlex-retrieval-manifest.json)
 - [Saved capture specification](references/finlex-captures.json)
