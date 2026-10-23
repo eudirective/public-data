@@ -83,13 +83,29 @@ Use the shared language index to avoid duplicate EU texts. No Finnish national-l
 
 ## Retrieval evidence and limits
 
-- Finlex current-law routes were opened for the ten laws above. Finlex identified Act 746/2011's current ELI as dated 9 June 2026 and Act 906/2019's as dated 16 June 2026. Other acts' ELI dates must be recorded when the individual source is registered.
+- A live download test on 23 October 2026 retrieved ten Finlex current-law pages and the KHO decision page as raw HTML. The files are in the ignored scratch directory `temp/finland/raw/`; the table records their identity, Finlex current ELI date where available, byte count and SHA-256. These test captures are not accepted local copies or source-catalog records.
+
+| Local raw file | Identity and Finlex current ELI date | Bytes | SHA-256 |
+| --- | --- | ---: | --- |
+| `fi-act-731-1999.html` | Constitution 731/1999; 2018-10-05 | 1,164,399 | `37ab717096abb2f7b2e6367467012a9ff0fb968be54a7d720ecf7b1548274085` |
+| `fi-act-13-2003.html` | Electronic Administrative Services Act 13/2003; 2026-03-27 | 469,662 | `b3527cf4e684b495b4a99f14253f856605d8a9c9554cb6bfcf6bdcec1e602b0e` |
+| `fi-act-615-2020.html` | Immigration Administration Personal Data Act 615/2020; 2026-07-09 | 715,652 | `066b3f3afb2a42097aa0aab16c1226a0b8878d54b6980d41c89f59c1598de729` |
+| `fi-act-639-2019.html` | Border Guard Personal Data Act 639/2019; 2026-09-04 | 1,154,367 | `7efb37bd125d0492becce517ad26f54ae0f282f20781a8ff8a8d648cefd6f812` |
+| `fi-act-424-2003.html` | Public Officials' Language Skills Act 424/2003; 2025-12-05 | 416,716 | `45fd06c5a75433cbaa82e6a39ff3b4eaf4ac9af6a8189c9a16b4e1cbb4446af4` |
+| `fi-act-872-2011.html` | Police Act 872/2011; 2026-07-09 | 3,310,520 | `4e1933a5a9382392a7653b7c5fa1a15c7d0a0b85e1f44e2b615833a1be0afde2` |
+| `fi-act-110-1992.html` | Police Administration Act 110/1992; 2026-05-22 | 957,545 | `3a95539ce47308c8afb9fef63cc83658e06c751c0fcf124bc6866e3eb2a840e4` |
+| `fi-act-746-2011.html` | Reception Act 746/2011; 2026-06-09 | 1,181,016 | `fbd03683de2d775ab07cdb77675a16435fa09142166d104566d2a2fe23c73c9e` |
+| `fi-decree-1030-1999.html` | Openness Decree 1030/1999; 2010-07-01 | 348,195 | `954dce580030a1f65c4aac5285d6878bb85338b51e065ab646791560052a715c` |
+| `fi-act-906-2019.html` | Information Management Act 906/2019; 2026-06-16 | 1,068,424 | `892029c3720e7e9bc3a5843f627c9f0d62f5d44085f1e267a3138abe6f144ef6` |
+| `fi-kho-2024-32.html` | KHO:2024:32; case number present in page title and body | 126,228 | `1329d8a0c62330225d640ad7d1856f6a47a121593a8f2b048e7916ab7487ee43` |
+
+- All eleven successful test requests returned HTTP 200 and `text/html`. The Finlex AKN API GET for Act 731/1999 returned 404, while its current-law HTML page returned 200; the browser-page route is the tested fallback for that act.
 - Migri's official guidance index and search results exposed the current instruction titles and direct PDF URLs for profiling, means of support, and the §§36a–f circumvention instruction. The child-interest, removal, and family-ties items were visible in the official index but their exact current PDF URLs and document metadata were not inspected.
-- The KHO decision page and annual archive were located on the court's official host.
-- The MFA current visa page was located and inspected. It is a route for current procedural reference, not the ZIP's 2022 DOCX.
-- EUR-Lex provided Finnish-language instrument routes. Check each instrument's latest language-specific consolidation and subsequent amendments/corrigenda at retrieval time.
+- The direct official profiling PDF request returned HTTP 403 with a Cloudflare challenge. The Migri index also returned 403 in the shell and Chromium browser test. No Migri PDF raw was captured; the indexed titles and links remain retrieval leads, not retrieved source bytes.
+- The KHO decision page was retrieved successfully; the official annual precedent archive remains a discovery route, not a captured source.
+- The MFA current visa page request returned HTTP 403 in the shell test. Its official page remains a lead for current procedural reference, not the ZIP's 2022 DOCX.
+- EUR-Lex page requests for all three Finnish-language EU instruments returned HTTP 202 with zero body bytes in the shell test; the research browser displayed its JavaScript verification page. No EUR-Lex raw was captured.
 - The exact Migri EU-family guide title and the 2022 DOCX filename returned no matching official file locator in this bounded search. The four exact `POL-2019-71117` searches returned no qualifying official copy. These findings are not exhaustive portal reviews.
-- This checkout contains no `temp/finland/raw/` directory or `finland source package.zip`; existing Finland manifests refer to raw files under that temporary path. This only describes the checked `/tmp/eudirective-public-data-batch` checkout, not other folders or backups on the machine.
 - The Source Update Monitor plugin lists no Finland source pack or Finland actions. Its mirror sync returned a verified snapshot at the baseline above, but mirror inventory and status calls still reported “not synchronized”; no Finland runtime checks or completion gates are claimed.
 
 ## Search record
