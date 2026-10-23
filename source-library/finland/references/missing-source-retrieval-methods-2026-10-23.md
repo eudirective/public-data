@@ -63,7 +63,7 @@ The ZIP's **POL-2019-71117, Police Communications** is described in the audit as
 2. If no public file is listed, ask the National Police Board registry for the signed order, its effective/expiry dates, any extension, and any replacing order.
 3. Register it as historical only after the retrieved copy's identity and dates are checked; discover the successor separately before using it for current practice.
 
-No records request was sent. The search result is “official web locator not found,” not proof that the order is unavailable.
+No records request was sent. Exact-ID searches found no official locator for POL-2019-71117; this is not proof that the order is unavailable. The current POL-2025-163559 listing is accepted as a locator and date reference only, not as a formally verified successor.
 
 ### Visa-remedy notice
 
@@ -126,7 +126,7 @@ The distinct EU-family staff instruction **Euroopan unionin kansalaisen, häneen
 
 ### Police communications order
 
-The official [Police Board instructions and orders index](https://poliisi.fi/ohjeet-ja-maaraykset) now provides a strong current-source lead: **Poliisin viestintä**, order **POL-2025-163559**, dated 18 December 2025 and listed as valid 1 January 2026–31 December 2028. The official index's search result exposes the direct [PDF attachment](https://poliisi.fi/documents/25235045/138938434/Poliisin%20viestint%C3%A4.pdf/5024297c-bb52-c354-ddc2-f9e87c9c0cad?t=1767005435861). It is a current order on the same subject, but its status as the formal successor to the ZIP's expired **POL-2019-71117** is **not verified**: the PDF could not be opened in the research viewer to inspect its “amends/repeals” field. Exact-ID follow-up searches surfaced **zero official copy locators for POL-2019-71117**. Keep the old order's historical-copy question open and treat POL-2025-163559 as a current candidate pending inspection of the PDF itself.
+The official [Police Board instructions and orders index](https://poliisi.fi/ohjeet-ja-maaraykset) now provides a strong current-source lead: **Poliisin viestintä**, order **POL-2025-163559**, dated 18 December 2025 and listed as valid 1 January 2026–31 December 2028. The official index's search result exposes the direct [PDF attachment](https://poliisi.fi/documents/25235045/138938434/Poliisin%20viestint%C3%A4.pdf/5024297c-bb52-c354-ddc2-f9e87c9c0cad?t=1767005435861). It is a current order on the same subject, but its status as the formal successor to the ZIP's expired **POL-2019-71117** is **not verified**: the PDF could not be opened in the research viewer to inspect its “amends/repeals” field. Exact-ID follow-up searches surfaced **zero official copy locators for POL-2019-71117**. Keep the old order's historical-copy question open. POL-2025-163559 is now recorded as an accepted official locator with the listed validity dates; its PDF text remains unreviewed because the research viewer returned 403, and formal succession from POL-2019-71117 remains unverified.
 
 ### Visa rectification notice
 
@@ -155,3 +155,14 @@ The official-site searches surfaced the routes above, but this follow-up created
 | EUR-Lex CELEX / ELI Finnish routes for 2004/38, 810/2009 and 2016/399 | 1 official FI route per instrument | Routes found, but no new raw downloads; current-version checks remain separate. |
 
 The Source Update Monitor pack inventory was also checked during this follow-up: it has no Finland pack, so it cannot run Finland-specific source acceptance, retrieval, or completion checks.
+
+## External-reference acceptance update
+
+**Checked:** 23 October 2026. These entries resolve official link discovery only. They do not record downloaded raw files, accepted local copies, or topic coverage.
+
+- **Police communications:** the Police Board index identifies order **POL-2025-163559**, document **ID-25841820**, dated 18 December 2025 and valid 1 January 2026–31 December 2028. The official linked PDF returned 403 in the research viewer. Its identity and dates are accepted as an external locator; its text and formal relationship to **POL-2019-71117** remain open. See the source-catalog and acceptance-register entries.
+- **Directive 2004/38/EC:** EUR-Lex identifies the Finnish consolidated text dated **16 June 2011** as the current consolidation. The page lists corrigenda separately and states the consolidation is an informational aid without legal effect. The FI link is in [`shared-core-index-FI.json`](../../shared-core-index-FI.json).
+- **Visa Code, Regulation 810/2009:** a Finnish consolidated text dated **11 June 2024** was located. EUR-Lex identifies **28 June 2024** as the latest overall consolidation, and the later Finnish rendition was not verified. Decisions (EU) 2026/1454 and 2026/1733 suspend specified provisions for nationals of Somalia and Guinea, respectively. Keep the language-version gap and country-specific dependencies open; do not present the 11 June Finnish text as the latest complete current text.
+- **Schengen Borders Code, Regulation 2016/399:** EUR-Lex search results expose the Finnish consolidated text dated **12 October 2025**. The exact versioned official link is recorded in the Finnish shared-core index.
+
+The three EU instruments are registered once as external-only Finnish shared-core references in [`shared-core-index-FI.json`](../../shared-core-index-FI.json), and Finland points to them from [`shared-core.json`](shared-core.json). No `core/fi/` files were created because no Finnish raw text was captured. The earlier search record's “no Finnish index present” statement describes the checkout before this update.
