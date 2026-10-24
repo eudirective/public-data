@@ -1,15 +1,21 @@
 # Croatia review: completion status
 
-**As of:** 24 October 2026
+**As of:** 25 October 2026
 **Status:** incomplete; source acquisition, local documents, topic coverage, dependencies and operational discovery remain separate.
 
 ## Current record state
 
-- The source register contains 82 records. Thirty-four local documents are accepted under documents/: 25 Croatian legal-text documents, four MUP EEA forms, three MUP SIS forms, one MVEP VIS form and one MUP EEA guidance article body.
+- The source register contains 82 records. Thirty-four local documents are accepted under documents/: 25 Croatian legal-text documents, four MUP EEA forms, three MUP SIS forms, one MVEP VIS form and one MUP EEA guidance article body. The AZOP complaint route remains a separately accepted official link; no new local document was selected in this review.
 - Thirty-five official references are separately reviewed as usable by link within recorded publisher, identity, version/cutoff, content and limitation scopes. Link usability does not establish a retained copy or resolve topic coverage.
-- The four MUP EEA forms (1b, 2b, 3b and 6b) remain visually reviewed page by page. Four additional SIS/VIS forms were accepted on 24 October after official parent-page, text-layer, page-count, file-property and hash checks; visual page-image layout was not independently inspected. The three MUP SIS PDFs have fillable fields; the MVEP VIS PDF does not. MUP’s Terms of Use expressly allow the seven MUP forms and the individually identified EEA guidance article body to be reproduced or used with attribution; the single MVEP form is retained under a narrow Article 18(3) assessment. This does not extend to page shells, third-party material or other unreviewed page content.
+- The four MUP EEA forms (1b, 2b, 3b and 6b) remain visually reviewed page by page. Four additional SIS/VIS forms were accepted on 24 October after official parent-page, text-layer, page-count, file-property and hash checks; visual page-image layout was not independently inspected. The three MUP SIS PDFs have fillable fields; the MVEP VIS PDF does not. MUP’s Terms of Use expressly allow the seven MUP forms and the individually identified EEA guidance article body to be reproduced or used with attribution; the single MVEP form is retained under a narrow Article 18(3) assessment. AZOP’s Terms of Use, checked 25 October, allow attributed republication without changing meaning; the scoped complaint article remains link-only in this pack. These permissions do not extend to page shells, third-party material, the optional AZOP DOCX or its live data-bearing form.
 - The 25 legal-text conversions, 51 raw source responses, 22 candidate/discovery notes and three old acquisition manifests are preserved in the EU Source Update Monitor's indexed local-only archive. Every note, manifest, fragment and raw snapshot was hash-reconciled with the local source before its country-pack copy was removed. The pack has no `candidates/` or `captures/` directory and no candidate/retrieval manifest under `references/`.
 - The MUP Propisi index checked 24 October lists the EEA Act chain through NN 114/22, EEA residence regulation through NN 155/22, Foreigners Act through NN 55/26, third-country residence regulation through NN 43/26 and procedure regulation through NN 116/26. The form index omits NN 155/22; that amendment changes fees, not form layout. Neither index is a consolidated legal text.
+
+## Archived page-candidate dispositions (25 October 2026)
+
+The nine remaining archived Croatia page candidates have recorded outcomes. The AZOP complaint page is a usable official link; its publisher metadata reports an 11 May 2026 modification date and the live article was checked on 25 October. The candidate capture used a generic body selector and includes page-shell noise, while the live page also exposes an optional DOCX and a data-bearing form. The link is sufficient for the scoped remedy reference, so no article copy or form is retained.
+
+Five other live pages remain link-only references: MVEP family-member visa guidance, the general visa-application page, the nationality-selector overview, current refusal-appeal guidance, and the Ombudsman complaint route. Their scoped link reviews are recorded in the source register; local copies were not selected because the pages are undated or dynamic and no suitable reuse basis was established. Three stale leads remain excluded from current use: the MVEP legacy FAQ, the Information Commissioner English guide and AZOP’s mixed-current/legacy SIS/VIS guide. The nine unpromoted candidate artifacts remain in the indexed local-only archive; none is published under the country pack.
 
 ## What remains open
 
