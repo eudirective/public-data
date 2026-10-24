@@ -7,7 +7,7 @@
   "source_count": 62,
   "accepted_external_reference_count": 59,
   "not_relied_upon_count": 3,
-  "local_copy_accepted_count": 0,
+  "local_copy_accepted_count": 8,
   "topic_accepted_count": 0,
   "country_review_complete": false,
   "input_manifests": [
@@ -35,7 +35,9 @@
       "scoped Vreemdelingenwet 2000": "nl-10",
       "scoped IND objection/appeal": "nl-26",
       "scoped Algemene wet bestuursrecht": "nl-14"
-    }
+    },
+    "focused_candidates_promoted": 8,
+    "duplicate_candidate_files_archived": 2
   },
   "sources": [
     {
@@ -246,11 +248,19 @@
           "id": "nl-06-vreemdelingenwet-2000"
         }
       ],
-      "captured_version_evidence": "An indexed record inspected in April 2026 reported a version current from 28 February 2026 plus future/undated changes; October text is not confirmed.",
+      "captured_version_evidence": "An indexed record inspected in April 2026 reported a version current from 28 February 2026 plus future/undated changes; October text is not confirmed.; raw official capture and deterministic conversion replay verified on 2026-10-24. Wetten.nl could not be reopened by the research client on 2026-10-24 (cache miss/429); treat the retained copy as dated and consult the publisher for current text.",
       "observed_resolved_url": "https://wetten.overheid.nl/BWBR0011823/2026-09-01",
-      "capture_status": "converted_review_candidate",
-      "local_copy_accepted": false,
-      "topic_accepted": false
+      "capture_status": "accepted_dated_local_copy",
+      "local_copy_accepted": true,
+      "topic_accepted": false,
+      "local_copy_reviewed_on": "2026-10-24",
+      "local_document_path": "source-library/netherlands/documents/legislation/vreemdelingenwet-2000.md",
+      "local_document_sha256": "b08230e2384870c7eb33cdad32a746e57adf63a1c1908b058560663ca9f363d9",
+      "local_document_git_blob_sha": "90b471c7a1696e6ccb5374395cc1fe5574b1b325",
+      "local_source_sha256": "5be5799927508ea759d751f912b28c1fbcf933cfaa517cd972941a1b09253faa",
+      "local_replay_candidate_sha256": "e5bdabef2c0eee8ebd0f642a8ff142af67f7d96b5506d9c8878a77d3e77f3b73",
+      "local_copy_acceptance_basis": "Official Wetten.nl regulation identity, publisher version marker and raw bytes were reviewed; deterministic replay of the full regeling container matched the candidate conversion hash; local text is accepted as a dated artifact, not certified current after capture. Dutch Auteurswet Article 11 applies to public-authority laws, decrees and regulations.",
+      "local_copy_limitations": "Consult the official publisher for the version applicable to the matter; local-copy acceptance does not imply topic acceptance or country completion."
     },
     {
       "source_id": "nl-11",
@@ -271,11 +281,19 @@
           "id": "nl-01-vreemdelingenbesluit-2000-eu-eea-family-provisions-(including-article-8.7)"
         }
       ],
-      "captured_version_evidence": "An indexed result crawled about five months before this review showed a version from 1 January 2026 and Article 8.7 provisions referenced by IND; October text is not confirmed.",
+      "captured_version_evidence": "An indexed result crawled about five months before this review showed a version from 1 January 2026 and Article 8.7 provisions referenced by IND; October text is not confirmed.; raw official capture and deterministic conversion replay verified on 2026-10-24. Wetten.nl could not be reopened by the research client on 2026-10-24 (cache miss/429); treat the retained copy as dated and consult the publisher for current text.",
       "observed_resolved_url": "https://wetten.overheid.nl/BWBR0011825/2026-09-25",
-      "capture_status": "converted_review_candidate",
-      "local_copy_accepted": false,
-      "topic_accepted": false
+      "capture_status": "accepted_dated_local_copy",
+      "local_copy_accepted": true,
+      "topic_accepted": false,
+      "local_copy_reviewed_on": "2026-10-24",
+      "local_document_path": "source-library/netherlands/documents/legislation/vreemdelingenbesluit-2000.md",
+      "local_document_sha256": "4189aac5fd07d1209980ca46de2d5445e7807a0773bb91e1ee908f51d4a08ba0",
+      "local_document_git_blob_sha": "e207513328b4a252f44876a548f39f16fe5997b5",
+      "local_source_sha256": "6cfdd18a61c0fe2769297fe8ff65e0cc65201138880d3bd4323b82e971cda2f1",
+      "local_replay_candidate_sha256": "ca13c436b0456fa608721ba3487b18fd18166eb1e836f52f02163892b3d12983",
+      "local_copy_acceptance_basis": "Official Wetten.nl regulation identity, publisher version marker and raw bytes were reviewed; deterministic replay of the full regeling container matched the candidate conversion hash; local text is accepted as a dated artifact, not certified current after capture. Dutch Auteurswet Article 11 applies to public-authority laws, decrees and regulations.",
+      "local_copy_limitations": "Consult the official publisher for the version applicable to the matter; local-copy acceptance does not imply topic acceptance or country completion."
     },
     {
       "source_id": "nl-12",
@@ -338,11 +356,19 @@
           "id": "nl-08-algemene-wet-bestuursrecht-(general-administrative-law-act)"
         }
       ],
-      "captured_version_evidence": "Indexed record reported current from 1 January 2026 and future changes from 2027.",
+      "captured_version_evidence": "Indexed record reported current from 1 January 2026 and future changes from 2027.; raw official capture and deterministic conversion replay verified on 2026-10-24. Wetten.nl could not be reopened by the research client on 2026-10-24 (cache miss/429); treat the retained copy as dated and consult the publisher for current text.",
       "observed_resolved_url": "https://wetten.overheid.nl/BWBR0005537/2026-08-15",
-      "capture_status": "converted_review_candidate",
-      "local_copy_accepted": false,
-      "topic_accepted": false
+      "capture_status": "accepted_dated_local_copy",
+      "local_copy_accepted": true,
+      "topic_accepted": false,
+      "local_copy_reviewed_on": "2026-10-24",
+      "local_document_path": "source-library/netherlands/documents/legislation/algemene-wet-bestuursrecht.md",
+      "local_document_sha256": "471d0caa5fe9f4ff8aebb0fc3d998492bb46c6a40d4cc74281fcc62703cdc1d7",
+      "local_document_git_blob_sha": "aee9b2da4ea25b00c7dcff7f217d4f2eaf701f24",
+      "local_source_sha256": "b9d1c1b8c218e7d674e4900c7817b63497372e62a367b1026a5c54e225b0cfea",
+      "local_replay_candidate_sha256": "d4079262d2029da91ddca4d571e4cead25dae77b0da4c27a17d3ea0b0778ca16",
+      "local_copy_acceptance_basis": "Official Wetten.nl regulation identity, publisher version marker and raw bytes were reviewed; deterministic replay of the full regeling container matched the candidate conversion hash; local text is accepted as a dated artifact, not certified current after capture. Dutch Auteurswet Article 11 applies to public-authority laws, decrees and regulations.",
+      "local_copy_limitations": "Consult the official publisher for the version applicable to the matter; local-copy acceptance does not imply topic acceptance or country completion."
     },
     {
       "source_id": "nl-15",
@@ -428,9 +454,17 @@
       ],
       "captured_version_evidence": "Last updated 25 September 2026; cites Aliens Decree Articles 8.7, 8.9, 8.13 and Circular B10/2.",
       "observed_resolved_url": "https://ind.nl/en/residence-permits/family-and-partner/verification-against-eu-law-for-union-citizen-family-members",
-      "capture_status": "converted_review_candidate",
-      "local_copy_accepted": false,
-      "topic_accepted": false
+      "capture_status": "accepted_dated_local_copy",
+      "local_copy_accepted": true,
+      "topic_accepted": false,
+      "local_copy_reviewed_on": "2026-10-24",
+      "local_document_path": "source-library/netherlands/documents/guidance/ind-verification-against-eu-law-family-members.md",
+      "local_document_sha256": "cd0c1fb802e09ee88b82a7606b405d24d43727e1c490da08e751377bcdb0d521",
+      "local_document_git_blob_sha": "be94b776886b1af3659b6a6e01348b231a4aec94",
+      "local_source_sha256": "2a64ee96f9666c55d1c11e630bb246c522cf149fdd4435d504dc012c5e023700",
+      "local_replay_candidate_sha256": "9f010204307ab411997149899dc0053be25748efc384f32c5f545dd3f1ce60b1",
+      "local_copy_acceptance_basis": "Official IND main-page content was live-checked on 2026-10-24; the captured raw HTML and deterministic replay match the candidate conversion hash; reuse is allowed by the IND Proclaimer when the source is named.",
+      "local_copy_limitations": "Dynamic document-overview questionnaire and linked forms are not embedded; source text does not itself establish issue coverage."
     },
     {
       "source_id": "nl-19",
@@ -600,9 +634,17 @@
       ],
       "captured_version_evidence": "Last updated 10 August 2026; page lists decision categories and separates objection from court appeal.",
       "observed_resolved_url": "https://ind.nl/en/after-your-application/object-to-or-appeal-decision",
-      "capture_status": "converted_review_candidate",
-      "local_copy_accepted": false,
-      "topic_accepted": false
+      "capture_status": "accepted_dated_local_copy",
+      "local_copy_accepted": true,
+      "topic_accepted": false,
+      "local_copy_reviewed_on": "2026-10-24",
+      "local_document_path": "source-library/netherlands/documents/guidance/ind-object-to-or-appeal-decision.md",
+      "local_document_sha256": "9ab36e922a13d0169c24a3c755301f89ddd0fedb60e47671dae93f4b710884a7",
+      "local_document_git_blob_sha": "729ff9c4748ff78e12d79273ae275220d792aa73",
+      "local_source_sha256": "e61e7199178d515ee3cc2757e428af893180083615647d6bec5bbf3dfe956a5d",
+      "local_replay_candidate_sha256": "212e9bb4c406ea42637e901e599867fba2c2e8e4bded85ae4195eeab019916c8",
+      "local_copy_acceptance_basis": "Official IND main-page content was live-checked on 2026-10-24; the captured raw HTML and deterministic replay match the candidate conversion hash; reuse is allowed by the IND Proclaimer when the source is named.",
+      "local_copy_limitations": "General guidance only; routes and deadlines depend on the individual decision; it does not establish a complete EU-family remedy route."
     },
     {
       "source_id": "nl-27",
@@ -1168,11 +1210,19 @@
           "id": "nl-03-burgerlijk-wetboek-boek-10-foreign-marriage-recognition-provisions"
         }
       ],
-      "captured_version_evidence": "Geldend van 01-07-2026 t/m heden",
+      "captured_version_evidence": "Geldend van 01-07-2026 t/m heden; raw official capture and deterministic conversion replay verified on 2026-10-24. Wetten.nl could not be reopened by the research client on 2026-10-24 (cache miss/429); treat the retained copy as dated and consult the publisher for current text.",
       "observed_resolved_url": "https://wetten.overheid.nl/BWBR0030068/2026-07-01",
-      "capture_status": "converted_review_candidate",
-      "local_copy_accepted": false,
-      "topic_accepted": false
+      "capture_status": "accepted_dated_local_copy",
+      "local_copy_accepted": true,
+      "topic_accepted": false,
+      "local_copy_reviewed_on": "2026-10-24",
+      "local_document_path": "source-library/netherlands/documents/legislation/burgerlijk-wetboek-book-10.md",
+      "local_document_sha256": "783c2cdc97a20198242323b54b15bb61a9a0ec949d87eda9709531abe916876f",
+      "local_document_git_blob_sha": "22fef694514a777daa76182aa93dc80cf2babb74",
+      "local_source_sha256": "56ee5761e2793f7a28137ac8bdeca1fda48fff1cc56a85db6161bfc540f08f15",
+      "local_replay_candidate_sha256": "f15767d4307256373a0c15749ac7f7d522f9e62a2f52db71eae7c3044c5f66b6",
+      "local_copy_acceptance_basis": "Official Wetten.nl regulation identity, publisher version marker and raw bytes were reviewed; deterministic replay of the full regeling container matched the candidate conversion hash; local text is accepted as a dated artifact, not certified current after capture. Dutch Auteurswet Article 11 applies to public-authority laws, decrees and regulations.",
+      "local_copy_limitations": "Consult the official publisher for the version applicable to the matter; local-copy acceptance does not imply topic acceptance or country completion."
     },
     {
       "source_id": "nl-54",
@@ -1189,11 +1239,19 @@
           "id": "nl-04-burgerlijk-wetboek-boek-1-civil-status-and-parentage-provisions"
         }
       ],
-      "captured_version_evidence": "Geldend van 05-07-2025 t/m heden",
+      "captured_version_evidence": "Geldend van 05-07-2025 t/m heden; raw official capture and deterministic conversion replay verified on 2026-10-24. Wetten.nl could not be reopened by the research client on 2026-10-24 (cache miss/429); treat the retained copy as dated and consult the publisher for current text.",
       "observed_resolved_url": "https://wetten.overheid.nl/BWBR0002656/2025-07-05",
-      "capture_status": "converted_review_candidate",
-      "local_copy_accepted": false,
-      "topic_accepted": false
+      "capture_status": "accepted_dated_local_copy",
+      "local_copy_accepted": true,
+      "topic_accepted": false,
+      "local_copy_reviewed_on": "2026-10-24",
+      "local_document_path": "source-library/netherlands/documents/legislation/burgerlijk-wetboek-book-1.md",
+      "local_document_sha256": "8eafecce68013227bc99066ab44d5e48031d87f237dd4e22a7b325341c6f872b",
+      "local_document_git_blob_sha": "d7bb4965bdf09ad970ad7793ae048d46d90ab5d3",
+      "local_source_sha256": "0236bc5f0b35a8ce219173adbde29216ea0378312ee2373c7e0ca3380d5b877c",
+      "local_replay_candidate_sha256": "6915291ddc61dfd0471ff14e684392010b06d83a96e9f0953cc532f5c4104592",
+      "local_copy_acceptance_basis": "Official Wetten.nl regulation identity, publisher version marker and raw bytes were reviewed; deterministic replay of the full regeling container matched the candidate conversion hash; local text is accepted as a dated artifact, not certified current after capture. Dutch Auteurswet Article 11 applies to public-authority laws, decrees and regulations.",
+      "local_copy_limitations": "Consult the official publisher for the version applicable to the matter; local-copy acceptance does not imply topic acceptance or country completion."
     },
     {
       "source_id": "nl-55",
@@ -1210,11 +1268,19 @@
           "id": "nl-05-wet-opneming-buitenlandse-kinderen-ter-adoptie"
         }
       ],
-      "captured_version_evidence": "Geldend van 01-08-2018 t/m heden",
+      "captured_version_evidence": "Geldend van 01-08-2018 t/m heden; raw official capture and deterministic conversion replay verified on 2026-10-24. Wetten.nl could not be reopened by the research client on 2026-10-24 (cache miss/429); treat the retained copy as dated and consult the publisher for current text.",
       "observed_resolved_url": "https://wetten.overheid.nl/BWBR0004447/2018-08-01",
-      "capture_status": "converted_review_candidate",
-      "local_copy_accepted": false,
-      "topic_accepted": false
+      "capture_status": "accepted_dated_local_copy",
+      "local_copy_accepted": true,
+      "topic_accepted": false,
+      "local_copy_reviewed_on": "2026-10-24",
+      "local_document_path": "source-library/netherlands/documents/legislation/wet-opneming-buitenlandse-kinderen-ter-adoptie.md",
+      "local_document_sha256": "eff399f51fa5e0833bbf284bdb096f39ffb2536b7e9ad809a91d217a4b1df4ec",
+      "local_document_git_blob_sha": "95818cda659d9a54d5acfc518cc4da66d8e39b5f",
+      "local_source_sha256": "6770a63b3867aa5c15da0ed601af1fc6dab494545e1f6c13100873c812a81435",
+      "local_replay_candidate_sha256": "bb9d2181b75735e625327dc27c377f4ab95b55e063370078e1b2439345b630df",
+      "local_copy_acceptance_basis": "Official Wetten.nl regulation identity, publisher version marker and raw bytes were reviewed; deterministic replay of the full regeling container matched the candidate conversion hash; local text is accepted as a dated artifact, not certified current after capture. Dutch Auteurswet Article 11 applies to public-authority laws, decrees and regulations.",
+      "local_copy_limitations": "Consult the official publisher for the version applicable to the matter; local-copy acceptance does not imply topic acceptance or country completion."
     },
     {
       "source_id": "nl-56",
@@ -1335,5 +1401,6 @@
       "topic_accepted": false,
       "origin": "issue_led_source_addition_2026-10-21"
     }
-  ]
+  ],
+  "local_copy_review_date": "2026-10-24"
 }
