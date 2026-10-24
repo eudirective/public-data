@@ -5,8 +5,8 @@
   "status": "partial",
   "publisher_assessment": {
     "publisher": "Belgian federal, regional, community and municipal authorities, official legal databases and competent oversight bodies; N-Lex is an EU discovery service.",
-    "decision": "Accept 47 official links within their recorded scope and 29 local copies after separate review. One superseded IBZ route is not relied upon. No legal topic is accepted as adequately covered; Belgium review remains incomplete.",
-    "basis": "Accepted local copies, including the Federal Justice international-adoption guidance, have separate evidence for publisher identity, version/freshness limits, extraction completeness or native-file integrity, attachment scope and legal classification. Exact raw capture hashes were verified where retained; the current Codex source is a newly captured publisher response. Dynamic guidance and process pages retain date and scope caveats. External-link acceptance, local-copy acceptance and topic coverage remain separate.",
+    "decision": "Accept 47 official links within their recorded scope and 31 local copies after separate review. One superseded IBZ route is not relied upon. No legal topic is accepted as adequately covered; Belgium review remains incomplete.",
+    "basis": "Accepted local copies, including the Federal Justice international-adoption guidance, have separate evidence for publisher identity, version/freshness limits, extraction completeness or native-file integrity, attachment scope and legal classification. Exact raw capture hashes were verified where retained; the current Codex source is a newly captured publisher response. Dynamic guidance and process pages retain date and scope caveats. External-link acceptance, local-copy acceptance and topic coverage remain separate. Two additional date-bounded snapshots were accepted after direct retrieval and separate review: the short IBZ family-reunification landing page and the French DPA complaint page. A Dutch Article 40ter guidance conversion was rejected because its visible text remains mixed; its legal provision is already represented in the accepted Immigration Law document.",
     "limitation": "Acceptance of official links and the accepted local guidance and national texts does not establish legal topic completeness, validate every linked form or case, or mark Belgium review complete. The Ostbelgien legal database expressly warns that only the original Gazette publication is legally binding."
   },
   "counts": {
@@ -14,7 +14,7 @@
     "accepted_external_references": 47,
     "pending_external_references": 0,
     "not_relied_upon_superseded": 1,
-    "accepted_local_copies": 29,
+    "accepted_local_copies": 31,
     "accepted_topics": 0,
     "country_review_complete": false
   },
@@ -128,7 +128,7 @@
   "scope_decisions": [
     {
       "source_id": "be-eu-family-guidance",
-      "decision": "Accept official route only; rendered page is incomplete/work in progress and does not prove EU/EEA/Swiss scope."
+      "decision": "Accept the current official landing page as a short, date-bounded snapshot only. Its linked EU-citizen detail page is marked work in progress; the overview does not prove exact EU/EEA/Swiss legal scope or topic coverage."
     },
     {
       "source_id": "be-annex-19ter-fr",
@@ -161,6 +161,14 @@
     {
       "source_id": "be-annex-19ter-fr",
       "decision": "The current IBZ index links a 2015-named image-only Annexe 19ter PDF with a prominent SPECIMEN watermark. The local file is accepted as that specimen only; no claim is made that it is a blank current application form."
+    },
+    {
+      "source_id": "be-mobile-belgian-40ter",
+      "decision": "Retain the official route as link-only. Direct review confirms the visible guidance mixes Article 40ter with unrelated generic EU-family text; the legal provision is represented in the accepted Immigration Law document, but mobile-Belgian procedure coverage remains open."
+    },
+    {
+      "source_id": "be-dpa-complaint-fr",
+      "decision": "Accept the directly retrieved French complaint page as a date-bounded snapshot; record that a web-cached view showed maintenance and do not treat the separate paper-form PDF as accepted until its current version is verified."
     }
   ],
   "coverage_gaps": [
@@ -181,30 +189,32 @@
     "be-law-1980-nl",
     "be-rd-1981-fr",
     "be-rd-1981-nl",
-    "be-administrative-motivation-act",
-    "be-publicity-act-1994",
-    "be-code-pil",
-    "be-01-law-of-16-july-2004-establishing-the-code-of-private-international-law",
-    "be-council-state-laws",
+    "be-annex-19-fr",
+    "be-annex-19ter-fr",
+    "be-annex-20-fr",
     "be-eu-entry-residence",
+    "be-eu-family-guidance",
+    "be-d-visa-article9",
     "be-registration-certificate-change",
-    "be-visa-gdpr",
-    "be-federal-ombudsman-filing",
-    "be-federal-ombudsman-process",
-    "be-brussels-cada-guidance",
     "be-visa-hub",
+    "be-visa-competence-matrix",
     "be-uk-mission-eu-family-visa",
     "be-uae-mission-eu-family-visa",
-    "be-annex-19-fr",
-    "be-annex-20-fr",
-    "be-visa-competence-matrix",
-    "be-d-visa-article9",
+    "be-visa-gdpr",
+    "be-administrative-motivation-act",
+    "be-publicity-act-1994",
     "be-federal-cada-appeal",
+    "be-council-state-laws",
+    "be-federal-ombudsman-filing",
+    "be-federal-ombudsman-process",
+    "be-code-pil",
+    "be-rvv-case-sample-320874",
+    "be-dpa-complaint-fr",
     "be-dpa-complaint-nl",
     "be-wallonia-publicity-decree",
     "be-flanders-bestuursdecreet",
-    "be-rvv-case-sample-320874",
-    "be-annex-19ter-fr",
+    "be-brussels-cada-guidance",
+    "be-01-law-of-16-july-2004-establishing-the-code-of-private-international-law",
     "be-05-federal-justice-guidance-recognition-registration-foreign-adoptions"
   ],
   "local_copy_decisions": [
@@ -617,6 +627,36 @@
         "legal_classification": "Official administrative guidance on international-adoption procedure and recognition/registration of foreign adoption decisions. It is not legislation and does not establish free-movement residence rights."
       },
       "scope_limit": "Accepted as a date-bounded snapshot of the Federal Justice page observed on 2026-10-24. The page gives no revision date. The source does not establish topic coverage or Belgium review completion."
+    },
+    {
+      "source_id": "be-eu-family-guidance",
+      "decision": "accepted",
+      "local_path": "source-library/belgium/documents/guidance/be-eu-family-guidance.md",
+      "review_date": "2026-10-24",
+      "official_url": "https://dofi.ibz.be/en/themes/citizens-european-union/family-reunification",
+      "evidence": {
+        "publisher_identity": "The page is hosted on the official Belgian Immigration Office (IBZ/Dofi) domain and its response was directly fetched from dofi.ibz.be.",
+        "version_currentness": "No publication or revision date is displayed. The full 2026-10-24 response is 22,615 bytes and its SHA-256 exactly matches the earlier 2026-10-19 capture. Acceptance is date-bounded to the observed page.",
+        "extraction_completeness": "The complete visible article element was extracted from the direct HTML response; the response includes the short entitlement overview and both detail links. The EU-citizen detail link is visibly labelled Work in progress. Raw HTML and extracted final-document hashes and byte counts are in candidate-manifest.json.",
+        "attachments": "No document attachment is embedded. Two linked IBZ detail pages are separate routes, not attachments, and are preserved as links. One is marked work in progress at the landing page.",
+        "legal_classification": "Official administrative landing-page guidance only. It is not legislation or a complete eligibility, residence, or visa-procedure guide."
+      },
+      "scope_limit": "Accepted only as a short snapshot of the page observed 2026-10-24. Its general statement does not establish precise EU/EEA/Swiss legal scope, topic coverage, or Belgium review completion."
+    },
+    {
+      "source_id": "be-dpa-complaint-fr",
+      "decision": "accepted",
+      "local_path": "source-library/belgium/documents/oversight/be-dpa-complaint-fr.md",
+      "review_date": "2026-10-24",
+      "official_url": "https://www.dataprotectionauthority.be/citoyen/agir/introduire-une-plainte",
+      "evidence": {
+        "publisher_identity": "The page is hosted by the Belgian Data Protection Authority (APD/GBA) on its official dataprotectionauthority.be domain.",
+        "version_currentness": "A direct HTTPS retrieval on 2026-10-24 returned the complete page and the 104,827-byte response SHA-256 matches the 2026-10-19 capture. The web-cached page view returned maintenance text; this discrepancy is recorded. The page displays no revision date but states the mediation-policy date 2026-03-01.",
+        "extraction_completeness": "The full visible main#main-content article was extracted, including all headings, complaint admissibility criteria, the two-step process, portal instructions and linked routes. The final extraction preserves link targets. Raw HTML and final-document hashes and byte counts are in candidate-manifest.json.",
+        "attachments": "The page links to a separate paper complaint PDF (retrieved as 168,544 bytes, SHA-256 063d7ba4a683b5f9ef150b862f41e76da76f3c9cbe105f49155e0ddc036bd546) and separate policy/manual files. The paper PDF is not embedded in the page, is not included here, and its current version/content has not been established; do not treat it as an accepted form.",
+        "legal_classification": "Official administrative remedy guidance. It is not legislation and does not establish the admissibility or outcome of an individual complaint."
+      },
+      "scope_limit": "Accepted only as a date-bounded French guidance snapshot observed 2026-10-24. Check the current portal and linked forms before filing; no topic coverage or Belgium completion is inferred."
     }
   ]
 }
