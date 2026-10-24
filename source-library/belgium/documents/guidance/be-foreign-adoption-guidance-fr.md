@@ -43,11 +43,12 @@ La première étape obligatoire est de vous adresser à l'autorité centrale com
 
 Si vous habitez en Région flamande, contactez :
 
-**Kind en Gezin, Vlaamse centrale autoriteit voor adoptie (VCA)**  
-Hallepoortlaan 27, 1060 Brussel  
-Tél. : 02 533 14 76  
-Site internet : www.kindengezin.be  
-E-mail : adoptie@kindengezin.be
+**Kind en Gezin, Vlaamse centrale autoriteit voor adoptie (VCA)**
+
+- Adresse : Hallepoortlaan 27, 1060 Brussel
+- Tél. : 02 533 14 76
+- Site internet : www.kindengezin.be
+- E-mail : adoptie@kindengezin.be
 
 Si vous habitez en Région wallonne, contactez, selon l'endroit où vous habitez :
 

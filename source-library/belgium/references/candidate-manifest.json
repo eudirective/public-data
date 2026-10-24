@@ -1626,7 +1626,7 @@
         "FAMILY-19"
       ],
       "source_sha256": "8c14b8d3b3b2c0a111befd1a5c196809a77a9221c252e3bcb6feb1d11498d7b2",
-      "converted_sha256": "172adbe39213751d96c9ad06b1fcb33b031437015a7b0ea479fde3b1153f1a7c",
+      "converted_sha256": "51e2295c71df76d968b8966ce8a487b2046c6023d2425d08d7fb7f77fd12703a",
       "source_bytes": 40223,
       "resolved_url": "https://justice.belgium.be/fr/themes_et_dossiers/personnes_et_familles/adoption/adoption_a_letranger",
       "external_reference_status": "accepted_with_narrow_external_scope",
@@ -1642,9 +1642,9 @@
       "review_state": "accepted",
       "source_status": "accepted",
       "source_text_path": "source-library/belgium/documents/guidance/be-foreign-adoption-guidance-fr.md",
-      "source_text_sha256": "172adbe39213751d96c9ad06b1fcb33b031437015a7b0ea479fde3b1153f1a7c",
-      "source_text_bytes": 11157,
-      "converted_bytes": 11157,
+      "source_text_sha256": "51e2295c71df76d968b8966ce8a487b2046c6023d2425d08d7fb7f77fd12703a",
+      "source_text_bytes": 11169,
+      "converted_bytes": 11169,
       "content_selector": "official page main article, title through municipal registration; site navigation/footer excluded",
       "local_copy_review_date": "2026-10-24",
       "local_copy_review_limit": "No page-level publication or revision date is shown. Accepted as the publisher text observed on 2026-10-24. The separate recognition-request form page could not be retrieved and is not part of this copy."
