@@ -1,121 +1,33 @@
-# Orden PRE/1490/2012 (BOE-A-2012-9218)
+# Orden PRE/1490/2012, de 9 de julio — aplicación del artículo 7 del Real Decreto 240/2007
 
-- Jurisdiction: spain
-- Candidate ID: `es-09`
-- Source type: `eu_free_movement_implementing_order`
-- Candidate URL: https://www.boe.es/eli/es/o/2012/07/09/pre1490
-- Resolved URL: https://www.boe.es/eli/es/o/2012/07/09/pre1490
-- Retrieved: 2026-10-19T02:42:08+00:00
-- Media type: `text/html`
-- Publisher/version evidence: Order states it implements Article 7 of RD 240/2007; current amendment history was not independently resolved.
-- Extraction: `body`
-- Exact response SHA-256: `a7e22079f3efea61cdf2ecf77a0febb47ea6358f05253865d516fa938bae5571`
+- Jurisdiction: Spain
+- Source class: national implementing legislation
+- Publisher: Agencia Estatal Boletín Oficial del Estado (BOE)
+- Publisher identifier: `BOE-A-2012-9218`
+- Official consolidated record: https://www.boe.es/eli/es/o/2012/07/09/pre1490/con
+- BOE API text endpoint: https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9218/texto
+- BOE API metadata endpoint: https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9218/metadatos
+- BOE consolidated text last update displayed: 2012-07-10 (checked 2026-10-24; selector shows only the initial publication)
+- BOE API metadata record last updated: 2025-12-19T13:30:03Z (metadata timestamp, distinct from the displayed text date)
+- Instrument effective date in BOE metadata: 2012-07-11
+- BOE text response SHA-256: 4db660a73ad936f2dcbeece66572370256322c1fe13ea3ebb57c9eeaab3aea92
+- BOE metadata response SHA-256: c6c6d8f03c9d05a647aebbef1b21bd6137b354e91aee0cd6f55a753102f1b783
+- Retrieved: 2026-10-18T22:33:49+00:00
+- Conversion: BOE XML, latest returned version per text block; 10 blocks replayed and compared with the saved BOE response
 
-> **Local-copy review notice.** This captured file is not accepted as a retained copy. A direct official link can be used for research after reviewing relevant content, date/version, scope, and caveats. Local-copy acceptance and reuse terms matter only when retaining or redistributing this file.
+> **Informational consolidated text only.** BOE labels this consolidation informational and without legal value. It is the publisher's displayed text through 2012-07-10, not a claim that every provision remains applicable today. Consult the official publication and later sources when a specific legal-effect or applicability question matters.
+>
+> **Dependency note:** This order implements Article 7 of Real Decreto 240/2007. Its Additional Provision cites Ley 30/1992; BOE records that law as repealed by Ley 39/2015, whose derogatory provision states how references to repealed laws are treated. The source wording below is preserved and not silently updated. See the [current Ley 39/2015 BOE record](https://www.boe.es/eli/es/l/2015/10/01/39/con) and the [Ley 30/1992 BOE record](https://www.boe.es/eli/es/l/1992/11/26/30/con) for the separate dependency evidence.
+>
+> **Attribution:** Basado en datos de la Agencia Estatal Boletín Oficial del Estado.
+>
+> **Modification notice:** BOE XML converted to Markdown; provenance, date, dependency, and scope notes added. All Spanish text blocks are retained. This note does not establish topic coverage or resolve provision-specific application.
+>
+> BOE reuse terms: https://www.boe.es/informacion/aviso_legal/index.php
 
-## Captured source text
+<!-- block='pr' type='preambulo' version='BOE-A-2012-9218' publication='20120710' effective='20120711' -->
 
-Agencia Estatal Boletín Oficial del Estado
-
-Ir a contenido
-
-Consultar el diario oficial BOE
-
-Idioma actual:Castellano / es
-Puede seleccionar otro idioma:
-
-es / Castellano
-
-ca / Català
-
-gl / Galego
-
-eu / Euskara
-
-va / Valencià
-
-en / English
-
-fr / Français
-
-Buscar
-
-Mi BOE Desconectado.
-Pulse para acceder al servicio 'Mi BOE'
-
-Menú
-
-Menú
-
-Diarios Oficiales
-
-BOE
-
-BORME
-
-Otros diarios oficiales
-
-Información Jurídica
-
-Todo el Derecho
-
-Biblioteca Jurídica Digital
-
-Otros servicios
-
-Notificaciones
-
-Edictos judiciales
-
-Portal de subastas
-
-Anunciantes
-
-Datos abiertos
-
-Está Vd. en
-
-Inicio
-
-Buscar
-
-Documento BOE-A-2012-9218
-
-Documento BOE-A-2012-9218
-
-Orden PRE/1490/2012, de 9 de julio, por la que se dictan normas para la aplicación del artículo 7 del Real Decreto 240/2007, de 16 de febrero, sobre entrada, libre circulación y residencia en España de ciudadanos de los Estados miembros de la Unión Europea y de otros Estados parte en el Acuerdo sobre el Espacio Económico Europeo.Ver texto consolidado
-
-Publicado en:
-
-«BOE» núm. 164, de 10 de julio de 2012, páginas 49603 a 49606 (4 págs.)
-
-Sección:
-
-I. Disposiciones generales
-
-Departamento:
-
-Ministerio de la Presidencia
-
-Referencia:
-
-BOE-A-2012-9218
-
-Permalink ELI:
-
-https://www.boe.es/eli/es/o/2012/07/09/pre1490
-
-Otros formatos:
-
-PDF
-
-EPUB
-
-XML
-
-Texto
-
-TEXTO ORIGINAL
+## [preambulo]
 
 La Directiva 2004/38/CE, del Parlamento Europeo y del Consejo, de 29 de abril de 2004, relativa al derecho de los ciudadanos de la Unión y de los miembros de sus familias a circular y residir libremente en el territorio de los Estados miembros, por la que se modifica el Reglamento (CEE) n.º 1612/68 y se derogan las Directivas 64/221/CEE, 68/360/CEE, 72/194/CEE, 73/148/CEE, 75/34/CEE, 75/35/CEE, 90/364/CEE, 90/365/CEE y 93/96/CEE regula, en su artículo 7, las condiciones que deben cumplirse en aquellos casos en los que un ciudadano de un Estado miembro de la Unión Europea o de otros Estados parte en el Espacio Económico Europeo desee residir en otro Estado miembro, distinto del que es originario, por un período superior a tres meses.
 
@@ -129,9 +41,17 @@ La presente Orden ha sido informada favorablemente por la Comisión Interministe
 
 En su virtud, a propuesta de la Ministra de Empleo y Seguridad Social, previo informe del Ministerio del Interior y previa aprobación del Ministro de Hacienda y Administraciones Públicas, dispongo:
 
+<!-- block='a1' type='precepto' version='BOE-A-2012-9218' publication='20120710' effective='20120711' -->
+
+## Artículo 1
+
 Artículo 1. Derecho de residencia superior a tres meses.
 
 Los ciudadanos de un Estado miembro de la Unión Europea o de otros Estados parte en el Acuerdo sobre el Espacio Económico Europeo y de Suiza tienen derecho de residencia en España por un periodo superior a tres meses si cumplen las condiciones previstas en el artículo 7 del Real Decreto 240/2007, de 16 de febrero, sobre entrada, libre circulación y residencia en España de ciudadanos de los Estados miembros de la Unión Europea y de otros Estados parte en el Acuerdo sobre el Espacio Económico Europeo.
+
+<!-- block='a2' type='precepto' version='BOE-A-2012-9218' publication='20120710' effective='20120711' -->
+
+## Artículo 2
 
 Artículo 2. Presentación e inscripción en el Registro Central de Extranjeros.
 
@@ -142,6 +62,10 @@ Artículo 2. Presentación e inscripción en el Registro Central de Extranjeros.
 3. Si la solicitud de inscripción no reúne los requisitos necesarios para su tramitación, se requerirá al interesado para que, en un plazo de diez días, subsane las faltas o acompañe los documentos preceptivos, con indicación de que, si así no lo hiciera, se le tendrá por desistido de su petición, previa resolución motivada, que no agota la vía administrativa, y que podrá ser objeto de recurso de alzada.
 
 4. El certificado se expedirá de forma inmediata, previa constatación de los requisitos correspondientes. En dicho certificado constará el nombre, nacionalidad y domicilio de la persona registrada, su número de identidad de extranjero y la fecha de registro.
+
+<!-- block='a3' type='precepto' version='BOE-A-2012-9218' publication='20120710' effective='20120711' -->
+
+## Artículo 3
 
 Artículo 3. Documentación acreditativa.
 
@@ -177,6 +101,10 @@ d) Los estudiantes, incluidos los que cursen enseñanzas de formación profesion
 
 La participación en programas de la Unión Europea que favorecen intercambios educativos para estudiantes y profesores se considerará acreditación suficiente para el cumplimiento de estos requisitos.
 
+<!-- block='a4' type='precepto' version='BOE-A-2012-9218' publication='20120710' effective='20120711' -->
+
+## Artículo 4
+
 Artículo 4. Aplicación del derecho de residencia superior a tres meses a los miembros de la familia.
 
 1. Esta Orden se aplicará igualmente a los miembros de la familia, recogidos en el artículo 2 del Real Decreto 240/2007, de 16 de febrero, nacionales de un Estado miembro de la Unión Europea o de otro Estado parte en el Acuerdo sobre el Espacio Económico Europeo y de Suiza, que se reúnan o acompañen a un ciudadano de un Estado miembro de la Unión Europea o de otro Estado parte en el Acuerdo sobre el Espacio Económico Europeo y de Suiza.
@@ -189,80 +117,40 @@ Artículo 4. Aplicación del derecho de residencia superior a tres meses a los m
 
 Los familiares que no sean nacionales de un Estado miembro de la Unión Europea o de otro Estado parte en el Acuerdo sobre el Espacio Económico Europeo y de Suiza, recogidos en los apartados 2 y 3 de este artículo, deberán solicitar la expedición de una tarjeta de residencia de familiar de ciudadano de la Unión, de acuerdo con lo previsto en el artículo 8 del Real Decreto 240/2007, de 16 de febrero.
 
+<!-- block='da' type='precepto' version='BOE-A-2012-9218' publication='20120710' effective='20120711' -->
+
+## Disposición adicional única
+
 Disposición adicional única. Normativa aplicable a los procedimientos.
 
 En lo no previsto en materia de procedimientos en esta Orden, se estará a lo dispuesto en la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social y su normativa de desarrollo, y en la Ley 30/1992, de 26 de noviembre, de Régimen Jurídico de las Administraciones Públicas y del Procedimiento Administrativo Común y su normativa de desarrollo, con carácter supletorio y en la medida en que no se oponga a lo dispuesto en los Tratados de la Unión Europea y de funcionamiento de la Unión Europea y el derecho derivado de los mismos.
+
+<!-- block='dt' type='precepto' version='BOE-A-2012-9218' publication='20120710' effective='20120711' -->
+
+## Disposición transitoria única
 
 Disposición transitoria única.
 
 La presente Orden se aplicará a las solicitudes presentadas a partir del 24 de abril de 2012.
 
+<!-- block='df' type='precepto' version='BOE-A-2012-9218' publication='20120710' effective='20120711' -->
+
+## Disposición final primera
+
 Disposición final primera. Título competencial.
 
 Esta Orden Ministerial se dicta al amparo de lo establecido en el artículo 149.1.2.ª de la Constitución Española, que atribuye en exclusiva al Estado la competencia en materia de nacionalidad, inmigración, emigración, extranjería y derecho de asilo.
+
+<!-- block='df-2' type='precepto' version='BOE-A-2012-9218' publication='20120710' effective='20120711' -->
+
+## Disposición final segunda
 
 Disposición final segunda. Entrada en vigor.
 
 La presente Orden entrará en vigor el día siguiente al de su publicación en el «Boletín Oficial del Estado».
 
+<!-- block='fi' type='firma' version='BOE-A-2012-9218' publication='20120710' effective='20120711' -->
+
+## [firma]
+
 Madrid, 9 de julio de 2012.–La Vicepresidenta del Gobierno y Ministra de la Presidencia, Soraya Sáenz de Santamaría Antón.
-
-Análisis
-
-ANÁLISIS
-
-Rango: Orden
-
-Fecha de disposición: 09/07/2012
-
-Fecha de publicación: 10/07/2012
-
-Fecha de entrada en vigor: 11/07/2012
-
-Referencias anteriores
-
-DE CONFORMIDAD con el art. 7 del Real Decreto 240/2007, de 16 de febrero (Ref. BOE-A-2007-4184).
-
-CITA Directiva 2004/38/CE, de 29 de abril (Ref. DOUE-L-2004-81147).
-
-Materias
-
-Asistencia sanitaria
-
-Asistencia social
-
-Espacio Económico Europeo
-
-España
-
-Gastos
-
-Libre circulación de personas
-
-Permisos de residencia
-
-Procedimiento administrativo
-
-subir
-
-Contactar
-
-Sobre la sede electrónica
-
-Mapa
-
-Aviso legal
-
-Accesibilidad
-
-Protección de datos
-
-Sistema Interno de Información
-
-Tutoriales
-
-Empleo en la AEBOE
-
-Agencia Estatal Boletín Oficial del Estado
-
-Avda. de Manoteras, 54 - 28050 Madrid

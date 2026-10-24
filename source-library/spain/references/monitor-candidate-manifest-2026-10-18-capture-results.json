@@ -163,14 +163,15 @@
       "source_content_type": "text/html",
       "source_bytes": 46635,
       "source_sha256": "a7e22079f3efea61cdf2ecf77a0febb47ea6358f05253865d516fa938bae5571",
-      "raw_path": "temp/spain/raw/es-09-a7e22079f3efea61cdf2ecf77a0febb47ea6358f05253865d516fa938bae5571.html",
       "accepted": false,
-      "candidate_text_path": "source-library/spain/monitor-candidates/es-09.md",
       "converted_sha256": "fb1ce4dfa856bb74d793374ca0bd22edb2552f5ce38ada4203f02241783d15cc",
       "converted_bytes": 16103,
       "content_selector": "body",
-      "retrieval_status": "converted_review_candidate",
-      "review_state": "review_candidate"
+      "retrieval_status": "archived_local_only_research_capture",
+      "review_state": "archived_local_only",
+      "raw_archive_path": "captures/public-data/ES/public-data/spain/boe/es-09-official-consolidated-page.html",
+      "candidate_text_archive_path": "candidates/public-data/ES/public-data/spain/monitor-candidates/es-09.md",
+      "associated_document_path": "source-library/spain/documents/legislation/es-orden-pre-1490-2012-consolidated.md"
     },
     {
       "candidate_id": "es-10",
