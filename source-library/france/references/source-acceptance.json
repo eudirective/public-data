@@ -305,6 +305,80 @@
         "This provision does not supply the complete verification procedure or all applicable legal dependencies.",
         "No local copy or automated retrieval rule is accepted."
       ]
+    },
+    "fr-07-code-de-justice-administrative": {
+      "status": "usable_official_reference",
+      "publisher": "DILA, Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGITEXT000006070933/",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "The official consolidated code page displayed a version in force at 21 October 2026; code data last updated 1 September 2026.",
+      "scope": "Full Code de justice administrative, governing administrative courts, proceedings, and remedies.",
+      "reviewed_content": "The official Légifrance code page identifies the full legislative and regulatory code. Separate provisions R. 312-18 and R. 421-1 are recorded below for visa jurisdiction and the general filing rule.",
+      "limitations": [
+        "Accepted as the official consolidated code reference; the full code is extensive and this review does not establish immigration-specific completeness.",
+        "Special statutory or regulatory routes and the decision-specific appeal notice may alter the applicable procedure or deadline.",
+        "Link-only reference; no local copy or automated retrieval rule is accepted."
+      ]
+    },
+    "fr-crpa-code": {
+      "status": "usable_official_reference",
+      "publisher": "DILA, Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGITEXT000031366350/",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "The official consolidated code page displayed a version in force at 8 October 2026; code data last updated 28 May 2026.",
+      "scope": "Full Code des relations entre le public et l'administration, including rules for interactions with public authorities and Book IV on administrative disputes and appeals.",
+      "reviewed_content": "The official code page identifies the complete CRPA. Book IV includes Title I on administrative appeals (Articles L. 410-1 to L. 412-8), with L. 411-1 stating that the following rules apply subject to special or contrary legislative and regulatory provisions.",
+      "limitations": [
+        "CRPA rules apply subject to special provisions; this link does not establish that a general administrative appeal is mandatory or available for any particular visa or residence decision.",
+        "Link-only reference; no local copy or automated retrieval rule is accepted."
+      ]
+    },
+    "fr-crpa-l411-1-appeals": {
+      "status": "usable_official_reference",
+      "publisher": "DILA, Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031367827",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "Article in force since 1 January 2016; Légifrance lists last modification on 21 January 2019.",
+      "scope": "CRPA Article L. 411-1, the opening rule for administrative appeals under Book IV.",
+      "reviewed_content": "The official article states that, subject to special or contrary legislative or regulatory provisions, administrative-appeal rules are set by the following CRPA provisions.",
+      "limitations": [
+        "The provision is a gateway and does not by itself establish a particular appeal, deadline, suspensive effect, or mandatory prior review.",
+        "Read the special route and the challenged decision's appeal notice before relying on general CRPA rules.",
+        "Link-only reference; no local copy or automated retrieval rule is accepted."
+      ]
+    },
+    "fr-cja-r312-18-visa-jurisdiction": {
+      "status": "usable_official_reference",
+      "publisher": "DILA, Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000046000401",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "Article in force since 2 July 2022, as amended by Decree No. 2022-962 of 29 June 2022.",
+      "scope": "CJA Article R. 312-18 on territorial jurisdiction for specified consular visa and travel-authorisation decisions.",
+      "reviewed_content": "The official article assigns disputes concerning individual consular-authority decisions on travel authorisations and entry visas for France to the Tribunal administratif de Nantes.",
+      "limitations": [
+        "The article concerns the decisions and authorities described in its text; it does not determine administrative pre-appeal requirements or time limits.",
+        "Check the current decision notice and any special procedural provisions.",
+        "Link-only reference; no local copy or automated retrieval rule is accepted."
+      ]
+    },
+    "fr-cja-r421-1-deadline": {
+      "status": "usable_official_reference",
+      "publisher": "DILA, Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039807005",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "The official page displayed a version current at 2 October 2026; Article R. 421-1 has been in force since 1 January 2020 and was last modified on 22 June 2018.",
+      "scope": "CJA Article R. 421-1 on the general requirement to challenge an administrative decision and the ordinary filing period.",
+      "reviewed_content": "The official article states a two-month period from notification or publication of the challenged decision, requires a prior administrative decision for claims seeking payment of a sum of money, and excludes contract-execution measures from the first-paragraph period.",
+      "limitations": [
+        "This is a general rule, not a universal deadline for every visa, residence, or immigration dispute; special provisions and notification rules may apply.",
+        "The applicable route and deadline must be checked against the challenged decision and its appeal notice.",
+        "Link-only reference; no local copy or automated retrieval rule is accepted."
+      ]
     }
   },
   "official_reference_review_schema": {
