@@ -1,20 +1,20 @@
 # Law No. 218/1995 reforming Italian private international law
 
 - Jurisdiction: Italy
-- Candidate ID: `it-02-law-no.-218-1995-reforming-italian-private-international-law`
+- Source ID: `it-02-law-no.-218-1995-reforming-italian-private-international-law`
 - Official act title: LEGGE 31 maggio 1995, n. 218 - Normattiva
 - Publisher: Normattiva / Istituto Poligrafico e Zecca dello Stato
-- Candidate source URL: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1995-05-31;218~vig=
+- Official source URL: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1995-05-31;218~vig=
 - Resolved source URL: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1995-05-31;218~vig=
-- As-of date: 2026-10-19
-- Publisher version evidence: 2026-10-19
-- Retrieved: 2026-10-18T23:44:04+00:00
+- As-of date: 2026-10-24
+- Publisher version evidence: 2026-10-24
+- Retrieved: 2026-10-24T18:25:33+00:00
 - Landing content type: text/html
-- Source bundle SHA-256: `2974167ca36b1f4f87b39fc0d665f89ecc25145347fca83156092d0c0e2df7fa`
-- Landing page SHA-256: `e7189b33d0fe86423919e6e57ea0c832250b7e3a610d26695a48138365ba1f43`
+- Source bundle SHA-256: `0a8b128be16b821b49268452a82ab203a8f654f895ca01a03f3ba3007fec4e52`
+- Landing page SHA-256: `686885406f854739bd488388fff57367fed79adb01a43e77788c79fc4edb3b51`
 - Article count: 80
 
-> **Review candidate.** This current-text capture has not been accepted into the trusted legal corpus. Verify scope, amendments, commencement and source attribution before reliance.
+> **Source copy accepted:** This complete current-text representation passed publisher, scope, article-inventory and extraction review on 24 October 2026. Acceptance describes the source copy as displayed on that date; it does not certify the present legal effect of every provision.
 > **Attribution:** Normattiva, Istituto Poligrafico e Zecca dello Stato.
 
 ## Official current statutory text (Italian)

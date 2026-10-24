@@ -1,20 +1,20 @@
 # Law No. 184/1983 on adoption and foster care
 
 - Jurisdiction: Italy
-- Candidate ID: `it-03-law-no.-184-1983-on-adoption-and-foster-care`
+- Source ID: `it-03-law-no.-184-1983-on-adoption-and-foster-care`
 - Official act title: LEGGE 4 maggio 1983, n. 184 - Normattiva
 - Publisher: Normattiva / Istituto Poligrafico e Zecca dello Stato
-- Candidate source URL: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1983;184!vig=
+- Official source URL: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1983;184!vig=
 - Resolved source URL: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1983;184!vig=
-- As-of date: 2026-10-19
+- As-of date: 2026-10-24
 - Publisher version evidence: In-force URN selector in the official link; publisher ELI version date not present in this page
-- Retrieved: 2026-10-18T23:44:55+00:00
+- Retrieved: 2026-10-24T18:26:21+00:00
 - Landing content type: text/html
-- Source bundle SHA-256: `de18c36eddba1ce9ea82648ce00b5e111b2ce8e58b2e80b691302ec4a8039d3e`
-- Landing page SHA-256: `2d08637b4c4ccdc050fe0ddcb3ea12ca613d007800cf3d5377a575fc91cab39c`
+- Source bundle SHA-256: `ddfc72c6595d3f23fa0c4ab488b43343606b4f5ec82e02b1d233259746c445c9`
+- Landing page SHA-256: `4f4d13069af1fc851c05f77eb0382038c57f71fbbf568a0ef8105917d361881b`
 - Article count: 92
 
-> **Review candidate.** This current-text capture has not been accepted into the trusted legal corpus. Verify scope, amendments, commencement and source attribution before reliance.
+> **Source copy accepted:** This complete current-text representation passed publisher, scope, article-inventory and extraction review on 24 October 2026. Acceptance describes the source copy as displayed on that date; it does not certify the present legal effect of every provision.
 > **Attribution:** Normattiva, Istituto Poligrafico e Zecca dello Stato.
 
 ## Official current statutory text (Italian)
@@ -1582,7 +1582,7 @@ Le disposizioni di cui al capo I del titolo VIII del libro I del codice civile n
 - Official article URL: https://www.normattiva.it/atto/caricaArticolo?art.versione=1&art.idGruppo=11&art.flagTipoArticolo=0&art.codiceRedazionale=083U0184&art.idArticolo=61&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1983-05-17&art.progressivo=0&
 - Normattiva article version selector: `1`
 - Effective-from evidence shown on page: &nbsp;1-6-1983
-- Article source SHA-256: `04ca43f058ca8cd59c412e098c78f2aefddc21d04d7706c1cf5c63aa8a8018a4`
+- Article source SHA-256: `085e030f2ceff1f4bb787ca8ef71c267e4154af8a188b2ce7a2e0e5cb60e4812`
 
 Art. 61
 
@@ -1590,9 +1590,7 @@ L'articolo 299 del codice civile è sostituito dal seguente:
 
 "ART. 299. - Cognome dell'adottato. - L'adottato assume il cognome dell'adottante e lo antepone al proprio.
 
-L'adottato che sia figlio naturale non riconosciuto dai propri genitori assume solo il cognome dell'adottante. Il riconoscimento successivo all'adozione non fa assumere all'adottato il cognome del genitore che lo ha riconosciuto, salvo che l'adozione sia successivamente revocata.
-
-Il figlio naturale che sia stato riconosciuto dai propri genitori e sia successivamente adottato, assume il cognome dell'adottante.
+L'adottato che sia figlio naturale non riconosciuto dai propri genitori assume solo il cognome dell'adottante. Il riconoscimento successivo all'adozione non fa assumere all'adottato il cognome del genitore che lo ha riconosciuto, salvo che l'adozione sia successivamente revocata. Il figlio naturale che sia stato riconosciuto dai propri genitori e sia successivamente adottato, assume il cognome dell'adottante.
 
 Se l'adozione è compiuta da coniugi, l'adottato assume il cognome del marito.
 

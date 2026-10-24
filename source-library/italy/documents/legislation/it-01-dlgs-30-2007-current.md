@@ -1,20 +1,20 @@
 # Legislative Decree No. 30/2007 implementing free movement and residence rights of EU citizens and family members
 
 - Jurisdiction: Italy
-- Candidate ID: `it-01-legislative-decree-no.-30-2007-implementing-free-movement-and-residence-rig`
+- Source ID: `it-01-legislative-decree-no.-30-2007-implementing-free-movement-and-residence-rig`
 - Official act title: DECRETO LEGISLATIVO 6 febbraio 2007, n. 30 - Normattiva
 - Publisher: Normattiva / Istituto Poligrafico e Zecca dello Stato
-- Candidate source URL: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2007-02-06;30~vig=
+- Official source URL: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2007-02-06;30~vig=
 - Resolved source URL: https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2007-02-06;30~vig=
-- As-of date: 2026-10-19
-- Publisher version evidence: 2026-10-19
-- Retrieved: 2026-10-18T23:43:19+00:00
+- As-of date: 2026-10-24
+- Publisher version evidence: 2026-10-24
+- Retrieved: 2026-10-24T18:24:47+00:00
 - Landing content type: text/html
-- Source bundle SHA-256: `4c7a57f94914b83618c4a7f28a7d1ee23b12d0782c74d5d8f86aa129154e8ddc`
-- Landing page SHA-256: `cea7cecfb7fafa1d2f8fea12e8fcbcbcc2d70d767be7c9125b92a1286daaefb8`
+- Source bundle SHA-256: `5915557a80ea1a0b0d9119a4ea40647a316f518caecc0e083a8d4a692736ba4e`
+- Landing page SHA-256: `fe28a752904b852c903e56cfa29d69f6eb3f99bfe8dbc27e08c2ab0a84028ea0`
 - Article count: 28
 
-> **Review candidate.** This current-text capture has not been accepted into the trusted legal corpus. Verify scope, amendments, commencement and source attribution before reliance.
+> **Source copy accepted:** This complete current-text representation passed publisher, scope, article-inventory and extraction review on 24 October 2026. Acceptance describes the source copy as displayed on that date; it does not certify the present legal effect of every provision.
 > **Attribution:** Normattiva, Istituto Poligrafico e Zecca dello Stato.
 
 ## Official current statutory text (Italian)
