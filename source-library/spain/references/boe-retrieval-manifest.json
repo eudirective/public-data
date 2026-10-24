@@ -6,7 +6,7 @@
   "api_documentation": "https://www.boe.es/datosabiertos/api/api.php?lang=es",
   "reuse_terms": "https://www.boe.es/informacion/aviso_legal/index.php",
   "conversion_scope": "The API returns all versions; this converter selects the last returned version in each block, matching the BOE latest-version ordering. Raw XML is retained for replay.",
-  "review_notice": "BOE consolidations are informational and without legal value. One source (BOE-A-2007-4184) has a reviewed local document under source-library/spain/documents/legislation; other conversions remain unaccepted review artifacts. Preserve the displayed consolidation date separately from the API metadata update date.",
+  "review_notice": "BOE consolidations are informational and without legal value. Two sources (BOE-A-2007-4184 and BOE-A-2024-24099) have reviewed local documents under source-library/spain/documents/legislation; other conversions remain unaccepted review artifacts. Preserve the displayed consolidation date separately from the API metadata update date.",
   "records": [
     {
       "id": "BOE-A-2007-4184",
@@ -60,11 +60,11 @@
       "official_publisher_url": "https://www.boe.es/eli/es/rd/2024/11/19/1155/con",
       "text_api_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2024-24099/texto",
       "metadata_api_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2024-24099/metadatos",
-      "accepted": false,
-      "text_raw_path": "temp/spain/boe/boe-a-2024-24099-text.xml",
+      "accepted": true,
+      "text_raw_path": null,
       "text_sha256": "3fa5c21edb5f3872c1096f4a9a0f41b50edf4c0e2e5f6b2846110d38a2845fc6",
       "text_bytes": 1019383,
-      "metadata_raw_path": "temp/spain/boe/boe-a-2024-24099-metadata.xml",
+      "metadata_raw_path": null,
       "metadata_sha256": "01391d2c574161707f9dca1d01bbdaa823f22551c54ce15c9e73aac34b0456d6",
       "metadata_bytes": 1421,
       "publisher_metadata": {
@@ -88,12 +88,18 @@
         "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099"
       },
       "consolidation_state": "Finalizado",
-      "converted_path": "source-library/spain/candidates/boe-a-2024-24099-consolidated.md",
-      "converted_sha256": "c026e4a61ae3cc27188d19dfbb439010de8e418d2f2d2857f27b5c2e49599f8d",
-      "converted_bytes": 807501,
+      "converted_path": "source-library/spain/documents/legislation/es-rd-1155-2024-consolidated.md",
+      "converted_sha256": "17a83a0c1bfde2a066bd1a7164edda013ecb28f1d09dd8ff6ac324bbbbf87eaf",
+      "converted_bytes": 808943,
       "retrieved_at": "2026-10-18T22:33:42+00:00",
-      "retrieval_status": "converted_review_candidate",
-      "converted_block_count": 383
+      "retrieval_status": "accepted_local_document",
+      "converted_block_count": 383,
+      "accepted_on": "2026-10-24",
+      "displayed_consolidation_update": "2026-09-22",
+      "text_raw_archive_path": "captures/public-data/ES/public-data/spain/boe/boe-a-2024-24099-text.xml",
+      "metadata_raw_archive_path": "captures/public-data/ES/public-data/spain/boe/boe-a-2024-24099-metadata.xml",
+      "candidate_archive_path": "candidates/public-data/ES/public-data/spain/candidates/boe-a-2024-24099-consolidated.md",
+      "raw_storage": "Monitor local-only capture archive; original temp paths are recorded in the archive index."
     },
     {
       "id": "BOE-A-2000-544",

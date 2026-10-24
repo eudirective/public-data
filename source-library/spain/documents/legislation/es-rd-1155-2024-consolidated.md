@@ -1,18 +1,29 @@
-# Real Decreto 1155/2024, immigration regulation
+# Real Decreto 1155/2024, de 19 de noviembre — Reglamento de la Ley Orgánica 4/2000
 
 - Jurisdiction: Spain
+- Source class: national legislation
+- Publisher: Agencia Estatal Boletín Oficial del Estado (BOE)
 - Publisher identifier: `BOE-A-2024-24099`
-- Official publisher record: https://www.boe.es/eli/es/rd/2024/11/19/1155/con
+- Official consolidated record: https://www.boe.es/eli/es/rd/2024/11/19/1155/con
 - BOE API text endpoint: https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2024-24099/texto
+- BOE API metadata endpoint: https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2024-24099/metadatos
+- BOE consolidated text last update displayed: 2026-09-22 (checked 2026-10-24)
+- BOE API metadata record last updated: 2026-09-22T12:54:01Z (distinct metadata timestamp)
+- Instrument effective date in BOE metadata: 2025-05-20
+- BOE text response SHA-256: 3fa5c21edb5f3872c1096f4a9a0f41b50edf4c0e2e5f6b2846110d38a2845fc6
+- BOE metadata response SHA-256: 01391d2c574161707f9dca1d01bbdaa823f22551c54ce15c9e73aac34b0456d6
 - Retrieved: 2026-10-18T22:33:42+00:00
-- BOE consolidation status: Finalizado
-- BOE metadata last updated: 20260922T125401Z
-- BOE text effective date in metadata: 20250520
-- Conversion: BOE XML, latest returned version per text block, converted to Markdown
+- Conversion: BOE XML, latest returned version per text block; 383 blocks replayed and compared with the saved BOE response
 
-> **Informational consolidated text only.** This government-published BOE consolidation is a usable dated working text within its stated scope, but it is not the Gazette promulgation record. Preserve the BOE label and cutoff. Check a specific Gazette item only when a known later amendment, commencement issue, or question about legal effect is material.
+> **Informational consolidated text only.** BOE labels this consolidation informational and without legal value. This is a dated working text through the update displayed on 2026-09-22, not a claim that every provision remains in force today. Consult the linked official publication for legal effect and check specific later changes when material.
 >
-> **Attribution:** Based on data from the Agencia Estatal Boletín Oficial del Estado.
+> **Version and judgment notes:** The BOE consolidation includes annotations for Supreme Court judgments BOE-A-2026-19632 (8 July 2026) and BOE-A-2026-19633 (29 July 2026), including declared nullities and interpretations. The BOE annotations do not replace the judgments or a provision-specific review.
+>
+> **Attribution:** Basado en datos de la Agencia Estatal Boletín Oficial del Estado.
+>
+> **Modification notice:** BOE XML converted to Markdown; provenance, cutoff, scope, and modification notes added. The Spanish legal text blocks are retained. Articles 93–99 concern the distinct family-of-a-Spanish-national residence route; this document does not establish EU/EEA/Swiss route coverage.
+>
+> BOE reuse terms: https://www.boe.es/informacion/aviso_legal/index.php
 
 <!-- block='pr' type='preambulo' version='BOE-A-2024-24099' publication='20241120' effective='20250520' -->
 

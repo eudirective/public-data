@@ -126,14 +126,15 @@
       "source_content_type": "text/html",
       "source_bytes": 917450,
       "source_sha256": "566e5624b71356851c832788178367c00dfc11c473354d729e2e5870c1d5e83d",
-      "raw_path": "temp/spain/raw/es-07-566e5624b71356851c832788178367c00dfc11c473354d729e2e5870c1d5e83d.html",
       "accepted": false,
-      "candidate_text_path": "source-library/spain/monitor-candidates/es-07.md",
       "converted_sha256": "b5b5ce26fd78aac2f75cfa3afd3c41f5bdb6c28a19a1e99a9f84f69605eb74b2",
       "converted_bytes": 762828,
       "content_selector": "body",
-      "retrieval_status": "converted_review_candidate",
-      "review_state": "review_candidate"
+      "retrieval_status": "archived_local_only_research_capture",
+      "review_state": "archived_local_only",
+      "raw_archive_path": "captures/public-data/ES/public-data/spain/boe/es-07-official-consolidated-page.html",
+      "candidate_text_archive_path": "candidates/public-data/ES/public-data/spain/monitor-candidates/es-07.md",
+      "associated_document_path": "source-library/spain/documents/legislation/es-rd-1155-2024-consolidated.md"
     },
     {
       "candidate_id": "es-08",
