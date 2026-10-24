@@ -2982,14 +2982,16 @@
       "source_bytes": 227062,
       "resolved_url": "https://eur-lex.europa.eu/eli/treaty/acc_2003/act_1/pro_10/sign/eng",
       "retrieval_note": "Official EUR-Lex English text of Protocol No. 10, OJ L 236, 23 September 2003. Exact response bytes and the complete accepted preamble/Articles 1–4 text representation are preserved; subsequent legal effects and Cyprus operations remain outside scope.",
-      "candidate_text_path": "source-library/cyprus/candidates/legislation/cy-protocol-no-10-en.md",
+      "candidate_text_path": "source-library/cyprus/documents/legislation/cy-protocol-no-10-en.md",
       "converted_sha256": "4cb303bd30b71a36482341cd2ac917396a3ad728eda18b1e9ae4b0cf538515e7",
       "converted_bytes": 3539,
       "conversion_engine": "Python html.parser; source-specific div#TexteOnly selector",
       "conversion_replay_script": "source-library/cyprus/scripts/convert_primary_sources.py",
       "content_selector": "div#TexteOnly; all four articles and preamble",
       "source_text_path": "source-library/cyprus/documents/legislation/cy-protocol-no-10-en.md",
-      "converted_candidate_path": "source-library/cyprus/candidates/legislation/cy-protocol-no-10-en.md"
+      "converted_candidate_path": "source-library/cyprus/documents/legislation/cy-protocol-no-10-en.md",
+      "candidate_archive_path": "candidates/eudirective-public-data/CY/legislation/cy-protocol-no-10-en.md",
+      "candidate_archive_sha256": "4cb303bd30b71a36482341cd2ac917396a3ad728eda18b1e9ae4b0cf538515e7"
     },
     {
       "id": "cy-protocol-no-10-el",
@@ -3020,7 +3022,7 @@
       "resolved_url": "https://eur-lex.europa.eu/eli/treaty/acc_2003/act_1/pro_10/sign/ell",
       "retrieval_note": "Official EUR-Lex Greek text of Protocol No. 10, OJ L 236, 23 September 2003. Exact response bytes and the complete accepted preamble/Articles 1–4 text representation are preserved; subsequent legal effects and Cyprus operations remain outside scope.",
       "source_rule_id": "cy-eurlex-eli-v1",
-      "candidate_text_path": "source-library/cyprus/candidates/legislation/cy-protocol-no-10-el.md",
+      "candidate_text_path": "source-library/cyprus/documents/legislation/cy-protocol-no-10-el.md",
       "converted_sha256": "40a5e9cba3053fe5e225aef7b5eb9ec7d298f4efc63d20f0b99859b7cc6a737f",
       "converted_bytes": 6517,
       "conversion_engine": "Python html.parser; source-specific div#TexteOnly selector",
@@ -3051,7 +3053,9 @@
         }
       },
       "source_text_path": "source-library/cyprus/documents/legislation/cy-protocol-no-10-el.md",
-      "converted_candidate_path": "source-library/cyprus/candidates/legislation/cy-protocol-no-10-el.md"
+      "converted_candidate_path": "source-library/cyprus/documents/legislation/cy-protocol-no-10-el.md",
+      "candidate_archive_path": "candidates/eudirective-public-data/CY/legislation/cy-protocol-no-10-el.md",
+      "candidate_archive_sha256": "40a5e9cba3053fe5e225aef7b5eb9ec7d298f4efc63d20f0b99859b7cc6a737f"
     },
     {
       "id": "cy-scc-edd-215-19",

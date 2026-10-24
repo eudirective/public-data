@@ -764,7 +764,7 @@
         "converted_text_sha256": "4cb303bd30b71a36482341cd2ac917396a3ad728eda18b1e9ae4b0cf538515e7",
         "converted_text_bytes": 3539,
         "semantic_review_method": "Source-specific extraction from the official EUR-Lex div#TexteOnly body was replayed against the exact captured response. The complete normalized legal body matches the saved Markdown; source and text SHA-256 values match their ledgers. Title, preamble and all four article headings were checked; each heading occurs once and there is no Article 5 or page-shell contamination. Scope is the complete published English Protocol text only.",
-        "converted_candidate_path": "source-library/cyprus/candidates/legislation/cy-protocol-no-10-en.md"
+        "converted_candidate_path": "source-library/cyprus/documents/legislation/cy-protocol-no-10-en.md"
       },
       "gate_review": {
         "publisher_identity_and_role": "pass",
@@ -774,7 +774,9 @@
         "attachments_and_operational_links": "not_applicable_to_source_capture",
         "legal_classification_and_dependencies": "pass_for_declared_source_role; linked legal/topic gaps remain open"
       },
-      "redistribution_clearance": "unreviewed; this decision does not authorize external redistribution"
+      "redistribution_clearance": "unreviewed; this decision does not authorize external redistribution",
+      "candidate_archive_path": "candidates/eudirective-public-data/CY/legislation/cy-protocol-no-10-en.md",
+      "candidate_archive_sha256": "4cb303bd30b71a36482341cd2ac917396a3ad728eda18b1e9ae4b0cf538515e7"
     },
     {
       "source_id": "cy-protocol-no-10-el",
@@ -795,7 +797,7 @@
         "converted_text_sha256": "40a5e9cba3053fe5e225aef7b5eb9ec7d298f4efc63d20f0b99859b7cc6a737f",
         "converted_text_bytes": 6517,
         "semantic_review_method": "Source-specific extraction from the official EUR-Lex div#TexteOnly body was replayed against the exact captured response. The complete normalized legal body matches the saved Markdown; source and text SHA-256 values match their ledgers. Title, preamble and all four article headings were checked; each heading occurs once and there is no Article 5 or page-shell contamination. Scope is the complete published Greek Protocol text only.",
-        "converted_candidate_path": "source-library/cyprus/candidates/legislation/cy-protocol-no-10-el.md"
+        "converted_candidate_path": "source-library/cyprus/documents/legislation/cy-protocol-no-10-el.md"
       },
       "gate_review": {
         "publisher_identity_and_role": "pass",
@@ -805,7 +807,9 @@
         "attachments_and_operational_links": "not_applicable_to_source_capture",
         "legal_classification_and_dependencies": "pass_for_declared_source_role; linked legal/topic gaps remain open"
       },
-      "redistribution_clearance": "unreviewed; this decision does not authorize external redistribution"
+      "redistribution_clearance": "unreviewed; this decision does not authorize external redistribution",
+      "candidate_archive_path": "candidates/eudirective-public-data/CY/legislation/cy-protocol-no-10-el.md",
+      "candidate_archive_sha256": "40a5e9cba3053fe5e225aef7b5eb9ec7d298f4efc63d20f0b99859b7cc6a737f"
     },
     {
       "source_id": "cy-scc-edd-215-19",
@@ -1027,7 +1031,9 @@
         "It does not establish current Cyprus crossing operations or the present legal effect of every related EU instrument.",
         "It does not establish topic adequacy or country review completion."
       ],
-      "replay_candidate_path": "source-library/cyprus/candidates/legislation/cy-protocol-no-10-en.md"
+      "replay_candidate_path": "source-library/cyprus/documents/legislation/cy-protocol-no-10-en.md",
+      "candidate_archive_path": "candidates/eudirective-public-data/CY/legislation/cy-protocol-no-10-en.md",
+      "candidate_archive_sha256": "4cb303bd30b71a36482341cd2ac917396a3ad728eda18b1e9ae4b0cf538515e7"
     },
     {
       "source_id": "cy-protocol-no-10-el",
@@ -1051,7 +1057,9 @@
         "It does not establish current Cyprus crossing operations or the present legal effect of every related EU instrument.",
         "It does not establish topic adequacy or country review completion."
       ],
-      "replay_candidate_path": "source-library/cyprus/candidates/legislation/cy-protocol-no-10-el.md"
+      "replay_candidate_path": "source-library/cyprus/documents/legislation/cy-protocol-no-10-el.md",
+      "candidate_archive_path": "candidates/eudirective-public-data/CY/legislation/cy-protocol-no-10-el.md",
+      "candidate_archive_sha256": "40a5e9cba3053fe5e225aef7b5eb9ec7d298f4efc63d20f0b99859b7cc6a737f"
     }
   ]
 }

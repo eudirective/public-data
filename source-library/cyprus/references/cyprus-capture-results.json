@@ -722,7 +722,7 @@
       "review_state": "accepted_complete_derived_text",
       "source_acceptance_status": "Complete English Protocol No. 10 text as published in OJ L 236, 23 September 2003, including preamble and Articles 1–4.",
       "retrieval_note": "Official EUR-Lex English text of Protocol No. 10, OJ L 236, 23 September 2003. Exact response bytes are preserved; the complete preamble and Articles 1–4 text representation is accepted within the publication scope.",
-      "candidate_text_path": "source-library/cyprus/candidates/legislation/cy-protocol-no-10-en.md",
+      "candidate_text_path": "source-library/cyprus/documents/legislation/cy-protocol-no-10-en.md",
       "converted_sha256": "4cb303bd30b71a36482341cd2ac917396a3ad728eda18b1e9ae4b0cf538515e7",
       "converted_bytes": 3539,
       "content_selector": "div#TexteOnly; all four articles and preamble",
@@ -733,7 +733,9 @@
         "scope": "Complete English Protocol No. 10 text as published in OJ L 236, 23 September 2003, including preamble and Articles 1–4.",
         "method": "Source-specific extraction from the official EUR-Lex div#TexteOnly body was replayed against the exact captured response. The complete normalized legal body matches the saved Markdown; source and text SHA-256 values match their ledgers. Title, preamble and all four article headings were checked; each heading occurs once and there is no Article 5 or page-shell contamination. Scope is the complete published English Protocol text only.",
         "reviewed_at": "2026-10-20"
-      }
+      },
+      "candidate_archive_path": "candidates/eudirective-public-data/CY/legislation/cy-protocol-no-10-en.md",
+      "candidate_archive_sha256": "4cb303bd30b71a36482341cd2ac917396a3ad728eda18b1e9ae4b0cf538515e7"
     },
     {
       "candidate_id": "cy-protocol-no-10-el",
@@ -751,7 +753,7 @@
       "review_state": "accepted_complete_derived_text",
       "source_acceptance_status": "Complete Greek Protocol No. 10 text as published in OJ L 236, 23 September 2003, including preamble and Articles 1–4.",
       "retrieval_note": "Official EUR-Lex Greek text of Protocol No. 10, OJ L 236, 23 September 2003. Exact response bytes are preserved; the complete preamble and Articles 1–4 text representation is accepted within the publication scope.",
-      "candidate_text_path": "source-library/cyprus/candidates/legislation/cy-protocol-no-10-el.md",
+      "candidate_text_path": "source-library/cyprus/documents/legislation/cy-protocol-no-10-el.md",
       "converted_sha256": "40a5e9cba3053fe5e225aef7b5eb9ec7d298f4efc63d20f0b99859b7cc6a737f",
       "converted_bytes": 6517,
       "content_selector": "div#TexteOnly; all four articles and preamble",
@@ -762,7 +764,9 @@
         "scope": "Complete Greek Protocol No. 10 text as published in OJ L 236, 23 September 2003, including preamble and Articles 1–4.",
         "method": "Source-specific extraction from the official EUR-Lex div#TexteOnly body was replayed against the exact captured response. The complete normalized legal body matches the saved Markdown; source and text SHA-256 values match their ledgers. Title, preamble and all four article headings were checked; each heading occurs once and there is no Article 5 or page-shell contamination. Scope is the complete published Greek Protocol text only.",
         "reviewed_at": "2026-10-20"
-      }
+      },
+      "candidate_archive_path": "candidates/eudirective-public-data/CY/legislation/cy-protocol-no-10-el.md",
+      "candidate_archive_sha256": "40a5e9cba3053fe5e225aef7b5eb9ec7d298f4efc63d20f0b99859b7cc6a737f"
     },
     {
       "candidate_id": "cy-green-line-regulation-866-2004",
