@@ -1,19 +1,19 @@
 # S.I. No. 445/2021, Free Movement of Persons (Amendment) Regulations 2021
 
+- Source ID: `ie-09`
 - Jurisdiction: Ireland
-- Candidate ID: `ie-09`
 - Source type: `amending_legislation`
-- Publisher URL: https://www.irishstatutebook.ie/eli/2021/si/445/made/en/print
-- Retrieved URL: https://www.irishstatutebook.ie/eli/2021/si/445/made/en/print
-- Retrieved: 2026-10-18T23:09:32+00:00
-- Format: html; publisher content type `text/html`
-- Source SHA-256: `db337aa5a8f3d39587956dd633ac3b5b84173f9d5845e845030f8f269b894fd5`
-- Identity check: candidate-specific content markers
-- PDF link discovery: stable_record_url
+- Official publisher: Irish Statute Book (eISB)
+- Official source: https://www.irishstatutebook.ie/eli/2021/si/445/made/en/print
+- Source version: Made 2021; SI 548 amendment table lists changes to Regulations 20 and 25.
+- Retrieved from the official source: 2026-10-18T23:09:32+00:00
+- Reviewed for identity and scope: 2026-10-24
+- Source response SHA-256: `db337aa5a8f3d39587956dd633ac3b5b84173f9d5845e845030f8f269b894fd5`
+- Conversion: deterministic text extraction from the exact retained HTML/PDF response; pinned `pypdf==6.10.0` for PDFs. This text is not the publisher’s official typesetting.
+- Re-use: eISB Open Data PSI Licence incorporating CC BY 4.0; this licence applies to eISB content only.
+- Currentness and scope: Exact 2021 amending instrument. It is not a consolidated version of SI 548/2015.
 
-> **Review candidate.** The captured material is a source candidate. Record the official publisher, version date/cutoff, scope, and publisher terms; check only a known material later change relevant to the question. Do not reconstruct a complete amendment chain. For legislation, use the latest government-published consolidated text where available. If this is the closest dated text, retain its cutoff and check only a specifically relevant later amendment or commencement.
-
-## Extracted source text
+## Official source text
 
 Home Baile
 
