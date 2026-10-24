@@ -6,7 +6,7 @@
   "scope": "Bounded first-pass discovery of official publication and reuse routes, EU/EEA and Swiss residence routes, the distinct Spanish-national family route, forms and filing, visas and consular practice, administrative remedies, public access, privacy, oversight, legal aid, civil-status evidence, selected courts, and the distinct UK Withdrawal Agreement residence and family route. This is not a complete inventory or a legal-equivalence opinion.",
   "status": "partially_retrieved_review_candidates",
   "retrieval_status": "34 source responses saved; 30 pages converted and replay-verified; four dynamic pages had no stable text body; 12 retrieval/conversion failures remain. Twenty-five external official references are accepted by link within stated scope; no local copies or topics are accepted.",
-  "accepted_source_count": 0,
+  "accepted_source_count": 1,
   "accepted_external_reference_count": 25,
   "candidate_source_count": 52,
   "official_hosts": [
@@ -1602,6 +1602,6 @@
       "accepted": false
     }
   ],
-  "retrieved_review_candidate_count": 34,
-  "converted_review_candidate_count": 30
+  "retrieved_review_candidate_count": 33,
+  "converted_review_candidate_count": 29
 }
