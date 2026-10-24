@@ -1,6 +1,6 @@
 # France national source references
 
-**Review updated 2026-10-24.** The 18 legacy files formerly stored under `candidates/` have been individually reviewed and archived in the Monitor's local-only research archive. Five Service Public guidance snapshots now live under `documents/guidance/` and are accepted as dated local copies. Fourteen official sources are accepted for link use, including the two CESEDA Book II sections already registered. The DILA directory is accepted as a link, but the 2018 DTD's applicability to current LEGI data remains open for human review before parser use. N-Lex remains a discovery-only lead already represented elsewhere. France topic coverage and country review remain incomplete.
+**Review updated 2026-10-24.** The 18 legacy files formerly stored under `candidates/` have been individually reviewed and archived in the Monitor's local-only research archive. Five Service Public guidance snapshots now live under `documents/guidance/` and are accepted as dated local copies. Fifteen official sources are accepted for link use, including the two CESEDA Book II sections and the Conseil d’État case-law reference. The DILA directory is accepted as a link, but the 2018 DTD's applicability to current LEGI data remains open for human review before parser use. N-Lex remains a discovery-only lead already represented elsewhere. France topic coverage and country review remain incomplete.
 
 ## Active registers
 
@@ -8,7 +8,7 @@
 - [Source acceptance](references/source-acceptance.json) — accepted local guidance copies and reviewed official links.
 - [Sustainability assessment](references/sustainability-assessment.md)
 
-The former candidate manifest and capture-results ledger are preserved in the Monitor's indexed local-only archive. They are historical acquisition records, not active country-pack copies. The previous 30 retrieval failures remain open technical outcomes; they do not establish that the official sources are unavailable or unusable.
+The former candidate manifest and capture-results ledger are preserved in the Monitor's indexed local-only archive. They are historical acquisition records, not active country-pack copies. The archived 2026-10-19 manifest retains 30 retrieval/conversion error records. On 2026-10-24, follow-up verified official routes for the Conseil d’État decisions and the CERFA 14076*05 form; those original fetch errors remain historical, and no raw replay was performed. Further per-source dispositions remain open; errors do not establish that official sources are unavailable or unusable.
 
 ## Current source limits
 
