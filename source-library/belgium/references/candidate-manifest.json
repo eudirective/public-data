@@ -4,9 +4,9 @@
   "jurisdiction": "BE",
   "inventory_research_date": "2026-10-21",
   "scope": "A bounded discovery register of Belgian first-party sources relevant to free movement, third-country family members, visa and residence procedures, administrative process and remedies, cross-border civil-status evidence, privacy, and access to administrative records. It is not an exhaustive Belgian source inventory.",
-  "status": "official_links_and_twenty_nine_local_copies_accepted_coverage_open",
-  "retrieval_status": "29 official-source local copies are accepted; three converted artifacts remain unresolved in the Monitor local-only archive; 16 source records are link-only with no accepted local copy. External-link acceptance and topic coverage remain separate.",
-  "accepted_source_count": 29,
+  "status": "official_links_and_thirty_one_local_copies_accepted_coverage_open",
+  "retrieval_status": "31 official-source local copies are accepted; no converted artifacts remain unresolved; 17 source records have no accepted local copy, including one rejected conversion. Nine records have not had a local capture. External-link acceptance and topic coverage remain separate.",
+  "accepted_source_count": 31,
   "candidate_source_count": 48,
   "official_hosts": [
     "n-lex.europa.eu",
@@ -538,9 +538,9 @@
         "page": "family-reunification"
       },
       "functional_relationship": "partial_functional_match",
-      "verification_status": "official page opened, but the rendered text is incomplete/malformed, labels linked pages as work in progress, and contains a broad EU/EEA/Swiss glossary that needs legal-source cross-checking",
-      "retrieval_status": "converted_review_candidate",
-      "retrieval_shape": "JavaScript-dependent guidance with incomplete rendered page content and linked subpages",
+      "verification_status": "Official IBZ page directly fetched on 2026-10-24; the response hash matches the 2026-10-19 capture. The visible article is short and complete as presented; one linked detail page is explicitly marked work in progress. No publication or revision date is displayed.",
+      "retrieval_status": "accepted_source",
+      "retrieval_shape": "Short official HTML landing-page article linking to separate EU-citizen and third-country-family detail pages.",
       "topic_ids": [
         "RIGHTS-02",
         "RIGHTS-03",
@@ -549,22 +549,29 @@
         "PRACTICE-01"
       ],
       "retrieved": true,
-      "accepted": false,
+      "accepted": true,
       "source_sha256": "0e02e7a60e22e6e6679b39aeb0640deb3a8e1e3eb2225818e7ca0cdabac3bd2e",
-      "converted_sha256": "198ad85862320939462416316d79d5fb44553ad2c274ae72fb8840a8bacd1dd9",
+      "converted_sha256": "908e48e7367b52881ad5e1308dc1ee582c4cbcd480662e5ed1ba38612cef22c3",
       "source_bytes": 22615,
       "resolved_url": "https://dofi.ibz.be/en/themes/citizens-european-union/family-reunification",
       "external_reference_status": "accepted_with_narrow_external_scope",
-      "external_reference_scope": "Official IBZ family-reunification route only. The rendered page is incomplete/work in progress and does not establish the applicable EU/EEA/Swiss legal scope.",
+      "external_reference_scope": "Official IBZ landing page and date-bounded local snapshot only. The article says rights are subject to conditions and links to details; it does not establish the exact legal scope, full procedure, topic coverage, or Belgium review completion.",
       "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-eu-family-guidance.md",
       "candidate_archive_sha256": "042cf7e5b9926be5585178b0ae1891169fe203395ccaffe1d5ac3a228012cf0b",
       "local_copy_disposition": {
-        "status": "human_review",
-        "note": "Current official page remains incomplete/malformed and marks linked content as work in progress. Keep the official route only; do not promote the capture to a final document until the publisher text is stable and legally cross-checked.",
+        "status": "accepted",
+        "note": "Accepted as a narrow, date-bounded landing-page snapshot after direct retrieval, article comparison and review of its linked detail routes. The page itself is short; one detail route is marked work in progress. No topic coverage is inferred.",
         "review_date": "2026-10-24"
       },
-      "local_copy_status": "not_accepted",
-      "review_state": "link_only_or_manual_follow_up"
+      "local_copy_status": "accepted",
+      "review_state": "accepted",
+      "source_status": "accepted",
+      "source_text_path": "source-library/belgium/documents/guidance/be-eu-family-guidance.md",
+      "source_text_sha256": "908e48e7367b52881ad5e1308dc1ee582c4cbcd480662e5ed1ba38612cef22c3",
+      "source_text_bytes": 2346,
+      "converted_bytes": 2346,
+      "content_selector": "official HTML article; global navigation, scripts and footer excluded; linked routes preserved as links",
+      "local_copy_review_date": "2026-10-24"
     },
     {
       "id": "be-mobile-belgian-40ter",
@@ -578,9 +585,9 @@
         "article": "40ter §1"
       },
       "functional_relationship": "partial_functional_match",
-      "verification_status": "official Dutch guidance inspected in search output; states Article 40ter §1 as amended in 2024 and effective 2024-09-01; full page route should be reopened before implementation",
-      "retrieval_status": "converted_review_candidate",
-      "retrieval_shape": "language-specific dynamic HTML; distinguish mobile Belgian returnees from Belgian nationals who did not exercise free movement",
+      "verification_status": "Official Dutch page directly fetched on 2026-10-24; the raw response hash matches the 2026-10-19 capture. The visible article still interleaves the Article 40ter sentence with unrelated generic EU-family text.",
+      "retrieval_status": "official_link_reviewed_no_accepted_local_copy",
+      "retrieval_shape": "Official dynamic HTML, but the visible Article 40ter text is interleaved with unrelated general EU-family glossary content.",
       "topic_ids": [
         "RIGHTS-02",
         "RIGHTS-05",
@@ -594,16 +601,16 @@
       "source_bytes": 25460,
       "resolved_url": "https://dofi.ibz.be/nl/themes/ressortissants-dun-pays-tiers/regroupement-familial/avec-un-belge/gezinshereniging-met-een",
       "external_reference_status": "accepted_with_narrow_external_scope",
-      "external_reference_scope": "Official source link for: Family reunification with a Belgian who exercised free movement — Article 40ter §1 guidance. Acceptance covers the linked record or route only; it does not accept the local conversion, establish topic coverage, or complete Belgium review.",
+      "external_reference_scope": "Official IBZ route retained as a reference only. The local conversion is rejected because the visible page text is interleaved; Article 40ter §1 is already represented in the accepted 1980 Immigration Law document. This does not establish mobile-Belgian procedure coverage or Belgium review completion.",
       "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-mobile-belgian-40ter.md",
       "candidate_archive_sha256": "ef4a88ecbabe178dfc10b9e1116cc1ba741f16a289e42b51854f4989f31a4ef0",
       "local_copy_disposition": {
-        "status": "human_review",
-        "note": "Official Dutch page interleaves Article 40ter text with unrelated general EU-family text in the visible body. Keep the official route only; a clean publisher extraction and cross-check against the law are still needed.",
+        "status": "already_represented",
+        "note": "Direct review on 2026-10-24 confirmed the publisher page still interleaves the Article 40ter text with unrelated generic EU-family glossary text. The operative provision is represented in the accepted Immigration Law document. Do not create a duplicate or present the mixed page as a clean guidance document; retain the official link and leave mobile-Belgian procedure coverage open.",
         "review_date": "2026-10-24"
       },
       "local_copy_status": "not_accepted",
-      "review_state": "link_only_or_manual_follow_up"
+      "review_state": "link_only"
     },
     {
       "id": "be-d-visa-article9",
@@ -1310,9 +1317,9 @@
         "page": "introduire-une-plainte"
       },
       "functional_relationship": "related_source",
-      "verification_status": "official page inspected; current text describes information, mediation, and complaint options and says the first-line mediation policy applies from 2026-03-01",
-      "retrieval_status": "converted_review_candidate",
-      "retrieval_shape": "language-specific HTML with forms, portal requirements, and links that may change; police and intelligence processing may use separate oversight bodies",
+      "verification_status": "Official page directly fetched over HTTPS on 2026-10-24; the full response hash matches the 2026-10-19 capture. A web-cached view still displayed a maintenance page, so the direct response was used and the discrepancy recorded. No publication or revision date is displayed; the page states the mediation-policy date 2026-03-01.",
+      "retrieval_status": "accepted_source",
+      "retrieval_shape": "Official HTML main-content article with complaint procedure, portal instructions and linked policy/forms.",
       "topic_ids": [
         "DATA-06",
         "DATA-07",
@@ -1321,22 +1328,29 @@
         "PRACTICE-01"
       ],
       "retrieved": true,
-      "accepted": false,
+      "accepted": true,
       "source_sha256": "c028996d72ed95831249e2de8dc378929a3be6319e5a157b253009fba6ec5d98",
-      "converted_sha256": "a7a6065f74f850dfa0f138a6a5b9eb224e75cf2f7ce7cd0bb5ae9dc7a7ce7870",
+      "converted_sha256": "d1a013a38a3ea1ea3d7adfb09f9593408970acd8b778d4ba5785de011e07380d",
       "source_bytes": 104827,
       "resolved_url": "https://www.dataprotectionauthority.be/citoyen/agir/introduire-une-plainte",
       "external_reference_status": "accepted_with_narrow_external_scope",
-      "external_reference_scope": "Official source link for: Belgian Data Protection Authority — introduce a complaint (French). Acceptance covers the linked record or route only; it does not accept the local conversion, establish topic coverage, or complete Belgium review.",
+      "external_reference_scope": "Official French APD complaint guidance and date-bounded local snapshot only. This does not determine the admissibility of any complaint, accept linked PDF forms, establish topic coverage, or complete Belgium review.",
       "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-dpa-complaint-fr.md",
       "candidate_archive_sha256": "413f39581272999ce1d45a434739908e5c5b430a043b3bce557f5b6e8672979e",
       "local_copy_disposition": {
-        "status": "repair_needed",
-        "note": "The official French complaint URL returned a site-maintenance page on 2026-10-24. Do not publish the older candidate conversion as current; retry when the publisher restores the language page. The Dutch counterpart has a dated final document.",
+        "status": "accepted",
+        "note": "Accepted as a date-bounded snapshot after direct HTTPS retrieval returned the full French article and the raw response hash matched the earlier capture. The web-cached maintenance response is recorded as a retrieval discrepancy. The linked paper form is a separate unaccepted record because its current version was not established.",
         "review_date": "2026-10-24"
       },
-      "local_copy_status": "not_accepted",
-      "review_state": "link_only_or_manual_follow_up"
+      "local_copy_status": "accepted",
+      "review_state": "accepted",
+      "source_status": "accepted",
+      "source_text_path": "source-library/belgium/documents/oversight/be-dpa-complaint-fr.md",
+      "source_text_sha256": "d1a013a38a3ea1ea3d7adfb09f9593408970acd8b778d4ba5785de011e07380d",
+      "source_text_bytes": 15262,
+      "converted_bytes": 15262,
+      "content_selector": "official HTML main#main-content; global navigation, scripts and footer excluded; linked routes preserved as links",
+      "local_copy_review_date": "2026-10-24"
     },
     {
       "id": "be-dpa-complaint-nl",
@@ -1887,12 +1901,12 @@
     "Mission-specific consular guidance, local residence procedures, legal-aid eligibility, and case-specific remedy/deadline mapping remain incomplete.",
     "Current Wallex and Flemish Codex editions were acquired as final documents on 2026-10-24; superseded captures remain non-authoritative review aids. The two regional decrees do not establish a nationwide access-to-records rule."
   ],
-  "retrieved_review_candidate_count": 3,
+  "retrieved_review_candidate_count": 0,
   "discovery_only_candidate_count": 9,
-  "converted_review_candidate_count": 3,
-  "accepted_local_copy_count": 29,
+  "converted_review_candidate_count": 0,
+  "accepted_local_copy_count": 31,
   "accepted_external_reference_count": 47,
-  "link_only_candidate_count": 16,
+  "link_only_candidate_count": 17,
   "coverage_gaps": [],
-  "local_copy_acceptance_note": "Twenty-nine local copies are accepted after separate review. Three converted artifacts remain open for human review or publisher repair; 16 source records have no accepted local copy. No topic is marked covered and Belgium review remains incomplete."
+  "local_copy_acceptance_note": "Thirty-one local copies are accepted after separate review. Of eleven historical converted review artifacts, three are now final documents and eight are closed with link-only or superseded dispositions; none remains unresolved. Seventeen source records have no accepted local copy, including nine not captured. No topic is marked covered and Belgium review remains incomplete."
 }
