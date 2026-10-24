@@ -1,18 +1,21 @@
-# France source candidates
+# France national source references
 
-**Status updated 2026-10-21:** 48 candidates; 17 official catalogue, guidance, and discovery pages converted and replay-verified; 30 local retrieval attempts failed or timed out; no law text is retained as a local copy. The two parts of CESEDA Book II are now recorded as usable official references: the legislative section displayed a version in force as of 24 August 2026, and the regulatory section as of 9 September 2026. These are link-use reviews, not accepted local copies; check the page's displayed version again for date-sensitive work. Legifrance direct retrieval returned 403 in this client. The DILA LEGI archive is an optional route for retaining or monitoring copies, not a prerequisite for ordinary source use.
+**Review updated 2026-10-24.** The 18 legacy files formerly stored under `candidates/` have been individually reviewed and archived in the Monitor's local-only research archive. Five Service Public guidance snapshots now live under `documents/guidance/` and are accepted as dated local copies. Twelve official sources are accepted for link use, including the two CESEDA Book II sections already registered. Two items still require human review (the 2024 family-card guidance and the old DILA DTD listing); N-Lex remains a discovery-only lead already represented elsewhere. France topic coverage and country review remain incomplete.
 
-- [Candidate manifest](references/candidate-manifest.json)
-- [Source acceptance and official-reference reviews](references/source-acceptance.json)
-- [Source list](references/source-list.md)
-- [Capture ledger](references/france-capture-results.json)
-- [Shared capture/replay rule](../sync_candidate_pages.py)
+## Active registers
+
+- [Source list and dispositions](references/source-list.md) — the 48-item bounded source inventory, including current dispositions and known retrieval limits.
+- [Source acceptance](references/source-acceptance.json) — accepted local guidance copies and reviewed official links.
 - [Sustainability assessment](references/sustainability-assessment.md)
 
-The register reconciles the earlier seven-candidate France pack and adds national legal-source discovery and DILA bulk-data routes, residence and visa guidance, procedure and remedies, courts, public access, privacy, oversight, and legal aid. The local manifest distinguishes candidate records and retained artifacts; it does not prevent direct use of an official source link after human review.
+The former candidate manifest and capture-results ledger are preserved in the Monitor's indexed local-only archive. They are historical acquisition records, not active country-pack copies. The previous 30 retrieval failures remain open technical outcomes; they do not establish that the official sources are unavailable or unusable.
 
-The official consolidated Légifrance sections are sufficient for ordinary legal-reference use. The DILA LEGI bulk dataset and Légifrance API are optional acquisition routes only if a retained copy or recurring monitor is later needed; no bulk replay, API registration, credentials, or local conversion is required for the reviewed links. The 17 local conversions are catalogue, guidance, and discovery pages, not statute copies.
+## Current source limits
 
-France-Visas and ANEF are dynamic services. Monitor only their public pages, links, and form definitions; never automate applications or collect case data. The CESEDA EU-family section must remain linked to the Conseil d'État's partial annulment in decision no. 450285 of 24 February 2022.
+The accepted CESEDA legislative and regulatory Book II sections remain external-only official references, not locally stored statutory text. Their displayed version dates and the Conseil d'État partial-annulment note for Articles L. 233-1 and L. 233-2 must remain visible for date-sensitive use.
 
-Refresh bounded candidate pages with `python source-library/sync_candidate_pages.py france sync`; replay saved conversions with `python source-library/sync_candidate_pages.py france verify`. This does not retrieve the bulk LEGI archive or produce current statutory text.
+The five Service Public documents are French snapshots with their publisher verification dates recorded in each file. They are guidance, not primary law. The Service Public family-card page still shows 2024-02-02 and is not accepted as current guidance pending legal and procedure reconciliation.
+
+The LEGI data catalogue is a retrieval reference, not a legal source copy. On 2026-10-24 its metadata showed an update on 2026-10-22; the DILA file directory's latest dated delta was 2026-10-21. No baseline/delta replay, parser, or current legal-text reconstruction was validated. The DTD listing remains a human-review item.
+
+France has no registered Source Monitor pack action. The shared legacy candidate-fetch script is not a France acceptance workflow and should not be run to recreate country-pack candidates. No visa or ANEF application was submitted, and no applicant data was accessed.
