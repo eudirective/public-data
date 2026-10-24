@@ -300,11 +300,11 @@
         "record": "BOE-A-2007-4184"
       },
       "functional_relationship": "close_functional_match",
-      "verification_status": "Official consolidated BOE page inspected; BOE API response not inspected.",
-      "retrieval_status": "converted_review_candidate",
+      "verification_status": "Official BOE page and XML metadata inspected 2026-10-24; 40-block body replayed and compared; local document accepted with the 2015-11-09 displayed cutoff and informational-only limit.",
+      "retrieval_status": "accepted_local_document",
       "retrieval_shape": "Versioned HTML, PDF and ePUB; ELI",
       "version_evidence": "BOE page reports last update 09/11/2015 and links amendments back to 2007; current consolidation is informational.",
-      "note": "Implements EU/EEA free movement and expressly references the EU–Swiss Agreement in its preamble; verify current treaty and national scope separately. Do not confuse update metadata with text-version dates.",
+      "note": "Use the accepted local Markdown text only as an informational BOE consolidation through the displayed 2015-11-09 update. The API metadata timestamp 2025-12-19 is distinct. Keep EEA scope evidence and the Swiss route separate.",
       "topic_ids": [
         "eu_residence",
         "eea",
@@ -313,13 +313,14 @@
         "seed_match"
       ],
       "retrieved": true,
-      "accepted": false,
-      "document_path": "../candidates/boe-a-2007-4184-consolidated.md",
-      "candidate_text_path": "source-library/spain/monitor-candidates/es-06.md",
+      "accepted": true,
+      "document_path": "../documents/legislation/es-rd-240-2007-consolidated.md",
       "source_sha256": "0cf579cbf0af06aba00d9546cbffbfc27fc0579ecbf1bf422a400c342b80a578",
       "converted_sha256": "dfa1069779400d78ff0983a1d4ebf044571dfb763c1cf1caaa8935bc7e554772",
       "source_bytes": 157721,
-      "resolved_url": "https://www.boe.es/eli/es/rd/2007/02/16/240/con"
+      "resolved_url": "https://www.boe.es/eli/es/rd/2007/02/16/240/con",
+      "candidate_text_archive_path": "candidates/public-data/ES/public-data/spain/monitor-candidates/es-06.md",
+      "raw_capture_archive_path": "captures/public-data/ES/public-data/spain/boe/es-06-official-page.html"
     },
     {
       "id": "es-07",
