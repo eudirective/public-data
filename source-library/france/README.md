@@ -1,6 +1,6 @@
 # France national source references
 
-**Review updated 2026-10-24.** The 18 legacy files formerly stored under `candidates/` have been individually reviewed and archived in the Monitor's local-only research archive. Five Service Public guidance snapshots now live under `documents/guidance/` and are accepted as dated local copies. Twelve official sources are accepted for link use, including the two CESEDA Book II sections already registered. Two items still require human review (the 2024 family-card guidance and the old DILA DTD listing); N-Lex remains a discovery-only lead already represented elsewhere. France topic coverage and country review remain incomplete.
+**Review updated 2026-10-24.** The 18 legacy files formerly stored under `candidates/` have been individually reviewed and archived in the Monitor's local-only research archive. Five Service Public guidance snapshots now live under `documents/guidance/` and are accepted as dated local copies. Thirteen official sources are accepted for link use, including the two CESEDA Book II sections already registered. One item still requires human review (the DILA DTD listing); N-Lex remains a discovery-only lead already represented elsewhere. France topic coverage and country review remain incomplete.
 
 ## Active registers
 
@@ -14,7 +14,7 @@ The former candidate manifest and capture-results ledger are preserved in the Mo
 
 The accepted CESEDA legislative and regulatory Book II sections remain external-only official references, not locally stored statutory text. Their displayed version dates and the Conseil d'État partial-annulment note for Articles L. 233-1 and L. 233-2 must remain visible for date-sensitive use.
 
-The five Service Public documents are French snapshots with their publisher verification dates recorded in each file. They are guidance, not primary law. The Service Public family-card page still shows 2024-02-02 and is not accepted as current guidance pending legal and procedure reconciliation.
+The five Service Public documents are French snapshots with their publisher verification dates recorded in each file. They are guidance, not primary law. The Service Public family-card page is accepted as a link-only official reference. Its publisher verification date remains 2024-02-02 and is recorded as a freshness caveat; the register does not assert that its procedure is current.
 
 The LEGI data catalogue is a retrieval reference, not a legal source copy. On 2026-10-24 its metadata showed an update on 2026-10-22; the DILA file directory's latest dated delta was 2026-10-21. No baseline/delta replay, parser, or current legal-text reconstruction was validated. The DTD listing remains a human-review item.
 
