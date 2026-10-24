@@ -232,6 +232,21 @@
         "Accepted as a link-only last-known official overview. This does not establish current law or procedure for a particular applicant category or date; check the relevant CESEDA provisions and current ANEF route when relying on those details.",
         "No local copy is accepted."
       ]
+    },
+    "fr-conseil-etat-450285-450288-2022": {
+      "status": "usable_official_reference",
+      "publisher": "Conseil d'État, ArianeWeb",
+      "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2022-02-24/450285",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "Joined decision nos. 450285 and 450288, 24 February 2022; follow-up decision no. 450285, 2 February 2024, after CJEU judgment C-143/22.",
+      "scope": "Official case-law references concerning review of the 2020 CESEDA recodification, including EU-family residence provisions and internal-border entry refusals.",
+      "reviewed_content": "The 2022 decision partially annulled CESEDA Articles L. 233-1 and L. 233-2 insofar as they excluded a dependent child of an EU citizen's spouse who was not that citizen's direct descendant, and partially annulled L. 554-1 on access to work for Dublin-transfer asylum applicants; it stayed the L. 332-3 issue pending the CJEU. The official 2024 follow-up (https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2024-02-02/450285) followed CJEU judgment C-143/22 and partially annulled the second sentence of L. 332-3 insofar as it was not limited to readmission under a pre-13 January 2009 agreement or arrangement.",
+      "limitations": [
+        "The original 2022 www.conseil-etat.fr URL returned 404; the official non-www ArianeWeb URL recorded here was opened successfully. The 2024 follow-up is separately linked in the reviewed-content note.",
+        "These decisions concern specific provisions of the 2020 CESEDA recodification. Check the current consolidated CESEDA and CJEU judgment C-143/22 for date-sensitive use.",
+        "This is a focused case reference, not a comprehensive search of French case law; no local copy is accepted."
+      ]
     }
   },
   "official_reference_review_schema": {
