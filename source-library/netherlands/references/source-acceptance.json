@@ -3,7 +3,7 @@
   "jurisdiction": "Netherlands",
   "reviewed_on": "2026-10-21",
   "source_review_manifest": "source-review-manifest.json",
-  "status": "external_links_reviewed_with_narrow_scope; topic_coverage_incomplete",
+  "status": "external_links_and_dated_local_copies_reviewed_with_narrow_scope; topic_coverage_incomplete",
   "source_count": 62,
   "accepted_external_reference_count": 59,
   "not_relied_upon_count": 3,
@@ -82,7 +82,7 @@
       "reason": "The captured Rechtspraak help route returned HTTP 403 in the research client. This does not establish publisher downtime; offer the official Rechtspraak site for human review."
     }
   ],
-  "local_copy_accepted_count": 0,
+  "local_copy_accepted_count": 8,
   "topic_accepted_count": 0,
   "country_review_complete": false,
   "acceptance_basis": [
@@ -90,7 +90,9 @@
     "Dutch legislation links point to official Wetten.nl consolidated records. Observed effective dates are preserved as dated evidence; the official publisher page remains the source to consult for its current displayed edition.",
     "Official operational guidance, forms, court and oversight portals are accepted only for their stated service or discovery scope. They do not prove legal requirements, remedies, complete case-law publication, or jurisdiction in an individual matter.",
     "Direct access to Wetten.nl and some service pages was restricted in the research client. This is not treated as publisher downtime or a reason to require automated extraction. Whole official websites are offered for human review when a page, currentness point, legal dependency, or operational detail needs direct inspection.",
-    "An accepted external link is independent of local conversion, hashes, replay, reuse permission, topic adequacy, and country completion. No local copy or legal topic is accepted here."
+    "An accepted external link is independent of local conversion, hashes, replay, reuse permission, topic adequacy, and country completion. No local copy or legal topic is accepted here.",
+    "Eight dated local source copies were accepted separately from the 59 accepted external references on 2026-10-24 after raw-source hash checks and deterministic replay matched each recorded conversion hash. Local-copy acceptance does not change topic_accepted_count or country_review_complete.",
+    "Wetten.nl could not be reopened by the research client on 2026-10-24; statutory local documents therefore remain dated snapshots. The two IND pages were live-checked on 2026-10-24 and name their reuse basis."
   ],
   "evidence_cutoffs": [
     {
@@ -146,5 +148,16 @@
       "offer": "Review central guidance and follow the competent municipality links for BRP registration procedures."
     }
   ],
-  "content_reuse": "No permission to copy, bulk retrieve, convert, or republish is inferred from external-reference acceptance."
+  "content_reuse": "No permission to copy, bulk retrieve, convert, or republish is inferred from external-reference acceptance.",
+  "local_copy_accepted_source_ids": [
+    "nl-10",
+    "nl-11",
+    "nl-14",
+    "nl-18",
+    "nl-26",
+    "nl-53",
+    "nl-54",
+    "nl-55"
+  ],
+  "local_copies_reviewed_on": "2026-10-24"
 }
