@@ -209,12 +209,12 @@
       "url": "https://echanges.dila.gouv.fr/OPENDATA/DTD_LEGIFRANCE/",
       "checked_on": "2026-10-24",
       "language": "French",
-      "version_or_cutoff": "Live listing has DTD_LEGIFRANCE_20181017.7z, with ancillary migration documentation dated 2023 and 2024.",
+      "version_or_cutoff": "The DILA index lists DTD_LEGIFRANCE_20181017.7z (2018-10-17), 2023 migration materials, and a 2024 NOR-technical document. The related data.gouv DTD resource says updated 2024-11-05 but redirects to this same index; that metadata date is not a newer package version.",
       "scope": "Official DILA index of the LEGI DTD package and related technical/migration documents; potential source for a future parser, not a current-schema certification.",
-      "reviewed_content": "The official index was live-checked on 2026-10-24. It lists DTD_LEGIFRANCE_20181017.7z, migration examples and a migration note dated 2023, and DILA_NOR_technique_JORF-20240710.pdf; no newer DTD package is listed.",
+      "reviewed_content": "The DILA index and the LEGI dataset record were checked on 2026-10-24. The dataset describes DTD folders as applicable to the date in each folder name and says a new folder replaces the prior one when DTDs change; the current index still lists only the 2018 DTD package. The 2023 migration note documents XML ordering, line-break, and link changes. The 2024 data.gouv DTD resource resolves to the same index rather than a separate 2024 package.",
       "limitations": [
-        "Accepted as a link to DILA's official technical-material index, with the package dates and scope recorded.",
-        "This does not establish that the 2018 DTD applies to the current LEGI Open Data format. The later migration materials create a concrete applicability question; human validation against current data is required before selecting a schema or implementing a parser.",
+        "Accepted as a link to DILA's official technical-material index, with the listed package dates and scope recorded.",
+        "The 2018 DTD is the latest package listed, but its compatibility with current LEGI XML has not been tested. The post-2018 XML migration changes are a concrete reason to check current data before selecting a schema or implementing a parser.",
         "The DTD package was not downloaded or validated, and no LEGI parser is being implemented in this batch."
       ]
     },
