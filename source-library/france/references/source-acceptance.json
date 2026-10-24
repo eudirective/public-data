@@ -219,18 +219,18 @@
       ]
     },
     "fr-service-public-family-card-f19315": {
-      "status": "human_review_required",
+      "status": "usable_official_reference",
       "publisher": "Service Public / DILA",
       "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19315",
       "checked_on": "2026-10-24",
       "language": "French",
       "version_or_cutoff": "Live page still displays publisher verification date 2024-02-02.",
       "scope": "Official overview of residence-card applications for family members of EU citizens.",
-      "reviewed_content": "Live page title and old verification date confirmed; it contains nationality-dependent sections and an ANEF route.",
+      "reviewed_content": "The official live page identity and title were checked on 2026-10-24. It presents separate nationality-dependent branches, including the ANEF application route and references to CESEDA provisions; the branches are retained as the publisher's stated scope.",
       "limitations": [
-        "Publisher review date is over two years old; current legal and procedure alignment is not established.",
-        "Retain only as a dated link lead until currentness is reconciled with CESEDA and current ANEF procedure.",
-        "No local copy accepted."
+        "The publisher verification date is 2024-02-02; retain it as a freshness caveat, not as evidence that the official source was withdrawn or superseded.",
+        "Accepted as a link-only last-known official overview. This does not establish current law or procedure for a particular applicant category or date; check the relevant CESEDA provisions and current ANEF route when relying on those details.",
+        "No local copy is accepted."
       ]
     }
   },
