@@ -4,9 +4,9 @@
   "jurisdiction": "BE",
   "inventory_research_date": "2026-10-21",
   "scope": "A bounded discovery register of Belgian first-party sources relevant to free movement, third-country family members, visa and residence procedures, administrative process and remedies, cross-border civil-status evidence, privacy, and access to administrative records. It is not an exhaustive Belgian source inventory.",
-  "status": "official_links_and_twenty_one_local_copies_accepted_coverage_open",
-  "retrieval_status": "28 official-source local copies are accepted after separate review; 11 converted artifacts remain unaccepted review aids in the Monitor local-only archive; 9 official-link records have no local capture. Link acceptance, local-copy acceptance and topic coverage remain separate.",
-  "accepted_source_count": 28,
+  "status": "official_links_and_twenty_nine_local_copies_accepted_coverage_open",
+  "retrieval_status": "29 official-source local copies are accepted; three converted artifacts remain unresolved in the Monitor local-only archive; 16 source records are link-only with no accepted local copy. External-link acceptance and topic coverage remain separate.",
+  "accepted_source_count": 29,
   "candidate_source_count": 48,
   "official_hosts": [
     "n-lex.europa.eu",
@@ -47,7 +47,7 @@
       },
       "functional_relationship": "related_source",
       "verification_status": "official EU discovery portal; used as a lead to national-law publishers, not as a Belgian publisher or complete source inventory",
-      "retrieval_status": "converted_review_candidate",
+      "retrieval_status": "official_link_reviewed_no_local_capture",
       "retrieval_shape": "portal and links to national legislation systems; coverage differs by jurisdiction and source class",
       "topic_ids": [
         "PRACTICE-11",
@@ -69,7 +69,7 @@
         "review_date": "2026-10-24"
       },
       "local_copy_status": "not_accepted",
-      "review_state": "link_only_or_manual_follow_up"
+      "review_state": "link_only"
     },
     {
       "id": "be-law-1980-fr",
@@ -261,7 +261,7 @@
       },
       "functional_relationship": "related_source",
       "verification_status": "official page opened; names the 1980 Law and 1981 Royal Decree, warns both have many amendments, and links consolidated Justel records and annex indexes",
-      "retrieval_status": "converted_review_candidate",
+      "retrieval_status": "official_link_reviewed_no_local_capture",
       "retrieval_shape": "JavaScript-dependent authority hub linking to current legislation records and forms",
       "topic_ids": [
         "PRACTICE-01",
@@ -284,7 +284,7 @@
         "review_date": "2026-10-24"
       },
       "local_copy_status": "not_accepted",
-      "review_state": "link_only_or_manual_follow_up"
+      "review_state": "link_only"
     },
     {
       "id": "be-annex-index-fr",
@@ -298,7 +298,7 @@
       },
       "functional_relationship": "partial_functional_match",
       "verification_status": "official page inspected; lists Annexes 19, 19ter, and 20 with linked payloads and descriptions",
-      "retrieval_status": "converted_review_candidate",
+      "retrieval_status": "official_link_reviewed_no_local_capture",
       "retrieval_shape": "dynamic HTML index with direct file links; individual filenames and file paths are versioned and can change",
       "topic_ids": [
         "PRACTICE-02",
@@ -322,7 +322,7 @@
         "review_date": "2026-10-24"
       },
       "local_copy_status": "not_accepted",
-      "review_state": "link_only_or_manual_follow_up"
+      "review_state": "link_only"
     },
     {
       "id": "be-annex-index-nl",
@@ -336,7 +336,7 @@
       },
       "functional_relationship": "partial_functional_match",
       "verification_status": "official Dutch index reached by following the IBZ language switch; page has separate language-specific links",
-      "retrieval_status": "converted_review_candidate",
+      "retrieval_status": "official_link_reviewed_no_local_capture",
       "retrieval_shape": "dynamic HTML index; confirm current direct file URL and language from the index on each retrieval",
       "topic_ids": [
         "PRACTICE-02",
@@ -360,7 +360,7 @@
         "review_date": "2026-10-24"
       },
       "local_copy_status": "not_accepted",
-      "review_state": "link_only_or_manual_follow_up"
+      "review_state": "link_only"
     },
     {
       "id": "be-annex-19-fr",
@@ -786,7 +786,7 @@
       },
       "functional_relationship": "related_source",
       "verification_status": "official directory opened from the central visa page",
-      "retrieval_status": "converted_review_candidate",
+      "retrieval_status": "official_link_reviewed_no_local_capture",
       "retrieval_shape": "dynamic directory; requires resolving applicant residence to the responsible post and then to the post's own instructions",
       "topic_ids": [
         "MISSION-04",
@@ -810,7 +810,7 @@
         "review_date": "2026-10-24"
       },
       "local_copy_status": "not_accepted",
-      "review_state": "link_only_or_manual_follow_up"
+      "review_state": "link_only"
     },
     {
       "id": "be-uk-mission-eu-family-visa",
@@ -951,7 +951,7 @@
       },
       "functional_relationship": "related_source",
       "verification_status": "official linked page identified; last published update observed as 2022-02-01, older than the separate 2026 GDPR information page",
-      "retrieval_status": "converted_review_candidate",
+      "retrieval_status": "official_link_reviewed_no_local_capture",
       "retrieval_shape": "HTML privacy notice; track separately from the current hub and determine whether it has been superseded",
       "topic_ids": [
         "DATA-06",
@@ -975,7 +975,7 @@
         "review_date": "2026-10-24"
       },
       "local_copy_status": "not_accepted",
-      "review_state": "link_only_or_manual_follow_up"
+      "review_state": "superseded"
     },
     {
       "id": "be-administrative-motivation-act",
@@ -1569,7 +1569,7 @@
       },
       "retrieved": true,
       "accepted": false,
-      "retrieval_status": "converted_review_candidate",
+      "retrieval_status": "official_link_reviewed_no_local_capture",
       "retrieved_at": "2026-10-15T22:57:07Z",
       "raw_html_sha256": "0e02e7a60e22e6e6679b39aeb0640deb3a8e1e3eb2225818e7ca0cdabac3bd2e",
       "document_path": "../candidates/be-ibz-eu-family.md",
@@ -1596,7 +1596,7 @@
         "review_date": "2026-10-24"
       },
       "local_copy_status": "not_accepted",
-      "review_state": "link_only_or_manual_follow_up"
+      "review_state": "superseded"
     },
     {
       "id": "be-05-federal-justice-guidance-recognition-registration-foreign-adoptions",
@@ -1610,14 +1610,14 @@
         "page": "adoption_a_letranger"
       },
       "retrieved": true,
-      "accepted": false,
-      "retrieval_status": "converted_review_candidate",
+      "accepted": true,
+      "retrieval_status": "accepted_source",
       "retrieved_at": "2026-10-15T22:57:07Z",
       "raw_html_sha256": "5aae1f7be8324de3934c5fb9de185fa079a0bce7d9491ed1c1cc157722a1b931",
       "document_path": "../candidates/be-justice-international-adoption.md",
       "functional_relationship": "related_source",
-      "verification_status": "prior French official-page conversion is preserved as a review candidate; current route and content were not rechecked in this pass",
-      "retrieval_shape": "browser-rendered article HTML; converted output is present but raw source bytes are absent",
+      "verification_status": "The official Federal Public Service Justice page was opened on 2026-10-24. Its main article text was reviewed from the title through the municipal registration section and compared with the retained 2026-10-19 conversion. The page shows no publication or revision date; acceptance is limited to the content displayed on the review date. The linked recognition-request form is a separate page and is not included.",
+      "retrieval_shape": "Official HTML main-article snapshot; source navigation and footer are excluded, and the regional-authority table is reflowed for readability. Current raw HTML was not retained.",
       "topic_ids": [
         "FAMILY-11",
         "FAMILY-12",
@@ -1626,7 +1626,7 @@
         "FAMILY-19"
       ],
       "source_sha256": "8c14b8d3b3b2c0a111befd1a5c196809a77a9221c252e3bcb6feb1d11498d7b2",
-      "converted_sha256": "cd1f6d6bba3444ddac8e3d0d60867fed78ce2a76c079ef36ec9c229b6c30ad23",
+      "converted_sha256": "172adbe39213751d96c9ad06b1fcb33b031437015a7b0ea479fde3b1153f1a7c",
       "source_bytes": 40223,
       "resolved_url": "https://justice.belgium.be/fr/themes_et_dossiers/personnes_et_familles/adoption/adoption_a_letranger",
       "external_reference_status": "accepted_with_narrow_external_scope",
@@ -1634,12 +1634,20 @@
       "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-05-federal-justice-guidance-recognition-registration-foreign-adoptions.md",
       "candidate_archive_sha256": "ca51a1fed96cb6b001ed91471a2f541811ffb17d0422173f207230be1de9223c",
       "local_copy_disposition": {
-        "status": "human_review",
-        "note": "Current official Justice page presents a human-verification challenge in the browser and the old capture was not revalidated. Keep the official locator only until the publisher content can be reviewed.",
+        "status": "accepted",
+        "note": "Promoted to a final document after the current official page was accessible and its main article was checked on 2026-10-24. This is procedural guidance, not a consolidated legal text.",
         "review_date": "2026-10-24"
       },
-      "local_copy_status": "not_accepted",
-      "review_state": "link_only_or_manual_follow_up"
+      "local_copy_status": "accepted",
+      "review_state": "accepted",
+      "source_status": "accepted",
+      "source_text_path": "source-library/belgium/documents/guidance/be-foreign-adoption-guidance-fr.md",
+      "source_text_sha256": "172adbe39213751d96c9ad06b1fcb33b031437015a7b0ea479fde3b1153f1a7c",
+      "source_text_bytes": 11157,
+      "converted_bytes": 11157,
+      "content_selector": "official page main article, title through municipal registration; site navigation/footer excluded",
+      "local_copy_review_date": "2026-10-24",
+      "local_copy_review_limit": "No page-level publication or revision date is shown. Accepted as the publisher text observed on 2026-10-24. The separate recognition-request form page could not be retrieved and is not part of this copy."
     },
     {
       "id": "be-data-protection-act-2018-fr",
@@ -1879,12 +1887,12 @@
     "Mission-specific consular guidance, local residence procedures, legal-aid eligibility, and case-specific remedy/deadline mapping remain incomplete.",
     "Current Wallex and Flemish Codex editions were acquired as final documents on 2026-10-24; superseded captures remain non-authoritative review aids. The two regional decrees do not establish a nationwide access-to-records rule."
   ],
-  "retrieved_review_candidate_count": 11,
-  "discovery_only_candidate_count": 37,
-  "converted_review_candidate_count": 11,
-  "accepted_local_copy_count": 28,
+  "retrieved_review_candidate_count": 3,
+  "discovery_only_candidate_count": 9,
+  "converted_review_candidate_count": 3,
+  "accepted_local_copy_count": 29,
   "accepted_external_reference_count": 47,
-  "link_only_candidate_count": 9,
+  "link_only_candidate_count": 16,
   "coverage_gaps": [],
-  "local_copy_acceptance_note": "28 local source files passed separate review. 11 converted review artifacts remain nonterminal in the Monitor local-only archive; 9 other records have no local capture. No candidate or capture copies are retained in this country pack."
+  "local_copy_acceptance_note": "Twenty-nine local copies are accepted after separate review. Three converted artifacts remain open for human review or publisher repair; 16 source records have no accepted local copy. No topic is marked covered and Belgium review remains incomplete."
 }
