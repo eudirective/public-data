@@ -1,19 +1,20 @@
 # Freedom of Information Act 2014
 
+- Source ID: `ie-36`
 - Jurisdiction: Ireland
-- Candidate ID: `ie-36`
 - Source type: `administrative_procedure_legislation`
-- Publisher URL: https://www.irishstatutebook.ie/eli/2014/act/30/enacted/en/print
-- Retrieved URL: https://www.irishstatutebook.ie/eli/2014/act/30/enacted/en/print
-- Retrieved: 2026-10-18T23:10:00+00:00
-- Format: html; publisher content type `text/html`
-- Source SHA-256: `e87c9b4099357eaa949cd7d07eed22823721d085d393113dc0a2a2299e798d3a`
-- Identity check: candidate-title token overlap
-- PDF link discovery: stable_record_url
+- Official publisher: Irish Statute Book (eISB)
+- Official source: https://www.irishstatutebook.ie/eli/2014/act/30/enacted/en/print
+- Source version: Enacted Act path; amendment table and current provisions require verification.
+- Retrieved from the official source: 2026-10-18T23:10:00+00:00
+- Reviewed for identity and scope: 2026-10-24
+- Source response SHA-256: `e87c9b4099357eaa949cd7d07eed22823721d085d393113dc0a2a2299e798d3a`
+- Conversion: deterministic text extraction from the exact retained HTML/PDF response; pinned `pypdf==6.10.0` for PDFs. This text is not the publisher’s official typesetting.
+- Re-use: eISB Open Data PSI Licence incorporating CC BY 4.0; this licence applies to eISB content only.
+- Currentness and scope: Exact 2014 enacted text; not a consolidated current expression. The Law Reform Commission Revised Act is separately linked (administrative consolidation updated 31 July 2026, with its stated cutoff and disclaimer).
+- Related revised text: [Freedom of Information Act 2014 Revised Act](https://revisedacts.lawreform.ie/eli/2014/act/30/revised/en/html) (updated 2026-07-31; LRC administrative consolidation; cutoff and disclaimer apply).
 
-> **Review candidate.** The captured material is a source candidate. Record the official publisher, version date/cutoff, scope, and publisher terms; check only a known material later change relevant to the question. Do not reconstruct a complete amendment chain. For legislation, use the latest government-published consolidated text where available. If this is the closest dated text, retain its cutoff and check only a specifically relevant later amendment or commencement.
-
-## Extracted source text
+## Official source text
 
 Home Baile
 

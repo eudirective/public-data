@@ -1,19 +1,19 @@
 # S.I. No. 57/1997, Right of Residence for Non-Economically Active Persons Regulations 1997
 
+- Source ID: `ie-12`
 - Jurisdiction: Ireland
-- Candidate ID: `ie-12`
 - Source type: `national_legislation`
-- Publisher URL: https://www.irishstatutebook.ie/eli/1997/si/57/made/en/print
-- Retrieved URL: https://www.irishstatutebook.ie/eli/1997/si/57/made/en/print
-- Retrieved: 2026-10-18T23:09:36+00:00
-- Format: html; publisher content type `text/html`
-- Source SHA-256: `6802dae27dd24024b41906bdf6a9b0bc590057a3f770d5d4441df31ac1165cf0`
-- Identity check: candidate-title token overlap
-- PDF link discovery: stable_record_url
+- Official publisher: Irish Statute Book (eISB)
+- Official source: https://www.irishstatutebook.ie/eli/1997/si/57/made/en/print
+- Source version: Legacy instrument; amendment/current-status chain not independently established here.
+- Retrieved from the official source: 2026-10-18T23:09:36+00:00
+- Reviewed for identity and scope: 2026-10-24
+- Source response SHA-256: `6802dae27dd24024b41906bdf6a9b0bc590057a3f770d5d4441df31ac1165cf0`
+- Conversion: deterministic text extraction from the exact retained HTML/PDF response; pinned `pypdf==6.10.0` for PDFs. This text is not the publisher’s official typesetting.
+- Re-use: eISB Open Data PSI Licence incorporating CC BY 4.0; this licence applies to eISB content only.
+- Currentness and scope: Exact original 1997 instrument. Section 2(2)(e) of the Immigration Act 2004 lists this instrument among matters the Act does not derogate from; its current operative scope and subsequent changes have not been fully reviewed.
 
-> **Review candidate.** The captured material is a source candidate. Record the official publisher, version date/cutoff, scope, and publisher terms; check only a known material later change relevant to the question. Do not reconstruct a complete amendment chain. For legislation, use the latest government-published consolidated text where available. If this is the closest dated text, retain its cutoff and check only a specifically relevant later amendment or commencement.
-
-## Extracted source text
+## Official source text
 
 Home Baile
 

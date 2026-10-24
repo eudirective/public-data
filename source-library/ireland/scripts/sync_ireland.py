@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import html
 import json
+import os
 import re
 import ssl
 import sys
@@ -18,11 +19,12 @@ from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 
-PACK = Path(__file__).resolve().parent
+PACK = Path(__file__).resolve().parents[1]
 ROOT = PACK.parents[1]
+TEMP_ROOT = Path(os.environ.get("EUDIRECTIVE_TEMP_ROOT", "/tmp/public-data")).resolve()
 REFS = PACK / "references"
 CANDIDATES = REFS / "candidate-manifest.json"
-RETRIEVAL = REFS / "ireland-retrieval-manifest.json"
+RETRIEVAL = TEMP_ROOT / "temp/ireland/retrieval-manifest.json"
 USER_AGENT = "eudirective-source-library/1.0 (bounded legal-source retrieval; eudirective@proton.me)"
 MAX_BYTES = 32 * 1024 * 1024
 TIMEOUT = 30
@@ -180,7 +182,7 @@ def discover_parent_pdf(record: dict, captures_by_id: dict[str, dict], records_b
     if not parent_id or parent_id not in captures_by_id:
         return record["url"], "no_parent_capture_used_manifest_url"
     parent = captures_by_id[parent_id]
-    raw_path = ROOT / parent["raw_path"]
+    raw_path = TEMP_ROOT / parent["raw_path"]
     parser = CaptureParser()
     try:
         parser.feed(raw_path.read_text(encoding="utf-8", errors="replace"))
@@ -254,7 +256,7 @@ def extract_payload(raw: bytes, content_type: str) -> tuple[str, str, dict]:
         try:
             from pypdf import PdfReader
         except ImportError as exc:
-            raise RuntimeError("PDF conversion requires pypdf; install source-library/ireland/requirements.txt") from exc
+            raise RuntimeError("PDF conversion requires pypdf; install source-library/ireland/scripts/requirements.txt") from exc
         reader = PdfReader(__import__("io").BytesIO(raw), strict=False)
         pages = [page.extract_text(extraction_mode="layout") or "" for page in reader.pages]
         text = "\n\n".join(pages).strip() + "\n"
@@ -287,9 +289,9 @@ def sync() -> None:
             source_hash = digest(raw)
             stem = re.sub(r"[^a-z0-9]+", "-", record["id"].lower()).strip("-")
             relative = f"temp/ireland/raw/{stem}-{source_hash}.{'pdf' if fmt == 'pdf' else 'html'}"
-            output = (ROOT / relative).resolve()
-            if not output.is_relative_to(ROOT):
-                raise ValueError("refused capture path outside project root")
+            output = (TEMP_ROOT / relative).resolve()
+            if not output.is_relative_to(TEMP_ROOT):
+                raise ValueError("refused capture path outside the configured temporary workspace")
             if not output.exists():
                 atomic_write(output, raw)
             saved_time = item.get("retrieved_at") if item.get("source_sha256") == source_hash else datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -337,7 +339,7 @@ def sync() -> None:
 
 
 def convert_one(record: dict, capture: dict) -> tuple[bytes, dict]:
-    raw = (ROOT / capture["raw_path"]).read_bytes()
+    raw = (TEMP_ROOT / capture["raw_path"]).read_bytes()
     fmt, text, extract_meta = extract_payload(raw, capture["content_type"])
     identity = content_identity(record, extract_meta.get("html_title", ""), text)
     body = text.rstrip()
@@ -355,7 +357,7 @@ def convert_one(record: dict, capture: dict) -> tuple[bytes, dict]:
         f"> **Review candidate.** {warning}\n\n"
         f"## Extracted source text\n\n{body}\n"
     ).encode("utf-8")
-    metadata = {"id": record["id"], "output_path": f"source-library/ireland/candidates/{record['id']}.md", "converted_sha256": digest(markdown), "converted_bytes": len(markdown), "source_sha256": capture["source_sha256"], "identity_check": identity, "extraction": extract_meta, "retrieval_status": "converted_review_candidate", "accepted": False}
+    metadata = {"id": record["id"], "output_path": f"temp/ireland/pending/{record['id']}.md", "converted_sha256": digest(markdown), "converted_bytes": len(markdown), "source_sha256": capture["source_sha256"], "identity_check": identity, "extraction": extract_meta, "retrieval_status": "converted_review_candidate", "accepted": False}
     return markdown, metadata
 
 
@@ -371,13 +373,15 @@ def process(mode: str) -> None:
             continue
         try:
             markdown, result = convert_one(record, item)
-            path = ROOT / result["output_path"]
+            path = TEMP_ROOT / result["output_path"]
+            if not path.resolve().is_relative_to(TEMP_ROOT):
+                raise ValueError("refused conversion path outside the configured temporary workspace")
             if mode == "verify":
                 if item.get("converted_sha256") != result["converted_sha256"]:
                     raise ValueError("retrieval manifest conversion hash differs from deterministic replay")
                 if digest(path.read_bytes()) != result["converted_sha256"]:
                     raise ValueError("saved Markdown differs from deterministic replay")
-                if digest((ROOT / item["raw_path"]).read_bytes()) != item["source_sha256"]:
+                if digest((TEMP_ROOT / item["raw_path"]).read_bytes()) != item["source_sha256"]:
                     raise ValueError("saved raw source hash mismatch")
                 print(f"verified {record['id']} source hash and conversion replay")
             else:
@@ -392,26 +396,6 @@ def process(mode: str) -> None:
         current["converted_candidate_count"] = sum(1 for item in current["records"] if item.get("retrieval_status") == "converted_review_candidate")
         current["accepted_source_count"] = 0
         atomic_write(RETRIEVAL, (json.dumps(current, ensure_ascii=False, indent=2) + "\n").encode("utf-8"))
-        catalog, catalog_records = load_candidates()
-        by_id = {item["id"]: item for item in current["records"]}
-        for record in catalog_records:
-            result = by_id.get(record["id"], {})
-            record["retrieval_status"] = result.get("retrieval_status", "not_downloaded")
-            record["retrieved"] = result.get("retrieval_status") == "converted_review_candidate"
-            record["accepted"] = False
-            if result.get("retrieval_status") == "converted_review_candidate":
-                record["candidate_text_path"] = result["output_path"]
-                record["source_sha256"] = result["source_sha256"]
-                record["converted_sha256"] = result["converted_sha256"]
-            else:
-                record.pop("candidate_text_path", None)
-                record.pop("source_sha256", None)
-                record.pop("converted_sha256", None)
-        catalog["status"] = "partial_retrieval_review_candidates"
-        catalog["retrieval_status"] = f"{current['converted_candidate_count']} of {len(catalog_records)} candidate records downloaded and converted; others pending or retrieval-blocked"
-        catalog["retrieved_candidate_count"] = current["converted_candidate_count"]
-        catalog["accepted_source_count"] = 0
-        atomic_write(CANDIDATES, (json.dumps(catalog, ensure_ascii=False, indent=2) + "\n").encode("utf-8"))
     if errors:
         raise SystemExit("\n".join(errors))
 

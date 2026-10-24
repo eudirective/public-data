@@ -1,19 +1,20 @@
 # Immigration Act 2004
 
+- Source ID: `ie-16`
 - Jurisdiction: Ireland
-- Candidate ID: `ie-16`
 - Source type: `national_legislation`
-- Publisher URL: https://www.irishstatutebook.ie/eli/2004/act/1/enacted/en/print
-- Retrieved URL: https://www.irishstatutebook.ie/eli/2004/act/1/enacted/en/print
-- Retrieved: 2026-10-18T23:09:42+00:00
-- Format: html; publisher content type `text/html`
-- Source SHA-256: `4289a7038b0607efa5a51a75a6800f494559b84e6a0c6553cc03d6334cda0e3e`
-- Identity check: candidate-title token overlap
-- PDF link discovery: stable_record_url
+- Official publisher: Irish Statute Book (eISB)
+- Official source: https://www.irishstatutebook.ie/eli/2004/act/1/enacted/en/print
+- Source version: Enacted text path; current provisions require amendment-table and current-text review.
+- Retrieved from the official source: 2026-10-18T23:09:42+00:00
+- Reviewed for identity and scope: 2026-10-24
+- Source response SHA-256: `4289a7038b0607efa5a51a75a6800f494559b84e6a0c6553cc03d6334cda0e3e`
+- Conversion: deterministic text extraction from the exact retained HTML/PDF response; pinned `pypdf==6.10.0` for PDFs. This text is not the publisher’s official typesetting.
+- Re-use: eISB Open Data PSI Licence incorporating CC BY 4.0; this licence applies to eISB content only.
+- Currentness and scope: Exact 2004 enacted text; not a consolidated current expression. The Law Reform Commission Revised Act is separately linked (administrative consolidation updated 15 June 2026, with its stated cutoff and disclaimer).
+- Related revised text: [Immigration Act 2004 Revised Act](https://revisedacts.lawreform.ie/eli/2004/act/1/revised/en/html) (updated 2026-06-15; LRC administrative consolidation; cutoff and disclaimer apply).
 
-> **Review candidate.** The captured material is a source candidate. Record the official publisher, version date/cutoff, scope, and publisher terms; check only a known material later change relevant to the question. Do not reconstruct a complete amendment chain. For legislation, use the latest government-published consolidated text where available. If this is the closest dated text, retain its cutoff and check only a specifically relevant later amendment or commencement.
-
-## Extracted source text
+## Official source text
 
 Home Baile
 
