@@ -491,13 +491,14 @@
       "url": "https://www.cnil.fr/fr/application-de-gestion-des-dossiers-des-ressortissants-etrangers-en-france-agdref",
       "checked_on": "2026-10-24",
       "language": "French",
-      "version_or_cutoff": "Official CNIL page located through its indexed result; the result indicates publication about five years earlier. Direct page open timed out on 2026-10-24.",
+      "version_or_cutoff": "Full official page retrieved by HTTP on 2026-10-24; no publisher version/review date was identified in the response. The page cites legal materials dated 2012–2020 and says AGDREF could evolve or be replaced by SI AEF.",
       "scope": "CNIL public information about AGDREF, personal-data access/retention rights, authorized access, and referenced legal provisions.",
-      "reviewed_content": "The official CNIL result describes access, rectification and restriction rights, categories of authorized users, retention rules, and CESEDA provisions. It also says the system could evolve or be replaced by SI AEF.",
+      "reviewed_content": "The 99,278-byte official CNIL HTML response was inspected: its title identifies AGDREF, and the content describes data-access/rectification rights, retention periods, authorized users, CESEDA references, and the possibility of system evolution. The exact raw response is preserved as a gzip-compressed file in the Monitor local-only archive.",
       "limitations": [
-        "The direct page could not be opened during this check; the reviewed information came from the official CNIL indexed page result.",
-        "The page itself raises a concrete currentness limit by stating the system could evolve or be replaced. It is retained as a CNIL reference about AGDREF as described there, not as proof of the current information-system architecture.",
-        "Check current CESEDA and CNIL material before relying on present processing status or rights for a specific data record; no personal data was accessed."
+        "The page gives no current architecture confirmation; it is accepted as a CNIL reference to the information it describes, not as proof AGDREF remains the active system.",
+        "The direct CNIL page was retrieved and captured, but a browser-rendered open had timed out earlier; this difference is a tool-path observation, not evidence of source unavailability.",
+        "The raw capture is local-only acquisition evidence and is not an accepted local library document.",
+        "Check current CESEDA and CNIL materials before relying on present processing status or rights for a specific data record; no personal data was accessed."
       ]
     },
     "fr-defenseur-des-droits-portal": {
