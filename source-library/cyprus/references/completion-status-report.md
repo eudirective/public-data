@@ -7,6 +7,12 @@
 
 **Source-use policy:** Local capture and EGR's exact instrument/language-pair counts are narrower retained-text bookkeeping; they are not prerequisites to using an official government link. Use a human-reviewed current consolidation when available, or the closest government-published version with its cutoff and limits. Gazette fragments are targeted only to resolve a material gap. The EGR batch ceiling remains 24/24 as directed; this policy clarification adds no discovery batch or finding.
 
+
+
+## Maintenance update — 24 October 2026
+
+Six final documents now contain the 12 accepted bounded passages: Law 7(I)/2007 Article 4(2)(a)–(b), five Greek Green Line Regulation passages, sections 2 and 29 of Laws 96(I)/2023 and 4(I)/2025, and four secondary procedural passages from CyLaw. The complete conversions remain unaccepted and are retained in the Monitor local-only archive. Candidate and capture files have been removed from the country pack; their indexed local archive records remain available through the Monitor. The inventory validator passes. OCR/PDF replay and candidate-page verification were not run because their inputs are no longer in the checkout; those runtime checks are unsupported, not completed. No topic or country-completion gate changed.
+
 ## Work completed in this pass
 - Reopened the existing official Greek Administrative Court procedural-rules index and appellate-decisions listing on 21 October. The rules page lists the 2008 and main 2015 rules, amendments through 2023, and the separate rule 11/2025; the direct link for rule 11/2025 still returned a research-browser cache miss. The appellate index displays 2026 entries through 5 October. The index routes remain accepted within those discovery-only scopes; no individual case was screened, and no source, finding or search batch was added.
 - Directly reopened the existing gov.cy Office of the Law Commissioner and Migration Department indexes and selected already-registered guidance pages. The research browser returned 403 for those pages; direct OLC consolidation PDF attempts returned fetch errors. This is an access limitation in that client, not a conclusion that the official sources do not exist. The OLC consolidations, Migration Department legislation index and MFA missions portal are now explicitly offered for whole-portal human review. The 24/24 source-batch ceiling is unchanged.
