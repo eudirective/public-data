@@ -1,10 +1,12 @@
 # Netherlands issue-led coverage register
 
-**Review date:** 21 October 2026
+**Official-reference review date:** 21 October 2026
 
-**Status:** 59 official external references accepted within scope; 3 exact routes not relied upon; no local copies or topics accepted; the Netherlands review is incomplete.
+**Local-copy review date:** 25 October 2026
 
-This register asks whether the source set addresses the issues a person may need to understand or challenge a residence, visa, or administrative decision. It does not treat a collected-source count as proof of legal sufficiency.
+**Status:** 59 official external references accepted within scope; 3 exact routes not relied upon; 8 dated local source copies accepted; no topics accepted; the Netherlands review is incomplete.
+
+This register asks whether the source set addresses the issues a person may need to understand or challenge a residence, visa, or administrative decision. It does not treat accepted external references or dated local copies as proof of legal sufficiency. None of the 8 local-copy acceptances changes an issue row to complete.
 
 | Issue area | Status | Source leads | Work still needed |
 |---|---|---|---|
