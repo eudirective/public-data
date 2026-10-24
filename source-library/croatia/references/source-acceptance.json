@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "HR",
-  "as_of": "2026-10-24",
+  "as_of": "2026-10-25",
   "required_checks": [
     "publisher_identity",
     "current_legal_version",
@@ -431,15 +431,15 @@
       "status": "usable_official_reference",
       "publisher": "Croatian Personal Data Protection Agency (AZOP)",
       "url": "https://azop.hr/zahtjev-za-utvrdivanje-povrede-prava/",
-      "checked_on": "2026-10-24",
+      "checked_on": "2026-10-25",
       "language": "Croatian",
-      "version_or_cutoff": "Undated live AZOP page; checked 2026-10-24 and cites the GDPR Implementation Act NN 42/18.",
+      "version_or_cutoff": "Undated live AZOP page; publisher metadata reports last modification 2026-05-11T23:16:46+00:00; checked live 2026-10-25.",
       "scope": "AZOP route for an affected data subject to complain about an alleged violation of their personal-data rights.",
-      "reviewed_content": "The page describes oral, written, online, email and fax submission; says an administrative action may be brought against the Agency’s decision; explains the page’s personal-rights complaint scope and that its online form is optional.",
+      "reviewed_content": "The page describes oral, written, online, email and fax complaint routes, the Agency decision and administrative-court route, the personal-rights scope, and that its blank form is optional.",
       "limitations": [
-        "The page asks for identifying details and supporting documents and contains an online form; no user-submitted complaint data is collected or retained in this library.",
-        "Use the current statute and GDPR for substantive rights, jurisdiction and deadlines.",
-        "No local copy or republication permission is inferred."
+        "This is scoped operational guidance, not a substitute for the GDPR or national legislation; verify applicable rights, deadlines, competence and remedies against current law.",
+        "The optional DOCX and live data-bearing online form are not retained; no complaint payload or personal data is collected in this library.",
+        "AZOP Terms of Use permit republication with source attribution and no change to meaning. This pack uses the official link and does not retain the article text."
       ]
     },
     "hr-ombudsman-complaints": {
@@ -4407,7 +4407,7 @@
     }
   },
   "currentness_review_file": "references/currentness-review.json",
-  "last_acceptance_review": "2026-10-24",
+  "last_acceptance_review": "2026-10-25",
   "required_checks_scope": "These checks govern retained local copies only and do not block a human-reviewed official link. Record the published version/cutoff and use the copy within that scope; a full amendment-chain reconstruction, whole-text comparison, or exhaustive attachment audit is not the default.",
   "required_check_interpretation": {
     "publisher_identity": "Confirm the source and responsible publisher.",

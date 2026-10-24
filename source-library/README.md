@@ -143,7 +143,7 @@ The [Cyprus register](cyprus/references/candidate-manifest.json) contains 90 rec
 
 ## Croatia candidate pack
 
-The [Croatia source register](croatia/references/source-list.md) tracks 76 records: 17 accepted local artifacts, 30 converted review candidates, 26 located uncaptured leads, one no-text discovery surface and two excluded stale-source leads. Six official references (two MVEP, three MUP and one Constitutional Court) are separately reviewed for scoped link use. The 41/40 capture count describes the original seed batch. Use the closest government-published version and record its date and limits; do not assemble every Gazette fragment. Topic and country completion remain open. See the [README](croatia/README.md) and [sustainability assessment](croatia/references/sustainability-assessment.md).
+The [Croatia source register](croatia/references/source-list.md) contains 82 records, with 34 accepted local documents and 35 official links reviewed within recorded scopes. Nine archived page candidates now have explicit dispositions: one AZOP link-only reference, five MVEP/Ombudsman link-only references, and three stale-source exclusions. The candidate and capture records remain in the Monitor’s local-only archive; none is published in the country pack. The original seed batch saved 41 responses and converted 40. No topic or country completion is claimed. See the [README](croatia/README.md), [completion report](croatia/references/completion-status-report.md), and [sustainability assessment](croatia/references/sustainability-assessment.md).
 
 ## Bulgaria candidate pack
 
