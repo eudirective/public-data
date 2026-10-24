@@ -1,18 +1,22 @@
 # Law on Administrative Proceedings, VIII-1029
 
+- Source ID: `lt-33`
 - Jurisdiction: Lithuania
-- Candidate ID: `lt-33`
-- Source type: `administrative_court_procedure_law`
-- Candidate URL: https://e-tar.lt/portal/lt/legalAct/TAR.67B5099C5848/asr
-- Resolved URL: https://e-tar.lt/portal/lt/legalAct/TAR.67B5099C5848/CSuhkMKLnv
-- Retrieved: 2026-10-19T00:26:43+00:00
-- Media type: `application/json`
-- Publisher/version evidence: TAR API version CSuhkMKLnv; valid 2024-11-07T00:00:00 through open-ended; API metadata active_as_listed_by_dataset. Not reconciled with live e-TAR page.
-- Exact response SHA-256: `7739beb206cfafb30b646c8420a6e3790c954a9aeaa2afec1b3db1a16bae43c8`
+- Source type: `national_legislation_snapshot`
+- Official publisher: State Data Agency, Lithuania Open Data Portal (TAR data); underlying act published in the Register of Legal Acts (e-TAR)
+- Official e-TAR record: https://e-tar.lt/portal/lt/legalAct/TAR.67B5099C5848/asr
+- TAR dataset API version record: https://get.data.gov.lt/datasets/gov/lrsk/teises_aktai/Suvestine?dokumento_id='TAR.67B5099C5848'&suvestines_id='CSuhkMKLnv'&_limit=2
+- Source version: Dataset version `CSuhkMKLnv`, identified as effective 2024-11-07 through open-ended in dataset metadata.
+- Retrieved from the official TAR dataset API: 2026-10-19T00:26:43+00:00
+- Reviewed for source identity, version labeling, and reuse: 2026-10-25
+- Source response SHA-256: `7739beb206cfafb30b646c8420a6e3790c954a9aeaa2afec1b3db1a16bae43c8`
+- Version metadata response SHA-256: `9b1fe99878867cbe18c4772ae87584b97d988d53abce275efd38a42275bcaaac`
+- Original converted-text SHA-256: `951e12b67da41384e4953c2c91c63dafcceab77094f16e196cd0988fbe85d8f7`
+- Conversion: deterministic extraction of the Lithuanian `tekstas_lt` field from the exact JSON response; this Markdown is not the publisher's official typesetting.
+- Re-use: Lithuania Open Data Portal lists Creative Commons Attribution 4.0 for dataset 2613. Attribution: State Data Agency, TAR data via the Lithuania Open Data Portal. This file adds metadata and converts the text to Markdown; it does not intentionally alter the source text.
+- Currentness and scope: This is a dated TAR API text snapshot, not a currentness assertion. The API may mark an old version open-ended; consult the live e-TAR consolidated record above for current legal text. e-TAR and API version dates have known conflicts in this source set.
 
-> **Review candidate.** Not accepted into the trusted source corpus. Verify identity, scope, version, authority and reuse conditions before reliance.
-
-## Captured source text
+## Official source text
 
 Projektas XXXX XX XX Nr. –––––
 

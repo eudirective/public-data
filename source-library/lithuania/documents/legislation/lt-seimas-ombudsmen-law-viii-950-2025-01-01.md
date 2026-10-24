@@ -1,18 +1,22 @@
 # Seimas Ombudsmen Law, VIII-950
 
+- Source ID: `lt-36`
 - Jurisdiction: Lithuania
-- Candidate ID: `lt-36`
-- Source type: `ombudsman_legislation`
-- Candidate URL: https://e-tar.lt/portal/lt/legalAct/TAR.EC01522BCE65/asr
-- Resolved URL: https://e-tar.lt/portal/lt/legalAct/TAR.EC01522BCE65/xnKpsZmEyx
-- Retrieved: 2026-10-19T00:26:51+00:00
-- Media type: `application/json`
-- Publisher/version evidence: TAR API version xnKpsZmEyx; valid 2025-01-01T00:00:00 through open-ended; API metadata active_as_listed_by_dataset. Not reconciled with live e-TAR page.
-- Exact response SHA-256: `28481029855547b0e26086911d5729462b105fa7d1a28ec82f261622b760609f`
+- Source type: `national_legislation_snapshot`
+- Official publisher: State Data Agency, Lithuania Open Data Portal (TAR data); underlying act published in the Register of Legal Acts (e-TAR)
+- Official e-TAR record: https://e-tar.lt/portal/lt/legalAct/TAR.EC01522BCE65/asr
+- TAR dataset API version record: https://get.data.gov.lt/datasets/gov/lrsk/teises_aktai/Suvestine?dokumento_id='TAR.EC01522BCE65'&suvestines_id='xnKpsZmEyx'&_limit=2
+- Source version: Dataset version `xnKpsZmEyx`, identified as effective 2025-01-01 through open-ended in dataset metadata.
+- Retrieved from the official TAR dataset API: 2026-10-19T00:26:51+00:00
+- Reviewed for source identity, version labeling, and reuse: 2026-10-25
+- Source response SHA-256: `28481029855547b0e26086911d5729462b105fa7d1a28ec82f261622b760609f`
+- Version metadata response SHA-256: `590e304466d4f22d2bc7ceb1cb2b611c7f641bf6f5ec448c73d0c6c11c12f3c1`
+- Original converted-text SHA-256: `99050f965e973601716ace2bbed7418e96b76ad3f26eae55c4380f80258cbd8b`
+- Conversion: deterministic extraction of the Lithuanian `tekstas_lt` field from the exact JSON response; this Markdown is not the publisher's official typesetting.
+- Re-use: Lithuania Open Data Portal lists Creative Commons Attribution 4.0 for dataset 2613. Attribution: State Data Agency, TAR data via the Lithuania Open Data Portal. This file adds metadata and converts the text to Markdown; it does not intentionally alter the source text.
+- Currentness and scope: This is a dated TAR API text snapshot, not a currentness assertion. The API may mark an old version open-ended; consult the live e-TAR consolidated record above for current legal text. e-TAR and API version dates have known conflicts in this source set.
 
-> **Review candidate.** Not accepted into the trusted source corpus. Verify identity, scope, version, authority and reuse conditions before reliance.
-
-## Captured source text
+## Official source text
 
 Suvestinė redakcija nuo 2025-01-01
  

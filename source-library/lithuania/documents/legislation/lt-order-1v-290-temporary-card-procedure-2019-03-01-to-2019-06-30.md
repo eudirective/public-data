@@ -1,18 +1,22 @@
-# Temporary residence-card procedure for a family member of a Union citizen, Order 1V-594 / TAR.2779206FA382
+# Former temporary residence-card procedure for a family member of a Union citizen, Order 1V-290
 
+- Source ID: `lt-48`
 - Jurisdiction: Lithuania
-- Candidate ID: `lt-09`
-- Source type: `implementing_procedure`
-- Candidate URL: https://e-tar.lt/portal/lt/legalAct/TAR.2779206FA382/asr
-- Resolved URL: https://e-tar.lt/portal/lt/legalAct/TAR.2779206FA382/yWISUTwFvd
-- Retrieved: 2026-10-19T00:26:10+00:00
-- Media type: `application/json`
-- Publisher/version evidence: TAR API version yWISUTwFvd; valid 2019-03-01T00:00:00 through 2019-06-30T00:00:00; API metadata no_active_version_listed_by_dataset. Not reconciled with live e-TAR page.
-- Exact response SHA-256: `0a9905342ba605a953a9551fcd133e52124533c5931901b1a6535b9a0def5343`
+- Source type: `national_legislation_snapshot`
+- Official publisher: State Data Agency, Lithuania Open Data Portal (TAR data); underlying act published in the Register of Legal Acts (e-TAR)
+- Official e-TAR record: https://e-tar.lt/portal/lt/legalAct/TAR.2779206FA382/asr
+- TAR dataset API version record: https://get.data.gov.lt/datasets/gov/lrsk/teises_aktai/Suvestine?dokumento_id='TAR.2779206FA382'&suvestines_id='yWISUTwFvd'&_limit=2
+- Source version: Dataset version `yWISUTwFvd`, identified as effective 2019-03-01 through 2019-06-30.
+- Retrieved from the official TAR dataset API: 2026-10-19T00:26:10+00:00
+- Reviewed for source identity, version labeling, and reuse: 2026-10-25
+- Source response SHA-256: `0a9905342ba605a953a9551fcd133e52124533c5931901b1a6535b9a0def5343`
+- Version metadata response SHA-256: `d66dc229e914e1eb33884c7cd92e0436a1a69cd514cac7ae00fbd3262beadf8d`
+- Original converted-text SHA-256: `dd3896c4367e0c1a355a35c110f5db98a5964160546b3e5c912acf092b50f797`
+- Conversion: deterministic extraction of the Lithuanian `tekstas_lt` field from the exact JSON response; this Markdown is not the publisher's official typesetting.
+- Re-use: Lithuania Open Data Portal lists Creative Commons Attribution 4.0 for dataset 2613. Attribution: State Data Agency, TAR data via the Lithuania Open Data Portal. This file adds metadata and converts the text to Markdown; it does not intentionally alter the source text.
+- Currentness and scope: Historical text only: the API identifies the consolidated version as effective 2019-03-01 through 2019-06-30, and the captured act text records repeal effective 2019-07-01 by Order 1V-593. Current temporary and permanent card procedure is separately referenced as Order 1V-594 (`lt-09`).
 
-> **Review candidate.** Not accepted into the trusted source corpus. Verify identity, scope, version, authority and reuse conditions before reliance.
-
-## Captured source text
+## Official source text
 
 LIETUVOS RESPUBLIKOS VIDAUS REIKALŲ MINISTRO Į S A K Y M A S
 

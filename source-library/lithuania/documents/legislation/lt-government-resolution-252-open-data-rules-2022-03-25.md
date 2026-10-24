@@ -1,18 +1,22 @@
 # Lithuanian Open Data Portal rules, Government Resolution No. 252
 
+- Source ID: `lt-06`
 - Jurisdiction: Lithuania
-- Candidate ID: `lt-06`
-- Source type: `open_data_portal_rules`
-- Candidate URL: https://e-tar.lt/rs/actualedition/a1107f40391911ea829bc2bea81c1194/kIyHFBOHcg/
-- Resolved URL: https://e-tar.lt/portal/lt/legalAct/a1107f40391911ea829bc2bea81c1194/kIyHFBOHcg
-- Retrieved: 2026-10-19T00:26:03+00:00
-- Media type: `application/json`
-- Publisher/version evidence: TAR API version kIyHFBOHcg; valid 2022-03-25T00:00:00 through open-ended; API metadata active_as_listed_by_dataset. Not reconciled with live e-TAR page.
-- Exact response SHA-256: `68fdd993ce8ace45333506a0096eb1544d499cb259f13584d5bad2387bb3b58a`
+- Source type: `national_legislation_snapshot`
+- Official publisher: State Data Agency, Lithuania Open Data Portal (TAR data); underlying act published in the Register of Legal Acts (e-TAR)
+- Official e-TAR record: https://e-tar.lt/rs/actualedition/a1107f40391911ea829bc2bea81c1194/kIyHFBOHcg/
+- TAR dataset API version record: https://get.data.gov.lt/datasets/gov/lrsk/teises_aktai/Suvestine?dokumento_id='a1107f40391911ea829bc2bea81c1194'&suvestines_id='kIyHFBOHcg'&_limit=2
+- Source version: Dataset version `kIyHFBOHcg`, identified as effective 2022-03-25 through open-ended in dataset metadata.
+- Retrieved from the official TAR dataset API: 2026-10-19T00:26:03+00:00
+- Reviewed for source identity, version labeling, and reuse: 2026-10-25
+- Source response SHA-256: `68fdd993ce8ace45333506a0096eb1544d499cb259f13584d5bad2387bb3b58a`
+- Version metadata response SHA-256: `361f872ab5c387e627faeed37357cc73ccb71ab5e3aca2c625ff7c155c4604c6`
+- Original converted-text SHA-256: `06e1c9b85bc57f7dc9ce4c9b84cbf46422bb58257bc8bc0becd2ebb19d1b0702`
+- Conversion: deterministic extraction of the Lithuanian `tekstas_lt` field from the exact JSON response; this Markdown is not the publisher's official typesetting.
+- Re-use: Lithuania Open Data Portal lists Creative Commons Attribution 4.0 for dataset 2613. Attribution: State Data Agency, TAR data via the Lithuania Open Data Portal. This file adds metadata and converts the text to Markdown; it does not intentionally alter the source text.
+- Currentness and scope: This is a dated TAR API text snapshot, not a currentness assertion. The API may mark an old version open-ended; consult the live e-TAR consolidated record above for current legal text. e-TAR and API version dates have known conflicts in this source set.
 
-> **Review candidate.** Not accepted into the trusted source corpus. Verify identity, scope, version, authority and reuse conditions before reliance.
-
-## Captured source text
+## Official source text
 
 Suvestinė redakcija nuo 2022-03-25
  

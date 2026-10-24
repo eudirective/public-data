@@ -1,18 +1,22 @@
 # Law on the Right to Receive Information and Data Reuse, VIII-1524
 
+- Source ID: `lt-05`
 - Jurisdiction: Lithuania
-- Candidate ID: `lt-05`
-- Source type: `access_and_reuse_legislation`
-- Candidate URL: https://e-tar.lt/portal/lt/legalAct/TAR.FA13E28615F6/asr
-- Resolved URL: https://e-tar.lt/portal/lt/legalAct/TAR.FA13E28615F6/HIgGrRVEfx
-- Retrieved: 2026-10-19T00:26:00+00:00
-- Media type: `application/json`
-- Publisher/version evidence: TAR API version HIgGrRVEfx; valid 2024-11-01T00:00:00 through open-ended; API metadata active_as_listed_by_dataset. Not reconciled with live e-TAR page.
-- Exact response SHA-256: `ee9b25f5f2748b77526b3de98b7a18c3435c1369ad176cbd6e2a790956557189`
+- Source type: `national_legislation_snapshot`
+- Official publisher: State Data Agency, Lithuania Open Data Portal (TAR data); underlying act published in the Register of Legal Acts (e-TAR)
+- Official e-TAR record: https://e-tar.lt/portal/lt/legalAct/TAR.FA13E28615F6/asr
+- TAR dataset API version record: https://get.data.gov.lt/datasets/gov/lrsk/teises_aktai/Suvestine?dokumento_id='TAR.FA13E28615F6'&suvestines_id='HIgGrRVEfx'&_limit=2
+- Source version: Dataset version `HIgGrRVEfx`, identified as effective 2024-11-01 through open-ended in dataset metadata.
+- Retrieved from the official TAR dataset API: 2026-10-19T00:26:00+00:00
+- Reviewed for source identity, version labeling, and reuse: 2026-10-25
+- Source response SHA-256: `ee9b25f5f2748b77526b3de98b7a18c3435c1369ad176cbd6e2a790956557189`
+- Version metadata response SHA-256: `a60eab350a11cdc8875bc6941ac8bbe7db4f66b5c9872000924daac2d084bde7`
+- Original converted-text SHA-256: `89ec25be2f88101d9819d65c742f350ba031f83320d7e74d6df9fa8831dcfcdf`
+- Conversion: deterministic extraction of the Lithuanian `tekstas_lt` field from the exact JSON response; this Markdown is not the publisher's official typesetting.
+- Re-use: Lithuania Open Data Portal lists Creative Commons Attribution 4.0 for dataset 2613. Attribution: State Data Agency, TAR data via the Lithuania Open Data Portal. This file adds metadata and converts the text to Markdown; it does not intentionally alter the source text.
+- Currentness and scope: This is a dated TAR API text snapshot, not a currentness assertion. The API may mark an old version open-ended; consult the live e-TAR consolidated record above for current legal text. e-TAR and API version dates have known conflicts in this source set.
 
-> **Review candidate.** Not accepted into the trusted source corpus. Verify identity, scope, version, authority and reuse conditions before reliance.
-
-## Captured source text
+## Official source text
 
 Suvestinė redakcija nuo 2024-11-01
  

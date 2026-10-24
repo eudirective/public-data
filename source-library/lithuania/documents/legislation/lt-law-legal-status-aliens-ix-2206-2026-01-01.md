@@ -1,18 +1,22 @@
 # Law on the Legal Status of Aliens, IX-2206
 
+- Source ID: `lt-08`
 - Jurisdiction: Lithuania
-- Candidate ID: `lt-08`
-- Source type: `national_free_movement_and_immigration_law`
-- Candidate URL: https://e-tar.lt/portal/lt/legalAct/TAR.42837E5A79DD/asr
-- Resolved URL: https://e-tar.lt/portal/lt/legalAct/TAR.42837E5A79DD/HQOCpqMZMf
-- Retrieved: 2026-10-19T00:26:07+00:00
-- Media type: `application/json`
-- Publisher/version evidence: TAR API version HQOCpqMZMf; valid 2026-01-01T00:00:00 through open-ended; API metadata active_as_listed_by_dataset. Not reconciled with live e-TAR page.
-- Exact response SHA-256: `0d1e3ccc286d88a803850ff458700435442a0ee4349901b70e61087fa9de1dca`
+- Source type: `national_legislation_snapshot`
+- Official publisher: State Data Agency, Lithuania Open Data Portal (TAR data); underlying act published in the Register of Legal Acts (e-TAR)
+- Official e-TAR record: https://e-tar.lt/portal/lt/legalAct/TAR.42837E5A79DD/asr
+- TAR dataset API version record: https://get.data.gov.lt/datasets/gov/lrsk/teises_aktai/Suvestine?dokumento_id='TAR.42837E5A79DD'&suvestines_id='HQOCpqMZMf'&_limit=2
+- Source version: Dataset version `HQOCpqMZMf`, identified as effective 2026-01-01 through open-ended in dataset metadata.
+- Retrieved from the official TAR dataset API: 2026-10-19T00:26:07+00:00
+- Reviewed for source identity, version labeling, and reuse: 2026-10-25
+- Source response SHA-256: `0d1e3ccc286d88a803850ff458700435442a0ee4349901b70e61087fa9de1dca`
+- Version metadata response SHA-256: `d568c6556867f938f78d6257fd57c9852deb24c0071e90c75f8a29ddb15464b8`
+- Original converted-text SHA-256: `80e93a24b7443b2d20de7ee205ddd4a975bdfcc25136835674158934eae00244`
+- Conversion: deterministic extraction of the Lithuanian `tekstas_lt` field from the exact JSON response; this Markdown is not the publisher's official typesetting.
+- Re-use: Lithuania Open Data Portal lists Creative Commons Attribution 4.0 for dataset 2613. Attribution: State Data Agency, TAR data via the Lithuania Open Data Portal. This file adds metadata and converts the text to Markdown; it does not intentionally alter the source text.
+- Currentness and scope: This is a dated TAR API text snapshot, not a currentness assertion. The API may mark an old version open-ended; consult the live e-TAR consolidated record above for current legal text. e-TAR and API version dates have known conflicts in this source set.
 
-> **Review candidate.** Not accepted into the trusted source corpus. Verify identity, scope, version, authority and reuse conditions before reliance.
-
-## Captured source text
+## Official source text
 
 Suvestinė redakcija nuo 2026-01-01
  
