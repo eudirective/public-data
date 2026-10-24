@@ -5,16 +5,16 @@
   "status": "partial",
   "publisher_assessment": {
     "publisher": "Belgian federal, regional, community and municipal authorities, official legal databases and competent oversight bodies; N-Lex is an EU discovery service.",
-    "decision": "Accept 47 official links within their recorded scope and 29 local copies after separate review. One superseded IBZ route is not relied upon. No legal topic is accepted as adequately covered; Belgium review remains incomplete.",
-    "basis": "Accepted local copies, including the Federal Justice international-adoption guidance, have separate evidence for publisher identity, version/freshness limits, extraction completeness or native-file integrity, attachment scope and legal classification. Exact raw capture hashes were verified where retained; the current Codex source is a newly captured publisher response. Dynamic guidance and process pages retain date and scope caveats. External-link acceptance, local-copy acceptance and topic coverage remain separate.",
-    "limitation": "Acceptance of official links and the accepted local guidance and national texts does not establish legal topic completeness, validate every linked form or case, or mark Belgium review complete. The Ostbelgien legal database expressly warns that only the original Gazette publication is legally binding."
+    "decision": "Accept 47 official links within their recorded scope and 30 local copies after separate review. One superseded IBZ route is not relied upon. No legal topic is accepted as adequately covered; Belgium review remains incomplete.",
+    "basis": "Accepted local copies have separate evidence for publisher identity, version/freshness limits, extraction completeness or native-file integrity, attachment scope and legal classification. Exact raw capture hashes were verified where retained; the current Codex source is a newly captured publisher response. Dynamic guidance and process pages retain date and scope caveats. External-link acceptance, local-copy acceptance and topic coverage remain separate. The Federal Justice adoption-abroad article was reviewed as a dated official guidance snapshot through its accessible www.justice.belgium.be route; it has no displayed update date and remains related guidance only. The Federal Justice guidance and the French APD complaint page have dated local snapshots accepted within recorded limits. Direct APD access returned maintenance text on 2026-10-24, so its currentness remains unresolved.",
+    "limitation": "Acceptance of official links and the accepted local source texts does not establish legal topic completeness, validate every linked form or case, or mark Belgium review complete. The Ostbelgien legal database expressly warns that only the original Gazette publication is legally binding."
   },
   "counts": {
     "candidate_records_reviewed": 48,
     "accepted_external_references": 47,
     "pending_external_references": 0,
     "not_relied_upon_superseded": 1,
-    "accepted_local_copies": 29,
+    "accepted_local_copies": 30,
     "accepted_topics": 0,
     "country_review_complete": false
   },
@@ -132,7 +132,7 @@
     },
     {
       "source_id": "be-annex-19ter-fr",
-      "decision": "Accept as the official-index-linked specimen only; confirm revision and classification before operational use."
+      "decision": "The current IBZ index links a 2015-named, image-only Annexe 19ter PDF with a prominent SPECIMEN watermark. The local file is accepted as that official-index-linked specimen only; confirm its revision and legal classification before operational use. It is not accepted as a blank current application form."
     },
     {
       "source_id": "be-rvv-case-sample-320874",
@@ -157,10 +157,6 @@
     {
       "source_id": "be-publicity-provinces-municipalities-1997-nl",
       "decision": "Accept the official statute locator only; determine its current territorial reach with regional and community legislation before applying it."
-    },
-    {
-      "source_id": "be-annex-19ter-fr",
-      "decision": "The current IBZ index links a 2015-named image-only Annexe 19ter PDF with a prominent SPECIMEN watermark. The local file is accepted as that specimen only; no claim is made that it is a blank current application form."
     }
   ],
   "coverage_gaps": [
@@ -205,7 +201,8 @@
     "be-flanders-bestuursdecreet",
     "be-rvv-case-sample-320874",
     "be-annex-19ter-fr",
-    "be-05-federal-justice-guidance-recognition-registration-foreign-adoptions"
+    "be-05-federal-justice-guidance-recognition-registration-foreign-adoptions",
+    "be-dpa-complaint-fr"
   ],
   "local_copy_decisions": [
     {
@@ -606,17 +603,32 @@
     {
       "source_id": "be-05-federal-justice-guidance-recognition-registration-foreign-adoptions",
       "decision": "accepted",
-      "local_path": "source-library/belgium/documents/guidance/be-foreign-adoption-guidance-fr.md",
+      "local_path": "documents/guidance/be-justice-international-adoption.md",
       "review_date": "2026-10-24",
-      "official_url": "https://justice.belgium.be/fr/themes_et_dossiers/personnes_et_familles/adoption/adoption_a_letranger",
+      "official_url": "https://www.justice.belgium.be/fr/themes_et_dossiers/personnes_et_familles/adoption/adoption_a_letranger",
       "evidence": {
-        "publisher_identity": "The page is hosted on justice.belgium.be and identifies the Federal Public Service Justice. Its article identifies the Federal Central Authority and the competent community adoption authorities.",
-        "version_currentness": "The page carries a 2026 copyright footer but displays no publication or revision date. It was opened on 2026-10-24; acceptance is limited to the page content observed that day and does not independently confirm the currency of referenced law.",
-        "extraction_completeness": "The visible main article from its title through the municipal registration section was reviewed. The seven-step outline and substantive sections on application, preparation, aptitude, adoption support, foreign decision, legalization, recognition and registration are represented. Navigation and footer are excluded; the two-column regional authority details were reflowed without changing their stated contact associations.",
-        "attachments": "The article links to a separate recognition-request form page. The browser tool returned a cache miss for that separate page; it is not included in this document and is not accepted as an attachment. No embedded attachment was omitted.",
-        "legal_classification": "Official administrative guidance on international-adoption procedure and recognition/registration of foreign adoption decisions. It is not legislation and does not establish free-movement residence rights."
+        "publisher_identity": "The official page identifies the Belgian Federal Public Service Justice and is hosted under the official justice.belgium.be domain.",
+        "version_currentness": "The visible official page was reviewed on 2026-10-24 through the www subdomain; the web index reported a crawl about five days earlier. No article publication or update date is displayed. The snapshot preserves this limit and is not treated as current legal text.",
+        "extraction_completeness": "The visible article body and seven-step process, including recognition and municipal registration, were compared against the official page. Navigation, footer, service-wide notice, and the “Simple Doormat” template label were excluded. Linked forms and subpages are not included.",
+        "attachments": "The page links to separate recognition steps and a form; these remain separate records and are not embedded attachments.",
+        "legal_classification": "Federal Justice administrative guidance on recognition and registration of foreign adoption decisions. It is related background only, not primary legislation or a free-movement rule."
       },
-      "scope_limit": "Accepted as a date-bounded snapshot of the Federal Justice page observed on 2026-10-24. The page gives no revision date. The source does not establish topic coverage or Belgium review completion."
+      "scope_limit": "Dated snapshot with no displayed update date. Use the governing Civil Code and competent Community authorities for legal requirements; this record does not establish topic coverage or Belgium completion."
+    },
+    {
+      "source_id": "be-dpa-complaint-fr",
+      "decision": "accepted",
+      "local_path": "source-library/belgium/documents/oversight/be-dpa-complaint-fr.md",
+      "review_date": "2026-10-24",
+      "official_url": "https://www.dataprotectionauthority.be/citoyen/agir/introduire-une-plainte",
+      "evidence": {
+        "publisher_identity": "The candidate capture and current official search-index result identify the Belgian Data Protection Authority (APD/GBA) and the French complaint-route page.",
+        "version_currentness": "The snapshot is dated 2026-10-19 and says the first-line mediation policy applies from 2026-03-01. Direct page access returned a maintenance page on 2026-10-24. A recent official search-index copy showed the article but is not treated as live access; currentness remains unresolved.",
+        "extraction_completeness": "The archived main article was compared with the official search-index text for information, mediation and complaint choices, the one-month wait after exercising data rights, admissibility conditions, portal and paper routes, and special police/intelligence oversight. Two merged-word spacing defects were corrected. The original raw response is not retained; acceptance is date-bound.",
+        "attachments": "The APD portal, paper forms, login help, mediation policy, and detailed dismissal criteria are linked separately and not included.",
+        "legal_classification": "Official APD procedural guidance. It is not the Federal Data Protection Act, an immigration appeal procedure, or a guarantee that a complaint will be examined on its merits."
+      },
+      "scope_limit": "Dated snapshot only; direct page was under maintenance on 2026-10-24. Confirm the restored official page before relying on current filing steps. No topic coverage or Belgium completion is established."
     }
   ]
 }
