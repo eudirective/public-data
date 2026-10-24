@@ -410,6 +410,44 @@
         "The link review does not establish that every linked form is current or complete."
       ]
     },
+    "bg-mfa-visa-form": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Foreign Affairs of the Republic of Bulgaria (MFA)",
+      "url": "https://www.mfa.bg/upload/137210/%D0%97%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%B0%20%D0%B2%D0%B8%D0%B7%D0%B0%20%D0%B7%D0%B0%20%D0%B4%D1%8A%D0%BB%D0%B3%D0%BE%D1%81%D1%80%D0%BE%D1%87%D0%BD%D0%BE%20%D0%BF%D1%80%D0%B5%D0%B1%D0%B8%D0%B2%D0%B0%D0%B2%D0%B0%D0%BD%D0%B5%20%D1%82%D0%B8%D0%BF%20D-BG.pdf",
+      "rediscovery_url": "https://www.mfa.bg/en/services-travel/consular-services/travel-bulgaria/visa-application-forms",
+      "checked_on": "2026-10-24",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Four-page Bulgarian-language PDF linked by the official MFA forms index on 24 October 2026. The PDF has no printed edition or revision date.",
+      "scope": "Official Bulgarian-language application form for a Bulgarian national long-stay visa (type D). It is distinct from the harmonised Schengen short-stay application form.",
+      "reviewed_content": "The current MFA index links the Bulgarian type D form and a corresponding English edition. The Bulgarian PDF title identifies the Republic of Bulgaria and a national type D visa application; it is marked as a free form. All four pages were reviewed from the title through the applicant signature, including personal and family details, purpose of travel (including family reunification), prior residence/refusal/deportation questions, supporting means, data-processing declarations, and signature. The PDF was fetched directly from the official upload URL as HTTP 200 application/pdf (144794 bytes) and retained unchanged.",
+      "limitations": [
+        "No edition or revision date is printed; use the current MFA forms index to rediscover the form and recheck it before use.",
+        "This is the national type D form. It does not replace the harmonised short-stay Schengen form, the dedicated EU-family residence forms, or the legal rules governing which visa route applies.",
+        "The separate harmonised Schengen form is shared EU material and is not duplicated in the Bulgaria documents folder."
+      ],
+      "supporting_sources": [
+        {
+          "title": "MFA visa application forms index",
+          "url": "https://www.mfa.bg/en/services-travel/consular-services/travel-bulgaria/visa-application-forms",
+          "role": "current official form index; links the Bulgarian and English type D forms and the separate harmonised Schengen form"
+        },
+        {
+          "title": "MFA English type D application form",
+          "url": "https://www.mfa.bg/upload/137211/%D0%97%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%B0%20%D0%B2%D0%B8%D0%B7%D0%B0%20%D0%B7%D0%B0%20%D0%B4%D1%8A%D0%BB%D0%B3%D0%BE%D1%81%D1%80%D0%BE%D1%87%D0%BD%D0%BE%20%D0%BF%D1%80%D0%B5%D0%B1%D0%B8%D0%B2%D0%B0%D0%B2%D0%B0%D0%BD%D0%B5%20%D1%82%D0%B8%D0%BF%20D-EN.pdf",
+          "role": "official corresponding English edition; used to corroborate instrument identity and type"
+        },
+        {
+          "title": "MFA harmonised Schengen application form",
+          "url": "https://www.mfa.bg/upload/147985/Harmonised%20application%20form.pdf",
+          "role": "separate shared EU short-stay form; intentionally not duplicated in this national pack"
+        },
+        {
+          "title": "MFA Terms of Service",
+          "url": "https://www.mfa.bg/en/terms-of-service",
+          "role": "reuse terms checked 24 October 2026; site content may be reused unless expressly protected, with source attribution"
+        }
+      ]
+    },
     "bg-mfa-visa-hub": {
       "status": "usable_official_reference",
       "publisher": "Ministry of Foreign Affairs (MFA), Bulgaria",
@@ -614,7 +652,7 @@
     ],
     "note": "Record a human-reviewed official link when it supports a source area without retaining a local copy. This does not change the accepted local-source count."
   },
-  "accepted_source_count": 11,
+  "accepted_source_count": 12,
   "records": {
     "bg-eu-free-movement-act": {
       "status": "accepted",
@@ -1058,6 +1096,50 @@
       "accepted_on": "2026-10-24",
       "document_path": "documents/procedure/bg-eu-instruction-8121z-1276.md"
     },
+    "bg-mfa-visa-form": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The live official MFA visa-forms index links the Bulgarian-language “Application for national visa (type D)” PDF at https://www.mfa.bg/upload/137210/%D0%97%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%B0%20%D0%B2%D0%B8%D0%B7%D0%B0%20%D0%B7%D0%B0%20%D0%B4%D1%8A%D0%BB%D0%B3%D0%BE%D1%81%D1%80%D0%BE%D1%87%D0%BD%D0%BE%20%D0%BF%D1%80%D0%B5%D0%B1%D0%B8%D0%B2%D0%B0%D0%B2%D0%B0%D0%BD%D0%B5%20%D1%82%D0%B8%D0%BF%20D-BG.pdf. The PDF title identifies the Republic of Bulgaria and type D. The English counterpart is separately published from the same index."
+        },
+        "current_legal_version": {
+          "status": "pass",
+          "review_date": "2026-10-24",
+          "evidence": "This is an administrative form, not a statement of current law. The currentness claim is limited to the exact type D PDF linked by the MFA index on 24 October 2026; no edition or revision date is printed."
+        },
+        "extraction_completeness": {
+          "status": "pass",
+          "evidence": "The original PDF was fetched from the official upload URL as HTTP 200, media type application/pdf, 144794 bytes. The PDF reports four pages; the full page sequence and text from the title through the signature were reviewed. The unmodified native PDF is retained; its SHA-256 is 427738994b1e3a87ff1d6fa35d1ef8ad2678464d70bb70ac922eb794cfcff932."
+        },
+        "attachments_review": {
+          "status": "pass",
+          "evidence": "The four-page PDF is self-contained. The form fields, photo area, administrative-use fields, declarations, and signatures are all part of the retained PDF; no separate attachment is linked from the form."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "Official administrative application form for a Bulgarian national long-stay visa (type D); it is not legislation, a current legal consolidation, or the harmonised short-stay Schengen form."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "official_MFA_site_content_with_attribution",
+          "basis_id": "bg-mfa-terms-of-service",
+          "evidence": "The MFA Terms of Service state that website content may be used freely unless expressly marked protected and require source attribution. The form itself is marked “Безплатен образец” (free form). Terms checked 2026-10-24: https://www.mfa.bg/en/terms-of-service"
+        }
+      },
+      "semantic_review": {
+        "status": "passed",
+        "method": "official_pdf_identity_and_complete_page_review",
+        "review_date": "2026-10-24",
+        "scope": "Complete four-page Bulgarian-language national visa type D application form, retained as the original PDF.",
+        "evidence": "The current MFA index links the Bulgarian and English type D editions separately from the harmonised Schengen form. The four-page Bulgarian PDF title, form type, section sequence, family reunification option, supporting-means fields, data declarations, and final signature fields were checked. The original layout is preserved byte-for-byte. This form is not treated as the form for an EU-family short-stay visa or as legal authority for selecting a visa route.",
+        "source_sha256": "427738994b1e3a87ff1d6fa35d1ef8ad2678464d70bb70ac922eb794cfcff932",
+        "source_text_sha256": null,
+        "document_sha256": "427738994b1e3a87ff1d6fa35d1ef8ad2678464d70bb70ac922eb794cfcff932"
+      },
+      "accepted_on": "2026-10-24",
+      "document_path": "documents/forms/bg-mfa-visa-type-d-form-bg.pdf"
+    },
     "bg-mfa-visa-hub": {
       "status": "accepted",
       "checks": {
@@ -1123,7 +1205,7 @@
     }
   ],
   "material_dependencies": "See references/source-dependencies.json. National statutory wording is preserved; the EU 2019/1157 reference is tracked separately from Regulation (EU) 2025/1208.",
-  "official_reference_count": 28,
+  "official_reference_count": 29,
   "local_copy_required_checks": [
     "publisher_identity",
     "current_legal_version",
