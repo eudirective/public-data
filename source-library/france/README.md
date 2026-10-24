@@ -1,6 +1,6 @@
 # France national source references
 
-**Review updated 2026-10-24.** The 18 legacy files formerly stored under `candidates/` have been individually reviewed and archived in the Monitor's local-only research archive. Five Service Public guidance snapshots now live under `documents/guidance/` and are accepted as dated local copies. Thirteen official sources are accepted for link use, including the two CESEDA Book II sections already registered. One item still requires human review (the DILA DTD listing); N-Lex remains a discovery-only lead already represented elsewhere. France topic coverage and country review remain incomplete.
+**Review updated 2026-10-24.** The 18 legacy files formerly stored under `candidates/` have been individually reviewed and archived in the Monitor's local-only research archive. Five Service Public guidance snapshots now live under `documents/guidance/` and are accepted as dated local copies. Fourteen official sources are accepted for link use, including the two CESEDA Book II sections already registered. The DILA directory is accepted as a link, but the 2018 DTD's applicability to current LEGI data remains open for human review before parser use. N-Lex remains a discovery-only lead already represented elsewhere. France topic coverage and country review remain incomplete.
 
 ## Active registers
 
