@@ -15,10 +15,10 @@
       "text_api_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2007-4184/texto",
       "metadata_api_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2007-4184/metadatos",
       "accepted": true,
-      "text_raw_path": "temp/spain/boe/boe-a-2007-4184-text.xml",
+      "text_raw_path": null,
       "text_sha256": "70dc796fb612b321527acb9debf40b4e13aa6f8cf0b160326cb746f73c74bf9d",
       "text_bytes": 137246,
-      "metadata_raw_path": "temp/spain/boe/boe-a-2007-4184-metadata.xml",
+      "metadata_raw_path": null,
       "metadata_sha256": "a1687a9eeaa69df9a508f0e1b735575e3c64dfc4a92efaa919edb21f8b080dce",
       "metadata_bytes": 1404,
       "publisher_metadata": {
@@ -51,7 +51,8 @@
       "accepted_on": "2026-10-24",
       "displayed_consolidation_update": "2015-11-09",
       "text_raw_archive_path": "captures/public-data/ES/public-data/spain/boe/boe-a-2007-4184-text.xml",
-      "metadata_raw_archive_path": "captures/public-data/ES/public-data/spain/boe/boe-a-2007-4184-metadata.xml"
+      "metadata_raw_archive_path": "captures/public-data/ES/public-data/spain/boe/boe-a-2007-4184-metadata.xml",
+      "raw_storage": "Monitor local-only capture archive; original temp paths are recorded in the archive index."
     },
     {
       "id": "BOE-A-2024-24099",
