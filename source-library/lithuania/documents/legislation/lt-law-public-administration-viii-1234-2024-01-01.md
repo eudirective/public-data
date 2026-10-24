@@ -1,18 +1,22 @@
 # Law on Public Administration, VIII-1234
 
+- Source ID: `lt-31`
 - Jurisdiction: Lithuania
-- Candidate ID: `lt-31`
-- Source type: `administrative_procedure_law`
-- Candidate URL: https://e-tar.lt/portal/lt/legalAct/TAR.0BDFFD850A66/asr
-- Resolved URL: https://e-tar.lt/portal/lt/legalAct/TAR.0BDFFD850A66/MgCtvbOHie
-- Retrieved: 2026-10-19T00:26:37+00:00
-- Media type: `application/json`
-- Publisher/version evidence: TAR API version MgCtvbOHie; valid 2024-01-01T00:00:00 through open-ended; API metadata active_as_listed_by_dataset. Not reconciled with live e-TAR page.
-- Exact response SHA-256: `ecf888308d252759081f9fbb8802a81f560f5230b543eb36e046c55b82d60279`
+- Source type: `national_legislation_snapshot`
+- Official publisher: State Data Agency, Lithuania Open Data Portal (TAR data); underlying act published in the Register of Legal Acts (e-TAR)
+- Official e-TAR record: https://e-tar.lt/portal/lt/legalAct/TAR.0BDFFD850A66/asr
+- TAR dataset API version record: https://get.data.gov.lt/datasets/gov/lrsk/teises_aktai/Suvestine?dokumento_id='TAR.0BDFFD850A66'&suvestines_id='MgCtvbOHie'&_limit=2
+- Source version: Dataset version `MgCtvbOHie`, identified as effective 2024-01-01 through open-ended in dataset metadata.
+- Retrieved from the official TAR dataset API: 2026-10-19T00:26:37+00:00
+- Reviewed for source identity, version labeling, and reuse: 2026-10-25
+- Source response SHA-256: `ecf888308d252759081f9fbb8802a81f560f5230b543eb36e046c55b82d60279`
+- Version metadata response SHA-256: `7283b7fb88ab37ee3fa9145fc1d065ca86adcc9c3430aeedda2a9ba5ffae5fa7`
+- Original converted-text SHA-256: `ed2775c527c614bec3dfa307c275929bf2b93a15491033ae4984f227629c7c82`
+- Conversion: deterministic extraction of the Lithuanian `tekstas_lt` field from the exact JSON response; this Markdown is not the publisher's official typesetting.
+- Re-use: Lithuania Open Data Portal lists Creative Commons Attribution 4.0 for dataset 2613. Attribution: State Data Agency, TAR data via the Lithuania Open Data Portal. This file adds metadata and converts the text to Markdown; it does not intentionally alter the source text.
+- Currentness and scope: This is a dated TAR API text snapshot, not a currentness assertion. The API may mark an old version open-ended; consult the live e-TAR consolidated record above for current legal text. e-TAR and API version dates have known conflicts in this source set.
 
-> **Review candidate.** Not accepted into the trusted source corpus. Verify identity, scope, version, authority and reuse conditions before reliance.
-
-## Captured source text
+## Official source text
 
 Suvestinė redakcija nuo 2024-01-01
  

@@ -1,18 +1,22 @@
 # Permanent residence card procedure for family members
 
+- Source ID: `lt-10`
 - Jurisdiction: Lithuania
-- Candidate ID: `lt-10`
-- Source type: `implementing_procedure`
-- Candidate URL: https://e-tar.lt/portal/lt/legalAct/TAR.DE0E3CDB7DED/asr
-- Resolved URL: https://e-tar.lt/portal/lt/legalAct/TAR.DE0E3CDB7DED/tgkPcKHozz
-- Retrieved: 2026-10-19T00:26:13+00:00
-- Media type: `application/json`
-- Publisher/version evidence: TAR API version tgkPcKHozz; valid 2019-03-01T00:00:00 through 2019-06-30T00:00:00; API metadata no_active_version_listed_by_dataset. Not reconciled with live e-TAR page.
-- Exact response SHA-256: `63c5f70cfcdef0a5f891c3408d535b97b6f2d7ec6624a3130429ff9291193aac`
+- Source type: `national_legislation_snapshot`
+- Official publisher: State Data Agency, Lithuania Open Data Portal (TAR data); underlying act published in the Register of Legal Acts (e-TAR)
+- Official e-TAR record: https://e-tar.lt/portal/lt/legalAct/TAR.DE0E3CDB7DED/asr
+- TAR dataset API version record: https://get.data.gov.lt/datasets/gov/lrsk/teises_aktai/Suvestine?dokumento_id='TAR.DE0E3CDB7DED'&suvestines_id='tgkPcKHozz'&_limit=2
+- Source version: Dataset version `tgkPcKHozz`, identified as effective 2019-03-01 through 2019-06-30.
+- Retrieved from the official TAR dataset API: 2026-10-19T00:26:13+00:00
+- Reviewed for source identity, version labeling, and reuse: 2026-10-25
+- Source response SHA-256: `63c5f70cfcdef0a5f891c3408d535b97b6f2d7ec6624a3130429ff9291193aac`
+- Version metadata response SHA-256: `7c6055efec57fd3e4d2697115685565c7cf73521336d1ed57ca50fdc78f5bc34`
+- Original converted-text SHA-256: `11687634b19cfb6f86e6b4900cd7a3d33d1784c910f05ce6bd9fc57b99b1223d`
+- Conversion: deterministic extraction of the Lithuanian `tekstas_lt` field from the exact JSON response; this Markdown is not the publisher's official typesetting.
+- Re-use: Lithuania Open Data Portal lists Creative Commons Attribution 4.0 for dataset 2613. Attribution: State Data Agency, TAR data via the Lithuania Open Data Portal. This file adds metadata and converts the text to Markdown; it does not intentionally alter the source text.
+- Currentness and scope: Historical text only: e-TAR identifies underlying Order 1V-369 as repealed from 2019-07-01. Current temporary and permanent card procedure is separately referenced as Order 1V-594 (`lt-09`).
 
-> **Review candidate.** Not accepted into the trusted source corpus. Verify identity, scope, version, authority and reuse conditions before reliance.
-
-## Captured source text
+## Official source text
 
 Įsakymas netenka galios 2019-07-01:
 Lietuvos Respublikos vidaus reikalų ministerija, Įsakymas

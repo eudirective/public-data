@@ -1,18 +1,22 @@
 # Government rules for handling persons' requests and complaints, Resolution No. 875
 
+- Source ID: `lt-32`
 - Jurisdiction: Lithuania
-- Candidate ID: `lt-32`
-- Source type: `administrative_procedure_implementing_rules`
-- Candidate URL: https://e-tar.lt/portal/lt/legalAct/TAR.6565D97B9AA2/asr
-- Resolved URL: https://e-tar.lt/portal/lt/legalAct/TAR.6565D97B9AA2/CmoWDCxHIO
-- Retrieved: 2026-10-19T00:26:39+00:00
-- Media type: `application/json`
-- Publisher/version evidence: TAR API version CmoWDCxHIO; valid 2022-09-03T00:00:00 through open-ended; API metadata active_as_listed_by_dataset. Not reconciled with live e-TAR page.
-- Exact response SHA-256: `7006dc8871798c0b896bac989ebd2876d97b52376655867bb2a4423686a9e3c6`
+- Source type: `national_legislation_snapshot`
+- Official publisher: State Data Agency, Lithuania Open Data Portal (TAR data); underlying act published in the Register of Legal Acts (e-TAR)
+- Official e-TAR record: https://e-tar.lt/portal/lt/legalAct/TAR.6565D97B9AA2/asr
+- TAR dataset API version record: https://get.data.gov.lt/datasets/gov/lrsk/teises_aktai/Suvestine?dokumento_id='TAR.6565D97B9AA2'&suvestines_id='CmoWDCxHIO'&_limit=2
+- Source version: Dataset version `CmoWDCxHIO`, identified as effective 2022-09-03 through open-ended in dataset metadata.
+- Retrieved from the official TAR dataset API: 2026-10-19T00:26:39+00:00
+- Reviewed for source identity, version labeling, and reuse: 2026-10-25
+- Source response SHA-256: `7006dc8871798c0b896bac989ebd2876d97b52376655867bb2a4423686a9e3c6`
+- Version metadata response SHA-256: `0e7abddb05fcf0848cedd649cd63967a5337a1ac1f35c607b58f90a1bb6318de`
+- Original converted-text SHA-256: `026fc983dc870f5b52834cc00b21df5bc8fd08df73a1c5d375051fb250d26329`
+- Conversion: deterministic extraction of the Lithuanian `tekstas_lt` field from the exact JSON response; this Markdown is not the publisher's official typesetting.
+- Re-use: Lithuania Open Data Portal lists Creative Commons Attribution 4.0 for dataset 2613. Attribution: State Data Agency, TAR data via the Lithuania Open Data Portal. This file adds metadata and converts the text to Markdown; it does not intentionally alter the source text.
+- Currentness and scope: This is a dated TAR API text snapshot, not a currentness assertion. The API may mark an old version open-ended; consult the live e-TAR consolidated record above for current legal text. e-TAR and API version dates have known conflicts in this source set.
 
-> **Review candidate.** Not accepted into the trusted source corpus. Verify identity, scope, version, authority and reuse conditions before reliance.
-
-## Captured source text
+## Official source text
 
 Suvestinė redakcija nuo 2022-09-03
  
