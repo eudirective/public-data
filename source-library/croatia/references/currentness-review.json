@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "HR",
-  "reviewed_on": "2026-10-21",
+  "reviewed_on": "2026-10-24",
   "authority": {
     "name": "Ministry of the Interior of the Republic of Croatia",
     "index_url": "https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/propisi-652/652",
-    "retrieval_reference": "Official MUP Propisi page directly checked 2026-10-21: https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/propisi-652/652 (EEA and third-country instrument list).",
+    "retrieval_reference": "Official MUP Propisi page directly checked 2026-10-24: https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/propisi-652/652 (EEA and third-country instrument list).",
     "scope": "Current official legislative index for EEA free movement, third-country residence, and third-country procedure instruments. It helps identify the latest listed version and known amendments; it is not a consolidated-text source and does not create a requirement to retrieve every listed act.",
-    "reviewed_on": "2026-10-21"
+    "reviewed_on": "2026-10-24"
   },
   "chains": [
     {
@@ -26,7 +26,7 @@
         "NN 114/22"
       ],
       "status": "current_index_chain_verified_not_consolidated",
-      "evidence": "MUP's current Propisi page lists the EEA Act as NN 66/19, 53/20, 144/20 and 114/22. No later EEA Act amendment is listed on that page as of 2026-10-21."
+      "evidence": "MUP’s current Propisi page checked 2026-10-24 lists the EEA Act as NN 66/19, 53/20, 144/20 and 114/22. No later EEA Act amendment is listed on that page as of 2026-10-24."
     },
     {
       "id": "hr-eea-regulation-chain",
@@ -44,7 +44,7 @@
         "NN 155/22"
       ],
       "status": "current_index_chain_verified_not_consolidated",
-      "evidence": "MUP's current Propisi page lists the EEA residence regulation as NN 107/20, 148/20, 86/21 and 155/22. No later amendment is listed on that page as of 2026-10-21."
+      "evidence": "The official MUP Propisi page checked on 2026-10-24 lists NN 107/20, 148/20, 86/21 and 155/22. This confirms the publisher-listed chain only, not a consolidated text."
     },
     {
       "id": "hr-foreigners-act-chain",
@@ -64,7 +64,7 @@
         "NN 55/26"
       ],
       "status": "current_index_chain_verified_not_consolidated",
-      "evidence": "MUP's current Propisi page lists the Foreigners Act as NN 133/20, 114/22, 151/22, 40/25 and 55/26. No later amendment is listed on that page as of 2026-10-21."
+      "evidence": "MUP’s current Propisi page checked 2026-10-24 lists the Foreigners Act as NN 133/20, 114/22, 151/22, 40/25 and 55/26. No later amendment is listed on that page as of 2026-10-24."
     },
     {
       "id": "hr-third-country-residence-regulation-chain",
@@ -80,7 +80,7 @@
         "NN 43/26"
       ],
       "status": "current_index_chain_verified_not_consolidated",
-      "evidence": "MUP's current Propisi page lists the third-country residence regulation as NN 20/22, 155/22 and 43/26. No later amendment is listed on that page as of 2026-10-21."
+      "evidence": "The official MUP Propisi page checked on 2026-10-24 lists NN 20/22, 155/22 and 43/26. This confirms the publisher-listed chain only, not a consolidated text."
     },
     {
       "id": "hr-third-country-procedure-regulation-chain",
@@ -98,7 +98,7 @@
         "NN 116/26"
       ],
       "status": "current_index_chain_verified_not_consolidated",
-      "evidence": "MUP's current Propisi page lists the third-country procedure regulation as NN 136/21, 145/23, 102/25 and 116/26. No later amendment is listed on that page as of 2026-10-21."
+      "evidence": "The official MUP Propisi page checked on 2026-10-24 lists NN 136/21, 145/23, 102/25 and 116/26. This confirms the publisher-listed chain only, not a consolidated text."
     },
     {
       "id": "hr-admin-fees-act-chain",
@@ -278,6 +278,49 @@
         "This is a narrow transitional-procedure development, not evidence of a change to ordinary current EEA residence application procedures.",
         "Use the official decision directly; a local copy is optional."
       ]
+    },
+    {
+      "id": "hr-visa-ordinance-chain",
+      "source_ids": [
+        "hr-visa-ordinance"
+      ],
+      "instrument": "Pravilnik o vizama",
+      "gazette_chain": [
+        "NN 109/21"
+      ],
+      "status": "current_ministry_index_listed_update_obligation_open",
+      "authority_url": "https://mvep.gov.hr/informacije-za-gradjane-244593/konzularne-informacije-22730/vize-22733/propisi/22753?big=0",
+      "evidence": "MVEP’s current visa regulations page checked on 2026-10-24 lists the Visa Ordinance as NN 109/21 and the Foreigners Act through NN 55/26. Article 69(4) of NN 55/26 requires the Ministry to align the Ordinance within six months of the Act’s entry into force. Recheck before the statutory deadline and after any new Gazette publication; the MVEP listing is not a consolidated text."
+    },
+    {
+      "id": "hr-ombudsman-act-chain",
+      "source_ids": [
+        "hr-ombudsman-act"
+      ],
+      "instrument": "Zakon o pučkom pravobranitelju",
+      "gazette_chain": [
+        "NN 76/12"
+      ],
+      "status": "official_institution_index_lists_NN_76_12",
+      "authority_url": "https://www.ombudsman.hr/hr/propisi/",
+      "evidence": "The Ombudsman’s official Propisi page checked on 2026-10-24 lists the Act as NN 76/12. The official Gazette text is NN 76/2012. The index provides the institution’s listed citation, not a consolidated text."
+    },
+    {
+      "id": "hr-access-info-act-chain",
+      "source_ids": [
+        "hr-access-info-act",
+        "hr-access-info-amend-85-15",
+        "hr-access-info-amend-69-22"
+      ],
+      "instrument": "Zakon o pravu na pristup informacijama",
+      "gazette_chain": [
+        "NN 25/13",
+        "NN 85/15",
+        "NN 69/22"
+      ],
+      "status": "commissioner_lists_chain_official_consolidation_unofficial",
+      "authority_url": "https://pristupinfo.hr/pravni-okvir/",
+      "evidence": "The Information Commissioner’s current legal framework checked on 2026-10-24 lists NN 25/13, 85/15 and 69/22 and links an expressly unofficial consolidated text. The retained local Gazette text is only the original NN 25/13 enactment; it is not a current consolidation."
     }
   ],
   "conflicts": [
@@ -295,6 +338,19 @@
       "tariff_source_id": "hr-admin-fees-tariff-amend-130-25",
       "issue": "Older MVEP refusal page gives €42.47 (or legacy page text gives the old tariff) and cites the Foreigners Act only through NN 151/22. The current MVEP page cites NN 40/25 and 55/26 and gives €130/USD 150.71; the current Gazette tariff NN 130/25 sets €130.",
       "resolution": "Exclude the older page from operative procedure and retain it as a stale-page control. Use the new MVEP current page plus the current Gazette tariff for fee/deadline review. The precise application to Directive 2004/38 family-member appeals and any statutory exemption remains unresolved."
+    },
+    {
+      "id": "hr-access-info-commissioner-english-guide-omits-current-amendment",
+      "older_source_id": "hr-access-info-commissioner",
+      "current_source_id": "hr-access-info-act",
+      "issue": "The Commissioner’s English user guide displays the Right of Access to Information Act as NN 25/13 and 85/15, omitting amendment NN 69/22 listed in the current official source chain.",
+      "resolution": "Live page rechecked 2026-10-24; it still displays the 2019 publication date and omits NN 69/22. Exclude it from current procedural/deadline use and retain only as an archived stale comparator; use the official Gazette chain and separately scoped current sources."
+    },
+    {
+      "id": "hr-azop-vis-sis-guidance-currentness-unverified",
+      "older_source_id": "hr-azop-vis-sis",
+      "issue": "The live AZOP page checked 2026-10-24 cites Regulations (EU) 2018/1861 and 2018/1862 in its rights section but retains extensive legacy SIS II framing, old system descriptions and a 25-EU-state count.",
+      "resolution": "Exclude the page as a whole-page current operational guide. Use separately reviewed MUP SIS and MVEP VIS page/form records for the current published Croatian request routes. The page’s current rights citations may aid discovery but do not cure its mixed-currentness content; no AZOP local copy is accepted."
     }
   ],
   "limitations": [

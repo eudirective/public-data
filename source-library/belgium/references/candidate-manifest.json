@@ -4,9 +4,9 @@
   "jurisdiction": "BE",
   "inventory_research_date": "2026-10-21",
   "scope": "A bounded discovery register of Belgian first-party sources relevant to free movement, third-country family members, visa and residence procedures, administrative process and remedies, cross-border civil-status evidence, privacy, and access to administrative records. It is not an exhaustive Belgian source inventory.",
-  "status": "official_links_and_twenty_nine_local_copies_accepted_coverage_open",
-  "retrieval_status": "29 official-source local copies are accepted; three converted artifacts remain unresolved in the Monitor local-only archive; 16 source records are link-only with no accepted local copy. External-link acceptance and topic coverage remain separate.",
-  "accepted_source_count": 29,
+  "status": "official_links_and_thirty_local_copies_accepted_coverage_open",
+  "retrieval_status": "30 official-source local copies are accepted after separate review; 8 converted artifacts remain unaccepted review aids in the Monitor local-only archive; 9 official-link records have no local capture. One superseded IBZ route is not relied upon. Link acceptance, local-copy acceptance, freshness and topic coverage remain separate.",
+  "accepted_source_count": 30,
   "candidate_source_count": 48,
   "official_hosts": [
     "n-lex.europa.eu",
@@ -47,7 +47,7 @@
       },
       "functional_relationship": "related_source",
       "verification_status": "official EU discovery portal; used as a lead to national-law publishers, not as a Belgian publisher or complete source inventory",
-      "retrieval_status": "official_link_reviewed_no_local_capture",
+      "retrieval_status": "converted_review_candidate",
       "retrieval_shape": "portal and links to national legislation systems; coverage differs by jurisdiction and source class",
       "topic_ids": [
         "PRACTICE-11",
@@ -69,7 +69,7 @@
         "review_date": "2026-10-24"
       },
       "local_copy_status": "not_accepted",
-      "review_state": "link_only"
+      "review_state": "link_only_or_manual_follow_up"
     },
     {
       "id": "be-law-1980-fr",
@@ -114,9 +114,7 @@
       "content_selector": "official HTML main; navigation controls and final external-link list removed",
       "review_state": "accepted",
       "local_copy_status": "accepted",
-      "local_copy_review_date": "2026-10-24",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-law-1980-fr.md",
-      "candidate_archive_sha256": "826c1ffe664b9f7146bf9ae8e36ac1d7f5c3bca86474351f1a3a1007ebf7b5f8"
+      "local_copy_review_date": "2026-10-24"
     },
     {
       "id": "be-law-1980-nl",
@@ -157,9 +155,7 @@
       "content_selector": "official HTML main; navigation controls and final external-link list removed",
       "review_state": "accepted",
       "local_copy_status": "accepted",
-      "local_copy_review_date": "2026-10-24",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-law-1980-nl.md",
-      "candidate_archive_sha256": "7a0652003d2a6fea116560c8b438291af4583cc996e393ed9fc9989bec5d8ddb"
+      "local_copy_review_date": "2026-10-24"
     },
     {
       "id": "be-rd-1981-fr",
@@ -203,9 +199,7 @@
       "content_selector": "official HTML main; page-navigation controls and final external-link block removed",
       "review_state": "accepted",
       "local_copy_status": "accepted",
-      "local_copy_review_date": "2026-10-24",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-rd-1981-fr.md",
-      "candidate_archive_sha256": "2b569c1f38514aaa79be261951848971abc7189b1a716b3bf2f904aebc4e9f83"
+      "local_copy_review_date": "2026-10-24"
     },
     {
       "id": "be-rd-1981-nl",
@@ -245,9 +239,7 @@
       "content_selector": "official HTML main; page-navigation controls and final external-link block removed",
       "review_state": "accepted",
       "local_copy_status": "accepted",
-      "local_copy_review_date": "2026-10-24",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-rd-1981-nl.md",
-      "candidate_archive_sha256": "5164b1a1f2667031c682e1d4bd8ceedc1c1ad45bb66712cb124605c19df12b20"
+      "local_copy_review_date": "2026-10-24"
     },
     {
       "id": "be-ibz-legislation-index",
@@ -261,7 +253,7 @@
       },
       "functional_relationship": "related_source",
       "verification_status": "official page opened; names the 1980 Law and 1981 Royal Decree, warns both have many amendments, and links consolidated Justel records and annex indexes",
-      "retrieval_status": "official_link_reviewed_no_local_capture",
+      "retrieval_status": "converted_review_candidate",
       "retrieval_shape": "JavaScript-dependent authority hub linking to current legislation records and forms",
       "topic_ids": [
         "PRACTICE-01",
@@ -284,7 +276,7 @@
         "review_date": "2026-10-24"
       },
       "local_copy_status": "not_accepted",
-      "review_state": "link_only"
+      "review_state": "link_only_or_manual_follow_up"
     },
     {
       "id": "be-annex-index-fr",
@@ -298,7 +290,7 @@
       },
       "functional_relationship": "partial_functional_match",
       "verification_status": "official page inspected; lists Annexes 19, 19ter, and 20 with linked payloads and descriptions",
-      "retrieval_status": "official_link_reviewed_no_local_capture",
+      "retrieval_status": "converted_review_candidate",
       "retrieval_shape": "dynamic HTML index with direct file links; individual filenames and file paths are versioned and can change",
       "topic_ids": [
         "PRACTICE-02",
@@ -322,7 +314,7 @@
         "review_date": "2026-10-24"
       },
       "local_copy_status": "not_accepted",
-      "review_state": "link_only"
+      "review_state": "link_only_or_manual_follow_up"
     },
     {
       "id": "be-annex-index-nl",
@@ -336,7 +328,7 @@
       },
       "functional_relationship": "partial_functional_match",
       "verification_status": "official Dutch index reached by following the IBZ language switch; page has separate language-specific links",
-      "retrieval_status": "official_link_reviewed_no_local_capture",
+      "retrieval_status": "converted_review_candidate",
       "retrieval_shape": "dynamic HTML index; confirm current direct file URL and language from the index on each retrieval",
       "topic_ids": [
         "PRACTICE-02",
@@ -360,7 +352,7 @@
         "review_date": "2026-10-24"
       },
       "local_copy_status": "not_accepted",
-      "review_state": "link_only"
+      "review_state": "link_only_or_manual_follow_up"
     },
     {
       "id": "be-annex-19-fr",
@@ -390,8 +382,6 @@
       "converted_sha256": "a1174f3753961691b3406e19422b61831f87453287a3858d5481517834142623",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Official French Annex 19 specimen linked from the IBZ index on 2026-10-24. The publisher filename identifies the 2025 edition; this local copy does not establish whether a later version has been published after the observed index check.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-annex-19-fr.md",
-      "candidate_archive_sha256": "016e8b86a430b7c061614ab2a9660ec2d7abb158c1f0ddb200a11bbab3d530cb",
       "source_status": "accepted",
       "source_file_path": "source-library/belgium/documents/forms/be-annex-19-fr.pdf",
       "source_file_sha256": "06bb9c35aafbeb41457d6dc1c2e0df9b6b835d3d06cb6a13c0573cf59b0f6a3c",
@@ -401,7 +391,10 @@
       "local_copy_review_date": "2026-10-24",
       "review_state": "accepted",
       "local_copy_review_limit": "Source identity, official PDF text, and binary integrity checked. Visual inspection was unavailable; no text conversion was used.",
-      "content_selector": "Native official one-page PDF preserved byte-for-byte; official PDF text extraction checked; visual screenshot unavailable."
+      "content_selector": "Native official one-page PDF preserved byte-for-byte; official PDF text extraction checked; visual screenshot unavailable.",
+      "source_text_path": "source-library/belgium/documents/forms/be-annex-19-fr.pdf",
+      "source_text_sha256": "06bb9c35aafbeb41457d6dc1c2e0df9b6b835d3d06cb6a13c0573cf59b0f6a3c",
+      "source_text_bytes": 559399
     },
     {
       "id": "be-annex-19ter-fr",
@@ -430,8 +423,6 @@
       "resolved_url": "https://dofi.ibz.be/sites/default/files/2021-12/Annexe%2019ter_2015.pdf",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Officially indexed Annex 19ter specimen link. Use the parent IBZ annex index to resolve the linked file; do not treat its old filename as proof of current form revision or classification.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-annex-19ter-fr.md",
-      "candidate_archive_sha256": "e290f3f3cd1ca7cb5b0d7f6304ee83a0fce2780d63b9fdc3329f4ab6c5fbe57b",
       "source_status": "accepted",
       "source_file_path": "source-library/belgium/documents/forms/be-annex-19ter-fr-specimen.pdf",
       "source_file_sha256": "c26618ac803b48c696c4c9d63dde0474a7816ff85f21d07a4601146e14250202",
@@ -441,7 +432,10 @@
       "local_copy_review_date": "2026-10-24",
       "review_state": "accepted",
       "local_copy_review_limit": "Accepted only as the two-page specimen currently linked from the French IBZ index. The prominent SPECIMEN watermark means this is not a blank operational application form and does not establish the current form requirements.",
-      "content_selector": "native publisher two-page image-only PDF preserved byte-for-byte; visually inspected both pages; no text extraction available."
+      "content_selector": "native publisher two-page image-only PDF preserved byte-for-byte; visually inspected both pages; no text extraction available.",
+      "source_text_path": "source-library/belgium/documents/forms/be-annex-19ter-fr-specimen.pdf",
+      "source_text_sha256": "c26618ac803b48c696c4c9d63dde0474a7816ff85f21d07a4601146e14250202",
+      "source_text_bytes": 643747
     },
     {
       "id": "be-annex-20-fr",
@@ -471,8 +465,6 @@
       "converted_sha256": "82844d1f64d714984ef4b5103b70970f6051eb8386f6096594839449671c163a",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Official French Annex 20 specimen linked from the IBZ index on 2026-10-24. The publisher filename identifies the 2025 edition; this local copy is a form specimen and does not replace the statute or establish a case-specific deadline.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-annex-20-fr.md",
-      "candidate_archive_sha256": "cbfe355da8d3d3869fb251d426eb00c1c9bcac8f93f1d1e7e01181775b78dc62",
       "source_status": "accepted",
       "source_file_path": "source-library/belgium/documents/forms/be-annex-20-fr.pdf",
       "source_file_sha256": "2a0af9b98692c13cd5b7d7c1b1372176af00fe1d3ced998559395bca1cabe37d",
@@ -482,7 +474,10 @@
       "local_copy_review_date": "2026-10-24",
       "review_state": "accepted",
       "local_copy_review_limit": "Source identity, official PDF text, and binary integrity checked. Visual inspection was unavailable; no text conversion was used.",
-      "content_selector": "Native official two-page PDF preserved byte-for-byte; official PDF text extraction checked on both pages, including the appeal notice; visual screenshot unavailable."
+      "content_selector": "Native official two-page PDF preserved byte-for-byte; official PDF text extraction checked on both pages, including the appeal notice; visual screenshot unavailable.",
+      "source_text_path": "source-library/belgium/documents/forms/be-annex-20-fr.pdf",
+      "source_text_sha256": "2a0af9b98692c13cd5b7d7c1b1372176af00fe1d3ced998559395bca1cabe37d",
+      "source_text_bytes": 714790
     },
     {
       "id": "be-eu-entry-residence",
@@ -515,8 +510,6 @@
       "resolved_url": "https://dofi.ibz.be/en/themes/citizens-european-union/right-entry-and-residence",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Official source link for: Right of entry and residence — EU citizens. Acceptance covers the linked record or route only; it does not accept the local conversion, establish topic coverage, or complete Belgium review.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-eu-entry-residence.md",
-      "candidate_archive_sha256": "3217a8657a9bef2c99080dd7235685873209f16ec71e138efd39e8b8159d0eff",
       "source_status": "accepted",
       "source_text_path": "source-library/belgium/documents/guidance/be-eu-entry-residence.md",
       "source_text_sha256": "ff0e6267e8b81459d428aed1661332587ae80e27c1357d0aa28008f020e84d2d",
@@ -636,8 +629,6 @@
       "resolved_url": "https://dofi.ibz.be/en/themes/third-country-nationals/residence-permit-9bis-9ter/d-visa-application-article-9",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Official Article 9 D-visa procedure route only; confirm the current page and linked mission instructions when applying it.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-d-visa-article9.md",
-      "candidate_archive_sha256": "1c4be52b7916cdec925c9fcfcb01fd95e77adf023e2befad07511a690780ecf2",
       "source_status": "accepted",
       "source_text_path": "source-library/belgium/documents/guidance/be-d-visa-article9.md",
       "source_text_sha256": "046acee63fa9499ad72c2eec888db6a26e9e7605b8a4c769a4c0bbd6030053ae",
@@ -676,8 +667,6 @@
       "resolved_url": "https://dofi.ibz.be/en/news/registration-certificate-change-28-september-2026",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Official dated operational notice on the certificate format change; not a general source for residence rights.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-registration-certificate-change.md",
-      "candidate_archive_sha256": "f95725c6628f594135afb8b3470888762748b196c3e5171648af20d0a556f7cb",
       "source_status": "accepted",
       "source_text_path": "source-library/belgium/documents/procedure/be-registration-certificate-change.md",
       "source_text_sha256": "2262a228bac4f696f9c38a3fc78a18beb622c77bdbd59e94ccb4464bf3464c8d",
@@ -718,8 +707,6 @@
       "resolved_url": "https://diplomatie.belgium.be/en/travel-belgium/visa-belgium",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Official source link for: Visa for Belgium — central FPS Foreign Affairs page. Acceptance covers the linked record or route only; it does not accept the local conversion, establish topic coverage, or complete Belgium review.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-visa-hub.md",
-      "candidate_archive_sha256": "51e71e267cb8d21b8a8278e9b38a9af446653e1087d39260a955e3c0fc8fe3ba",
       "source_status": "accepted",
       "source_text_path": "source-library/belgium/documents/guidance/be-visa-hub.md",
       "source_text_sha256": "d36a862c979331c7dc816de7badcba35dee170d590013ee344fa3766255a2309",
@@ -761,8 +748,6 @@
       "converted_sha256": "521491115a57c28ff85c2a61c9907b149705a508d87684821e7b7e3f3fd2ec04",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "FPS Foreign Affairs routing matrix dated 2026-10-12, linked from the central visa hub as observed on 2026-10-24. It is a dated operational routing snapshot; mission-specific rules and subsequent changes must be checked at the relevant official mission.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-visa-competence-matrix.md",
-      "candidate_archive_sha256": "e1373e74ee9208215f8f4ac84efdd6620143c589f7942e498fe522b4c15edb80",
       "source_status": "accepted",
       "source_file_path": "source-library/belgium/documents/guidance/be-visa-competence-matrix-en.pdf",
       "source_file_sha256": "275100516f47eb1e27d0717333fd224328cb5275e88835e59fb45228b1f70020",
@@ -772,7 +757,10 @@
       "local_copy_review_date": "2026-10-24",
       "review_state": "accepted",
       "local_copy_review_limit": "Source identity, official PDF text, and binary integrity checked. Visual inspection was unavailable; no text conversion was used.",
-      "content_selector": "Native official 16-page PDF preserved byte-for-byte; official PDF text extraction checked for table structure and sampled UK/UAE routing rows; no all-row audit or visual screenshot."
+      "content_selector": "Native official 16-page PDF preserved byte-for-byte; official PDF text extraction checked for table structure and sampled UK/UAE routing rows; no all-row audit or visual screenshot.",
+      "source_text_path": "source-library/belgium/documents/guidance/be-visa-competence-matrix-en.pdf",
+      "source_text_sha256": "275100516f47eb1e27d0717333fd224328cb5275e88835e59fb45228b1f70020",
+      "source_text_bytes": 329053
     },
     {
       "id": "be-embassy-directory",
@@ -786,7 +774,7 @@
       },
       "functional_relationship": "related_source",
       "verification_status": "official directory opened from the central visa page",
-      "retrieval_status": "official_link_reviewed_no_local_capture",
+      "retrieval_status": "converted_review_candidate",
       "retrieval_shape": "dynamic directory; requires resolving applicant residence to the responsible post and then to the post's own instructions",
       "topic_ids": [
         "MISSION-04",
@@ -810,7 +798,7 @@
         "review_date": "2026-10-24"
       },
       "local_copy_status": "not_accepted",
-      "review_state": "link_only"
+      "review_state": "link_only_or_manual_follow_up"
     },
     {
       "id": "be-uk-mission-eu-family-visa",
@@ -843,8 +831,6 @@
       "resolved_url": "https://unitedkingdom.diplomatie.belgium.be/en/travel-belgium/visa-belgium/third-country-family-members-eu-citizens-and-eu-directive",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Official UK-post example of local filing and appointments only; not a general rule for other consular posts.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-uk-mission-eu-family-visa.md",
-      "candidate_archive_sha256": "6e7896f777fb4b7fd32aa5bce1735cc9c197e23f81f062a32c92336096208fdf",
       "source_status": "accepted",
       "source_text_path": "source-library/belgium/documents/guidance/be-uk-mission-eu-family-visa.md",
       "source_text_sha256": "196a6b4ad25329ec17bfeca47a27242c084ef1f661e1ebe6c717d4d15ae9b4e0",
@@ -886,8 +872,6 @@
       "resolved_url": "https://unitedarabemirates.diplomatie.belgium.be/en/travel-belgium/visa-belgium/schengen-visa-family-member-belgian-or-eu-national",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Official UAE-post example of local visa procedure only; appointment/provider instructions can change.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-uae-mission-eu-family-visa.md",
-      "candidate_archive_sha256": "bcd36070716628c9024060f2b1acbf9eeb3920c46cc5168e9898c4515ee9939f",
       "source_status": "accepted",
       "source_text_path": "source-library/belgium/documents/guidance/be-uae-mission-eu-family-visa.md",
       "source_text_sha256": "7322974b5ca4a78e4e07fb3b39c0f467118d33f27af6d7ac0afca8de078a61d1",
@@ -927,8 +911,6 @@
       "resolved_url": "https://diplomatie.belgium.be/en/travel-belgium/visa-belgium/general-data-protection-regulation-gdpr",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Official source link for: General Data Protection Regulation information for visa applicants. Acceptance covers the linked record or route only; it does not accept the local conversion, establish topic coverage, or complete Belgium review.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-visa-gdpr.md",
-      "candidate_archive_sha256": "6bfcdf52e3c6e3a37a42ca6cfaa4ae3582eacbb6c56efcbd53a2931e9309f74b",
       "source_status": "accepted",
       "source_text_path": "source-library/belgium/documents/guidance/be-visa-gdpr.md",
       "source_text_sha256": "1e6744c32d171616f4a1d37bb7ddc20a7d331e49bec3cdbcfdc620ae867793ec",
@@ -951,7 +933,7 @@
       },
       "functional_relationship": "related_source",
       "verification_status": "official linked page identified; last published update observed as 2022-02-01, older than the separate 2026 GDPR information page",
-      "retrieval_status": "official_link_reviewed_no_local_capture",
+      "retrieval_status": "converted_review_candidate",
       "retrieval_shape": "HTML privacy notice; track separately from the current hub and determine whether it has been superseded",
       "topic_ids": [
         "DATA-06",
@@ -975,7 +957,7 @@
         "review_date": "2026-10-24"
       },
       "local_copy_status": "not_accepted",
-      "review_state": "superseded"
+      "review_state": "link_only_or_manual_follow_up"
     },
     {
       "id": "be-administrative-motivation-act",
@@ -1013,9 +995,7 @@
       "content_selector": "official HTML main; page-navigation controls and final external-link block removed",
       "review_state": "accepted",
       "local_copy_status": "accepted",
-      "local_copy_review_date": "2026-10-24",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-administrative-motivation-act.md",
-      "candidate_archive_sha256": "f12f87d538c337b4417e60b350109235d36a6643790256e2aa8b2d16ac4f5950"
+      "local_copy_review_date": "2026-10-24"
     },
     {
       "id": "be-publicity-act-1994",
@@ -1054,9 +1034,7 @@
       "content_selector": "official HTML main; page-navigation controls and final external-link block removed",
       "review_state": "accepted",
       "local_copy_status": "accepted",
-      "local_copy_review_date": "2026-10-24",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-publicity-act-1994.md",
-      "candidate_archive_sha256": "1393032b71d83395eca899a250be411939fea219ea7993187130b1ec2ac992c6"
+      "local_copy_review_date": "2026-10-24"
     },
     {
       "id": "be-federal-cada-appeal",
@@ -1086,8 +1064,6 @@
       "resolved_url": "https://www.ibz.rrn.fgov.be/fr/commissions/publicite-de-ladministration/le-recours-administratif",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Official source link for: Federal Commission for Access to and Re-use of Administrative Documents — administrative appeal route. Acceptance covers the linked record or route only; it does not accept the local conversion, establish topic coverage, or complete Belgium review.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-federal-cada-appeal.md",
-      "candidate_archive_sha256": "e1606c0e6122fa8a3d5b97bf623ba99a1cbdcb4743c61333f0ee44c0034cda0f",
       "source_status": "accepted",
       "source_text_path": "source-library/belgium/documents/oversight/be-federal-cada-appeal-fr.md",
       "source_text_sha256": "f9d75e41fde6f06d603f1388df9b4de8d8791cdf051ae19a5b04bb1fe4bea12f",
@@ -1135,9 +1111,7 @@
       "content_selector": "official HTML main; page-navigation controls and final external-link block removed",
       "review_state": "accepted",
       "local_copy_status": "accepted",
-      "local_copy_review_date": "2026-10-24",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-council-state-laws.md",
-      "candidate_archive_sha256": "634b6f05fdd8acccf91110afd48d9055a349e13cc216fe75db9bd3bbd34d8acf"
+      "local_copy_review_date": "2026-10-24"
     },
     {
       "id": "be-federal-ombudsman-filing",
@@ -1166,8 +1140,6 @@
       "resolved_url": "https://www.federalombudsman.be/en/filing-a-complaint",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Official source link for: Federal Ombudsman — filing a complaint. Acceptance covers the linked record or route only; it does not accept the local conversion, establish topic coverage, or complete Belgium review.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-federal-ombudsman-filing.md",
-      "candidate_archive_sha256": "90cabc56f37eea64c5ec07745b8b65580d6c49fd04d36515c28903163808a9b9",
       "source_status": "accepted",
       "source_text_path": "source-library/belgium/documents/oversight/be-federal-ombudsman-filing.md",
       "source_text_sha256": "0a746c64be9cc4be227c3552442cb49e00a64861351d19407e15ec8502e314fb",
@@ -1204,8 +1176,6 @@
       "resolved_url": "https://www.federalombudsman.be/en/complaints-process",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Official source link for: Federal Ombudsman — complaint process and federal jurisdiction. Acceptance covers the linked record or route only; it does not accept the local conversion, establish topic coverage, or complete Belgium review.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-federal-ombudsman-process.md",
-      "candidate_archive_sha256": "0b122b4d8bb69643d9f6fbeb384928865fdcf50dfe80dcfc8f75f6b66479ef7c",
       "source_status": "accepted",
       "source_text_path": "source-library/belgium/documents/oversight/be-federal-ombudsman-process.md",
       "source_text_sha256": "e40ce5797e1b78f29e2c36ad6fe71158f4fc2530a4e00749dd4988ff473003b7",
@@ -1253,9 +1223,7 @@
       "content_selector": "official HTML main; page-navigation controls and final external-link block removed",
       "review_state": "accepted",
       "local_copy_status": "accepted",
-      "local_copy_review_date": "2026-10-24",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-code-pil.md",
-      "candidate_archive_sha256": "402eccfee199ef4b6f5925a0387142bc99c4b4dcc5c7570f364ea3e10ccf871a"
+      "local_copy_review_date": "2026-10-24"
     },
     {
       "id": "be-rvv-case-sample-320874",
@@ -1286,8 +1254,6 @@
       "resolved_url": "https://www.rvv-cce.be/sites/default/files/mr-arr/sel-arr-202501-f.pdf",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Official selected-jurisprudence discovery link only. No individual judgment holding or complete case-law coverage is accepted.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-rvv-case-sample-320874.md",
-      "candidate_archive_sha256": "aefa2a5ced92a04eb8349dca859e9f14997ea955458b03a2ba9cb702d2f3fcea",
       "source_status": "accepted",
       "source_file_path": "source-library/belgium/documents/case_law/be-rvv-selected-jurisprudence-2025-01-fr.pdf",
       "source_file_sha256": "85ea77862926a57b03f6b7a7d6233c6a396807b595f07fb35128c7bdaad31cda",
@@ -1297,7 +1263,10 @@
       "local_copy_review_date": "2026-10-24",
       "review_state": "accepted",
       "local_copy_review_limit": "Historical selected-case monthly publication captured from the official French route on 2026-10-19. The exact French route returned 403 when opened on 2026-10-24. This report is selective and the named case presentation is not treated as the full individual judgment.",
-      "content_selector": "native official PDF preserved byte-for-byte; 116-page PDF text extraction in the archived review candidate identifies the monthly period and selected judgment 320874; no visual screenshot."
+      "content_selector": "native official PDF preserved byte-for-byte; 116-page PDF text extraction in the archived review candidate identifies the monthly period and selected judgment 320874; no visual screenshot.",
+      "source_text_path": "source-library/belgium/documents/case_law/be-rvv-selected-jurisprudence-2025-01-fr.pdf",
+      "source_text_sha256": "85ea77862926a57b03f6b7a7d6233c6a396807b595f07fb35128c7bdaad31cda",
+      "source_text_bytes": 1647953
     },
     {
       "id": "be-dpa-complaint-fr",
@@ -1310,9 +1279,9 @@
         "page": "introduire-une-plainte"
       },
       "functional_relationship": "related_source",
-      "verification_status": "official page inspected; current text describes information, mediation, and complaint options and says the first-line mediation policy applies from 2026-03-01",
-      "retrieval_status": "converted_review_candidate",
-      "retrieval_shape": "language-specific HTML with forms, portal requirements, and links that may change; police and intelligence processing may use separate oversight bodies",
+      "verification_status": "The official French APD page was checked on 2026-10-24. Direct access returned a maintenance page, while a recent official search-index copy still exposed the article and matched the archived 2026-10-19 text on the main procedural anchors. Accepted only as a dated snapshot; currentness is unresolved.",
+      "retrieval_status": "accepted_source",
+      "retrieval_shape": "Dated French-language main-content snapshot from an official APD page capture; direct page was under maintenance at review time.",
       "topic_ids": [
         "DATA-06",
         "DATA-07",
@@ -1321,22 +1290,34 @@
         "PRACTICE-01"
       ],
       "retrieved": true,
-      "accepted": false,
-      "source_sha256": "c028996d72ed95831249e2de8dc378929a3be6319e5a157b253009fba6ec5d98",
-      "converted_sha256": "a7a6065f74f850dfa0f138a6a5b9eb224e75cf2f7ce7cd0bb5ae9dc7a7ce7870",
-      "source_bytes": 104827,
+      "accepted": true,
       "resolved_url": "https://www.dataprotectionauthority.be/citoyen/agir/introduire-une-plainte",
       "external_reference_status": "accepted_with_narrow_external_scope",
-      "external_reference_scope": "Official source link for: Belgian Data Protection Authority — introduce a complaint (French). Acceptance covers the linked record or route only; it does not accept the local conversion, establish topic coverage, or complete Belgium review.",
+      "external_reference_scope": "Official APD French complaint-route locator and dated 2026-10-19 snapshot only. The direct live route was under maintenance on 2026-10-24; this is not current procedural advice, a statutory appeal route, topic-coverage evidence or Belgium completion evidence.",
       "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-dpa-complaint-fr.md",
       "candidate_archive_sha256": "413f39581272999ce1d45a434739908e5c5b430a043b3bce557f5b6e8672979e",
       "local_copy_disposition": {
-        "status": "repair_needed",
-        "note": "The official French complaint URL returned a site-maintenance page on 2026-10-24. Do not publish the older candidate conversion as current; retry when the publisher restores the language page. The Dutch counterpart has a dated final document.",
+        "status": "accepted_dated_snapshot",
+        "note": "Accept only as a dated official snapshot from 2026-10-19. Direct access returned a maintenance page on 2026-10-24; the recent search-index copy is not treated as a live page. Currentness remains open.",
         "review_date": "2026-10-24"
       },
-      "local_copy_status": "not_accepted",
-      "review_state": "link_only_or_manual_follow_up"
+      "local_copy_status": "accepted",
+      "review_state": "accepted",
+      "previous_candidate_capture": {
+        "source_sha256": "c028996d72ed95831249e2de8dc378929a3be6319e5a157b253009fba6ec5d98",
+        "converted_sha256": "a7a6065f74f850dfa0f138a6a5b9eb224e75cf2f7ce7cd0bb5ae9dc7a7ce7870",
+        "source_bytes": 104827,
+        "status": "Prior 2026-10-19 capture retained as a dated snapshot; current direct page returned maintenance on 2026-10-24."
+      },
+      "source_status": "accepted",
+      "source_text_path": "source-library/belgium/documents/oversight/be-dpa-complaint-fr.md",
+      "source_text_sha256": "b96495d7037bb387f90328fa9032f7941c73cea21e877af5dddb55b0eb57e67f",
+      "source_text_bytes": 12213,
+      "publisher_visible_text_sha256": "491021f0db798ff0394547ab7069103c97da060e985da5c059c8eca86f1ed3f6",
+      "converted_sha256": "b96495d7037bb387f90328fa9032f7941c73cea21e877af5dddb55b0eb57e67f",
+      "converted_bytes": 12213,
+      "content_selector": "Captured article body; page navigation removed; two merged-word spacing defects corrected against the official search-index text. Portal forms and linked policies are separate.",
+      "local_copy_review_date": "2026-10-24"
     },
     {
       "id": "be-dpa-complaint-nl",
@@ -1367,8 +1348,6 @@
       "resolved_url": "https://dataprotectionauthority.be/burger/acties/klacht-indienen",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Official source link for: Belgian Data Protection Authority — submit a complaint (Dutch). Acceptance covers the linked record or route only; it does not accept the local conversion, establish topic coverage, or complete Belgium review.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-dpa-complaint-nl.md",
-      "candidate_archive_sha256": "68e364e8c48a4795603d33a4feaee671435855bfb4f016dda3025041e89479ca",
       "source_status": "accepted",
       "source_text_path": "source-library/belgium/documents/oversight/be-dpa-complaint-nl.md",
       "source_text_sha256": "3bb5849cf39042fc1eface3d131f5db51ab3bbf6b494d5501d3f8bca2b4a50ba",
@@ -1412,8 +1391,6 @@
       "resolved_url": "https://wallex.wallonie.be/files/pdfs/23/19975_D%C3%A9cret_relatif_%C3%A0_la_publicit%C3%A9_de_l%27Administration_01-04-2026-.pdf",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Official source link for: Walloon Decree of 30 March 1995 on publicity of the Administration. Acceptance covers the linked record or route only; it does not accept the local conversion, establish topic coverage, or complete Belgium review.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-wallonia-publicity-decree.md",
-      "candidate_archive_sha256": "0c58e72573d6b98997c94ef7d3aa9f3cfef4214b5561ed71605019b5e864bb74",
       "source_status": "accepted",
       "source_file_path": "source-library/belgium/documents/legislation/be-wallonia-publicity-decree-2026-04-01-fr.pdf",
       "source_file_sha256": "d85d984f0f9a27ac8fc5c581b3eafbc94ad9160ad4e9a9aace99b2dcf848ee4f",
@@ -1423,7 +1400,10 @@
       "local_copy_review_date": "2026-10-24",
       "review_state": "accepted",
       "local_copy_review_limit": "Exact WALLEX edition in force from 2026-04-01 and observed on 2026-10-24; regional and entity scope as provided by the decree.",
-      "content_selector": "native publisher PDF preserved byte-for-byte; 8-page official PDF text checked, including Articles 1, 3, 5–8quinquies; visual screenshot unavailable."
+      "content_selector": "native publisher PDF preserved byte-for-byte; 8-page official PDF text checked, including Articles 1, 3, 5–8quinquies; visual screenshot unavailable.",
+      "source_text_path": "source-library/belgium/documents/legislation/be-wallonia-publicity-decree-2026-04-01-fr.pdf",
+      "source_text_sha256": "d85d984f0f9a27ac8fc5c581b3eafbc94ad9160ad4e9a9aace99b2dcf848ee4f",
+      "source_text_bytes": 35549
     },
     {
       "id": "be-flanders-bestuursdecreet",
@@ -1456,8 +1436,6 @@
       "resolved_url": "https://codex.vlaanderen.be/PrintDocument.ashx?geannoteerd=false&id=1030009",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Official source link for: Flemish Bestuursdecreet of 7 December 2018. Acceptance covers the linked record or route only; it does not accept the local conversion, establish topic coverage, or complete Belgium review.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-flanders-bestuursdecreet.md",
-      "candidate_archive_sha256": "8bf43b89b0f00bf3d0555e3657c51321b2b2873cd43723d07d4c9103d0dbd092",
       "source_status": "accepted",
       "source_text_path": "source-library/belgium/documents/legislation/be-flanders-bestuursdecreet-2018-nl.md",
       "source_text_sha256": "778e982ac7d4d7610f775f5aee179551df2150cb3042ec4b4ef322519fac3ae7",
@@ -1503,8 +1481,6 @@
       "resolved_url": "https://be.brussels/fr/propos-de-la-region/structure-et-organisation/administrations-et-institutions-de-la-region/commission-dacces-aux-documents-administratifs-cada",
       "external_reference_status": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Official Brussels CADA overview; use only within the scope of the 2019 joint decree and verify the competent institution.",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-brussels-cada-guidance.md",
-      "candidate_archive_sha256": "d42b58c80df4fed629a5fbc6ab65fbe385bb70ad135e49d0efd79750f9d93555",
       "source_status": "accepted",
       "source_text_path": "source-library/belgium/documents/oversight/be-brussels-cada-guidance.md",
       "source_text_sha256": "c9bd5a84d148687518d699cc225f311db63a3b8d848ee20be2a1d7cb373dcf48",
@@ -1553,9 +1529,7 @@
       "content_selector": "official HTML main; page-navigation controls and final external-link block removed",
       "review_state": "accepted",
       "local_copy_status": "accepted",
-      "local_copy_review_date": "2026-10-24",
-      "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-01-law-of-16-july-2004-establishing-the-code-of-private-international-law.md",
-      "candidate_archive_sha256": "b98199354853dfa4f11cc6b6ce1bd404dcad6d7eda17fb85cd09743406321a6d"
+      "local_copy_review_date": "2026-10-24"
     },
     {
       "id": "be-02-immigration-office-guidance-for-family-members-of-eu-citizens",
@@ -1569,12 +1543,11 @@
       },
       "retrieved": true,
       "accepted": false,
-      "retrieval_status": "official_link_reviewed_no_local_capture",
+      "retrieval_status": "superseded_source",
       "retrieved_at": "2026-10-15T22:57:07Z",
       "raw_html_sha256": "0e02e7a60e22e6e6679b39aeb0640deb3a8e1e3eb2225818e7ca0cdabac3bd2e",
-      "document_path": "../candidates/be-ibz-eu-family.md",
       "functional_relationship": "partial_functional_match",
-      "verification_status": "prior official-page conversion is preserved as a review candidate; current page route and relationship to the family-reunification page were not rechecked",
+      "verification_status": "The former /family route redirected to the current /family-reunification route when checked on 2026-10-24; its converted text is retained only in the Monitor local-only archive.",
       "retrieval_shape": "browser-rendered article HTML; converted output is incomplete and raw source bytes are not present",
       "topic_ids": [
         "RESIDENCE-01",
@@ -1592,19 +1565,22 @@
       "candidate_archive_sha256": "c899cbfcc682d2f3e404253bb081596679471a164ad969687c9b063922a12f53",
       "local_copy_disposition": {
         "status": "already_represented",
-        "note": "This legacy route redirects to the current family-reunification page. That page is retained only as an official route because its content is incomplete; the old conversion is not a final document.",
+        "note": "The old route redirects to the current family-reunification page. Do not use its old conversion as a final document.",
         "review_date": "2026-10-24"
       },
       "local_copy_status": "not_accepted",
-      "review_state": "superseded"
+      "review_state": "dispositioned",
+      "source_status": "superseded",
+      "source_note_archive_path": "candidates/public-data/belgium/candidates/be-ibz-eu-family.md",
+      "source_note_archive_sha256": "015dcb59f3b93c362a7f39429d2052ad223ae78e64cad9918d442aae7de2f809"
     },
     {
       "id": "be-05-federal-justice-guidance-recognition-registration-foreign-adoptions",
       "title": "Federal Justice guidance: recognition and registration of foreign adoptions",
       "source_type": "official_guidance",
       "language": "fr",
-      "url": "https://justice.belgium.be/fr/themes_et_dossiers/personnes_et_familles/adoption/adoption_a_letranger",
-      "prior_inventory_url": "https://www.justice.belgium.be/fr/themes_et_dossiers/personnes_et_familles/adoption/adoption_a_letranger",
+      "url": "https://www.justice.belgium.be/fr/themes_et_dossiers/personnes_et_familles/adoption/adoption_a_letranger",
+      "prior_inventory_url": "https://justice.belgium.be/fr/themes_et_dossiers/personnes_et_familles/adoption/adoption_a_letranger",
       "publisher_identifier": {
         "system": "Federal Public Service Justice",
         "page": "adoption_a_letranger"
@@ -1612,12 +1588,9 @@
       "retrieved": true,
       "accepted": true,
       "retrieval_status": "accepted_source",
-      "retrieved_at": "2026-10-15T22:57:07Z",
-      "raw_html_sha256": "5aae1f7be8324de3934c5fb9de185fa079a0bce7d9491ed1c1cc157722a1b931",
-      "document_path": "../candidates/be-justice-international-adoption.md",
       "functional_relationship": "related_source",
-      "verification_status": "The official Federal Public Service Justice page was opened on 2026-10-24. Its main article text was reviewed from the title through the municipal registration section and compared with the retained 2026-10-19 conversion. The page shows no publication or revision date; acceptance is limited to the content displayed on the review date. The linked recognition-request form is a separate page and is not included.",
-      "retrieval_shape": "Official HTML main-article snapshot; source navigation and footer are excluded, and the regional-authority table is reflowed for readability. Current raw HTML was not retained.",
+      "verification_status": "The official Federal Public Service Justice page was opened through the www.justice.belgium.be route on 2026-10-24. The page gives no publication or update date; its visible French article and seven-step process were reviewed. A current 2026 service notice appears separately from the article.",
+      "retrieval_shape": "Visible French article text from the official Justice page; browser-rendered snapshot, with navigation, footer and a template label removed.",
       "topic_ids": [
         "FAMILY-11",
         "FAMILY-12",
@@ -1625,29 +1598,38 @@
         "FAMILY-15",
         "FAMILY-19"
       ],
-      "source_sha256": "8c14b8d3b3b2c0a111befd1a5c196809a77a9221c252e3bcb6feb1d11498d7b2",
-      "converted_sha256": "51e2295c71df76d968b8966ce8a487b2046c6023d2425d08d7fb7f77fd12703a",
-      "source_bytes": 40223,
-      "resolved_url": "https://justice.belgium.be/fr/themes_et_dossiers/personnes_et_familles/adoption/adoption_a_letranger",
+      "resolved_url": "https://www.justice.belgium.be/fr/themes_et_dossiers/personnes_et_familles/adoption/adoption_a_letranger",
       "external_reference_status": "accepted_with_narrow_external_scope",
-      "external_reference_scope": "Official Federal Justice page route for foreign-adoption guidance only; content is not treated as current legal text or as a free-movement rule.",
+      "external_reference_scope": "Official Federal Justice foreign-adoption guidance and a dated snapshot of the visible page only; not primary legislation, a free-movement rule, topic-completion evidence, or Belgium completion evidence.",
       "local_research_archive_path": "candidates/public-data/belgium/monitor-candidates/be-05-federal-justice-guidance-recognition-registration-foreign-adoptions.md",
       "candidate_archive_sha256": "ca51a1fed96cb6b001ed91471a2f541811ffb17d0422173f207230be1de9223c",
       "local_copy_disposition": {
         "status": "accepted",
-        "note": "Promoted to a final document after the current official page was accessible and its main article was checked on 2026-10-24. This is procedural guidance, not a consolidated legal text.",
+        "note": "Accepted as a dated official administrative-guidance snapshot after comparison with the official page text exposed through the www.justice.belgium.be route. No update date is displayed; the page is related guidance, not controlling law or a free-movement rule.",
         "review_date": "2026-10-24"
       },
       "local_copy_status": "accepted",
       "review_state": "accepted",
+      "previous_candidate_capture": {
+        "retrieved_at": "2026-10-15T22:57:07Z",
+        "raw_html_sha256": "5aae1f7be8324de3934c5fb9de185fa079a0bce7d9491ed1c1cc157722a1b931",
+        "source_sha256": "8c14b8d3b3b2c0a111befd1a5c196809a77a9221c252e3bcb6feb1d11498d7b2",
+        "converted_sha256": "cd1f6d6bba3444ddac8e3d0d60867fed78ce2a76c079ef36ec9c229b6c30ad23",
+        "source_bytes": 40223,
+        "status": "Earlier conversion not accepted; superseded by the 2026-10-24 visible-page snapshot."
+      },
+      "retrieved_at": "2026-10-24",
       "source_status": "accepted",
-      "source_text_path": "source-library/belgium/documents/guidance/be-foreign-adoption-guidance-fr.md",
-      "source_text_sha256": "51e2295c71df76d968b8966ce8a487b2046c6023d2425d08d7fb7f77fd12703a",
-      "source_text_bytes": 11169,
-      "converted_bytes": 11169,
-      "content_selector": "official page main article, title through municipal registration; site navigation/footer excluded",
+      "source_text_path": "source-library/belgium/documents/guidance/be-justice-international-adoption.md",
+      "source_text_sha256": "f315c6852d441643ab2b24f8a6ebc31d757f7624bd38a23ac8e8957ab459a6e7",
+      "source_text_bytes": 10375,
+      "publisher_visible_text_sha256": "ab2c1d6e2b26fba118ebe25163c483aa586bf99ae02261a2860650f9c929cff5",
+      "converted_sha256": "f315c6852d441643ab2b24f8a6ebc31d757f7624bd38a23ac8e8957ab459a6e7",
+      "converted_bytes": 10375,
+      "content_selector": "Visible main article and numbered adoption process; page navigation, footer, current site service notice and “Simple Doormat” template label excluded. Link labels are retained; linked subpages and forms are separate.",
       "local_copy_review_date": "2026-10-24",
-      "local_copy_review_limit": "No page-level publication or revision date is shown. Accepted as the publisher text observed on 2026-10-24. The separate recognition-request form page could not be retrieved and is not part of this copy."
+      "source_note_archive_path": "candidates/public-data/belgium/candidates/be-justice-international-adoption.md",
+      "source_note_archive_sha256": "cb2cb7e1029b2c14ef2c3b3fd3e888d6a489394c24fec5777939588ed91baddd"
     },
     {
       "id": "be-data-protection-act-2018-fr",
@@ -1887,12 +1869,12 @@
     "Mission-specific consular guidance, local residence procedures, legal-aid eligibility, and case-specific remedy/deadline mapping remain incomplete.",
     "Current Wallex and Flemish Codex editions were acquired as final documents on 2026-10-24; superseded captures remain non-authoritative review aids. The two regional decrees do not establish a nationwide access-to-records rule."
   ],
-  "retrieved_review_candidate_count": 3,
-  "discovery_only_candidate_count": 9,
-  "converted_review_candidate_count": 3,
-  "accepted_local_copy_count": 29,
+  "retrieved_review_candidate_count": 8,
+  "discovery_only_candidate_count": 40,
+  "converted_review_candidate_count": 8,
+  "accepted_local_copy_count": 30,
   "accepted_external_reference_count": 47,
-  "link_only_candidate_count": 16,
+  "link_only_candidate_count": 9,
   "coverage_gaps": [],
-  "local_copy_acceptance_note": "Twenty-nine local copies are accepted after separate review. Three converted artifacts remain open for human review or publisher repair; 16 source records have no accepted local copy. No topic is marked covered and Belgium review remains incomplete."
+  "local_copy_acceptance_note": "30 local source files passed separate review. 8 converted review artifacts remain nonterminal in the Monitor local-only archive; 9 other records have no local capture. No legal topic or country review is complete."
 }

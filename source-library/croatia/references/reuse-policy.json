@@ -1,21 +1,22 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "HR",
-  "as_of": "2026-10-19",
+  "as_of": "2026-10-24",
   "policy": {
     "basis_id": "hr-copyright-act-nn-111-2021-art-18-3",
-    "as_of": "2026-10-19",
+    "as_of": "2026-10-24",
     "status": "official_text_copyright_basis_verified",
     "basis_url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html",
     "basis": "Copyright and Related Rights Act NN 111/21, Article 18(3): officially published legal, administrative, and judicial texts (including statutes, regulations, and court decisions) cease to be protected by copyright when published for official public information.",
     "currentness_evidence_url": "https://www.dziv.hr/hr/intelektualno-vlasnistvo/autorsko-pravo/zakonodavstvo/",
-    "scope": "Only the text of the individually identified official act published in the Narodne novine official part, after publication for official public information.",
-    "retention_rule": "Store a source-bound text fragment from .sl-content .doc. Keep official citation, stable URL, capture date and hashes as factual provenance. Exclude the Narodne novine page shell and unrelated page content.",
+    "scope": "Individually identified official legislative texts published in the Narodne novine official part; the four unchanged MUP EEA forms and three unchanged MUP SIS forms; and the identified MUP EEA guidance article body, all with source attribution under MUP Terms of Use; and the individual blank MVEP VIS administrative request form under a narrow Article 18(3) assessment. Excludes publisher page shells, third-party materials, other unreviewed page content, and bulk/database-wide reuse.",
+    "retention_rule": "Retain source-bound text fragments from the official Narodne novine document region; seven individually identified MUP form PDFs unchanged with MUP attribution; the Croatian article body of hr-mup-eea-guidance with source attribution under MUP Terms of Use checked 2026-10-24; and the one individually identified MVEP VIS request form under the narrow Article 18(3) assessment. Keep official citation, stable URL, review date and hashes. Preserve original PDF layout and page order; do not alter prescribed forms. Exclude publisher shells and unrelated or third-party content. The new SIS/VIS PDF page-image layout has not been visually reviewed.",
     "not_covered": [
       "full publisher HTML responses and page-shell text",
-      "website design, navigation, interface text, and publisher-authored explanatory material",
-      "third-party materials, non-text attachments, images, and logos unless independently reviewed",
-      "bulk extraction or reuse of the database as a whole, including any separate database right or technical conditions"
+      "website design, navigation and interface text; page content outside the individually reviewed MUP article and forms accepted in this pack",
+      "third-party materials, non-text attachments, images and logos unless independently reviewed as individual official source documents",
+      "bulk extraction or reuse of the database as a whole, including any separate database right or technical conditions",
+      "MVEP website content and general guidance: the MVEP terms page inspected is a personal-data notice, not a general reuse grant"
     ],
     "retrieval_constraints": {
       "individual_official_record_urls": "use the stable Narodne novine/ELI record URL, not the metadata API as a full-text endpoint",
@@ -46,6 +47,10 @@
     "hr-foreigners-amend-151-22",
     "hr-foreigners-amend-40-25",
     "hr-foreigners-amend-55-26",
+    "hr-form-1b",
+    "hr-form-2b",
+    "hr-form-3b",
+    "hr-form-6b",
     "hr-general-admin-act",
     "hr-general-admin-amend",
     "hr-judicial-fees-act",
@@ -68,6 +73,7 @@
     "hr-vis-decree",
     "hr-vis-decree-amend-105-17",
     "hr-visa-ordinance",
-    "hr-visa-system-decree"
+    "hr-visa-system-decree",
+    "hr-mvep-vis-rights-form"
   ]
 }
