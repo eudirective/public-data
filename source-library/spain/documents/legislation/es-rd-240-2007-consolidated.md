@@ -1,230 +1,31 @@
-# Real Decreto 240/2007 (BOE-A-2007-4184)
-
-- Jurisdiction: spain
-- Candidate ID: `es-06`
-- Source type: `eu_eea_free_movement_regulation`
-- Candidate URL: https://www.boe.es/eli/es/rd/2007/02/16/240/con
-- Resolved URL: https://www.boe.es/eli/es/rd/2007/02/16/240/con
-- Retrieved: 2026-10-19T02:42:03+00:00
-- Media type: `text/html`
-- Publisher/version evidence: BOE page reports last update 09/11/2015 and links amendments back to 2007; current consolidation is informational.
-- Extraction: `body`
-- Exact response SHA-256: `0cf579cbf0af06aba00d9546cbffbfc27fc0579ecbf1bf422a400c342b80a578`
-
-> **Local-copy review notice.** This captured file is not accepted as a retained copy. A direct official link can be used for research after reviewing relevant content, date/version, scope, and caveats. Local-copy acceptance and reuse terms matter only when retaining or redistributing this file.
-
-## Captured source text
-
-Agencia Estatal Boletín Oficial del Estado
-
-Ir a contenido
-
-Consultar el diario oficial BOE
-
-Idioma actual:Castellano / es
-Puede seleccionar otro idioma:
-
-es / Castellano
-
-ca / Català
-
-gl / Galego
-
-eu / Euskara
-
-va / Valencià
-
-en / English
-
-fr / Français
-
-Buscar
-
-Mi BOE Desconectado.
-Pulse para acceder al servicio 'Mi BOE'
-
-Menú
-
-Menú
-
-Diarios Oficiales
-
-BOE
-
-BORME
-
-Otros diarios oficiales
-
-Información Jurídica
-
-Todo el Derecho
-
-Biblioteca Jurídica Digital
-
-Otros servicios
-
-Notificaciones
-
-Edictos judiciales
-
-Portal de subastas
-
-Anunciantes
-
-Datos abiertos
-
-Está Vd. en
-
-Inicio
-
-Buscar
-
-Documento consolidado BOE-A-2007-4184
-
-Legislación consolidadaEste texto consolidado es de carácter informativo y no tiene valor jurídico.
-La consolidación consiste en integrar en un solo texto, sin valor oficial, las modificaciones, correcciones y derogaciones de carácter expreso que una norma ha tenido desde su origen, con el objetivo de facilitar el acceso al Derecho vigente. Para fines jurídicos, debe consultarse la publicación oficial.
-
-Ayuda
-
-Real Decreto 240/2007, de 16 de febrero, sobre entrada, libre circulación y residencia en España de ciudadanos de los Estados miembros de la Unión Europea y de otros Estados parte en el Acuerdo sobre el Espacio Económico Europeo.
-
-Publicado en:
-
-«BOE»núm. 51, de 28/02/2007.
-
-Entrada en vigor:
-
-28/03/2007
-
-Departamento:
-
-Ministerio de la Presidencia
-
-Referencia:
-
-BOE-A-2007-4184
-
-Permalink ELI:
-
-https://www.boe.es/eli/es/rd/2007/02/16/240/con
-
-Seleccionar redacción:
-Última actualización publicada el 09/11/2015
-
-Última actualización publicada el 09/11/2015
-
-Modificación publicada el 04/08/2012
-
-Modificación publicada el 24/04/2012
-
-Modificación publicada el 26/11/2011
-
-Modificación publicada el 03/11/2010
-
-Modificación publicada el 23/07/2009
-
-Texto inicial publicado el 28/02/2007
-
-PDF
-
-ePUB
-
-CompletoCompleto
-
-Solo TextoTexto
-
-ÍndiceÍndice
-
-AnálisisAnálisis
-
-Jurisprudencia
-
-Recibir alerta
-
-Texto consolidado: «Última actualización, publicada el 09/11/2015»
-
-Ir a:
-Seleccionar apartado
-
-[Preámbulo]
-
-CAPÍTULO I
-
-Artículo 1
-
-Artículo 2
-
-Artículo 2 bis
-
-Artículo 3
-
-CAPÍTULO II
-
-Artículo 4
-
-Artículo 5
-
-CAPÍTULO III
-
-Artículo 6
-
-Artículo 7
-
-Artículo 8
-
-Artículo 9
-
-Artículo 9 bis
-
-CAPÍTULO IV
-
-Artículo 10
-
-Artículo 11
-
-CAPÍTULO V
-
-Artículo 12
-
-Artículo 13
-
-Artículo 14
-
-CAPÍTULO VI
-
-Artículo 15
-
-Artículo 16
-
-Artículo 17
-
-Artículo 18
-
-Disposición adicional primera
-
-Disposición adicional segunda
-
-Disposición adicional tercera
-
-Disposición transitoria primera
-
-Disposición transitoria segunda
-
-Disposición transitoria tercera
-
-Disposición derogatoria única
-
-Disposición final primera
-
-Disposición final segunda
-
-Disposición final tercera
-
-Disposición final cuarta
-
-Disposición final quinta
-
-[Firma]
+# Real Decreto 240/2007, de 16 de febrero — entrada, libre circulación y residencia
+
+- Jurisdiction: Spain
+- Source class: national legislation
+- Publisher: Agencia Estatal Boletín Oficial del Estado (BOE)
+- Publisher identifier: `BOE-A-2007-4184`
+- Official consolidated record: https://www.boe.es/eli/es/rd/2007/02/16/240/con
+- BOE API text endpoint: https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2007-4184/texto
+- BOE API metadata endpoint: https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2007-4184/metadatos
+- BOE consolidated text last update displayed: 2015-11-09 (checked 2026-10-24)
+- BOE metadata record last updated: 2025-12-19 (metadata timestamp; distinct from the consolidated-text date displayed above)
+- Instrument effective date in BOE metadata: 2007-03-28
+- BOE text response SHA-256: 70dc796fb612b321527acb9debf40b4e13aa6f8cf0b160326cb746f73c74bf9d
+- BOE metadata response SHA-256: a1687a9eeaa69df9a508f0e1b735575e3c64dfc4a92efaa919edb21f8b080dce
+- Retrieved: 2026-10-18T22:33:38+00:00
+- Conversion: BOE XML, latest returned version per text block, converted to Markdown; 40 blocks replayed and reviewed against BOE's consolidated record
+
+> **Informational consolidated text only.** BOE labels this consolidation as informational and without legal value. It is a dated working text through the update displayed on 2015-11-09, not a claim that every provision remains in force today. Consult the linked official publication and specific later amendments, corrections, commencement rules, or judgments when they materially affect the issue.
+>
+> **Attribution:** Basado en datos de la Agencia Estatal Boletín Oficial del Estado.
+>
+> **Modification notice:** BOE XML converted to Markdown; provenance and scope notes added. Spanish source wording is retained. The API's explicitly labeled prior wording in the version note for Disposición final segunda is historical, not the operative consolidated wording.
+>
+> BOE reuse terms: https://www.boe.es/informacion/aviso_legal/index.php
+
+<!-- block='preambulo' type='preambulo' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## preambulo
 
 España se adhirió a las Comunidades Europeas como Estado miembro de pleno derecho el 1 de enero de 1986, siendo necesario en aquellos momentos dictar el Real Decreto 1099/1986, de 26 de mayo, sobre entrada, permanencia y trabajo en España de ciudadanos de los Estados miembros de las Comunidades Europeas, en el que se regulaban las formalidades administrativas para el ejercicio de los derechos de entrada y permanencia en España por parte de los ciudadanos de sus Estados miembros para la realización de actividades por cuenta ajena o por cuenta propia o para prestar o recibir servicios al amparo de lo establecido en el Tratado de la Comunidad Económica Europea.
 
@@ -256,15 +57,27 @@ En su virtud, a propuesta de los Ministros de Trabajo y Asuntos Sociales, de Asu
 
 D I S P O N G O :
 
+<!-- block='ci' type='encabezado' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## CAPÍTULO I
+
 CAPÍTULO I
 
 Disposiciones generales
+
+<!-- block='a1' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Artículo 1
 
 Artículo 1. Objeto.
 
 1. El presente real decreto regula las condiciones para el ejercicio de los derechos de entrada y salida, libre circulación, estancia, residencia, residencia de carácter permanente y trabajo en España por parte de los ciudadanos de otros Estados miembros de la Unión Europea y de los restantes Estados parte en el Acuerdo sobre el Espacio Económico Europeo, así como las limitaciones a los derechos anteriores por razones de orden público, seguridad pública o salud pública.
 
 2. El contenido del presente real decreto se entenderá sin perjuicio de lo dispuesto en leyes especiales y en los tratados internacionales en los que España sea parte.
+
+<!-- block='a2' type='precepto' version='BOE-A-2010-16822' publication='20101103' effective='20101103' -->
+
+## Artículo 2
 
 Artículo 2. Aplicación a miembros de la familia del ciudadano de un Estado miembro de la Unión Europea o de otro Estado parte en el Acuerdo sobre el Espacio Económico Europeo.
 
@@ -279,6 +92,12 @@ c) A sus descendientes directos, y a los de su cónyuge o pareja registrada siem
 d) A sus ascendientes directos, y a los de su cónyuge o pareja registrada que vivan a su cargo, siempre que no haya recaído el acuerdo o la declaración de nulidad del vínculo matrimonial, divorcio o separación legal, o se haya cancelado la inscripción registral de pareja.
 
 Se declara la nulidad de los incisos destacados por Sentencia del TS de 1 de junio de 2010. Ref. BOE-A-2010-16822.
+
+Se declara la nulidad de los incisos destacados por Sentencia del TS de 1 de junio de 2010. Ref. BOE-A-2010-16822.
+
+<!-- block='a2bis' type='precepto' version='BOE-A-2015-12090' publication='20151109' effective='20151209' -->
+
+## Artículo 2 bis
 
 Artículo 2 bis. Entrada y residencia de otros familiares del ciudadano de un Estado miembro de la Unión Europea o de otros Estados parte en el Acuerdo sobre el Espacio Económico Europeo.
 
@@ -318,6 +137,14 @@ b) En el caso de pareja de hecho, se considerará que se trata de una pareja est
 
 5. Las autoridades resolverán motivadamente toda resolución.
 
+Téngase en cuenta que este artículo, añadido por el art. único.1 del Real Decreto 987/2015, de 30 de octubre. Ref. BOE-A-2015-12090., entra en vigor el 9 de diciembre de 2015.
+
+Se añade por el art. único.1 del Real Decreto 987/2015, de 30 de octubre. Ref. BOE-A-2015-12090.
+
+<!-- block='a3' type='precepto' version='BOE-A-2010-16822' publication='20101103' effective='20101103' -->
+
+## Artículo 3
+
 Artículo 3. Derechos.
 
 1. Las personas incluidas en el ámbito de aplicación del presente real decreto tienen derecho a entrar, salir, circular y residir libremente en territorio español, previo el cumplimiento de las formalidades previstas por éste y sin perjuicio de las limitaciones establecidas en el mismo.
@@ -334,9 +161,19 @@ No alterará la situación de familiar a cargo la realización por éste de una 
 
 Se declara la nulidad de los incisos destacados por Sentencia del TS de 1 de junio de 2010. Ref. BOE-A-2010-16822.
 
+Se declara la nulidad de los incisos destacados por Sentencia del TS de 1 de junio de 2010. Ref. BOE-A-2010-16822.
+
+<!-- block='cii' type='encabezado' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## CAPÍTULO II
+
 CAPÍTULO II
 
 Entrada y salida
+
+<!-- block='a4' type='precepto' version='BOE-A-2009-12207' publication='20090723' effective='20090724' -->
+
+## Artículo 4
 
 Artículo 4. Entrada.
 
@@ -350,19 +187,37 @@ La posesión de la tarjeta de residencia de familiar de ciudadano de la Unión, 
 
 4. En los supuestos en los que un ciudadano de un Estado miembro de la Unión Europea o de un Estado parte en el Acuerdo sobre el Espacio Económico Europeo, o un miembro de su familia, no dispongan de los documentos de viaje necesarios para la entrada en territorio español, o, en su caso, del visado, las Autoridades responsables del control fronterizo darán a estas personas, antes de proceder a su retorno, las máximas facilidades para que puedan obtener o recibir en un plazo razonable los documentos necesarios, o para que se pueda confirmar o probar por otros medios que son beneficiarios del ámbito de aplicación del presente real decreto, siempre que la ausencia del documento de viaje sea el único motivo que impida la entrada en territorio español.
 
+Se modifica el párrafo segundo del apartado 2 por el art. único del Real Decreto 1161/2009, de 10 de julio. Ref. BOE-A-2009-12207.
+
+<!-- block='a5' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Artículo 5
+
 Artículo 5. Salida.
 
 Los ciudadanos de un Estado miembro de la Unión Europea o de otro Estado parte en el Acuerdo sobre el Espacio Económico Europeo, y los miembros de su familia con independencia de su nacionalidad, tendrán derecho a salir de España para trasladarse a otro Estado miembro, ello con independencia de la presentación del pasaporte o documento de identidad en vigor a los funcionarios del control fronterizo si la salida se efectúa por un puesto habilitado, para su obligada comprobación, y de los supuestos legales de prohibición de salida por razones de seguridad nacional o de salud pública, o previstos en el Código Penal.
 
+<!-- block='ciii' type='encabezado' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## CAPÍTULO III
+
 CAPÍTULO III
 
 Estancia y residencia
+
+<!-- block='a6' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Artículo 6
 
 Artículo 6. Estancia inferior a tres meses.
 
 1. En los supuestos en los que la permanencia en España de un ciudadano de un Estado miembro de la Unión Europea o de otro Estado parte en el Acuerdo sobre el Espacio Económico Europeo, cualquiera que sea su finalidad, tenga una duración inferior a tres meses, será suficiente la posesión de pasaporte o documento de identidad en vigor, en virtud del cual se haya efectuado la entrada en territorio español, no computándose dicha permanencia a los efectos derivados de la situación de residencia.
 
 2. Lo dispuesto en el apartado anterior será de aplicación para los familiares de los ciudadanos de un Estado miembro de la Unión Europea o de otro Estado parte en el Acuerdo sobre el Espacio Económico Europeo, que no sean nacionales de uno de estos Estados, y acompañen al ciudadano de uno de estos Estados o se reúnan con él, que estén en posesión de un pasaporte válido y en vigor, y que hayan cumplido los requisitos de entrada establecidos en el artículo 4 del presente real decreto.
+
+<!-- block='a7' type='precepto' version='BOE-A-2012-5403' publication='20120424' effective='20120424' -->
+
+## Artículo 7
 
 Artículo 7. Residencia superior a tres meses de ciudadanos de un Estado miembro de la Unión Europea o de otro Estado parte en el Acuerdo sobre el Espacio Económico Europeo.
 
@@ -396,6 +251,12 @@ d) Si sigue una formación profesional. Salvo que se encuentre en situación de 
 
 7. En lo que se refiere a medios económicos suficientes, no podrá establecerse un importe fijo, sino que habrá de tenerse en cuenta la situación personal de los nacionales de un Estado miembro de la Unión Europea o de otro Estado parte en el Acuerdo sobre el Espacio Económico Europeo. En cualquier caso, dicho importe no superará el nivel de recursos por debajo del cual se concede asistencia social a los españoles o el importe de la pensión mínima de Seguridad Social.
 
+Se modifica por la disposición final 5 del Real Decreto-ley 16/2012, de 20 de abril. Ref. BOE-A-2012-5403.
+
+<!-- block='a8' type='precepto' version='BOE-A-2011-18598' publication='20111126' effective='20111127' -->
+
+## Artículo 8
+
 Artículo 8. Residencia superior a tres meses con tarjeta de residencia de familiar de ciudadano de la Unión.
 
 1. Los miembros de la familia de un ciudadano de un Estado miembro de la Unión Europea o de un Estado parte en el Acuerdo sobre el Espacio Económico Europeo especificados en el artículo 2 del presente real decreto, que no ostenten la nacionalidad de uno de dichos Estados, cuando le acompañen o se reúnan con él, podrán residir en España por un período superior a tres meses, estando sujetos a la obligación de solicitar y obtener una «tarjeta de residencia de familiar de ciudadano de la Unión».
@@ -417,6 +278,12 @@ e) Tres fotografías recientes en color, en fondo blanco, tamaño carné.
 4. La expedición de la tarjeta de residencia de familiar de ciudadano de la Unión deberá realizarse en el plazo de los tres meses siguientes a la presentación de la solicitud. La resolución favorable tendrá efectos retroactivos, entendiéndose vigente la situación de residencia desde la fecha acreditada de entrada en España siendo familiar de ciudadano de la Unión.
 
 5. La tarjeta de residencia de familiar de ciudadano de la Unión tendrá una validez de cinco años a partir de la fecha de su expedición, o por el período previsto de residencia del ciudadano de la Unión o de un Estado parte en el Acuerdo sobre el Espacio Económico Europeo, si dicho periodo fuera inferior a cinco años.
+
+Se modifica el apartado 4 por el art. único.1 del Real Decreto 1710/2011, de 18 de noviembre. Ref. BOE-A-2011-18598.
+
+<!-- block='a9' type='precepto' version='BOE-A-2011-18598' publication='20111126' effective='20111127' -->
+
+## Artículo 9
 
 Artículo 9. Mantenimiento a título personal del derecho de residencia de los miembros de la familia, en caso de fallecimiento, salida de España, nulidad del vínculo matrimonial, divorcio, separación legal o cancelación de la inscripción como pareja registrada, en relación con el titular del derecho de residencia.
 
@@ -442,6 +309,12 @@ d) Resolución judicial o mutuo acuerdo entre las partes que determine el derech
 
 5. Cuando las Autoridades competentes consideren que existen dudas razonables en cuanto al cumplimiento de las condiciones establecidas en los artículos 8 y 9, podrán llevar a cabo comprobaciones al objeto de verificar si se cumplen las mismas. Dichas comprobaciones no tendrán en ningún caso carácter sistemático.
 
+Se modifica el apartado 4 y se añade el apartado 5 por el art. único.2 y 3 del Real Decreto 1710/2011, de 18 de noviembre. Ref. BOE-A-2011-18598. Se declara la nulidad del párrafo segundo del apartado 2 por Sentencia del TS de 1 de junio de 2010. Ref. BOE-A-2010-16822.
+
+<!-- block='a9bis' type='precepto' version='BOE-A-2012-10477' publication='20120804' effective='20120805' -->
+
+## Artículo 9 bis
+
 Artículo 9 bis. Mantenimiento del derecho de residencia.
 
 1. Los ciudadanos de los Estados miembros de la Unión Europea y de otros Estados parte en el Acuerdo sobre el Espacio Económico Europeo y los miembros de sus familias gozarán del derecho de residencia establecido en los artículos 7, 8 y 9 mientras cumplan las condiciones en ellos previstas.
@@ -456,9 +329,19 @@ a) son trabajadores por cuenta ajena o por cuenta propia; o,
 
 b) han entrado en territorio español para buscar trabajo. En este caso, no podrán ser expulsados mientras puedan demostrar que siguen buscando empleo y que tienen posibilidades reales de ser contratados.
 
+Se añade por la disposición final 2 del Real Decreto 1192/2012, de 3 de agosto. Ref. BOE-A-2012-10477.
+
+<!-- block='civ' type='encabezado' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## CAPÍTULO IV
+
 CAPÍTULO IV
 
 Residencia de carácter permanente
+
+<!-- block='a10' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Artículo 10
 
 Artículo 10. Derecho a residir con carácter permanente.
 
@@ -494,6 +377,10 @@ c) Que el cónyuge supérstite fuera ciudadano español y hubiera perdido la nac
 
 7. Se perderá el derecho de residencia permanente por ausencia del territorio español durante más de dos años consecutivos.
 
+<!-- block='a11' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Artículo 11
+
 Artículo 11. Tarjeta de residencia permanente para miembros de la familia que no tengan la nacionalidad de un Estado miembro de la Unión Europea o de otro Estado parte en el Acuerdo sobre el Espacio Económico Europeo.
 
 1. Las autoridades competentes expedirán a los miembros de la familia con derecho de residencia permanente que no sean nacionales de otro Estado miembro de la Unión europea o de un Estado parte en el Acuerdo sobre el Espacio Económico Europeo, una tarjeta de residencia permanente, en el plazo de tres meses contados desde la fecha en que la correspondiente solicitud haya tenido entrada en el registro del órgano competente para su tramitación.
@@ -510,9 +397,17 @@ c) Tres fotografías recientes en color, en fondo blanco, tamaño carné.
 
 3. Las interrupciones de residencia no superiores a dos años consecutivos, no afectarán a la vigencia de la tarjeta de residencia permanente.
 
+<!-- block='cv' type='encabezado' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## CAPÍTULO V
+
 CAPÍTULO V
 
 Disposiciones comunes a los procedimientos de solicitud, tramitación, expedición y renovación de certificados de registro y tarjetas de residencia
+
+<!-- block='a12' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Artículo 12
 
 Artículo 12. Tramitación y resolución de las solicitudes.
 
@@ -524,9 +419,17 @@ Artículo 12. Tramitación y resolución de las solicitudes.
 
 4. Asimismo, cuando así lo aconsejen razones de salud pública y según lo previsto en al artículo 15 del presente real decreto, podrá exigirse al interesado la presentación de certificado médico acreditativo de su estado de salud.
 
+<!-- block='a13' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Artículo 13
+
 Artículo 13. Renovación de las tarjetas de residencia.
 
 En caso de que fuese necesaria la renovación de la tarjeta de residencia antes de la adquisición del derecho a residir con carácter permanente, dicha renovación se tramitará conforme a lo dispuesto en el presente real decreto, si bien en el caso de ascendientes y descendientes no se exigirá la aportación de la documentación acreditativa de la existencia del vínculo familiar que da derecho a la expedición de la tarjeta.
+
+<!-- block='a14' type='precepto' version='BOE-A-2011-18598' publication='20111126' effective='20111127' -->
+
+## Artículo 14
 
 Artículo 14. Expedición y vigencia del certificado de registro y de la tarjeta de residencia.
 
@@ -540,9 +443,19 @@ Esta caducidad por ausencia no será de aplicación a los titulares de tarjeta d
 
 4. Sin perjuicio de la obligación de los ciudadanos de los Estados miembros de la Unión Europea y de los restantes Estados parte en el Acuerdo sobre el Espacio Económico Europeo así como de sus familiares de solicitar y obtener el certificado de registro o la tarjeta de residencia y sus correspondientes renovaciones, los mismos podrán acreditar ser beneficiarios del régimen comunitario previsto en el presente Real Decreto por cualquier medio de prueba admitido en Derecho.
 
+Se añade el apartado 4 por el art. único.4 del Real Decreto 1710/2011, de 18 de noviembre. Ref. BOE-A-2011-18598.
+
+<!-- block='cvi' type='encabezado' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## CAPÍTULO VI
+
 CAPÍTULO VI
 
 Limitaciones por razones de orden público, seguridad pública y salud pública
+
+<!-- block='a15' type='precepto' version='BOE-A-2011-18598' publication='20111126' effective='20111127' -->
+
+## Artículo 15
 
 Artículo 15. Medidas por razones de orden público, seguridad y salud pública.
 
@@ -592,11 +505,21 @@ Las enfermedades que sobrevengan tras los tres primeros meses siguientes a la fe
 
 En los casos individuales en los que existan indicios graves que lo justifiquen, podrá someterse a la persona incluida en el ámbito de aplicación del presente real decreto, en los tres meses siguientes a la fecha de su llegada a España, a un reconocimiento médico gratuito para que se certifique que no padece ninguna de las enfermedades mencionadas en este apartado. Dichos reconocimientos médicos no podrán exigirse con carácter sistemático.
 
+Se modifica el apartado 2 por el art. único.5 del Real Decreto 1710/2011, de 18 de noviembre. Ref. BOE-A-2011-18598.
+
+<!-- block='a16' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Artículo 16
+
 Artículo 16. Informe de la Abogacía del Estado.
 
 1. La resolución administrativa de expulsión de un titular de tarjeta o certificado requerirá, con anterioridad a que se dicte, el informe previo de la Abogacía del Estado en la provincia, salvo en aquellos casos en que concurran razones de urgencia debidamente motivadas.
 
 2. Sin perjuicio de los recursos administrativos y judiciales legalmente procedentes, la resolución de la Autoridad competente que ordene la expulsión de personas solicitantes de tarjeta de residencia o certificado de registro será sometida, previa petición del interesado, a examen de la Dirección del Servicio Jurídico del Estado o de la Abogacía del Estado en la provincia. El interesado podrá presentar personalmente sus medios de defensa ante el órgano consultivo, a no ser que se opongan a ello motivos de seguridad del Estado. El dictamen de la Abogacía del Estado será sometido a la autoridad competente para que confirme o revoque la anterior resolución.
+
+<!-- block='a17' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Artículo 17
 
 Artículo 17. Garantías procesales.
 
@@ -610,6 +533,10 @@ c) Que la resolución de expulsión se base en motivos imperiosos de seguridad p
 
 2. Durante la sustanciación del recurso judicial, el interesado no podrá permanecer en territorio español, salvo en el trámite de vista, en que podrá presentar personalmente su defensa, excepto que concurran motivos graves de orden público o de seguridad pública o cuando el recurso se refiera a una denegación de entrada en el territorio.
 
+<!-- block='a18' type='precepto' version='BOE-A-2011-18598' publication='20111126' effective='20111127' -->
+
+## Artículo 18
+
 Artículo 18. Resolución.
 
 1. Las resoluciones de expulsión serán dictadas por los Subdelegados del Gobierno o Delegados del Gobierno en las comunidades autónomas uniprovinciales.
@@ -620,13 +547,27 @@ Las resoluciones de expulsión establecerán un plazo para abandonar el territor
 
 Excepto en casos urgentes, debidamente justificados, dicho plazo no podrá ser inferior a un mes a partir de la fecha de notificación. En todo caso, la decisión adoptada sobre la duración del plazo no podrá suponer impedimento para el control de la resolución de expulsión en vía administrativa y/o judicial.
 
+Se modifica el apartado 2 por el art. único.6 del Real Decreto 1710/2011, de 18 de noviembre. Ref. BOE-A-2011-18598. Se declara la nulidad del inciso destacado por Sentencia del TS de 1 de junio de 2010. Ref. BOE-A-2010-16822.
+
+<!-- block='daprimera' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Disposición adicional primera
+
 Disposición adicional primera. Atribución de competencias.
 
 Las competencias en materia de recepción de comunicaciones o resolución de solicitudes en el ámbito del presente real decreto no expresamente atribuidas serán ejercidas por el Jefe de la Oficina de Extranjeros de la provincia en la que el solicitante tenga su domicilio.
 
+<!-- block='dasegunda' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Disposición adicional segunda
+
 Disposición adicional segunda. Normativa aplicable a los procedimientos.
 
 En lo no previsto en materia de procedimientos en el presente real decreto, se estará a lo dispuesto en la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social, en su Reglamento, aprobado por Real Decreto 2393/2004, de 30 de diciembre, en la Ley 30/1992, de 26 de noviembre, de régimen jurídico de las Administraciones Públicas y del procedimiento administrativo común, y en su normativa de desarrollo, con carácter supletorio y en la medida en que no se oponga a lo dispuesto en los Tratados constitutivos de las Comunidades Europeas y el derecho derivado de los mismos.
+
+<!-- block='datercera' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Disposición adicional tercera
 
 Disposición adicional tercera. Régimen especial de aplicación a los ciudadanos de algunos Estados no miembros de la Unión Europea ni Parte en el Acuerdo sobre el Espacio Económico Europeo.
 
@@ -634,13 +575,25 @@ Disposición adicional tercera. Régimen especial de aplicación a los ciudadano
 
 2. En virtud de acuerdos celebrados entre la Comunidad y sus Estados miembros, por una parte, y Estados no miembros de la Unión Europea ni Parte en el Acuerdo sobre el Espacio Económico Europeo, por otra, a los ciudadanos de dichos Estados terceros y a los miembros de su familia les será de aplicación lo previsto en el presente real decreto para el ejercicio de los derechos de entrada y salida, libre circulación, estancia, residencia y trabajo en España, cuando ello sea conforme con lo establecido en dichos acuerdos.
 
+<!-- block='dtprimera' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Disposición transitoria primera
+
 Disposición transitoria primera. Solicitudes presentadas con anterioridad a la entrada en vigor de este real decreto.
 
 Las solicitudes presentadas con anterioridad a la entrada en vigor de este real decreto se tramitarán y resolverán conforme a lo previsto en él, salvo que el interesado solicite la aplicación de la normativa vigente en el momento de la solicitud y siempre que ello sea compatible con las previsiones del presente real decreto.
 
+<!-- block='dtsegunda' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Disposición transitoria segunda
+
 Disposición transitoria segunda. Atribución transitoria de competencias.
 
 En las provincias en las que aún no haya sido creada la correspondiente Oficina de Extranjeros, las competencias en el ámbito del presente real decreto no expresamente atribuidas serán ejercidas por el Subdelegado del Gobierno o por el Delegado del Gobierno en las comunidades autónomas uniprovinciales.
+
+<!-- block='dttercera' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Disposición transitoria tercera
 
 Disposición transitoria tercera. Régimen especial de los trabajadores por cuenta ajena nacionales de Estados miembros de la Unión Europea a los que se apliquen medidas transitorias para regular su acceso al mercado de trabajo español.
 
@@ -648,19 +601,39 @@ Los trabajadores por cuenta ajena nacionales de Estados miembros que se incorpor
 
 Las medidas transitorias que regulen su situación como trabajadores por cuenta ajena, que en ningún caso supondrán menoscabo alguno del resto de derechos contemplados en tanto que ciudadanos de la Unión Europea, determinarán la obligación de proveerse de la correspondiente autorización de trabajo por cuenta ajena. Las autorizaciones necesarias habrán de ser solicitadas y tramitadas según lo previsto en la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social, y su normativa de desarrollo, teniendo en cuenta lo establecido por las citadas Actas de adhesión y por el acervo comunitario aplicable.
 
+<!-- block='ddunica' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Disposición derogatoria única
+
 Disposición derogatoria única. Derogación normativa.
 
 Queda derogado el Real Decreto 178/2003, de 14 de febrero, sobre entrada y permanencia en España de nacionales de Estados miembros de la Unión Europea y de otros Estados Parte en el Acuerdo sobre el Espacio Económico Europeo, así como todas aquellas normas de igual o inferior rango que contradigan lo dispuesto en el presente real decreto.
 
+<!-- block='dfprimera' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Disposición final primera
+
 Disposición final primera. Incorporación de derecho de la Unión Europea.
 
 Mediante el presente real decreto se incorpora al derecho español la Directiva 2004/38/CE, del Parlamento Europeo y del Consejo, de 29 de abril de 2004, relativa al derecho de los ciudadanos de la Unión y de los miembros de sus familias a circular y residir libremente en el territorio de los Estados miembros por la que se modifica el Reglamento (CEE) n.º 1612/68 y se derogan las Directivas 64/221/CEE, 68/360/CEE, 72/194/CEE, 73/148/CEE, 75/34/CEE, 75/35/CEE, 90/364/CEE, 90/365/CEE y 93/96/CEE.
+
+<!-- block='dfsegunda' type='precepto' version='BOE-A-2015-12090' publication='20151109' effective='20151209' -->
+
+## Disposición final segunda
 
 Disposición final segunda. Facultad de desarrollo.
 
 Se autoriza a los titulares de los Ministerios de Empleo y Seguridad Social, de Asuntos Exteriores y de Cooperación, del Interior, y de Hacienda y Administraciones Públicas para dictar, en el ámbito de sus respectivas competencias y, en su caso, previo informe de la Comisión Interministerial de Extranjería, las normas que sean necesarias para la ejecución y desarrollo de lo dispuesto en este real decreto.
 
 En el supuesto de que las materias no sean objeto de la exclusiva competencia de cada uno de ellos, la ejecución y desarrollo de lo dispuesto en este real decreto se llevará a cabo mediante orden del titular del Ministerio de la Presidencia, a propuesta conjunta de los Ministerios afectados, previo informe de la Comisión Interministerial de Extranjería.
+
+Téngase en cuenta que la modificación de este artículo, realizada por el art. único.2 del Real Decreto 987/2015, de 30 de octubre. Ref. BOE-A-2015-12090., entra en vigor el 9 de diciembre de 2015. Redacción anterior: "1. El titular del Ministerio de la Presidencia, a propuesta del Ministerio de Trabajo y Asuntos Sociales, previo informe del Ministerio del Interior, podrá adoptar las medidas de desarrollo precisas para el cumplimiento y aplicación del presente real decreto que requieran la aprobación de la oportuna orden ministerial, y de las medidas de desarrollo precisas para el cumplimiento y aplicación del mismo que corresponden a los Centros directivos competentes del Ministerio de Trabajo y Asuntos Sociales, del Ministerio del Interior, y del Ministerio de Administraciones Públicas, en el ámbito de sus respectivas competencias. 2. Asimismo, el titular del Ministerio de Asuntos Exteriores y de Cooperación podrá adoptar las medidas de desarrollo precisas para el cumplimiento y aplicación del presente real decreto que requieran la aprobación de la oportuna orden ministerial, ello con independencia de la competencia del Ministerio de Trabajo y Asuntos Sociales para el desarrollo de la política del Gobierno en materia de extranjería e inmigración, y de las medidas de desarrollo precisas para el cumplimiento y aplicación del presente real decreto que corresponden a los centros directivos competentes del Ministerio de Asuntos Exteriores y de Cooperación en el ámbito de sus competencias."
+
+Se modifica por el art. único.2 del Real Decreto 987/2015, de 30 de octubre. Ref. BOE-A-2015-12090.
+
+<!-- block='dftercera' type='precepto' version='BOE-A-2010-16822' publication='20101103' effective='20101103' -->
+
+## Disposición final tercera
 
 Disposición final tercera. Modificación del Reglamento de la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social, aprobado por Real Decreto 2393/2004, de 30 de diciembre.
 
@@ -684,15 +657,29 @@ Dos. (Anulado)
 
 Se declara de nulidad de los incisos destacados del apartado 1 y el apartado 2 por Sentencia del TS de 1 de junio de 2010. Ref. BOE-A-2010-16822.
 
+Se declara la nulidad de los incisos destacados del apartado 1 y el apartado 2 por Sentencia del TS de 1 de junio de 2010. Ref. BOE-A-2010-16822. Redactado conforme al auto de 13 de enero de 2011, de rectificación de sentencia, publicado en BOE núm. 54, de 4 de marzo de 2011. Ref. BOE-A-2011-4085.
+
+<!-- block='dfcuarta' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Disposición final cuarta
+
 Disposición final cuarta. Normativa subsidiaria y supletoria.
 
 1. La entrada, permanencia y trabajo en España de los familiares de los ciudadanos de los Estados miembros de la Unión Europea y de otros Estados parte en el Acuerdo sobre el Espacio Económico Europeo, incluidos en el ámbito de aplicación del presente real decreto, se regirán por la Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social, en aquellos casos en que no quede acreditada la concurrencia de los requisitos previstos en el presente real decreto.
 
 2. Las normas de carácter general contenidas en la citada Ley Orgánica 4/2000, de 11 de enero, sobre derechos y libertades de los extranjeros en España y su integración social, así como las normas reglamentarias vigentes sobre la materia, serán aplicables a los supuestos comprendidos en el ámbito de aplicación del presente real decreto, con carácter supletorio y en la medida en que pudieran ser más favorables y no se opongan a lo dispuesto en los Tratados constitutivos de las Comunidades Europeas, así como en el Derecho derivado de los mismos.
 
+<!-- block='dfquinta' type='precepto' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## Disposición final quinta
+
 Disposición final quinta. Entrada en vigor.
 
 El presente real decreto entrará en vigor al mes de su publicación en el «Boletín Oficial del Estado».
+
+<!-- block='firma' type='firma' version='BOE-A-2007-4184' publication='20070228' effective='20070328' -->
+
+## firma
 
 Dado en Madrid, el 16 de febrero de 2007.
 
@@ -701,29 +688,3 @@ JUAN CARLOS R.
 La Vicepresidenta Primera del Gobierno y Ministra de la Presidencia,
 
 MARÍA TERESA FERNÁNDEZ DE LA VEGA SANZ
-
-Este documento es de carácter informativo y no tiene valor jurídico.
-
-Ayúdenos a mejorar: puede dirigir sus comentarios y sugerencias a nuestro Servicio de atención al ciudadano
-
-Contactar
-
-Sobre la sede electrónica
-
-Mapa
-
-Aviso legal
-
-Accesibilidad
-
-Protección de datos
-
-Sistema Interno de Información
-
-Tutoriales
-
-Empleo en la AEBOE
-
-Agencia Estatal Boletín Oficial del Estado
-
-Avda. de Manoteras, 54 - 28050 Madrid
