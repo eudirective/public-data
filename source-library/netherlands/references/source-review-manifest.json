@@ -19,7 +19,8 @@
     {
       "path": "candidate-manifest.json",
       "records": 8,
-      "role": "earlier focused inventory; reconciled against the wider list"
+      "role": "superseded focused inventory; archived locally after promotion",
+      "local_only_archive_path": "candidates/public-data/Netherlands/candidate-manifest.json"
     }
   ],
   "reconciliation": {
@@ -245,7 +246,9 @@
         },
         {
           "manifest": "candidate-manifest.json",
-          "id": "nl-06-vreemdelingenwet-2000"
+          "id": "nl-06-vreemdelingenwet-2000",
+          "archived_local_only": true,
+          "local_archive_path": "candidates/public-data/Netherlands/candidate-manifest.json"
         }
       ],
       "captured_version_evidence": "An indexed record inspected in April 2026 reported a version current from 28 February 2026 plus future/undated changes; October text is not confirmed.; raw official capture and deterministic conversion replay verified on 2026-10-24. Wetten.nl could not be reopened by the research client on 2026-10-24 (cache miss/429); treat the retained copy as dated and consult the publisher for current text.",
@@ -253,7 +256,7 @@
       "capture_status": "accepted_dated_local_copy",
       "local_copy_accepted": true,
       "topic_accepted": false,
-      "local_copy_reviewed_on": "2026-10-24",
+      "local_copy_reviewed_on": "2026-10-25",
       "local_document_path": "source-library/netherlands/documents/legislation/vreemdelingenwet-2000.md",
       "local_document_sha256": "b08230e2384870c7eb33cdad32a746e57adf63a1c1908b058560663ca9f363d9",
       "local_document_git_blob_sha": "90b471c7a1696e6ccb5374395cc1fe5574b1b325",
@@ -278,7 +281,9 @@
         },
         {
           "manifest": "candidate-manifest.json",
-          "id": "nl-01-vreemdelingenbesluit-2000-eu-eea-family-provisions-(including-article-8.7)"
+          "id": "nl-01-vreemdelingenbesluit-2000-eu-eea-family-provisions-(including-article-8.7)",
+          "archived_local_only": true,
+          "local_archive_path": "candidates/public-data/Netherlands/candidate-manifest.json"
         }
       ],
       "captured_version_evidence": "An indexed result crawled about five months before this review showed a version from 1 January 2026 and Article 8.7 provisions referenced by IND; October text is not confirmed.; raw official capture and deterministic conversion replay verified on 2026-10-24. Wetten.nl could not be reopened by the research client on 2026-10-24 (cache miss/429); treat the retained copy as dated and consult the publisher for current text.",
@@ -286,7 +291,7 @@
       "capture_status": "accepted_dated_local_copy",
       "local_copy_accepted": true,
       "topic_accepted": false,
-      "local_copy_reviewed_on": "2026-10-24",
+      "local_copy_reviewed_on": "2026-10-25",
       "local_document_path": "source-library/netherlands/documents/legislation/vreemdelingenbesluit-2000.md",
       "local_document_sha256": "4189aac5fd07d1209980ca46de2d5445e7807a0773bb91e1ee908f51d4a08ba0",
       "local_document_git_blob_sha": "e207513328b4a252f44876a548f39f16fe5997b5",
@@ -353,7 +358,9 @@
         },
         {
           "manifest": "candidate-manifest.json",
-          "id": "nl-08-algemene-wet-bestuursrecht-(general-administrative-law-act)"
+          "id": "nl-08-algemene-wet-bestuursrecht-(general-administrative-law-act)",
+          "archived_local_only": true,
+          "local_archive_path": "candidates/public-data/Netherlands/candidate-manifest.json"
         }
       ],
       "captured_version_evidence": "Indexed record reported current from 1 January 2026 and future changes from 2027.; raw official capture and deterministic conversion replay verified on 2026-10-24. Wetten.nl could not be reopened by the research client on 2026-10-24 (cache miss/429); treat the retained copy as dated and consult the publisher for current text.",
@@ -361,7 +368,7 @@
       "capture_status": "accepted_dated_local_copy",
       "local_copy_accepted": true,
       "topic_accepted": false,
-      "local_copy_reviewed_on": "2026-10-24",
+      "local_copy_reviewed_on": "2026-10-25",
       "local_document_path": "source-library/netherlands/documents/legislation/algemene-wet-bestuursrecht.md",
       "local_document_sha256": "471d0caa5fe9f4ff8aebb0fc3d998492bb46c6a40d4cc74281fcc62703cdc1d7",
       "local_document_git_blob_sha": "aee9b2da4ea25b00c7dcff7f217d4f2eaf701f24",
@@ -449,7 +456,9 @@
         },
         {
           "manifest": "candidate-manifest.json",
-          "id": "nl-02-ind-procedure:-verification-against-eu-law-for-family-members-of-union-citi"
+          "id": "nl-02-ind-procedure:-verification-against-eu-law-for-family-members-of-union-citi",
+          "archived_local_only": true,
+          "local_archive_path": "candidates/public-data/Netherlands/candidate-manifest.json"
         }
       ],
       "captured_version_evidence": "Last updated 25 September 2026; cites Aliens Decree Articles 8.7, 8.9, 8.13 and Circular B10/2.",
@@ -457,7 +466,7 @@
       "capture_status": "accepted_dated_local_copy",
       "local_copy_accepted": true,
       "topic_accepted": false,
-      "local_copy_reviewed_on": "2026-10-24",
+      "local_copy_reviewed_on": "2026-10-25",
       "local_document_path": "source-library/netherlands/documents/guidance/ind-verification-against-eu-law-family-members.md",
       "local_document_sha256": "cd0c1fb802e09ee88b82a7606b405d24d43727e1c490da08e751377bcdb0d521",
       "local_document_git_blob_sha": "be94b776886b1af3659b6a6e01348b231a4aec94",
@@ -629,7 +638,9 @@
         },
         {
           "manifest": "candidate-manifest.json",
-          "id": "nl-07-ind-guidance-on-objecting-to-or-appealing-an-ind-decision"
+          "id": "nl-07-ind-guidance-on-objecting-to-or-appealing-an-ind-decision",
+          "archived_local_only": true,
+          "local_archive_path": "candidates/public-data/Netherlands/candidate-manifest.json"
         }
       ],
       "captured_version_evidence": "Last updated 10 August 2026; page lists decision categories and separates objection from court appeal.",
@@ -637,7 +648,7 @@
       "capture_status": "accepted_dated_local_copy",
       "local_copy_accepted": true,
       "topic_accepted": false,
-      "local_copy_reviewed_on": "2026-10-24",
+      "local_copy_reviewed_on": "2026-10-25",
       "local_document_path": "source-library/netherlands/documents/guidance/ind-object-to-or-appeal-decision.md",
       "local_document_sha256": "9ab36e922a13d0169c24a3c755301f89ddd0fedb60e47671dae93f4b710884a7",
       "local_document_git_blob_sha": "729ff9c4748ff78e12d79273ae275220d792aa73",
@@ -1207,7 +1218,9 @@
       "candidate_references": [
         {
           "manifest": "candidate-manifest.json",
-          "id": "nl-03-burgerlijk-wetboek-boek-10-foreign-marriage-recognition-provisions"
+          "id": "nl-03-burgerlijk-wetboek-boek-10-foreign-marriage-recognition-provisions",
+          "archived_local_only": true,
+          "local_archive_path": "candidates/public-data/Netherlands/candidate-manifest.json"
         }
       ],
       "captured_version_evidence": "Geldend van 01-07-2026 t/m heden; raw official capture and deterministic conversion replay verified on 2026-10-24. Wetten.nl could not be reopened by the research client on 2026-10-24 (cache miss/429); treat the retained copy as dated and consult the publisher for current text.",
@@ -1215,7 +1228,7 @@
       "capture_status": "accepted_dated_local_copy",
       "local_copy_accepted": true,
       "topic_accepted": false,
-      "local_copy_reviewed_on": "2026-10-24",
+      "local_copy_reviewed_on": "2026-10-25",
       "local_document_path": "source-library/netherlands/documents/legislation/burgerlijk-wetboek-book-10.md",
       "local_document_sha256": "783c2cdc97a20198242323b54b15bb61a9a0ec949d87eda9709531abe916876f",
       "local_document_git_blob_sha": "22fef694514a777daa76182aa93dc80cf2babb74",
@@ -1236,7 +1249,9 @@
       "candidate_references": [
         {
           "manifest": "candidate-manifest.json",
-          "id": "nl-04-burgerlijk-wetboek-boek-1-civil-status-and-parentage-provisions"
+          "id": "nl-04-burgerlijk-wetboek-boek-1-civil-status-and-parentage-provisions",
+          "archived_local_only": true,
+          "local_archive_path": "candidates/public-data/Netherlands/candidate-manifest.json"
         }
       ],
       "captured_version_evidence": "Geldend van 05-07-2025 t/m heden; raw official capture and deterministic conversion replay verified on 2026-10-24. Wetten.nl could not be reopened by the research client on 2026-10-24 (cache miss/429); treat the retained copy as dated and consult the publisher for current text.",
@@ -1244,7 +1259,7 @@
       "capture_status": "accepted_dated_local_copy",
       "local_copy_accepted": true,
       "topic_accepted": false,
-      "local_copy_reviewed_on": "2026-10-24",
+      "local_copy_reviewed_on": "2026-10-25",
       "local_document_path": "source-library/netherlands/documents/legislation/burgerlijk-wetboek-book-1.md",
       "local_document_sha256": "8eafecce68013227bc99066ab44d5e48031d87f237dd4e22a7b325341c6f872b",
       "local_document_git_blob_sha": "d7bb4965bdf09ad970ad7793ae048d46d90ab5d3",
@@ -1265,7 +1280,9 @@
       "candidate_references": [
         {
           "manifest": "candidate-manifest.json",
-          "id": "nl-05-wet-opneming-buitenlandse-kinderen-ter-adoptie"
+          "id": "nl-05-wet-opneming-buitenlandse-kinderen-ter-adoptie",
+          "archived_local_only": true,
+          "local_archive_path": "candidates/public-data/Netherlands/candidate-manifest.json"
         }
       ],
       "captured_version_evidence": "Geldend van 01-08-2018 t/m heden; raw official capture and deterministic conversion replay verified on 2026-10-24. Wetten.nl could not be reopened by the research client on 2026-10-24 (cache miss/429); treat the retained copy as dated and consult the publisher for current text.",
@@ -1273,7 +1290,7 @@
       "capture_status": "accepted_dated_local_copy",
       "local_copy_accepted": true,
       "topic_accepted": false,
-      "local_copy_reviewed_on": "2026-10-24",
+      "local_copy_reviewed_on": "2026-10-25",
       "local_document_path": "source-library/netherlands/documents/legislation/wet-opneming-buitenlandse-kinderen-ter-adoptie.md",
       "local_document_sha256": "eff399f51fa5e0833bbf284bdb096f39ffb2536b7e9ad809a91d217a4b1df4ec",
       "local_document_git_blob_sha": "95818cda659d9a54d5acfc518cc4da66d8e39b5f",
@@ -1402,5 +1419,5 @@
       "origin": "issue_led_source_addition_2026-10-21"
     }
   ],
-  "local_copy_review_date": "2026-10-24"
+  "local_copy_review_date": "2026-10-25"
 }
