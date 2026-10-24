@@ -5,8 +5,8 @@
   "inventory_research_date": "2026-10-21",
   "scope": "Bounded first-pass discovery of official publication and reuse routes, EU/EEA and Swiss residence routes, the distinct Spanish-national family route, forms and filing, visas and consular practice, administrative remedies, public access, privacy, oversight, legal aid, civil-status evidence, selected courts, and the distinct UK Withdrawal Agreement residence and family route. This is not a complete inventory or a legal-equivalence opinion.",
   "status": "partially_retrieved_review_candidates",
-  "retrieval_status": "34 source responses saved; 30 pages converted and replay-verified; four dynamic pages had no stable text body; 12 retrieval/conversion failures remain. Twenty-five external official references are accepted by link within stated scope; no local copies or topics are accepted.",
-  "accepted_source_count": 1,
+  "retrieval_status": "34 source responses saved; 30 pages converted and replay-verified; four dynamic pages had no stable text body; 12 retrieval/conversion failures remain. Twenty-five external official references are accepted by link within stated scope; two local BOE texts are accepted separately; no topic is accepted.",
+  "accepted_source_count": 2,
   "accepted_external_reference_count": 25,
   "candidate_source_count": 52,
   "official_hosts": [
@@ -333,11 +333,11 @@
         "record": "BOE-A-2024-24099"
       },
       "functional_relationship": "partial_functional_match",
-      "verification_status": "Official consolidated BOE page and PDF identified; article and version content inspected in official search results.",
-      "retrieval_status": "converted_review_candidate",
+      "verification_status": "Official BOE page and XML metadata inspected 2026-10-24; the 383-block body was replayed and compared; local document accepted through the 2026-09-22 displayed cutoff with BOE caveat and judicial annotations preserved.",
+      "retrieval_status": "accepted_local_document",
       "retrieval_shape": "Versioned HTML, PDF and ELI",
-      "version_evidence": "Entered into force 20/05/2025; BOE page exposes a consolidated text and amendment/version links.",
-      "note": "Articles 93–98 establish a distinct Spanish-national-family residence regime; the regulation states general rules apply supplementarily or where more favorable to persons under RD 240/2007. Keep lanes separate.",
+      "version_evidence": "BOE page displays latest consolidation update 22/09/2026; the 2026 text includes annotations for Supreme Court judgments BOE-A-2026-19632 and BOE-A-2026-19633.",
+      "note": "Accepted local BOE text covers the regulation as an informational consolidation. Articles 93–99 concern the distinct Spanish-national-family residence route; do not treat it as EU/EEA/Swiss-route coverage. Consult the cited judgments for their precise effect.",
       "topic_ids": [
         "family_of_spanish",
         "immigration",
@@ -345,13 +345,14 @@
         "versioning"
       ],
       "retrieved": true,
-      "accepted": false,
-      "document_path": "../candidates/boe-a-2024-24099-consolidated.md",
-      "candidate_text_path": "source-library/spain/monitor-candidates/es-07.md",
+      "accepted": true,
+      "document_path": "../documents/legislation/es-rd-1155-2024-consolidated.md",
       "source_sha256": "566e5624b71356851c832788178367c00dfc11c473354d729e2e5870c1d5e83d",
       "converted_sha256": "b5b5ce26fd78aac2f75cfa3afd3c41f5bdb6c28a19a1e99a9f84f69605eb74b2",
       "source_bytes": 917450,
-      "resolved_url": "https://www.boe.es/eli/es/rd/2024/11/19/1155/con"
+      "resolved_url": "https://www.boe.es/eli/es/rd/2024/11/19/1155/con",
+      "candidate_text_archive_path": "candidates/public-data/ES/public-data/spain/monitor-candidates/es-07.md",
+      "raw_capture_archive_path": "captures/public-data/ES/public-data/spain/boe/es-07-official-consolidated-page.html"
     },
     {
       "id": "es-08",
@@ -1602,6 +1603,6 @@
       "accepted": false
     }
   ],
-  "retrieved_review_candidate_count": 33,
-  "converted_review_candidate_count": 29
+  "retrieved_review_candidate_count": 32,
+  "converted_review_candidate_count": 28
 }

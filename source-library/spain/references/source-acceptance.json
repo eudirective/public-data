@@ -2,17 +2,17 @@
   "schema_version": "1.0.0",
   "jurisdiction": "ES",
   "as_of": "2026-10-24",
-  "accepted_source_count": 1,
-  "accepted_current_law_source_count": 1,
-  "accepted_derived_text_count": 1,
+  "accepted_source_count": 2,
+  "accepted_current_law_source_count": 2,
+  "accepted_derived_text_count": 2,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "accepted_external_reference_count": 25,
-  "policy": "A human-reviewed official link is usable for ordinary research within the identified publisher, instrument, language, displayed date, reviewed content, and limitations. BOE consolidated legislation is accepted as a government-published working text; BOE itself labels it informational and without legal value. For legal-effect, commencement, correction, or a known material post-cutoff issue, follow the specific linked official publication. Do not reconstruct a Gazette amendment chain as a routine prerequisite. API access, local capture, hashing, replay, conversion, and copying permission are not prerequisites for ordinary public-link use. Local copies and converted candidate files remain separately unaccepted. Source acceptance does not establish topic adequacy or country completion.",
+  "policy": "A human-reviewed official link is usable for ordinary research within the identified publisher, instrument, language, displayed date, reviewed content, and limitations. BOE consolidated legislation is accepted as a government-published working text; BOE itself labels it informational and without legal value. For legal-effect, commencement, correction, or a known material post-cutoff issue, follow the specific linked official publication. Do not reconstruct a Gazette amendment chain as a routine prerequisite. API access, local capture, hashing, replay, conversion, and copying permission are not prerequisites for ordinary public-link use. Local-copy acceptance is recorded separately in records; unreviewed conversions remain unaccepted. Source acceptance does not establish topic adequacy or country completion.",
   "legacy_inventory": {
     "candidate_records": 55,
     "candidate_texts_converted_and_replay_verified": 45,
-    "local_acceptance_note": "Fifteen BOE law texts and thirty broader government pages were converted as review artifacts. The BOE text of Real Decreto 240/2007 is accepted as one local document after separate publisher, version, extraction, attachment, and classification checks. Other local conversions remain unaccepted; the separate register accepts 25 external references within reviewed scopes. The legacy verifier still reports stale conversion hashes for the remaining BOE candidates; they remain unaccepted until reconciled."
+    "local_acceptance_note": "Fifteen BOE law texts and thirty broader government pages were converted as review artifacts. The BOE texts of Real Decreto 240/2007 and Real Decreto 1155/2024 are accepted as two local documents after separate publisher, version, extraction, attachment, and classification checks. The other thirteen BOE conversions and broader local conversions remain unaccepted. The separate register accepts 25 external references within reviewed scopes; no topic is accepted."
   },
   "official_reference_reviews": {
     "es-06": {
@@ -34,15 +34,15 @@
       "status": "usable_official_reference",
       "publisher": "Agencia Estatal Boletín Oficial del Estado (BOE)",
       "url": "https://www.boe.es/eli/es/rd/2024/11/19/1155/con",
-      "checked_on": "2026-10-21",
+      "checked_on": "2026-10-24",
       "language": "Spanish",
-      "version_or_cutoff": "Current BOE consolidation displayed update 2026-09-22; general commencement 2025-05-20.",
+      "version_or_cutoff": "BOE consolidated text: latest displayed update 2026-09-22; general commencement 2025-05-20; API metadata timestamp 2026-09-22T12:54:01Z.",
       "scope": "Real Decreto 1155/2024, including the distinct residence route for family of a Spanish national in Articles 93–99 and supplementary application rules.",
-      "reviewed_content": "The BOE page identifies the current consolidated text and its 22 September 2026 version. The text separates the Spanish-national family chapter from EU/EEA free movement and records later amendments and a Supreme Court judgment.",
+      "reviewed_content": "The BOE consolidated page was checked 2026-10-24 and identifies BOE-A-2024-24099, the 20 November 2024 publication, the 20 May 2025 commencement date, and the latest displayed consolidation update 22 September 2026. It exposes version history and embeds notes for BOE-A-2026-19632 and BOE-A-2026-19633. Articles 93–99 establish the distinct Spanish-national-family route.",
       "limitations": [
         "BOE labels the consolidation informational and without legal value; consult the linked official publication for legal effect.",
-        "Check the linked amendment and judgment when relevant to the provision at issue; the 2026 update includes material beyond the family chapter.",
-        "This is not a complete procedural or legal-coverage analysis."
+        "The text is a dated BOE consolidation; its annotations refer to Supreme Court judgments BOE-A-2026-19632 and BOE-A-2026-19633. Consult the judgments for their precise holdings and scope.",
+        "The Spanish-national-family route is distinct from the EU/EEA/Swiss free-movement route. This source acceptance does not establish topic coverage or complete procedural sufficiency."
       ]
     },
     "es-08": {
@@ -469,7 +469,7 @@
     }
   ],
   "not_accepted_candidate_notes": [
-    "The other local BOE and broader-page conversions remain unaccepted; the accepted RD 240/2007 document is identified separately in records.es-06. Link acceptance does not accept a local conversion.",
+    "The other local BOE and broader-page conversions remain unaccepted; the accepted RD 240/2007 and RD 1155/2024 documents are identified separately in records. Link acceptance does not accept an unreviewed local conversion.",
     "Candidate entries for forms, appointment tools, mission-specific pages, oversight procedures, and case-law search remain unaccepted unless specifically listed above.",
     "The EU-UK Withdrawal Agreement current-consolidation link is identified but not counted as accepted pending human inspection through EUR-Lex; the official site is offered above.",
     "A discovery candidate is a lead awaiting the stated review; it is not a finding that the source is invalid or that its category is legally irrelevant."
@@ -507,6 +507,39 @@
         "method": "Checked publisher identity and dates; replayed the saved XML; compared all 40 source blocks and legal anchors to the BOE consolidated page; recorded the informational-only caveat and historical prior wording."
       },
       "raw_capture_evidence": "Monitor local archive: captures/public-data/ES/public-data/spain/boe/boe-a-2007-4184-text.xml (SHA-256 70dc796fb612b321527acb9debf40b4e13aa6f8cf0b160326cb746f73c74bf9d); captures/public-data/ES/public-data/spain/boe/boe-a-2007-4184-metadata.xml (SHA-256 a1687a9eeaa69df9a508f0e1b735575e3c64dfc4a92efaa919edb21f8b080dce)."
+    },
+    "es-07": {
+      "status": "accepted",
+      "document_path": "../documents/legislation/es-rd-1155-2024-consolidated.md",
+      "accepted_on": "2026-10-24",
+      "local_document_sha256": "17a83a0c1bfde2a066bd1a7164edda013ecb28f1d09dd8ff6ac324bbbbf87eaf",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The current BOE ELI page and API metadata identify Real Decreto 1155/2024 and BOE-A-2024-24099; title, number, publisher, and Spanish language match."
+        },
+        "current_legal_version": {
+          "status": "pass",
+          "evidence": "The BOE page checked 2026-10-24 displays the latest consolidated-text update as 2026-09-22; the API metadata timestamp is 2026-09-22T12:54:01Z and the commencement date is 2025-05-20. The page and consolidation carry Supreme Court annotations for BOE-A-2026-19632 and BOE-A-2026-19633. Accepted as the publisher’s dated working text, without asserting present legal effect of every provision."
+        },
+        "extraction_completeness": {
+          "status": "pass",
+          "evidence": "The archived BOE text and metadata XML match the retrieval-manifest SHA-256 values. Offline reconstruction selects 383 latest-version text blocks. The final document preserves all source blocks; its body matches the reconstructed output exactly. The prior candidate differed only in one editorial word in its introductory caveat, which was replaced by the reviewed scope notice; no legal text was changed."
+        },
+        "attachments_review": {
+          "status": "pass",
+          "evidence": "The BOE record offers PDF and ePUB as alternate representations of the consolidated text. The consolidated index exposes the preamble, 265 articles, additional and transitional provisions, and signature; no separate incorporated annex was material to this text copy."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "Classified as national_legislation: a Spanish royal decree approving the immigration regulation. Articles 93–99 concern family members of Spanish nationals and remain distinct from the EU/EEA/Swiss free-movement route."
+        }
+      },
+      "semantic_review": {
+        "status": "passed",
+        "method": "Checked BOE identity, displayed and metadata dates, and legal status; replayed all 383 text blocks from archived XML; compared the official page’s Articles 93–99 and judicial annotations, including Article 197.2; preserved the BOE informational-only caveat and distinct-route scope."
+      },
+      "raw_capture_evidence": "Monitor local archive: captures/public-data/ES/public-data/spain/boe/boe-a-2024-24099-text.xml (SHA-256 3fa5c21edb5f3872c1096f4a9a0f41b50edf4c0e2e5f6b2846110d38a2845fc6); captures/public-data/ES/public-data/spain/boe/boe-a-2024-24099-metadata.xml (SHA-256 01391d2c574161707f9dca1d01bbdaa823f22551c54ce15c9e73aac34b0456d6); captures/public-data/ES/public-data/spain/boe/es-07-official-consolidated-page.html (SHA-256 566e5624b71356851c832788178367c00dfc11c473354d729e2e5870c1d5e83d)."
     }
   }
 }
