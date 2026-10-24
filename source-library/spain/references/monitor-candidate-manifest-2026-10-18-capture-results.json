@@ -5,7 +5,7 @@
   "request_policy": {
     "timeout_seconds": 25,
     "max_response_bytes": 25165824,
-    "delay_seconds": 1.0
+    "delay_seconds": 1
   },
   "records": [
     {
@@ -107,14 +107,15 @@
       "source_content_type": "text/html",
       "source_bytes": 157721,
       "source_sha256": "0cf579cbf0af06aba00d9546cbffbfc27fc0579ecbf1bf422a400c342b80a578",
-      "raw_path": "temp/spain/raw/es-06-0cf579cbf0af06aba00d9546cbffbfc27fc0579ecbf1bf422a400c342b80a578.html",
       "accepted": false,
-      "candidate_text_path": "source-library/spain/monitor-candidates/es-06.md",
       "converted_sha256": "dfa1069779400d78ff0983a1d4ebf044571dfb763c1cf1caaa8935bc7e554772",
       "converted_bytes": 73429,
       "content_selector": "body",
-      "retrieval_status": "converted_review_candidate",
-      "review_state": "review_candidate"
+      "retrieval_status": "archived_local_only_research_capture",
+      "review_state": "archived_local_only",
+      "raw_archive_path": "captures/public-data/ES/public-data/spain/boe/es-06-official-page.html",
+      "candidate_text_archive_path": "candidates/public-data/ES/public-data/spain/monitor-candidates/es-06.md",
+      "associated_document_path": "source-library/spain/documents/legislation/es-rd-240-2007-consolidated.md"
     },
     {
       "candidate_id": "es-07",

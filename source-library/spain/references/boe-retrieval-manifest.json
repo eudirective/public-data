@@ -6,7 +6,7 @@
   "api_documentation": "https://www.boe.es/datosabiertos/api/api.php?lang=es",
   "reuse_terms": "https://www.boe.es/informacion/aviso_legal/index.php",
   "conversion_scope": "The API returns all versions; this converter selects the last returned version in each block, matching the BOE latest-version ordering. Raw XML is retained for replay.",
-  "review_notice": "All converted texts are informational review candidates and remain unaccepted as local artifacts. Record the BOE metadata legal status and displayed consolidation date; consult a specific Gazette publication only when a material later-change, commencement, correction, or legal-effect question is not resolved by the consolidated text.",
+  "review_notice": "BOE consolidations are informational and without legal value. One source (BOE-A-2007-4184) has a reviewed local document under source-library/spain/documents/legislation; other conversions remain unaccepted review artifacts. Preserve the displayed consolidation date separately from the API metadata update date.",
   "records": [
     {
       "id": "BOE-A-2007-4184",
@@ -14,11 +14,11 @@
       "official_publisher_url": "https://www.boe.es/eli/es/rd/2007/02/16/240/con",
       "text_api_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2007-4184/texto",
       "metadata_api_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2007-4184/metadatos",
-      "accepted": false,
-      "text_raw_path": "temp/spain/boe/boe-a-2007-4184-text.xml",
+      "accepted": true,
+      "text_raw_path": null,
       "text_sha256": "70dc796fb612b321527acb9debf40b4e13aa6f8cf0b160326cb746f73c74bf9d",
       "text_bytes": 137246,
-      "metadata_raw_path": "temp/spain/boe/boe-a-2007-4184-metadata.xml",
+      "metadata_raw_path": null,
       "metadata_sha256": "a1687a9eeaa69df9a508f0e1b735575e3c64dfc4a92efaa919edb21f8b080dce",
       "metadata_bytes": 1404,
       "publisher_metadata": {
@@ -42,12 +42,17 @@
         "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-4184"
       },
       "consolidation_state": "Finalizado",
-      "converted_path": "source-library/spain/candidates/boe-a-2007-4184-consolidated.md",
-      "converted_sha256": "b8719d3c544b294971a2c08999fb4857cef2dd38da3fee4d789298f114d1c9c1",
-      "converted_bytes": 79149,
+      "converted_path": "source-library/spain/documents/legislation/es-rd-240-2007-consolidated.md",
+      "converted_sha256": "6619849bb3704387d021d6ede4404be32e87cc1917ae5b61d868551777eaaf26",
+      "converted_bytes": 80364,
       "retrieved_at": "2026-10-18T22:33:38+00:00",
-      "retrieval_status": "converted_review_candidate",
-      "converted_block_count": 40
+      "retrieval_status": "accepted_local_document",
+      "converted_block_count": 40,
+      "accepted_on": "2026-10-24",
+      "displayed_consolidation_update": "2015-11-09",
+      "text_raw_archive_path": "captures/public-data/ES/public-data/spain/boe/boe-a-2007-4184-text.xml",
+      "metadata_raw_archive_path": "captures/public-data/ES/public-data/spain/boe/boe-a-2007-4184-metadata.xml",
+      "raw_storage": "Monitor local-only capture archive; original temp paths are recorded in the archive index."
     },
     {
       "id": "BOE-A-2024-24099",

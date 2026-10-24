@@ -5,30 +5,30 @@
   "inventory_research_date": "2026-10-16",
   "status": "partially_retrieved_review_candidates",
   "retrieval_status": "Six of the seven original official links now have scoped external-reference decisions; the local conversion files remain unaccepted. See the current monitor register for the expanded inventory.",
-  "accepted_source_count": 0,
+  "accepted_source_count": 1,
   "accepted_external_reference_count": 6,
   "candidate_source_count": 7,
-  "retrieved_review_candidate_count": 6,
+  "retrieved_review_candidate_count": 5,
   "documents": [
     {
       "id": "es-01-real-decreto-240-2007-on-entry-free-movement-and-residence-of-eu-citizens-a",
       "title": "Real Decreto 240/2007 on entry, free movement and residence of EU citizens and their family members",
-      "source_type": "official_guidance",
+      "source_type": "national_legislation",
       "language": "es",
-      "url": "https://www.boe.es/eli/es/rd/2007/02/16/240",
+      "url": "https://www.boe.es/eli/es/rd/2007/02/16/240/con",
       "retrieved": true,
-      "accepted": false,
-      "retrieval_status": "converted_review_candidate",
+      "accepted": true,
+      "retrieval_status": "accepted_local_document",
       "topic_ids": [
         "RESIDENCE-01",
         "RESIDENCE-08",
         "VISA-01",
         "FAMILY-01"
       ],
-      "scope_note": "Core EU-family residence framework; use the BOE consolidation and its displayed status/date, checking a specific later publication only if a material issue remains.",
-      "document_path": "../candidates/boe-a-2007-4184-consolidated.md",
-      "current_consolidated_path": "../candidates/boe-a-2007-4184-consolidated.md",
-      "historical_initial_publication_path": "../candidates/es-rd-240-2007.md"
+      "scope_note": "Core EU-family framework; BOE displays its consolidated-text update as 2015-11-09 (checked 2026-10-24) and labels it informational with no legal value. Check a specific later amendment or judgment when material. Swiss, Spanish-return, and UK Withdrawal Agreement routes are separate.",
+      "document_path": "../documents/legislation/es-rd-240-2007-consolidated.md",
+      "current_consolidated_path": "../documents/legislation/es-rd-240-2007-consolidated.md",
+      "canonical_monitor_source_id": "es-06"
     },
     {
       "id": "es-02-ley-20-2011-del-registro-civil",

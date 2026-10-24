@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "ES",
-  "as_of": "2026-10-21",
-  "accepted_source_count": 0,
-  "accepted_current_law_source_count": 0,
-  "accepted_derived_text_count": 0,
+  "as_of": "2026-10-24",
+  "accepted_source_count": 1,
+  "accepted_current_law_source_count": 1,
+  "accepted_derived_text_count": 1,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "accepted_external_reference_count": 25,
@@ -12,18 +12,18 @@
   "legacy_inventory": {
     "candidate_records": 55,
     "candidate_texts_converted_and_replay_verified": 45,
-    "local_acceptance_note": "Fifteen BOE law texts and thirty broader government pages were converted and replay-verified as candidate artifacts. None is accepted as a local copy. The separate register accepts 25 externally linked references within stated scopes; inaccessible or dynamic pages are handled through human-review site offers rather than treated as unusable sources."
+    "local_acceptance_note": "Fifteen BOE law texts and thirty broader government pages were converted as review artifacts. The BOE text of Real Decreto 240/2007 is accepted as one local document after separate publisher, version, extraction, attachment, and classification checks. Other local conversions remain unaccepted; the separate register accepts 25 external references within reviewed scopes. The legacy verifier still reports stale conversion hashes for the remaining BOE candidates; they remain unaccepted until reconciled."
   },
   "official_reference_reviews": {
     "es-06": {
       "status": "usable_official_reference",
       "publisher": "Agencia Estatal Boletín Oficial del Estado (BOE)",
       "url": "https://www.boe.es/eli/es/rd/2007/02/16/240/con",
-      "checked_on": "2026-10-21",
+      "checked_on": "2026-10-24",
       "language": "Spanish",
       "version_or_cutoff": "BOE consolidated record; latest displayed update 2015-11-09.",
       "scope": "Real Decreto 240/2007 on entry, free movement, residence and public-policy limits for EU and EEA-state citizens and family members.",
-      "reviewed_content": "The BOE page identifies the instrument and current consolidated view, and its text directly describes EU and EEA scope. The official page exposes version history, amendment notes and a direct ELI permalink.",
+      "reviewed_content": "The official BOE consolidated page was rechecked on 2026-10-24. It identifies Real Decreto 240/2007 and BOE-A-2007-4184, displays the latest consolidated-text update as 2015-11-09, and exposes the version history, amendments, and direct ELI permalink. The BOE API metadata timestamp (2025-12-19) is recorded separately from that text-version date.",
       "limitations": [
         "BOE labels the consolidation informational and without legal value; use the linked official publication for legal effect.",
         "The old displayed consolidation date makes a provision-specific amendment or later judgment check appropriate when material.",
@@ -469,9 +469,44 @@
     }
   ],
   "not_accepted_candidate_notes": [
-    "Local BOE and broader-page conversions remain candidates; the link decisions above do not accept those files.",
+    "The other local BOE and broader-page conversions remain unaccepted; the accepted RD 240/2007 document is identified separately in records.es-06. Link acceptance does not accept a local conversion.",
     "Candidate entries for forms, appointment tools, mission-specific pages, oversight procedures, and case-law search remain unaccepted unless specifically listed above.",
     "The EU-UK Withdrawal Agreement current-consolidation link is identified but not counted as accepted pending human inspection through EUR-Lex; the official site is offered above.",
     "A discovery candidate is a lead awaiting the stated review; it is not a finding that the source is invalid or that its category is legally irrelevant."
-  ]
+  ],
+  "records": {
+    "es-06": {
+      "status": "accepted",
+      "document_path": "../documents/legislation/es-rd-240-2007-consolidated.md",
+      "accepted_on": "2026-10-24",
+      "local_document_sha256": "6619849bb3704387d021d6ede4404be32e87cc1917ae5b61d868551777eaaf26",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The current BOE ELI page and API metadata identify Real Decreto 240/2007 and BOE-A-2007-4184; title, number, publisher, and Spanish language match."
+        },
+        "current_legal_version": {
+          "status": "pass",
+          "evidence": "The BOE consolidated page was checked 2026-10-24 and displays its latest text update as 2015-11-09. The API metadata update date 2025-12-19 is kept distinct. Accepted as the publisher's displayed last-known consolidation with a dated scope limit; no claim is made that the text alone establishes present effect of every provision."
+        },
+        "extraction_completeness": {
+          "status": "pass",
+          "evidence": "The archived BOE XML and metadata bytes match the recorded SHA-256 values. Offline rebuild and verify succeeded for all 15 BOE records in an isolated review copy. The final document's 40 text blocks match the replayed BOE XML body exactly; the BOE page shows the corresponding preamble, articles, dispositions, and signature. The expressly labeled prior wording in Disposición final segunda is retained as historical text, not operative wording."
+        },
+        "attachments_review": {
+          "status": "pass",
+          "evidence": "No separate annex or incorporated attachment was material to this text copy. BOE's PDF and ePUB links are alternate representations of the consolidated record."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "Classified as national_legislation: a BOE-published royal decree shown as an informational consolidation, not an EU instrument, guidance page, or Gazette-authentic text."
+        }
+      },
+      "semantic_review": {
+        "status": "passed",
+        "method": "Checked publisher identity and dates; replayed the saved XML; compared all 40 source blocks and legal anchors to the BOE consolidated page; recorded the informational-only caveat and historical prior wording."
+      },
+      "raw_capture_evidence": "Monitor local archive: captures/public-data/ES/public-data/spain/boe/boe-a-2007-4184-text.xml (SHA-256 70dc796fb612b321527acb9debf40b4e13aa6f8cf0b160326cb746f73c74bf9d); captures/public-data/ES/public-data/spain/boe/boe-a-2007-4184-metadata.xml (SHA-256 a1687a9eeaa69df9a508f0e1b735575e3c64dfc4a92efaa919edb21f8b080dce)."
+    }
+  }
 }
