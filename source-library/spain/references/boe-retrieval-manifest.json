@@ -6,7 +6,7 @@
   "api_documentation": "https://www.boe.es/datosabiertos/api/api.php?lang=es",
   "reuse_terms": "https://www.boe.es/informacion/aviso_legal/index.php",
   "conversion_scope": "The API returns all versions; this converter selects the last returned version in each block, matching the BOE latest-version ordering. Raw XML is retained for replay.",
-  "review_notice": "BOE consolidations are informational and without legal value. Two sources (BOE-A-2007-4184 and BOE-A-2024-24099) have reviewed local documents under source-library/spain/documents/legislation; other conversions remain unaccepted review artifacts. Preserve the displayed consolidation date separately from the API metadata update date.",
+  "review_notice": "BOE consolidations are informational and without legal value. Three sources (BOE-A-2007-4184, BOE-A-2024-24099, and BOE-A-2012-9218) have reviewed local documents under source-library/spain/documents/legislation; other conversions remain unaccepted review artifacts. Preserve the displayed consolidation date separately from API metadata timestamps.",
   "records": [
     {
       "id": "BOE-A-2007-4184",
@@ -148,11 +148,11 @@
       "official_publisher_url": "https://www.boe.es/eli/es/o/2012/07/09/pre1490",
       "text_api_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9218/texto",
       "metadata_api_url": "https://www.boe.es/datosabiertos/api/legislacion-consolidada/id/BOE-A-2012-9218/metadatos",
-      "accepted": false,
-      "text_raw_path": "temp/spain/boe/boe-a-2012-9218-text.xml",
+      "accepted": true,
+      "text_raw_path": null,
       "text_sha256": "4db660a73ad936f2dcbeece66572370256322c1fe13ea3ebb57c9eeaab3aea92",
       "text_bytes": 16853,
-      "metadata_raw_path": "temp/spain/boe/boe-a-2012-9218-metadata.xml",
+      "metadata_raw_path": null,
       "metadata_sha256": "c6c6d8f03c9d05a647aebbef1b21bd6137b354e91aee0cd6f55a753102f1b783",
       "metadata_bytes": 1510,
       "publisher_metadata": {
@@ -176,12 +176,18 @@
         "url_html_consolidada": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-9218"
       },
       "consolidation_state": "Finalizado",
-      "converted_path": "source-library/spain/candidates/boe-a-2012-9218-consolidated.md",
-      "converted_sha256": "d7d02e61979e43d098673ad94b5acbb50b3eb472761c40c75711afbb50b982f3",
-      "converted_bytes": 15331,
+      "converted_path": "source-library/spain/documents/legislation/es-orden-pre-1490-2012-consolidated.md",
+      "converted_sha256": "bd19ad47b6bf8733b46910fc1f787645c8e4387f9607732464848026e5b38c67",
+      "converted_bytes": 17014,
       "retrieved_at": "2026-10-18T22:33:49+00:00",
-      "retrieval_status": "converted_review_candidate",
-      "converted_block_count": 10
+      "retrieval_status": "accepted_local_document",
+      "converted_block_count": 10,
+      "accepted_on": "2026-10-24",
+      "displayed_consolidation_update": "2012-07-10",
+      "text_raw_archive_path": "captures/public-data/ES/public-data/spain/boe/boe-a-2012-9218-text.xml",
+      "metadata_raw_archive_path": "captures/public-data/ES/public-data/spain/boe/boe-a-2012-9218-metadata.xml",
+      "candidate_archive_path": "candidates/public-data/ES/public-data/spain/candidates/boe-a-2012-9218-consolidated.md",
+      "raw_storage": "Monitor local-only capture archive; original temp paths are recorded in the archive index."
     },
     {
       "id": "BOE-A-2015-10565",

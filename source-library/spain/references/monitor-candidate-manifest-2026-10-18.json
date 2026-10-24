@@ -5,8 +5,8 @@
   "inventory_research_date": "2026-10-21",
   "scope": "Bounded first-pass discovery of official publication and reuse routes, EU/EEA and Swiss residence routes, the distinct Spanish-national family route, forms and filing, visas and consular practice, administrative remedies, public access, privacy, oversight, legal aid, civil-status evidence, selected courts, and the distinct UK Withdrawal Agreement residence and family route. This is not a complete inventory or a legal-equivalence opinion.",
   "status": "partially_retrieved_review_candidates",
-  "retrieval_status": "34 source responses saved; 30 pages converted and replay-verified; four dynamic pages had no stable text body; 12 retrieval/conversion failures remain. Twenty-five external official references are accepted by link within stated scope; two local BOE texts are accepted separately; no topic is accepted.",
-  "accepted_source_count": 2,
+  "retrieval_status": "34 source responses saved; 30 pages converted and replay-verified; four dynamic pages had no stable text body; 12 retrieval/conversion failures remain. Twenty-five external official references are accepted within stated scope; three local BOE texts are accepted separately; no topic is accepted.",
+  "accepted_source_count": 3,
   "accepted_external_reference_count": 25,
   "candidate_source_count": 52,
   "official_hosts": [
@@ -395,24 +395,25 @@
         "record": "BOE-A-2012-9218"
       },
       "functional_relationship": "related_source",
-      "verification_status": "Official BOE ELI listing and consolidated PDF identified.",
-      "retrieval_status": "converted_review_candidate",
+      "verification_status": "Official BOE page and XML metadata inspected 2026-10-24; all 10 text blocks were replayed and compared; local document accepted through the 2012-07-10 displayed cutoff with the procedural-law dependency preserved.",
+      "retrieval_status": "accepted_local_document",
       "retrieval_shape": "ELI/HTML/PDF",
-      "version_evidence": "Order states it implements Article 7 of RD 240/2007; current amendment history was not independently resolved.",
-      "note": "Relevant to residence conditions; verify current status and relationship to later regulations before use.",
+      "version_evidence": "BOE selector shows only the initial text published 10/07/2012; API metadata timestamp 2025-12-19 is distinct and reports no repeal or expiry.",
+      "note": "Accepted local BOE text implements Article 7 of RD 240/2007. It is an informational 2012 text; its Additional Provision names Ley 30/1992, which was later repealed by Ley 39/2015. Preserve the Order wording and assess the current procedure law separately; Swiss scope remains tied to distinct treaty evidence.",
       "topic_ids": [
         "eu_residence",
         "legislation",
         "conditions"
       ],
       "retrieved": true,
-      "accepted": false,
-      "document_path": "../candidates/boe-a-2012-9218-consolidated.md",
-      "candidate_text_path": "source-library/spain/monitor-candidates/es-09.md",
+      "accepted": true,
+      "document_path": "../documents/legislation/es-orden-pre-1490-2012-consolidated.md",
       "source_sha256": "a7e22079f3efea61cdf2ecf77a0febb47ea6358f05253865d516fa938bae5571",
       "converted_sha256": "fb1ce4dfa856bb74d793374ca0bd22edb2552f5ce38ada4203f02241783d15cc",
       "source_bytes": 46635,
-      "resolved_url": "https://www.boe.es/eli/es/o/2012/07/09/pre1490"
+      "resolved_url": "https://www.boe.es/eli/es/o/2012/07/09/pre1490",
+      "candidate_text_archive_path": "candidates/public-data/ES/public-data/spain/monitor-candidates/es-09.md",
+      "raw_capture_archive_path": "captures/public-data/ES/public-data/spain/boe/es-09-official-consolidated-page.html"
     },
     {
       "id": "es-10",
@@ -1603,6 +1604,6 @@
       "accepted": false
     }
   ],
-  "retrieved_review_candidate_count": 32,
-  "converted_review_candidate_count": 28
+  "retrieved_review_candidate_count": 31,
+  "converted_review_candidate_count": 27
 }

@@ -2,9 +2,9 @@
   "schema_version": "1.0.0",
   "jurisdiction": "ES",
   "as_of": "2026-10-24",
-  "accepted_source_count": 2,
-  "accepted_current_law_source_count": 2,
-  "accepted_derived_text_count": 2,
+  "accepted_source_count": 3,
+  "accepted_current_law_source_count": 3,
+  "accepted_derived_text_count": 3,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "accepted_external_reference_count": 25,
@@ -12,7 +12,7 @@
   "legacy_inventory": {
     "candidate_records": 55,
     "candidate_texts_converted_and_replay_verified": 45,
-    "local_acceptance_note": "Fifteen BOE law texts and thirty broader government pages were converted as review artifacts. The BOE texts of Real Decreto 240/2007 and Real Decreto 1155/2024 are accepted as two local documents after separate publisher, version, extraction, attachment, and classification checks. The other thirteen BOE conversions and broader local conversions remain unaccepted. The separate register accepts 25 external references within reviewed scopes; no topic is accepted."
+    "local_acceptance_note": "Fifteen BOE law texts and thirty broader government pages were converted as review artifacts. The BOE texts of Real Decreto 240/2007, Real Decreto 1155/2024, and Orden PRE/1490/2012 are accepted as three local documents after separate publisher, version, extraction, attachment, and classification checks. The other twelve BOE conversions and broader local conversions remain unaccepted. The separate register accepts 25 external references within reviewed scopes; no topic is accepted."
   },
   "official_reference_reviews": {
     "es-06": {
@@ -63,28 +63,30 @@
       "status": "usable_official_reference",
       "publisher": "Agencia Estatal Boletín Oficial del Estado (BOE)",
       "url": "https://www.boe.es/eli/es/o/2012/07/09/pre1490/con",
-      "checked_on": "2026-10-21",
+      "checked_on": "2026-10-24",
       "language": "Spanish",
-      "version_or_cutoff": "BOE current page shows the original publication of 2012-07-10 and no later version in its selector.",
+      "version_or_cutoff": "BOE consolidated text: latest displayed update 2012-07-10, with only the initial publication in the selector. API metadata timestamp 2025-12-19T13:30:03Z; instrument metadata reports no repeal or expiry.",
       "scope": "Order PRE/1490/2012, rules applying Article 7 of RD 240/2007.",
-      "reviewed_content": "BOE identifies the order, its subject, publication and commencement, and supplies its consolidated ELI page.",
+      "reviewed_content": "The official BOE consolidated page checked 2026-10-24 identifies Orden PRE/1490/2012 and BOE-A-2012-9218, publication on 2012-07-10, commencement on 2012-07-11, and only the initial text in its selector. Articles 1–4 implement Article 7 of RD 240/2007 and state the registration, evidence, and family-member scope. The BOE API metadata timestamp is later than, and distinct from, the displayed text date.",
       "limitations": [
-        "The displayed history is not an independent interpretation of every later amendment or judgment affecting Article 7.",
-        "Use as a working official reference and follow a specific material later source if an issue requires it."
+        "BOE labels its consolidation informational and without legal value; use the original BOE publication for legal effect.",
+        "The BOE selector shows only the 2012 initial text. Its Additional Provision cites Ley 30/1992, which BOE records as repealed by Ley 39/2015; preserve this wording and review the applicable successor procedure separately.",
+        "The Order implements RD 240/2007 Article 7; this source acceptance does not establish topic coverage, procedural sufficiency, or the separate legal basis for Swiss nationals.",
+        "The preamble cites a 1 June 2010 Supreme Court judgment; that case is not separately accepted or reviewed here."
       ]
     },
     "es-11": {
       "status": "usable_official_reference",
       "publisher": "Agencia Estatal Boletín Oficial del Estado (BOE)",
       "url": "https://www.boe.es/eli/es/l/2015/10/01/39/con",
-      "checked_on": "2026-10-21",
+      "checked_on": "2026-10-24",
       "language": "Spanish",
-      "version_or_cutoff": "BOE consolidated record; latest displayed update 2024-11-06.",
+      "version_or_cutoff": "Current BOE consolidation displayed update 2026-09-29.",
       "scope": "Ley 39/2015, general public-administration procedure.",
-      "reviewed_content": "The BOE page identifies the law, consolidated text, publication and last-update date.",
+      "reviewed_content": "The current BOE page identifies Ley 39/2015 and displays its consolidation through 2026-09-29. Its sole derogatory provision repeals Ley 30/1992; paragraph 3 states how references in current laws to expressly repealed provisions are to be understood.",
       "limitations": [
-        "Informational consolidation only.",
-        "Special immigration rules and autonomous-community procedure may also apply; no remedy crosswalk is accepted here."
+        "This review refreshed the specific dependency needed for Orden PRE/1490/2012; it is not a complete administrative-procedure source review.",
+        "The local Order text retains its original Ley 30/1992 wording; interpretation of the cross-reference remains a separate legal question."
       ]
     },
     "es-12": {
@@ -469,7 +471,7 @@
     }
   ],
   "not_accepted_candidate_notes": [
-    "The other local BOE and broader-page conversions remain unaccepted; the accepted RD 240/2007 and RD 1155/2024 documents are identified separately in records. Link acceptance does not accept an unreviewed local conversion.",
+    "The other local BOE and broader-page conversions remain unaccepted; the accepted RD 240/2007, RD 1155/2024, and Orden PRE/1490/2012 documents are identified separately in records. Link acceptance does not accept an unreviewed local conversion.",
     "Candidate entries for forms, appointment tools, mission-specific pages, oversight procedures, and case-law search remain unaccepted unless specifically listed above.",
     "The EU-UK Withdrawal Agreement current-consolidation link is identified but not counted as accepted pending human inspection through EUR-Lex; the official site is offered above.",
     "A discovery candidate is a lead awaiting the stated review; it is not a finding that the source is invalid or that its category is legally irrelevant."
@@ -540,6 +542,39 @@
         "method": "Checked BOE identity, displayed and metadata dates, and legal status; replayed all 383 text blocks from archived XML; compared the official page’s Articles 93–99 and judicial annotations, including Article 197.2; preserved the BOE informational-only caveat and distinct-route scope."
       },
       "raw_capture_evidence": "Monitor local archive: captures/public-data/ES/public-data/spain/boe/boe-a-2024-24099-text.xml (SHA-256 3fa5c21edb5f3872c1096f4a9a0f41b50edf4c0e2e5f6b2846110d38a2845fc6); captures/public-data/ES/public-data/spain/boe/boe-a-2024-24099-metadata.xml (SHA-256 01391d2c574161707f9dca1d01bbdaa823f22551c54ce15c9e73aac34b0456d6); captures/public-data/ES/public-data/spain/boe/es-07-official-consolidated-page.html (SHA-256 566e5624b71356851c832788178367c00dfc11c473354d729e2e5870c1d5e83d)."
+    },
+    "es-09": {
+      "status": "accepted",
+      "document_path": "../documents/legislation/es-orden-pre-1490-2012-consolidated.md",
+      "accepted_on": "2026-10-24",
+      "local_document_sha256": "bd19ad47b6bf8733b46910fc1f787645c8e4387f9607732464848026e5b38c67",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The current BOE ELI page and API metadata identify Orden PRE/1490/2012 and BOE-A-2012-9218; title, number, publisher, and Spanish language match."
+        },
+        "current_legal_version": {
+          "status": "pass",
+          "evidence": "The BOE page checked 2026-10-24 displays the 2012-07-10 text as the latest version and shows only the initial publication; API metadata updated 2025-12-19 separately reports no repeal or expiry. Accepted as the publisher's displayed last-known text, with its date and the Ley 30/1992 dependency explicitly limited."
+        },
+        "extraction_completeness": {
+          "status": "pass",
+          "evidence": "The archived BOE text and metadata XML match the retrieval-manifest hashes. Offline reconstruction yields 10 latest-version blocks; all 10 legal text blocks in the final document match the replayed BOE body. Official BOE page headings and the key Articles 1–4 and Additional Provision were inspected."
+        },
+        "attachments_review": {
+          "status": "pass",
+          "evidence": "The BOE page offers PDF and ePUB as alternate representations. Its index contains the preamble, Articles 1–4, one additional and one transitional provision, two final provisions, and signature; no separate incorporated annex was material to this text copy."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "Classified as national_implementing_legislation: a Spanish ministerial order implementing Article 7 of RD 240/2007, with its EU/EEA/Swiss wording preserved and Swiss-route limits stated separately."
+        }
+      },
+      "semantic_review": {
+        "status": "passed",
+        "method": "Checked publisher identity, publication/effective dates and displayed text cutoff; replayed all 10 blocks from archived XML; compared the official page’s Articles 1–4 and the Additional Provision; recorded its relationship to RD 240/2007, the later repeal of Ley 30/1992 by Ley 39/2015, and the unreviewed 2010 case citation."
+      },
+      "raw_capture_evidence": "Monitor local archive: captures/public-data/ES/public-data/spain/boe/boe-a-2012-9218-text.xml (SHA-256 4db660a73ad936f2dcbeece66572370256322c1fe13ea3ebb57c9eeaab3aea92); captures/public-data/ES/public-data/spain/boe/boe-a-2012-9218-metadata.xml (SHA-256 c6c6d8f03c9d05a647aebbef1b21bd6137b354e91aee0cd6f55a753102f1b783); captures/public-data/ES/public-data/spain/boe/es-09-official-consolidated-page.html (SHA-256 a7e22079f3efea61cdf2ecf77a0febb47ea6358f05253865d516fa938bae5571)."
     }
   }
 }
