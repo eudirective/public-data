@@ -91,7 +91,7 @@
     "Official operational guidance, forms, court and oversight portals are accepted only for their stated service or discovery scope. They do not prove legal requirements, remedies, complete case-law publication, or jurisdiction in an individual matter.",
     "Direct access to Wetten.nl and some service pages was restricted in the research client. This is not treated as publisher downtime or a reason to require automated extraction. Whole official websites are offered for human review when a page, currentness point, legal dependency, or operational detail needs direct inspection.",
     "An accepted external link is independent of local conversion, hashes, replay, reuse permission, topic adequacy, and country completion. No local copy or legal topic is accepted here.",
-    "Eight dated local source copies were accepted separately from the 59 accepted external references on 2026-10-24 after raw-source hash checks and deterministic replay matched each recorded conversion hash. Local-copy acceptance does not change topic_accepted_count or country_review_complete.",
+    "Eight dated local source copies were accepted separately from the 59 accepted external references on 2026-10-25 after raw-source hash checks and deterministic replay matched each recorded conversion hash. Local-copy acceptance does not change topic_accepted_count or country_review_complete.",
     "Wetten.nl could not be reopened by the research client on 2026-10-24; statutory local documents therefore remain dated snapshots. The two IND pages were live-checked on 2026-10-24 and name their reuse basis."
   ],
   "evidence_cutoffs": [
@@ -159,5 +159,5 @@
     "nl-54",
     "nl-55"
   ],
-  "local_copies_reviewed_on": "2026-10-24"
+  "local_copies_reviewed_on": "2026-10-25"
 }
