@@ -763,7 +763,7 @@
             "hr-azop-complaint",
             "hr-ombudsman-complaints"
           ],
-          "note": "The live MUP and MVEP references and their blank SIS/VIS forms support parts of the displayed request procedure and complaint route. The AZOP complaint page was checked on 2026-10-25 and remains a scoped official link; its optional DOCX and dynamic online form are not retained. The Ombudsman reference is also link-only. Restriction requests, authority competence across processing regimes, current contact details, statutory implementation and remedy effectiveness remain unresolved; this is partial support only.",
+          "note": "The live MUP and MVEP references and their blank SIS/VIS forms support parts of the displayed request procedure and complaint route. The AZOP complaint article and Ombudsman complaint article are accepted local text copies checked on 2026-10-25; their interactive or linked forms are not retained. Restriction requests, authority competence across processing regimes, current contact details, statutory implementation and remedy effectiveness remain unresolved; this is partial support only.",
           "required_evidence": "At least one accepted local artifact or separately reviewed official reference within scope, or an explicit reasoned not-applicable conclusion."
         },
         "remedy_or_practice": {
@@ -787,7 +787,7 @@
   ],
   "country_review_status": "incomplete",
   "topic_coverage_complete": false,
-  "last_review": "2026-10-25; nine archived page candidates received explicit link-only or stale-source dispositions; 34 local artifacts remain accepted; no topic promoted to complete.",
+  "last_review": "2026-10-25; six current archived authority article candidates promoted to local guidance documents and three stale leads excluded; 40 local artifacts remain accepted; no topic promoted to complete.",
   "review_tracks_outside_four_layer_topic_map": [
     {
       "id": "case_law_discovery_and_analysis",
@@ -803,7 +803,7 @@
     }
   ],
   "source_acceptance_status": "partial",
-  "accepted_source_count": 34,
+  "accepted_source_count": 40,
   "national_provision_crosswalk": {
     "path": "references/procedural-crosswalk.md",
     "status": "preliminary_primary_text_reviewed_immigration_application_open",

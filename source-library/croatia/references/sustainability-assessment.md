@@ -1,17 +1,17 @@
 # Croatia source sustainability review
 
-**As of 24 October 2026**
+**As of 25 October 2026**
 
 ## Result
 
-Croatia has 82 source records, 34 accepted local documents and 35 official references usable by link within their recorded scopes. The pack remains incomplete: all 14 topic gates are open, none of the 40 planned court searches is recorded as run, and mission/local-authority practice remains unreviewed.
+Croatia has 82 source records, 40 accepted local documents and 35 official references usable by link within their recorded scopes. The pack remains incomplete: all 14 topic gates are open, none of the 40 planned court searches is recorded as run, and mission/local-authority practice remains unreviewed.
 
 The Monitor local-only archive now holds Croatia's candidate/discovery notes, raw responses, selector-bound legal-text fragments and acquisition manifests. Their hashes were reconciled with the working files before pack copies were removed. The accepted documents remain under `documents/`; the pack has no candidate/capture directories or parallel acquisition manifests. Four current MUP forms were visually reviewed page by page and retained unchanged with a narrow Article 18(3) basis. A missing revision date remains a limit.
 
 ## Sustainable elements
 
 - **Official source references:** Twenty-nine link reviews record publisher, identity, date/cutoff, relevant content and limitations. The source-review process does not require copying a page to use a human-reviewed official link.
-- **Local documents:** Twenty-five legal-text representations, eight MUP/MVEP PDFs and one MUP EEA guidance article body have separate acceptance records. Legal-text replay evidence, source fragments and raw responses live in the Monitor archive; the accepted documents live in the pack. The four EEA form PDFs have empty text layers and were visually reviewed. The four SIS/VIS PDFs have searchable text and have text/page-count/property checks; their page-image layout has not been independently inspected.
+- **Local documents:** Twenty-five legal-text representations, eight MUP/MVEP PDFs and seven guidance article texts have separate acceptance records, including six current AZOP, MVEP and Ombudsman articles promoted on 25 October. Legal-text replay evidence, source fragments and raw responses live in the Monitor archive; the accepted documents live in the pack. The four EEA form PDFs have empty text layers and were visually reviewed. The four SIS/VIS PDFs have searchable text and have text/page-count/property checks; their page-image layout has not been independently inspected.
 - **Version review:** The current MUP Propisi index supports the listed EEA and third-country amendment chains. It is not treated as a consolidated text, and the form index's omission of NN 155/22 is recorded separately.
 - **Registers:** Source acceptance, topic coverage, legal dependencies, source rules, attachment review, currentness, case-law discovery and operational discovery remain separate records. Structural validation does not promote a source into topic coverage or country completion.
 
