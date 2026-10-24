@@ -762,15 +762,14 @@
       "source_ids": [
         "hr-mvep-stale-faq"
       ],
-      "retrieval": "GET public parent/current page; follow current official links rather than stale embedded direct files; record final URL and update date.",
-      "conversion": "Select #content .page_content. Preserve headings, links, list structure, dates and warnings; exclude navigation and footer.",
-      "selector": "#content .page_content",
-      "status": "selector_observed_on_seed_pages_or_planned",
+      "retrieval": "No operative retrieval is required. Keep this official page only as an excluded stale-source comparator in the Monitor local-only archive.",
+      "conversion": "Not applicable for an excluded stale lead. Do not publish or use this page as current visa guidance.",
+      "selector": "not_applicable_excluded_lead",
+      "status": "excluded_stale_source_lead",
       "semantic_checks": [
-        "heading matches record",
-        "all substantive content and outgoing links retained",
-        "update/version date recorded",
-        "links and amounts/deadlines verified against current primary law"
+        "official MVEP page identity recorded for the legacy FAQ",
+        "page statement that Croatia is not in Schengen conflicts with current official MVEP material stating Schengen acquis applies from 2023-01-01",
+        "excluded from current procedure; preserve only as a stale comparator in the local-only archive"
       ],
       "acceptance_policy": "A human-reviewed official link may be used within its checked identity, language, date/cutoff, relevant content, and limitations; capture and conversion are not prerequisites. This rule governs optional local-copy work only. For legislation, use a government consolidation or closest government-published version; consult a Gazette act only for a material gap."
     },
