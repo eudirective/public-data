@@ -8,7 +8,7 @@ This is a bounded register, not a complete inventory of Bulgarian law. It contai
 
 ## Historical capture outcome (2026-10-19)
 
-The original automated pass attempted 35 leads, converted and replay-verified 24, and recorded 11 failed or blocked responses. These results describe that retrieval run only. They do not determine whether an official link can be reviewed and used by link, and they do not block independent source work. The exact retrieval manifest and captured source payloads are preserved in the Monitor's local-only archive; inspect them with its inventory and read tools.
+The original automated pass attempted 35 leads, converted and replay-verified 24, and recorded 11 failed or blocked responses. These results describe that retrieval run only. They do not determine whether an official link can be reviewed and used by link, and they do not block independent source work. The Monitor's local-only archive holds the derived candidate extracts and retrieval metadata. The raw-path entries in the 19 October retrieval manifest are provenance only: no Bulgarian raw source-response payloads are present in the indexed archive.
 
 ## Source register
 
@@ -83,6 +83,8 @@ All 15 Bulgaria source leads formerly indexed as candidates now have a final reg
 The current MVR EU residence-service page was opened on 24 October 2026. It lists the Act, Instruction №8121з-1276, four form/declaration links, and oblast directorates. The permanent-residence PDF opened as a six-page bilingual form. The extended-residence PDF opened as a six-page PDF through the non-www MVR upload host; its www variant returned 403. Direct local HTTP downloads of both PDFs returned 403 on 24 October 2026. The Article 9a/10/16(4)/19 application and Article 20a declaration could not be rendered by the browser tool; their direct local HTTP downloads returned 403. They remain link-only references to the parent page.
 
 The MVR English guidance and legislation index remain link-only: the guidance is not controlling law, and the index page itself returned 403 to the direct request despite appearing in the official-site crawl. The EU notification route currently lists named, dated notices rather than a generic procedure. The prior Ombudsman complaint URL redirected to the homepage, so the current official FAQ is used as the link-only replacement. N-Lex remains discovery-only. Candidate and capture evidence is held in the Monitor's local-only archive; no unaccepted candidate files are stored in the Bulgaria pack.
+
+Monitor archive reconciliation (2026-10-24): the `BG` inventory has 26 captures (25 former candidate Markdown extracts and one retrieval manifest), one discovery disposition manifest, and zero records still classified as candidates. The 25 extracts map to 11 accepted documents, 13 link-only references, and one out-of-scope applicant-notice page. All accepted local-document hashes match the acceptance register. Direct unauthenticated local requests for the four MVR form files returned HTTP 403; no raw form file was saved or access control bypassed.
 
 ## Official-reference and local-copy reviews (2026-10-21 and 2026-10-24)
 
