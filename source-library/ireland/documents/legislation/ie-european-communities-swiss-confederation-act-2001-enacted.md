@@ -1,19 +1,19 @@
 # European Communities and Swiss Confederation Act 2001 (No. 41 of 2001)
 
+- Source ID: `ie-13`
 - Jurisdiction: Ireland
-- Candidate ID: `ie-13`
 - Source type: `treaty_implementation_legislation`
-- Publisher URL: https://www.irishstatutebook.ie/eli/2001/act/41/enacted/en/pdf
-- Retrieved URL: https://www.irishstatutebook.ie/eli/2001/act/41/enacted/en/pdf
-- Retrieved: 2026-10-18T23:09:38+00:00
-- Format: pdf; publisher content type `application/pdf`
-- Source SHA-256: `150a5e38d452a250c18db56a0035202c906dc2dc2936211968c71e0c2bc52a86`
-- Identity check: candidate-specific content markers
-- PDF link discovery: stable_record_url
+- Official publisher: Irish Statute Book (eISB)
+- Official source: https://www.irishstatutebook.ie/eli/2001/act/41/enacted/en/pdf
+- Source version: Enacted Act 41/2001; Agreement-specific scope must be checked against the named treaty and current law.
+- Retrieved from the official source: 2026-10-18T23:09:38+00:00
+- Reviewed for identity and scope: 2026-10-24
+- Source response SHA-256: `150a5e38d452a250c18db56a0035202c906dc2dc2936211968c71e0c2bc52a86`
+- Conversion: deterministic text extraction from the exact retained HTML/PDF response; pinned `pypdf==6.10.0` for PDFs. This text is not the publisher’s official typesetting.
+- Re-use: eISB Open Data PSI Licence incorporating CC BY 4.0; this licence applies to eISB content only.
+- Currentness and scope: Exact enacted 2001 Act text; not represented as a consolidated current expression.
 
-> **Review candidate.** The captured material is a source candidate. Record the official publisher, version date/cutoff, scope, and publisher terms; check only a known material later change relevant to the question. Do not reconstruct a complete amendment chain. For legislation, use the latest government-published consolidated text where available. If this is the closest dated text, retain its cutoff and check only a specifically relevant later amendment or commencement.
-
-## Extracted source text
+## Official source text
 
 ————————
 

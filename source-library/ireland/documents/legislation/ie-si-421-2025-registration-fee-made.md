@@ -1,19 +1,19 @@
 # S.I. No. 421/2025, Immigration Act 2004 (Registration Certificate Fee) Regulations 2025
 
+- Source ID: `ie-15`
 - Jurisdiction: Ireland
-- Candidate ID: `ie-15`
 - Source type: `fee_legislation`
-- Publisher URL: https://www.irishstatutebook.ie/eli/2025/si/421/made/en/pdf
-- Retrieved URL: https://www.irishstatutebook.ie/eli/2025/si/421/made/en/pdf
-- Retrieved: 2026-10-18T23:09:41+00:00
-- Format: pdf; publisher content type `application/pdf`
-- Source SHA-256: `ec854332fe4a09157b7495c1f285681d670f9fcade67dd73cfaa749ee12eeea0`
-- Identity check: candidate-specific content markers
-- PDF link discovery: stable_record_url
+- Official publisher: Irish Statute Book (eISB)
+- Official source: https://www.irishstatutebook.ie/eli/2025/si/421/made/en/pdf
+- Source version: 2025 fee instrument; verify operative fee and any exemptions against full text and current service pages.
+- Retrieved from the official source: 2026-10-18T23:09:41+00:00
+- Reviewed for identity and scope: 2026-10-24
+- Source response SHA-256: `ec854332fe4a09157b7495c1f285681d670f9fcade67dd73cfaa749ee12eeea0`
+- Conversion: deterministic text extraction from the exact retained HTML/PDF response; pinned `pypdf==6.10.0` for PDFs. This text is not the publisher’s official typesetting.
+- Re-use: eISB Open Data PSI Licence incorporating CC BY 4.0; this licence applies to eISB content only.
+- Currentness and scope: Exact 2025 made fee instrument. This copy does not establish the fee currently payable for any specific permission or exemption.
 
-> **Review candidate.** The captured material is a source candidate. Record the official publisher, version date/cutoff, scope, and publisher terms; check only a known material later change relevant to the question. Do not reconstruct a complete amendment chain. For legislation, use the latest government-published consolidated text where available. If this is the closest dated text, retain its cutoff and check only a specifically relevant later amendment or commencement.
-
-## Extracted source text
+## Official source text
 
 STATUTORY INSTRUMENTS.
 

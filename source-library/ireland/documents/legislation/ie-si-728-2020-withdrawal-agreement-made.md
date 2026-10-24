@@ -1,19 +1,19 @@
 # S.I. No. 728/2020, EU Withdrawal Agreement (Citizens’ Rights) Regulations 2020
 
+- Source ID: `ie-14`
 - Jurisdiction: Ireland
-- Candidate ID: `ie-14`
 - Source type: `withdrawal_agreement_legislation`
-- Publisher URL: https://www.irishstatutebook.ie/eli/2020/si/728/made/en/pdf
-- Retrieved URL: https://www.irishstatutebook.ie/eli/2020/si/728/made/en/pdf
-- Retrieved: 2026-10-18T23:09:40+00:00
-- Format: pdf; publisher content type `application/pdf`
-- Source SHA-256: `258380281881e086f1232a0168456e615c2901a0f5af34c7a1087cd77bbce6a4`
-- Identity check: candidate-specific content markers
-- PDF link discovery: stable_record_url
+- Official publisher: Irish Statute Book (eISB)
+- Official source: https://www.irishstatutebook.ie/eli/2020/si/728/made/en/pdf
+- Source version: Made 2020; specific application dates and amendments need to be resolved against current text.
+- Retrieved from the official source: 2026-10-18T23:09:40+00:00
+- Reviewed for identity and scope: 2026-10-24
+- Source response SHA-256: `258380281881e086f1232a0168456e615c2901a0f5af34c7a1087cd77bbce6a4`
+- Conversion: deterministic text extraction from the exact retained HTML/PDF response; pinned `pypdf==6.10.0` for PDFs. This text is not the publisher’s official typesetting.
+- Re-use: eISB Open Data PSI Licence incorporating CC BY 4.0; this licence applies to eISB content only.
+- Currentness and scope: Exact 2020 made instrument; not represented as a consolidated current expression.
 
-> **Review candidate.** The captured material is a source candidate. Record the official publisher, version date/cutoff, scope, and publisher terms; check only a known material later change relevant to the question. Do not reconstruct a complete amendment chain. For legislation, use the latest government-published consolidated text where available. If this is the closest dated text, retain its cutoff and check only a specifically relevant later amendment or commencement.
-
-## Extracted source text
+## Official source text
 
 STATUTORY INSTRUMENTS.
 

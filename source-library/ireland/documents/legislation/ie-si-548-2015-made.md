@@ -1,19 +1,19 @@
 # S.I. No. 548/2015, European Communities (Free Movement of Persons) Regulations 2015
 
+- Source ID: `ie-08`
 - Jurisdiction: Ireland
-- Candidate ID: `ie-08`
 - Source type: `national_legislation`
-- Publisher URL: https://www.irishstatutebook.ie/eli/2015/si/548/made/en/print
-- Retrieved URL: https://www.irishstatutebook.ie/eli/2015/si/548/made/en/print
-- Retrieved: 2026-10-18T23:09:31+00:00
-- Format: html; publisher content type `text/html`
-- Source SHA-256: `e0e93bc022695bb82f88965ca4d6ab797361709e8d650694da2c8da7b3519f7d`
-- Identity check: candidate-specific content markers
-- PDF link discovery: stable_record_url
+- Official publisher: Irish Statute Book (eISB)
+- Official source: https://www.irishstatutebook.ie/eli/2015/si/548/made/en/print
+- Source version: Made 2015; commenced 1 February 2016; amendment table records later changes through SI 398/2025.
+- Retrieved from the official source: 2026-10-18T23:09:31+00:00
+- Reviewed for identity and scope: 2026-10-24
+- Source response SHA-256: `e0e93bc022695bb82f88965ca4d6ab797361709e8d650694da2c8da7b3519f7d`
+- Conversion: deterministic text extraction from the exact retained HTML/PDF response; pinned `pypdf==6.10.0` for PDFs. This text is not the publisher’s official typesetting.
+- Re-use: eISB Open Data PSI Licence incorporating CC BY 4.0; this licence applies to eISB content only.
+- Currentness and scope: Exact 2015 made text; SI 445/2021 and SI 398/2025 are separate amendments. This file is not a consolidated current text. The eISB amendment index was checked through 6 October 2026.
 
-> **Review candidate.** The captured material is a source candidate. Record the official publisher, version date/cutoff, scope, and publisher terms; check only a known material later change relevant to the question. Do not reconstruct a complete amendment chain. For legislation, use the latest government-published consolidated text where available. If this is the closest dated text, retain its cutoff and check only a specifically relevant later amendment or commencement.
-
-## Extracted source text
+## Official source text
 
 Home Baile
 
