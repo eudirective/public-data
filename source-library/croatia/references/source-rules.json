@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "HR",
-  "as_of": "2026-10-19",
+  "as_of": "2026-10-25",
   "policy": "Rules may group sources and describe optional retrieval/conversion for retained local artifacts. A human-reviewed official reference may be used within the publisher, identity, language, version, passage, and caveats actually checked without capture, conversion, hashes, replay, or reproduction permission. Prefer a usable government-published consolidation; otherwise use the closest government-published version and record its cutoff and limits. Do not reconstruct a full Gazette chain by default. Semantic and reuse checks apply to retained copies, not ordinary link use. Neither reference use nor local-copy acceptance alone establishes topic or country completion.",
   "rules": [
     {
@@ -110,17 +110,18 @@
       "source_ids": [
         "hr-azop-complaint"
       ],
-      "retrieval": "Use the reviewed official link within its recorded scope, checked date, language and limitations. Re-open the official page when a current answer is needed; do not collect submissions or personal data.",
-      "conversion": "Not selected for ordinary link use. AZOP Terms of Use permit attributed republication, but this pack retains only the official link; the optional DOCX and live data-bearing form are outside scope.",
-      "selector": "not_applicable_link_only",
-      "status": "official_link_reviewed_local_capture_optional",
+      "retrieval": "Extract the static AZOP complaint article and optional-form notice from the archived official response; re-open the live page for current links. Never capture submissions or personal data.",
+      "conversion": "The raw article block is compared with the live visible article. Exclude shell, DOCX, interactive form and user data.",
+      "selector": "#content .et_pb_text_inner (static complaint article only; exclude embedded form)",
+      "status": "source_accepted_manual_article_text",
       "semantic_checks": [
-        "official AZOP publisher and complaint-route page identity verified",
-        "live static article checked against the archived response on 2026-10-25; publisher metadata date recorded",
-        "scope limited to the GDPR personal-rights complaint route and the page’s stated submission methods",
-        "optional DOCX and live data-bearing form are not retained; no personal data is collected"
+        "official publisher, exact page identity, language and URL checked 2026-10-25",
+        "the locally retained article scope was compared with the current visible official page",
+        "publisher shell and unrelated page content are excluded; page-specific dynamic forms and linked files are not retained",
+        "AZOP Terms of Use allow attributed republication without changing meaning; this is a text-only scoped copy.",
+        "local-copy acceptance does not certify topic coverage or country completion"
       ],
-      "acceptance_policy": "A human-reviewed official link may be used within its checked identity, language, date/cutoff, relevant content, and limitations; capture and conversion are not prerequisites. This rule governs optional local-copy work only. For legislation, use a government consolidation or closest government-published version; consult a Gazette act only for a material gap."
+      "acceptance_policy": "A reviewed official link remains usable within its recorded scope. Local retention is limited to the accepted article body and its source-specific reuse basis; recheck undated or operational details on the live page. This rule does not establish legal-topic sufficiency."
     },
     {
       "rule_id": "hr-azop-vis-sis-publisher-selector-pending-v1",
@@ -728,17 +729,18 @@
       "source_ids": [
         "hr-mvep-family-visas"
       ],
-      "retrieval": "Use the reviewed official link within its recorded scope, checked date, language and limitations. Re-open the official page when a current answer is needed; do not collect submissions or personal data.",
-      "conversion": "Not applicable for link-only use. The official page is undated and no general MVEP republication permission was established; no page text is retained.",
-      "selector": "not_applicable_link_only",
-      "status": "official_link_reviewed_local_capture_optional",
+      "retrieval": "Open the official English MVEP page and verify title/page ID; compare visible article text. No raw bytes were stored by the historic capture.",
+      "conversion": "The current page is undated and includes an obsolete HTTP Directive link; exclude navigation and shell. Check the live page for current links and mission practice.",
+      "selector": "manual visible article text; historic selector `div#content .page_content` was recorded with the 2026-10-19 article hash",
+      "status": "source_accepted_manual_article_text",
       "semantic_checks": [
-        "official MVEP publisher and current page ID verified",
-        "scoped visa-exemption and facilitation statements reviewed against the live article",
-        "undated page and obsolete embedded HTTP Directive link recorded as limitations",
-        "mission practice remains separate; no page text is retained"
+        "official publisher, exact page identity, language and URL checked 2026-10-25",
+        "the locally retained article scope was compared with the current visible official page",
+        "publisher shell and unrelated page content are excluded; page-specific dynamic forms and linked files are not retained",
+        "Use the source-specific Article 15(3)/18(3) assessment recorded in source-acceptance.json; no site-wide licence is inferred.",
+        "local-copy acceptance does not certify topic coverage or country completion"
       ],
-      "acceptance_policy": "A human-reviewed official link may be used within its checked identity, language, date/cutoff, relevant content, and limitations; capture and conversion are not prerequisites. This rule governs optional local-copy work only. For legislation, use a government consolidation or closest government-published version; consult a Gazette act only for a material gap."
+      "acceptance_policy": "A reviewed official link remains usable within its recorded scope. Local retention is limited to the accepted article body and its source-specific reuse basis; recheck undated or operational details on the live page. This rule does not establish legal-topic sufficiency."
     },
     {
       "rule_id": "hr-mvep-missions-ministry-page-v1",
@@ -795,34 +797,36 @@
       "source_ids": [
         "hr-mvep-visa-application"
       ],
-      "retrieval": "Use the reviewed official link within its recorded scope, checked date, language and limitations. Re-open the official page when a current answer is needed; do not collect submissions or personal data.",
-      "conversion": "Not applicable for link-only use. MVEP page content is dynamic and no general republication permission was established; no page text is retained.",
-      "selector": "not_applicable_link_only",
-      "status": "official_link_reviewed_local_capture_optional",
+      "retrieval": "Use the recorded official English MVEP URL; inspect the archived raw response and re-open the live page before relying on provider or mission details.",
+      "conversion": "Extract the primary article column only; preserve visible headings and text. Exclude navigation/footer; no third-party site content or application data is copied.",
+      "selector": "#content .article_left",
+      "status": "source_accepted_manual_article_text",
       "semantic_checks": [
-        "official MVEP publisher and page identity verified",
-        "live general visa-application or nationality-selector content reviewed within the source record’s scope",
-        "dynamic provider, mission or nationality-specific details and Directive 2004/38 limits recorded",
-        "no page text or applicant data is retained"
+        "official publisher, exact page identity, language and URL checked 2026-10-25",
+        "the locally retained article scope was compared with the current visible official page",
+        "publisher shell and unrelated page content are excluded; page-specific dynamic forms and linked files are not retained",
+        "Use the source-specific Article 15(3)/18(3) assessment recorded in source-acceptance.json; provider destinations are volatile.",
+        "local-copy acceptance does not certify topic coverage or country completion"
       ],
-      "acceptance_policy": "A human-reviewed official link may be used within its checked identity, language, date/cutoff, relevant content, and limitations; capture and conversion are not prerequisites. This rule governs optional local-copy work only. For legislation, use a government consolidation or closest government-published version; consult a Gazette act only for a material gap."
+      "acceptance_policy": "A reviewed official link remains usable within its recorded scope. Local retention is limited to the accepted article body and its source-specific reuse basis; recheck undated or operational details on the live page. This rule does not establish legal-topic sufficiency."
     },
     {
       "rule_id": "hr-mvep-visa-overview-ministry-page-v1",
       "source_ids": [
         "hr-mvep-visa-overview"
       ],
-      "retrieval": "Use the reviewed official link within its recorded scope, checked date, language and limitations. Re-open the official page when a current answer is needed; do not collect submissions or personal data.",
-      "conversion": "Not applicable for link-only use. MVEP page content is dynamic and no general republication permission was established; no page text is retained.",
-      "selector": "not_applicable_link_only",
-      "status": "official_link_reviewed_local_capture_optional",
+      "retrieval": "Use the recorded official English MVEP URL; inspect the archived raw response and re-open the live page before relying on the overview.",
+      "conversion": "Extract the primary article column only; exclude shell and footer. Retain the SIS statement as published with its recorded limitation.",
+      "selector": "#content .article_left",
+      "status": "source_accepted_manual_article_text",
       "semantic_checks": [
-        "official MVEP publisher and page identity verified",
-        "live general visa-application or nationality-selector content reviewed within the source record’s scope",
-        "dynamic provider, mission or nationality-specific details and Directive 2004/38 limits recorded",
-        "no page text or applicant data is retained"
+        "official publisher, exact page identity, language and URL checked 2026-10-25",
+        "the locally retained article scope was compared with the current visible official page",
+        "publisher shell and unrelated page content are excluded; page-specific dynamic forms and linked files are not retained",
+        "Use the source-specific Article 15(3)/18(3) assessment recorded in source-acceptance.json; no general MVEP reuse licence is inferred.",
+        "local-copy acceptance does not certify topic coverage or country completion"
       ],
-      "acceptance_policy": "A human-reviewed official link may be used within its checked identity, language, date/cutoff, relevant content, and limitations; capture and conversion are not prerequisites. This rule governs optional local-copy work only. For legislation, use a government consolidation or closest government-published version; consult a Gazette act only for a material gap."
+      "acceptance_policy": "A reviewed official link remains usable within its recorded scope. Local retention is limited to the accepted article body and its source-specific reuse basis; recheck undated or operational details on the live page. This rule does not establish legal-topic sufficiency."
     },
     {
       "rule_id": "hr-mvep-visa-regulations-ministry-page-v1",
@@ -914,17 +918,18 @@
       "source_ids": [
         "hr-ombudsman-complaints"
       ],
-      "retrieval": "Use the reviewed official link within its recorded scope, checked date, language and limitations. Re-open the official page when a current answer is needed; do not collect submissions or personal data.",
-      "conversion": "Not applicable for link-only use. No local page text or linked complaint form is retained; no express general reuse basis was identified.",
-      "selector": "not_applicable_link_only",
-      "status": "official_link_reviewed_local_capture_optional",
+      "retrieval": "Use the official Ombudsman page; compare the archived main-article response with the current page. The `/en/` path currently serves Croatian.",
+      "conversion": "Extract the primary complaint article and linked-form titles only; exclude navigation, sidebar, other site sections and actual form files.",
+      "selector": "#content.site-main .elementor-section (primary complaint article only)",
+      "status": "source_accepted_manual_article_text",
       "semantic_checks": [
-        "official Ombudsman publisher and complaint page identity verified",
-        "Croatian-language page content and complaint route reviewed; the /en/ path does not serve English text",
-        "undated page, scope limits, fee statement and available submission routes recorded",
-        "linked complaint forms and complaint payloads are not retained"
+        "official publisher, exact page identity, language and URL checked 2026-10-25",
+        "the locally retained article scope was compared with the current visible official page",
+        "publisher shell and unrelated page content are excluded; page-specific dynamic forms and linked files are not retained",
+        "Use the source-specific Article 18(3) assessment recorded in source-acceptance.json; no general site reuse grant is inferred.",
+        "local-copy acceptance does not certify topic coverage or country completion"
       ],
-      "acceptance_policy": "A human-reviewed official link may be used within its checked identity, language, date/cutoff, relevant content, and limitations; capture and conversion are not prerequisites. This rule governs optional local-copy work only. For legislation, use a government consolidation or closest government-published version; consult a Gazette act only for a material gap."
+      "acceptance_policy": "A reviewed official link remains usable within its recorded scope. Local retention is limited to the accepted article body and its source-specific reuse basis; recheck undated or operational details on the live page. This rule does not establish legal-topic sufficiency."
     },
     {
       "rule_id": "hr-personal-data-act-publisher-selector-pending-v1",
@@ -1349,17 +1354,18 @@
       "source_ids": [
         "hr-mvep-visa-appeal-current"
       ],
-      "retrieval": "Use the reviewed official link within its recorded scope, checked date, language and limitations. Re-open the official page when a current answer is needed; do not collect submissions or personal data.",
-      "conversion": "Not applicable for link-only use. No general MVEP republication permission was established; no page text is retained.",
-      "selector": "not_applicable_link_only",
-      "status": "official_link_reviewed_local_capture_optional",
+      "retrieval": "Open the current Croatian MVEP appeal page; compare the complete visible article with the local text. The historic capture did not store raw bytes.",
+      "conversion": "Exclude navigation and shell. Preserve the page’s stated deadlines, fee, route and the inconsistent court-email line; recheck before use.",
+      "selector": "manual visible Croatian article text; historic selector `div#content .page_content` was recorded with the 2026-10-19 article hash",
+      "status": "source_accepted_manual_article_text",
       "semantic_checks": [
-        "official MVEP publisher and current appeal-page identity verified",
-        "displayed appeal route, time limits, fee, decision period and court route reviewed against the current official page and identified legal sources",
-        "undated page and unresolved application of the fee to qualifying Directive family members recorded",
-        "no page text or appeal submission data is retained"
+        "official publisher, exact page identity, language and URL checked 2026-10-25",
+        "the locally retained article scope was compared with the current visible official page",
+        "publisher shell and unrelated page content are excluded; page-specific dynamic forms and linked files are not retained",
+        "Use the source-specific Article 18(3) assessment recorded in source-acceptance.json; this is not a general MVEP reuse licence.",
+        "local-copy acceptance does not certify topic coverage or country completion"
       ],
-      "acceptance_policy": "A human-reviewed official link may be used within its checked identity, language, date/cutoff, relevant content, and limitations; capture and conversion are not prerequisites. This rule governs optional local-copy work only. For legislation, use a government consolidation or closest government-published version; consult a Gazette act only for a material gap."
+      "acceptance_policy": "A reviewed official link remains usable within its recorded scope. Local retention is limited to the accepted article body and its source-specific reuse basis; recheck undated or operational details on the live page. This rule does not establish legal-topic sufficiency."
     },
     {
       "rule_id": "hr-legal-aid-tariff-2025-nn-eli-v1",
