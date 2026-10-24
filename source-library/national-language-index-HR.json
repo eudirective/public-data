@@ -1922,7 +1922,7 @@
       "official_source": "https://home-affairs.ec.europa.eu/document/download/1d79f44d-49ba-4847-951e-129f924b1051_en",
       "official_language_page": "https://home-affairs.ec.europa.eu/document/download/1d79f44d-49ba-4847-951e-129f924b1051_en",
       "status": "not_added",
-      "availability": "english_only_verified",
+      "availability": "localized_full_text_not_verified",
       "reason": "Only an English 2024 Handbook PDF is recorded for this source; no localized full-text edition was verified in the registered locator.",
       "library_content_state": "no_local_representation"
     }
