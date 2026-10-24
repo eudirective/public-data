@@ -240,14 +240,39 @@
       "language": "Bulgarian and English",
       "version_or_cutoff": "The current MVR service page listed this six-page PDF on 24 October 2026; no edition date is printed on the form.",
       "scope": "Application for permanent residence by EU citizens and eligible family members.",
-      "reviewed_content": "The current parent page labels and links the permanent-residence application. The linked six-page PDF opened on 24 October 2026; its Bulgarian and English title, applicant and family-member fields, eligibility section, supporting-document checklist, and signature sections were inspected.",
+      "reviewed_content": "The current MVR service page labels and links the permanent residence application. The six-page bilingual MVR-linked form was opened and visually reviewed. The local document is the corresponding form as published in the official State Gazette as Annex № 4 (9(1)) to Instruction № 8121з-1276; all six pages and their layout were reviewed from the Gazette PDF.",
       "limitations": [
-        "The current MVR parent service page is the preferred rediscovery route; upload URLs may change.",
-        "Direct local HTTP retrieval returned 403 on 24 October 2026. The PDF can be rendered by the browser tool, but no raw local PDF was retained.",
-        "The captured text extraction loses the form layout; the official PDF is the form to use and no local copy is accepted.",
-        "Review covers form identity and visible structure, not whether supporting-document requirements are complete."
+        "The MVR service page is the preferred current rediscovery route; MVR upload URLs may change. Its linked PDF has no printed edition date.",
+        "The locally stored document is the official State Gazette Annex № 4 published in 2018, not a retained copy of the MVR website PDF. The Gazette annex was visually matched to the six-page form currently linked by MVR on 24 October 2026; the MVR payload itself was not downloaded locally.",
+        "Review covers the form identity, page sequence, and visible structure, not whether eligibility or supporting-document requirements are legally complete."
       ],
-      "supporting_sources": []
+      "supporting_sources": [
+        {
+          "title": "State Gazette issue 91/2018: Instruction № 8121з-1276",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=130929",
+          "role": "official publication identifying Instruction № 8121з-1276 and Annex № 4"
+        },
+        {
+          "title": "State Gazette Annex № 4 PDF",
+          "url": "https://dv.parliament.bg/DVPics/2018/91_18/91_mvr_pril_4.pdf",
+          "role": "official six-page form retained unchanged at documents/forms/bg-eu-instruction-annex-4-permanent-residence-application-2018.pdf"
+        },
+        {
+          "title": "MVR EU residence-document service page",
+          "url": "https://www.mvr.bg/migration/административни-услуги/административни-услуги-за-граждани/издаване-на-документи-на-граждани-на-ес-и-на-членовете-на-техните-семейства",
+          "role": "current rediscovery route; the listed six-page form was visually checked on 24 October 2026"
+        },
+        {
+          "title": "2019 amendment to Instruction № 8121з-1276, State Gazette issue 65/2019",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=140569",
+          "role": "amendment-chain check; does not expressly amend or replace Annex № 4"
+        },
+        {
+          "title": "2021 amendment to Instruction № 8121з-1276, State Gazette issue 29/2021",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=157296",
+          "role": "amendment-chain check; does not expressly amend or replace Annex № 4"
+        }
+      ]
     },
     "bg-eu-form-extended": {
       "status": "usable_official_reference",
@@ -258,14 +283,39 @@
       "language": "Bulgarian and English",
       "version_or_cutoff": "The current MVR service page lists this six-page form; no edition date is printed. The non-www official MVR upload URL opened on 24 October 2026; the www variant returned 403.",
       "scope": "Application for extended residence by EU citizens and eligible family members.",
-      "reviewed_content": "The current parent page labels the extended-residence application. The non-www official upload opened as a six-page PDF on 24 October 2026; the Bulgarian and English title and form identity were checked. The archived text extraction is retained only as research evidence, not accepted as a local copy.",
+      "reviewed_content": "The current MVR service page labels and links the long-term/extended residence application. The six-page bilingual MVR-linked form was opened and visually reviewed. The local document is the corresponding form as published in the official State Gazette as Annex № 3 (6(1)) to Instruction № 8121з-1276; all six pages and their layout were reviewed from the Gazette PDF.",
       "limitations": [
-        "The current MVR parent service page is the preferred rediscovery route; upload URLs may change.",
-        "Direct local HTTP retrieval returned 403 on 24 October 2026. The PDF can be rendered by the browser tool, but no raw local PDF was retained.",
-        "The captured text extraction loses the form layout; the official PDF is the form to use and no local copy is accepted.",
-        "Review covers form identity and visible structure, not whether supporting-document requirements are complete."
+        "The MVR service page is the preferred current rediscovery route; MVR upload URLs may change. Its linked PDF has no printed edition date.",
+        "The locally stored document is the official State Gazette Annex № 3 published in 2018, not a retained copy of the MVR website PDF. The Gazette annex was visually matched to the six-page form currently linked by MVR on 24 October 2026; the MVR payload itself was not downloaded locally.",
+        "Review covers the form identity, page sequence, and visible structure, not whether eligibility or supporting-document requirements are legally complete."
       ],
-      "supporting_sources": []
+      "supporting_sources": [
+        {
+          "title": "State Gazette issue 91/2018: Instruction № 8121з-1276",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=130929",
+          "role": "official publication identifying Instruction № 8121з-1276 and Annex № 3"
+        },
+        {
+          "title": "State Gazette Annex № 3 PDF",
+          "url": "https://dv.parliament.bg/DVPics/2018/91_18/91_mvr_pril_3.pdf",
+          "role": "official six-page form retained unchanged at documents/forms/bg-eu-instruction-annex-3-extended-residence-application-2018.pdf"
+        },
+        {
+          "title": "MVR EU residence-document service page",
+          "url": "https://www.mvr.bg/migration/административни-услуги/административни-услуги-за-граждани/издаване-на-документи-на-граждани-на-ес-и-на-членовете-на-техните-семейства",
+          "role": "current rediscovery route; the listed six-page form was visually checked on 24 October 2026"
+        },
+        {
+          "title": "2019 amendment to Instruction № 8121з-1276, State Gazette issue 65/2019",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=140569",
+          "role": "amendment-chain check; does not expressly amend or replace Annex № 3"
+        },
+        {
+          "title": "2021 amendment to Instruction № 8121з-1276, State Gazette issue 29/2021",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=157296",
+          "role": "amendment-chain check; does not expressly amend or replace Annex № 3"
+        }
+      ]
     },
     "bg-mvr-regional-offices": {
       "status": "usable_official_reference",
@@ -652,7 +702,7 @@
     ],
     "note": "Record a human-reviewed official link when it supports a source area without retaining a local copy. This does not change the accepted local-source count."
   },
-  "accepted_source_count": 12,
+  "accepted_source_count": 14,
   "records": {
     "bg-eu-free-movement-act": {
       "status": "accepted",
@@ -1183,6 +1233,94 @@
       },
       "accepted_on": "2026-10-24",
       "document_path": "documents/guidance/bg-mfa-visa-hub.md"
+    },
+    "bg-eu-form-extended": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The State Gazette issue 91/2018 official record identifies Instruction № 8121з-1276 of 11 October 2018. Its text refers to the application in Annex № 3 under Article 6(1). The unmodified six-page PDF was downloaded from the official Gazette attachment URL and its SHA-256 was verified."
+        },
+        "current_legal_version": {
+          "status": "pass",
+          "review_date": "2026-10-24",
+          "evidence": "The accepted file is the form as published with Instruction № 8121з-1276 in State Gazette issue 91/2018 (2 November 2018), not a current consolidated instruction. The 2019 and 2021 Gazette amendment records were checked and do not expressly amend or replace Annex № 3. The MVR EU residence service page still linked a visually matching six-page form on 24 October 2026. No edition date is printed on the form; currentness is bounded to that observed MVR listing and visual match."
+        },
+        "extraction_completeness": {
+          "status": "pass",
+          "evidence": "Official Gazette PDF retained byte-for-byte at documents/forms/bg-eu-instruction-annex-3-extended-residence-application-2018.pdf. SHA-256 c9105e9f66221242152e818be0e74cb2eeb054a4779b7e506a77c146f7b3bddf. The PDF contains six pages; all page images and sequence were visually inspected. The form is image-based and native text extraction is incomplete, so no derived transcription is substituted."
+        },
+        "attachments_review": {
+          "status": "pass",
+          "evidence": "The complete six-page bilingual application form, including eligibility fields, applicant/family member details, document checklist, signature fields and administrative-use sections, was visually reviewed. No separate attachments accompany the form."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "Official blank application form published as Annex № 3 (6(1)) to Minister of Interior Instruction № 8121з-1276 governing residence-document issuance for EU citizens and family members."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "official_normative_annex_only",
+          "basis_id": "bg-copyright-act-art-4-1",
+          "evidence": "Bulgarian Copyright and Related Rights Act Article 4(1) excludes normative acts of state bodies from copyright. This acceptance covers only the form as an official annex to the normative Instruction, obtained from the State Gazette, and not the MVR website page shell or unrelated database content. Official Act: https://www.mlsp.government.bg/uploads/3/zakonodatelstvo/zakon-za-avtorskoto-pravo-i-srodnite-mu-prava.pdf . Current consolidated Article 4 text: https://legislation.apis.bg/doc/8772/0/par5%D0%B3 ."
+        }
+      },
+      "semantic_review": {
+        "status": "passed",
+        "method": "complete_visual_page_review_and_current_MVR_form_comparison",
+        "review_date": "2026-10-24",
+        "scope": "Complete six-page bilingual official Gazette Annex № 3 application form; currentness cross-check limited to the matching form linked by MVR on 24 October 2026.",
+        "evidence": "The title and the ordered six-page form were reviewed visually, including the residence category, application fields, eligibility/supporting-document sections, signatures, and administration-only fields. Compared the visible structure and page sequence with the form linked from the current MVR service page. The native Gazette PDF is retained unchanged; the MVR-hosted payload was not copied. This is a form document, not a legal analysis of the eligibility criteria or proof that the listed document requirements are complete.",
+        "source_sha256": "c9105e9f66221242152e818be0e74cb2eeb054a4779b7e506a77c146f7b3bddf",
+        "source_text_sha256": null,
+        "document_sha256": "c9105e9f66221242152e818be0e74cb2eeb054a4779b7e506a77c146f7b3bddf"
+      },
+      "accepted_on": "2026-10-24",
+      "document_path": "documents/forms/bg-eu-instruction-annex-3-extended-residence-application-2018.pdf"
+    },
+    "bg-eu-form-permanent": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The State Gazette issue 91/2018 official record identifies Instruction № 8121з-1276 of 11 October 2018. Its text refers to the application in Annex № 4 under Article 9(1). The unmodified six-page PDF was downloaded from the official Gazette attachment URL and its SHA-256 was verified."
+        },
+        "current_legal_version": {
+          "status": "pass",
+          "review_date": "2026-10-24",
+          "evidence": "The accepted file is the form as published with Instruction № 8121з-1276 in State Gazette issue 91/2018 (2 November 2018), not a current consolidated instruction. The 2019 and 2021 Gazette amendment records were checked and do not expressly amend or replace Annex № 4. The MVR EU residence service page still linked a visually matching six-page form on 24 October 2026. No edition date is printed on the form; currentness is bounded to that observed MVR listing and visual match."
+        },
+        "extraction_completeness": {
+          "status": "pass",
+          "evidence": "Official Gazette PDF retained byte-for-byte at documents/forms/bg-eu-instruction-annex-4-permanent-residence-application-2018.pdf. SHA-256 506a542929540143d1be14d4565a46fee3c1e10a77774e27c55bf7d20610dde9. The PDF contains six pages; all page images and sequence were visually inspected. The form is image-based and native text extraction is incomplete, so no derived transcription is substituted."
+        },
+        "attachments_review": {
+          "status": "pass",
+          "evidence": "The complete six-page bilingual application form, including eligibility fields, applicant/family member details, document checklist, signature fields and administrative-use sections, was visually reviewed. No separate attachments accompany the form."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "Official blank application form published as Annex № 4 (9(1)) to Minister of Interior Instruction № 8121з-1276 governing residence-document issuance for EU citizens and family members."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "official_normative_annex_only",
+          "basis_id": "bg-copyright-act-art-4-1",
+          "evidence": "Bulgarian Copyright and Related Rights Act Article 4(1) excludes normative acts of state bodies from copyright. This acceptance covers only the form as an official annex to the normative Instruction, obtained from the State Gazette, and not the MVR website page shell or unrelated database content. Official Act: https://www.mlsp.government.bg/uploads/3/zakonodatelstvo/zakon-za-avtorskoto-pravo-i-srodnite-mu-prava.pdf . Current consolidated Article 4 text: https://legislation.apis.bg/doc/8772/0/par5%D0%B3 ."
+        }
+      },
+      "semantic_review": {
+        "status": "passed",
+        "method": "complete_visual_page_review_and_current_MVR_form_comparison",
+        "review_date": "2026-10-24",
+        "scope": "Complete six-page bilingual official Gazette Annex № 4 application form; currentness cross-check limited to the matching form linked by MVR on 24 October 2026.",
+        "evidence": "The title and the ordered six-page form were reviewed visually, including the residence category, application fields, eligibility/supporting-document sections, signatures, and administration-only fields. Compared the visible structure and page sequence with the form linked from the current MVR service page. The native Gazette PDF is retained unchanged; the MVR-hosted payload was not copied. This is a form document, not a legal analysis of the eligibility criteria or proof that the listed document requirements are complete.",
+        "source_sha256": "506a542929540143d1be14d4565a46fee3c1e10a77774e27c55bf7d20610dde9",
+        "source_text_sha256": null,
+        "document_sha256": "506a542929540143d1be14d4565a46fee3c1e10a77774e27c55bf7d20610dde9"
+      },
+      "accepted_on": "2026-10-24",
+      "document_path": "documents/forms/bg-eu-instruction-annex-4-permanent-residence-application-2018.pdf"
     }
   },
   "required_checks_scope": "local_copy_required_checks applies only before accepting a retained local artifact. Official link acceptance uses official_reference_review_schema and does not require retrieval, conversion, extraction, hashes, replay, or copy/republication permission.",
