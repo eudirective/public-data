@@ -379,6 +379,96 @@
         "The applicable route and deadline must be checked against the challenged decision and its appeal notice.",
         "Link-only reference; no local copy or automated retrieval rule is accepted."
       ]
+    },
+    "fr-legifrance-api-open-data-docs": {
+      "status": "usable_official_reference",
+      "publisher": "DILA, Légifrance",
+      "url": "https://www.legifrance.gouv.fr/contenu/pied-de-page/open-data-et-api",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "Live documentation checked 2026-10-24; its API page identifies the stable API as opened 2023-04-04 and does not display a current review date.",
+      "scope": "Official Légifrance/DILA documentation for its public legal-data API and open-data resources.",
+      "reviewed_content": "The page states that stable API use is available after registration via PISTE, subject to the displayed licence, terms, and quotas; it describes open-data alternatives and links to technical documentation.",
+      "limitations": [
+        "This is technical acquisition documentation, not a legal text or proof that a specific retrieval method works for this library.",
+        "API terms, endpoints, quotas, and current service status must be rechecked before implementation; no API credentials were used and no retrieval rule was built.",
+        "Link-only reference; no local copy is accepted."
+      ]
+    },
+    "fr-legifrance-api-faq": {
+      "status": "usable_official_reference",
+      "publisher": "DILA, Légifrance",
+      "url": "https://www.legifrance.gouv.fr/contenu/pied-de-page/foire-aux-questions-api",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "Live FAQ checked 2026-10-24; it states that the page is under construction and displays no revision date.",
+      "scope": "Official technical FAQ on authentication, API search/consultation examples, and bulk retrieval of legal data.",
+      "reviewed_content": "The FAQ describes OAuth client-credentials authentication through separate PISTE sandbox and production environments, example consultation methods, legal-data search, and a bulk open-data alternative.",
+      "limitations": [
+        "The publisher says the FAQ is under construction; treat it as orientation and confirm the current PISTE Swagger, terms, and quotas before any implementation.",
+        "Examples are not stored or treated as credentials; no account, API token, or retrieval run was used.",
+        "Link-only technical reference; no local copy or retrieval rule is accepted."
+      ]
+    },
+    "fr-france-visas-family-french": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry for Europe and Foreign Affairs / France-Visas",
+      "url": "https://www.france-visas.gouv.fr/famille-de-francais",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "Live guidance page checked 2026-10-24; no page publication or review date displayed.",
+      "scope": "France-Visas guidance for family members of French citizens, organized by relationship and intended stay duration.",
+      "reviewed_content": "The live page describes separate spouse, child, ascendant, and parent-of-French-minor routes and directs applicants to the visa assistant for supporting documents.",
+      "limitations": [
+        "Dynamic guidance for family of French citizens; it is distinct from the EU-citizen family route and does not define that route.",
+        "Mission-specific requirements and substantive legal eligibility require separate official sources.",
+        "Link-only reference; no local copy and no application interaction."
+      ]
+    },
+    "fr-france-visas-short-stay": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry for Europe and Foreign Affairs / France-Visas",
+      "url": "https://www.france-visas.gouv.fr/visa-de-court-sejour",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "Live guidance page checked 2026-10-24; no page publication or review date displayed.",
+      "scope": "General France-Visas guidance on short-stay visas, including Schengen and French overseas territories.",
+      "reviewed_content": "The page describes the general short-stay route, the 90-days-in-any-180-day period for Schengen short stays, visa-exempt categories including EU/EEA/Swiss nationals, and separate overseas-territory routes.",
+      "limitations": [
+        "General short-stay guidance does not replace the distinct EU-family-member route or country-specific mission instructions.",
+        "The page is dynamic and includes interactive tools; recheck before date-sensitive use.",
+        "Link-only reference; no local copy or visa-assistant interaction."
+      ]
+    },
+    "fr-france-visas-long-stay": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry for Europe and Foreign Affairs / France-Visas",
+      "url": "https://www.france-visas.gouv.fr/web/france-visas/visa-de-long-sejour",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "Live guidance page checked 2026-10-24; no page publication or review date displayed.",
+      "scope": "General France-Visas guidance on national long-stay visa categories, post-arrival steps, and territorial scope.",
+      "reviewed_content": "The page describes long-stay routes over 90 days, distinguishes VLS-TS and visas requiring a residence-title application, and names EU/EEA/Swiss visa-free categories for European France with stated territory distinctions.",
+      "limitations": [
+        "General visa rules do not establish a family member's entitlement under EU free-movement law; the separate EU-family route and applicable law control.",
+        "Dynamic guidance; country-specific documents and mission procedures may differ.",
+        "Link-only reference; no local copy or application interaction."
+      ]
+    },
+    "fr-france-visas-fees": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry for Europe and Foreign Affairs / France-Visas",
+      "url": "https://www.france-visas.gouv.fr/documents/d/france-visas/frais-de-visa-francais",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "One-page official PDF inspected 2026-10-24; no publication or revision date is printed.",
+      "scope": "Official fee table for visa application categories, including listed reductions and exemptions.",
+      "reviewed_content": "The PDF displays full and reduced fees and states an exemption for EU/EEA/Swiss family members for specified short-stay/Schengen and overseas-territory categories; it directs other cases to country-specific pages.",
+      "limitations": [
+        "The PDF has no visible revision date; retain it as a last-known official fee reference with a freshness caveat and verify the current amount and exemption on the relevant mission page.",
+        "The table is category-specific and does not establish every applicant's fee treatment.",
+        "Link-only reference; no local copy or application interaction."
+      ]
     }
   },
   "official_reference_review_schema": {
