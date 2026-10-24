@@ -12,7 +12,7 @@
   "legacy_inventory": {
     "candidate_records": 55,
     "candidate_texts_converted_and_replay_verified": 45,
-    "local_acceptance_note": "Fifteen BOE law texts and thirty broader government pages were converted as review artifacts. The BOE text of Real Decreto 240/2007 is accepted as one local document after separate publisher, version, extraction, attachment, and classification checks. Other local conversions remain unaccepted; the separate register accepts 25 external references within reviewed scopes."
+    "local_acceptance_note": "Fifteen BOE law texts and thirty broader government pages were converted as review artifacts. The BOE text of Real Decreto 240/2007 is accepted as one local document after separate publisher, version, extraction, attachment, and classification checks. Other local conversions remain unaccepted; the separate register accepts 25 external references within reviewed scopes. The legacy verifier still reports stale conversion hashes for the remaining BOE candidates; they remain unaccepted until reconciled."
   },
   "official_reference_reviews": {
     "es-06": {
