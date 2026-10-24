@@ -1,6 +1,6 @@
 # EU source retrieval library
 
-Library release version: 0.9.0
+Library release version: 0.10.0
 
 The reusable national-pack layout is documented in [the country-pack template](templates/country-pack/LAYOUT.md). The latest structural inventory is in [the folder audit](references/library-folder-audit-2026-10-19.md). The shared English EU corpus serves every pack; country-level `core/` folders are kept only when they contain actual official EU-language files. Ireland and Malta use that shared corpus for English instead of duplicating English files.
 
@@ -39,6 +39,12 @@ The 2026-10-24 language-mirror update adds 69-row indexes for [EL](national-lang
 ### Norwegian EEA source crosswalk
 
 Norwegian is not one of the [EU's 24 official languages](https://european-union.europa.eu/principles-countries-history/languages_en). The [NO indexes](national-language-index-NO.json) and [shared-core crosswalk](shared-core-index-NO.json) therefore record EEA counterparts rather than treating Norwegian as a complete EU-language mirror. EFTA EEA-Lex identifies Norwegian EEA Supplement translations for [Directive 2004/38/EC](https://www.efta.int/eea-lex/32004l0038), [Recommendation 2013/461/EU](https://www.efta.int/eea-lex/32013h0461) and [GDPR 2016/679](https://www.efta.int/eea-lex/32016r0679); each is recorded as an official external reference with its Joint Committee Decision, entry-into-force date and Supplement issue/pages. Direct EFTA PDF attempts for the 2004/38 and GDPR issues returned HTTP 403; no local PDFs are claimed, and the SOLVIT issue is linked by EEA-Lex metadata. The [EEA-Lex factsheet for Regulation 2018/1725](https://www.efta.int/eea-lex/32018r1725) says the EEA EFTA States consider it not relevant for incorporation. The other rows are explicit “not verified in this review” or CJEU language dispositions, not findings that a Norwegian source cannot exist. The Directive 2004/38 EEA reference carries a [Joint Declaration attached to JCD 158/2007](https://www.efta.int/sites/default/files/documents/legal-texts/eea/other-legal-documents/adopted-joint-committee-decisions/2007%20-%20English/158-2007-declaration.pdf): the EEA Agreement has no equivalent to EU citizenship and limits the directive's scope, including the separate treatment of immigration. An EEA version or EFTA Court decision is not a substitute for the corresponding EU act or CJEU judgment.
+
+### Bulgarian, Czech, Estonian, Croatian, Italian, Latvian, Lithuanian and Maltese EU-core mirrors
+
+The 2026-10-24 language-mirror update adds 69-row indexes for BG, CS, ET, HR, IT, LV, LT and MT. It accepts 59 Bulgarian, 62 Czech, 62 Estonian, 48 Croatian, 67 Italian, 62 Latvian, 62 Lithuanian and 62 Maltese local representations (484 total). Each accepted representation passed the official publisher identity, source identity, target-language, and conversion checks; raw response hashes were recorded, and all 484 conversions replayed deterministically from the archived captures. The indexes retain link-only outcomes separately. These counts establish representation-level acceptance only, not present-day currentness, legal force, completeness of any source, topic coverage or national-pack completion.
+
+The 68 entries without local target-language text comprise the 2024 Visa Code Handbook, whose registered source locator contains an English PDF but no verified localized full-text edition, and SWD(2014)284 in each language, 51 CJEU judgments for which the exact target-language expression route returned HTTP 404, and the Croatian Charter entry whose Cellar expression route returned HTTP 404 (a direct EUR-Lex page request returned HTTP 202 without a document body). Those results are retrieval limits and do not prove that no target-language text exists. The original English record remains linked for every row. No target-language live currentness recheck was performed. Raw source captures and the retrieval manifests are retained in the Monitor local-only archive.
 
 ### French, Dutch, Spanish and Portuguese EU-core mirrors
 
