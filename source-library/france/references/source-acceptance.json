@@ -204,18 +204,18 @@
       ]
     },
     "fr-dila-legifrance-dtd": {
-      "status": "human_review_required",
+      "status": "usable_official_reference",
       "publisher": "DILA open-data technical directory",
       "url": "https://echanges.dila.gouv.fr/OPENDATA/DTD_LEGIFRANCE/",
       "checked_on": "2026-10-24",
       "language": "French",
       "version_or_cutoff": "Live listing has DTD_LEGIFRANCE_20181017.7z, with ancillary migration documentation dated 2023 and 2024.",
-      "scope": "Technical XML schema leads for a possible future DILA LEGI parser.",
-      "reviewed_content": "Current index was checked; no newer DTD package is listed.",
+      "scope": "Official DILA index of the LEGI DTD package and related technical/migration documents; potential source for a future parser, not a current-schema certification.",
+      "reviewed_content": "The official index was live-checked on 2026-10-24. It lists DTD_LEGIFRANCE_20181017.7z, migration examples and a migration note dated 2023, and DILA_NOR_technique_JORF-20240710.pdf; no newer DTD package is listed.",
       "limitations": [
-        "Schema appears old and was not downloaded or validated.",
-        "No LEGI parser is being implemented in this batch.",
-        "Human review is required before selecting a DTD version for any retrieval or conversion rule."
+        "Accepted as a link to DILA's official technical-material index, with the package dates and scope recorded.",
+        "This does not establish that the 2018 DTD applies to the current LEGI Open Data format. The later migration materials create a concrete applicability question; human validation against current data is required before selecting a schema or implementing a parser.",
+        "The DTD package was not downloaded or validated, and no LEGI parser is being implemented in this batch."
       ]
     },
     "fr-service-public-family-card-f19315": {
