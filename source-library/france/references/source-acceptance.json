@@ -469,6 +469,81 @@
         "The table is category-specific and does not establish every applicant's fee treatment.",
         "Link-only reference; no local copy or application interaction."
       ]
+    },
+    "fr-ministry-anef-overview": {
+      "status": "usable_official_reference",
+      "publisher": "Direction générale des étrangers en France, Ministry of the Interior",
+      "url": "https://www.immigration.interieur.gouv.fr/limmigration-en-france/ladministration-numerique-pour-etrangers-en-france",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "Live ministry overview checked 2026-10-24; no page publication or review date displayed.",
+      "scope": "Official overview of the ANEF digital service and the procedures the ministry lists as available through it.",
+      "reviewed_content": "The page describes ANEF as a ministry system and lists residence-title procedures for EU/EEA/Swiss citizens and family members, alongside other categories and support channels.",
+      "limitations": [
+        "This is operational service guidance, not the legal basis for eligibility or a guarantee that every applicant category uses the service.",
+        "The service is dynamic; recheck the category-specific ANEF task and current legal route before relying on it.",
+        "No application, login, or applicant data was accessed; no local copy is accepted."
+      ]
+    },
+    "fr-cnil-agdref-information": {
+      "status": "usable_official_reference",
+      "publisher": "Commission nationale de l’informatique et des libertés (CNIL)",
+      "url": "https://www.cnil.fr/fr/application-de-gestion-des-dossiers-des-ressortissants-etrangers-en-france-agdref",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "Official CNIL page located through its indexed result; the result indicates publication about five years earlier. Direct page open timed out on 2026-10-24.",
+      "scope": "CNIL public information about AGDREF, personal-data access/retention rights, authorized access, and referenced legal provisions.",
+      "reviewed_content": "The official CNIL result describes access, rectification and restriction rights, categories of authorized users, retention rules, and CESEDA provisions. It also says the system could evolve or be replaced by SI AEF.",
+      "limitations": [
+        "The direct page could not be opened during this check; the reviewed information came from the official CNIL indexed page result.",
+        "The page itself raises a concrete currentness limit by stating the system could evolve or be replaced. It is retained as a CNIL reference about AGDREF as described there, not as proof of the current information-system architecture.",
+        "Check current CESEDA and CNIL material before relying on present processing status or rights for a specific data record; no personal data was accessed."
+      ]
+    },
+    "fr-defenseur-des-droits-portal": {
+      "status": "usable_official_reference",
+      "publisher": "Défenseur des droits",
+      "url": "https://www.defenseurdesdroits.fr/",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "Live official portal checked 2026-10-24; no formal page version date.",
+      "scope": "Official identity, remit, referral and public complaint entry point of the French independent rights authority.",
+      "reviewed_content": "The portal identifies the Défenseur des droits as an independent authority, describes support for public-service disputes, links to a complaint entry point and territorial delegates, and hosts its public decisions and reports.",
+      "limitations": [
+        "The portal does not replace statutory appeals and does not establish their deadlines or suspensive effect.",
+        "Complaint forms are dynamic; this review did not submit a complaint or enter personal data.",
+        "Link-only institutional reference; no local copy is accepted."
+      ]
+    },
+    "fr-defenseur-delays-titles-report-2026": {
+      "status": "usable_official_reference",
+      "publisher": "Défenseur des droits",
+      "url": "https://www.defenseurdesdroits.fr/degradation-des-delais-dinstruction-des-titres-de-sejour-la-defenseure-des-droits-publie-un-rapport",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "Report published 17 July 2026; official landing page checked 2026-10-24.",
+      "scope": "Oversight report on residence-permit processing delays and related prefecture/ANEF service problems.",
+      "reviewed_content": "The landing page states that the report's survey covered 2019–2023 and received responses from 65 prefectures representing 63% of national demand for residence permits in 2023; it also reports a 2025 renewal-delay figure attributed to the Interior Ministry.",
+      "limitations": [
+        "This is oversight and operational evidence, not legislation or a binding determination of an individual application.",
+        "The prefecture survey is not a complete census; its stated dates and respondent coverage must remain attached to any use of the findings.",
+        "The landing page notes the report PDF had not yet been made accessible when posted; no local copy is accepted."
+      ]
+    },
+    "fr-legal-aid-act-91-647": {
+      "status": "usable_official_reference",
+      "publisher": "DILA, Légifrance",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000537611/2026-05-08",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "Consolidated version displayed as in force on 8 May 2026; text data last updated 13 June 2026.",
+      "scope": "Law No. 91-647 of 10 July 1991 on legal aid, including access to legal aid and intervention of counsel in specified proceedings.",
+      "reviewed_content": "The official consolidated law identifies the legal-aid framework. Article 3 lists EU nationals and certain foreign residents and proceedings as eligible categories, subject to its conditions and exceptions.",
+      "limitations": [
+        "This law does not establish an individual's eligibility or current means thresholds by itself; check current implementing rules and facts.",
+        "A specific immigration proceeding must be matched to the listed statutory categories and applicable amendments.",
+        "Link-only reference; no local copy or automated retrieval rule is accepted."
+      ]
     }
   },
   "official_reference_review_schema": {
