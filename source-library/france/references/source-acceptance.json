@@ -42,22 +42,6 @@
         "This approval is for reference use only and grants no permission to copy or republish the page."
       ]
     },
-    "fr-cada-access-portal": {
-      "status": "usable_official_reference",
-      "publisher": "Commission d’accès aux documents administratifs (CADA)",
-      "url": "https://www.cada.fr/",
-      "checked_on": "2026-10-24",
-      "language": "French",
-      "version_or_cutoff": "Live portal checked 2026-10-24; no formal page version date; page links to its 2025 activity report.",
-      "scope": "CADA remit and public guidance for access to administrative documents and archives.",
-      "reviewed_content": "The live portal identifies CADA as an independent authority, describes advice on refusals to communicate administrative documents, and links to current entry points.",
-      "limitations": [
-        "Applies to access-to-records disputes within CRPA scope, not immigration merits appeals.",
-        "Check CRPA Book III for the exact mandatory referral requirements; portal summary is not primary law.",
-        "Dynamic submission forms are not captured.",
-        "The reviewed CADA legal notice authorizes hyperlinks but grants no general text-reuse permission; its archived page capture remains in the Monitor research archive and was not copied under documents/."
-      ]
-    },
     "fr-cada-open-opinions-dataset": {
       "status": "usable_official_reference",
       "publisher": "CADA / data.gouv.fr",
@@ -102,38 +86,6 @@
         "The listing is not current through 2026-10-24 and does not prove every delta is present or replayable.",
         "No archive was downloaded; no retrieval rule, hash, correction/deletion handling, or reconstructed current text was validated.",
         "Use as an acquisition lead only until a complete replay is independently verified."
-      ]
-    },
-    "fr-france-visas-family-eu": {
-      "status": "usable_official_reference",
-      "publisher": "Ministry for Europe and Foreign Affairs / France-Visas",
-      "url": "https://www.france-visas.gouv.fr/famille-de-citoyen-europeen",
-      "checked_on": "2026-10-24",
-      "language": "French",
-      "version_or_cutoff": "Live page checked 2026-10-24; no publication/review date displayed.",
-      "scope": "France-Visas route for qualifying family members of EU citizens (other than French), EEA and Swiss citizens, with visa assistant links.",
-      "reviewed_content": "The live page lists covered family relationships and distinguishes visa-required and visa-exempt entry routes; it directs over-three-month and overseas-territory questions to the embassy or consulate.",
-      "limitations": [
-        "Dynamic visa guidance; verify current criteria and mission instructions before reliance.",
-        "It does not cover family of French citizens or replace CESEDA and EU law.",
-        "Do not automate the visa assistant or application.",
-        "The archived candidate is a short browser-derived summary, not a complete capture of official page text; retain the reviewed official link and do not present that summary as a source-text copy.",
-        "France-Visas legal notices state that reproducing site content requires prior authorization; the archived candidate is only a browser-derived summary, so retain the official link but no local copy. Terms checked at https://www.france-visas.gouv.fr/mentions-legales."
-      ]
-    },
-    "fr-ta-nantes-official-site": {
-      "status": "usable_official_reference",
-      "publisher": "Tribunal administratif de Nantes / Conseil d’État administrative courts",
-      "url": "https://nantes.tribunal-administratif.fr/",
-      "checked_on": "2026-10-24",
-      "language": "French",
-      "version_or_cutoff": "Live court page checked 2026-10-24; news and service links are dynamic.",
-      "scope": "Official court identity, public filing entry point and court information.",
-      "reviewed_content": "The live court homepage links to Télérecours, hearing calendars and the administrative-jurisdiction directory.",
-      "limitations": [
-        "The home page does not itself establish visa jurisdiction or deadlines; cite CJA and the decision notice.",
-        "It is not a comprehensive local case-law dataset.",
-        "The tribunal's legal notice prohibits reuse or exploitation of site content; its archived candidate capture therefore remains in the Monitor research archive and is not copied under documents/."
       ]
     },
     "fr-nlex-profile": {
@@ -493,7 +445,7 @@
     ],
     "note": "Record a human-reviewed official link here when it supports a coverage layer without a retained local copy. This does not change the local accepted-source count."
   },
-  "accepted_source_count": 10,
+  "accepted_source_count": 13,
   "records": {
     "fr-service-public-eu-long-stay-f2651": {
       "status": "accepted_local_copy",
@@ -664,6 +616,60 @@
         "The publisher verification date is 2024-02-02. Age is recorded as a freshness caveat; this acceptance does not establish current law or procedure.",
         "Check current CESEDA provisions, the live ANEF route and the applicable family category before relying on procedural details."
       ]
+    },
+    "fr-cada-access-portal": {
+      "status": "accepted_local_copy",
+      "publisher": "Commission d’accès aux documents administratifs (CADA)",
+      "url": "https://www.cada.fr/",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "Dynamic portal. Monitor text capture retrieved 2026-10-19; live portal checked 2026-10-24.",
+      "scope": "CADA remit and public guidance for access to administrative documents and archives.",
+      "reviewed_content": "The current portal presents CADA's public remit, its role in access-to-document refusals and advice, and links to opinions, activity reporting and an online help tool. The accepted local file is a human-written summary, not a verbatim homepage capture.",
+      "limitations": [
+        "Homepage summary only; not the CRPA or an individual CADA opinion.",
+        "The page states broadly that CADA referral precedes litigation; verify the exact mandatory-referral scope and exceptions in the CRPA and the procedure at issue.",
+        "Dynamic tools, linked opinions and reports are not captured."
+      ],
+      "local_path": "documents/oversight/fr-cada-access-portal.md",
+      "source_document_kind": "project_authored_source_summary",
+      "reuse": "The legal notice expressly permits hyperlinks but is silent on general text reuse. The accepted file is an attributed project-authored summary of public-facing institutional information, excluding page design, images, logos, media and linked items. CRPA applicability is limited to qualifying public information; this is not a claim that every site element is reusable."
+    },
+    "fr-france-visas-family-eu": {
+      "status": "accepted_local_copy",
+      "publisher": "Ministry for Europe and Foreign Affairs / France-Visas",
+      "url": "https://www.france-visas.gouv.fr/famille-de-citoyen-europeen",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "No page version date displayed; live page checked 2026-10-24.",
+      "scope": "France-Visas route for qualifying family members of EU citizens (other than French), EEA and Swiss citizens, with visa assistant links.",
+      "reviewed_content": "The current France-Visas page was reviewed on 2026-10-24 and the earlier short archived summary was refreshed into a clearly labeled source summary covering eligible family categories, student-sponsor distinction and visa/application routes.",
+      "limitations": [
+        "Human-authored summary, not verbatim source text or a complete account of the page.",
+        "Dynamic visa guidance with no displayed page date; verify current criteria, visa assistant and mission instructions.",
+        "The page does not replace CESEDA, EU law or case-specific legal analysis."
+      ],
+      "local_path": "documents/guidance/fr-france-visas-family-eu.md",
+      "source_document_kind": "project_authored_source_summary",
+      "reuse": "France-Visas' legal notice identifies qualifying site content, subject to listed exclusions, as public information reusable under applicable law. It also asks users to contact the administration and contains additional commercial/promotional and website-reproduction language. The accepted file is an independently worded, attributed summary and includes no marks, logos, images or third-party content; this record does not decide every notice clause's application to downstream use."
+    },
+    "fr-ta-nantes-official-site": {
+      "status": "accepted_local_copy",
+      "publisher": "Tribunal administratif de Nantes / Conseil d’État administrative courts",
+      "url": "https://nantes.tribunal-administratif.fr/",
+      "checked_on": "2026-10-24",
+      "language": "French",
+      "version_or_cutoff": "Dynamic homepage; no page version date displayed. Monitor capture retrieved 2026-10-19; live homepage checked 2026-10-24.",
+      "scope": "Official court identity, public filing entry point and court information.",
+      "reviewed_content": "The current homepage was checked against the archived capture. It provides filing, case-information, hearing-role and administrative-jurisdiction directory entry points, plus changing news and decision headlines. The accepted file is a human-written operational summary, not a verbatim page capture.",
+      "limitations": [
+        "Dynamic operational reference; verify live links and availability.",
+        "The homepage does not establish venue, appeal routes or deadlines; use applicable CJA provisions and the decision notice.",
+        "The tribunal legal notice says only texts from its deliberations engage it and the Journal officiel version controls for legal texts reproduced on the site."
+      ],
+      "local_path": "documents/procedure/fr-ta-nantes-official-site.md",
+      "source_document_kind": "project_authored_source_summary",
+      "reuse": "The publisher's legal notice describes the site as a protected work and states a broad restriction on reuse of site elements. The accepted file is an original, attributed summary of public-facing operational information and reproduces no site design, imagery, logos or linked third-party materials. The CRPA may govern qualifying public information; this record does not decide that every page element falls within that regime."
     }
   }
 }
