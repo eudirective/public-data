@@ -1,43 +1,21 @@
-# Service Public: long-stay visa refusal and CRRV, F16162
+# Visa de long séjour (séjour de plus de 3 mois à 1 an)
 
-- Jurisdiction: france
-- Candidate ID: `fr-service-public-long-visa-refusal`
+- Jurisdiction: France
+- Source ID: `fr-service-public-long-visa-refusal`
 - Source type: `official_remedy_guidance`
-- Candidate URL: https://www.service-public.gouv.fr/particuliers/vosdroits/F16162
-- Resolved URL: https://www.service-public.gouv.fr/particuliers/vosdroits/F16162
-- Retrieved: 2026-10-19T02:35:49+00:00
-- Media type: `text/html`
-- Publisher/version evidence: Search result crawled within 2026-10-18 review; exact page version date not retained
-- Extraction: `body`
-- Exact response SHA-256: `c691d7189c818202a077e13f05a91ac531ec7126e7a839703c2a98fb4f26bf4b`
+- Language: French
+- Official URL: https://www.service-public.gouv.fr/particuliers/vosdroits/F16162
+- Publisher: Service Public / Direction de l'information légale et administrative (DILA), Prime Minister
+- Page version: Verified 2026-10-09 by the publisher; page rechecked 2026-10-24
+- Text source: preserved from the France candidate conversion captured 2026-10-19; page title, displayed verification date, and key scope anchors were checked against the live official page on 2026-10-24
+- Local-copy status: accepted 2026-10-24 as a dated snapshot after publisher, version, text-region, and legal-classification review
+- Reuse: Service Public states that its public “Vos droits et démarches” information is available through data.gouv.fr under the Licence Ouverte / Open Licence; this snapshot retains attribution and the official update date. See https://www.service-public.gouv.fr/P10004 and https://www.etalab.gouv.fr/licence-ouverte-open-licence/
+- Scope: Service Public guidance on long-stay visas, including the refusal grounds and CRRV preliminary appeal route described on the page.
+- Limitations: The title is broader than refusal appeals. The remedy section must be read separately from short-stay visa RAPO. Check the governing CESEDA/CJA text and the refusal notice for deadlines and competence.
 
-> **Local-copy review notice.** This captured file is not accepted as a retained copy. A direct official link can be used for research after reviewing relevant content, date/version, scope, and caveats. Local-copy acceptance and reuse terms matter only when retaining or redistributing this file.
+## Captured official text
 
-## Captured source text
-
-Ajouter à mes favoris
-
-Focus
-
-Partager la page
-
-Facebook
-
-X
-
-Linkedin
-
-Courriel
-
-Copier le lien
-
-Lien copié
-
-Fermer
-Ce sujet vous intéresse ?
-
-Ajoutez cette page à vos favoris et recevez un courriel
-dès que l’information « Visa de long séjour (séjour de plus de 3 mois à 1 an) » est mise à jour.
+Visa de long séjour (séjour de plus de 3 mois à 1 an) » est mise à jour.
 
 Ajouter à mes favoris
 
@@ -773,123 +751,3 @@ Ministère chargé de l'Europe et des affaires étrangères
 Pays concernés par la procédure d'inscription en ligne "Études en France"
 
 Agence Campus France
-
-Cette page vous a-t-elle été utile ?
-
-Cette page vous a-t-elle été utile ?
-
-1
-
-2
-
-3
-
-4
-
-5
-
-Pas du tout
-
-Un peu
-
-Moyen
-
-Beaucoup
-
-Parfait !
-
-L’équipe Service Public vous
-
-remercie
-
-Je vais sur la page d’accueil
-
-Masquer le message
-
-Vous avez noté 1 sur 5 :
-
-Pas du tout
-
-Vous avez noté 2 sur 5 :
-
-Un
-
-peu
-
-Vous avez noté 3 sur 5 :
-
-Moyen
-
-Vous avez noté 4 sur 5 :
-
-Beaucoup
-
-Vous avez noté 5 sur 5 :
-
-Parfait !
-
-Je fais une remarque sur cette page
-
-L’équipe Service Public vous
-
-remercie pour vos remarques utiles à l'amélioration du site.
-
-Pour des raisons de sécurité, nous ne pouvons valider ce formulaire suite à une trop longue période
-
-d’inactivité. Merci de recharger la page si vous souhaitez le soumettre à nouveau.
-
-Une erreur technique s'est produite. Merci de réessayer ultérieurement.
-
-Vos remarques pour améliorer
-
-la page
-
-Avez-vous rencontré une difficulté ?
-
-Non
-
-Je ne suis pas satisfait(e) de
-
-cette
-
-réglementation
-
-Cette page ne correspond pas à ma
-
-situation
-
-Il manque des informations
-
-(préciser lesquelles)
-
-Les informations ne sont pas
-
-claires (préciser
-
-lesquelles)
-
-Il y a une erreur dans la
-
-page (préciser
-
-laquelle)
-
-Avez-vous des suggestions pour améliorer la page ?
-
-Je suggère une modification à une rédactrice ou un rédacteur
-
-Service PublicSaisie complémentaire requise – affichage automatique
-
-Allemagne, Autriche, Belgique, Bulgarie, Chypre, Croatie, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Islande, Italie, Lettonie, Liechtenstein, Lituanie, Luxembourg, Malte, Norvège, Pays-Bas, Pologne, Portugal, République tchèque, Roumanie, Slovaquie, Slovénie, Suède, Suisse
-
-Allemagne, Autriche, Belgique, Bulgarie, Chypre, Croatie, Danemark, Espagne, Estonie, Finlande, France, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays-Bas, Pologne, Portugal, République tchèque, Roumanie, Slovaquie, Slovénie, Suède
-
-Situation d'un étranger en possession des documents l'autorisant à demeurer sur le territoire français
-
-Personne dont on est issu (parent, grand-parent, arrière-grand-parent...)
-
-Demande qui ne peut pas être étudiée
-
-Suppression pour l'avenir d'un acte administratif ou d'une règle de droit
-
-Administration numérique des étrangers en France

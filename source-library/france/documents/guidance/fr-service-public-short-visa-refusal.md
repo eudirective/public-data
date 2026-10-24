@@ -1,43 +1,21 @@
-# Service Public: appeal of a short-stay visa refusal, F16146
+# Visa de court séjour Schengen (étranger en France pour 3 mois maximum)
 
-- Jurisdiction: france
-- Candidate ID: `fr-service-public-short-visa-refusal`
+- Jurisdiction: France
+- Source ID: `fr-service-public-short-visa-refusal`
 - Source type: `official_remedy_guidance`
-- Candidate URL: https://www.service-public.gouv.fr/particuliers/vosdroits/F16146?lang=fr
-- Resolved URL: https://www.service-public.gouv.fr/particuliers/vosdroits/F16146?lang=fr
-- Retrieved: 2026-10-19T02:35:48+00:00
-- Media type: `text/html`
-- Publisher/version evidence: Page inspected 2026-10-18; exact current review date not retained
-- Extraction: `body`
-- Exact response SHA-256: `331cf840790cc210b9719dede594e977f55647eb33e4e051c199b8565daebc81`
+- Language: French
+- Official URL: https://www.service-public.gouv.fr/particuliers/vosdroits/F16146
+- Publisher: Service Public / Direction de l'information légale et administrative (DILA), Prime Minister
+- Page version: Verified 2026-08-13 by the publisher; page rechecked 2026-10-24
+- Text source: preserved from the France candidate conversion captured 2026-10-19; page title, displayed verification date, and key scope anchors were checked against the live official page on 2026-10-24
+- Local-copy status: accepted 2026-10-24 as a dated snapshot after publisher, version, text-region, and legal-classification review
+- Reuse: Service Public states that its public “Vos droits et démarches” information is available through data.gouv.fr under the Licence Ouverte / Open Licence; this snapshot retains attribution and the official update date. See https://www.service-public.gouv.fr/P10004 and https://www.etalab.gouv.fr/licence-ouverte-open-licence/
+- Scope: Service Public guidance on short-stay Schengen visas, including the prior administrative appeal (RAPO) for a refusal and the subsequent Nantes administrative-court route.
+- Limitations: The title is broader than refusal appeals. This short-stay procedure differs from the long-stay CRRV procedure. Confirm current law and the applicant's decision-specific notice.
 
-> **Local-copy review notice.** This captured file is not accepted as a retained copy. A direct official link can be used for research after reviewing relevant content, date/version, scope, and caveats. Local-copy acceptance and reuse terms matter only when retaining or redistributing this file.
+## Captured official text
 
-## Captured source text
-
-Ajouter à mes favoris
-
-Focus
-
-Partager la page
-
-Facebook
-
-X
-
-Linkedin
-
-Courriel
-
-Copier le lien
-
-Lien copié
-
-Fermer
-Ce sujet vous intéresse ?
-
-Ajoutez cette page à vos favoris et recevez un courriel
-dès que l’information « Visa de court séjour Schengen (étranger en France pour 3 mois maximum) » est mise à jour.
+Visa de court séjour Schengen (étranger en France pour 3 mois maximum) » est mise à jour.
 
 Ajouter à mes favoris
 
@@ -362,129 +340,3 @@ Tribunal administratif de Nantes
 Carte de l'Espace Schengen
 
 Toute l'Europe
-
-Cette page vous a-t-elle été utile ?
-
-Cette page vous a-t-elle été utile ?
-
-1
-
-2
-
-3
-
-4
-
-5
-
-Pas du tout
-
-Un peu
-
-Moyen
-
-Beaucoup
-
-Parfait !
-
-L’équipe Service Public vous
-
-remercie
-
-Je vais sur la page d’accueil
-
-Masquer le message
-
-Vous avez noté 1 sur 5 :
-
-Pas du tout
-
-Vous avez noté 2 sur 5 :
-
-Un
-
-peu
-
-Vous avez noté 3 sur 5 :
-
-Moyen
-
-Vous avez noté 4 sur 5 :
-
-Beaucoup
-
-Vous avez noté 5 sur 5 :
-
-Parfait !
-
-Je fais une remarque sur cette page
-
-L’équipe Service Public vous
-
-remercie pour vos remarques utiles à l'amélioration du site.
-
-Pour des raisons de sécurité, nous ne pouvons valider ce formulaire suite à une trop longue période
-
-d’inactivité. Merci de recharger la page si vous souhaitez le soumettre à nouveau.
-
-Une erreur technique s'est produite. Merci de réessayer ultérieurement.
-
-Vos remarques pour améliorer
-
-la page
-
-Avez-vous rencontré une difficulté ?
-
-Non
-
-Je ne suis pas satisfait(e) de
-
-cette
-
-réglementation
-
-Cette page ne correspond pas à ma
-
-situation
-
-Il manque des informations
-
-(préciser lesquelles)
-
-Les informations ne sont pas
-
-claires (préciser
-
-lesquelles)
-
-Il y a une erreur dans la
-
-page (préciser
-
-laquelle)
-
-Avez-vous des suggestions pour améliorer la page ?
-
-Je suggère une modification à une rédactrice ou un rédacteur
-
-Service PublicSaisie complémentaire requise – affichage automatique
-
-Rapo :
-
-Recours administratif préalable obligatoire
-
-Allemagne, Autriche, Belgique, Bulgarie, Chypre, Croatie, Danemark, Espagne, Estonie, Finlande, Grèce, Hongrie, Irlande, Islande, Italie, Lettonie, Liechtenstein, Lituanie, Luxembourg, Malte, Norvège, Pays-Bas, Pologne, Portugal, République tchèque, Roumanie, Slovaquie, Slovénie, Suède, Suisse
-
-Allemagne, Autriche, Belgique, Bulgarie, Croatie, Danemark, Espagne, Estonie, Finlande, France, Grèce, Hongrie, Islande (hors UE), Italie, Lettonie, Liechtenstein (hors UE), Lituanie, Luxembourg, Malte, Norvège (hors UE), Pays-Bas, Pologne, Portugal, République tchèque, Roumanie, Slovaquie, Slovénie, Suède, Suisse (hors UE)
-
-Guadeloupe, Guyane, Martinique, Réunion, Mayotte, Nouvelle-Calédonie, Polynésie française, Saint-Barthélemy, Saint-Martin, Saint-Pierre-et-Miquelon, Terres Australes et Antarctiques Françaises, Îles de Wallis-et-Futuna
-
-Ensemble de techniques informatiques qui permettent d'identifier automatiquement un individu à partir de ses caractéristiques physiques, biologiques ou comportementales. Elles ont, pour la plupart, la particularité d'être uniques et permanentes (ADN, empreintes digitales, iris, etc...).
-
-Actes lourds (trafic de stupéfiants, usurpation d'identité, aide à l'entrée, à la circulation ou au séjour irréguliers, travail dissimulé, escroqueries, etc.) qui rendent une personne dangereuse dans l'avenir
-
-Fichier européen permettant aux forces de l'ordre et magistrats des pays de l'espace Schengen d'avoir des informations sur des personnes recherchées (fugitifs, personnes disparues, etc.). Les étrangers refusés à l'entrée d'un pays de l'espace Schengen sont également inscrits dans ce fichier.
-
-Rapo :
-
-Recours administratif préalable obligatoire

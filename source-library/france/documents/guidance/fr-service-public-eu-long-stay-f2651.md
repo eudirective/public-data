@@ -1,43 +1,21 @@
-# Service Public: long stay in France for EU, EEA, or Swiss citizens
+# Séjour de longue durée d'un Européen en France
 
-- Jurisdiction: france
-- Candidate ID: `fr-service-public-eu-long-stay-f2651`
+- Jurisdiction: France
+- Source ID: `fr-service-public-eu-long-stay-f2651`
 - Source type: `official_public_guidance`
-- Candidate URL: https://www.service-public.gouv.fr/particuliers/vosdroits/F2651
-- Resolved URL: https://www.service-public.gouv.fr/particuliers/vosdroits/F2651
-- Retrieved: 2026-10-19T02:35:34+00:00
-- Media type: `text/html`
-- Publisher/version evidence: Page/search result last verified 2025-04-01
-- Extraction: `body`
-- Exact response SHA-256: `60259d2524b2946ed3857afebb1fd5620e66c39b64d6e9e371ff3a7eb8cd68a5`
+- Language: French
+- Official URL: https://www.service-public.gouv.fr/particuliers/vosdroits/F2651
+- Publisher: Service Public / Direction de l'information légale et administrative (DILA), Prime Minister
+- Page version: Verified 2026-04-01 by the publisher; page rechecked 2026-10-24
+- Text source: preserved from the France candidate conversion captured 2026-10-19; page title, displayed verification date, and key scope anchors were checked against the live official page on 2026-10-24
+- Local-copy status: accepted 2026-10-24 as a dated snapshot after publisher, version, text-region, and legal-classification review
+- Reuse: Service Public states that its public “Vos droits et démarches” information is available through data.gouv.fr under the Licence Ouverte / Open Licence; this snapshot retains attribution and the official update date. See https://www.service-public.gouv.fr/P10004 and https://www.etalab.gouv.fr/licence-ouverte-open-licence/
+- Scope: Official public guidance for EU/EEA citizens and Swiss nationals staying in France beyond three months, including work, study, inactive status, family and permanent residence branches.
+- Limitations: Guidance is not legislation. Reconcile with current CESEDA and distinguish EU, EEA, and Swiss legal routes. The page is interactive; this saved French text is the reviewed 1 April 2026 version.
 
-> **Local-copy review notice.** This captured file is not accepted as a retained copy. A direct official link can be used for research after reviewing relevant content, date/version, scope, and caveats. Local-copy acceptance and reuse terms matter only when retaining or redistributing this file.
+## Captured official text
 
-## Captured source text
-
-Ajouter à mes favoris
-
-Focus
-
-Partager la page
-
-Facebook
-
-X
-
-Linkedin
-
-Courriel
-
-Copier le lien
-
-Lien copié
-
-Fermer
-Ce sujet vous intéresse ?
-
-Ajoutez cette page à vos favoris et recevez un courriel
-dès que l’information « Séjour de longue durée d'un Européen en France » est mise à jour.
+Séjour de longue durée d'un Européen en France » est mise à jour.
 
 Ajouter à mes favoris
 
@@ -337,117 +315,3 @@ Code de l'entrée et du séjour des étrangers et du droit d'asile : articles R2
 Maintien du droit au séjour
 
 Circulaire du 10 septembre 2010 sur le droit de séjour des citoyens européens et suisses et les membres de leur famille (PDF - 1.3 MB)
-
-Cette page vous a-t-elle été utile ?
-
-Cette page vous a-t-elle été utile ?
-
-1
-
-2
-
-3
-
-4
-
-5
-
-Pas du tout
-
-Un peu
-
-Moyen
-
-Beaucoup
-
-Parfait !
-
-L’équipe Service Public vous
-
-remercie
-
-Je vais sur la page d’accueil
-
-Masquer le message
-
-Vous avez noté 1 sur 5 :
-
-Pas du tout
-
-Vous avez noté 2 sur 5 :
-
-Un
-
-peu
-
-Vous avez noté 3 sur 5 :
-
-Moyen
-
-Vous avez noté 4 sur 5 :
-
-Beaucoup
-
-Vous avez noté 5 sur 5 :
-
-Parfait !
-
-Je fais une remarque sur cette page
-
-L’équipe Service Public vous
-
-remercie pour vos remarques utiles à l'amélioration du site.
-
-Pour des raisons de sécurité, nous ne pouvons valider ce formulaire suite à une trop longue période
-
-d’inactivité. Merci de recharger la page si vous souhaitez le soumettre à nouveau.
-
-Une erreur technique s'est produite. Merci de réessayer ultérieurement.
-
-Vos remarques pour améliorer
-
-la page
-
-Avez-vous rencontré une difficulté ?
-
-Non
-
-Je ne suis pas satisfait(e) de
-
-cette
-
-réglementation
-
-Cette page ne correspond pas à ma
-
-situation
-
-Il manque des informations
-
-(préciser lesquelles)
-
-Les informations ne sont pas
-
-claires (préciser
-
-lesquelles)
-
-Il y a une erreur dans la
-
-page (préciser
-
-laquelle)
-
-Avez-vous des suggestions pour améliorer la page ?
-
-Je suggère une modification à une rédactrice ou un rédacteur
-
-Service PublicSaisie complémentaire requise – affichage automatique
-
-Allemagne, Autriche, Belgique, Bulgarie, Chypre, Croatie, Danemark, Espagne, Estonie, Finlande, France, Grèce, Hongrie, Irlande, Islande, Italie, Lettonie, Liechtenstein, Lituanie, Luxembourg, Malte, Norvège, Pays-Bas, Pologne, Portugal, République tchèque, Roumanie, Slovaquie, Slovénie, Suède
-
-Actes lourds (trafic de stupéfiants, usurpation d'identité, aide à l'entrée, à la circulation ou au séjour irréguliers, travail dissimulé, escroqueries, etc.) qui rendent une personne dangereuse dans l'avenir
-
-Profession dont l'exercice est soumis à autorisation et/ou à la possession d'un diplôme ou d'une formation spécifique : avocat, chirurgien-dentiste, expert-comptable, etc
-
-Actes particulièrement lourds (vol à main armée, violences, homicide, viol, trafic de drogue, etc.) rendant une personne dangereuse dans l'avenir. La récidive et la multiplication des condamnations sont souvent prises en compte.
