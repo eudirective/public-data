@@ -639,13 +639,31 @@
       "rediscovery_url": "https://mvr.bg/migration/административни-услуги/административни-услуги-за-граждани/издаване-на-документи-на-граждани-на-ес-и-на-членовете-на-техните-семейства",
       "checked_on": "2026-10-24",
       "language": "Bulgarian",
-      "version_or_cutoff": "No form date or revision marker displayed. The current MVR service page linked this file on 24 October 2026.",
+      "version_or_cutoff": "The current MVR page linked the DOCX on 24 October 2026 and displays no form edition marker. An official IISDA sample for the MVR service has Word metadata dated 22 June 2020.",
       "scope": "MVR application identified by the publisher as covering Articles 9a, 10, 16(4), and 19 of the EU-citizen Act.",
-      "reviewed_content": "The live MVR service page labels and links the application. The browser could not render the Word payload; direct local HTTP retrieval returned 403 on 24 October 2026. The candidate record preserves only the parent-page entry, not the document payload.",
+      "reviewed_content": "The current MVR page labels and links the application. Its DOCX payload returned HTTP 403 to direct retrieval on 24 October 2026. IISDA service 1551 independently links an official 2020 Word sample for the related MVR service; the sample was retrieved and text-reviewed as a dated local document. It is not established as byte-for-byte or version-identical to the current MVR DOCX.",
       "limitations": [
-        "Only the publisher and linked title were reviewed; the form text, edition date, and completeness were not inspected.",
-        "A browser open returned an unsupported Word content type and direct local HTTP retrieval returned 403 on 24 October 2026.",
-        "Use the current parent service page to rediscover the upload. No local copy, transcription, or republication permission is accepted."
+        "The current MVR DOCX body and edition date remain unreviewed because direct retrieval returned HTTP 403.",
+        "The IISDA sample is dated 2020; its exact identity with the current MVR upload is not established and it does not establish current-form coverage.",
+        "Use the current MVR service page as the official route to rediscover the live form. The IISDA sample is separately retained under documents/forms/ with date and limitations.",
+        "No inference is made about whether the sample's document checklist is legally complete."
+      ],
+      "supporting_sources": [
+        {
+          "title": "MVR EU-family residence-document service page",
+          "url": "https://www.mvr.bg/migration/административни-услуги/административни-услуги-за-граждани/издаване-на-документи-на-граждани-на-ес-и-на-членовете-на-техните-семейства",
+          "role": "current official rediscovery page; lists the current application upload"
+        },
+        {
+          "title": "IISDA service 1551, sample document",
+          "url": "https://iisda.government.bg/adm_services/service_provision/23068",
+          "role": "official service record identifying MVR and linking the dated 2020 sample; not evidence that its payload is identical to the current MVR DOCX"
+        },
+        {
+          "title": "PM147/2016 standard public-sector re-use conditions",
+          "url": "https://pitay.government.bg/documents/naredba-za-standartnite-usloviya-za-povtorno-izpolzvane-na-informaciya",
+          "role": "public-sector reuse conditions applied to the IISDA sample with attribution"
+        }
       ]
     },
     "bg-eu-form-declaration": {
@@ -655,13 +673,42 @@
       "rediscovery_url": "https://mvr.bg/migration/административни-услуги/административни-услуги-за-граждани/издаване-на-документи-на-граждани-на-ес-и-на-членовете-на-техните-семейства",
       "checked_on": "2026-10-24",
       "language": "Bulgarian",
-      "version_or_cutoff": "No form date or revision marker displayed. The current MVR service page linked this file on 24 October 2026.",
+      "version_or_cutoff": "The central MVR EU-family service page and Burgas regional EU-citizen page were checked on 24 October 2026. Burgas lists two variants (notarized owner signature and owner appearing in person); neither has a displayed edition date.",
       "scope": "MVR declaration identified by the publisher as the declaration under Article 20a of the EU-citizen Act.",
-      "reviewed_content": "The live MVR service page labels and links the declaration. The browser could not render the Word payload; direct local HTTP retrieval returned 403 on 24 October 2026. The candidate record preserves only the parent-page entry, not the document payload.",
+      "reviewed_content": "The central MVR page labels and links an Article 20a declaration. The official Burgas MVR page separately lists two address-declaration variants under Article 20a: notarized signature and owner appearance in person. The central DOC and both regional DOC payloads returned HTTP 403 to direct retrieval on 24 October 2026; the browser reader also cannot render application/msword. Their contents and edition dates therefore remain unreviewed. The official 2018 Gazette Annex 6 was checked separately and the 2019 amending Instruction §9 expressly repealed it. The historical annex is not treated as either current regional variant.",
       "limitations": [
-        "Only the publisher and linked title were reviewed; the document body, edition date, and completeness were not inspected.",
-        "The browser returned an unsupported Word content type and direct local HTTP retrieval returned 403 on 24 October 2026.",
-        "Use the current parent service page to rediscover the upload. No local copy, transcription, or republication permission is accepted."
+        "The current central MVR declaration and both regional variant payloads remain unreviewed because direct retrieval returned HTTP 403.",
+        "The regional page identifies two variants but does not establish their edition dates or current form contents.",
+        "The 2018 Gazette Annex 6 was repealed by §9 of the 2019 amending Instruction and cannot represent the current MVR form.",
+        "The historical annex is separately accepted under a historical source ID; it does not establish current form content or coverage.",
+        "Use the central MVR page or regional MVR page to rediscover current links. No MVR payload was copied."
+      ],
+      "supporting_sources": [
+        {
+          "title": "MVR EU-family residence-document service page",
+          "url": "https://www.mvr.bg/migration/административни-услуги/административни-услуги-за-граждани/издаване-на-документи-на-граждани-на-ес-и-на-членовете-на-техните-семейства",
+          "role": "central official route; lists the current Article 20a declaration"
+        },
+        {
+          "title": "Burgas MVR EU-citizen service page",
+          "url": "https://www.mvr.bg/burgas/административни-услуги/административни-услуги-за-граждани/миграция-1/граждани-на-държави-членки-на-ес",
+          "role": "official regional page listing two Article 20a declaration variants: notarized signature and owner appearing in person"
+        },
+        {
+          "title": "Burgas MVR declaration, notarized signature variant",
+          "url": "https://www.mvr.bg/upload/10712/%D0%B4%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D0%B7%D0%B0-%D0%B0%D0%B4%D1%80%D0%B5%D1%81-%D0%BD%D0%B0-%D0%BF%D1%80%D0%B5%D0%B1%D0%B8%D0%B2%D0%B0%D0%B2%D0%B0%D0%BD%D0%B5-%D0%BF%D0%BE-%D1%87%D0%BB-20%D0%B0-%D0%BE%D1%82-%D0%97%D0%92%D0%9F%D0%9D%D0%A0%D0%91%D0%93%D0%95%D0%A1%D0%A7%D0%A2%D0%A1-%D0%BD%D0%BE%D1%82%D0%B0%D1%80%D0%B8%D0%B0%D0%BB%D0%BD%D0%B0-%D0%B7%D0%B0%D0%B2%D0%B5%D1%80%D0%BA%D0%B0b67b427d1551427989e577c7288772d2.doc",
+          "role": "official payload link; request returned HTTP 403, content not reviewed"
+        },
+        {
+          "title": "Burgas MVR declaration, owner-present variant",
+          "url": "https://www.mvr.bg/upload/10713/%D0%B4%D0%B5%D0%BA%D0%BB%D0%B0%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D0%B7%D0%B0-%D0%B0%D0%B4%D1%80%D0%B5%D1%81-%D0%BD%D0%B0-%D0%BF%D1%80%D0%B5%D0%B1%D0%B8%D0%B2%D0%B0%D0%B2%D0%B0%D0%BD%D0%B5-%D0%BF%D0%BE-%D1%87%D0%BB-20%D0%B0-%D0%BE%D1%82-%D0%97%D0%92%D0%9F%D0%9D%D0%A0%D0%91%D0%93%D0%95%D0%A1%D0%A7%D0%A2%D0%A1-%D0%BF%D1%80%D0%B8-%D0%BB%D0%B8%D1%87%D0%BD%D0%BE-%D1%8F%D0%B2%D1%8F%D0%B2%D0%B0%D0%BD%D0%B5-%D0%BD%D0%B0-%D1%81%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%B8%D0%BA%D0%B0e0bb8607ab104b2fb9fe0ff5bda349f7.doc",
+          "role": "official payload link; request returned HTTP 403, content not reviewed"
+        },
+        {
+          "title": "2019 amendment to Instruction №8121з-1276, State Gazette issue 65/2019",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=140569",
+          "role": "§9 repeals the 2018 Annex 6 to Article 21"
+        }
       ]
     },
     "bg-ombudsman-complaints": {
@@ -702,7 +749,7 @@
     ],
     "note": "Record a human-reviewed official link when it supports a source area without retaining a local copy. This does not change the accepted local-source count."
   },
-  "accepted_source_count": 14,
+  "accepted_source_count": 16,
   "records": {
     "bg-eu-free-movement-act": {
       "status": "accepted",
@@ -1321,6 +1368,94 @@
       },
       "accepted_on": "2026-10-24",
       "document_path": "documents/forms/bg-eu-instruction-annex-4-permanent-residence-application-2018.pdf"
+    },
+    "bg-eu-form-other-articles-iisda-2020": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "IISDA service 1551 identifies this as an MVR service and links the native Word sample from the official state portal. Retrieved from the official IISDA host on 24 October 2026: HTTP 200, 31,232 bytes, SHA-256 afad404303bd59d2a5a288a60c9c9a4a40b559306780648ae5ca3ec219715cb5."
+        },
+        "current_legal_version": {
+          "status": "pass",
+          "review_date": "2026-10-24",
+          "evidence": "Word metadata records creation and last saving on 22 June 2020. Accepted as a dated official sample, not as a verified current MVR form. The current MVR service page links a separate DOCX; direct retrieval returned HTTP 403. Identity with this IISDA sample is not established."
+        },
+        "extraction_completeness": {
+          "status": "pass",
+          "evidence": "The native two-page .doc is retained unchanged at documents/forms/bg-eu-family-member-residence-application-iisda-2020.doc (SHA-256 afad404303bd59d2a5a288a60c9c9a4a40b559306780648ae5ca3ec219715cb5). Word metadata reports 321 words and 1,836 characters. Full text was extracted and reviewed with Antiword; extracted-text SHA-256 82f21fe2261658433ee0fa061c96082a0ce58a88c0d1ba97167ad56086f9e48f. Native Word is retained because text extraction does not preserve page layout."
+        },
+        "attachments_review": {
+          "status": "pass",
+          "evidence": "The two-page application itself was reviewed in full text, including its form fields and declarations. IISDA links no separate attachment for this sample."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "Blank administrative application sample for residence under the Bulgarian EU-citizen and family-member Act. Its printed heading identifies Articles 9a, 10, 16(4), and 19. This is a form, not a consolidated law or evidence that the checklist is legally exhaustive."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "public_sector_information_with_attribution",
+          "basis_id": "bg-pm147-2016-art-11-1-4",
+          "evidence": "The sample is public-sector information published by IISDA in connection with an MVR service. Article 11(1)(4) of Bulgaria's Ordinance on Standard Conditions for Re-use of Public-Sector Information provides for free reuse of other information created or collected within public-sector functions where no refusal ground applies. Article 14(4) permits attribution and clear identification of changes on subsequent use. The source and 2020 sample date are attributed here. No current-form status is implied. Official current portal text: https://pitay.government.bg/documents/naredba-za-standartnite-usloviya-za-povtorno-izpolzvane-na-informaciya"
+        }
+      },
+      "semantic_review": {
+        "status": "passed",
+        "method": "full_native_word_text_extraction_review_and_official_service_cross_check",
+        "review_date": "2026-10-24",
+        "scope": "Two-page IISDA service sample dated 22 June 2020 for the MVR EU-family residence application.",
+        "evidence": "The complete extracted text was reviewed, including the application heading, residence category choices, applicant and travel-document fields, entry details, requested residence basis, attached-document area, date, signature and staff-only fields. Its text was compared with the official State Gazette Annex 7 form structure; that supports related subject matter but does not establish identity with the current MVR DOCX. One article-reference glyph appears as question marks in extraction; the native binary remains the source representation. Direct visual rendering of the legacy Word layout was unavailable in this runtime.",
+        "source_sha256": "afad404303bd59d2a5a288a60c9c9a4a40b559306780648ae5ca3ec219715cb5",
+        "source_text_sha256": "82f21fe2261658433ee0fa061c96082a0ce58a88c0d1ba97167ad56086f9e48f",
+        "document_sha256": "afad404303bd59d2a5a288a60c9c9a4a40b559306780648ae5ca3ec219715cb5"
+      },
+      "accepted_on": "2026-10-24",
+      "document_path": "documents/forms/bg-eu-family-member-residence-application-iisda-2020.doc"
+    },
+    "bg-eu-form-declaration-annex-6-2018-historical": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The official State Gazette issue 91/2018 record identifies Instruction №8121з-1276 and includes Annex 6 under Article 21. The Gazette HTML was retrieved on 24 October 2026: HTTP 200, 93,059 bytes, SHA-256 aeb767fde115f8746cab6e0c1123805cb41292137b03d1c0c4c45fc751cd6247."
+        },
+        "current_legal_version": {
+          "status": "pass",
+          "review_date": "2026-10-24",
+          "evidence": "Accepted only as the historical Annex 6 declaration promulgated in State Gazette issue 91/2018. Section 9 of the official 2019 amendment, State Gazette issue 65/2019, expressly repealed Annex 6. This record is not the current Article 20a declaration."
+        },
+        "extraction_completeness": {
+          "status": "pass",
+          "evidence": "The HTML contains the 23 Annex 6 paragraphs as an exact ordered excerpt, preceded by a clearly labeled editorial warning and followed by source/status metadata. All 23 paragraphs were compared after HTML parsing and whitespace normalization with the corresponding contiguous paragraphs in the archived raw Gazette HTML; all matched exactly. Raw source remains in the Monitor local-only archive. Local document SHA-256 f516c20b70b624751ca816e415fa1a0c73250e92f57d874681777b859f188eeb."
+        },
+        "attachments_review": {
+          "status": "pass",
+          "evidence": "Annex 6 is a single declaration form in the official Gazette record. No separate attachment accompanies it."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "Historical blank declaration under Article 20a, published as Annex 6 to Article 21 of Instruction №8121з-1276 in State Gazette issue 91/2018. The 2019 amendment repealed the annex."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "official_normative_act_only",
+          "basis_id": "bg-copyright-act-art-4-1",
+          "evidence": "The form is reproduced solely as part of an official normative act. Article 4(1) of the Bulgarian Copyright and Related Rights Act excludes normative acts of state bodies from copyright. The editorial status warning and source metadata are not represented as Gazette text."
+        }
+      },
+      "semantic_review": {
+        "status": "passed",
+        "method": "paragraph_for_paragraph_comparison_with_official_gazette_html_and_2019_amendment_status_check",
+        "review_date": "2026-10-24",
+        "scope": "The 23 paragraphs of the historic Annex 6 declaration and the official 2019 repeal provision.",
+        "evidence": "The exact annex title, declaration heading, address-owner fields, consent terms, criminal-liability statement and signature line were reviewed. All 23 ordered paragraphs match the official Gazette HTML. The 2019 amendment §9 expressly repeals Annex 6; this file is marked historical and must not substitute for the current MVR Article 20a declaration.",
+        "source_sha256": "aeb767fde115f8746cab6e0c1123805cb41292137b03d1c0c4c45fc751cd6247",
+        "source_text_sha256": null,
+        "document_sha256": "f516c20b70b624751ca816e415fa1a0c73250e92f57d874681777b859f188eeb"
+      },
+      "accepted_on": "2026-10-24",
+      "document_path": "documents/forms/bg-eu-instruction-annex-6-residence-address-declaration-2018-repealed.html"
     }
   },
   "required_checks_scope": "local_copy_required_checks applies only before accepting a retained local artifact. Official link acceptance uses official_reference_review_schema and does not require retrieval, conversion, extraction, hashes, replay, or copy/republication permission.",
