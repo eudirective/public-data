@@ -2004,10 +2004,7 @@
       "language_of_case": null,
       "representation_kind": "verified_source_note",
       "library_content_state": "national_language_retrieval_candidate_not_trust_promoted",
-      "previous_pack_path": "denmark/core/guidance/notes/eu_commission-eu-law-complaint_DA.md",
-      "temporary_hold_path": "temp/denmark-core-cleanup/candidates/eu_commission-eu-law-complaint_DA.md",
-      "local_archive_status": "awaiting_monitor_local_research_write",
-      "migration_note": "Unpromoted candidate retained temporarily outside the country pack because the Monitor local archive writer returned Unknown tool. Do not accept or use as a shared-core representation until archived and reviewed."
+      "previous_pack_path": "denmark/core/guidance/notes/eu_commission-eu-law-complaint_DA.md"
     },
     {
       "source_id": "eu:ombudsman-complaint",
@@ -2040,10 +2037,7 @@
       "language_of_case": null,
       "representation_kind": "verified_source_note",
       "library_content_state": "national_language_retrieval_candidate_not_trust_promoted",
-      "previous_pack_path": "denmark/core/guidance/notes/eu_ombudsman-complaint_DA.md",
-      "temporary_hold_path": "temp/denmark-core-cleanup/candidates/eu_ombudsman-complaint_DA.md",
-      "local_archive_status": "awaiting_monitor_local_research_write",
-      "migration_note": "Unpromoted candidate retained temporarily outside the country pack because the Monitor local archive writer returned Unknown tool. Do not accept or use as a shared-core representation until archived and reviewed."
+      "previous_pack_path": "denmark/core/guidance/notes/eu_ombudsman-complaint_DA.md"
     },
     {
       "source_id": "eu:visa-code-handbook-i-2024",
