@@ -3,17 +3,17 @@
   "jurisdiction": "Netherlands",
   "review_date": "2026-10-21",
   "scope": "Issue-led official-source link review covering all source classes identified to date; this is not a legal sufficiency or completeness certification.",
-  "status": "links_reviewed_topic_coverage_incomplete",
-  "source_count": 62,
-  "accepted_external_reference_count": 59,
+  "status": "60_external_references_accepted; nine_local_texts_accepted; topic_coverage_incomplete",
+  "source_count": 63,
+  "accepted_external_reference_count": 60,
   "not_relied_upon_count": 3,
-  "local_copy_accepted_count": 0,
+  "local_copy_accepted_count": 9,
   "topic_accepted_count": 0,
   "country_review_complete": false,
   "reconciliation": {
     "exact_or_same_source_overlaps": 5,
     "issue_led_additions": 7,
-    "unique_source_count": 62,
+    "unique_source_count": 63,
     "overlap_map": {
       "scoped Vreemdelingenbesluit 2000": "nl-11",
       "scoped IND EU-family verification": "nl-18",
@@ -23,7 +23,8 @@
     },
     "wide_inventory_record_count": 52,
     "focused_inventory_record_count": 8,
-    "focused_only_source_count": 3
+    "focused_only_source_count": 3,
+    "additional_publisher_reuse_policy_records": 1
   },
   "sources": [
     {
@@ -161,10 +162,20 @@
       "publisher": "wetten.overheid.nl",
       "reference_status": "accepted_external_reference_with_narrow_scope",
       "acceptance_scope": "Official Wetten.nl record for Vreemdelingenwet 2000 (BWBR0011823); use the publisher's current consolidated version and displayed effective date. Gazette amendment-chain reconstruction is not required by default.",
-      "captured_version_evidence": "An indexed record inspected in April 2026 reported a version current from 28 February 2026 plus future/undated changes; October text is not confirmed.",
+      "captured_version_evidence": "Geldend van 01-09-2026 t/m heden; exact publisher HTML retrieved 2026-10-18; dcterms:modified 2026-10-17. Direct current-version check on 2026-10-25 was rate-limited (HTTP 429), so this is accepted as the last observed official version, not certified as the latest.",
       "observed_resolved_url": "https://wetten.overheid.nl/BWBR0011823/2026-09-01",
-      "local_copy_accepted": false,
-      "topic_accepted": false
+      "local_copy_accepted": true,
+      "topic_accepted": false,
+      "local_copy_path": "documents/legislation/nl-vreemdelingenwet-2000-2026-09-01.md",
+      "local_copy_sha256": "16acfc73253af4542f4e2c03f3167922e3b4039e556a19b6d2466932a1ae94c8",
+      "local_copy_reviewed_on": "2026-10-25",
+      "source_response_sha256": "5be5799927508ea759d751f912b28c1fbcf933cfaa517cd972941a1b09253faa",
+      "converted_candidate_sha256": "e5bdabef2c0eee8ebd0f642a8ff142af67f7d96b5506d9c8878a77d3e77f3b73",
+      "publisher_modified_date": "2026-10-17",
+      "publisher_version_marker": "Geldend van 01-09-2026 t/m heden",
+      "source_retrieved_at": "2026-10-18T23:32:42+00:00",
+      "semantic_review": "Official HTML metadata identifies BWBR0011823, Dutch language, title, and canonical dated record. Local response SHA-256 verified; all 219 article headings in the publisher HTML are present in the text; converted source-region length is 1.014 of visible legal-region text after hidden controls/navigation are excluded. Publisher text includes its displayed version and caveats.",
+      "currentness_limit": "Last observed official text only; direct live retrieval on 2026-10-25 returned HTTP 429 in the research client. Consult the linked publisher record for current use."
     },
     {
       "source_id": "nl-11",
@@ -175,10 +186,20 @@
       "publisher": "wetten.overheid.nl",
       "reference_status": "accepted_external_reference_with_narrow_scope",
       "acceptance_scope": "Official Wetten.nl record for Vreemdelingenbesluit 2000 (BWBR0011825); use the publisher's current consolidated version and displayed effective date. Gazette amendment-chain reconstruction is not required by default.",
-      "captured_version_evidence": "An indexed result crawled about five months before this review showed a version from 1 January 2026 and Article 8.7 provisions referenced by IND; October text is not confirmed.",
+      "captured_version_evidence": "Geldend van 25-09-2026 t/m heden; exact publisher HTML retrieved 2026-10-18; dcterms:modified 2026-10-16. Direct current-version check on 2026-10-25 was rate-limited (HTTP 429), so this is accepted as the last observed official version, not certified as the latest.",
       "observed_resolved_url": "https://wetten.overheid.nl/BWBR0011825/2026-09-25",
-      "local_copy_accepted": false,
-      "topic_accepted": false
+      "local_copy_accepted": true,
+      "topic_accepted": false,
+      "local_copy_path": "documents/legislation/nl-vreemdelingenbesluit-2000-2026-09-25.md",
+      "local_copy_sha256": "0f0a9e22be32461ef8836df78704827d947c3e44e14723d823bafb478c8f38fe",
+      "local_copy_reviewed_on": "2026-10-25",
+      "source_response_sha256": "6cfdd18a61c0fe2769297fe8ff65e0cc65201138880d3bd4323b82e971cda2f1",
+      "converted_candidate_sha256": "ca13c436b0456fa608721ba3487b18fd18166eb1e836f52f02163892b3d12983",
+      "publisher_modified_date": "2026-10-16",
+      "publisher_version_marker": "Geldend van 25-09-2026 t/m heden",
+      "source_retrieved_at": "2026-10-18T23:32:34+00:00",
+      "semantic_review": "Official HTML metadata identifies BWBR0011825, Dutch language, title, and canonical dated record. Local response SHA-256 verified; all 413 article headings in the publisher HTML are present in the text; converted source-region length is 1.014 of visible legal-region text after hidden controls/navigation are excluded. Publisher text includes its displayed version and caveats.",
+      "currentness_limit": "Last observed official text only; direct live retrieval on 2026-10-25 returned HTTP 429 in the research client. Consult the linked publisher record for current use."
     },
     {
       "source_id": "nl-12",
@@ -217,10 +238,20 @@
       "publisher": "wetten.overheid.nl",
       "reference_status": "accepted_external_reference_with_narrow_scope",
       "acceptance_scope": "Official Wetten.nl record for Algemene wet bestuursrecht (BWBR0005537); use the publisher's current consolidated version and displayed effective date. Gazette amendment-chain reconstruction is not required by default.",
-      "captured_version_evidence": "Indexed record reported current from 1 January 2026 and future changes from 2027.",
+      "captured_version_evidence": "Geldend van 15-08-2026 t/m heden; exact publisher HTML retrieved 2026-10-18; dcterms:modified 2026-10-16. Direct current-version check on 2026-10-25 was rate-limited (HTTP 429), so this is accepted as the last observed official version, not certified as the latest.",
       "observed_resolved_url": "https://wetten.overheid.nl/BWBR0005537/2026-08-15",
-      "local_copy_accepted": false,
-      "topic_accepted": false
+      "local_copy_accepted": true,
+      "topic_accepted": false,
+      "local_copy_path": "documents/legislation/nl-algemene-wet-bestuursrecht-2026-08-15.md",
+      "local_copy_sha256": "784d17932ce7f00b2fe70028b7a38c168d749a0e42475946fc2851e8ca925dfb",
+      "local_copy_reviewed_on": "2026-10-25",
+      "source_response_sha256": "b9d1c1b8c218e7d674e4900c7817b63497372e62a367b1026a5c54e225b0cfea",
+      "converted_candidate_sha256": "d4079262d2029da91ddca4d571e4cead25dae77b0da4c27a17d3ea0b0778ca16",
+      "publisher_modified_date": "2026-10-16",
+      "publisher_version_marker": "Geldend van 15-08-2026 t/m heden",
+      "source_retrieved_at": "2026-10-18T23:32:46+00:00",
+      "semantic_review": "Official HTML metadata identifies BWBR0005537, Dutch language, title, and canonical dated record. Local response SHA-256 verified; all 584 article headings in the publisher HTML are present in the text; converted source-region length is 1.015 of visible legal-region text after hidden controls/navigation are excluded. Publisher text includes its displayed version and caveats.",
+      "currentness_limit": "Last observed official text only; direct live retrieval on 2026-10-25 returned HTTP 429 in the research client. Consult the linked publisher record for current use."
     },
     {
       "source_id": "nl-15",
@@ -245,10 +276,19 @@
       "publisher": "ind.nl",
       "reference_status": "accepted_external_reference_with_narrow_scope",
       "acceptance_scope": "Official IND guidance, service, fee, threshold, or form link for the stated subject; check its current displayed version/date and linked legal route before applying a requirement.",
-      "captured_version_evidence": "Last updated 10 July 2026; cites Aliens Decree Articles 8.7, 8.11 and 8.12 and Circular B10/2.",
+      "captured_version_evidence": "Official IND result checked 2026-10-25 reports Last update: 2026-07-10; the archived page retrieved 2026-10-19 displays the same date. The current page result and captured source agree on page scope and headings.",
       "observed_resolved_url": "https://ind.nl/en/residence-permits/eu-eea-or-swiss-citizens/staying-in-the-netherlands-as-an-eu-eea-or-swiss-citizen",
-      "local_copy_accepted": false,
-      "topic_accepted": false
+      "local_copy_accepted": true,
+      "topic_accepted": false,
+      "local_copy_path": "documents/guidance/nl-ind-staying-eu-eea-swiss-2026-07-10.md",
+      "local_copy_sha256": "b7d34cafa9f09a2d72146c6ab41456837871b5b51f1ab7e6e8ca79ae03651660",
+      "local_copy_reviewed_on": "2026-10-25",
+      "source_response_sha256": "66f613ca9f8753cbf0caa5f2a9ebcfc549bd61b0b36bbe35ccddeb4f2d0fd61a",
+      "converted_candidate_sha256": "540816a9093e51c3c1a1341949a254dcec124403c6a3b4ddeaf8ef2938bbe10e",
+      "displayed_last_updated_date": "2026-07-10",
+      "source_retrieved_at": "2026-10-19T02:49:05+00:00",
+      "semantic_review": "Canonical official IND page URL verified. Raw response SHA-256 matches the archived capture; all 20 visible main-content heading texts are present in the converted page text. Converted text length is 1.002 of visible main-content text after page chrome is excluded. The page is guidance, not primary law.",
+      "currentness_limit": "The official page result checked on 2026-10-25 still displayed the recorded last-update date. IND warns its website information may be incomplete or out of date; check live guidance and linked legal text before use."
     },
     {
       "source_id": "nl-17",
@@ -259,10 +299,12 @@
       "publisher": "ind.nl",
       "reference_status": "accepted_external_reference_with_narrow_scope",
       "acceptance_scope": "Official IND guidance, service, fee, threshold, or form link for the stated subject; check its current displayed version/date and linked legal route before applying a requirement.",
-      "captured_version_evidence": "Last updated 17 June 2026; cites Aliens Decree Articles 8.7, 8.8, 8.11 and 8.12 and Circular B10/2.",
+      "captured_version_evidence": "The archived candidate retrieved 2026-10-19 displayed Last update: 17 June 2026. The official IND result checked 2026-10-25 reports Last update: 8 October 2026 and materially updated registration/form details. The archived conversion is stale and is not accepted as local text; the official page link remains accepted.",
       "observed_resolved_url": "https://ind.nl/en/residence-permits/eu-eea-or-swiss-citizens/registering-with-the-ind-as-an-eu-eea-or-swiss-citizen",
       "local_copy_accepted": false,
-      "topic_accepted": false
+      "topic_accepted": false,
+      "candidate_disposition": "not_promoted_as_local_copy; superseded_archived_candidate; accepted_external_link_only",
+      "currentness_limit": "Use the official page showing its 8 October 2026 update; the archived candidate is older and must not be relied upon."
     },
     {
       "source_id": "nl-18",
@@ -273,10 +315,19 @@
       "publisher": "ind.nl",
       "reference_status": "accepted_external_reference_with_narrow_scope",
       "acceptance_scope": "Official IND guidance, service, fee, threshold, or form link for the stated subject; check its current displayed version/date and linked legal route before applying a requirement.",
-      "captured_version_evidence": "Last updated 25 September 2026; cites Aliens Decree Articles 8.7, 8.9, 8.13 and Circular B10/2.",
+      "captured_version_evidence": "Official IND result checked 2026-10-25 reports Last update: 2026-09-25; the archived page retrieved 2026-10-18 displays the same date. The current page result and captured source agree on page scope and headings.",
       "observed_resolved_url": "https://ind.nl/en/residence-permits/family-and-partner/verification-against-eu-law-for-union-citizen-family-members",
-      "local_copy_accepted": false,
-      "topic_accepted": false
+      "local_copy_accepted": true,
+      "topic_accepted": false,
+      "local_copy_path": "documents/guidance/nl-ind-eu-family-verification-2026-09-25.md",
+      "local_copy_sha256": "a936f61707c0726631f0c8622e5f4aa20eb45aaf207f0f5ae995ce0aa4add95c",
+      "local_copy_reviewed_on": "2026-10-25",
+      "source_response_sha256": "2a64ee96f9666c55d1c11e630bb246c522cf149fdd4435d504dc012c5e023700",
+      "converted_candidate_sha256": "9f010204307ab411997149899dc0053be25748efc384f32c5f545dd3f1ce60b1",
+      "displayed_last_updated_date": "2026-09-25",
+      "source_retrieved_at": "2026-10-18T23:32:34+00:00",
+      "semantic_review": "Canonical official IND page URL verified. Raw response SHA-256 matches the archived capture; all 44 visible main-content heading texts are present in the converted page text. Converted text length is 1.021 of visible main-content text after page chrome is excluded. The page is guidance, not primary law.",
+      "currentness_limit": "The official page result checked on 2026-10-25 still displayed the recorded last-update date. IND warns its website information may be incomplete or out of date; check live guidance and linked legal text before use."
     },
     {
       "source_id": "nl-19",
@@ -385,10 +436,19 @@
       "publisher": "ind.nl",
       "reference_status": "accepted_external_reference_with_narrow_scope",
       "acceptance_scope": "Official IND guidance, service, fee, threshold, or form link for the stated subject; check its current displayed version/date and linked legal route before applying a requirement.",
-      "captured_version_evidence": "Last updated 10 August 2026; page lists decision categories and separates objection from court appeal.",
+      "captured_version_evidence": "Official IND result checked 2026-10-25 reports Last update: 2026-08-10; the archived page retrieved 2026-10-18 displays the same date. The current page result and captured source agree on page scope and headings.",
       "observed_resolved_url": "https://ind.nl/en/after-your-application/object-to-or-appeal-decision",
-      "local_copy_accepted": false,
-      "topic_accepted": false
+      "local_copy_accepted": true,
+      "topic_accepted": false,
+      "local_copy_path": "documents/guidance/nl-ind-object-appeal-decision-2026-08-10.md",
+      "local_copy_sha256": "58bc941577abbef8b2b087dddfd57c582cbaf84d94fd0b5b8f89899143598597",
+      "local_copy_reviewed_on": "2026-10-25",
+      "source_response_sha256": "e61e7199178d515ee3cc2757e428af893180083615647d6bec5bbf3dfe956a5d",
+      "converted_candidate_sha256": "212e9bb4c406ea42637e901e599867fba2c2e8e4bded85ae4195eeab019916c8",
+      "displayed_last_updated_date": "2026-08-10",
+      "source_retrieved_at": "2026-10-18T23:32:42Z",
+      "semantic_review": "Canonical official IND page URL verified. Raw response SHA-256 matches the archived capture; all 25 visible main-content heading texts are present in the converted page text. Converted text length is 1.017 of visible main-content text after page chrome is excluded. The page is guidance, not primary law.",
+      "currentness_limit": "The official page result checked on 2026-10-25 still displayed the recorded last-update date. IND warns its website information may be incomplete or out of date; check live guidance and linked legal text before use."
     },
     {
       "source_id": "nl-27",
@@ -766,10 +826,20 @@
       "publisher": "wetten.overheid.nl",
       "reference_status": "accepted_external_reference_with_narrow_scope",
       "acceptance_scope": "Official Wetten.nl consolidated record for the named Dutch private-international-law or civil-status/adoption instrument. Use the current publisher text and displayed effective date; its inclusion does not establish an EU-family topic as adequately covered.",
-      "captured_version_evidence": "Geldend van 01-07-2026 t/m heden",
+      "captured_version_evidence": "Geldend van 01-07-2026 t/m heden; exact publisher HTML retrieved 2026-10-18; dcterms:modified 2026-10-09. Direct current-version check on 2026-10-25 was rate-limited (HTTP 429), so this is accepted as the last observed official version, not certified as the latest.",
       "observed_resolved_url": "https://wetten.overheid.nl/BWBR0030068/2026-07-01",
-      "local_copy_accepted": false,
-      "topic_accepted": false
+      "local_copy_accepted": true,
+      "topic_accepted": false,
+      "local_copy_path": "documents/legislation/nl-burgerlijk-wetboek-boek-10-2026-07-01.md",
+      "local_copy_sha256": "b5b2a39a1485c98fc7bdfc4b2bd60afdc12029ff97ec92cc3cac919b78ae3f08",
+      "local_copy_reviewed_on": "2026-10-25",
+      "source_response_sha256": "56ee5761e2793f7a28137ac8bdeca1fda48fff1cc56a85db6161bfc540f08f15",
+      "converted_candidate_sha256": "f15767d4307256373a0c15749ac7f7d522f9e62a2f52db71eae7c3044c5f66b6",
+      "publisher_modified_date": "2026-10-09",
+      "publisher_version_marker": "Geldend van 01-07-2026 t/m heden",
+      "source_retrieved_at": "2026-10-18T23:32:35+00:00",
+      "semantic_review": "Official HTML metadata identifies BWBR0030068, Dutch language, title, and canonical dated record. Local response SHA-256 verified; all 168 article headings in the publisher HTML are present in the text; converted source-region length is 1.017 of visible legal-region text after hidden controls/navigation are excluded. Publisher text includes its displayed version and caveats.",
+      "currentness_limit": "Last observed official text only; direct live retrieval on 2026-10-25 returned HTTP 429 in the research client. Consult the linked publisher record for current use."
     },
     {
       "source_id": "nl-54",
@@ -780,10 +850,20 @@
       "publisher": "wetten.overheid.nl",
       "reference_status": "accepted_external_reference_with_narrow_scope",
       "acceptance_scope": "Official Wetten.nl consolidated record for the named Dutch private-international-law or civil-status/adoption instrument. Use the current publisher text and displayed effective date; its inclusion does not establish an EU-family topic as adequately covered.",
-      "captured_version_evidence": "Geldend van 05-07-2025 t/m heden",
+      "captured_version_evidence": "Geldend van 05-07-2025 t/m heden; exact publisher HTML retrieved 2026-10-18; dcterms:modified 2026-10-16. Direct current-version check on 2026-10-25 was rate-limited (HTTP 429), so this is accepted as the last observed official version, not certified as the latest.",
       "observed_resolved_url": "https://wetten.overheid.nl/BWBR0002656/2025-07-05",
-      "local_copy_accepted": false,
-      "topic_accepted": false
+      "local_copy_accepted": true,
+      "topic_accepted": false,
+      "local_copy_path": "documents/legislation/nl-burgerlijk-wetboek-boek-1-2025-07-05.md",
+      "local_copy_sha256": "c00a0ada7f2e72a237b0dd22cd3d75a0211c730b60915ad6885619d0015df5db",
+      "local_copy_reviewed_on": "2026-10-25",
+      "source_response_sha256": "0236bc5f0b35a8ce219173adbde29216ea0378312ee2373c7e0ca3380d5b877c",
+      "converted_candidate_sha256": "6915291ddc61dfd0471ff14e684392010b06d83a96e9f0953cc532f5c4104592",
+      "publisher_modified_date": "2026-10-16",
+      "publisher_version_marker": "Geldend van 05-07-2025 t/m heden",
+      "source_retrieved_at": "2026-10-18T23:32:39+00:00",
+      "semantic_review": "Official HTML metadata identifies BWBR0002656, Dutch language, title, and canonical dated record. Local response SHA-256 verified; all 623 article headings in the publisher HTML are present in the text; converted source-region length is 1.014 of visible legal-region text after hidden controls/navigation are excluded. Publisher text includes its displayed version and caveats.",
+      "currentness_limit": "Last observed official text only; direct live retrieval on 2026-10-25 returned HTTP 429 in the research client. Consult the linked publisher record for current use."
     },
     {
       "source_id": "nl-55",
@@ -794,10 +874,20 @@
       "publisher": "wetten.overheid.nl",
       "reference_status": "accepted_external_reference_with_narrow_scope",
       "acceptance_scope": "Official Wetten.nl consolidated record for the named Dutch private-international-law or civil-status/adoption instrument. Use the current publisher text and displayed effective date; its inclusion does not establish an EU-family topic as adequately covered.",
-      "captured_version_evidence": "Geldend van 01-08-2018 t/m heden",
+      "captured_version_evidence": "Geldend van 01-08-2018 t/m heden; exact publisher HTML retrieved 2026-10-18; dcterms:modified 2026-10-10. Direct current-version check on 2026-10-25 was rate-limited (HTTP 429), so this is accepted as the last observed official version, not certified as the latest.",
       "observed_resolved_url": "https://wetten.overheid.nl/BWBR0004447/2018-08-01",
-      "local_copy_accepted": false,
-      "topic_accepted": false
+      "local_copy_accepted": true,
+      "topic_accepted": false,
+      "local_copy_path": "documents/legislation/nl-wet-opneming-buitenlandse-kinderen-ter-adoptie-2018-08-01.md",
+      "local_copy_sha256": "5f27dd31c85142ed79c2299df0b57088ecdcf06df8cf2c4443efdb5095376d60",
+      "local_copy_reviewed_on": "2026-10-25",
+      "source_response_sha256": "6770a63b3867aa5c15da0ed601af1fc6dab494545e1f6c13100873c812a81435",
+      "converted_candidate_sha256": "bb9d2181b75735e625327dc27c377f4ab95b55e063370078e1b2439345b630df",
+      "publisher_modified_date": "2026-10-10",
+      "publisher_version_marker": "Geldend van 01-08-2018 t/m heden",
+      "source_retrieved_at": "2026-10-18T23:32:40+00:00",
+      "semantic_review": "Official HTML metadata identifies BWBR0004447, Dutch language, title, and canonical dated record. Local response SHA-256 verified; all 47 article headings in the publisher HTML are present in the text; converted source-region length is 1.014 of visible legal-region text after hidden controls/navigation are excluded. Publisher text includes its displayed version and caveats.",
+      "currentness_limit": "Last observed official text only; direct live retrieval on 2026-10-25 returned HTTP 429 in the research client. Consult the linked publisher record for current use."
     },
     {
       "source_id": "nl-56",
@@ -903,7 +993,102 @@
       "local_copy_accepted": false,
       "topic_accepted": false,
       "origin": "issue_led_source_addition_2026-10-21"
+    },
+    {
+      "source_id": "nl-63",
+      "title": "IND Proclaimer (website status and content reuse policy)",
+      "source_type": "publisher_reuse_policy",
+      "language": "en",
+      "url": "https://ind.nl/en/proclaimer",
+      "publisher": "Immigration and Naturalisation Service (IND)",
+      "reference_status": "accepted_external_reference_with_narrow_scope",
+      "acceptance_scope": "Official IND website reuse and accuracy policy. The proclaimer says website content may be reused if the source is mentioned; it does not establish that IND guidance is legally complete or current, and does not grant rights in third-party images or attachments.",
+      "captured_version_evidence": "Official IND Proclaimer page checked 2026-10-25 states reuse is allowed if the source is mentioned and cautions that website information may be incomplete or out of date.",
+      "observed_resolved_url": "https://ind.nl/en/proclaimer",
+      "local_copy_accepted": false,
+      "topic_accepted": false
     }
   ],
-  "provenance_note": "The former focused and broad inventories, capture conversions, and retrieval records are retained only in the EU Source Update Monitor local-only archive. This manifest is the current 62-source external-reference review; archived conversions are not accepted source text."
+  "provenance_note": "Prior inventories and raw/derived captures remain in the EU Source Update Monitor local-only archive as provenance. Nine source texts were separately reviewed and promoted under documents/ (six statutory texts and three IND guidance pages); the stale nl-17 conversion, duplicate candidates, manifest, and all other archived conversions remain unaccepted as source text.",
+  "local_copy_review_date": "2026-10-25",
+  "additional_source_review_date": "2026-10-25",
+  "candidate_dispositions": {
+    "reviewed_on": "2026-10-25",
+    "monitor_candidate_inventory_count": 13,
+    "dispositions": [
+      {
+        "archive_path": "candidates/public-data/Netherlands/scoped-candidates/nl-01-vb2000-review-candidate.md",
+        "source_id": "nl-11",
+        "disposition": "promoted_local_copy",
+        "local_path": "documents/legislation/nl-vreemdelingenbesluit-2000-2026-09-25.md"
+      },
+      {
+        "archive_path": "candidates/public-data/Netherlands/scoped-candidates/nl-02-ind-eu-family-review-candidate.md",
+        "source_id": "nl-18",
+        "disposition": "promoted_local_copy",
+        "local_path": "documents/guidance/nl-ind-eu-family-verification-2026-09-25.md"
+      },
+      {
+        "archive_path": "candidates/public-data/Netherlands/scoped-candidates/nl-03-bw10-review-candidate.md",
+        "source_id": "nl-53",
+        "disposition": "promoted_local_copy",
+        "local_path": "documents/legislation/nl-burgerlijk-wetboek-boek-10-2026-07-01.md"
+      },
+      {
+        "archive_path": "candidates/public-data/Netherlands/scoped-candidates/nl-04-bw1-review-candidate.md",
+        "source_id": "nl-54",
+        "disposition": "promoted_local_copy",
+        "local_path": "documents/legislation/nl-burgerlijk-wetboek-boek-1-2025-07-05.md"
+      },
+      {
+        "archive_path": "candidates/public-data/Netherlands/scoped-candidates/nl-05-adoption-act-review-candidate.md",
+        "source_id": "nl-55",
+        "disposition": "promoted_local_copy",
+        "local_path": "documents/legislation/nl-wet-opneming-buitenlandse-kinderen-ter-adoptie-2018-08-01.md"
+      },
+      {
+        "archive_path": "candidates/public-data/Netherlands/scoped-candidates/nl-06-vw2000-review-candidate.md",
+        "source_id": "nl-10",
+        "disposition": "promoted_local_copy",
+        "local_path": "documents/legislation/nl-vreemdelingenwet-2000-2026-09-01.md"
+      },
+      {
+        "archive_path": "candidates/public-data/Netherlands/scoped-candidates/nl-07-ind-appeal-review-candidate.md",
+        "source_id": "nl-26",
+        "disposition": "promoted_local_copy",
+        "local_path": "documents/guidance/nl-ind-object-appeal-decision-2026-08-10.md"
+      },
+      {
+        "archive_path": "candidates/public-data/Netherlands/scoped-candidates/nl-08-awb-review-candidate.md",
+        "source_id": "nl-14",
+        "disposition": "promoted_local_copy",
+        "local_path": "documents/legislation/nl-algemene-wet-bestuursrecht-2026-08-15.md"
+      },
+      {
+        "archive_path": "candidates/public-data/Netherlands/scoped-candidates/duplicate-nl-ind-eu-family.md",
+        "source_id": "nl-18",
+        "disposition": "duplicate_candidate; no_second_local_copy"
+      },
+      {
+        "archive_path": "candidates/public-data/Netherlands/scoped-candidates/duplicate-nl-vw-2000-current.md",
+        "source_id": "nl-10",
+        "disposition": "superseded_duplicate_candidate; replaced by accepted 2026-09-01 dated text"
+      },
+      {
+        "archive_path": "candidates/public-data/Netherlands/candidate-manifest.json",
+        "disposition": "archive_provenance_only; not_a_source_text"
+      },
+      {
+        "archive_path": "candidates/public-data/Netherlands/monitor-candidates/nl-16.md",
+        "source_id": "nl-16",
+        "disposition": "promoted_local_copy",
+        "local_path": "documents/guidance/nl-ind-staying-eu-eea-swiss-2026-07-10.md"
+      },
+      {
+        "archive_path": "candidates/public-data/Netherlands/monitor-candidates/nl-17.md",
+        "source_id": "nl-17",
+        "disposition": "stale_candidate_not_promoted; official page updated 2026-10-08; link_only_pending_fresh_capture"
+      }
+    ]
+  }
 }
