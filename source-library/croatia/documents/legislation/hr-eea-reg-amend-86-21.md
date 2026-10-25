@@ -15,7 +15,21 @@
 
 ## Retained representation scope
 
-This text-only representation omits four embedded card-specimen images (Forms 4b and 11b). They remain available at the official Gazette URL above and are inventoried in `references/attachment-review.json`; the specimens’ current format after 3 August 2026 remains open.
+The official Gazette’s Article 11 makes the Form 4b and Form 11b card specimens integral parts of this regulation. Their four original JPEG images are retained unchanged below. Form 2b is a separate application form, not a card specimen.
+
+### Form 4b — EEA national residence-card specimen
+
+![Form 4b front](attachments/hr-eea-reg-amend-86-21/form-4b-front.jpg)
+
+![Form 4b back](attachments/hr-eea-reg-amend-86-21/form-4b-back.jpg)
+
+### Form 11b — non-EEA family-member residence-card specimen
+
+![Form 11b front](attachments/hr-eea-reg-amend-86-21/form-11b-front.jpg)
+
+![Form 11b back](attachments/hr-eea-reg-amend-86-21/form-11b-back.jpg)
+
+The four images were visually checked at their source dimensions on 25 October 2026 and match the image links embedded in the [official NN 86/21 record](https://narodne-novine.nn.hr/clanci/sluzbeni/2021_07_86_1596.html). They are blank legal specimens; they do not show the security features or variable data of a currently issued card. The 2021 rule’s Form 11b field wording and Regulation (EU) 2025/1208 Article 7(2)’s standardized field-[10] code therefore remain a live currentness question. MUP’s current legislation index lists the EEA rule chain through NN 155/22, and its forms index lists Forms 1b, 2b, 3b and 6b but no replacement card specimen. The exact post-3 August 2026 issued format is not established here; no compliance or non-compliance conclusion is made. See `references/attachment-review.json` and `references/source-dependencies.json`.
 
 ## Official text-only capture
 

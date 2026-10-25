@@ -61,17 +61,19 @@
       "related_invalidated_instrument": "https://eur-lex.europa.eu/eli/reg/2019/1157/oj/eng",
       "dependency_review_status": "urgent_post_transition_specimen_and_issuance_check",
       "evidence": [
-        "NN 86/21 article 1 expressly refers to Regulation (EU) 2019/1157; the CJEU declared that regulation invalid in C-61/22 and its effects were maintained pending replacement.",
-        "Regulation (EU) 2025/1208 specifies the family-member card format and standardised data-field code; non-compliant cards cease validity by 3 August 2026 (subject to the regulation’s limited transitional provision). The transition date has passed as of this review.",
-        "NN 86/21 articles 27a and 11 prescribe Form 11b and print both Form 4b and Form 11b as annexes. Text lines 68–75 prescribe Croatian labels; visual specimens and actual post-transition issuance must be checked against the EU card fields before any compliance conclusion.",
-        "The seeded Form 2b is an application form, not the residence-card specimen. MUP forms index is a dynamic link-discovery route; its cited amendment chain omits NN 155/22 listed by MUP’s current legislation index."
+        "NN 86/21 article 1 refers to Regulation (EU) 2019/1157; the CJEU declared that regulation invalid in C-61/22 and maintained its effects pending replacement.",
+        "Regulation (EU) 2025/1208 Article 7 requires the uniform format and standardized code in data field [10] for non-EU family-member cards. Article 8 phases out existing non-conforming cards by 3 August 2026 subject to its stated exception; that date has passed.",
+        "On 2026-10-25 the four official NN 86/21 Form 4b/11b images were inspected at native dimensions and retained unchanged. They are blank specimen layouts, not proof of actual issued card encoding or security features.",
+        "The 2021 national Article 27a(5) prescribes Croatian field text for Form 11b; the blank image does not show a filled field-[10] code. No conclusion is made about post-transition compliance.",
+        "The MUP Propisi index checked 2026-10-25 lists EEA rule chain NN 107/20, 148/20, 86/21 and 155/22. The current MUP forms index lists application/registration forms 1b, 2b, 3b and 6b, not card specimens. MUP guidance updated 2025-10-09 describes issue process but does not show the post-transition card."
       ],
       "review_questions": [
-        "Visually inspect both Form 4b and 11b annex images in NN 86/21, including both sides and data-field mapping.",
-        "Verify the exact post-3 August 2026 Croatian card template and whether Regulation 2025/1208 Article 7 field [10] uses the mandatory standardised code.",
-        "Check the limited transition exception and validity status of any cards issued under old rules; do not infer non-compliance solely from the Croatian wording in the amendment.",
-        "Trace the invalidity judgment C-61/22 and confirm whether any interim or implementing rules alter the Croatia-specific analysis."
-      ]
+        "Obtain or identify an official MUP specimen or other authoritative evidence of the card actually issued after 3 August 2026, including the data field [10] value.",
+        "Determine whether Regulation 2025/1208 Article 7(2) is implemented through a card-production specification not visible in the published 2021 specimen; do not infer compliance or non-compliance from the national-language label alone.",
+        "Apply Regulation 2025/1208 Article 8’s exception to any identified legacy cards only when the card’s security and Annex conditions are evidenced.",
+        "Keep the CJEU C-61/22 invalidity/effects analysis separate from the current-card format check."
+      ],
+      "last_reviewed_on": "2026-10-25"
     },
     {
       "id": "hr-eea-card-specimen-and-transition",
