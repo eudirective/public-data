@@ -739,7 +739,7 @@
             "hr-access-info-amend-85-15",
             "hr-access-info-amend-69-22"
           ],
-          "note": "The accepted local Access to Information and Ombudsman Acts, the separately reviewed official reference to the 2018 GDPR implementation enactment, and the two link-reviewed Access to Information Act amendments support parts of the national-law layer. The original GDPR implementing enactment is not a verified consolidation. The separate law-enforcement data regime, immigration/VIS/SIS applicability, currentness and provision-level rights/remedy crosswalk remain open; this is partial support only.",
+          "note": "The accepted local Access to Information and Ombudsman Acts, the link-reviewed original GDPR implementation Act NN 42/18, the separately link-reviewed original law-enforcement data Act NN 68/18, and the two link-reviewed Access to Information Act amendments support parts of the national-law layer. Neither data-protection enactment is a verified consolidation. Law-enforcement applicability to any immigration/VIS/SIS operation, currentness and provision-level rights/remedy crosswalk remain open; this is partial support only.",
           "required_evidence": "At least one accepted local artifact or separately reviewed official reference within scope, or an explicit reasoned not-applicable conclusion."
         },
         "implementing_rule": {
