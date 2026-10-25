@@ -2,9 +2,9 @@
   "schema_version": "1.0.0",
   "jurisdiction": "LI",
   "as_of": "2026-10-25",
-  "accepted_source_count": 2,
-  "accepted_local_copy_count": 1,
-  "accepted_external_reference_count": 2,
+  "accepted_source_count": 3,
+  "accepted_local_copy_count": 2,
+  "accepted_external_reference_count": 3,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "policy": "A reviewed official source may be accepted within its publisher, identity, language, displayed version, scope, and stated limitations. The current Lilex consolidation is an informational working text, not the legally authentic publication. Local-copy acceptance is separate from topic coverage, legal equivalence, and country completion. Reuse acceptance here is limited to statutory text under URG Article 5; it does not cover site design, database-level or systematic reuse, or unrelated content.",
@@ -99,11 +99,102 @@
       },
       "local_copy_accepted": false,
       "decision": "accepted_with_narrow_external_scope"
+    },
+    "li-08": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The official Lilex page identifies the Government Legal Services, PFZV title, LR 152.211, and LGBl 2009.350. The live current-text page and official PDF were checked on 2026-10-25."
+        },
+        "current_legal_version": {
+          "status": "pass_with_limitations",
+          "review_date": "2026-10-25",
+          "evidence_url": "https://www.gesetze.li/konso/2009350000/meta?lgblid_von=&lrnr=&observe_date=&search_loc=&search_text=&version=15",
+          "evidence": "The official chronology lists LGBl 2023.458 and 2023.464, both effective 1 January 2024, as the latest amendments. The version-15 official PDF displays Fassung: 01.01.2024. Lilex says consolidations are informational and have no legal effect; this does not establish legal authenticity or resolve any conflict with the signed Gazette."
+        },
+        "extraction_completeness": {
+          "status": "pass_with_limitations",
+          "evidence": "The exact archived candidate conversion was reviewed (SHA-256 2517d62649f0ab8ad900009ad95a020fa832815a3de19905d603d8bf9bc08bdc); its official-text section is 36964 UTF-8 bytes (SHA-256 7a95113fab63a3a5e60986a5e5742af2d960cf300dafcd06314f066f6fa91135). The shell and text-frame response bytes were recovered from the standard temp area, verified against the 2026-10-19 capture ledger, and archived through the Monitor at `captures/public-data/LI/liechtenstein/raw/`. Re-running the source-specific extraction reproduces the candidate and accepted document official-text section byte-for-byte. Rebuilding the archived pre-promotion candidate as a whole file exposes a metadata-only preamble mismatch: the candidate header and the capture ledger contain different publisher-version-evidence wording; no legal-body difference was observed."
+        },
+        "attachments_review": {
+          "status": "pass_with_limitations",
+          "evidence": "The official 27-page Lilex PDF counterpart was checked as an alternate text representation; the consolidation remains informational; the extracted body includes the regulation and its amendment/transition footnotes. No separate statutory annex was identified in the official HTML/PDF. Layout, signatures, and visual features of the signed Gazette are not represented by this Markdown copy."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "PFZV is a Liechtenstein implementing regulation made under the PFZG, governing details of entry, residence, permits, family reunification, and related procedures. Article 1 identifies Directive 2004/38, Liechtenstein’s special EEA solution, and the separate Liechtenstein–Switzerland framework. This is not a legal-equivalence finding."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "official_statutory_text_only",
+          "basis_url": "https://www.gesetze.li/konso/html/1999160000",
+          "evidence": "The current official URG text, checked 2026-10-25, states at Art. 5(1)(a) that laws, regulations, treaties, and other official enactments are not protected by copyright, and at Art. 5(2) extends this to official or legally required collections and translations. This acceptance covers only the statutory text, not Lilex interface/design or systematic database reuse."
+        }
+      },
+      "semantic_review": {
+        "status": "passed_with_limitations",
+        "method": "archived_candidate_review_and_live_official_html_pdf_anchor_comparison",
+        "review_date": "2026-10-25",
+        "scope": "Complete extracted official-text section plus representative current official HTML/PDF anchors across the beginning, evidence rules, lottery procedure, family reunification, final provision, and 2023 amendment notes.",
+        "source_response_sha256": "c77cdc282584e1976ef83fe241cd6854cd0570dea369b27d653738ca092cb2ce",
+        "text_response_sha256": "e253393c6e1055fccb032c511d99afaa3a4e59406110bdeeace5365b559df023",
+        "candidate_conversion_sha256": "2517d62649f0ab8ad900009ad95a020fa832815a3de19905d603d8bf9bc08bdc",
+        "source_text_sha256": "7a95113fab63a3a5e60986a5e5742af2d960cf300dafcd06314f066f6fa91135",
+        "source_text_bytes": 36964,
+        "limitations": [
+          "The raw shell and text-frame files were recovered from the standard temp area, hash-checked against the capture ledger, and preserved in the Monitor local-only archive.",
+          "The archived pre-promotion candidate has a metadata-only preamble mismatch against the capture ledger; accepted-document verification checks and passes the document hash and exact legal-text body separately.",
+          "Lilex consolidated texts are informational and have no legal effect; the signed State Law Gazette is legally authentic.",
+          "The latest chronology entries are effective 1 January 2024; this acceptance records the official version observed on 2026-10-25 and does not claim legal applicability after that review date.",
+          "PFZG, EEA instruments, the EEA special solution, and the Swiss framework are material dependencies and remain to be mapped and reviewed.",
+          "Source acceptance does not establish topic coverage or country completion."
+        ],
+        "source_text_replay": {
+          "status": "passed",
+          "method": "replay_of_archived_html_frame_with_sync_liechtenstein_extractor",
+          "raw_capture_archive_path": "captures/public-data/LI/liechtenstein/raw/li-08-e253393c6e1055fccb032c511d99afaa3a4e59406110bdeeace5365b559df023.html",
+          "raw_capture_sha256": "e253393c6e1055fccb032c511d99afaa3a4e59406110bdeeace5365b559df023",
+          "result_source_text_sha256": "7a95113fab63a3a5e60986a5e5742af2d960cf300dafcd06314f066f6fa91135",
+          "matches_saved_candidate_and_document_body": true
+        },
+        "full_candidate_replay": {
+          "status": "metadata_only_mismatch",
+          "evidence": "Rebuilding the archived pre-promotion candidate as a full Markdown document produces a different publisher-version-evidence sentence in its preamble because the saved candidate and capture-ledger field differ. The official-text section is byte-identical after replay; the accepted-document verifier compares the local file hash and official-text body separately.",
+          "capture_ledger_path": "source-library/liechtenstein/references/liechtenstein-captures.json"
+        }
+      },
+      "accepted_on": "2026-10-25",
+      "document_path": "source-library/liechtenstein/documents/legislation/li-personenfreizuegigkeitsverordnung-pfzv.md",
+      "local_file_sha256": "99f735a044410ce7b543bb5336ea19764b5a946f03f1dcae6d5e2fe8101e75b5",
+      "source_response_sha256": "c77cdc282584e1976ef83fe241cd6854cd0570dea369b27d653738ca092cb2ce",
+      "text_response_sha256": "e253393c6e1055fccb032c511d99afaa3a4e59406110bdeeace5365b559df023",
+      "source_text_sha256": "7a95113fab63a3a5e60986a5e5742af2d960cf300dafcd06314f066f6fa91135",
+      "candidate_conversion_sha256": "2517d62649f0ab8ad900009ad95a020fa832815a3de19905d603d8bf9bc08bdc",
+      "archived_candidate_path": "candidates/public-data/LI/liechtenstein/candidates/li-08.md",
+      "archived_candidate_sha256": "2517d62649f0ab8ad900009ad95a020fa832815a3de19905d603d8bf9bc08bdc",
+      "local_copy_accepted": true,
+      "accepted_external_reference": true,
+      "accepted_topics": [],
+      "limitations": [
+        "Lilex consolidated texts are informational and have no legal effect; the signed State Law Gazette is legally authentic.",
+        "The latest amendments listed in the official chronology are LGBl 2023.458 and 2023.464, both effective 1 January 2024; this record preserves that version and does not claim legal applicability after the review date.",
+        "PFZG is the implementing parent law and material dependencies include EEA instruments and the separate Liechtenstein–Switzerland framework; these remain to be mapped.",
+        "Raw shell and text-frame responses are preserved in the Monitor local-only archive. The legal-text section replays exactly; the archived pre-promotion candidate retains a metadata-only preamble difference against the capture ledger.",
+        "This source acceptance does not establish topic coverage or country completion."
+      ],
+      "capture_evidence": {
+        "retrieval_manifest_path": "captures/public-data/LI/liechtenstein/retrieval-manifest.json",
+        "publisher_shell_archive_path": "captures/public-data/LI/liechtenstein/raw/li-08-c77cdc282584e1976ef83fe241cd6854cd0570dea369b27d653738ca092cb2ce.html",
+        "publisher_shell_sha256": "c77cdc282584e1976ef83fe241cd6854cd0570dea369b27d653738ca092cb2ce",
+        "text_frame_archive_path": "captures/public-data/LI/liechtenstein/raw/li-08-e253393c6e1055fccb032c511d99afaa3a4e59406110bdeeace5365b559df023.html",
+        "text_frame_sha256": "e253393c6e1055fccb032c511d99afaa3a4e59406110bdeeace5365b559df023"
+      }
     }
   },
   "candidate_inventory_count": 40,
   "dispositioned_candidate_count": 1,
-  "open_candidate_count": 37,
+  "open_candidate_count": 36,
   "dispositions": {
     "li-03": {
       "status": "already_represented_duplicate",

@@ -675,15 +675,20 @@ def verify() -> None:
                     rebuilt = markdown(source, record["official_page_title"], record.get("text_url", record["resolved_url"]),
                                        record["retrieved_at"], version, record["text_source_sha256"],
                                        record.get("publisher_shell_sha256"), selector, body)
-                if selector != record["content_selector"] or sha256(rebuilt) != record["converted_sha256"]:
-                    raise ValueError("deterministic HTML extraction replay mismatch")
+                if selector != record["content_selector"]:
+                    raise ValueError("content selector mismatch")
                 if candidate_path and candidate_path.exists():
+                    if sha256(rebuilt) != record["converted_sha256"]:
+                        raise ValueError("deterministic candidate conversion replay mismatch")
                     if sha256(candidate_path.read_bytes()) != record["converted_sha256"]:
                         raise ValueError("candidate text hash mismatch")
                     print(f"verified {record['candidate_id']}")
                 else:
                     accepted_path = inside_root(accepted_record["document_path"])
-                    accepted_text = accepted_path.read_text(encoding="utf-8")
+                    accepted_bytes = accepted_path.read_bytes()
+                    if accepted_record.get("local_file_sha256") and sha256(accepted_bytes) != accepted_record["local_file_sha256"]:
+                        raise ValueError("accepted document hash mismatch")
+                    accepted_text = accepted_bytes.decode("utf-8")
                     marker = "## Official source text\n\n"
                     if marker not in accepted_text or marker not in rebuilt.decode("utf-8"):
                         raise ValueError("accepted document does not expose the verified official-text section")

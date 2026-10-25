@@ -45,6 +45,27 @@
         "Source acceptance is separate from topic coverage and country review completion.",
         "Dependencies and treaty bases require separate review; no legal equivalence with other EEA or EU national regimes is implied."
       ]
+    },
+    {
+      "id": "li-08",
+      "class": "national_free_movement_implementing_regulation",
+      "title": "Personenfreizügigkeitsverordnung (PFZV), LR 152.211",
+      "publisher": "Liechtenstein Government Legal Services (Rechtsdienst der Regierung)",
+      "url": "https://www.gesetze.li/konso/2009350000",
+      "language": "de",
+      "version": "Lilex text-frame version 15; consolidation 1 January 2024; latest listed amendments LGBl 2023.458 and 2023.464, both effective 1 January 2024",
+      "scope": "Implementing regulation under PFZG concerning entry, residence, permits, evidence, family reunification, and related procedure for the EEA/Swiss free-movement framework in Liechtenstein.",
+      "status": "accepted_official_reference_and_local_copy_with_limitations",
+      "checked_on": "2026-10-25",
+      "local_path": "source-library/liechtenstein/documents/legislation/li-personenfreizuegigkeitsverordnung-pfzv.md",
+      "local_copy_sha256": "99f735a044410ce7b543bb5336ea19764b5a946f03f1dcae6d5e2fe8101e75b5",
+      "source_text_sha256": "7a95113fab63a3a5e60986a5e5742af2d960cf300dafcd06314f066f6fa91135",
+      "limitations": [
+        "Lilex says consolidated laws and regulations are informational and have no legal effect; signed LGBl is authentic.",
+        "PFZV implements PFZG; EEA instruments, the special Liechtenstein EEA solution, and the Swiss framework remain separate dependencies.",
+        "Source acceptance is separate from topic coverage and country review completion.",
+        "Raw response files were unavailable for offline replay in the current checkout; official HTML/PDF anchors were checked and the limitation is recorded."
+      ]
     }
   ]
 }

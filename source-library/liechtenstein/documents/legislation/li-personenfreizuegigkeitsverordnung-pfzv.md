@@ -1,20 +1,24 @@
-# Personenfreizügigkeitsverordnung (PFZV)
+# Personenfreizügigkeitsverordnung (PFZV), LR 152.211
 
 - Jurisdiction: Liechtenstein
-- Candidate ID: `li-08`
-- Source class: `national_free_movement_regulation`
-- Official page title: PFZV | Lilex - Gesetzesdatenbank des Fürstentums Liechtenstein
-- Publisher: Liechtenstein Government Legal Services
-- Candidate source URL: https://www.gesetze.li/konso/2009350000
+- Source ID: `li-08`
+- Source type: `national_free_movement_implementing_regulation`
+- Publisher: Liechtenstein Government Legal Services (Rechtsdienst der Regierung)
+- Official source URL: https://www.gesetze.li/konso/2009350000
 - Resolved text URL: https://www.gesetze.li/konso/html/2009350000?version=15&search_text=&search_loc=
-- Retrieved: 2026-10-19T03:00:53+00:00
-- Publisher/version evidence: Gesetze.li current-text frame version=15; use the displayed government-published consolidation and retain its informational-status notice. Check a known later change only when relevant.
-- Extraction region: `tag=body`
-- Text response SHA-256: `e253393c6e1055fccb032c511d99afaa3a4e59406110bdeeace5365b559df023`
-- Current-version shell SHA-256: `c77cdc282584e1976ef83fe241cd6854cd0570dea369b27d653738ca092cb2ce`
+- Official PDF: https://www.gesetze.li/konso/pdf/2009350000?version=15
+- Language: German
+- Consolidated version checked: 1 January 2024 (Lilex text-frame version 15; official PDF says `Fassung: 01.01.2024`)
+- Latest amendments listed in the official chronology: LGBl 2023.458 and LGBl 2023.464, both effective 1 January 2024
+- Reviewed: 2026-10-25
+- Candidate source-response SHA-256: `c77cdc282584e1976ef83fe241cd6854cd0570dea369b27d653738ca092cb2ce`
+- Candidate text-response SHA-256: `e253393c6e1055fccb032c511d99afaa3a4e59406110bdeeace5365b559df023`
+- Source-text SHA-256: `7a95113fab63a3a5e60986a5e5742af2d960cf300dafcd06314f066f6fa91135` (36964 UTF-8 bytes)
+- Candidate-conversion SHA-256: `2517d62649f0ab8ad900009ad95a020fa832815a3de19905d603d8bf9bc08bdc`
+- Extraction: `tag=body`; the German regulation body and amendment footnotes are retained. Live official HTML and the 27-page official PDF were compared at the title/LR number, Arts. 1, 11, 21, 30, 36a–36c and 43, and the 2023 amendment notes. The shell and text-frame responses are hash-verified and preserved in the Monitor local-only archive. The legal-text body replays byte-for-byte. Rebuilding the archived pre-promotion candidate as a complete Markdown file exposes only a metadata preamble difference in the publisher-version-evidence sentence; accepted-document verification checks the local file hash and official-text body separately.
+- Reuse basis: Liechtenstein Copyright Act (URG), Art. 5(1)(a) and (2), checked against the current official text on 2026-10-25; this copy contains statutory text only, not the website interface or database.
 
-> **Review candidate.** Not accepted into the trusted source corpus. Relationship: Close functional match for implementing residence categories and evidence, with Liechtenstein-specific scope
-> Check exact legal identity, version, language, scope, authority, links and reuse conditions before reliance.
+> **Accepted source record.** The official Lilex consolidation is an informational working text and has no legal effect; the signed State Law Gazette remains legally authentic. This source is an implementing regulation under PFZG and reflects Liechtenstein's special EEA solution and separate Swiss framework. Acceptance does not establish topic coverage, legal equivalence, current applicability after the checked date, or country completion.
 
 ## Official source text
 
