@@ -9,6 +9,24 @@
   ],
   "entries": [
     {
+      "id": "li-01",
+      "class": "official_publication_platform",
+      "title": "Gesetze.li official consolidated-law database and version guidance",
+      "publisher": "Government Legal Services (Rechtsdienst der Regierung)",
+      "url": "https://www.gesetze.li/konso/suche",
+      "language": "de",
+      "version": "Page checked 2026-10-25; daily-current consolidations and historical versions from 2010 are described on the official page.",
+      "scope": "Official discovery/navigation page for consolidated Liechtenstein national and treaty law, including historical-date search and stable-link pattern.",
+      "status": "accepted_external_reference_only",
+      "checked_on": "2026-10-25",
+      "local_path": null,
+      "limitations": [
+        "Consolidated texts are informational and have no legal effect; signed LGBl is authentic.",
+        "Each individual text needs source-specific review; this page is not a legal instrument.",
+        "No local copy, topic coverage, or systematic-reuse permission is established."
+      ]
+    },
+    {
       "id": "li-07",
       "class": "national_free_movement_law",
       "title": "Personenfreizügigkeitsgesetz (PFZG), LR 152.21",

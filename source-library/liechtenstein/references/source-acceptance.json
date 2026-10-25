@@ -2,9 +2,9 @@
   "schema_version": "1.0.0",
   "jurisdiction": "LI",
   "as_of": "2026-10-25",
-  "accepted_source_count": 1,
+  "accepted_source_count": 2,
   "accepted_local_copy_count": 1,
-  "accepted_external_reference_count": 1,
+  "accepted_external_reference_count": 2,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "policy": "A reviewed official source may be accepted within its publisher, identity, language, displayed version, scope, and stated limitations. The current Lilex consolidation is an informational working text, not the legally authentic publication. Local-copy acceptance is separate from topic coverage, legal equivalence, and country completion. Reuse acceptance here is limited to statutory text under URG Article 5; it does not cover site design, database-level or systematic reuse, or unrelated content.",
@@ -71,6 +71,47 @@
         "Material cross-references to PFZV, AuG, ZAV, LVG, EEA instruments, Schengen law and the 2008 Liechtenstein-Switzerland agreement remain to be mapped and reviewed.",
         "This source acceptance does not establish topic coverage or country completion."
       ]
+    },
+    "li-01": {
+      "status": "accepted_with_narrow_external_scope",
+      "publisher": "Government Legal Services (Rechtsdienst der Regierung)",
+      "url": "https://www.gesetze.li/konso/suche",
+      "checked_on": "2026-10-25",
+      "language": "German",
+      "version_or_scope": "Official page checked 2026-10-25; it describes daily-current consolidated texts, historical versions from 1 January 2010, legal-text search and the stable /konso/{LGBl-Nr} link form.",
+      "acceptance_scope": "Official government discovery and navigation page for Liechtenstein consolidated law and treaties. It supports locating and linking individual legal texts; it is not itself a law and does not establish the authority or currentness of an individual consolidated text.",
+      "reviewed_content": "The current Lilex search page identifies the Government Legal Services, says consolidations are updated daily with amendments incorporated, allows historical-date selection from 1 January 2010, and gives a stable current-text URL pattern. Its legal notice says consolidated texts are informational and have no legal effect.",
+      "limitations": [
+        "Lilex consolidations are informational and have no legal effect; signed State Law Gazette publication remains legally authentic.",
+        "Each individual law still requires source identity, version, scope and legal-status review.",
+        "This link does not accept a local copy, establish topic coverage, or authorize systematic/database reuse."
+      ],
+      "candidate_record": {
+        "manifest": "references/candidate-manifest.json",
+        "id": "li-01"
+      },
+      "evidence": {
+        "official_source_url": "https://www.gesetze.li/konso/suche",
+        "verified_content": "Official Lilex page inspected on 2026-10-25; current consolidated law, historical version selector, stable link form and no-legal-effect notice checked.",
+        "retrieval_status": "link_only_official_reference",
+        "archived_candidate_path": "candidates/public-data/LI/liechtenstein/candidates/li-01.md",
+        "archived_candidate_sha256": "d6a7869dc2508f086e138bf2d73f2d616845e30e28913189c7d70e8fc3578795"
+      },
+      "local_copy_accepted": false,
+      "decision": "accepted_with_narrow_external_scope"
+    }
+  },
+  "candidate_inventory_count": 40,
+  "dispositioned_candidate_count": 1,
+  "open_candidate_count": 37,
+  "dispositions": {
+    "li-03": {
+      "status": "already_represented_duplicate",
+      "represented_by": "li-01",
+      "dispositioned_on": "2026-10-25",
+      "reason": "Both candidates resolve to the same official Lilex search page and contain byte-equivalent official source text (2,014 UTF-8 bytes; SHA-256 4d7bb0171ea632cbf446e06e5ccce721632a57b731c889aa306f5cf0637cc1d5). Keep one official reference and record the legal-effect/stable-link scope under li-01.",
+      "archived_candidate_path": "candidates/public-data/LI/liechtenstein/candidates/li-03.md",
+      "archived_candidate_sha256": "961a3183ed0b2137723766bbd74eb1a0ef3fb5fbd2d85508f1466f7a7f1da96f"
     }
   }
 }
