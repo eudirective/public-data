@@ -582,11 +582,11 @@
       "language": "Bulgarian",
       "version_or_cutoff": "Live official search page inspected on 25 October 2026; footer showed print time 24 October 2026 at 21:12; no publication or revision date is shown.",
       "scope": "Official Supreme Administrative Court service for searching case movement and published acts by case identifiers, criteria, and text keywords.",
-      "reviewed_content": "The page provides case number/year, case type, keyword, date-range, appealed-act, court/authority, chamber and subject filters. It states keyword search covers only already-published acts, older cases may require contacting the registry, and an empty result does not mean the case is absent. The rendered page showed a limited-mode warning stating that text search currently matches only the exact word form and may return fewer results than usual. The form was inspected but not submitted in this review.",
+      "reviewed_content": "The page provides case number/year, case type, keyword, date-range, appealed-act, court/authority, chamber and subject filters. It states keyword search covers only already-published acts, older cases may require contacting the registry, and an empty result does not mean the case is absent. The page showed a limited-mode warning: text search matches exact word forms and may return fewer results than usual. On 25 October 2026, an all-case, no-date-limit search for the exact Bulgarian acronym ЗВПНРБГЕСЧТС returned 23 unique cases (16 judicial acts and 9 protocols; cases may contain both). One decision, № 3002/17.03.2026 in case № 983/2026, was fully screened; other results are recorded as unscreened leads or an already-reviewed companion protocol.",
       "limitations": [
         "This service does not provide a unified searchable corpus for the 28 lower administrative courts.",
         "A search result or zero-result outcome does not establish complete case-law coverage; the page itself cautions that only published acts are searched by keyword and that older matters may require registry contact.",
-        "No case-number, date-range, or keyword query was submitted during the 25 October review, so no official database result count is recorded.",
+        "The 25 October exact-acronym query returned 23 cases, but only case № 983/2026 was fully screened in that batch. The remaining matches, a broader VAS query matrix, and lower administrative-court searches remain open; query details and dispositions are in the Monitor local-only archive.",
         "No local copy was retained because this is a dynamic search interface."
       ]
     },
@@ -1463,6 +1463,23 @@
           "role": "supporting statutory route; accepted separately with the cutoff and limitations in bg-personal-documents-act"
         }
       ]
+    },
+    "bg-vas-case-3002-2026": {
+      "status": "usable_official_reference",
+      "publisher": "Supreme Administrative Court of the Republic of Bulgaria, Supreme Administrative Court public case-information system and Unified Information System for Courts (EDIS)",
+      "url": "https://info-adc.justice.bg/courts/portal/edis.nsf/e_act.xsp?id=2609047&code=vas&guid=1277406293",
+      "rediscovery_url": "https://sac.justice.bg/spravki/delo/983-2026/",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Final Decision № 3002 dated 17 March 2026 in administrative case № 983/2026; the case page identifies it as final.",
+      "scope": "VAS cassation review of a five-year public-policy entry ban imposed on a French EU citizen under Articles 26(1) and 26(3) of the Bulgarian EU free-movement Act.",
+      "reviewed_content": "The complete official decision text and native PDF were reviewed. The VAS dismissed the Migration Directorate’s cassation appeal and left in force the Sofia City Administrative Court decision annulling the entry ban. It applied the individualized-threat standard in Article 27 of Directive 2004/38, requiring concrete evidence of a genuine, present and sufficiently serious threat. On the record before it, the Court found no established evidence that the person helped transport irregular migrants; calling 112 about people in distress and NGO membership/volunteering did not establish the asserted threat.",
+      "limitations": [
+        "The judgment is fact-specific and does not decide every application of Articles 26–27, establish a general authority practice, or replace current statutory text.",
+        "It is a fixed decision dated 17 March 2026; later case law and amendments were not reviewed as part of this individual record.",
+        "The VAS exact-acronym search returned 23 cases, but only this decision was fully screened in the 25 October batch. The other matches and separate lower-court case-law surfaces remain unresolved.",
+        "The native six-page official PDF is retained unchanged at ../documents/case_law/bg-vas-decision-3002-2026.pdf. The public judgment contains case-specific personal data; the register and discovery note omit names and direct identifiers."
+      ]
     }
   },
   "official_reference_review_schema": {
@@ -1479,7 +1496,7 @@
     ],
     "note": "Record a human-reviewed official link when it supports a source area without retaining a local copy. This does not change the accepted local-source count."
   },
-  "accepted_source_count": 16,
+  "accepted_source_count": 17,
   "records": {
     "bg-eu-free-movement-act": {
       "status": "accepted",
@@ -2186,6 +2203,48 @@
       },
       "accepted_on": "2026-10-24",
       "document_path": "documents/forms/bg-eu-instruction-annex-6-residence-address-declaration-2018-repealed.html"
+    },
+    "bg-vas-case-3002-2026": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The official VAS case page identifies administrative case № 983/2026 and its 17 March 2026 decision № 3002. The court page generated and downloaded the PDF from its official EDIS document endpoint (act ID 2609047, VAS code, GUID 1277406293). PDF metadata identifies sac.justice.bg as creator and the Supreme Administrative Court as author."
+        },
+        "current_legal_version": {
+          "status": "pass",
+          "review_date": "2026-10-25",
+          "evidence": "This is a fixed, final judgment dated 17 March 2026, not a statutory consolidation. The accepted record is limited to the law applied and facts reviewed by that court; no claim is made that it is the latest or controlling decision on every public-policy restriction."
+        },
+        "extraction_completeness": {
+          "status": "pass",
+          "evidence": "The official page exposed the complete judgment text (17,341 characters) and its PDF download control for the same EDIS act ID. The native six-page PDF downloaded from that control is retained unchanged; the PDF file is recognized as version 1.4 with six pages. Its SHA-256 is recorded in semantic_review."
+        },
+        "attachments_review": {
+          "status": "pass",
+          "evidence": "The reviewed case page presents the decision text and PDF and no separate judicial attachment. The retained file is the judgment PDF only."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "Final cassation judgment of the Supreme Administrative Court, Fourth Chamber, in an administrative-law case applying the dedicated Bulgarian EU free-movement Act. It is case law, not legislation or general administrative guidance."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "evidence": "The unchanged PDF was obtained through the official VAS public case page’s own download control and is retained for source-reference use. No names or personal facts from the decision are copied into the source register or derived notes."
+        }
+      },
+      "semantic_review": {
+        "status": "passed",
+        "method": "complete_official_html_text_review_and_native_pdf_identity_check",
+        "review_date": "2026-10-25",
+        "scope": "Final six-page VAS cassation judgment № 3002/17.03.2026, administrative case № 983/2026; public-policy entry ban under Articles 26(1) and 26(3) of the Bulgarian EU free-movement Act.",
+        "evidence": "Reviewed the case posture, facts, lower-court reasoning, VAS analysis, holding and final order in the complete official online text. The Migration Directorate’s cassation appeal was rejected and the Sofia City Administrative Court judgment annulling the five-year entry ban was left in force. The VAS required the authority to establish all relevant facts and specify individual conduct showing a genuine, present and sufficiently serious threat under Article 27 of Directive 2004/38. It found the record did not establish that the EU citizen helped transport irregular migrants; the evidence showed he had called 112 about people in distress. NGO membership or volunteering alone was insufficient. The decision is final and fact-specific.",
+        "source_sha256": "3480776b547c46ac24b7502767d0b4179179eb42c063606ab609c7291aa12a9f",
+        "source_text_sha256": null,
+        "document_sha256": "3480776b547c46ac24b7502767d0b4179179eb42c063606ab609c7291aa12a9f"
+      },
+      "accepted_on": "2026-10-25",
+      "document_path": "documents/case_law/bg-vas-decision-3002-2026.pdf"
     }
   },
   "required_checks_scope": "local_copy_required_checks applies only before accepting a retained local artifact. Official link acceptance uses official_reference_review_schema and does not require retrieval, conversion, extraction, hashes, replay, or copy/republication permission.",
@@ -2220,7 +2279,7 @@
     }
   ],
   "material_dependencies": "See references/source-dependencies.json. National statutory wording is preserved; the EU 2019/1157 reference is tracked separately from Regulation (EU) 2025/1208.",
-  "official_reference_count": 59,
+  "official_reference_count": 60,
   "local_copy_required_checks": [
     "publisher_identity",
     "current_legal_version",
