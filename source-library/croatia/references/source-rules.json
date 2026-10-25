@@ -73,15 +73,16 @@
       "source_ids": [
         "hr-access-info-commissioner"
       ],
-      "retrieval": "GET the public official URL only; record redirects, final publisher host, content type, version/update date and response hash.",
-      "conversion": "No local copy is accepted. Preserve the original candidate only in the Monitor archive; do not use as current procedure.",
-      "selector": "not_applicable_excluded_lead",
-      "status": "excluded_stale_source_lead",
+      "retrieval": "Official Commissioner English page and the archived 2026-10-19 response checked on 2026-10-25; its displayed update date is 2019-04-04.",
+      "conversion": "Accepted only as the historical “Right to access information” section in documents/guidance/hr-access-info-commissioner-2019-historical.md. Exclude page shell, other sections and linked publications; do not use its procedure or deadlines as current.",
+      "selector": "manual_visible_section_from_right_to_access_information_heading_to_before_publications_list",
+      "status": "excluded_stale_comparator",
       "semantic_checks": [
-        "live page reviewed 2026-10-24; disposition recorded: The live English page is dated 2019-04-04 and displays only NN 25/13 and 85/15, omitting the later NN 69/22 amendment listed in the current Commissioner legal framework. Excluded from current procedure/deadline use; retain only as an archived stale comparator.",
-        "use the separately recorded official source IDs for current procedural routes"
+        "archived section matched the visible official English section on 2026-10-25",
+        "the excerpt displays NN 25/13 and 85/15; current official legal framework also lists NN 69/22",
+        "historical text accepted for recordkeeping only; current procedure and deadlines excluded"
       ],
-      "acceptance_policy": "A human-reviewed official link may be used within its checked identity, language, date/cutoff, relevant content, and limitations; capture and conversion are not prerequisites. This rule governs optional local-copy work only. For legislation, use a government consolidation or closest government-published version; consult a Gazette act only for a material gap."
+      "acceptance_policy": "Retain only the explicitly scoped historical page section with its date and currentness warning. Use the official Act and amendments for current procedure; local-copy acceptance is not a currentness conclusion."
     },
     {
       "rule_id": "hr-admin-disputes-act-nn-eli-v1",
@@ -764,16 +765,17 @@
       "source_ids": [
         "hr-mvep-stale-faq"
       ],
-      "retrieval": "No operative retrieval is required. Keep this official page only as an excluded stale-source comparator in the Monitor local-only archive.",
-      "conversion": "Not applicable for an excluded stale lead. Do not publish or use this page as current visa guidance.",
-      "selector": "not_applicable_excluded_lead",
-      "status": "excluded_stale_source_lead",
+      "retrieval": "Official MVEP page identity checked 2026-10-25; the exact 2026-10-19 raw response remains in the Monitor archive. No current-use retrieval rule is accepted for this known stale page.",
+      "conversion": "Accepted only as the historical FAQ body, questions 1–17, in documents/guidance/hr-mvep-stale-faq-historical.md. Exclude navigation, footer, and the separate fee page; do not use the content as current guidance.",
+      "selector": "manual_visible_article_boundary_from_frequently_asked_questions_heading_through_question_17",
+      "status": "monitor_only_known_stale_page",
       "semantic_checks": [
-        "official MVEP page identity recorded for the legacy FAQ",
-        "page statement that Croatia is not in Schengen conflicts with current official MVEP material stating Schengen acquis applies from 2023-01-01",
-        "excluded from current procedure; preserve only as a stale comparator in the local-only archive"
+        "official MVEP page and archived response matched on 2026-10-25",
+        "all 17 visible FAQ entries retained; Q6 fee link content excluded",
+        "the non-Schengen statement conflicts with current MVEP material effective 2023-01-01",
+        "historical document is accepted for page identity and extraction only; excluded from current legal/procedural use"
       ],
-      "acceptance_policy": "A human-reviewed official link may be used within its checked identity, language, date/cutoff, relevant content, and limitations; capture and conversion are not prerequisites. This rule governs optional local-copy work only. For legislation, use a government consolidation or closest government-published version; consult a Gazette act only for a material gap."
+      "acceptance_policy": "Retain only the named historical article body with its stale-use warning and source-specific reuse basis. A human-reviewed official link remains usable within its checked scope; neither the live page nor this historical copy establishes current visa rules."
     },
     {
       "rule_id": "hr-mvep-visa-appeal-ministry-page-v1",

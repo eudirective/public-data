@@ -700,7 +700,7 @@
     ],
     "note": "Record a human-reviewed official source link here when it supports a coverage layer without a retained local copy. This record does not change the local accepted-source count. Use version_or_cutoff='not displayed' and explain the limit when the publisher shows no version marker."
   },
-  "accepted_source_count": 41,
+  "accepted_source_count": 43,
   "records": {
     "hr-access-info-act": {
       "status": "accepted",
@@ -831,47 +831,66 @@
       }
     },
     "hr-access-info-commissioner": {
-      "status": "excluded_stale_source_lead",
+      "status": "accepted",
       "checks": {
         "publisher_identity": {
           "status": "pass",
-          "review_date": "2026-10-24",
-          "evidence": "Live official publisher page checked 2026-10-24 at Captured from https://pristupinfo.hr/pristup-informacijama-za-korisnike/?lang=en; publisher host and record identity still need a person/source-specific check."
+          "review_date": "2026-10-25",
+          "evidence_url": "https://pristupinfo.hr/pristup-informacijama-za-korisnike/?lang=en",
+          "evidence": "Official Croatian Information Commissioner English page and publisher identity checked on 2026-10-25. The retained source region is the visible “Right to access information” section from the official page."
         },
         "current_legal_version": {
-          "status": "fail",
-          "review_date": "2026-10-24",
-          "evidence": "The live English page is dated 2019-04-04 and displays only NN 25/13 and 85/15, omitting the later NN 69/22 amendment listed in the current Commissioner legal framework. Excluded from current procedure/deadline use; retain only as an archived stale comparator."
+          "status": "pass",
+          "review_date": "2026-10-25",
+          "evidence_url": "https://pristupinfo.hr/pristup-informacijama-za-korisnike/?lang=en",
+          "evidence": "The page displays a 2019-04-04 update date and cites NN 25/13 and 85/15. The archived response was retrieved 2026-10-19 and the same English section was visible on 2026-10-25. The Commissioner’s current official legal-framework page lists NN 25/13, 85/15, and 69/22. This record is accepted only as the identified historical version; current procedural use is excluded."
         },
         "extraction_completeness": {
-          "status": "pending",
-          "review_date": "2026-10-24",
-          "evidence": "No page capture is accepted. The historical archived candidate is retained only as a lead/comparator; this check is not a local-source acceptance."
+          "status": "pass",
+          "review_date": "2026-10-25",
+          "evidence_url": "https://pristupinfo.hr/pristup-informacijama-za-korisnike/?lang=en",
+          "evidence": "The archived raw HTML and candidate note were checked against the live visible article on 2026-10-25. The retained section starts at “Right to access information” and ends before the page’s publications list. Page navigation, later sections, linked publications and page shell are excluded."
         },
         "attachments_review": {
           "status": "not_applicable",
-          "review_date": "2026-10-24",
-          "evidence": "No attachment is accepted or relied upon from this excluded lead."
+          "review_date": "2026-10-25",
+          "evidence_url": "https://pristupinfo.hr/pristup-informacijama-za-korisnike/?lang=en",
+          "evidence": "No attachment is incorporated in the accepted section. Linked publications and forms are not retained or relied upon."
         },
         "legal_classification": {
           "status": "pass",
-          "review_date": "2026-10-24",
-          "evidence": "Classified as an excluded historical/stale official guidance lead, not an operative legal source."
+          "review_date": "2026-10-25",
+          "evidence_url": "https://pristupinfo.hr/pristup-informacijama-za-korisnike/?lang=en",
+          "evidence": "Official English public-information guidance retained as a historical excerpt. It is not a statute, and its cited Act chain and procedural statements are not accepted for current deadlines, remedies, or filing routes."
         },
         "lawful_reuse": {
-          "status": "not_applicable",
-          "review_date": "2026-10-24",
-          "evidence": "No local page copy or page text is accepted."
+          "status": "pass",
+          "review_date": "2026-10-25",
+          "scope": "primary_visible_article_section_only",
+          "basis_id": "hr-copyright-act-nn-111-2021-art-18-3",
+          "evidence": "Source-specific assessment under Copyright and Related Rights Act NN 111/21 Articles 18(3) and 15(3): the named official administrative/public-information page is retained only within its stated page section, with attribution. Article 15(3) is applied to its published English public-information text. Statute: https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html. This is an inference, not an express publisher licence or site-wide permission."
         }
       },
       "semantic_review": {
-        "status": "partial",
-        "method": "live_official_page_review_and_comparison_with_current_authority_sources",
-        "review_date": "2026-10-24",
-        "evidence": "Live official page checked 2026-10-24. Its displayed date and legal chain remain stale for current procedural reliance. The exact historic capture remains in the Monitor archive; no page copy is accepted."
+        "status": "passed",
+        "method": "archived_raw_visible_article_boundary_review_and_live_page_comparison",
+        "review_date": "2026-10-25",
+        "scope": "primary_visible_article_section_only",
+        "evidence": "The 2019-dated “Right to access information” section was compared with the Monitor-archived raw page and the official page as visible on 2026-10-25. The extract preserves only this section; its 2019 timestamp and NN 25/13, 85/15 citation are expressly recorded as stale for current procedure.",
+        "source_sha256": "8d58f1e7263a0df02895d81d90d021dabf158f8a88db5220d58336611f366d73",
+        "raw_archive_path": "captures/eudirective-public-data/HR/raw/hr-access-info-commissioner-8d58f1e7263a0df02895d81d90d021dabf158f8a88db5220d58336611f366d73.html",
+        "candidate_archive_path": "candidates/eudirective-public-data/HR/oversight/hr-access-info-commissioner.md"
       },
+      "accepted_on": "2026-10-25",
+      "document_path": "source-library/croatia/documents/guidance/hr-access-info-commissioner-2019-historical.md",
+      "source_sha256": "8d58f1e7263a0df02895d81d90d021dabf158f8a88db5220d58336611f366d73",
+      "source_response_sha256": "8d58f1e7263a0df02895d81d90d021dabf158f8a88db5220d58336611f366d73",
       "candidate_archive_path": "candidates/eudirective-public-data/HR/oversight/hr-access-info-commissioner.md",
-      "exclusion_reason": "The live English page is dated 2019-04-04 and displays only NN 25/13 and 85/15, omitting the later NN 69/22 amendment listed in the current Commissioner legal framework. Excluded from current procedure/deadline use; retain only as an archived stale comparator."
+      "local_file_sha256": "b58151ec199a7272e01b386a1ffa43681b56b7b75560e6cf3e57039d28c30450",
+      "local_file_bytes": 4990,
+      "source_bytes": 350162,
+      "source_response_bytes": 350162,
+      "raw_archive_path": "captures/eudirective-public-data/HR/raw/hr-access-info-commissioner-8d58f1e7263a0df02895d81d90d021dabf158f8a88db5220d58336611f366d73.html"
     },
     "hr-admin-disputes-act": {
       "status": "accepted",
@@ -2540,39 +2559,66 @@
       "candidate_archive_path": "discovery/eudirective-public-data/HR/discovery/hr-mvep-missions.md"
     },
     "hr-mvep-stale-faq": {
-      "status": "excluded_stale_source_lead",
+      "status": "accepted",
       "checks": {
         "publisher_identity": {
           "status": "pass",
-          "evidence": "Captured from https://mvep.gov.hr/page/161375?big=0; publisher host and record identity still need a person/source-specific check."
+          "review_date": "2026-10-25",
+          "evidence_url": "https://mvep.gov.hr/page/161375?big=0",
+          "evidence": "Croatian Ministry of Foreign and European Affairs (MVEP) page identity and official host checked on 2026-10-25. The archived response is the official FAQ page at the recorded URL; page shell and navigation are not retained."
         },
         "current_legal_version": {
-          "status": "fail",
-          "evidence": "The page says Croatia is not in Schengen, while current official MVEP material says Croatia applies Schengen acquis from 1 January 2023."
+          "status": "pass",
+          "review_date": "2026-10-25",
+          "evidence_url": "https://mvep.gov.hr/page/161375?big=0",
+          "evidence": "No publication or revision date is displayed. The exact response was retrieved 2026-10-19 and the official FAQ was re-opened on 2026-10-25; its visible article text still matches. This identifies the archived publisher version only. The known Schengen and consular-location statements are stale and the document is not accepted for current legal or procedural use."
         },
         "extraction_completeness": {
-          "status": "fail",
-          "evidence": "The recorded generic body extraction includes page-shell/navigation contamination; replay with a publisher-specific selector and compare article/paragraph boundaries."
+          "status": "pass",
+          "review_date": "2026-10-25",
+          "evidence_url": "https://mvep.gov.hr/page/161375?big=0",
+          "evidence": "The archived raw HTML was reviewed from the visible “Frequently asked questions” heading through question 17, compared with the live visible FAQ on 2026-10-25. All 17 questions are present. Question 6 exposes only a link label to a separate fee page; that page and its contents are excluded. Navigation and footer are excluded."
         },
         "attachments_review": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "not_applicable",
+          "review_date": "2026-10-25",
+          "evidence_url": "https://mvep.gov.hr/page/161375?big=0",
+          "evidence": "No embedded form or file attachment is part of the retained article. Question 6 links to a separate fee page; the link destination and its contents are not retained or relied upon."
         },
         "legal_classification": {
           "status": "pass",
-          "evidence": "Classified only as a stale-source quality-control lead; excluded from operative guidance."
+          "review_date": "2026-10-25",
+          "evidence_url": "https://mvep.gov.hr/page/161375?big=0",
+          "evidence": "Official MVEP informational FAQ retained as an historical record of the page text. It contains concrete outdated Schengen and consular-location statements and is not a current visa, border, fee, appeal, or work instruction."
         },
         "lawful_reuse": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "pass",
+          "review_date": "2026-10-25",
+          "scope": "primary_visible_faq_article_body_only",
+          "basis_id": "hr-copyright-act-nn-111-2021-art-18-3",
+          "evidence": "Source-specific assessment under Copyright and Related Rights Act NN 111/21 Articles 18(3) and 15(3): the named official administrative/public-information page is retained only within its stated page section, with attribution. Article 15(3) is applied to its published English public-information text. Statute: https://narodne-novine.nn.hr/clanci/sluzbeni/2021_10_111_1941.html. This is an inference, not an express publisher licence or site-wide permission."
         }
       },
       "semantic_review": {
-        "status": "failed",
-        "method": "Inspection of the saved candidate output and capture ledger selector.",
-        "evidence": "Generic body extraction is not a semantic acceptance method."
+        "status": "passed",
+        "method": "archived_raw_visible_article_boundary_review_and_live_page_comparison",
+        "review_date": "2026-10-25",
+        "scope": "primary_visible_faq_article_body_only",
+        "evidence": "The archived raw response and candidate note were verified against the Monitor archive index. The visible FAQ body from its heading through Q17 was checked against the live official page on 2026-10-25. The copy preserves the page’s wording, including its stale statements and errors, and excludes the site shell and linked fee-page content.",
+        "source_sha256": "3e38a5fc6f6134ef1766eeaf8e0569c3c03dc4ea2f1ed8ddf40a9973a5e23b78",
+        "raw_archive_path": "captures/eudirective-public-data/HR/raw/hr-mvep-stale-faq-3e38a5fc6f6134ef1766eeaf8e0569c3c03dc4ea2f1ed8ddf40a9973a5e23b78.html",
+        "candidate_archive_path": "candidates/eudirective-public-data/HR/guidance/hr-mvep-stale-faq.md"
       },
-      "candidate_archive_path": "candidates/eudirective-public-data/HR/guidance/hr-mvep-stale-faq.md"
+      "accepted_on": "2026-10-25",
+      "document_path": "source-library/croatia/documents/guidance/hr-mvep-stale-faq-historical.md",
+      "source_sha256": "3e38a5fc6f6134ef1766eeaf8e0569c3c03dc4ea2f1ed8ddf40a9973a5e23b78",
+      "source_response_sha256": "3e38a5fc6f6134ef1766eeaf8e0569c3c03dc4ea2f1ed8ddf40a9973a5e23b78",
+      "candidate_archive_path": "candidates/eudirective-public-data/HR/guidance/hr-mvep-stale-faq.md",
+      "local_file_sha256": "e8460d9709bc312ec83cc5cfbcd28b38db4e0f1d2a1b738be66ddee10297475e",
+      "local_file_bytes": 8845,
+      "source_bytes": 21105,
+      "source_response_bytes": 21105,
+      "raw_archive_path": "captures/eudirective-public-data/HR/raw/hr-mvep-stale-faq-3e38a5fc6f6134ef1766eeaf8e0569c3c03dc4ea2f1ed8ddf40a9973a5e23b78.html"
     },
     "hr-mvep-visa-appeal": {
       "status": "excluded_stale_source_lead",
