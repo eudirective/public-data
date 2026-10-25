@@ -387,7 +387,7 @@
             "bg-eu-free-movement-act",
             "bg-foreigners-act"
           ],
-          "note": "The dedicated and general foreigner regimes are identified; exact scope boundaries and public-policy safeguards need provision mapping."
+          "note": "The accepted EU-citizen Act Articles 22–30 establish exceptional restriction grounds; Article 23 requires personal conduct, degree-of-threat assessment and individual factors, and excludes economic, social-assistance, job-seeking and expired-document grounds. Articles 24–26 address residence withdrawal, expulsion and entry bans; Article 25 includes threat, long-residence/child, non-refoulement and health provisions. Crosswalked to Directive 2004/38 Articles 15 and 27–33 in source-dependencies.json. Legal review remains open on the Article 26 alternative “data” grounds, Article 24(1)(4) health withdrawal, the exact 10-year/child safeguards, and the Act’s scope beside the general Foreigners Act."
         },
         "implementing_rule": {
           "status": "partially_supported",
@@ -395,7 +395,7 @@
             "bg-eu-instruction",
             "bg-foreigners-act-rules"
           ],
-          "note": "Implementing sources are identified; grounds, process, and interaction with the EU-specific safeguards remain open. The accepted MVR instruction text is consolidated through SG 29/2021; a separate 8-page MVR upload identifying only the 2018 promulgation was not treated as current, and no later amendment is certified."
+          "note": "The accepted EU-residence Instruction №8121з-1276 addresses residence-document issuance and is consolidated through SG 29/2021; it does not establish detailed implementation of Articles 22–30 restrictions. The Foreigners Act Rules belong to a separate regime; their interaction for EU-family cases and any later restriction-specific instructions remain unverified."
         },
         "procedure": {
           "status": "partially_supported",
@@ -403,7 +403,7 @@
             "bg-eu-law-service",
             "bg-mvr-regional-offices"
           ],
-          "note": "Official service and directorate routes are identified, but authority practice and notice/reason procedures are not documented."
+          "note": "EU-citizen Act Article 27 identifies order-making authorities, requires the order to state appeal period, competent court and voluntary-departure period, sets a one-month minimum subject to a continuing-threat exception, and provides for the order to be explained in an intelligible language by execution authorities. Compare with Directive Article 30 written notice, precise/full grounds (subject to state-security exception), and a one-month period except duly substantiated urgency; current practice and legal reconciliation are open."
         },
         "remedy_or_practice": {
           "status": "partially_supported",
@@ -413,11 +413,13 @@
             "bg-vas-case-11351-2019",
             "bg-vas-case-3002-2026"
           ],
-          "note": "Two final VAS decisions have been screened: a narrow derivative-residence judgment under the pre-SG 34/2019 Act version, and a 2026 public-policy entry-ban cassation decision requiring individualized evidence of a genuine, present and sufficiently serious threat. Broader refusal, expulsion and removal practice remains unreviewed."
+          "note": "Articles 28–30 route challenges through the Administrative Procedure Code, suspend enforcement except on national-security grounds, provide for execution after the order is final, and allow revocation requests after three years from finality or earlier after a material change, with a six-month decision period. Directive Articles 31–33 separately address review of facts/law, interim relief before actual removal, exclusion-order lifting after three years from enforcement, and reassessment of delayed expulsion. Whether Bulgarian procedure supplies each safeguard in operation is unverified. Two final VAS decisions are screened: the historical derivative-residence case and a 2026 entry-ban decision requiring individualized evidence; broader expulsion/removal practice remains unreviewed."
         }
       },
       "open_issues": [
-        "Map proportionality, personal conduct, public-policy/security grounds, urgency, appeal effects, family unity, and removal safeguards."
+        "Obtain a provision-level legal reconciliation of Act Articles 22–30 with Directive 2004/38 Articles 15 and 27–33, focusing on Article 26 grounds, health restrictions, the 10-year and child protections, Article 27 notice/urgency, and Article 28 suspension versus Directive Article 31 interim relief; do not infer incompatibility from wording alone.",
+        "Map the EU-citizen Act and Foreigners Act/Rules boundary for non-EU family members, including which authority, grounds and removal procedure apply at each stage.",
+        "Review official court decisions and operational evidence on refusal, expulsion, entry bans, interim applications and actual removal; the current screened cases are not a practice survey."
       ]
     },
     {

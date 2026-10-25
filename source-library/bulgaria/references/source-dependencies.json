@@ -239,6 +239,36 @@
       ],
       "review_question": "Verify whether Articles 9-10 or their cited criteria changed after issue 44/2023 and map Article 22 legal-aid eligibility independently from general social-assistance eligibility and the other Legal Aid Act grounds.",
       "editorial_action": "Keep the means-test dependency open. Do not use the 2023 Social Assistance Rules text as a complete 2026 eligibility test until post-2023 currentness and legal-aid-specific application are checked."
+    },
+    {
+      "id": "bg-eu-free-movement-act-directive-2004-38",
+      "source_record_id": "bg-eu-free-movement-act",
+      "national_provisions": [
+        "Articles 22–30",
+        "Additional Provisions § 2 (transposition declaration)"
+      ],
+      "referenced_instrument": "Directive 2004/38/EC, Articles 15 and 27–33",
+      "referenced_instrument_url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32004L0038",
+      "referenced_source_id": "eu:32004l0038",
+      "status": "provision_crosswalk_recorded_legal_review_open",
+      "reviewed_on": "2026-10-25",
+      "status_note": "The MVR government consolidation is accepted through SG 52/2025. Articles 23, 25, 27–30 were compared with Directive 2004/38 Articles 15 and 27–33, using the shared-core Directive text. The national Act contains corresponding personal-conduct, individual-factor, threat, health, notice, appeal, departure-period and review provisions. Specific questions remain: Article 26 uses an alternative “data” formulation for national-security/public-order bans; Article 24(1)(4) permits health-based withdrawal; Article 25(2) uses “exceptional cases connected with national security” for the 10-year rule and protects minors where expulsion is in their interest; Article 27(3) ties the sub-month departure exception to a continuing threat; Article 28 suspends enforcement except for national-security grounds; and Article 30 measures the three-year lifting period from finality, while Directive Article 32 refers to enforcement of the final exclusion order. These wording and timing differences require legal interpretation and do not by themselves establish incompatibility.",
+      "primary_sources": [
+        {
+          "title": "Bulgarian EU-citizen Act, MVR consolidated PDF through SG 52/2025",
+          "url": "https://mvr.bg/upload/338040/%D0%97%D0%92%D0%9F%D0%9D%D0%A0%D0%91%D0%93%D0%95%D0%A1%D0%A7%D0%A2%D0%A1%202026.pdf"
+        },
+        {
+          "title": "Directive 2004/38/EC, official EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32004L0038"
+        },
+        {
+          "title": "Directive 2004/38/EC, Bulgarian EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/BG/ALL/?uri=CELEX%3A32004L0038"
+        }
+      ],
+      "review_question": "Determine the scope of Act Articles 22–30 for non-EU family members alongside the Foreigners Act and Rules; reconcile the Article 26 grounds, health restrictions, enhanced long-residence/child protections, written reasons and urgency, interim relief and actual-removal timing, and exclusion-order review trigger with Directive Articles 15 and 27–33 and applicable CJEU/national case law.",
+      "editorial_action": "Preserve the national Act wording and keep this dependency and the topic open. Do not infer incompatibility or operational compliance without legal interpretation, current procedural sources and relevant case-law review."
     }
   ]
 }
