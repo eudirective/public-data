@@ -1,20 +1,23 @@
-# Verordnung über die Einreise und die Visumerteilung (VEV)
+# Verordnung über die Einreise und die Visumerteilung (VEV), LR 152.204
 
 - Jurisdiction: Liechtenstein
-- Candidate ID: `li-11`
-- Source class: `visa_regulation`
-- Official page title: VEV | Lilex - Gesetzesdatenbank des Fürstentums Liechtenstein
-- Publisher: Liechtenstein Government Legal Services
-- Candidate source URL: https://www.gesetze.li/konso/2020042000
+- Source ID: `li-11`
+- Source type: `visa_regulation`
+- Publisher: Liechtenstein Government Legal Services (Rechtsdienst der Regierung)
+- Official source URL: https://www.gesetze.li/konso/2020042000
 - Resolved text URL: https://www.gesetze.li/konso/html/2020042000?version=2&search_text=&search_loc=
-- Retrieved: 2026-10-19T03:01:01+00:00
-- Publisher/version evidence: Gesetze.li current-text frame version=2; inventory note: The official result showed a version dated 12 October 2025; confirm current version and linked Schengen rules at implementation.
-- Extraction region: `tag=body`
-- Text response SHA-256: `f89fa4f650b57f1ed7a7402f2e0b26cd24da3c322983ed6d7dffe107303790e6`
-- Current-version shell SHA-256: `9c98c508e665dec4d08df5113b8b8da91f05033914b02f6a312d51ab18f8aaf7`
+- Official PDF: https://www.gesetze.li/konso/pdf/2020042000?version=2
+- Language: German
+- Consolidated version checked: Lilex text-frame version 2; official PDF states `Fassung: 12.10.2025`; LGBl 2025.483 entered into force 12 October 2025. The official Systematisches Register, stand 1 October 2026 (through LGBl 2026.321), lists LGBl 2025.483 as the latest VEV amendment.
+- Reviewed: 2026-10-25
+- Publisher-shell response SHA-256: `9c98c508e665dec4d08df5113b8b8da91f05033914b02f6a312d51ab18f8aaf7`
+- Text-frame response SHA-256: `f89fa4f650b57f1ed7a7402f2e0b26cd24da3c322983ed6d7dffe107303790e6`
+- Source-text SHA-256: `0a3c107195fd402bfc1a1d79e78d76d14fb50be4260e515e8b88185bd80566c0` (23426 UTF-8 bytes)
+- Candidate-conversion SHA-256: `e7def31d72a30abcdafb11fa76734c35d87c8cd8981a348672d2691d9cee952f`
+- Extraction: `tag=body`; deterministic offline replay from the archived official HTML frame reproduces the complete candidate conversion and this official-text section. The official 15-page version-2 PDF states `Fassung: 12.10.2025`; selected anchors checked include the title/LR number, Arts. 1–2, 3–10, 18–29, 30–32, and amendment footnotes. This was not a page-by-page comparison.
+- Reuse basis: Liechtenstein Copyright Act (URG), Art. 5(1)(a) and (2), as applied to statutory text only; this document does not copy the Lilex interface or database.
 
-> **Review candidate.** Not accepted into the trusted source corpus. Relationship: Related entry and visa procedure source
-> Check exact legal identity, version, language, scope, authority, links and reuse conditions before reliance.
+> **Accepted source record.** VEV regulates entry into Liechtenstein and visa issuance, including short- and long-stay conditions and procedures, competent authorities, cooperation, refusal and remedies. Art. 1 gives priority to applicable Schengen rules where they differ and identifies Liechtenstein-Switzerland and other representation agreements. This text is not a complete statement of the Schengen acquis, the separate VISV/EESV rules, or current mission practice. The official Lilex consolidation is informational and has no legal effect; signed State Law Gazette publication remains legally authentic. Acceptance does not establish topic coverage, legal equivalence, current applicability after the review date, or country completion.
 
 ## Official source text
 
