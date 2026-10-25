@@ -569,9 +569,13 @@ def update_manifest(manifest: dict, results: list[dict]) -> None:
     sources = {item["id"]: item for item in manifest.get("sources", [])}
     for result in results:
         source = sources[result["candidate_id"]]
+        accepted_document = source.get("accepted_document_path")
+        accepted = bool(source.get("accepted") and accepted_document)
         source["retrieved"] = bool(result.get("source_sha256"))
         source["retrieval_status"] = result["retrieval_status"]
-        source["accepted"] = False
+        # A fresh retrieval remains an unaccepted review candidate, but it
+        # must not erase a separate, previously reviewed document decision.
+        source["accepted"] = accepted
         for key in ("candidate_text_path", "previous_candidate_text_path", "candidate_source_path", "previous_candidate_source_path", "resolved_url", "text_url", "source_content_type", "source_sha256", "text_source_sha256", "change_detection_sha256", "converted_sha256", "publisher_version_evidence", "content_selector", "retrieval_note", "source_bytes", "converted_bytes", "conversion_rule_version", "page_count"):
             if key in result:
                 source[key] = result[key]
@@ -584,7 +588,7 @@ def update_manifest(manifest: dict, results: list[dict]) -> None:
     pdfs = counts.get("source_pdf_review_candidate_not_text_extracted", 0)
     retrieved = sum(bool(x.get("retrieved")) for x in sources.values())
     manifest["status"] = "partially_retrieved_review_candidates"
-    manifest["retrieval_status"] = f"{converted} texts converted ({html_converted} HTML, {pdf_converted} PDF); {pdfs} official PDFs remain without text extraction; LLV 403, staging and interactive routes are separately identified; no source accepted"
+    manifest["retrieval_status"] = f"{converted} texts converted ({html_converted} HTML, {pdf_converted} PDF); {pdfs} official PDFs remain without text extraction; LLV 403, staging and interactive routes are separately identified; no source accepted in this candidate inventory"
     manifest["accepted_source_count"] = 0
     manifest["retrieved_review_candidate_count"] = retrieved
     manifest["converted_review_candidate_count"] = converted
@@ -630,6 +634,8 @@ def sync() -> None:
 def verify() -> None:
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     capture = json.loads(CAPTURES.read_text(encoding="utf-8"))
+    acceptance = json.loads((REFS / "source-acceptance.json").read_text(encoding="utf-8")) if (REFS / "source-acceptance.json").exists() else {"records": {}}
+    accepted_sources = acceptance.get("records", {})
     sources = {item["id"]: item for item in manifest.get("sources", [])}
     errors = []
     for record in capture.get("records", []):
@@ -649,7 +655,9 @@ def verify() -> None:
                 text_cmp = comparison_hash(text_raw)
                 if sha256((shell_cmp + text_cmp).encode()) != record["change_detection_sha256"]:
                     raise ValueError("normalized source change-detection hash mismatch")
-            if record.get("candidate_text_path"):
+            candidate_path = inside_root(record["candidate_text_path"]) if record.get("candidate_text_path") else None
+            accepted_record = accepted_sources.get(record["candidate_id"])
+            if (candidate_path and candidate_path.exists()) or accepted_record:
                 source = sources[record["candidate_id"]]
                 if record.get("source_content_type") == "application/pdf":
                     rebuilt, page_count = pdf_markdown(source, record, text_raw)
@@ -666,9 +674,22 @@ def verify() -> None:
                                        record.get("publisher_shell_sha256"), selector, body)
                 if selector != record["content_selector"] or sha256(rebuilt) != record["converted_sha256"]:
                     raise ValueError("deterministic HTML extraction replay mismatch")
-                if sha256(inside_root(record["candidate_text_path"]).read_bytes()) != record["converted_sha256"]:
-                    raise ValueError("candidate text hash mismatch")
-                print(f"verified {record['candidate_id']}")
+                if candidate_path and candidate_path.exists():
+                    if sha256(candidate_path.read_bytes()) != record["converted_sha256"]:
+                        raise ValueError("candidate text hash mismatch")
+                    print(f"verified {record['candidate_id']}")
+                else:
+                    accepted_path = inside_root(accepted_record["document_path"])
+                    accepted_text = accepted_path.read_text(encoding="utf-8")
+                    marker = "## Official source text\n\n"
+                    if marker not in accepted_text or marker not in rebuilt.decode("utf-8"):
+                        raise ValueError("accepted document does not expose the verified official-text section")
+                    accepted_body = accepted_text.split(marker, 1)[1].encode("utf-8")
+                    replay_body = rebuilt.decode("utf-8").split(marker, 1)[1].encode("utf-8")
+                    expected = accepted_record.get("semantic_review", {}).get("source_text_sha256")
+                    if not expected or sha256(accepted_body) != expected or accepted_body != replay_body:
+                        raise ValueError("accepted document official-text section differs from replayed conversion")
+                    print(f"verified {record['candidate_id']} (accepted document)")
             elif record.get("candidate_source_path"):
                 if sha256(inside_root(record["candidate_source_path"]).read_bytes()) != record["source_sha256"]:
                     raise ValueError("preserved PDF hash mismatch")

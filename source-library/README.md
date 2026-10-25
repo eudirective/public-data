@@ -1,6 +1,6 @@
 # EU source retrieval library
 
-Library release version: 0.10.0
+Library release version: 0.11.0
 
 The reusable national-pack layout is documented in [the country-pack template](templates/country-pack/LAYOUT.md). The latest structural inventory is in [the folder audit](references/library-folder-audit-2026-10-19.md). The shared English EU corpus serves every pack; country-level `core/` folders are kept only when they contain actual official EU-language files. Ireland and Malta use that shared corpus for English instead of duplicating English files.
 
@@ -111,7 +111,7 @@ The [Lithuania register](lithuania/references/candidate-manifest.json) contains 
 
 ## Liechtenstein national-source candidates
 
-The [Liechtenstein register](liechtenstein/references/candidate-manifest.json) contains 40 candidates across laws, guidance, forms, court and oversight material. Sixteen official HTML pages were converted as unaccepted review candidates, two PDFs were preserved without text extraction, and 16 requests returned HTTP 403; staging, interactive-form and case-law-app limitations are recorded separately. Offline replay passes for all 16 conversions and both PDF hashes. No locally stored artifact has been accepted, and reuse conditions and legal-authenticity checks remain unresolved. See the [README](liechtenstein/README.md) and [sustainability assessment](liechtenstein/references/sustainability-assessment.md).
+The [Liechtenstein inventory](liechtenstein/references/candidate-manifest.json) contains 40 source leads across legislation, guidance, forms, courts and oversight. One local document—the PFZG consolidation, version 11/effective 1 January 2026—has been accepted with explicit limits; the remaining 39 leads remain open. Its text-only reuse basis was confirmed under URG Article 5, while Lilex's no-legal-effect caveat and the signed Gazette's authenticity remain explicit. Sixteen requests returned HTTP 403, and staging, interactive-form and case-law-app limitations remain. No topic or country completion is claimed. See the [README](liechtenstein/README.md), [source acceptance](liechtenstein/references/source-acceptance.json), [source register](liechtenstein/references/source-register.json), and [sustainability assessment](liechtenstein/references/sustainability-assessment.md).
 
 ## Malta national-source candidates
 
