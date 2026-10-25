@@ -1,0 +1,1382 @@
+{
+  "schema_version": "1.0.0",
+  "jurisdiction": "BG",
+  "review_scope": "EU free movement and third-country family-member entry, visa, residence, administration, remedies, oversight, and operational practice",
+  "as_of": "2026-10-25",
+  "completion_rule": "Do not mark Bulgaria complete until every applicable topic has adequate source-backed evidence across all four layers, relevant dependencies are reviewed, the required case-law discovery is screened, and mission and regional operational tasks have evidence-backed dispositions. Source presence or link acceptance alone is insufficient.",
+  "required_layers": [
+    "primary_law",
+    "implementing_rule",
+    "procedure",
+    "remedy_or_practice"
+  ],
+  "layer_labels": {
+    "primary_law": "Primary national legislation and directly applicable EU law",
+    "implementing_rule": "Implementing rules, instruments, forms, and fee schedules",
+    "procedure": "Authority procedures, filing routes, evidence requirements, and practice",
+    "remedy_or_practice": "Administrative and judicial remedies, oversight, or relevant practice"
+  },
+  "status_policy": "All topics below remain incomplete. partially_supported means a reviewed official source is relevant but issue-level adequacy is not established. unresolved means no adequate source-backed evidence has yet been identified for that layer. The current count is 56 partially supported layers and 0 unresolved layers; no layer is marked covered.",
+  "topics": [
+    {
+      "id": "directive_scope_and_beneficiaries",
+      "label": "Directive scope, EU/EEA/Swiss scope, family categories, and return situations",
+      "status": "incomplete",
+      "layers": {
+        "primary_law": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-free-movement-act"
+          ],
+          "note": "The current MVR consolidation is accepted through SG 52/2025; provision-level mapping to Directive 2004/38/EC and scope for Bulgarian-national/return situations are not complete. The canonical Bulgarian Directive 2004/38 representation is routed through references/shared-core.json; provision-level concordance and return-situation coverage remain open."
+        },
+        "implementing_rule": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-instruction"
+          ],
+          "note": "The accepted Instruction covers documents and procedure; its relationship to every beneficiary category and current Act provisions remains to be mapped. The accepted MVR instruction text is consolidated through SG 29/2021; a separate 8-page MVR upload identifying only the 2018 promulgation was not treated as current, and no later amendment is certified."
+        },
+        "procedure": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-law-service",
+            "bg-eu-guidance-en"
+          ],
+          "note": "The MVR page and English guidance are navigation aids; neither resolves all eligibility and scope cases."
+        },
+        "remedy_or_practice": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-apc",
+            "bg-vas-case-search",
+            "bg-vas-case-11351-2019"
+          ],
+          "note": "A final VAS decision now provides one screened example on the spouse definition for derivative residence; return situations, other family categories, and broader case-law coverage remain open."
+        }
+      },
+      "open_issues": [
+        "Map every applicable Directive article to Bulgarian provisions and separately assess return situations, extended family, durable relationships, and scope of the dedicated Act."
+      ]
+    },
+    {
+      "id": "entry_exit_and_short_stay_visa",
+      "label": "Entry, exit, visa exemption, and facilitation for qualifying family members",
+      "status": "incomplete",
+      "layers": {
+        "primary_law": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-mfa-visa-ordinance-consolidated",
+            "bg-visa-amendment-221-2025"
+          ],
+          "note": "The MFA consolidation through SG 4/2025 and targeted 2025 amendment are reviewed; the Visa Code and Directive article concordance is not complete. The canonical Bulgarian Visa Code representation and the separate Visa Code digitalisation amendment are now routed through references/shared-core.json; article-level concordance and Bulgarian implementation evidence remain open."
+        },
+        "implementing_rule": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-mfa-visa-ordinance-consolidated",
+            "bg-mfa-tariff-3"
+          ],
+          "note": "Visa procedure and consular fees are identified; exact fee exemptions and application to each family category need a provision-level review."
+        },
+        "procedure": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-mfa-visa-hub",
+            "bg-mfa-visa-form",
+            "bg-annex-16-prior-consultations"
+          ],
+          "note": "Central guidance, the national form, and the shared-core prior-consultation locator are identified; mission-specific filing practice is not covered."
+        },
+        "remedy_or_practice": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-mfa-visa-hub",
+            "bg-apc"
+          ],
+          "note": "The central MFA page describes refusal routes; deadlines, competent forum, and reviewed case application remain open."
+        }
+      },
+      "open_issues": [
+        "Map visa facilitation, no-fee and expedited handling, entry evidence, prior consultation, representation, and remedies against the Visa Code and each applicable national rule."
+      ]
+    },
+    {
+      "id": "residence_over_three_months",
+      "label": "Residence conditions, worker/self-employed/student/economically inactive categories, and proof",
+      "status": "incomplete",
+      "layers": {
+        "primary_law": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-free-movement-act"
+          ],
+          "note": "The accepted Act contains the national residence categories; individual statutory conditions and their compatibility with EU law have not been fully analyzed."
+        },
+        "implementing_rule": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-instruction"
+          ],
+          "note": "The Instruction lists application evidence; adequacy and limits of additional evidence demands remain to be reviewed. The accepted MVR instruction text is consolidated through SG 29/2021; a separate 8-page MVR upload identifying only the 2018 promulgation was not treated as current, and no later amendment is certified."
+        },
+        "procedure": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-law-service",
+            "bg-eu-form-other-articles",
+            "bg-mvr-tariff-4"
+          ],
+          "note": "The service page, dated sample form, and fee tariff are identified; the current MVR form payload remains inaccessible and the 2020 sample is not proven identical."
+        },
+        "remedy_or_practice": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-apc",
+            "bg-vas-case-search",
+            "bg-vas-case-11351-2019"
+          ],
+          "note": "One final VAS decision addresses a same-sex spouse’s derivative residence claim under the then-applicable national Act and Directive 2004/38; it does not cover worker/economic residence assessments or broader case-law practice."
+        }
+      },
+      "open_issues": [
+        "Map eligibility tests, individualized assessment, resources/insurance evidence, burden of proof, processing deadlines, and permissible follow-up evidence."
+      ]
+    },
+    {
+      "id": "registration_and_residence_documents",
+      "label": "Registration certificates, residence cards, applications, fees, and card format",
+      "status": "incomplete",
+      "layers": {
+        "primary_law": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-free-movement-act",
+            "bg-personal-documents-act"
+          ],
+          "note": "The dedicated Act and supporting identity-document Act are accepted references. The national Article 12(1) field-10 codes match Regulation 2025/1208 Article 7(2) in Bulgarian, while the 2019/1157 citation, fee linkage, title/implementation evidence, and past transition date remain open dependencies."
+        },
+        "implementing_rule": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-instruction",
+            "bg-personal-documents-rules",
+            "bg-mvr-tariff-4",
+            "bg-eu-form-extended",
+            "bg-eu-form-permanent"
+          ],
+          "note": "The MVR-hosted 19 November 2025 Rules text is link-only, but its official indexed Article 7(1)(10) excerpt routes applications for residence documents under Personal Documents Act Article 59(2)-(4) through the Migration Directorate or regional Migration units. Decree №286/2025, §2, later amended the Rules in SG 109/2025; the amendment's Article 40 changes concern general foreigner-permit routes and do not establish the EU-family card procedure. Current central application/declaration payloads remain link-only. Regulation 2025/1208 requires the 1030/2002 format as implemented by specified Commission decisions; no current card specimen or card-specific issuing instruction was located. The accepted MVR instruction text is consolidated through SG 29/2021; a separate 8-page MVR upload identifying only the 2018 promulgation was not treated as current, and no later amendment is certified."
+        },
+        "procedure": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-law-service",
+            "bg-mvr-regional-offices",
+            "bg-personal-documents-rules",
+            "bg-iisda-eu-residence-service-870",
+            "bg-iisda-eu-residence-service-1403"
+          ],
+          "note": "The MVR service page and directorate directory are reviewed. The indexed Rules excerpt identifies Migration authorities for applications under Personal Documents Act Article 59(2)-(4), but the PDF is not fully retrievable and the later Gazette amendment, current appointment/checklist details, and regional practice remain open. The official IISDA service 870 and 1403 records add bounded filing, processing, collection, and appeal details, but still title the cards under Regulation 2019/1157; they do not establish current card format. Service 1403 also displays both euro and lev amounts, so its fee statement is unresolved."
+        },
+        "remedy_or_practice": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-apc",
+            "bg-vas-case-search",
+            "bg-iisda-eu-residence-service-870",
+            "bg-iisda-eu-residence-service-1403"
+          ],
+          "note": "General challenge routes are identified, but no screened card-issuance case or operational evidence is recorded."
+        }
+      },
+      "open_issues": [
+        "Reconcile Bulgarian Personal Documents Act transitional § 24(3), whose 3 August 2026 date has passed, with Regulation 2025/1208 Article 8 and its conditional derogation to 3 August 2031; verify current card title, format, implementing decisions and fee treatment from official Bulgarian issuance evidence."
+      ]
+    },
+    {
+      "id": "family_status_and_documents",
+      "label": "Family status, dependency, durable partnership, civil records, and foreign documents",
+      "status": "incomplete",
+      "layers": {
+        "primary_law": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-free-movement-act",
+            "bg-civil-registration-act"
+          ],
+          "note": "The dedicated Act and Civil Registration Act are accepted; Regulation (EU) 2016/1191 Articles 2(1), 2(3)–(4) and 4 address specified Member-State public documents, exclude third-country public documents, and do not determine recognition of legal effects. The Bulgarian national rules on foreign family status and non-marital relationships are not fully mapped."
+        },
+        "implementing_rule": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-instruction",
+            "bg-eu-form-declaration",
+            "bg-eu-form-other-articles"
+          ],
+          "note": "The MVR service page states that EU Member-State public documents within Regulation (EU) 2016/1191 are exempt from legalisation. Commission Notice C/2023/1392 (Bulgarian representation routed through the canonical shared-core index) provides further non-binding guidance on accepting Member-State family-relationship documents and translation/verification limits. Current declarations, translation practice, alternative evidence, and national implementation remain to be reviewed."
+        },
+        "procedure": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-law-service",
+            "bg-eu-instruction"
+          ],
+          "note": "The official application route and document list are identified, but the MVR service page is a changing index and does not evidence all case-specific additional-document demands, translation routes, unavailable-record alternatives, or current treatment of third-country documents."
+        },
+        "remedy_or_practice": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-apc",
+            "bg-vas-case-search",
+            "bg-vas-case-11351-2019"
+          ],
+          "note": "A final VAS decision supports recognition of a same-sex spouse solely for derivative residence when the marriage was lawfully concluded in another Member State; it does not resolve civil registration, durable partnership, legalization, or alternative-evidence questions."
+        }
+      },
+      "open_issues": [
+        "Map Bulgarian substantive treatment of marriages, registered partnerships, durable relationships, dependency, parenthood and adoption separately from document authenticity and formalities.",
+        "Verify translation, certified-copy, apostille/legalisation, specific-authenticity-check, unavailable-record and alternative-evidence procedures for Member-State and third-country documents; preserve the limits in Regulation (EU) 2016/1191 and Commission Notice C/2023/1392."
+      ]
+    },
+    {
+      "id": "retained_and_permanent_residence",
+      "label": "Retained residence after death, departure, divorce, and permanent residence",
+      "status": "incomplete",
+      "layers": {
+        "primary_law": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-free-movement-act"
+          ],
+          "note": "The accepted Act’s Articles 14–15 address retained residence after departure, death, divorce, or termination of cohabitation; Article 16 sets permanent-residence routes and exceptions; Article 17 specifies absences that do not interrupt the qualifying period; Articles 18–19 address document loss after absences over two consecutive years. Directive concordance and application of every condition remain open."
+        },
+        "implementing_rule": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-instruction",
+            "bg-eu-form-permanent"
+          ],
+          "note": "The accepted 2021 Instruction Article 14 requires a third-country family member seeking permanent residence to apply personally to Migration or the relevant ODMVR two months before expiry; it lists a valid passport, birth/marriage or other relationship evidence, and a fee where payment cannot be checked ex officio, with issuance within one month. It does not specify how to prove five years of lawful continuous residence or each retained-right exception. The accepted MVR instruction text is consolidated through SG 29/2021; a separate 8-page MVR upload identifying only the 2018 promulgation was not treated as current, and no later amendment is certified."
+        },
+        "procedure": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-law-service",
+            "bg-mvr-regional-offices",
+            "bg-iisda-eu-residence-service-1403"
+          ],
+          "note": "The Bulgarian Act Article 16(5) states a three-day pre-expiry application and same-day document issuance for the EU-citizen routes; Article 19(2)–(3) states a two-month pre-expiry application and up-to-one-month issuance for family-member permanent residence. Instruction Article 14 repeats the latter route. Current operational handling, proof requirements, and regional variation remain unverified."
+        },
+        "remedy_or_practice": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-free-movement-act",
+            "bg-apc",
+            "bg-vas-case-search"
+          ],
+          "note": "Article 17a expressly requires reasons for refusal of an Article 16 permanent-residence document and provides an appeal under the Administrative Procedure Code. No screened Bulgarian decision applying Articles 14–19 is recorded; the remedy route for Article 19 applications, detailed deadlines/effects, and case practice remain open."
+        }
+      },
+      "open_issues": [
+        "Concord Articles 14–19 with Directive 2004/38 Articles 12, 13, 16, and 17; verify the evidence needed for each retained-right and permanent-residence route, including interruptions and exceptions.",
+        "Verify Article 16 and Article 19 filing, decision, and challenge procedure from current implementing/official administrative material, and complete a repeatable search of VAS and lower administrative-court decisions applying these provisions."
+      ]
+    },
+    {
+      "id": "equal_treatment_and_related_rights",
+      "label": "Equal treatment, discrimination, and related rights",
+      "status": "incomplete",
+      "layers": {
+        "primary_law": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-free-movement-act",
+            "bg-discrimination-act"
+          ],
+          "note": "The Act and current Commission-hosted anti-discrimination consolidation are accepted; protected grounds and interaction with free-movement claims need issue mapping."
+        },
+        "implementing_rule": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-cpd-organization-and-procedure-rules-2026"
+          ],
+          "note": "The 2026 State Gazette Rules regulate complaint initiation, form, supporting material, qualified-signature electronic submission, inquiry, hearing, decision, and execution. This is the general Commission route; its application to EU-family residence or visa decisions and relevant protected grounds still needs issue-level review."
+        },
+        "procedure": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-discrimination-complaint",
+            "bg-mfa-visa-hub",
+            "bg-cpd-organization-and-procedure-rules-2026"
+          ],
+          "note": "Commission complaint guidance and the 2026 Rules identify the general filing route and procedure; jurisdiction, protected-ground fit, access, and linkage to migration decisions remain to be mapped."
+        },
+        "remedy_or_practice": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-discrimination-act",
+            "bg-discrimination-complaint",
+            "bg-ombudsman-complaints",
+            "bg-cpd-organization-and-procedure-rules-2026"
+          ],
+          "note": "Commission and Ombudsman routes are identified; no relevant decision or screened case batch is recorded."
+        }
+      },
+      "open_issues": [
+        "Check equality remedies, limitation periods, interim relief, and relationship between Commission, Ombudsman, and administrative-court proceedings.",
+        "Map the Act and 2026 Commission procedure to EU-family equality claims, including relevant protected grounds, Commission/court overlap, time limits, and screened case practice."
+      ]
+    },
+    {
+      "id": "administrative_procedure_and_delay",
+      "label": "Applications, reasons, evidence, deadlines, inaction, and delay",
+      "status": "incomplete",
+      "layers": {
+        "primary_law": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-free-movement-act",
+            "bg-apc"
+          ],
+          "note": "Dedicated statutory timelines and the Administrative Procedure Code are identified; their interaction and exceptions require a provision-level crosswalk."
+        },
+        "implementing_rule": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-instruction",
+            "bg-mvr-tariff-4"
+          ],
+          "note": "Instruction and fee schedule are identified; requested evidence and fee consequences need full procedural review. The accepted MVR instruction text is consolidated through SG 29/2021; a separate 8-page MVR upload identifying only the 2018 promulgation was not treated as current, and no later amendment is certified."
+        },
+        "procedure": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-law-service",
+            "bg-eu-form-extended",
+            "bg-eu-form-permanent",
+            "bg-iisda-eu-residence-service-870",
+            "bg-iisda-eu-residence-service-1403"
+          ],
+          "note": "Forms and central service route are identified; current forms and region-level service steps remain unresolved."
+        },
+        "remedy_or_practice": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-apc",
+            "bg-ombudsman-complaints",
+            "bg-vas-case-search",
+            "bg-iisda-eu-residence-service-870",
+            "bg-iisda-eu-residence-service-1403"
+          ],
+          "note": "Judicial and Ombudsman routes are identified; delay remedies and live practice have not been screened."
+        }
+      },
+      "open_issues": [
+        "Map completeness checks, cure periods, reason-giving, deemed refusal/inaction, decision deadlines, access to file, and interim relief."
+      ]
+    },
+    {
+      "id": "refusal_restriction_and_removal",
+      "label": "Refusal, restriction, expulsion, termination, and removal safeguards",
+      "status": "incomplete",
+      "layers": {
+        "primary_law": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-free-movement-act",
+            "bg-foreigners-act"
+          ],
+          "note": "The dedicated and general foreigner regimes are identified; exact scope boundaries and public-policy safeguards need provision mapping."
+        },
+        "implementing_rule": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-instruction",
+            "bg-foreigners-act-rules"
+          ],
+          "note": "Implementing sources are identified; grounds, process, and interaction with the EU-specific safeguards remain open. The accepted MVR instruction text is consolidated through SG 29/2021; a separate 8-page MVR upload identifying only the 2018 promulgation was not treated as current, and no later amendment is certified."
+        },
+        "procedure": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-law-service",
+            "bg-mvr-regional-offices"
+          ],
+          "note": "Official service and directorate routes are identified, but authority practice and notice/reason procedures are not documented."
+        },
+        "remedy_or_practice": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-apc",
+            "bg-vas-case-search",
+            "bg-vas-case-11351-2019"
+          ],
+          "note": "A final VAS decision reviews a residence refusal based on rejecting a foreign same-sex marriage for derivative-residence purposes; restriction, expulsion, removal, and broader refusal practice remain unreviewed."
+        }
+      },
+      "open_issues": [
+        "Map proportionality, personal conduct, public-policy/security grounds, urgency, appeal effects, family unity, and removal safeguards."
+      ]
+    },
+    {
+      "id": "visa_decision_and_remedies",
+      "label": "Visa processing, refusal reasons, fees, appeal, and judicial review",
+      "status": "incomplete",
+      "layers": {
+        "primary_law": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-mfa-visa-ordinance-consolidated",
+            "bg-visa-amendment-3-2025",
+            "bg-visa-amendment-221-2025"
+          ],
+          "note": "The current reviewed national consolidation and targeted amendments are identified; reconcile with the Visa Code and post-publication amendments."
+        },
+        "implementing_rule": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-mfa-tariff-3",
+            "bg-annex-16-prior-consultations"
+          ],
+          "note": "Tariff and prior-consultation list are identified; applicable fee exemptions, consultation triggers, and current status need full review."
+        },
+        "procedure": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-mfa-visa-hub",
+            "bg-mfa-visa-form"
+          ],
+          "note": "Central MFA guidance and national form are reviewed; mission-level instructions and outsourced channels remain open."
+        },
+        "remedy_or_practice": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-mfa-visa-hub",
+            "bg-apc"
+          ],
+          "note": "Central appeal guidance is identified; deadline, forum, suspensive effect, and individual case practice are not fully verified."
+        }
+      },
+      "open_issues": [
+        "Verify precise remedies for family-member visa refusals, reasons, limitation periods, judicial forum, fees, and legal-aid eligibility."
+      ]
+    },
+    {
+      "id": "residence_remedies_and_legal_aid",
+      "label": "Appeal, judicial review, legal aid, and interim protection for residence matters",
+      "status": "incomplete",
+      "layers": {
+        "primary_law": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-free-movement-act",
+            "bg-apc",
+            "bg-legal-aid-act"
+          ],
+          "note": "Dedicated appeal clauses, general administrative procedure, and the Legal Aid Act are identified; forum/deadline/procedural exceptions need mapping."
+        },
+        "implementing_rule": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-legal-aid-act",
+            "bg-nbpp-organizational-rules",
+            "bg-legal-aid-remuneration-regulation",
+            "bg-social-assistance-implementing-rules",
+            "bg-legal-aid-forms",
+            "bg-legal-aid-procedure",
+            "bg-legal-aid-application-guide"
+          ],
+          "note": "The current Legal Aid Act, NBPP organizational Rules, remuneration ordinance, official NBPP and court forms index, and service route are identified. Legal Aid Act Article 22 refers one means-tested category to Social Assistance Rules Articles 9-10; the linked official consolidation ends at SG 44/2023. This does not complete the applicant-rule inventory: current form payloads, live channels, exact means criteria, and application in residence appeals remain open."
+        },
+        "procedure": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-vas-case-search",
+            "bg-admin-court-directory",
+            "bg-legal-aid-act",
+            "bg-legal-aid-forms",
+            "bg-legal-aid-procedure",
+            "bg-legal-aid-application-guide",
+            "bg-nbpp-service-channels",
+            "bg-nbpp-organizational-rules",
+            "bg-legal-aid-remuneration-regulation",
+            "bg-social-assistance-implementing-rules",
+            "bg-iisda-eu-residence-service-870",
+            "bg-iisda-eu-residence-service-1403"
+          ],
+          "note": "Official court-search and directory routes, the Legal Aid Act, NBPP forms, public guidance, service and service-channel pages are identified. The direct page readers did not expose all forms or complete service records; NBPP office-hours and electronic-channel details conflict between Ministry pages. Court motions in pending migration appeals remain distinct from NBPP applications."
+        },
+        "remedy_or_practice": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-legal-aid-act",
+            "bg-apc",
+            "bg-nbpp-organizational-rules",
+            "bg-legal-aid-remuneration-regulation",
+            "bg-social-assistance-implementing-rules",
+            "bg-iisda-eu-residence-service-870",
+            "bg-iisda-eu-residence-service-1403"
+          ],
+          "note": "The Legal Aid Act and general court remedies are identified; official NBPP organizational/payment rules and service routes add procedural context, but no screened residence appeal judgment or interim-relief practice record is included."
+        }
+      },
+      "open_issues": [
+        "Map court competence and time limits; verify the current legal-aid application route and means assessment in residence proceedings; review interim measures and effects of appeal.",
+        "Reconcile current Legal Aid Act Article 22 means-assessment routes with the Social Assistance Rules consolidation through SG 44/2023, review current form payloads and channels, and examine legal aid in migration appeal practice."
+      ]
+    },
+    {
+      "id": "consular_mission_practice",
+      "label": "Mission-specific EU-family visa instructions, appointments, checklists, and representation",
+      "status": "incomplete",
+      "layers": {
+        "primary_law": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-mfa-visa-ordinance-consolidated"
+          ],
+          "note": "National Visa Ordinance is identified; mission-specific law and delegation arrangements have not been mapped."
+        },
+        "implementing_rule": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-mfa-tariff-3"
+          ],
+          "note": "Consular tariff is identified; mission-local fee application and exceptions are unverified."
+        },
+        "procedure": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-mfa-visa-hub",
+            "bg-mfa-visa-form",
+            "bg-dubai-eu-family",
+            "bg-mfa-india-mission",
+            "bg-mfa-india-advisory"
+          ],
+          "note": "Central MFA guidance and form plus official Dubai and India mission/contact pages are reviewed. Dubai's direct-family type-C appointment requirement conflicts with Visa Ordinance Article 23(3); the direct-family checklist is not stated on the mission page. India pages conflict on reception hours. The UAE territorial scope also differs between the MFA route and post contacts. These are bounded leads, not resolved practice."
+        },
+        "remedy_or_practice": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-mfa-visa-hub",
+            "bg-dubai-eu-family",
+            "bg-mfa-india-mission",
+            "bg-mfa-india-advisory"
+          ],
+          "note": "Official Dubai and India pages provide concrete practice evidence, but appointment, checklist, reception-hour and representation-scope conflicts remain open. No mission task is closed and no post sample is generalized to other missions."
+        }
+      },
+      "open_issues": [
+        "Review the MFA mission directory and each relevant post; reconcile Dubai and India appointment instructions with the qualifying EU-family no-prior-appointment provision in Visa Ordinance Article 23(3).",
+        "Obtain authoritative checklist and Abu Dhabi scope clarification for the Dubai direct family route; reconcile the two India pages' hours and establish its EU-family procedure.",
+        "Map competent decision authority and representation limits for each relevant mission."
+      ]
+    },
+    {
+      "id": "regional_migration_practice",
+      "label": "MVR Migration directorate and regional-unit competence, appointment, and filing practice",
+      "status": "incomplete",
+      "layers": {
+        "primary_law": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-free-movement-act",
+            "bg-eu-instruction"
+          ],
+          "note": "National competence and issuing authorities are addressed in the Act and Instruction; territorial implementation is not verified."
+        },
+        "implementing_rule": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-eu-instruction",
+            "bg-mvr-tariff-4"
+          ],
+          "note": "National procedure and tariff are identified; local variations are not reviewed. The accepted MVR instruction text is consolidated through SG 29/2021; a separate 8-page MVR upload identifying only the 2018 promulgation was not treated as current, and no later amendment is certified."
+        },
+        "procedure": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-mvr-regional-offices",
+            "bg-eu-law-service",
+            "bg-pernik-eu-service",
+            "bg-plovdiv-migration-sector",
+            "bg-burgas-eu-citizen-services",
+            "bg-ruse-eu-family-services",
+            "bg-veliko-tarnovo-migration",
+            "bg-stara-zagora-migration"
+          ],
+          "note": "The central service route and directorate directory are reviewed. Bounded Pernik, Plovdiv, Burgas, Ruse, Veliko Tarnovo and Stara Zagora pages provide local service evidence; current appointments, complete third-country-family checklists, named decision authorities, exact territorial rules, other directorates, and remedy practice remain open. Sofia is a human-review lead only."
+        },
+        "remedy_or_practice": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-apc",
+            "bg-pernik-eu-service",
+            "bg-plovdiv-migration-sector",
+            "bg-burgas-eu-citizen-services",
+            "bg-ruse-eu-family-services",
+            "bg-veliko-tarnovo-migration",
+            "bg-stara-zagora-migration"
+          ],
+          "note": "Pernik, Ruse, and some other regional pages provide limited filing, schedule or evidence statements; Plovdiv confirms service scope and public counter hours; Burgas lists service 1551 and related forms; Veliko Tarnovo and Stara Zagora confirm local family-service functions. The statements are not generalized across regions, and current appointments, checklists, legal alignment, and regional decisions remain open."
+        }
+      },
+      "open_issues": [
+        "Resolve relevant regions and collect official evidence for competence, address, appointment, filing mode, form/checklist, and issuance contact for each unit.",
+        "Expand the single Pernik EU-citizen service sample to other regions and third-country family members, and screen regional service or remedy decisions; do not generalize one page."
+      ]
+    },
+    {
+      "id": "information_privacy_and_oversight",
+      "label": "Data handling, access to records, complaints, equality oversight, and ombudsman routes",
+      "status": "incomplete",
+      "layers": {
+        "primary_law": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-apc",
+            "bg-discrimination-act",
+            "bg-personal-data-act",
+            "bg-ministry-interior-act",
+            "bg-ministry-interior-act-amendment-66-2026"
+          ],
+          "note": "The APC, anti-discrimination and Personal Data Protection Acts are identified; MVR Act Article 28 supplies a further request/refusal framework, supplemented by the July 2026 amendment for selected police and unlawful-stay data provisions. Its law-enforcement limits are not assumed to govern routine EU-family residence files."
+        },
+        "implementing_rule": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-mvr-data-processing-instruction",
+            "bg-mvr-data-processing-amendment-2025"
+          ],
+          "note": "The MVR-wide 2021 Instruction and 2025 Article 7 amendment set fund-level registers, rules, access profiles, retention review, correction, restriction, deletion and logging. The 50-year fallback applies only absent a different normative act or Minister's order; no Migration-specific fund register, approved rules or retention schedule was located."
+        },
+        "procedure": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-discrimination-complaint",
+            "bg-ombudsman-complaints",
+            "bg-mvr-data-rights-procedure",
+            "bg-mvr-data-rights-form"
+          ],
+          "note": "The CPDP and Ombudsman routes remain identified. An SDVR-hosted MVR page describes data-rights submission channels and links a one-page form, but the page's law-enforcement framing, Migration-unit routing, and current electronic-delivery channel need verification for EU-family administrative records."
+        },
+        "remedy_or_practice": {
+          "status": "partially_supported",
+          "source_ids": [
+            "bg-discrimination-act",
+            "bg-discrimination-complaint",
+            "bg-ombudsman-act",
+            "bg-ombudsman-complaints",
+            "bg-personal-data-act",
+            "bg-mvr-data-processing-instruction",
+            "bg-mvr-data-rights-procedure",
+            "bg-ministry-interior-act"
+          ],
+          "note": "MVR rules and a public request route are now identified, alongside CPDP and Ombudsman sources. Their application to Migration administrative records, current filing details, and any relevant published oversight decision remain unverified."
+        }
+      },
+      "open_issues": [
+        "Identify the Migration Directorate information fund or funds, their approved Article 27 organisational-technical rules, and any specific retention or periodic-review order before applying the conditional Article 7 default; verify the correct request route, electronic channel, and review/remedy process for EU-family administrative records."
+      ]
+    }
+  ],
+  "case_law_discovery": {
+    "status": "not_completed",
+    "search_surfaces": [
+      "bg-vas-case-search",
+      "bg-admin-court-directory"
+    ],
+    "finding_2026_10_24": "Four targeted official-domain web queries surfaced four items in aggregate. One official legalacts.justice.bg lower-court case lead discusses the boundary between the dedicated EU-family Act and the Foreigners Act for a third-country family member of a Bulgarian national. The full act could not be fetched during follow-up, so it remains unscreened; it is neither accepted as relevant precedent nor excluded. The other surfaced items were a court-hosted Directive text, a judicial-training presentation, and a VAS activity report rather than individual decisions. These search-engine result counts are not official-court query counts and do not constitute a completed batch.",
+    "follow_up_2026_10_24": "Fifteen additional official-domain web queries identified VAS Decision №11351 of 24 July 2019 in administrative case №11558/2018. The official VAS issue index gives the case metadata, and a VAS news summary reports the final outcome and the derivative-residence issue for a non-EU spouse of a mobile EU citizen under the pre-2019 version of the dedicated Act, read with Directive 2004/38 and Coman (C-673/16). The full judicial text was not retrieved, so this is a partially screened official court summary, not an accepted full-text precedent. One lower-court residence-card decision lead remains unresolved because its metadata/full text could not be fetched. The 15 result counts are Search Service display counts, not VAS/legalacts database totals; no query was submitted to the VAS form. The new search note is in the Monitor local-only archive at discovery/official-domain-web-search-2026-10-24/bulgaria/case-law/discovery/official-case-law-followup-2026-10-24.md.",
+    "required_next_step": "Submit a repeatable keyword and exact-case query matrix in the official VAS form when an interactive browser is available; record VAS database counts and dispositions for every result, accounting for the form’s exact-word limited mode and published-acts-only scope. Separately search lower administrative-court records. Preserve the distinction between the dedicated EU-family Act and Foreigners Act cases. No browser-form query or lower-court database batch has been completed.",
+    "finding_2026_10_25": "Exact-case discovery located and screened the full official EDIS text of VAS Decision №11351/24.07.2019, case №11558/2018. The judgment was reviewed for facts, holding, cassation posture, final outcome, and limits. It supports a narrow derivative-residence holding on a same-sex spouse lawfully married in another Member State, under the pre-SG 34/2019 national Act version. Four Search Service queries returned 13 displayed entries in aggregate; these are not official database counts and the tool did not provide per-query totals. Full review and all result dispositions are archived at discovery/info-adc.justice.bg/Bulgaria/discovery/official-domain-web-search-2026-10-25/bulgaria/case-law/discovery/vas-11351-2019-full-text-review-2026-10-25.md (SHA-256 dffd002ef85e34c0bbde6e2c6acbcaebfdd92fe9a625203e3ebc0eb383ea8b2a). The VAS search form and lower-court search surfaces remain unqueried; discovery is not complete. The official VAS search page was also reviewed; the form was not submitted because the available Playwright wrapper could not install @playwright/cli after npm DNS failure (EAI_AGAIN), and no global CLI/Chromium was available. This runtime failure is documented separately at discovery/sac.justice.bg/Bulgaria/discovery/official-domain-web-search-2026-10-25/bulgaria/case-law/discovery/vas-search-form-review-2026-10-25.md (SHA-256 8cba1af29c4a54cf29e05fcf901d9634fb6e458ccdcf2555c737e2d16bbdb124).",
+    "targeted_follow_up_2026_10_25": "Four official-domain web-search queries targeted the dedicated EU-family Act and retained/permanent residence: site:info-adc.justice.bg/courts/portal/edis.nsf/e_act.xsp ЗВПНРБГЕС \"постоянно пребиваване\"; site:info-adc.justice.bg/courts/portal/edis.nsf/e_act.xsp \"запазва правото си на пребиваване\" \"гражданин на ЕС\"; site:legalacts.justice.bg \"ЗВПНРБГЕС\" \"постоянно пребиваване\"; and site:sac.justice.bg/spravki \"постоянно пребиваване\". The search tool did not expose per-query counts. It surfaced VAS permanent-residence decisions under Foreigners Act Article 25(1)(11), which are outside the target EU-family Act provisions, and unrelated results; no on-scope Articles 14–19 decision was identified. A lower-court 2014 residence-card lead remains unscreened. This bounded web search is not a court-database search and does not establish absence. The official VAS page was inspected but not queried; it states that text search is in limited mode and matches only exact word forms, covers published acts only, and that an empty result does not establish absence. The targeted query matrix and result dispositions are in Monitor local-only archive discovery/official-domain-web-search-2026-10-25/bulgaria/case-law/retained-permanent-residence/discovery/targeted-search-followup-2026-10-25.md (SHA-256 32ea5db1994c094cbf09f68065fb16f4395f39bd6f7c619699c814edf454609c).",
+    "targeted_expansion_2026_10_25": "Four additional official-domain web-search queries targeted the dedicated EU-family Act, retained-residence wording, and Articles 15. Per-query counts were not exposed. The displayed EDIS results included VAS Decision №17003/12.12.2019, case №4245/2018, concerning civil registration of a same-sex marriage between Bulgarian citizens, and a 23 April 2021 VAS order in case №3603/2021 concerning data processing during elections. Both were opened and excluded as outside the residence provisions in scope. No on-scope decision was identified among the displayed results; this is not an official-database zero-result finding. The search and dispositions are in Monitor local-only archive discovery/official-domain-web-search-2026-10-25/bulgaria/case-law/retained-permanent-residence/discovery/targeted-search-expansion-2026-10-25.md (SHA-256 ab4438738123b0b8332a6e8112b198d91113ddffe6d23a497ebd8c3c7b660a03)."
+  },
+  "operational_evidence": {
+    "status": "not_completed",
+    "mission_tasks_completed": 0,
+    "regional_tasks_completed": 0,
+    "known_scope": "Bounded regional service samples now cover Pernik, Plovdiv, Burgas, Ruse, Veliko Tarnovo and Stara Zagora. Sofia has only a stale indexed lead requiring human review. These do not establish countrywide practice; regional operational review is incomplete.",
+    "required_evidence_fields": [
+      "authority_or_mission",
+      "service_or_topic",
+      "value",
+      "official_source_url_or_accepted_source_id",
+      "checked_on"
+    ],
+    "mission_review_criteria": [
+      "authority_or_mission",
+      "service_or_topic",
+      "family_member_instruction",
+      "appointment_route",
+      "current_checklist_or_explicit_no_source_finding",
+      "external_provider_or_direct_route",
+      "decision_authority",
+      "territorial_competence_and_representation_limits"
+    ],
+    "mission_tasks_in_review": [
+      {
+        "task_id": "BG-MISSION-UAE-DUBAI-EU-FAMILY-C-2026-10-25",
+        "authority_or_mission": "Consulate General of the Republic of Bulgaria in Dubai",
+        "service_or_topic": "Short-stay type-C application by Bulgarian/EU-citizen family member; route for residents within mission competence",
+        "checked_on": "2026-10-25",
+        "status": "open_human_review",
+        "evidence": {
+          "authority_or_mission": {
+            "value": "Official MFA page identifies the Dubai Consulate General.",
+            "official_source_url_or_accepted_source_id": "https://www.mfa.bg/en/embassies/uaegc",
+            "checked_on": "2026-10-25"
+          },
+          "service_or_topic": {
+            "value": "Ordinary type-C applicants use VFS; Bulgarian/EU-family members have an express direct-counter exception.",
+            "official_source_url_or_accepted_source_id": "https://www.mfa.bg/en/embassies/uaegc",
+            "checked_on": "2026-10-25"
+          },
+          "family_member_instruction": {
+            "value": "Direct filing at the Consular Section is described for family members of Bulgarian and EU citizens.",
+            "official_source_url_or_accepted_source_id": "https://www.mfa.bg/en/embassies/uaegc",
+            "checked_on": "2026-10-25"
+          },
+          "appointment_route": {
+            "value": "Mission requires email booking at visa.dubai@mfa.bg; accepted Ordinance Article 23(3) review says qualifying EU/EEA/Swiss family/household members have direct consular access without prior appointment. Conflict unresolved.",
+            "official_source_url_or_accepted_source_id": "https://www.mfa.bg/en/embassies/uaegc; bg-mfa-visa-ordinance-consolidated",
+            "checked_on": "2026-10-25",
+            "status": "conflict_open"
+          },
+          "current_checklist_or_explicit_no_source_finding": {
+            "value": "Mission page has no checklist section. Central MFA guidance says qualifying EU/EEA/Swiss family/household members provide proof only of relationship/household membership in the stated supporting-document context. The VFS generic type-C list is not scoped to the direct family route; authoritative checklist unresolved.",
+            "official_source_url_or_accepted_source_id": "https://www.mfa.bg/en/embassies/uaegc; https://www.mfa.bg/en/services-travel/consular-services/travel-bulgaria/visa-bulgaria/",
+            "checked_on": "2026-10-25",
+            "status": "human_review_open",
+            "related_provider_url": "https://visa.vfsglobal.com/one-pager/Bulgaria/UAE/english/pdf/Document-Checklist-C-Type-Updated-jan-2026.pdf"
+          },
+          "external_provider_or_direct_route": {
+            "value": "VFS Global is named for ordinary type-C applicants; the official family-member exception is direct to the Consulate General.",
+            "official_source_url_or_accepted_source_id": "https://www.mfa.bg/en/embassies/uaegc",
+            "checked_on": "2026-10-25"
+          },
+          "decision_authority": {
+            "value": "MFA states visas are issued by Bulgaria's diplomatic and consular representations; the Dubai Consular Section accepts family-route applications, but the individual decision-maker is not identified.",
+            "official_source_url_or_accepted_source_id": "https://www.mfa.bg/en/services-travel/consular-services/travel-bulgaria/visa-bulgaria/; https://www.mfa.bg/en/embassies/uaegc",
+            "checked_on": "2026-10-25",
+            "status": "office_holder_unspecified"
+          },
+          "territorial_competence_and_representation_limits": {
+            "value": "Dubai contacts state the post serves Dubai and Northern Emirates, omitting Abu Dhabi; a separate MFA UAE-resident visa page describes the direct family route for UAE residents generally. Abu Dhabi applicability unresolved.",
+            "official_source_url_or_accepted_source_id": "https://www.mfa.bg/en/embassies/uaegc; https://mfa.bg/en/4278",
+            "checked_on": "2026-10-25",
+            "status": "conflict_open"
+          }
+        },
+        "discovery_record": {
+          "archive_path": "discovery/mfa.bg/Bulgaria/official-domain-web-search-2026-10-25/bulgaria/mission-practice/discovery/mission-practice-followup-2026-10-25.md",
+          "sha256": "02b270a45f2cfd1fcb405cf72803bc16eeafec25d0fa3068b8ffa03c34cc186d5",
+          "classification": "discovery"
+        },
+        "open_questions": [
+          "Does the mission require an appointment for qualifying EU-family applicants despite Ordinance Article 23(3)?",
+          "Which checklist applies to the direct family route?",
+          "Does the UAE-resident route include Abu Dhabi residents despite the contacts section's stated service area?"
+        ]
+      },
+      {
+        "task_id": "BG-MISSION-INDIA-NEW-DELHI-EU-FAMILY-2026-10-25",
+        "authority_or_mission": "Embassy of the Republic of Bulgaria in India, New Delhi",
+        "service_or_topic": "EU-family visa information and consular filing in India",
+        "checked_on": "2026-10-25",
+        "status": "open_human_review",
+        "evidence": {
+          "authority_or_mission": {
+            "value": "Official MFA identifies the Embassy of the Republic of Bulgaria in India.",
+            "official_source_url_or_accepted_source_id": "https://www.mfa.bg/en/embassies/india",
+            "checked_on": "2026-10-25"
+          },
+          "service_or_topic": {
+            "value": "India MFA advisory states consular visa services and that all visa types may also be submitted at VFS offices in India.",
+            "official_source_url_or_accepted_source_id": "https://www.mfa.bg/en/embassyinfo/india",
+            "checked_on": "2026-10-25"
+          },
+          "family_member_instruction": {
+            "value": "Neither India page states a separate EU-family checklist or appointment procedure; central MFA guidance gives the general evidence rule and Ordinance Article 23(3) provides the no-prior-appointment provision.",
+            "official_source_url_or_accepted_source_id": "https://www.mfa.bg/en/embassies/india; https://www.mfa.bg/en/embassyinfo/india; https://www.mfa.bg/en/services-travel/consular-services/travel-bulgaria/visa-bulgaria/; bg-mfa-visa-ordinance-consolidated",
+            "checked_on": "2026-10-25",
+            "status": "mission_specific_rule_not_stated"
+          },
+          "appointment_route": {
+            "value": "Both pages state general appointments by email; these instructions are not reconciled with the accepted Article 23(3) direct-access provision for qualifying family/household members.",
+            "official_source_url_or_accepted_source_id": "https://www.mfa.bg/en/embassies/india; https://www.mfa.bg/en/embassyinfo/india; bg-mfa-visa-ordinance-consolidated",
+            "checked_on": "2026-10-25",
+            "status": "conflict_open"
+          },
+          "current_checklist_or_explicit_no_source_finding": {
+            "value": "No EU-family checklist appears on the two reviewed India pages. Central MFA guidance supplies a general relationship-evidence rule; provider page open returned only a loading response.",
+            "official_source_url_or_accepted_source_id": "https://www.mfa.bg/en/embassies/india; https://www.mfa.bg/en/embassyinfo/india; https://www.mfa.bg/en/services-travel/consular-services/travel-bulgaria/visa-bulgaria/",
+            "checked_on": "2026-10-25",
+            "status": "open"
+          },
+          "external_provider_or_direct_route": {
+            "value": "MFA India advisory says from 1 November 2025 all visa types may also be submitted at VFS offices in India; EU-family application of that provider route is not stated.",
+            "official_source_url_or_accepted_source_id": "https://www.mfa.bg/en/embassyinfo/india",
+            "checked_on": "2026-10-25",
+            "status": "route_scope_open",
+            "related_provider_url": "https://visa.vfsglobal.com/ind/en/bgr"
+          },
+          "decision_authority": {
+            "value": "MFA states visas are issued by diplomatic/consular representations; the Embassy page does not name the individual decision-maker.",
+            "official_source_url_or_accepted_source_id": "https://www.mfa.bg/en/services-travel/consular-services/travel-bulgaria/visa-bulgaria/; https://www.mfa.bg/en/embassies/india",
+            "checked_on": "2026-10-25",
+            "status": "office_holder_unspecified"
+          },
+          "territorial_competence_and_representation_limits": {
+            "value": "Pages identify the Embassy in India, but detailed consular district or representation outside India was not established in this bounded review.",
+            "official_source_url_or_accepted_source_id": "https://www.mfa.bg/en/embassies/india",
+            "checked_on": "2026-10-25",
+            "status": "unresolved"
+          },
+          "published_reception_hours": {
+            "value": "Embassy page: intake Mon-Thu 10:00-15:00, collection Tue/Wed/Fri 12:00-13:00. India advisory dated 2 July 2026: applications Mon-Thu 09:00-15:00 by appointment, collection Mon-Fri 12:00-13:00. Conflict unresolved.",
+            "official_source_url_or_accepted_source_id": "https://www.mfa.bg/en/embassies/india; https://www.mfa.bg/en/embassyinfo/india",
+            "checked_on": "2026-10-25",
+            "status": "conflict_open"
+          }
+        },
+        "discovery_record": {
+          "archive_path": "discovery/mfa.bg/Bulgaria/official-domain-web-search-2026-10-25/bulgaria/mission-practice/discovery/mission-practice-followup-2026-10-25.md",
+          "sha256": "02b270a45f2cfd1fcb405cf72803bc16eeafec25d0fa3068b8ffa03c34cc186d5",
+          "classification": "discovery"
+        },
+        "open_questions": [
+          "Which official India schedule is current?",
+          "Does the appointment-only instruction apply to family members covered by Ordinance Article 23(3)?",
+          "What is the authoritative checklist and exact territorial competence?"
+        ]
+      }
+    ],
+    "regional_tasks_in_review": [
+      {
+        "task_id": "BG-REGION-PERNIK-EU-CITIZEN-RESIDENCE-2026-10-25",
+        "authority_or_mission": "Pernik ODMVR, Migration group",
+        "service_or_topic": "EU-citizen extended and permanent residence documents handled through the Pernik Migration group",
+        "checked_on": "2026-10-25",
+        "status": "open_human_review",
+        "evidence": {
+          "authority_or_mission": {
+            "value": "The official MVR Migration directory lists the Pernik regional unit at Samokov St 1, Pernik, telephone 076/676 627.",
+            "official_source_url_or_accepted_source_id": "https://mvr.bg/migration/дирекцията/ръководство/Териториални-звена",
+            "checked_on": "2026-10-25",
+            "status": "official_indexed_page_direct_fetch_403"
+          },
+          "service_or_topic": {
+            "value": "The accepted Pernik MVR page describes extended/permanent residence categories, documents, filing/issuance timing, and fees for EU citizens and EU-national family members.",
+            "official_source_url_or_accepted_source_id": "bg-pernik-eu-service",
+            "checked_on": "2026-10-24",
+            "status": "link_only_undated"
+          },
+          "family_member_instruction": {
+            "value": "The reviewed page is limited to EU citizens and EU-national family members; the MVR index lists separate procedures for third-country-national family members, which this task does not assess.",
+            "official_source_url_or_accepted_source_id": "bg-pernik-eu-service; https://www.mvr.bg/pernik/административни-услуги/административни-услуги-за-граждани/миграция/административни-услуги",
+            "checked_on": "2026-10-25",
+            "status": "separate_route_not_reviewed"
+          },
+          "appointment_route": {
+            "value": "No Pernik Migration appointment route was located in the bounded official-domain searches. This is not evidence that no appointment rule exists.",
+            "official_source_url_or_accepted_source_id": "https://www.mvr.bg/pernik/административни-услуги/административни-услуги-за-граждани/миграция/работно-време; discovery/mvr.bg/Bulgaria/discovery/mvr.bg/Bulgaria/official-domain-web-search-2026-10-25/bulgaria/regional-practice/discovery/pernik-migration-followup-2026-10-25.md",
+            "checked_on": "2026-10-25",
+            "status": "not_located_in_bounded_search"
+          },
+          "current_checklist_or_explicit_no_source_finding": {
+            "value": "The undated Pernik MVR page lists evidence for the described EU-citizen extended/permanent routes. Currentness is not independently established; distinct third-country-family services are not covered by this evidence.",
+            "official_source_url_or_accepted_source_id": "bg-pernik-eu-service; https://www.mvr.bg/pernik/административни-услуги/административни-услуги-за-граждани/миграция/административни-услуги",
+            "checked_on": "2026-10-25",
+            "status": "undated_currentness_open"
+          },
+          "external_provider_or_direct_route": {
+            "value": "The regional page directs applicants to the Pernik Migration group; no external provider is identified for the described residence-document procedure.",
+            "official_source_url_or_accepted_source_id": "bg-pernik-eu-service",
+            "checked_on": "2026-10-24",
+            "status": "regional_counter_route_stated"
+          },
+          "decision_authority": {
+            "value": "The MVR page assigns the service to the Migration group but does not identify the individual official who decides or signs.",
+            "official_source_url_or_accepted_source_id": "bg-pernik-eu-service",
+            "checked_on": "2026-10-24",
+            "status": "office_holder_unspecified"
+          },
+          "territorial_competence_and_representation_limits": {
+            "value": "The 2015 Gazette Decree №260 Article 1(14) assigns ODMVR Pernik the territory of Pernik Province. The official PRIS index shows later amendments in 2020 and 2024, but current continuity of Article 1(14) remains open because the amended texts were not retrieved from an official publisher.",
+            "official_source_url_or_accepted_source_id": "bg-pernik-territorial-jurisdiction; https://pris.government.bg/document/8cfba7f9c32fe670919c96ebd6e592f3",
+            "checked_on": "2026-10-25",
+            "status": "current_text_open"
+          },
+          "published_reception_hours": {
+            "value": "An official MVR search-index snippet reports 08:00–17:30 and gives the Pernik Migration contact, but the page returned HTTP 403 and its publication/revision date was not visible; treat this as an unverified indexed observation.",
+            "official_source_url_or_accepted_source_id": "https://www.mvr.bg/pernik/административни-услуги/административни-услуги-за-граждани/миграция/работно-време; discovery/mvr.bg/Bulgaria/discovery/mvr.bg/Bulgaria/official-domain-web-search-2026-10-25/bulgaria/regional-practice/discovery/pernik-migration-followup-2026-10-25.md",
+            "checked_on": "2026-10-25",
+            "status": "snippet_only_recheck_required"
+          }
+        },
+        "discovery_record": {
+          "archive_path": "discovery/mvr.bg/Bulgaria/discovery/mvr.bg/Bulgaria/official-domain-web-search-2026-10-25/bulgaria/regional-practice/discovery/pernik-migration-followup-2026-10-25.md",
+          "sha256": "c0177dfa1929b8428215b2a3386da87c203a531a74ac61c845dafff01397d163",
+          "classification": "discovery"
+        },
+        "open_questions": [
+          "Can the current official text confirm that Decree №260 Article 1(14) still assigns ODMVR Pernik to Pernik Province after the 2020 and 2024 amendments?",
+          "Does the Pernik Migration group require or offer appointments for the described residence-document procedure?",
+          "What are the currently applicable working hours and filing details?",
+          "What separate local evidence and procedure applies to third-country-national family members of EU citizens?"
+        ]
+      },
+      {
+        "task_id": "BG-REGION-PLOVDIV-EU-FAMILY-RESIDENCE-2026-10-25",
+        "authority_or_mission": "ODMVR Plovdiv, Sector Migration",
+        "service_or_topic": "EU/EEA/Swiss citizen and family-member extended/permanent residence applications and local service route",
+        "checked_on": "2026-10-25",
+        "status": "open_human_review",
+        "evidence": {
+          "authority_or_mission": {
+            "value": "The official page identifies Sector Migration at ODMVR Plovdiv as a territorial MVR Migration Directorate unit.",
+            "official_source_url_or_accepted_source_id": "bg-plovdiv-migration-sector",
+            "checked_on": "2026-10-25"
+          },
+          "service_or_topic": {
+            "value": "The sector says it serves EU/EEA/Swiss citizens and family members under the dedicated Act and accepts extended/permanent residence applications.",
+            "official_source_url_or_accepted_source_id": "bg-plovdiv-migration-sector",
+            "checked_on": "2026-10-25"
+          },
+          "family_member_instruction": {
+            "value": "A Plovdiv EU-family service page lists service 1551 for a non-EU family member of an EU citizen and linked application forms. The service page direct fetch returned 403; its indexed text and link from the opened parent page were reviewed.",
+            "official_source_url_or_accepted_source_id": "https://mvr.bg/plovdiv/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D0%B7%D0%B0-%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D0%B8/%D0%BC%D0%B8%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F/%D0%B8%D0%B7%D0%B4%D0%B0%D0%B2%D0%B0%D0%BD%D0%B5-%D0%BD%D0%B0-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8-%D0%BD%D0%B0-%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D0%B8-%D0%BD%D0%B0-%D0%B5%D1%81-%D0%B8-%D0%BD%D0%B0-%D1%87%D0%BB%D0%B5%D0%BD%D0%BE%D0%B2%D0%B5%D1%82%D0%B5-%D0%BD%D0%B0-%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%82%D0%B5-%D1%81%D0%B5%D0%BC%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B0",
+            "checked_on": "2026-10-25",
+            "status": "linked_form_indexed_direct_reader_403"
+          },
+          "appointment_route": {
+            "value": "No appointment rule was stated in the reviewed local pages. Two targeted official-domain search queries did not surface an explicit answer in displayed results; per-query result counts were unavailable, so this is not a zero-result finding.",
+            "official_source_url_or_accepted_source_id": "bg-plovdiv-migration-sector",
+            "checked_on": "2026-10-25",
+            "status": "unresolved_search_counts_unavailable"
+          },
+          "current_checklist_or_explicit_no_source_finding": {
+            "value": "The page links the family-member service and forms, but the full current evidence checklist was not established; the linked service page returned 403 in the reader.",
+            "official_source_url_or_accepted_source_id": "bg-plovdiv-migration-sector",
+            "checked_on": "2026-10-25",
+            "status": "partial_checklist_open"
+          },
+          "external_provider_or_direct_route": {
+            "value": "The Sector Migration page lists public administrative-service counters and says the unit accepts applications; no external provider is identified for this residence service.",
+            "official_source_url_or_accepted_source_id": "bg-plovdiv-migration-sector",
+            "checked_on": "2026-10-25",
+            "status": "counter_service_stated_provider_not_named"
+          },
+          "decision_authority": {
+            "value": "The page identifies the sector and its head but does not establish which official decides or signs an EU-family residence decision.",
+            "official_source_url_or_accepted_source_id": "bg-plovdiv-migration-sector",
+            "checked_on": "2026-10-25",
+            "status": "office_holder_unspecified"
+          },
+          "territorial_competence_and_representation_limits": {
+            "value": "Local unit and Plovdiv regional remit are identified; the current residence-address competence rule and exceptions were not separately checked.",
+            "official_source_url_or_accepted_source_id": "bg-plovdiv-migration-sector",
+            "checked_on": "2026-10-25",
+            "status": "local_unit_identified_rule_open"
+          },
+          "published_reception_hours": {
+            "value": "Administrative-service counter listed as 08:30–12:00 and 13:00–17:30; unit page also gives supervisor reception Tuesday and Friday 10:00–12:00.",
+            "official_source_url_or_accepted_source_id": "bg-plovdiv-migration-sector",
+            "checked_on": "2026-10-25",
+            "status": "live_undated_observation"
+          }
+        },
+        "discovery_record": {
+          "archive_path": "discovery/official-domain-web-search-2026-10-25/bulgaria/regional-practice/discovery/plovdiv-burgas-regional-service-review-2026-10-25.md",
+          "sha256": "897437ebf4b2feea2f65bd03a47cb77419a20164c1b1220fb6e103eaba10b612",
+          "classification": "discovery"
+        },
+        "open_questions": [
+          "Does the unit require appointments for EU-family residence applications?",
+          "What complete and current checklist applies to service 1551 and the linked EU-family application?",
+          "Which official makes the decision, and what current territorial-residence rule applies?"
+        ]
+      },
+      {
+        "task_id": "BG-REGION-BURGAS-EU-FAMILY-RESIDENCE-2026-10-25",
+        "authority_or_mission": "ODMVR Burgas, Migration",
+        "service_or_topic": "EU-citizen and non-EU EU-family-member residence forms and service 1551",
+        "checked_on": "2026-10-25",
+        "status": "open_human_review",
+        "evidence": {
+          "authority_or_mission": {
+            "value": "The official MVR page is published under ODMVR Burgas / Migration and its service index.",
+            "official_source_url_or_accepted_source_id": "bg-burgas-eu-citizen-services",
+            "checked_on": "2026-10-25"
+          },
+          "service_or_topic": {
+            "value": "The page lists extended/permanent EU-citizen residence forms, non-EU family-member service 1551, address declarations, the dedicated Act and Tariff №4.",
+            "official_source_url_or_accepted_source_id": "bg-burgas-eu-citizen-services",
+            "checked_on": "2026-10-25"
+          },
+          "family_member_instruction": {
+            "value": "The page lists a service 1551 document and a family-member application. The linked DOCX could not be rendered; the linked Annex №7 one-page application was reviewed and includes a free-text attachment list.",
+            "official_source_url_or_accepted_source_id": "bg-burgas-eu-citizen-services",
+            "checked_on": "2026-10-25",
+            "status": "service_and_form_listed_requirements_unverified"
+          },
+          "appointment_route": {
+            "value": "No appointment rule was stated in the reviewed local page. Two targeted official-domain searches did not surface an explicit answer in displayed results; per-query counts were unavailable, so this is not a zero-result finding.",
+            "official_source_url_or_accepted_source_id": "bg-burgas-eu-citizen-services",
+            "checked_on": "2026-10-25",
+            "status": "unresolved_search_counts_unavailable"
+          },
+          "current_checklist_or_explicit_no_source_finding": {
+            "value": "Service 1551 DOCX was not rendered by the web reader. The available Annex №7 form has a blank attachment field and is not a complete evidence checklist.",
+            "official_source_url_or_accepted_source_id": "bg-burgas-eu-citizen-services",
+            "checked_on": "2026-10-25",
+            "status": "checklist_open"
+          },
+          "external_provider_or_direct_route": {
+            "value": "The regional Migration page lists the filing category and application, but the exact filing counter or any external provider for the residence application was not confirmed.",
+            "official_source_url_or_accepted_source_id": "bg-burgas-eu-citizen-services",
+            "checked_on": "2026-10-25",
+            "status": "route_open"
+          },
+          "decision_authority": {
+            "value": "The page does not identify the official who decides or signs an EU-family residence decision.",
+            "official_source_url_or_accepted_source_id": "bg-burgas-eu-citizen-services",
+            "checked_on": "2026-10-25",
+            "status": "office_holder_unspecified"
+          },
+          "territorial_competence_and_representation_limits": {
+            "value": "The service is published by ODMVR Burgas; current territorial residence assignment and exceptions were not independently checked.",
+            "official_source_url_or_accepted_source_id": "bg-burgas-eu-citizen-services",
+            "checked_on": "2026-10-25",
+            "status": "local_unit_identified_rule_open"
+          },
+          "published_reception_hours": {
+            "value": "The linked Burgas address/contact page returned HTTP 403 in the reader; no current Migration counter hours were established.",
+            "official_source_url_or_accepted_source_id": "https://mvr.bg/burgas/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D0%B7%D0%B0-%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D0%B8/%D0%BC%D0%B8%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-1/%D0%B0%D0%B4%D1%80%D0%B5%D1%81-%D0%B8-%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%B8",
+            "checked_on": "2026-10-25",
+            "status": "unavailable_403"
+          }
+        },
+        "discovery_record": {
+          "archive_path": "discovery/official-domain-web-search-2026-10-25/bulgaria/regional-practice/discovery/plovdiv-burgas-regional-service-review-2026-10-25.md",
+          "sha256": "897437ebf4b2feea2f65bd03a47cb77419a20164c1b1220fb6e103eaba10b612",
+          "classification": "discovery"
+        },
+        "open_questions": [
+          "Does the office require appointments for EU-family residence applications?",
+          "What current checklist and exact filing route apply to service 1551?",
+          "Which official decides the application, and what current territorial-residence rule applies?",
+          "What are the current Migration counter hours and contact route?"
+        ]
+      },
+      {
+        "task_id": "BG-REGION-RUSE-EU-FAMILY-RESIDENCE-2026-10-25",
+        "authority_or_mission": "ODMVR Ruse, Migration Group",
+        "service_or_topic": "Service 1551: residence documents for non-EU family members of EU citizens",
+        "checked_on": "2026-10-25",
+        "status": "open_human_review",
+        "evidence": {
+          "authority_or_mission": {
+            "value": "The official Migration Group page describes the unit as territorial for Ruse Province and serving EU/EEA/Swiss citizens and family members.",
+            "official_source_url_or_accepted_source_id": "bg-ruse-eu-family-services",
+            "checked_on": "2026-10-25",
+            "status": "territorial_unit_and_province_stated"
+          },
+          "service_or_topic": {
+            "value": "The official page lists service 1551 and EU-family residence categories.",
+            "official_source_url_or_accepted_source_id": "bg-ruse-eu-family-services",
+            "checked_on": "2026-10-25"
+          },
+          "family_member_instruction": {
+            "value": "Service 1551 page lists passport, relationship proof, EU-citizen residence evidence when required, fee payment, and address evidence; rented-address cases require an owner declaration. This is the page’s list, not an independently certified current-law checklist.",
+            "official_source_url_or_accepted_source_id": "bg-ruse-eu-family-services",
+            "checked_on": "2026-10-25",
+            "status": "publisher_checklist_observed_currentness_unverified"
+          },
+          "appointment_route": {
+            "value": "The reviewed service page requires in-person submission but does not state whether prior appointments are required.",
+            "official_source_url_or_accepted_source_id": "bg-ruse-eu-family-services",
+            "checked_on": "2026-10-25",
+            "status": "not_stated_on_reviewed_page"
+          },
+          "current_checklist_or_explicit_no_source_finding": {
+            "value": "Five supporting-document categories are displayed; revision date and current legal alignment were not established.",
+            "official_source_url_or_accepted_source_id": "bg-ruse-eu-family-services",
+            "checked_on": "2026-10-25",
+            "status": "checklist_observed_currentness_open"
+          },
+          "external_provider_or_direct_route": {
+            "value": "Application and collection are stated as in person at the Ruse Migration Group counter; no external provider is named.",
+            "official_source_url_or_accepted_source_id": "bg-ruse-eu-family-services",
+            "checked_on": "2026-10-25",
+            "status": "direct_counter_stated"
+          },
+          "decision_authority": {
+            "value": "The service page identifies the ODMVR director as the service authority, without naming the deciding/signing official for a particular case.",
+            "official_source_url_or_accepted_source_id": "bg-ruse-eu-family-services",
+            "checked_on": "2026-10-25",
+            "status": "authority_role_stated_named_official_open"
+          },
+          "territorial_competence_and_representation_limits": {
+            "value": "The group page identifies a Migration remit for Ruse Province; exceptions and address-based assignment were not separately checked.",
+            "official_source_url_or_accepted_source_id": "bg-ruse-eu-family-services",
+            "checked_on": "2026-10-25",
+            "status": "province_stated_exceptions_unverified"
+          },
+          "published_reception_hours": {
+            "value": "Service counter is listed 08:30–17:30; the separate Migration Group page lists supervisor reception Tue/Thu 13:30–16:30. These are distinct schedules on undated pages.",
+            "official_source_url_or_accepted_source_id": "bg-ruse-eu-family-services",
+            "checked_on": "2026-10-25",
+            "status": "live_undated_observation"
+          }
+        },
+        "discovery_record": {
+          "archive_path": "discovery/mvr.bg/bulgaria/regional-practice/discovery/ruse-vt-stara-sofia-regional-review-2026-10-25.md",
+          "sha256": "cb0b229944df550ef359fa4c86df36c34084c16ab075c59fb40fefd20944286f",
+          "classification": "discovery"
+        },
+        "open_questions": [
+          "Does service 1551 require an appointment?",
+          "Is the published five-item list the current complete checklist for the relevant EU-family categories?",
+          "What current address-based competence rules or exceptions apply?",
+          "Does the published appeal wording match the current Administrative Procedure Code and Act?"
+        ]
+      },
+      {
+        "task_id": "BG-REGION-VELIKO-TARNOVO-EU-FAMILY-RESIDENCE-2026-10-25",
+        "authority_or_mission": "ODMVR Veliko Tarnovo, Migration Group",
+        "service_or_topic": "EU/EEA/Swiss citizen and family-member residence services",
+        "checked_on": "2026-10-25",
+        "status": "open_human_review",
+        "evidence": {
+          "authority_or_mission": {
+            "value": "Official page identifies the Migration Group as a structural unit of ODMVR Veliko Tarnovo.",
+            "official_source_url_or_accepted_source_id": "bg-veliko-tarnovo-migration",
+            "checked_on": "2026-10-25",
+            "status": "local_unit_identified"
+          },
+          "service_or_topic": {
+            "value": "Page states the group serves EU/EEA/Swiss citizens and family members under the dedicated Act.",
+            "official_source_url_or_accepted_source_id": "bg-veliko-tarnovo-migration",
+            "checked_on": "2026-10-25"
+          },
+          "family_member_instruction": {
+            "value": "The page lists the dedicated Act and residence forms, but does not set out a complete current checklist specifically for third-country family members.",
+            "official_source_url_or_accepted_source_id": "bg-veliko-tarnovo-migration",
+            "checked_on": "2026-10-25",
+            "status": "legal_forms_listed_checklist_open"
+          },
+          "appointment_route": {
+            "value": "No appointment requirement is stated on the reviewed page.",
+            "official_source_url_or_accepted_source_id": "bg-veliko-tarnovo-migration",
+            "checked_on": "2026-10-25",
+            "status": "not_stated_on_reviewed_page"
+          },
+          "current_checklist_or_explicit_no_source_finding": {
+            "value": "Forms and legal references are listed; no complete EU-family evidence list is published on the reviewed page.",
+            "official_source_url_or_accepted_source_id": "bg-veliko-tarnovo-migration",
+            "checked_on": "2026-10-25",
+            "status": "checklist_not_established"
+          },
+          "external_provider_or_direct_route": {
+            "value": "Page gives the Migration Group counter address; no external provider is identified.",
+            "official_source_url_or_accepted_source_id": "bg-veliko-tarnovo-migration",
+            "checked_on": "2026-10-25",
+            "status": "direct_counter_listed"
+          },
+          "decision_authority": {
+            "value": "The page identifies the Migration Group but does not name the official who decides or signs EU-family residence decisions.",
+            "official_source_url_or_accepted_source_id": "bg-veliko-tarnovo-migration",
+            "checked_on": "2026-10-25",
+            "status": "office_holder_unspecified"
+          },
+          "territorial_competence_and_representation_limits": {
+            "value": "Page is published by ODMVR Veliko Tarnovo; exact residence-address assignment and exceptions were not separately verified.",
+            "official_source_url_or_accepted_source_id": "bg-veliko-tarnovo-migration",
+            "checked_on": "2026-10-25",
+            "status": "local_unit_identified_rule_open"
+          },
+          "published_reception_hours": {
+            "value": "Counter hours are listed Monday–Friday 08:30–12:00 and 13:00–17:30; supervisor reception Tuesday 10:00–12:00. Page is undated.",
+            "official_source_url_or_accepted_source_id": "bg-veliko-tarnovo-migration",
+            "checked_on": "2026-10-25",
+            "status": "live_undated_observation"
+          }
+        },
+        "discovery_record": {
+          "archive_path": "discovery/mvr.bg/bulgaria/regional-practice/discovery/ruse-vt-stara-sofia-regional-review-2026-10-25.md",
+          "sha256": "cb0b229944df550ef359fa4c86df36c34084c16ab075c59fb40fefd20944286f",
+          "classification": "discovery"
+        },
+        "open_questions": [
+          "Does the office require appointments for EU-family residence service?",
+          "What complete and current evidence checklist applies?",
+          "Which official decides the case and what territorial assignment rule applies?",
+          "Is the listed at-home route currently available for residence certificates and what documents are required?"
+        ]
+      },
+      {
+        "task_id": "BG-REGION-STARA-ZAGORA-EU-FAMILY-RESIDENCE-2026-10-25",
+        "authority_or_mission": "ODMVR Stara Zagora, Migration Group",
+        "service_or_topic": "EU-citizen and family-member extended and permanent residence applications",
+        "checked_on": "2026-10-25",
+        "status": "open_human_review",
+        "evidence": {
+          "authority_or_mission": {
+            "value": "The page is published under ODMVR Stara Zagora and identifies the Migration Group.",
+            "official_source_url_or_accepted_source_id": "bg-stara-zagora-migration",
+            "checked_on": "2026-10-25",
+            "status": "local_unit_identified"
+          },
+          "service_or_topic": {
+            "value": "Page states the group accepts EU-family extended and permanent residence applications.",
+            "official_source_url_or_accepted_source_id": "bg-stara-zagora-migration",
+            "checked_on": "2026-10-25"
+          },
+          "family_member_instruction": {
+            "value": "Page gives brief category descriptions and displayed filing/residence periods but no complete evidence checklist.",
+            "official_source_url_or_accepted_source_id": "bg-stara-zagora-migration",
+            "checked_on": "2026-10-25",
+            "status": "service_scope_only_checklist_open"
+          },
+          "appointment_route": {
+            "value": "No appointment requirement is stated on the reviewed page.",
+            "official_source_url_or_accepted_source_id": "bg-stara-zagora-migration",
+            "checked_on": "2026-10-25",
+            "status": "not_stated_on_reviewed_page"
+          },
+          "current_checklist_or_explicit_no_source_finding": {
+            "value": "No complete EU-family document checklist was established from the reviewed page.",
+            "official_source_url_or_accepted_source_id": "bg-stara-zagora-migration",
+            "checked_on": "2026-10-25",
+            "status": "checklist_not_established"
+          },
+          "external_provider_or_direct_route": {
+            "value": "Migration Group is identified as the handling unit; exact service counter route was not separately confirmed.",
+            "official_source_url_or_accepted_source_id": "bg-stara-zagora-migration",
+            "checked_on": "2026-10-25",
+            "status": "unit_identified_counter_route_open"
+          },
+          "decision_authority": {
+            "value": "The page does not name the official who decides or signs EU-family residence decisions.",
+            "official_source_url_or_accepted_source_id": "bg-stara-zagora-migration",
+            "checked_on": "2026-10-25",
+            "status": "office_holder_unspecified"
+          },
+          "territorial_competence_and_representation_limits": {
+            "value": "Published under ODMVR Stara Zagora; precise local residence-address assignment and exceptions were not checked.",
+            "official_source_url_or_accepted_source_id": "bg-stara-zagora-migration",
+            "checked_on": "2026-10-25",
+            "status": "local_unit_identified_rule_open"
+          },
+          "published_reception_hours": {
+            "value": "No current Migration counter hours were established from this page.",
+            "official_source_url_or_accepted_source_id": "bg-stara-zagora-migration",
+            "checked_on": "2026-10-25",
+            "status": "not_established"
+          }
+        },
+        "discovery_record": {
+          "archive_path": "discovery/mvr.bg/bulgaria/regional-practice/discovery/ruse-vt-stara-sofia-regional-review-2026-10-25.md",
+          "sha256": "cb0b229944df550ef359fa4c86df36c34084c16ab075c59fb40fefd20944286f",
+          "classification": "discovery"
+        },
+        "open_questions": [
+          "Are the displayed three-month and five-year statements current and accurately scoped to the dedicated EU-family Act?",
+          "Does the Migration Group require appointments?",
+          "What complete evidence checklist, counter hours, and filing details apply?",
+          "What territorial assignment and decision-authority rules apply?"
+        ]
+      },
+      {
+        "task_id": "BG-REGION-SOFIA-EU-FAMILY-RESIDENCE-2026-10-25",
+        "authority_or_mission": "ODMVR Sofia, Migration",
+        "service_or_topic": "Official indexed lead for EU-family residence services; current practice not verified",
+        "checked_on": "2026-10-25",
+        "status": "open_human_review",
+        "evidence": {
+          "authority_or_mission": {
+            "value": "Official search index associates the page with ODMVR Sofia, but direct retrieval returned 403 and the indexed page is old.",
+            "official_source_url_or_accepted_source_id": "https://www.mvr.bg/sofia/административни-услуги/административни-услуги-за-граждани/миграция/112321",
+            "checked_on": "2026-10-25",
+            "status": "direct_fetch_403_stale_index"
+          },
+          "service_or_topic": {
+            "value": "Indexed text lists EU-citizen and family-member residence services; current service scope is not directly verified.",
+            "official_source_url_or_accepted_source_id": "https://www.mvr.bg/sofia/административни-услуги/административни-услуги-за-граждани/миграция/112321",
+            "checked_on": "2026-10-25",
+            "status": "indexed_text_only"
+          },
+          "family_member_instruction": {
+            "value": "No current family-member instruction was reviewed.",
+            "official_source_url_or_accepted_source_id": "https://www.mvr.bg/sofia/административни-услуги/административни-услуги-за-граждани/миграция/112321",
+            "checked_on": "2026-10-25",
+            "status": "human_review_required"
+          },
+          "appointment_route": {
+            "value": "Not established because the page could not be retrieved.",
+            "official_source_url_or_accepted_source_id": "https://www.mvr.bg/sofia/административни-услуги/административни-услуги-за-граждани/миграция/112321",
+            "checked_on": "2026-10-25",
+            "status": "not_established_403"
+          },
+          "current_checklist_or_explicit_no_source_finding": {
+            "value": "Not established; the indexed page is approximately 11.4 years old.",
+            "official_source_url_or_accepted_source_id": "https://www.mvr.bg/sofia/административни-услуги/административни-услуги-за-граждани/миграция/112321",
+            "checked_on": "2026-10-25",
+            "status": "stale_indexed_text_only"
+          },
+          "external_provider_or_direct_route": {
+            "value": "Not established from direct official page content.",
+            "official_source_url_or_accepted_source_id": "https://www.mvr.bg/sofia/административни-услуги/административни-услуги-за-граждани/миграция/112321",
+            "checked_on": "2026-10-25",
+            "status": "not_established_403"
+          },
+          "decision_authority": {
+            "value": "Not established.",
+            "official_source_url_or_accepted_source_id": "https://www.mvr.bg/sofia/административни-услуги/административни-услуги-за-граждани/миграция/112321",
+            "checked_on": "2026-10-25",
+            "status": "not_established_403"
+          },
+          "territorial_competence_and_representation_limits": {
+            "value": "Not established from direct official page content.",
+            "official_source_url_or_accepted_source_id": "https://www.mvr.bg/sofia/административни-услуги/административни-услуги-за-граждани/миграция/112321",
+            "checked_on": "2026-10-25",
+            "status": "not_established_403"
+          },
+          "published_reception_hours": {
+            "value": "Do not rely on indexed hours; page direct fetch returned 403 and its indexed publication age is about 11.4 years.",
+            "official_source_url_or_accepted_source_id": "https://www.mvr.bg/sofia/административни-услуги/административни-услуги-за-граждани/миграция/112321",
+            "checked_on": "2026-10-25",
+            "status": "stale_indexed_text_only"
+          }
+        },
+        "discovery_record": {
+          "archive_path": "discovery/mvr.bg/bulgaria/regional-practice/discovery/ruse-vt-stara-sofia-regional-review-2026-10-25.md",
+          "sha256": "cb0b229944df550ef359fa4c86df36c34084c16ab075c59fb40fefd20944286f",
+          "classification": "discovery"
+        },
+        "open_questions": [
+          "Can current Sofia official Migration service content be retrieved and dated?",
+          "What current EU-family procedures, appointments, checklist, hours, decision authority and territorial scope apply?"
+        ]
+      }
+    ]
+  },
+  "open_cross_pack_dependencies": [
+    "Human/legal review: Bulgarian EU-citizen Act Article 10 and definitions retain the 2019/1157 citation and Article 12(11) retains its fee link; the successor's Bulgarian field-10 codes match the national wording, but the current card title/format and application of the expired 3 August 2026 transition (including Article 8(2)(b)'s conditional 2031 derogation) are not verified."
+  ],
+  "monitor_gate_status": {
+    "monitor_action": "unsupported",
+    "source_acceptance": "unsupported",
+    "topic_coverage": "unsupported",
+    "dependency_review": "unsupported",
+    "semantic_validation": "unsupported",
+    "continuing_discovery": "unsupported",
+    "operational_evidence": "unsupported",
+    "checked_with": "EU Source Update Monitor list_source_packs",
+    "checked_on": "2026-10-25"
+  }
+}

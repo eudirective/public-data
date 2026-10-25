@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "BG",
-  "as_of": "2026-10-24",
+  "as_of": "2026-10-25",
   "policy": "accepted_source_count and each record's accepted flag describe retained local artifacts only. A human-reviewed official link is sufficient for ordinary reference use within the publisher, identity, language, version/cutoff, scope, content and limitations actually checked. Do not require local retrieval, conversion, hashes, API registration, Gazette-chain reconstruction, or copying permission for link use. Use the closest usable government-published consolidation and preserve its cutoff and publisher attribution. When portal currentness or scope remains unclear, record the entire relevant official portal for human review and continue independent work. Link acceptance does not establish topic coverage or country completion.",
   "official_reference_reviews": {
     "bg-mfa-visa-ordinance-consolidated": {
@@ -70,14 +70,15 @@
       "publisher": "Ministry of Interior (MVR), Migration Directorate",
       "url": "https://mvr.bg/upload/338040/%D0%97%D0%92%D0%9F%D0%9D%D0%A0%D0%91%D0%93%D0%95%D0%A1%D0%A7%D0%A2%D0%A1%202026.pdf",
       "rediscovery_url": "https://www.mvr.bg/migration/административни-услуги/административни-услуги-за-граждани/издаване-на-документи-на-граждани-на-ес-и-на-членовете-на-техните-семейства",
-      "checked_on": "2026-10-21",
+      "checked_on": "2026-10-25",
       "language": "Bulgarian",
       "version_or_cutoff": "The MVR-published file is labelled 2026, but its amendment history ends at State Gazette issue 52/2025 (27 June 2025).",
       "scope": "Bulgarian Act governing entry, residence, and departure of EU citizens and their family members; distinct from the Foreigners Act.",
-      "reviewed_content": "The consolidated text includes changes to EU-family residence procedures through SG 52/2025. Article 10 and the definitions still cite Regulation (EU) 2019/1157; this cross-reference is separately recorded in source-dependencies.json.",
+      "reviewed_content": "The consolidated text includes changes to EU-family residence procedures through SG 52/2025. Article 10 and Additional Provisions § 1(4)-(5) still cite Regulation (EU) 2019/1157. Article 12(1) and § 1(4)-(5) prescribe Bulgarian field-10 codes that textually match Article 7(2) of successor Regulation (EU) 2025/1208 in Bulgarian. Article 12(11) refers to the 1030/2002 format, while its fee comparison still names Regulation 2019/1157. The national text and successor-rule dependency are recorded separately in source-dependencies.json.",
       "limitations": [
         "Not current beyond the cutoff printed in the Act.",
         "Do not silently edit the published Bulgarian statutory wording. Regulation 2019/1157 was declared invalid in C-61/22 with effects maintained until replacement; Regulation (EU) 2025/1208 entered into force on 10 July 2025.",
+        "A current official card specimen or issuing instruction was not located; format implementation, card titles, fees and transition of existing cards remain open.",
         "This review accepts the official link and stated scope, not a local copy or complete national coverage."
       ],
       "supporting_sources": [
@@ -89,12 +90,17 @@
         {
           "title": "CJEU, Landeshauptstadt Wiesbaden, C-61/22",
           "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62022CJ0061",
-          "role": "declared Regulation 2019/1157 invalid and maintained effects until a successor entered into force"
+          "role": "declared Regulation 2019/1157 invalid and maintained effects until a successor entered into force; that period ended on 10 July 2025"
         },
         {
           "title": "Council Regulation (EU) 2025/1208",
           "url": "https://eur-lex.europa.eu/eli/reg/2025/1208/oj/eng",
           "role": "successor EU rules for identity cards and free-movement residence documents"
+        },
+        {
+          "title": "Council Regulation (EU) 2025/1208, Bulgarian EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/BG/TXT/?uri=CELEX:32025R1208",
+          "role": "confirms the Bulgarian standardized card titles and field-10 codes under Article 7 and existing-card transition under Article 8"
         }
       ]
     },
@@ -174,43 +180,66 @@
       "publisher": "Ministry of Interior (MVR)",
       "url": "https://www.mvr.bg/upload/300953/%D0%97%D0%90%D0%9A%D0%9E%D0%9D%20%D0%97%D0%90%20%D0%91%D0%AA%D0%9B%D0%93%D0%90%D0%A0%D0%A1%D0%9A%D0%98%D0%A2%D0%95%20%D0%9B%D0%98%D0%A7%D0%9D%D0%98%20%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%98.pdf",
       "rediscovery_url": "https://www.mvr.bg/opp/полезна-информация1/нормативна-уредба/закони-и-кодекси",
-      "checked_on": "2026-10-21",
+      "checked_on": "2026-10-25",
       "language": "Bulgarian",
       "version_or_cutoff": "MVR-published consolidation through SG issue 52/2025 (27 June 2025).",
       "scope": "Bulgarian personal and residence-document statutory framework.",
-      "reviewed_content": "The 74-page MVR PDF title and amendment history were checked. The Act is supporting national law for document issuance.",
+      "reviewed_content": "The 74-page MVR PDF title and amendment history were checked. Transitional § 24(3) states that covered EU-family residence cards not meeting Article 7 of Regulation 2019/1157 remain valid through 3 August 2026 unless they expire earlier. That date has passed; Regulation 2025/1208 Article 8 includes a conditional derogation to 3 August 2031 for specified cards. No conclusion on particular-card validity is drawn; reconciliation remains a human/legal review item.",
       "limitations": [
         "It does not replace the applicable EU card-format rules under Regulation (EU) 2025/1208.",
+        "The consolidation ends at SG issue 52/2025. The current effect of transitional § 24(3) alongside the successor regulation's conditional Article 8 derogation, and the validity of any individual card, require separate legal review.",
         "The PDF identifies Ciela as its text source.",
         "No local copy has been accepted."
       ],
-      "supporting_sources": []
+      "supporting_sources": [
+        {
+          "title": "Council Regulation (EU) 2025/1208, Bulgarian EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/BG/TXT/?uri=CELEX:32025R1208",
+          "role": "Article 8 establishes the successor transition dates and conditional derogation for existing residence cards"
+        }
+      ]
     },
     "bg-personal-documents-rules": {
       "status": "usable_official_reference",
       "publisher": "Ministry of Interior (MVR)",
-      "url": "https://www.mvr.bg/upload/19938/%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%BD%D0%B8%D0%BA-%D0%B7%D0%B0-%D0%B8%D0%B7%D0%B4%D0%B0%D0%B2%D0%B0%D0%BD%D0%B5-%D0%BD%D0%B0-%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D1%82%D0%B5-%D0%BB%D0%B8%D1%87%D0%BD%D0%B8-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8-%D0%B0%D0%BA%D1%82%D1%83%D0%B0%D0%BB%D0%BD%D0%BE%D1%81%D1%82-31-05-2024.pdf",
+      "url": "https://www.mvr.bg/upload/296014/%D0%9F%D0%98%D0%91%D0%9B%D0%94.pdf",
       "rediscovery_url": "https://www.mvr.bg/opp/полезна-информация1/нормативна-уредба/закони-и-кодекси",
-      "checked_on": "2026-10-21",
+      "checked_on": "2026-10-25",
       "language": "Bulgarian",
-      "version_or_cutoff": "The linked PDF is consolidated through SG issue 46/2024 (31 May 2024), according to its heading and source note.",
+      "version_or_cutoff": "Newer MVR-hosted PDF has a Ciela source note dated 19 November 2025 and predates Council of Ministers Decree №286/2025, promulgated in State Gazette issue 109/2025 on 16 December 2025. §2 of Decree №286/2025 amends these Rules; most of §2 takes effect 1 January 2026 and item 14 takes effect three days after promulgation. The MVR Laws and Codes page labels the Rules current 16 December 2025 but links a separate PDF consolidated through SG issue 46/2024; the Migration Directorate index links a 2021 copy. A January 2026 MVR consultation page lists a proposed further amendment; targeted Official Gazette searches through 25 October 2026 located no later promulgated Rules amendment, which is not proof that none exists.",
       "scope": "Rules for issuing Bulgarian personal documents, as a dated official working reference.",
-      "reviewed_content": "The PDF is linked from the MVR Laws and Codes page, which labels the entry current 16 December 2025. Its own cutoff is 31 May 2024; the Migration Directorate index links a second MVR PDF whose cutoff is SG issue 66/2021.",
+      "reviewed_content": "The newer MVR-hosted PDF title, source attribution/date and official search-indexed provisions were checked; the indexed text includes § 11, the repeal of Article 28 under SG issue 99/2024 with effect from 9 December 2025, and Article 7(1)(10), which routes applications for residence documents under Bulgarian Personal Documents Act Article 59(2)-(4) to the Migration Directorate or Migration units at regional directorates. Council of Ministers Decree №286/2025, §2, is a later amendment to these Rules: among other changes, it updates Article 40 routes for foreign nationals holding general residence permits; Article 40 item 14 took effect three days after promulgation and the other §2 provisions on 1 January 2026. Those foreigner-permit routes do not establish the procedure or card format for EU-family residence documents. The official MVR Laws and Codes page labels the Rules current 16 December 2025 but links the older 31 May 2024 PDF; the Migration Directorate index still links a 2021 copy. Direct retrieval of the 19 November 2025 PDF returned HTTP 403, so its review remains link-only and based on official search-indexed text and the later Gazette amendment, not a full-text or card-specimen audit.",
       "limitations": [
-        "Do not describe the linked 2024 text as current through 2025 or 2026.",
-        "The whole MVR legal portal is offered for human review to identify a newer consolidated link or confirm that none is published.",
-        "No Gazette-fragment reconstruction is required by default; the published text remains usable within its known cutoff."
+        "The 19 November 2025 PDF predates Decree №286/2025. Use it as a dated reference and read it with the later Gazette amendment; do not treat the PDF alone as a current consolidation.",
+        "Article 7(1)(10) was confirmed only from the official search-indexed excerpt. Direct retrieval of the newer PDF returned HTTP 403. The MVR's January 2026 consultation material is a proposal, not an enacted amendment; targeted Official Gazette searches through 25 October 2026 did not locate a later Rules amendment, but were not an exhaustive proof of absence.",
+        "A full-text and amendment-chain review, any later post-Decree-286 update, and card-specific title/format instructions remain open. The foreigner-permit procedure in Article 40 must not be generalized to EU-family residence documents.",
+        "No Gazette-fragment reconstruction is required by default; the published text remains usable within its known source date."
       ],
       "supporting_sources": [
         {
           "title": "MVR Laws and Codes page",
           "url": "https://www.mvr.bg/opp/полезна-информация1/нормативна-уредба/закони-и-кодекси",
-          "role": "official page labels the rules current 16 December 2025 but links the 2024 consolidation"
+          "role": "official page labels the Rules current 16 December 2025 but links the older 2024 consolidation; confirms the official version label, not that it links the newer PDF"
         },
         {
           "title": "MVR Migration legislation index",
           "url": "https://www.mvr.bg/migration/дирекцията/нормативна-уредба/bgzac",
           "role": "official index links the older 2021 version"
+        },
+        {
+          "title": "Earlier MVR-hosted Rules consolidation through SG 46/2024",
+          "url": "https://www.mvr.bg/upload/19938/%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%BD%D0%B8%D0%BA-%D0%B7%D0%B0-%D0%B8%D0%B7%D0%B4%D0%B0%D0%B2%D0%B0%D0%BD%D0%B5-%D0%BD%D0%B0-%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D1%82%D0%B5-%D0%BB%D0%B8%D1%87%D0%BD%D0%B8-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8-%D0%B0%D0%BA%D1%82%D1%83%D0%B0%D0%BB%D0%BD%D0%BE%D1%81%D1%82-31-05-2024.pdf",
+          "role": "older directly linked consolidation retained for version comparison; not used as the latest available text"
+        },
+        {
+          "title": "Council of Ministers Decree №286/2025, §2, amending the Personal Documents Rules, State Gazette issue 109/2025",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=239936",
+          "role": "later official amendment to the Rules after the 19 November 2025 PDF source date; §2 generally effective 1 January 2026, with item 14 effective three days after promulgation"
+        },
+        {
+          "title": "MVR public-consultation page for a proposed 2026 amendment to the Rules",
+          "url": "https://www.mvr.bg/%D0%B7%D0%B0-%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE%D1%82%D0%BE-%D0%BD%D0%B0-%D0%B2%D1%8A%D1%82%D1%80%D0%B5%D1%88%D0%BD%D0%B8%D1%82%D0%B5-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B8/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0-%D1%83%D1%80%D0%B5%D0%B4%D0%B1%D0%B0/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8-%D0%BD%D0%B0-%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D0%B0%D0%BA%D1%82%D0%BE%D0%B2%D0%B5/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B8-%D0%BD%D0%B0-%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D0%B0%D0%BA%D1%82%D0%BE%D0%B2%D0%B5-",
+          "role": "MVR lists proposed further amendments for public consultation in January 2026; proposal is not evidence of enactment"
         }
       ]
     },
@@ -449,15 +478,16 @@
       "status": "usable_official_reference",
       "publisher": "Ministry of Interior (MVR), Migration Directorate",
       "url": "https://www.mvr.bg/migration/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D0%B7%D0%B0-%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D0%B8/%D0%B8%D0%B7%D0%B4%D0%B0%D0%B2%D0%B0%D0%BD%D0%B5-%D0%BD%D0%B0-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8-%D0%BD%D0%B0-%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D0%B8-%D0%BD%D0%B0-%D0%B5%D1%81-%D0%B8-%D0%BD%D0%B0-%D1%87%D0%BB%D0%B5%D0%BD%D0%BE%D0%B2%D0%B5%D1%82%D0%B5-%D0%BD%D0%B0-%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%82%D0%B5-%D1%81%D0%B5%D0%BC%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B0",
-      "checked_on": "2026-10-24",
+      "checked_on": "2026-10-25",
       "language": "Bulgarian",
-      "version_or_cutoff": "Live official service page checked 24 October 2026; no publication or revision date is shown.",
+      "version_or_cutoff": "Live official service page directly reviewed on 24 October 2026; an official indexed excerpt was re-observed on 25 October. No publisher revision date is displayed.",
       "scope": "Official parent route for EU-citizen and eligible family-member residence-document applications and related Migration Directorate services.",
-      "reviewed_content": "The page links the dedicated EU-citizen Act, Instruction №8121з-1276, permanent and extended-residence applications, the Article 9a/10/16(4)/19 application, the Article 20a declaration, and the MVR regional-directorate directory. It also describes the EU-document legalisation exemption under Regulation (EU) 2016/1191.",
+      "reviewed_content": "The page links the dedicated EU-citizen Act, Instruction №8121з-1276, permanent and extended-residence applications, the Article 9a/10/16(4)/19 application, the Article 20a declaration, and the MVR regional-directorate directory. The indexed excerpt also says that official documents from another EU Member State within Regulation (EU) 2016/1191 scope are exempt from legalisation. Direct page retrieval returned HTTP 403 in the 25 October check; this wording is an indexed observation, not a full current page review.",
       "limitations": [
         "This is a navigation and service index, not the legal text or full application instructions.",
         "Linked upload URLs may change; resolve the current files from this page.",
-        "The link review does not establish that every linked form is current or complete."
+        "The link review does not establish that every linked form is current or complete.",
+        "Direct page retrieval returned HTTP 403 in the 25 October check; the legalisation-exemption sentence is supported by an official indexed excerpt only."
       ]
     },
     "bg-mfa-visa-form": {
@@ -548,14 +578,15 @@
       "status": "usable_official_reference",
       "publisher": "Supreme Administrative Court of the Republic of Bulgaria",
       "url": "https://sac.justice.bg/spravki/",
-      "checked_on": "2026-10-24",
+      "checked_on": "2026-10-25",
       "language": "Bulgarian",
-      "version_or_cutoff": "Live court-search service checked 24 October 2026; no publication or revision date is shown.",
+      "version_or_cutoff": "Live official search page inspected on 25 October 2026; footer showed print time 24 October 2026 at 21:12; no publication or revision date is shown.",
       "scope": "Official Supreme Administrative Court service for searching case movement and published acts by case identifiers, criteria, and text keywords.",
-      "reviewed_content": "The live service explains its case-number and keyword fields, states that keyword searches cover only already-published acts, and warns that an empty result does not mean a case is absent.",
+      "reviewed_content": "The page provides case number/year, case type, keyword, date-range, appealed-act, court/authority, chamber and subject filters. It states keyword search covers only already-published acts, older cases may require contacting the registry, and an empty result does not mean the case is absent. The rendered page showed a limited-mode warning stating that text search currently matches only the exact word form and may return fewer results than usual. The form was inspected but not submitted in this review.",
       "limitations": [
         "This service does not provide a unified searchable corpus for the 28 lower administrative courts.",
-        "A search result or zero-result outcome does not establish complete case-law coverage.",
+        "A search result or zero-result outcome does not establish complete case-law coverage; the page itself cautions that only published acts are searched by keyword and that older matters may require registry contact.",
+        "No case-number, date-range, or keyword query was submitted during the 25 October review, so no official database result count is recorded.",
         "No local copy was retained because this is a dynamic search interface."
       ]
     },
@@ -731,6 +762,705 @@
           "title": "Ombudsman Act, official Ombudsman publication",
           "url": "https://www.ombudsman.bg/bg/p/zakon-za-ombudsmana-265",
           "role": "primary legal framework; current amendment chain needs separate review"
+        }
+      ]
+    },
+    "bg-legal-aid-act": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Justice of the Republic of Bulgaria",
+      "url": "https://justice.government.bg/home/normdoc/2135511185",
+      "rediscovery_url": "https://portal.justice.government.bg/home/normdoc/2135511185",
+      "checked_on": "2026-10-24",
+      "language": "Bulgarian",
+      "version_or_cutoff": "The official Ministry of Justice page identifies amendments through State Gazette issue 69/2026 (31 July 2026).",
+      "scope": "Selected provisions on legal aid in administrative proceedings and out-of-court administrative procedures, types of aid, means assessment, and process representation; not an individual eligibility determination.",
+      "reviewed_content": "The official Ministry of Justice indexed text identifies the Legal Aid Act. The reviewed Article 1 covers administrative cases before all court instances and out-of-court procedures; Articles 21–23 identify advice and document preparation for administrative acts and appeals, process representation, free-aid categories, and means/interest-of-justice assessment. The page's displayed amendment history extends through SG issue 69/2026.",
+      "limitations": [
+        "Direct page opening returned HTTP 502 in the available reader; the official-host indexed text and page identity were reviewed, but the full page was not rendered in this review.",
+        "No local copy is retained. Application forms, current implementing rules, and practical intake routes have not been reviewed.",
+        "This reference does not decide whether a particular applicant qualifies for legal aid or establish how Bulgarian courts apply the criteria in EU-family migration cases."
+      ]
+    },
+    "bg-personal-data-act": {
+      "status": "usable_official_reference",
+      "publisher": "Commission for Personal Data Protection of the Republic of Bulgaria (CPDP)",
+      "url": "https://cpdp.bg/%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B0-%D1%80%D0%B0%D0%BC%D0%BA%D0%B0-%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%B0/%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD-%D0%B7%D0%B0-%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BD%D0%B0-%D0%BB%D0%B8%D1%87%D0%BD%D0%B8%D1%82%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8-2/",
+      "checked_on": "2026-10-24",
+      "language": "Bulgarian",
+      "version_or_cutoff": "The CPDP official legal-framework page's indexed amendment history extends through State Gazette issue 69/2026 (31 July 2026).",
+      "scope": "Selected national provisions supplementing Regulation (EU) 2016/679, including CPDP oversight and personal-data breach notification; the GDPR itself remains shared EU law.",
+      "reviewed_content": "The official CPDP indexed text identifies the Personal Data Protection Act and states that it governs data-protection matters not already regulated by Regulation (EU) 2016/679. The reviewed Article 67 concerns notification of specified personal-data breaches to the Commission or inspectorate within 72 hours. The page's displayed amendment history includes issues 16, 51, and 69 of 2026.",
+      "limitations": [
+        "Direct page opening returned HTTP 502 in the available reader; official-host indexed text and the publisher page were reviewed, but the full page was not rendered in this review.",
+        "No local copy is retained. This limited review is not a complete map of data-subject rights, migration-record access, retention, supervisory complaints, or implementing rules.",
+        "Use the canonical shared GDPR text for the EU Regulation; this national reference does not duplicate it or establish the practices of MVR data controllers."
+      ]
+    },
+    "bg-ombudsman-act": {
+      "status": "usable_official_reference",
+      "publisher": "Ombudsman of the Republic of Bulgaria",
+      "url": "https://www.ombudsman.bg/bg/p/zakon-za-ombudsmana-265",
+      "rediscovery_url": "https://www.ombudsman.bg/bg",
+      "checked_on": "2026-10-24",
+      "language": "Bulgarian",
+      "version_or_cutoff": "The official page displays amendments through State Gazette issue 29/2024 (2 April 2024). No later consolidated text was located in this search; this is the publisher's displayed cutoff, not a certification of current force after that date.",
+      "scope": "Statutory Ombudsman mandate concerning human-rights protection and complaints about actions or omissions of state and municipal bodies, including selected information-gathering and annual-report provisions.",
+      "reviewed_content": "The official Ombudsman indexed page identifies the Act and its displayed amendment history. Reviewed Articles 1–6 describe the office's purpose, competence, independence, and information/cooperation duties; Articles 20–22 describe access to authorities and information, confidentiality, the complaint register, and annual reporting.",
+      "limitations": [
+        "Direct page opening returned HTTP 502 in the available reader; official-host indexed text and the publisher page were reviewed, but the full page was not rendered in this review.",
+        "The last amendment displayed is from April 2024; age alone does not invalidate this official text, but later legal force or amendment status is not certified here.",
+        "No local copy is retained. This Act does not replace administrative or judicial appeals, extend their deadlines, or establish complaint outcomes in migration matters; the current Ombudsman FAQ is recorded separately."
+      ]
+    },
+    "bg-pernik-eu-service": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Interior (MVR), Pernik Regional Directorate",
+      "url": "https://www.mvr.bg/pernik/административни-услуги/административни-услуги-за-граждани/миграция/граждани-ес",
+      "checked_on": "2026-10-24",
+      "language": "Bulgarian",
+      "version_or_cutoff": "The page has no visible publication or revision date; opened and reviewed 24 October 2026.",
+      "scope": "One regional operational information page for EU citizens and EU-national family members applying through the Migration group of the Pernik MVR Regional Directorate.",
+      "reviewed_content": "The official page identifies residence categories, lists application evidence for extended and permanent residence, directs applicants to the Migration group, and states filing and issuance timing and fees. The page was opened and visually reviewed on 24 October 2026.",
+      "limitations": [
+        "This is a single regional sample, not evidence for the other 28 oblast directorates or Sofia.",
+        "The displayed page does not provide a publication or revision date; statements are retained as the page checked on 24 October 2026 and are not independently confirmed as current legal requirements.",
+        "The content does not set out a distinct procedure for third-country-national family members of EU citizens, appointment requirements, or all filing details.",
+        "MVR website terms restrict copying or storing site content without prior written consent, subject to stated exceptions; this is accepted as a link-only reference and no page text is stored."
+      ],
+      "supporting_sources": [
+        {
+          "title": "MVR Terms of Use",
+          "url": "https://www.mvr.bg/bg/terms",
+          "role": "publisher terms; local page content not retained"
+        }
+      ]
+    },
+    "bg-legal-aid-forms": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Justice of the Republic of Bulgaria, National Bureau for Legal Aid",
+      "url": "https://www.justice.government.bg/home/index/2c61d20a-89ac-4904-a015-0d477f913c36",
+      "checked_on": "2026-10-24",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Official NBPP “Guidelines and forms” page checked through its indexed official search representation on 24 October 2026; the page itself exposes no consolidated legal cutoff.",
+      "scope": "Official forms and guidance index for applications to the NBPP, legal-aid motions to a court in a pending case, and related declarations.",
+      "reviewed_content": "The official Ministry page identifies the National Bureau for Legal Aid and lists an application to the NBPP Chair, a motion for legal aid to the court in an existing case, and a family/property declaration for court applications. The page was also directly opened, but the reader returned HTTP 502; linked form payloads were not opened.",
+      "limitations": [
+        "Accepted as a link-only index; no form payload or local document was reviewed or accepted.",
+        "The page does not establish which form or evidence is required in a particular migration appeal.",
+        "The separate NBPP and court application routes must not be conflated."
+      ],
+      "supporting_sources": []
+    },
+    "bg-legal-aid-procedure": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Justice of the Republic of Bulgaria, Integrated Administrative Services Portal / National Bureau for Legal Aid",
+      "url": "https://sip.justice.government.bg/home/index/f802a37d-4030-43d8-ba2a-0ccc09a0b535?top=1",
+      "checked_on": "2026-10-24",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Official government service metadata surfaced by indexed search on 24 October 2026; no publication or revision date was exposed.",
+      "scope": "Administrative-service route for requesting legal-aid consultation/document preparation from the NBPP before court proceedings or for starting a case.",
+      "reviewed_content": "The official service record identifies the Legal Aid Directorate, an application form and family/property declaration, a 14-day NBPP decision period, and a refusal-appeal route. Two indexed versions disagree on public office hours (09:00–16:30 versus 09:00–17:00); hours are not accepted as current. A direct page open returned only the portal shell, so review is limited to indexed official service excerpts.",
+      "limitations": [
+        "The service page concerns an application to the NBPP; it is not the same as a motion made to the court in a pending judicial-review case.",
+        "Indexed official versions show conflicting public hours (09:00–16:30 and 09:00–17:00); do not rely on either without current confirmation.",
+        "The indexed excerpt was not independently reconciled line by line against every current provision of the Legal Aid Act.",
+        "The portal shell did not expose downloadable forms or the complete service record; no local copy is accepted."
+      ],
+      "supporting_sources": [
+        {
+          "title": "Legal Aid Act, Ministry of Justice consolidation",
+          "url": "https://justice.government.bg/home/normdoc/2135511185",
+          "role": "primary statutory framework and current consolidated amendment history"
+        }
+      ]
+    },
+    "bg-legal-aid-application-guide": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Justice of the Republic of Bulgaria, National Bureau for Legal Aid",
+      "url": "https://www.justice.government.bg/home/index/a93fb8ba-8dae-49f5-a9bb-50c876044ec5",
+      "checked_on": "2026-10-24",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Official Ministry page located through official indexed search on 24 October 2026; no publication or revision date was displayed.",
+      "scope": "Public-facing guide to applying for legal aid before and during court proceedings.",
+      "reviewed_content": "The indexed Ministry page distinguishes applications to the NBPP for consultation/document preparation before a case from applications to the competent court in an already pending case. It identifies separate forms and a family/property declaration, and says evidence of insufficient means is required. Direct page text was not retrievable for full review.",
+      "limitations": [
+        "This is guidance, not legislation; check eligibility, evidence and deadlines against the current Legal Aid Act and procedural law.",
+        "The page has no displayed revision date and its statements are accepted only as an official route and limited indexed summary.",
+        "The application forms were not downloaded or locally accepted."
+      ],
+      "supporting_sources": [
+        {
+          "title": "Legal Aid Act, Ministry of Justice consolidation",
+          "url": "https://justice.government.bg/home/normdoc/2135511185",
+          "role": "primary statutory framework"
+        }
+      ]
+    },
+    "bg-nbpp-service-channels": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Justice of the Republic of Bulgaria, National Bureau for Legal Aid administrative service",
+      "url": "https://www.justice.government.bg/home/index/52d24c0e-eb0a-4a03-be46-14d0bcbe4a90",
+      "checked_on": "2026-10-24",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Official Ministry service page surfaced in search on 24 October 2026; no publication or revision date was displayed.",
+      "scope": "Administrative contact and submission-channel information for National Bureau for Legal Aid services.",
+      "reviewed_content": "The indexed page identifies an NBPP service-centre address in Sofia and states that administrative-service requests may be filed in person, by licensed postal operator, fax, or electronically.",
+      "limitations": [
+        "No page revision date was visible and the full page was not opened; the listed channels are not accepted as confirmed current.",
+        "An official Ministry notice about suspension of a unified electronic legal-aid system in 2019 says handling then reverted to paper. Its present effect is unknown; resolve this conflict before relying on electronic filing.",
+        "This source does not establish which channel applies to each form or legal-aid procedure."
+      ],
+      "supporting_sources": [
+        {
+          "title": "Ministry notice on the former unified electronic legal-aid system",
+          "url": "https://www.justice.government.bg/home/index/95f8e46b-428d-4bef-a807-37a6a8e816f6",
+          "role": "historical notice that creates a currentness question for the electronic channel"
+        }
+      ]
+    },
+    "bg-dubai-eu-family": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Foreign Affairs of the Republic of Bulgaria (MFA), Consulate General in Dubai",
+      "url": "https://www.mfa.bg/en/embassies/uaegc",
+      "checked_on": "2026-10-25",
+      "language": "English and Bulgarian",
+      "version_or_cutoff": "Dynamic mission page checked 25 October 2026. The English contacts section is displayed through the 2026 site footer; the dated mission notice says appointment-only service from 1 April 2025. The static contacts section has no separate revision date.",
+      "scope": "Link-only operational reference for the Dubai Consulate General's stated type-C visa channels and consular reception. Its Bulgarian contacts section says the post serves Dubai and the Northern Emirates; not a review of all Bulgarian missions or all UAE residents.",
+      "reviewed_content": "The official page routes ordinary short-stay type-C applications through VFS Global and makes an exception for family members of Bulgarian and EU citizens to apply in person at the Consulate General after booking by email at visa.dubai@mfa.bg. The MFA's separate UAE-resident visa route (https://mfa.bg/en/4278) describes a direct family route for UAE residents generally. The Bulgarian contacts section states the post serves Dubai and the Northern Emirates (Sharjah, Ajman, Umm al Quwain, Ras Al Khaimah, Fujairah). The accepted official Visa Ordinance review (bg-mfa-visa-ordinance-consolidated) records Article 23(3) as granting qualifying EU/EEA/Swiss family or household members direct consular access without a prior appointment; this conflicts with the appointment requirement. Direct inspection found no mission-page checklist for the family exception.",
+      "limitations": [
+        "Dynamic operational guidance; recheck before reliance; no local copy retained.",
+        "The appointment instruction conflicts with Article 23(3) of the accepted official Visa Ordinance reference; the legal and operational issue remains unresolved.",
+        "The UAE-resident route and the mission's stated Dubai/Northern Emirates area do not clearly reconcile Abu Dhabi representation.",
+        "The mission page contains no checklist for the family exception. A provider checklist for ordinary type-C applicants is not accepted as the checklist for the direct family route.",
+        "Acceptance covers the official link and operational facts stated, not legal force, topic sufficiency, or country completion."
+      ],
+      "supporting_sources": [
+        {
+          "title": "MFA visa guidance for UAE residents",
+          "url": "https://mfa.bg/en/4278",
+          "role": "Official route for UAE residents; its scope is broader than the Dubai mission contacts section."
+        },
+        {
+          "title": "Central MFA Visa for Bulgaria",
+          "url": "https://www.mfa.bg/en/services-travel/consular-services/travel-bulgaria/visa-bulgaria/",
+          "role": "Official general EU-family evidence and issuing-authority guidance; not a Dubai-specific checklist."
+        },
+        {
+          "title": "VFS Global Bulgaria UAE information",
+          "url": "https://visa.vfsglobal.com/one-pager/Bulgaria/UAE/english/",
+          "role": "Third-party provider information for ordinary type-C applicants; not accepted as legal guidance for the EU-family exception."
+        }
+      ]
+    },
+    "bg-mfa-india-mission": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Foreign Affairs of the Republic of Bulgaria (MFA), Embassy in India",
+      "url": "https://www.mfa.bg/en/embassies/india",
+      "checked_on": "2026-10-25",
+      "language": "English and Bulgarian",
+      "version_or_cutoff": "Dynamic mission page checked 25 October 2026; © 2018-2026 footer, no separate revision date.",
+      "scope": "Link-only mission contact and consular-reception information for the Embassy of Bulgaria in India.",
+      "reviewed_content": "The English contacts section lists visa/consular application intake Monday-Thursday 10:00-15:00, collection Tuesday/Wednesday/Friday 12:00-13:00, and appointments by email to consular.delhi@mfa.bg. It states no separate EU-family appointment procedure or checklist.",
+      "limitations": [
+        "The official India advisory page checked the same day and marked last updated 2 July 2026 gives different reception and collection times; unresolved.",
+        "General appointment wording is not reconciled with accepted Visa Ordinance Article 23(3), which grants qualifying EU-family members direct access without prior appointment.",
+        "Exact territorial competence beyond the India page label was not established.",
+        "Dynamic guidance; no local copy retained; recheck before reliance."
+      ],
+      "supporting_sources": [
+        {
+          "title": "MFA India advisory and consular contacts",
+          "url": "https://www.mfa.bg/en/embassyinfo/india",
+          "role": "Official page dated 2 July 2026; gives conflicting hours and a VFS submission route."
+        },
+        {
+          "title": "VFS Global Bulgaria India",
+          "url": "https://visa.vfsglobal.com/ind/en/bgr",
+          "role": "Provider route linked by MFA; direct page open returned only a loading page, so provider detail was not accepted."
+        }
+      ]
+    },
+    "bg-mfa-india-advisory": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Foreign Affairs of the Republic of Bulgaria (MFA)",
+      "url": "https://www.mfa.bg/en/embassyinfo/india",
+      "checked_on": "2026-10-25",
+      "language": "English",
+      "version_or_cutoff": "Page explicitly says last update 2 July 2026; reopened 25 October 2026.",
+      "scope": "Official India page's consular-office contacts, general reception times and stated VFS visa-submission route.",
+      "reviewed_content": "The page lists applications Monday-Thursday 09:00-15:00 by appointment, processed-document/passport collection Monday-Friday 12:00-13:00 without appointment, appointment requests by email to consular.delhi@mfa.bg, and says that from 1 November 2025 all visa types may also be submitted at VFS Global offices in India.",
+      "limitations": [
+        "The separate official Embassy page gives conflicting application and collection hours; unresolved.",
+        "The instructions do not state an EU-family checklist or appointment exception.",
+        "VFS detail was not directly inspectable; the linked page returned only a loading state.",
+        "No local copy retained; link accepted only for the statements and cutoff shown."
+      ],
+      "supporting_sources": [
+        {
+          "title": "MFA Embassy page for India",
+          "url": "https://www.mfa.bg/en/embassies/india",
+          "role": "Official mission contact page with conflicting reception times."
+        }
+      ]
+    },
+    "bg-vas-case-11351-2019": {
+      "status": "usable_official_reference",
+      "publisher": "Supreme Administrative Court of the Republic of Bulgaria, Unified Information System for Courts (EDIS portal)",
+      "url": "https://info-adc.justice.bg/courts/portal/edis.nsf/e_act.xsp?code=vas&guid=1678594843&id=910295",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Final judgment №11351 dated 24 July 2019 in administrative case №11558/2018; the judgment applies the national Act version before the amendment published in State Gazette issue 34/2019.",
+      "scope": "Full-text official VAS decision concerning a third-country national seeking derivative residence as the same-sex spouse of a mobile EU citizen, married in another Member State.",
+      "reviewed_content": "The full 56-line EDIS judgment was opened and reviewed on 25 October 2026. The VAS dismissed the Migration Directorate’s cassation appeal and upheld the annulment of its refusal and remittal for a new decision. It held that, for derivative residence only, a same-sex spouse lawfully married in another Member State qualifies under the then-applicable national family-member definition read with Directive 2004/38 and Coman. The Court stated that this does not recognize the marriage generally for Bulgarian civil-status law. It also said the lower court’s Article 21 TFEU citation was erroneous but did not affect the result.",
+      "limitations": [
+        "The judgment concerns the national statutory version before the 2019 amendment in State Gazette issue 34/2019; compare its reasoning with current consolidated law before applying it to a present case.",
+        "It addresses a specific derivative-residence claim by a same-sex spouse of a mobile EU citizen and does not decide general marriage registration, durable partnership, or rights of family members of non-mobile Bulgarian citizens.",
+        "The judgment did not resolve every evidentiary issue: the VAS noted that the authority had based its refusal on the marriage-recognition ground and remitted the matter for fresh administrative consideration.",
+        "Accepted as an external-only official court record; no local copy is retained. The targeted web search is not a complete or repeatable VAS/lower-court discovery batch."
+      ]
+    },
+    "bg-pernik-territorial-jurisdiction": {
+      "status": "usable_official_reference",
+      "publisher": "Council of Ministers of the Republic of Bulgaria; State Gazette; Ministry of Interior legal-information system",
+      "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=97669",
+      "rediscovery_url": "https://pris.government.bg/document/8cfba7f9c32fe670919c96ebd6e592f3",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Original promulgation: Decree №260 of 24 September 2015, State Gazette issue 76/2015. Official PRIS search-index record reports version 4.0 and status amended, with Decrees №304/2020 and №364/2024 listed as amendments; it does not serve a consolidated text.",
+      "scope": "Historical official territorial assignment of ODMVR Pernik; supports identifying the general regional directorate but does not establish Migration-group-specific filing competence.",
+      "reviewed_content": "Article 1, point 14 of the 2015 promulgated decree assigns ODMVR Pernik a territorial area covering Pernik Province. The official PRIS index identifies the later amendment chain. Current continuity of point 14 has not been verified against an official consolidated/amending text.",
+      "limitations": [
+        "This is the original 2015 Gazette text, not an official current consolidation.",
+        "The PRIS record reports the amendment history but the page returned HTTP 500 when opened; the full 2020 and 2024 amending texts were not retrieved from an official publisher during this review.",
+        "The general ODMVR territorial assignment does not itself establish Migration-group appointment rules, service-specific applicant competence, or cross-office filing limits.",
+        "Accepted as a link-only official historical reference with currentness expressly open; no local copy is retained."
+      ],
+      "supporting_sources": [
+        {
+          "title": "Official PRIS record for Decree №260/2015",
+          "url": "https://pris.government.bg/document/8cfba7f9c32fe670919c96ebd6e592f3",
+          "role": "official indexed version/status and amendment-chain metadata"
+        },
+        {
+          "title": "MVR Migration territorial-unit directory",
+          "url": "https://mvr.bg/migration/дирекцията/ръководство/Териториални-звена",
+          "role": "official directorate/contact listing; direct open returned HTTP 403 in this review"
+        }
+      ]
+    },
+    "bg-ministry-interior-act": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Interior (MVR), listed on the MVR Academy official normative-acts index",
+      "url": "https://www.mvr.bg/upload/317829/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B2%D1%8A%D1%82%D1%80%D0%B5%D1%88%D0%BD%D0%B8%D1%82%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B8.pdf",
+      "rediscovery_url": "https://www.mvr.bg/academy/%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%D1%82%D0%B0/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0-%D1%83%D1%80%D0%B5%D0%B4%D0%B1%D0%B0/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D0%B0%D0%BA%D1%82%D0%BE%D0%B2%D0%B5-%D0%B8-%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%BD%D0%B8-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "The MVR-hosted consolidation carries a source note dated 13 May 2026. The MVR Academy official index, checked 25 October 2026, identifies the Act as last amended in State Gazette issue 66 of 21 July 2026. The targeted issue-66 amending law is recorded separately.",
+      "scope": "Selected Ministry of Interior provisions governing the Minister as personal-data controller, data-subject requests and refusals, and the general authority framework for MVR information funds; not a complete source for every MVR police or migration power.",
+      "reviewed_content": "The official MVR index identifies the current amendment cutoff. Search-indexed MVR text of Article 28 describes review of data-subject requests under GDPR Articles 12-22 and Personal Data Protection Act Articles 53-56, possible refusal grounds, a one-month response period with possible two-month extension, written refusal reasons limited to the legal basis, and appeal under the Administrative Procedure Code. The July 2026 Gazette amendment was checked separately; it changes Articles 68 and 71 but does not amend Article 28.",
+      "limitations": [
+        "Direct retrieval of the MVR-hosted PDF returned HTTP 403 in the available reader; the official page identity and indexed statutory text were reviewed, but the whole consolidation was not opened.",
+        "The checked PDF source note predates the July 2026 amendment and is not itself a single consolidation through issue 66. Use the official MVR index and separate Gazette amendment together for the reviewed provisions.",
+        "Article 28's law-enforcement restrictions do not establish that the same route or restrictions govern administrative EU-family residence records.",
+        "No local copy is retained; this review does not establish the complete current Act text, Migration fund membership, or particular-case access rights."
+      ],
+      "supporting_sources": [
+        {
+          "title": "MVR Academy official normative-acts index",
+          "url": "https://www.mvr.bg/academy/%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%D1%82%D0%B0/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0-%D1%83%D1%80%D0%B5%D0%B4%D0%B1%D0%B0/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D0%B0%D0%BA%D1%82%D0%BE%D0%B2%D0%B5-%D0%B8-%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%BD%D0%B8-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8",
+          "role": "official rediscovery path and issue-66 currentness label"
+        },
+        {
+          "title": "State Gazette amendment to the Ministry of Interior Act, issue 66/2026",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=244673",
+          "role": "targeted supplement for Articles 68 and 71; not a consolidation"
+        }
+      ]
+    },
+    "bg-ministry-interior-act-amendment-66-2026": {
+      "status": "usable_official_reference",
+      "publisher": "State Gazette of the Republic of Bulgaria",
+      "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=244673",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Act promulgated in State Gazette issue 66 on 21 July 2026; Gazette text reviewed.",
+      "scope": "Targeted 2026 amendments to the Ministry of Interior Act relevant to processing of police data and identification of certain third-country nationals; not a complete consolidation.",
+      "reviewed_content": "Section 5 revises Article 68 on police-registration processing and biometric data, including necessity and proportionality conditions. Section 6 changes Article 71, including identification measures relating to entry or stay contrary to law. The MVR-hosted official index identifies this as the latest amendment to the Act as checked 25 October 2026. The amendment does not change Article 28 on data-subject requests.",
+      "limitations": [
+        "This is an amending act and cannot replace a consolidated copy of the Ministry of Interior Act.",
+        "The changed police and unlawful-stay provisions must not be treated as governing routine EU-family residence processing without a separate applicability analysis.",
+        "No local copy is retained."
+      ],
+      "supporting_sources": [
+        {
+          "title": "MVR Academy official normative-acts index",
+          "url": "https://www.mvr.bg/academy/%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%D1%82%D0%B0/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0-%D1%83%D1%80%D0%B5%D0%B4%D0%B1%D0%B0/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D0%B0%D0%BA%D1%82%D0%BE%D0%B2%D0%B5-%D0%B8-%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%BD%D0%B8-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8",
+          "role": "confirms the MVR index cutoff as issue 66/2026"
+        }
+      ]
+    },
+    "bg-mvr-data-processing-instruction": {
+      "status": "usable_official_reference",
+      "publisher": "State Gazette of the Republic of Bulgaria",
+      "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=163214",
+      "rediscovery_url": "https://www.mvr.bg/upload/17035/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-8121%D0%B7-1280-%D0%BE%D1%82-7-%D0%BE%D0%BA%D1%82%D0%BE%D0%BC%D0%B2%D1%80%D0%B8-2021-%D0%B3-%D0%B7%D0%B0-%D1%80%D0%B5%D0%B4%D0%B0-%D0%B7%D0%B0.pdf",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Instruction № 8121з-1280 of 7 October 2021, promulgated in State Gazette issue 87 on 19 October 2021. Article 7(1) was amended by the separate instrument in issue 114/2025.",
+      "scope": "MVR-wide rules for personal-data processing in automated and non-automated information funds; not a Migration Directorate fund schedule.",
+      "reviewed_content": "Articles 1–3 establish the MVR processing framework, relation to GDPR, the Personal Data Protection Act and the Ministry of Interior Act, automated and non-automated funds, and per-fund processing registers. Articles 5–7 address legal basis, data source, storage limitation and review. Articles 9–13 cover correction, access/search and transfers; Articles 14–25 cover restriction and deletion; Articles 26–32 address logs, approved fund rules, registers, and access profiles. Article 30 requires current fund registers with organisational-technical rules and prohibits processing in unregistered funds apart from archive funds.",
+      "limitations": [
+        "This is the promulgated base text; the 2025 Article 7 amendment is separately accepted and must be read with it.",
+        "No Migration-specific fund name, approved rules, access profile, or retention schedule was identified in the bounded searches. The Instruction alone does not establish what data are held for an EU-family residence application.",
+        "The 50-year fallback cannot be applied to a Migration record without checking whether another normative act or Minister of Interior order sets a different term.",
+        "Bulgarian text only; no local copy is retained."
+      ],
+      "supporting_sources": [
+        {
+          "title": "MVR-hosted text of Instruction № 8121з-1280",
+          "url": "https://www.mvr.bg/upload/17035/%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F-8121%D0%B7-1280-%D0%BE%D1%82-7-%D0%BE%D0%BA%D1%82%D0%BE%D0%BC%D0%B2%D1%80%D0%B8-2021-%D0%B3-%D0%B7%D0%B0-%D1%80%D0%B5%D0%B4%D0%B0-%D0%B7%D0%B0.pdf",
+          "role": "MVR-hosted 16-page text used to review provisions and legal anchors"
+        },
+        {
+          "title": "Instruction amending Article 7, State Gazette issue 114/2025",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=240222",
+          "role": "targeted amendment"
+        }
+      ]
+    },
+    "bg-mvr-data-processing-amendment-2025": {
+      "status": "usable_official_reference",
+      "publisher": "State Gazette of the Republic of Bulgaria",
+      "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=240222",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Instruction amending Instruction № 8121з-1280, published in State Gazette issue 114 on 24 December 2025.",
+      "scope": "Targeted changes to Article 7 of Instruction № 8121з-1280 and a separate technical correction to the 2014 criminal-procedure retention instruction.",
+      "reviewed_content": "Section 1 amends Article 7(1): where a normative act or Minister of Interior order does not specify data-deletion or periodic-review circumstances, the default retention period is 50 years from processing start and the periodic review period is five years. Section 3 makes this Instruction effective from promulgation. Section 2 changes a cross-reference in a separate 2014 instruction on data connected to criminal proceedings and crime checks; that separate rule has not been applied to Migration application records.",
+      "limitations": [
+        "This is an amending act, not a consolidated Instruction.",
+        "The 50-year period is conditional on no different term being set by a normative act or Minister of Interior order; no such Migration-specific schedule was located in the bounded searches.",
+        "Bulgarian text only; no local copy is retained."
+      ],
+      "supporting_sources": []
+    },
+    "bg-mvr-data-rights-procedure": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Interior, Sofia Directorate of Interior (SDVR)",
+      "url": "https://mvr.bg/sdvr/%D0%B4%D0%B8%D1%80%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%D1%82%D0%B0/%D0%B7%D0%B0-%D0%BE%D0%B4%D0%BC%D0%B2%D1%80/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BD%D0%B0-%D0%BB%D0%B8%D1%87%D0%BD%D0%B8%D1%82%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Undated MVR information page; checked 25 October 2026.",
+      "scope": "MVR-wide public instructions for submitting personal-data-rights requests under GDPR Articles 15–22 and selected Personal Data Protection Act provisions; law-enforcement introduction and ordinary Migration-file applicability require distinction.",
+      "reviewed_content": "The page describes written requests for access, correction, erasure and restriction; allows submission by post or in person at any MVR structure, email to the relevant structure with a qualified electronic signature, or Secure Electronic Delivery; and identifies the data-entering MVR structure or General Directorate National Police fallback when the responsible unit is unknown or multiple structures are involved. It links the one-page official form recorded separately.",
+      "limitations": [
+        "The page is hosted by SDVR, although its text describes MVR-wide submission routes.",
+        "The opening scope concerns law-enforcement processing; this page does not establish which rights, limits, responsible unit, or route applies to administrative EU-family residence records.",
+        "The page refers to the former State Agency for Electronic Government; current availability and operator of the Secure Electronic Delivery route need checking before operational reliance.",
+        "The page is undated and no local copy is retained."
+      ],
+      "supporting_sources": [
+        {
+          "title": "MVR data-subject request form, Appendix 1 to Article 9(4)",
+          "url": "https://www.mvr.bg/upload/21517/%D0%B7%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5---%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-1-%D0%BA%D1%8A%D0%BC-%D1%87%D0%BB-9-%D0%B0%D0%BB-4.pdf",
+          "role": "linked MVR request form"
+        }
+      ]
+    },
+    "bg-mvr-data-rights-form": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Interior, linked through Sofia Directorate of Interior (SDVR)",
+      "url": "https://www.mvr.bg/upload/21517/%D0%B7%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5---%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-1-%D0%BA%D1%8A%D0%BC-%D1%87%D0%BB-9-%D0%B0%D0%BB-4.pdf",
+      "rediscovery_url": "https://mvr.bg/sdvr/%D0%B4%D0%B8%D1%80%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%D1%82%D0%B0/%D0%B7%D0%B0-%D0%BE%D0%B4%D0%BC%D0%B2%D1%80/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BD%D0%B0-%D0%BB%D0%B8%D1%87%D0%BD%D0%B8%D1%82%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "One-page PDF form linked from the undated SDVR data-rights page; checked 25 October 2026.",
+      "scope": "Official form for personal-data access, correction, erasure, restriction, and related rights under GDPR Articles 15–22 and Personal Data Protection Act Articles 55–56.",
+      "reviewed_content": "The linked one-page form requests the subject's identity and contact information, identifies the rights invoked, and asks for a description of the request and supporting documents. It offers no evidence that a completed application has been filed or that a specific Migration record is held.",
+      "limitations": [
+        "Official link accepted; no local copy retained.",
+        "The form requests sensitive personal identifiers when completed; the library stores only the blank official link and no applicant submissions.",
+        "The form and parent page do not establish the correct controller unit or route for every EU-family residence record."
+      ],
+      "supporting_sources": []
+    },
+    "bg-cpd-organization-and-procedure-rules-2026": {
+      "status": "usable_official_reference",
+      "publisher": "State Gazette of the Republic of Bulgaria; Commission for Protection against Discrimination",
+      "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=243472",
+      "rediscovery_url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=243472",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Rules adopted by the Commission on 13 May 2026, promulgated in State Gazette issue 48 of 26 May 2026.",
+      "scope": "Commission organization and complaint/report proceedings, including submission formalities, inquiry, hearings, decisions, and execution; general discrimination procedure, not an EU-family-specific process.",
+      "reviewed_content": "Opened the official Gazette text. Articles 31-39 regulate opening a proceeding, written complaint/report content and attachments, electronic submission with qualified electronic signature, formal defects, and fees. Articles 54-66 address hearings and decisions; Articles 67-71 address execution. §4 repeals the former organizational Rules and §5 states the 2005 Rules for proceedings, last amended in 2018, no longer apply after promulgation and entry into force of the 2026 Rules.",
+      "limitations": [
+        "The instrument establishes a general Commission process; protected-ground fit, competence and interaction with EU-family residence/visa decisions still require issue-level legal mapping.",
+        "No case decision applying these Rules to an EU-family migration complaint was screened.",
+        "Accepted as an external official reference; no local copy is retained."
+      ],
+      "supporting_sources": [
+        {
+          "title": "Protection against Discrimination Act, Commission-hosted consolidation through SG 51/2026",
+          "url": "https://kzd-nondiscrimination.com/?page_id=18931",
+          "role": "substantive statute and authority for Commission proceedings"
+        }
+      ]
+    },
+    "bg-nbpp-organizational-rules": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Justice of the Republic of Bulgaria",
+      "url": "https://justice.government.bg/home/normdoc/2135515388",
+      "rediscovery_url": "https://www.justice.government.bg/api/part/GetBlob?hash=50FC8E6DCF5C41509EAB3C33A8DD2513",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Official Ministry text displays amendments through State Gazette issue 48/2015; checked 25 October 2026.",
+      "scope": "Organization, internal work, structure, and functions of the National Bureau for Legal Aid (NBPP); not applicant eligibility or court-application procedure.",
+      "reviewed_content": "Official Ministry indexed text identifies the instrument, adoption by PMS №4/2006, last displayed amendments in issue 48/2015, and NBPP functions including administration of the National Register for Legal Aid, forms, and aid-system organization.",
+      "limitations": [
+        "The displayed consolidation has an 11-year amendment-history cutoff; no later amendment was represented in the indexed official text.",
+        "This organizational instrument does not establish the evidence, eligibility, or filing requirements for a particular residence appeal.",
+        "Direct indexed text was reviewed; no local copy is retained."
+      ],
+      "supporting_sources": [
+        {
+          "title": "Legal Aid Act, official Ministry consolidation through SG 69/2026",
+          "url": "https://justice.government.bg/home/normdoc/2135511185",
+          "role": "statutory legal-aid framework"
+        }
+      ]
+    },
+    "bg-legal-aid-remuneration-regulation": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Justice of the Republic of Bulgaria",
+      "url": "https://www.justice.government.bg/home/normdoc/2135515376",
+      "rediscovery_url": "https://www.justice.government.bg/home/normdoc/2135515376",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Official Ministry consolidation of the Legal Aid Remuneration Ordinance, with amendments through State Gazette issue 53/2025.",
+      "scope": "Payment and reporting of lawyers providing publicly funded legal aid; supplementary to applicant-facing procedure and entitlement rules.",
+      "reviewed_content": "Official Ministry indexed text identifies the ordinance and its displayed amendment history. Articles 1-3 and 7-9 address payment according to work, lawyer eligibility, reports, and remuneration administration.",
+      "limitations": [
+        "The ordinance governs remuneration of appointed counsel, not applicant eligibility, means assessment, form selection, or court filing.",
+        "No local copy is retained; current applicant-facing practice remains to be reviewed separately."
+      ],
+      "supporting_sources": [
+        {
+          "title": "Legal Aid Act, official Ministry consolidation through SG 69/2026",
+          "url": "https://justice.government.bg/home/normdoc/2135511185",
+          "role": "enabling and applicant-facing statutory framework"
+        }
+      ]
+    },
+    "bg-social-assistance-implementing-rules": {
+      "status": "usable_official_reference",
+      "publisher": "Social Assistance Agency, Ministry of Labour and Social Policy, Bulgaria",
+      "url": "https://asp.government.bg/uploaded/files/5877-PRAVILNIKzaprilaganenaZakonazasocialnopodpomagane-.pdf",
+      "rediscovery_url": "https://asp.government.bg/bg/za-agentsiyata/zakonodatelstvo/",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Official 31-page Social Assistance Agency PDF displays amendments through State Gazette issue 44/2023, effective 1 June 2023. Targeted Gazette searches for 2024-2026 did not surface a later amendment to these Rules; post-2023 completeness is not certified.",
+      "scope": "Social-assistance monthly-benefit conditions in Articles 9 and 10, referenced by Legal Aid Act Article 22; not a legal-aid procedure or standalone determination of legal-aid eligibility.",
+      "reviewed_content": "Opened the official PDF and checked its displayed amendment history and Articles 9-10. The text sets the monthly social-assistance income threshold and additional conditions. The Social Assistance Agency legislation page lists the PDF under national legislation.",
+      "limitations": [
+        "The official consolidation cutoff is issue 44/2023; no complete post-2023 Gazette amendment audit was conducted.",
+        "The Legal Aid Act has additional grounds and an interest-of-justice assessment; this cross-reference does not establish that the social-assistance test is the only route to aid.",
+        "No local copy is retained."
+      ],
+      "supporting_sources": [
+        {
+          "title": "Legal Aid Act, Ministry of Justice consolidation through SG 69/2026",
+          "url": "https://justice.government.bg/home/normdoc/2135511185",
+          "role": "Article 22 refers to Social Assistance Rules Articles 9 and 10 for one means-tested category"
+        },
+        {
+          "title": "Social Assistance Agency legislation index",
+          "url": "https://asp.government.bg/bg/za-agentsiyata/zakonodatelstvo/",
+          "role": "official rediscovery route"
+        }
+      ]
+    },
+    "bg-plovdiv-migration-sector": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Interior, Regional Directorate Plovdiv, Sector Migration",
+      "url": "https://mvr.bg/plovdiv/%D0%B4%D0%B8%D1%80%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%D1%82%D0%B0/%D0%B7%D0%B0-%D0%BE%D0%B4%D0%BC%D0%B2%D1%80/%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0/%D1%81%D0%B5%D0%BA%D1%82%D0%BE%D1%80-%D0%BC%D0%B8%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F",
+      "rediscovery_url": "https://mvr.bg/plovdiv/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D0%B7%D0%B0-%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D0%B8/%D0%BC%D0%B8%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Live official Sector Migration and administrative-services pages rechecked 25 October 2026; no page publication or revision date was visible.",
+      "scope": "Plovdiv regional Migration unit identity, EU/EEA/Swiss citizen and family-member residence service, application intake, public counter hours and contact details.",
+      "reviewed_content": "The official Sector Migration page identifies the unit as a territorial unit of the MVR Migration Directorate, states that it serves EU/EEA/Swiss citizens and family members under the dedicated Act, and lists acceptance of extended and permanent residence applications. It lists the Plovdiv office address, phones, supervisor reception times and administrative-service counter hours. The linked EU-family service page is indexed with service 1551, application forms, Tariff 4 and the national Act/instruction; its direct page fetch returned HTTP 403, while the parent page and service listing were reviewed.",
+      "limitations": [
+        "Live, undated page; the listed hours are a checked observation, not a durable schedule guarantee.",
+        "No appointment rule, complete evidence checklist, named decision-maker, or exact territorial-residence rule was established.",
+        "The page is evidence only for the Plovdiv unit and cannot be generalized to other directorates.",
+        "No local copy was retained; reference is link-only."
+      ],
+      "supporting_sources": [
+        {
+          "title": "Plovdiv Migration administrative-services index",
+          "url": "https://mvr.bg/plovdiv/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D0%B7%D0%B0-%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D0%B8/%D0%BC%D0%B8%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F",
+          "role": "links the EU-citizen and family-member residence service page"
+        }
+      ]
+    },
+    "bg-burgas-eu-citizen-services": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Interior, Regional Directorate Burgas, Migration",
+      "url": "https://mvr.bg/burgas/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D0%B7%D0%B0-%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D0%B8/%D0%BC%D0%B8%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-1/%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D0%B8-%D0%BD%D0%B0-%D0%B4%D1%8A%D1%80%D0%B6%D0%B0%D0%B2%D0%B8-%D1%87%D0%BB%D0%B5%D0%BD%D0%BA%D0%B8-%D0%BD%D0%B0-%D0%B5%D1%81",
+      "rediscovery_url": "https://mvr.bg/burgas/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D0%B7%D0%B0-%D0%B3%D1%80%D0%B0%D0%B6%D0%B4%D0%B0%D0%BD%D0%B8/%D0%BC%D0%B8%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F-1",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Live official Burgas Migration page inspected 25 October 2026; no page publication or revision date was visible.",
+      "scope": "Burgas EU-citizen and family-member residence service index, linked forms, tariff and legal references.",
+      "reviewed_content": "The page is published under ODMVR Burgas / Migration and lists service 1551 for a non-EU family member of an EU citizen, an application for that family-member category, EU-citizen extended and permanent residence forms, address declarations, the dedicated EU-family Act and Tariff №4. The linked one-page Annex №7 application was opened; it requests a residence basis and has a free-text attached-documents field. The service-1551 DOCX could not be rendered by the web reader because its content type is unsupported. The separate address/contact page returned HTTP 403.",
+      "limitations": [
+        "Live, undated page; no independent page-currentness history is exposed.",
+        "The linked application and form index do not establish a complete current evidentiary checklist.",
+        "Appointment route, office hours, named decision-maker, and exact territorial-residence rule remain open.",
+        "A single Burgas page is not generalizable to other directorates.",
+        "No local copies were retained; reference is link-only."
+      ],
+      "supporting_sources": [
+        {
+          "title": "Burgas application form for EU-citizen family members, Annex №7",
+          "url": "https://mvr.bg/upload/10717/%D0%B7%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B7%D0%B0-%D1%87%D0%BB%D0%B5%D0%BD%D0%BE%D0%B2%D0%B5%D1%82%D0%B5-%D0%BD%D0%B0-%D1%81%D0%B5%D0%BC%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%BE-%D0%BD%D0%B0-%D0%B3%D0%B5%D1%81c2e545789e50445ea5bc9a5d5f2cfe2e.pdf",
+          "role": "linked application identity and field structure inspected; not accepted as a local copy"
+        }
+      ]
+    },
+    "bg-ruse-eu-family-services": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Interior, Regional Directorate Ruse, Migration Group",
+      "url": "https://www.mvr.bg/ruse/административни-услуги/списък-с-услуги/миграция2/миграция-3",
+      "rediscovery_url": "https://mvr.bg/ruse/direction/za-odmvr/структура/grupa_migracia",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Live official Ruse EU-family service page and Migration Group page reviewed 25 October 2026; neither page displays a publication or revision date.",
+      "scope": "Ruse service 1551 for non-EU family members of EU citizens, published filing and evidence requirements, counter route and hours, plus the Ruse Migration Group remit.",
+      "reviewed_content": "The EU-family service page identifies the Director of the Regional Directorate as the service authority; lists Migration Group, Ruse, address and counter hours 08:30–17:30; states in-person application and collection; identifies service 1551 and lists supporting documents, fees, stated timelines and appeal wording. The separate Migration Group page describes the group as a territorial unit for Ruse Province and states that it serves EU/EEA/Swiss citizens and their family members. The group page separately gives supervisor reception hours, which are not treated as the service-counter schedule.",
+      "limitations": [
+        "Live, undated pages; displayed schedules and requirements are observations checked on 25 October 2026, not a durable guarantee.",
+        "The service-page evidence list and deadlines are recorded as publisher statements and were not independently certified as current legal requirements.",
+        "No appointment requirement for service 1551, full currentness history, or territorial exceptions were established.",
+        "This evidence concerns the Ruse unit only and is not generalizable to other directorates.",
+        "No local page copy was retained; reference is link-only."
+      ],
+      "supporting_sources": [
+        {
+          "title": "Ruse Migration Group: authority remit and contact page",
+          "url": "https://mvr.bg/ruse/direction/za-odmvr/структура/grupa_migracia",
+          "role": "states Ruse Province remit and EU/EEA/Swiss family service scope; lists separate reception information for the group head"
+        },
+        {
+          "title": "MVR Terms of Use",
+          "url": "https://www.mvr.bg/bg/terms",
+          "role": "publisher terms; page text not retained"
+        }
+      ]
+    },
+    "bg-veliko-tarnovo-migration": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Interior, Regional Directorate Veliko Tarnovo, Migration Group",
+      "url": "https://mvr.bg/veliko-tarnovo/административни-услуги/административни-услуги-за-граждани/административно-обслужване-на-чужденци-и-граждани-на-ес",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Live official page directly opened 25 October 2026; no publication or revision date is visible, and the web index reported a crawl five months earlier.",
+      "scope": "Identity and stated function of the Veliko Tarnovo Migration Group, EU/EEA/Swiss family service scope, linked legal/forms list, address, hours and special at-home route.",
+      "reviewed_content": "The page identifies the Migration Group as an ODMVR Veliko Tarnovo unit and states that it provides services to EU/EEA/Swiss citizens and their family members under the dedicated Act. It lists the Act, related legislation, residence forms and Tariff №4; gives the address, phones, Tuesday supervisor reception and counter hours 08:30–12:00 and 13:00–17:30; and describes at-home filing/biometrics and document collection for mobility-impaired applicants after a prior request with supporting evidence.",
+      "limitations": [
+        "Live page without a visible publication or revision date; currentness is not independently established.",
+        "The page does not provide a complete current EU-family evidence checklist, appointment rule, named decision-maker, or exact residence-address assignment.",
+        "The page describes a local unit only and cannot be generalized to other directorates.",
+        "No local page copy was retained; reference is link-only."
+      ],
+      "supporting_sources": [
+        {
+          "title": "MVR Terms of Use",
+          "url": "https://www.mvr.bg/bg/terms",
+          "role": "publisher terms; page text not retained"
+        }
+      ]
+    },
+    "bg-stara-zagora-migration": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Interior, Regional Directorate Stara Zagora, Migration Group",
+      "url": "https://www.mvr.bg/stara-zagora/дирекцията/за-одмвр/Структура-стара-загора/група-миграция",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Live official page directly opened 25 October 2026; no publication or revision date is visible, and the web index reported a crawl four months earlier.",
+      "scope": "Narrow confirmation that the Stara Zagora Migration Group processes EU-citizen and family-member extended and permanent residence applications.",
+      "reviewed_content": "The official page identifies the Migration Group under ODMVR Stara Zagora and states that it accepts extended-residence applications for EU citizens and family members, with a displayed three-month period from entry, and permanent-residence applications, with a displayed five-year continuous-residence statement. Other Migration functions are also listed.",
+      "limitations": [
+        "The page has no visible publication or revision date; its legal thresholds are recorded as publisher statements and were not independently revalidated in this regional review.",
+        "Appointment rules, a complete current EU-family checklist, current counter hours, individual decision-maker, and exact local territorial rule remain open.",
+        "This evidence concerns the Stara Zagora unit only and is not generalizable to other directorates.",
+        "No local page copy was retained; reference is link-only."
+      ],
+      "supporting_sources": [
+        {
+          "title": "MVR Terms of Use",
+          "url": "https://www.mvr.bg/bg/terms",
+          "role": "publisher terms; page text not retained"
+        }
+      ]
+    },
+    "bg-iisda-eu-residence-service-870": {
+      "status": "usable_official_reference",
+      "publisher": "Integrated Information System of the State Administration (IISDA), Administrative Register; service provider: Ministry of Interior",
+      "url": "https://iisda.government.bg/adm_services/services/service_provision/22122",
+      "rediscovery_url": "https://iisda.government.bg/adm_services/services/service/870",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Live Administrative Register service entry reviewed 25 October 2026; no publication or revision date is displayed. The entry identifies the card under Regulation (EU) 2019/1157, although that regulation was replaced by Regulation (EU) 2025/1208.",
+      "scope": "Operational registry entry for MVR service 870, issuance of a residence card to a non-EU family member of a mobile EU citizen with extended residence.",
+      "reviewed_content": "The entry identifies the Director of the Migration Directorate and ODMVR directors as service authorities; filing is personal at Migration or regional Migration units according to residence address; the application is generated by MVR; an identity document and fee payment are requested; the document is collected in person. It states a one-month service deadline, describes ordinary/fast production as 30/3 days, and gives a 14-day administrative and judicial appeal description. These are statements in the live registry, not an independent validation of each unit or legal deadline.",
+      "limitations": [
+        "The entry is a dynamic operational record with no displayed revision date; it is accepted only as the official registry statement observed on 25 October 2026.",
+        "The service title cites Regulation (EU) 2019/1157. It does not establish that currently issued cards meet Regulation (EU) 2025/1208 or resolve the transition for existing cards.",
+        "It does not establish the current fee amount, complete evidence checklist, appointment rules, territorial exceptions, or practice at every regional unit.",
+        "The stated appeal description is recorded as operational evidence and has not been independently checked against the applicable legal provisions."
+      ],
+      "supporting_sources": [
+        {
+          "title": "IISDA service 870 registry summary",
+          "url": "https://iisda.government.bg/adm_services/services/service/870",
+          "role": "official summary identifies the service number, service title, MVR as provider and Personal Documents Act Article 59 as legal basis"
+        },
+        {
+          "title": "Bulgarian Personal Documents Act, MVR consolidation",
+          "url": "https://www.mvr.bg/upload/300953/%D0%97%D0%90%D0%9A%D0%9E%D0%9D%20%D0%97%D0%90%20%D0%91%D0%AA%D0%9B%D0%93%D0%90%D0%A0%D0%A1%D0%9A%D0%98%D0%A2%D0%95%20%D0%9B%D0%98%D0%A7%D0%9D%D0%98%20%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%98.pdf",
+          "role": "supporting statutory route; accepted separately with the cutoff and limitations in bg-personal-documents-act"
+        }
+      ]
+    },
+    "bg-iisda-eu-residence-service-1403": {
+      "status": "usable_official_reference",
+      "publisher": "Integrated Information System of the State Administration (IISDA), Administrative Register; service provider: Ministry of Interior",
+      "url": "https://iisda.government.bg/adm_services/services/service_provision/22878",
+      "rediscovery_url": "https://iisda.government.bg/adm_services/services/service/1403",
+      "checked_on": "2026-10-25",
+      "language": "Bulgarian",
+      "version_or_cutoff": "Live Administrative Register service entry reviewed 25 October 2026; no publication or revision date is displayed. The entry identifies the card under Regulation (EU) 2019/1157, although that regulation was replaced by Regulation (EU) 2025/1208.",
+      "scope": "Operational registry entry for MVR service 1403, issuance of a permanent residence card to a non-EU family member of a mobile EU citizen.",
+      "reviewed_content": "The entry identifies the Director of the Migration Directorate and ODMVR directors as service authorities; filing is personal at Migration or regional Migration units according to residence address; the application is generated by MVR; an identity document and fee payment are requested; the document is collected in person. It states a one-month service deadline, a document term of up to ten years, and a 14-day administrative and judicial appeal description. The fee fields display euro amounts together with older lev amounts. These are registry statements, not an independent validation of each unit or legal deadline.",
+      "limitations": [
+        "The entry is a dynamic operational record with no displayed revision date; it is accepted only as the official registry statement observed on 25 October 2026.",
+        "The service title cites Regulation (EU) 2019/1157. It does not establish that currently issued cards meet Regulation (EU) 2025/1208 or resolve the transition for existing cards.",
+        "The coexistence of euro and lev fee amounts is an internal registry inconsistency; neither amount is accepted here as a verified current fee.",
+        "It does not establish a complete evidence checklist, appointment rules, territorial exceptions, or practice at every regional unit.",
+        "The stated appeal description is recorded as operational evidence and has not been independently checked against the applicable legal provisions."
+      ],
+      "supporting_sources": [
+        {
+          "title": "IISDA service 1403 registry summary",
+          "url": "https://iisda.government.bg/adm_services/services/service/1403",
+          "role": "official summary identifies the service number, service title, MVR as provider and Personal Documents Act Article 59 as legal basis"
+        },
+        {
+          "title": "Bulgarian Personal Documents Act, MVR consolidation",
+          "url": "https://www.mvr.bg/upload/300953/%D0%97%D0%90%D0%9A%D0%9E%D0%9D%20%D0%97%D0%90%20%D0%91%D0%AA%D0%9B%D0%93%D0%90%D0%A0%D0%A1%D0%9A%D0%98%D0%A2%D0%95%20%D0%9B%D0%98%D0%A7%D0%9D%D0%98%20%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%98.pdf",
+          "role": "supporting statutory route; accepted separately with the cutoff and limitations in bg-personal-documents-act"
         }
       ]
     }
@@ -1158,8 +1888,8 @@
         },
         "current_legal_version": {
           "status": "pass",
-          "review_date": "2026-10-24",
-          "evidence": "The local text is expressly limited to the MVR consolidation through SG issue 29/2021. The PDF lists amendments through that issue. Official Gazette searches for later amendments to this exact instruction returned no post-2021 amendment record in the reviewed results; no legal status beyond the printed cutoff is asserted."
+          "review_date": "2026-10-25",
+          "evidence": "The local text is expressly limited to the MVR consolidation through SG issue 29/2021. The PDF lists amendments through that issue. Official Gazette searches for later amendments to this exact instruction returned no post-2021 amendment record in the reviewed results; no legal status beyond the printed cutoff is asserted. On 2026-10-25, official-domain web-index searches for the instrument in 2025/2026 returned the Gazette promulgation (SG 91/2018) and amendment records in SG 65/2019 and SG 29/2021, with no later amendment result displayed; this web-index search is not exhaustive and does not prove no later amendment exists. An additional 8-page MVR-hosted PDF at https://www.mvr.bg/upload/25648/8121_1276.pdf identifies only the 2018 promulgation and differs from the 15-page 2021-consolidated text at provisions marked amended in 2021; it is not accepted as a current consolidation. Exact queries and dispositions are archived in the EU Source Update Monitor local-only record discovery/official-domain-web-search-2026-10-25/bulgaria/instruction/currentness-followup-2026-10-25.md (SHA-256 561c82d4bf8d7893b38a26e7c03f2c8bb1c6e93dc352ccc964d1f539fe75c278)."
         },
         "extraction_completeness": {
           "status": "pass",
@@ -1462,7 +2192,7 @@
   "human_review_sites": [
     {
       "id": "bg-mvr-legal-portal-currentness",
-      "status": "whole_portal_review_offered",
+      "status": "newer_mvr_hosted_copy_found_full_text_and_later_currentness_open",
       "publisher": "Ministry of Interior (MVR)",
       "portal_urls": [
         "https://www.mvr.bg/migration/дирекцията/нормативна-уредба/bgzac",
@@ -1472,13 +2202,25 @@
       "focus_records": [
         "bg-personal-documents-rules"
       ],
-      "reason": "The MVR Laws and Codes page labels the personal-documents rules current 16 December 2025 but links a consolidation ending at SG 46/2024. The MVR Migration legislation index links another copy ending at SG 66/2021.",
-      "review_question": "Can MVR identify and link the latest consolidated Rules for issuing Bulgarian personal documents, or confirm that the official 2024 consolidation remains the closest published text?",
-      "effect": "The official 2024 link remains usable within its stated cutoff. This open currentness question does not block the other source reviews."
+      "reason": "The MVR's 19 November 2025 Rules PDF is newer than the files linked in its legal indexes, but it predates Decree №286/2025, §2, published in SG 109/2025. The newer PDF is directly inaccessible to the reader (HTTP 403), and the official MVR page also lists a proposed 2026 amendment.",
+      "review_question": "Obtain a readable official consolidation after Decree №286/2025 and verify whether the 2026 proposal or any later amendment was enacted; inspect the full provisions and locate current card-specific instructions, including the title and format required by Regulation (EU) 2025/1208.",
+      "effect": "Article 7(1)(10) is recorded as an official indexed application-route excerpt, and SG 109/2025 is recorded as a later Rules amendment. Neither establishes a current full text or EU-family card format. Keep the human review open; these findings do not block independent source reviews."
+    },
+    {
+      "id": "bg-sofia-migration",
+      "status": "human_review_required_direct_fetch_403_stale_indexed_page",
+      "publisher": "Ministry of Interior, Regional Directorate Sofia",
+      "portal_urls": [
+        "https://www.mvr.bg/sofia/административни-услуги/административни-услуги-за-граждани/миграция/112321"
+      ],
+      "focus_records": [],
+      "reason": "Official search-index text lists EU-citizen and family-member residence services, but direct retrieval returned HTTP 403 and the page is described by the index as published about 11.4 years earlier.",
+      "review_question": "Confirm that the Sofia Migration page and its authority/service details remain current; retrieve the page through an official route and establish current hours, appointment rules, checklist, territorial competence, and decision authority.",
+      "effect": "Retained as an official discovery lead only; not counted among usable official references and not relied upon for current operational details."
     }
   ],
   "material_dependencies": "See references/source-dependencies.json. National statutory wording is preserved; the EU 2019/1157 reference is tracked separately from Regulation (EU) 2025/1208.",
-  "official_reference_count": 29,
+  "official_reference_count": 59,
   "local_copy_required_checks": [
     "publisher_identity",
     "current_legal_version",

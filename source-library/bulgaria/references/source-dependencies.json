@@ -1,25 +1,32 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "BG",
-  "checked_on": "2026-10-21",
+  "checked_on": "2026-10-25",
   "policy": "Preserve the published Bulgarian statutory wording. Record cross-instrument legal status and successor relationships separately; do not silently rewrite a national law because it cites an older EU instrument.",
   "dependencies": [
     {
       "id": "bg-eu-card-format-regulation",
       "source_record_id": "bg-eu-free-movement-act",
       "national_provisions": [
-        "Article 10",
-        "definitions of EU-family residence cards"
+        "Articles 10 and 12(1), 12(11)",
+        "Additional Provisions § 1, items 4 and 5",
+        "Personal Documents Act, transitional § 24(3)"
       ],
       "referenced_instrument": "Regulation (EU) 2019/1157",
       "referenced_instrument_url": "https://eur-lex.europa.eu/eli/reg/2019/1157/oj/eng",
-      "status": "declared_invalid_with_effects_temporarily_maintained_then_replaced",
-      "status_note": "In Landeshauptstadt Wiesbaden, C-61/22, EU:C:2024:251, the Court declared Regulation (EU) 2019/1157 invalid and maintained its effects until a successor entered into force, subject to a maximum period ending 31 December 2026. Regulation (EU) 2025/1208 entered into force on 10 July 2025 and now sets the EU standards for residence cards for non-EU family members exercising free movement.",
+      "status": "successor_rules_mapped_national_concordance_and_transition_open",
+      "reviewed_on": "2026-10-25",
+      "status_note": "In Landeshauptstadt Wiesbaden, C-61/22, EU:C:2024:251, the Court declared Regulation (EU) 2019/1157 invalid and maintained its effects until a successor entered into force, subject to a maximum date of 31 December 2026. Regulation (EU) 2025/1208 entered into force on 10 July 2025, ending that effects-maintenance period. Under the successor, Article 7 governs format, titles and field-10 codes; Article 8 sets a general 3 August 2026 transition date and a conditional derogation to 3 August 2031 for specified existing cards. As of this review, the general date has passed. The Bulgarian national citation, fee linkage, implementation evidence and status of particular cards remain unreconciled.",
       "successor_instrument": "Regulation (EU) 2025/1208",
       "successor_url": "https://eur-lex.europa.eu/eli/reg/2025/1208/oj/eng",
       "successor_relevant_provisions": [
-        "Articles 2(c), 7, and 8"
+        "Article 2(c) (covered residence card)",
+        "Article 7(1) (uniform format and implementing decisions)",
+        "Article 7(2) (card title and standardized data-field-10 code)",
+        "Article 8(1) and (2) (transition, including conditional derogation)"
       ],
+      "national_concordance": "The Bulgarian EUR-Lex text of Regulation 2025/1208 Article 7(2) uses the same Bulgarian field-10 codes as Bulgarian EU-citizen Act Article 12(1) and Additional Provisions § 1(4)-(5). Article 12(11) separately refers to the 1030/2002 uniform format, which Article 7(1) of the successor also requires, but the reviewed national text does not establish application of the successor's implementing decisions or confirm the required card title on current cards. The Act's Article 10 and definitions still cite Regulation 2019/1157, and Article 12(11)'s fee comparison still names that regulation.",
+      "transition_note": "Bulgarian Personal Documents Act transitional § 24(3), in the MVR-hosted consolidation through SG 52/2025, says covered residence cards not meeting Article 7 of Regulation 2019/1157 are valid through 3 August 2026 unless they expire earlier. Regulation 2025/1208 Article 8(2)(b) permits a conditional later date through expiry or 3 August 2031 for cards satisfying specified ICAO and Annex criteria. The effect of the national provision, any later amendment or administrative instruction, and the status of individual cards require human/legal review; do not infer validity from this register.",
       "primary_sources": [
         {
           "title": "CJEU Grand Chamber judgment, Landeshauptstadt Wiesbaden, C-61/22, 21 March 2024",
@@ -30,12 +37,208 @@
           "url": "https://eur-lex.europa.eu/eli/reg/2025/1208/oj/eng"
         },
         {
+          "title": "Council Regulation (EU) 2025/1208, Bulgarian EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/BG/TXT/?uri=CELEX:32025R1208"
+        },
+        {
           "title": "Bulgarian EU-citizen Act, MVR consolidated PDF through SG 52/2025",
           "url": "https://mvr.bg/upload/338040/%D0%97%D0%92%D0%9F%D0%9D%D0%A0%D0%91%D0%93%D0%95%D0%A1%D0%A7%D0%A2%D0%A1%202026.pdf"
+        },
+        {
+          "title": "Bulgarian Personal Documents Act, MVR consolidated PDF through SG 52/2025",
+          "url": "https://www.mvr.bg/upload/300953/%D0%97%D0%90%D0%9A%D0%9E%D0%9D%20%D0%97%D0%90%20%D0%91%D0%AA%D0%9B%D0%93%D0%90%D0%A0%D0%A1%D0%9A%D0%98%D0%A2%D0%95%20%D0%9B%D0%98%D0%A7%D0%9D%D0%98%20%D0%94%D0%9E%D0%9A%D0%A3%D0%9C%D0%95%D0%9D%D0%A2%D0%98.pdf"
         }
       ],
-      "review_question": "Check how the national cross-reference is applied after the successor regulation entered into force and whether related Bulgarian forms or card specimens reflect the current code and format.",
-      "editorial_action": "No national text alteration. Keep this as a separate dependency alert and update only if a new official Bulgarian amendment or authoritative interpretation is found."
+      "review_question": "Obtain a current official Bulgarian card specimen or issuing instruction and verify title, Article 7 format and implementing-decision compliance; establish any amendment or official interpretation addressing the superseded 2019/1157 references and fee cross-reference; reconcile Personal Documents Act § 24(3) with Regulation 2025/1208 Article 8, including any applicable 2031 derogation, without deciding individual-card validity from general sources.",
+      "editorial_action": "Preserve the published Bulgarian statutory text. Keep the dependency open for human/legal review. Do not assert individual-card validity, implementation compliance, or resolution of the fee reference without current official Bulgarian evidence."
+    },
+    {
+      "id": "bg-vas-case-11351-eu-law",
+      "source_record_id": "bg-vas-case-11351-2019",
+      "national_provisions": [
+        "Article 9a and § 1, item 1(a) of the Additional Provisions, in the versions applied by the Court before State Gazette issue 34/2019"
+      ],
+      "referenced_instrument": "Directive 2004/38/EC, Articles 2(2)(a), 3(1), and 7(2)",
+      "referenced_instrument_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
+      "status": "applied_in_final_national_judgment",
+      "status_note": "VAS Decision №11351/2019 applied the Directive’s spouse concept, read with CJEU Coman (C-673/16), to derivative residence for a same-sex spouse lawfully married in another Member State. The Court expressly limited the recognition to residence and applied the pre-SG 34/2019 national Act version. This resolves the cited relationship for that judgment, not the current interpretation of every amended national provision.",
+      "primary_sources": [
+        {
+          "title": "Directive 2004/38/EC, official EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038"
+        },
+        {
+          "title": "CJEU Grand Chamber judgment, Coman, C-673/16, EU:C:2018:385",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62016CJ0673"
+        },
+        {
+          "title": "VAS Decision №11351/2019, official EDIS full text",
+          "url": "https://info-adc.justice.bg/courts/portal/edis.nsf/e_act.xsp?code=vas&guid=1678594843&id=910295"
+        }
+      ],
+      "review_question": "Compare the decision’s pre-2019 national provisions with the currently consolidated EU-citizen Act, including amendments after SG 34/2019; identify any later authority or decisions affecting the same derivative-residence issue.",
+      "editorial_action": "Preserve the decision as a narrow, historical precedent on derivative residence. Do not describe it as general recognition of same-sex marriage or as a current administrative-practice survey."
+    },
+    {
+      "id": "bg-mvr-data-instruction-gdpr",
+      "source_record_id": "bg-mvr-data-processing-instruction",
+      "national_provisions": [
+        "Article 1(2)-(3)",
+        "Articles 2-3"
+      ],
+      "referenced_instrument": "Regulation (EU) 2016/679 (General Data Protection Regulation), including Articles 15-22 for data-subject rights",
+      "referenced_instrument_url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng",
+      "status": "general_framework_reference_reviewed_specific_application_open",
+      "reviewed_on": "2026-10-25",
+      "status_note": "The Instruction expressly names GDPR alongside Bulgarian privacy and MVR law. The linked MVR data-rights page also describes GDPR Articles 15-22 requests, but its opening focus is law-enforcement processing. The specific legal basis and rights limits for EU-family residence-file processing remain to be mapped.",
+      "primary_sources": [
+        {
+          "title": "Instruction № 8121з-1280, State Gazette",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=163214"
+        },
+        {
+          "title": "MVR data-subject request guidance",
+          "url": "https://mvr.bg/sdvr/%D0%B4%D0%B8%D1%80%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%D1%82%D0%B0/%D0%B7%D0%B0-%D0%BE%D0%B4%D0%BC%D0%B2%D1%80/%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BD%D0%B0-%D0%BB%D0%B8%D1%87%D0%BD%D0%B8%D1%82%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8"
+        }
+      ],
+      "review_question": "Map GDPR and Bulgarian-law rights and restrictions for records created in administrative EU-family residence proceedings separately from law-enforcement records.",
+      "editorial_action": "Do not apply criminal-law data restrictions or the MVR page's route to Migration administrative files without a source-backed functional and legal match."
+    },
+    {
+      "id": "bg-mvr-data-instruction-pdpa",
+      "source_record_id": "bg-mvr-data-processing-instruction",
+      "national_provisions": [
+        "Article 1(2)",
+        "Articles 9, 14-25",
+        "Articles 27-32"
+      ],
+      "referenced_instrument": "Bulgarian Personal Data Protection Act",
+      "referenced_instrument_url": "https://cpdp.bg/%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B0-%D1%80%D0%B0%D0%BC%D0%BA%D0%B0-%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%B0/%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD-%D0%B7%D0%B0-%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BD%D0%B0-%D0%BB%D0%B8%D1%87%D0%BD%D0%B8%D1%82%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8-2/",
+      "status": "national_framework_source_present_rights_crosswalk_open",
+      "reviewed_on": "2026-10-25",
+      "status_note": "The official CPDP source record currently covers selected provisions including Articles 1 and 67; the MVR Instruction invokes the Act throughout its rules. No full rights, restriction, Migration-file access or complaint crosswalk has been completed.",
+      "primary_sources": [
+        {
+          "title": "Instruction № 8121з-1280, State Gazette",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=163214"
+        },
+        {
+          "title": "Personal Data Protection Act, CPDP legal framework",
+          "url": "https://cpdp.bg/%D0%BF%D1%80%D0%B0%D0%B2%D0%BD%D0%B0-%D1%80%D0%B0%D0%BC%D0%BA%D0%B0-%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%B0/%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD-%D0%B7%D0%B0-%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%B0-%D0%BD%D0%B0-%D0%BB%D0%B8%D1%87%D0%BD%D0%B8%D1%82%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8-2/"
+        }
+      ],
+      "review_question": "Verify current CPDP rights, request-decision, refusal and complaint provisions that apply to MVR administrative migration files, including any differences from GDPR and ZMVR law-enforcement processing.",
+      "editorial_action": "Keep the general processing Instruction, national privacy statute and EU Regulation distinct; do not treat partial statutory acceptance as a complete rights crosswalk."
+    },
+    {
+      "id": "bg-mvr-data-instruction-zmvr",
+      "source_record_id": "bg-mvr-data-processing-instruction",
+      "national_provisions": [
+        "Article 1(2)",
+        "Articles 2-3",
+        "Articles 27-32"
+      ],
+      "referenced_instrument": "Ministry of Interior Act (ZMVR), including Article 29 authority for the Minister's processing instruction",
+      "referenced_instrument_url": "https://www.mvr.bg/upload/317829/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%20%D0%B7%D0%B0%20%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%B2%D1%8A%D1%82%D1%80%D0%B5%D1%88%D0%BD%D0%B8%D1%82%D0%B5%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B8.pdf",
+      "status": "official_index_and_targeted_amendment_checked_full_current_consolidation_open",
+      "reviewed_on": "2026-10-25",
+      "status_note": "The MVR Academy index identifies the Act as amended through State Gazette issue 66 of 21 July 2026; that amendment was reviewed. The MVR-hosted consolidation carries a Ciela source date of 13 May 2026 and returned HTTP 403 to the reader, so the entire post-cutoff/current text has not been checked.",
+      "primary_sources": [
+        {
+          "title": "MVR Academy official normative-acts index",
+          "url": "https://www.mvr.bg/academy/%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F%D1%82%D0%B0/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0-%D1%83%D1%80%D0%B5%D0%B4%D0%B1%D0%B0/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8-%D0%B0%D0%BA%D1%82%D0%BE%D0%B2%D0%B5-%D0%B8-%D0%BE%D1%84%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%BD%D0%B8-%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B8"
+        },
+        {
+          "title": "State Gazette amendment to the Ministry of Interior Act, issue 66/2026",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=244673"
+        }
+      ],
+      "review_question": "Obtain or verify a current government-published consolidation after issue 66/2026 and review all provisions cross-referenced by the MVR processing Instruction; distinguish MVR law-enforcement processing from administrative Migration processing.",
+      "editorial_action": "Use the MVR consolidation only with its 13 May cutoff and supplement it with the targeted Gazette amendment. Do not claim full currentness or apply Article 28 restrictions to EU-family administrative files without separate evidence."
+    },
+    {
+      "id": "bg-mvr-migration-fund-rules",
+      "source_record_id": "bg-mvr-data-processing-instruction",
+      "national_provisions": [
+        "Articles 27-30",
+        "Article 7(1) as amended"
+      ],
+      "referenced_instrument": "Migration Directorate information-fund register, approved organisational-technical rules, and any applicable Minister of Interior retention order",
+      "referenced_instrument_url": "https://www.mvr.bg/migration/дирекцията/нормативна-уредба",
+      "status": "not_located_in_bounded_official_search",
+      "reviewed_on": "2026-10-25",
+      "status_note": "Bounded MVR and Gazette searches located the general Instruction and a scanned 2020 Kyustendil Migration Group operational rules document, but no Migration-specific information-fund register, Article 27 rules or retention order. The regional operational rules are not accepted as a fund schedule. Absence from these search results does not establish that no internal instrument exists.",
+      "primary_sources": [
+        {
+          "title": "Instruction № 8121з-1280, State Gazette",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=163214"
+        },
+        {
+          "title": "Instruction amending Article 7, State Gazette issue 114/2025",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=240222"
+        },
+        {
+          "title": "MVR Migration legal index",
+          "url": "https://www.mvr.bg/migration/дирекцията/нормативна-уредба/bgzac"
+        }
+      ],
+      "review_question": "Identify the relevant Migration Directorate fund(s), the approved organisational-technical rules and the applicable retention/review order, including how requests and appeals operate for EU-family residence data.",
+      "editorial_action": "Keep the dependency unresolved. Do not assign a 50-year period to Migration application records without checking for a different applicable act or Minister of Interior order."
+    },
+    {
+      "id": "bg-cpd-proceedings-act",
+      "source_record_id": "bg-cpd-organization-and-procedure-rules-2026",
+      "national_provisions": [
+        "§ 4 (authority under Protection against Discrimination Act Article 46(1))",
+        "§ 5 (former procedure rules no longer apply)"
+      ],
+      "referenced_instrument": "Protection against Discrimination Act, Article 46(1)",
+      "referenced_instrument_url": "https://kzd-nondiscrimination.com/?page_id=18931",
+      "status": "general_procedure_recorded_eu_family_application_open",
+      "reviewed_on": "2026-10-25",
+      "status_note": "The 2026 State Gazette Rules establish a general Commission complaint and decision process under the Protection against Discrimination Act and expressly supersede the former procedure rules in §5. Their interaction with substantive protected grounds, free-movement equality claims, and administrative migration remedies is not yet mapped.",
+      "primary_sources": [
+        {
+          "title": "Rules on the structure and organization of the Commission for Protection against Discrimination, SG 48/2026",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=243472"
+        },
+        {
+          "title": "Protection against Discrimination Act, Commission-hosted consolidation through SG 51/2026",
+          "url": "https://kzd-nondiscrimination.com/?page_id=18931"
+        }
+      ],
+      "review_question": "Map the 2026 Commission Rules and current Act to EU-family equal-treatment claims, including protected grounds, Commission competence, court overlap and limitation periods.",
+      "editorial_action": "Use the Gazette instrument for the current general complaint procedure. Do not treat it as an EU-family-specific ruling or as proof of complete equality coverage."
+    },
+    {
+      "id": "bg-legal-aid-social-assistance-means-test",
+      "source_record_id": "bg-legal-aid-act",
+      "national_provisions": [
+        "Legal Aid Act Article 22(1)(1)",
+        "Social Assistance Rules Articles 9-10"
+      ],
+      "referenced_instrument": "Rules for implementation of the Social Assistance Act, Articles 9 and 10",
+      "referenced_instrument_url": "https://asp.government.bg/uploaded/files/5877-PRAVILNIKzaprilaganenaZakonazasocialnopodpomagane-.pdf",
+      "referenced_source_id": "bg-social-assistance-implementing-rules",
+      "status": "official_text_through_2023_post_cutoff_and_application_open",
+      "reviewed_on": "2026-10-25",
+      "status_note": "The current Ministry of Justice indexed Legal Aid Act text cites monthly-assistance eligibility under Social Assistance Rules Articles 9-10 for one free legal-aid category. The official ASP consolidation displays amendments through SG 44/2023. Targeted Gazette searches for 2024-2026 surfaced no later amendment to these Rules, but were not a complete audit. The Act also has other aid categories and an interest-of-justice test.",
+      "primary_sources": [
+        {
+          "title": "Legal Aid Act, Ministry of Justice consolidation through SG 69/2026",
+          "url": "https://justice.government.bg/home/normdoc/2135511185"
+        },
+        {
+          "title": "Social Assistance Rules, Social Assistance Agency consolidation through SG 44/2023",
+          "url": "https://asp.government.bg/uploaded/files/5877-PRAVILNIKzaprilaganenaZakonazasocialnopodpomagane-.pdf"
+        },
+        {
+          "title": "State Gazette issue 44/2023 amending the Social Assistance Rules",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=194340"
+        }
+      ],
+      "review_question": "Verify whether Articles 9-10 or their cited criteria changed after issue 44/2023 and map Article 22 legal-aid eligibility independently from general social-assistance eligibility and the other Legal Aid Act grounds.",
+      "editorial_action": "Keep the means-test dependency open. Do not use the 2023 Social Assistance Rules text as a complete 2026 eligibility test until post-2023 currentness and legal-aid-specific application are checked."
     }
   ]
 }
