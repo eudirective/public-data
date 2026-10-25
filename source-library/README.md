@@ -1,6 +1,6 @@
 # EU source retrieval library
 
-Library release version: 0.14.0
+Library release version: 0.15.0
 
 The reusable national-pack layout is documented in [the country-pack template](templates/country-pack/LAYOUT.md). The latest structural inventory is in [the folder audit](references/library-folder-audit-2026-10-19.md). The shared English EU corpus serves every pack; country-level `core/` folders are kept only when they contain actual official EU-language files. Ireland and Malta use that shared corpus for English instead of duplicating English files.
 
