@@ -177,7 +177,7 @@ NN 142/25 is accepted only as the year-specific 2025 compensation regulation. Ar
 - Four original MUP form PDFs have empty text extraction. All pages have now been reviewed visually, and the byte-identical PDFs are accepted under `documents/forms/`; no revision dates are displayed.
 - Current MUP and MVEP index disagreement on Foreigners Act editions requires explicit dependency review.
 - Directive articles 2–40 have preliminary mapping rows, not validated transposition conclusions.
-- Thirty-three local documents have passed source acceptance; thirty-five official references are separately usable by link within scope. Acceptance establishes the identity and retained form of each source within its record; it does not resolve remedy/topic sufficiency. The Foreigners Act chain through NN 55/26 remains distinct from the EEA-family route. Current MVEP family-visa and appeal links are usable within their reviewed scopes; the family page is undated with an obsolete embedded Directive link, and appeal-fee compatibility remains open.
+- Forty-three local documents have passed source acceptance; thirty-seven official references are separately usable by link within scope. Acceptance establishes the identity and retained form of each source within its record; it does not resolve remedy/topic sufficiency. The Foreigners Act chain through NN 55/26 remains distinct from the EEA-family route. Current MVEP family-visa and appeal links are usable within their reviewed scopes; the family page is undated with an obsolete embedded Directive link, and appeal-fee compatibility remains open.
 
 
 ## Residence-card specimen and transition review

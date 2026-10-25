@@ -149,7 +149,8 @@
       "dependency_review_status": "scope_and_controller_route_unresolved",
       "evidence": [
         "Official NN 68/18 text states it transposes Directive (EU) 2016/680. Determine processing purposes and controller for each VIS/SIS right or complaint; do not substitute GDPR rules without a purpose check.",
-        "The MUP page and its three linked PDFs cite Regulations (EU) 2018/1861 and 2018/1862, including Articles 53 and 67. The page separately contains a 2018/1061 typo; the forms show the correct identifiers."
+        "The MUP page and its three linked PDFs cite Regulations (EU) 2018/1861 and 2018/1862, including Articles 53 and 67. The page separately contains a 2018/1061 typo; the forms show the correct identifiers.",
+        "On 2026-10-25 the official NN 68/18 page was identified by title, issue metadata, item 1391 and ELI. Articles 1–3 state the law-enforcement purposes, LED transposition, scope and exclusions; selected rights and oversight text in Articles 15–17 and 41–44 was reviewed. This establishes the original enactment and selected text only; amendment/currentness, processing-purpose classification, controller competence and VIS/SIS route remain unresolved."
       ]
     },
     {
@@ -1160,9 +1161,10 @@
       "dependency_ids": [
         "hr-law-enforcement-data-regime"
       ],
-      "evidence": "This source is linked to the listed dependency records. The register does not yet prove that every material reference in this source has been found or that linked dependencies are resolved.",
+      "evidence": "The official NN 68/18 page was checked on 2026-10-25. Articles 1–3 state the law-enforcement purposes, transposition of Directive (EU) 2016/680, scope and exclusions; Articles 15–17 and 41–44 were reviewed for selected rights and supervision provisions. This was not an exhaustive cross-reference, amendment, currentness or VIS/SIS controller review; the existing dependency edge remains open.",
       "remaining_work": [
-        "Inspect source text and record every material national/EU instrument, amendment, validity judgment, successor, and procedural dependency; resolve each linked edge."
+        "Inspect the full official text and current official indexes for every material national/EU instrument, amendment, validity judgment, successor and procedural dependency; resolve each linked edge.",
+        "Determine the purpose and controller for each VIS/SIS right or complaint before deciding whether the LED or GDPR regime applies."
       ]
     },
     {
