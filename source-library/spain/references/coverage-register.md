@@ -1,7 +1,7 @@
 # Spain issue-led coverage register
 
 **Reviewed:** 21 October 2026  
-**Status:** 0 of 14 baseline topics complete. Twenty-five official links are usable within their reviewed scopes. No source topic or country review is complete. The 55-record candidate inventory is a discovery register, not a finding of legal sufficiency.
+**Status:** 0 of 14 baseline topics complete. Fifty-four official references are accepted within their reviewed scopes, with 22 local source artifacts accepted. No source topic or country review is complete. The original and expanded source lists are discovery inventories, not findings of legal sufficiency; their nonterminal records remain in the Monitor local-only archive.
 
 | Topic / issue | Official sources usable by link | State and next work |
 |---|---|---|
