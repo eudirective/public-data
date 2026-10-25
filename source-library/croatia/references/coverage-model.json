@@ -730,25 +730,25 @@
       "status": "incomplete",
       "layers": {
         "primary_law": {
-          "status": "candidate_only",
+          "status": "partially_supported",
           "source_ids": [
             "hr-access-info-act",
             "hr-data-protection-act",
             "hr-law-enforcement-data-act",
-            "hr-ombudsman-act"
+            "hr-ombudsman-act",
+            "hr-access-info-amend-85-15",
+            "hr-access-info-amend-69-22"
           ],
-          "note": "Only located/captured leads; no source is accepted. Required legal provisions and operative version remain unverified.",
+          "note": "The accepted local Access to Information and Ombudsman Acts, the separately reviewed official reference to the 2018 GDPR implementation enactment, and the two link-reviewed Access to Information Act amendments support parts of the national-law layer. The original GDPR implementing enactment is not a verified consolidation. The separate law-enforcement data regime, immigration/VIS/SIS applicability, currentness and provision-level rights/remedy crosswalk remain open; this is partial support only.",
           "required_evidence": "At least one accepted local artifact or separately reviewed official reference within scope, or an explicit reasoned not-applicable conclusion."
         },
         "implementing_rule": {
           "status": "candidate_only",
           "source_ids": [
-            "hr-access-info-amend-85-15",
-            "hr-access-info-amend-69-22",
             "hr-vis-decree",
             "hr-vis-decree-amend-105-17"
           ],
-          "note": "Only located/captured leads; no source is accepted. Required legal provisions and operative version remain unverified.",
+          "note": "The VIS Decree NN 36/13 and amendment NN 105/17 remain located leads without independent source acceptance or a verified current chain. The Access to Information Act amendments are primary-law amendments, not implementing rules. This layer remains open.",
           "required_evidence": "At least one accepted local artifact or separately reviewed official reference within scope, or an explicit reasoned not-applicable conclusion."
         },
         "procedure": {
