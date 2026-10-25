@@ -3,7 +3,7 @@
 Reviewed 2026-10-25. The 40 bounded official-source leads now each have a final reference or disposition note under [documents/references/](documents/references/). Thirty-six official external links are accepted within their recorded scope and limits; four leads are not accepted or remain pending verification. No local source text or topic coverage is accepted, and the country review remains open.
 
 - [Reviewed source-note directory](documents/README.md)
-- [Machine-readable source inventory](references/candidate-manifest.json)
+- [Machine-readable accepted-reference register](references/source-acceptance.json)
 - [Human-readable source register and search log](references/source-list.md)
 - [Official-reference decisions and note hashes](references/source-acceptance.json)
 - [Issue-led coverage register](references/coverage-register.md)
