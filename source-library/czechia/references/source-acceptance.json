@@ -769,10 +769,10 @@
       "evidence": {
         "official_source_url": "https://uoou.gov.cz/en",
         "stable_record_url": "https://uoou.gov.cz/en",
-        "reviewed_on": "2026-10-21",
+        "reviewed_on": "2026-10-25",
         "publisher": "Office for Personal Data Protection of the Czech Republic",
         "language": "en",
-        "version": "Official page or route reviewed as displayed on 2026-10-21; no legal version is implied where the source is guidance, an index, a form or a discovery surface.",
+        "version": "Official page or route rechecked as displayed on 2026-10-25; no legal version is implied where the source is guidance, an index, a form or a discovery surface.",
         "verified_locations": "The official publisher or authority, page identity and route were checked in the live official page. This external-reference decision does not validate the saved conversion.",
         "capture_ledger": "captures/czechia-candidate-promotion-2026-10-25/Czechia/czechia/monitor-pass-2026-10-19/retrieval-manifest.json",
         "limits": "Use only within the role and scope stated above; recheck mutable page and parent-index links for later use."
@@ -793,7 +793,7 @@
       "not_accepted": [
         "A complete transcription of linked attachments, legal effect, or later page changes.",
         "Completeness of all linked forms, mission routes, court records, legal issues or country coverage.",
-        "Currentness after 2026-10-21 without checking the publisher page or its parent index again."
+        "Currentness after 2026-10-25 without checking the publisher page or its parent index again."
       ],
       "evidence": {
         "official_source_url": "https://mzv.gov.cz/jnp/en/information_for_aliens/short_stay_visa/family_member_of_an_eu_citizen_1/index.html",
@@ -1188,10 +1188,10 @@
       "evidence": {
         "official_source_url": "https://vyhledavac.nssoud.cz/",
         "stable_record_url": "https://vyhledavac.nssoud.cz/",
-        "reviewed_on": "2026-10-21",
+        "reviewed_on": "2026-10-25",
         "publisher": "Supreme Administrative Court of the Czech Republic decisions service",
         "language": "cs",
-        "version": "Official page or route reviewed as displayed on 2026-10-21; no legal version is implied where the source is guidance, an index, a form or a discovery surface.",
+        "version": "Official page or route rechecked as displayed on 2026-10-25; no legal version is implied where the source is guidance, an index, a form or a discovery surface.",
         "verified_locations": "The official publisher or authority, page identity and route were checked in the live official page. This external-reference decision does not validate the saved conversion.",
         "capture_ledger": "captures/czechia-candidate-promotion-2026-10-25/Czechia/czechia/monitor-pass-2026-10-19/retrieval-manifest.json",
         "limits": "Use only within the role and scope stated above; recheck mutable page and parent-index links for later use."
@@ -1212,7 +1212,7 @@
       "not_accepted": [
         "Completeness of the directory, repository, or all linked records; the retained snapshot is limited to the captured page.",
         "Completeness of all linked forms, mission routes, court records, legal issues or country coverage.",
-        "Currentness after 2026-10-21 without checking the publisher page or its parent index again."
+        "Currentness after 2026-10-25 without checking the publisher page or its parent index again."
       ],
       "evidence": {
         "official_source_url": "https://sbirka.nssoud.cz/",
