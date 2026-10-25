@@ -166,8 +166,8 @@ NN 142/25 is accepted only as the year-specific 2025 compensation regulation. Ar
 
 | Layer | Located leads | State |
 |---|---|---|
-| Primary legislation and directly applicable EU law | `hr-access-info-act`, `hr-data-protection-act`, `hr-law-enforcement-data-act`, `hr-ombudsman-act` | source_review_open |
-| Implementing rules and forms | `hr-access-info-amend-85-15`, `hr-access-info-amend-69-22`, `hr-vis-decree`, `hr-vis-decree-amend-105-17` | source_review_open |
+| Primary legislation and directly applicable EU law | `hr-access-info-act`, `hr-access-info-amend-85-15`, `hr-access-info-amend-69-22`, `hr-data-protection-act`, `hr-law-enforcement-data-act`, `hr-ombudsman-act` | partially supported; accepted local Access to Information and Ombudsman Acts, link-reviewed GDPR implementation enactment and link-reviewed amendments; currentness, separate law-enforcement regime and provision-level mapping remain open |
+| Implementing rules and forms | `hr-vis-decree`, `hr-vis-decree-amend-105-17` | source review open; VIS Decree chain remains unaccepted and its currentness is unverified |
 | Authority procedures and administrative practice | `hr-mup-sis-rights-guidance`, `hr-mup-sis-access-form`, `hr-mup-sis-erasure-form`, `hr-mup-sis-correction-form`, `hr-mvep-vis-rights-guidance`, `hr-mvep-vis-rights-form`, `hr-azop-complaint`, `hr-ombudsman-complaints` | source references reviewed within scope; issue coverage incomplete |
 | Administrative/judicial remedies, oversight, or relevant practice | `hr-admin-disputes-act`, `hr-court-decisions` | partially_supported; accepted hr-admin-disputes-act; issue mapping and other layers open |
 

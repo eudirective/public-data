@@ -684,6 +684,22 @@
         "MVEP page mentions restriction of processing while the linked form is titled for access, correction and deletion; restriction is not represented as a capability of this form.",
         "Retain only this identified blank form unchanged; do not retain completed requests, identity copies or other personal data."
       ]
+    },
+    "hr-data-protection-act": {
+      "status": "usable_official_reference",
+      "publisher": "Narodne novine, Official Gazette of the Republic of Croatia; enactment by Hrvatski sabor",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_05_42_805.html",
+      "checked_on": "2026-10-25",
+      "language": "Croatian",
+      "version_or_cutoff": "Original enactment NN 42/2018, published 9 May 2018; Article 57 states entry into force on 25 May 2018. This is the original enactment, not a current consolidation; no complete amendment chain was verified.",
+      "scope": "Official reference to Croatia’s Act implementing the GDPR, including designation of AZOP as supervisory authority and the Act’s stated domestic rules. Article 1(2) excludes competent-authority processing for criminal-law purposes and national security/defence.",
+      "reviewed_content": "Official Gazette page title, issue metadata and ELI identify the Act as NN 42/2018. Articles 1(1)-(2), 4, 19 and 57 were reviewed: Article 1(1) identifies the GDPR implementation purpose; Article 1(2) states the law-enforcement and national-security scope exclusion; Article 4 identifies AZOP as supervisory authority; Article 19 sets the domestic age threshold for a child’s consent to information-society services; Article 57 gives the commencement date.",
+      "limitations": [
+        "The link supports only the identified original 2018 enactment. A current consolidated version and full later amendment/validity chain were not verified.",
+        "Do not apply this Act to law-enforcement processing based on this source alone; Article 1(2) excludes that processing, which requires separate review of the law-enforcement data regime.",
+        "Whether any particular immigration, VIS or SIS processing falls under the GDPR or a law-enforcement regime remains unresolved.",
+        "No local copy was accepted; local-copy status remains separate from this usable official-reference review."
+      ]
     }
   },
   "official_reference_review_schema": {
