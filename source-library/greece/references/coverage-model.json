@@ -76,18 +76,23 @@
         },
         {
           "layer": "implementing_rules",
-          "status": "unresolved",
-          "accepted_source_ids": [],
-          "open_gap": "No accepted current implementing-instrument crosswalk or complete Greek statutory text review is recorded."
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-kya-95391-2024-tcn-family-documents",
+            "gr-ya-118654-2024-electronic-residence-applications"
+          ],
+          "open_gap": "The 2024 Gazette decisions provide category-specific document lists and an electronic filing framework, but the 118654/2024 text was amended in 2025 and the amendment's operative wording is not verified. Current category rules, detailed authority routing, live service behavior and post-2026 currentness remain open."
         },
         {
           "layer": "procedure_and_practice",
           "status": "partial",
           "accepted_source_ids": [
             "gr-gov-gr-60-residence-locator",
-            "gr-gov-gr-61-other-family-index"
+            "gr-gov-gr-61-other-family-index",
+            "gr-kya-95391-2024-tcn-family-documents",
+            "gr-ya-118654-2024-electronic-residence-applications"
           ],
-          "open_gap": "The Gov.gr pages are accepted only as locator/navigation references. The general English counterpart is dated 28 November 2022; current documents, fees, card duration, authority and filing route remain unverified."
+          "open_gap": "Gov.gr pages remain locator/navigation references. The dated 2024 Gazette decisions add document lists and an electronic filing framework, but Decision 118654/2024 has a 2025 amendment whose text is unverified; the live service, current categories, fees, card duration and authority routing remain open."
         },
         {
           "layer": "remedies_and_oversight",
@@ -99,7 +104,7 @@
           "open_gap": "The decree and Administrative Procedure Code links are not a provision-level remedy map; the current applicable deadlines, forum, interim relief and effects of appeal remain open."
         }
       ],
-      "open_gap": "The MITOS pages gr-12–gr-16 are not TCN family-card procedures. Complete a current official procedure review, including attachments and municipal/authority routing."
+      "open_gap": "The MITOS pages gr-12–gr-16 concern Union-citizen documents, not TCN family cards. KYA 95391/2024 and Decision 118654/2024 add bounded 2024 document and filing sources; retrieve the 2025 amendment to 118654, verify current procedures, and keep Law 5275/2026 duration changes separate."
     },
     {
       "topic_id": "EXTENDED_FAMILY_AND_DURABLE_PARTNERS",
@@ -118,17 +123,21 @@
         },
         {
           "layer": "implementing_rules",
-          "status": "unresolved",
-          "accepted_source_ids": [],
-          "open_gap": "The current implementing framework and any category-specific evidence rules have not been mapped."
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-kya-95391-2024-tcn-family-documents"
+          ],
+          "open_gap": "KYA 95391/2024 supplies dated documents for certain Article 3(2) family members and durable partners. Its correction/currentness scope is unresolved; it is not a complete Article 3(2) implementing-rule crosswalk."
         },
         {
           "layer": "procedure_and_practice",
           "status": "partial",
           "accepted_source_ids": [
-            "gr-gov-gr-61-other-family-index"
+            "gr-gov-gr-61-other-family-index",
+            "gr-kya-95391-2024-tcn-family-documents",
+            "gr-ya-118654-2024-electronic-residence-applications"
           ],
-          "open_gap": "Only the Gov.gr category/navigation locator is accepted; its current detailed procedure, date and attachments are unverified."
+          "open_gap": "The Gov.gr category locator plus the 2024 document lists and filing framework provide partial procedure evidence only. The 2025 amendment to Decision 118654/2024, the current portal flow and category-specific practice remain unresolved."
         },
         {
           "layer": "remedies_and_oversight",
@@ -137,7 +146,7 @@
           "open_gap": "No category-specific facilitation, reasons, delay or appeal crosswalk and no relevant case-law batch are recorded."
         }
       ],
-      "open_gap": "Confirm current Greek text and practice after Law 5275/2026; distinguish facilitation duties from automatic entitlement."
+      "open_gap": "The 2024 KYA adds a dated supporting-document list for certain Article 3(2) categories; Decision 118654/2024 adds a general electronic filing framework. Verify the 2025 amendment and current Greek text/practice after Law 5275/2026; distinguish facilitation from automatic entitlement."
     },
     {
       "topic_id": "RETAINED_AND_PERMANENT_RESIDENCE",
