@@ -1,20 +1,23 @@
-# EEA implementation and publication law; EWR Register regulation
+# Gesetz über die Umsetzung und Kundmachung der EWR-Rechtsvorschriften, LR 170.51
 
 - Jurisdiction: Liechtenstein
-- Candidate ID: `li-06`
-- Source class: `eea_implementation`
-- Official page title: 1995.099 | Lilex - Gesetzesdatenbank des Fürstentums Liechtenstein
-- Publisher: Liechtenstein Government Legal Services
-- Candidate source URL: https://www.gesetze.li/konso/1995099000
+- Source ID: `li-06`
+- Source type: `eea_implementation`
+- Publisher: Liechtenstein Government Legal Services (Rechtsdienst der Regierung)
+- Official source URL: https://www.gesetze.li/konso/1995099000
 - Resolved text URL: https://www.gesetze.li/konso/html/1995099000?version=2&search_text=&search_loc=
-- Retrieved: 2026-10-19T03:00:47+00:00
-- Publisher/version evidence: Gesetze.li current-text frame version=2; inventory note: The LLV EWR Register page links the EEA implementation statute and the regulation establishing the register.
-- Extraction region: `tag=body`
-- Text response SHA-256: `7262532bae39c353378fd52050b198dfc47031b09f859a9fbb36edf98c9d454e`
-- Current-version shell SHA-256: `aa8db140e54135a4cc5b71db08aa7fea7cfcb41b7563ed44777aea1e8fd47086`
+- Official PDF: https://www.gesetze.li/konso/pdf/1995099000?version=2
+- Language: German
+- Consolidated version checked: Lilex text-frame version 2; official PDF states `Fassung: 01.02.2021`; LGBl 2020.358 took effect 1 February 2021. The official Systematisches Register, stand 1 October 2026 (through LGBl 2026.321), lists LGBl 2020.358 as the latest amendment to LR 170.51.
+- Reviewed: 2026-10-25
+- Publisher-shell response SHA-256: `aa8db140e54135a4cc5b71db08aa7fea7cfcb41b7563ed44777aea1e8fd47086`
+- Text-frame response SHA-256: `7262532bae39c353378fd52050b198dfc47031b09f859a9fbb36edf98c9d454e`
+- Source-text SHA-256: `9a5203a7c3830d626ac4d9551dba65314f7cfd7a27c3d6843bf471c3ae8ccee5` (3861 UTF-8 bytes)
+- Candidate-conversion SHA-256: `3205de03f96c796d11630b3c16fcf24b1c6691e9bb7ce85678dcc9c0498941fd`
+- Extraction: `tag=body`; deterministic offline replay from the archived official HTML frame reproduces the complete candidate conversion and this official-text section. The official 6-page version-2 PDF states `Fassung: 01.02.2021`; selected anchors checked include the title/LR number, Arts. 1–5, 8–9, transitional text and amendment footnotes. This was not a page-by-page comparison.
+- Reuse basis: Liechtenstein Copyright Act (URG), Art. 5(1)(a) and (2), as applied to statutory text only; this document does not copy the Lilex interface or database.
 
-> **Review candidate.** Not accepted into the trusted source corpus. Relationship: Related EEA incorporation and update mechanism
-> Check exact legal identity, version, language, scope, authority, links and reuse conditions before reliance.
+> **Accepted source record.** This law governs Liechtenstein’s implementation and promulgation of EEA rules. Article 4 identifies applicable EEA rules by the EEA Agreement and Joint Committee decisions promulgated in the Liechtenstein State Law Gazette; Article 5 provides for an electronic register. It does not decide whether a particular EEA act applies without checking its adaptation, publication and effective-date record. The candidate inventory title also mentioned the separate EWR-Register-Verordnung (EWR-RegV), LR 170.511; that regulation is not included in this document and remains a separate source review. This law is an EEA incorporation/publication source, not an immigration entitlement or visa procedure. The Lilex consolidation is informational and has no legal effect; signed State Law Gazette publication remains legally authentic. Acceptance does not establish EEA topic coverage or country completion.
 
 ## Official source text
 
