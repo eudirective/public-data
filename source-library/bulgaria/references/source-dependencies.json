@@ -269,6 +269,36 @@
       ],
       "review_question": "Determine the scope of Act Articles 22–30 for non-EU family members alongside the Foreigners Act and Rules; reconcile the Article 26 grounds, health restrictions, enhanced long-residence/child protections, written reasons and urgency, interim relief and actual-removal timing, and exclusion-order review trigger with Directive Articles 15 and 27–33 and applicable CJEU/national case law.",
       "editorial_action": "Preserve the national Act wording and keep this dependency and the topic open. Do not infer incompatibility or operational compliance without legal interpretation, current procedural sources and relevant case-law review."
+    },
+    {
+      "id": "bg-eu-free-movement-act-directive-retained-residence",
+      "source_record_id": "bg-eu-free-movement-act",
+      "national_provisions": [
+        "Articles 14–19",
+        "Articles 16(5) and 19(2)–(5) (document procedure)"
+      ],
+      "referenced_instrument": "Directive 2004/38/EC, Articles 12–13 and 16–21, 25",
+      "referenced_instrument_url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32004L0038",
+      "referenced_source_id": "eu:32004l0038",
+      "status": "provision_crosswalk_recorded_evidence_and_remedy_review_open",
+      "reviewed_on": "2026-10-25",
+      "status_note": "The MVR government consolidation is accepted through SG 52/2025. Act Articles 14–15 were compared with Directive Articles 12–13; Act Articles 16–19 were compared with Directive Articles 16–21 and 25 using the shared-core Directive text. The national text contains retained-residence routes after death/departure or relationship termination, five-year and early worker permanent-residence routes, absence rules, document issuance, and two-year absence provisions. Open interpretation questions include the precise relationship categories, the education-based child route, Article 17 absence periods, proof of continuous residence, whether document withdrawal changes an underlying right, and the applicant groups/timing for Articles 16(5) and 19(2)–(5).",
+      "primary_sources": [
+        {
+          "title": "Bulgarian EU-citizen Act, MVR consolidated PDF through SG 52/2025",
+          "url": "https://mvr.bg/upload/338040/%D0%97%D0%92%D0%9F%D0%9D%D0%A0%D0%91%D0%93%D0%95%D0%A1%D0%A7%D0%A2%D0%A1%202026.pdf"
+        },
+        {
+          "title": "Directive 2004/38/EC, official EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32004L0038"
+        },
+        {
+          "title": "Directive 2004/38/EC, Bulgarian EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/BG/ALL/?uri=CELEX%3A32004L0038"
+        }
+      ],
+      "review_question": "For each applicant class, determine how Bulgarian Articles 14–19 implement retention on death/departure/divorce or partnership termination, early permanent residence, continuity of residence, and acquisition and documentation of permanent residence; verify current evidence, filing and appeal routes, and reconcile any scope or timing difference with Directive Articles 12–13, 16–21 and 25 and relevant CJEU/national case law.",
+      "editorial_action": "Preserve the statutory text and keep this dependency and topic open. Do not infer that a residence document creates or extinguishes an underlying right, or that an application deadline changes directly acquired EU-law entitlement, without legal and official-procedure evidence."
     }
   ]
 }

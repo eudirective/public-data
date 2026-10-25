@@ -249,7 +249,7 @@
           "source_ids": [
             "bg-eu-free-movement-act"
           ],
-          "note": "The accepted Act’s Articles 14–15 address retained residence after departure, death, divorce, or termination of cohabitation; Article 16 sets permanent-residence routes and exceptions; Article 17 specifies absences that do not interrupt the qualifying period; Articles 18–19 address document loss after absences over two consecutive years. Directive concordance and application of every condition remain open."
+          "note": "The accepted Act Articles 14–15 cover retained residence after death/departure and relationship termination; Article 16 covers five-year and early worker-derived permanent residence; Article 17 addresses absences; Article 18 concerns the permanent-residence document after over two years away; Article 19 sets the non-EU family-member five-year route and document process. Crosswalked to Directive Articles 12–13 and 16–21 in source-dependencies.json. Legal review remains open on relationship categories and conditions, the child/education route, proof and absence rules, the legal effect of document withdrawal, and how Article 16/19 filing deadlines interact with directly acquired rights."
         },
         "implementing_rule": {
           "status": "partially_supported",
@@ -257,7 +257,7 @@
             "bg-eu-instruction",
             "bg-eu-form-permanent"
           ],
-          "note": "The accepted 2021 Instruction Article 14 requires a third-country family member seeking permanent residence to apply personally to Migration or the relevant ODMVR two months before expiry; it lists a valid passport, birth/marriage or other relationship evidence, and a fee where payment cannot be checked ex officio, with issuance within one month. It does not specify how to prove five years of lawful continuous residence or each retained-right exception. The accepted MVR instruction text is consolidated through SG 29/2021; a separate 8-page MVR upload identifying only the 2018 promulgation was not treated as current, and no later amendment is certified."
+          "note": "Instruction №8121з-1276 is the identified document-issuance rule, but its current applicability and detailed evidence requirements for permanent-residence applications under Articles 16 and 19 have not been verified. The accepted text ends at SG 29/2021; no later amendment is certified."
         },
         "procedure": {
           "status": "partially_supported",
@@ -266,7 +266,7 @@
             "bg-mvr-regional-offices",
             "bg-iisda-eu-residence-service-1403"
           ],
-          "note": "The Bulgarian Act Article 16(5) states a three-day pre-expiry application and same-day document issuance for the EU-citizen routes; Article 19(2)–(3) states a two-month pre-expiry application and up-to-one-month issuance for family-member permanent residence. Instruction Article 14 repeats the latter route. Current operational handling, proof requirements, and regional variation remain unverified."
+          "note": "Act Article 16(5) directs specified applicants to file within three days before expiry of extended residence and requires same-day issuance; Article 19(2) sets filing two months before expiry for non-EU family members, paragraph 3 sets issuance within one month, and paragraph 4 provides automatic renewal every ten years. Directive Articles 19–20 instead describe issuance upon application, within six months for a permanent residence card, and application before expiry of the existing card. The exact applicant groups, applicable filing deadlines, evidence route and operational forms need verification."
         },
         "remedy_or_practice": {
           "status": "partially_supported",
@@ -275,12 +275,13 @@
             "bg-apc",
             "bg-vas-case-search"
           ],
-          "note": "Article 17a expressly requires reasons for refusal of an Article 16 permanent-residence document and provides an appeal under the Administrative Procedure Code. No screened Bulgarian decision applying Articles 14–19 is recorded; the remedy route for Article 19 applications, detailed deadlines/effects, and case practice remain open."
+          "note": "Article 17a requires reasons and an Administrative Procedure Code challenge for refusal of an Article 16 permanent-residence document; no screened VAS or lower-court decision applying Articles 14–19 is recorded. A dedicated refusal/remedy route for Article 19 cases, review effects, and actual Migration Directorate practice remain open."
         }
       },
       "open_issues": [
-        "Concord Articles 14–19 with Directive 2004/38 Articles 12, 13, 16, and 17; verify the evidence needed for each retained-right and permanent-residence route, including interruptions and exceptions.",
-        "Verify Article 16 and Article 19 filing, decision, and challenge procedure from current implementing/official administrative material, and complete a repeatable search of VAS and lower administrative-court decisions applying these provisions."
+        "Reconcile Act Articles 14–19 with Directive Articles 12–13 and 16–21, including retained-right conditions for EU and non-EU family members, death/departure/relationship termination, schooling children, early worker routes, absence periods, proof of continuous residence, and whether document withdrawal also affects the underlying right.",
+        "Verify Article 16 and Article 19 application timing, required evidence, forms, issuance and challenge routes in current official administrative material; distinguish the right itself from documents that evidence it and compare with Directive Articles 19–21 and 25.",
+        "Complete repeatable official VAS and lower administrative-court searches for decisions applying retained and permanent residence provisions; record query scope, result counts and each disposition."
       ]
     },
     {
