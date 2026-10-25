@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 29 official-reference reviews approve only human use of the identified official links within the stated publisher, instrument/page, language, date, provisions, and scope. No local Gazette PDF or converted text is accepted for retention or republication. National Printing House search-site terms restrict non-personal copying, conversion, and transmission; whether those terms govern direct api.et.gr PDF URLs remains unresolved, so no local copy or automated acquisition rule is accepted. Link acceptance does not establish full topic coverage, current consolidated wording, or country completion. The two Gov.gr references added on 2026-10-25 are accepted only as locator/navigation references; current procedure remains open.",
+  "policy": "The 30 official-reference reviews approve only human use of the identified official links within the stated publisher, instrument/page, language, date, provisions, and scope. No local Gazette PDF or converted text is accepted for retention or republication. National Printing House search-site terms restrict non-personal copying, conversion, and transmission; whether those terms govern direct api.et.gr PDF URLs remains unresolved, so no local copy or automated acquisition rule is accepted. Link acceptance does not establish full topic coverage, current consolidated wording, or country completion. The Gov.gr family-residence references are accepted only as locator/navigation references; current procedure remains open. The Gov.gr case-law search page is accepted only as a service locator; individual decisions and portal coverage are not accepted.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -498,6 +498,24 @@
         "A category index or search snippet does not establish current requirements or substantive legal status.",
         "Current procedure and effect of Law 5275/2026 Article 53 remain open for whole-portal review.",
         "Accepted only as an official navigation reference; no local copy or republication permission is approved."
+      ]
+    },
+    "gr-gov-gr-50-case-law-discovery": {
+      "status": "usable_official_reference",
+      "source_list_id": "gr-50",
+      "publisher": "Gov.gr, Greek Single Digital Gateway; responsible authority identified as the Hellenic Council of State",
+      "url": "https://www.gov.gr/el/services/1000382/anazetese-nomologias",
+      "rediscovery_url": "https://www.gov.gr/en/services/1000382/anazetese-nomologias/support",
+      "checked_on": "2026-10-25",
+      "language": "Greek (service page); English (support locator)",
+      "version_or_cutoff": "The official Greek service page displays last updated 26 April 2023. Service endpoint availability and coverage were not checked.",
+      "scope": "Official locator for searching anonymized decisions of the Council of State and Administrative Courts; not a decision record, complete case-law corpus, or search-coverage certification.",
+      "reviewed_content": "The official gov.gr service page describes access to anonymized Council of State and Administrative Court decisions and identifies the Council of State as the responsible authority. The associated support page says the digital service has not been integrated into Support.gov.gr. The actual query endpoint was not opened.",
+      "limitations": [
+        "Accepted only as an official discovery-service locator.",
+        "No portal-native query was executed; public result coverage, date range, filters, authentication and completeness remain unverified.",
+        "Does not accept any individual judgment or abstract as source text.",
+        "No local copy or republication permission is approved."
       ]
     }
   },
