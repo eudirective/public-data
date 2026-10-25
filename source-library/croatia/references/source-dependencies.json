@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "HR",
-  "checked_on": "2026-10-24",
+  "checked_on": "2026-10-25",
   "policy": "Material legal references must be traced to current official instruments. A cited source or captured hash does not establish that dependency status is current. Preserve national wording; editorial alerts belong here.",
   "dependencies": [
     {
@@ -310,6 +310,23 @@
         "Reconcile the legal-aid procedure, court-fee waiver and provider routes against accepted primary law and current Ministry forms.",
         "Check the annual 2026 provider-compensation regulation status; the 2025 provider tariff does not set applicant eligibility or court-fee exemption.",
         "Check the next annual budget-execution act before carrying the 2026 base into 2027."
+      ]
+    },
+    {
+      "id": "hr-mvep-stale-faq-historical-law-references",
+      "source_ids": [
+        "hr-mvep-stale-faq",
+        "hr-mvep-visa-overview",
+        "hr-foreigners-act",
+        "hr-general-admin-act"
+      ],
+      "relationship": "historical_visa_entry_and_procedure_guidance",
+      "instrument": "Schengen acquis and visa rules; Croatian Foreigners Act; General Administrative Procedure Act NN 47/09",
+      "official_locator": "https://mvep.gov.hr/en/consular-information/visas/visa-requirements-overview/22879",
+      "dependency_review_status": "known_references_recorded_current_effect_not_resolved",
+      "evidence": [
+        "Manual scan of the 17 archived FAQ entries identified references to Schengen status, visa/stay rules, the General Administrative Procedure Act (NN 47/09), and the Aliens Act. The FAQ is retained only as a historical page record; this edge does not validate any cited rule as current.",
+        "Current MVEP visa-requirements material states that the Schengen acquis has applied in Croatia since 2023-01-01."
       ]
     }
   ],
@@ -855,9 +872,10 @@
       "dependency_ids": [
         "hr-access-to-information-amendment-chain"
       ],
-      "evidence": "This source is linked to the listed dependency records. The register does not yet prove that every material reference in this source has been found or that linked dependencies are resolved.",
+      "evidence": "Manual scan of the accepted historical section records its 2019 references to the Constitution, ECHR, EU Charter, Act NN 25/13 and 85/15, Articles 10–12, the Commissioner appeal, and High Administrative Court. The linked Act chain includes NN 69/22; the text is historical and no current procedure is inferred.",
       "remaining_work": [
-        "Inspect source text and record every material national/EU instrument, amendment, validity judgment, successor, and procedural dependency; resolve each linked edge."
+        "Review current access-request procedure, deadlines, exemptions and judicial route against the current official consolidated Act and amendment chain.",
+        "A full material-reference scan of the page and linked publications remains open."
       ]
     },
     {
@@ -1223,11 +1241,14 @@
     },
     {
       "source_id": "hr-mvep-stale-faq",
-      "status": "not_reviewed",
-      "dependency_ids": [],
-      "evidence": "No source-level dependency scan has been recorded. Absence from the dependency graph is not a finding that the source has no material references.",
+      "status": "known_edges_not_exhaustive",
+      "dependency_ids": [
+        "hr-mvep-stale-faq-historical-law-references"
+      ],
+      "evidence": "Manual scan of all 17 FAQ entries recorded the identified Schengen, visa/stay, Foreigners Act and General Administrative Procedure Act references. The page contains known stale statements and is excluded from current use.",
       "remaining_work": [
-        "Inspect the source for cross-references and record a reviewed-with-dependencies or reasoned no-material-dependencies disposition."
+        "Verify the current rules behind any proposition before relying on it; the historical FAQ itself is not an operative source.",
+        "The 17-entry scan does not establish full Croatia visa-topic or dependency coverage."
       ]
     },
     {
