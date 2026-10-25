@@ -2,9 +2,9 @@
   "schema_version": "1.0.0",
   "jurisdiction": "LI",
   "as_of": "2026-10-25",
-  "accepted_source_count": 5,
-  "accepted_local_copy_count": 4,
-  "accepted_external_reference_count": 5,
+  "accepted_source_count": 6,
+  "accepted_local_copy_count": 5,
+  "accepted_external_reference_count": 6,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "policy": "A reviewed official source may be accepted within its publisher, identity, language, displayed version, scope, and stated limitations. The current Lilex consolidation is an informational working text, not the legally authentic publication. Local-copy acceptance is separate from topic coverage, legal equivalence, and country completion. Reuse acceptance here is limited to statutory text under URG Article 5; it does not cover site design, database-level or systematic reuse, or unrelated content.",
@@ -354,11 +354,88 @@
         "text_frame_archive_path": "captures/public-data/LI/liechtenstein/li-10/raw/li-10-11c6f3d8950b25613be717f96a07b776f2b298895d64a9993b769f4e185ee3e4.html",
         "text_frame_sha256": "11c6f3d8950b25613be717f96a07b776f2b298895d64a9993b769f4e185ee3e4"
       }
+    },
+    "li-11": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The official version-2 PDF identifies the Verordnung über die Einreise und die Visumerteilung, LR 152.204, original publication LGBl 2020.042. The official 2026 Systematisches Register identifies the Government Legal Services (Rechtsdienst der Regierung) as publisher."
+        },
+        "current_legal_version": {
+          "status": "pass_with_limitations",
+          "review_date": "2026-10-25",
+          "evidence_url": "https://www.gesetze.li/konso/systematisches-register/100",
+          "evidence": "The official version-2 PDF states Fassung: 12.10.2025. LGBl 2025.483 was issued 7 October 2025 and entered into force 12 October 2025; it amended VEV Arts. 2, 5 and 8. The official Systematisches Register, stand 1 October 2026 and covering items through LGBl 2026.321, lists LGBl 2025.483 as the latest VEV amendment. The candidate current-text frame was retrieved on 2026-10-19. This evidence does not exclude a change after the register cutoff."
+        },
+        "extraction_completeness": {
+          "status": "pass_with_limitations",
+          "evidence": "The archived publisher shell (10,454 bytes; SHA-256 9c98c508e665dec4d08df5113b8b8da91f05033914b02f6a312d51ab18f8aaf7) and versioned text frame (34,944 bytes; SHA-256 f89fa4f650b57f1ed7a7402f2e0b26cd24da3c322983ed6d7dffe107303790e6) match the Monitor local-only archive. Offline replay reproduces the complete candidate exactly (24,620 bytes; SHA-256 e7def31d72a30abcdafb11fa76734c35d87c8cd8981a348672d2691d9cee952f). The accepted document preserves the full extracted official-text section (23,426 UTF-8 bytes; SHA-256 0a3c107195fd402bfc1a1d79e78d76d14fb50be4260e515e8b88185bd80566c0). The official 15-page version-2 PDF was checked at representative title, scope, visa, procedure, authority, appeal, final-provision and amendment-footnote anchors."
+        },
+        "attachments_review": {
+          "status": "pass_with_limitations",
+          "evidence": "The official 15-page PDF counterpart was checked at selected anchors across the regulation and amendment footnotes. No separate statutory annex was identified in the reviewed text/PDF. This was not a page-by-page comparison with the signed Gazette; the Markdown copy does not preserve publication layout or validate signatures."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "VEV is primary Liechtenstein legislation made under AuG and PFZG provisions. Article 1 covers entry and visa issuance and states that the regulation applies insofar as applicable Schengen acquis does not provide otherwise; it also identifies Swiss-Liechtenstein and other bilateral representation arrangements. The text includes short- and long-stay entry/visa rules, authority allocation and remedies. It is not the full Schengen rule set or an operational mission guide, and this acceptance is not a legal-equivalence finding."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "official_statutory_text_only",
+          "basis_url": "https://www.gesetze.li/konso/html/1999160000",
+          "evidence": "The current official URG text, checked 2026-10-25, states at Art. 5(1)(a) that laws, regulations, treaties and other official enactments are not protected by copyright, and at Art. 5(2) also excludes official or legally required collections and translations. This acceptance covers only the statutory text, not Lilex interface/design or systematic database reuse."
+        }
+      },
+      "semantic_review": {
+        "status": "passed_with_limitations",
+        "method": "full_candidate_replay_and_official_15_page_pdf_anchor_review",
+        "review_date": "2026-10-25",
+        "scope": "The complete extracted legal-text section was replayed from the archived official HTML frame; representative PDF anchors covered the title/LR number, Arts. 1–2, 3–10, 18–29, 30–32 and amendment footnotes.",
+        "source_response_sha256": "9c98c508e665dec4d08df5113b8b8da91f05033914b02f6a312d51ab18f8aaf7",
+        "text_response_sha256": "f89fa4f650b57f1ed7a7402f2e0b26cd24da3c322983ed6d7dffe107303790e6",
+        "candidate_conversion_sha256": "e7def31d72a30abcdafb11fa76734c35d87c8cd8981a348672d2691d9cee952f",
+        "source_text_sha256": "0a3c107195fd402bfc1a1d79e78d76d14fb50be4260e515e8b88185bd80566c0",
+        "source_text_bytes": 23426,
+        "full_candidate_replay": "passed",
+        "limitations": [
+          "Lilex consolidated texts are informational and have no legal effect; signed LGBl is authentic.",
+          "The register currentness evidence is dated 1 October 2026; it does not exclude a later VEV amendment or establish applicability after the review date.",
+          "The official 15-page PDF was checked at selected anchors, not page by page; signed Gazette originals were not compared.",
+          "Schengen acquis, the Visa Code and Schengen Borders Code, VISV/EESV, AuG/PFZG, Swiss representation agreements, fees and current operational mission instructions require separate source/dependency review.",
+          "Source acceptance does not establish visa-topic coverage, operational coverage or country completion."
+        ],
+        "source_text_replay": {
+          "status": "passed",
+          "method": "replay_of_archived_html_frame_with_sync_liechtenstein_extractor",
+          "raw_capture_archive_path": "captures/public-data/LI/liechtenstein/li-11/raw/li-11-f89fa4f650b57f1ed7a7402f2e0b26cd24da3c322983ed6d7dffe107303790e6.html",
+          "raw_capture_sha256": "f89fa4f650b57f1ed7a7402f2e0b26cd24da3c322983ed6d7dffe107303790e6",
+          "result_source_text_sha256": "0a3c107195fd402bfc1a1d79e78d76d14fb50be4260e515e8b88185bd80566c0",
+          "matches_saved_candidate_and_document_body": true
+        },
+        "full_candidate_replay_evidence": "The exact pre-promotion candidate bytes are retained at `candidates/public-data/LI/liechtenstein/candidates/li-11.md` (SHA-256 e7def31d72a30abcdafb11fa76734c35d87c8cd8981a348672d2691d9cee952f). The archived current-text frame replays to that candidate; its official-text section is byte-identical to the accepted document body."
+      },
+      "accepted_on": "2026-10-25",
+      "document_path": "source-library/liechtenstein/documents/legislation/li-verordnung-einreise-visumerteilung-vev.md",
+      "local_file_sha256": "d3a7802847da056cb251e9d792a31db90d1413cb21f1b32754ec7ce03eadb7c5",
+      "source_response_sha256": "9c98c508e665dec4d08df5113b8b8da91f05033914b02f6a312d51ab18f8aaf7",
+      "source_text_sha256": "0a3c107195fd402bfc1a1d79e78d76d14fb50be4260e515e8b88185bd80566c0",
+      "candidate_conversion_sha256": "e7def31d72a30abcdafb11fa76734c35d87c8cd8981a348672d2691d9cee952f",
+      "archived_candidate_path": "candidates/public-data/LI/liechtenstein/candidates/li-11.md",
+      "local_copy_accepted": true,
+      "accepted_external_reference": true,
+      "accepted_topics": [],
+      "limitations": [
+        "Lilex consolidated text is informational and has no legal effect; signed LGBl is authentic.",
+        "The official system register checked is current to 1 October 2026; later VEV change or applicability is not established.",
+        "VEV defers to applicable Schengen acquis and has material AuG/PFZG, VISV/EESV, Swiss-agreement, fees and mission-practice dependencies; those are separate records and coverage questions.",
+        "Source acceptance is separate from topic coverage and country review completion."
+      ]
     }
   },
   "candidate_inventory_count": 40,
   "dispositioned_candidate_count": 1,
-  "open_candidate_count": 34,
+  "open_candidate_count": 33,
   "dispositions": {
     "li-03": {
       "status": "already_represented_duplicate",

@@ -108,6 +108,27 @@
         "ZAV supplements the AuG third-country route and is not the PFZG EEA/Swiss regime.",
         "Source acceptance is separate from topic coverage and country review completion."
       ]
+    },
+    {
+      "id": "li-11",
+      "class": "visa_regulation",
+      "title": "Verordnung über die Einreise und die Visumerteilung (VEV), LR 152.204",
+      "publisher": "Liechtenstein Government Legal Services (Rechtsdienst der Regierung)",
+      "url": "https://www.gesetze.li/konso/2020042000",
+      "language": "de",
+      "version": "Lilex text-frame version 2; official PDF Fassung 12.10.2025; LGBl 2025.483 effective 12 October 2025; 2026 Systematisches Register stand 1 October lists LGBl 2025.483 as latest VEV amendment",
+      "scope": "Regulates entry into Liechtenstein and visa issuance, including short- and long-stay conditions, procedures, competent authorities, cooperation, refusal and remedies; applicable Schengen rules prevail where they differ, and Swiss/other representation agreements apply. Not a complete statement of Schengen law or current mission practice.",
+      "status": "accepted_official_reference_and_local_copy_with_limitations",
+      "checked_on": "2026-10-25",
+      "local_path": "source-library/liechtenstein/documents/legislation/li-verordnung-einreise-visumerteilung-vev.md",
+      "local_copy_sha256": "d3a7802847da056cb251e9d792a31db90d1413cb21f1b32754ec7ce03eadb7c5",
+      "source_text_sha256": "0a3c107195fd402bfc1a1d79e78d76d14fb50be4260e515e8b88185bd80566c0",
+      "limitations": [
+        "Lilex consolidated text is informational and has no legal effect; signed LGBl is authentic.",
+        "The official system register is current to 1 October 2026; it does not exclude a later VEV change.",
+        "Schengen acquis, the Visa Code, Schengen Borders Code, VISV/EESV, AuG/PFZG, Swiss agreements, visa-fee rules and operational mission guidance require separate review.",
+        "Source acceptance is separate from topic coverage and country completion."
+      ]
     }
   ]
 }
