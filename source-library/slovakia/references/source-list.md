@@ -6,7 +6,7 @@ Comparison seed: Denmark's EU free-movement residence regulation and guidance. F
 
 Status: all 40 source records have final notes under [documents/references/](../documents/references/). Thirty-six official external references are accepted within recorded scope; four have a not-accepted or pending-verification disposition. Zero local source texts and zero topics are accepted; country review remains open. The 31 converted candidate texts and captured source inputs are preserved in the Monitor's indexed local-only archive. Eight earlier MZV capture attempts returned HTTP 403; selected current pages were independently reviewed through official browser routes.
 
-- Machine-readable source inventory: [candidate-manifest.json](candidate-manifest.json)
+- Machine-readable accepted-reference register: [source-acceptance.json](source-acceptance.json)
 - Source acceptance and note hashes: [source-acceptance.json](source-acceptance.json)
 - Issue coverage and open work: [coverage-register.md](coverage-register.md)
 - Sustainability and maintenance assessment: [sustainability-assessment.md](sustainability-assessment.md)
