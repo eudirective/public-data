@@ -717,6 +717,73 @@
         "No local copy was accepted. Link acceptance is separate from local-document acceptance and topic coverage."
       ],
       "currentness_evidence_url": "https://mup.gov.hr/pristup-informacijama-16/zakoni-i-ostali-propisi/propisi/poslovi-policije-i-primjena-policijskih-ovlasti/sigurnost-podataka-i-informacijska-sigurnost/175295?big=1"
+    },
+    "hr-vis-decree": {
+      "status": "usable_official_reference",
+      "publisher": "Narodne novine, Official Gazette of the Republic of Croatia; enactment by the Government of the Republic of Croatia. MUP and MVEP official indexes list the regulation and its amendment.",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_03_36_657.html",
+      "checked_on": "2026-10-25",
+      "language": "Croatian",
+      "version_or_cutoff": "Original regulation NN 36/2013, item 657. The current MUP and MVEP indexes checked 25 October 2026 list NN 105/2017 as its amendment. The indexes identify the listed chain but provide no consolidated text.",
+      "scope": "Link-only reference to the original Croatian HVIS regulation and selected provisions about the national visa-information system, recorded data and information/access/correction/deletion and oversight provisions. It must be read with the separately listed 2017 amendment and the applicable EU VIS and data-protection rules.",
+      "reviewed_content": "The Gazette title, issue metadata, item number, enacting body and ELI identify the source. Articles 1(1)–(2) describe the HVIS/data subject matter and reference Regulation (EC) No 767/2008. Article 21 addresses recorded visa-case data and access. Articles 35–37 address notice, data-subject access/correction/deletion, AZOP oversight and Ministry controller identification. MUP and MVEP indexes list NN 36/13 and NN 105/17.",
+      "limitations": [
+        "This link is the original 2013 text, not a current consolidated version. The current MUP and MVEP indexes list NN 105/17 as the amendment, but no consolidated text or complete legal-effect review was performed.",
+        "The review does not map the original national wording to later EU VIS legislation, including Regulation (EU) 2021/1134, or determine which GDPR or law-enforcement regime governs a particular operation.",
+        "The selected rights and oversight provisions do not establish current request channels, exceptions, controller competence, complaint handling or judicial remedies for any particular VIS/SIS processing.",
+        "No local copy was accepted; local-document acceptance remains separate from this usable official-reference review."
+      ],
+      "additional_index_url": "https://mvep.gov.hr/informacije-za-gradjane-244593/konzularne-informacije-22730/vize-22733/propisi/22753?big=0"
+    },
+    "hr-vis-decree-amend-105-17": {
+      "status": "usable_official_reference",
+      "publisher": "Narodne novine, Official Gazette of the Republic of Croatia; enactment by the Government of the Republic of Croatia. MUP and MVEP official indexes list this as the amendment to NN 36/13.",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2017_10_105_2403.html",
+      "checked_on": "2026-10-25",
+      "language": "Croatian",
+      "version_or_cutoff": "Original amending regulation NN 105/2017, item 2403. MUP and MVEP indexes checked 25 October 2026 list it with the base NN 36/13 regulation; no consolidated text was identified.",
+      "scope": "Link-only reference to the specific 2017 amendment of Croatian VIS Regulation Article 21(3), concerning MUP border-administration officers’ access to visa-authority data for border-visa decisions and monitoring border-crossing procedures.",
+      "reviewed_content": "The Gazette page title, issue metadata, item 2403, enacting body and ELI identify the amendment. Article 1 replaces the base regulation’s Article 21(3); Article 2 states that the amending regulation enters into force on the eighth day after publication. MUP and MVEP indexes list NN 105/17 as the amendment to NN 36/13.",
+      "limitations": [
+        "The link is the 2017 amending text only. It is not the consolidated VIS regulation and does not establish the present legal effect of Article 21(3).",
+        "No conclusion is made about lawful access to any specific data or about whether a particular operation falls under GDPR or law-enforcement rules.",
+        "No local copy was accepted; local-document acceptance remains separate from this usable official-reference review."
+      ],
+      "additional_index_url": "https://mvep.gov.hr/informacije-za-gradjane-244593/konzularne-informacije-22730/vize-22733/propisi/22753?big=0"
+    },
+    "hr-visa-system-decree": {
+      "status": "usable_official_reference",
+      "publisher": "Narodne novine, Official Gazette of the Republic of Croatia; enactment by the Government of the Republic of Croatia. MVEP’s official visa-regulations index lists the instrument.",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2021_08_92_1661.html",
+      "checked_on": "2026-10-25",
+      "language": "Croatian",
+      "version_or_cutoff": "Original regulation NN 92/2021, item 1661. MVEP representations consistently list NN 92/21, but the page has conflicting Foreigners Act cutoffs across browser snapshots and no publisher update date; no complete amendment/validity chain for the visa-system regulation was established.",
+      "scope": "Link-only reference to the original 2021 Croatian visa-system regulation for its stated visa-system and short-stay means-of-maintenance subject matter, as a dated official text. It is not accepted as a current amount table or as proof of present visa eligibility.",
+      "reviewed_content": "The Gazette title, issue metadata, item 1661, enacting body and ELI identify the original act. Articles 1–2 state the subject matter and implementation relationship with Regulation (EU) 2018/1806 as amended by Regulation (EU) 2019/592. Article 9 contains original 2021 means-of-maintenance figures. Article 10 repeals former NN 55/15; Article 11 states commencement.",
+      "limitations": [
+        "This is the original 2021 text, not a verified consolidation. MVEP’s page representations consistently list NN 92/21, but their surrounding index content has conflicting cutoffs and no publisher update date; the listing is not conclusive proof of current legal force.",
+        "Do not use the original Article 9 figures as current thresholds without checking current legislation and applicable EU law. This regulation does not establish EEA-family visa exemptions, appeal rules, fees or mission practice.",
+        "No local copy was accepted; local-document acceptance remains separate from this usable official-reference review."
+      ],
+      "currentness_evidence_url": "https://mvep.gov.hr/informacije-za-gradjane-244593/konzularne-informacije-22730/vize-22733/propisi/22753?big=0"
+    },
+    "hr-mvep-visa-regulations": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Foreign and European Affairs of the Republic of Croatia (MVEP); page title “Propisi”. The page footer identifies the Republic of Croatia and MVEP.",
+      "url": "https://mvep.gov.hr/informacije-za-gradjane-244593/konzularne-informacije-22730/vize-22733/propisi/22753?big=0",
+      "checked_on": "2026-10-25",
+      "language": "Croatian",
+      "version_or_cutoff": "No publisher update or review date is displayed. Browser representations of the canonical page conflict: a search extract crawled about two weeks before this review lists the Foreigners Act through NN 55/26, while direct page retrieval crawled about five months before this review lists it only through NN 40/25; the legacy route is older still. MUP’s official index directly checked 2026-10-25 lists NN 55/26. The MVEP index content cutoff is therefore unresolved.",
+      "scope": "Link-only official MVEP locator for the national visa regulations and the EU instruments displayed on the page. Use it to identify the listed source links only; verify each national instrument and currentness against its Official Gazette record and the responsible authority index. It is not operative legal text or a current consolidated index.",
+      "reviewed_content": "The page title is “Propisi” and the MVEP publisher identity is shown in its footer. The retrieved representations consistently list Visa System Regulation NN 92/21, Visa Rulebook NN 109/21, Croatian VIS Regulation NN 36/13 and NN 105/17, and the Schengen Visa Code. They differ on the Foreigners Act chain: the newer search extract includes NN 55/26, while older direct and legacy-route snapshots show NN 40/25 and NN 151/22 respectively. The page also links Regulation (EU) 2018/1806, Regulation (EC) 767/2008, Directive 2004/38, and visa-facilitation agreements.",
+      "limitations": [
+        "No publisher update date is displayed. The browser returned conflicting representations of the same canonical page, with different crawl ages and Foreigners Act chains; the page’s current content cutoff cannot be established from these views.",
+        "MUP’s official index directly checked 2026-10-25 lists the Foreigners Act chain through NN 55/26. Use the responsible-authority index and Official Gazette texts for currentness, not the conflicting MVEP page snapshots.",
+        "The MVEP page consistently lists Visa System Regulation NN 92/21, but that listing alone does not establish a complete amendment/validity chain, consolidated wording, or current Article 9 amounts.",
+        "The index links to separate instruments and EU materials; it does not provide consolidated text or establish each item’s present legal effect.",
+        "This link review does not establish visa eligibility, EEA-family safeguards, current amounts, procedures, appeal rights, mission practice or local-copy acceptance."
+      ],
+      "additional_index_url": "https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/propisi-652/652"
     }
   },
   "official_reference_review_schema": {
@@ -3470,12 +3537,15 @@
       "status": "located_not_captured",
       "checks": {
         "publisher_identity": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "pass",
+          "evidence": "Narodne novine identifies Uredba o Hrvatskom viznom informacijskom sustavu as NN 36/2013, item 657, adopted by the Government of the Republic of Croatia, ELI /eli/sluzbeni/2013/36/657. The current MUP and MVEP legislation indexes both link NN 36/13 and NN 105/17. Checked 2026-10-25."
         },
         "current_legal_version": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "pass",
+          "chain_id": "hr-vis-decree-chain",
+          "review_date": "2026-10-25",
+          "evidence_url": "https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/propisi-652/652",
+          "evidence": "The live MUP Propisi and MVEP visa-regulations indexes checked 2026-10-25 both list NN 36/13 and NN 105/17 as the Croatian VIS regulation chain. This is publisher-index evidence for the listed version, not a consolidated text or a review of the effect of later EU VIS law."
         },
         "extraction_completeness": {
           "status": "pending",
@@ -3486,8 +3556,8 @@
           "evidence": "Not yet reviewed."
         },
         "legal_classification": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "pass",
+          "evidence": "Articles 1, 21 and 35–37 of the original regulation identify the national HVIS data and visa-decision rules, data-subject notice/access/correction/deletion provisions, and AZOP oversight. These are provisions in the source text, not a conclusion about their present effect after later EU VIS changes."
         },
         "lawful_reuse": {
           "status": "pass",
@@ -3506,12 +3576,15 @@
       "status": "located_not_captured",
       "checks": {
         "publisher_identity": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "pass",
+          "evidence": "Narodne novine identifies Uredba o izmjeni Uredbe o Hrvatskom viznom informacijskom sustavu as NN 105/2017, item 2403, adopted by the Government of the Republic of Croatia, ELI /eli/sluzbeni/2017/105/2403. MUP and MVEP indexes list it as the amendment to NN 36/13. Checked 2026-10-25."
         },
         "current_legal_version": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "pass",
+          "chain_id": "hr-vis-decree-chain",
+          "review_date": "2026-10-25",
+          "evidence_url": "https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/propisi-652/652",
+          "evidence": "The live MUP Propisi and MVEP visa-regulations indexes checked 2026-10-25 both list NN 105/17 with the base NN 36/13 VIS regulation. This confirms the publisher-listed amendment chain only; it does not provide consolidated wording or resolve later EU VIS-law effects."
         },
         "extraction_completeness": {
           "status": "pending",
@@ -3522,8 +3595,8 @@
           "evidence": "Not yet reviewed."
         },
         "legal_classification": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "pass",
+          "evidence": "Article 1 replaces Croatian VIS Regulation NN 36/13 Article 21(3), specifying access to visa-authority records by authorized MUP border-administration officers for border-visa decisions and border-crossing oversight. Article 2 states entry into force."
         },
         "lawful_reuse": {
           "status": "pass",
@@ -3598,12 +3671,12 @@
       "status": "located_not_captured",
       "checks": {
         "publisher_identity": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "pass",
+          "evidence": "Narodne novine identifies Uredba o viznom sustavu as NN 92/2021, item 1661, adopted by the Government of the Republic of Croatia, ELI /eli/sluzbeni/2021/92/1661. MVEP’s visa-regulations index links the same item. Checked 2026-10-25."
         },
         "current_legal_version": {
           "status": "pending",
-          "evidence": "Not yet reviewed."
+          "evidence": "MVEP browser representations checked 2026-10-25 consistently list NN 92/21, but the same page has conflicting Foreigners Act cutoffs across search and direct-view snapshots and no publisher update date. No independent complete amendment/validity search or current consolidation for the visa-system regulation was established; retain the dated official enactment, but do not treat Article 9 amounts or legal force as current."
         },
         "extraction_completeness": {
           "status": "pending",
@@ -3614,8 +3687,8 @@
           "evidence": "Not yet reviewed."
         },
         "legal_classification": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "pass",
+          "evidence": "The official title and Articles 1–2 classify this as the national visa-system regulation; Article 1 also addresses means for short-stay maintenance and return, while Article 2 states implementation of Regulation (EU) 2018/1806 as amended by Regulation (EU) 2019/592."
         },
         "lawful_reuse": {
           "status": "pass",
@@ -4739,7 +4812,7 @@
     "legal_classification": "Label the source role; this does not itself establish topic sufficiency.",
     "lawful_reuse": "Applies only to retaining or redistributing a local copy; not to citing or linking an official page."
   },
-  "official_reference_count": 37,
+  "official_reference_count": 41,
   "human_review_sites": [
     {
       "id": "hr-current-government-consolidation-portals",

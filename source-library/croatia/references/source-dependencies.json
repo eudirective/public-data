@@ -166,7 +166,8 @@
       "related_instrument_locator": "https://eur-lex.europa.eu/eli/reg/2018/1806/oj/eng",
       "dependency_review_status": "current_consolidations_required",
       "evidence": [
-        "Listed or cross-referenced in official Croatian visa sources; amendments and application date to be checked."
+        "Listed or cross-referenced in official Croatian visa sources; amendments and application date to be checked.",
+        "On 2026-10-25 the original NN 92/21 Visa System Decree was checked by link. Articles 1–2 describe the national visa-system/means subject matter and its stated implementation of Regulation (EU) 2018/1806; current amendment status, present amounts and issue-specific EEA-family effect remain open."
       ]
     },
     {
@@ -187,7 +188,8 @@
       "dependency_review_status": "unresolved",
       "evidence": [
         "MUP/MVEP indexes list Croatian VIS instruments; differentiate GDPR-controlled processing from law-enforcement processing and trace controller/complaint routes.",
-        "The live MVEP page and linked form cite the VIS Regulation (EC) No 767/2008 and GDPR rights; the form requests access, correction and deletion, while the page also mentions restriction."
+        "The live MVEP page and linked form cite the VIS Regulation (EC) No 767/2008 and GDPR rights; the form requests access, correction and deletion, while the page also mentions restriction.",
+        "On 2026-10-25 the official NN 36/13 VIS regulation and NN 105/17 amendment were checked by link. Articles 35–37 of the original text state selected notice, access/correction/deletion and AZOP-oversight provisions; Article 21(3) was changed by NN 105/17. This does not determine current effect after later EU VIS rules or classify a specific operation under GDPR versus LED."
       ]
     },
     {
@@ -1289,11 +1291,17 @@
     },
     {
       "source_id": "hr-mvep-visa-regulations",
-      "status": "not_reviewed",
-      "dependency_ids": [],
-      "evidence": "No source-level dependency scan has been recorded. Absence from the dependency graph is not a finding that the source has no material references.",
+      "status": "known_edges_not_exhaustive",
+      "dependency_ids": [
+        "hr-visa-code",
+        "hr-schengen-border-and-visa-list",
+        "hr-vis-and-data-protection",
+        "hr-eea-act-directive-2004-38"
+      ],
+      "evidence": "The MVEP page “Propisi” views reviewed on 2026-10-25 list the Visa Code, Regulation (EU) 2018/1806, VIS Regulation (EC) 767/2008, Directive 2004/38, and the national Visa System Regulation, Visa Rulebook, and NN 36/13 + 105/17 VIS regulation. These are index links, not operative cross-reference text. Browser representations of the Foreigners Act list conflict: a recent search extract includes NN 55/26, while older direct and legacy-route views show NN 40/25 and NN 151/22. The MUP index checked the same day directly lists NN 55/26. This records known linked subject areas only; it is not an exhaustive dependency scan or currentness determination.",
       "remaining_work": [
-        "Inspect the source for cross-references and record a reviewed-with-dependencies or reasoned no-material-dependencies disposition."
+        "Verify every listed instrument against its official text and current responsible-authority index before relying on it for a legal proposition.",
+        "Review the substantive national/EU cross-references, amendments, status and issue-specific applicability in the linked instruments."
       ]
     },
     {
@@ -1420,9 +1428,10 @@
         "hr-law-enforcement-data-regime",
         "hr-vis-and-data-protection"
       ],
-      "evidence": "This source is linked to the listed dependency records. The register does not yet prove that every material reference in this source has been found or that linked dependencies are resolved.",
+      "evidence": "On 2026-10-25 the MUP and MVEP indexes were checked and both list the NN 36/13 + 105/17 VIS chain. The official NN 36/13 text refers in Article 1(2) to Regulation (EC) No 767/2008 and contains data/access and rights/oversight provisions in Articles 21 and 35–37; NN 105/17 Article 1 replaces Article 21(3). This is a bounded screen, not an exhaustive dependency, currentness or post-recast EU-law review.",
       "remaining_work": [
-        "Inspect source text and record every material national/EU instrument, amendment, validity judgment, successor, and procedural dependency; resolve each linked edge."
+        "Review every cross-reference, amendment, validity judgment, successor and procedural dependency; reconcile the national provisions with later EU VIS law and the GDPR/LED division for specific processing purposes.",
+        "Map each VIS/SIS controller, rights route, exceptions and complaint/remedy path; resolve the linked dependency records."
       ]
     },
     {
@@ -1432,9 +1441,10 @@
         "hr-law-enforcement-data-regime",
         "hr-vis-and-data-protection"
       ],
-      "evidence": "This source is linked to the listed dependency records. The register does not yet prove that every material reference in this source has been found or that linked dependencies are resolved.",
+      "evidence": "On 2026-10-25 the MUP and MVEP indexes were checked and both list the NN 36/13 + 105/17 VIS chain. The official NN 36/13 text refers in Article 1(2) to Regulation (EC) No 767/2008 and contains data/access and rights/oversight provisions in Articles 21 and 35–37; NN 105/17 Article 1 replaces Article 21(3). This is a bounded screen, not an exhaustive dependency, currentness or post-recast EU-law review.",
       "remaining_work": [
-        "Inspect source text and record every material national/EU instrument, amendment, validity judgment, successor, and procedural dependency; resolve each linked edge."
+        "Review every cross-reference, amendment, validity judgment, successor and procedural dependency; reconcile the national provisions with later EU VIS law and the GDPR/LED division for specific processing purposes.",
+        "Map each VIS/SIS controller, rights route, exceptions and complaint/remedy path; resolve the linked dependency records."
       ]
     },
     {
@@ -1455,9 +1465,10 @@
         "hr-schengen-border-and-visa-list",
         "hr-visa-code"
       ],
-      "evidence": "This source is linked to the listed dependency records. The register does not yet prove that every material reference in this source has been found or that linked dependencies are resolved.",
+      "evidence": "The official NN 92/21 text was checked on 2026-10-25: Articles 1–2 state the visa-system/means subject matter and Regulation (EU) 2018/1806 implementation; Article 9 contains original means figures and Article 10 repeals NN 55/15. MVEP representations consistently list NN 92/21, but the page has conflicting Foreigners Act cutoffs across browser snapshots and no publisher update date; the decree’s complete currentness remains unverified.",
       "remaining_work": [
-        "Inspect source text and record every material national/EU instrument, amendment, validity judgment, successor, and procedural dependency; resolve each linked edge."
+        "Verify the current official amendment/validity chain and applicable current means thresholds; do not infer them from the original NN 92/21 text or an undated index.",
+        "Inspect all source cross-references and map the decree to current EU visa law, the visa rulebook, fee rules and EEA-family safeguards."
       ]
     },
     {

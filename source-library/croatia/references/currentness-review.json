@@ -5,9 +5,9 @@
   "authority": {
     "name": "Ministry of the Interior of the Republic of Croatia",
     "index_url": "https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/propisi-652/652",
-    "retrieval_reference": "Official MUP Propisi page directly checked 2026-10-24: https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/propisi-652/652 (EEA and third-country instrument list).",
-    "scope": "Current official legislative index for EEA free movement, third-country residence, and third-country procedure instruments. It helps identify the latest listed version and known amendments; it is not a consolidated-text source and does not create a requirement to retrieve every listed act.",
-    "reviewed_on": "2026-10-24"
+    "retrieval_reference": "Official MUP Propisi page directly checked 2026-10-25. For the Croatian VIS regulation, MUP and MVEP both list NN 36/13 and NN 105/17. The MUP page links the Gazette records individually rather than providing a consolidated text.",
+    "scope": "Current MUP official legislative index for EEA, third-country, and Croatian VIS instruments; it helps identify the latest listed versions and known amendments but is not a consolidated-text source.",
+    "reviewed_on": "2026-10-25"
   },
   "chains": [
     {
@@ -321,6 +321,20 @@
       "status": "commissioner_lists_chain_official_consolidation_unofficial",
       "authority_url": "https://pristupinfo.hr/pravni-okvir/",
       "evidence": "The Information Commissioner’s current legal framework checked on 2026-10-24 lists NN 25/13, 85/15 and 69/22 and links an expressly unofficial consolidated text. The retained local Gazette text is only the original NN 25/13 enactment; it is not a current consolidation."
+    },
+    {
+      "id": "hr-vis-decree-chain",
+      "source_ids": [
+        "hr-vis-decree",
+        "hr-vis-decree-amend-105-17"
+      ],
+      "instrument": "Uredba o Hrvatskom viznom informacijskom sustavu",
+      "gazette_chain": [
+        "NN 36/13",
+        "NN 105/17"
+      ],
+      "status": "current_index_chain_verified_not_consolidated",
+      "evidence": "The current MUP Propisi page directly checked on 2026-10-25 lists the Croatian VIS regulation as NN 36/13 and 105/17. The MVEP visa-regulations index also lists the same pair. This verifies the two publisher-listed references, not consolidated wording, post-2017 legal effects, or the effect of later EU VIS legislation."
     }
   ],
   "conflicts": [
