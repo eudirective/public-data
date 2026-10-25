@@ -538,15 +538,16 @@
       "status": "usable_official_reference",
       "publisher": "Ministry of Foreign Affairs (MFA), Bulgaria",
       "url": "https://www.mfa.bg/en/services-travel/consular-services/travel-bulgaria/visa-bulgaria/",
-      "checked_on": "2026-10-24",
+      "checked_on": "2026-10-25",
       "language": "English",
-      "version_or_cutoff": "Dynamic HTML page checked 24 October 2026; footer identifies the site as © 2018–2026, with no separate page revision date.",
+      "version_or_cutoff": "Dynamic HTML page rechecked 25 October 2026; footer identifies the site as © 2018–2026, with no separate page revision date.",
       "scope": "Central MFA visa and consular guidance, including EU/EEA/Swiss family processing, application channels, prior consultation, refusal routes, and visa-application-centre information.",
-      "reviewed_content": "The live page links the Commission prior-consultation list and describes EU-family application treatment, supporting-document exemptions, central refusal routes, and outsourced application locations.",
+      "reviewed_content": "The live page links the Commission prior-consultation list and describes the general 15-day application timing, 15-day decision period with possible extension to 45 days, and possible appointment requirement. It says EU/EEA/Swiss family or household members need provide only relationship evidence and lists exemptions from means/accommodation/transport evidence, insurance evidence, and application-processing fees for family members of Bulgarian and EU citizens. It gives refusal routes to the MFA or Administrative Court Sofia-city and lists outsourced application locations. The page was reopened on 25 October, but the retained full text remains the dated 19 October snapshot; the review note records current legal mapping and the snapshot was not fully recaptured.",
       "limitations": [
         "Dynamic general guidance is not a substitute for the Visa Code, Bulgarian legislation, or mission-specific instructions.",
-        "Mission appointment routes, local checklists, and representation arrangements require separate review.",
-        "The retained text is a dated 2026-10-19 snapshot. No page revision date was displayed; recheck the current page before relying on changeable details."
+        "The generic appointment and 15-day timing instructions are not expressly scoped to qualifying EU-family applicants and do not explain the accelerated procedure; mission-level instructions remain open.",
+        "The MFA page's broader family/household descriptions do not by themselves establish that every listed person qualifies under Directive 2004/38/EC; apply the relevant legal scope.",
+        "The retained full-text snapshot is dated 2026-10-19. It was rechecked on 25 October, but a full new page capture was not made."
       ]
     },
     "bg-annex-16-prior-consultations": {
@@ -1486,6 +1487,46 @@
         "The VAS exact-acronym search returned 23 cases, but only this decision was fully screened in the 25 October batch. The other matches and separate lower-court case-law surfaces remain unresolved.",
         "The native six-page official PDF is retained unchanged at ../documents/case_law/bg-vas-decision-3002-2026.pdf. The public judgment contains case-specific personal data; the register and discovery note omit names and direct identifiers."
       ]
+    },
+    "bg-eu-schengen-acquis-2024-210": {
+      "status": "usable_official_reference",
+      "publisher": "Council of the European Union / EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024D0210",
+      "checked_on": "2026-10-25",
+      "language": "English",
+      "version_or_cutoff": "Council Decision (EU) 2024/210, adopted 30 December 2023; published in OJ L on 4 January 2024; Article 1 applies the listed acquis from 31 March 2024.",
+      "scope": "EU source establishing when the listed Schengen acquis, including the Visa Code, applied to Bulgaria and Romania.",
+      "reviewed_content": "Article 1 sets application of the Annex provisions from 31 March 2024. Annex item 5 expressly lists Regulation (EC) No 810/2009 (Visa Code), subject to the stated Article 3 exception to the extent not covered by Decision (EU) 2017/1908. The decision resolves the temporal premise relevant to Bulgaria's Visa Code status.",
+      "limitations": [
+        "Link-only reference; no local copy is retained.",
+        "The decision establishes the application date and listed acquis; it does not establish Bulgarian mission practice or topic completion."
+      ],
+      "supporting_sources": [
+        {
+          "title": "Council Decision (EU) 2024/210, official EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024D0210"
+        }
+      ]
+    },
+    "bg-eu-schengen-land-controls-2024-3212": {
+      "status": "usable_official_reference",
+      "publisher": "Council of the European Union / EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024D3212",
+      "checked_on": "2026-10-25",
+      "language": "English",
+      "version_or_cutoff": "Council Decision (EU) 2024/3212, adopted 12 December 2024; published in OJ L on 23 December 2024.",
+      "scope": "EU source setting the date for the lifting of checks on persons at internal land borders with and between Bulgaria and Romania.",
+      "reviewed_content": "Article 1 provides that those internal land-border checks are lifted from 1 January 2025. This is a separate later Schengen milestone and not the start date for application of the Visa Code, which Decision (EU) 2024/210 set at 31 March 2024.",
+      "limitations": [
+        "Link-only reference; no local copy is retained.",
+        "The decision concerns internal land-border checks and does not itself establish visa processing or mission practice."
+      ],
+      "supporting_sources": [
+        {
+          "title": "Council Decision (EU) 2024/3212, official EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024D3212"
+        }
+      ]
     }
   },
   "official_reference_review_schema": {
@@ -2293,7 +2334,7 @@
     }
   ],
   "material_dependencies": "See references/source-dependencies.json. National statutory wording is preserved; the EU 2019/1157 reference is tracked separately from Regulation (EU) 2025/1208.",
-  "official_reference_count": 60,
+  "official_reference_count": 62,
   "local_copy_required_checks": [
     "publisher_identity",
     "current_legal_version",
