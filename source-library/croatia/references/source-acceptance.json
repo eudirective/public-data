@@ -700,7 +700,7 @@
     ],
     "note": "Record a human-reviewed official source link here when it supports a coverage layer without a retained local copy. This record does not change the local accepted-source count. Use version_or_cutoff='not displayed' and explain the limit when the publisher shows no version marker."
   },
-  "accepted_source_count": 40,
+  "accepted_source_count": 41,
   "records": {
     "hr-access-info-act": {
       "status": "accepted",
@@ -755,7 +755,8 @@
       "raw_archive_path": "captures/eudirective-public-data/HR/raw/hr-access-info-act-dcd511c49abb11d142159cd1fdbaf837faec5c68ab9a5da0227be8f554355051.html",
       "source_fragment_archive_path": "captures/eudirective-public-data/HR/official-texts/hr-access-info-act.html",
       "source_fragment_sha256": "709ee34ac59e0b6ba1afed79a1716a4e3d902414c2479d6d0a478fdefa2acc86",
-      "local_file_sha256": "81b33bc0e8023663a3e1bb57e00aec15e9dda1d1dd50072a172e81548d686fe6"
+      "local_file_sha256": "81b33bc0e8023663a3e1bb57e00aec15e9dda1d1dd50072a172e81548d686fe6",
+      "candidate_archive_path": "candidates/eudirective-public-data/HR/legislation/hr-access-info-act.md"
     },
     "hr-access-info-amend-69-22": {
       "status": "located_not_captured",
@@ -990,47 +991,66 @@
       "raw_archive_path": "captures/eudirective-public-data/HR/raw/hr-azop-complaint-d0671bec46679c08b92af653020fd500e384018875dff9b8ecbdf1cbe24f5bb8.html"
     },
     "hr-azop-vis-sis": {
-      "status": "excluded_stale_source_lead",
+      "status": "accepted",
       "checks": {
         "publisher_identity": {
           "status": "pass",
-          "review_date": "2026-10-24",
-          "evidence": "Live official publisher page checked 2026-10-24 at Captured from https://azop.hr/processing-of-personal-data-in-the-schengen-information-system-sis-and-the-visa-information-system-vis-2/; publisher host and record identity still need a person/source-specific check."
+          "review_date": "2026-10-25",
+          "evidence_url": "https://azop.hr/processing-of-personal-data-in-the-schengen-information-system-sis-and-the-visa-information-system-vis-2/",
+          "evidence": "The live English page and its SIS “Data subject rights” subsection were checked on 2026-10-25. AZOP is the official Croatian personal-data supervisory authority and publishes the subsection at the recorded URL."
         },
         "current_legal_version": {
-          "status": "fail",
-          "review_date": "2026-10-24",
-          "evidence": "The live page mixes current citations to Regulations (EU) 2018/1861 and 2018/1862 with extended legacy SIS II descriptions and an obsolete 25-EU-state count. Excluded as a whole-page current operational guide; use the direct MUP SIS and MVEP VIS pages/forms for present authority routes."
+          "status": "pass",
+          "review_date": "2026-10-25",
+          "evidence_url": "https://azop.hr/processing-of-personal-data-in-the-schengen-information-system-sis-and-the-visa-information-system-vis-2/",
+          "evidence": "No publication or modification date is displayed. The live subsection served on 2026-10-25 cites Regulations (EU) 2018/1861 and 2018/1862 and gives the MUP route. MUP’s current English personal-data page and linked SIS forms were checked separately. Acceptance is limited to the subsection as the official page currently serves it; it does not certify a complete statement of all SIS rights, law-enforcement processing or current legal effect."
         },
         "extraction_completeness": {
-          "status": "pending",
-          "review_date": "2026-10-24",
-          "evidence": "No page capture is accepted. The historical archived candidate is retained only as a lead/comparator; this check is not a local-source acceptance."
+          "status": "pass",
+          "review_date": "2026-10-25",
+          "evidence_url": "https://azop.hr/processing-of-personal-data-in-the-schengen-information-system-sis-and-the-visa-information-system-vis-2/",
+          "evidence": "The archived candidate extraction’s complete “Data subject rights” SIS subsection, from its heading through the linked Regulation (EU) 2018/1861 reference, was compared with the live page’s visible section on 2026-10-25. Wording and order match after whitespace and hyperlink presentation normalization. The publisher shell and the rest of the mixed SIS/VIS article are omitted."
         },
         "attachments_review": {
-          "status": "not_applicable",
-          "review_date": "2026-10-24",
-          "evidence": "No attachment is accepted or relied upon from this excluded lead."
+          "status": "pass",
+          "review_date": "2026-10-25",
+          "evidence_url": "https://azop.hr/processing-of-personal-data-in-the-schengen-information-system-sis-and-the-visa-information-system-vis-2/",
+          "evidence": "The accepted subsection contains links to the current MUP information page and three MUP SIS request PDFs; those PDFs are separately accepted unchanged under documents/forms/. No linked file, image, external guide or website shell is copied into this document."
         },
         "legal_classification": {
           "status": "pass",
-          "review_date": "2026-10-24",
-          "evidence": "Classified as an excluded historical/stale official guidance lead, not an operative legal source."
+          "review_date": "2026-10-25",
+          "evidence_url": "https://azop.hr/processing-of-personal-data-in-the-schengen-information-system-sis-and-the-visa-information-system-vis-2/",
+          "evidence": "Official regulator guidance on the SIS access, rectification and erasure request route in Croatia; nonbinding and limited to the page subsection. The article’s VIS section and legacy SIS II descriptions are not accepted."
         },
         "lawful_reuse": {
-          "status": "not_applicable",
-          "review_date": "2026-10-24",
-          "evidence": "No local page copy or page text is accepted."
+          "status": "pass",
+          "review_date": "2026-10-25",
+          "scope": "static_SIS_data_subject_rights_subsection_with_attribution",
+          "basis_id": "AZOP Terms of Use checked 2026-10-25",
+          "evidence": "AZOP Terms of Use at https://azop.hr/uvjeti-koristenja/ permit attributed republication and prohibit changes that alter the source meaning. This local copy identifies AZOP and the source URL, preserves the selected subsection’s wording, and excludes the rest of the page, publisher shell and linked materials."
         }
       },
       "semantic_review": {
-        "status": "partial",
-        "method": "live_official_page_review_and_comparison_with_current_authority_sources",
-        "review_date": "2026-10-24",
-        "evidence": "Live AZOP page checked 2026-10-24. Scoped review found both current legal citations and materially legacy descriptions, so no whole-page current procedural reliance is accepted. Current authority routes are recorded separately under the MUP and MVEP references."
+        "status": "passed",
+        "method": "archived_candidate_excerpt_compared_with_live_visible_page_and_current_MUP_route",
+        "review_date": "2026-10-25",
+        "scope": "AZOP English SIS “Data subject rights” subsection only",
+        "evidence": "The archived candidate subsection was compared with the live AZOP visible section through its Regulation (EU) 2018/1861 reference. The wording and order match after whitespace and hyperlink presentation normalization. The MUP route and three linked forms were cross-checked against the current MUP personal-data page and the separately accepted PDFs. The obsolete 25-EU-state passage, other legacy SIS II descriptions, and incomplete VIS section were excluded; no VIS claim is accepted.",
+        "source_sha256": "ea42b4803f047025978bc5ba2046b890cf40a963c4ef6a68cbcf4cda494dacdb",
+        "raw_archive_path": "captures/eudirective-public-data/HR/raw/hr-azop-vis-sis-ea42b4803f047025978bc5ba2046b890cf40a963c4ef6a68cbcf4cda494dacdb.html",
+        "candidate_archive_path": "candidates/eudirective-public-data/HR/oversight/hr-azop-vis-sis.md"
       },
+      "accepted_on": "2026-10-25",
+      "document_path": "source-library/croatia/documents/guidance/hr-azop-sis-rights.md",
+      "source_sha256": "ea42b4803f047025978bc5ba2046b890cf40a963c4ef6a68cbcf4cda494dacdb",
+      "source_response_sha256": "ea42b4803f047025978bc5ba2046b890cf40a963c4ef6a68cbcf4cda494dacdb",
+      "source_bytes": 130251,
+      "source_response_bytes": 130251,
       "candidate_archive_path": "candidates/eudirective-public-data/HR/oversight/hr-azop-vis-sis.md",
-      "exclusion_reason": "The live page mixes current citations to Regulations (EU) 2018/1861 and 2018/1862 with extended legacy SIS II descriptions and an obsolete 25-EU-state count. Excluded as a whole-page current operational guide; use the direct MUP SIS and MVEP VIS pages/forms for present authority routes."
+      "raw_archive_path": "captures/eudirective-public-data/HR/raw/hr-azop-vis-sis-ea42b4803f047025978bc5ba2046b890cf40a963c4ef6a68cbcf4cda494dacdb.html",
+      "local_file_sha256": "8cc34f1778a5b952d8f3d380200844af5abe26de14199b85450c58314e757e54",
+      "local_file_bytes": 3676
     },
     "hr-court-decisions": {
       "status": "discovery_source_only",
@@ -1415,7 +1435,8 @@
       "raw_archive_path": "captures/eudirective-public-data/HR/raw/hr-eea-reg-e3f263a922178bc613acadb6d99cff3cd06f243c889f1c02090594841a9f6682.html",
       "source_fragment_archive_path": "captures/eudirective-public-data/HR/official-texts/hr-eea-reg.html",
       "source_fragment_sha256": "dd0fc404c9e29839240f4ddb4a605b7b1eb72ddd4489b4a99eecfe42626ead97",
-      "local_file_sha256": "a3cd8379045c98eeea8109653572be432501adee483bc383a934d88a476436ea"
+      "local_file_sha256": "a3cd8379045c98eeea8109653572be432501adee483bc383a934d88a476436ea",
+      "candidate_archive_path": "candidates/eudirective-public-data/HR/legislation/hr-eea-reg.md"
     },
     "hr-eea-reg-amend-148-20": {
       "status": "accepted",
@@ -1471,7 +1492,8 @@
       "raw_archive_path": "captures/eudirective-public-data/HR/raw/hr-eea-reg-amend-148-20-f707364c6be0eb5d58187f7da68900d1f3f490e10efe279745596add20171be2.html",
       "source_fragment_archive_path": "captures/eudirective-public-data/HR/official-texts/hr-eea-reg-amend-148-20.html",
       "source_fragment_sha256": "033ca39b3aaf24f653953672fab79109e8660a914f4abc4dce7c2b1f856b2c0e",
-      "local_file_sha256": "d100cdaf06e9a29ff4a6b0a9ad2d082f23ddb8c41e107685c3f5075ae6a3212e"
+      "local_file_sha256": "d100cdaf06e9a29ff4a6b0a9ad2d082f23ddb8c41e107685c3f5075ae6a3212e",
+      "candidate_archive_path": "candidates/eudirective-public-data/HR/legislation/hr-eea-reg-amend-148-20.md"
     },
     "hr-eea-reg-amend-155-22": {
       "status": "accepted",
@@ -1583,7 +1605,8 @@
       "raw_archive_path": "captures/eudirective-public-data/HR/raw/hr-eea-reg-amend-86-21-45191d745c1e061e1e8bbd7da794928340404092761b7bccc260d203792e28e0.html",
       "source_fragment_archive_path": "captures/eudirective-public-data/HR/official-texts/hr-eea-reg-amend-86-21.html",
       "source_fragment_sha256": "b37de8bfbb98ee7fa6ca29191dc2be180d9444d4e9a3c5ef9d7123a46dd231f6",
-      "local_file_sha256": "bd30232846ac1484f881517a0edd79e234b91e0301ec279d37769d6c1af3ab13"
+      "local_file_sha256": "bd30232846ac1484f881517a0edd79e234b91e0301ec279d37769d6c1af3ab13",
+      "candidate_archive_path": "candidates/eudirective-public-data/HR/legislation/hr-eea-reg-amend-86-21.md"
     },
     "hr-foreigners-act": {
       "status": "accepted",
@@ -2903,7 +2926,8 @@
       "raw_archive_path": "captures/eudirective-public-data/HR/raw/hr-ombudsman-act-884bcc5fac6b2d847cf72233086489d264ce9d77e6512d407489e2f4eb4d0b4b.html",
       "source_fragment_archive_path": "captures/eudirective-public-data/HR/official-texts/hr-ombudsman-act.html",
       "source_fragment_sha256": "93e2c44efd8ac0346d4f7f0853cfb5704da1f352dd3013cd4b77e2d0f8578c93",
-      "local_file_sha256": "cb167ace99b42e7f91f799dff33deac1f074f3a6a3aa5453d0021f6d80104852"
+      "local_file_sha256": "cb167ace99b42e7f91f799dff33deac1f074f3a6a3aa5453d0021f6d80104852",
+      "candidate_archive_path": "candidates/eudirective-public-data/HR/oversight/hr-ombudsman-act.md"
     },
     "hr-ombudsman-complaints": {
       "status": "accepted",
@@ -3173,7 +3197,8 @@
       "raw_archive_path": "captures/eudirective-public-data/HR/raw/hr-third-country-procedure-rule-aa72c3f9d98efdad41b95552ec491ce021ac1419d0ea58c38e1d8f4d2bc673a6.html",
       "source_fragment_archive_path": "captures/eudirective-public-data/HR/official-texts/hr-third-country-procedure-rule.html",
       "source_fragment_sha256": "06b297de63ed5c01576f6be21c4d94977183fd0b49153b99a99862d86dc019cb",
-      "local_file_sha256": "929ad6853c1266506181cdbf2380ecacacf70d8328c4f683ada003e0dbfda72a"
+      "local_file_sha256": "929ad6853c1266506181cdbf2380ecacacf70d8328c4f683ada003e0dbfda72a",
+      "candidate_archive_path": "candidates/eudirective-public-data/HR/legislation/hr-third-country-procedure-rule.md"
     },
     "hr-third-country-residence-amend-155-22": {
       "status": "located_not_captured",
@@ -3307,7 +3332,8 @@
       "raw_archive_path": "captures/eudirective-public-data/HR/raw/hr-third-country-residence-rule-02508b7879e8d5a0414d9554b6bdf760cccc8f304c801e8d7a29ecc8047ec085.html",
       "source_fragment_archive_path": "captures/eudirective-public-data/HR/official-texts/hr-third-country-residence-rule.html",
       "source_fragment_sha256": "3518b272de32e49233f9f97eedda33a347e7e2489bbc6186692bdef7379028ee",
-      "local_file_sha256": "cf75308308e57f5e0f65f8991243d167cde7771df90228ce065970ef5d300e72"
+      "local_file_sha256": "cf75308308e57f5e0f65f8991243d167cde7771df90228ce065970ef5d300e72",
+      "candidate_archive_path": "candidates/eudirective-public-data/HR/legislation/hr-third-country-residence-rule.md"
     },
     "hr-vis-decree": {
       "status": "located_not_captured",
@@ -3434,7 +3460,8 @@
       "raw_archive_path": "captures/eudirective-public-data/HR/raw/hr-visa-ordinance-ddbffcb5b5c0a102ac97fb67f3088df3b06384715d7f9f69a821c6675727c033.html",
       "source_fragment_archive_path": "captures/eudirective-public-data/HR/official-texts/hr-visa-ordinance.html",
       "source_fragment_sha256": "e511377efc5c113cc6600e5c6c9e27e88b9c6121c567c2e0eea14bfdadfdd871",
-      "local_file_sha256": "d136adcb33346a97f141e16e8ca0dc3f4223b74683cb810631c21c9aec54bf09"
+      "local_file_sha256": "d136adcb33346a97f141e16e8ca0dc3f4223b74683cb810631c21c9aec54bf09",
+      "candidate_archive_path": "candidates/eudirective-public-data/HR/legislation/hr-visa-ordinance.md"
     },
     "hr-visa-system-decree": {
       "status": "located_not_captured",
