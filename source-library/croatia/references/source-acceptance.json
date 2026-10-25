@@ -700,6 +700,23 @@
         "Whether any particular immigration, VIS or SIS processing falls under the GDPR or a law-enforcement regime remains unresolved.",
         "No local copy was accepted; local-copy status remains separate from this usable official-reference review."
       ]
+    },
+    "hr-law-enforcement-data-act": {
+      "status": "usable_official_reference",
+      "publisher": "Narodne novine, Official Gazette of the Republic of Croatia; enactment by Hrvatski sabor. The Ministry of the Interior (MUP) official laws page also links the cited act.",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_07_68_1391.html",
+      "checked_on": "2026-10-25",
+      "language": "Croatian",
+      "version_or_cutoff": "Original enactment NN 68/2018, item 1391, published 27 July 2018. Article 57 states entry into force on the eighth day after publication. MUP lists the NN 68/18 citation; no current consolidation or complete amendment/validity chain was verified.",
+      "scope": "Link-only reference to the original Croatian law implementing Directive (EU) 2016/680 for processing by competent authorities for the criminal-law and public-security purposes stated in Article 1. Supports identification and review of the original enactment’s scope, selected data-subject rights and supervisory provisions. Does not classify any particular immigration, VIS or SIS operation.",
+      "reviewed_content": "The official Gazette page title, issue metadata, item 1391, enacting body and ELI identify the original Act. Articles 1–3 state purpose, transposition of Directive (EU) 2016/680, scope and exclusions. Articles 15–17 address access, limitations, rectification, erasure and restriction in the original text. Articles 41 and 43–44 address supervisory oversight, duties and corrective powers. Article 57 gives the commencement rule. MUP’s official laws page links the same NN 68/18 enactment.",
+      "limitations": [
+        "This is the original 2018 enactment only. A current consolidation and complete later amendment or validity chain were not verified; do not cite the link as a current consolidated text.",
+        "Article 3 scope depends on the competent authority and processing purpose. Do not assume that every immigration, VIS or SIS operation falls under this law; determine the purpose, controller and applicable EU/national regime for each operation.",
+        "The selected provisions do not establish the full current rights, exceptions, complaint route or judicial remedies for a particular processing operation. The provision-level VIS/SIS and controller crosswalk remains open.",
+        "No local copy was accepted. Link acceptance is separate from local-document acceptance and topic coverage."
+      ],
+      "currentness_evidence_url": "https://mup.gov.hr/pristup-informacijama-16/zakoni-i-ostali-propisi/propisi/poslovi-policije-i-primjena-policijskih-ovlasti/sigurnost-podataka-i-informacijska-sigurnost/175295?big=1"
     }
   },
   "official_reference_review_schema": {
@@ -3618,11 +3635,11 @@
       "checks": {
         "publisher_identity": {
           "status": "pass",
-          "evidence": "Official Narodne novine Gazette URL identified; identity not yet verified from a saved response."
+          "evidence": "The official Narodne novine page identifies the Act as NN 68/2018, item 1391, enacted by Hrvatski sabor, and displays ELI /eli/sluzbeni/2018/68/1391. MUP’s official laws page links the same act under data protection and information security. Reviewed 2026-10-25."
         },
         "current_legal_version": {
           "status": "pending",
-          "evidence": "Not yet reviewed."
+          "evidence": "The MUP official page lists the original NN 68/18 citation but supplies no consolidation or complete amendment/validity chain. Current consolidated text and subsequent legal-status changes remain unverified; retain link acceptance only within the original-enactment cutoff."
         },
         "extraction_completeness": {
           "status": "pending",
@@ -3633,8 +3650,8 @@
           "evidence": "Not yet reviewed."
         },
         "legal_classification": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "pass",
+          "evidence": "The official title identifies a law-enforcement-purpose personal-data statute. Articles 1–3 state its purposes, expressly identify transposition of Directive (EU) 2016/680, and define scope and exclusions."
         },
         "lawful_reuse": {
           "status": "pass",
@@ -4722,7 +4739,7 @@
     "legal_classification": "Label the source role; this does not itself establish topic sufficiency.",
     "lawful_reuse": "Applies only to retaining or redistributing a local copy; not to citing or linking an official page."
   },
-  "official_reference_count": 35,
+  "official_reference_count": 37,
   "human_review_sites": [
     {
       "id": "hr-current-government-consolidation-portals",
