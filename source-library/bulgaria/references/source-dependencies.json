@@ -380,6 +380,46 @@
       ],
       "review_question": "Determine the scope of Bulgarian Articles 1–5 and §1(1) for mobile EU/EEA/Swiss citizens, their core and extended family members, and family members of a Bulgarian citizen returning after genuine residence in another Member State. Map applicant nationality, family category, evidence, Article 3(2) facilitation and reasons/appeal; apply the O. and B. / Singh / Coman framework by its facts and current national text, and separately verify relevant EEA and Swiss agreements.",
       "editorial_action": "Keep scope and return coverage open. Preserve the Bulgarian statutory language; do not treat Directive 2004/38 as directly governing a wholly internal situation or infer that the VAS 2019 decision resolves every return, partnership, or extended-family category."
+    },
+    {
+      "id": "bg-family-documents-regulation-2016-1191",
+      "source_record_id": "bg-eu-free-movement-act",
+      "national_provisions": [
+        "Additional Provisions § 1(1)(a) and (b)",
+        "Article 5(1)–(2)",
+        "Civil Registration Act Article 70(2)–(4)",
+        "Instruction №8121з-1276 Article 20(1)–(2)"
+      ],
+      "referenced_instrument": "Regulation (EU) 2016/1191, Articles 2–8; Commission Notice C/2023/1392, section 2.2.4",
+      "referenced_instrument_url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32016R1191",
+      "referenced_source_id": "eu:32016r1191",
+      "status": "document_formalities_mapped_substantive_and_non_eu_review_open",
+      "reviewed_on": "2026-10-25",
+      "status_note": "Regulation (EU) 2016/1191 Article 2 covers specified public documents from Member States, including marriage, registered partnership, parenthood and adoption documents; Article 2(3) excludes third-country-issued public documents. Articles 3–4 abolish apostille/legalisation for in-scope documents and certified copies; Articles 6–8 simplify certain translations and provide multilingual forms as translation aids, not as documents with autonomous legal value. The Regulation addresses authenticity and formalities, not recognition of legal effects. Instruction №8121з-1276 Article 20(2) incorporates the Regulation exemption; Civil Registration Act Article 70(2)–(4) separately concerns registration of foreign civil-status events for Bulgarian citizens and includes treaty/Hague-based legalisation exceptions. Commission Notice C/2023/1392 section 2.2.4 is non-binding guidance: EU-issued family documents should not be conditioned on formal registration in the host state; non-EU document translation or verification/legalisation may be requested for language or specific authenticity concerns, rather than as a blanket rule. Bulgarian substantive treatment of partnership, durable relationships, parenthood/adoption, unavailable records and current administrative practice is not resolved.",
+      "primary_sources": [
+        {
+          "title": "Bulgarian EU-citizen Act, MVR consolidated PDF through SG 52/2025",
+          "url": "https://mvr.bg/upload/338040/%D0%97%D0%92%D0%9F%D0%9D%D0%A0%D0%91%D0%93%D0%95%D0%A1%D0%A7%D0%A2%D0%A1%202026.pdf"
+        },
+        {
+          "title": "Bulgarian Civil Registration Act, Ministry of Regional Development official consolidation",
+          "url": "https://www.mrrb.bg/bg/zakon-za-grajdanskata-registraciya/"
+        },
+        {
+          "title": "Instruction №8121з-1276, official MVR consolidated text through SG 29/2021",
+          "url": "https://mvr.bg/upload/24810/8121z12761110201809042021.pdf"
+        },
+        {
+          "title": "Regulation (EU) 2016/1191, official EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32016R1191"
+        },
+        {
+          "title": "Commission Notice C/2023/1392, official EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52023XC01392"
+        }
+      ],
+      "review_question": "Determine the substantive Bulgarian recognition/effects route for each family status and the separate documentary proof route; verify whether current MVR demands comply with Regulation 2016/1191 for in-scope Member-State documents, and identify the treaty/legalisation, translation and authenticity standards for third-country documents, including alternative evidence when records cannot be obtained.",
+      "editorial_action": "Keep substantive status and documentary formalities separate. Do not infer recognition of legal effects from an apostille exemption, extend Regulation 2016/1191 to third-country-issued documents, treat the Commission Notice as binding law, or require civil registration as a precondition to proving a family relationship for a residence application without a legal basis."
     }
   ]
 }

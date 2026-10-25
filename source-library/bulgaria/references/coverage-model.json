@@ -209,7 +209,7 @@
             "bg-eu-free-movement-act",
             "bg-civil-registration-act"
           ],
-          "note": "The dedicated Act and Civil Registration Act are accepted; Regulation (EU) 2016/1191 Articles 2(1), 2(3)–(4) and 4 address specified Member-State public documents, exclude third-country public documents, and do not determine recognition of legal effects. The Bulgarian national rules on foreign family status and non-marital relationships are not fully mapped."
+          "note": "The EU-citizen Act Additional Provisions § 1(1) defines spouses/cohabiting partners, descendants and dependent ascendants; Article 5 supplies a separate detailed-review route for other dependent/household relatives and serious-health carers. Civil Registration Act Article 70 governs registration of foreign civil-status events for Bulgarian citizens and has treaty/legalisation/translation provisions; it is not itself a general rule recognizing every foreign family relationship for residence. Regulation 2016/1191 simplifies the authenticity/formalities of specified intra-EU documents but does not determine their substantive legal effects. Current substantive treatment of registered partnerships, durable relationships, parenthood and adoption remains open."
         },
         "implementing_rule": {
           "status": "partially_supported",
@@ -218,7 +218,7 @@
             "bg-eu-form-declaration",
             "bg-eu-form-other-articles"
           ],
-          "note": "The MVR service page states that EU Member-State public documents within Regulation (EU) 2016/1191 are exempt from legalisation. Commission Notice C/2023/1392 (Bulgarian representation routed through the canonical shared-core index) provides further non-binding guidance on accepting Member-State family-relationship documents and translation/verification limits. Current declarations, translation practice, alternative evidence, and national implementation remain to be reviewed."
+          "note": "Instruction №8121з-1276 Article 20(1) sets foreign-document formalities by treaty/Hague Apostille status; Article 20(2) exempts in-scope Member-State public documents from legalisation under Regulation 2016/1191. That exemption must be applied only to documents and facts within the Regulation; Commission Notice C/2023/1392 offers non-binding guidance on evidence, registration, translation and case-specific authenticity concerns. Current practice for third-country records and unavailable documents is unverified."
         },
         "procedure": {
           "status": "partially_supported",
@@ -226,7 +226,7 @@
             "bg-eu-law-service",
             "bg-eu-instruction"
           ],
-          "note": "The official application route and document list are identified, but the MVR service page is a changing index and does not evidence all case-specific additional-document demands, translation routes, unavailable-record alternatives, or current treatment of third-country documents."
+          "note": "The Act and Instruction identify filing and document routes, and Article 5(2) requires a detailed personal-circumstances review for Article 3(2)-type applicants. Regulation 2016/1191 abolishes apostille/legalisation for in-scope Member-State public documents and provides conditional translation simplification; its scope excludes third-country-issued documents and it does not establish a relationship’s substantive legal effect. The current MVR checklist, alternative evidence where a record is unavailable, and specific-authenticity-check criteria remain undocumented."
         },
         "remedy_or_practice": {
           "status": "partially_supported",
@@ -235,12 +235,13 @@
             "bg-vas-case-search",
             "bg-vas-case-11351-2019"
           ],
-          "note": "A final VAS decision supports recognition of a same-sex spouse solely for derivative residence when the marriage was lawfully concluded in another Member State; it does not resolve civil registration, durable partnership, legalization, or alternative-evidence questions."
+          "note": "A refusal under Act Article 5(2) must be reasoned and is challengeable under the APC. VAS Decision №11351/2019 recognizes a lawfully concluded same-sex marriage for derivative residence only under the pre-SG 34/2019 Act version. No screened Bulgarian decision addresses civil registration, durable partnership, parenthood/adoption evidence, Regulation 2016/1191 formalities, or third-country document verification."
         }
       },
       "open_issues": [
-        "Map Bulgarian substantive treatment of marriages, registered partnerships, durable relationships, dependency, parenthood and adoption separately from document authenticity and formalities.",
-        "Verify translation, certified-copy, apostille/legalisation, specific-authenticity-check, unavailable-record and alternative-evidence procedures for Member-State and third-country documents; preserve the limits in Regulation (EU) 2016/1191 and Commission Notice C/2023/1392."
+        "Map substantive eligibility separately for marriage, registered partnership, factual/durable relationships, dependency, parenthood and adoption; distinguish any residence-only recognition from civil registration or wider legal effects.",
+        "Reconcile Act Article 5 and Instruction Article 20 with Regulation 2016/1191 Articles 2–8: document categories, certified copies, multilingual standard forms, translation exceptions, apostille/legalisation, and the Regulation’s authenticity-only reach. Keep Civil Registration Act Article 70’s foreign-event registration route separate from evidence supplied in a residence application.",
+        "Verify current MVR requirements for third-country records, specific authenticity concerns, unavailable civil records, and alternative proof; review official remedies and case practice. Do not apply blanket checks or extend the Regulation to third-country-issued documents."
       ]
     },
     {
