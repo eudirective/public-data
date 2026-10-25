@@ -40,4 +40,4 @@ The PISRS advanced search offers selected Supreme Court, higher-court, labour/so
 
 ## Disposition
 
-Seven official GOV.SI links are accepted for dated external reference use. PISRS consolidated-law records are offered for human review through the official site because this review client cannot render their JavaScript pages. No local source copy or topic is accepted, and country review remains incomplete. The API remains unused; API authorization is not a condition for ordinary source-link use. See [source-acceptance.json](source-acceptance.json) and [coverage-register.md](coverage-register.md).
+Seventeen official references are accepted for dated link-only use; this count includes the metadata-only OPSI catalogue record. PISRS consolidated-law records are offered for human review through the official site because this review client cannot render their JavaScript pages. No local source copy or topic is accepted, and country review remains incomplete. The API remains unused; API authorization is not a condition for ordinary source-link use. See [source-acceptance.json](source-acceptance.json) and [coverage-register.md](coverage-register.md).
