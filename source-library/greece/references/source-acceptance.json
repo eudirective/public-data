@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 27 official-reference reviews approve only human use of the identified official links within the stated publisher, instrument/page, language, date, provisions, and scope. No local Gazette PDF or converted text is accepted for retention or republication. National Printing House search-site terms restrict non-personal copying, conversion, and transmission; whether those terms govern direct api.et.gr PDF URLs remains unresolved, so no local copy or automated acquisition rule is accepted. Link acceptance does not establish full topic coverage, current consolidated wording, or country completion.",
+  "policy": "The 29 official-reference reviews approve only human use of the identified official links within the stated publisher, instrument/page, language, date, provisions, and scope. No local Gazette PDF or converted text is accepted for retention or republication. National Printing House search-site terms restrict non-personal copying, conversion, and transmission; whether those terms govern direct api.et.gr PDF URLs remains unresolved, so no local copy or automated acquisition rule is accepted. Link acceptance does not establish full topic coverage, current consolidated wording, or country completion. The two Gov.gr references added on 2026-10-25 are accepted only as locator/navigation references; current procedure remains open.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -27,7 +27,8 @@
         "Read the provisions relevant to the question with the targeted amendments reviewed separately: Law 4071/2012 Article 42, Law 4540/2018 Article 32, and Law 5275/2026 Article 53.",
         "Greek is the controlling language.",
         "No local copy or republication permission is approved by this link review."
-      ]
+      ],
+      "source_list_id": "gr-05"
     },
     "gr-law4071-2012-art42": {
       "status": "usable_official_reference",
@@ -43,7 +44,8 @@
         "Article 42 only; the issue is not a consolidated decree.",
         "Greek is the controlling language.",
         "No local copy or republication permission is approved by this link review."
-      ]
+      ],
+      "source_list_id": "gr-07"
     },
     "gr-law4540-2018-art32": {
       "status": "usable_official_reference",
@@ -60,7 +62,8 @@
         "This is a targeted amending act, not a consolidation.",
         "Greek is the controlling language.",
         "No local copy or republication permission is approved by this link review."
-      ]
+      ],
+      "source_list_id": "gr-08"
     },
     "gr-law5275-2026-art53": {
       "status": "usable_official_reference",
@@ -77,7 +80,8 @@
         "This amending law is not a consolidated PD 106/2007 text.",
         "Greek is the controlling language.",
         "No local copy or republication permission is approved by this link review."
-      ]
+      ],
+      "source_list_id": "gr-57"
     },
     "gr-law4686-2020-art43": {
       "status": "usable_official_reference",
@@ -94,7 +98,8 @@
         "This act does not consolidate or amend the text of PD 106/2007.",
         "Greek is the controlling language.",
         "No local copy or republication permission is approved by this link review."
-      ]
+      ],
+      "source_list_id": "gr-58"
     },
     "gr-law5226-2025-art28": {
       "status": "usable_official_reference",
@@ -111,7 +116,8 @@
         "The law supplements rather than replaces PD 106/2007.",
         "Greek is the controlling language.",
         "No local copy or republication permission is approved by this link review."
-      ]
+      ],
+      "source_list_id": "gr-59"
     },
     "gr-mitos-gr-12": {
       "status": "usable_official_reference",
@@ -128,7 +134,8 @@
         "Use the page only within its displayed scope and update date; Greek is the controlling language.",
         "Check the relevant official Greek statutory provisions and any later material amendment when the legal question depends on current wording.",
         "No local copy or republication permission is approved by this link review."
-      ]
+      ],
+      "source_list_id": "gr-12"
     },
     "gr-mitos-gr-13": {
       "status": "usable_official_reference",
@@ -145,7 +152,8 @@
         "Use the page only within its displayed scope and update date; Greek is the controlling language.",
         "Check the relevant official Greek statutory provisions and any later material amendment when the legal question depends on current wording.",
         "No local copy or republication permission is approved by this link review."
-      ]
+      ],
+      "source_list_id": "gr-13"
     },
     "gr-mitos-gr-14": {
       "status": "usable_official_reference",
@@ -162,7 +170,8 @@
         "Use the page only within its displayed scope and update date; Greek is the controlling language.",
         "Check the relevant official Greek statutory provisions and any later material amendment when the legal question depends on current wording.",
         "No local copy or republication permission is approved by this link review."
-      ]
+      ],
+      "source_list_id": "gr-14"
     },
     "gr-mitos-gr-15": {
       "status": "usable_official_reference",
@@ -179,7 +188,8 @@
         "Use the page only within its displayed scope and update date; Greek is the controlling language.",
         "Check the relevant official Greek statutory provisions and any later material amendment when the legal question depends on current wording.",
         "No local copy or republication permission is approved by this link review."
-      ]
+      ],
+      "source_list_id": "gr-15"
     },
     "gr-mitos-gr-16": {
       "status": "usable_official_reference",
@@ -196,7 +206,8 @@
         "Use the page only within its displayed scope and update date; Greek is the controlling language.",
         "Check the relevant official Greek statutory provisions and any later material amendment when the legal question depends on current wording.",
         "No local copy or republication permission is approved by this link review."
-      ]
+      ],
+      "source_list_id": "gr-16"
     },
     "gr-mitos-gr-29": {
       "status": "usable_official_reference",
@@ -211,7 +222,8 @@
         "This is a specific administrative procedure, not a source on recognition of foreign marriages or every marriage requirement.",
         "Check the competent municipality and governing Greek law for the facts.",
         "No local copy or republication permission is accepted."
-      ]
+      ],
+      "source_list_id": "gr-29"
     },
     "gr-mitos-gr-33": {
       "status": "usable_official_reference",
@@ -226,7 +238,8 @@
         "It does not describe foreign residents marrying in Greece.",
         "This is not a general source on recognition of foreign civil-status records.",
         "No local copy or republication permission is accepted."
-      ]
+      ],
+      "source_list_id": "gr-33"
     },
     "gr-mitos-gr-35": {
       "status": "usable_official_reference",
@@ -241,7 +254,8 @@
         "This procedure page is not a current consolidated text of Law 2690/1999 or Law 5143/2024.",
         "Check legal dependencies for the particular request.",
         "No local copy or republication permission is accepted."
-      ]
+      ],
+      "source_list_id": "gr-35"
     },
     "gr-law2690-1999-original": {
       "status": "usable_official_reference",
@@ -256,7 +270,8 @@
         "Article 5 was replaced by Article 59 of Law 5143/2024; this is not a current consolidated Code.",
         "Use a current official consolidated version for present legal propositions.",
         "Accepted only as an original-issue locator; no local copy or republication permission is accepted."
-      ]
+      ],
+      "source_list_id": "gr-36"
     },
     "gr-law5143-2024-art59": {
       "status": "usable_official_reference",
@@ -271,7 +286,8 @@
         "This is one amendment, not a consolidated Code.",
         "Later amendments and the full current access procedure are not resolved here.",
         "No local copy or republication permission is accepted."
-      ]
+      ],
+      "source_list_id": "gr-37"
     },
     "gr-diavgeia-portal": {
       "status": "usable_official_reference",
@@ -286,7 +302,8 @@
         "A portal locator does not establish publication completeness or search reliability.",
         "Check current availability and relevant authority/type filters.",
         "No automated retrieval rule or local copy is accepted."
-      ]
+      ],
+      "source_list_id": "gr-38"
     },
     "gr-ombudsman-portal": {
       "status": "usable_official_reference",
@@ -301,7 +318,8 @@
         "This is an agency locator, not jurisdiction advice or a case-law corpus.",
         "Check applicable subject-matter and admissibility rules.",
         "No local copy or republication permission is accepted."
-      ]
+      ],
+      "source_list_id": "gr-39"
     },
     "gr-ombudsman-complaint": {
       "status": "usable_official_reference",
@@ -316,7 +334,8 @@
         "Reviewed without submitting a complaint or personal data.",
         "A complaint channel does not replace statutory or judicial remedies.",
         "No local copy or republication permission is accepted."
-      ]
+      ],
+      "source_list_id": "gr-40"
     },
     "gr-fro-complaints": {
       "status": "usable_official_reference",
@@ -331,7 +350,8 @@
         "Not a general EU-family residence appeal or substitute for ordinary remedies.",
         "Complaint attachments and personal data are not source-retrieval material.",
         "No local copy or republication permission is accepted."
-      ]
+      ],
+      "source_list_id": "gr-42"
     },
     "gr-dpa-complaint": {
       "status": "usable_official_reference",
@@ -346,7 +366,8 @@
         "Limited to data protection; not an immigration merits appeal.",
         "Check current route instructions before use.",
         "No local copy or republication permission is accepted."
-      ]
+      ],
+      "source_list_id": "gr-44"
     },
     "gr-dpa-rights": {
       "status": "usable_official_reference",
@@ -360,7 +381,8 @@
       "limitations": [
         "General privacy guidance, not a substitute for GDPR text or a source on immigration remedies.",
         "No local copy or republication permission is accepted."
-      ]
+      ],
+      "source_list_id": "gr-45"
     },
     "gr-ethemisid-services": {
       "status": "usable_official_reference",
@@ -375,7 +397,8 @@
         "This is not a public searchable case-law database.",
         "Authentication and court-specific instructions may be required.",
         "No local copy or republication permission is accepted."
-      ]
+      ],
+      "source_list_id": "gr-49"
     },
     "gr-mitos-gr-52": {
       "status": "usable_official_reference",
@@ -390,7 +413,8 @@
         "The page does not establish eligibility for every EU-family immigration objection or appeal.",
         "Check Law 3226/2004 and current proceeding-specific criteria.",
         "No local copy or republication permission is accepted."
-      ]
+      ],
+      "source_list_id": "gr-52"
     },
     "gr-pd456-1984-original": {
       "status": "usable_official_reference",
@@ -405,7 +429,8 @@
         "Not a government-published consolidated Civil Code.",
         "Inspect the official text before relying on Articles 1368–1370 or a current legal proposition.",
         "No local copy or republication permission is accepted."
-      ]
+      ],
+      "source_list_id": "gr-53"
     },
     "gr-mitos-gr-54": {
       "status": "usable_official_reference",
@@ -420,7 +445,8 @@
         "Not a procedure for recognition of foreign adoption judgments or intercountry-adoption safeguards generally.",
         "Check the applicable adoption and nationality statutes.",
         "No local copy or republication permission is accepted."
-      ]
+      ],
+      "source_list_id": "gr-54"
     },
     "gr-mitos-gr-55": {
       "status": "usable_official_reference",
@@ -435,6 +461,43 @@
         "Narrow nationality procedure, not an EU-family residence route or general parentage-recognition source.",
         "Check Greek nationality and civil-status law for the facts.",
         "No local copy or republication permission is accepted."
+      ],
+      "source_list_id": "gr-55"
+    },
+    "gr-gov-gr-60-residence-locator": {
+      "status": "usable_official_reference",
+      "source_list_id": "gr-60",
+      "publisher": "Gov.gr, Greek Single Digital Gateway",
+      "url": "https://www.gov.gr/el/sdg/residence/residence-cards-for-union-citizens-and-their-family-members/general/residence-of-third-country-citizens-who-are-family-members-of-eu-citizens",
+      "rediscovery_url": "https://www.gov.gr/en/sdg/residence/residence-cards-for-union-citizens-and-their-family-members/general/residence-of-third-country-citizens-who-are-family-members-of-eu-citizens",
+      "checked_on": "2026-10-25",
+      "language": "Greek",
+      "version_or_cutoff": "The Greek route resolved, but its page body and update date were not available in this review. The English counterpart displays last updated 28 November 2022.",
+      "scope": "Official locator and historical/navigation reference for residence of third-country family members of Union citizens; not accepted as a current requirements checklist.",
+      "reviewed_content": "The Greek official route resolves. The English counterpart states general application and decision timing and displays a 28 November 2022 update date. Current fees, documents, card duration, authorities, filing routes, and remedies were not confirmed from this page.",
+      "limitations": [
+        "The Greek page body was not available in the structured review; the English counterpart is dated 28 November 2022.",
+        "Do not treat this reference as proof of present procedure or current document duration.",
+        "The relevant 2026 amendment and the current Greek procedure require separate verification.",
+        "Accepted only as an official locator; no local copy or republication permission is approved."
+      ]
+    },
+    "gr-gov-gr-61-other-family-index": {
+      "status": "usable_official_reference",
+      "source_list_id": "gr-61",
+      "publisher": "Gov.gr, Greek Single Digital Gateway",
+      "url": "https://www.gov.gr/el/sdg/residence/residence-cards-for-union-citizens-and-their-family-members/residence-documents-for-third-country-nationals-family-members-of-e-u-citizens/other-family-members",
+      "rediscovery_url": "https://www.gov.gr/en/sdg/residence/residence-cards-for-union-citizens-and-their-family-members/residence-documents-for-third-country-nationals-family-members-of-e-u-citizens",
+      "checked_on": "2026-10-25",
+      "language": "Greek",
+      "version_or_cutoff": "No update date confirmed. The page was reviewed only as a category/navigation entry; structured access to the full current procedure was unavailable.",
+      "scope": "Official category locator for other third-country family members of Union citizens, including stable-partner and evidence-related navigation; not accepted as a current checklist or complete procedure.",
+      "reviewed_content": "The official Greek route resolves, and indexed page content exposes stable-partner and evidence details. The full current body, publication/update date, linked attachments, and present applicability were not confirmed.",
+      "limitations": [
+        "No update date was confirmed.",
+        "A category index or search snippet does not establish current requirements or substantive legal status.",
+        "Current procedure and effect of Law 5275/2026 Article 53 remain open for whole-portal review.",
+        "Accepted only as an official navigation reference; no local copy or republication permission is approved."
       ]
     }
   },
