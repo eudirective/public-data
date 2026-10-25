@@ -2,9 +2,9 @@
   "schema_version": "1.0.0",
   "jurisdiction": "LI",
   "as_of": "2026-10-25",
-  "accepted_source_count": 6,
-  "accepted_local_copy_count": 5,
-  "accepted_external_reference_count": 6,
+  "accepted_source_count": 8,
+  "accepted_local_copy_count": 6,
+  "accepted_external_reference_count": 8,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "policy": "A reviewed official source may be accepted within its publisher, identity, language, displayed version, scope, and stated limitations. The current Lilex consolidation is an informational working text, not the legally authentic publication. Local-copy acceptance is separate from topic coverage, legal equivalence, and country completion. Reuse acceptance here is limited to statutory text under URG Article 5; it does not cover site design, database-level or systematic reuse, or unrelated content.",
@@ -431,11 +431,118 @@
         "VEV defers to applicable Schengen acquis and has material AuG/PFZG, VISV/EESV, Swiss-agreement, fees and mission-practice dependencies; those are separate records and coverage questions.",
         "Source acceptance is separate from topic coverage and country review completion."
       ]
+    },
+    "li-04": {
+      "status": "accepted_with_narrow_external_scope",
+      "publisher": "EEA Coordination Unit, Liechtenstein National Administration",
+      "url": "https://www.llv.li/en/business/register-cadastre/eea-registry",
+      "checked_on": "2026-10-25",
+      "language": "English page; linked EWR-Register editions in German",
+      "version_or_scope": "The official page links the EWR-Register and EWR-Register (EU-Programme), each dated 25 September 2026, and links the separate legal basis at LR 170.51 and EWR-RegV at LR 170.511.",
+      "acceptance_scope": "Official index/navigation reference for locating the dated EWR-Register issue and its Official Journal references. It does not itself replace the EEA Agreement, Joint Committee decisions, Liechtenstein Gazette promulgation, or a source-specific applicability check.",
+      "reviewed_content": "The current LLV EEA Registry page describes the register as listing EU-law titles applicable to Liechtenstein under EEA membership and Official Journal references according to EEA Joint Committee decisions published in the Liechtenstein Gazette. The current listed issue checked is dated 25 September 2026; the page separately links LR 170.51 and EWR-RegV LR 170.511.",
+      "limitations": [
+        "This is a link-only discovery/index reference; no PDF or other local copy is accepted.",
+        "The register is not itself the promulgating legal instrument and does not establish the applicable version, adaptations, entry into force, or legal effect of a particular EEA act.",
+        "The prior candidate route was recorded as HTTP 403; the current official LLV EEA Registry page above was checked as the replacement route.",
+        "EWR-RegV LR 170.511 is a separate regulation and is not the same source as the LR 170.51 statute."
+      ],
+      "candidate_record": {
+        "manifest": "references/candidate-manifest.json",
+        "id": "li-04"
+      },
+      "evidence": {
+        "official_source_url": "https://www.llv.li/en/business/register-cadastre/eea-registry",
+        "verified_content": "Official LLV EEA Registry page checked 2026-10-25: scope description, 25 September 2026 issue links, and distinct links to LR 170.51 and LR 170.511.",
+        "retrieval_status": "link_only_official_reference_current_route"
+      },
+      "local_copy_accepted": false,
+      "accepted_topics": [],
+      "decision": "accepted_with_narrow_external_scope"
+    },
+    "li-06": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The official version-2 PDF identifies the 1995 Gesetz über die Umsetzung und Kundmachung der EWR-Rechtsvorschriften, LR 170.51, originally published as LGBl 1995.099. The 2026 Systematisches Register is issued by the Government Legal Services."
+        },
+        "current_legal_version": {
+          "status": "pass_with_limitations",
+          "review_date": "2026-10-25",
+          "evidence_url": "https://www.gesetze.li/konso/systematisches-register/100",
+          "evidence": "The official version-2 PDF states Fassung: 01.02.2021. LGBl 2020.358 is incorporated and its relevant provisions took effect 1 February 2021. The official Systematisches Register, stand 1 October 2026 and covering items through LGBl 2026.321, lists LGBl 2020.358 as the latest LR 170.51 amendment. The captured current-text frame was retrieved 2026-10-19. This evidence does not exclude a change after the register cutoff."
+        },
+        "extraction_completeness": {
+          "status": "pass_with_limitations",
+          "evidence": "The archived publisher shell (10,478 bytes; SHA-256 aa8db140e54135a4cc5b71db08aa7fea7cfcb41b7563ed44777aea1e8fd47086) and versioned text frame (10,652 bytes; SHA-256 7262532bae39c353378fd52050b198dfc47031b09f859a9fbb36edf98c9d454e) match the Monitor archive. Offline replay reproduces the complete candidate exactly (5,055 bytes; SHA-256 3205de03f96c796d11630b3c16fcf24b1c6691e9bb7ce85678dcc9c0498941fd). The accepted document preserves the full official-text section (3,861 UTF-8 bytes; SHA-256 9a5203a7c3830d626ac4d9551dba65314f7cfd7a27c3d6843bf471c3ae8ccee5). The official 6-page PDF was checked at representative title, Arts. 1–5, 8–9, transitional and amendment-footnote anchors."
+        },
+        "attachments_review": {
+          "status": "pass_with_limitations",
+          "evidence": "The official 6-page version-2 PDF counterpart includes the consolidated statute and its LGBl 2020.358 amendment/transition notes. Selected anchors were compared with the extracted text; no separate annex was identified. This was not a page-by-page comparison with signed Gazette originals, and the Markdown copy does not validate Gazette signatures or preserve publication layout."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "LR 170.51 is primary Liechtenstein legislation governing implementation and promulgation of EEA rules. Article 4 states that applicable EEA rules derive from the EEA Agreement and Joint Committee decisions published in the Liechtenstein Gazette; Article 5 provides for an electronic EEA register and delegates register details to a separate regulation. This is a publication/incorporation framework, not an immigration entitlement or proof that a specific EEA act applies without checking its adaptations and effective date."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "official_statutory_text_only",
+          "basis_url": "https://www.gesetze.li/konso/html/1999160000",
+          "evidence": "The current official URG text, checked 2026-10-25, states at Art. 5(1)(a) that laws, regulations, treaties and other official enactments are not protected by copyright, and at Art. 5(2) also excludes official or legally required collections and translations. This acceptance covers only the statutory text, not Lilex interface/design or systematic database reuse."
+        }
+      },
+      "semantic_review": {
+        "status": "passed_with_limitations",
+        "method": "full_candidate_replay_and_official_6_page_pdf_anchor_review",
+        "review_date": "2026-10-25",
+        "scope": "Complete extracted official-text section replayed from the archived official HTML frame; selected PDF anchors include title/LR number, Arts. 1–5, 8–9, transitional provisions and 2020 amendment footnotes.",
+        "source_response_sha256": "aa8db140e54135a4cc5b71db08aa7fea7cfcb41b7563ed44777aea1e8fd47086",
+        "text_response_sha256": "7262532bae39c353378fd52050b198dfc47031b09f859a9fbb36edf98c9d454e",
+        "candidate_conversion_sha256": "3205de03f96c796d11630b3c16fcf24b1c6691e9bb7ce85678dcc9c0498941fd",
+        "source_text_sha256": "9a5203a7c3830d626ac4d9551dba65314f7cfd7a27c3d6843bf471c3ae8ccee5",
+        "source_text_bytes": 3861,
+        "full_candidate_replay": "passed",
+        "limitations": [
+          "Lilex consolidated texts are informational and have no legal effect; signed LGBl is authentic.",
+          "The 2026 Systematisches Register is current through 1 October 2026; it does not exclude a later amendment or establish applicability after the review date.",
+          "The official 6-page PDF was checked at selected anchors, not page by page; signed Gazette originals were not compared.",
+          "The law establishes a publication and register framework; it does not by itself establish the incorporation, adaptation, effective date or current force of each EEA act.",
+          "EWR-RegV LR 170.511 is separate and is not included in the accepted source text; its full text remains open for review.",
+          "Source acceptance does not establish immigration topic coverage or country completion."
+        ],
+        "source_text_replay": {
+          "status": "passed",
+          "method": "replay_of_archived_html_frame_with_sync_liechtenstein_extractor",
+          "raw_capture_archive_path": "captures/public-data/LI/liechtenstein/li-06/raw/li-06-7262532bae39c353378fd52050b198dfc47031b09f859a9fbb36edf98c9d454e.html",
+          "raw_capture_sha256": "7262532bae39c353378fd52050b198dfc47031b09f859a9fbb36edf98c9d454e",
+          "result_source_text_sha256": "9a5203a7c3830d626ac4d9551dba65314f7cfd7a27c3d6843bf471c3ae8ccee5",
+          "matches_saved_candidate_and_document_body": true
+        },
+        "full_candidate_replay_evidence": "The exact pre-promotion candidate is archived at `candidates/public-data/LI/liechtenstein/candidates/li-06.md` (SHA-256 3205de03f96c796d11630b3c16fcf24b1c6691e9bb7ce85678dcc9c0498941fd). The archived current-text frame replays to that candidate; its official-text section is byte-identical to the accepted document body."
+      },
+      "accepted_on": "2026-10-25",
+      "document_path": "source-library/liechtenstein/documents/legislation/li-gesetz-umsetzung-kundmachung-ewr-rechtsvorschriften.md",
+      "local_file_sha256": "106b6a24cf8729f867fb556f73487a88d0e2b2906f2ce90f92cbd914d810d96d",
+      "source_response_sha256": "aa8db140e54135a4cc5b71db08aa7fea7cfcb41b7563ed44777aea1e8fd47086",
+      "source_text_sha256": "9a5203a7c3830d626ac4d9551dba65314f7cfd7a27c3d6843bf471c3ae8ccee5",
+      "candidate_conversion_sha256": "3205de03f96c796d11630b3c16fcf24b1c6691e9bb7ce85678dcc9c0498941fd",
+      "archived_candidate_path": "candidates/public-data/LI/liechtenstein/candidates/li-06.md",
+      "local_copy_accepted": true,
+      "accepted_external_reference": true,
+      "accepted_topics": [],
+      "limitations": [
+        "Lilex consolidation is informational and has no legal effect; signed LGBl is authentic.",
+        "The official register evidence is current through 1 October 2026; later changes and current applicability are not established.",
+        "EWR-RegV LR 170.511 is a distinct regulation and is not included in this source text.",
+        "The law identifies a publication framework but does not settle the applicability of individual EEA instruments without act-specific review.",
+        "Source acceptance is separate from topic coverage and country review completion."
+      ]
     }
   },
   "candidate_inventory_count": 40,
   "dispositioned_candidate_count": 1,
-  "open_candidate_count": 33,
+  "open_candidate_count": 31,
   "dispositions": {
     "li-03": {
       "status": "already_represented_duplicate",
