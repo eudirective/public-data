@@ -141,16 +141,22 @@
       "publisher": "Ministry of Interior (MVR), official Codes page",
       "url": "https://www.mvr.bg/upload/338691/%D0%90%D0%9F%D0%9A.pdf",
       "rediscovery_url": "https://www.mvr.bg/за-министерството-на-вътрешните-работи/нормативна-уредба/нормативни-актове/кодекси",
-      "checked_on": "2026-10-21",
+      "checked_on": "2026-10-25",
       "language": "Bulgarian",
       "version_or_cutoff": "MVR-published consolidation through SG issue 17/2026 (13 February 2026).",
       "scope": "Administrative Procedure Code, including administrative decision-making and judicial challenge procedure.",
-      "reviewed_content": "The title and printed amendment history were checked in the current MVR-hosted PDF. The Ministry of Justice numeric normdoc URL is retained as a supporting discovery route.",
+      "reviewed_content": "The title and printed amendment history of the MVR-hosted consolidation through SG issue 17/2026 (13 February 2026) were checked. Articles 30, 34, 57–60, 84, 149 and 166 were reviewed for the procedural crosswalk. The text includes SG 63/2025 amendments with effective dates of 3 September 2025 and 1 July 2026. The official MVR Codes page identifies the consolidation currentness as 13 February 2026.",
       "limitations": [
-        "The PDF is accepted as an official link within the printed cutoff; no local copy or full procedural crosswalk is accepted.",
-        "The prior Ministry of Justice 502 response was a retrieval-client outcome, not evidence that the law was unavailable."
+        "The consolidation is accepted as an official link within its printed cutoff; later amendments after 13 February 2026 have not been certified.",
+        "No local copy is accepted. MVR and regional workflow, later Instruction amendments, and case-law practice remain open; see source-dependencies.json for the provision-level crosswalk.",
+        "The prior Ministry of Justice numeric normdoc URL is a supporting discovery route; retrieval-client errors are not evidence that the law is unavailable."
       ],
       "supporting_sources": [
+        {
+          "title": "MVR official Codes page; identifies Administrative Procedure Code currentness as 13 February 2026",
+          "url": "https://www.mvr.bg/opp/%D0%BF%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D0%B0-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F1/%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0-%D1%83%D1%80%D0%B5%D0%B4%D0%B1%D0%B0/%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%B8-%D0%B8-%D0%BA%D0%BE%D0%B4%D0%B5%D0%BA%D1%81%D0%B8",
+          "role": "official currentness index"
+        },
         {
           "title": "Ministry of Justice normdoc record",
           "url": "https://portal.justice.government.bg/home/normdoc/2135521015",

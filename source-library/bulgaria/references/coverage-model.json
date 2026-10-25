@@ -345,7 +345,7 @@
             "bg-eu-free-movement-act",
             "bg-apc"
           ],
-          "note": "Dedicated statutory timelines and the Administrative Procedure Code are identified; their interaction and exceptions require a provision-level crosswalk."
+          "note": "The MVR-hosted Administrative Procedure Code consolidation through SG 17/2026 (13 February 2026) was crosswalked at Articles 30, 34, 57–60, 84, 149 and 166. APC Article 30 gives a general three-day cure period and restarts the decision clock when defects are cured; Articles 57–59 set general decision periods, deemed-refusal treatment and reasoned-decision content. The dedicated EU-citizen Act contains different service-specific rules: Article 9(4) same-day extended-residence registration and Article 9(5) a seven-day cure; Article 12(4) up to three months for a mobile EU citizen’s non-EU family-member card and Article 12(5) a 14-day cure that pauses that period; Article 16(5) same-day permanent-residence issuance for specified applicants; Article 19(2)–(3) two-month advance application and one-month issuance for a non-EU family member’s permanent-residence card. These special periods must not be replaced by APC defaults. The MVR APC consolidation includes the SG 63/2025 amendments effective 1 July 2026; later amendments after its printed cutoff are not certified."
         },
         "implementing_rule": {
           "status": "partially_supported",
@@ -353,7 +353,7 @@
             "bg-eu-instruction",
             "bg-mvr-tariff-4"
           ],
-          "note": "Instruction and fee schedule are identified; requested evidence and fee consequences need full procedural review. The accepted MVR instruction text is consolidated through SG 29/2021; a separate 8-page MVR upload identifying only the 2018 promulgation was not treated as current, and no later amendment is certified."
+          "note": "Instruction №8121з-1276 and Tariff №4 are identified. The accepted Instruction text is consolidated only through SG 29/2021; it gives evidence and filing details but does not establish the complete current procedure. The APC crosswalk distinguishes its general three-day defect-cure rule from the Act’s seven-day Article 9(5) and 14-day Article 12(5) special cure periods. The current fee schedule does not itself establish which fees or exemptions apply to a specific EU-family application; current fee handling and any post-2021 Instruction amendments remain open."
         },
         "procedure": {
           "status": "partially_supported",
@@ -364,7 +364,7 @@
             "bg-iisda-eu-residence-service-870",
             "bg-iisda-eu-residence-service-1403"
           ],
-          "note": "Forms and central service route are identified; current forms and region-level service steps remain unresolved."
+          "note": "The MVR EU-citizen service page, forms and IISDA services 870/1403 identify filing routes and current published service descriptions. IISDA service 870, checked 25 October 2026, advertises one-month registry timing and optional 3/30-day processing, which does not match the Act’s same-day Article 9(4) issuance for the EU-citizen registration certificate; this is recorded as an unresolved service-description/legal-text discrepancy, not as a change to the statute. Service 1403 provides a separate one-month description for permanent residence. Current regional filing, appointment, completeness-check and actual processing practice are not established."
         },
         "remedy_or_practice": {
           "status": "partially_supported",
@@ -375,11 +375,14 @@
             "bg-iisda-eu-residence-service-870",
             "bg-iisda-eu-residence-service-1403"
           ],
-          "note": "Judicial and Ombudsman routes are identified; delay remedies and live practice have not been screened."
+          "note": "APC Articles 34, 84, 149 and 166 were checked in the MVR consolidation: parties may inspect the file during proceedings, comment on evidence within a period no longer than seven days, and must receive reasons if urgent or important interests displace participation; an express act is generally challengeable within 14 days and silence within two months; the administrative-appeal route provides six months where interested parties were not notified at the start. A challenge generally suspends execution, subject to statutory or separately admitted preliminary execution; a court may suspend preliminary execution on a showing of significant or difficult-to-repair harm. The EU-citizen Act Article 28 separately provides that an appeal against a compulsory measure suspends enforcement except for national-security grounds. Official VAS/administrative-court delay and interim-relief decisions have not yet been screened, and service pages do not establish settled practice."
         }
       },
       "open_issues": [
-        "Map completeness checks, cure periods, reason-giving, deemed refusal/inaction, decision deadlines, access to file, and interim relief."
+        "Confirm whether Instruction №8121з-1276 or its evidence/forms provisions were amended after SG 29/2021; reconcile the latest live MVR forms, IISDA service descriptions and the Act’s distinct same-day, three-month, one-month, seven-day and 14-day statutory periods, including the apparent Article 9(4)/service 870 timing discrepancy.",
+        "Screen official VAS and administrative-court decisions for incomplete-application notices and cure periods, reasoned refusals, deemed refusal/delay, administrative-file access, and interim relief; record the search date, scope, results and exclusions.",
+        "Map APC Article 166 relief against the special EU-citizen Act Article 28 rule and Directive 2004/38 Articles 30–31 for each compulsory measure, including the national-security exception and available urgent remedies.",
+        "Verify current regional Migration filing and appointment instructions and the actual service workflow for the 870 and 1403 procedures; the central legal and service links do not establish complete regional operational evidence."
       ]
     },
     {

@@ -420,6 +420,47 @@
       ],
       "review_question": "Determine the substantive Bulgarian recognition/effects route for each family status and the separate documentary proof route; verify whether current MVR demands comply with Regulation 2016/1191 for in-scope Member-State documents, and identify the treaty/legalisation, translation and authenticity standards for third-country documents, including alternative evidence when records cannot be obtained.",
       "editorial_action": "Keep substantive status and documentary formalities separate. Do not infer recognition of legal effects from an apostille exemption, extend Regulation 2016/1191 to third-country-issued documents, treat the Commission Notice as binding law, or require civil registration as a precondition to proving a family relationship for a residence application without a legal basis."
+    },
+    {
+      "id": "bg-apc-eu-residence-procedure",
+      "source_record_id": "bg-apc",
+      "national_provisions": [
+        "Administrative Procedure Code Articles 30(2)–(3), 34, 57–60, 84, 149 and 166",
+        "EU-citizen Act Articles 9(1), (4)–(8), 12(2), (4)–(7), 16(5), 17a, 19(2)–(3), and 28"
+      ],
+      "referenced_instrument": "Act on entry, residence, and departure of EU citizens and their family members; Directive 2004/38/EC, Articles 10, 25 and 30–31",
+      "referenced_instrument_url": "https://mvr.bg/upload/338040/%D0%97%D0%92%D0%9F%D0%9D%D0%A0%D0%91%D0%93%D0%95%D0%A1%D0%A7%D0%A2%D0%A1%202026.pdf",
+      "status": "statutory_crosswalk_recorded_current_procedure_and_case_practice_open",
+      "reviewed_on": "2026-10-25",
+      "status_note": "The MVR-hosted APC text through SG 17/2026 (13 February 2026) was reviewed alongside the accepted EU-citizen Act and service records. APC Article 30(2)–(3) gives a general three-day cure and starts the decision clock when defects are cured. Article 34 gives file-inspection rights throughout proceedings and a maximum seven-day period to comment on evidence; its urgency/important-interest exception must be explained in the decision. Article 57 sets 14-day and seven-day periods, immediate decision within seven days for files supported by available evidence, a one-month period in other cases, and limited extension with notice; Articles 58–59 address silence and reasoned written decisions. Articles 84 and 149 generally provide 14 days to challenge an express act and two months to challenge silence; under Article 84, the administrative-appeal deadline is six months where interested parties were not notified that proceedings began. The two-month rule reflects SG 63/2025 effective 3 September 2025. Article 166 generally suspends challenged acts and permits judicial suspension of preliminary execution for significant or difficult-to-repair harm. The dedicated Act instead has service-specific periods: Article 9(4) same-day issuance with a seven-day cure under Article 9(5); Article 12(4) up to three months with a 14-day cure pausing the period under Article 12(5); Article 16(5) same-day issue for specified permanent-residence applicants; Article 19(2)–(3) a two-month advance application and one-month issuance for the relevant non-EU family-member route. Article 28 separately suspends enforcement of compulsory measures on appeal except on national-security grounds. The MVR consolidation includes SG 63/2025 provisions effective 1 July 2026, but later amendments after its printed cutoff are not certified. IISDA 870 describes one-month registry timing and optional 3/30-day processing, creating an unresolved discrepancy with Act Article 9(4); no conclusion is drawn about actual practice or legality.",
+      "primary_sources": [
+        {
+          "title": "Administrative Procedure Code, MVR-hosted consolidation through SG 17/2026 (13 February 2026), currentness listed on official MVR Codes page",
+          "url": "https://www.mvr.bg/upload/313663/%D0%90%D0%94%D0%9C%D0%98%D0%9D%D0%98%D0%A1%D0%A2%D0%A0%D0%90%D0%A2%D0%98%D0%92%D0%9D%D0%9E%D0%9F%D0%A0%D0%9E%D0%A6%D0%95%D0%A1%D0%A3%D0%90%D0%9B%D0%95%D0%9D%20%D0%9A%D0%9E%D0%94%D0%95%D0%9A%D0%A1%20%D0%BE%D1%82%2013%20%D1%84%D0%B5%D0%B2%D1%80%D0%B0%D1%80%D0%B8%202026%20%D0%B3..pdf"
+        },
+        {
+          "title": "Bulgarian Act on entry, residence, and departure of EU citizens and their family members, MVR consolidation labelled 2026; amendment history through SG 52/2025",
+          "url": "https://mvr.bg/upload/338040/%D0%97%D0%92%D0%9F%D0%9D%D0%A0%D0%91%D0%93%D0%95%D0%A1%D0%A7%D0%A2%D0%A1%202026.pdf"
+        },
+        {
+          "title": "Instruction №8121з-1276, State Gazette and MVR-hosted consolidation through SG 29/2021",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=157296"
+        },
+        {
+          "title": "IISDA service 870 — extended residence card",
+          "url": "https://iisda.government.bg/adm_services/services/service_provision/22122"
+        },
+        {
+          "title": "IISDA service 1403 — permanent residence card",
+          "url": "https://iisda.government.bg/adm_services/services/service_provision/22878"
+        },
+        {
+          "title": "Directive 2004/38/EC, official EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32004L0038"
+        }
+      ],
+      "review_question": "Verify current authority and regional service practice against the special statutory periods; establish any post-SG 17/2026 APC or post-SG 29/2021 Instruction amendments; screen official judgments on cure notices, silence, delay, access and interim relief; and assess APC Article 166 relief against the EU-citizen Act Article 28 and Directive Article 31 safeguards for each type of compulsory measure.",
+      "editorial_action": "Keep general APC deadlines, the EU-citizen Act special periods, IISDA descriptions and observed practice distinct. Do not replace same-day, three-month, one-month, seven-day or 14-day special statutory rules with APC defaults; do not treat a service-register description as proof of actual practice or legal compliance. Retain this dependency and topic as open until current amendment status, official case-law screening and regional workflow evidence are resolved."
     }
   ]
 }
