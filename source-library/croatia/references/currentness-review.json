@@ -349,8 +349,10 @@
     {
       "id": "hr-azop-vis-sis-guidance-currentness-unverified",
       "older_source_id": "hr-azop-vis-sis",
-      "issue": "The live AZOP page checked 2026-10-24 cites Regulations (EU) 2018/1861 and 2018/1862 in its rights section but retains extensive legacy SIS II framing, old system descriptions and a 25-EU-state count.",
-      "resolution": "Exclude the page as a whole-page current operational guide. Use separately reviewed MUP SIS and MVEP VIS page/form records for the current published Croatian request routes. The page’s current rights citations may aid discovery but do not cure its mixed-currentness content; no AZOP local copy is accepted."
+      "issue": "The live AZOP page checked 2026-10-25 still combines a current SIS rights subsection with legacy SIS II descriptions and a VIS section that does not reflect the later revised VIS-rights provisions.",
+      "resolution": "The whole page remains excluded as a current operational guide. The static “Data subject rights” subsection for SIS was compared with the live visible page and the MUP SIS route and accepted at source-library/croatia/documents/guidance/hr-azop-sis-rights.md. The old system descriptions, obsolete 25-EU-state count, and VIS section remain excluded. MUP and MVEP pages/forms remain the current direct route references; no topic or country coverage is inferred.",
+      "scoped_acceptance_reviewed_on": "2026-10-25",
+      "accepted_scope": "SIS “Data subject rights” subsection only"
     }
   ],
   "limitations": [

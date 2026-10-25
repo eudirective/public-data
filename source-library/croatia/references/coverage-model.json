@@ -787,7 +787,7 @@
   ],
   "country_review_status": "incomplete",
   "topic_coverage_complete": false,
-  "last_review": "2026-10-25; six current archived authority article candidates promoted to local guidance documents and three stale leads excluded; 40 local artifacts remain accepted; no topic promoted to complete.",
+  "last_review": "2026-10-25; seven archived authority article bodies or scoped excerpts are accepted as local guidance documents and two stale page leads remain excluded; 41 local artifacts are accepted; no topic promoted to complete.",
   "review_tracks_outside_four_layer_topic_map": [
     {
       "id": "case_law_discovery_and_analysis",
@@ -803,7 +803,7 @@
     }
   ],
   "source_acceptance_status": "partial",
-  "accepted_source_count": 40,
+  "accepted_source_count": 41,
   "national_provision_crosswalk": {
     "path": "references/procedural-crosswalk.md",
     "status": "preliminary_primary_text_reviewed_immigration_application_open",
