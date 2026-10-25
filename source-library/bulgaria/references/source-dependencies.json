@@ -461,6 +461,60 @@
       ],
       "review_question": "Verify current authority and regional service practice against the special statutory periods; establish any post-SG 17/2026 APC or post-SG 29/2021 Instruction amendments; screen official judgments on cure notices, silence, delay, access and interim relief; and assess APC Article 166 relief against the EU-citizen Act Article 28 and Directive Article 31 safeguards for each type of compulsory measure.",
       "editorial_action": "Keep general APC deadlines, the EU-citizen Act special periods, IISDA descriptions and observed practice distinct. Do not replace same-day, three-month, one-month, seven-day or 14-day special statutory rules with APC defaults; do not treat a service-register description as proof of actual practice or legal compliance. Retain this dependency and topic as open until current amendment status, official case-law screening and regional workflow evidence are resolved."
+    },
+    {
+      "id": "bg-eu-family-visa-code-schengen-acquis",
+      "source_record_id": "bg-mfa-visa-ordinance-consolidated",
+      "national_provisions": [
+        "Visa Ordinance №198/2011, Articles 20(2)(4) and 23(3)",
+        "MFA central Visa for Bulgaria guidance",
+        "MFA Tariff №3"
+      ],
+      "referenced_instrument": "Directive 2004/38/EC, Articles 5(2) and 10; Regulation (EC) No 810/2009 (Visa Code), especially Articles 9, 16, 17 and 32; Council Decision (EU) 2024/210, Article 1 and Annex; Regulation (EU) 2023/2667",
+      "referenced_instrument_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R0810-20240628",
+      "status": "visa_code_applicability_and_core_facilitation_mapped_mission_and_remedy_review_open",
+      "reviewed_on": "2026-10-25",
+      "status_note": "Council Decision (EU) 2024/210 Article 1 and Annex item 5 made the Visa Code (Regulation 810/2009), subject to the Annex's stated Article 3 exception, applicable to Bulgaria from 31 March 2024. Annex item 20 also includes Regulation 2023/2667. This supersedes the 2023 Commission Notice C/2023/1392 statement that the Visa Code and Handbook did not apply to Bulgaria; the Notice remains non-binding guidance for other propositions only where still current. Directive 2004/38 Article 5(2) separately requires every facility, free issuance, and accelerated handling for qualifying family members; Article 10 residence cards exempt holders from the visa requirement. The 28 June 2024 Visa Code consolidation supplies the general Schengen application, fee, provider and appeal framework. The 2024 Visa Code Handbook I is addressed to Bulgaria and advises that processing over 15 days for qualifying family applicants should be exceptional and justified, and over four weeks is unreasonable; handbook recommendations are operational guidance, not primary legislation. Bulgarian Ordinance Article 20(2)(4) exempts covered family/household applicants from the specified insurance proof, and Article 23(3) gives them direct consular access without prior appointment. The current MFA page states additional family/household evidence, means, accommodation, transport, insurance and visa-fee exemptions, but its generic appointment and 15-day timing text is not expressly scoped to the qualifying accelerated route. Exact scope of the national fee exemption, prior-consultation application, mission checklists, online filing implementation, refusal reasons and remedy periods remain open.",
+      "primary_sources": [
+        {
+          "title": "Council Decision (EU) 2024/210, official EUR-Lex text and Annex",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024D0210"
+        },
+        {
+          "title": "Directive 2004/38/EC, official EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32004L0038"
+        },
+        {
+          "title": "Visa Code, consolidated 28 June 2024, official EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R0810-20240628"
+        },
+        {
+          "title": "Regulation (EU) 2023/2667, official EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R2667"
+        },
+        {
+          "title": "Visa Code Handbook I, C(2024) 4319 final, European Commission",
+          "url": "https://home-affairs.ec.europa.eu/document/download/1d79f44d-49ba-4847-951e-129f924b1051_en?filename=Commission+Implementing+Decision+C%282024%29+4319-annex_en.PDF"
+        },
+        {
+          "title": "Commission Notice C/2023/1392, official EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023XC01392"
+        },
+        {
+          "title": "Bulgarian Visa Ordinance, official MFA consolidation through SG 4/2025",
+          "url": "https://www.mfa.bg/upload/138161/%D0%9D%D0%B0%D1%80%D0%B5%D0%B4%D0%B1%D0%B0%20%D0%B7%D0%B0%20%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F%D1%82%D0%B0%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%20%D0%B7%D0%B0%20%D0%B8%D0%B7%D0%B4%D0%B0%D0%B2%D0%B0%D0%BD%D0%B5%20%D0%BD%D0%B0%20%D0%B2%D0%B8%D0%B7%D0%B8%20%D0%B8%20%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F%D0%BD%D0%B5%20%D0%BD%D0%B0%20%D0%B2%D0%B8%D0%B7%D0%BE%D0%B2%D0%B8%D1%8F%20%D1%80%D0%B5%D0%B6%D0%B8%D0%BC.pdf"
+        },
+        {
+          "title": "MFA Visa for Bulgaria, official central guidance",
+          "url": "https://www.mfa.bg/en/services-travel/consular-services/travel-bulgaria/visa-bulgaria/"
+        },
+        {
+          "title": "MFA Tariff №3, official consular-fee consolidation through SG 38/2026",
+          "url": "https://new.mfa.bg/upload/159290/%D0%A2%D0%B0%D1%80%D0%B8%D1%84%D0%B0%20%E2%84%96%203%20last.pdf"
+        }
+      ],
+      "review_question": "Clarify the exact Bulgarian and EU-law applicant classes and evidence for the no-fee/accelerated route; reconcile MFA general 15-day and appointment statements with Directive Article 5(2), Visa Code Article 9, the 2024 Handbook, and Ordinance Article 23(3); verify prior-consultation exemptions/triggers, representation and VFS treatment, digital-application implementation, precise refusal reasons and appeal deadlines/forum/fees/legal-aid, and current mission-specific checklists.",
+      "editorial_action": "Keep the Visa Code, Directive facilitation, national Ordinance and MFA web guidance distinct. Do not treat all applicants described by the MFA as Directive beneficiaries, let general 15-day/appointment wording erase accelerated handling or Article 23(3), treat the 2023 Notice as current on Bulgaria's pre-Schengen status, or mark visa coverage complete from source acceptance."
     }
   ]
 }
