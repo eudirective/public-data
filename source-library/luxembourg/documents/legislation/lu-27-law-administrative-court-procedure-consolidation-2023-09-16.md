@@ -1,39 +1,45 @@
-# Law of 21 June 1999 on procedure before administrative courts, consolidation applicable 16 September 2023
+# Law of 21 June 1999 on procedure before administrative courts — consolidation applicable 16 September 2023
 
 - Jurisdiction: Luxembourg
-- Candidate ID: `lu-27`
-- Source type: `administrative_court_procedure_law`
-- Candidate URL: https://legilux.public.lu/eli/etat/leg/loi/1999/06/21/n2/consolide/20230916
-- Retrieved representation: https://data.legilux.public.lu/filestore/eli/etat/leg/loi/1999/06/21/n2/consolide/20230916/fr/xml/eli-etat-leg-loi-1999-06-21-n2-consolide-20230916-fr-xml.xml
-- Retrieved: 2026-10-19T00:39:07+00:00
-- Media type: `application/xml`
-- Publisher/version evidence: Consolidation date 2023-09-16 is known; newer applicable version not established in this tranche.
-- Representation: Casemates content-negotiated LegalDocML XML
-- Exact response SHA-256: `c46596335881713ef62a979ee272b9cd9108b01a36e26009b1a57d6e6d434698`
+- Source ID: lu-27
+- Official record title: Law of 21 June 1999 on procedure before administrative courts, consolidation applicable 16 September 2023
+- Official source: https://legilux.public.lu/eli/etat/leg/loi/1999/06/21/n2/consolide/20230916
+- Resolved LegalDocML representation: https://data.legilux.public.lu/filestore/eli/etat/leg/loi/1999/06/21/n2/consolide/20230916/fr/xml/eli-etat-leg-loi-1999-06-21-n2-consolide-20230916-fr-xml.xml
+- Publisher: Legilux / Casemates, Ministère d’État — Service central de législation
+- Language: French
+- Version and scope: Consolidated version applicable 2023-09-16. Legilux labels consolidated texts documentary and without legal force. Later currentness was not established in this review.
+- Captured: 2026-10-19T00:39:07+00:00
+- Reviewed: 2026-10-25
+- Original XML response SHA-256: c46596335881713ef62a979ee272b9cd9108b01a36e26009b1a57d6e6d434698 (147706 bytes)
+- Archived candidate-conversion SHA-256: e138b6bb1799840c6f80f7acd8d366f6bafef4816676c34324b5ec0e59cbdae8
+- Extracted legal-text body SHA-256: 0aeee57b3accc3a3bc7778d381b69f8d654508af56f9dd019f77b4251b840f95
+- Extraction: LegalDocML body converted with the archived Luxembourg converter; comparison with the archived candidate body passes after deduplicating repeated Art. heading labels. The XML has 5 nontext noteRef markers, which are not rendered; the captured body contains no note text. No annex or attachment content was found in the body.
+- Research evidence archive: EU Source Update Monitor local-only; candidate candidates/luxembourg_promotion_20261025/Luxembourg/lu-27.md (SHA-256 e138b6bb1799840c6f80f7acd8d366f6bafef4816676c34324b5ec0e59cbdae8); raw response captures/luxembourg_promotion_20261025/Luxembourg/raw/lu-27-c46596335881713ef62a979ee272b9cd9108b01a36e26009b1a57d6e6d434698.xml.gz (gzip SHA-256 2bca5b48713b2b76fed102a78b9b053d3920a921ee0a5254eecfb6f2a1ab8733; decompressed source SHA-256 c46596335881713ef62a979ee272b9cd9108b01a36e26009b1a57d6e6d434698).
+- Reuse basis: [Casemates CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); Casemates publishes legislative text and metadata under this license. This file reproduces only the legislative act text and attributes the publisher and ELI; it contains no website interface or explanatory page copy.
 
-> **Review candidate.** Use the government-published Legilux text as a dated working version and retain its documentary/no-legal-force notice. Consult a Mémorial act only for a specific discrepancy or commencement question; do not reconstruct the full amendment history.
+> **Accepted local text copy.** Dated 2023 snapshot only; no currentness claim after 2023-09-16. This is a French source document, not a translation, legal assessment, topic-coverage determination, or country-completion finding. Consult the promulgated Mémorial and official Legilux record if the text or its legal effect is material.
 
-## Captured legal text
+## Official source text (French)
 
 ### Chapitre Ier. De l’introduction et de l’instruction des instances
 
-### Art. Art. 1er.
+### Art. 1er.
 
 Tout recours, en matière contentieuse, introduit devant le tribunal administratif, dénommé ci-après «tribunal», est formé par requête signée d’un avocat inscrit à la liste I des tableaux dressés par les conseils des Ordres des avocats.
 
 La requête, qui porte date, contient: les noms, prénoms et domicile du requérant, la désignation de la décision contre laquelle le recours est dirigé, l’exposé sommaire des faits et des moyens invoqués, l’objet de la demande, et le relevé des pièces dont le requérant entend se servir.
 
-### Art. Art. 2.
+### Art. 2.
 
 La requête introductive est déposée au greffe du tribunal, en original et quatre copies. Les pièces énoncées sont jointes en quatre copies. La décision critiquée doit figurer en copie parmi les pièces versées, si le demandeur en dispose; si tel n’est pas le cas, elle est à verser en cours de procédure par celui qui en est détenteur. En cas de recours contre le silence prévu par l’article 4 de la loi du 7 novembre 1996 portant organisation des juridictions de l’ordre administratif, c’est la demande de décision accompagnée le cas échéant d’un récépissé, qui est à joindre.
 
 Le tribunal peut exiger le dépôt des originaux des pièces. Ce dépôt s’opère moyennant dépôt au greffe du tribunal où les pièces peuvent être consultées sans déplacement.
 
-### Art. Art. 3.
+### Art. 3.
 
 Au regard des délais de procédure, seule la date du dépôt au greffe est prise en considération.
 
-### Art. Art. 4.
+### Art. 4.
 
 (1) Sous réserve du paragraphe 2, le requérant fait signifier la requête à la partie défenderesse et aux tiers intéressés, à personne ou à domicile, par exploit d’huissier, dont l’original ou la copie certifiée conforme est déposé sans délai au greffe du tribunal. L’affaire n’est portée au rôle qu’après ce dépôt.
 
@@ -45,7 +51,7 @@ Au regard des délais de procédure, seule la date du dépôt au greffe est pris
 
 (5) Les règles établies pour les significations en matière de procédure civile sont applicables.
 
-### Art. Art. 5.
+### Art. 5.
 
 (1) Sans préjudice de la faculté, pour l’Etat, de se faire représenter par un délégué, le défendeur et le tiers intéressé sont tenus de constituer avocat et de fournir leur réponse dans le délai de trois mois à dater de la signification de la requête introductive.
 
@@ -63,11 +69,11 @@ Au regard des délais de procédure, seule la date du dépôt au greffe est pris
 
 (8) Dans les affaires urgentes, les délais peuvent être abrégés par ordonnance du président du tribunal. La demande en abréviation des délais est signifiée ou notifiée aux autres parties. Le président rend une ordonnance non susceptible de recours après avoir entendu les parties ou les avoir dûment appelées.
 
-### Art. Art. 6.
+### Art. 6.
 
 Si la partie défenderesse ou un tiers intéressé ne comparaît pas dans le délai prévu à l’article 5, le tribunal statue néanmoins à l’égard de toutes les parties.
 
-### Art. Art. 7.
+### Art. 7.
 
 Il ne pourra y avoir plus de deux mémoires de la part de chaque partie, y compris la requête introductive.
 
@@ -75,7 +81,7 @@ Néanmoins, en cas de jugement avant dire droit ou de mesure d’instruction, ch
 
 Toutefois, dans l’intérêt de l’instruction de l’affaire, le président du tribunal ou le président de la chambre appelée à connaître de l’affaire peut ordonner d’office la production de mémoires supplémentaires.
 
-### Art. Art. 8.
+### Art. 8.
 
 (1) Le dépôt et la signification des mémoires en réponse, en réplique et en duplique produits par les parties autres que le délégué du Gouvernement se font d’après les règles fixées aux articles 2 et 4 pour la requête introductive.
 
@@ -89,13 +95,13 @@ Toutefois, dans l’intérêt de l’instruction de l’affaire, le président d
 
 (6) Toute pièce versée après que le juge-rapporteur a commencé son rapport en audience publique est écartée des débats, sauf si le dépôt en est ordonné par le tribunal.
 
-### Art. Art. 9.
+### Art. 9.
 
 Par dérogation à l’article 1er , en cas d’introduction d’un recours par l’Etat, la requête introductive peut être signée par un délégué du Gouvernement.
 
 Par dérogation à l’article 4, en cas d’introduction d’un recours par l’Etat, le greffier communique, selon les formalités prévues à l’article 34, à la partie défenderesse et au tiers intéressé, copie des mémoires et pièces fournis. La partie défenderesse et le tiers intéressé sont tenus de répondre dans le délai prévu à l’article 5.
 
-### Art. Art. 10.
+### Art. 10.
 
 Les communications entre avocats constitués et entre le délégué du Gouvernement et les avocats constitués peuvent être faites moyennant signification par ministère d’huissier ou notification par voie postale ou par voie directe ou par voie de greffe en ce qui concerne les communications avec le délégué du Gouvernement.
 
@@ -103,7 +109,7 @@ La signification est constatée par l’apposition du cachet et de la signature 
 
 La notification directe s’opère par la remise de l’acte en double exemplaire au délégué du Gouvernement ou à l’avocat destinataire, lequel restitue aussitôt l’un des exemplaires après l’avoir daté et visé.
 
-### Art. Art. 11.
+### Art. 11.
 
 (1) Le recours n’a pas d’effet suspensif s’il n’en est autrement ordonné par le président du tribunal ou par le juge qui le remplace.
 
@@ -119,13 +125,13 @@ La notification directe s’opère par la remise de l’acte en double exemplair
 
 (7) Le juge qui a connu de la demande d’effet suspensif du recours ne peut plus siéger au fond.
 
-### Art. Art. 12.
+### Art. 12.
 
 Lorsque le tribunal est saisi d’une requête en annulation ou en réformation, le président ou le magistrat qui le remplace peut au provisoire ordonner toutes les mesures nécessaires afin de sauvegarder les intérêts des parties ou des personnes qui ont intérêt à la solution de l’affaire, à l’exclusion des mesures ayant pour objet des droits civils.
 
 La demande est instruite et jugée selon la procédure prévue à l’article 11, paragraphes 3 à 7.
 
-### Art. Art. 12bis.
+### Art. 12bis.
 
 (1) Par dérogation à l’article 2, un recours tendant à l’obtention d’un effet suspensif prévu à l’article 11 ou d’une mesure de sauvegarde prévue à l’article 12 formulé à l’encontre d’une décision émanant de l’État peut également être introduit au greffe du tribunal administratif par voie électronique moyennant téléchargement sur la plateforme d’échanges sécurisés, désignée ci-après « la plateforme ». Dans ce cas, la requête fait l’objet d’une signature électronique. L’enregistrement de la requête sur la plateforme vaut signification à l’État.
 
@@ -137,7 +143,7 @@ La demande est instruite et jugée selon la procédure prévue à l’article 11
 
 (5) Une requête tendant à obtenir un sursis à exécution ou une mesure de sauvegarde sur base de l’article 114 de la loi modifiée du 27 août 2008 sur la libre circulation des personnes et l’immigration, qui est déposée conformément au paragraphe 1er du présent article, ne bénéficie d’un effet suspensif immédiat que si elle a été enregistrée sur la plateforme entre 08.00 et 17.00 heures d’un jour ouvrable.
 
-### Art. Art. 13.
+### Art. 13.
 
 (1) Sauf dans les cas où les lois ou les règlements fixent un délai plus long ou plus court et sans préjudice des dispositions de la loi du 22 décembre 1986 relative au relevé de la déchéance résultant de l’expiration d’un délai imparti pour agir en justice, le recours au tribunal n’est plus recevable après trois mois du jour où la décision a été notifiée au requérant ou du jour où le requérant a pu en prendre connaissance.
 
@@ -149,13 +155,13 @@ La demande est instruite et jugée selon la procédure prévue à l’article 11
 
 (5) Néanmoins le tiers intéressé peut former incidemment recours alors même qu’il aurait acquiescé à la décision attaquée avant le recours principal.
 
-### Art. Art. 14.
+### Art. 14.
 
 Lorsque, d’après l’examen d’une affaire, il y a lieu d’ordonner des mises en intervention, des enquêtes, des mesures d’instruction exécutées par un technicien, des vérifications d’écritures ou des vérifications personnelles du juge, le tribunal règle la forme et les délais dans lesquels il y est procédé et commet un de ses membres pour procéder à ces actes d’instruction, les recevoir ou les surveiller.
 
 Le principe du contradictoire doit en tout état de cause être respecté.
 
-### Art. Art. 14-1.
+### Art. 14-1.
 
 (1) Par dérogation aux articles 1er à 14 les règles procédurales ci-dessous sont applicables aux recours dirigés contre les décisions de sanctions administratives communales visées à l’article 9-1 de la loi modifiée du 7 novembre 1996 portant organisation des juridictions de l’ordre administratif.
 
@@ -185,21 +191,21 @@ Le principe du contradictoire doit en tout état de cause être respecté.
 
 ### Chapitre II. Des recours contre les actes administratifs à caractère réglementaire
 
-### Art. Art. 15.
+### Art. 15.
 
 Les recours dirigés contre les actes administratifs à caractère réglementaire sont introduits et instruits conformément aux dispositions des articles 1er à 14, sous réserve des dispositions qui suivent.
 
-### Art. Art. 16.
+### Art. 16.
 
 Le délai d’introduction est de trois mois à partir de la publication de l’acte attaqué ou, à défaut de publication, de la notification ou du jour où le requérant en a eu connaissance.
 
-### Art. Art. 17.
+### Art. 17.
 
 Si la décision attaquée est publiée au Mémorial, le demandeur est dispensé de la verser parmi les pièces.
 
 En cas de recours introduit par une association sur base de l’article 7, paragraphe (2) de la loi du 7 novembre 1996, celle-ci doit déposer toutes pièces documentant ses qualités de personnalité morale et d’association agréée au voeu de l’article 7, paragraphe (2), alinéa 2 de la même loi.
 
-### Art. Art. 18.
+### Art. 18.
 
 Le président du tribunal ou le magistrat qui le remplace peut ordonner l’effet suspensif du recours dans les conditions et selon la procédure de l’article 11.
 
@@ -207,7 +213,7 @@ Le président du tribunal ou le magistrat qui le remplace peut ordonner l’effe
 
 #### De l’inscription en faux
 
-### Art. Art. 19.
+### Art. 19.
 
 Dans le cas de demande en inscription de faux contre une pièce produite, le tribunal fixe le délai dans lequel la partie qui l’a produite est tenue de déclarer si elle entend s’en servir.
 
@@ -217,7 +223,7 @@ Si la partie déclare qu’elle entend se servir de la pièce, le tribunal statu
 
 #### De l’intervention
 
-### Art. Art. 20.
+### Art. 20.
 
 L’intervention est formée par une requête, conforme aux dispositions des articles 1er et 2, qui est notifiée aux parties, pour y répondre dans le délai fixé par le président du tribunal ou le président de la chambre appelée à connaître de l’affaire principale; néanmoins, la décision de l’affaire principale qui serait instruite ne peut être retardée par une intervention.
 
@@ -227,7 +233,7 @@ L’intervention n’est plus recevable après que le juge-rapporteur a commenc�
 
 #### Des reprises d’instance et constitution de nouvel avocat
 
-### Art. Art. 21.
+### Art. 21.
 
 (1) Dans les affaires qui ne sont point en état d’être jugées, la procédure est suspendue par la communication du décès de l’une des parties ou par le seul fait du décès, de la démission, de l’interdiction ou de la destitution de son avocat.
 
@@ -237,13 +243,13 @@ L’intervention n’est plus recevable après que le juge-rapporteur a commenc�
 
 (4) La reprise d’instance et la constitution de nouvel avocat se fait en conformité avec les articles 5, paragraphe 2 et 10.
 
-### Art. Art. 22.
+### Art. 22.
 
 L’acte de révocation d’un avocat par la partie est sans effet pour la partie adverse, s’il ne contient pas la constitution d’un autre avocat.
 
 #### Du désaveu
 
-### Art. Art. 23.
+### Art. 23.
 
 Si une partie veut former un désaveu relativement à des actes ou procédures faits en son nom par l’avocat ailleurs qu’au tribunal, et qui peuvent influer sur la décision de la cause qui y est portée, sa demande doit être communiquée aux autres parties. Si le tribunal estime que le désaveu mérite d’être instruit, il renvoie l’instruction et le jugement devant les juges compétents pour y être statué dans le délai qui sera réglé.
 
@@ -251,13 +257,13 @@ A l’expiration de ce délai, il est passé outre au rapport de l’affaire pri
 
 #### De la récusation
 
-### Art. Art. 24.
+### Art. 24.
 
 Sont applicables les dispositions relatives à la récusation applicables en matière de procédure civile.
 
 #### Du désistement
 
-### Art. Art. 25.
+### Art. 25.
 
 Le désistement peut être fait par acte signé par le demandeur ou par son mandataire et communiqué à la partie adverse et au tiers intéressé dans les formes de l’article 10.
 
@@ -265,15 +271,15 @@ Il emporte de plein droit déchéance du recours et obligation de payer les frai
 
 ### Chapitre IV. De la tenue des audiences et des décisions du tribunal
 
-### Art. Art. 26.
+### Art. 26.
 
 Ceux qui assistent aux audiences, se tiennent découverts, dans le respect et le silence: tout ce que le président ordonne pour le maintien de l’ordre, est exécuté ponctuellement et à l’instant.
 
-### Art. Art. 27.
+### Art. 27.
 
 Si un ou plusieurs individus interrompent le silence, donnent des signes d’approbation ou d’improbation, soit à la défense des parties, soit aux discours des juges, soit aux interpellations, avertissements ou ordre du président, soit aux jugements ou ordonnances, causent ou excitent du tumulte de quelque manière que ce soit, et si, après l’avertissement du président, ils ne rentrent pas dans l’ordre sur-le-champ, il leur est enjoint de se retirer, et les résistants seront saisis et déposés à l’instant dans la maison d’arrêt pour vingt-quatre heures: ils y seront reçus sur l’exhibition de l’ordre du président, qui sera mentionné au procès-verbal de l’audience; le tout sans préjudice des poursuites pénales devant la juridiction compétente.
 
-### Art. Art. 28.
+### Art. 28.
 
 (1) Le tribunal prend ses décisions sur le rapport d’un de ses membres.
 
@@ -283,27 +289,27 @@ Si un ou plusieurs individus interrompent le silence, donnent des signes d’app
 
 (4) Le jugement contient les noms des juges, du délégué du Gouvernement ainsi que des mandataires, les noms, prénoms et demeures des parties, leurs prétentions, l’exposé sommaire des points de fait et de droit, les motifs et le dispositif.
 
-### Art. Art. 29.
+### Art. 29.
 
 L’inobservation des règles de procédure n’entraîne l'irrecevabilité de la demande que si elle a pour effet de porter effectivement atteinte aux droits de la défense.
 
-### Art. Art. 30.
+### Art. 30.
 
 Le tribunal ne peut pas statuer sur un moyen soulevé d’office sans avoir préalablement invité les parties à présenter leurs observations.
 
-### Art. Art. 31.
+### Art. 31.
 
 Le tribunal, suivant la gravité des circonstances, peut, dans les causes dont il sera saisi, prononcer, même d’office, des injonctions, supprimer des écrits, les déclarer calomnieux et ordonner l’impression et l’affiche de ses jugements.
 
-### Art. Art. 32.
+### Art. 32.
 
 Toute partie qui succombera sera condamnée au dépens, sauf au tribunal à laisser la totalité, ou une fraction des dépens à la charge d’une autre partie par décision spéciale et motivée.
 
-### Art. Art. 33.
+### Art. 33.
 
 Lorsqu’il paraît inéquitable de laisser à la charge d’une partie les sommes exposées par elle et non comprises dans les dépens, le juge peut condamner l’autre partie à lui payer le montant qu’il détermine.
 
-### Art. Art. 34.
+### Art. 34.
 
 (1) Le greffier notifie aux parties une copie certifiée conforme du jugement.
 
@@ -325,7 +331,7 @@ Lorsqu’il paraît inéquitable de laisser à la charge d’une partie les somm
 
 (9) Les jugements du tribunal ne sont mis à exécution qu’après avoir été préalablement notifiés aux parties.
 
-### Art. Art. 35.
+### Art. 35.
 
 Par dérogation à l’article 45, si l’exécution de la décision attaquée risque de causer au requérant un préjudice grave et définitif, le tribunal peut, dans un jugement tranchant le principal ou une partie du principal, ordonner l’effet suspensif du recours pendant le délai et l’instance d’appel.
 
@@ -335,19 +341,19 @@ La décision ordonnant l’effet suspensif n’est pas susceptible d’appel.
 
 #### De la tierce-opposition
 
-### Art. Art. 36.
+### Art. 36.
 
 Ceux qui veulent s’opposer à des décisions du tribunal et lors desquelles ni eux ni ceux qu’ils représentent n’ont été appelés, ne peuvent former leur opposition que par requête en la forme ordinaire; et sur le dépôt qui en sera fait au greffe du tribunal, il sera procédé conformément aux dispositions du chapitre Ier.
 
 #### De l’appel
 
-### Art. Art. 37.
+### Art. 37.
 
 L’appel contre les décisions du tribunal est instruit devant la Cour administrative suivant les règles énoncées aux articles 38 à 51.
 
 ### Chapitre I. De l’appel et de l’instruction sur appel
 
-### Art. Art. 38.
+### Art. 38.
 
 Sans préjudice des dispositions de la loi du 22 décembre 1986 relative au relevé de la déchéance résultant de l’expiration d’un délai imparti pour agir en justice, le délai pour interjeter appel contre les jugements du tribunal administratif ou d’une autre juridiction administrative est, sous peine de forclusion, de quarante jours. Le délai n’est pas susceptible d’augmentation en raison de la distance.
 
@@ -355,7 +361,7 @@ Ce délai court pour toutes les parties du jour où le jugement leur aura été 
 
 L’intimé peut interjeter appel incident.
 
-### Art. Art. 39.
+### Art. 39.
 
 (1) L’appel est interjeté par une requête déposée au greffe de la Cour administrative, dénommée ci-après «Cour», en original et quatre copies et signifiée aux parties ayant figuré en première instance ou y ayant été dûment appelées.
 
@@ -367,13 +373,13 @@ L’intimé peut interjeter appel incident.
 
 (5) Les règles établies pour les significations en matière de procédure civile sont applicables.
 
-### Art. Art. 40.
+### Art. 40.
 
 La signature de l’avocat ou du délégué du Gouvernement au bas de la requête ou des mémoires vaut constitution et élection de domicile chez lui.
 
 Si l’Etat relève appel par voie du délégué du Gouvernement, le mandat du membre du gouvernement dont émane la décision en cause doit figurer en annexe de la requête d’appel, à peine d’irrecevabilité.
 
-### Art. Art. 41.
+### Art. 41.
 
 (1) La requête qui porte date, contient: les noms, prénoms et domicile de l’appelant, l’indication du jugement contre lequel appel est interjeté, l’exposé sommaire des faits et des moyens invoqués, les prétentions de l’appelant, et le relevé des pièces dont il entend se servir.
 
@@ -385,15 +391,15 @@ Si l’Etat relève appel par voie du délégué du Gouvernement, le mandat du m
 
 (5) Toute pièce versée après que le magistrat-rapporteur a commencé son rapport en audience publique est écartée des débats, sauf si le dépôt en est ordonné par la Cour.
 
-### Art. Art. 42.
+### Art. 42.
 
 Au regard des délais de procédure, seule la date du dépôt au greffe est prise en considération.
 
-### Art. Art. 43.
+### Art. 43.
 
 Aucune intervention volontaire n’est reçue en cas d’appel si ce n’est de la part de ceux qui ont droit de former tierce-opposition.
 
-### Art. Art. 44.
+### Art. 44.
 
 Les jugements qui tranchent dans leur dispositif une partie du principal et ordonnent une mesure d’instruction ou une mesure provisoire peuvent être immédiatement frappés d’appel.
 
@@ -401,11 +407,11 @@ Il en est de même lorsque le jugement, qui statue sur une exception de procédu
 
 Les autres jugements ne peuvent être frappés d’appel, indépendamment des jugements sur le fond, que dans les cas spécifiés par le législateur.
 
-### Art. Art. 45.
+### Art. 45.
 
 Sans préjudice de la disposition de l’article 35, pendant le délai et l’instance d’appel, il est sursis à l’exécution des jugements ayant annulé ou réformé des décisions attaquées.
 
-### Art. Art. 46.
+### Art. 46.
 
 (1) La partie intimée et le tiers intéressé sont tenus de fournir leur réponse dans le délai d’un mois à dater de la signification de la requête d’appel.
 
@@ -417,25 +423,25 @@ Sans préjudice de la disposition de l’article 35, pendant le délai et l’in
 
 (5) Dans les affaires urgentes, les délais peuvent être abrégés par ordonnance du président de la Cour. La demande en abréviation des délais est communiquée aux autres parties. Le président rend une ordonnance non susceptible de recours après avoir entendu les parties ou les avoir dûment appelés.
 
-### Art. Art. 47.
+### Art. 47.
 
 Si la partie intimée ne comparaît pas, la Cour statue néanmoins à son égard.
 
-### Art. Art. 48.
+### Art. 48.
 
 Sauf en cas d’arrêt avant dire droit ou de mesure d’instruction, il ne pourra y avoir plus de deux mémoires de la part de chaque partie, y comprise la requête d’appel. Toutefois, dans l’intérêt de l’instruction de l’affaire, le président de la Cour ou le magistrat présidant la juridiction d’appel peut ordonner d’office la production de mémoires supplémentaires.
 
-### Art. Art. 49.
+### Art. 49.
 
 Le dépôt et la communication des mémoires en réponse, en réplique et en duplique produits par les parties autres que celles représentées par le délégué du Gouvernement se font d’après les règles fixées à l’article 39 pour la requête d’appel.
 
 Pour les mémoires présentés par le délégué du Gouvernement, les dispositions prévues à l’article 8, paragraphes 3 à 7 et à l’article 10 sont applicables.
 
-### Art. Art. 50.
+### Art. 50.
 
 Par dérogation à l’article 39, en cas d’appel interjeté de la part de l’Etat, le greffier communique, selon les formalités prévues à l’article 34, aux parties en cause en première instance copies de la requête d’appel, des mémoires et pièces fournis. La partie intimée et le tiers intéressé sont tenus de répondre dans le délai prévu à l’article 46.
 
-### Art. Art. 51.
+### Art. 51.
 
 Lorsque, d’après l’examen d’une affaire, il y a lieu d’ordonner des mises en intervention, des enquêtes, des mesures d’instruction exécutées par un technicien, des vérifications d’écritures ou des vérifications personnelles du conseiller, la Cour règle la forme et les délais dans lesquels il y est procédé et commet un de ses membres pour procéder à ces actes d’instruction, les recevoir ou les surveiller.
 
@@ -443,13 +449,13 @@ Le principe du contradictoire doit en tout état de cause être respecté.
 
 ### Chapitre II. Des incidents en cours d’instruction des affaires
 
-### Art. Art. 52.
+### Art. 52.
 
 Les articles 19 à 25 sont applicables aux instances devant la Cour.
 
 ### Chapitre III. Des décisions de la Cour
 
-### Art. Art. 53.
+### Art. 53.
 
 (1) La Cour prend ses décisions sur le rapport d’un de ses membres.
 
@@ -459,29 +465,29 @@ Les articles 19 à 25 sont applicables aux instances devant la Cour.
 
 (4) L’arrêt contient les noms des conseillers, du délégué du gouvernement ainsi que des mandataires, les noms, prénoms et demeures des parties, leurs prétentions, l’exposé sommaire des points de fait et de droit, les motifs et le dispositif.
 
-### Art. Art. 54.
+### Art. 54.
 
 Sont applicables à la Cour, les articles 26, 27 et 29 à 34.
 
 ### Chapitre IV. Des voies de recours contre les décisions de la Cour
 
-### Art. Art. 55.
+### Art. 55.
 
 Les arrêts de la Cour ne sont susceptibles d’aucune voie de recours, si ce n’est de la tierce-opposition qui s’exerce conformément à l’article 36.
 
-### Art. Art. 56.
+### Art. 56.
 
 En matière fiscale, les dispositions prévues aux titres I et II sont applicables, sauf les exceptions qui sont prévues aux dispositions des articles suivants.
 
-### Art. Art. 57.
+### Art. 57.
 
 La requête introductive d’instance signée par le requérant ou son mandataire contient outre les indications prévues à l’article 1er une élection de domicile au Grand-Duché lorsque le requérant ou son mandataire demeurent à l’étranger.
 
-### Art. Art. 58.
+### Art. 58.
 
 Les demandes nouvelles n’ayant pas figuré dans la réclamation sont prohibées. En revanche, les moyens nouveaux sont admis.
 
-### Art. Art. 59.
+### Art. 59.
 
 La preuve des faits déclenchant l’obligation fiscale appartient à l’administration, la preuve des faits libérant de l’obligation fiscale ou réduisant la cote d’impôt appartient au contribuable.
 
@@ -489,23 +495,23 @@ La charge de la régularité de la procédure fiscale appartient à l’administ
 
 La preuve peut être rapportée par tous les moyens, hormis le serment.
 
-### Art. Art. 60.
+### Art. 60.
 
 Le demandeur peut prendre connaissance de tous les documents et pièces versés par l’administration au dossier du litige, y compris ceux contenant des indications relatives aux bénéfices ou revenus de tiers, de telle manière qu’il puisse s’assurer que les points de comparaison retenus par l’administration visent bien des entreprises dont l’activité est comparable à la sienne.
 
 Toutefois, les communications concernant les entreprises ou personnes nommément désignées ne portent que sur les moyennes de chiffres d’affaires ou de revenus, de façon à respecter le secret professionnel. Ces comparaisons ne sauraient à elles seules justifier des demandes de l’administration.
 
-### Art. Art. 60-1.
+### Art. 60-1.
 
 Lors d’un recours introduit à l’encontre d’une décision rendue par l’Autorité de concurrence du Grand-Duché de Luxembourg dans le cadre de l’exercice des pouvoirs lui attribués par les articles 22, 31, 32, 44, 45, 46, 48, 49, 50, 58 et 60 de la loi du 30 novembre 2022 relative à la concurrence, les dispositions prévues aux titres Ier et II sont applicables, sauf les exceptions qui sont prévues aux dispositions des articles suivants.
 
-### Art. Art. 60-2.
+### Art. 60-2.
 
 L’Autorité de concurrence du Grand-Duché de Luxembourg n’est pas tenue de constituer avocat, tel que prévu à l’article 5, paragraphe 1er, lors d’un recours introduit à l’encontre d’une décision rendue par celle-ci dans le cadre de l’exercice des pouvoirs lui attribués par les articles 22, 31, 32, 44, 45, 46, 48, 49, 50, 58 et 60 de la loi du 30 novembre 2022 relative à la concurrence.
 
 La transmission par le greffier d’un exemplaire des pièces déposées par le demandeur prévue à l’article 5, paragraphe 4, est adressée au président de l’Autorité de concurrence.
 
-### Art. Art. 60-3.
+### Art. 60-3.
 
 Les communications entre avocats constitués et l’Autorité de concurrence du Grand-Duché de Luxembourg peuvent être faites moyennant signification par ministère d’huissier ou notification par voie postale ou par voie directe.
 
@@ -513,23 +519,23 @@ La signification est constatée par l’apposition du cachet et de la signature 
 
 La notification directe s’opère par la remise de l’acte en double exemplaire au président de l’Autorité de concurrence, lequel restitue aussitôt l’un des exemplaires après l’avoir daté et visé.
 
-### Art. Art. 60-4.
+### Art. 60-4.
 
 Lorsque l’Autorité de concurrence interjette appel sans constituer avocat, la requête d’appel est signée par le président de l’Autorité de concurrence.
 
-### Art. Art. 61.
+### Art. 61.
 
 La loi du 7 novembre 1996 portant organisation des juridictions de l’ordre administratif est modifiée comme suit: Au paragraphe (1er) de l’article 7, les termes La Cour administrative sont remplacés par les termes Le tribunal administratif. L’article 7, paragraphe (3) est supprimé. Le dernier paragraphe actuel de l’article 7 devient le paragraphe (3) et est remplacé par le texte suivant: «(3) La décision prononçant l’annulation est publiée de la même manière que l’acte administratif à caractère réglementaire attaqué, dès qu’elle est coulée en force de chose jugée. L’annulation a un caractère absolu, à partir du jour où elle est coulée en force de chose jugée.» Un paragraphe (4) nouveau est ajouté à l’article 7, libellé comme suit: «Sauf disposition contraire de la loi, appel peut être interjeté devant la Cour administrative contre les décisions visées au paragraphe 1er.» L’article 8, paragraphe (3), point 5 est supprimé. A l’article 68, alinéa 2, le terme premier est supprimé. L’article 98, alinéa (2) est abrogé. L’article 99 est abrogé. A l’article 100, alinéa (2), les termes Par dérogation à l’alinéa 1er, sont supprimés.
 
-### Art. Art. 62.
+### Art. 62.
 
 L’article 10 de la loi modifiée du 13 mars 1993 relative à l’exécution en droit luxembourgeois de la directive n° 89/665 du Conseil du 21 décembre 1989 portant coordination des dispositions législatives, réglementaires et administratives relatives à l’application des procédures de recours en matière de marchés publics est remplacé par la disposition suivante: «Art. 10. L’ordonnance est exécutoire dès sa notification. Elle n’est susceptible d’aucune voie de recours. Elle cesse ses effets lorsque le tribunal a définitivement statué au fond. Le juge qui a connu de la demande d’effet suspensif du recours ne peut plus siéger au fond.»
 
-### Art. Art. 63.
+### Art. 63.
 
 A l’article 1er, alinéa 2 de la loi du 27 août 1977 concernant le statut des fonctionnaires au service d’institutions internationales, les mots les magistrats de l’ordre judiciaire sont remplacés par ceux de «les magistrats de l’ordre judiciaire et de l’ordre administratif.
 
-### Art. Art. 64.
+### Art. 64.
 
 La loi générale des impôts est modifée comme suit: Au § 84 A0 le délai de 6 semaines est porté à 3 mois. Les § 107 alinéa 7, 107a et 21o alinéa 3 A0 sont abrogés. Les dispositions de la loi générale des impôts relatives à la contrainte par corps sont abrogées. Au § 131 A0 sont intercalés entre les termes le directeur de l’Administration des contributions directes et accordera, les termes ou son délégué. Le § 228 A0 est modifié comme suit: La référence au § 168 est supprimée. La première phrase est complétée comme suit: ou son délégué. Le § 237 A0 est modifié comme suit: La référence au § 168 est supprimée. Le terme Finanzbehörden est remplacé par celui de Steuerbehörden. Le paragraphe est complété comme suit: Die Frist beträgt drei Monate. L’alinéa 1 du § 245 est rétabli avec le teneur suivante: «Le délai de recours est de trois mois pour les réclamations (§ 228 A0) et de trois mois au contentieux des actes détachables (§ 237 A0).»
 
@@ -539,29 +545,29 @@ Les alinéas 1 et 4 du § 299 A0 sont abrogés.
 
 Dans l’alinéa 2, la référence au § 94 Absätze 1 und 2 est supprimée.
 
-### Art. Art. 65.
+### Art. 65.
 
 L’article 7 de la loi du 1er mars 1952 modifiant certaines dispositions relatives aux impôts directs est modifié comme suit: Au deuxième alinéa, le terme réclamation est remplacé par celui de décision. L’article est complété comme suit: En matière de ventilation (§ 388 A0) le recours est porté directement devant le tribunal.
 
-### Art. Art. 66.
+### Art. 66.
 
 Au deuxième tiret du deuxième alinéa du paragraphe (1er) de l’article 2 de la loi modifiée du 10 août 1991 sur la profession d’avocat, les termes avocat inscrit à la liste II des tableaux dressés annuellement par les conseils des ordres des avocats, sont intercalés entre les termes assister par un et expert-comptable.
 
-### Art. Art. 67.
+### Art. 67.
 
 L’arrêté royal grand-ducal du 21 août 1866 portant règlement de procédure en matière de contentieux devant le Conseil d’Etat, tel qu’il a été modifié dans la suite, est abrogé.
 
-### Art. Art. 68.
+### Art. 68.
 
 La référence à la présente loi pourra se faire sous une forme abrégée en utilisant les termes de «loi portant règlement de procédure devant les juridictions administratives», pour autant que les articles 1er à 60, 69 et 70 sont concernés.
 
-### Art. Art. 69.
+### Art. 69.
 
 La présente loi entre en vigueur le 16 septembre 1999.
 
 Les affaires introduites avant cette date continueront à être instruites selon les anciennes règles de procédure.
 
-### Art. Art. 70.
+### Art. 70.
 
 Toutes les affaires introduites avant l’entrée en vigueur de la présente loi et qui n’ont pas fait l’objet d’un jugement du tribunal administratif avant la fin de l’année judiciaire 1998/1999, seront appelées pendant la deuxième moitié du mois de septembre et la première moitié du mois d’octobre 1999 par le tribunal en vue d’examiner leur degré d’instruction.
 
@@ -569,6 +575,6 @@ Les affaires dans lesquelles la partie défenderesse aura communiqué son mémoi
 
 Dans les affaires dans lesquelles seule la requête introductive aura été communiquée, le tribunal enjoindra par ordonnance non susceptible d’appel, au demandeur de déclarer au greffe, dans un délai d’un mois, à peine de forclusion, s’il entend poursuivre le recours. Dans ce cas, l’affaire sera instruite conformément aux dispositions de la présente loi. Sinon, le demandeur est censé s’être désisté de son recours.
 
-### Art. Art. 71.
+### Art. 71.
 
 Les recours introduits devant la Cour administrative à l’encontre des actes administratifs à caractère réglementaire pour lesquels le rapport prévu à l’article 53, paragraphes (1er) et (2) n’a pas été présenté et ceux qui ont donné lieu à un jugement d’avant dire droit sont transmis au tribunal administratif sans autre forme de procédure.
