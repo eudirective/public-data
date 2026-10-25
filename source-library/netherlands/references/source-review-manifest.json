@@ -3,11 +3,11 @@
   "jurisdiction": "Netherlands",
   "review_date": "2026-10-21",
   "scope": "Issue-led official-source link review covering all source classes identified to date; this is not a legal sufficiency or completeness certification.",
-  "status": "60_external_references_accepted; nine_local_texts_accepted; topic_coverage_incomplete",
+  "status": "60_external_references_accepted; ten_local_texts_accepted; topic_coverage_incomplete",
   "source_count": 63,
   "accepted_external_reference_count": 60,
   "not_relied_upon_count": 3,
-  "local_copy_accepted_count": 9,
+  "local_copy_accepted_count": 10,
   "topic_accepted_count": 0,
   "country_review_complete": false,
   "reconciliation": {
@@ -299,12 +299,20 @@
       "publisher": "ind.nl",
       "reference_status": "accepted_external_reference_with_narrow_scope",
       "acceptance_scope": "Official IND guidance, service, fee, threshold, or form link for the stated subject; check its current displayed version/date and linked legal route before applying a requirement.",
-      "captured_version_evidence": "The archived candidate retrieved 2026-10-19 displayed Last update: 17 June 2026. The official IND result checked 2026-10-25 reports Last update: 8 October 2026 and materially updated registration/form details. The archived conversion is stale and is not accepted as local text; the official page link remains accepted.",
+      "captured_version_evidence": "The archived raw response retrieved 2026-10-19 and its converted page body display Last update: 8 October 2026. The candidate header metadata incorrectly said 17 June 2026. The official IND page opened and checked 2026-10-25 displays the same 8 October date and matching substantive text and headings; the candidate body is not stale.",
       "observed_resolved_url": "https://ind.nl/en/residence-permits/eu-eea-or-swiss-citizens/registering-with-the-ind-as-an-eu-eea-or-swiss-citizen",
-      "local_copy_accepted": false,
+      "local_copy_accepted": true,
       "topic_accepted": false,
-      "candidate_disposition": "not_promoted_as_local_copy; superseded_archived_candidate; accepted_external_link_only",
-      "currentness_limit": "Use the official page showing its 8 October 2026 update; the archived candidate is older and must not be relied upon."
+      "candidate_disposition": "promoted_local_copy; incorrect_candidate_header_date_reconciled_against_archived_raw_and_live_page",
+      "currentness_limit": "As checked on 2026-10-25, the live official page displays an 8 October 2026 update, matching the retained text. Dynamic IND guidance and linked forms may change; check the live page, form and linked legislation before use.",
+      "local_copy_path": "documents/guidance/nl-ind-register-eu-eea-swiss-2026-10-08.md",
+      "local_copy_sha256": "9d595c067d1875513e240242cc09fba665816cc23a770ece811ac141e7655f2e",
+      "local_copy_reviewed_on": "2026-10-25",
+      "source_response_sha256": "bcd36d28f688ecad3b44d5d0d26fbe65572f83f023a82ff303c1ce256d0c0982",
+      "converted_candidate_sha256": "1e0ac031266f9a290b1e5c035c26fe72eec16e5c3640c413d3631f8197b68849",
+      "displayed_last_updated_date": "2026-10-08",
+      "source_retrieved_at": "2026-10-19T02:49:07+00:00",
+      "semantic_review": "Canonical official IND page URL verified. The exact raw response SHA-256 matches the Monitor archive; the archived response and candidate body display the 8 October 2026 page update, despite the candidate header metadata incorrectly saying 17 June. The current official page opened 2026-10-25 displays the same date and matching substantive text and headings. All non-empty main-content headings and text were retained; breadcrumb, duplicate navigation labels and empty disclosure headings were removed. The two linked PDFs were identified and linked but are not included in this accepted HTML page copy. This is operational guidance, not primary law."
     },
     {
       "source_id": "nl-18",
@@ -1009,7 +1017,7 @@
       "topic_accepted": false
     }
   ],
-  "provenance_note": "Prior inventories and raw/derived captures remain in the EU Source Update Monitor local-only archive as provenance. Nine source texts were separately reviewed and promoted under documents/ (six statutory texts and three IND guidance pages); the stale nl-17 conversion, duplicate candidates, manifest, and all other archived conversions remain unaccepted as source text.",
+  "provenance_note": "Prior inventories and raw/derived captures remain in the EU Source Update Monitor local-only archive as provenance. Ten source texts were separately reviewed and promoted under documents/ (six statutory texts and four IND guidance pages). The nl-17 candidate header contained an incorrect 17 June date annotation; its archived raw HTML and page body display 8 October, matching the live page checked on 25 October. Duplicate and superseded candidates, the inventory manifest, and other archived conversions remain provenance only.",
   "local_copy_review_date": "2026-10-25",
   "additional_source_review_date": "2026-10-25",
   "candidate_dispositions": {
@@ -1087,7 +1095,10 @@
       {
         "archive_path": "candidates/public-data/Netherlands/monitor-candidates/nl-17.md",
         "source_id": "nl-17",
-        "disposition": "stale_candidate_not_promoted; official page updated 2026-10-08; link_only_pending_fresh_capture"
+        "disposition": "promoted_local_copy; incorrect_candidate_header_date_reconciled",
+        "local_path": "documents/guidance/nl-ind-register-eu-eea-swiss-2026-10-08.md",
+        "local_copy_sha256": "9d595c067d1875513e240242cc09fba665816cc23a770ece811ac141e7655f2e",
+        "source_response_sha256": "bcd36d28f688ecad3b44d5d0d26fbe65572f83f023a82ff303c1ce256d0c0982"
       }
     ]
   }

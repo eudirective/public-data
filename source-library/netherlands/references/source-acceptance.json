@@ -3,7 +3,7 @@
   "jurisdiction": "Netherlands",
   "reviewed_on": "2026-10-21",
   "source_review_manifest": "source-review-manifest.json",
-  "status": "external_references_reviewed_with_narrow_scope; nine_local_texts_accepted; topic_coverage_incomplete",
+  "status": "external_references_reviewed_with_narrow_scope; ten_local_texts_accepted; topic_coverage_incomplete",
   "source_count": 63,
   "accepted_external_reference_count": 60,
   "not_relied_upon_count": 3,
@@ -83,7 +83,7 @@
       "reason": "The captured Rechtspraak help route returned HTTP 403 in the research client. This does not establish publisher downtime; offer the official Rechtspraak site for human review."
     }
   ],
-  "local_copy_accepted_count": 9,
+  "local_copy_accepted_count": 10,
   "topic_accepted_count": 0,
   "country_review_complete": false,
   "acceptance_basis": [
@@ -93,7 +93,7 @@
     "Direct access to Wetten.nl and some service pages was restricted in the research client. This is not treated as publisher downtime or a reason to require automated extraction. Whole official websites are offered for human review when a page, currentness point, legal dependency, or operational detail needs direct inspection.",
     "An accepted external link is independent of local conversion, hashes, replay, reuse permission, topic adequacy, and country completion. Local copies are recorded separately; their acceptance does not imply topic coverage.",
     "Six local statutory texts were accepted on 2026-10-25 under Auteurswet Article 11. For each, the Wetten.nl BWBR identifier, Dutch language, title, dated canonical URL, published version marker, publisher-modified metadata, and all article headings were checked against the exact archived official HTML; the raw response SHA-256 matches the candidate manifest. They are last-observed texts only: live current-version retrieval on 2026-10-25 returned HTTP 429, and this does not establish latest status or topic coverage.",
-    "The official IND Proclaimer (nl-63) was checked on 2026-10-25 and permits reuse of website content if the source is mentioned; it also warns that information may be incomplete or out of date. Three archived IND pages were accepted with source attribution after their canonical URLs, captured response hashes, page update dates, heading text and main-content extraction were reviewed. The fourth IND registration candidate was not accepted: its June candidate is superseded by the official page's 8 October 2026 update."
+    "The official IND Proclaimer (nl-63) was checked on 2026-10-25 and permits reuse of website content if the source is mentioned; it also warns that information may be incomplete or out of date. Four archived IND pages were accepted with source attribution after canonical URLs, captured response hashes, displayed update dates, page headings and main-content extraction were reviewed. For nl-17, the candidate header incorrectly said 17 June, but the exact archived raw HTML and page body retrieved 2026-10-19 show 8 October; the live official page checked 2026-10-25 displays the same update and matching substantive text. The corrected text is accepted. The linked PDFs (Appendix 7627 and form 6021) were identified but not copied; only the HTML guidance page is accepted as a local text."
   ],
   "evidence_cutoffs": [
     {
@@ -103,7 +103,7 @@
     },
     {
       "source_family": "IND",
-      "evidence": "Official search result/page review confirms the EU-family guidance update of 25 September 2026, free-movement guidance update of 10 July 2026, objection/appeal guidance update of 10 August 2026, and card-model page update of 29 June 2026.",
+      "evidence": "Official search result/page review confirms the EU-family guidance update of 25 September 2026, free-movement guidance update of 10 July 2026, objection/appeal guidance update of 10 August 2026, registration guidance update of 8 October 2026, and card-model page update of 29 June 2026.",
       "limit": "Dynamic pages and linked forms can change; check the current page and form before use."
     },
     {
@@ -121,7 +121,7 @@
     {
       "site": "https://ind.nl/en/",
       "publisher": "Immigration and Naturalisation Service",
-      "offer": "Review current family, residence-document, application, forms, fee, decision-period and objection/appeal pages. The IND Proclaimer permits reuse when the source is named, but page accuracy and currentness still need review; the registration page has an 8 October 2026 update newer than its archived candidate."
+      "offer": "Review current family, residence-document, application, forms, fee, decision-period and objection/appeal pages; verify the exact route and displayed update date. The registration page was checked on 2026-10-25 and its 8 October text is retained; its linked forms remain separate and should be checked live."
     },
     {
       "site": "https://www.netherlandsworldwide.nl/",
@@ -149,13 +149,14 @@
       "offer": "Review central guidance and follow the competent municipality links for BRP registration procedures."
     }
   ],
-  "content_reuse": "Six official statutory texts are retained under Auteurswet Article 11. Three IND guidance pages are reused under the official IND Proclaimer, which allows reuse if the source is mentioned; each local file names and links the IND source. These bases do not extend to Government.nl, NetherlandsWorldwide, forms, images, or third-party material. Other publishers require their own reuse terms. Link acceptance alone never establishes permission to copy.",
+  "content_reuse": "Six official statutory texts are retained under Auteurswet Article 11. Four IND guidance pages are reused under the official IND Proclaimer, which allows reuse if the source is mentioned; each local file names and links the IND source. These bases do not extend to Government.nl, NetherlandsWorldwide, forms, images, or third-party material. Other publishers require their own reuse terms. Link acceptance alone never establishes permission to copy.",
   "local_copy_disposition_date": "2026-10-25",
   "local_copy_source_ids": [
     "nl-10",
     "nl-11",
     "nl-14",
     "nl-16",
+    "nl-17",
     "nl-18",
     "nl-26",
     "nl-53",
