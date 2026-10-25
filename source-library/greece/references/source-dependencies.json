@@ -116,6 +116,28 @@
       "status": "agreement_text_locator_only; beneficiary_scope_and_greek_procedure_not_mapped",
       "reviewed_on": "2026-10-25",
       "note": "Keep Withdrawal Agreement beneficiaries and evidence of their status separate from Directive 2004/38 and general third-country routes. No complete Greek procedure or remedy map is accepted."
+    },
+    {
+      "id": "gr-tcn-family-document-and-electronic-filing-procedure",
+      "source_ids": [
+        "gr-kya-95391-2024-tcn-family-documents",
+        "gr-ya-118654-2024-electronic-residence-applications",
+        "gr-law5275-2026-art53"
+      ],
+      "relationship": "national_documentary_and_electronic_filing_implementation",
+      "instrument": "KYA 95391/2024 (FEK B 1807) and Ministerial Decision 118654/2024 (FEK B 2303), subject to Decision 144338/2025 amendment",
+      "official_locator": "https://api.et.gr/apiFEK/2/2024/2303/pdf",
+      "supporting_document_list_locator": "https://migration.gov.gr/wp-content/uploads/2024/10/1_%CE%9A%CE%A5%CE%91-%CE%94%CE%99%CE%9A%CE%91%CE%99%CE%9F%CE%9B%CE%9F%CE%93%CE%97%CE%A4%CE%99%CE%9A%CE%A9%CE%9D.pdf",
+      "amendment_locator": "https://www.ypes.gr/wp-content/uploads/2025/09/20250929_atnp_evdomadiaio_39.pdf",
+      "status": "dated_official_texts_accepted; current_electronic_procedure_and_amendment_wording_open",
+      "reviewed_on": "2026-10-25",
+      "evidence": [
+        "KYA 95391/2024 identifies documents for TCN family members of Union citizens under PD 106/2007, including selected Article 3(2) categories and durable partners.",
+        "Decision 118654/2024 expressly governs electronic residence applications under Law 5038/2023 and PD 106/2007; its Article 1(1) specifies electronic submission for initial applications, subject to exceptions.",
+        "The official Ministry of Interior weekly legislation bulletin identifies Decision 144338/2025, FEK B 5007/22 September 2025, as amending Article 1(2) of Decision 118654/2024. The amendment text was not obtained.",
+        "Law 5275/2026 Article 53 separately changes duration for specified Article 3(2) categories; do not infer its effect on other categories."
+      ],
+      "note": "These dated instruments provide partial documentary and filing evidence, not a current consolidation or proof of present portal operation. The exact 2025 amendment, current application categories, live system behavior, and any post-2026 updates remain open. The Ministry's 2024 notice about correction of KYA 95391 concerned certain permit renewals following invitation; its effect on PD 106 family lists is not established."
     }
   ],
   "required_directive_articles": [
