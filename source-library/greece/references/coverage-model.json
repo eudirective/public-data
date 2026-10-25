@@ -442,7 +442,7 @@
     {
       "topic_id": "CASE_LAW_DISCOVERY",
       "label": "CJEU, Council of State and administrative-court decisions",
-      "status": "unresolved",
+      "status": "partial",
       "layers": [
         {
           "layer": "primary_law",
@@ -458,9 +458,11 @@
         },
         {
           "layer": "procedure_and_practice",
-          "status": "unresolved",
-          "accepted_source_ids": [],
-          "open_gap": "No repeatable Greece-specific court/query searches with dates, scope, result counts and dispositions are recorded."
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-gov-gr-50-case-law-discovery"
+          ],
+          "open_gap": "The official Gov.gr Council of State/Administrative Courts locator is accepted, but the portal-native endpoint was not opened. A web-indexed adjustice.gr divorce/residence lead is incomplete and unaccepted; the result count, deduplication, full case identity and outcome require review. No repeatable portal-native search batch is complete."
         },
         {
           "layer": "remedies_and_oversight",
@@ -469,7 +471,7 @@
           "open_gap": "No screened decision set with holding, outcome, procedural posture and applicability limits is recorded."
         }
       ],
-      "open_gap": "Case-law discovery remains an open workstream; discovery endpoints and administrative e-filing services do not count as a completed search."
+      "open_gap": "A discovery-service locator and one incomplete official-domain result are recorded. A full screened decision set with holdings, outcomes, procedural posture, source identity and applicability limits is not recorded; four HUDOC results remain unscreened and portal-native court searching remains open."
     },
     {
       "topic_id": "RESIDENCE_CARD_FORMAT",
