@@ -334,6 +334,52 @@
       ],
       "review_question": "For each category under Articles 7–8, determine the applicable eligibility conditions, who bears the burden to prove them, what documents may be required, whether resource sufficiency is assessed individually, and how the EU-citizen condition extends to non-EU family members; reconcile administrative evidence and follow-up checks with Directive Articles 3(2), 7–8, 14 and 25 and the current official forms/practice.",
       "editorial_action": "Keep the national wording intact and the topic incomplete. Do not infer incompatibility from text alone, characterize the Article 5 facilitation route as an automatic right, or treat a residence document as the source of the underlying right."
+    },
+    {
+      "id": "bg-eu-free-movement-act-directive-scope-and-return",
+      "source_record_id": "bg-eu-free-movement-act",
+      "national_provisions": [
+        "Articles 1–5",
+        "Additional Provisions § 1(1)"
+      ],
+      "referenced_instrument": "Directive 2004/38/EC, Articles 2–3; TFEU Article 21 for return-situation case law",
+      "referenced_instrument_url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32004L0038",
+      "referenced_source_id": "eu:32004l0038",
+      "status": "scope_crosswalk_recorded_return_and_category_review_open",
+      "reviewed_on": "2026-10-25",
+      "status_note": "The accepted MVR consolidation ends at SG 52/2025. Act Articles 1–3 and Additional Provisions §1(1) were compared with Directive Articles 2–3; Act Article 5 and Instruction Articles 3–5 address extended-family, household, serious-health, cohabitation and Article 3(2) beneficiary routes. The Act expressly mentions family members of a Bulgarian citizen after free movement, but the precise applicant-nationality scope and interaction with Article 21 TFEU on return require legal interpretation. CJEU O. and B. (C-456/12) states that a Directive 7/16-compliant genuine stay in another Member State that creates or strengthens family life may support a derived residence right after return under Article 21 TFEU; short Article 6 stays are insufficient. Singh (C-370/90) supplies earlier worker-return context. Coman (C-673/16) interprets “spouse” for residence and Article 21 return situations. VAS Decision №11351/2019 is a narrow national application to a same-sex spouse under the pre-SG 34/2019 Act version. The Act’s documented factual-cohabitation definition is not classified here as equivalent to registered partnership or as the Directive durable-partner route. EEA/Swiss treaty scope remains to be checked separately.",
+      "primary_sources": [
+        {
+          "title": "Bulgarian EU-citizen Act, MVR consolidated PDF through SG 52/2025",
+          "url": "https://mvr.bg/upload/338040/%D0%97%D0%92%D0%9F%D0%9D%D0%A0%D0%91%D0%93%D0%95%D0%A1%D0%A7%D0%A2%D0%A1%202026.pdf"
+        },
+        {
+          "title": "Directive 2004/38/EC, official EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32004L0038"
+        },
+        {
+          "title": "TFEU Article 21, official EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A12012E021"
+        },
+        {
+          "title": "CJEU Grand Chamber judgment, O. and B., C-456/12, EU:C:2014:135",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62012CJ0456"
+        },
+        {
+          "title": "CJEU judgment, Singh, C-370/90, EU:C:1992:296",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A61990CJ0370"
+        },
+        {
+          "title": "CJEU Grand Chamber judgment, Coman, C-673/16, EU:C:2018:385",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62016CJ0673"
+        },
+        {
+          "title": "VAS Decision №11351/2019, official EDIS full text",
+          "url": "https://info-adc.justice.bg/courts/portal/edis.nsf/e_act.xsp?code=vas&guid=1678594843&id=910295"
+        }
+      ],
+      "review_question": "Determine the scope of Bulgarian Articles 1–5 and §1(1) for mobile EU/EEA/Swiss citizens, their core and extended family members, and family members of a Bulgarian citizen returning after genuine residence in another Member State. Map applicant nationality, family category, evidence, Article 3(2) facilitation and reasons/appeal; apply the O. and B. / Singh / Coman framework by its facts and current national text, and separately verify relevant EEA and Swiss agreements.",
+      "editorial_action": "Keep scope and return coverage open. Preserve the Bulgarian statutory language; do not treat Directive 2004/38 as directly governing a wholly internal situation or infer that the VAS 2019 decision resolves every return, partnership, or extended-family category."
     }
   ]
 }

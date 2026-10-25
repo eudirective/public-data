@@ -28,14 +28,14 @@
           "source_ids": [
             "bg-eu-free-movement-act"
           ],
-          "note": "The current MVR consolidation is accepted through SG 52/2025; provision-level mapping to Directive 2004/38/EC and scope for Bulgarian-national/return situations are not complete. The canonical Bulgarian Directive 2004/38 representation is routed through references/shared-core.json; provision-level concordance and return-situation coverage remain open."
+          "note": "Act Articles 1–3 define the EU, EEA and Swiss scope and expressly address family members of a Bulgarian citizen after free movement; Additional Provisions § 1(1) defines spouses/cohabiting partners, descendants and dependent ascendants. Article 5 separately covers dependent/household members and serious-health carers, requires detailed individual review and reasoned denial. Crosswalked to Directive Articles 2–3. The legal classification of the Act’s documented “factual cohabitation” routes and the precise return-situation scope of Article 1 remain open."
         },
         "implementing_rule": {
           "status": "partially_supported",
           "source_ids": [
             "bg-eu-instruction"
           ],
-          "note": "The accepted Instruction covers documents and procedure; its relationship to every beneficiary category and current Act provisions remains to be mapped. The accepted MVR instruction text is consolidated through SG 29/2021; a separate 8-page MVR upload identifying only the 2018 promulgation was not treated as current, and no later amendment is certified."
+          "note": "Instruction №8121з-1276 Articles 3–5 distinguishes family members who have or have not exercised free movement and expressly labels Article 3(2) persons “beneficiaries”; it supplies document routes but does not resolve the legal classification of all cohabitation/partnership evidence, the precise return situation, or each current operational requirement. Its accepted consolidation ends at SG 29/2021."
         },
         "procedure": {
           "status": "partially_supported",
@@ -43,7 +43,7 @@
             "bg-eu-law-service",
             "bg-eu-guidance-en"
           ],
-          "note": "The MVR page and English guidance are navigation aids; neither resolves all eligibility and scope cases."
+          "note": "Act Article 5(2) requires detailed examination of personal circumstances for extended-family and cohabitation applicants; a refusal must be reasoned and is subject to judicial legality review under the APC. The MVR service and Instruction provide application routes, but current category-specific evidence/checklists and return-situation handling are not fully documented."
         },
         "remedy_or_practice": {
           "status": "partially_supported",
@@ -52,11 +52,13 @@
             "bg-vas-case-search",
             "bg-vas-case-11351-2019"
           ],
-          "note": "A final VAS decision now provides one screened example on the spouse definition for derivative residence; return situations, other family categories, and broader case-law coverage remain open."
+          "note": "VAS Decision №11351/2019 is one final Bulgarian example applying the spouse concept to derivative residence for a same-sex spouse, under the pre-SG 34/2019 Act version and for residence purposes only; it is not a broad family-status survey or a general return-situation ruling. CJEU Coman, O. and B., and Singh provide relevant EU-law context; Bulgarian practice on mobile Bulgarian returnees and Article 3(2) cases remains unreviewed."
         }
       },
       "open_issues": [
-        "Map every applicable Directive article to Bulgarian provisions and separately assess return situations, extended family, durable relationships, and scope of the dedicated Act."
+        "Map the Act’s core family definition and Article 5 facilitation route to Directive Articles 2–3, including whether documented factual cohabitation is treated as a registered partner, a durable partner, or another national route; assess the relevant evidence and reasoned individual examination without conflating facilitated residence with an automatic right.",
+        "Resolve the scope of Act Article 1 for family members of a mobile Bulgarian national, including its exact wording and applicant-nationality limits, against Article 21 TFEU and O. and B. (C-456/12), Singh (C-370/90), and Coman (C-673/16). The existing VAS decision is limited to the pre-2019 version and does not close this issue.",
+        "Confirm the treaty instruments and exact family-member scope for EEA/Swiss citizens, then search official Bulgarian decisions and procedures for return cases, extended-family/household applicants, and durable relationships."
       ]
     },
     {
