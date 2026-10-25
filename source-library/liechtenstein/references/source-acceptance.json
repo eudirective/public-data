@@ -2,12 +2,12 @@
   "schema_version": "1.0.0",
   "jurisdiction": "LI",
   "as_of": "2026-10-25",
-  "accepted_source_count": 8,
-  "accepted_local_copy_count": 6,
-  "accepted_external_reference_count": 8,
+  "accepted_source_count": 18,
+  "accepted_local_copy_count": 11,
+  "accepted_external_reference_count": 18,
   "accepted_topic_count": 0,
   "country_review_complete": false,
-  "policy": "A reviewed official source may be accepted within its publisher, identity, language, displayed version, scope, and stated limitations. The current Lilex consolidation is an informational working text, not the legally authentic publication. Local-copy acceptance is separate from topic coverage, legal equivalence, and country completion. Reuse acceptance here is limited to statutory text under URG Article 5; it does not cover site design, database-level or systematic reuse, or unrelated content.",
+  "policy": "A reviewed official source may be accepted within its publisher, identity, language, displayed version, scope, and stated limitations. The current Lilex consolidation is an informational working text, not the legally authentic publication. Local-copy acceptance is separate from topic coverage, legal equivalence, and country completion. Reuse acceptance for local laws, regulations, treaties and other official enactment text is limited to Liechtenstein URG Article 5(1)(a) and (2); it does not cover publisher site design, database-level or systematic reuse, or unrelated content.",
   "records": {
     "li-07": {
       "status": "accepted",
@@ -87,7 +87,7 @@
         "This link does not accept a local copy, establish topic coverage, or authorize systematic/database reuse."
       ],
       "candidate_record": {
-        "manifest": "references/candidate-manifest.json",
+        "manifest_archive_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/candidate-manifest.json",
         "id": "li-01"
       },
       "evidence": {
@@ -161,7 +161,7 @@
         "full_candidate_replay": {
           "status": "metadata_only_mismatch",
           "evidence": "Rebuilding the archived pre-promotion candidate as a full Markdown document produces a different publisher-version-evidence sentence in its preamble because the saved candidate and capture-ledger field differ. The official-text section is byte-identical after replay; the accepted-document verifier compares the local file hash and official-text body separately.",
-          "capture_ledger_path": "source-library/liechtenstein/references/liechtenstein-captures.json"
+          "capture_ledger_path": "captures/liechtenstein_candidate_promotion_20261025/Liechtenstein/retrieval-manifest.json"
         }
       },
       "accepted_on": "2026-10-25",
@@ -448,7 +448,7 @@
         "EWR-RegV LR 170.511 is a separate regulation and is not the same source as the LR 170.51 statute."
       ],
       "candidate_record": {
-        "manifest": "references/candidate-manifest.json",
+        "manifest_archive_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/candidate-manifest.json",
         "id": "li-04"
       },
       "evidence": {
@@ -538,11 +538,526 @@
         "The law identifies a publication framework but does not settle the applicability of individual EEA instruments without act-specific review.",
         "Source acceptance is separate from topic coverage and country review completion."
       ]
+    },
+    "li-05": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The official publisher record identifies EEA Joint Committee Decision No 191/1999 on Liechtenstein's free-movement solution; source identifier is JCD 191/1999; national notice LR 0.110.032.77 / LGBl 2000.097 and the official page is https://www.efta.int/sites/default/files/documents/legal-texts/eea/other-legal-documents/adopted-joint-committee-decisions/1999%20-%20English/191-1999.pdf."
+        },
+        "current_legal_version": {
+          "status": "pass_with_limitations",
+          "review_date": "2026-10-25",
+          "evidence": "Decision dated 17 December 1999; national publication LR 0.110.032.77 / LGBl 2000.097. Article 3 states entry into force from 1 January 2000 subject to the Article 103(1) notification condition.",
+          "evidence_url": "https://www.efta.int/sites/default/files/documents/legal-texts/eea/other-legal-documents/adopted-joint-committee-decisions/1999%20-%20English/191-1999.pdf"
+        },
+        "extraction_completeness": {
+          "status": "pass_with_limitations",
+          "evidence": "The full official-text section from the archived review candidate was carried into the final Markdown document without substantive editing (source-text SHA-256 e514336d45c8c63350252efffd42dd64887994a27c90f9949151b411200239e0); exact candidate hash 033942b99a98091e8a6887b88c199eb70876ac88f26dfacf1301ccb5616cbfbe."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "official_treaty_text_only",
+          "basis_url": "https://www.gesetze.li/konso/html/1999160000",
+          "evidence": "The official URG Art. 5(1)(a) excludes laws, regulations, treaties and other official enactments from copyright protection; Art. 5(2) covers official or legally required collections and translations. This acceptance covers the enactment text only, not publisher interface/design or systematic database reuse."
+        },
+        "legal_classification": {
+          "status": "pass_with_limitations",
+          "evidence": "Official EFTA-hosted treaty decision amending EEA Agreement Annexes V and VIII and recording a Liechtenstein-specific arrangement. This historical instrument is not a complete statement of current national residence law or individual entitlement."
+        }
+      },
+      "semantic_review": {
+        "status": "passed_with_limitations",
+        "method": "preserve_official_text_section_from_archived_candidate_and_check_official_identity_and_version_metadata",
+        "review_date": "2026-10-25",
+        "scope": "The official text section was preserved; publisher/title/version metadata and the stated scope were reviewed. This is not a page-by-page comparison to signed Gazette originals.",
+        "source_response_sha256": "ce9bbc471e5f839d6b95469e3808e404a3b5dfbc8aeb55e2481330c553ddddae",
+        "text_response_sha256": null,
+        "candidate_conversion_sha256": "033942b99a98091e8a6887b88c199eb70876ac88f26dfacf1301ccb5616cbfbe",
+        "source_text_sha256": "e514336d45c8c63350252efffd42dd64887994a27c90f9949151b411200239e0",
+        "source_text_bytes": 8613,
+        "full_candidate_replay": "not_run_in_this_review",
+        "limitations": [
+          "The decision text makes entry into force conditional on the notifications described in Article 3; this record does not independently establish that condition or later legal status.",
+          "The official EFTA PDF URL was not fetchable through the web viewer on 2026-10-25 (403); the PDF retrieved from that EFTA URL on 2026-10-19 is preserved byte-for-byte.",
+          "The PDF copy is the source artifact. Extracted page text is for search and review; layout and signatures are not validated.",
+          "Source acceptance is separate from topic coverage and country review completion."
+        ]
+      },
+      "capture_evidence": {
+        "retrieval_manifest_archive_path": "captures/liechtenstein_candidate_promotion_20261025/Liechtenstein/retrieval-manifest.json",
+        "retrieval_manifest_sha256": "fbd2ebcadb8858a911db4bdddbef44272efb83cabb439ff54621e3bcab50cf7e",
+        "archived_candidate_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/li-05.md",
+        "archived_candidate_sha256": "033942b99a98091e8a6887b88c199eb70876ac88f26dfacf1301ccb5616cbfbe",
+        "publisher_source_sha256": "ce9bbc471e5f839d6b95469e3808e404a3b5dfbc8aeb55e2481330c553ddddae",
+        "archived_pdf_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/li-05.pdf",
+        "archived_pdf_sha256": "ce9bbc471e5f839d6b95469e3808e404a3b5dfbc8aeb55e2481330c553ddddae",
+        "official_pdf_path": "source-library/liechtenstein/documents/treaties/li-eea-joint-committee-decision-191-1999.pdf",
+        "official_pdf_sha256": "ce9bbc471e5f839d6b95469e3808e404a3b5dfbc8aeb55e2481330c553ddddae"
+      },
+      "accepted_on": "2026-10-25",
+      "document_path": "source-library/liechtenstein/documents/treaties/li-eea-joint-committee-decision-191-1999.md",
+      "local_file_sha256": "e854dba872898cb1a0beacf9cc764d7febdd2d330bf11e41ceaa40e3c76bee45",
+      "source_response_sha256": "ce9bbc471e5f839d6b95469e3808e404a3b5dfbc8aeb55e2481330c553ddddae",
+      "source_text_sha256": "e514336d45c8c63350252efffd42dd64887994a27c90f9949151b411200239e0",
+      "candidate_conversion_sha256": "033942b99a98091e8a6887b88c199eb70876ac88f26dfacf1301ccb5616cbfbe",
+      "archived_candidate_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/li-05.md",
+      "archived_candidate_sha256": "033942b99a98091e8a6887b88c199eb70876ac88f26dfacf1301ccb5616cbfbe",
+      "local_copy_accepted": true,
+      "accepted_external_reference": true,
+      "accepted_topics": [],
+      "limitations": [
+        "The decision text makes entry into force conditional on the notifications described in Article 3; this record does not independently establish that condition or later legal status.",
+        "The official EFTA PDF URL was not fetchable through the web viewer on 2026-10-25 (403); the PDF retrieved from that EFTA URL on 2026-10-19 is preserved byte-for-byte.",
+        "The PDF copy is the source artifact. Extracted page text is for search and review; layout and signatures are not validated.",
+        "Source acceptance is separate from topic coverage and country review completion."
+      ],
+      "primary_source_artifact_path": "source-library/liechtenstein/documents/treaties/li-eea-joint-committee-decision-191-1999.pdf",
+      "primary_source_artifact_sha256": "ce9bbc471e5f839d6b95469e3808e404a3b5dfbc8aeb55e2481330c553ddddae"
+    },
+    "li-13": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The official publisher record identifies Protocol regarding free movement of persons between Switzerland and Liechtenstein; source identifier is Protocol under the amended EFTA Convention, Annex K and the official page is https://www.efta.int/sites/default/files/uploads/2024-04/ProtocolSwissLiecht.pdf."
+        },
+        "current_legal_version": {
+          "status": "pass_with_limitations",
+          "review_date": "2026-10-25",
+          "evidence": "Protocol under the amended EFTA Convention, Annex K. EFTA-hosted PDF copy retrieved 2026-10-19; date of signature and present legal status were not independently established in this review.",
+          "evidence_url": "https://www.efta.int/sites/default/files/uploads/2024-04/ProtocolSwissLiecht.pdf"
+        },
+        "extraction_completeness": {
+          "status": "pass_with_limitations",
+          "evidence": "The full official-text section from the archived review candidate was carried into the final Markdown document without substantive editing (source-text SHA-256 6f9d2ba08ce63edf2b5f64171b75231eeaa3c77b83524904afbf0ec433d1937f); exact candidate hash 310a5eeb867a52c30337e1f6c879c96dfabc490fccee0ac17fa978dd0d9d1b0e."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "official_treaty_text_only",
+          "basis_url": "https://www.gesetze.li/konso/html/1999160000",
+          "evidence": "The official URG Art. 5(1)(a) excludes laws, regulations, treaties and other official enactments from copyright protection; Art. 5(2) covers official or legally required collections and translations. This acceptance covers the enactment text only, not publisher interface/design or systematic database reuse."
+        },
+        "legal_classification": {
+          "status": "pass_with_limitations",
+          "evidence": "Official EFTA-hosted protocol text on movement between Switzerland and Liechtenstein. It is a distinct bilateral/EFTA source and must not be treated as the EEA free-movement route or as a legal-equivalence finding."
+        }
+      },
+      "semantic_review": {
+        "status": "passed_with_limitations",
+        "method": "preserve_official_text_section_from_archived_candidate_and_check_official_identity_and_version_metadata",
+        "review_date": "2026-10-25",
+        "scope": "The official text section was preserved; publisher/title/version metadata and the stated scope were reviewed. This is not a page-by-page comparison to signed Gazette originals.",
+        "source_response_sha256": "64006c2735d604b70982f273ac0d04724a824c98c904a47f5b4add82013507b0",
+        "text_response_sha256": null,
+        "candidate_conversion_sha256": "310a5eeb867a52c30337e1f6c879c96dfabc490fccee0ac17fa978dd0d9d1b0e",
+        "source_text_sha256": "6f9d2ba08ce63edf2b5f64171b75231eeaa3c77b83524904afbf0ec433d1937f",
+        "source_text_bytes": 8121,
+        "full_candidate_replay": "not_run_in_this_review",
+        "limitations": [
+          "The date and current legal effect of the protocol were not independently verified; consult the official EFTA and national publication records before relying on a particular provision.",
+          "The official EFTA PDF URL was not fetchable through the web viewer on 2026-10-25 (403); the PDF retrieved from that EFTA URL on 2026-10-19 is preserved byte-for-byte.",
+          "The PDF copy is the source artifact. Extracted page text has line-break/OCR artifacts and is for search and review; layout and signatures are not validated.",
+          "Source acceptance is separate from topic coverage and country review completion."
+        ]
+      },
+      "capture_evidence": {
+        "retrieval_manifest_archive_path": "captures/liechtenstein_candidate_promotion_20261025/Liechtenstein/retrieval-manifest.json",
+        "retrieval_manifest_sha256": "fbd2ebcadb8858a911db4bdddbef44272efb83cabb439ff54621e3bcab50cf7e",
+        "archived_candidate_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/li-13.md",
+        "archived_candidate_sha256": "310a5eeb867a52c30337e1f6c879c96dfabc490fccee0ac17fa978dd0d9d1b0e",
+        "publisher_source_sha256": "64006c2735d604b70982f273ac0d04724a824c98c904a47f5b4add82013507b0",
+        "archived_pdf_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/li-13.pdf",
+        "archived_pdf_sha256": "64006c2735d604b70982f273ac0d04724a824c98c904a47f5b4add82013507b0",
+        "official_pdf_path": "source-library/liechtenstein/documents/treaties/li-switzerland-free-movement-protocol.pdf",
+        "official_pdf_sha256": "64006c2735d604b70982f273ac0d04724a824c98c904a47f5b4add82013507b0"
+      },
+      "accepted_on": "2026-10-25",
+      "document_path": "source-library/liechtenstein/documents/treaties/li-switzerland-free-movement-protocol.md",
+      "local_file_sha256": "d136cdf88c78ab74d1b61998b41981fe95ce6803897722dca0e58481fda01e82",
+      "source_response_sha256": "64006c2735d604b70982f273ac0d04724a824c98c904a47f5b4add82013507b0",
+      "source_text_sha256": "6f9d2ba08ce63edf2b5f64171b75231eeaa3c77b83524904afbf0ec433d1937f",
+      "candidate_conversion_sha256": "310a5eeb867a52c30337e1f6c879c96dfabc490fccee0ac17fa978dd0d9d1b0e",
+      "archived_candidate_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/li-13.md",
+      "archived_candidate_sha256": "310a5eeb867a52c30337e1f6c879c96dfabc490fccee0ac17fa978dd0d9d1b0e",
+      "local_copy_accepted": true,
+      "accepted_external_reference": true,
+      "accepted_topics": [],
+      "limitations": [
+        "The date and current legal effect of the protocol were not independently verified; consult the official EFTA and national publication records before relying on a particular provision.",
+        "The official EFTA PDF URL was not fetchable through the web viewer on 2026-10-25 (403); the PDF retrieved from that EFTA URL on 2026-10-19 is preserved byte-for-byte.",
+        "The PDF copy is the source artifact. Extracted page text has line-break/OCR artifacts and is for search and review; layout and signatures are not validated.",
+        "Source acceptance is separate from topic coverage and country review completion."
+      ],
+      "primary_source_artifact_path": "source-library/liechtenstein/documents/treaties/li-switzerland-free-movement-protocol.pdf",
+      "primary_source_artifact_sha256": "64006c2735d604b70982f273ac0d04724a824c98c904a47f5b4add82013507b0"
+    },
+    "li-14": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The official publisher record identifies Landesverwaltungspflegegesetz (LVG); source identifier is LR 172.020; LGBl 1922.024 and the official page is https://www.gesetze.li/konso/1922024000."
+        },
+        "current_legal_version": {
+          "status": "pass_with_limitations",
+          "review_date": "2026-10-25",
+          "evidence": "Lilex text-frame version 30 captured 2026-10-19 for LGBl 1922.024 / LR 172.020; the captured text includes amendment notes through LGBl 2025 Nr. 375. No separate date of consolidation was displayed in the candidate record.",
+          "evidence_url": "https://www.gesetze.li/konso/1922024000"
+        },
+        "extraction_completeness": {
+          "status": "pass_with_limitations",
+          "evidence": "The full official-text section from the archived review candidate was carried into the final Markdown document without substantive editing (source-text SHA-256 04f1887b45d7a8485ca6b9bf7c19f14fa54d6b5aa2ed3b1094ee9e40b6ae3cd2); exact candidate hash 3dbfad62080e95232ea9b7167e3386f56a27c5732ff3241870c1be8a987b0396."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "official_statutory_text_only",
+          "basis_url": "https://www.gesetze.li/konso/html/1999160000",
+          "evidence": "The official URG Art. 5(1)(a) excludes laws, regulations, treaties and other official enactments from copyright protection; Art. 5(2) covers official or legally required collections and translations. This acceptance covers the enactment text only, not publisher interface/design or systematic database reuse."
+        },
+        "legal_classification": {
+          "status": "pass_with_limitations",
+          "evidence": "General Liechtenstein administrative procedure and appeals statute; use the official dated Gazette publication for legally material dates and verify cross-references to the applicable procedure."
+        }
+      },
+      "semantic_review": {
+        "status": "passed_with_limitations",
+        "method": "preserve_official_text_section_from_archived_candidate_and_check_official_identity_and_version_metadata",
+        "review_date": "2026-10-25",
+        "scope": "The official text section was preserved; publisher/title/version metadata and the stated scope were reviewed. This is not a page-by-page comparison to signed Gazette originals.",
+        "source_response_sha256": "b80275080f0070db59a076e8e31938b395d3584971beac8908d8f802f20debdc",
+        "text_response_sha256": "d2f1215d0057f795aa4e40c79650b9cb4cefcb26fb490f4ac18742c3e0b5be67",
+        "candidate_conversion_sha256": "3dbfad62080e95232ea9b7167e3386f56a27c5732ff3241870c1be8a987b0396",
+        "source_text_sha256": "04f1887b45d7a8485ca6b9bf7c19f14fa54d6b5aa2ed3b1094ee9e40b6ae3cd2",
+        "source_text_bytes": 229381,
+        "full_candidate_replay": "not_run_in_this_review",
+        "limitations": [
+          "The local file preserves the official Lilex text-frame extraction captured on 2026-10-19, not signed Gazette layout.",
+          "The version number and text were identified, but there was no page-by-page comparison with Gazette items or independent audit of every amendment after the displayed chronology.",
+          "Lilex consolidations are informational and have no legal effect; the signed State Law Gazette is legally authentic.",
+          "Source acceptance is separate from topic coverage and country review completion."
+        ]
+      },
+      "capture_evidence": {
+        "retrieval_manifest_archive_path": "captures/liechtenstein_candidate_promotion_20261025/Liechtenstein/retrieval-manifest.json",
+        "retrieval_manifest_sha256": "fbd2ebcadb8858a911db4bdddbef44272efb83cabb439ff54621e3bcab50cf7e",
+        "archived_candidate_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/li-14.md",
+        "archived_candidate_sha256": "3dbfad62080e95232ea9b7167e3386f56a27c5732ff3241870c1be8a987b0396",
+        "publisher_source_sha256": "b80275080f0070db59a076e8e31938b395d3584971beac8908d8f802f20debdc"
+      },
+      "accepted_on": "2026-10-25",
+      "document_path": "source-library/liechtenstein/documents/legislation/li-landesverwaltungspflegegesetz-lvg.md",
+      "local_file_sha256": "4e1c66a9f40bb91d598eb7f8755873b87c5422b6a3a24df92dd675a7543be6b1",
+      "source_response_sha256": "b80275080f0070db59a076e8e31938b395d3584971beac8908d8f802f20debdc",
+      "source_text_sha256": "04f1887b45d7a8485ca6b9bf7c19f14fa54d6b5aa2ed3b1094ee9e40b6ae3cd2",
+      "candidate_conversion_sha256": "3dbfad62080e95232ea9b7167e3386f56a27c5732ff3241870c1be8a987b0396",
+      "archived_candidate_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/li-14.md",
+      "archived_candidate_sha256": "3dbfad62080e95232ea9b7167e3386f56a27c5732ff3241870c1be8a987b0396",
+      "local_copy_accepted": true,
+      "accepted_external_reference": true,
+      "accepted_topics": [],
+      "limitations": [
+        "The local file preserves the official Lilex text-frame extraction captured on 2026-10-19, not signed Gazette layout.",
+        "The version number and text were identified, but there was no page-by-page comparison with Gazette items or independent audit of every amendment after the displayed chronology.",
+        "Lilex consolidations are informational and have no legal effect; the signed State Law Gazette is legally authentic.",
+        "Source acceptance is separate from topic coverage and country review completion."
+      ],
+      "text_response_sha256": "d2f1215d0057f795aa4e40c79650b9cb4cefcb26fb490f4ac18742c3e0b5be67"
+    },
+    "li-15": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The official publisher record identifies Informationsgesetz (Information Act); source identifier is LR 172.015; LGBl 1999.159 and the official page is https://www.gesetze.li/konso/1999159000."
+        },
+        "current_legal_version": {
+          "status": "pass_with_limitations",
+          "review_date": "2026-10-25",
+          "evidence": "Lilex text-frame version 8 captured 2026-10-19 for LGBl 1999.159 / LR 172.015; the text records amendment LGBl 2025 Nr. 32, effective 1 January 2026.",
+          "evidence_url": "https://www.gesetze.li/konso/1999159000"
+        },
+        "extraction_completeness": {
+          "status": "pass_with_limitations",
+          "evidence": "The full official-text section from the archived review candidate was carried into the final Markdown document without substantive editing (source-text SHA-256 997dc7508c9db5a2f2d2efff912870e0fb9397edd118de28c14c4c6b173aa639); exact candidate hash 8fe783cbfc8bd50c174d95ba865d762e75c7bd83884c6f4eeb9d43b810c4b021."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "official_statutory_text_only",
+          "basis_url": "https://www.gesetze.li/konso/html/1999160000",
+          "evidence": "The official URG Art. 5(1)(a) excludes laws, regulations, treaties and other official enactments from copyright protection; Art. 5(2) covers official or legally required collections and translations. This acceptance covers the enactment text only, not publisher interface/design or systematic database reuse."
+        },
+        "legal_classification": {
+          "status": "pass_with_limitations",
+          "evidence": "Liechtenstein statutory source on public information. It is separate from the Informationsweiterverwendungsgesetz (IWG), which governs reuse of public-sector information."
+        }
+      },
+      "semantic_review": {
+        "status": "passed_with_limitations",
+        "method": "preserve_official_text_section_from_archived_candidate_and_check_official_identity_and_version_metadata",
+        "review_date": "2026-10-25",
+        "scope": "The official text section was preserved; publisher/title/version metadata and the stated scope were reviewed. This is not a page-by-page comparison to signed Gazette originals.",
+        "source_response_sha256": "58b97b121c3c737e146e562f2b3b3ac63627432d098db12bf747d5eae8ed38c4",
+        "text_response_sha256": "cbfc303bd41a8a32a2837c1c2039ade6b6e5617092f95e80550f3e0265ecf405",
+        "candidate_conversion_sha256": "8fe783cbfc8bd50c174d95ba865d762e75c7bd83884c6f4eeb9d43b810c4b021",
+        "source_text_sha256": "997dc7508c9db5a2f2d2efff912870e0fb9397edd118de28c14c4c6b173aa639",
+        "source_text_bytes": 16552,
+        "full_candidate_replay": "not_run_in_this_review",
+        "limitations": [
+          "The local file preserves the official Lilex text-frame extraction captured on 2026-10-19, not signed Gazette layout.",
+          "The version and recorded 2025 amendment were checked; this review did not compare every provision page by page with signed Gazette publications.",
+          "Lilex consolidations are informational and have no legal effect; the signed State Law Gazette is legally authentic.",
+          "Source acceptance is separate from topic coverage and country review completion."
+        ]
+      },
+      "capture_evidence": {
+        "retrieval_manifest_archive_path": "captures/liechtenstein_candidate_promotion_20261025/Liechtenstein/retrieval-manifest.json",
+        "retrieval_manifest_sha256": "fbd2ebcadb8858a911db4bdddbef44272efb83cabb439ff54621e3bcab50cf7e",
+        "archived_candidate_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/li-15.md",
+        "archived_candidate_sha256": "8fe783cbfc8bd50c174d95ba865d762e75c7bd83884c6f4eeb9d43b810c4b021",
+        "publisher_source_sha256": "58b97b121c3c737e146e562f2b3b3ac63627432d098db12bf747d5eae8ed38c4"
+      },
+      "accepted_on": "2026-10-25",
+      "document_path": "source-library/liechtenstein/documents/legislation/li-informationsgesetz.md",
+      "local_file_sha256": "457150c7957b8d3be4c003b743d926995357d10ed8407ce9ad2fd730d09705f1",
+      "source_response_sha256": "58b97b121c3c737e146e562f2b3b3ac63627432d098db12bf747d5eae8ed38c4",
+      "source_text_sha256": "997dc7508c9db5a2f2d2efff912870e0fb9397edd118de28c14c4c6b173aa639",
+      "candidate_conversion_sha256": "8fe783cbfc8bd50c174d95ba865d762e75c7bd83884c6f4eeb9d43b810c4b021",
+      "archived_candidate_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/li-15.md",
+      "archived_candidate_sha256": "8fe783cbfc8bd50c174d95ba865d762e75c7bd83884c6f4eeb9d43b810c4b021",
+      "local_copy_accepted": true,
+      "accepted_external_reference": true,
+      "accepted_topics": [],
+      "limitations": [
+        "The local file preserves the official Lilex text-frame extraction captured on 2026-10-19, not signed Gazette layout.",
+        "The version and recorded 2025 amendment were checked; this review did not compare every provision page by page with signed Gazette publications.",
+        "Lilex consolidations are informational and have no legal effect; the signed State Law Gazette is legally authentic.",
+        "Source acceptance is separate from topic coverage and country review completion."
+      ],
+      "text_response_sha256": "cbfc303bd41a8a32a2837c1c2039ade6b6e5617092f95e80550f3e0265ecf405"
+    },
+    "li-16": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The official publisher record identifies Informationsweiterverwendungsgesetz (IWG); source identifier is LR 172.016; LGBl 2024.041, total revision effective 1 August 2026 and the official page is https://www.gesetze.li/konso/2024041000."
+        },
+        "current_legal_version": {
+          "status": "pass_with_limitations",
+          "review_date": "2026-10-25",
+          "evidence": "Lilex text-frame version 1 for LGBl 2024.041 / LR 172.016, captured 2026-10-19. The text states entry into force on 1 August 2026 under LGBl 2026 Nr. 249.",
+          "evidence_url": "https://www.gesetze.li/konso/2024041000"
+        },
+        "extraction_completeness": {
+          "status": "pass_with_limitations",
+          "evidence": "The full official-text section from the archived review candidate was carried into the final Markdown document without substantive editing (source-text SHA-256 0e84f30fc7a920114220e95a782c7f953f495ed33a096acf787da982b7541d99); exact candidate hash 15f852de7bba7aa416d24aa3d98986619216444b28882652d628254ac0585a1b."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "official_statutory_text_only",
+          "basis_url": "https://www.gesetze.li/konso/html/1999160000",
+          "evidence": "The official URG Art. 5(1)(a) excludes laws, regulations, treaties and other official enactments from copyright protection; Art. 5(2) covers official or legally required collections and translations. This acceptance covers the enactment text only, not publisher interface/design or systematic database reuse."
+        },
+        "legal_classification": {
+          "status": "pass_with_limitations",
+          "evidence": "Liechtenstein legislation on open data and reuse of public-sector information. It is not an access-to-information statute and does not establish a complete public dataset inventory."
+        }
+      },
+      "semantic_review": {
+        "status": "passed_with_limitations",
+        "method": "preserve_official_text_section_from_archived_candidate_and_check_official_identity_and_version_metadata",
+        "review_date": "2026-10-25",
+        "scope": "The official text section was preserved; publisher/title/version metadata and the stated scope were reviewed. This is not a page-by-page comparison to signed Gazette originals.",
+        "source_response_sha256": "1e5c99f328b0326acba23e5d7c99d26e14b067283945059793117e612e96461a",
+        "text_response_sha256": "662539d07b5b92a5770e6bf2e5de811bb94c232ac403f185163d914dbed30624",
+        "candidate_conversion_sha256": "15f852de7bba7aa416d24aa3d98986619216444b28882652d628254ac0585a1b",
+        "source_text_sha256": "0e84f30fc7a920114220e95a782c7f953f495ed33a096acf787da982b7541d99",
+        "source_text_bytes": 33845,
+        "full_candidate_replay": "not_run_in_this_review",
+        "limitations": [
+          "The local file preserves the official Lilex text-frame extraction captured on 2026-10-19, not signed Gazette layout.",
+          "This is the first observed consolidated text version; later amendments and the application of specific EEA rules were not independently audited.",
+          "Lilex consolidations are informational and have no legal effect; the signed State Law Gazette is legally authentic.",
+          "Source acceptance is separate from topic coverage and country review completion."
+        ]
+      },
+      "capture_evidence": {
+        "retrieval_manifest_archive_path": "captures/liechtenstein_candidate_promotion_20261025/Liechtenstein/retrieval-manifest.json",
+        "retrieval_manifest_sha256": "fbd2ebcadb8858a911db4bdddbef44272efb83cabb439ff54621e3bcab50cf7e",
+        "archived_candidate_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/li-16.md",
+        "archived_candidate_sha256": "15f852de7bba7aa416d24aa3d98986619216444b28882652d628254ac0585a1b",
+        "publisher_source_sha256": "1e5c99f328b0326acba23e5d7c99d26e14b067283945059793117e612e96461a"
+      },
+      "accepted_on": "2026-10-25",
+      "document_path": "source-library/liechtenstein/documents/legislation/li-informationsweiterverwendungsgesetz-iwg.md",
+      "local_file_sha256": "18dc28258a518ebbb89b22e4f4ae28555de1284336a75d2b1949bba72f74a95c",
+      "source_response_sha256": "1e5c99f328b0326acba23e5d7c99d26e14b067283945059793117e612e96461a",
+      "source_text_sha256": "0e84f30fc7a920114220e95a782c7f953f495ed33a096acf787da982b7541d99",
+      "candidate_conversion_sha256": "15f852de7bba7aa416d24aa3d98986619216444b28882652d628254ac0585a1b",
+      "archived_candidate_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/li-16.md",
+      "archived_candidate_sha256": "15f852de7bba7aa416d24aa3d98986619216444b28882652d628254ac0585a1b",
+      "local_copy_accepted": true,
+      "accepted_external_reference": true,
+      "accepted_topics": [],
+      "limitations": [
+        "The local file preserves the official Lilex text-frame extraction captured on 2026-10-19, not signed Gazette layout.",
+        "This is the first observed consolidated text version; later amendments and the application of specific EEA rules were not independently audited.",
+        "Lilex consolidations are informational and have no legal effect; the signed State Law Gazette is legally authentic.",
+        "Source acceptance is separate from topic coverage and country review completion."
+      ],
+      "text_response_sha256": "662539d07b5b92a5770e6bf2e5de811bb94c232ac403f185163d914dbed30624"
+    },
+    "li-17": {
+      "status": "accepted_with_narrow_external_scope",
+      "publisher": "Liechtenstein Office of Statistics / Digital Innovation Unit",
+      "url": "https://www.opendata.li/de/daten",
+      "checked_on": "2026-10-25",
+      "language": "German",
+      "version_or_scope": "Official data portal page checked 2026-10-25; dataset and category content is dynamic.",
+      "acceptance_scope": "Official discovery route for Liechtenstein public-sector datasets. It is not a legal source and is not evidence that any law, data category, or dataset inventory is complete.",
+      "reviewed_content": "The official portal exposes search and filtering for public data, with dynamically loaded collections. No specific legal-text dataset was established in this review.",
+      "limitations": [
+        "No page snapshot is accepted as a local source copy; the earlier captured candidate remains in the Monitor local-only archive.",
+        "Dataset results can change; follow the link for current contents.",
+        "Do not use this portal in place of an official law, Gazette, or subject-specific authority record."
+      ],
+      "candidate_record": {
+        "manifest_archive_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/candidate-manifest.json",
+        "id": "li-17"
+      },
+      "evidence": {
+        "official_source_url": "https://www.opendata.li/de/daten",
+        "verified_content": "Official publisher page checked 2026-10-25; the accepted scope is limited to the page identified above.",
+        "retrieval_status": "link_only_official_reference_with_archived_snapshot",
+        "archived_candidate_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/li-17.md",
+        "archived_candidate_sha256": "644793db0eb83b410b93c0696645255990cecd9476ed91518080b5e7e6ada4db"
+      },
+      "local_copy_accepted": false,
+      "accepted_topics": [],
+      "decision": "accepted_with_narrow_external_scope"
+    },
+    "li-32": {
+      "status": "accepted_with_narrow_external_scope",
+      "publisher": "Fürstliche Gerichte",
+      "url": "https://www.gerichte.li/die-gerichte/oberster-gerichtshof",
+      "checked_on": "2026-10-25",
+      "language": "German",
+      "version_or_scope": "Official court page checked 2026-10-25; no publication or review date shown.",
+      "acceptance_scope": "Official institutional reference for the OGH role and the linked decision-publication routes.",
+      "reviewed_content": "The court states that the OGH exercises ordinary jurisdiction at third instance and also functions as Verwaltungsgerichtshof. It links publication to gerichtsentscheidungen.li and separately links OGH decisions published on ogh.li for 2020–2025.",
+      "limitations": [
+        "The page does not claim that either linked repository is a complete case-law corpus.",
+        "This is an institutional page, not the procedural statute or a judgment.",
+        "No page snapshot is accepted as a local source copy; the earlier captured candidate remains in the Monitor local-only archive."
+      ],
+      "candidate_record": {
+        "manifest_archive_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/candidate-manifest.json",
+        "id": "li-32"
+      },
+      "evidence": {
+        "official_source_url": "https://www.gerichte.li/die-gerichte/oberster-gerichtshof",
+        "verified_content": "Official publisher page checked 2026-10-25; the accepted scope is limited to the page identified above.",
+        "retrieval_status": "link_only_official_reference_with_archived_snapshot",
+        "archived_candidate_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/li-32.md",
+        "archived_candidate_sha256": "051896a4f13c14e228200ed6c583647d6a88603d921b7b7f0ddc2f40a8586f5e"
+      },
+      "local_copy_accepted": false,
+      "accepted_topics": [],
+      "decision": "accepted_with_narrow_external_scope"
+    },
+    "li-36": {
+      "status": "accepted_with_narrow_external_scope",
+      "publisher": "Datenschutzstelle Liechtenstein",
+      "url": "https://www.datenschutzstelle.li/",
+      "checked_on": "2026-10-25",
+      "language": "German",
+      "version_or_scope": "Official homepage checked 2026-10-25; dynamic service and news content.",
+      "acceptance_scope": "Official authority and navigation reference for the Data Protection Office, its services, legal materials, and complaint route. It does not constitute the Data Protection Act text.",
+      "reviewed_content": "The official homepage identifies the Datenschutzstelle, links legal bases and services, and offers a complaint submission route. The office site also links to current decisions, forms, and public guidance.",
+      "limitations": [
+        "The Data Protection Act (LR 235.1) and its current consolidated text are separate legal sources and are not accepted by this homepage record.",
+        "Current service details should be rechecked on the live site.",
+        "No page snapshot is accepted as a local source copy; the earlier captured candidate remains in the Monitor local-only archive."
+      ],
+      "candidate_record": {
+        "manifest_archive_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/candidate-manifest.json",
+        "id": "li-36"
+      },
+      "evidence": {
+        "official_source_url": "https://www.datenschutzstelle.li/",
+        "verified_content": "Official publisher page checked 2026-10-25; the accepted scope is limited to the page identified above.",
+        "retrieval_status": "link_only_official_reference_with_archived_snapshot",
+        "archived_candidate_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/li-36.md",
+        "archived_candidate_sha256": "cd3cd04014a3edf171daab769be2ec264bc28af17706e5f56cbf6a9b4aa5509e"
+      },
+      "local_copy_accepted": false,
+      "accepted_topics": [],
+      "decision": "accepted_with_narrow_external_scope"
+    },
+    "li-37": {
+      "status": "accepted_with_narrow_external_scope",
+      "publisher": "Datenschutzstelle Liechtenstein",
+      "url": "https://www.datenschutzstelle.li/datenschutz/themen-z/beschwerderecht",
+      "checked_on": "2026-10-25",
+      "language": "German",
+      "version_or_scope": "Official guidance page checked 2026-10-25; no issue date shown.",
+      "acceptance_scope": "Official explanatory page for the Data Protection Office complaint route; not legislation or a complete remedy analysis.",
+      "reviewed_content": "The page describes complaints under GDPR Article 77 and the Liechtenstein Data Protection Act, identifies the Datenschutzstelle as the national authority, recommends written submission and links an electronic form and secure document channel. It says the authority updates complainants on status and outcome; the page also explains that abusive complaints may lead to a fee or refusal to act.",
+      "limitations": [
+        "The page is explanatory guidance; legal rights and remedies must be checked against the GDPR, Liechtenstein DSG/DSV, and any applicable court procedure.",
+        "No publication date is shown; dynamic service and procedure details should be rechecked before operational use.",
+        "No page snapshot is accepted as a local source copy; the earlier captured candidate remains in the Monitor local-only archive."
+      ],
+      "candidate_record": {
+        "manifest_archive_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/candidate-manifest.json",
+        "id": "li-37"
+      },
+      "evidence": {
+        "official_source_url": "https://www.datenschutzstelle.li/datenschutz/themen-z/beschwerderecht",
+        "verified_content": "Official publisher page checked 2026-10-25; the accepted scope is limited to the page identified above.",
+        "retrieval_status": "link_only_official_reference_with_archived_snapshot",
+        "archived_candidate_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/li-37.md",
+        "archived_candidate_sha256": "d45804e5bcd343df16801997b72415f1f485b2f9a48829b14583675289afccea"
+      },
+      "local_copy_accepted": false,
+      "accepted_topics": [],
+      "decision": "accepted_with_narrow_external_scope"
+    },
+    "li-40": {
+      "status": "accepted_with_narrow_external_scope",
+      "publisher": "Fürstliche Gerichte",
+      "url": "https://www.gerichte.li/gebuehren-dienstleistungen/unentgeltliche-rechtsberatung",
+      "checked_on": "2026-10-25",
+      "language": "German",
+      "version_or_scope": "Official court guidance page checked 2026-10-25; no issue date shown.",
+      "acceptance_scope": "Official court-service reference on limited free oral legal advice and filing assistance.",
+      "reviewed_content": "The court says legal advice is offered orally in German in simple cases, with advance telephone registration, and only in matters within court jurisdiction. It expressly excludes administrative-law advice, written opinions, email advice, and representation; procedural assistance is a separate legal route.",
+      "limitations": [
+        "This is a court service page and not a source for all statutory eligibility criteria or procedural assistance.",
+        "Contact details, times, and services may change; recheck the live page before use.",
+        "No page snapshot is accepted as a local source copy; the earlier captured candidate remains in the Monitor local-only archive."
+      ],
+      "candidate_record": {
+        "manifest_archive_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/candidate-manifest.json",
+        "id": "li-40"
+      },
+      "evidence": {
+        "official_source_url": "https://www.gerichte.li/gebuehren-dienstleistungen/unentgeltliche-rechtsberatung",
+        "verified_content": "Official publisher page checked 2026-10-25; the accepted scope is limited to the page identified above.",
+        "retrieval_status": "link_only_official_reference_with_archived_snapshot",
+        "archived_candidate_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/li-40.md",
+        "archived_candidate_sha256": "8493106812a09db23be9ba9f7b4feaf6a980fcfe25cbb38c78fdd989724b80a3"
+      },
+      "local_copy_accepted": false,
+      "accepted_topics": [],
+      "decision": "accepted_with_narrow_external_scope"
     }
   },
   "candidate_inventory_count": 40,
   "dispositioned_candidate_count": 1,
-  "open_candidate_count": 31,
+  "open_candidate_count": 21,
   "dispositions": {
     "li-03": {
       "status": "already_represented_duplicate",

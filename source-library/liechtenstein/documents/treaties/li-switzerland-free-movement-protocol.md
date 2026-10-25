@@ -1,21 +1,28 @@
 # Protocol regarding free movement of persons between Switzerland and Liechtenstein
 
 - Jurisdiction: Liechtenstein
-- Candidate ID: `li-13`
-- Source type: `swiss_liechtenstein_free_movement_treaty`
-- Official source page: https://www.efta.int/sites/default/files/uploads/2024-04/ProtocolSwissLiecht.pdf
-- Retrieved PDF URL: https://www.efta.int/sites/default/files/uploads/2024-04/ProtocolSwissLiecht.pdf
-- Retrieved: 2026-10-19T03:01:05+00:00
-- Original PDF path: `source-library/liechtenstein/candidates/li-13.pdf`
-- Original PDF SHA-256: `64006c2735d604b70982f273ac0d04724a824c98c904a47f5b4add82013507b0`
-- Original PDF bytes: 23240
-- Conversion rule: `liechtenstein-pdf-text-v1` using `pypdf==6.21.1`
-- Pages: 4
-- Status: unaccepted review candidate
+- Source ID: `li-13`
+- Source class: `swiss_liechtenstein_free_movement_treaty`
+- Official publisher: EFTA
+- Official source: [https://www.efta.int/sites/default/files/uploads/2024-04/ProtocolSwissLiecht.pdf](https://www.efta.int/sites/default/files/uploads/2024-04/ProtocolSwissLiecht.pdf)
+- Identifier: Protocol under the amended EFTA Convention, Annex K
+- Version observed: Protocol under the amended EFTA Convention, Annex K. EFTA-hosted PDF copy retrieved 2026-10-19; date of signature and present legal status were not independently established in this review.
+- Source retrieved: 2026-10-19T03:01:05+00:00
+- Original official PDF: `li-switzerland-free-movement-protocol.pdf` (SHA-256 `64006c2735d604b70982f273ac0d04724a824c98c904a47f5b4add82013507b0`)
+- PDF reference: [https://www.efta.int/sites/default/files/uploads/2024-04/ProtocolSwissLiecht.pdf](https://www.efta.int/sites/default/files/uploads/2024-04/ProtocolSwissLiecht.pdf)
+- Local-copy basis: official treaty text only under Liechtenstein URG Art. 5; no general reuse rights for publisher pages are implied.
 
-> **Review candidate.** Page-wise text extraction is for search and review. The original PDF remains the source artifact; layout is not recreated, and PDF signatures are not cryptographically validated.
+## Scope
 
-## Text extracted by page
+Official EFTA-hosted protocol text on movement between Switzerland and Liechtenstein. It is a distinct bilateral/EFTA source and must not be treated as the EEA free-movement route or as a legal-equivalence finding.
+
+## Review limits
+
+- The date and current legal effect of the protocol were not independently verified; consult the official EFTA and national publication records before relying on a particular provision.
+- The official EFTA PDF URL was not fetchable through the web viewer on 2026-10-25 (403); the PDF retrieved from that EFTA URL on 2026-10-19 is preserved byte-for-byte.
+- The PDF copy is the source artifact. Extracted page text has line-break/OCR artifacts and is for search and review; layout and signatures are not validated.
+
+## Official source text
 
 <!-- page 1 -->
 PROTOCOL

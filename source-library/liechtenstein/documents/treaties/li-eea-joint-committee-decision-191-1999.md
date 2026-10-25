@@ -1,21 +1,28 @@
 # EEA Joint Committee Decision No 191/1999 on Liechtenstein's free-movement solution
 
 - Jurisdiction: Liechtenstein
-- Candidate ID: `li-05`
-- Source type: `eea_treaty_decision`
-- Official source page: https://www.efta.int/sites/default/files/documents/legal-texts/eea/other-legal-documents/adopted-joint-committee-decisions/1999%20-%20English/191-1999.pdf
-- Retrieved PDF URL: https://www.efta.int/sites/default/files/documents/legal-texts/eea/other-legal-documents/adopted-joint-committee-decisions/1999%20-%20English/191-1999.pdf
-- Retrieved: 2026-10-19T03:00:46+00:00
-- Original PDF path: `source-library/liechtenstein/candidates/li-05.pdf`
-- Original PDF SHA-256: `ce9bbc471e5f839d6b95469e3808e404a3b5dfbc8aeb55e2481330c553ddddae`
-- Original PDF bytes: 25071
-- Conversion rule: `liechtenstein-pdf-text-v1` using `pypdf==6.21.1`
-- Pages: 6
-- Status: unaccepted review candidate
+- Source ID: `li-05`
+- Source class: `eea_treaty_decision`
+- Official publisher: EFTA; published nationally as LGBl 2000.097
+- Official source: [https://www.efta.int/sites/default/files/documents/legal-texts/eea/other-legal-documents/adopted-joint-committee-decisions/1999%20-%20English/191-1999.pdf](https://www.efta.int/sites/default/files/documents/legal-texts/eea/other-legal-documents/adopted-joint-committee-decisions/1999%20-%20English/191-1999.pdf)
+- Identifier: JCD 191/1999; national notice LR 0.110.032.77 / LGBl 2000.097
+- Version observed: Decision dated 17 December 1999; national publication LR 0.110.032.77 / LGBl 2000.097. Article 3 states entry into force from 1 January 2000 subject to the Article 103(1) notification condition.
+- Source retrieved: 2026-10-19T03:00:46+00:00
+- Original official PDF: `li-eea-joint-committee-decision-191-1999.pdf` (SHA-256 `ce9bbc471e5f839d6b95469e3808e404a3b5dfbc8aeb55e2481330c553ddddae`)
+- PDF reference: [https://www.efta.int/sites/default/files/documents/legal-texts/eea/other-legal-documents/adopted-joint-committee-decisions/1999%20-%20English/191-1999.pdf](https://www.efta.int/sites/default/files/documents/legal-texts/eea/other-legal-documents/adopted-joint-committee-decisions/1999%20-%20English/191-1999.pdf)
+- Local-copy basis: official treaty text only under Liechtenstein URG Art. 5; no general reuse rights for publisher pages are implied.
 
-> **Review candidate.** Page-wise text extraction is for search and review. The original PDF remains the source artifact; layout is not recreated, and PDF signatures are not cryptographically validated.
+## Scope
 
-## Text extracted by page
+Official EFTA-hosted treaty decision amending EEA Agreement Annexes V and VIII and recording a Liechtenstein-specific arrangement. This historical instrument is not a complete statement of current national residence law or individual entitlement.
+
+## Review limits
+
+- The decision text makes entry into force conditional on the notifications described in Article 3; this record does not independently establish that condition or later legal status.
+- The official EFTA PDF URL was not fetchable through the web viewer on 2026-10-25 (403); the PDF retrieved from that EFTA URL on 2026-10-19 is preserved byte-for-byte.
+- The PDF copy is the source artifact. Extracted page text is for search and review; layout and signatures are not validated.
+
+## Official source text
 
 <!-- page 1 -->
 1

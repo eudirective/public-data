@@ -46,6 +46,19 @@
       ]
     },
     {
+      "id": "li-05",
+      "class": "eea_treaty_decision",
+      "title": "EEA Joint Committee Decision No 191/1999 on Liechtenstein's free-movement solution",
+      "publisher": "EFTA; published nationally as LGBl 2000.097",
+      "url": "https://www.efta.int/sites/default/files/documents/legal-texts/eea/other-legal-documents/adopted-joint-committee-decisions/1999%20-%20English/191-1999.pdf",
+      "language": "English",
+      "version": "Decision dated 17 December 1999; national publication LR 0.110.032.77 / LGBl 2000.097. Article 3 states entry into force from 1 January 2000 subject to the Article 103(1) notification condition.",
+      "scope": "Official EFTA-hosted treaty decision amending EEA Agreement Annexes V and VIII and recording a Liechtenstein-specific arrangement. This historical instrument is not a complete statement of current national residence law or individual entitlement.",
+      "status": "accepted_official_reference_and_local_copy_with_limitations",
+      "checked_on": "2026-10-25",
+      "local_path": "source-library/liechtenstein/documents/treaties/li-eea-joint-committee-decision-191-1999.md"
+    },
+    {
       "id": "li-06",
       "class": "eea_implementation",
       "title": "Gesetz über die Umsetzung und Kundmachung der EWR-Rechtsvorschriften, LR 170.51",
@@ -170,6 +183,123 @@
         "Schengen acquis, the Visa Code, Schengen Borders Code, VISV/EESV, AuG/PFZG, Swiss agreements, visa-fee rules and operational mission guidance require separate review.",
         "Source acceptance is separate from topic coverage and country completion."
       ]
+    },
+    {
+      "id": "li-13",
+      "class": "swiss_liechtenstein_free_movement_treaty",
+      "title": "Protocol regarding free movement of persons between Switzerland and Liechtenstein",
+      "publisher": "EFTA",
+      "url": "https://www.efta.int/sites/default/files/uploads/2024-04/ProtocolSwissLiecht.pdf",
+      "language": "English",
+      "version": "Protocol under the amended EFTA Convention, Annex K. EFTA-hosted PDF copy retrieved 2026-10-19; date of signature and present legal status were not independently established in this review.",
+      "scope": "Official EFTA-hosted protocol text on movement between Switzerland and Liechtenstein. It is a distinct bilateral/EFTA source and must not be treated as the EEA free-movement route or as a legal-equivalence finding.",
+      "status": "accepted_official_reference_and_local_copy_with_limitations",
+      "checked_on": "2026-10-25",
+      "local_path": "source-library/liechtenstein/documents/treaties/li-switzerland-free-movement-protocol.md"
+    },
+    {
+      "id": "li-14",
+      "class": "administrative_procedure_law",
+      "title": "Landesverwaltungspflegegesetz (LVG)",
+      "publisher": "Liechtenstein Government Legal Services",
+      "url": "https://www.gesetze.li/konso/1922024000",
+      "language": "German",
+      "version": "Lilex text-frame version 30 captured 2026-10-19 for LGBl 1922.024 / LR 172.020; the captured text includes amendment notes through LGBl 2025 Nr. 375. No separate date of consolidation was displayed in the candidate record.",
+      "scope": "General Liechtenstein administrative procedure and appeals statute; use the official dated Gazette publication for legally material dates and verify cross-references to the applicable procedure.",
+      "status": "accepted_official_reference_and_local_copy_with_limitations",
+      "checked_on": "2026-10-25",
+      "local_path": "source-library/liechtenstein/documents/legislation/li-landesverwaltungspflegegesetz-lvg.md"
+    },
+    {
+      "id": "li-15",
+      "class": "public_information_law",
+      "title": "Informationsgesetz (Information Act)",
+      "publisher": "Liechtenstein Government Legal Services",
+      "url": "https://www.gesetze.li/konso/1999159000",
+      "language": "German",
+      "version": "Lilex text-frame version 8 captured 2026-10-19 for LGBl 1999.159 / LR 172.015; the text records amendment LGBl 2025 Nr. 32, effective 1 January 2026.",
+      "scope": "Liechtenstein statutory source on public information. It is separate from the Informationsweiterverwendungsgesetz (IWG), which governs reuse of public-sector information.",
+      "status": "accepted_official_reference_and_local_copy_with_limitations",
+      "checked_on": "2026-10-25",
+      "local_path": "source-library/liechtenstein/documents/legislation/li-informationsgesetz.md"
+    },
+    {
+      "id": "li-16",
+      "class": "public_sector_reuse_law",
+      "title": "Informationsweiterverwendungsgesetz (IWG)",
+      "publisher": "Liechtenstein Government Legal Services",
+      "url": "https://www.gesetze.li/konso/2024041000",
+      "language": "German",
+      "version": "Lilex text-frame version 1 for LGBl 2024.041 / LR 172.016, captured 2026-10-19. The text states entry into force on 1 August 2026 under LGBl 2026 Nr. 249.",
+      "scope": "Liechtenstein legislation on open data and reuse of public-sector information. It is not an access-to-information statute and does not establish a complete public dataset inventory.",
+      "status": "accepted_official_reference_and_local_copy_with_limitations",
+      "checked_on": "2026-10-25",
+      "local_path": "source-library/liechtenstein/documents/legislation/li-informationsweiterverwendungsgesetz-iwg.md"
+    },
+    {
+      "id": "li-17",
+      "class": "open_data_discovery",
+      "title": "opendata.li — official dataset portal",
+      "publisher": "Liechtenstein Office of Statistics / Digital Innovation Unit",
+      "url": "https://www.opendata.li/de/daten",
+      "language": "German",
+      "version": "Official data portal page checked 2026-10-25; dataset and category content is dynamic.",
+      "scope": "Official discovery route for Liechtenstein public-sector datasets. It is not a legal source and is not evidence that any law, data category, or dataset inventory is complete.",
+      "status": "accepted_external_reference_only",
+      "checked_on": "2026-10-25",
+      "local_path": null
+    },
+    {
+      "id": "li-32",
+      "class": "judicial_structure",
+      "title": "Oberster Gerichtshof — institutional and decision-publication information",
+      "publisher": "Fürstliche Gerichte",
+      "url": "https://www.gerichte.li/die-gerichte/oberster-gerichtshof",
+      "language": "German",
+      "version": "Official court page checked 2026-10-25; no publication or review date shown.",
+      "scope": "Official institutional reference for the OGH role and the linked decision-publication routes.",
+      "status": "accepted_external_reference_only",
+      "checked_on": "2026-10-25",
+      "local_path": null
+    },
+    {
+      "id": "li-36",
+      "class": "data_protection_oversight",
+      "title": "Datenschutzstelle — official authority and service portal",
+      "publisher": "Datenschutzstelle Liechtenstein",
+      "url": "https://www.datenschutzstelle.li/",
+      "language": "German",
+      "version": "Official homepage checked 2026-10-25; dynamic service and news content.",
+      "scope": "Official authority and navigation reference for the Data Protection Office, its services, legal materials, and complaint route. It does not constitute the Data Protection Act text.",
+      "status": "accepted_external_reference_only",
+      "checked_on": "2026-10-25",
+      "local_path": null
+    },
+    {
+      "id": "li-37",
+      "class": "data_protection_complaint_guidance",
+      "title": "Datenschutzstelle — complaint right and procedure",
+      "publisher": "Datenschutzstelle Liechtenstein",
+      "url": "https://www.datenschutzstelle.li/datenschutz/themen-z/beschwerderecht",
+      "language": "German",
+      "version": "Official guidance page checked 2026-10-25; no issue date shown.",
+      "scope": "Official explanatory page for the Data Protection Office complaint route; not legislation or a complete remedy analysis.",
+      "status": "accepted_external_reference_only",
+      "checked_on": "2026-10-25",
+      "local_path": null
+    },
+    {
+      "id": "li-40",
+      "class": "legal_assistance",
+      "title": "Fürstliche Gerichte — unentgeltliche Rechtsberatung",
+      "publisher": "Fürstliche Gerichte",
+      "url": "https://www.gerichte.li/gebuehren-dienstleistungen/unentgeltliche-rechtsberatung",
+      "language": "German",
+      "version": "Official court guidance page checked 2026-10-25; no issue date shown.",
+      "scope": "Official court-service reference on limited free oral legal advice and filing assistance.",
+      "status": "accepted_external_reference_only",
+      "checked_on": "2026-10-25",
+      "local_path": null
     }
   ]
 }
