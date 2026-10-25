@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0.0",
+  "jurisdiction": "LI",
+  "as_of": "2026-10-25",
+  "accepted_source_count": 1,
+  "accepted_local_copy_count": 1,
+  "accepted_external_reference_count": 1,
+  "accepted_topic_count": 0,
+  "country_review_complete": false,
+  "policy": "A reviewed official source may be accepted within its publisher, identity, language, displayed version, scope, and stated limitations. The current Lilex consolidation is an informational working text, not the legally authentic publication. Local-copy acceptance is separate from topic coverage, legal equivalence, and country completion. Reuse acceptance here is limited to statutory text under URG Article 5; it does not cover site design, database-level or systematic reuse, or unrelated content.",
+  "records": {
+    "li-07": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The current official Lilex page identifies the Government Legal Services, the PFZG title, LR 152.21, and LGBl 2009.348. The live text page was checked on 2026-10-25."
+        },
+        "current_legal_version": {
+          "status": "pass_with_limitations",
+          "review_date": "2026-10-25",
+          "evidence_url": "https://www.gesetze.li/konso/2009348000/meta?lgblid_von=&lrnr=&observe_date=&search_loc=&search_text=&version=11",
+          "evidence": "The official chronology identifies the latest amendment as LGBl 2025.397, issued 25 August 2025 and effective 1 January 2026; the current text page still exposes frame version 11. The official database describes consolidations as informational and without legal effect; this acceptance does not establish legal authenticity or resolve a conflict with the signed Gazette."
+        },
+        "extraction_completeness": {
+          "status": "pass_with_limitations",
+          "evidence": "Offline replay from the archived source bytes reproduced the captured conversion exactly (candidate conversion SHA-256 9ae93cd9fb0d51ad35e4cc7b204922c2d890f28b8289f50aab3e93ff4cbb8da0). The local copy preserves the complete extracted official-text section (67474 UTF-8 bytes; SHA-256 b4c35bf08ea384227a0891b307c0cd99792278b5217e2a47f69dbe5e89ce8ffd). Live-page anchors checked on 2026-10-25 include Arts. 1-2, 6-8, 13, 24-25, 40-45 and 60, plus the 2025.397 chronology. A full byte-for-byte refetch of the live page was unavailable from this WSL worktree because DNS resolution failed; the official web view confirmed the same current frame and anchors."
+        },
+        "attachments_review": {
+          "status": "pass_with_limitations",
+          "evidence": "The consolidated statutory text presents a text-only law body and amendment footnotes; no separate statutory annex or linked image attachment was identified in the retained source text. Legislative materials listed in the chronology are not reproduced in this document."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "The source is primary Liechtenstein legislation regulating entry, residence, family reunification and remedies for EEA and Swiss nationals and specified family/other-beneficiary categories. Its special EEA solution and Swiss treaty basis must remain distinct; it is not a legal-equivalence finding about Directive 2004/38 or another national regime."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "official_statutory_text_only",
+          "basis_url": "https://www.gesetze.li/konso/html/1999160000",
+          "evidence": "The current official URG Art. 5(1)(a) excludes laws and other official enactments from copyright protection; Art. 5(2) also excludes official or legally required collections and translations. This acceptance covers only the statutory text, not Lilex interface/design, unrelated materials, or systematic database reuse."
+        }
+      },
+      "semantic_review": {
+        "status": "passed_with_limitations",
+        "method": "offline_source_replay_and_live_official_anchor_review",
+        "review_date": "2026-10-25",
+        "scope": "Complete text extracted from the archived current-text frame, with representative current-page anchors and chronology checked against the live official Lilex view.",
+        "source_response_sha256": "ed158f70321b746fbdd3e7704e8509e8c408bfbd5e49db5067e85132e51b7372",
+        "text_response_sha256": "8b1c16e4a3d2c226328ca14aa79bd4c5bbb016270cccc64bf087ef96e638d62a",
+        "candidate_conversion_sha256": "9ae93cd9fb0d51ad35e4cc7b204922c2d890f28b8289f50aab3e93ff4cbb8da0",
+        "source_text_sha256": "b4c35bf08ea384227a0891b307c0cd99792278b5217e2a47f69dbe5e89ce8ffd",
+        "source_text_bytes": 67474,
+        "limitations": [
+          "No full live-page byte-for-byte refetch was possible from this WSL worktree; DNS resolution failed. The current official web view and version chronology were inspected instead."
+        ]
+      },
+      "accepted_on": "2026-10-25",
+      "document_path": "source-library/liechtenstein/documents/legislation/li-personenfreizuegigkeitsgesetz-pfzg.md",
+      "local_file_sha256": "eca6a8a7ce157e19e0f77d003545a17ec3151363d1f249dc2838769eeabca9a7",
+      "source_response_sha256": "ed158f70321b746fbdd3e7704e8509e8c408bfbd5e49db5067e85132e51b7372",
+      "source_text_sha256": "8b1c16e4a3d2c226328ca14aa79bd4c5bbb016270cccc64bf087ef96e638d62a",
+      "candidate_conversion_sha256": "9ae93cd9fb0d51ad35e4cc7b204922c2d890f28b8289f50aab3e93ff4cbb8da0",
+      "archived_candidate_path": "candidates/public-data/LI/liechtenstein/candidates/li-07.md",
+      "local_copy_accepted": true,
+      "accepted_external_reference": true,
+      "accepted_topics": [],
+      "limitations": [
+        "Lilex consolidated texts are informational and have no legal effect; the signed State Law Gazette is legally authentic.",
+        "PFZG implements a special Liechtenstein EEA mobility solution and also refers to the separate Liechtenstein-Switzerland framework; this is not a legal-equivalence conclusion.",
+        "Material cross-references to PFZV, AuG, ZAV, LVG, EEA instruments, Schengen law and the 2008 Liechtenstein-Switzerland agreement remain to be mapped and reviewed.",
+        "This source acceptance does not establish topic coverage or country completion."
+      ]
+    }
+  }
+}

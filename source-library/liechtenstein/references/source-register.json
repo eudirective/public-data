@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "jurisdiction": "LI",
+  "updated": "2026-10-25",
+  "inventory_scope": "Reviewed official sources concerning Liechtenstein residence and free movement, related procedure and remedies, and official operational guidance. EEA, Swiss, and third-country legal routes remain distinct.",
+  "source_rules_file": null,
+  "official_hosts": [
+    "www.gesetze.li"
+  ],
+  "entries": [
+    {
+      "id": "li-07",
+      "class": "national_free_movement_law",
+      "title": "Personenfreizügigkeitsgesetz (PFZG), LR 152.21",
+      "publisher": "Liechtenstein Government Legal Services (Rechtsdienst der Regierung)",
+      "url": "https://www.gesetze.li/konso/2009348000",
+      "language": "de",
+      "version": "Lilex current-text frame version 11; consolidation as of 1 January 2026; latest listed amendment LGBl 2025.397, effective 1 January 2026",
+      "scope": "Primary law governing entry, residence and family reunification for EEA/Swiss nationals and specified family/other-beneficiary categories, with a Liechtenstein-specific EEA solution and quota structure.",
+      "status": "accepted_official_reference_and_local_copy_with_limitations",
+      "checked_on": "2026-10-25",
+      "local_path": "source-library/liechtenstein/documents/legislation/li-personenfreizuegigkeitsgesetz-pfzg.md",
+      "local_copy_sha256": "eca6a8a7ce157e19e0f77d003545a17ec3151363d1f249dc2838769eeabca9a7",
+      "source_text_sha256": "b4c35bf08ea384227a0891b307c0cd99792278b5217e2a47f69dbe5e89ce8ffd",
+      "limitations": [
+        "Lilex says consolidated laws are informational and have no legal effect; signed LGBl is authentic.",
+        "Source acceptance is separate from topic coverage and country review completion.",
+        "Dependencies and treaty bases require separate review; no legal equivalence with other EEA or EU national regimes is implied."
+      ]
+    }
+  ]
+}

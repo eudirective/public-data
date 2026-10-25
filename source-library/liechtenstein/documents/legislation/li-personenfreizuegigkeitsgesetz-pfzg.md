@@ -1,20 +1,22 @@
-# Personenfreizügigkeitsgesetz (PFZG)
+# Personenfreizügigkeitsgesetz (PFZG), LR 152.21
 
 - Jurisdiction: Liechtenstein
-- Candidate ID: `li-07`
-- Source class: `national_free_movement_law`
-- Official page title: PFZG | Lilex - Gesetzesdatenbank des Fürstentums Liechtenstein
-- Publisher: Liechtenstein Government Legal Services
-- Candidate source URL: https://www.gesetze.li/konso/2009348000
+- Source ID: `li-07`
+- Source type: `national_free_movement_law`
+- Publisher: Liechtenstein Government Legal Services (Rechtsdienst der Regierung)
+- Official source URL: https://www.gesetze.li/konso/2009348000
 - Resolved text URL: https://www.gesetze.li/konso/html/2009348000?version=11&search_text=&search_loc=
-- Retrieved: 2026-10-19T03:00:50+00:00
-- Publisher/version evidence: Gesetze.li current-text frame version=11; inventory note: The official chronology shows amendment LGBl 2025.397 effective 1 January 2026 and the 2023 amendment before it.
-- Extraction region: `tag=body`
+- Language: German
+- Consolidated version checked: 1 January 2026 (Lilex current-text frame version 11)
+- Latest amendment shown in official chronology: LGBl 2025.397, effective 1 January 2026
+- Reviewed: 2026-10-25
+- Source response SHA-256: `ed158f70321b746fbdd3e7704e8509e8c408bfbd5e49db5067e85132e51b7372`
 - Text response SHA-256: `8b1c16e4a3d2c226328ca14aa79bd4c5bbb016270cccc64bf087ef96e638d62a`
-- Current-version shell SHA-256: `ed158f70321b746fbdd3e7704e8509e8c408bfbd5e49db5067e85132e51b7372`
+- Source-text SHA-256: `b4c35bf08ea384227a0891b307c0cd99792278b5217e2a47f69dbe5e89ce8ffd`
+- Extraction: `tag=body`; deterministic replay against the archived source response matched the retained conversion.
+- Reuse basis: Liechtenstein Copyright Act (URG), Art. 5(1)(a) and 5(2), official enactments and official collections are not protected; this copy contains statutory text only, not the website interface.
 
-> **Review candidate.** Not accepted into the trusted source corpus. Relationship: Partial functional match for Danish EU-residence rules; Liechtenstein's special EEA regime and quota structure differ
-> Check exact legal identity, version, language, scope, authority, links and reuse conditions before reliance.
+> **Accepted source record.** This local copy passed the source-specific checks in `references/source-acceptance.json`. Lilex states that consolidated texts are informational and have no legal effect; use the signed State Law Gazette where legal authenticity or a discrepancy matters. Acceptance is limited to this German text and does not establish topic coverage, legal equivalence, or country completion.
 
 ## Official source text
 
