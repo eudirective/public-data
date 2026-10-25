@@ -102,7 +102,7 @@
           "required_evidence": "At least one accepted local artifact or separately reviewed official reference within scope, or an explicit reasoned not-applicable conclusion."
         },
         "implementing_rule": {
-          "status": "candidate_only",
+          "status": "partially_supported",
           "source_ids": [
             "hr-visa-system-decree",
             "hr-visa-ordinance",
@@ -111,7 +111,7 @@
             "hr-admin-fees-tariff",
             "hr-admin-fees-tariff-amend-130-25"
           ],
-          "note": "New official fee sources identified; current text, exemptions, source acceptance and issue-level legal effect remain open.",
+          "note": "The accepted local Visa Rulebook and link-reviewed original Visa System Decree NN 92/21 support parts of the national implementing-rule layer. The 2021 decree states the visa-system and means-of-maintenance subject matter, implements Regulation (EU) 2018/1806, and repeals NN 55/15. Its current amendment chain and amounts are not verified; EEA-family exemption/facilitation, current procedures and issue-specific legal effect remain open. Partial support only.",
           "required_evidence": "Accept the applicable fee-law sources; map exact fee, exemption, refund/legal-aid route and procedural stage; then verify compatibility and practical route."
         },
         "procedure": {
@@ -743,12 +743,12 @@
           "required_evidence": "At least one accepted local artifact or separately reviewed official reference within scope, or an explicit reasoned not-applicable conclusion."
         },
         "implementing_rule": {
-          "status": "candidate_only",
+          "status": "partially_supported",
           "source_ids": [
             "hr-vis-decree",
             "hr-vis-decree-amend-105-17"
           ],
-          "note": "The VIS Decree NN 36/13 and amendment NN 105/17 remain located leads without independent source acceptance or a verified current chain. The Access to Information Act amendments are primary-law amendments, not implementing rules. This layer remains open.",
+          "note": "The current MUP and MVEP indexes list the Croatian VIS regulation NN 36/13 and amendment NN 105/17. The link-reviewed original text has Articles 35–37 on notices, access/correction/deletion and AZOP oversight; the amendment changes Article 21(3) access by MUP border officers. This is partial source support only. Current consolidated wording, the effect of later EU VIS law, processing-purpose/controller mapping, and current routes and remedies remain open.",
           "required_evidence": "At least one accepted local artifact or separately reviewed official reference within scope, or an explicit reasoned not-applicable conclusion."
         },
         "procedure": {

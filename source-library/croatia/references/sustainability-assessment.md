@@ -4,7 +4,7 @@
 
 ## Result
 
-Croatia has 82 source records, 43 accepted local documents and 37 official references usable by link within their recorded scopes. The pack remains incomplete: all 14 topic gates are open, none of the 40 planned court searches is recorded as run, and mission/local-authority practice remains unreviewed.
+Croatia has 82 source records, 43 accepted local documents and 41 official references usable by link within their recorded scopes. The pack remains incomplete: all 14 topic gates are open, none of the 40 planned court searches is recorded as run, and mission/local-authority practice remains unreviewed.
 
 The Monitor local-only archive now holds Croatia's candidate/discovery notes, raw responses, selector-bound legal-text fragments and acquisition manifests. Their hashes were reconciled with the working files before pack copies were removed. The accepted documents remain under `documents/`; the pack has no candidate/capture directories or parallel acquisition manifests. Four current MUP forms were visually reviewed page by page and retained unchanged with a narrow Article 18(3) basis. A missing revision date remains a limit.
 

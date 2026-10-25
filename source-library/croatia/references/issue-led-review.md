@@ -1,6 +1,6 @@
 # Croatia issue-led source review
 
-**As of 24 October 2026.** The seed inventory was source-led and bounded. This review starts from the tasks an applicant may need to perform or challenge, then follows each question into primary law, implementing rules, authority procedures and remedies. Source acceptance and link usability are recorded separately from whether a source resolves a topic layer. A source can be accepted while issue mapping remains open. The accepted general procedure and judicial-review texts are mapped provision by provision in [`procedural-crosswalk.md`](procedural-crosswalk.md); that first-pass map does not resolve their application to each immigration procedure.
+**As of 25 October 2026.** The seed inventory was source-led and bounded. This review starts from the tasks an applicant may need to perform or challenge, then follows each question into primary law, implementing rules, authority procedures and remedies. Source acceptance and link usability are recorded separately from whether a source resolves a topic layer. A source can be accepted while issue mapping remains open. The accepted general procedure and judicial-review texts are mapped provision by provision in [`procedural-crosswalk.md`](procedural-crosswalk.md); that first-pass map does not resolve their application to each immigration procedure.
 
 ## Directive scope, EEA/Swiss/Croatian-national scope and qualifying family relationships
 
@@ -20,7 +20,7 @@
 | Layer | Located leads | State |
 |---|---|---|
 | Primary legislation and directly applicable EU law | `hr-eea-act`, `hr-foreigners-act` | partially_supported; accepted hr-eea-act, hr-foreigners-act; issue mapping and other layers open |
-| Implementing rules and forms | `hr-visa-system-decree`, `hr-visa-ordinance` | source_review_open |
+| Implementing rules and forms | `hr-visa-system-decree`, `hr-visa-ordinance` | partially supported; accepted local Visa Rulebook and link-reviewed original NN 92/21 support parts of this layer; current amendments/amounts and issue-specific effect remain open |
 | Authority procedures and administrative practice | `hr-mvep-visa-application`, `hr-mvep-family-visas`, `hr-mvep-missions` | source_review_open |
 | Administrative/judicial remedies, oversight, or relevant practice | `hr-mvep-visa-appeal-current`, `hr-admin-disputes-act`, `hr-admin-fees-tariff-amend-130-25` | partially_supported; accepted hr-admin-disputes-act; issue mapping and other layers open |
 
@@ -167,7 +167,7 @@ NN 142/25 is accepted only as the year-specific 2025 compensation regulation. Ar
 | Layer | Located leads | State |
 |---|---|---|
 | Primary legislation and directly applicable EU law | `hr-access-info-act`, `hr-access-info-amend-85-15`, `hr-access-info-amend-69-22`, `hr-data-protection-act`, `hr-law-enforcement-data-act`, `hr-ombudsman-act` | partially supported; accepted local Access to Information and Ombudsman Acts, link-reviewed GDPR implementation enactment and link-reviewed amendments; currentness, separate law-enforcement regime and provision-level mapping remain open |
-| Implementing rules and forms | `hr-vis-decree`, `hr-vis-decree-amend-105-17` | source review open; VIS Decree chain remains unaccepted and its currentness is unverified |
+| Implementing rules and forms | `hr-vis-decree`, `hr-vis-decree-amend-105-17` | partially supported; link-reviewed original NN 36/13 and NN 105/17 support selected HVIS data/right provisions; consolidated wording and post-recast EU-law effect remain open |
 | Authority procedures and administrative practice | `hr-mup-sis-rights-guidance`, `hr-mup-sis-access-form`, `hr-mup-sis-erasure-form`, `hr-mup-sis-correction-form`, `hr-mvep-vis-rights-guidance`, `hr-mvep-vis-rights-form`, `hr-azop-complaint`, `hr-ombudsman-complaints` | source references reviewed within scope; issue coverage incomplete |
 | Administrative/judicial remedies, oversight, or relevant practice | `hr-admin-disputes-act`, `hr-court-decisions` | partially_supported; accepted hr-admin-disputes-act; issue mapping and other layers open |
 
@@ -177,7 +177,7 @@ NN 142/25 is accepted only as the year-specific 2025 compensation regulation. Ar
 - Four original MUP form PDFs have empty text extraction. All pages have now been reviewed visually, and the byte-identical PDFs are accepted under `documents/forms/`; no revision dates are displayed.
 - Current MUP and MVEP index disagreement on Foreigners Act editions requires explicit dependency review.
 - Directive articles 2–40 have preliminary mapping rows, not validated transposition conclusions.
-- Forty-three local documents have passed source acceptance; thirty-seven official references are separately usable by link within scope. Acceptance establishes the identity and retained form of each source within its record; it does not resolve remedy/topic sufficiency. The Foreigners Act chain through NN 55/26 remains distinct from the EEA-family route. Current MVEP family-visa and appeal links are usable within their reviewed scopes; the family page is undated with an obsolete embedded Directive link, and appeal-fee compatibility remains open.
+- Forty-three local documents have passed source acceptance; forty-one official references are separately usable by link within scope. Acceptance establishes the identity and retained form of each source within its record; it does not resolve remedy/topic sufficiency. The Foreigners Act chain through NN 55/26 remains distinct from the EEA-family route. Current MVEP family-visa and appeal links are usable within their reviewed scopes; the family page is undated with an obsolete embedded Directive link, and appeal-fee compatibility remains open.
 
 
 ## Residence-card specimen and transition review
@@ -190,7 +190,7 @@ The live MUP forms index is recorded separately from MUP’s legal index. Its EE
 
 Twenty-five selector-bound legal-text fragments, their raw responses, and the acquisition manifests are preserved in the Monitor indexed local-only archive. The country pack has no candidate/capture directories or acquisition manifests. Nineteen accepted legal documents have no embedded image/file attachments. Six contain 160 image assets; the four NN 86/21 card-specimen images are visually reviewed and retained, while the other 156 images and current post-transition issuance remain open.
 
-The current MUP Propisi index verifies the EEA Act/regulation, Foreigners Act, third-country residence-rule, and third-country procedure-rule amendment chains through the listed current versions. A separate older MUP page omits NN 55/26 and NN 116/26 and is retained as a stale-copy conflict. These checks do not consolidate the amendments or establish national-topic completeness; see `currentness-review.json`.
+The current MUP Propisi index verifies the EEA Act/regulation, Foreigners Act, third-country residence-rule, third-country procedure-rule, and Croatian VIS regulation amendment chains through the listed versions. The MUP and MVEP indexes list NN 36/13 and 105/17 for the VIS rule. MVEP browser representations consistently list Visa System Decree NN 92/21, but its Foreigners Act cutoff differs across snapshots; MUP’s current index directly lists the chain through NN 55/26. A separate older MUP page omits NN 55/26 and NN 116/26 and is retained as a stale-copy conflict. These checks do not consolidate the amendments or establish national-topic completeness; see `currentness-review.json`.
 
 Copyright Act NN 111/21 Article 18(3) is applied narrowly to individually identified official legal texts and the one unchanged MVEP VIS administrative form; MUP’s Terms of Use cover the seven unchanged MUP forms with source attribution. `reuse-policy.json` excludes website shells, general guidance pages, third-party material and database-wide reuse. Raw responses remain only in the Monitor local-only archive.
 
