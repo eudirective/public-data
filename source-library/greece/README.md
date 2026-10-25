@@ -2,7 +2,7 @@
 
 **Review date:** 2026-10-25. **Country status:** incomplete.
 
-The 62-row source list has 30 official-reference reviews accepted for external-link use within their recorded scopes; 0 local copies are accepted. Of the 40 published converted files, 24 are represented by accepted link-only references and the other 16 have explicit dispositions (duplicate, discovery-only, historical, out of scope, terms uncertainty, or human review). Six additional accepted references (gr-50 and gr-57 through gr-61) are outside those 40 files. The gr-62 Legal Provisions Editor endpoint is a separate discovery-only lead; its public search and legal-text corpus were not verified. This bounded reconciliation does not establish topic coverage or country completion.
+The 65-row source list has 32 official-reference reviews accepted for external-link use within their recorded scopes; 0 local copies are accepted. Of the 40 published converted files, 24 are represented by accepted link-only references and the other 16 have explicit dispositions (duplicate, discovery-only, historical, out of scope, terms uncertainty, or human review). Eight additional accepted references (gr-50, gr-57 through gr-61, gr-63 and gr-64) are outside those 40 files. The gr-62 Legal Provisions Editor and gr-65 amendment bulletin are discovery-only leads; their searchable legal-text and operative amendment content were not verified. This bounded reconciliation does not establish topic coverage or country completion.
 
 ## Current records
 
@@ -21,3 +21,6 @@ No topic or country completion is claimed. The Gov.gr general family-residence E
 
 
 The bounded codification-portal search log is preserved locally in the Monitor archive at `discovery/eudirective-public-data/GR/consolidation/consolidation-portal-search-batch-2026-10-25.json` (SHA-256 `9a8f75da79b526e75fbac5fb3304592e441418d0a061c3f227a20c6b973c006f`). The official linked editor endpoint returned only a title through the available reader; no instrument text or portal-native search was verified.
+
+
+Two dated official Gazette decisions have been added for third-country family procedures: KYA 95391/2024 lists documents for selected PD 106/2007 family categories, and Decision 118654/2024 addresses electronic applications under PD 106/2007. Decision 118654 was amended in 2025; the amendment's text and the current end-to-end filing flow remain open. Research logs are local-only in the Monitor archive: `discovery/eudirective-public-data/GR/procedure/tcn-family-procedure-search-batch-2026-10-25.json` (SHA-256 `1c0a98d76bfc420ad05776c2b898f850e6122a8bf1027459c29fb5a986cf78c`).
