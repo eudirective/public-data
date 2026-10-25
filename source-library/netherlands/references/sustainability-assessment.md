@@ -4,7 +4,7 @@
 
 **Skill:** `assess-source-rule-sustainability` v0.2.0
 
-**State:** 60 official external references accepted within scope, 3 exact routes not relied upon, 9 local texts accepted (6 statutory and 3 IND guidance pages), 0 topics accepted as adequate; country review remains incomplete.
+**State:** 60 official external references accepted within scope, 3 exact routes not relied upon, 10 local texts accepted (6 statutory and 4 IND guidance pages), 0 topics accepted as adequate; country review remains incomplete.
 
 ## Ordinary use
 
@@ -16,11 +16,11 @@ IND and NetherlandsWorldwide provide the relevant residence, family, visa, form,
 
 The [source-acceptance register](source-acceptance.json) accepts 60 official links only for their listed page, instrument, publisher-policy, service, or discovery scope. It offers whole official websites for human review where direct page access, currency, a broken route, or operational details need inspection. Three exact routes are not relied upon: an obsolete visa checklist, a NetherlandsWorldwide route that returned 404, and a Rechtspraak help page that returned 403 in the research client. These responses do not establish publisher downtime.
 
-The focused raw captures and converted candidates remain in the Monitor local-only archive as provenance. Six statutory texts were accepted under `documents/legislation/`, and three IND guidance pages under `documents/guidance/`. The IND registration candidate was not promoted because its captured June text is older than the official page update shown on 8 October 2026. Duplicate candidates and the inventory manifest remain provenance only.
+The focused raw captures and converted candidates remain in the Monitor local-only archive as provenance. Six statutory texts were accepted under `documents/legislation/`, and four IND guidance pages under `documents/guidance/`. The archived nl-17 raw response and body show the 8 October 2026 update, matching the live page checked on 25 October. Its candidate header incorrectly annotated 17 June; this metadata discrepancy was corrected during review. Duplicate candidates and the inventory manifest remain provenance only.
 
 ## Optional retained copies
 
-Auteurswet Article 11 provides the reuse basis for the six copied public-authority legal texts. For three IND pages, the [IND Proclaimer](https://ind.nl/en/proclaimer) checked on 25 October 2026 permits website content reuse if the source is named and warns that site information can be incomplete or out of date. The three local files identify and link their IND source. The registration page’s older candidate was not promoted because the current page shows an 8 October update. Government.nl separately states that CC0 1.0 applies to most text on its own website unless an item says otherwise; that policy does not extend to IND or other publishers. Link acceptance alone never establishes permission to copy. Forms and images need separate review. Raw captures remain provenance in the Monitor archive; no recurring retrieval rule has been accepted.
+Auteurswet Article 11 provides the reuse basis for the six copied public-authority legal texts. For four IND pages, the [IND Proclaimer](https://ind.nl/en/proclaimer) checked on 25 October 2026 permits website content reuse if the source is named and warns that site information can be incomplete or out of date. The four local files identify and link their IND source. The registration-page copy covers the main HTML text only; its linked PDF forms are not copied. Government.nl separately states that CC0 1.0 applies to most text on its own website unless an item says otherwise; that policy does not extend to IND or other publishers. Link acceptance alone never establishes permission to copy. Forms and images need separate review. Raw captures remain provenance in the Monitor archive; no recurring retrieval rule has been accepted.
 
 ## Remaining sustainability and coverage work
 
