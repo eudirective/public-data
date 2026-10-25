@@ -66,6 +66,27 @@
         "Source acceptance is separate from topic coverage and country review completion.",
         "Raw response files were unavailable for offline replay in the current checkout; official HTML/PDF anchors were checked and the limitation is recorded."
       ]
+    },
+    {
+      "id": "li-09",
+      "class": "third_country_immigration_law",
+      "title": "Ausländergesetz (AuG), LR 152.20",
+      "publisher": "Liechtenstein Government Legal Services (Rechtsdienst der Regierung)",
+      "url": "https://www.gesetze.li/konso/2008311000",
+      "language": "de",
+      "version": "Lilex text-frame version 25; consolidation dated 12 June 2026; latest listed amendment LGBl 2026.143, effective 12 June 2026",
+      "scope": "Entry, residence, family reunification, integration, and related procedure for persons within AuG Art. 2, principally third-country nationals and family members of persons within that scope; EEA/Swiss routes remain distinct.",
+      "status": "accepted_official_reference_and_local_copy_with_limitations",
+      "checked_on": "2026-10-25",
+      "local_path": "source-library/liechtenstein/documents/legislation/li-auslaendergesetz-aug.md",
+      "local_copy_sha256": "fc85715f030fde4369d7fe754d7f69b1be31e335f4ae6803e7918d5a6e3edec0",
+      "source_text_sha256": "0f632e38118941479edadc275cc656757879a3bd0ce45892c2a141e66bdf2295",
+      "limitations": [
+        "Lilex consolidated laws are informational and have no legal effect; signed LGBl is authentic.",
+        "AuG Art. 2 sets personal-scope limits and excludes the PFZG free-movement route.",
+        "Source acceptance is separate from topic coverage and country review completion.",
+        "Current procedure, forms, and related legal dependencies require separate review."
+      ]
     }
   ]
 }

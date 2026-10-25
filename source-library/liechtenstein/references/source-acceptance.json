@@ -2,9 +2,9 @@
   "schema_version": "1.0.0",
   "jurisdiction": "LI",
   "as_of": "2026-10-25",
-  "accepted_source_count": 3,
-  "accepted_local_copy_count": 2,
-  "accepted_external_reference_count": 3,
+  "accepted_source_count": 4,
+  "accepted_local_copy_count": 3,
+  "accepted_external_reference_count": 4,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "policy": "A reviewed official source may be accepted within its publisher, identity, language, displayed version, scope, and stated limitations. The current Lilex consolidation is an informational working text, not the legally authentic publication. Local-copy acceptance is separate from topic coverage, legal equivalence, and country completion. Reuse acceptance here is limited to statutory text under URG Article 5; it does not cover site design, database-level or systematic reuse, or unrelated content.",
@@ -190,11 +190,88 @@
         "text_frame_archive_path": "captures/public-data/LI/liechtenstein/raw/li-08-e253393c6e1055fccb032c511d99afaa3a4e59406110bdeeace5365b559df023.html",
         "text_frame_sha256": "e253393c6e1055fccb032c511d99afaa3a4e59406110bdeeace5365b559df023"
       }
+    },
+    "li-09": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The official Lilex page identifies the Government Legal Services, Ausländergesetz title, LR 152.20, and LGBl 2008.311. The version-25 metadata page and official PDF were checked on 2026-10-25."
+        },
+        "current_legal_version": {
+          "status": "pass_with_limitations",
+          "review_date": "2026-10-25",
+          "evidence_url": "https://www.gesetze.li/konso/2008311000/meta?lgblid_von=&lrnr=&observe_date=&search_loc=&search_text=&version=25",
+          "evidence": "The official version-25 PDF states Fassung: 12.06.2026. The official chronology lists LGBl 2026.143, effective 12 June 2026, as the latest amendment; the metadata page also shows 2025.387 effective 1 January 2026 and 2025.037 effective 1 June 2025. Lilex consolidations are informational and have no legal effect; signed LGBl remains authentic."
+        },
+        "extraction_completeness": {
+          "status": "pass",
+          "evidence": "The archived publisher shell (12,138 bytes; SHA-256 19732e37a93cf943d70d9f44f94536f8ed652fee563d3ed2f2b0a62240767c1d) and text frame (271,117 bytes; SHA-256 9c47d4baf8d09b6051cd1b8980e2d8f83796485d33a19d8238b70d69deef2813) match the recorded capture hashes. Running the source-specific extractor with the captured version metadata reproduces the complete saved candidate exactly (SHA-256 49ccc7cb63ce7237a61504baefe001bfc58f9c17d74f4e692d102fb6328a744e); the document preserves its full official-text section (154291 bytes; SHA-256 0f632e38118941479edadc275cc656757879a3bd0ce45892c2a141e66bdf2295). The 100-page official PDF was compared at representative sections and the latest amendment footnotes."
+        },
+        "attachments_review": {
+          "status": "pass_with_limitations",
+          "evidence": "The official 100-page Lilex PDF is the corresponding consolidated text representation and includes amendment/transition material and footnotes. No separate annex to the law was identified in the reviewed official text. Page layout and legally authentic Gazette publication are not represented by this Markdown conversion."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "Article 2 limits the ordinary scope to persons who are neither EEA nor Swiss nationals and to family members of persons within that scope; it also excludes specified EEA/Swiss cross-border-service situations. The law governs third-country entry, residence, family reunification, integration, and related procedure. It is not the PFZG route and is not a legal-equivalence finding."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "official_statutory_text_only",
+          "basis_url": "https://www.gesetze.li/konso/html/1999160000",
+          "evidence": "The current official URG text, checked 2026-10-25, states at Art. 5(1)(a) that laws, regulations, treaties, and other official enactments are not protected by copyright, and at Art. 5(2) extends this to official or legally required collections and translations. This acceptance covers only the statutory text, not Lilex interface/design or systematic database reuse."
+        }
+      },
+      "semantic_review": {
+        "status": "passed",
+        "method": "offline_full_candidate_replay_and_live_official_pdf_anchor_comparison",
+        "review_date": "2026-10-25",
+        "scope": "Full captured official-text body and amendment notes; the version-25 official PDF was compared at the title/LR number, scope, entry, family-reunification, removal, remedies, and amendment footnotes.",
+        "source_response_sha256": "19732e37a93cf943d70d9f44f94536f8ed652fee563d3ed2f2b0a62240767c1d",
+        "text_response_sha256": "9c47d4baf8d09b6051cd1b8980e2d8f83796485d33a19d8238b70d69deef2813",
+        "candidate_conversion_sha256": "49ccc7cb63ce7237a61504baefe001bfc58f9c17d74f4e692d102fb6328a744e",
+        "source_text_sha256": "0f632e38118941479edadc275cc656757879a3bd0ce45892c2a141e66bdf2295",
+        "source_text_bytes": 154291,
+        "full_candidate_replay": "passed",
+        "limitations": [
+          "Lilex consolidated texts are informational and have no legal effect; the signed State Law Gazette is legally authentic.",
+          "The current-text HTML URL could not be opened through the web viewer; the official metadata page, archived raw HTML frame, and 100-page official PDF were used for version and semantic review.",
+          "The source is bounded to the law text and does not establish current practice, procedural forms, topic coverage, or country completion.",
+          "AuG and PFZG apply to separate personal-scope routes; related ZAV, Schengen, asylum, EEA-incorporation and administrative-procedure dependencies remain to be mapped."
+        ]
+      },
+      "capture_evidence": {
+        "retrieval_manifest_path": "captures/public-data/LI/liechtenstein/li-09/retrieval-manifest.json",
+        "publisher_shell_archive_path": "captures/public-data/LI/liechtenstein/li-09/raw/li-09-19732e37a93cf943d70d9f44f94536f8ed652fee563d3ed2f2b0a62240767c1d.html",
+        "publisher_shell_sha256": "19732e37a93cf943d70d9f44f94536f8ed652fee563d3ed2f2b0a62240767c1d",
+        "text_frame_archive_path": "captures/public-data/LI/liechtenstein/li-09/raw/li-09-9c47d4baf8d09b6051cd1b8980e2d8f83796485d33a19d8238b70d69deef2813.html",
+        "text_frame_sha256": "9c47d4baf8d09b6051cd1b8980e2d8f83796485d33a19d8238b70d69deef2813"
+      },
+      "accepted_on": "2026-10-25",
+      "document_path": "source-library/liechtenstein/documents/legislation/li-auslaendergesetz-aug.md",
+      "local_file_sha256": "fc85715f030fde4369d7fe754d7f69b1be31e335f4ae6803e7918d5a6e3edec0",
+      "source_response_sha256": "19732e37a93cf943d70d9f44f94536f8ed652fee563d3ed2f2b0a62240767c1d",
+      "text_response_sha256": "9c47d4baf8d09b6051cd1b8980e2d8f83796485d33a19d8238b70d69deef2813",
+      "source_text_sha256": "0f632e38118941479edadc275cc656757879a3bd0ce45892c2a141e66bdf2295",
+      "candidate_conversion_sha256": "49ccc7cb63ce7237a61504baefe001bfc58f9c17d74f4e692d102fb6328a744e",
+      "archived_candidate_path": "candidates/public-data/LI/liechtenstein/candidates/li-09.md",
+      "archived_candidate_sha256": "49ccc7cb63ce7237a61504baefe001bfc58f9c17d74f4e692d102fb6328a744e",
+      "local_copy_accepted": true,
+      "accepted_external_reference": true,
+      "accepted_topics": [],
+      "limitations": [
+        "Lilex consolidated texts are informational and have no legal effect; the signed State Law Gazette is legally authentic.",
+        "The version observed on 2026-10-25 is dated 12 June 2026 and includes LGBl 2026.143; this does not claim applicability after the review date.",
+        "AuG is limited by Art. 2 and remains distinct from the EEA/Swiss PFZG route; dependencies on ZAV, Schengen, asylum, EEA incorporation, and LVG require mapping.",
+        "Direct access to the versioned HTML frame through the web viewer failed; the archived frame replayed exactly and the official PDF and version chronology were reviewed.",
+        "This source acceptance does not establish topic coverage or country completion."
+      ]
     }
   },
   "candidate_inventory_count": 40,
   "dispositioned_candidate_count": 1,
-  "open_candidate_count": 36,
+  "open_candidate_count": 35,
   "dispositions": {
     "li-03": {
       "status": "already_represented_duplicate",
