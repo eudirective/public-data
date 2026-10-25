@@ -174,8 +174,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-06-utlendingsloven-lov-2008-05-15-35.md",
-        "sha256": "b919363309e69485e8aba6b45f6a1c5cfff18adb0d64d963e01f4347e36b04c9",
-        "bytes": 2013,
+        "sha256": "0c37b8bbcd2f0a8c9ba23f61f5e76ac8a6d1db0835aab309ded23eb894982fe6",
+        "bytes": 1923,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -205,8 +205,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-07-utlendingsforskriften-for-2009-10-15-1286.md",
-        "sha256": "40d5305587a2397cbef79cbca4d5dd671f6a4bc2fbf2bf0ede9c1a4c375a8eb8",
-        "bytes": 1921,
+        "sha256": "1af856251f4ef580b516760900fb8c6036755319dfe003faf406f0baaeeed926",
+        "bytes": 1831,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -236,8 +236,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-08-e-s-loven-lov-1992-11-27-109.md",
-        "sha256": "ffe23e17031eb164963e31ee6bf828cf4f71004fca08b184fd6c308577b2658c",
-        "bytes": 1930,
+        "sha256": "5538d593a20a2905abb95d44dddc9368d99e02e4fbd7b56e910b06f3c72668c0",
+        "bytes": 1840,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -267,8 +267,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-09-eea-legal-texts-and-updated-annexes.md",
-        "sha256": "ae960da26fb71e675362dd089cfab2670d542c51e94efcf119ad99756a9b8e03",
-        "bytes": 1880,
+        "sha256": "23b4d7255be625e723bd0d323adf7a3c5f1f695c35d955ddc874495224d51ad0",
+        "bytes": 1790,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -304,8 +304,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-10-efta-convention-including-annex-k-movement-of-persons.md",
-        "sha256": "15b96c729b6246bbbfa43fb525ff4200292b0ac125e3e393231f8241259ffb40",
-        "bytes": 2103,
+        "sha256": "0911acd5e496f8b1cd96ce192ccb494bba2bcad860212d3d78ab7d039e74ed53",
+        "bytes": 2013,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -341,8 +341,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-11-udi-2010-025-family-immigration-with-an-eea-citizen.md",
-        "sha256": "f17d7930da181c7026e2d4df6711696f8903d962b0d83bd945d53c20614e44fe",
-        "bytes": 2183,
+        "sha256": "ad9e8bce5ab7cc0bbd61817dda6267f1b62c3e3d475518a884f7ba80acf7564b",
+        "bytes": 2085,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -368,8 +368,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-12-repealed-e-s-arbeidstakerloven-lov-1992-11-27-112.md",
-        "sha256": "7bdf0421ce37ff9f9e1c80dc506ad82c8a66428ef4f7717beb7e675167e35b7c",
-        "bytes": 1514,
+        "sha256": "d2d824a37d9c4fc6d573c7925a785b31ede1ed8c49d8bd5483fc011f7a010f84",
+        "bytes": 1424,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -399,8 +399,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-13-forvaltningsloven-lov-1967-02-10.md",
-        "sha256": "adcf13c394275a9b5fc44823591f100ea4a3bf634215511999d3effd72b1f54d",
-        "bytes": 1753,
+        "sha256": "88991bf6defafa155a6db2ed5bcf8dd75e2325538c515064acdb5897a543169a",
+        "bytes": 1663,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -430,8 +430,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-14-offentleglova-lov-2006-05-19-16.md",
-        "sha256": "2fcdc849a2e9ed8b44e6be3b322190b88a504f6f7af319e9ba6e250e3ddc1516",
-        "bytes": 1829,
+        "sha256": "f2a8bc89beb5b8834f8369aede4c18232c8c18e2019371de3a9668177f8810f5",
+        "bytes": 1739,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -461,8 +461,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-15-offentlegforskrifta-for-2008-10-17-1119.md",
-        "sha256": "b0761702135584229c9b3fb17dc0800e41848a16f9ae42bc5b0b3d5b85eed5e4",
-        "bytes": 1781,
+        "sha256": "5c727d42c9b98e8387b07ffae0a21e18c3e27d1e0f0aced58074a6d968a91355",
+        "bytes": 1691,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -492,8 +492,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-16-personopplysningsloven-lov-2018-06-15-38.md",
-        "sha256": "f1dafcb0ab0b75a92aa84f12ac335b4d2e5ba45c2b7870b40c098e17d7f5c470",
-        "bytes": 1888,
+        "sha256": "1e16817ab815b27c6ecbf0d0d331ea4234bb35917db3214930794b0f4acf11ed",
+        "bytes": 1798,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -523,8 +523,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-17-dataforvaltningsloven-lov-2026-06-19-36.md",
-        "sha256": "216ffdeb4e5c89c30b7974bce980edbc64f6dd7b07eedd4a1cbcd09d67532498",
-        "bytes": 1648,
+        "sha256": "ecc4bb14c58132fde26d01df0b5785e4ca51912864c04f9553a37a08be55aa2b",
+        "bytes": 1558,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -554,8 +554,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-18-immigration-act-english-translation.md",
-        "sha256": "1ad31d1af876b0559db6c5f2b28c06c123b2796ddcab028075fd4544e7a07149",
-        "bytes": 1795,
+        "sha256": "5fa6a47dcbb122d651fe0fe7fa82761e42ec5d3321d7ea3c09d4947d96c94a11",
+        "bytes": 1697,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -581,8 +581,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-19-udi-regelverk-portal.md",
-        "sha256": "3331f1d0315a2097b81846bf7051f27b22f66b0f2fa0f609c6b6e28a6ee3f68f",
-        "bytes": 1707,
+        "sha256": "af50fb9b0210cc473c4c77760466d238ea4bdef2caf7e6cce302986b76c83542",
+        "bytes": 1609,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -608,8 +608,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-20-udi-eea-eu-residence-guidance-hub.md",
-        "sha256": "dd9e87faf1c93f4e2772717afcf1a1bf7ef6e77527db80f71d0bac93acb391fd",
-        "bytes": 1874,
+        "sha256": "6fb9f51569cb417638ff51551ff4677d8ce6ef8162c83a5b938678384f386a3e",
+        "bytes": 1776,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -635,8 +635,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-21-udi-eea-regulations-frequently-asked-questions.md",
-        "sha256": "20d9aef536567a943d15162185e2d2865e77dc5e7fbec4c992be6c4388db87f0",
-        "bytes": 1923,
+        "sha256": "29a54301802a1b9914a850a25b5f4496255c82d0834057ca73dbd68c5f07cc57",
+        "bytes": 1825,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -662,8 +662,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-22-udi-residence-card-for-family-members-of-eu-eea-nationals.md",
-        "sha256": "29a38ec73efb99b2f2b258f1088f3e5d6384b3d7c852567442206589d6cd9f85",
-        "bytes": 2065,
+        "sha256": "9bc11297861dbe7374493ba1d98e6ba67736798bf4a75a545bb5dc1931485dea",
+        "bytes": 1967,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -689,8 +689,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-23-udi-family-member-of-a-returning-norwegian-under-eea-rules.md",
-        "sha256": "dbbe02b5ab5c8b47be6faa618b12fd80121f2864ac54755e36310952c7119f5b",
-        "bytes": 1911,
+        "sha256": "2508a4f6466779e5f7b6aa1c2a5f269f46f91d98b6c503a8624283c3a5f7398d",
+        "bytes": 1813,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -716,8 +716,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-24-udi-permanent-right-of-residence-for-eu-eea-nationals.md",
-        "sha256": "91b09664822ebefe0d88fe97d329780e430fea9f2df23f78733636a5a0277131",
-        "bytes": 2010,
+        "sha256": "23d92d82c866369bb85d08ee32ac253a1ddab399f61d59954a42fefa00d7d90f",
+        "bytes": 1912,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -743,8 +743,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-25-udi-family-immigration-hub.md",
-        "sha256": "0272377cc8f35ed13d1187b71673e5a7d76c9dde1d457d6bf77bd698f89009cf",
-        "bytes": 1740,
+        "sha256": "01d72cdaca53348488c36806a131b8d1ee6367f2a3a46d56e2f1f7a913f88963",
+        "bytes": 1642,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -770,8 +770,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-26-udi-difference-between-family-immigration-permit-and-residence-ca.md",
-        "sha256": "57f5fbc39c17986cdaeda2b7f8f465e833a30a9c4d41c0534435c604fa7ca92e",
-        "bytes": 1874,
+        "sha256": "494053bbaf050a616c0f51b96433e55815b2744b70d8d8834660154e65633f9e",
+        "bytes": 1776,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -797,8 +797,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-27-udi-swiss-person-eu-eea-route-selector.md",
-        "sha256": "4d4036e27c84331683be30c5b04e6ec625e92b5058e1610520c8d16783543211",
-        "bytes": 1895,
+        "sha256": "720b655b21778ea6ef25f327a5ca9292be09c942d3e11952285019ae8a3745b7",
+        "bytes": 1797,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -824,8 +824,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-28-udi-visitor-visa-including-travel-with-or-visit-to-an-eu-eea-fami.md",
-        "sha256": "bf5d09c72d10e06f87ebc941f2f5cc09ba2ab4fa0c4313ac2599e6a18fdd7a6e",
-        "bytes": 1831,
+        "sha256": "7bd309d1c5b5df6b661e65c4f4c7f88a060ac5778e255e315ff58bfb217d126f",
+        "bytes": 1733,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -851,8 +851,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-29-udi-application-checklists.md",
-        "sha256": "31370e4b29290c6bf20779a6fa9867773d5bfcc54141df6b59a157d6a306907e",
-        "bytes": 1645,
+        "sha256": "21d4d964f9cf4003a2c7762c4342c028552aaceb282444413dcbbe85ad417678",
+        "bytes": 1547,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -878,8 +878,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-31-udi-self-service-application-workflow.md",
-        "sha256": "589cb9a0c890e2907df0b2def295e8cced7a682a698e7607c30417f61ed3dfa8",
-        "bytes": 1723,
+        "sha256": "d7c3acb30b0b3720c20756b8fcc28859688fd9b2481fd49dd03ebf500fa07117",
+        "bytes": 1625,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -905,8 +905,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-32-police-residence-card-information.md",
-        "sha256": "884a24308adb1888c7af2f0a3a7971fa184cf19b76887607900b7994eb8407e3",
-        "bytes": 1788,
+        "sha256": "3403099b699e3cc0d1ef0c4d030580bf1f56cfbd155a12b7cd2bf4067a0e0ce8",
+        "bytes": 1698,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -942,8 +942,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-33-udi-eea-brexit-waiting-times.md",
-        "sha256": "f1b7a7887334b926850f1547cb6d1a4c3cbf1f8a672f55f5bfd1fc49106603ee",
-        "bytes": 1623,
+        "sha256": "98098e033e25ddb9178720f500063ba2f38e73e1616efcd78dd6bbf773a3f579",
+        "bytes": 1525,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -969,8 +969,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-34-udi-appeal-guidance-klage-pa-vedtak.md",
-        "sha256": "9d0005e1d8513f2482d11ea44618cba027e4e6cd19e1c66b99884c3fef91349c",
-        "bytes": 1801,
+        "sha256": "c825c02e44871573d836e532a8e0b233f8a0958c140d2d6bb01b291b8f3db83a",
+        "bytes": 1703,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -996,8 +996,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-35-udi-access-to-documents-in-an-individual-case.md",
-        "sha256": "ec482e57ce548d8095ad630cf7516b0daf835ffd2dcd8fd505fdce16a445482f",
-        "bytes": 1695,
+        "sha256": "45cd3236d819724d6983994f037d49423e11041e417e5cd95fe1335d54aecea5",
+        "bytes": 1597,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -1023,8 +1023,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-36-udi-request-for-access-to-personal-data.md",
-        "sha256": "01b00ab767686a6ffdfa92e27520c3020aef52954d1d352abcc960f233ec7d88",
-        "bytes": 1739,
+        "sha256": "25e6487275ccaa107a97f4cbb92834fb90df257fa33ab033bba6d78ac83ad554",
+        "bytes": 1641,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -1050,8 +1050,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-37-udi-privacy-declaration.md",
-        "sha256": "29613377eb67b75c2f40c29f4e0fae636ac7210f5fe28d47d453ffb490f28d58",
-        "bytes": 1590,
+        "sha256": "7a58efaf785ad11f8a3ccf24571eb6dcb7fb0c3e47fa4f742159d7d81dd46500",
+        "bytes": 1492,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -1077,8 +1077,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-38-une-eea-cases.md",
-        "sha256": "d3aa71ba16550acf537aa73fac3a4decc1fe7d96ecc2e4ac1f780a32a4e6182c",
-        "bytes": 1869,
+        "sha256": "ea2bd57083e04b07822afbaf932ec14a690964d624cab79195b0439e744886fe",
+        "bytes": 1779,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -1108,8 +1108,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-39-une-practice-base-and-source-collection.md",
-        "sha256": "b856a85e15b634e4d5344abd41efa4e0671bd36a0c751558be0431a23cebe90b",
-        "bytes": 1884,
+        "sha256": "b7a3d20f3dc652bd5c1fbfbc339385c31189604c283f06bd2633271c7c325615",
+        "bytes": 1794,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -1139,8 +1139,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-40-une-grand-board-decisions.md",
-        "sha256": "75bb2df1b7561f60b2aaf4819bc337099a179290330fae07254094e151b3f804",
-        "bytes": 1702,
+        "sha256": "b2bbdc54b3524dfe82ef86011fd98b8ed6f297e2f042a47c7733e9aa28ccedac",
+        "bytes": 1612,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -1170,8 +1170,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-41-une-processing-times.md",
-        "sha256": "b069091011e8029165105fab41db49e2b203c45af19721d4b6cb79058f867e7d",
-        "bytes": 1596,
+        "sha256": "0b5fd0c39a0ae848c1a43259250421d515b1902757949496687a7f17a6e1c4f7",
+        "bytes": 1506,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -1201,8 +1201,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-42-sivilombudet-immigration-statements-archive.md",
-        "sha256": "c6c2a7a28a03c2cf83f79cb1172507508e18aad719d68c84e51f95563e95d7e5",
-        "bytes": 1886,
+        "sha256": "b1769f0d47fd57f2d6bc9083e65d1e2f0870cedc6a5726192194b8b3d00485dc",
+        "bytes": 1796,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -1232,8 +1232,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-43-sivilombudet-complaint-route.md",
-        "sha256": "471594ed57b7f1ddd55197cb0841719e13a8f5eb8791e843d2c7cbe2d7710bcb",
-        "bytes": 1809,
+        "sha256": "aee87ef5b3f3c34ac4fabaa3ead66611af3c207cb9cfb6e019b394b5c656313a",
+        "bytes": 1719,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -1263,8 +1263,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-44-supreme-court-family-immigration-ruling-hr-2022-2329-a.md",
-        "sha256": "d7e66218eccced7eb6fcbaab597157f244e4d1472da6607785014cb5368f35ec",
-        "bytes": 1837,
+        "sha256": "ef5f7bdb7552a59cb676be87d3729eee940d63ac0c6c3dba8649ad363d52f303",
+        "bytes": 1747,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -1294,8 +1294,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-45-supreme-court-rulings-index.md",
-        "sha256": "5d9e7fdf73c56e9af081b8c9d972b79d32730aaf66109d6c27bc1c1b32c91a38",
-        "bytes": 1775,
+        "sha256": "96040a5d2b949f5ade6f5c946a3a1bde4527431f7c73f49efc2eba5aed64c23b",
+        "bytes": 1685,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -1325,8 +1325,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-46-udi-public-journal-in-einnsyn.md",
-        "sha256": "fd99f84da8a0fb61747aa2fc0a034cdf78fa20e88c2692cb3eec6a12242ecbae",
-        "bytes": 1684,
+        "sha256": "f6ad75488f6c6a08fd2011492269664efe934d5c85f54e73fe1d00d64582d12a",
+        "bytes": 1586,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -1352,8 +1352,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-47-einnsyn-public-journal-service.md",
-        "sha256": "e2a98370c82df6b716b12c8d0d69655200b26915a30406f020103eb8eb4ceedb",
-        "bytes": 1709,
+        "sha256": "1619e6d073ae356fb9e132d115c3b9ef95617dc3981f433a326f0d267c39dccc",
+        "bytes": 1611,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
@@ -1379,8 +1379,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-48-legal-aid-act-lov-1980-06-13-35.md",
-        "sha256": "ec0bd5ccff4ebe92913f3a9625355f4bc28b3a5269a2985d4c155c660f1e34c3",
-        "bytes": 1963,
+        "sha256": "79950fd79beee28e8fe911d49dd5b873dd4748fddc95cafe74f98980e15a71d1",
+        "bytes": 1873,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -1410,8 +1410,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-49-county-governor-legal-aid-guidance-current-vestfold-and-telemark-.md",
-        "sha256": "5b17c1d89ff83b96a7eb9d8615f833e51153b0f459e7a8d4f17a76fb688ab7a5",
-        "bytes": 1846,
+        "sha256": "a75b12c2c299614292126491eac1d3a6a4d3d6cf31478c8cc23f31120ed221da",
+        "bytes": 1756,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -1441,8 +1441,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-50-county-governor-apostille-service-current-vestfold-and-telemark-p.md",
-        "sha256": "80d924df1204fe647c833921dbdd84e580ef1d8715e0e681207e4e077832c383",
-        "bytes": 1756,
+        "sha256": "bd68910d6aa46eaadbb76caf26069e87109bfb27f6c0d3b95e445eca9605642c",
+        "bytes": 1666,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -1472,8 +1472,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-51-norway-no-residence-permit-and-foreign-service-routing.md",
-        "sha256": "3717c1a815440fd4567b8dbca6cb1ec0f967d9f088f09b5da6b6b3b45398f0db",
-        "bytes": 1950,
+        "sha256": "0429a665dfdf0f4919b04293b295ee995eb12df702c9898ba2a5fb98369395b2",
+        "bytes": 1860,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -1503,8 +1503,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-52-norwegian-data-protection-authority.md",
-        "sha256": "a0eec099bc10a75b6bd4f11e8f351e09240997ed36ddb005573d54d2673c0a33",
-        "bytes": 1837,
+        "sha256": "15120cd2f02a45458457bc85528d93ec6a377366fb9b84126d95684ece565c98",
+        "bytes": 1747,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -1534,8 +1534,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-53-new-public-administration-act-lov-2025-06-20-81.md",
-        "sha256": "9ee343141e9350424303a6e985e683c72a8b955ad9cd03c5a573dc5a09926693",
-        "bytes": 1722,
+        "sha256": "b09cd9eeca8484c7e08fc2c287be468503e18ddbd10aad11538feae77a53b151",
+        "bytes": 1632,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -1565,8 +1565,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-54-current-e-s-worker-mobility-act-lov-2012-12-14-81.md",
-        "sha256": "2a5789c7f4105d110c6c6a7b52f91694ab0e9de14f48769a062b3700b06f89f6",
-        "bytes": 1709,
+        "sha256": "9c8ea9c2cc295f40228d08510ef3e8040fdc263d3ca86831a25785efefbed0ad",
+        "bytes": 1619,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       },
@@ -1589,8 +1589,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-30-udi-eu-eea-family-visa-checklist-pdf.md",
-        "sha256": "d2329bb0b5b2b20bbe273b5e481879cb359f41250177c1744b5425281b19d04d",
-        "bytes": 1934,
+        "sha256": "550be5d5fcf8b7094c3f6d452819670513feabe46daa8dd099e81f932c4dfaa2",
+        "bytes": 1798,
         "kind": "disposition_note",
         "reproduces_source_text": false
       }
@@ -1609,8 +1609,8 @@
       "local_copy_accepted": false,
       "source_document": {
         "path": "documents/references/no-05-norsk-lovtidend-avdeling-ii-and-local-regional-regulations.md",
-        "sha256": "d19cd249860dca6d2a21609e662ffc99123fe8029d23b51714e428d28ec84a19",
-        "bytes": 1886,
+        "sha256": "fdbba77bd3db9c0cc515e2afa7240d209ce47cb0b83bf448f451542b19643f80",
+        "bytes": 1767,
         "kind": "disposition_note",
         "reproduces_source_text": false
       }
