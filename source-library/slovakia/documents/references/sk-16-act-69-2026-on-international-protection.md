@@ -20,7 +20,7 @@
 
 - Binding PDF: https://static.slov-lex.sk/pdf/SK/ZZ/2026/69/ZZ_2026_69_20260612.pdf
 - Version history: https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2026/69/
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-16.md` (SHA-256 f6554b40d245092eed26a371310ebf779bd8caa4f04a8554c23e482b2b1f243e).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-16.md` (SHA-256 f6554b40d245092eed26a371310ebf779bd8caa4f04a8554c23e482b2b1f243e).
 Captured source bytes preserved in the Monitor local-only archive at `captures/slovakia_temp_snapshot_import_20261025/Slovakia/temp/slovakia/pdf/sk-16-279fffe00e3e7274b83c6a28f5f3732db39fd5ba5a342b71e30f30ada18c9e18.pdf` (SHA-256 279fffe00e3e7274b83c6a28f5f3732db39fd5ba5a342b71e30f30ada18c9e18).
 
 ## Limits and disposition

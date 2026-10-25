@@ -17,7 +17,7 @@
 **Version or date evidence:** Official notice dated 15 May 2026 says Bratislava Foreign Police moved to Račianska 62 effective 18 May and booking categories changed.
 
 **Prior source-search note:** Bratislava Foreign Police relocation notice — local office-change notice; related source
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-40.md` (SHA-256 0d2317a77e2f148507d18d7aca90d00a833798c506cdd8284545438ab40da66c).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-40.md` (SHA-256 0d2317a77e2f148507d18d7aca90d00a833798c506cdd8284545438ab40da66c).
 
 ## Limits and disposition
 

@@ -17,7 +17,7 @@
 **Version or date evidence:** Official Ministry result identifies a July 2024 edition of the EU-citizen registration FAQ. A March 2025 edition on the same topic is separately accepted.
 
 **Prior source-search note:** Ministry of Interior EU-citizen registration FAQ, July 2024 — older FAQ edition; related source
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-22.md` (SHA-256 d25c3862c3e55f8f045371d4081a376e7d96850a75772740f4175c826766d81a).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-22.md` (SHA-256 d25c3862c3e55f8f045371d4081a376e7d96850a75772740f4175c826766d81a).
 Captured source bytes preserved in the Monitor local-only archive at `captures/slovakia_temp_snapshot_import_20261025/Slovakia/temp/slovakia/pdf/sk-22-b760e62bc297e83fe0f13de68c3a30e6e56745b6d102cbd28762e35d19944940.pdf` (SHA-256 b760e62bc297e83fe0f13de68c3a30e6e56745b6d102cbd28762e35d19944940).
 
 ## Limits and disposition

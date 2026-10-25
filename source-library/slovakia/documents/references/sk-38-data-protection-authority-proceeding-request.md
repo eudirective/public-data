@@ -17,7 +17,7 @@
 **Version or date evidence:** Official page describes submitting a request to start data-protection proceedings and links the relevant form/channel.
 
 **Prior source-search note:** Data Protection Authority proceeding request — data-rights remedy; related source
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-38.md` (SHA-256 afd1a842c45195d10ec1c131bf4cdf9884288482e1e0d4181174e0525464ea7f).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-38.md` (SHA-256 afd1a842c45195d10ec1c131bf4cdf9884288482e1e0d4181174e0525464ea7f).
 
 ## Limits and disposition
 

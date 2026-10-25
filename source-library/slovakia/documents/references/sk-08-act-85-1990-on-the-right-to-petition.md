@@ -20,7 +20,7 @@
 
 - Binding PDF: https://static.slov-lex.sk/pdf/SK/ZZ/1990/85/ZZ_1990_85_20230501.pdf
 - Version history: https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1990/85/
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-08.md` (SHA-256 7cddca2248c0b691d0f11421193e9a2162c1e13e6eb69136dbbeff07210af883).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-08.md` (SHA-256 7cddca2248c0b691d0f11421193e9a2162c1e13e6eb69136dbbeff07210af883).
 Captured source bytes preserved in the Monitor local-only archive at `captures/slovakia_temp_snapshot_import_20261025/Slovakia/temp/slovakia/pdf/sk-08-04175828f92384cef334a44fc83750d40d8790050325a19000d6bf164e8123ed.pdf` (SHA-256 04175828f92384cef334a44fc83750d40d8790050325a19000d6bf164e8123ed).
 
 ## Limits and disposition

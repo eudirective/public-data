@@ -17,7 +17,7 @@
 **Version or date evidence:** Official decision-search surface was active and under testing. Its 1 April 2026 notice reports more than 7,000 decisions in the new system.
 
 **Prior source-search note:** Supreme Administrative Court decision search — administrative case-law discovery; related source
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-32.md` (SHA-256 dee027f336735b1107bbb219d56194aa59cbd900848847ccabb0efdc4302a28e).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-32.md` (SHA-256 dee027f336735b1107bbb219d56194aa59cbd900848847ccabb0efdc4302a28e).
 
 ## Limits and disposition
 

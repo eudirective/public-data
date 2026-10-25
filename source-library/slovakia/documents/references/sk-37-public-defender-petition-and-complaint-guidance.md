@@ -17,7 +17,7 @@
 **Version or date evidence:** Official guidance distinguishes petitions, complaints, and Ombudsman submissions.
 
 **Prior source-search note:** Public Defender petition and complaint guidance — petition/complaint channel; related source
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-37.md` (SHA-256 df8c5d3d4ed245f690be2ff91473bef9f3ff0242805a03d6ff393a171eced2dc).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-37.md` (SHA-256 df8c5d3d4ed245f690be2ff91473bef9f3ff0242805a03d6ff393a171eced2dc).
 
 ## Limits and disposition
 

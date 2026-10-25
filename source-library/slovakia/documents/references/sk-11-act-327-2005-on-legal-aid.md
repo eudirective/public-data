@@ -20,7 +20,7 @@
 
 - Binding PDF: https://static.slov-lex.sk/pdf/SK/ZZ/2005/327/ZZ_2005_327_20260612.pdf
 - Version history: https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2005/327/
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-11.md` (SHA-256 4b1803b7e4c0e0df89f7529195cad95d6c80cbc88d5d66e29c45fb8d466496e1).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-11.md` (SHA-256 4b1803b7e4c0e0df89f7529195cad95d6c80cbc88d5d66e29c45fb8d466496e1).
 Captured source bytes preserved in the Monitor local-only archive at `captures/slovakia_temp_snapshot_import_20261025/Slovakia/temp/slovakia/pdf/sk-11-96c6be89bb2d3e38f59fa373fb0895a15c14d5e204cc4a837fbf38b4ec8ce31c.pdf` (SHA-256 96c6be89bb2d3e38f59fa373fb0895a15c14d5e204cc4a837fbf38b4ec8ce31c).
 
 ## Limits and disposition

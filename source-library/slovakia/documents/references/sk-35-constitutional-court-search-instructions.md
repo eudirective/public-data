@@ -17,7 +17,7 @@
 **Version or date evidence:** Official search instructions state that the subject/keyword index supports decisions from 2015 onward.
 
 **Prior source-search note:** Constitutional Court search instructions — constitutional case-law discovery; related source
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-35.md` (SHA-256 97269cd5fe21943d643f1fdb356a7e4973bd87c19c65bad22bf7939b3ea039f3).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-35.md` (SHA-256 97269cd5fe21943d643f1fdb356a7e4973bd87c19c65bad22bf7939b3ea039f3).
 
 ## Limits and disposition
 

@@ -17,7 +17,7 @@
 **Version or date evidence:** Official page describes free legal assistance and opinions in equality/discrimination matters.
 
 **Prior source-search note:** Slovak National Centre for Human Rights legal services — equality assistance and opinions; related source
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-39.md` (SHA-256 1f3d366ec5aabbcf392a9788c35eb4227013b2253e762d83f2906d819827fca2).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-39.md` (SHA-256 1f3d366ec5aabbcf392a9788c35eb4227013b2253e762d83f2906d819827fca2).
 
 ## Limits and disposition
 

@@ -17,7 +17,7 @@
 **Version or date evidence:** The ministry reuse page sets conditions for copies of individual Collection of Laws issues in .vp format, including an approved request and credentials.
 
 **Prior source-search note:** Ministry of Justice reuse conditions — legal-text reuse; related source
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-18.md` (SHA-256 07f0fd5752bfa79e9fa234da553f8c144a9c8ef95b9d072e100fca3f8c16169a).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-18.md` (SHA-256 07f0fd5752bfa79e9fa234da553f8c144a9c8ef95b9d072e100fca3f8c16169a).
 
 ## Limits and disposition
 

@@ -19,7 +19,7 @@
 **Prior source-search note:** Ministry of Interior EU-citizen registration FAQ, March 2025 — operational guidance; partial functional match
 
 - Parent/rediscovery route: https://www.minv.sk/
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-21.md` (SHA-256 c7700858cff5111fb416538a54117c0e075f4ae174fc91a5ceadf3fe65c123aa).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-21.md` (SHA-256 c7700858cff5111fb416538a54117c0e075f4ae174fc91a5ceadf3fe65c123aa).
 Captured source bytes preserved in the Monitor local-only archive at `captures/slovakia_temp_snapshot_import_20261025/Slovakia/temp/slovakia/pdf/sk-21-492588fdc065fa5edd11fee51d0095444d89a37e6d4f65678246db3b2c84e060.pdf` (SHA-256 492588fdc065fa5edd11fee51d0095444d89a37e6d4f65678246db3b2c84e060).
 
 ## Limits and disposition

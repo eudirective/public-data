@@ -17,7 +17,7 @@
 **Version or date evidence:** Official search route was returned in the court's results and identifies an interface with a 10,000-result limit. Direct page opening returned an intermittent 502 during this review.
 
 **Prior source-search note:** Supreme Court decision search — national case-law discovery; related source
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-34.md` (SHA-256 90359d8c24b18b7de43099b2e1853afcce3db24cdd0c89e7ce0a09755106acd1).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-34.md` (SHA-256 90359d8c24b18b7de43099b2e1853afcce3db24cdd0c89e7ce0a09755106acd1).
 
 ## Limits and disposition
 

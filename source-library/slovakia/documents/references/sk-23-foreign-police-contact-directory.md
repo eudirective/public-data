@@ -17,7 +17,7 @@
 **Version or date evidence:** The official Foreign Police contact route redirected to the Ministry portal homepage in this client; contents could not be directly verified. A separate May 2026 notice records a Bratislava office move.
 
 **Prior source-search note:** Foreign Police contact directory — local competent offices; related source
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-23.md` (SHA-256 be3703ae19367cb829ea3176c7ff8d8249fe33dd23d816c83a4572a131b8c309).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-23.md` (SHA-256 be3703ae19367cb829ea3176c7ff8d8249fe33dd23d816c83a4572a131b8c309).
 
 ## Limits and disposition
 

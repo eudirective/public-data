@@ -20,7 +20,7 @@
 
 - Binding PDF: https://static.slov-lex.sk/pdf/SK/ZZ/2004/365/ZZ_2004_365_20250701.pdf
 - Version history: https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2004/365/
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-12.md` (SHA-256 ecfea2db7722a6bfdbfa1267db58576df0a296d4a8db4c7baa2e59ea5094024c).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-12.md` (SHA-256 ecfea2db7722a6bfdbfa1267db58576df0a296d4a8db4c7baa2e59ea5094024c).
 Captured source bytes preserved in the Monitor local-only archive at `captures/slovakia_temp_snapshot_import_20261025/Slovakia/temp/slovakia/pdf/sk-12-5c5bf7c7f0859ba5ef66d8bf73fe8f6eb858aecd1a7b4c16091cdc0c2eec314c.pdf` (SHA-256 5c5bf7c7f0859ba5ef66d8bf73fe8f6eb858aecd1a7b4c16091cdc0c2eec314c).
 
 ## Limits and disposition

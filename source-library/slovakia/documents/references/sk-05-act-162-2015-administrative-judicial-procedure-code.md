@@ -20,7 +20,7 @@
 
 - Binding PDF: https://static.slov-lex.sk/pdf/SK/ZZ/2015/162/ZZ_2015_162_20260612.pdf
 - Version history: https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2015/162/
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-05.md` (SHA-256 8e1da23633feccdbadff318beff588d06c950a1c0b60dfe19b136052b603d57f).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-05.md` (SHA-256 8e1da23633feccdbadff318beff588d06c950a1c0b60dfe19b136052b603d57f).
 Captured source bytes preserved in the Monitor local-only archive at `captures/slovakia_temp_snapshot_import_20261025/Slovakia/temp/slovakia/pdf/sk-05-41bfbd6922dc0e6f2c563d74a8121927f08ec4a84bfb3007e75a867aeac06feb.pdf` (SHA-256 41bfbd6922dc0e6f2c563d74a8121927f08ec4a84bfb3007e75a867aeac06feb).
 
 ## Limits and disposition

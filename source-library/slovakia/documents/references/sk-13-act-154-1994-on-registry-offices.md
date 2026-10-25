@@ -20,7 +20,7 @@
 
 - Binding PDF: https://static.slov-lex.sk/pdf/SK/ZZ/1994/154/ZZ_1994_154_20260801.pdf
 - Version history: https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1994/154/
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-13.md` (SHA-256 60bba32ea72f9a2c1f374214953949793d395b88e32e07a4cb7d1db3fe5b0b1e).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-13.md` (SHA-256 60bba32ea72f9a2c1f374214953949793d395b88e32e07a4cb7d1db3fe5b0b1e).
 Captured source bytes preserved in the Monitor local-only archive at `captures/slovakia_temp_snapshot_import_20261025/Slovakia/temp/slovakia/pdf/sk-13-dd2c8784e6b2a1dd3bfac71ccb7c43047454ad7934632e44a9faa56990525913.pdf` (SHA-256 dd2c8784e6b2a1dd3bfac71ccb7c43047454ad7934632e44a9faa56990525913).
 
 ## Limits and disposition

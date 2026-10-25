@@ -33,8 +33,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-02-act-404-2011-on-residence-of-foreigners.md",
-        "sha256": "bb1f7a01ba86960631268f3d6c97984dcacfdd1eaa54565298a1da7f6eece1be",
-        "bytes": 2671,
+        "sha256": "b306cfe09ae119dc482ba9a988ef939d3574990c6a80c2cc3d18e93b37a4ba53",
+        "bytes": 2657,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -56,8 +56,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-03-act-128-2026.md",
-        "sha256": "c4673f9393913372424ecbdb0b2b9be4bbc9554af355888a6322f4c54c7973a3",
-        "bytes": 2087,
+        "sha256": "544c800d3b863ee2b1a4a96659855c275046ec22046677bdaf849685a1915d7a",
+        "bytes": 2073,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -79,8 +79,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-04-act-71-1967-administrative-procedure-act.md",
-        "sha256": "2dbe8878ea1156a70ad99841aa65ff5bb4a20da000375b74afc11de9cafe20c5",
-        "bytes": 2150,
+        "sha256": "74d6b3d0bbfa829ffa9a22c6708ca3c77e4a8a92b756cb30253f9d604f0bb96d",
+        "bytes": 2136,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -102,8 +102,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-05-act-162-2015-administrative-judicial-procedure-code.md",
-        "sha256": "09d0eee6c3104866146e61954d5f6bdb6b01c81c6992dde4ce2ec648e2ffc2a5",
-        "bytes": 2184,
+        "sha256": "a8c03439e4aa66c8c743b1804ad5bfcdb3ff1cfdde618aab82fc659aaeabfdbb",
+        "bytes": 2170,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -125,8 +125,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-06-act-211-2000-freedom-of-information-act.md",
-        "sha256": "1f0242e21b7a803b65c6586e3b47c90dac2c568dbabb8cf7bd86393a1e344b75",
-        "bytes": 2096,
+        "sha256": "ee3fe677bdf9e6f01c900b06b835225d8c79e8b3f173b9bf25e8f37391e362af",
+        "bytes": 2082,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -148,8 +148,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-07-act-9-2010-on-complaints.md",
-        "sha256": "e2154586262675f70d3a3a76b6d3db5f1e59a11a5fbc5cd1fe0bd5d46b378ecc",
-        "bytes": 2040,
+        "sha256": "649a9fcc6b54fe590bd95bd5af0016c7bed7e7506ddb66acf93c1720094cb834",
+        "bytes": 2026,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -171,8 +171,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-08-act-85-1990-on-the-right-to-petition.md",
-        "sha256": "044496251d89eb39250b4e231d9b91c98454ca09a9e2f596119a945a5faf84b6",
-        "bytes": 2077,
+        "sha256": "d7a6da6d25a78130f1d55db918602d2cd56f3baad8e5ea367d3b8addc3c74bcd",
+        "bytes": 2063,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -194,8 +194,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-09-act-18-2018-on-personal-data-protection.md",
-        "sha256": "71c6306c951c3fae3ede25c33bfe964f0de8143ddcba9fd57d83912330d3006c",
-        "bytes": 2094,
+        "sha256": "f9429dd2e7c89cdc54ae270b99935439617164a938b56f00e39b14b446e2347f",
+        "bytes": 2080,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -217,8 +217,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-10-act-564-2001-on-the-public-defender-of-rights.md",
-        "sha256": "11f521959fc4ea96370839571384115b232a3f7acffdf4234098570f16dca04e",
-        "bytes": 2141,
+        "sha256": "cf38839ee5b86629216415757f88ea0d6819cdccb65f4eb96d0aea842a15ed8a",
+        "bytes": 2127,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -240,8 +240,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-11-act-327-2005-on-legal-aid.md",
-        "sha256": "5a9d6f95a1e2b0a886f2efaff4a5c201101003c25ab8b8a1836aba21040e0ad9",
-        "bytes": 2188,
+        "sha256": "4af5b2c574c2738d012ac6ae0f95f8104835b5f33414eb83f9760a40f3a35620",
+        "bytes": 2174,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -263,8 +263,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-12-act-365-2004-equal-treatment-act.md",
-        "sha256": "47201ddb6fc4c0ca80f166557cbade45165d209416b379d7b3ed6fcd2bcf3de3",
-        "bytes": 2118,
+        "sha256": "45767a907c446cd66c656969673d70ba3e176429deb4f8c5bcc5c73d57143ab8",
+        "bytes": 2104,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -286,8 +286,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-13-act-154-1994-on-registry-offices.md",
-        "sha256": "ba5f3a1987252855b18402a7a63652cba78497113c1d2e87847795a3306a1806",
-        "bytes": 2107,
+        "sha256": "8d05a558b6a612ef012664ab9528ab1c446977f5a068b2a4fcaa3ed94ea36087",
+        "bytes": 2093,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -310,8 +310,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-14-act-36-2005-on-the-family.md",
-        "sha256": "3fa25e1a58ada5aa31a8991977ca3c9afe59eac5607f9c0f4d8c0eeff4ea70f6",
-        "bytes": 2149,
+        "sha256": "08a521226ce37a96d94e8bae063df8f20d8650c90cfc940fe411576073a1daee",
+        "bytes": 2135,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -334,8 +334,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-15-act-145-1995-on-administrative-fees.md",
-        "sha256": "03b870c508ea77da848e6b14c4db8a6383bcf3cc0653ef80f8e2697a2fc76f54",
-        "bytes": 2146,
+        "sha256": "ccf1d24e1d928b12917bc99fdf01b70ed9969bf79e7c25512770f3a0df53f6d4",
+        "bytes": 2132,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -357,8 +357,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-16-act-69-2026-on-international-protection.md",
-        "sha256": "e98a1098848ebec384154684df1b3b8a974f00b921873f34b9b3d3f791acd15f",
-        "bytes": 2110,
+        "sha256": "9fe07212f28277c75848f8fc78060ad567daf61628ae130fadfec397aa9ea9e1",
+        "bytes": 2096,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -471,8 +471,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-21-ministry-of-interior-eu-citizen-registration-faq-march-2025.md",
-        "sha256": "39ad02cd34dbe4a2b0d439a7a6fde1d8d153838916fb5a7d72d5ebf268a8b407",
-        "bytes": 2936,
+        "sha256": "5ac3f2e9dd8f415ef4bd738ebfa4b694deffae405d674f7e32ce02b6dae11952",
+        "bytes": 2922,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -515,8 +515,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-17-ministry-of-justice-legal-source-page.md",
-        "sha256": "141db47a4a27599f21a583794782932b51a12d3112c821ba82dddfea5faa42c2",
-        "bytes": 1644,
+        "sha256": "796a0399c6eaf051c3004ce1a577829a83007f9d220a037a1368cd1153d234ef",
+        "bytes": 1630,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -537,8 +537,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-18-ministry-of-justice-reuse-conditions.md",
-        "sha256": "944c0a8feda2991f1af0830f0685afb15ad5421a35a1b675559cfa322a36cf7c",
-        "bytes": 1699,
+        "sha256": "1bdebe72ccb74cadd91a1c0d9aff0e169a9b9b889645717c8aca3dc83ee598e8",
+        "bytes": 1685,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -558,8 +558,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-19-ministry-notice-on-slov-lex-modernization.md",
-        "sha256": "bad527665e8dea83f7aa548e2c5c2f935974a17c9441a3ea225203a70f59e985",
-        "bytes": 1554,
+        "sha256": "9ae57e4baa438afa6d71c25b506dfe9c246b059f8a4a52bcb68a31584325e90e",
+        "bytes": 1540,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -579,8 +579,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-20-n-lex-slovakia-country-search-route.md",
-        "sha256": "0df78877f67516a07e4982eedfe36b8ea61fe2669916c0cc9f04f9514b8b60ab",
-        "bytes": 1563,
+        "sha256": "42e95d3d2910d8aff6385d1311c0a46982dea9365d5cd788c9deaef4d044d4a2",
+        "bytes": 1549,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -645,8 +645,8 @@
       "notice_url": "https://www.nssud.sk/spustili-sme-novy-informacny-system-pre-efektivnejsie-vyhladavanie-rozhodnuti-ako-aj-zistovanie-stavu-konania/",
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-32-supreme-administrative-court-decision-search.md",
-        "sha256": "ee076e59a11fc1b2b42c73101369119c985757d53c416d8edddf21e9d7d0adde",
-        "bytes": 1600,
+        "sha256": "8ca3656325e74918ba36a70d21b3c09751cf7d000b9feab9c2c8366e2fe8ab25",
+        "bytes": 1586,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -667,8 +667,8 @@
       "related_search_url": "https://www.nssud.sk/rozhodovacia-cinnost/",
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-33-supreme-administrative-court-new-system-notice.md",
-        "sha256": "aa8f50bab82d09538c5f98528be3d12259f1dec46ace9431bcdbbf1dcff5be43",
-        "bytes": 1652,
+        "sha256": "95ec60ed0ddf503f00b939f4360cb17f9a3800647f6935eaa0747c72b3994a2b",
+        "bytes": 1638,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -688,8 +688,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-34-supreme-court-decision-search.md",
-        "sha256": "5ab74205aa112354d8c05e7a6fb3013e037b73fc65d88a9015856623215b0e98",
-        "bytes": 1600,
+        "sha256": "527f716fe01b7fa8e2ae6fde66beadadf6143527c65fd7ae106a5e0bffd78b26",
+        "bytes": 1586,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -709,8 +709,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-35-constitutional-court-search-instructions.md",
-        "sha256": "17b4b9a5053945178d59201418b9bd5d29bf7cfe1666c9470dc84ad1603a6dca",
-        "bytes": 1549,
+        "sha256": "c9223873ea79f76fe7fd60856557c5f70cb038869d5a045e991c7f32b2b0c728",
+        "bytes": 1535,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -731,8 +731,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-36-public-defender-complaint-form.md",
-        "sha256": "c16c4afa512a859aa080f94cdd5f7805f2f431e82e04d96ea33e8a1311e18886",
-        "bytes": 1585,
+        "sha256": "9f360f7529da0ca716313aeadee45bfb2ad6beca06f1218d4cfb502cd53408c6",
+        "bytes": 1571,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -752,8 +752,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-37-public-defender-petition-and-complaint-guidance.md",
-        "sha256": "5db4b0f89ea8d72f4455d39d4ccc3f87890b1e4fc2ab250c28d7e2be7daa601c",
-        "bytes": 1594,
+        "sha256": "6db0108e6d8bf9539d817461cf3ee810afc827849e492c9bada397403a23846d",
+        "bytes": 1580,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -774,8 +774,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-38-data-protection-authority-proceeding-request.md",
-        "sha256": "543b59a2bfeac5b75e7dfe45efd2e18eb9f34ee76f2cb26c34d0df42c1340f5a",
-        "bytes": 1731,
+        "sha256": "53dd96a1b18afd83de313624a6bf58b8dd2796152377bf704e1ccd2da167bb36",
+        "bytes": 1717,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -795,8 +795,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-39-slovak-national-centre-for-human-rights-legal-services.md",
-        "sha256": "0d96b7f6c61b36244d7c569a243b23fa8d12f85353a45378a3e5b99cc7f0b396",
-        "bytes": 1633,
+        "sha256": "ed7d3f82c2a33a5cf96febe23baf550ed0f5093a947cd710df88aebbe41266ae",
+        "bytes": 1619,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
@@ -816,8 +816,8 @@
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-40-bratislava-foreign-police-relocation-notice.md",
-        "sha256": "f223edd0bd930735919fe3794b2ec14808ba7faf10e515d776a33db869d7caa3",
-        "bytes": 1712,
+        "sha256": "659db87fe85229603433013e7fbc00cc6fd1f747bfb9210a27a0eaeef14bba5c",
+        "bytes": 1698,
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }

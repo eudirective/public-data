@@ -20,7 +20,7 @@
 
 - Binding PDF: https://static.slov-lex.sk/pdf/SK/ZZ/2011/404/ZZ_2011_404_20261001.pdf
 - Version history: https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2011/404/
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-02.md` (SHA-256 e42d92902b1b22cc5c000fcc063cb12676ec0db66c2e42beaa8a25d68052abed).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-02.md` (SHA-256 e42d92902b1b22cc5c000fcc063cb12676ec0db66c2e42beaa8a25d68052abed).
 Captured source bytes preserved in the Monitor local-only archive at `captures/slovakia_temp_snapshot_import_20261025/Slovakia/temp/slovakia/pdf/sk-02-2f153a7e99e8f443336972ba7f0b98ab6ae94e4b1574a3a0b0bdb70b8ce81756.pdf` (SHA-256 2f153a7e99e8f443336972ba7f0b98ab6ae94e4b1574a3a0b0bdb70b8ce81756).
 
 ## Limits and disposition

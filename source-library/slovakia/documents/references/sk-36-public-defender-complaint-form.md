@@ -17,7 +17,7 @@
 **Version or date evidence:** Official submission page provides the complaint/petition route and warns filing does not stop appeal or court deadlines.
 
 **Prior source-search note:** Public Defender complaint form — oversight remedy; related source
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-36.md` (SHA-256 8bd835787fb6ed79bdf76791e8a3005db8045cedb58f1b5239d6717c33d5c550).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-36.md` (SHA-256 8bd835787fb6ed79bdf76791e8a3005db8045cedb58f1b5239d6717c33d5c550).
 
 ## Limits and disposition
 

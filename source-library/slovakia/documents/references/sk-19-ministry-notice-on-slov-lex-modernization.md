@@ -17,7 +17,7 @@
 **Version or date evidence:** Official notice published 19 March 2026 describes Slov-Lex system modernization.
 
 **Prior source-search note:** Ministry notice on Slov-Lex modernization — change-risk lead; related source
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-19.md` (SHA-256 f1307162adcc37f6500f9302a3c7e305f42947f9c683919640b87db35fa369a7).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-19.md` (SHA-256 f1307162adcc37f6500f9302a3c7e305f42947f9c683919640b87db35fa369a7).
 
 ## Limits and disposition
 

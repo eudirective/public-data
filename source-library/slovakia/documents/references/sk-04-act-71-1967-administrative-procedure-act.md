@@ -20,7 +20,7 @@
 
 - Binding PDF: https://static.slov-lex.sk/pdf/SK/ZZ/1967/71/ZZ_1967_71_20180901.pdf
 - Version history: https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/1967/71/
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-04.md` (SHA-256 6c62ed99fd2183d8e54fb4b64272cae91877a1a11847777cb6552084efcb122c).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-04.md` (SHA-256 6c62ed99fd2183d8e54fb4b64272cae91877a1a11847777cb6552084efcb122c).
 Captured source bytes preserved in the Monitor local-only archive at `captures/slovakia_temp_snapshot_import_20261025/Slovakia/temp/slovakia/pdf/sk-04-39192cf3b53dbf90d859a1d08412054e8667de5e50366ee87eb933e2fbaec674.pdf` (SHA-256 39192cf3b53dbf90d859a1d08412054e8667de5e50366ee87eb933e2fbaec674).
 
 ## Limits and disposition

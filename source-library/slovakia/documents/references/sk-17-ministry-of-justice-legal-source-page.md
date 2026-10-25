@@ -17,7 +17,7 @@
 **Version or date evidence:** The ministry page describes Slov-Lex as the electronic Collection of Laws and says it contains generally binding instruments promulgated from 1945 onward, including full texts.
 
 **Prior source-search note:** Ministry of Justice legal-source page — publisher description; related source
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-17.md` (SHA-256 167a981e9995e4d61a64ffc9735138b3cd51ee7d2431230989a28661f1ea03d2).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-17.md` (SHA-256 167a981e9995e4d61a64ffc9735138b3cd51ee7d2431230989a28661f1ea03d2).
 
 ## Limits and disposition
 

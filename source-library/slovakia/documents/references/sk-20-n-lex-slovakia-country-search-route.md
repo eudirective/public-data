@@ -17,7 +17,7 @@
 **Version or date evidence:** Official N-Lex Slovakia route reports that the Slovak national database connection is not working and directs users to Slov-Lex.
 
 **Prior source-search note:** N-Lex Slovakia country/search route — discovery index; related source
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-20.md` (SHA-256 4e7a29e970053845e1cfec925b62cc42509f78f54f77e12e6278cb8ac0008cfe).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-20.md` (SHA-256 4e7a29e970053845e1cfec925b62cc42509f78f54f77e12e6278cb8ac0008cfe).
 
 ## Limits and disposition
 

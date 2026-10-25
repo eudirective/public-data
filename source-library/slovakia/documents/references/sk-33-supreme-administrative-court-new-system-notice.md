@@ -17,7 +17,7 @@
 **Version or date evidence:** Official 1 April 2026 notice describes the new decision-search system and reports more than 7,000 decisions.
 
 **Prior source-search note:** Supreme Administrative Court new-system notice — source change evidence; related source
-Prior converted candidate preserved in the Monitor local-only archive at `candidates/slovakia_candidate_promotion_20261025/Slovakia/slovakia/sk-33.md` (SHA-256 ce661f046de25b3665dc3c58d380b80e354cc507e528f8a14d7ef035862039f9).
+Prior converted candidate preserved in the Monitor local-only archive at `candidates/eudirective-public-data/Slovakia/slovakia/sk-33.md` (SHA-256 ce661f046de25b3665dc3c58d380b80e354cc507e528f8a14d7ef035862039f9).
 
 ## Limits and disposition
 
