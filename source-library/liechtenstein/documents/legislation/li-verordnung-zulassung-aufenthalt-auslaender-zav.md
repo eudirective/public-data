@@ -1,20 +1,23 @@
-# Verordnung über die Zulassung und den Aufenthalt von Ausländern (ZAV)
+# Verordnung über die Zulassung und den Aufenthalt von Ausländern (ZAV), LR 152.201
 
 - Jurisdiction: Liechtenstein
-- Candidate ID: `li-10`
-- Source class: `third_country_immigration_regulation`
-- Official page title: ZAV | Lilex - Gesetzesdatenbank des Fürstentums Liechtenstein
-- Publisher: Liechtenstein Government Legal Services
-- Candidate source URL: https://www.gesetze.li/konso/2008350000
+- Source ID: `li-10`
+- Source type: `third_country_immigration_regulation`
+- Publisher: Liechtenstein Government Legal Services (Rechtsdienst der Regierung)
+- Official source URL: https://www.gesetze.li/konso/2008350000
 - Resolved text URL: https://www.gesetze.li/konso/html/2008350000?version=17&search_text=&search_loc=
-- Retrieved: 2026-10-19T03:00:58+00:00
-- Publisher/version evidence: Gesetze.li current-text frame version=17; inventory note: The official record shows LGBl 2026.193, effective 12 June 2026, as the latest listed amendment; preceding amendments include 2025.251.
-- Extraction region: `tag=body`
-- Text response SHA-256: `11c6f3d8950b25613be717f96a07b776f2b298895d64a9993b769f4e185ee3e4`
-- Current-version shell SHA-256: `6fdb1bc1644c415aaf24af425f3191d510c2f77aaab2ba574196c5feb5667d4f`
+- Official PDF: https://www.gesetze.li/konso/pdf/2008350000?version=17
+- Language: German
+- Consolidated version checked: Lilex current-text frame version 17; latest listed amendment LGBl 2026.193, effective 12 June 2026
+- Reviewed: 2026-10-25
+- Publisher-shell response SHA-256: `6fdb1bc1644c415aaf24af425f3191d510c2f77aaab2ba574196c5feb5667d4f`
+- Text-frame response SHA-256: `11c6f3d8950b25613be717f96a07b776f2b298895d64a9993b769f4e185ee3e4`
+- Source-text SHA-256: `f72ad7cefb404b91683a58f4bc0061cdf972d7a5359c2d15995c5ed4d91b4322` (36178 UTF-8 bytes)
+- Candidate-conversion SHA-256: `67be0a72bc3739b3c9377cea628397aa7a24e6bf357cbcffc5334d057c3ad872`
+- Extraction: `tag=body`; deterministic offline replay from the archived official HTML frame reproduces the complete candidate conversion and this official-text section. The official 28-page version-17 PDF confirms `Fassung: 12.06.2026`; selected anchors checked include the title/LR number, Art. 1, Arts. 10b–10g, 19, 22, 24c, 25–27, 28a, 30b, Art. 31, and amendment footnotes. This was not a page-by-page comparison.
+- Reuse basis: Liechtenstein Copyright Act (URG), Art. 5(1)(a) and (2), as applied to statutory text only; this document does not copy the Lilex interface or database.
 
-> **Review candidate.** Not accepted into the trusted source corpus. Relationship: Partial functional match for permit and family-reunification procedure
-> Check exact legal identity, version, language, scope, authority, links and reuse conditions before reliance.
+> **Accepted source record.** ZAV implements the AuG and supplies detailed rules for admission, residence, permits, family reunification, screening and related procedures, including specific cross-border-service rules. EEA/Swiss residence and free-movement routes under PFZG remain distinct. The official Lilex consolidation is informational and has no legal effect; the signed State Law Gazette remains legally authentic. Acceptance does not establish topic coverage, legal equivalence, current applicability after the review date, or country completion.
 
 ## Official source text
 
