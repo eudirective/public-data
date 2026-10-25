@@ -1,20 +1,24 @@
-# Ausländergesetz (AuG)
+# Ausländergesetz (AuG), LR 152.20
 
 - Jurisdiction: Liechtenstein
-- Candidate ID: `li-09`
-- Source class: `third_country_immigration_law`
-- Official page title: AuG | Lilex - Gesetzesdatenbank des Fürstentums Liechtenstein
-- Publisher: Liechtenstein Government Legal Services
-- Candidate source URL: https://www.gesetze.li/konso/2008311000
+- Source ID: `li-09`
+- Source type: `third_country_immigration_law`
+- Publisher: Liechtenstein Government Legal Services (Rechtsdienst der Regierung)
+- Official source URL: https://www.gesetze.li/konso/2008311000
 - Resolved text URL: https://www.gesetze.li/konso/html/2008311000?version=25&search_text=&search_loc=
-- Retrieved: 2026-10-19T03:00:55+00:00
-- Publisher/version evidence: Gesetze.li current-text frame version=25; inventory note: Official legal materials show amendment LGBl 2026.143 effective 12 June 2026, with earlier amendments in 2025 and 2024.
-- Extraction region: `tag=body`
-- Text response SHA-256: `9c47d4baf8d09b6051cd1b8980e2d8f83796485d33a19d8238b70d69deef2813`
-- Current-version shell SHA-256: `19732e37a93cf943d70d9f44f94536f8ed652fee563d3ed2f2b0a62240767c1d`
+- Official PDF: https://www.gesetze.li/konso/pdf/2008311000?version=25
+- Language: German
+- Consolidated version checked: 12 June 2026 (Lilex text-frame version 25; the official PDF states `Fassung: 12.06.2026`)
+- Latest amendment listed: LGBl 2026.143, effective 12 June 2026
+- Reviewed: 2026-10-25
+- Publisher-shell response SHA-256: `19732e37a93cf943d70d9f44f94536f8ed652fee563d3ed2f2b0a62240767c1d`
+- Text-frame response SHA-256: `9c47d4baf8d09b6051cd1b8980e2d8f83796485d33a19d8238b70d69deef2813`
+- Source-text SHA-256: `0f632e38118941479edadc275cc656757879a3bd0ce45892c2a141e66bdf2295` (154291 UTF-8 bytes)
+- Candidate-conversion SHA-256: `49ccc7cb63ce7237a61504baefe001bfc58f9c17d74f4e692d102fb6328a744e`
+- Extraction: `tag=body`; deterministic replay from the archived HTML frame reproduces the full candidate conversion. The official 100-page Lilex PDF was reviewed at the title/LR number, Arts. 1–2, 7–7b, 32–39, 51, 81, and amendment notes for LGBl 2026.143.
+- Reuse basis: Liechtenstein Copyright Act (URG), Art. 5(1)(a) and (2), checked against the current official text on 2026-10-25; this copy contains statutory text only, not the website interface or database.
 
-> **Review candidate.** Not accepted into the trusted source corpus. Relationship: Partial functional match for third-country residence and family routes
-> Check exact legal identity, version, language, scope, authority, links and reuse conditions before reliance.
+> **Accepted source record.** AuG applies to foreign nationals who are neither EEA nor Swiss nationals and to family members of such persons, subject to its stated scope and exceptions. It is distinct from the PFZG free-movement route. The official Lilex consolidation is informational and has no legal effect; the signed State Law Gazette remains legally authentic. Acceptance does not establish topic coverage, legal equivalence, applicability after the checked date, or country completion.
 
 ## Official source text
 
