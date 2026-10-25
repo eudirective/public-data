@@ -2070,11 +2070,10 @@
         "evidence": "The current official page was reopened on 2026-10-25. Its relevant text continues to describe Schengen visas and the family-evidence/fee/refusal guidance; the retained full body remains the 2026-10-19 capture. Council Decision (EU) 2024/210 Annex and the 2024 Visa Code consolidation establish that the Visa Code applied in Bulgaria from 31 March 2024, correcting the 2023 Notice's older Bulgaria applicability statement. The review note distinguishes Directive eligibility, national Ordinance exemptions, generic MFA appointment/timing text, and non-binding Handbook guidance. The page exposes no revision date; full current-page recapture was not performed.",
         "source_sha256": "3562f35b7fcf926db4c32160ba5bf7af7112e3f1cb584b70c8b4a3af3eb98958",
         "source_text_sha256": "5c12e7290e9d0dec7e50c03d27b0de8b38710de51e0382508a239331d10d255c",
-        "document_sha256": "2023be0d0f250926ee22ae53e69dcd23553d27dc4d65d5b4527c97a4e4d874e3"
+        "document_sha256": "4afccb846b7cc8246cfd19de1562da13c5e7e28d35849dfe656315aa854e0493"
       },
       "accepted_on": "2026-10-24",
-      "document_path": "documents/guidance/bg-mfa-visa-hub.md",
-      "document_sha256": "4afccb846b7cc8246cfd19de1562da13c5e7e28d35849dfe656315aa854e0493"
+      "document_path": "documents/guidance/bg-mfa-visa-hub.md"
     },
     "bg-eu-form-extended": {
       "status": "accepted",
