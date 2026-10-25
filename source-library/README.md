@@ -1,6 +1,6 @@
 # EU source retrieval library
 
-Library release version: 0.13.0
+Library release version: 0.14.0
 
 The reusable national-pack layout is documented in [the country-pack template](templates/country-pack/LAYOUT.md). The latest structural inventory is in [the folder audit](references/library-folder-audit-2026-10-19.md). The shared English EU corpus serves every pack; country-level `core/` folders are kept only when they contain actual official EU-language files. Ireland and Malta use that shared corpus for English instead of duplicating English files.
 
@@ -111,7 +111,7 @@ The [Lithuania register](lithuania/references/candidate-manifest.json) contains 
 
 ## Liechtenstein national-source candidates
 
-The [Liechtenstein inventory](liechtenstein/references/candidate-manifest.json) contains 40 source leads across legislation, guidance, forms, courts and oversight. Four sources are accepted (local PFZG, PFZV and AuG texts plus one link-only Lilex portal reference); one duplicate lead is dispositioned, and 35 leads remain open. Text-only reuse bases were confirmed under URG Article 5; Lilex consolidations remain informational and the signed Gazette is legally authentic. Sixteen requests returned HTTP 403, with staging, interactive-form, and case-law-app limits recorded. PFZV’s archived pre-promotion candidate has a metadata-only preamble difference; AuG’s full candidate replay passes. The current runtime cannot replay two legacy PDF records (li-05 and li-13) because pinned pypdf==6.21.1 is unavailable. No topic or country completion is claimed. See the [README](liechtenstein/README.md), [source acceptance](liechtenstein/references/source-acceptance.json), [source register](liechtenstein/references/source-register.json), and [sustainability assessment](liechtenstein/references/sustainability-assessment.md).
+The [Liechtenstein inventory](liechtenstein/references/candidate-manifest.json) contains 40 source leads across legislation, guidance, forms, courts and oversight. Five sources are accepted (local PFZG, PFZV, AuG and ZAV texts plus one link-only Lilex portal reference); one duplicate lead is dispositioned, and 34 leads remain open. Text-only reuse bases were confirmed under URG Article 5; Lilex consolidations remain informational and the signed Gazette is legally authentic. Sixteen requests returned HTTP 403, with staging, interactive-form, and case-law-app limits recorded. PFZV’s archived pre-promotion candidate has a metadata-only preamble difference; AuG and ZAV full candidate replays pass. ZAV implements AuG and includes specific cross-border-service rules; the EEA/Swiss residence route remains distinct under PFZG. Selected anchors in its official 28-page PDF and chronology were checked; there was no page-by-page comparison. The current runtime cannot replay two legacy PDF records (li-05 and li-13) because pinned pypdf==6.21.1 is unavailable. No topic or country completion is claimed. See the [README](liechtenstein/README.md), [source acceptance](liechtenstein/references/source-acceptance.json), [source register](liechtenstein/references/source-register.json), and [sustainability assessment](liechtenstein/references/sustainability-assessment.md).
 
 ## Malta national-source candidates
 

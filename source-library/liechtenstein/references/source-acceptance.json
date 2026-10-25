@@ -2,9 +2,9 @@
   "schema_version": "1.0.0",
   "jurisdiction": "LI",
   "as_of": "2026-10-25",
-  "accepted_source_count": 4,
-  "accepted_local_copy_count": 3,
-  "accepted_external_reference_count": 4,
+  "accepted_source_count": 5,
+  "accepted_local_copy_count": 4,
+  "accepted_external_reference_count": 5,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "policy": "A reviewed official source may be accepted within its publisher, identity, language, displayed version, scope, and stated limitations. The current Lilex consolidation is an informational working text, not the legally authentic publication. Local-copy acceptance is separate from topic coverage, legal equivalence, and country completion. Reuse acceptance here is limited to statutory text under URG Article 5; it does not cover site design, database-level or systematic reuse, or unrelated content.",
@@ -267,11 +267,98 @@
         "Direct access to the versioned HTML frame through the web viewer failed; the archived frame replayed exactly and the official PDF and version chronology were reviewed.",
         "This source acceptance does not establish topic coverage or country completion."
       ]
+    },
+    "li-10": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The official Lilex version-17 metadata page identifies the Verordnung über die Zulassung und den Aufenthalt von Ausländern, LR 152.201, and original publication LGBl 2008.350; the page identifies the Government Legal Services (Rechtsdienst der Regierung) as publisher."
+        },
+        "current_legal_version": {
+          "status": "pass_with_limitations",
+          "review_date": "2026-10-25",
+          "evidence_url": "https://www.gesetze.li/konso/2008350000/meta?lgblid_von=&lrnr=&observe_date=&search_loc=&search_text=&version=17",
+          "evidence": "The official version-17 metadata chronology lists LGBl 2026.193, dated and effective 12 June 2026, as the latest ZAV amendment, followed by LGBl 2025.251 effective 1 June 2025. The official version-17 PDF states Fassung: 12.06.2026. Lilex consolidations are informational and have no legal effect; signed LGBl remains authentic."
+        },
+        "extraction_completeness": {
+          "status": "pass_with_limitations",
+          "evidence": "The captured official shell (11,559 bytes; SHA-256 6fdb1bc1644c415aaf24af425f3191d510c2f77aaab2ba574196c5feb5667d4f) and versioned text frame (64,800 bytes; SHA-256 11c6f3d8950b25613be717f96a07b776f2b298895d64a9993b769f4e185ee3e4) match the capture ledger and are preserved in the Monitor local-only archive. Offline replay with the source-specific extractor reproduces the archived candidate exactly (37,446 bytes; SHA-256 67be0a72bc3739b3c9377cea628397aa7a24e6bf357cbcffc5334d057c3ad872). The accepted document preserves the complete extracted official-text section (36178 UTF-8 bytes; SHA-256 f72ad7cefb404b91683a58f4bc0061cdf972d7a5359c2d15995c5ed4d91b4322). The official 28-page PDF was checked at the title/LR number, Art. 1, Arts. 10b–10g, 19, 22, 24c, 25–27, 28a, 30b, Art. 31, and amendment footnotes."
+        },
+        "attachments_review": {
+          "status": "pass_with_limitations",
+          "evidence": "The official 28-page version-17 PDF states Fassung: 12.06.2026 and was checked at representative identification, scope, screening, permit, family-reunification, biometric-data, final-provision, and amendment-footnote anchors against the extracted text. No separate statutory annex was identified in the reviewed material. This was not a page-by-page comparison with signed Gazette originals; the Markdown copy does not preserve legal publication layout or validate signatures."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "ZAV is the implementing regulation under Art. 91 AuG. Article 1 covers detailed admission and residence rules, permit requirements/procedure, family reunification, termination of residence, illegal-stay checks and data protection; it also includes specific cross-border-service provisions. Articles 10b–10g add screening procedures linked to AuG amendments. The EEA/Swiss residence and free-movement route under PFZG remains distinct. This is not a legal-equivalence finding."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "official_statutory_text_only",
+          "basis_url": "https://www.gesetze.li/konso/html/1999160000",
+          "evidence": "The current official URG text, checked on 2026-10-25 after LGBl 2026.146 took effect, states at Art. 5(1)(a) that laws, regulations, treaties, and other official enactments are not protected by copyright, and at Art. 5(2) also excludes official or legally required collections and translations. This acceptance covers only the statutory text, not Lilex interface/design or systematic database reuse."
+        }
+      },
+      "semantic_review": {
+        "status": "passed_with_limitations",
+        "method": "offline_full_candidate_replay_and_official_28_page_pdf_anchor_comparison",
+        "review_date": "2026-10-25",
+        "scope": "Full captured official-text section replayed exactly; official identity, version date, Art. 1 scope, screening rules, permit, family-reunification, biometric and final provisions, and 2026 amendment footnotes were checked against representative passages in the official version-17 PDF and metadata chronology.",
+        "source_response_sha256": "6fdb1bc1644c415aaf24af425f3191d510c2f77aaab2ba574196c5feb5667d4f",
+        "text_response_sha256": "11c6f3d8950b25613be717f96a07b776f2b298895d64a9993b769f4e185ee3e4",
+        "candidate_conversion_sha256": "67be0a72bc3739b3c9377cea628397aa7a24e6bf357cbcffc5334d057c3ad872",
+        "source_text_sha256": "f72ad7cefb404b91683a58f4bc0061cdf972d7a5359c2d15995c5ed4d91b4322",
+        "source_text_bytes": 36178,
+        "full_candidate_replay": "passed",
+        "limitations": [
+          "Lilex consolidated texts are informational and have no legal effect; the signed State Law Gazette is legally authentic.",
+          "The latest listed amendment is LGBl 2026.193, effective 12 June 2026; this review does not establish applicability after 2026-10-25.",
+          "The official 28-page PDF was checked at representative anchors, not page by page; signed Gazette originals were not compared.",
+          "Current practice, forms, topic coverage, and country completion are not established by source acceptance.",
+          "ZAV includes specific cross-border-service rules, while the PFZG EEA/Swiss residence route remains distinct; dependencies on AuG, LVG, EEA/Schengen instruments, asylum law and operational guidance still require review."
+        ],
+        "source_text_replay": {
+          "status": "passed",
+          "method": "replay_of_archived_html_frame_with_sync_liechtenstein_extractor",
+          "raw_capture_archive_path": "captures/public-data/LI/liechtenstein/li-10/raw/li-10-11c6f3d8950b25613be717f96a07b776f2b298895d64a9993b769f4e185ee3e4.html",
+          "raw_capture_sha256": "11c6f3d8950b25613be717f96a07b776f2b298895d64a9993b769f4e185ee3e4",
+          "result_source_text_sha256": "f72ad7cefb404b91683a58f4bc0061cdf972d7a5359c2d15995c5ed4d91b4322",
+          "matches_saved_candidate_and_document_body": true
+        },
+        "full_candidate_replay_evidence": "Rebuilding from the archived publisher shell and versioned text frame reproduces the preserved candidate byte-for-byte."
+      },
+      "accepted_on": "2026-10-25",
+      "document_path": "source-library/liechtenstein/documents/legislation/li-verordnung-zulassung-aufenthalt-auslaender-zav.md",
+      "local_file_sha256": "bb4956ba069fc65f8e46d17381ecfdd9bfc09677671c309f54c971a15e3b772a",
+      "source_response_sha256": "6fdb1bc1644c415aaf24af425f3191d510c2f77aaab2ba574196c5feb5667d4f",
+      "text_response_sha256": "11c6f3d8950b25613be717f96a07b776f2b298895d64a9993b769f4e185ee3e4",
+      "source_text_sha256": "f72ad7cefb404b91683a58f4bc0061cdf972d7a5359c2d15995c5ed4d91b4322",
+      "candidate_conversion_sha256": "67be0a72bc3739b3c9377cea628397aa7a24e6bf357cbcffc5334d057c3ad872",
+      "archived_candidate_path": "candidates/public-data/LI/liechtenstein/candidates/li-10.md",
+      "archived_candidate_sha256": "67be0a72bc3739b3c9377cea628397aa7a24e6bf357cbcffc5334d057c3ad872",
+      "local_copy_accepted": true,
+      "accepted_external_reference": true,
+      "accepted_topics": [],
+      "limitations": [
+        "Lilex consolidated texts are informational and have no legal effect; signed LGBl is authentic.",
+        "ZAV implements AuG and includes specific cross-border-service rules; the PFZG EEA/Swiss residence route remains distinct.",
+        "The version reviewed is dated 12 June 2026 and includes LGBl 2026.193; later applicability is not established.",
+        "The official 28-page PDF was checked at selected anchors, not page by page; this copy is an exact replay of the captured official HTML frame.",
+        "No topic or country completion is established."
+      ],
+      "capture_evidence": {
+        "retrieval_manifest_path": "captures/public-data/LI/liechtenstein/li-10/retrieval-manifest.json",
+        "publisher_shell_archive_path": "captures/public-data/LI/liechtenstein/li-10/raw/li-10-6fdb1bc1644c415aaf24af425f3191d510c2f77aaab2ba574196c5feb5667d4f.html",
+        "publisher_shell_sha256": "6fdb1bc1644c415aaf24af425f3191d510c2f77aaab2ba574196c5feb5667d4f",
+        "text_frame_archive_path": "captures/public-data/LI/liechtenstein/li-10/raw/li-10-11c6f3d8950b25613be717f96a07b776f2b298895d64a9993b769f4e185ee3e4.html",
+        "text_frame_sha256": "11c6f3d8950b25613be717f96a07b776f2b298895d64a9993b769f4e185ee3e4"
+      }
     }
   },
   "candidate_inventory_count": 40,
   "dispositioned_candidate_count": 1,
-  "open_candidate_count": 35,
+  "open_candidate_count": 34,
   "dispositions": {
     "li-03": {
       "status": "already_represented_duplicate",

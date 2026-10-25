@@ -87,6 +87,27 @@
         "Source acceptance is separate from topic coverage and country review completion.",
         "Current procedure, forms, and related legal dependencies require separate review."
       ]
+    },
+    {
+      "id": "li-10",
+      "class": "third_country_immigration_regulation",
+      "title": "Verordnung über die Zulassung und den Aufenthalt von Ausländern (ZAV), LR 152.201",
+      "publisher": "Liechtenstein Government Legal Services (Rechtsdienst der Regierung)",
+      "url": "https://www.gesetze.li/konso/2008350000",
+      "language": "de",
+      "version": "Lilex current-text frame version 17; latest listed amendment LGBl 2026.193, effective 12 June 2026",
+      "scope": "Implementing regulation under AuG covering detailed admission, residence, permits, family reunification, screening and related procedure, including specific cross-border-service rules; the PFZG EEA/Swiss residence route remains distinct.",
+      "status": "accepted_official_reference_and_local_copy_with_limitations",
+      "checked_on": "2026-10-25",
+      "local_path": "source-library/liechtenstein/documents/legislation/li-verordnung-zulassung-aufenthalt-auslaender-zav.md",
+      "local_copy_sha256": "bb4956ba069fc65f8e46d17381ecfdd9bfc09677671c309f54c971a15e3b772a",
+      "source_text_sha256": "f72ad7cefb404b91683a58f4bc0061cdf972d7a5359c2d15995c5ed4d91b4322",
+      "limitations": [
+        "Lilex consolidations are informational and have no legal effect; signed LGBl is authentic.",
+        "The version reviewed includes LGBl 2026.193 effective 12 June 2026; later applicability is not established.",
+        "ZAV supplements the AuG third-country route and is not the PFZG EEA/Swiss regime.",
+        "Source acceptance is separate from topic coverage and country review completion."
+      ]
     }
   ]
 }
