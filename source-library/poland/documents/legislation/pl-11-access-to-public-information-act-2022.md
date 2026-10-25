@@ -1,19 +1,48 @@
 # Access to Public Information Act, consolidated announcement Dz.U. 2022 poz. 902
 
-- Jurisdiction: poland
-- Candidate ID: `pl-11`
-- Source type: `public_access_legislation`
-- Candidate URL: https://eli.gov.pl/eli/DU/2022/902/ogl
-- Resolved URL: https://api.sejm.gov.pl/eli/acts/DU/2022/902/text.html
-- Retrieved: 2026-10-19T01:52:42+00:00
-- Media type: `text/html`
-- Publisher/version evidence: The 2022 consolidated announcement is a dated government source; a later 2025 amendment is reported in official materials. Use it within that stated version scope and keep the affected wording unresolved until a later government consolidation or the specific amendment text is available. Do not reconstruct the full chain.
-- Extraction: `body`
-- Exact response SHA-256: `f120633e886e329ee6798f3eff504f16b3540601b2ab7b78c328ad9db3b161c8`
+Jurisdiction: Poland
 
-> **Local-copy review notice.** This captured file is not accepted as a retained copy. A direct official link can be used for research after reviewing relevant content, date/version, scope, and caveats. Local-copy acceptance and reuse terms matter only when retaining or redistributing this file.
+Source ID: pl-11
 
-## Captured source text
+Source class: public_access_legislation
+
+Official publisher: Electronic Legal Information (ELI), official legal information portal of the Chancellery of the Sejm of the Republic of Poland
+
+Official source record: [https://eli.gov.pl/eli/DU/2022/902/ogl](https://eli.gov.pl/eli/DU/2022/902/ogl)
+
+Official text retrieved: [https://api.sejm.gov.pl/eli/acts/DU/2022/902/text.html](https://api.sejm.gov.pl/eli/acts/DU/2022/902/text.html)
+
+Language: Polish
+
+Version observed: Consolidated announcement of 23 March 2022, Dz.U. 2022 poz. 902. ELI displayed status obowiązujący and one later amendment when checked 2026-10-21.
+
+Retrieved: 2026-10-19T01:52:42+00:00
+
+Source response SHA-256: f120633e886e329ee6798f3eff504f16b3540601b2ab7b78c328ad9db3b161c8
+
+Monitor-archived research record SHA-256: 53ddce2c7c9b476bdc9983b562728d98a34012bcdd7ac91c6243c3262205c1aa; archive path candidates/poland_candidate_promotion_20261025/Poland/pl-11.md
+
+Conversion review: Official ELI HTML text; replay with the recorded `body` selector and body fallback reproduced the indexed candidate bytes. The official record identity, table-of-contents structure and Article 13 response-time provision were checked against the ELI text.
+
+Local-copy basis: Polish copyright law excludes normative acts and their official drafts (Copyright and Related Rights Act, Article 4(1)(1)); official documents and materials are addressed in Article 4(1)(2). Only the official statutory text and its necessary publication metadata are retained; portal interface, third-party imagery, guidance and forms are excluded. Official consolidated text: https://eli.gov.pl/eli/DU/2025/24/ogl.
+
+## Scope
+
+Public access to information, subject to statutory exceptions and any relevant procedural rules.
+
+## Currentness and review limits
+
+- Currentness checked 2026-10-25: ELI identifies Dz.U. 2022 poz. 902 as active and lists one later amendment. This is a dated consolidated text; check any affected provision before current-law reliance.
+- Markdown preserves extracted wording and page markers, not the original page layout. Hash and replay support identity and repeatability, not legal interpretation or sufficiency.
+- Local text acceptance does not establish topic coverage or country completion.
+
+## Semantic review
+
+- Reviewed 2026-10-25 against the official ELI record and its advertised text representation. Publisher, Dz.U. identifier, title and publication metadata match the captured source.
+- Official ELI HTML text; replay with the recorded `body` selector and body fallback reproduced the indexed candidate bytes. The official record identity, table-of-contents structure and Article 13 response-time provision were checked against the ELI text.
+- The reviewed copy preserves the source wording as extracted. Page layout and visual formatting are not reproduced; this review is not a provision-by-provision legal analysis.
+
+## Official source text
 
 Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiejz dnia 23 marca 2022 r.w sprawie ogłoszenia jednolitego tekstu ustawy o dostępie do informacji publicznej
 
@@ -1053,5 +1082,3 @@ Przez art. 50 pkt 4 ustawy, o której mowa w odnośniku 2.
 11)
 
 Ze zmianą wprowadzoną przez art. 50 pkt 5 ustawy, o której mowa w odnośniku 2.
-
-Pokaż całość

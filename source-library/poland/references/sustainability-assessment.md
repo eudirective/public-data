@@ -1,10 +1,10 @@
 # Poland source-route sustainability assessment
 
-**Review date:** 21 October 2026
+**Review date:** 25 October 2026
 
 **Inventory:** 63 references; 54 current official links accepted within scope; 4 historical-only references; 5 exact routes not relied upon with whole-site human-review offers.
 
-**Local copies:** 0 accepted. **Topics:** 0 accepted. **Country review:** incomplete.
+**Local copies:** 8 accepted statutory texts. **Topics:** 0 accepted. **Country review:** incomplete.
 
 This review separates use of official source links from an optional workflow for retaining local copies. A source link does not need API access, registration, capture, conversion, hashes or replay to be usable for ordinary research. Prefer a trustworthy government-published consolidation. If publisher, current version, scope or live procedure cannot be established confidently, offer the whole official portal for human review.
 
@@ -18,9 +18,9 @@ This review separates use of official source links from an optional workflow for
 
 ## Existing local-copy evidence
 
-The earlier capture covered 54 targets: 51 exact responses saved and 50 conversions replay-verified. Three requests failed (one HTTP 403 and two certificate-validation errors); one interactive portal returned a shell without extractable source text. Those are limits of that bounded local-copy run, not proof of publisher outage and not blockers to accepting the official links. Nine additional official references were reviewed as links only.
+The archived capture run covered 54 targets: 51 exact source responses and 50 candidate conversions. Three requests failed (one HTTP 403 and two certificate-validation errors); one interactive portal returned a shell without extractable source text. The Monitor archive preserves the unaccepted candidate bytes and original manifests. Eight statutory text copies were independently replayed from the exact saved response and checked against ELI metadata and selected legal anchors before acceptance. The other candidate conversions remain unaccepted archive evidence; the retired pack-local verifier does not certify them. Nine additional official references were reviewed as links only.
 
-The seven earlier PDF conversions used pinned pypdf 6.21.1. That dependency is relevant only if retaining or regenerating those local copies. Hashes and replay checks confirm byte-level repeatability; they do not prove that extracted legal text is complete or that the linked law is currently applicable. No local conversion is accepted.
+The accepted PDF conversions used pinned pypdf 6.21.1; the two accepted ELI HTML copies were replayed using the recorded body selector. Exact response hashes, candidate archive hashes, page counts and selected text anchors were checked. These checks support the identified copies but do not prove legal interpretation, full topic coverage or current applicability of dated consolidations. Remaining local candidate text is not accepted.
 
 ## Repair priorities
 
@@ -31,7 +31,7 @@ The seven earlier PDF conversions used pinned pypdf 6.21.1. That dependency is r
 5. Run dated, repeatable case-law discovery across the NSA and the 16 voivodeship administrative courts, stating the limits of published decisions.
 6. Review mission-specific instructions for the applicant's country when visa or consular practice matters.
 
-No scheduled updater is needed for the link-review status. Use the existing capture tool only if the user later needs retained copies or recurring checks; its execution is separate from source-link acceptance and country completeness.
+No scheduled updater is needed for the link-review status. The pack-local candidate-generating script and its dependency file have been retired. The Monitor has no registered Poland action; its national completion gates remain unsupported. Any future local-copy workflow must use the Monitor local-only archive for candidate and capture artifacts, then promote only accepted source text into `documents/`.
 
 ## Result
 

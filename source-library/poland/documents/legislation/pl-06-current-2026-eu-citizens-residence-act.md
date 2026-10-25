@@ -1,19 +1,48 @@
 # EU citizens residence Act, current consolidated announcement Dz.U. 2026 poz. 1065
 
-- Jurisdiction: poland
-- Candidate ID: `pl-06-current-2026`
-- Source type: `free_movement_primary_legislation`
-- Candidate URL: https://eli.gov.pl/eli/DU/2026/1065/ogl
-- Resolved URL: https://api.sejm.gov.pl/eli/acts/DU/2026/1065/text.pdf
-- Retrieved: 2026-10-19T01:55:46+00:00
-- Media type: `application/pdf`
-- Publisher/version evidence: Official ELI API current-act search returned DU/2026/1065 as obowiązujący, published as a consolidated text on 31 July 2026.
-- Extraction: `PDF text extraction; 40 pages`
-- Exact response SHA-256: `efe0ee9a58ce0669d4e8c1ca3679c9da1caa02449b2995e9cd82e5045cc7adf4`
+Jurisdiction: Poland
 
-> **Local-copy review notice.** This captured file is not accepted as a retained copy. A direct official link can be used for research after reviewing relevant content, date/version, scope, and caveats. Local-copy acceptance and reuse terms matter only when retaining or redistributing this file.
+Source ID: pl-06-current-2026
 
-## Captured source text
+Source class: free_movement_primary_legislation
+
+Official publisher: Electronic Legal Information (ELI), official legal information portal of the Chancellery of the Sejm of the Republic of Poland
+
+Official source record: [https://eli.gov.pl/eli/DU/2026/1065/ogl](https://eli.gov.pl/eli/DU/2026/1065/ogl)
+
+Official text retrieved: [https://api.sejm.gov.pl/eli/acts/DU/2026/1065/text.pdf](https://api.sejm.gov.pl/eli/acts/DU/2026/1065/text.pdf)
+
+Language: Polish
+
+Version observed: Unified-text announcement of 31 July 2026, Dz.U. 2026 poz. 1065; ELI displayed status obowiązujący and legal-status date 23 July 2026 when checked 2026-10-21.
+
+Retrieved: 2026-10-19T01:55:46+00:00
+
+Source response SHA-256: efe0ee9a58ce0669d4e8c1ca3679c9da1caa02449b2995e9cd82e5045cc7adf4
+
+Monitor-archived research record SHA-256: a1b3d2223f7a1fbdc7961bc97a9b6817c1603689d530a124aef2f53dcf57410c; archive path candidates/poland_candidate_promotion_20261025/Poland/pl-06-current-2026.md
+
+Conversion review: 40-page official ELI PDF; exact pypdf 6.21.1 replay from the captured raw response reproduced the indexed candidate bytes. The ELI record title, publication number/date and active status matched the PDF front matter; Article 20 registration and card requirements were checked against the official text.
+
+Local-copy basis: Polish copyright law excludes normative acts and their official drafts (Copyright and Related Rights Act, Article 4(1)(1)); official documents and materials are addressed in Article 4(1)(2). Only the official statutory text and its necessary publication metadata are retained; portal interface, third-party imagery, guidance and forms are excluded. Official consolidated text: https://eli.gov.pl/eli/DU/2025/24/ogl.
+
+## Scope
+
+Government-published consolidated text of the Act on entry into, residence in, and departure from Poland by EU Member State citizens and their family members.
+
+## Currentness and review limits
+
+- Currentness checked 2026-10-25: The ELI record displays active status and legal-status date 2026-07-23; publication Dz.U. 2026 poz. 1065 on 2026-08-06. The unified text states it incorporates amendments through 2026-07-23.
+- Markdown preserves extracted wording and page markers, not the original page layout. Hash and replay support identity and repeatability, not legal interpretation or sufficiency.
+- Local text acceptance does not establish topic coverage or country completion.
+
+## Semantic review
+
+- Reviewed 2026-10-25 against the official ELI record and its advertised text representation. Publisher, Dz.U. identifier, title and publication metadata match the captured source.
+- 40-page official ELI PDF; exact pypdf 6.21.1 replay from the captured raw response reproduced the indexed candidate bytes. The ELI record title, publication number/date and active status matched the PDF front matter; Article 20 registration and card requirements were checked against the official text.
+- The reviewed copy preserves the source wording as extracted. Page layout and visual formatting are not reproduced; this review is not a provision-by-provision legal analysis.
+
+## Official source text
 
 <!-- page 1 -->
   

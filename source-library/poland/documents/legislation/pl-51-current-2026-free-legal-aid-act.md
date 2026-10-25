@@ -1,19 +1,48 @@
 # Free legal aid Act, current consolidated announcement Dz.U. 2026 poz. 44
 
-- Jurisdiction: poland
-- Candidate ID: `pl-51-current-2026`
-- Source type: `legal_aid_legislation`
-- Candidate URL: https://eli.gov.pl/eli/DU/2026/44/ogl
-- Resolved URL: https://api.sejm.gov.pl/eli/acts/DU/2026/44/text.pdf
-- Retrieved: 2026-10-19T01:55:50+00:00
-- Media type: `application/pdf`
-- Publisher/version evidence: Official ELI API current-act search returned DU/2026/44 as obowiązujący, published as a consolidated text on 9 January 2026.
-- Extraction: `PDF text extraction; 19 pages`
-- Exact response SHA-256: `17eb95b1b31d1ff3f22846c6d9b5626d4fe06c873e700251de00917fa8c08feb`
+Jurisdiction: Poland
 
-> **Local-copy review notice.** This captured file is not accepted as a retained copy. A direct official link can be used for research after reviewing relevant content, date/version, scope, and caveats. Local-copy acceptance and reuse terms matter only when retaining or redistributing this file.
+Source ID: pl-51-current-2026
 
-## Captured source text
+Source class: legal_aid_legislation
+
+Official publisher: Electronic Legal Information (ELI), official legal information portal of the Chancellery of the Sejm of the Republic of Poland
+
+Official source record: [https://eli.gov.pl/eli/DU/2026/44/ogl](https://eli.gov.pl/eli/DU/2026/44/ogl)
+
+Official text retrieved: [https://api.sejm.gov.pl/eli/acts/DU/2026/44/text.pdf](https://api.sejm.gov.pl/eli/acts/DU/2026/44/text.pdf)
+
+Language: Polish
+
+Version observed: Consolidated announcement of 9 January 2026, Dz.U. 2026 poz. 44; ELI displayed status obowiązujący and legal-status date 8 January 2026 when checked 2026-10-21.
+
+Retrieved: 2026-10-19T01:55:50+00:00
+
+Source response SHA-256: 17eb95b1b31d1ff3f22846c6d9b5626d4fe06c873e700251de00917fa8c08feb
+
+Monitor-archived research record SHA-256: 420b653321010d1d155dfc3d7999f1d4349c42eac21536232f0b771c626f438a; archive path candidates/poland_candidate_promotion_20261025/Poland/pl-51-current-2026.md
+
+Conversion review: 19-page official ELI PDF; exact pypdf 6.21.1 replay from the captured raw response reproduced the indexed candidate bytes. The publication identity and Articles 3–4 on assistance scope and eligibility were checked against the official ELI text.
+
+Local-copy basis: Polish copyright law excludes normative acts and their official drafts (Copyright and Related Rights Act, Article 4(1)(1)); official documents and materials are addressed in Article 4(1)(2). Only the official statutory text and its necessary publication metadata are retained; portal interface, third-party imagery, guidance and forms are excluded. Official consolidated text: https://eli.gov.pl/eli/DU/2025/24/ogl.
+
+## Scope
+
+Government-published consolidated text of the Act on free legal aid, civic counselling and legal education.
+
+## Currentness and review limits
+
+- Currentness checked 2026-10-25: ELI identifies Dz.U. 2026 poz. 44, with legal-status date 2026-01-08, as active. Assistance eligibility in a particular immigration proceeding remains issue-specific.
+- Markdown preserves extracted wording and page markers, not the original page layout. Hash and replay support identity and repeatability, not legal interpretation or sufficiency.
+- Local text acceptance does not establish topic coverage or country completion.
+
+## Semantic review
+
+- Reviewed 2026-10-25 against the official ELI record and its advertised text representation. Publisher, Dz.U. identifier, title and publication metadata match the captured source.
+- 19-page official ELI PDF; exact pypdf 6.21.1 replay from the captured raw response reproduced the indexed candidate bytes. The publication identity and Articles 3–4 on assistance scope and eligibility were checked against the official ELI text.
+- The reviewed copy preserves the source wording as extracted. Page layout and visual formatting are not reproduced; this review is not a provision-by-provision legal analysis.
+
+## Official source text
 
 <!-- page 1 -->
   

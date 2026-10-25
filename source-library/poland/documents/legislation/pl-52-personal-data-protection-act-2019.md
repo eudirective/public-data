@@ -1,19 +1,48 @@
 # Personal Data Protection Act, consolidated text Dz.U. 2019 poz. 1781
 
-- Jurisdiction: poland
-- Candidate ID: `pl-52`
-- Source type: `data_protection_legislation`
-- Candidate URL: https://eli.gov.pl/eli/DU/2019/1781/ogl
-- Resolved URL: https://api.sejm.gov.pl/eli/acts/DU/2019/1781/text.html
-- Retrieved: 2026-10-19T01:53:43+00:00
-- Media type: `text/html`
-- Publisher/version evidence: Official consolidated-text candidate for national data-protection procedure. Verify subsequent amendments and the interaction with GDPR, SIS/VIS rules and special immigration provisions before relying on this version.
-- Extraction: `body`
-- Exact response SHA-256: `2be9b88907edc05ba9fe7b8a27ef6dc5df2828c48ff934e70032ef048410cdb8`
+Jurisdiction: Poland
 
-> **Local-copy review notice.** This captured file is not accepted as a retained copy. A direct official link can be used for research after reviewing relevant content, date/version, scope, and caveats. Local-copy acceptance and reuse terms matter only when retaining or redistributing this file.
+Source ID: pl-52
 
-## Captured source text
+Source class: data_protection_legislation
+
+Official publisher: Electronic Legal Information (ELI), official legal information portal of the Chancellery of the Sejm of the Republic of Poland
+
+Official source record: [https://eli.gov.pl/eli/DU/2019/1781/ogl](https://eli.gov.pl/eli/DU/2019/1781/ogl)
+
+Official text retrieved: [https://api.sejm.gov.pl/eli/acts/DU/2019/1781/text.html](https://api.sejm.gov.pl/eli/acts/DU/2019/1781/text.html)
+
+Language: Polish
+
+Version observed: Consolidated announcement of 30 August 2019, Dz.U. 2019 poz. 1781. ELI displayed status obowiązujący and two later amendments when checked 2026-10-21.
+
+Retrieved: 2026-10-19T01:53:43+00:00
+
+Source response SHA-256: 2be9b88907edc05ba9fe7b8a27ef6dc5df2828c48ff934e70032ef048410cdb8
+
+Monitor-archived research record SHA-256: 857fd9deb36fc8fcf01ab021ad0463c983e026c27475be1979c3bda1315f8a47; archive path candidates/poland_candidate_promotion_20261025/Poland/pl-52.md
+
+Conversion review: Official ELI HTML text; replay with the recorded `body` selector reproduced the source-text body from the captured response. The ELI record identity, chapter structure and Article 58 were checked against the official text. The historic candidate header differs from the present source note; the full candidate-byte hash is retained separately in the Monitor archive.
+
+Local-copy basis: Polish copyright law excludes normative acts and their official drafts (Copyright and Related Rights Act, Article 4(1)(1)); official documents and materials are addressed in Article 4(1)(2). Only the official statutory text and its necessary publication metadata are retained; portal interface, third-party imagery, guidance and forms are excluded. Official consolidated text: https://eli.gov.pl/eli/DU/2025/24/ogl.
+
+## Scope
+
+National data-protection procedure and rights relevant to public authorities, alongside directly applicable EU law and sector-specific rules.
+
+## Currentness and review limits
+
+- Currentness checked 2026-10-25: ELI identifies Dz.U. 2019 poz. 1781 as active and lists two later amendments. This dated text is not accepted as the complete current wording where a later amendment affects the provision in issue.
+- Markdown preserves extracted wording and page markers, not the original page layout. Hash and replay support identity and repeatability, not legal interpretation or sufficiency.
+- Local text acceptance does not establish topic coverage or country completion.
+
+## Semantic review
+
+- Reviewed 2026-10-25 against the official ELI record and its advertised text representation. Publisher, Dz.U. identifier, title and publication metadata match the captured source.
+- Official ELI HTML text; replay with the recorded `body` selector reproduced the source-text body from the captured response. The ELI record identity, chapter structure and Article 58 were checked against the official text. The historic candidate header differs from the present source note; the full candidate-byte hash is retained separately in the Monitor archive.
+- The reviewed copy preserves the source wording as extracted. Page layout and visual formatting are not reproduced; this review is not a provision-by-provision legal analysis.
+
+## Official source text
 
 Obwieszczenie Marszałka Sejmu Rzeczypospolitej Polskiejz dnia 30 sierpnia 2019 r.w sprawie ogłoszenia jednolitego tekstu ustawy o ochronie danych osobowych
 
@@ -4507,5 +4536,3 @@ osobowych (Dz. U. poz. 1000) utraciły moc z dniem 6 lutego 2019 r. na podstawie
 107 ustawy z dnia 14 grudnia 2018 r. o ochronie danych osobowych przetwarzanych w
 związku z zapobieganiem i zwalczaniem przestępczości (Dz. U. z 2019 r. poz. 125),
 która weszła w życie z dniem 6 lutego 2019 r.
-
-Pokaż całość
