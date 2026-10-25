@@ -8,7 +8,7 @@ The original bounded register contained 54 leads. This promotion resolved 52 to 
 
 - No Norway action is registered in the EU Source Update Monitor. The work used its local-only archive and review branch plus manual official-source review.
 - Lovdata's current terms were checked on 25 October 2026. The identified route permits copying individual formal laws and central regulations with source attribution under NLOD 2.0; mass downloading and systematic extraction are restricted. No statute body was copied in this pass.
-- The historical updater `sync_norway.py` writes candidate Markdown and capture manifests into the country pack. It must not be used after this migration; a safe replacement is required before further automated retrieval.
+- The legacy `sync_norway.py` entry point has been disabled. No Norway-specific Monitor action is registered; future retrieval needs a workflow that writes research artifacts through the Monitor archive.
 - The 16 listed candidate outputs replayed byte-for-byte, but that demonstrates only deterministic conversion. Fifteen outputs failed replay against the current converter. Five changed-source variants remain preserved in the Monitor archive and were not promoted.
 - Raw response files remain in temporary storage and are not yet indexed in the Monitor archive. Before a later offline text review, migrate the required raw bytes and retrieval metadata with the Monitor archive workflow.
 
