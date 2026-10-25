@@ -70,38 +70,54 @@
           "status": "partially_supported",
           "source_ids": [
             "bg-mfa-visa-ordinance-consolidated",
-            "bg-visa-amendment-221-2025"
+            "bg-visa-amendment-221-2025",
+            "eu:32004l0038",
+            "eu:32009r0810",
+            "eu:32023r2667",
+            "eu:c-2023-1392",
+            "eu:visa-code-handbook-i-2024",
+            "bg-eu-schengen-acquis-2024-210",
+            "bg-eu-schengen-land-controls-2024-3212",
+            "bg-mfa-visa-hub"
           ],
-          "note": "The MFA consolidation through SG 4/2025 and targeted 2025 amendment are reviewed; the Visa Code and Directive article concordance is not complete. The canonical Bulgarian Visa Code representation and the separate Visa Code digitalisation amendment are now routed through references/shared-core.json; article-level concordance and Bulgarian implementation evidence remain open."
+          "note": "The accepted Bulgarian Visa Ordinance is cross-referenced to Directive 2004/38/EC Articles 5(2) and 10 and the Visa Code. Council Decision (EU) 2024/210 made the listed Visa Code acquis applicable to Bulgaria on 31 March 2024; the Bulgaria non-applicability sentence in Commission Notice C/2023/1392 is now outdated. The full article-level concordance, applicant-class scope, and Bulgarian implementation of Regulation 2023/2667 remain open."
         },
         "implementing_rule": {
           "status": "partially_supported",
           "source_ids": [
             "bg-mfa-visa-ordinance-consolidated",
-            "bg-mfa-tariff-3"
+            "bg-mfa-tariff-3",
+            "bg-visa-amendment-221-2025",
+            "eu:32009r0810",
+            "eu:32023r2667"
           ],
-          "note": "Visa procedure and consular fees are identified; exact fee exemptions and application to each family category need a provision-level review."
+          "note": "Ordinance Articles 20(2)(4) and 23(3) provide a specified insurance-proof exemption and direct access without prior appointment for qualifying family/household members. MFA guidance adds means/accommodation/transport, insurance and family fee exemptions; exact applicant scope and interaction with Visa Code/Directive fee and provider-charge rules remain open."
         },
         "procedure": {
           "status": "partially_supported",
           "source_ids": [
             "bg-mfa-visa-hub",
             "bg-mfa-visa-form",
-            "bg-annex-16-prior-consultations"
+            "bg-annex-16-prior-consultations",
+            "eu:visa-code-handbook-i-2024"
           ],
-          "note": "Central guidance, the national form, and the shared-core prior-consultation locator are identified; mission-specific filing practice is not covered."
+          "note": "Current central MFA guidance was rechecked 25 October 2026. It states general 15-day submission and possible appointment instructions, limited family evidence, and the prior-consultation list. It does not explain the qualifying family-member accelerated route or how the general timing/appointment text is scoped; mission-specific instructions, representation and prior-consultation handling remain open."
         },
         "remedy_or_practice": {
           "status": "partially_supported",
           "source_ids": [
             "bg-mfa-visa-hub",
-            "bg-apc"
+            "bg-apc",
+            "eu:32009r0810",
+            "eu:visa-code-handbook-i-2024"
           ],
-          "note": "The central MFA page describes refusal routes; deadlines, competent forum, and reviewed case application remain open."
+          "note": "The current MFA page identifies appeal routes to the MFA or Administrative Court Sofia-city. Directive Article 5(2) and the 2024 Visa Code Handbook inform accelerated handling, but national deadlines, competent forum, costs, and reviewed decisions remain open."
         }
       },
       "open_issues": [
-        "Map visa facilitation, no-fee and expedited handling, entry evidence, prior consultation, representation, and remedies against the Visa Code and each applicable national rule."
+        "Complete the applicant-class and provision crosswalk for Directive 2004/38 Articles 5(2) and 10, Visa Code Articles 9, 16, 17 and 32, the Visa Code Handbook I, and Bulgarian Ordinance Articles 20(2)(4) and 23(3); preserve the 31 March 2024 Schengen start date and the limited Article 3 exception in Decision 2024/210.",
+        "Verify the scope of the MFA’s relationship-only evidence, means/accommodation/transport and insurance exemptions, family visa-fee waiver, and prior-consultation rules against national text and EU law; separate visa-fee waiver from optional external-provider service charges.",
+        "Review border-entry evidence, mission representation, online-application implementation and remedies for qualifying family members; do not infer operational coverage from central web guidance."
       ]
     },
     {
@@ -441,37 +457,49 @@
           "source_ids": [
             "bg-mfa-visa-ordinance-consolidated",
             "bg-visa-amendment-3-2025",
-            "bg-visa-amendment-221-2025"
+            "bg-visa-amendment-221-2025",
+            "eu:32009r0810",
+            "eu:32004l0038",
+            "eu:32023r2667",
+            "eu:visa-code-handbook-i-2024",
+            "bg-eu-schengen-acquis-2024-210"
           ],
-          "note": "The current reviewed national consolidation and targeted amendments are identified; reconcile with the Visa Code and post-publication amendments."
+          "note": "The Visa Code applies in Bulgaria under Council Decision (EU) 2024/210 from 31 March 2024. Directive Article 5(2) separately requires free issuance and accelerated handling for qualifying family members; the Handbook supplies non-binding operational guidance. National Ordinance and amendments are accepted references, but the refusal/review provisions have not been fully reconciled."
         },
         "implementing_rule": {
           "status": "partially_supported",
           "source_ids": [
             "bg-mfa-tariff-3",
-            "bg-annex-16-prior-consultations"
+            "bg-annex-16-prior-consultations",
+            "bg-mfa-visa-ordinance-consolidated",
+            "eu:32009r0810"
           ],
-          "note": "Tariff and prior-consultation list are identified; applicable fee exemptions, consultation triggers, and current status need full review."
+          "note": "Current consular tariff, Ordinance and consultation list are identified. Distinguish the Directive no-visa-fee entitlement from listed Visa Code fee categories and possible provider-service charges; exact national scope and consultation exemptions remain open."
         },
         "procedure": {
           "status": "partially_supported",
           "source_ids": [
             "bg-mfa-visa-hub",
-            "bg-mfa-visa-form"
+            "bg-mfa-visa-form",
+            "eu:visa-code-handbook-i-2024"
           ],
-          "note": "Central MFA guidance and national form are reviewed; mission-level instructions and outsourced channels remain open."
+          "note": "Central MFA guidance states a 15-day general processing period with possible extension to 45 days and identifies a route to appeal refusal, but does not explain accelerated processing for qualifying family applicants. Mission procedures and digital-platform implementation remain open."
         },
         "remedy_or_practice": {
           "status": "partially_supported",
           "source_ids": [
             "bg-mfa-visa-hub",
-            "bg-apc"
+            "bg-apc",
+            "eu:32009r0810",
+            "eu:visa-code-handbook-i-2024"
           ],
-          "note": "Central appeal guidance is identified; deadline, forum, suspensive effect, and individual case practice are not fully verified."
+          "note": "The central MFA page identifies the Ministry and Administrative Court Sofia-city as refusal-review routes. Visa Code Article 32 and Directive safeguards are relevant; exact limitation period, competent forum, suspensive effect, fees, legal aid, and case application are not fully verified."
         }
       },
       "open_issues": [
-        "Verify precise remedies for family-member visa refusals, reasons, limitation periods, judicial forum, fees, and legal-aid eligibility."
+        "Map Visa Code Article 32 refusal grounds, reasoned notice and appeal language to the MFA’s stated administrative and judicial routes, then verify the applicable Bulgarian filing deadline, forum, fees, suspensive effect and legal-aid route.",
+        "Separate visa application fee, optional provider service charges, and no-fee treatment under Directive 2004/38 Article 5(2) and Bulgarian guidance; verify which family categories receive each treatment.",
+        "Check accelerated case timing against Directive Article 5(2), the 2024 Visa Code Handbook I and mission-specific appointment availability; do not apply ordinary 15/45-day processing statements without resolving that relationship."
       ]
     },
     {
@@ -547,16 +575,22 @@
         "primary_law": {
           "status": "partially_supported",
           "source_ids": [
-            "bg-mfa-visa-ordinance-consolidated"
+            "bg-mfa-visa-ordinance-consolidated",
+            "bg-eu-schengen-acquis-2024-210",
+            "eu:32009r0810",
+            "eu:32004l0038",
+            "eu:visa-code-handbook-i-2024"
           ],
-          "note": "National Visa Ordinance is identified; mission-specific law and delegation arrangements have not been mapped."
+          "note": "The applicable Schengen Visa Code has applied to Bulgaria since 31 March 2024 under Decision 2024/210; Ordinance Article 23(3) gives specified family/household members direct consular access without prior appointment. Mission-specific delegation, provider agreements and legal scope remain to be mapped."
         },
         "implementing_rule": {
           "status": "partially_supported",
           "source_ids": [
-            "bg-mfa-tariff-3"
+            "bg-mfa-tariff-3",
+            "bg-mfa-visa-ordinance-consolidated",
+            "eu:32009r0810"
           ],
-          "note": "Consular tariff is identified; mission-local fee application and exceptions are unverified."
+          "note": "The consular tariff and Ordinance Article 23(3) are identified; local service-fee, direct-lodging, family-fee and exception handling are not verified for the reviewed posts."
         },
         "procedure": {
           "status": "partially_supported",
@@ -565,9 +599,10 @@
             "bg-mfa-visa-form",
             "bg-dubai-eu-family",
             "bg-mfa-india-mission",
-            "bg-mfa-india-advisory"
+            "bg-mfa-india-advisory",
+            "eu:visa-code-handbook-i-2024"
           ],
-          "note": "Central MFA guidance and form plus official Dubai and India mission/contact pages are reviewed. Dubai's direct-family type-C appointment requirement conflicts with Visa Ordinance Article 23(3); the direct-family checklist is not stated on the mission page. India pages conflict on reception hours. The UAE territorial scope also differs between the MFA route and post contacts. These are bounded leads, not resolved practice."
+          "note": "Central MFA guidance rechecked 25 October 2026 gives generic timing and appointment text plus broad family exemptions; it does not state the complete accelerated EU-family procedure. Dubai and India links are bounded examples with unresolved contradictions; no mission-wide inference is made."
         },
         "remedy_or_practice": {
           "status": "partially_supported",
@@ -575,15 +610,17 @@
             "bg-mfa-visa-hub",
             "bg-dubai-eu-family",
             "bg-mfa-india-mission",
-            "bg-mfa-india-advisory"
+            "bg-mfa-india-advisory",
+            "eu:visa-code-handbook-i-2024"
           ],
-          "note": "Official Dubai and India pages provide concrete practice evidence, but appointment, checklist, reception-hour and representation-scope conflicts remain open. No mission task is closed and no post sample is generalized to other missions."
+          "note": "The central refusal routes and one Dubai and two India page sets provide limited practice evidence. Appointment, checklist, timing, territorial scope, representation, provider fee and competent decision-maker issues remain open."
         }
       },
       "open_issues": [
         "Review the MFA mission directory and each relevant post; reconcile Dubai and India appointment instructions with the qualifying EU-family no-prior-appointment provision in Visa Ordinance Article 23(3).",
         "Obtain authoritative checklist and Abu Dhabi scope clarification for the Dubai direct family route; reconcile the two India pages' hours and establish its EU-family procedure.",
-        "Map competent decision authority and representation limits for each relevant mission."
+        "Map competent decision authority and representation limits for each relevant mission.",
+        "Compare the MFA hub’s generic appointment and 15-day instructions with the qualifying-family accelerated route, current Visa Code Handbook guidance and Ordinance Article 23(3); verify how each reviewed mission actually implements direct access."
       ]
     },
     {
