@@ -1,19 +1,48 @@
 # Law on Proceedings Before Administrative Courts, consolidated text Dz.U. 2026 poz. 143
 
-- Jurisdiction: poland
-- Candidate ID: `pl-50`
-- Source type: `administrative_court_procedure_legislation`
-- Candidate URL: https://eli.gov.pl/eli/DU/2026/143/ogl
-- Resolved URL: https://api.sejm.gov.pl/eli/acts/DU/2026/143/text.pdf
-- Retrieved: 2026-10-19T01:53:36+00:00
-- Media type: `application/pdf`
-- Publisher/version evidence: Official 2026 consolidated-text candidate identified. It is relevant to judicial review after administrative decisions; exact current page, later amendments and article-level appeals route need direct verification.
-- Extraction: `PDF text extraction; 51 pages`
-- Exact response SHA-256: `fac9eacb8bbfabd13fd3102645c645d91dca4b193017a3fdb046b4cf0ff19066`
+Jurisdiction: Poland
 
-> **Local-copy review notice.** This captured file is not accepted as a retained copy. A direct official link can be used for research after reviewing relevant content, date/version, scope, and caveats. Local-copy acceptance and reuse terms matter only when retaining or redistributing this file.
+Source ID: pl-50
 
-## Captured source text
+Source class: administrative_court_procedure_legislation
+
+Official publisher: Electronic Legal Information (ELI), official legal information portal of the Chancellery of the Sejm of the Republic of Poland
+
+Official source record: [https://eli.gov.pl/eli/DU/2026/143/ogl](https://eli.gov.pl/eli/DU/2026/143/ogl)
+
+Official text retrieved: [https://api.sejm.gov.pl/eli/acts/DU/2026/143/text.pdf](https://api.sejm.gov.pl/eli/acts/DU/2026/143/text.pdf)
+
+Language: Polish
+
+Version observed: Consolidated announcement of 21 January 2026, Dz.U. 2026 poz. 143. ELI displayed status obowiązujący and one later amendment when checked 2026-10-21.
+
+Retrieved: 2026-10-19T01:53:36+00:00
+
+Source response SHA-256: fac9eacb8bbfabd13fd3102645c645d91dca4b193017a3fdb046b4cf0ff19066
+
+Monitor-archived research record SHA-256: ad6885584e3e411ce630c3ab99b25383eb44bde50041d0887d49a30893ffaed7; archive path candidates/poland_candidate_promotion_20261025/Poland/pl-50.md
+
+Conversion review: 51-page official ELI PDF; exact pypdf 6.21.1 replay from the captured raw response reproduced the indexed candidate bytes. The publication identity and Article 149 remedy for inaction or excessive delay were checked against the official ELI text.
+
+Local-copy basis: Polish copyright law excludes normative acts and their official drafts (Copyright and Related Rights Act, Article 4(1)(1)); official documents and materials are addressed in Article 4(1)(2). Only the official statutory text and its necessary publication metadata are retained; portal interface, third-party imagery, guidance and forms are excluded. Official consolidated text: https://eli.gov.pl/eli/DU/2025/24/ogl.
+
+## Scope
+
+Judicial review of administrative decisions and related administrative-court procedure.
+
+## Currentness and review limits
+
+- Currentness checked 2026-10-25: ELI identifies Dz.U. 2026 poz. 143 as active and lists one later amendment. This text does not identify the correct remedy or deadline in an individual matter.
+- Markdown preserves extracted wording and page markers, not the original page layout. Hash and replay support identity and repeatability, not legal interpretation or sufficiency.
+- Local text acceptance does not establish topic coverage or country completion.
+
+## Semantic review
+
+- Reviewed 2026-10-25 against the official ELI record and its advertised text representation. Publisher, Dz.U. identifier, title and publication metadata match the captured source.
+- 51-page official ELI PDF; exact pypdf 6.21.1 replay from the captured raw response reproduced the indexed candidate bytes. The publication identity and Article 149 remedy for inaction or excessive delay were checked against the official ELI text.
+- The reviewed copy preserves the source wording as extracted. Page layout and visual formatting are not reproduced; this review is not a provision-by-provision legal analysis.
+
+## Official source text
 
 <!-- page 1 -->
   

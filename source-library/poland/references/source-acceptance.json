@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "jurisdiction": "PL",
-  "as_of": "2026-10-21",
+  "as_of": "2026-10-25",
   "source_review_manifest": "source-review-manifest.json",
   "required_checks": [
     "publisher_identity",
@@ -23,22 +23,21 @@
   },
   "policy": "For ordinary research, accept a trustworthy official link when publisher, exact instrument/page, language, scope, displayed status or version/cutoff, legal classification and material caveats are clear. Prefer a government-published consolidated text. If exact identity, scope or a material currentness question cannot be established confidently, offer the whole relevant official website or portal for human review. Review linked attachments when they are relied upon. Extraction, integrity and retention/reuse checks apply only when accepting a retained local copy or planning copying/republication. API access, registration, retrieval, conversion, hashes and replay are not prerequisites for link use. Link acceptance, local-copy acceptance, topic adequacy and country completion are separate decisions.",
   "counts": {
-    "candidate_records": 63,
     "reviewed_source_references": 63,
     "accepted_external_references": 54,
     "historical_reference_only": 4,
     "not_relied_upon_or_human_review_offered": 5,
-    "remaining_candidate_records": 9,
-    "accepted_local_copies": 0,
+    "accepted_local_copies": 8,
     "accepted_topics": 0,
-    "country_review_complete": false
+    "country_review_complete": false,
+    "source_records": 63
   },
   "publisher_assessment": {
     "publisher": "Electronic Legal Information (ELI), gov.pl ministries and agencies, MOS, UODO, RPO, NSA and Ministry of Foreign Affairs portals",
     "owner": "Polish public authorities; legal publication records are published through ELI by the Chancellery of the Sejm",
     "decision": "Accept clear official references within the source-specific scope recorded in source-review-manifest.json; offer whole-site review for routes whose current content or operation was not directly established.",
     "basis": "Official ELI metadata identifies consolidated instruments, publication records, status dates and later-amendment markers. Captured official pages identify the responsible agencies and stated operational topics. The 2026 review added official ELI links for e-delivery, SIS/VIS implementation, constitutional remedies, fees, Ombudsman oversight, complaint handling, and permanent-residence forms.",
-    "limitation": "A link is not a legal conclusion. Dated consolidations with later amendments need a targeted check when material. Dynamic forms, appointments and operational pages may change. No local copy, legal topic or country-completion finding is accepted."
+    "limitation": "A link is not a legal conclusion. Dated consolidations with later amendments need a targeted check when material. Eight official statutory text copies are accepted under documents/legislation with source-specific version limits. Other retrieved candidate texts remain local-only and are not retained as pack copies. Dynamic forms, appointments and operational pages may change. No topic or country-completion finding is accepted."
   },
   "detailed_review_note": "official_reference_reviews contains selected detailed instrument reviews. source-review-manifest.json records the link decision and scope for all 63 references.",
   "official_reference_reviews": {
@@ -54,11 +53,12 @@
         "Polish is the controlling text.",
         "The status is what ELI displayed on 2026-10-21; check a later material amendment when relevant.",
         "This reference does not establish complete coverage of implementing forms, authority practice, remedies or all EEA/Swiss/return routes.",
-        "No local copy or republication permission is approved by this link review."
+        "The accepted local text is limited to the identified official source/version; it does not establish topic adequacy or current legal wording beyond the recorded version evidence."
       ],
       "status": "usable_official_reference",
       "rediscovery_url": "https://eli.gov.pl/",
-      "checked_on": "2026-10-21"
+      "checked_on": "2026-10-25",
+      "local_copy_review": "Accepted local statutory text at `documents/legislation/pl-06-current-2026-eu-citizens-residence-act.md`; SHA-256 `641670c810b05aa80ba0aba940373d81b05e80d21f94b70cb8f6bd9751d78b86`. This is separate from topic acceptance."
     },
     "pl-07": {
       "title": "Act of 21 November 2025 amending the Foreigners Act and certain other acts, Dz.U. 2025 poz. 1794",
@@ -72,11 +72,12 @@
         "This is an amending act, not a consolidated version of the statutes it changes.",
         "The provision-level effect must be checked for the specific legal issue; no full amendment-chain reconciliation is claimed.",
         "Polish is the controlling text.",
-        "No local copy or republication permission is approved by this link review."
+        "The accepted local text is limited to the identified official source/version; it does not establish topic adequacy or current legal wording beyond the recorded version evidence."
       ],
       "status": "usable_official_reference",
       "rediscovery_url": "https://eli.gov.pl/",
-      "checked_on": "2026-10-21"
+      "checked_on": "2026-10-25",
+      "local_copy_review": "Accepted local statutory text at `documents/legislation/pl-07-foreigners-act-amendment-2025.md`; SHA-256 `57356569750b4bf94647d6247c718bcdf99e7e085e5b34deb5771ff37f53b2bf`. This is separate from topic acceptance."
     },
     "pl-08": {
       "title": "Foreigners Act, consolidated announcement Dz.U. 2025 poz. 1079",
@@ -90,11 +91,12 @@
         "This is a dated consolidated text; it is not accepted as a complete statement of every provision in force on 2026-10-21.",
         "ELI lists two later amendments; identify and check a later change if it may affect the provision under review. Do not reconstruct unrelated Gazette history.",
         "Polish is the controlling text.",
-        "No local copy or republication permission is approved by this link review."
+        "The accepted local text is limited to the identified official source/version; it does not establish topic adequacy or current legal wording beyond the recorded version evidence."
       ],
       "status": "usable_official_reference",
       "rediscovery_url": "https://eli.gov.pl/",
-      "checked_on": "2026-10-21"
+      "checked_on": "2026-10-25",
+      "local_copy_review": "Accepted local statutory text at `documents/legislation/pl-08-foreigners-act-consolidated-2025.md`; SHA-256 `ddd6b23fa90fad036f0445a63abcf1f8fdeab1923a0e9893897f304bb326787d`. This is separate from topic acceptance."
     },
     "pl-09": {
       "title": "Code of Administrative Procedure, consolidated announcement Dz.U. 2025 poz. 1691",
@@ -107,11 +109,12 @@
       "limitations": [
         "Immigration-specific laws may provide special rules; map the provision to the actual procedure in issue.",
         "Polish is the controlling text.",
-        "No local copy or republication permission is approved by this link review."
+        "The accepted local text is limited to the identified official source/version; it does not establish topic adequacy or current legal wording beyond the recorded version evidence."
       ],
       "status": "usable_official_reference",
       "rediscovery_url": "https://eli.gov.pl/",
-      "checked_on": "2026-10-21"
+      "checked_on": "2026-10-25",
+      "local_copy_review": "Accepted local statutory text at `documents/legislation/pl-09-code-of-administrative-procedure-2025.md`; SHA-256 `820fbc8205c764cfa460cb3345d8a02565abd5979204188cac83fa91db67d61b`. This is separate from topic acceptance."
     },
     "pl-10": {
       "title": "Regulation on applications and documents for EU-citizen residence rights, Dz.U. 2021 poz. 1392",
@@ -143,11 +146,12 @@
         "This is a dated consolidated text; a provision affected by the later amendment needs a targeted check before current-law reliance.",
         "No full Gazette-by-Gazette reconstruction is required for ordinary link use.",
         "Polish is the controlling text.",
-        "No local copy or republication permission is approved by this link review."
+        "The accepted local text is limited to the identified official source/version; it does not establish topic adequacy or current legal wording beyond the recorded version evidence."
       ],
       "status": "usable_official_reference",
       "rediscovery_url": "https://eli.gov.pl/",
-      "checked_on": "2026-10-21"
+      "checked_on": "2026-10-25",
+      "local_copy_review": "Accepted local statutory text at `documents/legislation/pl-11-access-to-public-information-act-2022.md`; SHA-256 `7ee05e0c1612aa137fae5f234d1198ad34a201d98d119c6a0b3b079186dafbec`. This is separate from topic acceptance."
     },
     "pl-50": {
       "title": "Law on Proceedings Before Administrative Courts, consolidated announcement Dz.U. 2026 poz. 143",
@@ -161,11 +165,12 @@
         "The later amendment must be checked if it may affect the provision or procedural deadline in issue.",
         "This link does not establish the correct appeal route in an individual matter; map the administrative decision and applicable special statute.",
         "Polish is the controlling text.",
-        "No local copy or republication permission is approved by this link review."
+        "The accepted local text is limited to the identified official source/version; it does not establish topic adequacy or current legal wording beyond the recorded version evidence."
       ],
       "status": "usable_official_reference",
       "rediscovery_url": "https://eli.gov.pl/",
-      "checked_on": "2026-10-21"
+      "checked_on": "2026-10-25",
+      "local_copy_review": "Accepted local statutory text at `documents/legislation/pl-50-administrative-courts-procedure-act-2026.md`; SHA-256 `1f6eacf74a6f2fafd9a36f953d69809debcb38c00af2a5a98278dc58c8a4efcc`. This is separate from topic acceptance."
     },
     "pl-51-current-2026": {
       "title": "Free Legal Aid Act, consolidated announcement Dz.U. 2026 poz. 44",
@@ -178,11 +183,12 @@
       "limitations": [
         "Eligibility and availability of assistance in a particular immigration matter require issue-specific review.",
         "Polish is the controlling text.",
-        "No local copy or republication permission is approved by this link review."
+        "The accepted local text is limited to the identified official source/version; it does not establish topic adequacy or current legal wording beyond the recorded version evidence."
       ],
       "status": "usable_official_reference",
       "rediscovery_url": "https://eli.gov.pl/",
-      "checked_on": "2026-10-21"
+      "checked_on": "2026-10-25",
+      "local_copy_review": "Accepted local statutory text at `documents/legislation/pl-51-current-2026-free-legal-aid-act.md`; SHA-256 `f6f84087a679194015844787125b3180399a11a1a67cbc45bd7d03ea99df416e`. This is separate from topic acceptance."
     },
     "pl-52": {
       "title": "Personal Data Protection Act, consolidated announcement Dz.U. 2019 poz. 1781",
@@ -196,22 +202,23 @@
         "This is a dated consolidated text; check a later amendment only where it may affect the provision at issue.",
         "GDPR, SIS/VIS rules and immigration-specific statutes may govern alongside or instead of this Act.",
         "Polish is the controlling text.",
-        "No local copy or republication permission is approved by this link review."
+        "The accepted local text is limited to the identified official source/version; it does not establish topic adequacy or current legal wording beyond the recorded version evidence."
       ],
       "status": "usable_official_reference",
       "rediscovery_url": "https://eli.gov.pl/",
-      "checked_on": "2026-10-21"
+      "checked_on": "2026-10-25",
+      "local_copy_review": "Accepted local statutory text at `documents/legislation/pl-52-personal-data-protection-act-2019.md`; SHA-256 `ef2eee6606385576f5c00cda935414b60c86d3a44ab0aeec0811bd7b00b21ddc`. This is separate from topic acceptance."
     }
   },
   "not_accepted_or_still_under_review": [
-    "All local PDFs, HTML captures and converted Markdown remain unaccepted copies, even where the matching official link is accepted.",
+    "Only the eight source-specific statutory text files listed in accepted_local_copy_reviews are accepted as local copies. Other retrieved text candidates remain unaccepted in the Monitor local-only archive; official-link acceptance is recorded separately.",
     "No legal topic is accepted as adequately covered; issue and remedy crosswalks remain open.",
     "The exact procedural effect of the ePUAP instruction on UODO SIS pages remains unresolved under the Electronic Delivery Act and special-law exceptions.",
     "The exact current Polish residence-card specimen and the legal transition for each document class remain unverified.",
     "Voivodeship-local procedures, mission-specific services, case-law discovery completeness and country completion remain open."
   ],
-  "reviewed_on": "2026-10-21",
-  "status": "54_scoped_official_links_accepted; 4_historical_only; 5_routes_not_relied_on; topic_coverage_incomplete",
+  "reviewed_on": "2026-10-25",
+  "status": "54_scoped_official_links_accepted; 8_local_statutory_texts_accepted; 4_historical_only; 5_routes_not_relied_on; topic_coverage_incomplete",
   "accepted_external_reference_ids": [
     "pl-01",
     "pl-02",
@@ -350,5 +357,151 @@
       "limit": "The legal rule differs for EU-citizen residence documents and third-country-family residence cards. No Polish card specimen was visually verified."
     }
   ],
-  "content_reuse": "No permission to copy, bulk retrieve, convert or republish is inferred from external-reference acceptance."
+  "content_reuse": "For the eight accepted local statutory texts, Article 4(1)(1) of the Polish Copyright and Related Rights Act excludes normative acts and their official drafts; Article 4(1)(2) addresses official documents and materials. Retained copies contain official statutory text/publication material only and exclude portal interface, third-party imagery, guidance and forms. This basis is source-specific and does not grant reuse rights for other captured pages or attachments.",
+  "accepted_local_copy_reviews": {
+    "pl-06-current-2026": {
+      "decision": "accepted_local_official_text",
+      "path": "documents/legislation/pl-06-current-2026-eu-citizens-residence-act.md",
+      "sha256": "ba5f162c0c79cedc5aa42e89af635343bf54211043060d684848c2e653d13437",
+      "bytes": 170976,
+      "source_url": "https://eli.gov.pl/eli/DU/2026/1065/ogl",
+      "text_url": "https://api.sejm.gov.pl/eli/acts/DU/2026/1065/text.pdf",
+      "source_sha256": "efe0ee9a58ce0669d4e8c1ca3679c9da1caa02449b2995e9cd82e5045cc7adf4",
+      "source_bytes": 941696,
+      "official_text_section_sha256": "8f9e61be0909d7d12ce4f1249e3814872755d06504c56ee3d575febb1ed91b17",
+      "archived_candidate_sha256": "a1b3d2223f7a1fbdc7961bc97a9b6817c1603689d530a124aef2f53dcf57410c",
+      "archived_candidate_path": "candidates/poland_candidate_promotion_20261025/Poland/pl-06-current-2026.md",
+      "conversion_method": "PDF text extraction; 40 pages",
+      "reviewed_on": "2026-10-25",
+      "semantic_check": "ELI record and PDF front matter matched; the exact 40-page pypdf 6.21.1 replay matched the archived candidate; Article 20 was checked against ELI text.",
+      "reuse_basis": "The retained content is the official Polish normative text/publication material. Copyright and Related Rights Act, Article 4(1)(1) excludes normative acts and their official drafts; Article 4(1)(2) addresses official documents and materials. No portal UI, third-party imagery, guidance or forms are included.",
+      "limitations": "Local-copy acceptance is separate from topic adequacy, current legal applicability and country review completion; see the source-specific version/cutoff and limits in this register."
+    },
+    "pl-07": {
+      "decision": "accepted_local_official_text",
+      "path": "documents/legislation/pl-07-foreigners-act-amendment-2025.md",
+      "sha256": "7d94d24d795ab1a2f15b2f97a6ceb8e9a6daab0a85ca877be87c92832867814f",
+      "bytes": 172077,
+      "source_url": "https://eli.gov.pl/eli/DU/2025/1794/ogl",
+      "text_url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1794/text.pdf",
+      "source_sha256": "dd0580964c31c5d14805b0560aa3346d7ca5b57b1b56d3574861a2f3cd96be11",
+      "source_bytes": 906279,
+      "official_text_section_sha256": "a92fbfb99f967f5233de54cb0faa4a0e2b2ca9c2a5c599e61779ecf10284f223",
+      "archived_candidate_sha256": "27dbc5684117bccf9da0ef56569a11f6e6ea04b6470220f2031b79eba7fa716b",
+      "archived_candidate_path": "candidates/poland_candidate_promotion_20261025/Poland/pl-07.md",
+      "conversion_method": "PDF text extraction; 41 pages",
+      "reviewed_on": "2026-10-25",
+      "semantic_check": "ELI record and PDF front matter matched; the exact 41-page pypdf 6.21.1 replay matched the archived candidate; Article 19 staged commencement was checked against ELI text.",
+      "reuse_basis": "The retained content is the official Polish normative text/publication material. Copyright and Related Rights Act, Article 4(1)(1) excludes normative acts and their official drafts; Article 4(1)(2) addresses official documents and materials. No portal UI, third-party imagery, guidance or forms are included.",
+      "limitations": "Local-copy acceptance is separate from topic adequacy, current legal applicability and country review completion; see the source-specific version/cutoff and limits in this register."
+    },
+    "pl-08": {
+      "decision": "accepted_local_official_text",
+      "path": "documents/legislation/pl-08-foreigners-act-consolidated-2025.md",
+      "sha256": "69ce0888d2f96b80690d2c2f3c44ec597033ee1bf7ae44e12686632219b65e6d",
+      "bytes": 978495,
+      "source_url": "https://eli.gov.pl/eli/DU/2025/1079/ogl",
+      "text_url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1079/text.pdf",
+      "source_sha256": "2d3492f82ae1a1ab936667bf4fac1a8544adf4d166db0d6904145bc6d74ad4e0",
+      "source_bytes": 2513586,
+      "official_text_section_sha256": "9827a5649b9b41cd2e3e2ae9a994c91dfad10bc67265489fbcf0fff0d3b6b93a",
+      "archived_candidate_sha256": "335c64e64f76accddb531448efda9939393b978bab55aa545ace69d2765c0d9a",
+      "archived_candidate_path": "candidates/poland_candidate_promotion_20261025/Poland/pl-08.md",
+      "conversion_method": "PDF text extraction; 224 pages",
+      "reviewed_on": "2026-10-25",
+      "semantic_check": "ELI record and PDF front matter matched; the exact 224-page pypdf 6.21.1 replay matched the archived candidate; Article 1 scope and the official page count were checked against ELI text.",
+      "reuse_basis": "The retained content is the official Polish normative text/publication material. Copyright and Related Rights Act, Article 4(1)(1) excludes normative acts and their official drafts; Article 4(1)(2) addresses official documents and materials. No portal UI, third-party imagery, guidance or forms are included.",
+      "limitations": "Local-copy acceptance is separate from topic adequacy, current legal applicability and country review completion; see the source-specific version/cutoff and limits in this register."
+    },
+    "pl-09": {
+      "decision": "accepted_local_official_text",
+      "path": "documents/legislation/pl-09-code-of-administrative-procedure-2025.md",
+      "sha256": "52a88e1e50a286c80b08d778018e26cc8d8192a37d0197b1f7a424f04d605013",
+      "bytes": 193188,
+      "source_url": "https://eli.gov.pl/eli/DU/2025/1691/ogl",
+      "text_url": "https://api.sejm.gov.pl/eli/acts/DU/2025/1691/text.pdf",
+      "source_sha256": "152f0830dee854451929d1482ecb83e9d053bc7b339973f78cfe0ea98fca348b",
+      "source_bytes": 651323,
+      "official_text_section_sha256": "f1829c3c4eab6fe3a350f9999e7a58621f4537d113f01ada92bebb47c5c4df0c",
+      "archived_candidate_sha256": "69589448566258f73d786ffe5ea296a64b93906637c1c0efc8f9ad1d50fec7a5",
+      "archived_candidate_path": "candidates/poland_candidate_promotion_20261025/Poland/pl-09.md",
+      "conversion_method": "PDF text extraction; 46 pages",
+      "reviewed_on": "2026-10-25",
+      "semantic_check": "ELI record and PDF front matter matched; the exact 46-page pypdf 6.21.1 replay matched the archived candidate; Articles 35 and 37 were checked against ELI text.",
+      "reuse_basis": "The retained content is the official Polish normative text/publication material. Copyright and Related Rights Act, Article 4(1)(1) excludes normative acts and their official drafts; Article 4(1)(2) addresses official documents and materials. No portal UI, third-party imagery, guidance or forms are included.",
+      "limitations": "Local-copy acceptance is separate from topic adequacy, current legal applicability and country review completion; see the source-specific version/cutoff and limits in this register."
+    },
+    "pl-11": {
+      "decision": "accepted_local_official_text",
+      "path": "documents/legislation/pl-11-access-to-public-information-act-2022.md",
+      "sha256": "48690856f737fbfa083a68cb987a877b7ff99609599483a1fa0585c4d09c5f5a",
+      "bytes": 34704,
+      "source_url": "https://eli.gov.pl/eli/DU/2022/902/ogl",
+      "text_url": "https://api.sejm.gov.pl/eli/acts/DU/2022/902/text.html",
+      "source_sha256": "f120633e886e329ee6798f3eff504f16b3540601b2ab7b78c328ad9db3b161c8",
+      "source_bytes": 169748,
+      "official_text_section_sha256": "d752c6a0e002370e89313e8d8f3306b5145d583c641ee48bfb9c2917d3ae9c2a",
+      "archived_candidate_sha256": "53ddce2c7c9b476bdc9983b562728d98a34012bcdd7ac91c6243c3262205c1aa",
+      "archived_candidate_path": "candidates/poland_candidate_promotion_20261025/Poland/pl-11.md",
+      "conversion_method": "body",
+      "reviewed_on": "2026-10-25",
+      "semantic_check": "ELI record and HTML identity matched; replay with the recorded body selector/fallback matched the archived candidate; the table of contents and Article 13 were checked against ELI text.",
+      "reuse_basis": "The retained content is the official Polish normative text/publication material. Copyright and Related Rights Act, Article 4(1)(1) excludes normative acts and their official drafts; Article 4(1)(2) addresses official documents and materials. No portal UI, third-party imagery, guidance or forms are included.",
+      "limitations": "Local-copy acceptance is separate from topic adequacy, current legal applicability and country review completion; see the source-specific version/cutoff and limits in this register."
+    },
+    "pl-50": {
+      "decision": "accepted_local_official_text",
+      "path": "documents/legislation/pl-50-administrative-courts-procedure-act-2026.md",
+      "sha256": "e067528b8a69b899e18072655ab57df134bccff647bc78f39f110b917651e043",
+      "bytes": 226319,
+      "source_url": "https://eli.gov.pl/eli/DU/2026/143/ogl",
+      "text_url": "https://api.sejm.gov.pl/eli/acts/DU/2026/143/text.pdf",
+      "source_sha256": "fac9eacb8bbfabd13fd3102645c645d91dca4b193017a3fdb046b4cf0ff19066",
+      "source_bytes": 1183242,
+      "official_text_section_sha256": "2e4e483a628e1dd45f710decae0759246171d82979a3936730335a667ddb0f01",
+      "archived_candidate_sha256": "ad6885584e3e411ce630c3ab99b25383eb44bde50041d0887d49a30893ffaed7",
+      "archived_candidate_path": "candidates/poland_candidate_promotion_20261025/Poland/pl-50.md",
+      "conversion_method": "PDF text extraction; 51 pages",
+      "reviewed_on": "2026-10-25",
+      "semantic_check": "ELI record and PDF front matter matched; the exact 51-page pypdf 6.21.1 replay matched the archived candidate; Article 149 was checked against ELI text.",
+      "reuse_basis": "The retained content is the official Polish normative text/publication material. Copyright and Related Rights Act, Article 4(1)(1) excludes normative acts and their official drafts; Article 4(1)(2) addresses official documents and materials. No portal UI, third-party imagery, guidance or forms are included.",
+      "limitations": "Local-copy acceptance is separate from topic adequacy, current legal applicability and country review completion; see the source-specific version/cutoff and limits in this register."
+    },
+    "pl-51-current-2026": {
+      "decision": "accepted_local_official_text",
+      "path": "documents/legislation/pl-51-current-2026-free-legal-aid-act.md",
+      "sha256": "a1e484a9f946b1658d2855a131a159e82a8d81a263b3dac983d16143fd8b716f",
+      "bytes": 75710,
+      "source_url": "https://eli.gov.pl/eli/DU/2026/44/ogl",
+      "text_url": "https://api.sejm.gov.pl/eli/acts/DU/2026/44/text.pdf",
+      "source_sha256": "17eb95b1b31d1ff3f22846c6d9b5626d4fe06c873e700251de00917fa8c08feb",
+      "source_bytes": 539120,
+      "official_text_section_sha256": "94fd89f7d0c2f2a41acd9678cf1d4a4ddb97e4b54c894fb176c44bb3042559dd",
+      "archived_candidate_sha256": "420b653321010d1d155dfc3d7999f1d4349c42eac21536232f0b771c626f438a",
+      "archived_candidate_path": "candidates/poland_candidate_promotion_20261025/Poland/pl-51-current-2026.md",
+      "conversion_method": "PDF text extraction; 19 pages",
+      "reviewed_on": "2026-10-25",
+      "semantic_check": "ELI record and PDF front matter matched; the exact 19-page pypdf 6.21.1 replay matched the archived candidate; Articles 3 and 4 were checked against ELI text.",
+      "reuse_basis": "The retained content is the official Polish normative text/publication material. Copyright and Related Rights Act, Article 4(1)(1) excludes normative acts and their official drafts; Article 4(1)(2) addresses official documents and materials. No portal UI, third-party imagery, guidance or forms are included.",
+      "limitations": "Local-copy acceptance is separate from topic adequacy, current legal applicability and country review completion; see the source-specific version/cutoff and limits in this register."
+    },
+    "pl-52": {
+      "decision": "accepted_local_official_text",
+      "path": "documents/legislation/pl-52-personal-data-protection-act-2019.md",
+      "sha256": "3964512a2eb3b8062bc8ff138630c42aeae45e5b5c2d78b4ab309e52c96ba035",
+      "bytes": 143697,
+      "source_url": "https://eli.gov.pl/eli/DU/2019/1781/ogl",
+      "text_url": "https://api.sejm.gov.pl/eli/acts/DU/2019/1781/text.html",
+      "source_sha256": "2be9b88907edc05ba9fe7b8a27ef6dc5df2828c48ff934e70032ef048410cdb8",
+      "source_bytes": 737793,
+      "official_text_section_sha256": "15aa4f9c619de9ebd2c60701a97f55cea58ef892925a0f12464f855cbe4ec288",
+      "archived_candidate_sha256": "857fd9deb36fc8fcf01ab021ad0463c983e026c27475be1979c3bda1315f8a47",
+      "archived_candidate_path": "candidates/poland_candidate_promotion_20261025/Poland/pl-52.md",
+      "conversion_method": "body",
+      "reviewed_on": "2026-10-25",
+      "semantic_check": "ELI record and HTML identity matched; replay with the recorded body selector reproduced the official source-text body; chapter structure and Article 58 were checked against ELI text.",
+      "reuse_basis": "The retained content is the official Polish normative text/publication material. Copyright and Related Rights Act, Article 4(1)(1) excludes normative acts and their official drafts; Article 4(1)(2) addresses official documents and materials. No portal UI, third-party imagery, guidance or forms are included.",
+      "limitations": "Local-copy acceptance is separate from topic adequacy, current legal applicability and country review completion; see the source-specific version/cutoff and limits in this register."
+    }
+  }
 }

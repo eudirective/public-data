@@ -1,19 +1,48 @@
 # 2025 amendment Dz.U. 2025 poz. 1794
 
-- Jurisdiction: poland
-- Candidate ID: `pl-07`
-- Source type: `immigration_amending_legislation`
-- Candidate URL: https://eli.gov.pl/eli/DU/2025/1794/ogl
-- Resolved URL: https://api.sejm.gov.pl/eli/acts/DU/2025/1794/text.pdf
-- Retrieved: 2026-10-19T01:52:19+00:00
-- Media type: `application/pdf`
-- Publisher/version evidence: Published 17 December 2025 and generally in force from 1 January 2026. Provisions and linked statute changes require article-level commencement reconciliation, including later effective dates; monitor the amending act as well as any future consolidated text.
-- Extraction: `PDF text extraction; 41 pages`
-- Exact response SHA-256: `dd0580964c31c5d14805b0560aa3346d7ca5b57b1b56d3574861a2f3cd96be11`
+Jurisdiction: Poland
 
-> **Local-copy review notice.** This captured file is not accepted as a retained copy. A direct official link can be used for research after reviewing relevant content, date/version, scope, and caveats. Local-copy acceptance and reuse terms matter only when retaining or redistributing this file.
+Source ID: pl-07
 
-## Captured source text
+Source class: immigration_amending_legislation
+
+Official publisher: Electronic Legal Information (ELI), official legal information portal of the Chancellery of the Sejm of the Republic of Poland
+
+Official source record: [https://eli.gov.pl/eli/DU/2025/1794/ogl](https://eli.gov.pl/eli/DU/2025/1794/ogl)
+
+Official text retrieved: [https://api.sejm.gov.pl/eli/acts/DU/2025/1794/text.pdf](https://api.sejm.gov.pl/eli/acts/DU/2025/1794/text.pdf)
+
+Language: Polish
+
+Version observed: Published 17 December 2025. ELI displayed status obowiązujący; general commencement is 1 January 2026 with specified provisions commencing on 1 April, 27 April and 4 May 2026.
+
+Retrieved: 2026-10-19T01:52:19+00:00
+
+Source response SHA-256: dd0580964c31c5d14805b0560aa3346d7ca5b57b1b56d3574861a2f3cd96be11
+
+Monitor-archived research record SHA-256: 27dbc5684117bccf9da0ef56569a11f6e6ea04b6470220f2031b79eba7fa716b; archive path candidates/poland_candidate_promotion_20261025/Poland/pl-07.md
+
+Conversion review: 41-page official ELI PDF; exact pypdf 6.21.1 replay from the captured raw response reproduced the indexed candidate bytes. The publication identity and Article 19 staged commencement provisions were checked against the official ELI text.
+
+Local-copy basis: Polish copyright law excludes normative acts and their official drafts (Copyright and Related Rights Act, Article 4(1)(1)); official documents and materials are addressed in Article 4(1)(2). Only the official statutory text and its necessary publication metadata are retained; portal interface, third-party imagery, guidance and forms are excluded. Official consolidated text: https://eli.gov.pl/eli/DU/2025/24/ogl.
+
+## Scope
+
+The identified amending Act and its staged commencement, as a related instrument for the EU-citizen residence and Foreigners Acts.
+
+## Currentness and review limits
+
+- Currentness checked 2026-10-25: The official record identifies Dz.U. 2025 poz. 1794, published 2025-12-17, with general commencement 2026-01-01 and staged provisions on 2026-04-01, 2026-04-27 and 2026-05-04. This is an amending Act, not a consolidated statute.
+- Markdown preserves extracted wording and page markers, not the original page layout. Hash and replay support identity and repeatability, not legal interpretation or sufficiency.
+- Local text acceptance does not establish topic coverage or country completion.
+
+## Semantic review
+
+- Reviewed 2026-10-25 against the official ELI record and its advertised text representation. Publisher, Dz.U. identifier, title and publication metadata match the captured source.
+- 41-page official ELI PDF; exact pypdf 6.21.1 replay from the captured raw response reproduced the indexed candidate bytes. The publication identity and Article 19 staged commencement provisions were checked against the official ELI text.
+- The reviewed copy preserves the source wording as extracted. Page layout and visual formatting are not reproduced; this review is not a provision-by-provision legal analysis.
+
+## Official source text
 
 <!-- page 1 -->
   
