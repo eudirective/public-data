@@ -16,7 +16,7 @@ IND and NetherlandsWorldwide provide the relevant residence, family, visa, form,
 
 The [source-acceptance register](source-acceptance.json) accepts 59 official links only for their listed page, instrument, service, or discovery scope. It offers whole official websites for human review where direct page access, currency, a broken route, or operational details need inspection. Three exact routes are not relied upon: an obsolete visa checklist, a NetherlandsWorldwide route that returned 404, and a Rechtspraak help page that returned 403 in the research client. These responses do not establish publisher downtime.
 
-The previous eight-source conversion pass and the wider 52-source conversion pass remain unaccepted artifacts. Their captures and replay hashes are evidence about those past conversions only. The wider pass used broad `body` extraction for some dynamic pages; this is not accepted as semantic validation. No extraction, hashing, replay, machine API, or recurring update job is required to use the official links.
+The previous focused and broad conversion passes remain unaccepted artifacts in the Monitor local-only archive. Their raw and derived captures, inventory lists, and replay hashes are evidence about those past retrievals only. The broad pass used `body` extraction for some dynamic pages; this is not semantic validation. No extraction, hashing, replay, machine API, or recurring update job is required to use the official links.
 
 ## Optional retained copies
 

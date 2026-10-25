@@ -1,24 +1,21 @@
-# Netherlands source review
+# Netherlands national source pack
 
-**Review date:** 21 October 2026
+**Source review:** 21 October 2026. **Local-copy disposition:** 25 October 2026.
 
-**Status:** 62 unique source records; 59 official external references accepted within scope; 3 obsolete or unavailable routes not relied upon; 0 local copies or legal topics accepted; country review incomplete.
+**Status:** 62 unique source records; 59 official external references accepted within scope; 3 obsolete or unavailable exact routes not relied upon. No local copies or topics are accepted, and the country review remains incomplete.
 
-The review reconciles the eight earlier focused candidates with the wider 52-record inventory. Five sources appeared in both lists, leaving 55 unique records. Seven issue-led additions bring the unified inventory to 62, including the implementing BRP regulations found through dependency checking. The historical capture files remain useful as dated review evidence, but neither a successful conversion nor a replay hash establishes source acceptance or legal coverage.
+## Source records
 
-Use official government consolidated law pages and official service pages directly. Wetten.nl's current consolidated records are suitable external references; use the version and effective period displayed by the publisher. Reconstructing Gazette amendments, retrieving an API export, retaining source bytes, converting pages, or running an updater is not required for ordinary source use. Direct Wetten.nl access was restricted in the research client during this review; this is not evidence that the publisher is down. Its full site is offered for human review when a specific current or historical version needs checking.
+- The [source list](references/source-list.md) and [source-review manifest](references/source-review-manifest.json) contain the reconciled 62-record inventory. The [acceptance register](references/source-acceptance.json) records the 59 accepted external links, 3 routes not relied upon, and whole-site human-review offers.
+- The former focused inventory (8 records) and broader inventory (52 records) had 5 overlaps. Three focused-only records and 7 issue-led additions bring the unified register to 62.
+- The old source conversions, discovery lists, and capture/retrieval manifests have been removed from the public pack after preservation in the EU Source Update Monitor local-only archive. They are provenance only; the accepted sources are the scoped official links in the current registers.
 
-The broader inventory's `body` conversions remain unaccepted local review artifacts. Do not use them as legal text. The older `sync_netherlands.py` capture workflow is optional and is not a source-acceptance or sustainability gate. No copying or republication permission is inferred from link acceptance.
+## Local copies and reuse
 
-Official Dutch-language EU texts are linked as external-only references in [shared-core.json](references/shared-core.json). No Dutch EU files are stored locally, so no empty country `core/` folder is created.
+No local source copy is accepted. Link acceptance does not establish permission to copy, bulk retrieve, convert, store, or republish source text. The earlier captured Markdown is not accepted legal text. No `documents/` folder is created because this pack currently has no accepted local source copies. Dutch-language EU materials remain external-only in [shared-core.json](references/shared-core.json).
 
-- [Unified source-review manifest](references/source-review-manifest.json)
-- [Human-readable 60-source review](references/source-review-list.md)
-- [External-reference acceptance and whole-site review offers](references/source-acceptance.json)
-- [Issue-led coverage register](references/coverage-register.md)
-- [Legal dependency register](references/dependency-register.json)
-- [Dutch-language EU references](references/shared-core.json)
-- [Sustainability assessment](references/sustainability-assessment.md)
-- [Earlier eight-record candidate manifest](references/candidate-manifest.json)
-- [Earlier 52-record discovery manifest](references/monitor-candidate-manifest-2026-10-18.json)
-- [Historical capture ledger](references/monitor-candidate-manifest-2026-10-18-capture-results.json)
+## Open coverage and maintenance
+
+Topic coverage remains at 0 and the Netherlands review is incomplete. Open work includes the Article 2(2)/Article 3(2) family-category crosswalk, current residence-card specimens under Regulation (EU) 2025/1208, decision-specific remedies and deadlines, municipality-level BRP practice, mission procedures, court-publication coverage, and legal-aid eligibility. See the [coverage register](references/coverage-register.md), [dependency register](references/dependency-register.json), and [sustainability assessment](references/sustainability-assessment.md).
+
+The Monitor has no registered Netherlands runtime action, so runtime-only checks are unsupported, not completed.
