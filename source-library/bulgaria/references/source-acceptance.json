@@ -2040,12 +2040,12 @@
         },
         "current_legal_version": {
           "status": "pass",
-          "review_date": "2026-10-24",
-          "evidence": "This record accepts a dated guidance snapshot, not a current legal consolidation. The official page was reopened on 2026-10-24 and exposed no page revision date; snapshot content is from 2026-10-19 and must be rechecked before reliance."
+          "review_date": "2026-10-25",
+          "evidence": "The official page was reopened on 2026-10-25. This record accepts a dated snapshot, not a current legal consolidation; no page revision date was exposed. The complete retained body remains the 2026-10-19 snapshot, with a separate 2026-10-25 review note, and must be rechecked before reliance."
         },
         "extraction_completeness": {
           "status": "pass",
-          "evidence": "The full English main article was retained from the captured HTML body, from its title through the final Visa Application Centre instruction. Site navigation and the cookie notice were excluded. The archived capture SHA-256 is recorded in semantic_review; the extraction was checked against the live page sections on 2026-10-24."
+          "evidence": "The full English main article body from the 2026-10-19 capture remains intact, from title through the final Visa Application Centre instruction. A 2026-10-25 legal review note was added without changing the captured body. Site navigation and cookie notice were excluded. The live page was reopened 25 October, but the full page was not recaptured."
         },
         "attachments_review": {
           "status": "pass",
@@ -2065,15 +2065,16 @@
       "semantic_review": {
         "status": "passed",
         "method": "official_page_region_and_legal_anchor_review",
-        "review_date": "2026-10-24",
-        "scope": "English main article text as a dated guidance snapshot",
-        "evidence": "Reviewed the article title, section sequence, Schengen date statements, visa application routes, family-member treatment, fee/refusal material, and Visa Application Centre list against the official page reopened on 2026-10-24. The page exposes no edition date, so no legal-currentness claim is made beyond that observation.",
+        "review_date": "2026-10-25",
+        "scope": "English main article text as a dated guidance snapshot, plus current page recheck and provision-level Schengen/Visa Code crosswalk",
+        "evidence": "The current official page was reopened on 2026-10-25. Its relevant text continues to describe Schengen visas and the family-evidence/fee/refusal guidance; the retained full body remains the 2026-10-19 capture. Council Decision (EU) 2024/210 Annex and the 2024 Visa Code consolidation establish that the Visa Code applied in Bulgaria from 31 March 2024, correcting the 2023 Notice's older Bulgaria applicability statement. The review note distinguishes Directive eligibility, national Ordinance exemptions, generic MFA appointment/timing text, and non-binding Handbook guidance. The page exposes no revision date; full current-page recapture was not performed.",
         "source_sha256": "3562f35b7fcf926db4c32160ba5bf7af7112e3f1cb584b70c8b4a3af3eb98958",
         "source_text_sha256": "5c12e7290e9d0dec7e50c03d27b0de8b38710de51e0382508a239331d10d255c",
         "document_sha256": "2023be0d0f250926ee22ae53e69dcd23553d27dc4d65d5b4527c97a4e4d874e3"
       },
       "accepted_on": "2026-10-24",
-      "document_path": "documents/guidance/bg-mfa-visa-hub.md"
+      "document_path": "documents/guidance/bg-mfa-visa-hub.md",
+      "document_sha256": "4afccb846b7cc8246cfd19de1562da13c5e7e28d35849dfe656315aa854e0493"
     },
     "bg-eu-form-extended": {
       "status": "accepted",
