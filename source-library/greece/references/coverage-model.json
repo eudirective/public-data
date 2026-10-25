@@ -1,0 +1,542 @@
+{
+  "schema_version": "1.0.0",
+  "jurisdiction": "GR",
+  "as_of": "2026-10-25",
+  "policy": "Issue-led coverage is separate from official-link acceptance. Only accepted source IDs appear in layer evidence; navigation references are explicitly limited to that function. Partial layers do not establish adequacy. A layer with no accepted relevant source remains unresolved. No topic or country completion is claimed.",
+  "required_layers": [
+    "primary_law",
+    "implementing_rules",
+    "procedure_and_practice",
+    "remedies_and_oversight"
+  ],
+  "adequately_covered_topic_count": 0,
+  "country_review_complete": false,
+  "coverage_status": "partial_with_open_gaps",
+  "topics": [
+    {
+      "topic_id": "ENTRY_AND_FREE_MOVEMENT",
+      "label": "EU-citizen entry, residence conditions and family scope",
+      "status": "partial",
+      "layers": [
+        {
+          "layer": "primary_law",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-pd106-2007-original",
+            "gr-law4071-2012-art42",
+            "gr-law4540-2018-art32"
+          ],
+          "open_gap": "PD 106/2007 remains accepted only as the original Greek decree; later amendments are separate links and no consolidated current wording is certified. The Directive article map is only partial."
+        },
+        {
+          "layer": "implementing_rules",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-pd106-2007-original",
+            "gr-law4071-2012-art42",
+            "gr-law4540-2018-art32"
+          ],
+          "open_gap": "No current government-published consolidation or complete amendment crosswalk is accepted."
+        },
+        {
+          "layer": "procedure_and_practice",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-mitos-gr-12",
+            "gr-mitos-gr-13",
+            "gr-mitos-gr-14",
+            "gr-mitos-gr-15"
+          ],
+          "open_gap": "These MITOS records describe Union-citizen registration routes and specified family categories; they do not cover every free-movement route or establish third-country family-card practice."
+        },
+        {
+          "layer": "remedies_and_oversight",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No complete refusal, delay, notification and appeal route crosswalk or completed case-law search is recorded."
+        }
+      ],
+      "open_gap": "Verify current Greek wording, category boundaries and exact remedies against the relevant law and applicable treaty route."
+    },
+    {
+      "topic_id": "TCN_FAMILY_RESIDENCE_CARD",
+      "label": "Residence documents for third-country family members of Union citizens",
+      "status": "partial",
+      "layers": [
+        {
+          "layer": "primary_law",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-pd106-2007-original",
+            "gr-law4071-2012-art42",
+            "gr-law4540-2018-art32",
+            "gr-law5275-2026-art53"
+          ],
+          "open_gap": "The base decree and targeted amendments are separate link references, not a current consolidation; the 2026 amendment is limited to specified Article 3(2) categories."
+        },
+        {
+          "layer": "implementing_rules",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No accepted current implementing-instrument crosswalk or complete Greek statutory text review is recorded."
+        },
+        {
+          "layer": "procedure_and_practice",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-gov-gr-60-residence-locator",
+            "gr-gov-gr-61-other-family-index"
+          ],
+          "open_gap": "The Gov.gr pages are accepted only as locator/navigation references. The general English counterpart is dated 28 November 2022; current documents, fees, card duration, authority and filing route remain unverified."
+        },
+        {
+          "layer": "remedies_and_oversight",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-pd106-2007-original",
+            "gr-law2690-1999-original"
+          ],
+          "open_gap": "The decree and Administrative Procedure Code links are not a provision-level remedy map; the current applicable deadlines, forum, interim relief and effects of appeal remain open."
+        }
+      ],
+      "open_gap": "The MITOS pages gr-12–gr-16 are not TCN family-card procedures. Complete a current official procedure review, including attachments and municipal/authority routing."
+    },
+    {
+      "topic_id": "EXTENDED_FAMILY_AND_DURABLE_PARTNERS",
+      "label": "Other family members, durable partners and facilitation duties",
+      "status": "partial",
+      "layers": [
+        {
+          "layer": "primary_law",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-pd106-2007-original",
+            "gr-law4540-2018-art32",
+            "gr-law5275-2026-art53"
+          ],
+          "open_gap": "Law 5275/2026 Article 53 changed the residence-document duration for specified Article 3(2) categories; no full current Article 3(2) consolidation is accepted."
+        },
+        {
+          "layer": "implementing_rules",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "The current implementing framework and any category-specific evidence rules have not been mapped."
+        },
+        {
+          "layer": "procedure_and_practice",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-gov-gr-61-other-family-index"
+          ],
+          "open_gap": "Only the Gov.gr category/navigation locator is accepted; its current detailed procedure, date and attachments are unverified."
+        },
+        {
+          "layer": "remedies_and_oversight",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No category-specific facilitation, reasons, delay or appeal crosswalk and no relevant case-law batch are recorded."
+        }
+      ],
+      "open_gap": "Confirm current Greek text and practice after Law 5275/2026; distinguish facilitation duties from automatic entitlement."
+    },
+    {
+      "topic_id": "RETAINED_AND_PERMANENT_RESIDENCE",
+      "label": "Retained personal rights and permanent residence",
+      "status": "partial",
+      "layers": [
+        {
+          "layer": "primary_law",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-pd106-2007-original",
+            "gr-law4686-2020-art43"
+          ],
+          "open_gap": "Law 4686/2020 Article 43 is limited to specified legacy permits; the relevant PD provisions require current Greek-text review."
+        },
+        {
+          "layer": "implementing_rules",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No complete rules for retained rights, continuity, absences or permanent cards are mapped."
+        },
+        {
+          "layer": "procedure_and_practice",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-mitos-gr-16"
+          ],
+          "open_gap": "MITOS gr-16 concerns the Union-citizen permanent-residence document; it does not establish the separate permanent residence card for third-country family members."
+        },
+        {
+          "layer": "remedies_and_oversight",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No issue-specific refusal/remedy route or case-law search is complete."
+        }
+      ],
+      "open_gap": "Map death/departure, divorce, retained status, continuity, absences and permanent residence separately for Union citizens and third-country family members."
+    },
+    {
+      "topic_id": "REFUSAL_TERMINATION_AND_RETURN",
+      "label": "Refusal, termination, public-policy restrictions and return",
+      "status": "partial",
+      "layers": [
+        {
+          "layer": "primary_law",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-pd106-2007-original",
+            "gr-law5226-2025-art28"
+          ],
+          "open_gap": "Law 5226/2025 Article 28 addresses specified return procedures and routes them through PD 106/2007 Articles 22–24; the wider refusal/termination framework is not fully mapped."
+        },
+        {
+          "layer": "implementing_rules",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-law5226-2025-art28"
+          ],
+          "open_gap": "The amendment supplies procedural rules supplementarily in its stated scope; application by decision type and all current implementing rules remain unverified."
+        },
+        {
+          "layer": "procedure_and_practice",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No current authority, service, removal-stage or case-specific procedural evidence set is complete."
+        },
+        {
+          "layer": "remedies_and_oversight",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-law5226-2025-art28",
+            "gr-pd106-2007-original"
+          ],
+          "open_gap": "Article 28 references judicial protection and PD Articles 22–24; forum, time limits, suspensive effect and interim measures need a provision-level map."
+        }
+      ],
+      "open_gap": "Keep EU-free-movement return safeguards distinct from ordinary migration-code procedures and from complaints to oversight bodies."
+    },
+    {
+      "topic_id": "ADMINISTRATIVE_PROCEDURE_ACCESS_AND_DELAY",
+      "label": "Administrative procedure, document access, reasons and inaction",
+      "status": "partial",
+      "layers": [
+        {
+          "layer": "primary_law",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-law2690-1999-original",
+            "gr-law5143-2024-art59"
+          ],
+          "open_gap": "The 1999 source is an original-issue locator; Article 5 was replaced by Law 5143/2024 Article 59. No current consolidated Code is accepted."
+        },
+        {
+          "layer": "implementing_rules",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No complete current regulations and special-procedure priority crosswalk is recorded."
+        },
+        {
+          "layer": "procedure_and_practice",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-mitos-gr-35",
+            "gr-diavgeia-portal"
+          ],
+          "open_gap": "MITOS gr-35 concerns public-document access. Diavgeia currently limits searches to ADA identifiers during maintenance; neither establishes complete immigration-file access practice."
+        },
+        {
+          "layer": "remedies_and_oversight",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-law2690-1999-original",
+            "gr-law5143-2024-art59",
+            "gr-ombudsman-complaint"
+          ],
+          "open_gap": "Ombudsman complaint submission is not a merits appeal; current deadlines, judicial forum, delay relief and interaction with special routes remain open."
+        }
+      ],
+      "open_gap": "Check the current consolidated procedural text, applicable special rules, service and deadline evidence before relying on a remedy."
+    },
+    {
+      "topic_id": "VISA_AND_MISSION_PROCEDURE",
+      "label": "Entry visas, mission competence, appointments and consular checklists",
+      "status": "unresolved",
+      "layers": [
+        {
+          "layer": "primary_law",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No Greece-specific accepted source map covers the Visa Code interaction and national privileged family-member visa route."
+        },
+        {
+          "layer": "implementing_rules",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No current national implementing or mission-instruction map is accepted."
+        },
+        {
+          "layer": "procedure_and_practice",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "Central and mission-specific instructions, competent post, appointments, outsourcing, forms and required evidence are not supported by accepted operational records."
+        },
+        {
+          "layer": "remedies_and_oversight",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No visa-refusal appeal or judicial-review route has been mapped."
+        }
+      ],
+      "open_gap": "Run a repeatable mission search by residence and decision type; record every query and result disposition."
+    },
+    {
+      "topic_id": "CIVIL_STATUS_AND_FAMILY_EVIDENCE",
+      "label": "Marriage, parentage and civil-status evidence",
+      "status": "partial",
+      "layers": [
+        {
+          "layer": "primary_law",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-pd106-2007-original",
+            "gr-pd456-1984-original"
+          ],
+          "open_gap": "PD 106/2007 establishes family categories; the Civil Code entry is only an original Gazette locator and its relevant articles/current status were not reviewed."
+        },
+        {
+          "layer": "implementing_rules",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No complete translation, registration, legalization or evidentiary rules are mapped."
+        },
+        {
+          "layer": "procedure_and_practice",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-mitos-gr-29",
+            "gr-mitos-gr-33"
+          ],
+          "open_gap": "The accepted MITOS records cover narrow marriage-licence and consular-marriage procedures, not every civil-status document or foreign judgment."
+        },
+        {
+          "layer": "remedies_and_oversight",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No challenge route for civil-status evidence decisions or issue-specific case-law search is recorded."
+        }
+      ],
+      "open_gap": "Map marriage, partnership, parentage, translations, apostilles, multilingual forms and foreign-document rules separately."
+    },
+    {
+      "topic_id": "ADOPTION_AND_FOREIGN_JUDGMENT_RECOGNITION",
+      "label": "Adoption, intercountry adoption and recognition of foreign family judgments",
+      "status": "partial",
+      "layers": [
+        {
+          "layer": "primary_law",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No controlling current Greek adoption/recognition text has been accepted for this topic; the Civil Code locator is not an article-level acceptance."
+        },
+        {
+          "layer": "implementing_rules",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "Applicable adoption, Hague Convention, jurisdiction and recognition rules are not mapped."
+        },
+        {
+          "layer": "procedure_and_practice",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-mitos-gr-54"
+          ],
+          "open_gap": "MITOS gr-54 is only a nationality procedure for a foreign minor adopted by a Greek citizen; it is not a general adoption or foreign-judgment recognition procedure."
+        },
+        {
+          "layer": "remedies_and_oversight",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No recognition, appeal or case-law route has been established."
+        }
+      ],
+      "open_gap": "Keep nationality-after-adoption distinct from adoption validity, intercountry safeguards and recognition of foreign judgments."
+    },
+    {
+      "topic_id": "LEGAL_AID_AND_ACCESS_TO_JUSTICE",
+      "label": "Legal aid and access to representation",
+      "status": "partial",
+      "layers": [
+        {
+          "layer": "primary_law",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "MITOS cites legislation, but no current statutory legal-aid text is accepted in this Greece pack."
+        },
+        {
+          "layer": "implementing_rules",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "Current eligibility, fees, means tests and proceeding-specific rules require confirmation."
+        },
+        {
+          "layer": "procedure_and_practice",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-mitos-gr-52"
+          ],
+          "open_gap": "The MITOS record gives a narrow low-income court legal-aid process and advance filing period; immigration-specific application remains unverified."
+        },
+        {
+          "layer": "remedies_and_oversight",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-mitos-gr-52"
+          ],
+          "open_gap": "The procedure is not proof of eligibility for every EU-family objection or appeal and does not establish a merits remedy."
+        }
+      ],
+      "open_gap": "Check Law 3226/2004 and current proceeding-specific criteria and deadlines."
+    },
+    {
+      "topic_id": "DATA_PROTECTION_AND_OVERSIGHT",
+      "label": "Personal data, complaints and independent oversight",
+      "status": "partial",
+      "layers": [
+        {
+          "layer": "primary_law",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "Applicable Greek data-protection and law-enforcement texts are not represented by accepted national legal sources here."
+        },
+        {
+          "layer": "implementing_rules",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "Controller roles and immigration-system-specific access/correction procedures are unmapped."
+        },
+        {
+          "layer": "procedure_and_practice",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-dpa-rights",
+            "gr-dpa-complaint",
+            "gr-fro-complaints",
+            "gr-ombudsman-portal"
+          ],
+          "open_gap": "These are narrow guidance/complaint routes with distinct subject-matter limits; they are not a general residence-card remedy."
+        },
+        {
+          "layer": "remedies_and_oversight",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-dpa-complaint",
+            "gr-fro-complaints",
+            "gr-ombudsman-complaint"
+          ],
+          "open_gap": "DPA, FRO and Ombudsman routes have different remits. FRO is limited to access to territory, reception or asylum complaints."
+        }
+      ],
+      "open_gap": "Map GDPR and law-enforcement processing, competent controller, data access/correction channels, and separate each oversight body from merits review."
+    },
+    {
+      "topic_id": "CASE_LAW_DISCOVERY",
+      "label": "CJEU, Council of State and administrative-court decisions",
+      "status": "unresolved",
+      "layers": [
+        {
+          "layer": "primary_law",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No completed query batch connects relevant judgments to national provisions."
+        },
+        {
+          "layer": "implementing_rules",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No case-law-led implementation evidence is recorded."
+        },
+        {
+          "layer": "procedure_and_practice",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No repeatable Greece-specific court/query searches with dates, scope, result counts and dispositions are recorded."
+        },
+        {
+          "layer": "remedies_and_oversight",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No screened decision set with holding, outcome, procedural posture and applicability limits is recorded."
+        }
+      ],
+      "open_gap": "Case-law discovery remains an open workstream; discovery endpoints and administrative e-filing services do not count as a completed search."
+    },
+    {
+      "topic_id": "RESIDENCE_CARD_FORMAT",
+      "label": "National residence-card form and EU card-format transition",
+      "status": "partial",
+      "layers": [
+        {
+          "layer": "primary_law",
+          "status": "partial",
+          "accepted_source_ids": [
+            "gr-pd106-2007-original",
+            "gr-law5275-2026-art53"
+          ],
+          "open_gap": "National residence-card provisions are linked, but the replacement EU technical format and Greek application are a separate dependency."
+        },
+        {
+          "layer": "implementing_rules",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No current Greek card specimen or implementation measure has been verified against Regulation 2025/1208."
+        },
+        {
+          "layer": "procedure_and_practice",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No issued Greek third-country-family residence card was checked for format, data code, machine-readable zone or security features."
+        },
+        {
+          "layer": "remedies_and_oversight",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No technical refusal/renewal or transition remedy evidence is recorded."
+        }
+      ],
+      "open_gap": "Regulation 2019/1157 was invalidated with effects maintained until replacement; the successor's 3 August 2026 transition date has passed, but Greek issued-card conformity remains unverified."
+    },
+    {
+      "topic_id": "EEA_SWISS_AND_UK_DISTINCT_ROUTES",
+      "label": "EEA, Swiss and Withdrawal Agreement beneficiaries",
+      "status": "unresolved",
+      "layers": [
+        {
+          "layer": "primary_law",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No Greece-specific extension or treaty route is accepted in this pack; do not infer identical coverage from PD 106/2007."
+        },
+        {
+          "layer": "implementing_rules",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "National implementation and treaty-specific category mapping are open."
+        },
+        {
+          "layer": "procedure_and_practice",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "MITOS/gr.gov groupings do not establish separate treaty eligibility, party status or operational procedure."
+        },
+        {
+          "layer": "remedies_and_oversight",
+          "status": "unresolved",
+          "accepted_source_ids": [],
+          "open_gap": "No route-specific refusal/remedy map or case-law search is recorded."
+        }
+      ],
+      "open_gap": "Keep EEA Agreement, EU-Switzerland Agreement and UK Withdrawal Agreement text separate; verify party status and national implementation independently."
+    }
+  ]
+}
