@@ -517,6 +517,42 @@
         "Does not accept any individual judgment or abstract as source text.",
         "No local copy or republication permission is approved."
       ]
+    },
+    "gr-kya-95391-2024-tcn-family-documents": {
+      "status": "usable_official_reference",
+      "publisher": "National Printing House of the Hellenic Republic; official Gazette PDF hosted by the Ministry of Migration and Asylum",
+      "url": "https://migration.gov.gr/wp-content/uploads/2024/10/1_%CE%9A%CE%A5%CE%91-%CE%94%CE%99%CE%9A%CE%91%CE%99%CE%9F%CE%9B%CE%9F%CE%93%CE%97%CE%A4%CE%99%CE%9A%CE%A9%CE%9D.pdf",
+      "rediscovery_url": "https://migration.gov.gr/en/nomothesia-1-2/nomothesia-ypiresia-nomimis-metanasteysis/",
+      "checked_on": "2026-10-25",
+      "language": "Greek",
+      "version_or_cutoff": "Joint Ministerial Decision 95391/2024; FEK B 1807, 22 March 2024; 44-page Gazette text reviewed.",
+      "scope": "Dated supporting-document lists for third-country family-member residence documents under PD 106/2007, including spouse/partner, other Article 3(2) family members and durable partners.",
+      "reviewed_content": "The Gazette PDF identifies KYA 95391/2024, issue B 1807 and date. Pages 34-37 (PDF pagination) contain category-specific documents for third-country family members of Union citizens, including initial/renewal lists for Article 3(2) categories and durable partners. The Ministry's legislation page lists the decision.",
+      "limitations": [
+        "This is the original 2024 decision, not a consolidated current checklist or full PD 106/2007 text.",
+        "The Ministry announced on 18 April 2024, and reiterated in a 4 June 2024 circular, that it would correct a requirement for certain residence-permit renewals following invitation under Law 5038/2023. That correction concerns an employment-renewal context; its effect on the PD 106 family-category lists was not established. No corrective Gazette text was identified in this bounded search.",
+        "Do not infer that the 2024 document lists establish current filing practice, authority routing, fees, or document requirements after later changes.",
+        "Link acceptance does not accept a local copy or grant republication permission."
+      ],
+      "source_list_id": "gr-63"
+    },
+    "gr-ya-118654-2024-electronic-residence-applications": {
+      "status": "usable_official_reference",
+      "publisher": "National Printing House of the Hellenic Republic",
+      "url": "https://api.et.gr/apiFEK/2/2024/2303/pdf",
+      "rediscovery_url": "https://search.et.gr/en/search2/",
+      "checked_on": "2026-10-25",
+      "language": "Greek",
+      "version_or_cutoff": "Ministerial Decision 118654/2024; FEK B 2303, 18 April 2024; original 12-page Gazette text.",
+      "scope": "Original statutory procedure for electronic submission and communication concerning third-country residence-document applications under Law 5038/2023 and PD 106/2007.",
+      "reviewed_content": "The official Gazette identifies Decision 118654/2024. Part A expressly covers electronic filing under Law 5038/2023 and PD 106/2007; Article 1(1) requires initial applications under either instrument to be submitted exclusively through the Ministry's electronic services, subject to stated exceptions.",
+      "limitations": [
+        "This acceptance covers the original dated text only; it is not a current consolidated application procedure.",
+        "An official Ministry of Interior weekly legislation bulletin identifies Decision 144338/2025, FEK B 5007/22 September 2025, as amending Article 1 paragraph 2. The amendment text and exact effect were not verified, so review the later act before reliance on the affected paragraph.",
+        "Live portal availability, category-specific service flow, and current authority routing were not tested.",
+        "Link acceptance does not accept a local copy or grant republication permission."
+      ],
+      "source_list_id": "gr-64"
     }
   },
   "local_copy_acceptance": {
