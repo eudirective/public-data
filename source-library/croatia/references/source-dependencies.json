@@ -62,15 +62,15 @@
       "dependency_review_status": "urgent_post_transition_specimen_and_issuance_check",
       "evidence": [
         "NN 86/21 article 1 refers to Regulation (EU) 2019/1157; the CJEU declared that regulation invalid in C-61/22 and maintained its effects pending replacement.",
-        "Regulation (EU) 2025/1208 Article 7 requires the uniform format and standardized code in data field [10] for non-EU family-member cards. Article 8 phases out existing non-conforming cards by 3 August 2026 subject to its stated exception; that date has passed.",
+        "Regulation (EU) 2025/1208 Article 7 requires the card format and a standardized code in data field [10]. Article 8 applies only to residence cards for non-EU family members: cards failing Article 7 generally cease at expiry or 3 August 2026; cards failing Article 7 but meeting ICAO minimum security standards and Annex points (c) and (g) conditions may continue to expiry or 3 August 2031; cards without minimum ICAO security or a functional MRZ are not valid. The card-specific conditions cannot be inferred from the blank Form 11b image.",
         "On 2026-10-25 the four official NN 86/21 Form 4b/11b images were inspected at native dimensions and retained unchanged. They are blank specimen layouts, not proof of actual issued card encoding or security features.",
-        "The 2021 national Article 27a(5) prescribes Croatian field text for Form 11b; the blank image does not show a filled field-[10] code. No conclusion is made about post-transition compliance.",
+        "NN 86/21 Article 27a(5) and Regulation 2025/1208 Article 7(2) in the official Croatian text prescribe the same standardized Article 10 code. The blank Form 11b specimen does not establish that the actual issued card carries it in data field [10], or demonstrate the current card’s format/security.",
         "The MUP Propisi index checked 2026-10-25 lists EEA rule chain NN 107/20, 148/20, 86/21 and 155/22. The current MUP forms index lists application/registration forms 1b, 2b, 3b and 6b, not card specimens. MUP guidance updated 2025-10-09 describes issue process but does not show the post-transition card."
       ],
       "review_questions": [
-        "Obtain or identify an official MUP specimen or other authoritative evidence of the card actually issued after 3 August 2026, including the data field [10] value.",
-        "Determine whether Regulation 2025/1208 Article 7(2) is implemented through a card-production specification not visible in the published 2021 specimen; do not infer compliance or non-compliance from the national-language label alone.",
-        "Apply Regulation 2025/1208 Article 8’s exception to any identified legacy cards only when the card’s security and Annex conditions are evidenced.",
+        "Obtain or identify an official MUP specimen or other authoritative evidence of the card actually issued after 3 August 2026, including the standardized code’s placement in data field [10].",
+        "Verify Article 8 transition treatment only from the actual card’s ICAO/MRZ and Annex-condition evidence; do not infer it from the blank specimen.",
+        "Confirm the personal scope of Article 6 for the EEA nationalities covered by Form 4b before making a nationality-wide conclusion.",
         "Keep the CJEU C-61/22 invalidity/effects analysis separate from the current-card format check."
       ],
       "last_reviewed_on": "2026-10-25"
@@ -91,12 +91,12 @@
       ],
       "dependency_review_status": "urgent_visual_and_current_practice_review_open",
       "evidence": [
-        "The Croatian amendment reproduces a 2021 reference to Regulation 2019/1157 and attaches Form 4b/11b card specimens. Regulation 2025/1208 requires card-field/code checks and provides a transition end date of 3 August 2026; compare the actual current specimens and issuance practice.",
-        "Form 2b is an application, not a residence-card specimen."
+        "The Croatian amendment attaches 2021 Form 4b and Form 11b specimens. Regulation (EU) 2025/1208 Article 6 sets minimum information for Union-citizen residence documents; Articles 7 and 8 concern non-EU family-member cards and their format/transition. Article 8 includes a conditional 2031 phase-out route for some cards that fail Article 7 but meet specified security conditions.",
+        "The Croatian-language Article 7(2) standardized Article 10/20 code matches the wording prescribed by NN 86/21 Article 27a(5). Form 2b is an application, not a residence-card specimen. The blank Form 11b image does not establish actual issuance, code placement in data field [10], or Article 8 transition eligibility."
       ],
       "review_questions": [
-        "Inspect Form 4b and 11b images and their data fields.",
-        "Verify current card specimens/issuance after 3 August 2026 against Article 7 and Article 8, including any limited transition exception.",
+        "Verify the actual current Form 4b and Form 11b card issuance with authoritative evidence; compare Form 4b to Article 6 only within confirmed personal scope.",
+        "For Form 11b, verify the standardized code in data field [10] and the format/security features; use Article 8 transition classes only when actual-card conditions are evidenced.",
         "Record an evidence-based conclusion without altering the source’s original Croatian text."
       ]
     },

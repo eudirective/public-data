@@ -1591,7 +1591,7 @@
         "attachments_review": {
           "status": "pass",
           "review_date": "2026-10-25",
-          "evidence": "All four images linked as integral Forms 4b and 11b under NN 86/21 Article 11 were fetched from the official Gazette page, visually inspected at native dimensions, matched to their printed roles and the operative clauses, and retained unchanged. Image hashes, byte lengths, dimensions, local paths and Monitor archive paths are in references/attachment-review.json. The forms are blank templates; current post-transition issuance and the standardized field-[10] code on Form 11b remain unresolved. This pass is limited to identity, completeness and review of the retained 2021 source attachments.",
+          "evidence": "All four images linked as integral Forms 4b and 11b under NN 86/21 Article 11 were fetched from the official Gazette page, visually inspected at native dimensions, matched to their printed roles and operative clauses, and retained unchanged. Image hashes, byte lengths, dimensions, local paths and Monitor archive paths are in references/attachment-review.json. The images are blank templates. The official Croatian text of Regulation (EU) 2025/1208 Article 7(2) prescribes the same Article 10/20 code wording as NN 86/21 Article 27a(5), but actual placement in data field [10] and current card issuance remain unresolved. Article 8’s conditional phase-out applies to non-EU family-member cards; its security and MRZ conditions cannot be inferred from the blank image.",
           "retained_image_assets": [
             {
               "role": "Form 4b — EEA national residence-card specimen, front",
@@ -1675,7 +1675,7 @@
       "raw_archive_path": "captures/eudirective-public-data/HR/raw/hr-eea-reg-amend-86-21-45191d745c1e061e1e8bbd7da794928340404092761b7bccc260d203792e28e0.html",
       "source_fragment_archive_path": "captures/eudirective-public-data/HR/official-texts/hr-eea-reg-amend-86-21.html",
       "source_fragment_sha256": "b37de8bfbb98ee7fa6ca29191dc2be180d9444d4e9a3c5ef9d7123a46dd231f6",
-      "local_file_sha256": "70656537d8d2c63d28f7e9416521050e0b8ee447fc26527fc5be37928fb5ae6f",
+      "local_file_sha256": "c613d8de8c1d7948dcd6d1c4bb676e68c2efdc871d243b54f0d86f7058b6d1ef",
       "candidate_archive_path": "candidates/eudirective-public-data/HR/legislation/hr-eea-reg-amend-86-21.md",
       "attachment_reviewed_on": "2026-10-25"
     },

@@ -65,7 +65,7 @@
         "mup_legislation_index": "https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/propisi-652/652",
         "mup_forms_index": "https://mup.gov.hr/obrasci-281565/281565",
         "mup_guidance": "https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/boravak-i-rad-drzavljana-drzava-clanica-egp-a-i-clanova-njihovih-obitelji/282191",
-        "result": "MUP’s current legal index lists NN 107/20, 148/20, 86/21 and 155/22 for the EEA residence rule. The forms index lists application/registration Forms 1b, 2b, 3b and 6b, not card specimens. The MUP guidance page last states an issue process but provides no specimen and predates the 2026 transition. Actual current card design/field encoding remains unverified."
+        "result": "MUP’s current legal index lists NN 107/20, 148/20, 86/21 and 155/22 for the EEA residence rule. The forms index lists application/registration Forms 1b, 2b, 3b and 6b, not card specimens. The MUP guidance page last states an issue process but provides no specimen and predates the 2026 transition. Actual current card design/field encoding remains unverified. Regulation (EU) 2025/1208 Article 6 sets minimum information for residence documents issued to Union citizens, while Article 8’s phase-out provisions concern non-EU family-member residence cards. No conclusion is drawn here about applying Article 6 to every EEA nationality covered by the national Form 4b rule, and no current MUP-issued Form 4b specimen was found."
       }
     },
     {
@@ -83,9 +83,9 @@
         "Directive 2004/38/EC"
       ],
       "required_checks": [
-        "verify the actual post-3 August 2026 card issued by MUP and any replacement specimen",
-        "confirm whether data field [10] carries the standardized code required by Regulation (EU) 2025/1208 Article 7(2)",
-        "record the applicable transition treatment without inferring compliance from the blank specimen"
+        "verify the actual post-transition card issued by MUP and any replacement specimen",
+        "verify whether the actual card carries the Croatian standardized Article 10 or Article 20 code in data field [10]; the blank specimen cannot establish this",
+        "apply Article 8 transition only where the card’s security/MRZ status and the specified Annex conditions are evidenced"
       ],
       "image_source_urls": [
         "https://narodne-novine.nn.hr/files/_web/sluzbeni-dio/2021/132118/images/6933.jpg",
@@ -95,10 +95,11 @@
       "source_fragment_sha256": "b37de8bfbb98ee7fa6ca29191dc2be180d9444d4e9a3c5ef9d7123a46dd231f6",
       "reviewed_on": "2026-10-25",
       "review_method": "Manually inspected each official JPEG at original pixel dimensions; verified the publisher page identifies both sides as the named form; compared field labels with the operative text of NN 86/21 and the relevant EU requirement.",
-      "visual_review_evidence": "Both official sides were visually inspected at native resolution. The front shows bilingual temporary/permanent residence-card titles and blank fields including permit type; the back shows issuing authority, place of birth, optional fields and the machine-readable zone. The specimen contains no filled value for the standardized field-[10] code. The national text’s prescribed Croatian label and the EU standardized-code requirement require a current issuance comparison; this blank 2021 template proves neither current compliance nor non-compliance.",
+      "visual_review_evidence": "Both official sides were visually inspected at native resolution. The front shows bilingual temporary/permanent residence-card titles and blank fields including permit type; the back shows issuing authority, place of birth, optional fields and the machine-readable zone. The blank specimen does not show an actual value in data field [10]. NN 86/21 Article 27a(5) and Regulation (EU) 2025/1208 Article 7(2) in the official Croatian text prescribe the same Article 10 code, “Član obitelji EU čl. 10. DIR 2004/38/EZ”, and the corresponding Article 20 alternative. This resolves the textual wording comparison, not whether MUP’s current card places the code in data field [10] or meets the applicable card-format requirements.",
       "completed_checks": [
         "inspect both sides at readable resolution",
-        "confirm specimen identity and distinguish card specimen from application Form 2b"
+        "confirm specimen identity and distinguish card specimen from application Form 2b",
+        "compare the Croatian standardized code wording in Regulation (EU) 2025/1208 Article 7(2) with NN 86/21 Article 27a(5)"
       ],
       "retained_image_assets": [
         {
@@ -131,7 +132,7 @@
         "mup_legislation_index": "https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/propisi-652/652",
         "mup_forms_index": "https://mup.gov.hr/obrasci-281565/281565",
         "mup_guidance": "https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/boravak-i-rad-drzavljana-drzava-clanica-egp-a-i-clanova-njihovih-obitelji/282191",
-        "result": "MUP’s current legal index lists NN 107/20, 148/20, 86/21 and 155/22 for the EEA residence rule. The forms index lists application/registration Forms 1b, 2b, 3b and 6b, not card specimens. The MUP guidance page last states an issue process but provides no specimen and predates the 2026 transition. Actual current card design/field encoding remains unverified."
+        "result": "MUP’s current legal index lists NN 107/20, 148/20, 86/21 and 155/22 for the EEA residence rule. The forms index lists application/registration Forms 1b, 2b, 3b and 6b, not card specimens. MUP guidance updated 2025-10-09 describes card issuance but predates the 2026 transition. The official Croatian text of Regulation (EU) 2025/1208 Article 7(2) gives the standardized Article 10/20 Croatian wording, matching NN 86/21 Article 27a(5); actual placement in data field [10] on the card issued by MUP remains unverified. Under Article 8, nonconforming cards generally cease at expiry or 3 August 2026; cards failing Article 7 but meeting ICAO minimum security standards and Annex points (c) and (g) conditions may continue until expiry or 3 August 2031, while cards lacking minimum security or a functional MRZ are not valid. The blank 2021 specimen establishes none of those technical conditions or the current issuance format."
       }
     },
     {
