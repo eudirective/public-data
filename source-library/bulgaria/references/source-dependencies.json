@@ -299,6 +299,41 @@
       ],
       "review_question": "For each applicant class, determine how Bulgarian Articles 14–19 implement retention on death/departure/divorce or partnership termination, early permanent residence, continuity of residence, and acquisition and documentation of permanent residence; verify current evidence, filing and appeal routes, and reconcile any scope or timing difference with Directive Articles 12–13, 16–21 and 25 and relevant CJEU/national case law.",
       "editorial_action": "Preserve the statutory text and keep this dependency and topic open. Do not infer that a residence document creates or extinguishes an underlying right, or that an application deadline changes directly acquired EU-law entitlement, without legal and official-procedure evidence."
+    },
+    {
+      "id": "bg-eu-free-movement-act-directive-residence-over-three-months",
+      "source_record_id": "bg-eu-free-movement-act",
+      "national_provisions": [
+        "Articles 5(1)–(2), 7–9",
+        "Article 8(1)–(4)",
+        "Article 9(1)–(9)"
+      ],
+      "referenced_instrument": "Directive 2004/38/EC, Articles 3(2), 7–8, 14 and 25",
+      "referenced_instrument_url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32004L0038",
+      "referenced_source_id": "eu:32004l0038",
+      "status": "provision_crosswalk_recorded_implementation_review_open",
+      "reviewed_on": "2026-10-25",
+      "status_note": "The MVR government consolidation is accepted through SG 52/2025. Act Articles 7–9 and 5 were compared with Directive Articles 3(2), 7–8, 14 and 25, and Instruction №8121з-1276 Articles 6–7 was checked for application evidence. The national Act lists workers/self-employed persons, sufficient resources and health cover, students, retained worker status, and family/extended-family routes. The Instruction lists employment or self-employment evidence, insurance and resources, and student enrolment. Directive Article 8 limits the documents for registration and Article 8(4) requires individual resource assessment without a fixed amount. Open questions include the exact TCN-family eligibility relation to the EU citizen’s status, student-family scope, the national retained-worker wording, and whether actual resource/evidence practices stay within those limits.",
+      "primary_sources": [
+        {
+          "title": "Bulgarian EU-citizen Act, MVR consolidated PDF through SG 52/2025",
+          "url": "https://mvr.bg/upload/338040/%D0%97%D0%92%D0%9F%D0%9D%D0%A0%D0%91%D0%93%D0%95%D0%A1%D0%A7%D0%A2%D0%A1%202026.pdf"
+        },
+        {
+          "title": "Instruction №8121з-1276, official MVR consolidated text through SG 29/2021",
+          "url": "https://mvr.bg/upload/24810/8121z12761110201809042021.pdf"
+        },
+        {
+          "title": "Directive 2004/38/EC, official EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32004L0038"
+        },
+        {
+          "title": "Directive 2004/38/EC, Bulgarian EUR-Lex text",
+          "url": "https://eur-lex.europa.eu/legal-content/BG/ALL/?uri=CELEX%3A32004L0038"
+        }
+      ],
+      "review_question": "For each category under Articles 7–8, determine the applicable eligibility conditions, who bears the burden to prove them, what documents may be required, whether resource sufficiency is assessed individually, and how the EU-citizen condition extends to non-EU family members; reconcile administrative evidence and follow-up checks with Directive Articles 3(2), 7–8, 14 and 25 and the current official forms/practice.",
+      "editorial_action": "Keep the national wording intact and the topic incomplete. Do not infer incompatibility from text alone, characterize the Article 5 facilitation route as an automatic right, or treat a residence document as the source of the underlying right."
     }
   ]
 }

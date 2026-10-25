@@ -112,14 +112,14 @@
           "source_ids": [
             "bg-eu-free-movement-act"
           ],
-          "note": "The accepted Act contains the national residence categories; individual statutory conditions and their compatibility with EU law have not been fully analyzed."
+          "note": "The accepted Act Articles 7–8 provide continued residence up to five years and the worker/self-employed, sufficient-resources plus insurance, student, and retained-worker categories; Article 8(2) separately addresses accompanying/joining family members. Article 5 provides a detailed review route for other dependent/household or serious-health relatives and durable partners. Crosswalked to Directive Articles 7–8, 14 and 25 in source-dependencies.json. Legal review remains open on proof limits, individualized resource assessment, student status, retained-worker wording, and the qualifying conditions for non-EU family members."
         },
         "implementing_rule": {
           "status": "partially_supported",
           "source_ids": [
             "bg-eu-instruction"
           ],
-          "note": "The Instruction lists application evidence; adequacy and limits of additional evidence demands remain to be reviewed. The accepted MVR instruction text is consolidated through SG 29/2021; a separate 8-page MVR upload identifying only the 2018 promulgation was not treated as current, and no later amendment is certified."
+          "note": "Instruction №8121з-1276, Article 6 lists employer/self-employment evidence, health cover and resources for inactive applicants, and enrolment/insurance/resources for students; Articles 6a–7 address non-EU family-member applications. The Instruction’s evidence lists are compared with Directive Article 8’s limited-document rules, Article 8(4)’s individualized resource assessment, and Article 10; the 2021 cutoff and exact current administrative demands remain open."
         },
         "procedure": {
           "status": "partially_supported",
@@ -128,7 +128,7 @@
             "bg-eu-form-other-articles",
             "bg-mvr-tariff-4"
           ],
-          "note": "The service page, dated sample form, and fee tariff are identified; the current MVR form payload remains inaccessible and the 2020 sample is not proven identical."
+          "note": "Act Article 9 requires application within three months of entry, provides same-day issuance, a seven-day cure for incomplete documents, reasoned refusal and an Administrative Procedure Code challenge; follow-up checks require data supporting a reasoned inference of a residence-rule breach. The Instruction sets a three-month filing route and itemized evidence, including a fee only where information cannot be checked administratively. Current forms, resource-assessment practice, fee application, and evidence demands beyond the Directive Article 8 list are not verified."
         },
         "remedy_or_practice": {
           "status": "partially_supported",
@@ -137,11 +137,13 @@
             "bg-vas-case-search",
             "bg-vas-case-11351-2019"
           ],
-          "note": "One final VAS decision addresses a same-sex spouse’s derivative residence claim under the then-applicable national Act and Directive 2004/38; it does not cover worker/economic residence assessments or broader case-law practice."
+          "note": "The Act provides a reasoned refusal and APC challenge after the seven-day cure period. One final VAS decision on derivative residence under a historical version is not evidence about worker, self-employed, student or sufficient-resources decisions. No screened Bulgarian decision addressing Article 7 eligibility tests or additional evidence demands is recorded."
         }
       },
       "open_issues": [
-        "Map eligibility tests, individualized assessment, resources/insurance evidence, burden of proof, processing deadlines, and permissible follow-up evidence."
+        "Compare Act Articles 5 and 7–8 with Directive Articles 3(2), 7 and 14: determine when the principal EU citizen must meet an Article 7 category for a non-EU family member, how student-family limits apply, and distinguish facilitated residence for extended family/durable partners from an automatic residence entitlement.",
+        "Map the exact permissible documents and individualized assessment for resources and insurance. Check Directive Article 8(3)–(4) against the national Act and Instruction, including whether any fixed amount or unnecessary evidence is requested in practice; verify retained-worker conditions and recognized educational establishments.",
+        "Verify current application forms, appointment and filing channels, fees, cure process and appeal route from current official material, then screen repeatable official-court searches for residence eligibility and evidence disputes."
       ]
     },
     {
