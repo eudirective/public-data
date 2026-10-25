@@ -7,13 +7,24 @@
 - Language: English
 - Official URL: https://www.mfa.bg/en/services-travel/consular-services/travel-bulgaria/visa-bulgaria/
 - Source snapshot retrieved: 2026-10-19 02:18:16 UTC
-- Official page rechecked: 2026-10-24
+- Official page rechecked: 2026-10-25
 - Displayed page version date: None; the page did not expose a last-modified or edition date
 - Captured response SHA-256: `3562f35b7fcf926db4c32160ba5bf7af7112e3f1cb584b70c8b4a3af3eb98958`
 - Snapshot content: English main article text extracted from the official HTML body; site navigation and cookie notice removed without changing the retained text
 - Reuse basis: the MFA [Terms of Service](https://www.mfa.bg/en/terms-of-service) permit free use of site content unless expressly marked protected, with source attribution
 
-> This is a dated snapshot of changeable consular guidance, not a consolidation of law. The current source page and the applicable EU and Bulgarian legal texts control. The Ministry page was reopened on 24 October 2026; its main content includes Schengen visa information, application steps, fees and review routes. No publication or revision date was displayed.
+> This is a dated snapshot of changeable consular guidance, not a consolidation of law. The current source page and the applicable EU and Bulgarian legal texts control. The Ministry page was reopened on 25 October 2026; its main content includes Schengen visa information, application steps, fees and review routes. No publication or revision date was displayed.
+
+## Review note (2026-10-25)
+
+The live MFA page was rechecked on this date. Its no-revision-date limitation remains. The retained body above is the 19 October 2026 snapshot; this note records legal-status and issue mapping from the current official texts, not a new full-body capture.
+
+- Council Decision (EU) 2024/210 made the listed Schengen acquis applicable to Bulgaria from 31 March 2024. Its Annex includes the Visa Code, Regulation (EC) No 810/2009, and Regulation (EU) 2023/2667. Accordingly, the 2023 Commission Notice C/2023/1392 statement that the Visa Code and Handbook were not applicable to Bulgaria was accurate when issued but is outdated for Bulgaria from 31 March 2024. Other parts of that Notice remain non-binding guidance and must be checked against current law. [Decision 2024/210](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024D0210); [Commission Notice C/2023/1392](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52023XC01392).
+- Council Decision (EU) 2024/3212 separately lifted checks at Bulgaria’s internal land borders from 1 January 2025. This later date is not the start date for the Visa Code’s application. [Decision 2024/3212](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32024D3212).
+- Directive 2004/38/EC Article 5(2) requires every facility for qualifying non-EU family members to obtain a necessary visa, issued free of charge, as soon as possible and through an accelerated procedure; Article 10 residence-card possession exempts the holder from the visa requirement. These EU-law entitlements must be applied to the relevant free-movement conditions, not inferred for every person described by the MFA’s broader family/household guidance. [Directive 2004/38/EC](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32004L0038).
+- The 28 June 2024 consolidated Visa Code is applicable to Bulgarian Schengen visa processing. Articles 9, 16, 17 and 32 are relevant to filing timing, fees, external providers/direct lodging and appeals. [Visa Code, consolidated 28 June 2024](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R0810-20240628).
+- The current MFA guidance says applicants generally submit at least 15 days before travel and may need an appointment. It says EU/EEA/Swiss family or household members provide only relationship evidence and are exempt from listed means/accommodation/transport and insurance evidence; it lists fee exemption for family members of Bulgarian and EU citizens. The page does not fully state how these broader national guidance categories relate to the Directive’s qualifying-mobile-citizen scope. The accepted Visa Ordinance separately exempts specified family/household applicants from the listed insurance evidence (Article 20(2)(4)) and gives them direct consular access without prior appointment (Article 23(3)). Keep the generic MFA appointment/deadline statements and the family route’s expedited handling open for provision-level and mission-level review.
+- The Commission’s 26 June 2024 Visa Code Handbook I is current operational guidance addressed to Bulgaria. It says processing beyond 15 days for qualifying EU-family applicants should be exceptional and duly justified, and delays over four weeks are not reasonable. It is operational guidance, not primary legislation. [Handbook I, C(2024) 4319 final](https://home-affairs.ec.europa.eu/document/download/1d79f44d-49ba-4847-951e-129f924b1051_en?filename=Commission+Implementing+Decision+C%282024%29+4319-annex_en.PDF).
 
 ## Captured official text
 
