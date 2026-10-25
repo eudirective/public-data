@@ -636,6 +636,7 @@ def verify() -> None:
     capture = json.loads(CAPTURES.read_text(encoding="utf-8"))
     acceptance = json.loads((REFS / "source-acceptance.json").read_text(encoding="utf-8")) if (REFS / "source-acceptance.json").exists() else {"records": {}}
     accepted_sources = acceptance.get("records", {})
+    dispositions = acceptance.get("dispositions", {})
     sources = {item["id"]: item for item in manifest.get("sources", [])}
     errors = []
     for record in capture.get("records", []):
@@ -657,7 +658,9 @@ def verify() -> None:
                     raise ValueError("normalized source change-detection hash mismatch")
             candidate_path = inside_root(record["candidate_text_path"]) if record.get("candidate_text_path") else None
             accepted_record = accepted_sources.get(record["candidate_id"])
-            if (candidate_path and candidate_path.exists()) or accepted_record:
+            disposition = dispositions.get(record["candidate_id"])
+            accepted_document = bool(accepted_record and accepted_record.get("local_copy_accepted") and accepted_record.get("document_path"))
+            if (candidate_path and candidate_path.exists()) or accepted_document:
                 source = sources[record["candidate_id"]]
                 if record.get("source_content_type") == "application/pdf":
                     rebuilt, page_count = pdf_markdown(source, record, text_raw)
@@ -690,10 +693,16 @@ def verify() -> None:
                     if not expected or sha256(accepted_body) != expected or accepted_body != replay_body:
                         raise ValueError("accepted document official-text section differs from replayed conversion")
                     print(f"verified {record['candidate_id']} (accepted document)")
+            elif accepted_record:
+                print(f"verified {record['candidate_id']} (link-only official reference; candidate remains archived)")
+            elif disposition:
+                print(f"verified {record['candidate_id']} (disposition: {disposition['status']}; candidate remains archived)")
             elif record.get("candidate_source_path"):
                 if sha256(inside_root(record["candidate_source_path"]).read_bytes()) != record["source_sha256"]:
                     raise ValueError("preserved PDF hash mismatch")
                 print(f"verified {record['candidate_id']} (PDF preserved)")
+            elif candidate_path:
+                raise ValueError("candidate text is absent and no accepted source or disposition is recorded")
         except Exception as exc:
             errors.append(f"{record.get('candidate_id', 'unknown')}: {type(exc).__name__}: {exc}")
     if errors:
