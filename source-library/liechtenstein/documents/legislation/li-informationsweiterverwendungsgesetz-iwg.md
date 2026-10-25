@@ -1,20 +1,24 @@
-# Informationsweiterverwendungsgesetz (IWG), revised open-data framework
+# Informationsweiterverwendungsgesetz (IWG)
 
 - Jurisdiction: Liechtenstein
-- Candidate ID: `li-16`
+- Source ID: `li-16`
 - Source class: `public_sector_reuse_law`
-- Official page title: IWG | Lilex - Gesetzesdatenbank des Fürstentums Liechtenstein
-- Publisher: Liechtenstein Government Legal Services
-- Candidate source URL: https://www.gesetze.li/konso/2024041000
-- Resolved text URL: https://www.gesetze.li/konso/html/2024041000?version=1&search_text=&search_loc=
-- Retrieved: 2026-10-19T03:01:11+00:00
-- Publisher/version evidence: Gesetze.li current-text frame version=1; inventory note: LLV states the EEA Open Data Directive and total revision of the IWG took effect in Liechtenstein on 1 August 2026.
-- Extraction region: `tag=body`
-- Text response SHA-256: `662539d07b5b92a5770e6bf2e5de811bb94c232ac403f185163d914dbed30624`
-- Current-version shell SHA-256: `1e5c99f328b0326acba23e5d7c99d26e14b067283945059793117e612e96461a`
+- Official publisher: Liechtenstein Government Legal Services
+- Official source: [https://www.gesetze.li/konso/2024041000](https://www.gesetze.li/konso/2024041000)
+- Identifier: LR 172.016; LGBl 2024.041, total revision effective 1 August 2026
+- Version observed: Lilex text-frame version 1 for LGBl 2024.041 / LR 172.016, captured 2026-10-19. The text states entry into force on 1 August 2026 under LGBl 2026 Nr. 249.
+- Source retrieved: 2026-10-19T03:01:11+00:00
+- Local-copy basis: official statutory text only under Liechtenstein URG Art. 5; no general reuse rights for the Lilex interface or database are implied.
 
-> **Review candidate.** Not accepted into the trusted source corpus. Relationship: Related source-reuse framework
-> Check exact legal identity, version, language, scope, authority, links and reuse conditions before reliance.
+## Scope
+
+Liechtenstein legislation on open data and reuse of public-sector information. It is not an access-to-information statute and does not establish a complete public dataset inventory.
+
+## Review limits
+
+- The local file preserves the official Lilex text-frame extraction captured on 2026-10-19, not signed Gazette layout.
+- This is the first observed consolidated text version; later amendments and the application of specific EEA rules were not independently audited.
+- Lilex consolidations are informational and have no legal effect; the signed State Law Gazette is legally authentic.
 
 ## Official source text
 

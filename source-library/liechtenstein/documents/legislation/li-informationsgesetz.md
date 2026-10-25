@@ -1,20 +1,24 @@
 # Informationsgesetz (Information Act)
 
 - Jurisdiction: Liechtenstein
-- Candidate ID: `li-15`
+- Source ID: `li-15`
 - Source class: `public_information_law`
-- Official page title: 1999.159 | Lilex - Gesetzesdatenbank des Fürstentums Liechtenstein
-- Publisher: Liechtenstein Government Legal Services
-- Candidate source URL: https://www.gesetze.li/konso/1999159000
-- Resolved text URL: https://www.gesetze.li/konso/html/1999159000?version=8&search_text=&search_loc=
-- Retrieved: 2026-10-19T03:01:09+00:00
-- Publisher/version evidence: Gesetze.li current-text frame version=8; inventory note: The official chronology lists amendment LGBl 2025.032 effective 1 January 2026.
-- Extraction region: `tag=body`
-- Text response SHA-256: `cbfc303bd41a8a32a2837c1c2039ade6b6e5617092f95e80550f3e0265ecf405`
-- Current-version shell SHA-256: `58b97b121c3c737e146e562f2b3b3ac63627432d098db12bf747d5eae8ed38c4`
+- Official publisher: Liechtenstein Government Legal Services
+- Official source: [https://www.gesetze.li/konso/1999159000](https://www.gesetze.li/konso/1999159000)
+- Identifier: LR 172.015; LGBl 1999.159
+- Version observed: Lilex text-frame version 8 captured 2026-10-19 for LGBl 1999.159 / LR 172.015; the text records amendment LGBl 2025 Nr. 32, effective 1 January 2026.
+- Source retrieved: 2026-10-19T03:01:09+00:00
+- Local-copy basis: official statutory text only under Liechtenstein URG Art. 5; no general reuse rights for the Lilex interface or database are implied.
 
-> **Review candidate.** Not accepted into the trusted source corpus. Relationship: Related public-access and administration source
-> Check exact legal identity, version, language, scope, authority, links and reuse conditions before reliance.
+## Scope
+
+Liechtenstein statutory source on public information. It is separate from the Informationsweiterverwendungsgesetz (IWG), which governs reuse of public-sector information.
+
+## Review limits
+
+- The local file preserves the official Lilex text-frame extraction captured on 2026-10-19, not signed Gazette layout.
+- The version and recorded 2025 amendment were checked; this review did not compare every provision page by page with signed Gazette publications.
+- Lilex consolidations are informational and have no legal effect; the signed State Law Gazette is legally authentic.
 
 ## Official source text
 

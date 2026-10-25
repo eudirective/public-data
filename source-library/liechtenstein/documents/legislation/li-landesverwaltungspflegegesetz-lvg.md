@@ -1,20 +1,24 @@
 # Landesverwaltungspflegegesetz (LVG)
 
 - Jurisdiction: Liechtenstein
-- Candidate ID: `li-14`
+- Source ID: `li-14`
 - Source class: `administrative_procedure_law`
-- Official page title: LVG | Lilex - Gesetzesdatenbank des Fürstentums Liechtenstein
-- Publisher: Liechtenstein Government Legal Services
-- Candidate source URL: https://www.gesetze.li/konso/1922024000
-- Resolved text URL: https://www.gesetze.li/konso/html/1922024000?version=30&search_text=&search_loc=
-- Retrieved: 2026-10-19T03:01:06+00:00
-- Publisher/version evidence: Gesetze.li current-text frame version=30; inventory note: Official records provide date-versioned texts; an opened PDF showed a 2021 consolidation, so the current post-2021 text must be resolved before automation.
-- Extraction region: `tag=body`
-- Text response SHA-256: `d2f1215d0057f795aa4e40c79650b9cb4cefcb26fb490f4ac18742c3e0b5be67`
-- Current-version shell SHA-256: `b80275080f0070db59a076e8e31938b395d3584971beac8908d8f802f20debdc`
+- Official publisher: Liechtenstein Government Legal Services
+- Official source: [https://www.gesetze.li/konso/1922024000](https://www.gesetze.li/konso/1922024000)
+- Identifier: LR 172.020; LGBl 1922.024
+- Version observed: Lilex text-frame version 30 captured 2026-10-19 for LGBl 1922.024 / LR 172.020; the captured text includes amendment notes through LGBl 2025 Nr. 375. No separate date of consolidation was displayed in the candidate record.
+- Source retrieved: 2026-10-19T03:01:06+00:00
+- Local-copy basis: official statutory text only under Liechtenstein URG Art. 5; no general reuse rights for the Lilex interface or database are implied.
 
-> **Review candidate.** Not accepted into the trusted source corpus. Relationship: Related general administrative procedure and appeal source
-> Check exact legal identity, version, language, scope, authority, links and reuse conditions before reliance.
+## Scope
+
+General Liechtenstein administrative procedure and appeals statute; use the official dated Gazette publication for legally material dates and verify cross-references to the applicable procedure.
+
+## Review limits
+
+- The local file preserves the official Lilex text-frame extraction captured on 2026-10-19, not signed Gazette layout.
+- The version number and text were identified, but there was no page-by-page comparison with Gazette items or independent audit of every amendment after the displayed chronology.
+- Lilex consolidations are informational and have no legal effect; the signed State Law Gazette is legally authentic.
 
 ## Official source text
 
