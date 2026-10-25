@@ -2256,14 +2256,22 @@
       "portal_urls": [
         "https://www.mvr.bg/migration/дирекцията/нормативна-уредба/bgzac",
         "https://www.mvr.bg/opp/полезна-информация1/нормативна-уредба/закони-и-кодекси",
-        "https://www.mvr.bg/migration/административни-услуги/административни-услуги-за-граждани/издаване-на-документи-на-граждани-на-ес-и-на-членовете-на-техните-семейства"
+        "https://www.mvr.bg/migration/административни-услуги/административни-услуги-за-граждани/издаване-на-документи-на-граждани-на-ес-и-на-членовете-на-техните-семейства",
+        "https://dv.parliament.bg/DVWeb/materiali.faces?idObj=9482",
+        "https://dv.parliament.bg/DVWeb/materiali.faces?idObj=1922"
       ],
       "focus_records": [
-        "bg-personal-documents-rules"
+        "bg-personal-documents-rules",
+        "bg-personal-documents-act"
       ],
-      "reason": "The MVR's 19 November 2025 Rules PDF is newer than the files linked in its legal indexes, but it predates Decree №286/2025, §2, published in SG 109/2025. The newer PDF is directly inaccessible to the reader (HTTP 403), and the official MVR page also lists a proposed 2026 amendment.",
-      "review_question": "Obtain a readable official consolidation after Decree №286/2025 and verify whether the 2026 proposal or any later amendment was enacted; inspect the full provisions and locate current card-specific instructions, including the title and format required by Regulation (EU) 2025/1208.",
-      "effect": "Article 7(1)(10) is recorded as an official indexed application-route excerpt, and SG 109/2025 is recorded as a later Rules amendment. Neither establishes a current full text or EU-family card format. Keep the human review open; these findings do not block independent source reviews."
+      "reason": "The MVR’s 19 November 2025 Rules PDF is newer than the files linked in its legal indexes, but it predates Decree №286/2025, §2, published in SG 109/2025. The newer PDF is directly inaccessible to the reader (HTTP 403), and the MVR index labels the Act current through 27 June 2025 and the Rules current through 16 December 2025. A 25 October official State Gazette search-index page labelled issue 46 (22–24 October 2026) showed a matching Personal Documents Act title, but following the preview led to unrelated 2019 and 2009 texts. The issue/article link mapping is unresolved; no 2026 amendment is accepted on this evidence.",
+      "review_question": "Identify the actual State Gazette issue and material underlying the 22–24 October 2026 index entries; determine whether a relevant Personal Documents Act or Rules amendment was promulgated, its full text and effective date; then verify the current card-specific instructions and the relationship between Bulgarian § 24(3) and Regulation (EU) 2025/1208 Article 8.",
+      "effect": "Article 7(1)(10) remains an official indexed filing-route excerpt and SG 109/2025 is a verified later Rules amendment. The MVR consolidated law cutoffs remain 27 June 2025 for the Act and 16 December 2025 for the Rules. The official Gazette index/preview mismatch is archived for review; until reconciled, no claim is made about a 2026 amendment or its absence. Do not infer current card format or individual-card validity. These findings do not block independent source reviews.",
+      "discovery_record": {
+        "archive_path": "discovery/mvr.bg/Bulgaria/Bulgaria/currentness/personal-documents-rules-2025-recheck-2026-10-25.md",
+        "sha256": "f550e95d526c40495a14396155a61dd2e332765ffb6eb35ccb3b350e5730c4c3",
+        "classification": "discovery"
+      }
     },
     {
       "id": "bg-sofia-migration",
