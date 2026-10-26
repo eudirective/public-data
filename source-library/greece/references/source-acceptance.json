@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 212 official-reference reviews approve only human use of the identified official links within the stated publisher, instrument/page, language, date, provisions, and scope. No local Gazette PDF or converted text is accepted for retention or republication. National Printing House search-site terms restrict non-personal copying, conversion, and transmission; whether those terms govern direct api.et.gr PDF URLs remains unresolved, so no local copy or automated acquisition rule is accepted. Link acceptance does not establish full topic coverage, current consolidated wording, or country completion. The Gov.gr family-residence and civil-status service routes are accepted only as locator/navigation references; current requirements and live operation remain open. The Gov.gr case-law search page is accepted only as a service locator; individual decisions and portal coverage are not accepted.",
+  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Four text-only excerpts of official legislative texts are separately accepted under Greek Law 2121/1993 Article 2(5), which excludes official legislative texts expressing state authority from copyright protection; the retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The remaining captured pages are represented by locator/disposition notes only; their captured text remains in the Monitor local-only archive. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -21,17 +21,17 @@
       "language": "Greek",
       "version_or_cutoff": "Original publication: FEK 135/A, 21 June 2007; this 12-page decree does not contain later amendments.",
       "scope": "PD 106/2007 implementing Directive 2004/38/EC on EU citizens and their family members. The original Article 24(2) was also reviewed for the national remedy expressly covering refusal of a residence or permanent-residence card, withdrawal and non-renewal.",
-      "reviewed_content": "The official National Printing House PDF identifies the Gazette issue, date, decree number and subject; its preamble identifies Directive 2004/38/EC. The decree is the base text only. Article 24(1) refers to Law 3386/2005 Article 77 and case ΙΘ of Ministerial Decision 7004/3/40-θ, as amended and in force. That wording and case identifier were checked against an official Ministry-hosted reproduction of the same FEK A 135 issue on 25 October 2026; case ΙΘ matches the historical delegation amendment accepted separately at gr-121. This verifies the original cross-reference and historical match only. On 26 October 2026, the original Greek text of Articles 11–17 was reviewed against the official Gazette text using the archived converted candidate (Monitor SHA-256 94deed415224712823082bd046d5f74c822e19ab9b42ac7aea9e1408bf5f492c); the candidate remains research-only and is not an accepted local copy. The review distinguishes Article 16 (Union-citizen permanent-residence certificate) from Article 17 (individual permanent-residence card for a third-country family member). Law 4071/2012 Article 42 separately replaces Article 16 and Article 17(4), as reviewed at gr-law4071-2012-art42. Article-level findings and limits are logged in Monitor local-only record discovery/eudirective-public-data/GR/free-movement/pd106-articles-11-17-review-2026-10-26.json (SHA-256 10b8c0f6f2e1f96949cdb1629acba0407f14db6ba51ca6e7567b48a8334bb3ec). On 26 October 2026, the official Gazette text of Article 24(2) (PDF page 10, printed page 2987) was reviewed. It expressly provides an application for annulment before the Council of State against decisions refusing an application for a registration certificate, residence card or permanent-residence card, and against withdrawal or non-renewal; it cross-refers to Law 3068/2002 Article 15(3), as in force. Article 24(1) separately concerns an administrative appeal against an expulsion decision. This review does not infer a prior administrative appeal for a card refusal. Monitor local-only review: discovery/eudirective-public-data/GR/free-movement/pd106-article24-2-eu-family-card-refusal-remedy-review-2026-10-26.json (SHA-256 c3f0b48dc3acc4481e9fde7be9a0c0286032fa2cbcf94fb39e20debd8e6634b3). On 26 October 2026, Law 5326/2026 Article 32 and Article 111 were directly reviewed from the official Gazette PDF (Article 32: PDF page 17, printed page 7293). Article 32 repeals only Articles 1–5 of Law 3068/2002 and does not amend or repeal Article 15(3). Article 111(1) makes publication the default commencement date; Article 32 is not among the delayed provisions, so this narrow repeal took effect on 4 August 2026. This does not establish the full amendment history or present wording of Article 15(3). On 26 October 2026, Law 4689/2020 Article 57 was directly reviewed from the National Printing House official Gazette PDF (FEK A 103/27 May 2020; PDF pages 21–22). It replaced Law 3068/2002 Article 15 in full; paragraph 3 now addresses territorial venue, paragraph 5 provides appeal to the Council of State, and paragraph 9 concerns nationality cases. PD 106/2007 Article 24(2) still expressly identifies a Council of State annulment action and cites Article 15(3) as in force. The cross-reference/forum relationship remains unresolved for human legal review. Bounded official-domain searches identified no later amendment, but do not establish a complete amendment history or current consolidated wording. Monitor follow-up: discovery/eudirective-public-data/GR/free-movement/pd106-article24-2-eu-family-card-refusal-remedy-review-2026-10-26.json (SHA-256 c3f0b48dc3acc4481e9fde7be9a0c0286032fa2cbcf94fb39e20debd8e6634b3). On 26 October 2026, the official Greek Gazette headings and parenthetical Directive citations for PD 106/2007 Articles 6–12, 17–22, and 24–27 were directly checked. They identify Article 6 and Article 14(1); Article 7 and Article 14(2); Article 8; Article 10 and Article 9(1)–(3); Article 11; Articles 12, 13 and Article 14(2) for each of Articles 11 and 12; Article 17; Articles 20, 21 and 36; Article 21; Article 22; Articles 23–26; Article 27, Article 29, Article 32 and Article 15(1), (3); Article 28, Article 33, Article 14(3)–(4), and Article 15(2); Article 30; Article 31; Article 34; Article 35; and Article 36, respectively by Greek article. The Article 9 heading cites only Directive Article 9(1)–(3). These are heading-level references in the original text only, not a complete substantive transposition or currentness review. A follow-up found express heading references for Directive Articles 28–36 in PD Articles 21–27; nine previously unresolved rows are now partial. No express Article 37 reference was located in the original PD. A separate official source, Law 5226/2025 Article 28(2) (gr-59), now provides a limited partial mapping for the EU-family return route by preserving more favourable PD 106 provisions; broader Article 37 implementation remains open. Monitor review: discovery/eudirective-public-data/GR/free-movement/pd106-explicit-greek-article-crosswalk-2026-10-26.json (SHA-256 0849581939bc64385378ba51758e72b13042f403a05bfcbc3245e56bb517dad1).",
+      "reviewed_content": "The official National Printing House PDF identifies the Gazette issue, date, decree number and subject; its preamble identifies Directive 2004/38/EC. The decree is the base text only. Article 24(1) refers to Law 3386/2005 Article 77 and case ΙΘ of Ministerial Decision 7004/3/40-θ, as amended and in force. That wording and case identifier were checked against an official Ministry-hosted reproduction of the same FEK A 135 issue on 25 October 2026; case ΙΘ matches the historical delegation amendment accepted separately at gr-121. This verifies the original cross-reference and historical match only. On 26 October 2026, the original Greek text of Articles 11–17 was reviewed against the official Gazette text using the archived converted candidate (Monitor SHA-256 94deed415224712823082bd046d5f74c822e19ab9b42ac7aea9e1408bf5f492c); the complete candidate remains research-only; the selected reviewed Articles 11–17 and 24 are retained separately as a scoped excerpt. The review distinguishes Article 16 (Union-citizen permanent-residence certificate) from Article 17 (individual permanent-residence card for a third-country family member). Law 4071/2012 Article 42 separately replaces Article 16 and Article 17(4), as reviewed at gr-law4071-2012-art42. Article-level findings and limits are logged in Monitor local-only record discovery/eudirective-public-data/GR/free-movement/pd106-articles-11-17-review-2026-10-26.json (SHA-256 10b8c0f6f2e1f96949cdb1629acba0407f14db6ba51ca6e7567b48a8334bb3ec). On 26 October 2026, the official Gazette text of Article 24(2) (PDF page 10, printed page 2987) was reviewed. It expressly provides an application for annulment before the Council of State against decisions refusing an application for a registration certificate, residence card or permanent-residence card, and against withdrawal or non-renewal; it cross-refers to Law 3068/2002 Article 15(3), as in force. Article 24(1) separately concerns an administrative appeal against an expulsion decision. This review does not infer a prior administrative appeal for a card refusal. Monitor local-only review: discovery/eudirective-public-data/GR/free-movement/pd106-article24-2-eu-family-card-refusal-remedy-review-2026-10-26.json (SHA-256 c3f0b48dc3acc4481e9fde7be9a0c0286032fa2cbcf94fb39e20debd8e6634b3). On 26 October 2026, Law 5326/2026 Article 32 and Article 111 were directly reviewed from the official Gazette PDF (Article 32: PDF page 17, printed page 7293). Article 32 repeals only Articles 1–5 of Law 3068/2002 and does not amend or repeal Article 15(3). Article 111(1) makes publication the default commencement date; Article 32 is not among the delayed provisions, so this narrow repeal took effect on 4 August 2026. This does not establish the full amendment history or present wording of Article 15(3). On 26 October 2026, Law 4689/2020 Article 57 was directly reviewed from the National Printing House official Gazette PDF (FEK A 103/27 May 2020; PDF pages 21–22). It replaced Law 3068/2002 Article 15 in full; paragraph 3 now addresses territorial venue, paragraph 5 provides appeal to the Council of State, and paragraph 9 concerns nationality cases. PD 106/2007 Article 24(2) still expressly identifies a Council of State annulment action and cites Article 15(3) as in force. The cross-reference/forum relationship remains unresolved for human legal review. Bounded official-domain searches identified no later amendment, but do not establish a complete amendment history or current consolidated wording. Monitor follow-up: discovery/eudirective-public-data/GR/free-movement/pd106-article24-2-eu-family-card-refusal-remedy-review-2026-10-26.json (SHA-256 c3f0b48dc3acc4481e9fde7be9a0c0286032fa2cbcf94fb39e20debd8e6634b3). On 26 October 2026, the official Greek Gazette headings and parenthetical Directive citations for PD 106/2007 Articles 6–12, 17–22, and 24–27 were directly checked. They identify Article 6 and Article 14(1); Article 7 and Article 14(2); Article 8; Article 10 and Article 9(1)–(3); Article 11; Articles 12, 13 and Article 14(2) for each of Articles 11 and 12; Article 17; Articles 20, 21 and 36; Article 21; Article 22; Articles 23–26; Article 27, Article 29, Article 32 and Article 15(1), (3); Article 28, Article 33, Article 14(3)–(4), and Article 15(2); Article 30; Article 31; Article 34; Article 35; and Article 36, respectively by Greek article. The Article 9 heading cites only Directive Article 9(1)–(3). These are heading-level references in the original text only, not a complete substantive transposition or currentness review. A follow-up found express heading references for Directive Articles 28–36 in PD Articles 21–27; nine previously unresolved rows are now partial. No express Article 37 reference was located in the original PD. A separate official source, Law 5226/2025 Article 28(2) (gr-59), now provides a limited partial mapping for the EU-family return route by preserving more favourable PD 106 provisions; broader Article 37 implementation remains open. Monitor review: discovery/eudirective-public-data/GR/free-movement/pd106-explicit-greek-article-crosswalk-2026-10-26.json (SHA-256 0849581939bc64385378ba51758e72b13042f403a05bfcbc3245e56bb517dad1).",
       "limitations": [
         "Not a consolidated current text.",
         "The Article 24(1) cross-reference and historical case ΙΘ match do not establish the current wording of Article 77 or the presently competent delegated body.",
         "Read the provisions relevant to the question with the targeted amendments reviewed separately: Law 4071/2012 Article 42, Law 4540/2018 Article 32, and Law 5275/2026 Article 53.",
         "Greek is the controlling language.",
-        "No local copy or republication permission is approved by this link review.",
         "Articles 11–17 were reviewed in the original 2007 text, but that review does not establish their full current wording or a complete amendment chain. Law 4071/2012 Article 42 changes Article 16 and Article 17(4); the other currentness questions remain open.",
         "Article 12 heading and documentary provisions refer to termination of registered partnership, while paragraph 2 operative retention grounds are framed around divorce or annulment; the present legal effect is unresolved.",
         "Article 24(2) is accepted as original 2007 wording, not a verified current rule. Law 4689/2020 Article 57 later replaced Law 3068/2002 Article 15 in full; paragraph 3 now concerns venue, while PD 106 Article 24(2) still expressly identifies a Council of State annulment action and cites Article 15(3) as in force. Their interaction, other amendments, current forum, filing deadline, interim relief, competent formation, costs and practice remain unresolved for human legal review. Bounded official-domain searches found no later amendment but do not prove none exists. Monitor review: discovery/eudirective-public-data/GR/free-movement/pd106-article24-2-eu-family-card-refusal-remedy-review-2026-10-26.json (SHA-256 c3f0b48dc3acc4481e9fde7be9a0c0286032fa2cbcf94fb39e20debd8e6634b3).",
-        "The original heading map now has source-backed partial references for all 36 required Directive articles (Articles 2–37) after adding a limited Article 37 link to Law 5226/2025 Article 28(2) for the covered EU-family return procedure. The broader inventory of more favourable provisions remains open. These references do not establish current consolidated wording, complete transposition or amendment history. Monitor review: discovery/eudirective-public-data/GR/free-movement/pd106-explicit-greek-article-crosswalk-2026-10-26.json (SHA-256 0849581939bc64385378ba51758e72b13042f403a05bfcbc3245e56bb517dad1)."
+        "The original heading map now has source-backed partial references for all 36 required Directive articles (Articles 2–37) after adding a limited Article 37 link to Law 5226/2025 Article 28(2) for the covered EU-family return procedure. The broader inventory of more favourable provisions remains open. These references do not establish current consolidated wording, complete transposition or amendment history. Monitor review: discovery/eudirective-public-data/GR/free-movement/pd106-explicit-greek-article-crosswalk-2026-10-26.json (SHA-256 0849581939bc64385378ba51758e72b13042f403a05bfcbc3245e56bb517dad1).",
+        "A text-only excerpt of Articles 11–17 and 24 is accepted at documents/legislation/gr-05-pd-106-2007-reviewed-provisions.md; it is the original 2007 text, not a consolidation."
       ],
       "source_list_id": "gr-05"
     },
@@ -48,8 +48,8 @@
       "limitations": [
         "Article 42 only; the issue is not a consolidated decree.",
         "Greek is the controlling language.",
-        "No local copy or republication permission is approved by this link review.",
-        "The reviewed Article 16 and Article 17(4) amendments do not establish the current procedure or all later amendments to those articles."
+        "The reviewed Article 16 and Article 17(4) amendments do not establish the current procedure or all later amendments to those articles.",
+        "A text-only excerpt of Article 42 is accepted at documents/legislation/gr-07-law-4071-2012-article-42.md; it is a targeted amendment only."
       ],
       "source_list_id": "gr-07"
     },
@@ -67,7 +67,7 @@
       "limitations": [
         "This is a targeted amending act, not a consolidation.",
         "Greek is the controlling language.",
-        "No local copy or republication permission is approved by this link review."
+        "A text-only excerpt of Article 32 is accepted at documents/legislation/gr-08-law-4540-2018-article-32.md; it is a targeted amendment only."
       ],
       "source_list_id": "gr-08"
     },
@@ -299,7 +299,7 @@
         "This is the complete text of one amendment, not a consolidated Administrative Procedure Code or a complete amendment chain.",
         "Six bounded official-domain indexed-web searches on 26 October 2026 displayed no later Article 5 amendment, but do not prove that none exists; current consolidated Code status remains open.",
         "The 20-day statutory response text does not establish service-specific immigration-file access, implementing details, a live request route or remedies for denial/delay.",
-        "No local copy or republication permission is accepted."
+        "A text-only excerpt of Article 59 is accepted at documents/legislation/gr-37-law-5143-2024-article-59.md; it is not a consolidated Code."
       ],
       "source_list_id": "gr-37"
     },
@@ -3822,8 +3822,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 0,
-    "note": "No local copy is accepted. The 40 archived converted candidate files and their candidate/retrieval manifests are preserved only in the Monitor local-only archive; 39 of those files are represented by accepted official references within narrow scopes; gr-06 remains as a duplicate of gr-05. One hundred seventy-one further accepted official references are outside those 40 files. Link acceptance does not accept archived converted text or grant republication permission."
+    "accepted_source_count": 4,
+    "note": "Four scoped text-only excerpts from official Greek legislative texts are accepted; they are not complete acts or consolidations. Thirty-five other candidate records have source-specific locator/disposition documents, but their captured page text remains unaccepted and local-only in the Monitor archive. gr-06 is a duplicate of gr-05 and has no separate document."
   },
   "whole_portal_review_offers": [
     {
@@ -3883,5 +3883,75 @@
       "effect": "Attica remains one regional practice sample and is not treated as national policy. Its current route is not relied on for the conflicting duration pending review; other work continues."
     }
   ],
-  "checked_on": "2026-10-26"
+  "checked_on": "2026-10-26",
+  "accepted_local_copy_reviews": {
+    "gr-pd106-2007-original": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "documents/legislation/gr-05-pd-106-2007-reviewed-provisions.md",
+      "sha256": "40d38a50541ac978573dbe0c1252696cac6538716c3c4bf1436952d94bc39110",
+      "bytes": 47004,
+      "source_url": "https://api.et.gr/apiLAW/2/2007/106/pdf",
+      "captured_candidate_url": "https://api.et.gr/apiLAW/2/2007/106/pdf",
+      "source_response_sha256": "8c862624cde63ecc3ab6eb7d76f64ab45484d822ff42c3aec856974f5cfc9b8d",
+      "source_text_excerpt_sha256": "5b7e409ec90043c9556e367b615ab86ea60db7d7b94df36a30be2c315174e806",
+      "archived_candidate_sha256": "94deed415224712823082bd046d5f74c822e19ab9b42ac7aea9e1408bf5f492c",
+      "archived_candidate_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-05.md",
+      "conversion_method": "PDF text extraction; 12 pages",
+      "reviewed_on": "2026-10-26",
+      "semantic_check": "Only Άρθρο 11; Άρθρο 12; Άρθρο 13; Άρθρο 14; Άρθρο 15; Άρθρο 16; Άρθρο 17; Άρθρο 24 were extracted from the hash-verified archived conversion. The official Gazette identity, dates and provision wording were checked in the source acceptance review gr-pd106-2007-original; no other provisions are represented as reviewed by this file. Trailing whitespace was removed; extracted wording and source line breaks were preserved.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official legislative texts expressing state authority from copyright protection. Only statutory wording and page markers are retained; no Gazette layout, logo, website UI or non-legislative material is copied. This is not an automated retrieval approval.",
+      "limitations": "A scoped excerpt of the original act only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law4071-2012-art42": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "documents/legislation/gr-07-law-4071-2012-article-42.md",
+      "sha256": "365f0a03579862ebfa119a77ead1d096cd9b338ef8efdc8a2aff8e720a3a5a09",
+      "bytes": 14374,
+      "source_url": "https://api.et.gr/apiFEK/1/2012/85/pdf",
+      "captured_candidate_url": "https://api.et.gr/apiFEK/1/2012/85/pdf",
+      "source_response_sha256": "3d0f3290a544da047ff477b3e4258a799648af149d8b0948353e75a26fe33b0f",
+      "source_text_excerpt_sha256": "c410d17e9f5d1c197a3fd2add57c551f2d7698f0f520af77c75c37541385130b",
+      "archived_candidate_sha256": "d379d48343c7edeaa341651a384f76fa060af2cfadc05c5215bfd1f568b53e06",
+      "archived_candidate_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-07.md",
+      "conversion_method": "PDF text extraction; 40 pages",
+      "reviewed_on": "2026-10-26",
+      "semantic_check": "Only Άρθρο 42 were extracted from the hash-verified archived conversion. The official Gazette identity, dates and provision wording were checked in the source acceptance review gr-law4071-2012-art42; no other provisions are represented as reviewed by this file. Trailing whitespace was removed; extracted wording and source line breaks were preserved.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official legislative texts expressing state authority from copyright protection. Only statutory wording and page markers are retained; no Gazette layout, logo, website UI or non-legislative material is copied. This is not an automated retrieval approval.",
+      "limitations": "A scoped excerpt of the original act only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law4540-2018-art32": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "documents/legislation/gr-08-law-4540-2018-article-32.md",
+      "sha256": "054dcd16d668aa01408f1fb7ccf999025a972bc4b909a3cc25ae4d428e31eb4d",
+      "bytes": 6337,
+      "source_url": "https://migration.gov.gr/wp-content/uploads/2020/05/N4540_2018-1.pdf",
+      "captured_candidate_url": "https://api.et.gr/apiLAW/1/2018/4540/pdf",
+      "source_response_sha256": "c267657b66a21aa831d2e8e4f3d9f323564c0db66682de8c120a2d9f0b4f045c",
+      "source_text_excerpt_sha256": "f7d26699c40080ccf729de9605b15220db0d047bd4fd69bb4118648ad8ad1b1d",
+      "archived_candidate_sha256": "b4917efbf11311292cec9a81dbbf30fee79aedfdb46fb91845cb92b311e089d8",
+      "archived_candidate_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-08.md",
+      "conversion_method": "PDF text extraction; 28 pages",
+      "reviewed_on": "2026-10-26",
+      "semantic_check": "Only Άρθρο 32 were extracted from the hash-verified archived conversion. The official Gazette identity, dates and provision wording were checked in the source acceptance review gr-law4540-2018-art32; no other provisions are represented as reviewed by this file. Trailing whitespace was removed; extracted wording and source line breaks were preserved.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official legislative texts expressing state authority from copyright protection. Only statutory wording and page markers are retained; no Gazette layout, logo, website UI or non-legislative material is copied. This is not an automated retrieval approval.",
+      "limitations": "A scoped excerpt of the original act only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law5143-2024-art59": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "documents/legislation/gr-37-law-5143-2024-article-59.md",
+      "sha256": "917f4e0a2a38df0dd2329e4c57a62abd017d2e3465e09e7cbeeb3ff762941eb0",
+      "bytes": 11038,
+      "source_url": "https://api.et.gr/apiFEK/1/2024/161/pdf",
+      "captured_candidate_url": "https://api.et.gr/apiFEK/1/2024/161/pdf",
+      "source_response_sha256": "828864e03850d959415f2731835c446acf0868eeb0e9a9d3c7f1f828a60702ec",
+      "source_text_excerpt_sha256": "12a6a0e8e932b437048dcb1075afa816fca935bd249fbc21af305cb24d341f14",
+      "archived_candidate_sha256": "28464e966e5fa874562c5510b5bce20238bbe5b8938fb37572f2b1fe9df6c2af",
+      "archived_candidate_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-37.md",
+      "conversion_method": "PDF text extraction; 36 pages",
+      "reviewed_on": "2026-10-26",
+      "semantic_check": "Only Άρθρο 59 were extracted from the hash-verified archived conversion. The official Gazette identity, dates and provision wording were checked in the source acceptance review gr-law5143-2024-art59; no other provisions are represented as reviewed by this file. Trailing whitespace was removed; extracted wording and source line breaks were preserved.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official legislative texts expressing state authority from copyright protection. Only statutory wording and page markers are retained; no Gazette layout, logo, website UI or non-legislative material is copied. This is not an automated retrieval approval.",
+      "limitations": "A scoped excerpt of the original act only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    }
+  }
 }
