@@ -4,7 +4,7 @@
 
 **Inventory:** 63 references; 54 current official links accepted within scope; 4 historical-only references; 5 exact routes not relied upon with whole-site human-review offers.
 
-**Local copies:** 8 accepted statutory texts. **Topics:** 0 accepted. **Country review:** incomplete.
+**Local copies:** 26 accepted source-text copies (11 legal/instrument texts, including two historical copies, and 15 dated gov.pl textual snapshots); 24 locator/disposition notes. **Topics:** 0 accepted. **Country review:** incomplete.
 
 This review separates use of official source links from an optional workflow for retaining local copies. A source link does not need API access, registration, capture, conversion, hashes or replay to be usable for ordinary research. Prefer a trustworthy government-published consolidation. If publisher, current version, scope or live procedure cannot be established confidently, offer the whole official portal for human review.
 
@@ -18,9 +18,9 @@ This review separates use of official source links from an optional workflow for
 
 ## Existing local-copy evidence
 
-The archived capture run covered 54 targets: 51 exact source responses and 50 candidate conversions. Three requests failed (one HTTP 403 and two certificate-validation errors); one interactive portal returned a shell without extractable source text. The Monitor archive preserves the unaccepted candidate bytes and original manifests. Eight statutory text copies were independently replayed from the exact saved response and checked against ELI metadata and selected legal anchors before acceptance. The other candidate conversions remain unaccepted archive evidence; the retired pack-local verifier does not certify them. Nine additional official references were reviewed as links only.
+The archived capture run covered 54 targets: 51 exact source responses and 50 candidate conversions. Three requests failed (one HTTP 403 and two certificate-validation errors); one interactive portal returned a shell without extractable source text. The Monitor archive preserves the unaccepted candidate bytes and original manifests. All 50 former candidate records were dispositioned. Twenty-six accepted source-text copies are under documents/; the remaining 24 have substantive official-link locator/disposition notes there, while exact response candidates remain Monitor-archived. Accepted statutory texts were replayed from exact saved responses and checked against ELI metadata and selected legal anchors; the 15 gov.pl snapshots were body-replayed from raw responses and retained as dated textual content under visible CC BY-SA 4.0 terms, excluding audiovisual files and linked attachments. The retired pack-local verifier does not certify runtime completion. Nine additional official references were reviewed as links only.
 
-The accepted PDF conversions used pinned pypdf 6.21.1; the two accepted ELI HTML copies were replayed using the recorded body selector. Exact response hashes, candidate archive hashes, page counts and selected text anchors were checked. These checks support the identified copies but do not prove legal interpretation, full topic coverage or current applicability of dated consolidations. Remaining local candidate text is not accepted.
+The accepted ELI PDF conversions use pypdf 6.21.1; ELI HTML and gov.pl pages were replayed from saved response bodies. The new residence-forms regulation is retained as a native 40-page PDF with extracted Markdown because the PDF carries layout-bearing annexes. Exact response and Monitor candidate hashes are recorded per document. These checks support the dated copies but do not prove legal interpretation, complete topic coverage or current applicability. Unaccepted response bodies remain only in the Monitor archive; no candidate directory remains in the pack.
 
 ## Repair priorities
 
