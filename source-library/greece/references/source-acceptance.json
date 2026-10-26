@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Four text-only excerpts of official legislative texts are separately accepted under Greek Law 2121/1993 Article 2(5), which excludes official legislative texts expressing state authority from copyright protection; the retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The remaining captured pages are represented by locator/disposition notes only; their captured text remains in the Monitor local-only archive. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Four text-only excerpts of official legislative texts are separately accepted under Greek Law 2121/1993 Article 2(5), which excludes official legislative texts expressing state authority from copyright protection; the retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 203 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -3823,7 +3823,7 @@
   },
   "local_copy_acceptance": {
     "accepted_source_count": 4,
-    "note": "Four scoped text-only excerpts from official Greek legislative texts are accepted; they are not complete acts or consolidations. Thirty-five other candidate records have source-specific locator/disposition documents, but their captured page text remains unaccepted and local-only in the Monitor archive. gr-06 is a duplicate of gr-05 and has no separate document."
+    "note": "Four scoped text-only excerpts from official Greek legislative texts are accepted; they are not complete acts or consolidations. The other 203 accepted candidate references have source-specific link-only locator/disposition documents; they do not reproduce source text. Where candidate page bodies exist, they remain in the Monitor's local-only archive. gr-06 is a duplicate of gr-05."
   },
   "whole_portal_review_offers": [
     {
