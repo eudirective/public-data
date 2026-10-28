@@ -3822,8 +3822,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 19,
-    "note": "Nineteen scoped text-only excerpts from official Greek legislative and administrative texts are accepted; they are not complete acts or consolidations. The other 198 accepted candidate references have source-specific link-only locator/disposition documents; they do not reproduce source text. Where candidate page bodies exist, they remain in the Monitor's local-only archive. gr-06 is a duplicate of gr-05."
+    "accepted_source_count": 24,
+    "note": "Twenty-four scoped text-only excerpts from official Greek legislative and administrative texts are accepted; they are not complete acts or consolidations. The other 198 accepted candidate references have source-specific link-only locator/disposition documents; they do not reproduce source text. Where candidate page bodies exist, they remain in the Monitor's local-only archive. gr-06 is a duplicate of gr-05."
   },
   "whole_portal_review_offers": [
     {
@@ -4176,6 +4176,81 @@
       "reviewed_on": "2026-10-28",
       "semantic_check": "Articles 23–25 address compensation and payment for legal-aid cases. They concern provider remuneration and payment, not applicant eligibility or a current consolidated legal-aid scheme. The official Gazette identity and selected source text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
       "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official administrative decisions and legislative texts, from copyright protection. This file retains only the selected official decision or statutory wording and page markers; it omits Gazette layout, publisher branding, website content and unrelated material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
+      "limitations": "A scoped excerpt of the dated official instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law5275-2026-art53": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "legislation/gr-57-law-5275-2026-articles-53-and-57.md",
+      "sha256": "75201ff0d86df4c3dfba202ec70397441a72ca759ca367f0cff3c393ef5f8d91",
+      "bytes": 13635,
+      "source_url": "https://api.et.gr/apiLAW/1/2026/5275/pdf",
+      "captured_candidate_url": "https://api.et.gr/apiLAW/1/2026/5275/pdf",
+      "source_response_sha256": "eff39df99fb9d8e66c335852b0f0e3906c988ddbef0e8e84c5d6e38d6997f3c5",
+      "source_text_excerpt_sha256": "201fd9b4522bdda20439faea5ff364dfb822f0eb35205bda1690cad8f0b658e5",
+      "conversion_method": "PDF text extraction; 64 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Article 53 reproduces PD 106/2007 Article 3 as amended for five-year residence cards in specified other-family-member and stable-partner cases, including listed pending applications. Article 57 makes targeted changes to Law 5226/2025 Articles 4, 22(4) and 23(4), not Articles 13–15 or 28. This is not a consolidated PD 106/2007 or Law 5226/2025; effect of the revised Article 3(1) wording and present practice remain open. The identified Gazette title, number, date, and selected text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official administrative decisions and legislative texts, from copyright protection. This file retains only the scoped official wording and page markers; it omits Gazette layout, publisher branding, website content and unrelated material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
+      "limitations": "A scoped excerpt of the dated official instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law4686-2020-art43": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "legislation/gr-58-law-4686-2020-article-43-transitional-residence.md",
+      "sha256": "07af491867a44a817f897826f49333f4895a61594a58c646ab98443d9d1530da",
+      "bytes": 7654,
+      "source_url": "https://migration.gov.gr/wp-content/uploads/2020/06/%CE%9D%CF%8C%CE%BC%CE%BF%CF%82-46862020.pdf",
+      "captured_candidate_url": "https://migration.gov.gr/wp-content/uploads/2020/06/%CE%9D%CF%8C%CE%BC%CE%BF%CF%82-46862020.pdf",
+      "source_response_sha256": "dea2c5b490dbc5ba02f2cbb4bc1e8357beb9a9fb0b6ac45b5b4599e311b5fb31",
+      "source_text_excerpt_sha256": "0ef9fc7a2a956972a8e1ebbfd24c41ea7bda96b749e5c4bf026c719b7ba07fb5",
+      "conversion_method": "PDF text extraction; 24 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Article 43 contains specified transitional residence-document provisions for family members of Greek and EU citizens that refer to PD 106/2007. This is dated transitional text, not current procedure or a consolidation. The identified Gazette title, number, date, and selected text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official administrative decisions and legislative texts, from copyright protection. This file retains only the scoped official wording and page markers; it omits Gazette layout, publisher branding, website content and unrelated material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
+      "limitations": "A scoped excerpt of the dated official instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law5226-2025-art28": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "legislation/gr-59-law-5226-2025-articles-13-15-and-28.md",
+      "sha256": "6d0ebc5498816b965e8ebd2196af9594a488cc94baad65937cc775dab11b672f",
+      "bytes": 13845,
+      "source_url": "https://migration.gov.gr/wp-content/uploads/2025/09/nomos_5226_2025.pdf",
+      "captured_candidate_url": "https://migration.gov.gr/wp-content/uploads/2025/09/nomos_5226_2025.pdf",
+      "source_response_sha256": "8de76ad1287826e6f6e4e38c6f90fee984fb4835e6a6db68615782ff5ce6a1ed",
+      "source_text_excerpt_sha256": "2f7299f35cfcedba9c592358f4be0152cd745e241db3e3ed886252aee304637e",
+      "conversion_method": "PDF text extraction; 24 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Articles 13–15 address return-decision form and notice, remedies and review, interim protection, and safeguards pending return. Article 28 preserves the PD 106/2007 Articles 22–24 route for EU citizens and their family members while applying compatible rules supplementarily. This is not evidence of current operational practice or a complete amendment chain. The identified Gazette title, number, date, and selected text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official administrative decisions and legislative texts, from copyright protection. This file retains only the scoped official wording and page markers; it omits Gazette layout, publisher branding, website content and unrelated material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
+      "limitations": "A scoped excerpt of the dated official instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law5307-2026-asylum-legal-assistance": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "legislation/gr-128-law-5307-2026-selected-asylum-border-return-provisions.md",
+      "sha256": "f62b9830c4a2cd7eee1cec320af4537416153037aab364b9787d7e777f5a8682",
+      "bytes": 41186,
+      "source_url": "https://migration.gov.gr/wp-content/uploads/2026/06/%CE%A6%CE%95%CE%9A-%CE%91-90-%CE%9D.-5307-2026-%CE%93%CE%99%CE%91-%CE%A4%CE%97%CE%9D-%CE%95%CE%A6%CE%91%CE%A1%CE%9C%CE%9F%CE%93%CE%97-%CE%A4%CE%9F%CE%A5-%CE%A3%CE%A5%CE%9C%CE%A6%CE%A9%CE%9D%CE%9F%CE%A5-%CE%93%CE%99%CE%91-%CE%A4%CE%9F-%CE%91%CE%A3%CE%A5%CE%9B%CE%9F-%CE%9A%CE%91%CE%99-%CE%A4%CE%97-%CE%9C%CE%95%CE%A4%CE%91%CE%9D%CE%91%CE%A3%CE%A4%CE%95%CE%A5%CE%A3%CE%97.pdf",
+      "captured_candidate_url": "https://migration.gov.gr/wp-content/uploads/2026/06/%CE%A6%CE%95%CE%9A-%CE%91-90-%CE%9D.-5307-2026-%CE%93%CE%99%CE%91-%CE%A4%CE%97%CE%9D-%CE%95%CE%A6%CE%91%CE%A1%CE%9C%CE%9F%CE%93%CE%97-%CE%A4%CE%9F%CE%A5-%CE%A3%CE%A5%CE%9C%CE%A6%CE%A9%CE%9D%CE%9F%CE%A5-%CE%93%CE%99%CE%91-%CE%A4%CE%9F-%CE%91%CE%A3%CE%A5%CE%9B%CE%9F-%CE%9A%CE%91%CE%99-%CE%A4%CE%97-%CE%9C%CE%95%CE%A4%CE%91%CE%9D%CE%91%CE%A3%CE%A4%CE%95%CE%A5%CE%A3%CE%97.pdf",
+      "source_response_sha256": "27b3c693ae0db6cd43fcb308a06ba390c52e20adf4e64f957477ed3945b06f9a",
+      "source_text_excerpt_sha256": "664db0b33e194c527d3e42dfb4c8f1f0d30e68529816feaffe6e3ae8cbf2d193",
+      "conversion_method": "PDF text extraction; 122 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "The excerpt covers legal guidance and legal assistance, effective-remedy and hearing provisions, the distinct asylum border-return and detention route, transition and repeal provisions, and commencement. Articles 154–157 are a separate asylum-border route; the act expressly excludes persons within the stated PD 106/2007/Schengen free-movement scope. It does not replace the separate PD 106/2007 family-member route or amend Law 5226/2025 Articles 14 or 16. Transition cohorts, remedies and service delivery remain open. The identified Gazette title, number, date, and selected text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official administrative decisions and legislative texts, from copyright protection. This file retains only the scoped official wording and page markers; it omits Gazette layout, publisher branding, website content and unrelated material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
+      "limitations": "A scoped excerpt of the dated official instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-kya120961-2026-legal-guidance": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "guidance/gr-129-kya-120961-2026-free-legal-guidance-articles-1-8.md",
+      "sha256": "bcbd89607fd44bebe9905fd65a4944e99b568c32504806a47c2c5725ab7ff9f8",
+      "bytes": 30154,
+      "source_url": "https://migration.gov.gr/wp-content/uploads/2026/07/KYA-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%AE-%CE%BA%CE%B1%CE%B8%CE%BF%CE%B4%CE%AE%CE%B3%CE%B7%CF%83%CE%B7.pdf",
+      "captured_candidate_url": "https://migration.gov.gr/wp-content/uploads/2026/07/KYA-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%AE-%CE%BA%CE%B1%CE%B8%CE%BF%CE%B4%CE%AE%CE%B3%CE%B7%CF%83%CE%B7.pdf",
+      "source_response_sha256": "db43dc063adec0c9a7e3eaea0843cfc72410d5fb483f9df0dc51149525892704",
+      "source_text_excerpt_sha256": "a415c41c6a4f140117d249df8eeb142cb198194268837d7cf6d06b9b23393851",
+      "conversion_method": "PDF text extraction; 8 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Articles 1–8 establish the scope, content, lawyer register, eligibility and deletion rules, training, delivery procedure, unaccompanied-minor provisions and guidance after an international-protection application. This is the legal-guidance procedure, not the separate Article 103 appeal-representation entitlement. Actual service delivery remains unverified. The identified Gazette title, number, date, and selected text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official administrative decisions and legislative texts, from copyright protection. This file retains only the scoped official wording and page markers; it omits Gazette layout, publisher branding, website content and unrelated material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
       "limitations": "A scoped excerpt of the dated official instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
     }
   }
