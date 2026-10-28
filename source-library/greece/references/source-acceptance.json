@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Nine text-only excerpts of official legislative texts are separately accepted under Greek Law 2121/1993 Article 2(5), which excludes official legislative texts expressing state authority from copyright protection; the retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 198 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Thirty-four text-only excerpts of official legislative texts are separately accepted under Greek Law 2121/1993 Article 2(5), which excludes official legislative texts expressing state authority from copyright protection; the retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 173 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -3822,8 +3822,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 29,
-    "note": "Twenty-nine scoped text-only excerpts from official Greek legislative and administrative texts are accepted; they are not complete acts or consolidations. The other 198 accepted candidate references have source-specific link-only locator/disposition documents; they do not reproduce source text. Where candidate page bodies exist, they remain in the Monitor's local-only archive. gr-06 is a duplicate of gr-05."
+    "accepted_source_count": 34,
+    "note": "Thirty-four scoped text-only excerpts from Greek official legislative and administrative texts are accepted; they are not complete acts or consolidations. The other 173 accepted candidate references have source-specific link-only locator/disposition documents; they do not reproduce source text. Where candidate page bodies exist, they remain in the Monitor's local-only archive. gr-06 is a duplicate of gr-05."
   },
   "whole_portal_review_offers": [
     {
@@ -4327,6 +4327,81 @@
       "semantic_check": "Article 3 amends Civil Code Article 1350(1) to permit marriage between two persons of the same or different sex. Articles 10–11 address specified foreign-marriage and parentage/adoption recognition cases. Article 3 alone does not establish current domestic adoption eligibility or a general recognition procedure; current consolidated text remains open. The identified Gazette title, number, date, and selected text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
       "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official administrative decisions and legislative texts, from copyright protection. This file retains only the scoped official wording and page markers; it omits Gazette layout, publisher branding, website content and unrelated material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
       "limitations": "A scoped excerpt of the dated official instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law4604-2019-art117-adoption": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "legislation/gr-77-law-4604-2019-article-117-adoption-registers.md",
+      "sha256": "c3cf5372a79cc6ae454111fbd2e1f5ae25f71999932320c4447362e4b01ff461",
+      "bytes": 14995,
+      "source_url": "https://ypergasias.gov.gr/wp-content/uploads/2021/02/%CE%9D.4604-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CE%9F%CF%85%CF%83%CE%B9%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AE-%CE%99%CF%83%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CF%89%CE%BD-%CE%A6%CF%8D%CE%BB%CF%89%CE%BD.pdf",
+      "captured_candidate_url": "https://ypergasias.gov.gr/wp-content/uploads/2021/02/%CE%9D.4604-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CE%9F%CF%85%CF%83%CE%B9%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AE-%CE%99%CF%83%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CF%89%CE%BD-%CE%A6%CF%8D%CE%BB%CF%89%CE%BD.pdf",
+      "source_response_sha256": "0fbd7f8639df4ac75b9ea5770c265c6e70f9e88dac8a0f33d655bde5fd72da1f",
+      "source_text_excerpt_sha256": "f380123ceea08ea53f1b847e7574e329a5fb3efcda25fb8f31791e9b92215cfc",
+      "conversion_method": "PDF text extraction; 52 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Article 117 amends Law 4538/2018 Articles 5, 6, 9, 13, 20 and 21 concerning child and prospective-adoptive-parent registers and procedures. This is original 2019 amendment wording, not a current consolidated adoption code. Άρθρο 117 The identified source and selected text were checked. Trailing whitespace was removed; source wording, nonbreaking spaces, publisher quotation marks and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official legislative and administrative text, from copyright protection. This file retains only the scoped legal wording and page markers; it omits Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not authorize automated retrieval or determine the application of search.et.gr terms to direct api.et.gr access.",
+      "limitations": "Scoped excerpt only; not a complete act or consolidation, current-version certification, full amendment history, topic-coverage finding or country-completion claim. Article 117 amends Law 4538/2018 Articles 5, 6, 9, 13, 20 and 21 concerning child and prospective-adoptive-parent registers and procedures. This is original 2019 amendment wording, not a current consolidated adoption code."
+    },
+    "gr-law4997-2022-art58-adoption": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "legislation/gr-78-law-4997-2022-article-58-foster-adoption.md",
+      "sha256": "7f169b582191c10fb4d3a32dbbb494710c9edb9ac6e440c6a1e7b5064f861849",
+      "bytes": 23856,
+      "source_url": "https://ypergasias.gov.gr/wp-content/uploads/2024/07/FEK_2022-11-25_%CE%91-219_%CE%9D-4997-%CE%95%CE%B9%CF%83%CF%86%CE%BF%CF%81%CE%AD%CF%82-%CE%95%CF%80%CE%B9%CE%BA%CE%BF%CF%85%CF%81%CE%B9%CE%BA%CE%AE%CF%82-%CE%91%CF%83%CF%86%CE%AC%CE%BB%CE%B9%CF%83%CE%B7%CF%82.pdf",
+      "captured_candidate_url": "https://ypergasias.gov.gr/wp-content/uploads/2024/07/FEK_2022-11-25_%CE%91-219_%CE%9D-4997-%CE%95%CE%B9%CF%83%CF%86%CE%BF%CF%81%CE%AD%CF%82-%CE%95%CF%80%CE%B9%CE%BA%CE%BF%CF%85%CF%81%CE%B9%CE%BA%CE%AE%CF%82-%CE%91%CF%83%CF%86%CE%AC%CE%BB%CE%B9%CF%83%CE%B7%CF%82.pdf",
+      "source_response_sha256": "925290a6274b9b1b5168190aa4dbffe0c997fb377e520e9b4a674291bb8c8cf2",
+      "source_text_excerpt_sha256": "625cc4208ddef044fff4c29f4030562a93e55901a67cfce51175fe39db4d71eb",
+      "conversion_method": "PDF text extraction; 56 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Article 58 amends Law 4538/2018 Articles 5, 14, 16, 24 and 26, including adoption training and social-investigation provisions. This is dated amendment text, not a current consolidated adoption code; current Article 26 adoption-specific effect remains open. Άρθρο 58 The identified source and selected text were checked. Trailing whitespace was removed; source wording, nonbreaking spaces, publisher quotation marks and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official legislative and administrative text, from copyright protection. This file retains only the scoped legal wording and page markers; it omits Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not authorize automated retrieval or determine the application of search.et.gr terms to direct api.et.gr access.",
+      "limitations": "Scoped excerpt only; not a complete act or consolidation, current-version certification, full amendment history, topic-coverage finding or country-completion claim. Article 58 amends Law 4538/2018 Articles 5, 14, 16, 24 and 26, including adoption training and social-investigation provisions. This is dated amendment text, not a current consolidated adoption code; current Article 26 adoption-specific effect remains open."
+    },
+    "gr-civil-code-adoption-chapter-2019": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "legal_information/gr-80-civil-code-adoption-articles-1543-1546-ministry-linked-text.md",
+      "sha256": "f707241ba869b43c2b1e290cfdaa75e50f170698fefd1de4f7700c60f85d2e5b",
+      "bytes": 5373,
+      "source_url": "https://ministryofjustice.gr/wp-content/uploads/2019/10/%CE%91%CF%83%CF%84%CE%B9%CE%BA%CF%8C%CF%82-%CE%9A%CF%8E%CE%B4%CE%B9%CE%BA%CE%B1%CF%82.pdf",
+      "captured_candidate_url": "https://ministryofjustice.gr/wp-content/uploads/2019/10/%CE%91%CF%83%CF%84%CE%B9%CE%BA%CF%8C%CF%82-%CE%9A%CF%8E%CE%B4%CE%B9%CE%BA%CE%B1%CF%82.pdf",
+      "source_response_sha256": "3a9957f09a77d194ce3900eff3b509111921197d6b9dd18e4164b7a085d5e7ec",
+      "source_text_excerpt_sha256": "bb4f3abfa0f7ef7587e7cbb6489304b586a6f47c431ed1afcbf58c0db0689671",
+      "conversion_method": "PDF text extraction; 630 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "The Ministry index links a 630-page PDF credited to the Isokratis legal-information database. These sections state selected adoption eligibility, age-difference, joint/successive-spouse-adoption and spouse-consent rules. Article 1544 and 1545 contain database quotation marks around amendment text; those marks are retained from the source. The upload path is dated 2019/10 and no consolidation cutoff is stated, so current wording and the interaction with later amendments remain unverified. Articles 1543–1546 The identified source and selected text were checked. Trailing whitespace was removed; source wording, nonbreaking spaces, publisher quotation marks and source line breaks were retained.",
+      "reuse_basis": "Only the text fields containing the selected Civil Code provisions are retained; the database metadata, explanatory notes, navigation, and interface are omitted. The underlying official legislative wording is excluded under Greek Law 2121/1993 Article 2(5). The Ministry index links this legal-information PDF; it is not a Gazette copy or a verified current consolidation.",
+      "limitations": "Scoped excerpt only; not a complete act or consolidation, current-version certification, full amendment history, topic-coverage finding or country-completion claim. The Ministry index links a 630-page PDF credited to the Isokratis legal-information database. These sections state selected adoption eligibility, age-difference, joint/successive-spouse-adoption and spouse-consent rules. Article 1544 and 1545 contain database quotation marks around amendment text; those marks are retained from the source. The upload path is dated 2019/10 and no consolidation cutoff is stated, so current wording and the interaction with later amendments remain unverified."
+    },
+    "gr-law4652-2020-art10": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "legislation/gr-93-law-4652-2020-article-10-historical-withdrawal-agreement.md",
+      "sha256": "ecdae482d5caf6d168ad54c6f306df9798af461d6b831702c1d12bb0749e72f6",
+      "bytes": 5201,
+      "source_url": "https://migration.gov.gr/wp-content/uploads/2020/05/%CE%9D4652_2020.pdf",
+      "captured_candidate_url": "https://migration.gov.gr/wp-content/uploads/2020/05/%CE%9D4652_2020.pdf",
+      "source_response_sha256": "a45c7c35733d5c02e5c74e8c4a30777258cb0626b91aa35251c19633cf392e7c",
+      "source_text_excerpt_sha256": "5b2bdb03c4ac139f78e7f34346ebf780d4fab0c5e9fc03bcdc943fba920aa3d4",
+      "conversion_method": "PDF text extraction; 8 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Article 10 is the original Greek Withdrawal Agreement residence text. Law 4686/2020 Article 62 replaced it; this excerpt is historical and must not be used as the current wording. Later amendment status of the replacement remains open. Άρθρο 10 The identified source and selected text were checked. Trailing whitespace was removed; source wording, nonbreaking spaces, publisher quotation marks and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official legislative and administrative text, from copyright protection. This file retains only the scoped legal wording and page markers; it omits Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not authorize automated retrieval or determine the application of search.et.gr terms to direct api.et.gr access.",
+      "limitations": "Scoped excerpt only; not a complete act or consolidation, current-version certification, full amendment history, topic-coverage finding or country-completion claim. Article 10 is the original Greek Withdrawal Agreement residence text. Law 4686/2020 Article 62 replaced it; this excerpt is historical and must not be used as the current wording. Later amendment status of the replacement remains open."
+    },
+    "gr-kya-4000-1-113a-2020": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "guidance/gr-94-kya-4000-1-113-2020-articles-1-4-withdrawal-agreement.md",
+      "sha256": "6aa612d154f9ab493227ae3de13fb64ac6d8aa297a3ffe562c4875ad7f58e7c0",
+      "bytes": 26772,
+      "source_url": "https://migration.gov.gr/wp-content/uploads/2021/01/KYA-4000.1.113.2020.pdf",
+      "captured_candidate_url": "https://migration.gov.gr/wp-content/uploads/2021/01/KYA-4000.1.113.2020.pdf",
+      "source_response_sha256": "1612e8cafed8f2471c9e121c68b57f19ab91f9813c5fe0e18a870e4f511f60ea",
+      "source_text_excerpt_sha256": "ccf0cd1ad5a4530ace93aaa8c10c7c3247862815d1e7da6c1c94809e1eca9984",
+      "conversion_method": "PDF text extraction; 8 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Articles 1–4 address beneficiaries, issuing authorities, supporting documents, biometrics and proof of filing. Article 1(5) set the initial application window from 1 January to 30 June 2021; the window has expired. This decision alone does not establish application authority or practice after that date. Άρθρα 1–4 The identified source and selected text were checked. Trailing whitespace was removed; source wording, nonbreaking spaces, publisher quotation marks and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official legislative and administrative text, from copyright protection. This file retains only the scoped legal wording and page markers; it omits Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not authorize automated retrieval or determine the application of search.et.gr terms to direct api.et.gr access.",
+      "limitations": "Scoped excerpt only; not a complete act or consolidation, current-version certification, full amendment history, topic-coverage finding or country-completion claim. Articles 1–4 address beneficiaries, issuing authorities, supporting documents, biometrics and proof of filing. Article 1(5) set the initial application window from 1 January to 30 June 2021; the window has expired. This decision alone does not establish application authority or practice after that date."
     }
   }
 }
