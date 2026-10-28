@@ -3943,6 +3943,24 @@
         "Accepted by link only; no local source text retained and no automated retrieval rule."
       ],
       "source_list_id": "gr-221"
+    },
+    "gr-2022-parliamentary-answer-2655-2022": {
+      "status": "usable_official_reference",
+      "publisher": "Hellenic Ministry of Migration and Asylum; answer transmitted to the Hellenic Parliament",
+      "url": "https://www.hellenicparliament.gr/UserFiles/67715b2c-ec81-4f0c-ad6a-476a34d732bd/11878750.pdf",
+      "rediscovery_url": "https://www.hellenicparliament.gr/Koinovouleftikos-Elenchos/Mesa-Koinovouleutikou-Elegxou",
+      "checked_on": "2026-10-29",
+      "language": "Greek",
+      "version_or_cutoff": "Ministry answer dated 23 February 2022 to parliamentary question 2655/24 January 2022; ten-page PDF with two data annexes.",
+      "scope": "Historical administrative explanation of Law 4876/2021 Article 139 and processing of pending residence-title applications under Law 4251/2014 and PD 106/2007, with national caseload and application-type tables.",
+      "reviewed_content": "The signed Ministry response says Article 139 of Law 4876/2021 deemed pending initial/renewal applications submitted by 31 December 2020 accepted without an individual decision, and treated elapsed time through 31 March 2022 as lawful residence. It describes pandemic backlogs, electronic renewal, the later self-document renewal step, and the right to examine refusal/revocation grounds. It reports 18,980 pending applications overall, including 5 renewals for EU-citizen ascendants under PD 106/2007 Article 9; annexes break figures down by regional office and permit type. This is a historical governmental implementation account, not a current procedure.",
+      "limitations": [
+        "Historical COVID-era arrangement; dates and processes have expired and do not describe current applications.",
+        "The response is primarily about third-country national cases; its annex identifies only five EU-family ascendant renewals, and it does not establish current PD 106/2007 practice.",
+        "Statistics are the Ministry's snapshot from February 2022, not current counts.",
+        "Greek is the controlling language; no local copy or automated retrieval rule is accepted."
+      ],
+      "source_list_id": "gr-222"
     }
   },
   "local_copy_acceptance": {
