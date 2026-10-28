@@ -64,6 +64,15 @@
       "sha256": "7acef8dd8ff2fee81fabae2ef0277011ebe53fb646d71561b90a37f86e7a690f",
       "archived_at": "2026-10-28T21:56:05.426Z",
       "superseded_by_sha256": "901e49e82b91b2ddd6a5b4cd55a1d7e764bcc1c5d6209cf930795a8e15421d7b"
+    },
+    {
+      "source_id": "gr-191",
+      "official_url": "https://migration.gov.gr/wp-content/uploads/2020/05/%CE%9510_2008.pdf",
+      "current_path": "greece/documents/guidance/gr-191-ministry-of-interior-circular-no-10-28-february-2008-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-191-ministry-of-interior-circular-no-10-28-february-2008-locator/3128bcf3d623829346df3a9ace2f13e8be0d3db8ee79dc5529d4a21e448d55d7.md",
+      "sha256": "3128bcf3d623829346df3a9ace2f13e8be0d3db8ee79dc5529d4a21e448d55d7",
+      "archived_at": "2026-10-28T21:56:21.732Z",
+      "superseded_by_sha256": "640c0b60624abb445f87edb81b59fd8aa0cf8d4bd25a4fd68885b8b80ee8c3ba"
     }
   ]
 }
