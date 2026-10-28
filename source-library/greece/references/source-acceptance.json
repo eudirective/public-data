@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Sixty-seven scoped text-only excerpts of official legislative and administrative texts are separately accepted: 65 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and two MITOS procedure-page excerpts under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 143 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Sixty-eight scoped text-only excerpts of official legislative and administrative texts are separately accepted: 66 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and two MITOS procedure-page excerpts under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 143 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -2218,15 +2218,15 @@
       "publisher": "National Printing House of the Hellenic Republic",
       "url": "https://api.et.gr/apiFEK/2/2024/6201/pdf",
       "rediscovery_url": "https://search.et.gr/en/search2/",
-      "checked_on": "2026-10-25",
+      "checked_on": "2026-10-29",
       "language": "Greek",
       "version_or_cutoff": "Decision 272153/2024; FEK B 6201, 11 November 2024; four-page official Gazette text reviewed.",
       "scope": "Amendment to KYA 95391/2024 Article 6(7) for professional and amateur athlete/trainer residence-document requirements only.",
-      "reviewed_content": "The Official Gazette issue identifies Decision 272153/2024 and KYA 95391/2024. Its sole operative provision reviewed replaces Article 6(7) with sections 7A and 7B for professional and amateur athletes/trainers. It does not amend the reviewed Article 23 family-reunification requirements or the PD 106/2007 family-document provisions in the KYA.",
+      "reviewed_content": "The Official Gazette issue identifies Decision 272153/2024 and KYA 95391/2024. Its sole operative provision reviewed replaces Article 6(7) with sections 7A and 7B for professional and amateur athletes/trainers. It does not amend the reviewed Article 23 family-reunification requirements or the PD 106/2007 family-document provisions in the KYA. On 29 October 2026, the National Printing House PDF was reopened and the operative amendment to Article 6(7) was reviewed through the official PDF viewer. A selected Greek excerpt of sections 7A–7B is retained. This covers only the professional/amateur athlete and trainer categories and is not a current consolidation of KYA 95391/2024; no raw publisher response was captured.",
       "limitations": [
         "This is a targeted amendment, not a consolidated or complete current version of KYA 95391/2024.",
         "The amendment concerns athlete/trainer categories and does not establish current requirements for EU-family members or third-country sponsor family reunification.",
-        "No local copy or republication permission is accepted."
+        "A dated excerpt of the 2024 amendment is retained; the later amendment chain is not established. The raw publisher response was not captured."
       ],
       "source_list_id": "gr-139"
     },
@@ -3822,8 +3822,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 67,
-    "note": "Sixty-seven scoped text-only excerpts from Greek official legislative and administrative sources are accepted; they are not complete acts or consolidations. Sixty-five excerpts rely on Greek Law 2121/1993 Article 2(5); two excerpts from MITOS administrative-procedure pages are shared under their displayed CC BY-SA 4.0 license. The other 140 accepted candidate references have source-specific link-only locator/disposition documents. Five additional accepted source-list references are outside the candidate manifest. Some underlying candidate page bodies remain in the Monitor local-only archive. gr-06 is a duplicate of gr-05."
+    "accepted_source_count": 68,
+    "note": "Sixty-eight scoped text-only excerpts from Greek official legislative and administrative sources are accepted; they are not complete acts or consolidations. Sixty-six excerpts rely on Greek Law 2121/1993 Article 2(5); two excerpts from MITOS administrative-procedure pages are shared under their displayed CC BY-SA 4.0 license. The other 139 accepted candidate references have source-specific link-only locator/disposition documents. Five additional accepted source-list references are outside the candidate manifest. Some underlying candidate page bodies remain in the Monitor local-only archive. gr-06 is a duplicate of gr-05."
   },
   "whole_portal_review_offers": [
     {
@@ -4972,6 +4972,26 @@
       "monitor_archive_sha256": "618d36d2b180b9e33258ff7e9044dac8abc7fd5320fd00322dd572fa6b195def",
       "source_text_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-211-mitos-exact-selected-text.txt",
       "source_text_archive_sha256": "4766ad3c891cd84c23b3e4c2ada64bdcefbdc1aa601510e7d92f01a0d32638ab"
+    },
+    "gr-139": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "documents/guidance/gr-139-decision-272153-2024-athlete-requirements-scoped-excerpt.md",
+      "sha256": "28f29b26937427c5b8b0affd83d6664d002b1662d4fa5150085b76be85eee52b",
+      "bytes": 11687,
+      "source_url": "https://api.et.gr/apiFEK/2/2024/6201/pdf",
+      "captured_candidate_url": "https://api.et.gr/apiFEK/2/2024/6201/pdf",
+      "source_text_excerpt_sha256": "5bc718e186323969bf99ea8a432eb0c9f2dd21e92f82abba84be67c48eca08aa",
+      "conversion_method": "Official PDF viewer text extraction; selected Gazette text reflowed, with issue identity and provision boundaries checked in the same PDF. No raw publisher response captured.",
+      "reviewed_on": "2026-10-29",
+      "semantic_check": "Only the amendment to KYA 95391/2024 Article 6(7), sections 7A–7B, was retained. The excerpt covers professional and amateur athletes and does not represent any family-reunification provision. It is not a consolidated/current text.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official legal/administrative texts expressing state authority from copyright protection. Only the selected official wording is retained; Gazette layout and unrelated issue material are omitted. This is not an automated retrieval approval.",
+      "limitations": "Targeted 2024 amendment for professional and amateur athlete/trainer categories only. Not a consolidated/current KYA 95391/2024 text. Later amendment chain is not established; no raw source response or raw-response hash is available.",
+      "scope": "Decision 272153/2024 amendment to KYA 95391/2024 Article 6(7), sections 7A–7B.",
+      "version_or_cutoff": "Decision 272153/2024; FEK B 6201, published 11 November 2024; text viewed 29 October 2026.",
+      "monitor_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-139-published-scoped-excerpt.md",
+      "monitor_archive_sha256": "28f29b26937427c5b8b0affd83d6664d002b1662d4fa5150085b76be85eee52b",
+      "source_text_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-139-exact-selected-text.md",
+      "source_text_archive_sha256": "5bc718e186323969bf99ea8a432eb0c9f2dd21e92f82abba84be67c48eca08aa"
     }
   }
 }
