@@ -109,6 +109,15 @@
       "sha256": "4a995e984af4264aa3e7e9d2609849a2453071b0a97f94ff7a6e41237bf2489c",
       "archived_at": "2026-10-28T22:20:52.589Z",
       "superseded_by_sha256": "5c85a861f456ce689d9996ed18c3b4df9ca3ce7164b601b3a236095df4dcefa9"
+    },
+    {
+      "source_id": "gr-139",
+      "official_url": "https://api.et.gr/apiFEK/2/2024/6201/pdf",
+      "current_path": "greece/documents/guidance/gr-139-decision-272153-2024-amending-kya-95391-2024-athlete-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-139-decision-272153-2024-amending-kya-95391-2024-athlete-locator/33bb643e9a84aa7ca9d4dd71875e01cea168c6a7cad75e593ab2bdfddbee5d8c.md",
+      "sha256": "33bb643e9a84aa7ca9d4dd71875e01cea168c6a7cad75e593ab2bdfddbee5d8c",
+      "archived_at": "2026-10-28T22:25:22.553Z",
+      "superseded_by_sha256": "3e24a98e9f99a11ded15b3b2740f66a2e91e974f790d1b6d13c544948baa45c8"
     }
   ]
 }
