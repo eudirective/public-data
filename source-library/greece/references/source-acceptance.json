@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Four text-only excerpts of official legislative texts are separately accepted under Greek Law 2121/1993 Article 2(5), which excludes official legislative texts expressing state authority from copyright protection; the retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 203 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Five text-only excerpts of official legislative texts are separately accepted under Greek Law 2121/1993 Article 2(5), which excludes official legislative texts expressing state authority from copyright protection; the retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 202 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -3822,8 +3822,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 4,
-    "note": "Four scoped text-only excerpts from official Greek legislative texts are accepted; they are not complete acts or consolidations. The other 203 accepted candidate references have source-specific link-only locator/disposition documents; they do not reproduce source text. Where candidate page bodies exist, they remain in the Monitor's local-only archive. gr-06 is a duplicate of gr-05."
+    "accepted_source_count": 5,
+    "note": "Five scoped text-only excerpts from official Greek legislative texts are accepted; they are not complete acts or consolidations. The other 202 accepted candidate references have source-specific link-only locator/disposition documents; they do not reproduce source text. Where candidate page bodies exist, they remain in the Monitor's local-only archive. gr-06 is a duplicate of gr-05."
   },
   "whole_portal_review_offers": [
     {
@@ -3951,6 +3951,21 @@
       "reviewed_on": "2026-10-26",
       "semantic_check": "Only Άρθρο 59 were extracted from the hash-verified archived conversion. The official Gazette identity, dates and provision wording were checked in the source acceptance review gr-law5143-2024-art59; no other provisions are represented as reviewed by this file. Trailing whitespace was removed; extracted wording and source line breaks were preserved.",
       "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official legislative texts expressing state authority from copyright protection. Only statutory wording and page markers are retained; no Gazette layout, logo, website UI or non-legislative material is copied. This is not an automated retrieval approval.",
+      "limitations": "A scoped excerpt of the original act only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law3226-2004-original": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "documents/legislation/gr-124-law-3226-2004-articles-1-2.md",
+      "sha256": "c58d82123be88133118700210747aabc7c2854c2519422b7c05f3604091f3143",
+      "bytes": 6016,
+      "source_url": "https://ministryofjustice.gr/wp-content/uploads/2019/08/103_Nomos_3226_2004.pdf",
+      "captured_candidate_url": "https://ministryofjustice.gr/wp-content/uploads/2019/08/103_Nomos_3226_2004.pdf",
+      "source_response_sha256": "ae0c391ff819025660da62a525e6709434180dc2427a8f6b42977d6fa53cceeb",
+      "source_text_excerpt_sha256": "5112484843ad27a1f8e1b462dbcd55941152080174647c283447e1ec6ee858a9",
+      "conversion_method": "PDF text extraction with Windows-1253 decoding of the legacy Greek text layer; 8 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Only Άρθρο 1 and Άρθρο 2 were extracted. The official Ministry-hosted Gazette reproduction was verified as Law 3226/2004, FEK A 24, 4 February 2004. Title, issue metadata and both article texts were decoded from the legacy Greek text layer; discretionary soft-hyphen markers were removed and source line breaks retained. The text is the original enactment only; no other provisions or later amendments are represented as reviewed by this file.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official legislative texts expressing state authority from copyright protection. Only statutory wording and a page marker are retained; no Gazette layout, logo, website UI or non-legislative material is copied. This is not automated retrieval approval.",
       "limitations": "A scoped excerpt of the original act only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
     }
   }
