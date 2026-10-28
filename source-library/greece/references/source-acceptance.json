@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Sixty-six scoped text-only excerpts of official legislative and administrative texts are separately accepted: 65 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and one MITOS procedure-page excerpt under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 143 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Sixty-seven scoped text-only excerpts of official legislative and administrative texts are separately accepted: 65 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and two MITOS procedure-page excerpts under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 143 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -3771,16 +3771,16 @@
       "status": "usable_official_reference",
       "publisher": "National Registry of Administrative Public Services (MITOS), Greece",
       "url": "https://mitos.gov.gr/index.php/%CE%94%CE%94%3A%CE%94%CE%B9%CF%8C%CF%81%CE%B8%CF%89%CF%83%CE%B7_%CF%83%CF%84%CE%BF%CE%B9%CF%87%CE%B5%CE%AF%CF%89%CE%BD_%CE%BB%CE%B7%CE%BE%CE%B9%CE%B1%CF%81%CF%87%CE%B9%CE%BA%CF%8E%CE%BD_%CF%80%CF%81%CE%AC%CE%BE%CE%B5%CF%89%CE%BD",
-      "checked_on": "2026-10-26",
+      "checked_on": "2026-10-29",
       "language": "Greek",
-      "version_or_cutoff": "Page last modified 5 October 2026; revision oldid 443720.",
+      "version_or_cutoff": "Page last modified 5 October 2026; revision oldid 443720; read-only page view observed 29 October 2026.",
       "scope": "Dated MITOS procedure for correction of Greek birth, marriage and death register records requested by a person with a legal interest.",
-      "reviewed_content": "The page shows an in-person, non-digital procedure and cites Law 344/1976 Article 13, Law 4674/2020 Article 28, Circular 109/2020 and PD 850/1976. It describes a final judicial decision for specified event place/date/time corrections, Prosecutor/Justice-of-the-Peace approval after inquiry for specified other errors, and registrar correction after inquiry of obvious clerical mistakes. It gives an estimated one-day duration.",
+      "reviewed_content": "The page shows an in-person, non-digital procedure and cites Law 344/1976 Article 13, Law 4674/2020 Article 28, Circular 109/2020 and PD 850/1976. It describes a final judicial decision for specified event place/date/time corrections, Prosecutor/Justice-of-the-Peace approval after inquiry for specified other errors, and registrar correction after inquiry of obvious clerical mistakes. It gives an estimated one-day duration. The live page (record 695784; page ID 11525c26-a451-4c0a-a29e-fccbb9943f9e) was reopened on 29 October 2026. Its footer displays CC BY-SA 4.0. A scoped excerpt of selected sections is retained with attribution and license link. The excerpt includes the applicant's legal-interest requirement, the routes and documentary leads described by MITOS, and the stated distinctions among correction methods. This derived page view is not the publisher's raw response.",
       "limitations": [
         "Dated operational description; not a current consolidated statute.",
         "It concerns correction of an existing register record, not an appeal against refusal to register or a general remedy for adverse substantive recognition.",
         "No live service or case-specific operation was tested.",
-        "No local copy or republication permission is accepted."
+        "The excerpt is a dated snapshot; no raw publisher response or raw-response hash is available."
       ],
       "source_list_id": "gr-211"
     },
@@ -3822,8 +3822,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 66,
-    "note": "Sixty-six scoped text-only excerpts from Greek official legislative and administrative sources are accepted; they are not complete acts or consolidations. Sixty-five excerpts rely on Greek Law 2121/1993 Article 2(5); one excerpt from the MITOS administrative-procedure page is shared under its displayed CC BY-SA 4.0 license. The other 141 accepted candidate references have source-specific link-only locator/disposition documents. Five additional accepted source-list references are outside the candidate manifest. Some underlying candidate page bodies remain in the Monitor local-only archive. gr-06 is a duplicate of gr-05."
+    "accepted_source_count": 67,
+    "note": "Sixty-seven scoped text-only excerpts from Greek official legislative and administrative sources are accepted; they are not complete acts or consolidations. Sixty-five excerpts rely on Greek Law 2121/1993 Article 2(5); two excerpts from MITOS administrative-procedure pages are shared under their displayed CC BY-SA 4.0 license. The other 140 accepted candidate references have source-specific link-only locator/disposition documents. Five additional accepted source-list references are outside the candidate manifest. Some underlying candidate page bodies remain in the Monitor local-only archive. gr-06 is a duplicate of gr-05."
   },
   "whole_portal_review_offers": [
     {
@@ -4952,6 +4952,26 @@
       "limitations": "June 2023 amended-text snapshot only; later amendment chain and current 2026 wording are not established. Not a current consolidation. No raw publisher response or raw-response hash is available.",
       "scope": "Law 4624/2019 Articles 5–8 in the DPA-hosted June 2023 amended text: public-sector processing grounds and data-protection officer designation, position and duties.",
       "version_or_cutoff": "Hellenic DPA-hosted PDF with June 2023 publication path; observed 29 October 2026."
+    },
+    "gr-211": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "documents/procedure/gr-211-mitos-civil-register-correction-scoped-excerpt.md",
+      "sha256": "618d36d2b180b9e33258ff7e9044dac8abc7fd5320fd00322dd572fa6b195def",
+      "bytes": 3761,
+      "source_url": "https://mitos.gov.gr/index.php/%CE%94%CE%94%3A%CE%94%CE%B9%CF%8C%CF%81%CE%B8%CF%89%CF%83%CE%B7_%CF%83%CF%84%CE%BF%CE%B9%CF%87%CE%B5%CE%AF%CF%89%CE%BD_%CE%BB%CE%B7%CE%BE%CE%B9%CE%B1%CF%81%CF%87%CE%B9%CE%BA%CF%8E%CE%BD_%CF%80%CF%81%CE%AC%CE%BE%CE%B5%CF%89%CE%BD",
+      "captured_candidate_url": "https://mitos.gov.gr/index.php/%CE%94%CE%94%3A%CE%94%CE%B9%CF%8C%CF%81%CE%B8%CF%89%CF%83%CE%B7_%CF%83%CF%84%CE%BF%CE%B9%CF%87%CE%B5%CE%AF%CF%89%CE%BD_%CE%BB%CE%B7%CE%BE%CE%B9%CE%B1%CF%81%CF%87%CE%B9%CE%BA%CF%8E%CE%BD_%CF%80%CF%81%CE%AC%CE%BE%CE%B5%CF%89%CE%BD",
+      "source_text_excerpt_sha256": "4766ad3c891cd84c23b3e4c2ada64bdcefbdc1aa601510e7d92f01a0d32638ab",
+      "conversion_method": "Read-only HTML page view; selected text retained and translated/summarized in bounded paragraphs. No raw HTML response captured.",
+      "reviewed_on": "2026-10-29",
+      "semantic_check": "The page identifier, record number, modification date, procedure text and CC BY-SA 4.0 footer were verified in the live MITOS page view. The excerpt is limited to correction routes and documents; it does not replace the cited legislation or imply a case-specific remedy.",
+      "reuse_basis": "The MITOS page displays CC BY-SA 4.0 in its footer. Attribution and the direct license link are preserved and the excerpt is shared under CC BY-SA 4.0.",
+      "limitations": "Dynamic page snapshot, observed 2026-10-29. Not a current consolidated statute. No raw publisher response or raw-response hash is available.",
+      "scope": "Selected text and an identified summary of the official MITOS procedure for correcting Greek civil-register entries, record 695784.",
+      "version_or_cutoff": "Last modified 5 October 2026; observed 29 October 2026.",
+      "monitor_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-211-mitos-civil-register-correction-published-excerpt.md",
+      "monitor_archive_sha256": "618d36d2b180b9e33258ff7e9044dac8abc7fd5320fd00322dd572fa6b195def",
+      "source_text_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-211-mitos-exact-selected-text.txt",
+      "source_text_archive_sha256": "4766ad3c891cd84c23b3e4c2ada64bdcefbdc1aa601510e7d92f01a0d32638ab"
     }
   }
 }
