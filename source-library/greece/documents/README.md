@@ -2,8 +2,8 @@
 
 This directory contains a source-specific record for each accepted reference in the Monitor candidate manifest:
 
-- Four text-only excerpts preserve reviewed statutory provisions. Each records its scope, hashes, reuse basis and limits; none is a complete or consolidated act.
-- The other 203 documents are link-only locator/disposition notes based on existing official-reference reviews. They do not reproduce captured page content.
+- Sixty-five text-only excerpts preserve scoped official text. Each records its scope, reuse basis and limits; none is a complete or consolidated act. Sixty-four are legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5); one MITOS procedure-page excerpt is shared under CC BY-SA 4.0.
+- Link-only locator/disposition notes remain for references without accepted local text; they do not reproduce source content.
 - Candidate gr-06 is a duplicate locator for gr-05 and has no separate document.
 - Five later accepted source-list references are outside the 207 accepted entries in the candidate manifest and remain external-only.
 
