@@ -73,6 +73,15 @@
       "sha256": "3128bcf3d623829346df3a9ace2f13e8be0d3db8ee79dc5529d4a21e448d55d7",
       "archived_at": "2026-10-28T21:56:21.732Z",
       "superseded_by_sha256": "640c0b60624abb445f87edb81b59fd8aa0cf8d4bd25a4fd68885b8b80ee8c3ba"
+    },
+    {
+      "source_id": "gr-192",
+      "official_url": "https://www.ypes.gr/wp-content/uploads/2025/01/eggr21821-20241231.pdf",
+      "current_path": "greece/documents/guidance/gr-192-ministry-of-interior-circular-22-21821-31-december-2024-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-192-ministry-of-interior-circular-22-21821-31-december-2024-locator/4a27ae6b65dd0641ae084381b7c5ff7a3ed189ee31b95c1fc6ef70c71f65dce5.md",
+      "sha256": "4a27ae6b65dd0641ae084381b7c5ff7a3ed189ee31b95c1fc6ef70c71f65dce5",
+      "archived_at": "2026-10-28T21:56:37.928Z",
+      "superseded_by_sha256": "ff72e93028e4e70bd5dc642f48768e5cdc0c4d28f19e460a46c4e9d9defe4795"
     }
   ]
 }
