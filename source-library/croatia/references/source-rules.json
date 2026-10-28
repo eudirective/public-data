@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "HR",
-  "as_of": "2026-10-25",
+  "as_of": "2026-10-28",
   "policy": "Rules may group sources and describe optional retrieval/conversion for retained local artifacts. A human-reviewed official reference may be used within the publisher, identity, language, version, passage, and caveats actually checked without capture, conversion, hashes, replay, or reproduction permission. Prefer a usable government-published consolidation; otherwise use the closest government-published version and record its cutoff and limits. Do not reconstruct a full Gazette chain by default. Semantic and reuse checks apply to retained copies, not ordinary link use. Neither reference use nor local-copy acceptance alone establishes topic or country completion.",
   "rules": [
     {
@@ -34,7 +34,7 @@
       "retrieval": "GET stable official ELI/Gazette HTML URL; record final URL and metadata; do not use metadata API as full-text source.",
       "conversion": "Select .sl-content .doc; exclude the site shell and embedded styles. This selector has been observed on representative Narodne novine legal records; validate it on this exact record and preserve original Croatian wording and all structural boundaries.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "title and Gazette number match requested act",
         "all headings/article numbers and paragraph/list boundaries retained",
@@ -55,7 +55,7 @@
       "retrieval": "GET stable official ELI/Gazette HTML URL; record final URL and metadata; do not use metadata API as full-text source.",
       "conversion": "Select .sl-content .doc; exclude the site shell and embedded styles. This selector has been observed on representative Narodne novine legal records; validate it on this exact record and preserve original Croatian wording and all structural boundaries.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "title and Gazette number match requested act",
         "all headings/article numbers and paragraph/list boundaries retained",
@@ -162,7 +162,7 @@
       "retrieval": "GET stable official ELI/Gazette HTML URL; record final URL and metadata; do not use metadata API as full-text source.",
       "conversion": "Select .sl-content .doc; exclude the site shell and embedded styles. This selector has been observed on representative Narodne novine legal records; validate it on this exact record and preserve original Croatian wording and all structural boundaries.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "title and Gazette number match requested act",
         "all headings/article numbers and paragraph/list boundaries retained",
@@ -613,7 +613,7 @@
       "retrieval": "GET stable official ELI/Gazette HTML URL; record final URL and metadata; do not use metadata API as full-text source.",
       "conversion": "Select .sl-content .doc; exclude the site shell and embedded styles. This selector has been observed on representative Narodne novine legal records; validate it on this exact record and preserve original Croatian wording and all structural boundaries.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "title and Gazette number match requested act",
         "all headings/article numbers and paragraph/list boundaries retained",
@@ -957,7 +957,7 @@
       "retrieval": "GET stable official ELI/Gazette HTML URL; record final URL and metadata; do not use metadata API as full-text source.",
       "conversion": "Select .sl-content .doc; exclude the site shell and embedded styles. This selector has been observed on representative Narodne novine legal records; validate it on this exact record and preserve original Croatian wording and all structural boundaries.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "title and Gazette number match requested act",
         "all headings/article numbers and paragraph/list boundaries retained",
@@ -978,7 +978,7 @@
       "retrieval": "GET stable official ELI/Gazette HTML URL; record final URL and metadata; do not use metadata API as full-text source.",
       "conversion": "Select .sl-content .doc; exclude the site shell and embedded styles. This selector has been observed on representative Narodne novine legal records; validate it on this exact record and preserve original Croatian wording and all structural boundaries.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "title and Gazette number match requested act",
         "all headings/article numbers and paragraph/list boundaries retained",
@@ -999,7 +999,7 @@
       "retrieval": "GET stable official ELI/Gazette HTML URL; record final URL and metadata; do not use metadata API as full-text source.",
       "conversion": "Select .sl-content .doc; exclude the site shell and embedded styles. This selector has been observed on representative Narodne novine legal records; validate it on this exact record and preserve original Croatian wording and all structural boundaries.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "title and Gazette number match requested act",
         "all headings/article numbers and paragraph/list boundaries retained",
@@ -1042,7 +1042,7 @@
       "retrieval": "GET stable official ELI/Gazette HTML URL; record final URL and metadata; do not use metadata API as full-text source.",
       "conversion": "Select .sl-content .doc; exclude the site shell and embedded styles. This selector has been observed on representative Narodne novine legal records; validate it on this exact record and preserve original Croatian wording and all structural boundaries.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "title and Gazette number match requested act",
         "all headings/article numbers and paragraph/list boundaries retained",
@@ -1063,7 +1063,7 @@
       "retrieval": "GET stable official ELI/Gazette HTML URL; record final URL and metadata; do not use metadata API as full-text source.",
       "conversion": "Select .sl-content .doc; exclude the site shell and embedded styles. This selector has been observed on representative Narodne novine legal records; validate it on this exact record and preserve original Croatian wording and all structural boundaries.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "title and Gazette number match requested act",
         "all headings/article numbers and paragraph/list boundaries retained",
@@ -1106,7 +1106,7 @@
       "retrieval": "GET stable official ELI/Gazette HTML URL; record final URL and metadata; do not use metadata API as full-text source.",
       "conversion": "Select .sl-content .doc; exclude the site shell and embedded styles. This selector has been observed on representative Narodne novine legal records; validate it on this exact record and preserve original Croatian wording and all structural boundaries.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "title and Gazette number match requested act",
         "all headings/article numbers and paragraph/list boundaries retained",
@@ -1127,7 +1127,7 @@
       "retrieval": "GET stable official ELI/Gazette HTML URL; record final URL and metadata; do not use metadata API as full-text source.",
       "conversion": "Select .sl-content .doc; exclude the site shell and embedded styles. This selector has been observed on representative Narodne novine legal records; validate it on this exact record and preserve original Croatian wording and all structural boundaries.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "title and Gazette number match requested act",
         "all headings/article numbers and paragraph/list boundaries retained",
@@ -1170,7 +1170,7 @@
       "retrieval": "GET stable official ELI/Gazette HTML URL; record final URL and metadata; do not use metadata API as full-text source.",
       "conversion": "Select .sl-content .doc; exclude the site shell and embedded styles. This selector has been observed on representative Narodne novine legal records; validate it on this exact record and preserve original Croatian wording and all structural boundaries.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "title and Gazette number match requested act",
         "all headings/article numbers and paragraph/list boundaries retained",
@@ -1191,7 +1191,7 @@
       "retrieval": "GET the exact stable official Narodne novine record URL; record final URL, issue/document number, media type, capture time and raw-response SHA-256. Respect the publisher maximum of three automated queries per second; retain only the official text after reuse-scope review.",
       "conversion": "Select .sl-content .doc from the exact record. Preserve Croatian text, article/paragraph/list order and tables; inspect and inventory all img/link attachments separately. Full publisher page shell is not retained.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "publisher title, Gazette issue and item match URL and legal instrument",
         "ordered visible text in selected source region equals the converted text after normalization",
@@ -1212,7 +1212,7 @@
       "retrieval": "GET the exact stable official Narodne novine record URL; record final URL, issue/document number, media type, capture time and raw-response SHA-256. Respect the publisher maximum of three automated queries per second; retain only the official text after reuse-scope review.",
       "conversion": "Select .sl-content .doc from the exact record. Preserve Croatian text, article/paragraph/list order and tables; inspect and inventory all img/link attachments separately. Full publisher page shell is not retained.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "publisher title, Gazette issue and item match URL and legal instrument",
         "ordered visible text in selected source region equals the converted text after normalization",
@@ -1233,7 +1233,7 @@
       "retrieval": "GET the exact stable official Narodne novine record URL; record final URL, issue/document number, media type, capture time and raw-response SHA-256. Respect the publisher maximum of three automated queries per second; retain only the official text after reuse-scope review.",
       "conversion": "Select .sl-content .doc from the exact record. Preserve Croatian text, article/paragraph/list order and tables; inspect and inventory all img/link attachments separately. Full publisher page shell is not retained.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "publisher title, Gazette issue and item match URL and legal instrument",
         "ordered visible text in selected source region equals the converted text after normalization",
@@ -1254,7 +1254,7 @@
       "retrieval": "GET the exact stable official Narodne novine record URL; record final URL, issue/document number, media type, capture time and raw-response SHA-256. Respect the publisher maximum of three automated queries per second; retain only the official text after reuse-scope review.",
       "conversion": "Select .sl-content .doc from the exact record. Preserve Croatian text, article/paragraph/list order and tables; inspect and inventory all img/link attachments separately. Full publisher page shell is not retained.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "publisher title, Gazette issue and item match URL and legal instrument",
         "ordered visible text in selected source region equals the converted text after normalization",
@@ -1275,7 +1275,7 @@
       "retrieval": "GET the exact stable official Narodne novine record URL; record final URL, issue/document number, media type, capture time and raw-response SHA-256. Respect the publisher maximum of three automated queries per second; retain only the official text after reuse-scope review.",
       "conversion": "Select .sl-content .doc from the exact record. Preserve Croatian text, article/paragraph/list order and tables; inspect and inventory all img/link attachments separately. Full publisher page shell is not retained.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "publisher title, Gazette issue and item match URL and legal instrument",
         "ordered visible text in selected source region equals the converted text after normalization",
@@ -1296,7 +1296,7 @@
       "retrieval": "GET the exact stable official Narodne novine record URL; record final URL, issue/document number, media type, capture time and raw-response SHA-256. Respect the publisher maximum of three automated queries per second; retain only the official text after reuse-scope review.",
       "conversion": "Select .sl-content .doc from the exact record. Preserve Croatian text, article/paragraph/list order and tables; inspect and inventory all img/link attachments separately. Full publisher page shell is not retained.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "publisher title, Gazette issue and item match URL and legal instrument",
         "ordered visible text in selected source region equals the converted text after normalization",
@@ -1317,7 +1317,7 @@
       "retrieval": "GET the exact stable official Narodne novine record URL; record final URL, issue/document number, media type, capture time and raw-response SHA-256. Respect the publisher maximum of three automated queries per second; retain only the official text after reuse-scope review.",
       "conversion": "Select .sl-content .doc from the exact record. Preserve Croatian text, article/paragraph/list order and tables; inspect and inventory all img/link attachments separately. Full publisher page shell is not retained.",
       "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "publisher title, Gazette issue and item match URL and legal instrument",
         "ordered visible text in selected source region equals the converted text after normalization",
@@ -1484,7 +1484,7 @@
       "retrieval": "Use the stable official Narodne novine ELI URL; record the decision number, decision date, Gazette issue/item and final URL. Reference by link after a direct source-specific review; capturing a local copy is optional.",
       "conversion": "If a local copy is later retained, select only .sl-content .doc, preserve the operative points and reasoning structure, and exclude the publisher shell. Do not convert solely to enable ordinary link use.",
       "selector": ".sl-content .doc",
-      "status": "official_link_scope_reviewed; local_capture_optional",
+      "status": "replayable_dom_fragment; source_accepted",
       "semantic_checks": [
         "decision number U-I-2767/2025 and U-I-2768/2025 and NN 39/2026 item 485 match",
         "quote or summarize the operative point separately from the court’s reasoning",
