@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Sixty-nine scoped text-only excerpts of official legislative and administrative texts are separately accepted: 67 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and two MITOS procedure-page excerpts under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 143 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Seventy scoped text-only excerpts of official legislative and administrative texts are separately accepted: 67 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and three MITOS procedure-page excerpts under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 143 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -889,16 +889,16 @@
       "publisher": "National Registry of Administrative Procedures (MITOS), Ministry of Justice, Hellenic Republic",
       "url": "https://mitos.gov.gr/index.php/%CE%94%CE%94%3A%CE%A0%CE%B9%CF%83%CF%84%CE%BF%CF%80%CE%B7%CF%84%CE%B9%CE%BA%CF%8C_%CF%80%CE%B5%CF%81%CE%AF_%CE%B1%CE%BD%CE%B1%CE%B3%CE%BD%CF%8E%CF%81%CE%B9%CF%83%CE%B7%CF%82_%CE%B1%CE%BB%CE%BB%CE%BF%CE%B4%CE%B1%CF%80%CE%AE%CF%82_%CE%B1%CF%80%CF%8C%CF%86%CE%B1%CF%83%CE%B7%CF%82_%28%CE%B1%CF%80%CF%8C_1-1-2002_%CE%BA%CE%B1%CE%B9_%CE%BC%CE%B5%CF%84%CE%AC%29",
       "rediscovery_url": "https://mitos.gov.gr/",
-      "checked_on": "2026-10-25",
+      "checked_on": "2026-10-29",
       "language": "Greek",
       "version_or_cutoff": "MITOS page last updated 02.09.2026; procedure applies to foreign court judgments from 1 January 2002 onward.",
       "scope": "General administrative process for obtaining a certificate concerning recognition of a foreign court judgment; not family-specific.",
-      "reviewed_content": "MITOS reports that a lawyer files an application in voluntary jurisdiction seeking a Greek decision recognizing the foreign judgment, after which the interested person requests the recognition certificate. It identifies a translated and apostilled foreign judgment and cites PD 503/1985 (Code of Civil Procedure), Articles 323 onward.",
+      "reviewed_content": "MITOS reports that a lawyer files an application in voluntary jurisdiction seeking a Greek decision recognizing the foreign judgment, after which the interested person requests the recognition certificate. It identifies a translated and apostilled foreign judgment and cites PD 503/1985 (Code of Civil Procedure), Articles 323 onward. The live page (record 670514; page ID a532ab0d-3c1e-4e52-a85d-b16234f1fcb2) was reopened on 29 October 2026. It states that a Greek recognition decision is first sought by a lawyer in voluntary jurisdiction and that the certificate is requested afterward; it lists a translated/apostilled foreign decision and the Greek recognition decision as required. The footer displays CC BY-SA 4.0. A scoped excerpt is retained with attribution. The page has inconsistent filing-channel wording across sections, so verify directly with the court. The raw publisher response was not captured.",
       "limitations": [
-        "This page describes a general procedure and does not establish family-specific applicability, exceptions, jurisdiction for a particular judgment, or current statutory wording.",
+        "This page describes the general certificate process and does not establish family-specific applicability, exceptions, jurisdiction for a particular judgment, or current statutory wording.",
         "The referenced Code of Civil Procedure provisions and amendment chain were not reviewed; no current official consolidated text was obtained.",
         "EU/treaty routes, substantive recognition grounds, evidence exceptions, remedies, and issue-specific case law remain open.",
-        "No local copy or automated acquisition rule is accepted."
+        "The MITOS page is dynamic; this excerpt is a dated snapshot. Its filing-channel wording differs between sections. No raw HTML response or hash is available; no automated acquisition rule is accepted."
       ],
       "source_list_id": "gr-84"
     },
@@ -3822,8 +3822,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 69,
-    "note": "Sixty-nine scoped text-only excerpts from Greek official legislative and administrative sources are accepted; they are not complete acts or consolidations. Sixty-seven excerpts rely on Greek Law 2121/1993 Article 2(5); two excerpts from MITOS administrative-procedure pages are shared under their displayed CC BY-SA 4.0 license. The other 138 accepted candidate references have source-specific link-only locator/disposition documents. Five additional accepted source-list references are outside the candidate manifest. Some underlying candidate page bodies remain in the Monitor local-only archive. gr-06 is a duplicate of gr-05."
+    "accepted_source_count": 70,
+    "note": "Seventy scoped text-only excerpts from Greek official legislative and administrative sources are accepted; they are not complete acts or consolidations. Sixty-seven excerpts rely on Greek Law 2121/1993 Article 2(5); three excerpts from MITOS administrative-procedure pages are shared under their displayed CC BY-SA 4.0 license. The other 137 accepted candidate references have source-specific link-only locator/disposition documents. Five additional accepted source-list references are outside the candidate manifest. Some underlying candidate page bodies remain in the Monitor local-only archive. gr-06 is a duplicate of gr-05."
   },
   "whole_portal_review_offers": [
     {
@@ -5012,6 +5012,26 @@
       "monitor_archive_sha256": "b9a1aeedb2b8e6dd425ff93c08ba858d452e1f749850fe1f22075868c1a65bd4",
       "source_text_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-194-exact-selected-text.txt",
       "source_text_archive_sha256": "187bbd4f741fc8589acfca17f1466874e85ab440799d7d8200494b7dbc90d769"
+    },
+    "gr-84": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "documents/procedure/gr-84-mitos-recognition-certificate-scoped-excerpt.md",
+      "sha256": "d07d07fdf9fcd3c45683f9e6b9c1d950730183038f3b884a11d6c2942f385f35",
+      "bytes": 4021,
+      "source_url": "https://mitos.gov.gr/index.php/%CE%94%CE%94%3A%CE%A0%CE%B9%CF%83%CF%84%CE%BF%CF%80%CE%B7%CF%84%CE%B9%CE%BA%CF%8C_%CF%80%CE%B5%CF%81%CE%AF_%CE%B1%CE%BD%CE%B1%CE%B3%CE%BD%CF%8E%CF%81%CE%B9%CF%83%CE%B7%CF%82_%CE%B1%CE%BB%CE%BB%CE%BF%CE%B4%CE%B1%CF%80%CE%AE%CF%82_%CE%B1%CF%80%CF%8C%CF%86%CE%B1%CF%83%CE%B7%CF%82_%28%CE%B1%CF%80%CF%8C_1-1-2002_%CE%BA%CE%B1%CE%B9_%CE%BC%CE%B5%CF%84%CE%AC%29",
+      "captured_candidate_url": "https://mitos.gov.gr/index.php/%CE%94%CE%94%3A%CE%A0%CE%B9%CF%83%CF%84%CE%BF%CF%80%CE%B7%CF%84%CE%B9%CE%BA%CF%8C_%CF%80%CE%B5%CF%81%CE%AF_%CE%B1%CE%BD%CE%B1%CE%B3%CE%BD%CF%8E%CF%81%CE%B9%CF%83%CE%B7%CF%82_%CE%B1%CE%BB%CE%BB%CE%BF%CE%B4%CE%B1%CF%80%CE%AE%CF%82_%CE%B1%CF%80%CF%8C%CF%86%CE%B1%CF%83%CE%B7%CF%82_%28%CE%B1%CF%80%CF%8C_1-1-2002_%CE%BA%CE%B1%CE%B9_%CE%BC%CE%B5%CF%84%CE%AC%29",
+      "source_text_excerpt_sha256": "38549fad080b6bf4dd9a2f54b5f61864e7987da1b18797a028104268d8ad8628",
+      "conversion_method": "Read-only MITOS HTML page view; selected exact text retained with page-note observations separated. No raw HTML response captured.",
+      "reviewed_on": "2026-10-29",
+      "semantic_check": "The page identity, record number, update date and license were checked. The excerpt only describes a certificate issued after a Greek recognition decision and does not purport to state recognition grounds or family-specific rules. The filing channel is described differently in separate page sections.",
+      "reuse_basis": "The MITOS footer displays CC BY-SA 4.0. Attribution and a direct license link are preserved, and this excerpt is shared under that license.",
+      "limitations": "Dynamic page snapshot; not a current statutory consolidation. General certificate process only; family-specific applicability, exceptions, jurisdiction, current CPC wording and EU/treaty routes are not established. Channel wording is inconsistent. No raw page response/hash; no automated acquisition rule.",
+      "scope": "Selected MITOS page text for certificate 670514 concerning recognition of foreign judgments dated 1 January 2002 onward, after a Greek recognition decision.",
+      "version_or_cutoff": "Last modified 2 September 2026; observed 29 October 2026.",
+      "monitor_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-84-published-scoped-excerpt.md",
+      "monitor_archive_sha256": "d07d07fdf9fcd3c45683f9e6b9c1d950730183038f3b884a11d6c2942f385f35",
+      "source_text_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-84-exact-selected-text.txt",
+      "source_text_archive_sha256": "38549fad080b6bf4dd9a2f54b5f61864e7987da1b18797a028104268d8ad8628"
     }
   }
 }
