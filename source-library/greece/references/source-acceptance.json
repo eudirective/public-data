@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Seventy-one scoped text-only excerpts of official legislative and administrative texts are separately accepted: 67 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and four MITOS procedure-page excerpts under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 136 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Seventy-two scoped text-only excerpts of official legislative and administrative texts are separately accepted: 67 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and five MITOS procedure-page excerpts under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 135 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -3822,8 +3822,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 71,
-    "note": "Seventy-one scoped text-only excerpts from Greek official legislative and administrative sources are accepted; they are not complete acts or consolidations. Sixty-seven excerpts rely on Greek Law 2121/1993 Article 2(5); four excerpts from MITOS administrative-procedure pages are shared under their displayed CC BY-SA 4.0 license. The other 136 accepted candidate references have source-specific link-only locator/disposition documents. Five additional accepted source-list references are outside the candidate manifest. Some underlying candidate page bodies remain in the Monitor local-only archive. gr-06 is a duplicate of gr-05."
+    "accepted_source_count": 72,
+    "note": "Seventy-two scoped text-only excerpts from Greek official legislative and administrative sources are accepted; they are not complete acts or consolidations. Sixty-seven excerpts rely on Greek Law 2121/1993 Article 2(5); five excerpts from MITOS administrative-procedure pages are shared under their displayed CC BY-SA 4.0 license. The other 135 accepted candidate references have source-specific link-only locator/disposition documents. Five additional accepted source-list references are outside the candidate manifest. Some underlying candidate page bodies remain in the Monitor local-only archive. gr-06 is a duplicate of gr-05."
   },
   "whole_portal_review_offers": [
     {
@@ -5051,6 +5051,25 @@
       "monitor_archive_sha256": "54e2d19e530047ab42f5cea3c97d4365703039c70124594e9ae2683bfe660671",
       "source_page_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-123-mitos-return-appeal-page.md",
       "source_page_archive_sha256": "50d2900586b7e7df047036ba4bbc25781493428466f6d98a998207813c6f1aa1"
+    },
+    "gr-130": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "documents/procedure/gr-130-mitos-legal-assistance-status-excerpt.md",
+      "sha256": "c3e05dcf2b8012b03c1234c46ab92a46e6f6f626683e87b400c80bc4f1ed71ef",
+      "bytes": 2022,
+      "source_url": "https://mitos.gov.gr/index.php/%CE%94%CE%94:%CE%A0%CE%B1%CF%81%CE%BF%CF%87%CE%AE_%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%AE%CF%82_%CF%83%CF%85%CE%BD%CE%B4%CF%81%CE%BF%CE%BC%CE%AE%CF%82_%CE%BA%CE%B1%CE%B9_%CE%B5%CE%BA%CF%80%CF%81%CE%BF%CF%83%CF%8E%CF%80%CE%B7%CF%83%CE%B7%CF%82_%CE%B1%CE%B9%CF%84%CE%BF%CF%8D%CE%BD%CF%84%CF%89%CE%BD_%CF%80%CE%B1%CF%81%CE%BF%CF%87%CE%AE%CF%82_%CE%B4%CE%B9%CE%B5%CE%B8%CE%BD%CE%BF%CF%8D%CF%82_%CF%80%CF%81%CE%BF%CF%83%CF%84%CE%B1%CF%83%CE%AF%CE%B1%CF%82",
+      "captured_candidate_url": "https://mitos.gov.gr/index.php/%CE%94%CE%94:%CE%A0%CE%B1%CF%81%CE%BF%CF%87%CE%AE_%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%AE%CF%82_%CF%83%CF%85%CE%BD%CE%B4%CF%81%CE%BF%CF%86%CE%AE%CF%82_%CE%BA%CE%B1%CE%B9_%CE%B5%CE%BA%CF%80%CF%81%CE%BF%CF%83%CF%8E%CF%80%CE%B7%CF%83%CE%B7%CF%82_%CE%B1%CE%B9%CF%84%CE%BF%CF%8D%CE%BD%CF%84%CF%89%CE%BD_%CF%80%CE%B1%CF%81%CE%BF%CF%87%CE%AE%CF%82_%CE%B4%CE%B9%CE%B5%CE%B8%CE%BD%CE%BF%CF%8D%CF%82_%CF%80%CF%81%CE%BF%CF%83%CF%84%CE%B1%CF%83%CE%AF%CE%B1%CF%82",
+      "conversion_method": "Selected one-line status notice from official MITOS page as returned by Search Service read-only view. No raw HTML response captured.",
+      "reviewed_on": "2026-10-29",
+      "semantic_check": "Record UUID, status notice and displayed update date were checked on the official MITOS page. The page explicitly says the procedure is under reform; older conditions and legal references are not retained as current guidance. Page body and footer modified dates differ by one day and are both recorded.",
+      "reuse_basis": "MITOS page footer displays CC BY-SA 4.0; attribution and license link are preserved.",
+      "limitations": "Status notice only, not current asylum legal-aid requirements. The page retains superseded process details and cites Law 4939/2022/KYA 788502/2023; Law 5307/2026 changed that framework subject to transitions. Verify operative law and live authority instructions. No raw source response/hash or portal/runtime check. No automated acquisition rule.",
+      "scope": "The MITOS entry's statement that the asylum legal-assistance procedure is under reform because of changes in the institutional framework.",
+      "version_or_cutoff": "MITOS entry 906805; body shows last update 14 October 2026 and footer modified 15 October 2026; observed 29 October 2026.",
+      "monitor_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-130-published-status-excerpt.md",
+      "monitor_archive_sha256": "c3e05dcf2b8012b03c1234c46ab92a46e6f6f626683e87b400c80bc4f1ed71ef",
+      "source_page_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-130-mitos-asylum-legal-aid-status-page.md",
+      "source_page_archive_sha256": "cbfb6264f6ded6f0a29f5c5aa920483449b597378c8a84805ee5c95cbc4d65eb"
     }
   }
 }
