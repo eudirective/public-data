@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Seventy scoped text-only excerpts of official legislative and administrative texts are separately accepted: 67 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and three MITOS procedure-page excerpts under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 143 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Seventy-one scoped text-only excerpts of official legislative and administrative texts are separately accepted: 67 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and four MITOS procedure-page excerpts under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 136 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -3822,8 +3822,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 70,
-    "note": "Seventy scoped text-only excerpts from Greek official legislative and administrative sources are accepted; they are not complete acts or consolidations. Sixty-seven excerpts rely on Greek Law 2121/1993 Article 2(5); three excerpts from MITOS administrative-procedure pages are shared under their displayed CC BY-SA 4.0 license. The other 137 accepted candidate references have source-specific link-only locator/disposition documents. Five additional accepted source-list references are outside the candidate manifest. Some underlying candidate page bodies remain in the Monitor local-only archive. gr-06 is a duplicate of gr-05."
+    "accepted_source_count": 71,
+    "note": "Seventy-one scoped text-only excerpts from Greek official legislative and administrative sources are accepted; they are not complete acts or consolidations. Sixty-seven excerpts rely on Greek Law 2121/1993 Article 2(5); four excerpts from MITOS administrative-procedure pages are shared under their displayed CC BY-SA 4.0 license. The other 136 accepted candidate references have source-specific link-only locator/disposition documents. Five additional accepted source-list references are outside the candidate manifest. Some underlying candidate page bodies remain in the Monitor local-only archive. gr-06 is a duplicate of gr-05."
   },
   "whole_portal_review_offers": [
     {
@@ -5032,6 +5032,25 @@
       "monitor_archive_sha256": "d07d07fdf9fcd3c45683f9e6b9c1d950730183038f3b884a11d6c2942f385f35",
       "source_text_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-84-exact-selected-text.txt",
       "source_text_archive_sha256": "38549fad080b6bf4dd9a2f54b5f61864e7987da1b18797a028104268d8ad8628"
+    },
+    "gr-123": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "documents/procedure/gr-123-mitos-appeal-against-a-return-decision-for-undocumented-scoped-excerpt.md",
+      "sha256": "54e2d19e530047ab42f5cea3c97d4365703039c70124594e9ae2683bfe660671",
+      "bytes": 4778,
+      "source_url": "https://mitos.gov.gr/index.php/%CE%94%CE%94%3A%CE%A0%CF%81%CE%BF%CF%83%CF%86%CF%85%CE%B3%CE%AE_%CE%BA%CE%B1%CF%84%CE%AC_%CF%84%CE%B7%CF%82_%CE%B1%CF%80%CF%8C%CF%86%CE%B1%CF%83%CE%B7%CF%82_%CE%B5%CF%80%CE%B9%CF%83%CF%84%CF%81%CE%BF%CF%86%CE%AE%CF%82_%CF%85%CF%80%CE%B7%CE%BA%CF%8C%CF%89%CE%BD_%CF%84%CF%81%CE%AF%CF%84%CF%89%CE%BD_%CF%87%CF%89%CF%81%CF%8E%CE%BD_%CF%80%CE%BF%CF%85_%CE%AD%CF%87%CE%BF%CF%85%CE%BD_%CE%B5%CE%B9%CF%83%CE%AD%CE%BB%CE%B8%CE%B5%CE%B9_%CF%80%CE%B1%CF%81%CE%AC%CE%BD%CE%BF%CE%BC%CE%B1_%CF%83%CF%84%CE%B7_%CF%87%CF%8E%CF%81%CE%B1",
+      "captured_candidate_url": "https://mitos.gov.gr/index.php/%CE%94%CE%94%3A%CE%A0%CF%81%CE%BF%CF%83%CF%86%CF%85%CE%B3%CE%AE_%CE%BA%CE%B1%CF%84%CE%AC_%CF%84%CE%B7%CF%82_%CE%B1%CF%80%CF%8C%CF%86%CE%B1%CF%83%CE%B7%CF%82_%CE%B5%CF%80%CE%B9%CF%83%CF%84%CF%81%CE%BF%CF%86%CE%AE%CF%82_%CF%85%CF%80%CE%B7%CE%BA%CF%8C%CF%89%CE%BD_%CF%84%CF%81%CE%AF%CF%84%CF%89%CE%BD_%CF%87%CF%89%CF%81%CF%8E%CE%BD_%CF%80%CE%BF%CF%85_%CE%AD%CF%87%CE%BF%CF%85%CE%BD_%CE%B5%CE%B9%CF%83%CE%AD%CE%BB%CE%B8%CE%B5%CE%B9_%CF%80%CE%B1%CF%81%CE%AC%CE%BD%CE%BF%CE%BC%CE%B1_%CF%83%CF%84%CE%B7_%CF%87%CF%8E%CF%81%CE%B1",
+      "conversion_method": "Selected text from the official MITOS page as returned by Search Service read-only page extraction; exact source wording retained in Greek. No raw HTML response captured.",
+      "reviewed_on": "2026-10-29",
+      "semantic_check": "The record title, UUID and 30 July 2026 last-modified date were checked against the official MITOS page. The selected content is limited to the page's description, filing notes, and appeal-review summary. The page's procedure conflicts with repealing Law 5226/2025 Article 40 and its Article 14(1) deadline; the excerpt labels this conflict and is not accepted as a current procedure rule.",
+      "reuse_basis": "The MITOS page displays CC BY-SA 4.0 in its footer. Attribution and a direct license link are preserved; the excerpt is shared under CC BY-SA 4.0.",
+      "limitations": "Dated dynamic-page snapshot only. MITOS cites repealed Law 3907/2011 Article 28 and gives a five-day review period that conflicts with Law 5226/2025 Article 14(1) for police-issued return decisions. Successor route and operational requirements are unresolved. The stated process is limited to undocumented third-country nationals who entered irregularly and received a return-and-detention decision; do not generalize to EU citizens/family members, residence-card refusals, or other return routes. Page also gives conflicting identity-document information. No raw source response/hash or runtime check. No automated acquisition rule.",
+      "scope": "Selected Greek page text describing record 900331's return-appeal workflow for undocumented third-country nationals who entered Greece irregularly, retained solely as a dated snapshot.",
+      "version_or_cutoff": "MITOS record 900331; last modified 30 July 2026; observed 29 October 2026.",
+      "monitor_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-123-published-excerpt.md",
+      "monitor_archive_sha256": "54e2d19e530047ab42f5cea3c97d4365703039c70124594e9ae2683bfe660671",
+      "source_page_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-123-mitos-return-appeal-page.md",
+      "source_page_archive_sha256": "50d2900586b7e7df047036ba4bbc25781493428466f6d98a998207813c6f1aa1"
     }
   }
 }
