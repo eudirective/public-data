@@ -100,6 +100,15 @@
       "sha256": "bcce949fbecc5b1006c32ef1acc83132592696548dfcfdfa4a9957fa7d03f700",
       "archived_at": "2026-10-28T21:57:06.789Z",
       "superseded_by_sha256": "99ff63e858d7bac13826a667107af5a5fdcc47468dadae8ec064231ee60f7801"
+    },
+    {
+      "source_id": "gr-135",
+      "official_url": "https://www.dpa.gr/sites/default/files/2023-06/4624_2019%20%CE%BC%CE%B5%20%CF%84%CF%81%CE%BF%CF%80%CE%BF%CF%80%CE%BF%CE%B9%CE%AE%CF%83%CE%B5%CE%B9%CF%82.pdf",
+      "current_path": "greece/documents/guidance/gr-135-hellenic-dpa-law-4624-2019-with-amendments-integrated-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-135-hellenic-dpa-law-4624-2019-with-amendments-integrated-locator/4a995e984af4264aa3e7e9d2609849a2453071b0a97f94ff7a6e41237bf2489c.md",
+      "sha256": "4a995e984af4264aa3e7e9d2609849a2453071b0a97f94ff7a6e41237bf2489c",
+      "archived_at": "2026-10-28T22:20:52.589Z",
+      "superseded_by_sha256": "5c85a861f456ce689d9996ed18c3b4df9ca3ce7164b601b3a236095df4dcefa9"
     }
   ]
 }
