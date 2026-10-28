@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 213 official-reference reviews approve use of identified official links within their recorded scopes. Seventy-two scoped text-only excerpts of official legislative and administrative texts are separately accepted: 67 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and five MITOS procedure-page excerpts under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 135 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Six additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 219 official-reference reviews approve use of identified official links within their recorded scopes. Seventy-two scoped text-only excerpts of official legislative and administrative texts are separately accepted: 67 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and five MITOS procedure-page excerpts under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 135 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Twelve additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -3836,6 +3836,96 @@
         "Accepted as link-only. No local text copy or automated retrieval rule."
       ],
       "source_list_id": "gr-214"
+    },
+    "gr-dpa-vis-overview-2026": {
+      "status": "usable_official_reference",
+      "publisher": "Hellenic Data Protection Authority",
+      "url": "https://www.dpa.gr/el/enimerwtiko/thematikes_enotites/megales_baseisdedomenon/VIS",
+      "checked_on": "2026-10-29",
+      "language": "Greek",
+      "version_or_cutoff": "Public DPA page snapshot opened 29 October 2026; no page-specific revision date observed.",
+      "scope": "Official DPA page on the VIS and the Hellenic DPA's supervision of N.VIS and lawfulness of processing, including transfers to/from VIS.",
+      "reviewed_content": "Official Greek page reopened 29 October 2026. It identifies the Hellenic DPA as supervisor of the national N.VIS and refers to Regulation 767/2008 and Law 4624/2019.",
+      "limitations": [
+        "The page's 30-state participation description and historical legal references may be stale. Accepted only for the authority's described supervisory role, not current system membership, individual visa rights or operation.",
+        "Accepted by link only; no local source text retained and no automated retrieval rule is accepted."
+      ],
+      "source_list_id": "gr-215"
+    },
+    "gr-dpa-vis-rights-2026": {
+      "status": "usable_official_reference",
+      "publisher": "Hellenic Data Protection Authority",
+      "url": "https://www.dpa.gr/en/enimerwtiko/themes/large_databases/VIS/datasubjectsrights",
+      "checked_on": "2026-10-29",
+      "language": "English",
+      "version_or_cutoff": "Public DPA page snapshot opened 29 October 2026; no page-specific revision date observed.",
+      "scope": "Official DPA guidance on VIS access/correction/deletion requests to the Ministry of Foreign Affairs and subsequent court/DPA routes.",
+      "reviewed_content": "Official English page opened 29 October 2026; identifies the MFA as controller and explains rights and routes; links bilingual forms for access and correction/deletion.",
+      "limitations": [
+        "Dated page snapshot; current statutory references, controller address, deadlines and live route require separate checking. DPA does not decide visa applications.",
+        "Accepted by link only; no local source text retained and no automated retrieval rule is accepted."
+      ],
+      "source_list_id": "gr-216"
+    },
+    "gr-dpa-vis-access-form-2021": {
+      "status": "usable_official_reference",
+      "publisher": "Hellenic Data Protection Authority",
+      "url": "https://www.dpa.gr/sites/default/files/2021-05/VIS%20%CE%91%CE%99%CE%A4%CE%97%CE%A3%CE%97%20%CE%A0%CE%A1%CE%9F%CE%A3%CE%92%CE%91%CE%A3%CE%97%CE%A3%202021_final.pdf",
+      "checked_on": "2026-10-29",
+      "language": "Greek and English",
+      "version_or_cutoff": "Official 2021 bilingual PDF form; opened 29 October 2026.",
+      "scope": "DPA-published bilingual access request form for personal data in Greece's N.VIS, addressed to the MFA C4 Directorate, with identity fields and cited VIS/GDPR/national provisions.",
+      "reviewed_content": "Official three-page Greek-English PDF opened 29 October 2026. The form identifies the N.VIS access request and recipient authority.",
+      "limitations": [
+        "2021 form snapshot; its route, legal references and response notice are not verified as current. No form was submitted or reproduced locally.",
+        "Accepted by link only; no local source text retained and no automated retrieval rule is accepted."
+      ],
+      "source_list_id": "gr-217"
+    },
+    "gr-dpa-vis-correction-form-2021": {
+      "status": "usable_official_reference",
+      "publisher": "Hellenic Data Protection Authority",
+      "url": "https://www.dpa.gr/sites/default/files/2021-05/VIS%20%CE%91%CE%99%CE%A4%CE%97%CE%A3%CE%97%20%CE%94%CE%99%CE%91%CE%93%CE%A1%CE%91%CE%A6%CE%97%CE%A3%202021_final.pdf",
+      "checked_on": "2026-10-29",
+      "language": "Greek and English",
+      "version_or_cutoff": "Official 2021 bilingual PDF form; opened 29 October 2026.",
+      "scope": "DPA-published bilingual form for correction or deletion of personal data in Greece's N.VIS, addressed to the MFA C4 Directorate, with reasons and identity evidence fields.",
+      "reviewed_content": "Official three-page Greek-English PDF opened 29 October 2026. The form identifies correction/deletion request options and recipient authority.",
+      "limitations": [
+        "2021 form snapshot; its route, legal references and response notice are not verified as current. No form was submitted or reproduced locally.",
+        "Accepted by link only; no local source text retained and no automated retrieval rule is accepted."
+      ],
+      "source_list_id": "gr-218"
+    },
+    "gr-dpa-sis-access-form-2021": {
+      "status": "usable_official_reference",
+      "publisher": "Hellenic Data Protection Authority",
+      "url": "https://www.dpa.gr/sites/default/files/2021-05/SIS%20%CE%91%CE%99%CE%A4%CE%97%CE%A3%CE%97%20%CE%A0%CE%A1%CE%9F%CE%A3%CE%92%CE%91%CE%A3%CE%97%CE%A3%202021_final.pdf",
+      "checked_on": "2026-10-29",
+      "language": "Greek and English",
+      "version_or_cutoff": "Official 2021 bilingual PDF form; opened 29 October 2026.",
+      "scope": "DPA-published bilingual access request form for national SIS data, addressed to the Hellenic Police SIRENE Division; it includes optional fields about visa refusal, residence permit refusal/renewal and entry refusal.",
+      "reviewed_content": "Official three-page Greek-English PDF opened 29 October 2026. It supplies the specific official form that the Hellenic Police SIS guidance gr-208 linked but whose attachment could not be read during that review.",
+      "limitations": [
+        "2021 form cites former SIS II Regulation 1987/2006 and old system terminology. The successor framework, current recipient address and live operation are unverified. No request submitted and no text reproduced locally.",
+        "Accepted by link only; no local source text retained and no automated retrieval rule is accepted."
+      ],
+      "source_list_id": "gr-219"
+    },
+    "gr-dpa-schengen-vis-complaint-2026": {
+      "status": "usable_official_reference",
+      "publisher": "Hellenic Data Protection Authority",
+      "url": "https://www.dpa.gr/el/syndesi/polites/kataggelia/schengen_VIS_eurodac",
+      "checked_on": "2026-10-29",
+      "language": "Greek",
+      "version_or_cutoff": "Public DPA page snapshot opened 29 October 2026; no page-specific revision date observed.",
+      "scope": "Official Greek DPA complaint procedure for data-rights issues involving Schengen/SIS, VIS, Eurodac and EKANA; requires prior exercise of the right, supporting evidence and one month elapsed.",
+      "reviewed_content": "Official public page opened 29 October 2026. It explains identity/residence fields, prior request evidence, system selection, complaint narrative and attachments.",
+      "limitations": [
+        "Dated page snapshot; no complaint was filed; interactive behavior and live timing were not tested. No local copy.",
+        "Accepted by link only; no local source text retained and no automated retrieval rule is accepted."
+      ],
+      "source_list_id": "gr-220"
     }
   },
   "local_copy_acceptance": {
