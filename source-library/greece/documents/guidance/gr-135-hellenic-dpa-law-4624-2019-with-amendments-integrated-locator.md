@@ -12,17 +12,17 @@ Accepted official route: [https://www.dpa.gr/sites/default/files/2023-06/4624_20
 
 Language/version: Greek; Authority-hosted PDF under a June 2023 path, titled as Law 4624/2019 with amendments incorporated. The reviewed text includes amendments identified as Laws 5002/2022 and 5043/2023; later currentness has not been established.
 
-Checked: 2026-10-26
+Checked: 2026-10-29
 
 Acceptance-register key: `gr-law4624-2019-hdpa-consolidated`
 
 Monitor manifest entry: `candidates/public-data/GR/candidate-manifest.json` (`gr-135`)
 
-Local-copy status: No source text is retained in this document. This is an external-only official reference.
+Local-copy status: A dated, scoped Greek excerpt of Articles 5–8 is retained at [the selected provisions excerpt](../legislation/gr-135-law-4624-2019-articles-5-8-dated-amended-text-excerpt.md). The source excerpt is separately indexed as local-only evidence; no raw publisher response was captured.
 
 ## Source role and accepted scope
 
-Authority-hosted amended-text reference for Law 4624/2019 with a June 2023 publication-path limit; on 26 October 2026, additionally reviewed Chapter D Articles 43, 45A, 55, 56, 58 and 60 for the Law Enforcement Directive framework, rights and controller/processor allocation.
+Authority-hosted amended-text reference for Law 4624/2019 with a June 2023 publication-path limit. On 26 October 2026, Chapter D Articles 43, 45A, 55, 56, 58 and 60 were reviewed for the Law Enforcement Directive framework, rights and controller/processor allocation. On 29 October 2026, Articles 5–8 were reviewed and retained as a dated excerpt concerning public-sector processing grounds and data-protection officers.
 
 ## Review findings
 
@@ -34,12 +34,12 @@ The Hellenic DPA legal-framework page links this PDF as the law with all amendme
 
 ## Candidate disposition
 
-This source-specific document is based on the already accepted official-link review. No source text is reproduced here. No candidate-conversion Markdown file was associated with this manifest entry in the archived candidate set reviewed on 26 October 2026; the absence of a local copy does not mean the official reference failed or that the underlying source is unavailable.
+This source-specific record is based on the accepted official-link review and the dated Articles 5–8 excerpt. The excerpt is not a current consolidation. The DPA PDF was viewed through the official PDF reader and checked against displayed page images; no raw publisher response was captured.
 
 ## Use limits
 
 - The file path dates to June 2023 and does not establish the law as amended after that point.
 - It is not accepted as a current consolidation as of 25 October 2026.
-- No local copy or republication permission is accepted.
+- The copied excerpt is limited to the displayed June 2023 amended text and must not be used to infer the current 2026 wording.
 
 Use the live official route and confirm its identity, date, attachments and procedural scope before relying on it. Link acceptance does not establish a current consolidated text, topic coverage, or country completion.
