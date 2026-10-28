@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "GR",
-  "as_of": "2026-10-28",
+  "as_of": "2026-10-29",
   "required_checks": [
     "publisher_identity",
     "current_legal_version",
@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Sixty-four scoped text-only excerpts of official legislative and administrative texts are separately accepted under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 143 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Sixty-five scoped text-only excerpts of official legislative and administrative texts are separately accepted: 64 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and one MITOS procedure-page excerpt under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 143 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -871,16 +871,16 @@
       "publisher": "National Registry of Administrative Procedures (MITOS), Hellenic Republic; institutional sponsor: Ministry of Interior",
       "url": "https://mitos.gov.gr/index.php/%CE%94%CE%94%3A%CE%9A%CE%B1%CF%84%CE%B1%CF%87%CF%8E%CF%81%CE%B9%CF%83%CE%B7_%CF%85%CE%B9%CE%BF%CE%B8%CE%B5%CF%83%CE%AF%CE%B1%CF%82_%CE%B1%CE%BD%CE%B7%CE%BB%CE%AF%CE%BA%CE%BF%CF%85_%CF%83%CF%84%CE%BF_%CE%9B%CE%B7%CE%BE%CE%B9%CE%B1%CF%81%CF%87%CE%B5%CE%AF%CE%BF",
       "rediscovery_url": "https://mitos.gov.gr/",
-      "checked_on": "2026-10-25",
+      "checked_on": "2026-10-29",
       "language": "Greek",
-      "version_or_cutoff": "Page last modified 30 July 2026.",
+      "version_or_cutoff": "Page last modified 30 July 2026; read-only page view observed 29 October 2026.",
       "scope": "Post-judgment registration of a minor adoption in a Greek civil registry. Not an adoption merits procedure or a foreign-judgment recognition rule.",
-      "reviewed_content": "The current MITOS record describes a no-fee, non-digital application to the civil registry at the adoptive parent’s place of residence. It identifies two documents: a final court adoption decision and a certificate that the decision was served on the competent prosecutor. It reports one-day estimated service time and lists hierarchical appeal and silent rejection for the registration process.",
+      "reviewed_content": "The official MITOS page (record 541576; page ID 541576e1-990c-4463-b1bf-4965df85f6ce) was reopened on 29 October 2026. It describes a final-judgment prerequisite, the registry at the adoptive parent(s)' place of residence, two listed documents (the adoption judgment and proof of service on the competent prosecutor), and the registrar's recording/issuance steps. The page footer identifies CC BY-SA 4.0. A scoped Greek excerpt is retained with attribution and a link to that license. This was a derived read-only page view; no raw publisher response or raw-response hash is available.",
       "limitations": [
-        "This is the civil-registry recording step after a final adoption decision, not the adoption proceedings themselves.",
-        "The record does not explain when or how a foreign adoption judgment is recognized or accepted for registry recording.",
-        "Its Civil Code and civil-status citations are dependency leads; this review does not establish a current consolidated statutory text.",
-        "No local copy or republication permission is accepted."
+        "This covers only the administrative civil-registry recording step after a final adoption decision, not adoption proceedings or recognition of foreign adoption judgments.",
+        "The MITOS page is dynamic; the local excerpt is a dated 29 October 2026 snapshot and is not a substitute for checking the live page.",
+        "The reported one-day processing time is an estimate.",
+        "The raw publisher response was not captured; no raw-response hash is available."
       ],
       "source_list_id": "gr-83"
     },
@@ -3822,8 +3822,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 64,
-    "note": "Sixty-four scoped text-only excerpts from Greek official legislative and administrative records are accepted; they are not complete acts or consolidations. The other 143 accepted candidate references have source-specific link-only locator/disposition documents; they do not reproduce source text. Some underlying candidate page bodies remain in the Monitor local-only archive. gr-06 is a duplicate of gr-05."
+    "accepted_source_count": 65,
+    "note": "Sixty-five scoped text-only excerpts from Greek official legislative and administrative sources are accepted; they are not complete acts or consolidations. Sixty-four excerpts rely on Greek Law 2121/1993 Article 2(5); one excerpt from the MITOS administrative-procedure page is shared under its displayed CC BY-SA 4.0 license. The other 142 accepted candidate references have source-specific link-only locator/disposition documents. Five additional accepted source-list references are outside the candidate manifest. Some underlying candidate page bodies remain in the Monitor local-only archive. gr-06 is a duplicate of gr-05."
   },
   "whole_portal_review_offers": [
     {
@@ -3883,7 +3883,7 @@
       "effect": "Attica remains one regional practice sample and is not treated as national policy. Its current route is not relied on for the conflicting duration pending review; other work continues."
     }
   ],
-  "checked_on": "2026-10-28",
+  "checked_on": "2026-10-29",
   "accepted_local_copy_reviews": {
     "gr-pd106-2007-original": {
       "decision": "accepted_local_official_text_excerpt",
@@ -4916,6 +4916,26 @@
       "limitations": "Accepted as the official amendment text only; the complete original Gazette text of Decision 674588/2022 was not retrieved in this review. The Ministry circular dated 25 September 2023 states that applications submitted after 1 April 2023 are subject to Law 5038/2023 Article 20(4); the effect on all legacy or pending files and any formal repeal is not established. This is not a current consolidated procedure and does not establish current PD 106/2007 family-card portal requirements or live service behavior.",
       "scope": "Dated amendment to paragraphs 10 and 11 of Article 2 of Decision 674588/2022 concerning initial residence-title applications under Law 4251/2014 and PD 106/2007.",
       "version_or_cutoff": "Ministerial Decision 423840/2023; FEK B 5597, 21 September 2023; effective 25 September 2023; original three-page Ministry-hosted text directly reviewed."
+    },
+    "gr-83": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "documents/procedure/gr-83-mitos-minor-adoption-registration-scoped-excerpt.md",
+      "sha256": "864c3b2ab59beeda6f60b2b5281cc5f877f0ff1a28a3250715baca4264ce489e",
+      "bytes": 3104,
+      "source_url": "https://mitos.gov.gr/index.php/%CE%94%CE%94%3A%CE%9A%CE%B1%CF%84%CE%B1%CF%87%CF%8E%CF%81%CE%B9%CF%83%CE%B7_%CF%85%CE%B9%CE%BF%CE%B8%CE%B5%CF%83%CE%AF%CE%B1%CF%82_%CE%B1%CE%BD%CE%B7%CE%BB%CE%AF%CE%BA%CE%BF%CF%85_%CF%83%CF%84%CE%BF_%CE%9B%CE%B7%CE%BE%CE%B9%CE%B1%CF%81%CF%87%CE%B5%CE%AF%CE%BF",
+      "captured_candidate_url": "https://mitos.gov.gr/index.php/%CE%94%CE%94%3A%CE%9A%CE%B1%CF%84%CE%B1%CF%87%CF%8E%CF%81%CE%B9%CF%83%CE%B7_%CF%85%CE%B9%CE%BF%CE%B8%CE%B5%CF%83%CE%AF%CE%B1%CF%82_%CE%B1%CE%BD%CE%B7%CE%BB%CE%AF%CE%BA%CE%BF%CF%85_%CF%83%CF%84%CE%BF_%CE%9B%CE%B7%CE%BE%CE%B9%CE%B1%CF%81%CF%87%CE%B5%CE%AF%CE%BF",
+      "source_text_excerpt_sha256": "60a00fb1fb3a731034423504d29448a5eca7a4a74bc0d134fcbcac5589958c43",
+      "conversion_method": "Read-only HTML page view; selected text retained verbatim from the returned page, headings and line breaks normalized; no raw HTML response captured.",
+      "reviewed_on": "2026-10-29",
+      "semantic_check": "The official MITOS record identity and last-modified date were read from the live page. The excerpt includes only the page's description, application location, final-judgment/minor-adoption prerequisites, two listed documents, and registrar steps. It does not represent the page's full text or the underlying adoption law.",
+      "reuse_basis": "The MITOS page displays CC BY-SA 4.0 in its footer. The excerpt preserves attribution and a direct license link and is shared under CC BY-SA 4.0. The page's displayed license, not Greek Law 2121/1993 Article 2(5), is the reuse basis.",
+      "limitations": "Dynamic administrative record; snapshot observed 2026-10-29. Not an adoption-merits source or foreign-judgment recognition rule. The publisher's raw response was not captured, so source-response hash is unavailable.",
+      "scope": "Selected Greek text from the official MITOS record for registration of a minor adoption in the civil registry after a final judgment.",
+      "version_or_cutoff": "MITOS record 541576; last modified 30 July 2026; observed 29 October 2026.",
+      "monitor_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-83-mitos-minor-adoption-registration-scoped-excerpt.md",
+      "monitor_archive_sha256": "864c3b2ab59beeda6f60b2b5281cc5f877f0ff1a28a3250715baca4264ce489e",
+      "source_text_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-83-mitos-exact-greek-excerpt.txt",
+      "source_text_archive_sha256": "60a00fb1fb3a731034423504d29448a5eca7a4a74bc0d134fcbcac5589958c43"
     }
   }
 }
