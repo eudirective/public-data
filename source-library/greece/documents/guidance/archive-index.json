@@ -10,6 +10,15 @@
       "sha256": "758681601a0eccf7aea61ff9a5616f58dcdbf99ae59ace338179c24733af6aba",
       "archived_at": "2026-10-28T20:15:27.021Z",
       "superseded_by_sha256": "16e095a14f4cf42a8eedc55462dfe891e348c030dc0e79e29568e6fa6653ff82"
+    },
+    {
+      "source_id": "gr-99",
+      "official_url": "https://ypergasias.gov.gr/wp-content/uploads/2025/09/20250205007.pdf",
+      "current_path": "greece/documents/guidance/gr-99-ministerial-decision-144338-2025-articles-1-2.md",
+      "archive_path": "greece/documents/guidance/archive/gr-99-ministerial-decision-144338-2025-articles-1-2/43b590f0114bda7aa6d2067366fa8b4eeb803b9e8ddb7b47bb9c680e23376825.md",
+      "sha256": "43b590f0114bda7aa6d2067366fa8b4eeb803b9e8ddb7b47bb9c680e23376825",
+      "archived_at": "2026-10-28T20:15:45.100Z",
+      "superseded_by_sha256": "190f49eeb7ada0a1f095b542e60e5aadf39366458761baaba32dca981b6b2b0c"
     }
   ]
 }
