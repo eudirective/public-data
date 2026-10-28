@@ -19,6 +19,15 @@
       "sha256": "43b590f0114bda7aa6d2067366fa8b4eeb803b9e8ddb7b47bb9c680e23376825",
       "archived_at": "2026-10-28T20:15:45.100Z",
       "superseded_by_sha256": "190f49eeb7ada0a1f095b542e60e5aadf39366458761baaba32dca981b6b2b0c"
+    },
+    {
+      "source_id": "gr-94",
+      "official_url": "https://migration.gov.gr/wp-content/uploads/2021/01/KYA-4000.1.113.2020.pdf",
+      "current_path": "greece/documents/guidance/gr-94-kya-4000-1-113-2020-articles-1-4-withdrawal-agreement.md",
+      "archive_path": "greece/documents/guidance/archive/gr-94-kya-4000-1-113-2020-articles-1-4-withdrawal-agreement/6aa612d154f9ab493227ae3de13fb64ac6d8aa297a3ffe562c4875ad7f58e7c0.md",
+      "sha256": "6aa612d154f9ab493227ae3de13fb64ac6d8aa297a3ffe562c4875ad7f58e7c0",
+      "archived_at": "2026-10-28T20:50:45.984Z",
+      "superseded_by_sha256": "6aa612d154f9ab493227ae3de13fb64ac6d8aa297a3ffe562c4875ad7f58e7c0"
     }
   ]
 }
