@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Seventy-two scoped text-only excerpts of official legislative and administrative texts are separately accepted: 67 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and five MITOS procedure-page excerpts under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 135 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 213 official-reference reviews approve use of identified official links within their recorded scopes. Seventy-two scoped text-only excerpts of official legislative and administrative texts are separately accepted: 67 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and five MITOS procedure-page excerpts under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 135 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -3819,6 +3819,23 @@
         "This is not a current consolidated procedure and does not establish current PD 106/2007 family-card portal requirements or live service behavior.",
         "No local copy or republication permission is accepted."
       ]
+    },
+    "gr-dpa-decision-125-2014": {
+      "status": "usable_official_reference",
+      "publisher": "Hellenic Data Protection Authority",
+      "url": "https://www.dpa.gr/sites/default/files/2019-10/125_2014anonym.pdf",
+      "checked_on": "2026-10-29",
+      "language": "Greek",
+      "version_or_cutoff": "DPA Decision 125/2014, dated 15 September 2014; seven-page anonymized PDF.",
+      "scope": "Historical DPA review of a third-country national's request to remove SIS II and Greek National List of Undesirable Aliens records following a family-reunification application involving a family-status certificate treated by the authorities as forged.",
+      "reviewed_content": "The complete seven-page official PDF was opened and reviewed. The DPA describes the application, alleged forged family-status document and related SIS II/national-list entries, discusses Regulation 1987/2006 and national law then in force, and dismisses the individual complaint. The decision explains the need for a reasoned assessment for retention beyond the prescribed review period under the historical framework.",
+      "limitations": [
+        "Historical, fact-specific oversight decision; not a general current rule.",
+        "Concerns third-country family reunification, not Directive 2004/38/EC or EU citizens' family-member residence cards.",
+        "Predates GDPR and the current SIS Regulations; its statutes, retention period, remedies and procedure must not be treated as current.",
+        "Accepted as link-only. No local text copy or automated retrieval rule."
+      ],
+      "source_list_id": "gr-214"
     }
   },
   "local_copy_acceptance": {
