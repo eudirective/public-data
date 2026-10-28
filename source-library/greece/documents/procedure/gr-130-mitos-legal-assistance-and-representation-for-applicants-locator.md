@@ -12,13 +12,13 @@ Accepted official route: [https://mitos.gov.gr/index.php/%CE%94%CE%94:%CE%A0%CE%
 
 Language/version: Greek; MITOS entry 906805, last updated 14 October 2026; explicitly marked under reform.
 
-Checked: 2026-10-25
+Checked: 2026-10-29
 
 Acceptance-register key: `gr-mitos-asylum-legal-assistance-906805`
 
 Monitor manifest entry: `candidates/public-data/GR/candidate-manifest.json` (`gr-130`)
 
-Local-copy status: No source text is retained in this document. This is an external-only official reference.
+Local-copy status: A status-only excerpt is retained at [gr-130 MITOS status excerpt](gr-130-mitos-legal-assistance-status-excerpt.md).
 
 ## Source role and accepted scope
 
@@ -41,6 +41,6 @@ This source-specific document is based on the already accepted official-link rev
 - Do not treat the old conditions, deadlines, digital form, or cited Law 4939/2022/KYA 788502/2023 as current; Law 5307/2026 repeals Law 4939/2022 subject to transitions.
 - No applicant submission or portal/runtime check was performed.
 - Greek is the controlling language.
-- No local copy or republication permission is accepted.
+- The status-only excerpt is shared under the CC BY-SA 4.0 license displayed in the MITOS page footer; this reuse basis does not extend to treating the older procedure details as current.
 
 Use the live official route and confirm its identity, date, attachments and procedural scope before relying on it. Link acceptance does not establish a current consolidated text, topic coverage, or country completion.
