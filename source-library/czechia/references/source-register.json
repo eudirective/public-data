@@ -1,12 +1,12 @@
 {
-  "manifest_version": "0.4.6",
-  "external_reference_review_date": "2026-10-21",
+  "manifest_version": "0.4.7",
+  "external_reference_review_date": "2026-10-28",
   "pack": "czechia-national-legal-sources",
   "inventory_source": "references/source-list.md",
   "inventory_research_date": "2026-10-18",
   "scope": "Official Czech national legislation and official guidance, forms, consular instructions, and official court/oversight discovery channels relevant to EU free movement and family members. EU and CJEU source texts are excluded. Czech official guidance also describes similar rights for Icelandic, Liechtenstein, Norwegian, and Swiss citizens; UK Withdrawal Agreement cases are distinct.",
-  "status": "63 source records; 62 official external references accepted within recorded scope; 41 accepted dated local source copies (17 e-Sbírka texts, 13 guidance pages, 6 forms with native PDF companions, 5 discovery/index snapshots); 2 official-link locator notes for incomplete captures; Decree 429/2010 pending whole-portal human review; 0 accepted topics; country review incomplete; no files remain under candidates/.",
-  "retrieval_status": "43 prior candidate artifacts dispositioned: 41 accepted dated source copies and 2 external-only locator notes; 17 e-Sbírka versions retain informative-text caveats; 6 forms retain native PDF companions; Decree 429/2010 remains pending; no topics or country completion certified.",
+  "status": "64 source records; 64 official external references accepted within recorded scope; 41 accepted dated local source copies (17 e-Sbírka texts, 13 guidance pages, 6 forms with native PDF companions, 5 discovery/index snapshots); 2 official-link locator notes for incomplete captures; Decree 429/2010 accepted as an official locator only, with currentness and route applicability still pending whole-portal human review; 0 accepted topics; country review incomplete; no files remain under candidates/.",
+  "retrieval_status": "43 prior candidate artifacts remain dispositioned as 41 accepted dated source copies and 2 incomplete-capture locator notes. The Decree 429/2010 locator and MFA long-stay/residence page are separately accepted as external-only references; currentness/scope limits remain recorded. No local copies, topics, or country completion are added by these decisions.",
   "accepted_source_count": 41,
   "official_hosts": [
     "e-sbirka.gov.cz",
@@ -2227,10 +2227,10 @@
         "official_url": "https://e-sbirka.gov.cz/sb/2010/429"
       },
       "functional_relationship": "partial_functional_match",
-      "verification_status": "Official PSP metadata identifies the title, effective date 1 January 2011 and amendment by Decree 67/2019. The e-Sbírka browser response exposed no extractable text during review. Whole-portal human review is recorded; do not reconstruct Gazette fragments by default.",
+      "verification_status": "Official PSP metadata identifies the decree, its effective date of 1 January 2011 and amendment by Decree 67/2019. The e-Sbírka page exposed no extractable text during the 2026-10-28 review. Accept the official e-Sbírka URL only as an instrument locator; the current consolidated text, version/effective cutoff and applicability to EU-family routes remain unresolved. Whole-portal human review remains open; do not reconstruct Gazette fragments by default.",
       "retrieved": false,
       "accepted": false,
-      "retrieval_status": "pending_whole_portal_human_review",
+      "retrieval_status": "external_reference_only",
       "retrieval_shape": "official live page or decision link; no local copy added",
       "topic_ids": [
         "VISA-03",
@@ -2238,12 +2238,39 @@
         "MISSION-18",
         "MISSION-19"
       ],
-      "scope_note": "Official instrument identity is verified, but the current consolidated version, version/effective cutoff and applicability to EU-family short-stay and residence routes are unresolved.",
+      "scope_note": "Official instrument identity and e-Sbírka link are accepted as a locator, corroborated by PSP metadata. Current consolidated wording, version/effective cutoff and applicability to EU-family short-stay visa or residence routes are not established. No local copy is stored.",
       "local_copy_status": "not_stored",
-      "external_reference_accepted": false,
-      "external_reference_decision": "pending_whole_portal_human_review",
-      "external_reference_scope": null,
+      "external_reference_accepted": true,
+      "external_reference_decision": "accepted_with_narrow_external_scope",
+      "external_reference_scope": "Accept the official e-Sbírka record as a publisher-verified link and instrument locator, corroborated by the official Parliament metadata record. The e-Sbírka text was not extractable during review. Current consolidated wording/cutoff and applicability to EU-family visa or residence routes are not established. No local copy is accepted.",
       "whole_site_review_offer": "cz-esbirka-decree-429-currentness"
+    },
+    {
+      "id": "cz-mzv-local-consular-competence",
+      "title": "Ministry of Foreign Affairs: Long-term visa, long-term residence and permanent residence — local consular competence (Czech)",
+      "source_type": "official_procedure_guidance",
+      "language": "cs",
+      "url": "https://mzv.gov.cz/jnp/cz/informace_pro_cizince/kde_podat_zadost_o_vizum/dlouhodobe_vizum_dlouhodoby_pobyt_a.html",
+      "publisher_identifier": {
+        "publisher": "Ministry of Foreign Affairs of the Czech Republic",
+        "official_url": "https://mzv.gov.cz/jnp/cz/informace_pro_cizince/kde_podat_zadost_o_vizum/dlouhodobe_vizum_dlouhodoby_pobyt_a.html"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official Czech MFA page reviewed on 2026-10-28. It describes local competence for long-term visas and long-term/permanent residence, including specified routes for applying at a Czech mission outside the ordinary locality. It cites Act No. 326/1999, § 169g, Act No. 150/2017, § 4, and Decree 429/2010. No publication or update date was visible in the reviewed page.",
+      "retrieved": false,
+      "accepted": false,
+      "retrieval_status": "external_reference_only",
+      "retrieval_shape": "official live page; no local copy added",
+      "topic_ids": [
+        "MISSION-18",
+        "MISSION-19",
+        "VISA-03"
+      ],
+      "scope_note": "Czech-language official MFA guidance on consular locality for long-term visa and long-term/permanent residence applications. It does not establish short-stay Schengen or EU-family visa application rules, appointment arrangements, or mission-specific practice.",
+      "local_copy_status": "not_stored",
+      "external_reference_accepted": true,
+      "external_reference_decision": "accepted_with_narrow_external_scope",
+      "external_reference_scope": "Accepted as the official Czech MFA page, checked 2026-10-28, for its stated long-term visa and long-term/permanent residence consular-locality guidance only. No publication/update date was visible. This link does not establish short-stay Schengen or EU-family visa rules, mission-specific appointment practice, a local-copy acceptance, topic adequacy, or country review completion."
     }
   ],
   "retrieved_source_count": 43,
@@ -2274,9 +2301,9 @@
     "promotion_review_date": "2026-10-25"
   },
   "storage_layout_version": "country-pack-template-1",
-  "accepted_external_reference_count": 62,
+  "accepted_external_reference_count": 64,
   "local_copy_acceptance_date": "2026-10-25",
-  "source_record_count": 63,
+  "source_record_count": 64,
   "pending_review_artifact_count": 0,
   "retrieved_review_artifact_count": 0,
   "converted_review_artifact_count": 0
