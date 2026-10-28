@@ -3822,8 +3822,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 9,
-    "note": "Nine scoped text-only excerpts from official Greek legislative and administrative texts are accepted; they are not complete acts or consolidations. The other 198 accepted candidate references have source-specific link-only locator/disposition documents; they do not reproduce source text. Where candidate page bodies exist, they remain in the Monitor's local-only archive. gr-06 is a duplicate of gr-05."
+    "accepted_source_count": 14,
+    "note": "Fourteen scoped text-only excerpts from official Greek legislative and administrative texts are accepted; they are not complete acts or consolidations. The other 198 accepted candidate references have source-specific link-only locator/disposition documents; they do not reproduce source text. Where candidate page bodies exist, they remain in the Monitor's local-only archive. gr-06 is a duplicate of gr-05."
   },
   "whole_portal_review_offers": [
     {
@@ -4026,6 +4026,81 @@
       "reviewed_on": "2026-10-28",
       "semantic_check": "Only Άρθρο 92 were extracted. Article 92 replaces Article 26(1) of Law 4538/2018, including investigations under Civil Code Article 1557. Its reassigned-worker report deadlines refer to Articles 10–11, whose source text concerns foster-care cases; the adoption-specific effect remains open. The identified Gazette title, number, date, and selected text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
       "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including legislative texts and official administrative decisions, from copyright protection. This file retains only the scoped instrument text and page markers; it omits Gazette layout, publisher branding, website content and non-legislative material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
+      "limitations": "A scoped excerpt of the dated original instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law4704-2020-art23-art24-adoption-connection": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "legislation/gr-107-law-4704-2020-articles-23-24.md",
+      "sha256": "a0ec8fd6e49f9b7d2953c87f37b7fbf86da36dbe43d7a7be25e5b1c6febeae80",
+      "bytes": 14496,
+      "source_url": "https://api.et.gr/apiLAW/1/2020/4704/pdf",
+      "captured_candidate_url": "https://api.et.gr/apiLAW/1/2020/4704/pdf",
+      "source_response_sha256": "b352754f37627411a22e3d190d8610b1f359691ac82aba8c702ff94b09508d5f",
+      "source_text_excerpt_sha256": "ce1906a52cfc6b4e91ecad6c1b27f1cf8f83301aca2b1a5dd85ca68d58b5e23a",
+      "conversion_method": "PDF text extraction; 24 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Articles 23 and 24 amend Law 4538/2018 Article 9 and Law 2447/1996 Article 7. Article 24 includes the specific-child social-report timetable and adoption matching provision. This is dated amendment text, not a current consolidation; the separate pre-matching worker-assignment timer remains unresolved. The identified Gazette title, number, date, and selected text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including legislative texts, from copyright protection. This file retains only the scoped statutory wording and page markers; it omits Gazette layout, publisher branding, website content and non-legislative material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
+      "limitations": "A scoped excerpt of the dated original instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law4764-2020-art120-foster-documents": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "legislation/gr-108-law-4764-2020-article-120.md",
+      "sha256": "e3e456d355da0cbbd4f6befc5db286737226aded678027d2a58c3cd4b0bb99e7",
+      "bytes": 7162,
+      "source_url": "https://api.et.gr/apiFEK/1/2020/256/pdf",
+      "captured_candidate_url": "https://api.et.gr/apiFEK/1/2020/256/pdf",
+      "source_response_sha256": "782f3bf4fae9c186156702e73e57c70bd3ba3cd1bc4e4609d3698835fa87dfd1",
+      "source_text_excerpt_sha256": "dfe171554d9033bc33d7b9e7fcd519d2e4acd3303f1ce0a81d72ec6ca8e55535",
+      "conversion_method": "PDF text extraction; 72 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Article 120 replaces parts of Law 4538/2018 Article 9 concerning foster-parent application documents and monitoring. This concerns foster care and does not establish adoptive-parent requirements or current consolidated wording. The identified Gazette title, number, date, and selected text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including legislative texts, from copyright protection. This file retains only the scoped statutory wording and page markers; it omits Gazette layout, publisher branding, website content and non-legislative material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
+      "limitations": "A scoped excerpt of the dated original instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law4808-2021-art137-foster-benefits": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "legislation/gr-109-law-4808-2021-article-137.md",
+      "sha256": "4e781faae4b92a1d397c8febabf5bd6aaa6bf53887130bcb7ea3f2b9946aebf8",
+      "bytes": 11705,
+      "source_url": "https://api.et.gr/apiLAW/1/2021/4808/pdf",
+      "captured_candidate_url": "https://api.et.gr/apiLAW/1/2021/4808/pdf",
+      "source_response_sha256": "e43d4f814260ee4933c4c224c161b25c82d26e949f17ba5189761e021ba03d92",
+      "source_text_excerpt_sha256": "b323294f898ae937d7fa5906873f9cab7f21b44c6b3c46be264a4433ae589da3",
+      "conversion_method": "PDF text extraction; 84 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Article 137 amends Law 4538/2018 Article 12 on foster-parent benefits and accommodations, including continuation in specified circumstances after the child reaches adulthood. This dated amendment is not a current consolidation and does not establish present benefit amounts or operational delivery. The identified Gazette title, number, date, and selected text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including legislative texts, from copyright protection. This file retains only the scoped statutory wording and page markers; it omits Gazette layout, publisher branding, website content and non-legislative material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
+      "limitations": "A scoped excerpt of the dated original instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law4837-2021-art24-30-adoption-and-foster-amendments": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "legislation/gr-110-law-4837-2021-articles-30-and-51.md",
+      "sha256": "a8034934ec33a3af5aa68e9a37060183ab7513d1650f7247ab9cb3513d71b709",
+      "bytes": 3933,
+      "source_url": "https://api.et.gr/apiLAW/1/2021/4837/pdf",
+      "captured_candidate_url": "https://api.et.gr/apiLAW/1/2021/4837/pdf",
+      "source_response_sha256": "111d4c8d7b6807df17b1042a9b7b87153937c525a2e99aee177441067443723a",
+      "source_text_excerpt_sha256": "5b2b862faf0a85af8da235f6813a64dcaaed5f1c6484acba4077a0fdb8c5552f",
+      "conversion_method": "PDF text extraction; 36 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Article 30 adds an exception to prospective-adoptive-parent training for adoption of a spouse’s child. Article 51 amends Civil Code Article 1579 on adult adoption by specified relatives or a former foster parent. Later amendment status and current procedure remain open. The identified Gazette title, number, date, and selected text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including legislative texts, from copyright protection. This file retains only the scoped statutory wording and page markers; it omits Gazette layout, publisher branding, website content and non-legislative material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
+      "limitations": "A scoped excerpt of the dated original instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law4865-2021-art43-adoption-health-conditions": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "legislation/gr-111-law-4865-2021-article-43.md",
+      "sha256": "666df184df431abfa673675650e54f5718d62424c272ab6d72daf4322daae60d",
+      "bytes": 5876,
+      "source_url": "https://api.et.gr/apiLAW/1/2021/4865/pdf",
+      "captured_candidate_url": "https://api.et.gr/apiLAW/1/2021/4865/pdf",
+      "source_response_sha256": "140fbea1d7dd36240eee419bc845972bd6ea1efcbe54ee92221b4574677b7d71",
+      "source_text_excerpt_sha256": "d36221c48db19beab85777529e0b8c491cb1aa76758038de4afa069f6f3278a3",
+      "conversion_method": "PDF text extraction; 24 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Article 43 amends Law 4538/2018 Articles 8 and 9 on specified health conditions and medical evidence and expressly applies the amendments correspondingly to adoption. This is the dated amendment only, not a current consolidated eligibility or medical-evidence checklist. The identified Gazette title, number, date, and selected text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including legislative texts, from copyright protection. This file retains only the scoped statutory wording and page markers; it omits Gazette layout, publisher branding, website content and non-legislative material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
       "limitations": "A scoped excerpt of the dated original instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
     }
   }
