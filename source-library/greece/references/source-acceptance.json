@@ -3822,8 +3822,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 14,
-    "note": "Fourteen scoped text-only excerpts from official Greek legislative and administrative texts are accepted; they are not complete acts or consolidations. The other 198 accepted candidate references have source-specific link-only locator/disposition documents; they do not reproduce source text. Where candidate page bodies exist, they remain in the Monitor's local-only archive. gr-06 is a duplicate of gr-05."
+    "accepted_source_count": 19,
+    "note": "Nineteen scoped text-only excerpts from official Greek legislative and administrative texts are accepted; they are not complete acts or consolidations. The other 198 accepted candidate references have source-specific link-only locator/disposition documents; they do not reproduce source text. Where candidate page bodies exist, they remain in the Monitor's local-only archive. gr-06 is a duplicate of gr-05."
   },
   "whole_portal_review_offers": [
     {
@@ -4102,6 +4102,81 @@
       "semantic_check": "Article 43 amends Law 4538/2018 Articles 8 and 9 on specified health conditions and medical evidence and expressly applies the amendments correspondingly to adoption. This is the dated amendment only, not a current consolidated eligibility or medical-evidence checklist. The identified Gazette title, number, date, and selected text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
       "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including legislative texts, from copyright protection. This file retains only the scoped statutory wording and page markers; it omits Gazette layout, publisher branding, website content and non-legislative material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
       "limitations": "A scoped excerpt of the dated original instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-kya-22785-2019-certified-social-workers": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "guidance/gr-118-jmd-22785-896-2019-skle-certified-social-worker-register.md",
+      "sha256": "9662ad9435596112c737ec3b44b63e214830ea42a5e1dfeb0c3141146b1a109d",
+      "bytes": 52685,
+      "source_url": "https://www.anynet.gr/legislation_pds/%CE%9A%CE%A5%CE%91%2022785-896-2019-%CE%A0%CE%A1%CE%9F%CE%AB%CE%A0%CE%9F%CE%98%CE%95%CE%A3%CE%95%CE%99%CE%A3%20%CE%9A%CE%91%CE%99%20%CE%94%CE%99%CE%91%CE%94%CE%99%CE%9A%CE%91%CE%A3%CE%99%CE%91%20%CE%95%CE%93%CE%93%CE%A1%CE%91%CE%A6%CE%97%CE%A3%20%CE%A3%CE%A4%CE%9F%CE%9D%20%CE%95%CE%99%CE%94%CE%99%CE%9A%CE%9F%20%CE%9A%CE%91%CE%A4%CE%91%CE%9B%CE%9F%CE%93%CE%9F%20%CE%A3%CE%9A%CE%9B%CE%95.pdf",
+      "captured_candidate_url": "https://www.anynet.gr/legislation_pds/%CE%9A%CE%A5%CE%91%2022785-896-2019-%CE%A0%CE%A1%CE%9F%CE%AB%CE%A0%CE%9F%CE%98%CE%95%CE%A3%CE%95%CE%99%CE%A3%20%CE%9A%CE%91%CE%99%20%CE%94%CE%99%CE%91%CE%94%CE%99%CE%9A%CE%91%CE%A3%CE%99%CE%91%20%CE%95%CE%93%CE%93%CE%A1%CE%91%CE%A6%CE%97%CE%A3%20%CE%A3%CE%A4%CE%9F%CE%9D%20%CE%95%CE%99%CE%94%CE%99%CE%9A%CE%9F%20%CE%9A%CE%91%CE%A4%CE%91%CE%9B%CE%9F%CE%93%CE%9F%20%CE%A3%CE%9A%CE%9B%CE%95.pdf",
+      "source_response_sha256": "e88a49243d26549d58c2068a1f250a0e3b7ee90cca453fd252c772138bf77bf8",
+      "source_text_excerpt_sha256": "91a9ee81d52153a9cc7df09d718aa5e08afc621af23e96c7634eeb042dca6af3",
+      "conversion_method": "PDF text extraction; 8 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "The selected decision sets original requirements and procedures for the SKLE list of certified social workers, training and remuneration. The Gazette issue also contains unrelated decisions; they are excluded from this excerpt. It does not establish later amendments, current register status or worker availability. The official Gazette identity and selected source text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official administrative decisions and legislative texts, from copyright protection. This file retains only the selected official decision or statutory wording and page markers; it omits Gazette layout, publisher branding, website content and unrelated material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
+      "limitations": "A scoped excerpt of the dated official instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-kya-31931-2020-adoption-matching-issue-locator": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "guidance/gr-119-jmd-31931-1272-2020-adoption-foster-matching-articles-1-13.md",
+      "sha256": "e1e44857eee10ff8943034403a01b9378142d2560f2b201213116bb8e2baf5f5",
+      "bytes": 50431,
+      "source_url": "https://api.et.gr/apiFEK/2/2020/3329/pdf",
+      "captured_candidate_url": "https://api.et.gr/apiFEK/2/2020/3329/pdf",
+      "source_response_sha256": "6d5a7070c152a3d033d7969370710d9c5186ce537885fe0e86f7b397059b2a92",
+      "source_text_excerpt_sha256": "738217f69596df7d206956efc65ba76b7a087e3ba8f862d8783086463e703adf",
+      "conversion_method": "PDF text extraction; 8 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "The complete operative articles set the matching, competent-body and adjustment procedures for foster care and adoption. Article 12(1) refers to Article 7 for adoption adjustment timing while Article 11 contains the adoption-specific adjustment procedure; intended effect remains for human review. A bounded Gazette search found later citation-only leads but did not establish the complete amendment/repeal chain or current legal force. The official Gazette identity and selected source text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official administrative decisions and legislative texts, from copyright protection. This file retains only the selected official decision or statutory wording and page markers; it omits Gazette layout, publisher branding, website content and unrelated material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
+      "limitations": "A scoped excerpt of the dated official instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law4689-2020-legal-aid-amendments": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "legislation/gr-125-law-4689-2020-articles-42-45-and-57.md",
+      "sha256": "d7e347fdf39ab232e0cb7ae44cd6c073bc95891d9ea29c6fbc0ad2256f416d6d",
+      "bytes": 48255,
+      "source_url": "https://ministryofjustice.gr/wp-content/uploads/2022/05/doc9_N_46892020_FEK_A_103_27-05-2020.pdf",
+      "captured_candidate_url": "https://ministryofjustice.gr/wp-content/uploads/2022/05/doc9_N_46892020_FEK_A_103_27-05-2020.pdf",
+      "source_response_sha256": "3ac9e55c327cded9e0377534c03fd9f72f3e324780c356ab8a76d0e2243b8b73",
+      "source_text_excerpt_sha256": "afad03b1959255aef3bfc6f765fb9b7ace7d70fb04f99ff3c6cb1b4063ad23b7",
+      "conversion_method": "PDF text extraction; 36 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Articles 42–45 amend legal-aid application timing, appointment and recovery provisions. Article 57 replaces Law 3068/2002 Article 15(3), a cross-reference relevant to PD 106/2007 Article 24(2). Read with the original Law 3226/2004 and later changes; the interaction of the amended remedy text with that cross-reference remains for human legal review. The official Gazette identity and selected source text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official administrative decisions and legislative texts, from copyright protection. This file retains only the selected official decision or statutory wording and page markers; it omits Gazette layout, publisher branding, website content and unrelated material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
+      "limitations": "A scoped excerpt of the dated official instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law5023-2023-legal-aid-accessibility": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "legislation/gr-126-law-5023-2023-articles-23-25.md",
+      "sha256": "e22ca9f79777a720db65b986a75ad0d7acd811d43e870a79a4c61de3643dfcd2",
+      "bytes": 12450,
+      "source_url": "https://ministryofjustice.gr/wp-content/uploads/2023/02/Nomos_5023_2023.pdf",
+      "captured_candidate_url": "https://ministryofjustice.gr/wp-content/uploads/2023/02/Nomos_5023_2023.pdf",
+      "source_response_sha256": "353e50297313d4d3acc48dd09c3877a19d6e6358a8ea0ec2287d58d39aa81443",
+      "source_text_excerpt_sha256": "4aa60a756e99de25cdb05d800bada22865dbd4b85102fbe765593718891ae3e0",
+      "conversion_method": "PDF text extraction; 12 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Articles 23–25 amend Law 3226/2004 provisions on legal aid for persons with disabilities, including the stated disability threshold and access accommodations. This is narrow dated amendment text, not a current consolidated eligibility scheme or proof of operational delivery. The official Gazette identity and selected source text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official administrative decisions and legislative texts, from copyright protection. This file retains only the selected official decision or statutory wording and page markers; it omits Gazette layout, publisher branding, website content and unrelated material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
+      "limitations": "A scoped excerpt of the dated official instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law5095-2024-legal-aid-payments": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "legislation/gr-127-law-5095-2024-articles-23-25.md",
+      "sha256": "bd3ab306f9a554b37adf5abbe4aecbc20d3a45981b3fcd9209bca4cc78574440",
+      "bytes": 13578,
+      "source_url": "https://ministryofjustice.gr/wp-content/uploads/2024/03/Nomos_5095_2024.pdf",
+      "captured_candidate_url": "https://ministryofjustice.gr/wp-content/uploads/2024/03/Nomos_5095_2024.pdf",
+      "source_response_sha256": "c6300af73d9ccb964e30408c1bbf38db5078e27d1e58a45708541ac39170a8e5",
+      "source_text_excerpt_sha256": "ca0e664879170b69efe03c0bc0a59ebecb7f590e3b33e2490fc065fc78fcdbf0",
+      "conversion_method": "PDF text extraction; 16 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Articles 23–25 address compensation and payment for legal-aid cases. They concern provider remuneration and payment, not applicant eligibility or a current consolidated legal-aid scheme. The official Gazette identity and selected source text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official administrative decisions and legislative texts, from copyright protection. This file retains only the selected official decision or statutory wording and page markers; it omits Gazette layout, publisher branding, website content and unrelated material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
+      "limitations": "A scoped excerpt of the dated official instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
     }
   }
 }
