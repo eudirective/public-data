@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Sixty-eight scoped text-only excerpts of official legislative and administrative texts are separately accepted: 66 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and two MITOS procedure-page excerpts under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 143 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Sixty-nine scoped text-only excerpts of official legislative and administrative texts are separately accepted: 67 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and two MITOS procedure-page excerpts under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 143 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -3433,15 +3433,15 @@
       "publisher": "Ministry of Interior, Hellenic Republic",
       "url": "https://www.ypes.gr/wp-content/uploads/2025/06/eggr10219-20250620.pdf",
       "rediscovery_url": "https://www.ypes.gr/category/dioikitiki-anasygkrotisi/aploysteysi-diadikasion/prosvasi-se-engrafa/",
-      "checked_on": "2026-10-26",
+      "checked_on": "2026-10-29",
       "language": "Greek",
       "version_or_cutoff": "Circular ΔΙΔΔΔΗ/Φ.22/οικ.10219, dated 20 June 2025; two-page Ministry PDF.",
       "scope": "Official notice and Ministry reproduction of the amendment made by Decision 8229/16-5-2025, FEK B 2601/27-5-2025, to Article 2 of Decision 21797/2024.",
-      "reviewed_content": "The complete circular identifies the amendment decision and Gazette issue, then reproduces the replacement Article 2 text. It states that a named request includes the applicant name, surname, identity-card number and contact details, whether filed in person or electronically; an email-submitted named application must be an attached signed document using a qualified electronic signature or signature verification through the specified gov.gr digital-document applications. This is an official Ministry circular reproduction, not the Gazette amendment itself.",
+      "reviewed_content": "The complete circular identifies the amendment decision and Gazette issue, then reproduces the replacement Article 2 text. It states that a named request includes the applicant name, surname, identity-card number and contact details, whether filed in person or electronically; an email-submitted named application must be an attached signed document using a qualified electronic signature or signature verification through the specified gov.gr digital-document applications. This is an official Ministry circular reproduction, not the Gazette amendment itself. On 29 October 2026 the official Ministry PDF was reopened. A scoped excerpt of the quoted replacement Article 2 is retained; the excerpt remains the Ministry circular's reproduction, not the full Gazette decision. The publisher raw response was not captured.",
       "limitations": [
         "Accepted for the Ministry notice and the text it reproduces; the formal Gazette body was not independently retrieved in this review.",
         "Does not establish current application channels at any particular authority, immigration-file procedures, or live service operation.",
-        "No local copy is accepted."
+        "A dated excerpt is retained; no raw publisher response or raw-response hash is available, and later currentness is not established."
       ],
       "source_list_id": "gr-194"
     },
@@ -3822,8 +3822,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 68,
-    "note": "Sixty-eight scoped text-only excerpts from Greek official legislative and administrative sources are accepted; they are not complete acts or consolidations. Sixty-six excerpts rely on Greek Law 2121/1993 Article 2(5); two excerpts from MITOS administrative-procedure pages are shared under their displayed CC BY-SA 4.0 license. The other 139 accepted candidate references have source-specific link-only locator/disposition documents. Five additional accepted source-list references are outside the candidate manifest. Some underlying candidate page bodies remain in the Monitor local-only archive. gr-06 is a duplicate of gr-05."
+    "accepted_source_count": 69,
+    "note": "Sixty-nine scoped text-only excerpts from Greek official legislative and administrative sources are accepted; they are not complete acts or consolidations. Sixty-seven excerpts rely on Greek Law 2121/1993 Article 2(5); two excerpts from MITOS administrative-procedure pages are shared under their displayed CC BY-SA 4.0 license. The other 138 accepted candidate references have source-specific link-only locator/disposition documents. Five additional accepted source-list references are outside the candidate manifest. Some underlying candidate page bodies remain in the Monitor local-only archive. gr-06 is a duplicate of gr-05."
   },
   "whole_portal_review_offers": [
     {
@@ -4992,6 +4992,26 @@
       "monitor_archive_sha256": "28f29b26937427c5b8b0affd83d6664d002b1662d4fa5150085b76be85eee52b",
       "source_text_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-139-exact-selected-text.md",
       "source_text_archive_sha256": "5bc718e186323969bf99ea8a432eb0c9f2dd21e92f82abba84be67c48eca08aa"
+    },
+    "gr-194": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "documents/guidance/gr-194-ypes-circular-10219-public-access-amendment-excerpt.md",
+      "sha256": "b9a1aeedb2b8e6dd425ff93c08ba858d452e1f749850fe1f22075868c1a65bd4",
+      "bytes": 2581,
+      "source_url": "https://www.ypes.gr/wp-content/uploads/2025/06/eggr10219-20250620.pdf",
+      "captured_candidate_url": "https://www.ypes.gr/wp-content/uploads/2025/06/eggr10219-20250620.pdf",
+      "source_text_excerpt_sha256": "187bbd4f741fc8589acfca17f1466874e85ab440799d7d8200494b7dbc90d769",
+      "conversion_method": "Official Ministry PDF viewer text extraction; selected passage reflowed. No raw publisher response captured.",
+      "reviewed_on": "2026-10-29",
+      "semantic_check": "The circular identifies the parent amendment decision 8229/16-5-2025 and FEK B 2601/27-5-2025, then reproduces replacement Article 2. The local text is limited to that notice and reproduced passage, not the full Gazette instrument or parent Decision 21797/2024.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official administrative texts expressing the exercise of state authority from copyright protection. Only the selected circular text is retained; unrelated letter matter is omitted. This is not an automated retrieval approval.",
+      "limitations": "Official notice/reproduction only; the formal Gazette body was not independently retrieved. No later amendment chain or current operational requirements are established. No raw publisher response or raw-response hash is available.",
+      "scope": "Ministry Circular ΔΙΔΔΔΗ/Φ.22/οικ.10219 (20 June 2025), limited to the quoted replacement Article 2 in the amendment to Decision 21797/2024.",
+      "version_or_cutoff": "Two-page circular dated 20 June 2025; observed 29 October 2026.",
+      "monitor_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-194-published-excerpt.md",
+      "monitor_archive_sha256": "b9a1aeedb2b8e6dd425ff93c08ba858d452e1f749850fe1f22075868c1a65bd4",
+      "source_text_archive_path": "captures/eudirective-public-data/GR/source-review-next-30-2026-10-29/gr-194-exact-selected-text.txt",
+      "source_text_archive_sha256": "187bbd4f741fc8589acfca17f1466874e85ab440799d7d8200494b7dbc90d769"
     }
   }
 }
