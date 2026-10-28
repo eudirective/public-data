@@ -28,6 +28,15 @@
       "sha256": "6aa612d154f9ab493227ae3de13fb64ac6d8aa297a3ffe562c4875ad7f58e7c0",
       "archived_at": "2026-10-28T20:50:45.984Z",
       "superseded_by_sha256": "6aa612d154f9ab493227ae3de13fb64ac6d8aa297a3ffe562c4875ad7f58e7c0"
+    },
+    {
+      "source_id": "gr-121",
+      "official_url": "https://www.fireservice.gr/documents/20184/797466/%CE%9A%CE%BF%CE%B9%CE%BD%CE%AE%2B%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B9%CE%BA%CE%AE%2B%CE%91%CF%80%CF%8C%CF%86%CE%B1%CF%83%CE%B7%2B%CE%943-22560-2005.pdf/281e308b-1656-4b28-a4ca-e5866216c878?version=1.0",
+      "current_path": "greece/documents/guidance/gr-121-ministerial-decision-7004-3-40-amendment-on-delegated-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-121-ministerial-decision-7004-3-40-amendment-on-delegated-locator/68bfdcafa22eb6261e3a1cc0cc7613b5a431711463de9970d1ccd130bef57985.md",
+      "sha256": "68bfdcafa22eb6261e3a1cc0cc7613b5a431711463de9970d1ccd130bef57985",
+      "archived_at": "2026-10-28T21:52:02.703Z",
+      "superseded_by_sha256": "585692c071aa45656f3d9df9b0ed1f273b445d84ecf93e0767390be9bed8e073"
     }
   ]
 }
