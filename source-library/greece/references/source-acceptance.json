@@ -3961,6 +3961,23 @@
         "Greek is the controlling language; no local copy or automated retrieval rule is accepted."
       ],
       "source_list_id": "gr-222"
+    },
+    "gr-circular-50-2011-naturalisation-eu-residence": {
+      "status": "usable_official_reference",
+      "publisher": "Hellenic Ministry of Interior, General Secretariat for Population and Social Cohesion; hosted in the Greek Ombudsman's legacy archive",
+      "url": "https://old.synigoros.gr/resources/docs/egkyklios50-2011.pdf",
+      "checked_on": "2026-10-29",
+      "language": "Greek",
+      "version_or_cutoff": "Circular No. 50, protocol F.130181/42077, dated 9 November 2011; official 14-page PDF.",
+      "scope": "Historical interpretation for naturalisation of EU citizens: evidence of lawful residence for the then-applicable three-year qualifying period and continuity of legal residence. The circular reproduces selected original PD 106/2007 provisions in an appendix.",
+      "reviewed_content": "The official circular says an EU citizen's qualifying residence right arises from EU law when conditions are met; the Greek registration certificate records that right and is not constitutive. For the then-applicable citizenship application, other evidence could establish the three-year residence period if no registration certificate covered it. In its separate continuity section, the Ministry says a gap shorter than three months between prior residence titles was not treated as breaking continuity for the specified naturalisation calculations. These are dated Ministry instructions under the 2011 citizenship framework.",
+      "limitations": [
+        "Historical naturalisation guidance under the 2011 legal framework; do not use for present citizenship eligibility, present evidence requirements or present residence law.",
+        "The circular concerns EU-citizen naturalisation applicants, not a residence-card entitlement or a general status rule for TCN family members.",
+        "Its reproduced PD 106/2007 provisions are original/dated text and not consolidated current law.",
+        "The Ombudsman archive is a host; the Ministry is identified as publisher in the document header. Greek controls. No local source text or automated retrieval rule is accepted."
+      ],
+      "source_list_id": "gr-223"
     }
   },
   "local_copy_acceptance": {
