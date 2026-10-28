@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "collection": "greece/documents/guidance",
+  "entries": [
+    {
+      "source_id": "gr-96",
+      "official_url": "https://api.et.gr/apiFEK/2/2024/5223/pdf",
+      "current_path": "greece/documents/guidance/gr-96-jmd-225679-2024-article-2.md",
+      "archive_path": "greece/documents/guidance/archive/gr-96-jmd-225679-2024-article-2/758681601a0eccf7aea61ff9a5616f58dcdbf99ae59ace338179c24733af6aba.md",
+      "sha256": "758681601a0eccf7aea61ff9a5616f58dcdbf99ae59ace338179c24733af6aba",
+      "archived_at": "2026-10-28T20:15:27.021Z",
+      "superseded_by_sha256": "16e095a14f4cf42a8eedc55462dfe891e348c030dc0e79e29568e6fa6653ff82"
+    }
+  ]
+}
