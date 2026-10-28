@@ -91,6 +91,15 @@
       "sha256": "7be4bd0daaae406232320b8fa0048db145c65d540ded076bc169dd76276aca82",
       "archived_at": "2026-10-28T21:56:51.958Z",
       "superseded_by_sha256": "e67323cf0a566125d7f75db788d63b1791b5273b2588cbfd50a49c7acbfcec70"
+    },
+    {
+      "source_id": "gr-197",
+      "official_url": "https://api.et.gr/apiFEK/2/2025/2601/pdf",
+      "current_path": "greece/documents/guidance/gr-197-decision-8229-16-5-2025-fek-b-2601-official-national-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-197-decision-8229-16-5-2025-fek-b-2601-official-national-locator/bcce949fbecc5b1006c32ef1acc83132592696548dfcfdfa4a9957fa7d03f700.md",
+      "sha256": "bcce949fbecc5b1006c32ef1acc83132592696548dfcfdfa4a9957fa7d03f700",
+      "archived_at": "2026-10-28T21:57:06.789Z",
+      "superseded_by_sha256": "99ff63e858d7bac13826a667107af5a5fdcc47468dadae8ec064231ee60f7801"
     }
   ]
 }
