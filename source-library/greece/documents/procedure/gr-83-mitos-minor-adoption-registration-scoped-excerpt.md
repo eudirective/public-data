@@ -30,6 +30,6 @@ This excerpt covers only the administrative record for entering a final minor-ad
 - Πιστοποιητικό περί επίδοσης της απόφασης στον αρμόδιο Εισαγγελέα.
 
 **Βήματα**  
-Ο αρμόδιος Ληξίαρχος του τόπου κατοικίας των θετών γονέων καταχωρίζει την πράξη και εκδίδει τη νέα ληξιαρχική πράξη γέννησης.
+Αρμόδιος είναι ο Ληξίαρχος του τόπου κατοικίας του θετού ή των θετών γονέων.\nΟ Ληξίαρχος του τόπου κατοικίας των θετών γονέων εκδίδει τη νέα πράξη.
 
 **Attribution:** National Registry of Administrative Procedures (MITOS), “Καταχώριση υιοθεσίας ανηλίκου στο Ληξιαρχείο”, page 541576, last modified 30 July 2026. Text is excerpted and formatted for readability; no other changes.
