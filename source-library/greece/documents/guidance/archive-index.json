@@ -46,6 +46,15 @@
       "sha256": "697f4aacae9d184b1f728025d85030a16f0382e3d8cb59a7e6e7ce4b6cef8c26",
       "archived_at": "2026-10-28T21:54:31.088Z",
       "superseded_by_sha256": "be9c87f2207776598b7224efb7deb5aa4c2d83c0c3206a081b53a8cd2e375a2a"
+    },
+    {
+      "source_id": "gr-160",
+      "official_url": "https://api.et.gr/apiFEK/2/2021/2705/pdf",
+      "current_path": "greece/documents/guidance/gr-160-kya-45927-2021-fek-b-2705-special-registry-exception-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-160-kya-45927-2021-fek-b-2705-special-registry-exception-locator/fe8c4df3d1a7f75a6bc3fefba13017220702a009b16163f251521c885962a75c.md",
+      "sha256": "fe8c4df3d1a7f75a6bc3fefba13017220702a009b16163f251521c885962a75c",
+      "archived_at": "2026-10-28T21:55:36.841Z",
+      "superseded_by_sha256": "e4a0e83534473a45f67ac433adaf75686f2d6297123f5272e05a82640f4bdaf6"
     }
   ]
 }
