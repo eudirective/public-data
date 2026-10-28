@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 219 official-reference reviews approve use of identified official links within their recorded scopes. Seventy-two scoped text-only excerpts of official legislative and administrative texts are separately accepted: 67 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and five MITOS procedure-page excerpts under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 135 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Twelve additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 220 official-reference reviews approve use of identified official links within their recorded scopes. Seventy-two scoped text-only excerpts of official legislative and administrative texts are separately accepted: 67 under Greek Law 2121/1993 Article 2(5), which excludes official texts expressing state authority from copyright protection, and five MITOS procedure-page excerpts under the displayed CC BY-SA 4.0 license; retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 135 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Thirteen additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -3926,6 +3926,23 @@
         "Accepted by link only; no local source text retained and no automated retrieval rule is accepted."
       ],
       "source_list_id": "gr-220"
+    },
+    "gr-ministry-circular-33-2006": {
+      "status": "usable_official_reference",
+      "publisher": "Hellenic Ministry of Interior, Public Administration and Decentralization",
+      "url": "https://old.synigoros.gr/resources/docs/051-egyklios33.pdf",
+      "checked_on": "2026-10-29",
+      "language": "Greek",
+      "version_or_cutoff": "Circular 33, AP 17684/2006, dated 8 September 2006; 15-page official Ministry circular hosted in the Greek Ombudsman's legacy archive.",
+      "scope": "Historical Ministry guidance on PD 131/2006 and family reunification for lawfully resident third-country nationals under Directive 2003/86/EC, including application, refusal, withdrawal/non-renewal and remedies.",
+      "reviewed_content": "The complete PDF was opened and reviewed. The header identifies the Ministry and circular number/date. The circular explains that PD 131/2006 implements Directive 2003/86/EC, states that EU-citizen family members are excluded from that family-reunification route, and explains former national procedure and safeguards, including reasons, family-impact factors and the then-current administrative/judicial remedies.",
+      "limitations": [
+        "Historical TCN family-reunification route, expressly distinct from EU free movement and PD 106/2007 residence cards.",
+        "Predates later migration codes and amendments; its conditions, competent authorities, deadlines and remedies are not current-law statements.",
+        "Hosted by the Greek Ombudsman's legacy archive; publisher attribution derives from the original Ministry header.",
+        "Accepted by link only; no local source text retained and no automated retrieval rule."
+      ],
+      "source_list_id": "gr-221"
     }
   },
   "local_copy_acceptance": {
