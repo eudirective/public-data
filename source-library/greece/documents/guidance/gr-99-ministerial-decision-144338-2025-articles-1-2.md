@@ -4,7 +4,7 @@
 - Source ID: `gr-99`
 - Source class: `national_implementing_decision`
 - Language: Greek
-- Official source: [https://ypergasias.gov.gr/wp-content/uploads/2025/09/20250205007.pdf]
+- Official source: [https://ypergasias.gov.gr/wp-content/uploads/2025/09/20250205007.pdf](https://ypergasias.gov.gr/wp-content/uploads/2025/09/20250205007.pdf)
 - Publisher: Ministry of Labour and Social Security (official Gazette copy); National Printing House issue record
 - Version observed: Decision 144338/2025, FEK B 5007, 22 September 2025 (p. 64684).
 - Review date: 2026-10-28
