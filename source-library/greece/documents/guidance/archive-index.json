@@ -55,6 +55,15 @@
       "sha256": "fe8c4df3d1a7f75a6bc3fefba13017220702a009b16163f251521c885962a75c",
       "archived_at": "2026-10-28T21:55:36.841Z",
       "superseded_by_sha256": "e4a0e83534473a45f67ac433adaf75686f2d6297123f5272e05a82640f4bdaf6"
+    },
+    {
+      "source_id": "gr-176",
+      "official_url": "https://www.anynet.gr/legislation_pds/%CE%A5%CE%91%2057758-2484-2018-%CE%9A%CE%91%CE%9D%CE%9F%CE%9D%CE%99%CE%A3%CE%9C%CE%9F%CE%A3%20%CE%9B%CE%95%CE%99%CE%A4%CE%9F%CE%A5%CE%A1%CE%93%CE%99%CE%91%CE%A3%20%CE%95%CE%A3%CE%91%CE%9D%CE%A5.pdf",
+      "current_path": "greece/documents/guidance/gr-176-ya-11-57758-2484-2018-national-council-for-foster-care-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-176-ya-11-57758-2484-2018-national-council-for-foster-care-locator/7acef8dd8ff2fee81fabae2ef0277011ebe53fb646d71561b90a37f86e7a690f.md",
+      "sha256": "7acef8dd8ff2fee81fabae2ef0277011ebe53fb646d71561b90a37f86e7a690f",
+      "archived_at": "2026-10-28T21:56:05.426Z",
+      "superseded_by_sha256": "901e49e82b91b2ddd6a5b4cd55a1d7e764bcc1c5d6209cf930795a8e15421d7b"
     }
   ]
 }
