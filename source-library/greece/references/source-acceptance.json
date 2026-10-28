@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Six text-only excerpts of official legislative texts are separately accepted under Greek Law 2121/1993 Article 2(5), which excludes official legislative texts expressing state authority from copyright protection; the retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 201 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 212 official-reference reviews approve use of identified official links within their recorded scopes. Nine text-only excerpts of official legislative texts are separately accepted under Greek Law 2121/1993 Article 2(5), which excludes official legislative texts expressing state authority from copyright protection; the retained files omit Gazette layout, publisher branding, web interface and non-legislative content. This narrow content-reuse basis does not determine the application of search.et.gr terms to direct api.et.gr access. No automated retrieval rule is accepted. The other 198 accepted candidate references have source-specific locator/disposition notes based on their existing link reviews; the notes do not reproduce source text. Five additional accepted source-list references are outside the candidate manifest. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -3822,8 +3822,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 6,
-    "note": "Six scoped text-only excerpts from official Greek legislative and administrative texts are accepted; they are not complete acts or consolidations. The other 201 accepted candidate references have source-specific link-only locator/disposition documents; they do not reproduce source text. Where candidate page bodies exist, they remain in the Monitor's local-only archive. gr-06 is a duplicate of gr-05."
+    "accepted_source_count": 9,
+    "note": "Nine scoped text-only excerpts from official Greek legislative and administrative texts are accepted; they are not complete acts or consolidations. The other 198 accepted candidate references have source-specific link-only locator/disposition documents; they do not reproduce source text. Where candidate page bodies exist, they remain in the Monitor's local-only archive. gr-06 is a duplicate of gr-05."
   },
   "whole_portal_review_offers": [
     {
@@ -3982,6 +3982,51 @@
       "semantic_check": "Only Άρθρο 2 was extracted. The official Gazette PDF identifies JMD 225679/2024, FEK B 5223, 17 September 2024. The complete Article 2 text was checked; it sets the income calculation and evidence rule under Law 5038/2023 Article 84. The 2024 formula inputs are not accepted as current wage amounts. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
       "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official administrative decisions, from copyright protection. This file retains only the scoped decision text and a page marker; it omits Gazette layout, publisher branding, website content, and non-legislative material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
       "limitations": "A scoped excerpt of the dated original decision only; not a consolidation, current-wage determination, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law5162-2024-art43-investor-family": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "documents/legislation/gr-97-law-5162-2024-article-43.md",
+      "sha256": "35213cf41f166a4ae87af10428801a31b6f8eb964a1ac7ea007cc4996342c841",
+      "bytes": 4873,
+      "source_url": "https://migration.gov.gr/wp-content/uploads/2025/03/nomos_5162_2024.pdf",
+      "captured_candidate_url": "https://migration.gov.gr/wp-content/uploads/2025/03/nomos_5162_2024.pdf",
+      "source_response_sha256": "fe3001c0b50e0521b479954074a21b514ec5c39884be182e388c9f3be893e873",
+      "source_text_excerpt_sha256": "582e226243ad07a5e2ddb938c51d1f2c1634a4bb000548a0aa38433325bb46bf",
+      "conversion_method": "PDF text extraction; 84 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Only Άρθρο 43 were extracted. Article 43 amends Migration Code Article 95(2), covering residence permits for family members of B.6 investor-permit holders and their exception from Article 84(1). This is a specific investor-family route, not general family reunification. The identified Gazette title, number, date, and selected text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including legislative texts and official administrative decisions, from copyright protection. This file retains only the scoped instrument text and page markers; it omits Gazette layout, publisher branding, website content and non-legislative material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
+      "limitations": "A scoped excerpt of the dated original instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-ya-144338-2025-app-filing-exception": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "documents/guidance/gr-99-ministerial-decision-144338-2025-articles-1-2.md",
+      "sha256": "43b590f0114bda7aa6d2067366fa8b4eeb803b9e8ddb7b47bb9c680e23376825",
+      "bytes": 3579,
+      "source_url": "https://ypergasias.gov.gr/wp-content/uploads/2025/09/20250205007.pdf",
+      "captured_candidate_url": "https://ypergasias.gov.gr/wp-content/uploads/2025/09/20250205007.pdf",
+      "source_response_sha256": "2b44c3e4186f885a9114f328a5b8a9b63ba9c147b440ace347c19c9a05399edb",
+      "source_text_excerpt_sha256": "a3c4f3e5e28e0b0fdf0068bc7cc4654441c4a7bf17df6e95c9783fa2f7cff8cd",
+      "conversion_method": "PDF text extraction; 4 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Only Άρθρο 1; Άρθρο 2 were extracted. Article 1 requires in-person initial applications for Law 5038/2023 permit types A1, A2, A3 and A7 under Ministry competence. Article 2 makes the decision effective on publication. This does not establish current filing practice or the PD 106/2007 family-card routes. The identified Gazette title, number, date, and selected text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including legislative texts and official administrative decisions, from copyright protection. This file retains only the scoped instrument text and page markers; it omits Gazette layout, publisher branding, website content and non-legislative material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
+      "limitations": "A scoped excerpt of the dated original instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
+    },
+    "gr-law4611-2019-art92-social-investigations": {
+      "decision": "accepted_local_official_text_excerpt",
+      "path": "documents/legislation/gr-106-law-4611-2019-article-92.md",
+      "sha256": "dac259640612da15bfed887a0ea98badaa6bd0f0734e3035a9995700701ea054",
+      "bytes": 4612,
+      "source_url": "https://api.et.gr/apiFEK/1/2019/73/pdf",
+      "captured_candidate_url": "https://api.et.gr/apiFEK/1/2019/73/pdf",
+      "source_response_sha256": "962c417a043210ee860a5ca7c7a237421809d0668f23904a8c441ecfcdc547e8",
+      "source_text_excerpt_sha256": "7c1a626dce75670b3b21010febdefed922606535ec7b1b4aceece9c7b739c04b",
+      "conversion_method": "PDF text extraction; 48 pages",
+      "reviewed_on": "2026-10-28",
+      "semantic_check": "Only Άρθρο 92 were extracted. Article 92 replaces Article 26(1) of Law 4538/2018, including investigations under Civil Code Article 1557. Its reassigned-worker report deadlines refer to Articles 10–11, whose source text concerns foster-care cases; the adoption-specific effect remains open. The identified Gazette title, number, date, and selected text were checked. Trailing whitespace was removed; extracted wording, nonbreaking spaces and source line breaks were retained.",
+      "reuse_basis": "Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including legislative texts and official administrative decisions, from copyright protection. This file retains only the scoped instrument text and page markers; it omits Gazette layout, publisher branding, website content and non-legislative material. This does not authorize automated retrieval or determine the application of National Printing House search terms.",
+      "limitations": "A scoped excerpt of the dated original instrument only; not a consolidation, current-version certification, complete amendment history, topic-coverage finding or country-completion claim."
     }
   }
 }
