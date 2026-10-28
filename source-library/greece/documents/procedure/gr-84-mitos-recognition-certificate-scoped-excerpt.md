@@ -12,7 +12,7 @@
 
 ## Scope and limits
 
-This is MITOS's administrative description of a certificate issued after a Greek court's recognition decision. It does not state the substantive recognition test or replace the court decision, underlying legislation or EU instruments. The page's filing-channel wording differs between sections; verify requirements with the competent court. The estimated timing and certificate validity are page statements, not guaranteed service outcomes.
+This is MITOS's administrative description of a certificate issued after a Greek court's recognition decision. It does not state the substantive recognition test or replace the court decision, underlying legislation or EU instruments. The page's filing-channel wording differs between sections: it lists in-person or postal submission in one section and states elsewhere that filing is by personal presence. The page reports a three-day estimated processing time and six-month certificate validity. Verify current requirements with the competent court; those estimates are not guaranteed service outcomes.
 
 ## Official page text (Greek)
 
