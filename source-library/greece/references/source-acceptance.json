@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 222 official-reference reviews approve use of identified official links within their recorded scopes. Eighty-two accepted source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), fourteen MITOS procedure-page copies under their displayed CC BY-SA 4.0 license, and one dated Gov.gr guidance-page snapshot under its stated lawful non-commercial reuse terms. These retained files are not consolidated laws unless expressly stated. One hundred forty distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. No automated retrieval rule is accepted. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 222 official-reference reviews approve use of identified official links within their recorded scopes. Eighty-three accepted source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), fifteen MITOS procedure-page copies under their displayed CC BY-SA 4.0 license, and one dated Gov.gr guidance-page snapshot under its stated lawful non-commercial reuse terms. These retained files are not consolidated laws unless expressly stated. One hundred thirty-nine distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. No automated retrieval rule is accepted. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -207,17 +207,17 @@
       "publisher": "National Registry of Administrative Procedures (MITOS), Greece; the page identifies its responsible ministry and police authority",
       "url": "https://mitos.gov.gr/index.php/%CE%94%CE%94%3A%CE%88%CE%B3%CE%B3%CF%81%CE%B1%CF%86%CE%BF_%CF%80%CE%B9%CF%83%CF%84%CE%BF%CF%80%CE%BF%CE%AF%CE%B7%CF%83%CE%B7%CF%82_%CE%BC%CF%8C%CE%BD%CE%B9%CE%BC%CE%B7%CF%82_%CE%B4%CE%B9%CE%B1%CE%BC%CE%BF%CE%BD%CE%AE%CF%82_%CF%83%CE%B5_%CF%80%CE%BF%CE%BB%CE%AF%CF%84%CE%B5%CF%82_%CF%84%CE%B7%CF%82_%CE%88%CE%BD%CF%89%CF%83%CE%B7%CF%82_%CF%80%CE%BF%CF%85_%CE%B4%CE%B9%CE%B1%CE%BC%CE%AD%CE%BD%CE%BF%CF%85%CE%BD_%CF%83%CF%84%CE%B7%CE%BD_%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1",
       "rediscovery_url": "https://mitos.gov.gr/",
-      "checked_on": "2026-10-25",
+      "checked_on": "2026-10-29",
       "language": "Greek",
-      "version_or_cutoff": "Greek-language page displays last update 2026-09-21.",
-      "scope": "Permanent-residence document for EU, EEA and Swiss citizens; the English page expressly identifies all three groups and displays a 6 August 2026 update, while the Greek page displays a 21 September 2026 update.",
-      "reviewed_content": "The procedure concerns a permanent-residence document after five years of lawful residence or a qualifying earlier period under PD 106/2007 Article 14. The English page lists the EU, EEA and Swiss groups, competent police authorities, and hierarchical appeal information.",
+      "version_or_cutoff": "Greek-language page last updated 2026-09-21; English revision 78467 last edited 2026-08-06.",
+      "scope": "Permanent-residence document for EU, EEA and Swiss citizens. Complete English body retained under displayed CC BY-SA 4.0; distinct from the third-country family-member residence card.",
+      "reviewed_content": "Live English page reopened and matched procedure f16c8f54-0511-4c89-ab62-fc8f3106f738 / service 700800, revision 78467 and update 6 August 2026. It describes lawful five-year residence or qualifying earlier periods under PD 106/2007 Article 14, competent police authorities, remedy information, linked legal references and the procedure steps. Greek counterpart identity and its later 21 September update were separately checked.",
       "limitations": [
         "This is a procedure record, not a consolidated text of PD 106/2007 or the separate treaties.",
-        "The English and Greek update dates differ; verify the current Greek content where wording matters.",
-        "It concerns the citizen’s permanent-residence document, not the separate card for a third-country family member.",
-        "The procedure grouping does not establish identical treaty rights.",
-        "No local copy or republication permission is approved by this link review."
+        "The English and Greek versions have different update dates; verify current Greek wording where it matters.",
+        "It concerns the Union citizen’s permanent-residence document, not the separate card for a third-country family member.",
+        "The procedure grouping does not establish identical substantive entitlements across EU, EEA and Swiss law.",
+        "No automated retrieval rule is accepted."
       ],
       "source_list_id": "gr-16"
     },
@@ -3983,8 +3983,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 82,
-    "note": "Eighty-two source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), fourteen MITOS procedure-page copies under their displayed CC BY-SA 4.0 license, and one dated Gov.gr guidance-page snapshot under its stated lawful non-commercial reuse terms. These page copies are not legislation or current procedure certification. One hundred forty distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. Copy acceptance does not establish consolidated current law, topic coverage or country completion."
+    "accepted_source_count": 83,
+    "note": "Eighty-three source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), fifteen MITOS procedure-page copies under their displayed CC BY-SA 4.0 license, and one dated Gov.gr guidance-page snapshot under its stated lawful non-commercial reuse terms. These page copies are not legislation or current procedure certification. One hundred thirty-nine distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. Copy acceptance does not establish consolidated current law, topic coverage or country completion."
   },
   "whole_portal_review_offers": [
     {
@@ -5425,6 +5425,26 @@
       "version_or_cutoff": "English page last edited 2 September 2026 at 14:22; Greek page last updated 21 September 2026; checked 29 October 2026.",
       "monitor_archive_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-15.md",
       "monitor_archive_sha256": "de4fa1bd21e24fbc552d83b3007c08a9eb014c59cd75a0abac71c88d2a0ba419"
+    },
+    "gr-mitos-gr-16": {
+      "decision": "accepted_local_official_page_copy",
+      "path": "source-library/greece/documents/procedure/gr-16-greek-mitos-eu-citizen-permanent-residence-document-locator.md",
+      "sha256": "25f11da9b89d12734193f314354b81a87964702a2e7b7f7c333990fb1398c42f",
+      "bytes": 20896,
+      "source_url": "https://en.mitos.gov.gr/index.php/%CE%94%CE%94:Document_certifying_permanent_residence_to_citizens_of_the_European_Union_residing_in_Greece",
+      "captured_candidate_url": "https://en.mitos.gov.gr/index.php/%CE%94%CE%94:Document_certifying_permanent_residence_to_citizens_of_the_European_Union_residing_in_Greece",
+      "source_response_sha256": "17c010ee74e245f6aef2dbf0142172f6f662600107e0130dc03c2b703f44ead1",
+      "archived_candidate_sha256": "1ca3225bfc2bdff08720175d1d96b467ad0ed400f664e39fd43518b4c8d2583e",
+      "archived_candidate_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-16.md",
+      "conversion_method": "Complete English MITOS page-body capture, normalized as attributed Markdown and matched to live English revision 78467.",
+      "reviewed_on": "2026-10-29",
+      "semantic_check": "Current official English page reopened and matched procedure f16c8f54-0511-4c89-ab62-fc8f3106f738 / service 700800, revision 78467 and update 6 August 2026. The captured body was checked for scope, five-year/qualifying-period basis, documents, fees, competent authorities, remedies, legal references and procedure steps. Greek counterpart identity and 21 September update checked separately.",
+      "reuse_basis": "MITOS English page footer displays CC BY-SA 4.0. Attribution, official URLs, revision, license link and Markdown change notice are preserved. No automated retrieval rule is authorized.",
+      "limitations": "Complete English page-body copy for revision 78467 only; Greek counterpart last updated 21 September 2026 is not reproduced. It concerns an EU citizen's permanent-residence document, not the separate TCN-family card; EEA/Swiss legal equivalence is not inferred.",
+      "scope": "Complete English page body for MITOS procedure record f16c8f54-0511-4c89-ab62-fc8f3106f738 / service 700800.",
+      "version_or_cutoff": "English page last edited 6 August 2026 at 10:01; Greek page last updated 21 September 2026; checked 29 October 2026.",
+      "monitor_archive_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-16.md",
+      "monitor_archive_sha256": "1ca3225bfc2bdff08720175d1d96b467ad0ed400f664e39fd43518b4c8d2583e"
     }
   }
 }
