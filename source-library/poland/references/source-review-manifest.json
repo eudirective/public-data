@@ -1,14 +1,14 @@
 {
   "manifest_version": "0.1.0-source-review",
   "jurisdiction": "Poland",
-  "review_date": "2026-10-25",
+  "review_date": "2026-10-29",
   "scope": "Issue-led review of all 63 official-source references identified to date. This is not a legal sufficiency or country-completion certification.",
-  "status": "63 source records; 54 official external references accepted within scope, 4 historical-only, and 5 not relied upon or pending human review; 26 accepted dated local source-text copies; 24 additional candidate records dispositioned as official-link locator notes; 0 topics accepted; country review incomplete.",
+  "status": "63 source records; 54 official external references accepted within scope, 4 historical-only, and 5 not relied upon or pending human review; 27 accepted dated local source-text copies; 24 additional candidate records dispositioned as official-link locator notes; 0 topics accepted; country review incomplete.",
   "source_count": 63,
   "accepted_external_reference_count": 54,
   "historical_reference_only_count": 4,
   "not_relied_upon_count": 5,
-  "local_copy_accepted_count": 26,
+  "local_copy_accepted_count": 27,
   "topic_accepted_count": 0,
   "country_review_complete": false,
   "input_manifests": [
@@ -1376,10 +1376,13 @@
       "reference_status": "accepted_external_reference_with_narrow_scope",
       "acceptance_scope": "Use the official page or instrument only for its stated identity and scope: Permanent-residence applications and documents regulation, Dz.U. 2021 poz. 1391. Source-specific limits: This is the companion to the existing Dz.U. 2021 poz. 1392 regulation and covers permanent-residence and permanent-residence-card applications, documents and specimens. Polish is controlling. Link acceptance does not accept a local copy, legal topic, or country completeness.",
       "captured_version_evidence": "ELI lists the MSWiA regulation of 26 July 2021, published 30 July 2021, in force from 2 August 2021, status obowiązujący.",
-      "capture_status": "link_only_official_reference",
-      "local_copy_accepted": false,
+      "capture_status": "promoted_accepted_local_copy",
+      "local_copy_accepted": true,
       "topic_accepted": false,
-      "local_copy_disposition": "No local capture retained; official-link disposition is recorded separately."
+      "local_copy_disposition": "Full visible body of the official ELI HTML text is retained at documents/legislation/pl-58-permanent-residence-applications-regulation-2021.md. ELI identity, legal status, dates and all displayed HTML provisions were checked on 2026-10-29. The ten attached form/specimen bodies are linked on ELI and not reproduced in this HTML-body copy; use the linked official attachments for exact specimens.",
+      "document_path": "documents/legislation/pl-58-permanent-residence-applications-regulation-2021.md",
+      "document_sha256": "47ba96d389e656643936542268cfde1583002d39750d977d105cab0ff3fe3755",
+      "document_role": "accepted_dated_local_source_text"
     },
     {
       "source_id": "pl-59",
