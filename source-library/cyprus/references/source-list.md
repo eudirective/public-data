@@ -3,7 +3,7 @@
 **As of:** 29 October 2026
 **Identified records:** 90
 **Local artifacts accepted:** 10
-**Maintained source notes:** 3 (two form-bundle inventories and one family-route guidance summary; not counted as retained source copies)
+**Maintained source notes:** 4 (two form-bundle inventories and two family-route guidance summaries; not counted as retained source copies)
 **Complete derived texts accepted:** 2 (Protocol No. 10, English and Greek, limited to the 2003 publication)
 **Bounded derived-text passages accepted:** 12
 
@@ -43,7 +43,7 @@ Ten additional source leads from the existing capped research run include Greek-
 | `cy-cypriot-family-forms-index` | [Family Members of Cypriots (CY) application forms index](https://www.gov.cy/mip-md/en/documents/family-members-of-cypriots-cy/) | `official_source_indexed_not_captured` | Index links to employment (CYE) and without-employment (CYV) form bundles. |
 | `cy-cypriot-family-no-employment-forms` | [Cypriots family members without employment (CYV) form bundle](https://www.gov.cy/mip-md/en/documents/cypriots-family-members-without-employment-cyv/) | `accepted_narrow_external_reference; maintained index note` | [Maintained note](../documents/forms/cy-cypriot-family-no-employment-forms.md); indexed attachment titles only, direct page 403; form payloads and versions not reviewed. |
 | `cy-cypriot-family-route` | [Family members of Cypriot citizens guidance](https://www.gov.cy/mip-md/en/documents/temporary-residence/family-members-of-cypriots/) | `accepted_narrow_external_reference; maintained summary` | [Maintained summary](../documents/guidance/cy-cypriot-family-route.md); based on official indexed page posted 30 Dec 2025; direct page 403. Administrative guidance, not current Cap. 105. |
-| `cy-cypriot-family-route-el` | [Family members of Cypriot citizens guidance (Greek)](https://www.gov.cy/mip-md/documents/prosorini-diamoni/meli-oikogeneias-kyprion/) | `official_route_verified_capture_pending` | Separate Cap.105 route; verify against current law and do not conflate with EU-mobile family members. Existing EGR S36. |
+| `cy-cypriot-family-route-el` | [Family members of Cypriot citizens guidance (Greek)](https://www.gov.cy/mip-md/documents/prosorini-diamoni/meli-oikogeneias-kyprion/) | `accepted_narrow_external_reference; maintained summary` | [Maintained Greek summary](../documents/guidance/cy-cypriot-family-route-el.md); official indexed page posted 30 Dec 2025; direct page 403. Administrative guidance, not current Cap. 105. |
 | `cy-data-protection-complaint` | [Data Protection Commissioner complaint procedure](https://www.gov.cy/dataprotection/plirofories-gia-polites/ypovoli-paraponoy/) | `retrieval_or_conversion_error` | Not established in this bounded review |
 | `cy-data-protection-law` | [Processing of Personal Data (Protection of Individuals) Law 125(I)/2018](https://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/2B53605103DCE4A4C225826300362211/%24file/Law%20125%28I%29%20of%202018%20ENG%20final.pdf) | `retrieval_or_conversion_error` | Not established in this bounded review |
 | `cy-data-protection-law-greek-index` | [Personal Data Protection Law 125(I)/2018, Greek regulator page](https://www.gov.cy/dataprotection/documents/archiki-selida-nomothesia-nomos-125i-2018/) | `official_source_indexed_not_captured` | Official page identifies 125(I)/2018 and amendment 26(I)/2022; page direct access failed and later amendment status is unknown. |
