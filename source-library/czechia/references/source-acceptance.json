@@ -2,9 +2,9 @@
   "schema_version": "1.3.0",
   "jurisdiction": "CZ",
   "as_of": "2026-10-29",
-  "accepted_source_count": 41,
-  "accepted_current_law_source_count": 17,
-  "accepted_derived_text_count": 41,
+  "accepted_source_count": 42,
+  "accepted_current_law_source_count": 18,
+  "accepted_derived_text_count": 42,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "accepted_external_reference_count": 67,
@@ -2348,10 +2348,11 @@
     {
       "source_id": "cz-decree-429-2010",
       "decision": "accepted_with_narrow_external_scope",
-      "accepted_role": "Official e-Sbírka current consolidated record for Decree 429/2010, checked 2026-10-29; displayed version effective 1 February 2020 (amended by Decree 67/2019), original effective date 1 January 2011. Its scope concerns exceptions to local-mission filing. Applicability to EU-family short-stay visa or residence routes remains unresolved; no local copy is accepted.",
+      "accepted_role": "Official e-Sbírka record and locator for Decree 429/2010, checked 2026-10-29; displayed version effective 1 February 2020 (Decree 67/2019), original effective date 1 January 2011. Applicability to EU-family short-stay visa or residence routes remains unresolved.",
       "not_accepted": [
         "Applicability to the EU-family short-stay visa or residence route without targeted legal scope review.",
-        "A local captured or converted text copy; none was accepted.",
+        "Topic adequacy or country-level completeness.",
+        "Applicability to the EU-family short-stay visa or residence route without targeted legal scope review.",
         "Topic adequacy or country-level completeness."
       ],
       "evidence": {
@@ -2362,14 +2363,37 @@
         "publisher": "e-Sbírka, official Collection of Laws and International Treaties; Czech Parliament metadata as corroborating index",
         "language": "cs",
         "version": "Current consolidated version effective 2020-02-01, incorporating Decree 67/2019; original effective date 2011-01-01.",
-        "verified_locations": "Official e-Sbírka current page confirms title, current-version cutoff and local-mission filing exception. The full decree's applicability to EU-family short-stay visa and residence routes has not been determined.",
-        "limits": "Currentness is verified; route applicability remains pending targeted legal review. No local copy is accepted."
+        "verified_locations": "The rendered official e-Sbírka page confirms title and current-version cutoff. Its complete §§1–3 and all 42 annex entries were compared with the pinned Legalize-CZ candidate after normalizing only Markdown heading/list markers and whitespace. The official page also supplied the enactment header and preamble omitted by the candidate. Route applicability is not determined.",
+        "limits": "The accepted local copy is dated to the e-Sbírka version effective 2020-02-01 and preserves the informative-text caveat; this does not assert later consolidated currentness or EU-family route applicability."
       },
       "locator_note": {
         "path": "documents/legislation/cz-decree-429-2010-locator.md",
-        "status": "official_current_version_link_reviewed_locator_note",
+        "status": "official_version_and_text_verified_locator_scope_pointer",
         "checked_on": "2026-10-29",
-        "form": "official current-version locator and scope limit; no legal text copy"
+        "form": "Locator to accepted dated text copy and unresolved EU-family scope question"
+      },
+      "local_copy_decision": {
+        "status": "accepted_local_copy",
+        "document_path": "documents/legislation/cz-decree-429-2010.md",
+        "accepted_on": "2026-10-29",
+        "version_effective_from": "2020-02-01",
+        "acceptance_basis": "The complete Legalize-CZ body from §1 through the end of the annex was compared against the complete rendered official e-Sbírka text for the same dated version. After removing YAML/generated H1 and normalizing only Markdown heading/list markers and whitespace, the text matches exactly, including all 42 annex entries. Legalize-CZ omitted the instrument number/date and enacting formula; those were supplemented from the official page.",
+        "legalize_candidate": {
+          "repository": "https://github.com/legalize-dev/legalize-cz",
+          "commit": "f88290efc3062a7b4a56105193238c269816b613",
+          "path": "cz/SB-2010-429.md",
+          "git_blob": "9f86ae027ff3b12aacff28c59254853ccbd4a050",
+          "raw_sha256": "2e2633898d0ba439a309a6bd15bbaaf5de878717b4dc42b5b76245f9bd847059",
+          "body_sha256": "dac4654755df24bcb5342f8fe25f72e440cfccec646805d24f4405506dd2166c"
+        },
+        "official_source": {
+          "url": "https://e-sbirka.gov.cz/eli/cz/sb/2010/429/2020-02-01",
+          "rendered_page_url": "https://e-sbirka.gov.cz/sb/2010/429/2020-02-01?zalozka=text",
+          "extracted_legal_text_sha256": "f6e8563f6f2baa21310aa1b84aa2cc98fc500607e79ccbbd99f7dc7ce34a5e8b"
+        },
+        "accepted_local_copy_sha256": "493f6eb0d8e78499467452f527d1aaed19c8a707a91853d41846e693f3525ccc",
+        "accepted_local_copy_bytes": 5120,
+        "scope_limit": "e-Sbírka labels the consolidated text informative. Applicability of the decree to EU-family short-stay visa or residence routes remains unresolved; no topic or country-completeness finding is made."
       }
     },
     {
@@ -2462,7 +2486,7 @@
     }
   ],
   "policy": "Accept trustworthy official links within the source identity, language, displayed version or cutoff, content, scope and caveats actually checked. Prefer government-published consolidations and do not reconstruct Gazette fragments by default. When publisher reliability, currentness, scope or legal effect is unclear, offer the whole relevant official portal for human review and continue independent work. External-link acceptance is separate from local-copy acceptance, topic adequacy and country review completion.",
-  "count_note": "41 accepted dated source-text copies are unchanged. The maintained-source-summary count includes 3 previously accepted summaries, 13 added guidance summaries and 4 added case summaries. The separate locator-note count includes the Decree 429/2010 disposition note. These authored Markdown notes are not accepted source-text copies.",
+  "count_note": "42 accepted dated source-text copies, including the Decree 429/2010 copy added 2026-10-29 after full text comparison against its official dated e-Sbírka version. The maintained-source-summary count includes 3 previously accepted summaries, 13 added guidance summaries and 4 added case summaries. The separate locator-note count includes the Decree 429/2010 scope pointer and two incomplete-capture notes as tracked in the pack; authored Markdown notes are not accepted source-text copies.",
   "status": "partial_source_and_external_reference_review",
   "required_checks_scope": "Local artifact checks apply only before accepting a retained copy. They do not block use of a human-reviewed official link within the publisher, identity, language, date/version, content, scope and caveats actually checked. A full Gazette chain, local conversion, hash, replay or API is not a blanket prerequisite.",
   "required_check_interpretation": [
@@ -2475,7 +2499,7 @@
   "whole_site_review_offers": [
     {
       "id": "cz-esbirka-decree-429-currentness",
-      "status": "whole_portal_review_offered",
+      "status": "targeted_scope_review_pending",
       "publisher": "e-Sbírka, official Collection of Laws and International Treaties; PSP metadata as corroborating official index",
       "portal_urls": [
         "https://e-sbirka.gov.cz/",
@@ -2485,9 +2509,9 @@
       "focus_records": [
         "cz-decree-429-2010"
       ],
-      "reason": "Official e-Sbírka now exposes the current consolidated Decree 429/2010, version effective 2020-02-01. The unresolved issue is substantive scope: whether its local-mission exceptions apply to EU-family short-stay visa and residence procedures.",
+      "reason": "The official current-version cutoff and complete dated text have been verified. The remaining issue is substantive scope: whether the local-mission exceptions apply to EU-family short-stay visa and residence procedures.",
       "review_question": "Do the current operative provisions and their enabling CESEDA rules apply to EU-family short-stay visa and residence filings, or are those routes governed by distinct provisions?",
-      "effect": "Currentness and official source identity are verified as of 2026-10-29. This targeted scope question remains for human review; no local copy or route-specific legal conclusion is accepted."
+      "effect": "The dated text copy is accepted after full comparison; only the route-applicability question remains for human review. No route-specific legal conclusion or topic acceptance is made."
     }
   ],
   "material_dependencies": "See references/source-dependencies.json. Select Czech statutory cross-references to EU instruments are recorded with their shared-core status or an explicit unresolved state. The national statutory wording is preserved.",
