@@ -1,9 +1,9 @@
 # Belgium source discovery register
 
-Research date: 21 October 2026
+Research date: 29 October 2026
 Scope: Belgian national, federal, regional, mission, court, and oversight sources related to EU/EEA/Swiss free movement and third-country family members, entry and residence, administration, remedies, privacy, and access to records. The comparison leads were the Denmark, Sweden, Czechia, Hungary, and Romania source reviews. Belgium is an EU Member State; its national routes are checked independently.
 
-This is a bounded discovery register and partial local-text pack, not a complete inventory of Belgian law. The 39 earlier records were reviewed as candidate links and local conversion artifacts. Nine official-link candidates have since been added. External links are accepted separately from local copies and topic coverage: 47 official links are accepted within their recorded scope, one superseded IBZ page is not relied upon, and thirty local copies are accepted: nine Justel legal texts, fourteen official guidance/procedure/oversight snapshots, three IBZ forms/specimens, the FPS Foreign Affairs visa-routing matrix, two regional public-information laws and one selected-case publication. No topic is marked covered. Belgium review remains incomplete. The machine-readable records are `candidate-manifest.json` and `source-acceptance.json`.
+This is a bounded discovery register and partial local-text pack, not a complete inventory of Belgian law. The 39 earlier records were reviewed as candidate links and local conversion artifacts. Nine official-link candidates have since been added. External links are accepted separately from local copies and topic coverage: 47 official links are accepted within their recorded scope, one superseded IBZ page is not relied upon, and thirty-one local source documents are accepted: nine Justel legal texts, fourteen official guidance/procedure/oversight snapshots, one independently written IBZ Article 40ter source summary, three IBZ forms/specimens, the FPS Foreign Affairs visa-routing matrix, two regional public-information laws and one selected-case publication. No topic is marked covered. Belgium review remains incomplete. The machine-readable records are `candidate-manifest.json` and `source-acceptance.json`.
 ## Candidate register
 
 
