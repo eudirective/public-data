@@ -83,7 +83,7 @@
       "reason": "The captured Rechtspraak help route returned HTTP 403 in the research client. This does not establish publisher downtime; offer the official Rechtspraak site for human review."
     }
   ],
-  "local_copy_accepted_count": 10,
+  "local_copy_accepted_count": 11,
   "topic_accepted_count": 0,
   "country_review_complete": false,
   "acceptance_basis": [
@@ -150,7 +150,7 @@
     }
   ],
   "content_reuse": "Six official statutory texts are retained under Auteurswet Article 11. Four IND guidance pages are reused under the official IND Proclaimer, which allows reuse if the source is mentioned; each local file names and links the IND source. These bases do not extend to Government.nl, NetherlandsWorldwide, forms, images, or third-party material. Other publishers require their own reuse terms. Link acceptance alone never establishes permission to copy.",
-  "local_copy_disposition_date": "2026-10-25",
+  "local_copy_disposition_date": "2026-10-29",
   "local_copy_source_ids": [
     "nl-10",
     "nl-11",
@@ -161,6 +161,7 @@
     "nl-26",
     "nl-53",
     "nl-54",
-    "nl-55"
+    "nl-55",
+    "nl-19"
   ]
 }
