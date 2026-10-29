@@ -645,7 +645,8 @@
         "legal_classification": "Official IBZ/Dofi administrative guidance on Article 40ter §1; the Law of 15 December 1980 remains controlling.",
         "lawful_reuse": "No page prose or layout is copied and no IBZ licence is asserted. The Markdown contains source-identifying facts and an independently worded summary only."
       },
-      "scope_limit": "Accepted as a maintained factual locator/summary of the specific official page and provision. Not a verbatim transcription, not individualized legal advice, and not a substitute for current Justel legislation."
+      "scope_limit": "Accepted as a maintained factual locator/summary of the specific official page and provision. Not a verbatim transcription, not individualized legal advice, and not a substitute for current Justel legislation.",
+      "document_sha256": "a1246ba543bfb20f0d4e5aeca48825fe8425cc318b095f7a34a800b4972187f8"
     }
   ]
 }
