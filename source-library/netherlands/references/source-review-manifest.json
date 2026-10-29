@@ -3,11 +3,11 @@
   "jurisdiction": "Netherlands",
   "review_date": "2026-10-21",
   "scope": "Issue-led official-source link review covering all source classes identified to date; this is not a legal sufficiency or completeness certification.",
-  "status": "60_external_references_accepted; eleven_local_texts_accepted; topic_coverage_incomplete",
+  "status": "60_external_references_accepted; twelve_local_texts_accepted; topic_coverage_incomplete",
   "source_count": 63,
   "accepted_external_reference_count": 60,
   "not_relied_upon_count": 3,
-  "local_copy_accepted_count": 11,
+  "local_copy_accepted_count": 12,
   "topic_accepted_count": 0,
   "country_review_complete": false,
   "reconciliation": {
@@ -368,8 +368,14 @@
       "acceptance_scope": "Official IND guidance, service, fee, threshold, or form link for the stated subject; check its current displayed version/date and linked legal route before applying a requirement.",
       "captured_version_evidence": "Last updated 20 May 2026; includes EU/EEA/Swiss citizens, family members and qualifying Dutch-family cases.",
       "observed_resolved_url": "https://ind.nl/en/residence-permits/eu-eea-or-swiss-citizens/permanent-residency-for-union-citizens-and-their-family",
-      "local_copy_accepted": false,
-      "topic_accepted": false
+      "local_copy_accepted": true,
+      "topic_accepted": false,
+      "local_copy_path": "documents/guidance/nl-ind-permanent-residency-2026-05-20.md",
+      "local_copy_blob_sha": "4300a912ffab260fb8dfcc5cebbcfd575912b788",
+      "local_copy_kind": "complete_visible_English_page_text",
+      "local_copy_checked_on": "2026-10-29",
+      "local_copy_reuse_basis": "IND Proclaimer states that reuse of ind.nl/en content is allowed if the source is mentioned; the source URL and Proclaimer are cited in the Markdown file.",
+      "local_copy_limits": "Full visible page body retained. Linked online application, separate PDF form 8004-2026/1 and linked child pages are not included. The Wetten.nl link on the page resolved to a 2023 edition and was rate-limited; use the separate current statutory text record for legal analysis."
     },
     {
       "source_id": "nl-21",
