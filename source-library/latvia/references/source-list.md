@@ -330,3 +330,12 @@ These dated snapshots preserve the selected publisher text region. Their recorde
 | lv-47 | Cabinet Regulation No. 536 — Official Publications Regulation (reuse fees) | [local copy](../documents/legislation/lv-cabinet-regulation-536-reuse-fees.md) |
 | lv-48 | Latvijas Vēstnesis official-publication reuse procedure | [local copy](../documents/guidance/lv-vestnesis-reuse-procedure.md) |
 | lv-49 | Latvijas Vēstnesis service directory — reuse and current fees | [local copy](../documents/guidance/lv-vestnesis-service-directory-reuse-fees.md) |
+
+## Legalize-LV crosswalk (2026-10-29)
+
+Pinned [Legalize-LV](https://github.com/legalize-dev/legalize-lv) at commit [dfb5defa27b8787017bfd0555f00282006043e02](https://github.com/legalize-dev/legalize-lv/commit/dfb5defa27b8787017bfd0555f00282006043e02). Two candidates intersect the pack’s EU-family route:
+
+- [`lv/369282.md`](https://github.com/legalize-dev/legalize-lv/blob/dfb5defa27b8787017bfd0555f00282006043e02/lv/369282.md), blob `cb03988a969f05ac8e940ffae3b5c83b9295ddf4`, identifies the new EU/EEA/Swiss family entry and residence Act. Its `last_updated: 2026-07-10` matches the Act’s commencement. The official Likumi.lv record and the promulgated Latvijas Vēstnesis issue are already accepted at `lv-06` and `lv-07`. Comparison with the pack’s official-source text was not exact after text normalization, so the Legalize copy is not accepted.
+- [`lv/235499.md`](https://github.com/legalize-dev/legalize-lv/blob/dfb5defa27b8787017bfd0555f00282006043e02/lv/235499.md), blob `b85f5978b86a81e8b0f0b4ba87d0bea76df079e3`, is Cabinet Regulation 675, with `last_updated: 2011-08-30`. The pack already records it at `lv-08` as the prior procedure. The 2026 Act’s transition clause and Regulation 675’s displayed end-of-validity date do not resolve application to filings made after 10 July 2026; this old snapshot cannot resolve that open issue.
+
+Legalize-LV describes official statutory data as public domain; MIT applies to its pipeline. The accepted official Likumi.lv and Gazette routes remain controlling. No new source record, local text, or Legalize retrieval method was added. Country review and topic coverage remain open.
