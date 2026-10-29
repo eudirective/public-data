@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "LU",
-  "review_date": "2026-10-25",
+  "review_date": "2026-10-29",
   "candidate_record_count": 49,
-  "accepted_external_reference_count": 44,
-  "pending_external_reference_count": 2,
+  "accepted_external_reference_count": 45,
+  "pending_external_reference_count": 1,
   "not_relied_upon_reference_count": 3,
   "accepted_local_copy_count": 10,
   "accepted_topic_count": 0,
@@ -14,7 +14,7 @@
     "decision": "Legilux is accepted as the official publisher for Luxembourg legislation and government consolidations within each displayed edition and caveat. Guichet and ministry pages are accepted only for the official service content reviewed.",
     "basis": "Official Legilux ELI/LegalDocML records and Casemates release text under CC BY 4.0; Luxembourg Ministry visa lists verified as current attachments from visa pages last updated 2026-10-23; Guichet pages remain accepted only within individually recorded scopes.",
     "limits": "Legilux consolidated texts are documentary and without legal force. Several promoted local texts are original acts or dated snapshots only. The 2023 court-procedure consolidation has unresolved post-cutoff currentness; the 2023 coordinated formalities PDF predates later 2024 amendments and the separate A283 rectification. Visa PDFs are unversioned mutable attachments. No topic or country completeness is claimed. LU-10 is a coordinated text applicable from 2023-04-15; later amendments are outside its text. Reference notes do not certify current application.",
-    "local_copy_and_reuse": "Ten exact legal-text copies are accepted: nine Legilux texts under Casemates CC BY 4.0 and LU-10, a dated coordinated regulation text. Article 10, point 8, of the amended 18 April 2001 copyright law identifies official acts of the authority and official translations among permitted uses; that basis is applied only to the legal instrument text, not the Ministry page or surrounding website content. The other final files from this batch are independently written source-reference notes, not copies of website page bodies, forms, directories or search interfaces. No blanket webpage license is inferred."
+    "local_copy_and_reuse": "Ten exact legal-text copies are accepted: nine Legilux texts under Casemates CC BY 4.0 and LU-10, a dated coordinated regulation text. Article 10, point 8, of the amended 18 April 2001 copyright law identifies official acts of the authority and official translations among permitted uses; that basis is applied only to the legal instrument text, not the Ministry page or surrounding website content. The other final files from this batch are independently written source-reference notes, not copies of website page bodies, forms, directories or search interfaces. No blanket webpage license is inferred. LU-11 is an independently written source-reference note and does not reproduce the Guichet page or linked forms."
   },
   "accepted_references": [
     {
@@ -1743,28 +1743,45 @@
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
-    }
-  ],
-  "pending_references": [
+    },
     {
       "source_id": "lu-11",
       "title": "EU/EEA/Swiss citizen residence and work over three months",
-      "url": "https://guichet.public.lu/content/guichet/en/citoyens/immigration/plus-3-mois/citoyen-UE/conditions-entree/sejour-travail.html",
+      "url": "https://guichet.public.lu/en/citoyens/immigration/vivre/non-luxembourg/immigration/union-euro/travail/sejour-travail.html",
       "publisher": "guichet.public.lu",
       "language": "en",
-      "checked_on": "2026-10-21",
-      "version_or_scope": "Observed 2026-10-18; page date and linked forms need capture during runtime.",
-      "decision": "pending_human_review",
-      "reason": "The old page route and current service text need rediscovery from the current parent page; offer the whole Guichet site for human review.",
-      "whole_site_review_url": "https://guichet.public.lu/en/",
+      "checked_on": "2026-10-29",
+      "version_or_scope": "Current page last updated 2026-10-01 and expressly marked as being updated. The prior candidate route is stale; the current official service page was confirmed at this replacement URL.",
+      "decision": "accepted_with_narrow_external_scope",
+      "acceptance_scope": "Official administrative guidance for EU/EEA/Swiss citizen residence and work beyond 90 days, within the page's displayed scope and 2026-10-01 version; linked legal requirements and forms are date-sensitive.",
+      "reviewed_content": "The page describes residence categories, commune registration within three months, category-specific evidence, registration certificates, permanent residence after five years, durable-partner recognition and withdrawal procedure. Reviewed financial-support and durable-relationship forms dated 2026-10-19 and a power-of-attorney form dated 2023-10-18.",
+      "limitations": [
+        "Official service guidance, not controlling legislation or an adjudication of individual eligibility.",
+        "Page expressly says it is being updated; verify current legislation and forms before relying on requirements that may have changed.",
+        "Linked forms are separate date-sensitive documents; durable-relationship form is French and power-of-attorney form is dated 2023.",
+        "No blanket webpage or form reuse permission is inferred."
+      ],
+      "evidence": {
+        "official_source_url": "https://guichet.public.lu/en/citoyens/immigration/vivre/non-luxembourg/immigration/union-euro/travail/sejour-travail.html",
+        "verified_content": "Current official Guichet page reviewed; update date 2026-10-01 and in-update notice observed; linked forms and dates recorded.",
+        "source_record_note": "Old candidate route was stale; current replacement confirmed and checked 2026-10-29.",
+        "retrieval_status": "official_reference_rechecked_and_source_note_promoted"
+      },
+      "local_copy_accepted": false,
+      "local_copy_disposition": "promoted_independent_source_reference_note_not_verbatim_source_copy",
       "archived_candidate_record": {
         "archive_path": "candidates/luxembourg_promotion_20261025/Luxembourg/candidate-manifest.json",
         "id": "lu-11",
         "manifest_sha256": "493ad79375983bb78217e36ede350f0be319a35b7f604636d298c43912054a02"
       },
-      "local_copy_accepted": false,
-      "local_copy_disposition": "not_promoted_reference_or_candidate_only"
-    },
+      "source_document": {
+        "path": "documents/guidance/lu-11-eu-citizen-residence-over-90-days.md",
+        "kind": "independent_source_reference_note",
+        "reproduces_source_text": false
+      }
+    }
+  ],
+  "pending_references": [
     {
       "source_id": "lu-46",
       "title": "Law of 19 June 2013 on identification and the national register of natural persons",
