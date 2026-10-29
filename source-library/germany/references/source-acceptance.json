@@ -4,7 +4,7 @@
   "as_of": "2026-10-29",
   "accepted_source_count": 42,
   "accepted_current_law_source_count": 18,
-  "accepted_derived_text_count": 18,
+  "accepted_derived_text_count": 19,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "accepted_external_reference_count": 42,
@@ -605,16 +605,26 @@
       "accepted_role": "AA German-language FAQ for a non-German EU citizen moving to Germany with a non-EU spouse. It describes derived residence rights, the residence-card exception, and visa facilitation, then refers to the competent mission.",
       "not_accepted": [
         "A complete Germany national source pack, topic coverage, or country review.",
-        "A retained local copy of the candidate capture.",
-        "Mission-specific requirements, local practice, or legal conclusions beyond the stated source scope."
+        "Mission-specific requirements, local practice, or legal conclusions beyond the stated source scope.",
+        "An exact or verbatim page-text copy; the publisher's copyright notice retains all rights and recommends linking instead of reproducing source text."
       ],
       "evidence": {
         "official_source_url": "https://www.auswaertiges-amt.de/de/service/fragenkatalog-node/08-unionsbuerger-ausl-partner-umzug-d-606578",
-        "checked_on": "2026-10-24",
+        "checked_on": "2026-10-29",
         "language": "de",
-        "version": "The live official FAQ was checked on 2026-10-24. No page revision date was displayed.",
-        "verified_content": "The current page text matches the recorded summary; it remains general guidance and does not establish local residence-authority practice.",
-        "publisher_note": "Official publisher/service reference only; use the underlying legislation and responsible mission or regional authority for current legal and procedural requirements."
+        "version": "Live German FAQ reviewed 2026-10-29; no page revision date was displayed.",
+        "verified_content": "The current official FAQ describes derived entry and residence rights for the spouse of a non-German EU citizen moving to Germany, states the exception for a family-member residence card under Article 10 or 20 of Directive 2004/38/EC, and explains that a visa is required for a visa-national spouse without that card but the procedure is facilitated.",
+        "publisher_note": "Official Federal Foreign Office publisher. Its publication notice states that website texts are copyright-protected and recommends linking instead of reproducing country-information text. The local summary is independently worded and does not reproduce source text or page design."
+      },
+      "accepted_local_copy": {
+        "status": "accepted_project_authored_source_summary",
+        "path": "documents/guidance/de-26.md",
+        "checked_on": "2026-10-29",
+        "language": "English summary of German source",
+        "publisher_version": "No page revision date displayed.",
+        "scope": "Short summary of the FAQ's derived residence right, visa exception for Article 10/20 family-member cards, facilitated visa procedure, and German mission referral.",
+        "reuse": "Original paraphrase only; no source text or page design reproduced. Publisher copyright notice checked.",
+        "limits": "General FAQ scope only; does not establish all eligibility, evidence, or local authority procedures."
       }
     },
     {
@@ -995,5 +1005,5 @@
   "human_review_offers": [],
   "policy": "Official source links may be accepted for ordinary reference use within the exact identity, date, and scope recorded. Link acceptance is separate from local-copy acceptance, topic coverage, dependencies, currentness, and country completion. Gesetze im Internet consolidations are working references; the electronic Bundesgesetzblatt is the authentic promulgation source for specific discrepancy, commencement, or amendment checks.",
   "count_note": "42 official source references are accepted within recorded narrow roles. Eighteen accepted current-law source records correspond to 17 unique accepted local statutory text copies because de-10 is represented by de-09. Five proposals remain open for human review. The de-31 official reference is accepted, but its extracted local text is not. No topic coverage or country review is complete.",
-  "accepted_local_copy_count": 18
+  "accepted_local_copy_count": 19
 }
