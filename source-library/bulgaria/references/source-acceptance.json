@@ -135,14 +135,15 @@
       "publisher": "Ministry of Interior (MVR), official Codes page",
       "url": "https://www.mvr.bg/upload/338691/%D0%90%D0%9F%D0%9A.pdf",
       "rediscovery_url": "https://www.mvr.bg/за-министерството-на-вътрешните-работи/нормативна-уредба/нормативни-актове/кодекси",
-      "checked_on": "2026-10-21",
+      "checked_on": "2026-10-29",
       "language": "Bulgarian",
       "version_or_cutoff": "MVR-published consolidation through SG issue 17/2026 (13 February 2026).",
       "scope": "Administrative Procedure Code, including administrative decision-making and judicial challenge procedure.",
-      "reviewed_content": "The title and printed amendment history were checked in the current MVR-hosted PDF. The Ministry of Justice numeric normdoc URL is retained as a supporting discovery route.",
+      "reviewed_content": "The official MVR Codes page and linked PDF identity were checked against the existing government source record. The MVR PDF direct request returned HTTP 403 on 2026-10-29. The official Ministry of Justice search index, crawled within two days of review, identifies the same Code and amendment history through SG issue 17/2026 (13 February 2026); direct browser retrieval of the normdoc returned HTTP 502. The maintained note records this source identity and access limitation without claiming a complete local text.",
       "limitations": [
-        "The PDF is accepted as an official link within the printed cutoff; no local copy or full procedural crosswalk is accepted.",
-        "The prior Ministry of Justice 502 response was a retrieval-client outcome, not evidence that the law was unavailable."
+        "The official MVR PDF and Ministry of Justice normdoc could not be directly retrieved by the browser during this review; the cutoff is confirmed through the official source register and Ministry of Justice search index.",
+        "The maintained Markdown is a locator and scope note, not a local copy of the full Code or a complete procedural crosswalk.",
+        "The Code does not replace special immigration rules or establish the forum, deadline, or suspensive effect in an individual case."
       ],
       "supporting_sources": [
         {
@@ -749,7 +750,7 @@
     ],
     "note": "Record a human-reviewed official link when it supports a source area without retaining a local copy. This does not change the accepted local-source count."
   },
-  "accepted_source_count": 18,
+  "accepted_source_count": 19,
   "records": {
     "bg-eu-free-movement-act": {
       "status": "accepted",
@@ -1539,6 +1540,47 @@
       },
       "accepted_on": "2026-10-29",
       "document_path": "documents/guidance/bg-mvr-eu-citizen-guidance.md"
+    },
+    "bg-apc": {
+      "status": "accepted_scoped_source_note",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "review_date": "2026-10-29",
+          "evidence": "The existing official-reference review identifies the MVR Code PDF and MVR Codes index. The official Ministry of Justice normdoc search record identifies the same Bulgarian Administrative Procedure Code. Browser retrieval returned HTTP 403 for the MVR PDF and HTTP 502 for the Ministry of Justice page; these are recorded as retrieval limits."
+        },
+        "current_legal_version": {
+          "status": "pass_with_access_limit",
+          "review_date": "2026-10-29",
+          "evidence": "The official MVR reference records the consolidation through State Gazette issue 17/2026 (13 February 2026). The Ministry of Justice official search index, crawled within two days of review, independently displays amendments through issue 17/2026. Direct page retrieval could not be completed today."
+        },
+        "extraction_completeness": {
+          "status": "not_applicable",
+          "evidence": "This is an independently written source locator and scope note, not a text extraction or claim to reproduce the Code."
+        },
+        "attachments_review": {
+          "status": "not_applicable",
+          "evidence": "The Code reference is a consolidated statutory text; no associated attachments are included in the authored source note."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "Bulgarian general administrative-procedure statute covering administrative decision-making and judicial challenges. It is not a substantive immigration or residence-rights instrument."
+        },
+        "lawful_reuse": {
+          "status": "pass_independent_summary",
+          "evidence": "No source prose or layout is reproduced. The note contains source-identifying facts and an independent description; no copying licence is asserted."
+        }
+      },
+      "semantic_review": {
+        "status": "passed_scoped_summary",
+        "method": "official-publisher identity, indexed amendment cutoff, and procedural role review",
+        "review_date": "2026-10-29",
+        "scope": "source identity, cutoff evidence, and broad statutory role only; no complete text or provision-by-provision legal review",
+        "evidence": "MVR's official code listing and the Ministry of Justice search index identify the same Code and amendment cutoff. Detailed content was not directly fetched; individual procedural rules are not summarized."
+      },
+      "accepted_on": "2026-10-29",
+      "document_path": "documents/procedure/bg-apc.md",
+      "scope_limit": "Maintained locator and narrow scope summary only. Direct source access failed in this browser session; recheck official MVR and Ministry of Justice pages before reliance."
     }
   },
   "required_checks_scope": "local_copy_required_checks applies only before accepting a retained local artifact. Official link acceptance uses official_reference_review_schema and does not require retrieval, conversion, extraction, hashes, replay, or copy/republication permission.",
