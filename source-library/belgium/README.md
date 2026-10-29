@@ -16,3 +16,5 @@ Official government links can be used directly when publisher and source role ar
 - Country sequence and coverage state: [`../references/eea-switzerland-country-expansion.md`](../references/eea-switzerland-country-expansion.md)
 
 The register keeps national immigration law, the separate mobile-Belgian route, regional/community rules, and operational procedures distinct. The Danish EU residence regulation is a comparison lead only, not a legal-equivalence assumption.
+
+- Legalize-BE candidate review and official-version comparison: [`references/legalize-crosswalk-2026-10-29.md`](references/legalize-crosswalk-2026-10-29.md)
