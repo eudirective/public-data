@@ -901,6 +901,15 @@
       "status": "maintained_authored_reference_note; underlying_source_text_not_accepted",
       "evidence": "Official Gov.pl search index returned the exact UDSC page title and bounded summary; direct opening redirected to generic Gov.pl homepage. The note separates index evidence from a live page capture.",
       "limits": "Displayed modification date, current live body, attachments, page completeness and full procedural rules remain unverified. Does not increase accepted_local_copies or accepted_topics."
+    },
+    {
+      "source_id": "pl-41",
+      "path": "documents/guidance/pl-41-kazakhstan-mission-guidance-locator.md",
+      "sha256": "fa98d8766afd51ff8e9a6f76b7dc9975dae428f9742632813b920f8d651c99f6",
+      "reviewed_on": "2026-10-29",
+      "status": "maintained_authored_reference_note; underlying_source_text_not_accepted",
+      "evidence": "Official Gov.pl index returned the exact mission page and its visa checklist. Direct opening redirected to generic Gov.pl homepage. Note includes mission scope, indexed requirements and statutory-scope caution.",
+      "limits": "Index crawl about one month old; live page body, displayed modification date, appointments, current consular district and current operational details unverified. The mission page's family categories are not accepted as a definitive statutory definition. Does not increase accepted_local_copies or accepted_topics."
     }
   ]
 }
