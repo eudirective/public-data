@@ -5,7 +5,7 @@
   "acceptance_is_distinct_from_coverage": true,
   "policy": {
     "official_reference_use": "A human-reviewed official link is usable within its recorded scope after checking publisher, source identity, language, displayed date/version or cutoff, relevant content, and visible limits. No local capture, conversion, hash, or replay is required for ordinary link use.",
-    "local_artifact_acceptance": "Eleven accepted local source texts are recorded: eight Service Public/DILA guidance, procedure-directory and administration-directory records; one DILA LEGI statutory text under Licence Ouverte 2.0; one CNIL guidance text reproduction under CC BY-ND 4.0 FR; and one Conseil d’État court-source guide under its public-information reuse terms. Three additional project-authored official-source summaries are also accepted. Each copy has its own source identity, version, extraction, reuse and limitation record.",
+    "local_artifact_acceptance": "Twelve accepted local source texts are recorded: eight Service Public/DILA guidance, procedure-directory and administration-directory records; two DILA LEGI statutory texts under Licence Ouverte 2.0; one CNIL guidance text reproduction under CC BY-ND 4.0 FR; and one Conseil d’État court-source guide under its public-information reuse terms. Three additional project-authored official-source summaries are also accepted. Each copy has its own source identity, version, extraction, reuse and limitation record.",
     "coverage": "Usable official references do not by themselves establish adequate topic coverage or country completion."
   },
   "official_reference_reviews": {
@@ -179,15 +179,15 @@
     "fr-06-code-civil-article-47:-evidentiary-effect-and-verification-of-foreign-civil": {
       "status": "usable_official_reference",
       "publisher": "DILA, Légifrance",
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043895621/2026-05-13",
-      "checked_on": "2026-10-24",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043895621/",
+      "checked_on": "2026-10-29",
       "language": "French",
-      "version_or_cutoff": "Official page displayed Article 47 in force since 4 August 2021; page version dated 13 May 2026.",
+      "version_or_cutoff": "Official section current at 2026-07-28 was checked; Article 47's current wording has been in force since 2021-08-04.",
       "scope": "Code civil Article 47 on evidentiary effect and verification of foreign civil-status records.",
-      "reviewed_content": "The official page identifies Article 47 and its rule that foreign civil-status records have evidentiary effect subject to specified evidence of irregularity, falsification, or factual inaccuracy.",
+      "reviewed_content": "The official Légifrance text identifies Article 47 and its complete current French wording, including the evidentiary rule and the stated grounds for challenging the record.",
       "limitations": [
         "This provision does not supply the complete verification procedure or all applicable legal dependencies.",
-        "No local copy or automated retrieval rule is accepted."
+        "A complete dated statutory-text copy is separately accepted under records; no automated retrieval rule is accepted."
       ]
     },
     "fr-07-code-de-justice-administrative": {
@@ -445,7 +445,7 @@
     ],
     "note": "Record a human-reviewed official link here when it supports a coverage layer without a retained local copy. This does not change the local accepted-source count."
   },
-  "accepted_source_count": 14,
+  "accepted_source_count": 15,
   "records": {
     "fr-service-public-eu-long-stay-f2651": {
       "status": "accepted_local_copy",
@@ -686,6 +686,23 @@
         "This is the full identified one-article section, not a complete civil-status or marriage-transcription procedure.",
         "It does not establish residence or visa consequences by itself.",
         "The unpinned official Légifrance section is authoritative for later versions; this Markdown is a dated copy and must be rechecked before date-sensitive use."
+      ],
+      "source_document_kind": "official_statutory_text_copy"
+    },
+    "fr-06-code-civil-article-47:-evidentiary-effect-and-verification-of-foreign-civil": {
+      "status": "accepted_local_copy",
+      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043895621/",
+      "checked_on": "2026-10-29",
+      "language": "French",
+      "version_or_cutoff": "Official Code civil section current at 2026-07-28; Article 47 wording in force since 2021-08-04.",
+      "local_path": "documents/legislation/fr-code-civil-article-47-foreign-civil-status-records.md",
+      "scope": "Complete current text of Code civil Article 47 on foreign civil-status records.",
+      "reviewed_content": "The complete Article 47 text and its amendment note were checked against the official Légifrance Code civil section.",
+      "reuse": "The DILA LEGI consolidated-law dataset is published under Licence Ouverte / Open Licence 2.0. Source attribution, official article URL and checked version date are retained. Dataset record: https://www.data.gouv.fr/datasets/legi-codes-lois-et-reglements-consolides.",
+      "limitations": [
+        "This is one Code civil article, not the surrounding civil-status provisions or a complete verification procedure.",
+        "The unpinned official Légifrance text is authoritative for later versions; this Markdown is a dated copy and must be rechecked before date-sensitive use."
       ],
       "source_document_kind": "official_statutory_text_copy"
     }
