@@ -1,6 +1,6 @@
 # Finland source pack
 
-**Status (29 October 2026):** The inventory has 37 source records. Thirty-four official external references and four dated local copies are accepted: two Finnish legal texts and two unofficial English language-aid translations. One obsolete or out-of-scope Migri route is dispositioned, and two oversight routes remain under human review. No legal topic is accepted, and Finland is incomplete.
+**Status (29 October 2026):** The inventory has 37 source records. Thirty-four official external references, four dated local copies, and one maintained source locator are recorded: the local copies are two Finnish legal texts and two unofficial English language-aid translations. One obsolete or out-of-scope Migri route is dispositioned, and two oversight routes remain under human review. No legal topic is accepted, and Finland is incomplete.
 
 - [Candidate manifest](references/candidate-manifest.json)
 - [Source catalog](references/source-catalog.json)
@@ -13,6 +13,9 @@
 - [Current-page RSC capture manifest](references/finlex-rsc-retrieval-manifest.json)
 - [Current-page RSC capture specification](references/finlex-rsc-captures.json)
 - [Current-page RSC converter](convert_finlex_rsc_capture.py)
+
+
+The Ministry for Foreign Affairs page “A visa to visit Finland” has an independently authored locator at `documents/guidance/fi-mfa-visa-guide.md`. The page itself remains an external reference: the Ministry identifies copyright ownership in published website text and images, and no page content is copied or stored in the library.
 
 The two Finnish local legal texts are the Aliens Act 301/2004 and Administrative Procedure Act 434/2003. A third accepted local file is the unofficial English Aliens Act translation, completed 20 December 2023 through amendment 389/2023; use it only as a dated language aid, not current English law. Its full 188-page Finlex text and SHA-256 are recorded in the [acceptance register](references/source-acceptance.json). The English Administrative Procedure Act translation was completed 7 January 2019 through amendment 893/2015 and is also a language aid only, not current English law. The current Finnish copies are the legal-text sources. Verify later changes in Finlex.
 
