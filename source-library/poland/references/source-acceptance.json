@@ -27,7 +27,7 @@
     "accepted_external_references": 54,
     "historical_reference_only": 4,
     "not_relied_upon_or_human_review_offered": 5,
-    "accepted_local_copies": 28,
+    "accepted_local_copies": 29,
     "accepted_topics": 0,
     "country_review_complete": false,
     "source_records": 63
@@ -219,7 +219,7 @@
     "Voivodeship-local procedures, mission-specific services, case-law discovery completeness and country completion remain open."
   ],
   "reviewed_on": "2026-10-25",
-  "status": "54_scoped_official_links_accepted; 28_local_source_text_copies_accepted; 24_locator_disposition_notes; 4_historical_only; 5_routes_not_relied_on; topic_coverage_incomplete",
+  "status": "54_scoped_official_links_accepted; 29_local_source_text_copies_accepted; 24_locator_disposition_notes; 4_historical_only; 5_routes_not_relied_on; topic_coverage_incomplete",
   "accepted_external_reference_ids": [
     "pl-01",
     "pl-02",
@@ -358,7 +358,7 @@
       "limit": "The legal rule differs for EU-citizen residence documents and third-country-family residence cards. No Polish card specimen was visually verified."
     }
   ],
-  "content_reuse": "For the 13 accepted legal/instrument texts, Article 4(1)(1) and (2) of the Polish Copyright and Related Rights Act addresses normative acts, official drafts, official documents and materials. For the 15 gov.pl textual snapshots, the gov.pl footer states textual content excluding audiovisual material is available under CC BY-SA 4.0; each document identifies source, retrieval time and Markdown transformation. Images, audiovisual material and linked attachments are excluded. The Open Data Act permits reuse subject to its conditions and limits, including third-party rights, privacy and personal-data restrictions; see Articles 5, 6, 14 and 15. These bases are source-specific and do not extend to unaccepted locator captures or dynamic external sources.",
+  "content_reuse": "For the 13 accepted legal/instrument texts, Article 4(1)(1) and (2) of the Polish Copyright and Related Rights Act addresses normative acts, official drafts, official documents and materials. For the 16 gov.pl textual snapshots, the gov.pl footer states textual content excluding audiovisual material is available under CC BY-SA 4.0; each document identifies source, retrieval time and Markdown transformation. Images, audiovisual material and linked attachments are excluded. The Open Data Act permits reuse subject to its conditions and limits, including third-party rights, privacy and personal-data restrictions; see Articles 5, 6, 14 and 15. These bases are source-specific and do not extend to unaccepted locator captures or dynamic external sources.",
   "accepted_local_copy_reviews": {
     "pl-06-current-2026": {
       "decision": "accepted_local_official_text",
@@ -858,7 +858,19 @@
       "semantic_check": "ELI record opened and displayed status obowiązujący, announcement 31 July 2026, publication 6 August 2026 and legal-status cutoff 20 July 2026. The official PDF states the consolidation cutoff, identifies amendments and flags provisions/exceptions with staged commencement. The full 829-line text extraction was retained.",
       "reuse_basis": "Official Polish normative text and publication material; Article 4(1)(1) and (2) of the Polish Copyright and Related Rights Act addresses normative acts, official drafts, official documents and materials. ELI record and official PDF links are preserved; no portal UI or third-party material is included.",
       "limitations": "Dated consolidated text only through 20 July 2026. Staged commencement and provisions tied to later EU Commission decisions must be checked before asserting current effect. This copy does not establish the applicable SIS/VIS data-subject request route, filing channel or topic adequacy."
+    },
+    "pl-16": {
+      "decision": "accepted_local_official_text",
+      "path": "documents/guidance/pl-16-mswia-other-member-state-page-locator.md",
+      "sha256": "cff698d6f55be0105f0ee050e8c6e746d6ac82a9dac28fdf4258028ab66fdcb1",
+      "bytes": 2188,
+      "source_url": "https://www.gov.pl/web/mswia/pobyt-w-innym-panstwie-czlonkowskim-",
+      "reviewed_on": "2026-10-29",
+      "conversion_method": "Complete visible main-content section transcribed to Markdown; the page’s six official child-link destinations were resolved.",
+      "semantic_check": "Live official parent page checked 2026-10-29. It is a navigational index with six child pages; no standalone substantive rule or displayed update date. The title alone does not establish outbound residence or Polish-return scope.",
+      "reuse_basis": "gov.pl footer says text, excluding audiovisual material, is made available under CC BY-SA 4.0. Source URL, retrieval date and Markdown transformation are retained; imagery and audiovisual content excluded.",
+      "limitations": "Navigation index only. Each child page and governing law requires separate review. Not substantive cross-border legal guidance and not a topic-coverage finding."
     }
   },
-  "count_note": "accepted_local_copies counts 28 retained source-text copies: 13 official legal/instrument texts (including two historical copies) and 15 dated gov.pl text snapshots. The other 24 former candidate records have source-specific locator/disposition documents under documents/; those notes are not accepted copies of the underlying pages. External-reference status is recorded separately. No topic is accepted and country_review_complete remains false."
+  "count_note": "accepted_local_copies counts 29 retained source-text copies: 13 official legal/instrument texts (including two historical copies) and 16 dated gov.pl text snapshots. The other 24 former candidate records have source-specific locator/disposition documents under documents/; those notes are not accepted copies of the underlying pages. External-reference status is recorded separately. No topic is accepted and country_review_complete remains false."
 }
