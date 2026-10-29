@@ -3,8 +3,8 @@
   "jurisdiction": "LV",
   "review_date": "2026-10-29",
   "candidate_record_count": 52,
-  "accepted_external_reference_count": 44,
-  "pending_external_reference_count": 5,
+  "accepted_external_reference_count": 45,
+  "pending_external_reference_count": 4,
   "not_relied_upon_reference_count": 3,
   "accepted_local_copy_count": 30,
   "accepted_topic_count": 0,
@@ -1663,20 +1663,39 @@
       "maintained_source_note_status": "accepted_paraphrased_full_field_map",
       "previous_candidate_url": "https://www.pmlp.gov.lv/en/media/100/download",
       "previous_candidate_disposition": "not relied upon; not linked from current PMLP index"
-    }
-  ],
-  "pending_references": [
+    },
     {
       "source_id": "lv-23",
       "title": "PMLP EU residence document types and explanation",
       "url": "https://www.pmlp.gov.lv/en/what-residence-documents-are-issued-union-citizens-and-their-family-members",
-      "reason": "The residence-document types page predates the 2026 Act. Confirm each document type and any linked procedure against the current Act and current PMLP service material.",
+      "publisher": "Office of Citizenship and Migration Affairs (PMLP)",
+      "language": "en",
+      "checked_on": "2026-10-29",
+      "version_or_scope": "Published 23 January 2021; updated 24 July 2025. Describes registration and permanent-residence documents and several residence categories.",
+      "acceptance_scope": "Official dated explanation of residence-document types and conditions exactly within the page version displayed on 24 July 2025; accepted as historical PMLP guidance, not as a verified statement of current post-10 July 2026 procedure.",
+      "limitations": [
+        "The page predates the free-movement Act effective 10 July 2026. Its categories, thresholds, exceptions and document durations have not been reconciled item-by-item with that Act and current PMLP procedures.",
+        "The relationship among the new Act, transitional rules and Cabinet Regulation 675 for post-commencement applications remains unresolved; do not use this page alone to assess current eligibility or filing requirements.",
+        "This is non-binding agency guidance. Consult current legislation and the updated central PMLP entry page."
+      ],
       "candidate_record": {
         "manifest": "references/candidate-manifest.json",
         "id": "lv-23"
       },
-      "candidate_archive_path": "candidates/latvia_candidate_promotion_20261024/Latvia/lv-23.md"
-    },
+      "evidence": {
+        "official_source_url": "https://www.pmlp.gov.lv/en/what-residence-documents-are-issued-union-citizens-and-their-family-members",
+        "verified_content": "Live English PMLP page opened 29 October 2026. It displays publication date 23 January 2021 and update date 24 July 2025. The page's registration-card categories, non-registration situations, permanent-residence categories including worker exceptions, family-member permanent-residence routes and described residence-permit durations were reviewed. The updated central PMLP EU/EEA/Swiss entry page (17 July 2026) was also checked and refers to the new Act.",
+        "source_record_note": "Accepted as an official dated guidance source and paraphrased maintained Markdown note. New-Act applicability is unresolved.",
+        "retrieval_status": "human_reviewed_live_page"
+      },
+      "decision": "accepted_with_narrow_historical_and_operational_scope",
+      "local_copy_accepted": false,
+      "maintained_source_note_path": "documents/guidance/lv-23-pmlp-residence-document-types.md",
+      "maintained_source_note_checked_on": "2026-10-29",
+      "maintained_source_note_status": "accepted_dated_paraphrased_source_note"
+    }
+  ],
+  "pending_references": [
     {
       "source_id": "lv-24",
       "title": "PMLP information for UK Withdrawal Agreement beneficiaries",
