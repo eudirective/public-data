@@ -6,7 +6,7 @@
   "scope": "Official Finnish sources related to EU, EEA and Swiss free movement; third-country family members; visa and consular routes; administrative procedure, access to information, remedies, oversight, privacy, legal aid and administrative courts. This is a bounded discovery register, not a statement of legal equivalence or complete coverage.",
   "accepted_source_count": 2,
   "candidate_source_count": 37,
-  "acquisition_rule_status": "Thirty-five official external references are accepted with item-specific limits; two Finnish current-law conversions are accepted as dated local copies. One maintained locator note records the Ministry for Foreign Affairs visa guidance without copying its page content. One obsolete Migri route is dispositioned as already represented and wrong scope. Two oversight sites remain under human review. Unaccepted page/text conversions stay in the Monitor local-only archive; source acceptance, local copies, maintained locator notes, topic coverage and completion remain separate.",
+  "acquisition_rule_status": "Thirty-five official external references are accepted with item-specific limits; two Finnish current-law conversions are accepted as dated local copies. Two maintained source locator notes record the Ministry for Foreign Affairs visa guidance and DVV foreigner-registration routes without copying page content; the DVV summary is limited to current linked form instructions because its parent pages returned 403. One obsolete Migri route is dispositioned as already represented and wrong scope. Two oversight sites remain under human review. Unaccepted converted page and text artifacts remain local-only.",
   "official_change_channels": {
     "national_legal_database": "https://www.finlex.fi/",
     "open_data_documentation": "https://www.finlex.fi/en/open-data",
@@ -835,16 +835,19 @@
         "record": "International moving and registration information"
       },
       "functional_relationship": "partial_functional_match",
-      "verification_status": "The exact English route is linked from the official DVV municipality form; direct page access returned 403. Accepted as a locator only, not as reviewed guidance.",
-      "retrieval_status": "official_locator_only",
+      "verification_status": "Exact DVV English guidance route remains inaccessible (403); current official DVV forms link to it and were reviewed for limited identity-code and municipality-of-residence procedure.",
+      "retrieval_status": "official_locator_with_scoped_linked_form_review",
       "retrieval_shape": "HTML guidance with service and appointment links",
       "seed_status": "candidate",
       "check_note": "Municipality-of-residence registration is separate from registration of an EU citizen's right of residence. Nordic nationals use a distinct route.",
       "monitor_retrieval_status": "retrieval_or_conversion_error",
-      "monitor_retrieval_note": "HTTPError: HTTP Error 403: Forbidden",
+      "monitor_retrieval_note": "Direct target HTTP 403; official linked DVV forms reviewed 2026-10-29 for scoped procedure only.",
       "external_reference_accepted": true,
       "external_reference_checked_at": "2026-10-24",
-      "accepted": false
+      "accepted": false,
+      "checked_at": "2026-10-29",
+      "maintained_note_path": "documents/guidance/fi-dvv-foreign-registration.md",
+      "maintained_note_status": "accepted_scoped_summary_with_page_access_limit"
     },
     {
       "id": "fi-dvv-municipality-form",
@@ -1312,6 +1315,6 @@
   "accepted_external_reference_count": 35,
   "accepted_local_copy_count": 2,
   "retrieval_status": null,
-  "maintained_locator_note_count": 1,
-  "maintained_markdown_record_count": 4
+  "maintained_locator_note_count": 2,
+  "maintained_markdown_record_count": 5
 }
