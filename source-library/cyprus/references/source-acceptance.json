@@ -7,7 +7,7 @@
   "accepted_derived_text_count": 2,
   "accepted_topic_count": 0,
   "country_review_complete": false,
-  "accepted_external_reference_count": 20,
+  "accepted_external_reference_count": 21,
   "external_reference_decisions": [
     {
       "source_id": "cy-admin-court-amendment-142i-2025",
@@ -383,6 +383,25 @@
         "reviewed_content": "Official gov.cy index identifies the guidance page and displays the described family categories, entry/re-entry, application, fee and processing information. Direct page fetch returned HTTP 403 on 2026-10-29.",
         "retrieval_limit": "Direct browser access returned HTTP 403. Evidence is the official gov.cy search-index text crawled on 28–29 October 2026; attachment bodies were not retrieved."
       }
+    },
+    {
+      "source_id": "cy-cypriot-family-route-el",
+      "decision": "accepted_with_narrow_external_scope",
+      "accepted_role": "Official Greek Migration Department guidance on entry and residence of third-country family members of Cypriot citizens, as reflected in the official indexed page. A maintained Greek-language project note records the verified scope and retrieval limit.",
+      "not_accepted": [
+        "The statutory text or complete current requirements under Cap. 105.",
+        "Individual eligibility determinations or the separate EU/EEA and UK free-movement family routes.",
+        "A complete operational application route or current linked-form inventory."
+      ],
+      "evidence": {
+        "official_source_url": "https://www.gov.cy/mip-md/documents/prosorini-diamoni/meli-oikogeneias-kyprion/",
+        "publisher": "Migration Department, Republic of Cyprus",
+        "indexed_posting_date": "2025-12-30",
+        "checked_on": "2026-10-29",
+        "language": "Greek",
+        "reviewed_content": "Official gov.cy indexed page identifies Cap.105 as the governing law with a facilitation policy; lists eligible third-country family categories; and summarizes retention, permit duration, residence, and labour-market information.",
+        "retrieval_limit": "Direct page fetch returned HTTP 403. Review used the official gov.cy indexed text crawled 28–29 October 2026; the full page response and linked materials were not captured."
+      }
     }
   ],
   "local_copy_status_counts": {
@@ -393,8 +412,8 @@
   },
   "external_reference_status_counts": {
     "route_verified": 22,
-    "not_assessed": 49,
-    "accepted": 17,
+    "not_assessed": 48,
+    "accepted": 21,
     "unavailable": 2
   },
   "source_disposition_policy": {
@@ -1161,7 +1180,7 @@
       "candidate_archive_sha256": "40a5e9cba3053fe5e225aef7b5eb9ec7d298f4efc63d20f0b99859b7cc6a737f"
     }
   ],
-  "accepted_maintained_source_note_count": 3,
+  "accepted_maintained_source_note_count": 4,
   "maintained_source_notes": [
     {
       "source_id": "cy-cypriot-family-employment-forms",
@@ -1198,6 +1217,19 @@
         "Individual eligibility or the separate EU/EEA/UK family routes."
       ],
       "source_url": "https://www.gov.cy/mip-md/en/documents/temporary-residence/family-members-of-cypriots/"
+    },
+    {
+      "source_id": "cy-cypriot-family-route-el",
+      "status": "accepted_project_authored_source_note",
+      "document_path": "source-library/cyprus/documents/guidance/cy-cypriot-family-route-el.md",
+      "checked_on": "2026-10-29",
+      "scope": "Official Greek Migration Department guidance on family members of Cypriot citizens, summarized only within the current indexed text.",
+      "limits": [
+        "Direct page fetch returned HTTP 403; the full page and linked materials were not captured.",
+        "Not statutory text, complete current eligibility rules, or individual legal advice.",
+        "EU/EEA and UK free-movement routes remain distinct."
+      ],
+      "source_url": "https://www.gov.cy/mip-md/documents/prosorini-diamoni/meli-oikogeneias-kyprion/"
     }
   ]
 }
