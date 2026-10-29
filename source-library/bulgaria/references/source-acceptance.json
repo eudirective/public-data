@@ -343,14 +343,15 @@
       "rediscovery_url": "https://kzd-nondiscrimination.com/?page_id=18931",
       "checked_on": "2026-10-24",
       "language": "Bulgarian",
-      "version_or_cutoff": "Commission-hosted consolidated text through State Gazette issue 51/2026 (5 June 2026); Ciela source date 19 June 2026.",
+      "version_or_cutoff": "The Commission-hosted text lists amendments through SG issue 51/2026. State Gazette issue 88/2026 §4 is a later targeted amendment and is separately registered as bg-discrimination-amendment-88-2026.",
       "scope": "Bulgarian Act prohibiting discrimination, including Commission procedure, court remedies and sanctions.",
-      "reviewed_content": "The live official page identifies amendments through SG 51/2026 and includes the 2026 changes to Arts. 44 and 78–82. The local text contains Articles 1–84 and closing provisions through §93.",
+      "reviewed_content": "The live official page identifies amendments through SG 51/2026 and includes the 2026 changes to Arts. 44 and 78–82. The local text contains Articles 1–84 and closing provisions through §93. The official Gazette issue 88/2026 §4 later amends this Act and adds Articles 39a–39g; the Commission-hosted consolidation and accepted local text remain through issue 51/2026.",
       "limitations": [
         "The Commission page hosts a Ciela consolidation; its source date is 19 June 2026. No later update is represented.",
         "Ciela marks certain historical transitional provisions with ellipses; those markers are preserved.",
         "The source and candidate response checksums differ; the local raw HTML is unavailable for rehashing.",
-        "Link and local-copy acceptance do not establish complete issue-led coverage or country completion."
+        "Link and local-copy acceptance do not establish complete issue-led coverage or country completion.",
+        "The linked Commission consolidation and accepted local copy stop at SG issue 51/2026. Supplement with State Gazette issue 88/2026; the Legalize candidate through issue 51 is not current beyond that cutoff."
       ],
       "supporting_sources": [
         {
@@ -367,6 +368,11 @@
           "title": "State Gazette issue 51/2026 law on anti-corruption among public-office holders",
           "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=243769",
           "role": "official amending instrument with the Article 44 change reflected in the consolidation"
+        },
+        {
+          "title": "State Gazette issue 88/2026, §4",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=245998",
+          "role": "later official amendment to the Act"
         }
       ]
     },
@@ -734,6 +740,220 @@
           "title": "Ombudsman Act, official Ombudsman publication",
           "url": "https://www.ombudsman.bg/bg/p/zakon-za-ombudsmana-265",
           "role": "primary legal framework; current amendment chain needs separate review"
+        }
+      ]
+    },
+    "bg-labor-code": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Labour and Social Policy (MLSP)",
+      "url": "https://www.mlsp.government.bg/uploads/37/politiki/trud/zakonodatelstvo/2026/kt-0926.pdf",
+      "rediscovery_url": "https://www.mlsp.government.bg/zakoni",
+      "checked_on": "2026-10-29",
+      "language": "Bulgarian",
+      "version_or_cutoff": "The official 2026 PDF heading lists amendments through State Gazette issue 89/2026 (29 September 2026).",
+      "scope": "Bulgarian Labour Code, supporting national law on employment relations.",
+      "reviewed_content": "Opened the Ministry's current linked PDF and checked its heading and the first operative article; the Ministry legislation index links this edition. The Legalize candidate ends at SG 69/2026 and is stale.",
+      "limitations": "The official link is accepted only through its printed issue 89/2026 cutoff. This Code does not determine EU free-movement entitlement to work. No local copy or complete legal analysis is included.",
+      "supporting_sources": [
+        {
+          "title": "MLSP laws and codes index",
+          "url": "https://www.mlsp.government.bg/zakoni",
+          "role": "official rediscovery path and current PDF listing"
+        }
+      ]
+    },
+    "bg-family-code": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Labour and Social Policy (MLSP)",
+      "url": "https://www.mlsp.government.bg/uploads/35/sv/sv-1/semeen-kodeks-30122025.pdf",
+      "rediscovery_url": "https://www.mlsp.government.bg/zakoni",
+      "checked_on": "2026-10-29",
+      "language": "Bulgarian",
+      "version_or_cutoff": "The PDF heading lists amendments through State Gazette issue 115/2025 (30 December 2025).",
+      "scope": "Family Code, supporting Bulgarian marriage, parentage, adoption, guardianship and related family-status law.",
+      "reviewed_content": "Opened the official Ministry PDF and checked its title, amendment heading and scope. Legalize candidate metadata ends at the same issue/date; the body was not fully diffed.",
+      "limitations": "Link-only reference at the printed cutoff. Use EU law for EU-family-member definitions and cross-border rights; the national family-law text alone does not determine those questions.",
+      "supporting_sources": [
+        {
+          "title": "MLSP laws and codes index",
+          "url": "https://www.mlsp.government.bg/zakoni",
+          "role": "official rediscovery path and current PDF listing"
+        }
+      ]
+    },
+    "bg-social-assistance-act": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Labour and Social Policy (MLSP)",
+      "url": "https://www.mlsp.government.bg/uploads/41/pkhurvsp/za-sotsialno-podpomagane.pdf",
+      "rediscovery_url": "https://www.mlsp.government.bg/zakoni",
+      "checked_on": "2026-10-29",
+      "language": "Bulgarian",
+      "version_or_cutoff": "The PDF heading lists amendments through State Gazette issue 51/2026 (5 June 2026).",
+      "scope": "Social Assistance Act, supporting national social-assistance law.",
+      "reviewed_content": "Opened the official PDF and checked its amendment heading and Article 1 scope. Legalize candidate metadata ends at the same issue.",
+      "limitations": "Link-only reference through the printed cutoff. No conclusion about EU equal treatment, residence conditions, or cross-border entitlement follows from this Act alone.",
+      "supporting_sources": [
+        {
+          "title": "MLSP laws and codes index",
+          "url": "https://www.mlsp.government.bg/zakoni",
+          "role": "official rediscovery path and current PDF listing"
+        }
+      ]
+    },
+    "bg-social-assistance-rules": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Labour and Social Policy (MLSP)",
+      "url": "https://www.mlsp.government.bg/uploads/41/test/pravilnik-za-prilagane-na-zakona-za-socialno-podpomagane.pdf",
+      "rediscovery_url": "https://www.mlsp.government.bg/public/pravilnitsi",
+      "checked_on": "2026-10-29",
+      "language": "Bulgarian",
+      "version_or_cutoff": "The official PDF amendment heading ends at State Gazette issue 44/2023; the Legalize candidate has the same cutoff.",
+      "scope": "Rules for implementation of the Social Assistance Act.",
+      "reviewed_content": "Opened the 51-page official PDF and checked the title and amendment heading. Candidate and official PDF share the issue 44/2023 cutoff.",
+      "limitations": "The Ministry's linked text is dated through issue 44/2023; no later consolidation was confirmed in this review. Verify later Gazette amendments before current procedural use. No local copy is retained.",
+      "supporting_sources": [
+        {
+          "title": "MLSP rules index",
+          "url": "https://www.mlsp.government.bg/public/pravilnitsi",
+          "role": "official rediscovery path and current linked PDF"
+        }
+      ]
+    },
+    "bg-social-services-act": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Labour and Social Policy (MLSP)",
+      "url": "https://www.mlsp.government.bg/uploads/35/sv/sv-1/sv-2/zakon-za-socialnite-uslugi-2026.pdf",
+      "rediscovery_url": "https://www.mlsp.government.bg/zakoni",
+      "checked_on": "2026-10-29",
+      "language": "Bulgarian",
+      "version_or_cutoff": "The official PDF heading lists amendments through State Gazette issue 30/2026 (27 March 2026).",
+      "scope": "Social Services Act, supporting national social-services law.",
+      "reviewed_content": "Opened the official Ministry PDF and checked its title, amendment heading and Article 1 scope. Legalize candidate metadata ends at the same issue.",
+      "limitations": "Link-only reference through the printed cutoff. The Act alone does not establish EU/EEA/Swiss eligibility or equal treatment.",
+      "supporting_sources": [
+        {
+          "title": "MLSP laws and codes index",
+          "url": "https://www.mlsp.government.bg/zakoni",
+          "role": "official rediscovery path and current PDF listing"
+        }
+      ]
+    },
+    "bg-social-services-rules": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Labour and Social Policy (MLSP)",
+      "url": "https://www.mlsp.government.bg/uploads/40/sv/sv-1/sv-2/pravilnik-za-prilagane-na-zakona-za-socialnite-uslugi.pdf",
+      "rediscovery_url": "https://www.mlsp.government.bg/public/pravilnitsi",
+      "checked_on": "2026-10-29",
+      "language": "Bulgarian",
+      "version_or_cutoff": "The official PDF heading lists amendments through State Gazette issue 70/2026 (4 August 2026).",
+      "scope": "Rules for implementation of the Social Services Act.",
+      "reviewed_content": "Opened the official PDF and checked its title, issue 70/2026 amendment heading, and scope. Legalize candidate metadata stops at issue 98/2020.",
+      "limitations": "Link-only reference to the official PDF. The Legalize candidate is stale and is not accepted as a current retrieval method.",
+      "supporting_sources": [
+        {
+          "title": "MLSP rules index",
+          "url": "https://www.mlsp.government.bg/public/pravilnitsi",
+          "role": "official rediscovery path and current linked PDF"
+        }
+      ]
+    },
+    "bg-labor-migration-act": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Labour and Social Policy (MLSP)",
+      "url": "https://www.mlsp.government.bg/uploads/78/sdrmi/za-trudovata-migratsiya-i-trudovata-mobilnost.pdf",
+      "rediscovery_url": "https://www.mlsp.government.bg/zakoni",
+      "checked_on": "2026-10-29",
+      "language": "Bulgarian",
+      "version_or_cutoff": "The official PDF heading lists amendments through State Gazette issue 52/2025.",
+      "scope": "Labor Migration and Labor Mobility Act, supporting employment/migration law.",
+      "reviewed_content": "Opened the Ministry-linked PDF and checked its title and amendment heading. Legalize candidate metadata ends at the same issue.",
+      "limitations": "Link-only reference through the printed cutoff. The Act principally regulates third-country-national labor migration and is not the dedicated EU free-movement regime.",
+      "supporting_sources": [
+        {
+          "title": "MLSP laws and codes index",
+          "url": "https://www.mlsp.government.bg/zakoni",
+          "role": "official rediscovery path and current PDF listing"
+        }
+      ]
+    },
+    "bg-labor-migration-rules": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry of Labour and Social Policy (MLSP)",
+      "url": "https://www.mlsp.government.bg/uploads/78/sdrmi/za-prilagane-na-zakona-za-trudovata-migratsiya-i-trudovata-mobilnost.pdf",
+      "rediscovery_url": "https://www.mlsp.government.bg/public/pravilnitsi",
+      "checked_on": "2026-10-29",
+      "language": "Bulgarian",
+      "version_or_cutoff": "The current official PDF heading lists amendments through State Gazette issue 66/2026 (21 July 2026).",
+      "scope": "Implementing Rules for the Labor Migration and Labor Mobility Act.",
+      "reviewed_content": "Opened the PDF linked by the current MLSP rules index and checked the issue 66/2026 cutoff and the corresponding amendment notes in the text. The Legalize candidate has the same cutoff.",
+      "limitations": "Link-only reference through the printed cutoff; it supports the third-country labor-migration instrument, not general EU free movement. No full body diff was performed.",
+      "supporting_sources": [
+        {
+          "title": "MLSP rules index",
+          "url": "https://www.mlsp.government.bg/public/pravilnitsi",
+          "role": "official rediscovery path and current linked PDF"
+        }
+      ]
+    },
+    "bg-personal-data-act": {
+      "status": "usable_official_reference",
+      "publisher": "Commission for Personal Data Protection (CPDP)",
+      "url": "https://cpdp.bg/правна-рамка-национална/закон-за-защита-на-личните-данни-2/",
+      "rediscovery_url": "https://cpdp.bg/правна-рамка-национална/закон-за-защита-на-личните-данни-2/",
+      "checked_on": "2026-10-29",
+      "language": "Bulgarian",
+      "version_or_cutoff": "The official CPDP law page lists amendments through State Gazette issue 69/2026 (31 July 2026), matching the Legalize candidate.",
+      "scope": "Personal Data Protection Act, supporting national data-protection law.",
+      "reviewed_content": "The official CPDP indexed page lists the complete amendment sequence through issue 69/2026 and links the legal text. Direct page fetch returned 502 on 29 October; candidate and official publisher cutoff metadata match. No full body diff was performed.",
+      "limitations": "Official indexed content establishes the cutoff but direct retrieval was intermittent. No local copy is retained; GDPR remains a separate controlling EU source.",
+      "supporting_sources": [
+        {
+          "title": "CPDP Personal Data Protection Act page",
+          "url": "https://cpdp.bg/правна-рамка-национална/закон-за-защита-на-личните-данни-2/",
+          "role": "official publisher page and version evidence"
+        }
+      ]
+    },
+    "bg-ombudsman-act": {
+      "status": "usable_official_reference",
+      "publisher": "Ombudsman of the Republic of Bulgaria; State Gazette of the Republic of Bulgaria",
+      "url": "https://www.ombudsman.bg/bg/p/zakon-za-ombudsmana-265",
+      "rediscovery_url": "https://www.ombudsman.bg/bg/p/zakon-za-ombudsmana-265",
+      "checked_on": "2026-10-29",
+      "language": "Bulgarian",
+      "version_or_cutoff": "The Ombudsman-hosted consolidation displays amendments through issue 29/2024. Official Gazette issues 16/2026 and 51/2026 contain later targeted amendments; the Legalize candidate history ends at issue 51/2026.",
+      "scope": "Ombudsman Act, supporting national oversight and complaints law.",
+      "reviewed_content": "Opened the Ombudsman law page and official Gazette records for issues 16/2026 and 51/2026. Issue 51 §70 changes Article 15(1)(5); the candidate amendment chain matches the identified 2026 editions. The candidate body was not fully diffed.",
+      "limitations": "The official Ombudsman consolidation is stale after issue 29/2024 and must be supplemented by the cited Gazette amendments. The complete current consolidated text was not located. Legalize remains a retrieval method, not the authority.",
+      "supporting_sources": [
+        {
+          "title": "State Gazette issue 16/2026, official record",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=241044",
+          "role": "official targeted 2026 amendment record"
+        },
+        {
+          "title": "State Gazette issue 51/2026, official record",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=243769",
+          "role": "official targeted 2026 amendment record; §70 amends Ombudsman Act Article 15(1)(5)"
+        }
+      ]
+    },
+    "bg-discrimination-amendment-88-2026": {
+      "status": "usable_official_reference",
+      "publisher": "State Gazette of the Republic of Bulgaria",
+      "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=245998",
+      "rediscovery_url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=245998",
+      "checked_on": "2026-10-29",
+      "language": "Bulgarian",
+      "version_or_cutoff": "State Gazette issue 88/2026, dated 25 September 2026, §4 amends the Protection against Discrimination Act after the Commission and Legalize versions through issue 51/2026.",
+      "scope": "Targeted amendment to the Protection against Discrimination Act.",
+      "reviewed_content": "Opened the official Gazette record. Section 4 expressly identifies the Act and adds Articles 39a–39g; the instrument's cited history shows amendments through issue 51/2026 before this change.",
+      "limitations": "This is a targeted amendment, not a consolidated Act. Check its commencement provisions in the official record. The existing local text and Legalize candidate remain limited to issue 51/2026.",
+      "supporting_sources": [
+        {
+          "title": "State Gazette issue 88/2026, official record",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=245998",
+          "role": "official source for the later amendment"
         }
       ]
     }
@@ -1688,7 +1908,7 @@
     }
   ],
   "material_dependencies": "See references/source-dependencies.json. National statutory wording is preserved; the EU 2019/1157 reference is tracked separately from Regulation (EU) 2025/1208.",
-  "official_reference_count": 29,
+  "official_reference_count": 40,
   "local_copy_required_checks": [
     "publisher_identity",
     "current_legal_version",
