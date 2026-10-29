@@ -51,3 +51,8 @@ This crosswalk narrows the open work but does not close the adoption topic. In p
 | OUG nr. 102/2005 → Directive 2004/38 and relevant EU visa/document rules | National implementation and statutory references depend on current EU provisions. | Shared EU sources exist; a complete Romanian article-level concordance and dependency check is outstanding. |
 
 An official link can support a topic once its relevant provisions are reviewed. A link decision alone does not change the status of any topic above.
+
+
+## Legalize-RO source additions (29 October 2026)
+
+The source crosswalk added official Portal links for the consolidated cross-border healthcare rules (version history through 27 May 2026) and paternal-leave methodological rules (version history through 4 January 2023). The former is limited to the stated Romanian healthcare authorization/reimbursement procedures; the latter is a dated reference whose post-2023 amendments remain unchecked. These additions do not change the register's 0-of-12 topic-completion status. The Legalize-RO snapshot did not supply the pack's core OUG nr. 102/2005, implementing rules, or OUG nr. 194/2002 files; its corpus is not comprehensive for this jurisdiction.
