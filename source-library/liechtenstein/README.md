@@ -1,6 +1,6 @@
 # Liechtenstein national-source review
 
-**Review date:** 2026-10-29. **Status:** 20 accepted official references (11 accepted local legal-text copies and 9 link-only references); 1 duplicate lead dispositioned; 20 leads remain open; 0 topics accepted; country review incomplete.
+**Review date:** 2026-10-29. **Status:** 20 accepted official references (11 accepted local legal-text copies and 9 link-only references); 1 duplicate lead dispositioned; 19 leads remain open; 0 topics accepted; country review incomplete.
 
 ## Reviewed sources
 
