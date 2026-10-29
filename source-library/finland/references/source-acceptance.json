@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "review_date": "2026-10-24",
+  "review_date": "2026-10-29",
   "jurisdiction": "FI",
   "status": "partial",
   "publisher_assessment": {
@@ -14,7 +14,7 @@
   "counts": {
     "candidate_records": 37,
     "accepted_external_references": 34,
-    "accepted_local_copies": 2,
+    "accepted_local_copies": 3,
     "remaining_candidate_records": 2,
     "accepted_topics": 0,
     "country_review_complete": false
@@ -246,14 +246,18 @@
       "translation_completed": "2023-12-20",
       "amendment_cutoff": "389/2023",
       "checked_at": "2026-10-24",
-      "acceptance_scope": "External Finlex translation-history page accepted as a language aid for navigating the Aliens Act; not accepted as current English legal text or as a local copy.",
+      "acceptance_scope": "Accepted dated local English language-aid copy only; not current English legal text. Use the current Finnish consolidated text for legal wording.",
       "limitations": "Finlex labels translations unofficial; only Finnish and Swedish are legally binding. The page states the translation was completed 20 December 2023 and tracks amendments through 389/2023. Verify the accepted current Finnish/Swedish text for legal wording and later changes.",
       "language_versions": {
         "en": {
           "url": "https://www.finlex.fi/en/legislation/translations/2004/eng/301",
-          "status": "accepted external reference only; unofficial translation; amendments through 389/2023"
+          "status": "Accepted dated local language-aid copy; unofficial; amendments through 389/2023 only; not current English legal text."
         }
-      }
+      },
+      "local_path": "documents/legislation/fi-aliens-act-301-2004-english-translation.md",
+      "local_sha256": "70e06dca202dad0eb39c59840ad4a84191d7801e1821173be83f44dd7540383b",
+      "local_copy_checked_at": "2026-10-29",
+      "local_copy_status": "Accepted dated reflow of the complete 188-page Finlex translation PDF; 4,542 extracted lines, full Section 1–215 transition text; source marks it unofficial and binding only in Finnish and Swedish; translation completed 2023-12-20 and incorporates amendments through 389/2023. Current Finnish Aliens Act copy is separately accepted at consolidation date 2026-06-26. Finlex page-break markers and source attribution retained; clause-by-clause legal currentness is not claimed."
     },
     {
       "source_id": "fi-administrative-procedure-act-en",
