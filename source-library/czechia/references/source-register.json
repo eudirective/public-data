@@ -2260,24 +2260,27 @@
         "official_url": "https://mzv.gov.cz/jnp/cz/informace_pro_cizince/kde_podat_zadost_o_vizum/dlouhodobe_vizum_dlouhodoby_pobyt_a.html"
       },
       "functional_relationship": "related_source",
-      "verification_status": "Official Czech MFA page reviewed on 2026-10-28. It describes local competence for long-term visas and long-term/permanent residence, including specified routes for applying at a Czech mission outside the ordinary locality. It cites Act No. 326/1999, § 169g, Act No. 150/2017, § 4, and Decree 429/2010. No publication or update date was visible in the reviewed page.",
-      "retrieved": false,
+      "verification_status": "Complete substantive official page directly reviewed 2026-10-29; no update date displayed. Scope limited to long-term visa and long-term/permanent residence local competence.",
+      "retrieved": true,
       "accepted": false,
-      "retrieval_status": "external_reference_only",
-      "retrieval_shape": "official live page; no local copy added",
+      "retrieval_status": "official_page_directly_reviewed_maintained_summary",
+      "retrieval_shape": "official rendered page directly reviewed; complete substantive page summarized; no raw HTML or verbatim copy",
       "topic_ids": [
         "MISSION-18",
         "MISSION-19",
         "VISA-03"
       ],
       "scope_note": "Czech-language official MFA guidance on consular locality for long-term visa and long-term/permanent residence applications. It does not establish short-stay Schengen or EU-family visa application rules, appointment arrangements, or mission-specific practice.",
-      "local_copy_status": "not_stored",
+      "local_copy_status": "maintained_source_summary",
       "external_reference_accepted": true,
       "external_reference_decision": "accepted_with_narrow_external_scope",
-      "external_reference_scope": "Accepted as the official Czech MFA page, checked 2026-10-28, for its stated long-term visa and long-term/permanent residence consular-locality guidance only. No publication/update date was visible. This link does not establish short-stay Schengen or EU-family visa rules, mission-specific appointment practice, a local-copy acceptance, topic adequacy, or country review completion."
+      "external_reference_scope": "Accepted as the official Czech MFA page, checked 2026-10-28, for its stated long-term visa and long-term/permanent residence consular-locality guidance only. No publication/update date was visible. This link does not establish short-stay Schengen or EU-family visa rules, mission-specific appointment practice, a local-copy acceptance, topic adequacy, or country review completion.",
+      "document_path": "documents/guidance/cz-mzv-local-consular-competence.md",
+      "local_copy_disposition_date": "2026-10-29",
+      "document_role": "structured paraphrase of the complete substantive official guidance page; not a verbatim or mechanically converted source copy"
     }
   ],
-  "retrieved_source_count": 43,
+  "retrieved_source_count": 45,
   "blocked_source_count": 0,
   "monitor_only_source_count": 13,
   "legal_retrieval": {
