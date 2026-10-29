@@ -231,14 +231,14 @@
     }
   },
   "not_accepted_or_still_under_review": [
-    "Twenty-six source-specific local text copies are listed in accepted_local_copy_reviews. The other 24 former candidate records have final official-link locator/disposition notes under documents/; their captured response text is not accepted as a local source copy. Official-link status and locator-note status remain distinct.",
+    "Twenty-six source-specific local text copies are listed in accepted_local_copy_reviews. The other 23 former candidate records have final official-link locator/disposition notes under documents/; their captured response text is not accepted as a local source copy. Official-link status and locator-note status remain distinct.",
     "No legal topic is accepted as adequately covered; issue and remedy crosswalks remain open.",
     "The exact procedural effect of the ePUAP instruction on UODO SIS pages remains unresolved under the Electronic Delivery Act and special-law exceptions.",
     "The exact current Polish residence-card specimen and the legal transition for each document class remain unverified.",
     "Voivodeship-local procedures, mission-specific services, case-law discovery completeness and country completion remain open."
   ],
   "reviewed_on": "2026-10-29",
-  "status": "54_scoped_official_links_accepted; 29_local_source_text_copies_accepted; 23_locator_disposition_notes; 4_historical_only; 5_routes_not_relied_on; topic_coverage_incomplete",
+  "status": "55_scoped_official_links_accepted; 29_local_source_text_copies_accepted; 23_locator_disposition_notes; 4_historical_only; 4_routes_not_relied_on; topic_coverage_incomplete",
   "accepted_external_reference_ids": [
     "pl-01",
     "pl-02",
