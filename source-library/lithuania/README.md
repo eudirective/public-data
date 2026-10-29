@@ -6,8 +6,8 @@
 
 ## What is in the pack
 
-- The source register contains 49 official references: 39 accepted within recorded scope and 9 pending human or currentness review.
-- Thirteen attributed Lithuanian legal texts are held under `documents/legislation/` as exact-version TAR dataset snapshots. They include two historical card-procedure texts from 2019; the remaining snapshots are explicitly dated and are not certified as current. Two maintained English summaries record the Migration Department’s dated certificate and residence-permit pages within historical document-identification scopes; they flag stale EU-law citations and publisher wording issues.
+- The source register contains 49 official references: 40 accepted within recorded scope and 8 pending human or currentness review.
+- Thirteen attributed Lithuanian legal texts are held under `documents/legislation/` as exact-version TAR dataset snapshots. They include two historical card-procedure texts from 2019; the remaining snapshots are explicitly dated and are not certified as current. Three maintained English summaries record the Migration Department’s dated certificate, residence-permit and 2019 family-card form sources within narrow historical scopes; they flag stale references, wording and current-form limits.
 - Current Order 1V-594 is recorded as `lt-09`; e-TAR shows its combined procedure covers temporary and permanent family cards. Former Orders 1V-290 and 1V-369 are kept as separately identified historical documents, repealed from 1 July 2019.
 - Two captured HTML pages were not retained as local source documents: N-Lex country information and the TAR dataset description remain accepted link-only references.
 - The pack accepts 13 dated legal-text snapshots and one maintained guidance summary locally, 0 topics, and is not complete.
