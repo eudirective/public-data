@@ -1,11 +1,12 @@
 # Portugal issue-based coverage register
 
-Reviewed: 2026-10-21
+Reviewed: 2026-10-29
 Status: sources linked; no legal topic is accepted as adequately covered; country review incomplete.
 
 | Issue area | Linked official references | Current state | Work still needed |
 |---|---|---|---|
 | EU citizen/family entry and residence | Law 37/2006 (pt-06); Portaria 1334-D/2010 (pt-08); Directive 2004/38 in shared EU core | Core national framework linked; no topic accepted | Map Directive Articles 5-7, 10-11, 14, 16-18, 24, and 31 to national provisions, evidence, decision-maker, and remedies |
+| Employment and contributory social protection | Lei n.º 7/2009 (pt-69); Lei n.º 4/2007 (pt-70); Lei n.º 110/2009 (pt-71); Law 37/2006 (pt-06) | Three official legal frameworks now linked; Legalize-PT snapshot identifiers and version metadata cross-checked against DRE. No topic is accepted | Map worker/equality provisions, social-security coordination, contribution regimes, applicable conditions, and remedies from official text; do not infer individual benefit or worker status from these source links |
 | Portuguese-national, EEA, Swiss, and Andorra routes | Law 37/2006 (pt-06); Andorra agreement (pt-20); AIMA pages (pt-21 to pt-27, pt-39) | Separate legal bases identified; operational detail incomplete | Confirm statutory reach and family definitions; do not treat portal grouping as legal equivalence |
 | EU-family visa and consular entry | MNE pages (pt-35 to pt-38); Gov.pt visa pages (pt-33, pt-34) | General visa and national family route identified; EU-family mission process incomplete | Review MNE/consular sites, jurisdiction, appointment providers, checklists, fees, and refusal routes |
 | General third-country immigration | Law 23/2007 (pt-10); Decree Regulation 84/2007 (pt-11) | Working consolidations linked; Law 23/2007 is marked “Em atualização” | Keep distinct from Law 37/2006 and map only material interactions |
