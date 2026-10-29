@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "HR",
-  "as_of": "2026-10-25",
+  "as_of": "2026-10-29",
   "required_checks": [
     "publisher_identity",
     "current_legal_version",
@@ -800,7 +800,7 @@
     ],
     "note": "Record a human-reviewed official source link here when it supports a coverage layer without a retained local copy. This record does not change the local accepted-source count. Use version_or_cutoff='not displayed' and explain the limit when the publisher shows no version marker."
   },
-  "accepted_source_count": 43,
+  "accepted_source_count": 44,
   "records": {
     "hr-access-info-act": {
       "status": "accepted",
@@ -3438,43 +3438,51 @@
       }
     },
     "hr-third-country-residence-base": {
-      "status": "located_not_captured",
+      "status": "accepted",
       "checks": {
         "publisher_identity": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "pass",
+          "review_date": "2026-10-29",
+          "evidence_url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_02_20_215.html",
+          "evidence": "Official Narodne novine page identifies the title, NN 20/2022 (16 February 2022), item 215, and the Ministry of the Interior as issuer (official page lines 8–18)."
         },
         "current_legal_version": {
           "status": "pass",
           "chain_id": "hr-third-country-residence-regulation-chain",
-          "review_date": "2026-10-19",
+          "review_date": "2026-10-29",
           "evidence_url": "https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/propisi-652/652",
-          "evidence": "MUP's current Propisi page lists the third-country residence regulation as NN 20/22, 155/22 and 43/26. No later amendment is listed on that page as of 2026-10-19. Official publisher index checked 2026-10-19 at https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/propisi-652/652 (turn1078view0 lines 70-81). This confirms the listed chain only; it is not a consolidated-text or legal-topic-completeness review."
+          "evidence": "Current MUP Propisi index checked 2026-10-29 lists the act as NN 20/22, 155/22 and 43/26 (official page lines 69–81). The accepted Markdown preserves the NN 20/22 base text and is not consolidated; later amendments must be consulted separately."
         },
         "extraction_completeness": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "pass",
+          "review_date": "2026-10-29",
+          "evidence": "Archived conversion from the official Gazette page has SHA-256 fbe8de4be585a7d71998a52478e5d7bf70d89aac1d3dd1acac0eb8587e525caf. The extracted text begins with item 215 and the issuing preamble and contains Articles 1–99 through the closing provision; the retained Markdown reproduces that extraction. 48 embedded images are not included. Article 96 identifies forms as an integral part, so this acceptance is limited to the text of Articles 1–99 and does not accept or reproduce the graphic forms."
         },
         "attachments_review": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "reviewed_not_included",
+          "review_date": "2026-10-29",
+          "evidence": "The source page embeds 48 images; the text conversion identifies form pages, and Article 96 states that forms are an integral part of the regulation. They were explicitly excluded from this text-only Markdown and are not relied upon. This record does not accept the regulation's visual forms or claim attachment completeness."
         },
         "legal_classification": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "pass",
+          "review_date": "2026-10-29",
+          "evidence": "The Gazette preamble identifies a ministerial Pravilnik issued by the Ministry of the Interior under specified provisions of the Foreigners Act. It is an implementing regulation concerning third-country-national residence and related procedures, not a consolidated act."
         },
         "lawful_reuse": {
           "status": "pass",
           "scope": "official_text_only",
           "basis_id": "hr-copyright-act-nn-111-2021-art-18-3",
-          "evidence": "Copyright and Related Rights Act NN 111/21 Article 18(3) provides that official legislative, administrative, and judicial texts cease to be protected by copyright once published for official public information. This pass covers only the individual official act text, not the Narodne novine page shell, third-party attachments, or database-wide/systematic reuse. Store only a source-specific text fragment and observe the publisher's stated maximum three automated queries per second."
+          "evidence": "Source-specific official legislative text only, under the reviewed Copyright and Related Rights Act NN 111/21 Article 18(3) basis already recorded for Croatia. No reuse claim for page shell, embedded images/forms, or database-wide/systematic content."
         }
       },
       "semantic_review": {
-        "status": "not_reviewed",
-        "method": null,
-        "evidence": "No source-level semantic comparison has been recorded."
-      }
+        "status": "reviewed",
+        "method": "source-specific text and structural comparison",
+        "review_date": "2026-10-29",
+        "evidence": "Official Gazette page title, issuer, publication and opening text checked against the converted capture; the conversion contains numbered Articles 1–99 and its closing provision. Candidate note records an independent visible-text check. Accepted Markdown includes explicit base-text cutoff, amendment chain, and the excluded form images."
+      },
+      "local_file": "documents/legislation/hr-third-country-residence-base.md",
+      "local_file_sha256": ""
     },
     "hr-third-country-residence-rule": {
       "status": "accepted",
