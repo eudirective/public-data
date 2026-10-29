@@ -2427,6 +2427,7 @@
       "decision": "accepted_with_narrow_external_scope",
       "accepted_role": "Official e-Sbírka record for Act No. 435/2004 Coll., on Employment. The current consolidated version displayed is effective 1 July 2026. Link-only reference; no local copy or complete employment-rights analysis is accepted.",
       "not_accepted": [
+        "The Legalize-CZ candidate is not accepted as a local copy: its complete body mismatches the official historical text named by its 2026-01-01 ELI link.",
         "A locally captured, converted or semantically reviewed source copy.",
         "A complete provision-level EU free-movement analysis or topic coverage.",
         "Application beyond the official current version date and scope stated here."
@@ -2438,8 +2439,19 @@
         "publisher": "e-Sbírka, official Collection of Laws and International Treaties",
         "language": "cs",
         "version": "Official e-Sbírka record and current consolidated page checked 2026-10-29; current version effective 2026-07-01. Its published provisions include employment-access rules and EU legal references.",
-        "verified_locations": "Potentially relevant to worker status, job access, and employment-related equality. Only code identity, current version date and selected official page content were reviewed; no provision-by-provision EU free-movement crosswalk is complete.",
-        "limits": "Official e-Sbírka record for Act No. 435/2004 Coll., on Employment. The current consolidated version displayed is effective 1 July 2026. Link-only reference; no local copy or complete employment-rights analysis is accepted."
+        "verified_locations": "Potentially relevant to worker status, job access, and employment-related equality. Only code identity, current version date and selected official page content were reviewed; no provision-by-provision EU free-movement crosswalk is complete. A complete-body check of Legalize-CZ SB-2004-435.md against the official historical version (435/2004 Sb., 1. 1. 2026 - 11. 6. 2026, minulé znění, informativní znění systému e-Sbírka) found a substantive § 1 mismatch; the candidate is not accepted.",
+        "limits": "Official e-Sbírka record for Act No. 435/2004 Coll., on Employment. The current consolidated version displayed is effective 1 July 2026. Link-only reference; no local copy or complete employment-rights analysis is accepted. The tested Legalize-CZ file fails the complete historical-text comparison, so it does not supply a local text copy or retrieval method.",
+        "legalize_candidate_review": {
+          "repository": "https://github.com/legalize-dev/legalize-cz",
+          "commit": "f88290efc3062a7b4a56105193238c269816b613",
+          "file": "SB-2004-435.md",
+          "cited_eli": "https://e-sbirka.gov.cz/eli/cz/sb/2004/435/2026-01-01",
+          "official_current_version_url": "https://e-sbirka.gov.cz/eli/cz/sb/2004/435/2026-07-01",
+          "result": "full_body_mismatch_against_cited_official_historical_version",
+          "first_difference": "§ 1: candidate says the law is in accordance with European Communities law; official 2026-01 text says it transposes relevant European Union rules.",
+          "normalized_for_comparison": "Markdown headings, list markers, emphasis, superscript footnote marker and whitespace only",
+          "accepted_as_local_copy": false
+        }
       }
     },
     {
@@ -2447,6 +2459,7 @@
       "decision": "accepted_with_narrow_external_scope",
       "accepted_role": "Official e-Sbírka record for Act No. 48/1997 Coll., on Public Health Insurance. The current consolidated version displayed is effective 1 October 2026. Link-only reference; no local copy or individual coverage determination is accepted.",
       "not_accepted": [
+        "The Legalize-CZ candidate is not accepted as a local copy: its complete body mismatches the official historical text named by its 2026-01-01 ELI link.",
         "A locally captured, converted or semantically reviewed source copy.",
         "A complete provision-level EU free-movement analysis or topic coverage.",
         "Application beyond the official current version date and scope stated here."
@@ -2458,8 +2471,19 @@
         "publisher": "e-Sbírka, official Collection of Laws and International Treaties",
         "language": "cs",
         "version": "Official e-Sbírka record and current consolidated page checked 2026-10-29; current version effective 2026-10-01. The official text states that it implements and builds on EU regulations and governs public health insurance.",
-        "verified_locations": "Relevant to public-health-insurance and sickness-insurance dependencies for EU citizens and family members. The link does not determine an individual’s insurance obligation or entitlement; provision-level coordination-law mapping remains open.",
-        "limits": "Official e-Sbírka record for Act No. 48/1997 Coll., on Public Health Insurance. The current consolidated version displayed is effective 1 October 2026. Link-only reference; no local copy or individual coverage determination is accepted."
+        "verified_locations": "Relevant to public-health-insurance and sickness-insurance dependencies for EU citizens and family members. The link does not determine an individual’s insurance obligation or entitlement; provision-level coordination-law mapping remains open. A complete-body check of Legalize-CZ SB-1997-48.md against the official historical version (48/1997 Sb., 1. 1. 2026 - 11. 6. 2026, minulé znění, informativní znění systému e-Sbírka) found a substantive § 1 mismatch; the candidate is not accepted.",
+        "limits": "Official e-Sbírka record for Act No. 48/1997 Coll., on Public Health Insurance. The current consolidated version displayed is effective 1 October 2026. Link-only reference; no local copy or individual coverage determination is accepted. The tested Legalize-CZ file fails the complete historical-text comparison, so it does not supply a local text copy or retrieval method.",
+        "legalize_candidate_review": {
+          "repository": "https://github.com/legalize-dev/legalize-cz",
+          "commit": "f88290efc3062a7b4a56105193238c269816b613",
+          "file": "SB-1997-48.md",
+          "cited_eli": "https://e-sbirka.gov.cz/eli/cz/sb/1997/48/2026-01-01",
+          "official_current_version_url": "https://e-sbirka.gov.cz/eli/cz/sb/1997/48/2026-10-01",
+          "result": "full_body_mismatch_against_cited_official_historical_version",
+          "first_difference": "§ 1: candidate begins 'Zákon upravuje veřejné zdravotní pojištění'; official dated text begins with a paragraph on transposition of and linkage to EU law.",
+          "normalized_for_comparison": "Markdown headings, list markers, emphasis, superscript footnote marker and whitespace only",
+          "accepted_as_local_copy": false
+        }
       }
     },
     {
@@ -2467,6 +2491,7 @@
       "decision": "accepted_with_narrow_external_scope",
       "accepted_role": "Official e-Sbírka record for Act No. 117/1995 Coll., on State Social Support. The current consolidated version displayed is effective 1 September 2026. Link-only reference; no benefit eligibility conclusion or local copy is accepted.",
       "not_accepted": [
+        "The Legalize-CZ candidate is not accepted as a local copy: its complete body mismatches the official historical text named by its 2026-01-01 ELI link.",
         "A locally captured, converted or semantically reviewed source copy.",
         "A complete provision-level EU free-movement analysis or topic coverage.",
         "Application beyond the official current version date and scope stated here."
@@ -2478,8 +2503,19 @@
         "publisher": "e-Sbírka, official Collection of Laws and International Treaties",
         "language": "cs",
         "version": "Official e-Sbírka record and current version metadata checked 2026-10-29; current version effective 2026-09-01.",
-        "verified_locations": "Potentially relevant to state family and social benefits under equal-treatment and social-assistance rules. This is a code-level locator only; no specific benefit eligibility rule or EU-law interaction was reviewed.",
-        "limits": "Official e-Sbírka record for Act No. 117/1995 Coll., on State Social Support. The current consolidated version displayed is effective 1 September 2026. Link-only reference; no benefit eligibility conclusion or local copy is accepted."
+        "verified_locations": "Potentially relevant to state family and social benefits under equal-treatment and social-assistance rules. This is a code-level locator only; no specific benefit eligibility rule or EU-law interaction was reviewed. A complete-body check of Legalize-CZ SB-1995-117.md against the official historical version (117/1995 Sb., 1. 1. 2026 - 30. 6. 2026, minulé znění, informativní znění systému e-Sbírka) found a substantive § 1 mismatch; the candidate is not accepted.",
+        "limits": "Official e-Sbírka record for Act No. 117/1995 Coll., on State Social Support. The current consolidated version displayed is effective 1 September 2026. Link-only reference; no benefit eligibility conclusion or local copy is accepted. The tested Legalize-CZ file fails the complete historical-text comparison, so it does not supply a local text copy or retrieval method.",
+        "legalize_candidate_review": {
+          "repository": "https://github.com/legalize-dev/legalize-cz",
+          "commit": "f88290efc3062a7b4a56105193238c269816b613",
+          "file": "SB-1995-117.md",
+          "cited_eli": "https://e-sbirka.gov.cz/eli/cz/sb/1995/117/2026-01-01",
+          "official_current_version_url": "https://e-sbirka.gov.cz/eli/cz/sb/1995/117/2026-09-01",
+          "result": "full_body_mismatch_against_cited_official_historical_version",
+          "first_difference": "§ 1(1): candidate and official wording differ on the family-support expenses covered.",
+          "normalized_for_comparison": "Markdown headings, list markers, emphasis, superscript footnote marker and whitespace only",
+          "accepted_as_local_copy": false
+        }
       }
     }
   ],
