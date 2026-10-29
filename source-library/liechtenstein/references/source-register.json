@@ -250,6 +250,19 @@
       "local_path": null
     },
     {
+      "id": "li-27",
+      "class": "immigration_application_form",
+      "title": "Migration and Passport Office family-reunification online form",
+      "publisher": "Migration and Passport Office (Ausländer- und Passamt, APA), Liechtenstein",
+      "url": "https://formulare.llv.li/formserver_APA/start.do?generalid=APA_FN",
+      "language": "German; English option displayed but English form view not verified",
+      "version": "Interactive form initial step checked 2026-10-29; no publication or revision date shown; five-step indicator displayed.",
+      "scope": "Official interactive family-reunification application entry point. Maintained Markdown note maps the verified initial step only; later screens and all submission requirements remain unverified.",
+      "status": "accepted_external_reference_only",
+      "checked_on": "2026-10-29",
+      "local_path": null
+    },
+    {
       "id": "li-32",
       "class": "judicial_structure",
       "title": "Oberster Gerichtshof — institutional and decision-publication information",
