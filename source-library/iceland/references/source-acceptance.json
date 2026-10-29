@@ -7,12 +7,12 @@
     "publisher": "Alþingi (Icelandic Parliament) and official public authorities",
     "decision": "Accept the listed government-published links for their stated, limited uses. The current Alþingi consolidated-law pages are accepted as external references in Icelandic.",
     "basis": "The publisher and instrument identities are clear. Alþingi current law pages display Lagasafn edition 158a dated 1 October 2026. The official Ministry of Justice immigration page links to Alþingi, Reglugerðasafn and published appeal decisions. The Courts Administration publishes Rules No. 3/2022 on its official court-service network and identifies its effective date and repeal of the 2019 rule. The official Directorate of Immigration processing page was checked on 24 October 2026 and states that its selected-type averages are based on applications approved so far in the year and do not predict an individual pending decision. Alþingi’s current consolidated Visa Act No. 37/2026 page identifies edition 158a dated 1 October 2026 and an effective date of 12 May 2026.",
-    "limitation": "All accepted external references retain their recorded narrow scope. One locally maintained English summary is accepted for is-05; it is not a consolidated legal text. No local full statutory text or topics are accepted and the Iceland review remains incomplete. The linked Regulation 540/2017 base text predates listed amendments 669/2026, 724/2026 and 725/2026. Court and appeals publications are not established as exhaustive."
+    "limitation": "All accepted external references retain their recorded narrow scopes. Five locally maintained English summaries are accepted (is-05 and is-08 through is-11); none is a full statutory text. No topics are accepted and the Iceland review remains incomplete. The linked Regulation 540/2017 base text predates listed amendments 669/2026, 724/2026 and 725/2026. Court and appeals publications are not established as exhaustive."
   },
   "counts": {
     "candidate_records": 34,
     "accepted_external_references": 36,
-    "accepted_local_copies": 1,
+    "accepted_local_copies": 5,
     "remaining_candidate_records": 0,
     "accepted_topics": 0,
     "country_review_complete": false
@@ -211,9 +211,19 @@
       "url": "https://island.is/en/residence-right-of-family-members-of-eea-efta-citizens",
       "publisher": "Directorate of Immigration / Ísland.is",
       "language": "en",
-      "checked_at": "2026-10-21",
+      "checked_at": "2026-10-29",
       "acceptance_scope": "Official service guidance describing the displayed application route and family categories for residence cards of EEA/EFTA citizens.",
-      "limitations": "Service guidance is not a substitute for the governing law. Threshold and application questions remain subject to the open registration review; no local copy is accepted."
+      "limitations": "Service guidance is not a substitute for the governing law. Threshold and application questions remain subject to the open registration review; no local copy is accepted.",
+      "verified_evidence": "Directorate page on family eligibility and application route; preserved complete candidate body retrieved 19 October 2026 and official search index surfaced current page 29 October. Direct page open returned 403.",
+      "accepted_local_summary": {
+        "status": "accepted_project_authored_source_summary",
+        "path": "documents/guidance/is-08.md",
+        "checked_at": "2026-10-29",
+        "language": "English",
+        "scope": "Eligibility categories, student-sponsor limits, Icelandic-return-route description, displayed paper procedure and fee.",
+        "provenance": "Preserved candidate capture SHA-256: 56e1222305dfd35ae513c5b12b5e9077134a828c3a0d84a396092aa807a7d56d.",
+        "limits": "The page’s displayed three-month threshold is not accepted as a definitive legal threshold; reconcile against primary law and conflicting agency guidance."
+      }
     },
     {
       "source_id": "is-09",
@@ -221,9 +231,19 @@
       "url": "https://island.is/en/residence-right-of-family-members-of-eea-efta-citizens/supporting-documents",
       "publisher": "Directorate of Immigration / Ísland.is",
       "language": "en",
-      "checked_at": "2026-10-21",
+      "checked_at": "2026-10-29",
       "acceptance_scope": "Official displayed supporting-document guidance for EEA/EFTA family residence-card applications, including evidence, authentication and translation instructions.",
-      "limitations": "The checklist is operational guidance, not a complete statement of legal requirements; verify the current page and applicable law before use."
+      "limitations": "The checklist is operational guidance, not a complete statement of legal requirements; verify the current page and applicable law before use.",
+      "verified_evidence": "Directorate supporting-document page; preserved complete candidate body retrieved 19 October 2026 and official search index surfaced current page 29 October. Direct page open returned 403.",
+      "accepted_local_summary": {
+        "status": "accepted_project_authored_source_summary",
+        "path": "documents/guidance/is-09.md",
+        "checked_at": "2026-10-29",
+        "language": "English",
+        "scope": "Independent outline of identity/family/dependency evidence, support evidence, authentication, certification and translation guidance.",
+        "provenance": "Preserved candidate capture SHA-256: 89c2c9c1298024d4125e0be4d6d948e010af96ddd8151b9f9e847c3333fc1f1c.",
+        "limits": "Operational checklist may change; not complete legal requirements and not an individual evidence determination."
+      }
     },
     {
       "source_id": "is-10",
@@ -231,9 +251,19 @@
       "url": "https://island.is/en/residence-right-of-family-members-of-eea-efta-citizens/residence-card",
       "publisher": "Directorate of Immigration / Ísland.is",
       "language": "en",
-      "checked_at": "2026-10-21",
+      "checked_at": "2026-10-29",
       "acceptance_scope": "Official service guidance for displayed residence-card rights, conditions and holder instructions.",
-      "limitations": "The page is not a legal determination of an individual holder’s rights; legislation controls and the page may change."
+      "limitations": "The page is not a legal determination of an individual holder’s rights; legislation controls and the page may change.",
+      "verified_evidence": "Directorate rights-and-obligations page; preserved complete candidate body retrieved 19 October 2026 and official search index surfaced current page 29 October. Direct page open returned 403.",
+      "accepted_local_summary": {
+        "status": "accepted_project_authored_source_summary",
+        "path": "documents/guidance/is-10.md",
+        "checked_at": "2026-10-29",
+        "language": "English",
+        "scope": "Independent summary of stated card validity, absence, work and permanent-residence guidance.",
+        "provenance": "Preserved candidate capture SHA-256: 46c47d6897572375111736459a2150a1bdbc33b89620262c87d1ab71ce475069.",
+        "limits": "General service guidance; route and entitlements must be checked against current law and individual circumstances."
+      }
     },
     {
       "source_id": "is-11",
@@ -241,9 +271,19 @@
       "url": "https://island.is/en/permanent-residence-for-family-members-of-eea-efta-citizens",
       "publisher": "Directorate of Immigration / Ísland.is",
       "language": "en",
-      "checked_at": "2026-10-21",
+      "checked_at": "2026-10-29",
       "acceptance_scope": "Official service guidance for the displayed permanent-residence route for EEA/EFTA family members.",
-      "limitations": "Operational guidance only; map the relevant statutory provisions and confirm current application requirements separately."
+      "limitations": "Operational guidance only; map the relevant statutory provisions and confirm current application requirements separately.",
+      "verified_evidence": "Directorate permanent-residence page; preserved complete candidate body retrieved 19 October 2026 and official search index surfaced current page 29 October. Direct page open returned 403.",
+      "accepted_local_summary": {
+        "status": "accepted_project_authored_source_summary",
+        "path": "documents/guidance/is-11.md",
+        "checked_at": "2026-10-29",
+        "language": "English",
+        "scope": "Independent summary of five-year route, continuity, exceptions, application method, displayed fee and card replacement.",
+        "provenance": "Preserved candidate capture SHA-256: 66cf68e61b1f292e9aee557716a226431d722918f47b1246838cfdb238a4a45f.",
+        "limits": "General service guidance; no individual continuity or exception determination; confirm current law and fee."
+      }
     },
     {
       "source_id": "is-12",
@@ -464,6 +504,6 @@
       "reason": "Rules No. 3/2019 are superseded; Rules No. 3/2022 state they took effect on 2022-10-01 and repealed the 2019 rules."
     }
   ],
-  "completion_note": "Thirty-six official external references have scoped acceptance. One maintained source summary is accepted for is-05; no local full statutory text or topic is accepted, and Iceland is not complete. Open work includes resolving the three-month/six-month registration guidance conflict against primary law, verifying court-search coverage and continuing case-law discovery, mapping visa and immigration judicial remedies, checking current mission instructions, and completing operational and dependency review.",
-  "count_note": "The 34 candidate_records are the original discovery inventory; all have a documented disposition and accepted official external references, so remaining_candidate_records is 0. Two additional official references (is-35 and is-36) were added during this review. These counts do not accept local copies: accepted_local_copies is 1 (the maintained is-05 source summary; it is not a full consolidated law text). Topic coverage and country completion remain separate and open."
+  "completion_note": "Thirty-six official external references have scoped acceptance. Five maintained source summaries are accepted (is-05, is-08, is-09, is-10 and is-11); no local full statutory text or topic is accepted, and Iceland is not complete. Open work includes resolving the three-month/six-month registration guidance conflict against primary law, verifying court-search coverage and continuing case-law discovery, mapping visa and immigration judicial remedies, checking current mission instructions, and completing operational and dependency review.",
+  "count_note": "The 34 candidate_records are the original discovery inventory; all have a documented disposition and accepted official external references, so remaining_candidate_records is 0. Two additional official references (is-35 and is-36) were added during this review. These counts do not accept local copies: accepted_local_copies is 5 (maintained summaries is-05 and is-08 through is-11; none is a full statutory text). Topic coverage and country completion remain separate and open."
 }
