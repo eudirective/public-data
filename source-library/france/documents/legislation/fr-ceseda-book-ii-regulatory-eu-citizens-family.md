@@ -28,9 +28,10 @@ The official table of contents organizes Book II as follows:
 | III | Residence in France, including residence documents and permanent residence | R. 231-1 to R. 237-1 |
 | IV | Asylum and other international protection rules applicable to this group | R. 240-1 |
 | V | Removal decisions and procedures | R. 251-1 to R. 253-1 |
-| VI | Movement conditions | R. 264-1 |
-| VII | Other applicable provisions | R. 270-1 to R. 270-4 |
-| VIII | Territorial adaptations | R. 281-1 to R. 286-2 |
+| VI | Execution of removal decisions | R. 264-1 |
+| VII | Controls and sanctions | R. 270-1 to R. 270-4 |
+| VII bis | Litigation procedure | R. 271-1 |
+| VIII | Overseas provisions and territorial adaptations | R. 281-1 to R. 286-2 |
 
 The code also identifies chapters and sections within those titles. The table is a navigation map, not an exhaustive account of each provision.
 
@@ -46,9 +47,9 @@ Title III covers registration attestations, conditions for stays beyond three mo
 
 The section distinguishes regulatory procedures from the underlying statutory conditions. In particular, residence rights and family eligibility depend on Book II of the legislative part. The specific text and effective date of each article should be checked on its own Légifrance page when applying a rule.
 
-### Removal and territorial rules
+### Removal, execution, controls and litigation
 
-Title V contains rules for removal decisions, including the competent administrative authority, notification information, and references for administrative and judicial procedures. Title VIII adapts Book II for overseas territories. At least one territorial adaptation, Article R. 281-5 for Mayotte, showed an article-level effective date of 13 June 2026 and a reference to Decree 2026-471 of 10 June 2026. The territorial adaptations therefore need article-level review; do not assume metropolitan provisions apply identically everywhere.
+Title V contains rules for removal decisions, including the competent administrative authority, the period stated in notifications, and a cross-reference for administrative and judicial procedure. Title VI addresses execution of removal decisions; it cross-refers to regulatory provisions on enforcement and detention. Title VII sets sanctions for certain registration or residence-card failures. Title VII bis makes Book IX rules applicable to litigation for people whose situation is governed by Book II. These cross-references require reading the relevant current provisions in the linked codes. At least one territorial adaptation, Article R. 281-5 for Mayotte, showed an article-level effective date of 13 June 2026 and a reference to Decree 2026-471 of 10 June 2026. The territorial adaptations therefore need article-level review; do not assume metropolitan provisions apply identically everywhere.
 
 ## Currentness and cross-checks
 
