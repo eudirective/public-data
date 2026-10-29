@@ -1,6 +1,6 @@
 # Portugal national source pack
 
-**Status (29 October 2026):** the 69-source inventory has 62 narrowly accepted official link references, three Gov.pt pages not relied upon for current procedures, and four AIMA references under whole-site human review. One dated derived statutory text is retained; no legal topics are accepted, and Portugal remains incomplete. The 19 October retrieval pass produced 19 converted review artifacts that remain unaccepted. A separate dated derived copy of the DRE consolidation of Lei 37/2006 is maintained under documents/legislation; DRE states the consolidation has no legal value. These capture results do not block link use.
+**Status (29 October 2026):** the 70-source inventory has 63 narrowly accepted official link references, three Gov.pt pages not relied upon for current procedures, and four AIMA references under whole-site human review. Two dated derived statutory texts are retained; no legal topics are accepted, and Portugal remains incomplete. The 19 October retrieval pass produced 19 converted review artifacts that remain unaccepted. Dated derived copies of DRE consolidations for Lei 37/2006 and Lei 143/2015 are maintained under documents/legislation; DRE states that the consolidations have no legal value. These capture results do not block link use.
 
 - [Source list](references/source-list.md)
 - [Candidate manifest](references/candidate-manifest.json)
