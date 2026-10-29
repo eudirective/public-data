@@ -345,18 +345,20 @@
       "status": "usable_official_reference",
       "publisher": "Ministry of Inclusion, Social Security and Migration, Spain",
       "url": "https://www.inclusion.gob.es/es/web/migraciones/w/63.-tarjeta-de-residencia-permanente-de-familiar-de-ciudadano-de-la-union-europea",
-      "checked_on": "2026-10-21",
+      "checked_on": "2026-10-29",
       "language": "Spanish",
-      "version_or_cutoff": "Page states last update May 2025.",
+      "version_or_cutoff": "HTML last update May 2025; linked official 9-page PDF last update February 2026.",
       "scope": "Operational guidance for permanent residence cards for family members; use only within the page's specific permanent-card procedure.",
-      "reviewed_content": "The official page states it is orientative, refers to law in force at filing, identifies required EX-19 documents and describes filing locations and channels.",
+      "reviewed_content": "On 2026-10-29 the official HTML page and its current linked PDF were opened. Both identify Hoja 63, but the HTML reports May 2025 and the linked PDF February 2026. The maintained source note records the date mismatch, subject scope, legal references, four permanent-residence pathways, procedure and limits; no full verbatim page or PDF copy is accepted.",
       "limitations": [
-        "Its Spanish-national-family note is not the current source for the distinct Chapter VII route; use Hoja 18 and RD 1155/2024 for that route.",
-        "Recheck current law for the issue and filing date; the page is not legislation."
+        "The HTML/PDF update-date mismatch means the HTML body cannot be assumed synchronized with the later PDF.",
+        "The Ministry marks this as orientative guidance; law in force at filing controls.",
+        "The note is a maintained scope summary, not the complete legal text or a case-specific assessment.",
+        "The Spanish-national-family EX-19 route applies only where free movement was exercised; otherwise the distinct EX-24 route applies."
       ],
       "document_path": "../documents/procedure/es-hoja-63-permanent-eu-family-card-reference.md",
-      "document_sha256": "4249ad471e0926282ed35c370935195b201854a39c924db2354998d02e627e76",
-      "document_bytes": 1094
+      "document_sha256": "851814aa823b1cf02627ba9da1b0cffe4102e2f993da6c4fabcee559246a5a38",
+      "document_bytes": 2260
     },
     "es-28": {
       "status": "usable_official_reference",
@@ -810,19 +812,20 @@
       "status": "usable_official_reference",
       "publisher": "Ministry of Inclusion, Social Security and Migration, Spain",
       "url": "https://ciudadaniaexterior.inclusion.gob.es/es/web/migraciones/w/65.-certificado-de-registro-de-ciudadano-de-la-union-europea",
-      "checked_on": "2026-10-25",
+      "checked_on": "2026-10-29",
       "language": "Spanish",
-      "version_or_cutoff": "Official sheet last updated May 2025; current official page and attachment link reviewed 2026-10-25.",
+      "version_or_cutoff": "Official Ministry page and one-page PDF last updated May 2025; verified on 2026-10-29 through the Ministry's Ucrania Urgente host.",
       "scope": "Orientative ministry sheet for the EU citizen registration certificate procedure.",
-      "reviewed_content": "The sheet identifies its orientative status, points readers to the National Police procedure for requirements and documentation, and links a 106 KB PDF attachment.",
+      "reviewed_content": "On 2026-10-29 the official Ministry page at the registered Ciudadanía Exterior URL was inaccessible through the browser, while the same Ministry's Ucrania Urgente host exposed the titled Hoja 65 and linked one-page PDF. Both identify Hoja 65 as orientative, last updated May 2025, and direct readers to the National Police procedure for current requirements. The maintained note records the exact reachable publisher route and limits.",
       "limitations": [
-        "The sheet says the rules in force when an application is filed control.",
-        "The Police procedure is the operational source; this note does not accept the PDF attachment as a local copy.",
-        "Do not use this sheet alone as proof of current filing details."
+        "The registered host was not accessible to the research client; a same-Ministry official host supplied the page and linked PDF.",
+        "The guidance is dated and orientative; it defers requirements and documentation to the National Police procedure and rules in force when filing.",
+        "The maintained note is an independently prepared source summary, not a verbatim page/PDF copy."
       ],
       "document_path": "../documents/procedure/es-hoja-65-eu-registration-certificate-reference.md",
-      "document_sha256": "3a748ddfa526d022b441a11433b36d6474eccc73f1b284aad54fd16ad1723472",
-      "document_bytes": 1120
+      "document_sha256": "eb32caf8868ea5e562f56c6de3f7a42633a2c30373d44dc73ed398f86eb98644",
+      "document_bytes": 1964,
+      "alternate_official_url": "https://ucraniaurgente.inclusion.gob.es/es/web/migraciones/w/65.-certificado-de-registro-de-ciudadano-de-la-union-europea"
     },
     "es-24": {
       "status": "usable_official_reference",
