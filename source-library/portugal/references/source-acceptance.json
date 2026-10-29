@@ -1010,12 +1010,16 @@
       ],
       "evidence": {
         "official_source_url": "https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1966-34509075-49754075",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-29",
         "language": "Portuguese",
-        "version": "DRE identifies Chapter III as rights of foreigners/conflicts of laws, beginning at Article 14; it showed in-force status and last alteration 2026-06-23.",
-        "verified_content": "Civil Code, Chapter III: rights of foreigners and conflict of laws",
-        "limitations": "This chapter-specific link replaces the erroneous 1993 URL and is not the whole Civil Code. DRE says consolidations have no legal value."
-      }
+        "version": "DRE search output checked 2026-10-29 identifies the consolidated Código Civil as in force and shows last alteration 2026-06-23. DRE consolidated texts integrate changes/corrections but have no legal value and do not replace original acts, according to DRE's consolidated-version policy.",
+        "verified_content": "Civil Code, Book I, Chapter III (Articles 14 onward): rights of foreigners and conflict of laws; relevant provisions mapped in the maintained note.",
+        "limitations": "The overall last-alteration date does not establish a change to each provision in Chapter III. DRE consolidation is a working reference only. The selected candidate pt-04-código-civil-private-international-law-provisions is the same instrument and is not a second source. No local legal text is accepted."
+      },
+      "document_path": "documents/legislation/pt-68-codigo-civil-conflict-of-laws-2026-10-29.md",
+      "candidate_aliases": [
+        "pt-04-código-civil-private-international-law-provisions"
+      ]
     },
     {
       "source_id": "pt-23",
