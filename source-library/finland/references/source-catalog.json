@@ -976,9 +976,9 @@
         "record": "Appealing against authority decision"
       },
       "functional_relationship": "related_source",
-      "verification_status": "Official Ministry of Justice judicial website page inspected; general administrative appeal process described",
-      "retrieval_status": "converted_review_candidate",
-      "retrieval_shape": "official candidate page -> exact response -> deterministic text conversion",
+      "verification_status": "Official Oikeus.fi page directly reviewed in full substantive form on 2026-10-29; Ministry of Justice maintains the portal. Maintained summary: documents/guidance/fi-oikeus-appeal-guidance.md.",
+      "retrieval_status": "maintained_markdown_summary",
+      "retrieval_shape": "complete substantive official page directly reviewed; structured summary",
       "seed_status": "candidate",
       "check_note": "General route information; it does not replace the time limit and filing instructions attached to a specific authority decision.",
       "retrieved": true,
@@ -994,7 +994,11 @@
       "monitor_archive_path": "candidates/public-data/finland/monitor-candidates/fi-oikeus-appeal-guidance.md",
       "external_reference_accepted": true,
       "external_reference_checked_at": "2026-10-24",
-      "local_copy_status": "no local copy accepted; captured page conversion archived in Monitor local-only archive"
+      "local_copy_status": "Maintained Markdown summary; raw HTML and verbatim conversion not retained.",
+      "maintained_markdown_path": "documents/guidance/fi-oikeus-appeal-guidance.md",
+      "maintained_markdown_checked_at": "2026-10-29",
+      "maintained_markdown_note_accepted": true,
+      "exact_source_copy_accepted": false
     },
     {
       "id": "fi-oikeus-public-access",
@@ -1279,5 +1283,5 @@
   "accepted_local_copy_count": 2,
   "retrieval_status": null,
   "maintained_locator_note_count": 1,
-  "maintained_markdown_record_count": 1
+  "maintained_markdown_record_count": 2
 }
