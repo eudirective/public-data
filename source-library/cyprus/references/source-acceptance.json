@@ -168,7 +168,7 @@
       "decision": "accepted_with_narrow_external_scope",
       "accepted_role": "Official OLC English translation/consolidation publication metadata for Law 7(I)/2007, its stated May 2024 publication date and listed cutoff through 96(I)/2023.",
       "not_accepted": [
-        "A locally stored artifact; the PDF response bytes and hash remain pending.",
+        "A locally stored artifact; PDF response bytes and hash remain pending.",
         "Any complete statutory provision text or the authentic Greek text.",
         "The complete or current consolidated Law 7(I)/2007, or absence of amendments after 96(I)/2023.",
         "The current commencement or legal effect of provisions listed in the consolidation."
@@ -176,13 +176,15 @@
       "evidence": {
         "official_index_url": "https://www.gov.cy/officelawcommissioner/en/documents/competences-of-the-law-commissioner/translations-consolidations/",
         "official_pdf_url": "https://www.olc.gov.cy/olc/olc.nsf/DB4EF1023FE5BB54C2258B2D001FE738/%24file/The%20right%20of%20citizens.pdf",
-        "retrieved_at": "2026-10-19T22:35:06Z",
+        "retrieved_at": "2026-10-29",
         "language": "en",
         "version": "Official OLC English translation/consolidation, Laws 2007 to 2023; front matter dated May 2024; listed amendments through 96(I)/2023.",
         "verified_locations": "OLC translations index entry for Law 7(I)/2007 (27 MB PDF); PDF front matter publication title, date and amendment list.",
-        "retrieval_limit": "Direct PDF open returned HTTP 500; no local response bytes or hash.",
-        "research_finding": "R-20261019T144048Z-b92d10fc / F1"
-      }
+        "retrieval_limit": "Direct OLC PDF and Gov.cy index opens returned access/server errors in this review environment. Official search output exposed the PDF front matter and index entries; no local PDF bytes, hash, page count or full text were verified.",
+        "research_finding": "R-20261019T144048Z-b92d10fc / F1",
+        "current_index_evidence": "The Migration Department legislation page published 2025-12-19 continues to list Law 7(I)/2007 and describes linked consolidations as unofficial; this does not establish the English PDF's post-2023 currency."
+      },
+      "maintained_note_path": "source-library/cyprus/documents/legislation/cy-law-7i-2007-olc-english-consolidation.md"
     },
     {
       "source_id": "cy-gazette-law-23-2024-chain-reference",
@@ -1233,7 +1235,7 @@
       "candidate_archive_sha256": "40a5e9cba3053fe5e225aef7b5eb9ec7d298f4efc63d20f0b99859b7cc6a737f"
     }
   ],
-  "accepted_maintained_source_note_count": 8,
+  "accepted_maintained_source_note_count": 9,
   "maintained_source_notes": [
     {
       "source_id": "cy-cypriot-family-employment-forms",
@@ -1334,6 +1336,19 @@
         "This note is not a current consolidated text or legal advice."
       ],
       "source_url": "https://www.olc.gov.cy/olc/olc.nsf/6104940C95908049C2258B7200330D64/$file/%CE%9F%20%CF%80%CE%B5%CF%81%CE%AF%20%CE%91%CE%BB%CE%BB%CE%BF%CE%B4%CE%B1%CF%80%CF%8E%CE%BD%20%CE%BA%CE%B1%CE%B9%20%CE%9C%CE%B5%CF%84%CE%B1%CE%BD%CE%B1%CF%83%CF%84%CE%B5%CF%8D%CF%83%CE%B5%CF%89%CF%82%20%CE%9D%CF%8C%CE%BC%CE%BF%CF%82%2C%20%CE%9A%CE%B5%CF%86.105%20%282%29.pdf"
+    },
+    {
+      "source_id": "cy-free-movement-consolidation",
+      "status": "accepted_project_authored_source_note",
+      "document_path": "source-library/cyprus/documents/legislation/cy-law-7i-2007-olc-english-consolidation.md",
+      "checked_on": "2026-10-29",
+      "scope": "OLC English translation/consolidation publication identity, May 2024 publication date and listed amendment cutoff through Law 96(I)/2023; currentness and retrieval limits.",
+      "limits": [
+        "No local PDF bytes, page count, hash or complete law text accepted; direct retrieval failed.",
+        "Post-2023 amendment status is unresolved; do not infer that the cutoff is current.",
+        "English translation/consolidation is not authentic Gazette text; current legal effect and commencement remain separate."
+      ],
+      "source_url": "https://www.olc.gov.cy/olc/olc.nsf/DB4EF1023FE5BB54C2258B2D001FE738/$file/The%20right%20of%20citizens.pdf"
     }
   ]
 }
