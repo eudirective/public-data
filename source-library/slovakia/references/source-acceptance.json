@@ -7,11 +7,11 @@
   "accepted_derived_text_count": 0,
   "accepted_topic_count": 0,
   "country_review_complete": false,
-  "accepted_external_reference_count": 37,
+  "accepted_external_reference_count": 38,
   "legacy_inventory": {
     "candidate_records": 40,
     "candidate_texts_converted_and_replay_verified": 31,
-    "local_acceptance_note": "All 40 source leads have final source-reference or disposition notes. Thirty-seven external official references are usable within recorded scope. Four local statutory transcriptions are accepted: Acts 71/1967, 404/2011, 365/2004 and 36/2005; 36 other lead records have no accepted local source-text copy. Thirty-one converted candidate texts and inputs remain in the Monitor archive; no topic or country completion is accepted."
+    "local_acceptance_note": "The 40 original source leads have final source-reference or disposition notes; batch target SK-41 has been added as a further maintained reference. Thirty-eight external official references are usable within recorded scope. Four local statutory transcriptions are accepted: Acts 71/1967, 404/2011, 365/2004 and 36/2005; 36 other lead records have no accepted local source-text copy. Thirty-one converted candidate texts and inputs remain in the Monitor archive; no topic or country completion is accepted."
   },
   "policy": "A human-reviewed official link is usable for ordinary research within the identified publisher, instrument, language, displayed date or cutoff, reviewed content, and limitations. Slov-Lex, the Ministry of Foreign Affairs, and the Ministry of Interior are clearly identifiable official government sources. Use their government-published current or date-bound versions directly. No Gazette-fragment reconstruction, local capture, hash, replay, conversion, API access, or copying permission is required for link use. Check a later amendment only when it may materially affect the issue. Link acceptance is separate from local-copy acceptance, topic coverage, and country completion. Local statutory transcription acceptance requires a verified official dated version, complete captured body, explicit authority caveat, and applicable reuse basis; link acceptance remains separate from local-copy acceptance.",
   "official_reference_reviews": {
@@ -874,6 +874,31 @@
           "sections": "Repeals Regulation (EC) No 562/2006"
         }
       ]
+    },
+    "sk_41": {
+      "status": "usable_official_reference_with_maintained_local_summary",
+      "publisher": "Ministry of Foreign and European Affairs of the Slovak Republic, Embassy in Minsk",
+      "url": "https://www.mzv.sk/web/minsk/services/information-for-foreigners/visa/family-members-of-union-citizens",
+      "checked_on": "2026-10-29",
+      "language": "Slovak",
+      "version_or_cutoff": "Page states published and updated 2025-09-17; directly opened and reviewed 2026-10-29.",
+      "scope": "Minsk mission's instructions for qualifying EU-family Schengen visa applicants, including limited returning-Slovak and UK Withdrawal Agreement references described by the page.",
+      "reviewed_content": "The page gives family-member categories, form and identity/family-link/dependency evidence, biometric requirements, a 10-day maximum, and free application. Cross-checked statutory documentation and deadline against Slovak Act 404/2011 §§2, 7 and 16(17), effective 2026-10-01; fee treatment against Directive 2004/38 Article 5(2). Corrected the page's EEA grouping in the maintained note: Switzerland is separately included in Slovak law but is not an EEA contracting party.",
+      "limitations": [
+        "Minsk mission-specific; do not generalize to other locations or assume it is the competent mission for a particular applicant.",
+        "Online form, fingerprint arrangements and submission channels can change.",
+        "The page's Switzerland placement under an EFTA heading within an EEA list is imprecise; keep the legal categories distinct.",
+        "UK Withdrawal Agreement route applies only where its legal conditions are met.",
+        "Slov-Lex warns that the displayed HTML version is informative; consult its binding PDF and current history if exact legal wording matters.",
+        "No topic or country completion is accepted."
+      ],
+      "source_document": {
+        "path": "source-library/slovakia/documents/references/sk-41-mfa-minsk-eu-family-visa-rules.md",
+        "sha256": "889782644806eed674877b9e85c9eb8acede64b7d9297b6da83f82cf64cb36af",
+        "bytes": 6110,
+        "kind": "maintained_official_reference_note",
+        "reproduces_source_text": false
+      }
     }
   },
   "not_accepted_candidate_notes": [
@@ -903,7 +928,8 @@
         "SK-28",
         "SK-29",
         "SK-30",
-        "SK-31"
+        "SK-31",
+        "SK-41"
       ],
       "offer": "Offer the official MZV mission directory and linked mission websites as a whole-site human review source for current visa and consular practice. The central pages and directory are usable as scoped official references, but local missions may set different checklists, appointments, submission channels, and outsourcing arrangements. Older pages found in the same official network are visibly stale and should not be treated as current rules.",
       "review_scope": "For relevant applicant locations, identify the competent mission, current EU-family instructions, required documents, fee exemptions, appointment route, provider or outsourcing arrangement, and current forms. Record the page's date or version evidence and retain any inaccessible route as a human-review offer; do not infer that one mission's practice applies network-wide."
