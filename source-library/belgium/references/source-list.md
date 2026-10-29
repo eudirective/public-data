@@ -79,3 +79,8 @@ This is a bounded discovery register and partial local-text pack, not a complete
 The federal 1994 access-to-records law is not a nationwide answer. Wallonia, Flanders, Brussels institutions, the German-speaking Community, the French Community, and municipal/provincial authorities need scope-specific checks. The relevant official services are listed in `source-acceptance.json` for human review where current consolidated wording or institutional competence needs confirmation.
 
 No exhaustive query transcript or all-mission inventory exists. The source register does not establish complete law coverage, a complete remedies map, or a complete court corpus. It does establish that official links can be used without requiring a retained capture or custom automated pipeline.
+
+
+## Legalize-BE crosswalk — 29 October 2026
+
+The pinned Legalize-BE repository contains a French candidate for the Immigration Law of 15 December 1980, but its September 2025 snapshot is older than the official Justel consolidation updated through 24 June 2026. The existing French and Dutch pack copies come from official Justel captures. Legalize-BE's stated corpus excludes secondary acts, including the 1981 implementing Royal Decree. No Legalize retrieval method or copy is accepted for these records. See the [full crosswalk](legalize-crosswalk-2026-10-29.md).
