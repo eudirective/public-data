@@ -6,6 +6,7 @@
 - [National source manifest](references/pack-manifest.json)
 - [Guidance manifest](references/guidance-manifest.json)
 - [Source discovery catalog](references/source-catalog.json)
+- [Legalize repository crosswalk and verification](references/legalize-crosswalk-2026-10-29.md)
 - [Official-reference acceptance register](references/source-acceptance.json)
 - [Sustainability assessment](references/sustainability-assessment.md)
 
