@@ -2138,21 +2138,29 @@
     {
       "source_id": "cz-mzv-visa-refusal-cs",
       "decision": "accepted_with_narrow_external_scope",
-      "accepted_role": "Czech-language general visa-refusal guidance, visibly updated 6 May 2026. It states a 15-day request-for-reconsideration period for Schengen refusals; its application to EU-family applicants requires a statutory crosswalk. The official page or decision was checked on 2026-10-21. The local copy remains unaccepted.",
+      "accepted_role": "Czech-language general MFA visa-refusal guidance, visibly updated 6 May 2026 and directly reviewed in full substantive form on 29 October 2026. A maintained Czech Markdown summary is recorded at documents/guidance/cz-mzv-visa-refusal-cs.md. The ordinary 15-day reconsideration period must not be applied to an EU-family case without resolving the special statutory route.",
       "not_accepted": [
-        "A local captured or converted artifact; no local copy was added.",
+        "A verbatim or mechanically converted local copy; the retained Markdown is a structured paraphrase.",
         "Country-level completeness or adequacy of the linked legal topic.",
-        "Application beyond the displayed language, source role, decision date and scope stated above."
+        "Application of the general 15-day period to EU-family cases without resolving the special route.",
+        "Application beyond the checked page version and scope."
       ],
       "evidence": {
         "official_source_url": "https://mzv.gov.cz/jnp/cz/informace_pro_cizince/zamitnuti_viza/index.html",
         "stable_record_url": "https://mzv.gov.cz/jnp/cz/informace_pro_cizince/zamitnuti_viza/index.html",
-        "reviewed_on": "2026-10-21",
+        "reviewed_on": "2026-10-29",
         "publisher": "Czech Ministry of Foreign Affairs (MFA)",
         "language": "cs",
-        "version": "Guidance or service page reviewed as displayed 2026-10-21.",
-        "verified_locations": "Official MFA page reviewed 2026-10-21; displayed update date 2026-05-06. Do not apply the general period to an EU-family case without resolving the special statutory route.",
-        "limits": "Czech-language general visa-refusal guidance, visibly updated 6 May 2026. It states a 15-day request-for-reconsideration period for Schengen refusals; its application to EU-family applicants requires a statutory crosswalk."
+        "version": "Official page displayed initial publication 20 February 2020 and update 6 May 2026; complete substantive page directly reviewed 29 October 2026.",
+        "verified_locations": "Complete substantive page from title/update metadata through cited legal sources was available in the official rendered page. Maintained paraphrase at documents/guidance/cz-mzv-visa-refusal-cs.md.",
+        "limits": "Czech-language general visa-refusal guidance, visibly updated 6 May 2026. It states a 15-day request-for-reconsideration period for Schengen refusals; its application to EU-family applicants requires a statutory crosswalk.",
+        "retrieval_limit": "Raw HTML and a verbatim converted page are not retained; the substantive content is represented by structured paraphrase."
+      },
+      "maintained_summary": {
+        "path": "documents/guidance/cz-mzv-visa-refusal-cs.md",
+        "status": "accepted_maintained_source_summary",
+        "checked_on": "2026-10-29",
+        "form": "complete substantive page summarized in Czech; not verbatim"
       }
     },
     {
@@ -2316,5 +2324,5 @@
     }
   ],
   "material_dependencies": "See references/source-dependencies.json. Select Czech statutory cross-references to EU instruments are recorded with their shared-core status or an explicit unresolved state. The national statutory wording is preserved.",
-  "maintained_source_summary_count": 2
+  "maintained_source_summary_count": 3
 }
