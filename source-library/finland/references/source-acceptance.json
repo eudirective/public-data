@@ -17,7 +17,8 @@
     "accepted_local_copies": 4,
     "remaining_candidate_records": 2,
     "accepted_topics": 0,
-    "country_review_complete": false
+    "country_review_complete": false,
+    "maintained_locator_notes": 1
   },
   "accepted_references": [
     {
@@ -354,10 +355,12 @@
       "title": "A visa to visit Finland",
       "url": "https://um.fi/visa-to%20visit-finland",
       "language": "en-fi-sv",
-      "checked_at": "2026-10-24",
+      "checked_at": "2026-10-29",
       "acceptance_scope": "Ministry for Foreign Affairs guidance on visas, visa review and EU free-movement family visas.",
       "limitations": "Accepted as public administrative guidance, including the stated EU-free-movement family visa route. Fees, deadlines, mission channels and national instructions can change; check the live page and the individual decision.",
-      "verification_basis": "The live MFA page distinguishes mobile EU citizen family-member cases, describes no-fee visa applications for covered family members, and states review and appeal routes."
+      "verification_basis": "The live English MFA page was reopened on 29 October 2026 and its identity and official route confirmed. The MFA's About the sites page confirms UM.fi is maintained by the Ministry and copyright in page text/images belongs to the Ministry, missions, or named providers. No page revision date was displayed. A maintained locator was added without retaining page content.",
+      "maintained_markdown_path": "documents/guidance/fi-mfa-visa-guide.md",
+      "local_copy_status": "No page-text copy accepted. Independently authored maintained locator at documents/guidance/fi-mfa-visa-guide.md; no source text, screenshot, HTML, or response is retained."
     },
     {
       "source_id": "fi-mfa-visa-faq",
