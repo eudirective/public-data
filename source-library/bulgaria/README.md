@@ -1,8 +1,8 @@
 # Bulgaria national source pack
 
-The 29 October review adds the verified Legalize-BG crosswalk and official Ministry links for labor, family and social-law sources, plus the later State Gazette issue 88/2026 amendment to the Protection against Discrimination Act. CPDP and Ombudsman versions were checked against their official amendment records. The community Legalize-BG repository is recorded only as a discovery/retrieval method when its version chain matches; stale and unverified candidates are marked in the register. No candidate text was copied.
-
 Status updated 29 October 2026: the register contains 53 source records. Forty official references are usable by link within their reviewed scope and stated cutoffs, and twenty-one local source documents have been accepted in `documents/`. The pack remains a bounded inventory, not a complete legal coverage review.
+
+The 29 October review adds the verified Legalize-BG crosswalk and official Ministry links for labor, family and social-law sources, plus the later State Gazette issue 88/2026 amendment to the Protection against Discrimination Act. CPDP and Ombudsman versions were checked against their official amendment records. The community Legalize-BG repository is recorded only as a discovery/retrieval method when its version chain matches; stale and unverified candidates are marked in the register. No candidate text was copied.
 
 The source register and dated evidence are in [references/source-list.md](references/source-list.md). Link decisions and accepted local-copy paths are in [references/source-acceptance.json](references/source-acceptance.json), cross-instrument dependencies are in [references/source-dependencies.json](references/source-dependencies.json), and remaining source-route issues are in [references/sustainability-assessment.md](references/sustainability-assessment.md). Disposition, discovery, retrieval, and capture working files are held in the EU Source Update Monitor's local-only archive and are not stored in this country pack.
 
