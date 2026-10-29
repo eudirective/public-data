@@ -7,7 +7,7 @@
   "accepted_derived_text_count": 3,
   "accepted_topic_count": 0,
   "country_review_complete": false,
-  "accepted_external_reference_count": 64,
+  "accepted_external_reference_count": 65,
   "external_reference_decisions": [
     {
       "source_id": "pt-02",
@@ -1167,6 +1167,31 @@
         "verified_content": "Full visible consolidated code through Article 305, alteration notes, and DRE consolidation warning were opened and retained.",
         "limitations": "The consolidated view has no legal value and does not replace the originating acts. Recheck later amendments and any applicable regulations."
       }
+    },
+    {
+      "source_id": "pt-05-aima-overview",
+      "decision": "accepted_with_narrow_external_scope",
+      "accepted_role": "Accepted as an official navigation and orientation reference for AIMA's EU-national and family-service routes, represented by a maintained note.",
+      "not_accepted": [
+        "The page as an accepted local source-text copy.",
+        "Complete Portuguese law, operational procedure, or topic coverage.",
+        "Currentness of specific forms, fees, appointment channels, or evidence lists beyond the dated checks recorded below."
+      ],
+      "evidence": {
+        "official_source_url": "https://aima.gov.pt/en/nacionais-ue-e-familiares",
+        "checked_on": "2026-10-29",
+        "language": "Portuguese content at English-path URL",
+        "version": "No page version displayed in the indexed content reviewed.",
+        "verified_content": "Official indexed AIMA hub content and linked current service pages for EU registration, family-member residence cards, and permanent residence. AIMA says EU citizens staying over three months register at the relevant municipality; third-country family members have an AIMA residence-card route; permanent applications are routed through the Portal de Renovações from 1 July 2026. General framework cross-checked against the Diário da República consolidated Lei n.º 37/2006 record.",
+        "limitations": "Direct browser retrieval of the English-path hub timed out. Indexed official page content and linked service pages were available. The hub content is Portuguese despite the English URL. Service details are changeable; verify current linked page, municipality/AIMA channel and applicable law before operational reliance."
+      },
+      "maintained_note": {
+        "path": "documents/guidance/pt-05-aima-eu-citizens-family-hub-2026-10-29.md",
+        "sha256": "ed1f22025d69b12bd3e29e451626dbbc4ef0b03a9b9962b4f4732e446c3a5c18",
+        "role": "maintained_official_reference_note_not_source_text_copy"
+      },
+      "local_copy_accepted": false,
+      "topic_accepted": false
     }
   ],
   "policy": "DRE states that its consolidated pages are government-produced working references but have no legal value and do not replace the original enacted acts. Under the repository source policy, a clearly identified official consolidated page may be used directly within its displayed status/date, subject and caveats; no Gazette-chain reconstruction or local copy is a prerequisite for link use. Original enactments/amendments remain the legal authority if a discrepancy matters.",
@@ -1185,7 +1210,7 @@
       "review_scope": "Confirm parent-page links, service authority, municipality/AIMA division, current forms, appointment and submission channels, and effective dates."
     }
   ],
-  "count_note": "64 official external-reference decisions cover links within scope; they do not count as accepted topics or country completion. Three dated derived text copies are retained: full visible DRE consolidated texts for Lei 37/2006, Lei 143/2015 and the Civil Registration Code, each with the publisher’s no-legal-value caveat. Three Gov.pt pages are not relied upon for current procedure. Four unresolved AIMA routes remain under a whole-site human-review offer.",
+  "count_note": "65 official external-reference decisions cover links within scope; they do not count as accepted topics or country completion. Three dated derived text copies are retained: full visible DRE consolidated texts for Lei 37/2006, Lei 143/2015 and the Civil Registration Code, each with the publisher’s no-legal-value caveat. Three Gov.pt pages are not relied upon for current procedure. Four unresolved AIMA routes remain under a whole-site human-review offer.",
   "not_relied_upon_reference_count": 3,
   "not_relied_upon_references": [
     {
