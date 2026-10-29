@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "collection": "bulgaria/documents/guidance",
+  "entries": [
+    {
+      "source_id": "bg-eu-guidance-en",
+      "official_url": "https://www.mvr.bg/migration/information-about-foreigners/дейности-и-функции/citizens-of-eu",
+      "current_path": "bulgaria/documents/guidance/bg-mvr-eu-citizen-guidance.md",
+      "archive_path": "bulgaria/documents/guidance/archive/bg-mvr-eu-citizen-guidance/4b0c7cefedee6c7837b32f66af53d477bfa6317245981694ee0fe7882d73a5c3.md",
+      "sha256": "4b0c7cefedee6c7837b32f66af53d477bfa6317245981694ee0fe7882d73a5c3",
+      "archived_at": "2026-10-29T02:15:02.491Z",
+      "superseded_by_sha256": "a188fdff242db71bc2fd2a19cd2db1400deb0d7aeb579d5530dd5bbd9a4d7ed5"
+    }
+  ]
+}

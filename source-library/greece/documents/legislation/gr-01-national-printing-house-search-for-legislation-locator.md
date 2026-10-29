@@ -1,43 +1,32 @@
-# Official source locator: National Printing House search for legislation
+# Official source review: National Printing House search for legislation
 
-Jurisdiction: Greece
+- **Jurisdiction:** Greece
+- **Source ID:** gr-01
+- **Source class:** `national_law_discovery`
+- **Publisher:** National Printing House of Greece
+- **Official route:** https://search.et.gr/en/search-legislation/
+- **Language:** English interface
+- **Page version/date:** None displayed; reopened 29 October 2026.
+- **Monitor candidate:** `candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-01.md`
+- **Candidate SHA-256:** `aab64979c6c557e4367dea06332e1d72e87fc537b0ffe8567109dc626fcefc93`
+- **Local source-text copy:** Not accepted; no search-interface text is retained.
 
-Source ID: gr-01
+## Confirmed page content and function
 
-Source class: `national_law_discovery`
+The live page title is “Search Legislation.” It describes a search route for annual F.E.K. laws, Presidential Decrees and related catalogues. The visible filters are:
 
-Publisher: National Printing House, Greece
+- Year
+- Legislation catalogues
+- Number of legislation
 
-Accepted official route: [https://search.et.gr/en/search-legislation/](https://search.et.gr/en/search-legislation/)
+The page footer identifies the National Printing House and links to its Terms of Use. This route is a discovery tool, not a legislative instrument or complete legal source.
 
-Language/version: English; Live search interface checked 25 October 2026; no version date is displayed.
+## Reuse and retrieval limits
 
-Checked: 2026-10-25
+The linked National Printing House terms page states that search.et.gr materials are protected intellectual property unless otherwise stated and prohibits copying or transmission for non-personal use without permission. It provides no open license for the search interface. No interface text is copied here.
 
-Monitor candidate record: `candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-01.md`
+The terms page’s application to direct api.et.gr Gazette PDF access remains unresolved; this locator makes no conclusion about reuse of individual official legislative texts.
 
-Monitor candidate SHA-256: `aab64979c6c557e4367dea06332e1d72e87fc537b0ffe8567109dc626fcefc93`
+No automated retrieval rule is accepted. No instrument-specific search was performed for this review, and the page’s catalogue coverage or completeness is not established.
 
-Local-copy status: No source text is retained in this note. The source remains an external-only official reference.
-
-## Source role and accepted scope
-
-Official National Printing House legislation-search locator only; not an instrument text, complete catalogue, or proof of current law.
-
-## Review findings
-
-The page identifies the National Printing House search for annual F.E.K. law and presidential-decree catalogues and exposes year, legislation-catalogue, and legislation-number filters.
-
-## Candidate reconciliation and disposition
-
-The archived candidate URL matches the accepted official-reference URL: https://search.et.gr/en/search-legislation/. The captured response is not reproduced here as accepted source text.
-
-The candidate body remains in the Monitor's indexed local-only archive for provenance. This file records the accepted link, review scope and disposition; it does not reproduce the captured page, establish current live operation, or establish topic coverage.
-
-## Use limits
-
-- No instrument-specific search was run for this acceptance review, and search coverage or completeness was not assessed.
-- Use the locator to find a specific official record, then accept that record separately.
-- No local copy or automated retrieval rule is accepted.
-
-Use the live official route and confirm its identity, date, attachments and procedural scope before relying on it. Link acceptance does not establish a current consolidated legal text, complete source coverage, or country completion.
+Use this official route to locate a specific Gazette record, then review that record separately. The locator does not confirm current law or the completeness of search results.

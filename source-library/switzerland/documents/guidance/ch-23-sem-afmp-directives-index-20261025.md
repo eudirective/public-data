@@ -1,30 +1,32 @@
-# SEM AFMP and free-movement directives index
+# SEM AFMP and free movement directives index
 
-**Source ID:** ch-23-sem-afmp-directives-index-20261025
-**Publisher:** State Secretariat for Migration (SEM)
-**Record type:** reviewed official link reference
-**Source-copy status:** link-only; no official source text is stored in this file
-**External-reference decision:** accepted within narrow scope; checked 2026-10-25
+**Source ID:** ch-23-sem-afmp-directives-index-20261025  
+**Publisher:** Swiss State Secretariat for Migration (SEM)  
+**Record type:** Maintained official-source reference note  
+**Checked:** 29 October 2026  
+**Source-copy status:** This Markdown record summarizes a live official index; it is not a transcription of the index or its linked PDFs.
 
 ## Official source
 
-- [Official reference](https://www.sem.admin.ch/sem/fr/home/publiservice/weisungen-kreisschreiben/fza.html)
+- [SEM Directives and circulars concerning the Agreement on the Free Movement of Persons (AFMP)](https://www.sem.admin.ch/sem/fr/home/publiservice/weisungen-kreisschreiben/fza.html)
 
-## Accepted scope
+## What the index currently lists
 
-Official SEM route for locating its AFMP/free-movement directives and circulars.
+The French-language SEM index identifies itself as the section for the Agreement on the Free Movement of Persons and links to:
 
-## Review evidence
+- **OLCP/VFP Directives and commentary**, PDF dated **1 January 2026**.
+- **Annexes to the OLCP/VFP Directives**, PDF dated **1 January 2024**.
+- Multiple dated circulars, including the circular on third-country nationals joining EU citizens (27 January 2010), the Croatia extension (21 December 2016), the UK acquired-rights circular updated 1 January 2026, and later operational circulars through 30 November 2023.
+- The page displays **last modified 8 May 2026**.
 
-- Language: fr
-- Version or displayed date: Official index page observed 25 October 2026; linked directive dates must be checked individually.
-- Inspected: The live SEM page identifies itself as the directives and circulars index for the Agreement on the Free Movement of Persons.
-- Currentness and scope limit: The index alone does not establish the current edition, legal effect, or content of any linked instruction; open each relevant dated document.
+The page offers German, French and Italian versions; English is disabled. The index is dynamic: linked PDFs and their dates can change independently of this note. The French page was opened on 29 October 2026 and its displayed titles, dates and modification date were inspected.
 
-## Not established
+## Accepted use and limits
 
-- The text or currentness of any individual linked directive not separately reviewed.
-- Complete AFMP/EFTA law or topic coverage.
-- A local copy or conversion of the index or linked materials.
+Use this page as SEM’s official navigation route to AFMP/free-movement directives and circulars. Open the relevant language version and dated attachment before relying on a particular instruction. The index alone does not establish an individual PDF’s current legal effect, the full operative law, or the status of AFMP changes.
 
-This is a source record for the official link above, not a transcription or local copy. Link acceptance does not establish topic coverage or complete the Switzerland pack.
+This record does not reproduce the index or any linked PDF. It does not establish complete AFMP/EFTA coverage, resolve conflicts with legislation or treaties, or cover every Swiss canton’s procedure. Keep EU/EFTA/AFMP routes distinct from third-country family reunification under the Foreign Nationals and Integration Act.
+
+## Maintenance
+
+On review, compare the parent index’s displayed last-modified date, linked document titles and dates, language versions, and any new or removed attachment. Reopen relevant PDFs and check their contents and legal status before updating substantive notes. Record a new review date and preserve prior Markdown revisions through the source-library archive.
