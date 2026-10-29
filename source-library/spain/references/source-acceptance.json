@@ -451,19 +451,19 @@
       "status": "usable_official_reference",
       "publisher": "Ministerio de Inclusión, Seguridad Social y Migraciones",
       "url": "https://bibliovirtual.inclusion.gob.es/web/migraciones/w/62.-tarjeta-de-residencia-de-familiar-de-ciudadano-de-la-union-europea",
-      "checked_on": "2026-10-25",
+      "checked_on": "2026-10-29",
       "language": "Spanish",
-      "version_or_cutoff": "Official Ministry page and linked PDF state latest update May 2025.",
+      "version_or_cutoff": "Official Ministry page states last update May 2025; the linked PDF was also reviewed as a May 2025 version.",
       "scope": "Dated operational guidance for a residence card for non-EU/EEA/Swiss family members of EU/EEA/Swiss citizens. It distinguishes Spanish nationals who exercised free movement (EX19 route) from other Spanish-national-family cases (EX24 route).",
-      "reviewed_content": "The current official Ministry page and linked PDF identify Hoja 62, display May 2025 as the last update, state that the page is merely orientative and that the rules in force at filing apply, list the applicable citizen categories, requirements, evidence and procedure, and distinguish the EX19 free-movement route from EX24 in other Spanish-national-family cases.",
+      "reviewed_content": "The live official page was opened on 2026-10-29 and checked for page identity, orientation disclaimer, May 2025 date, EU/EEA/Swiss and Spanish national scope, legal references, eligibility, evidence and procedure. The updated maintained Markdown note records a source-grounded scope summary and distinguishes the EX-19 free-movement and EX-24 Spanish-national-family routes.",
       "limitations": [
-        "Dated, nonbinding guidance; verify the legislation and operational procedure in force at filing.",
-        "The page/PDF date predates later legal changes and should not be treated as a current legal consolidation.",
-        "No local copy was accepted: the saved HTML conversion includes navigation noise, the raw page capture is unavailable locally, and live retrieval returned HTTP 403. The official link remains usable."
+        "Dated orientative guidance; verify law and operational procedure in force at filing.",
+        "The maintained Markdown document is a summary reference, not a verbatim page/PDF copy or legal text.",
+        "The Ministry groups EU, EEA and Swiss routes operationally; distinct legal bases must remain distinct."
       ],
       "document_path": "../documents/procedure/es-hoja-62-eu-family-residence-card-reference.md",
-      "document_sha256": "a0bec8428dfaf0592d5725c205c0ae78c6a47a81967e90f585efb923799ef2cc",
-      "document_bytes": 1695
+      "document_sha256": "c61ce66bae729db644feea80fc621d8fdde15fe190ff0f0a92fd8fa8a61a98aa",
+      "document_bytes": 2017
     },
     "es-25": {
       "status": "usable_official_reference",
