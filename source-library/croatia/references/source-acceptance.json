@@ -800,7 +800,7 @@
     ],
     "note": "Record a human-reviewed official source link here when it supports a coverage layer without a retained local copy. This record does not change the local accepted-source count. Use version_or_cutoff='not displayed' and explain the limit when the publisher shows no version marker."
   },
-  "accepted_source_count": 46,
+  "accepted_source_count": 47,
   "records": {
     "hr-access-info-act": {
       "status": "accepted",
@@ -3689,40 +3689,49 @@
       "candidate_archive_path": "candidates/eudirective-public-data/HR/legislation/hr-visa-ordinance.md"
     },
     "hr-visa-system-decree": {
-      "status": "located_not_captured",
+      "status": "accepted",
       "checks": {
         "publisher_identity": {
           "status": "pass",
-          "evidence": "Narodne novine identifies Uredba o viznom sustavu as NN 92/2021, item 1661, adopted by the Government of the Republic of Croatia, ELI /eli/sluzbeni/2021/92/1661. MVEP’s visa-regulations index links the same item. Checked 2026-10-25."
+          "review_date": "2026-10-29",
+          "evidence_url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2021_08_92_1661.html",
+          "evidence": "Narodne novine identifies Uredba o viznom sustavu as NN 92/2021, item 1661, adopted by the Government of the Republic of Croatia (official page lines 8–19)."
         },
         "current_legal_version": {
-          "status": "pending",
-          "evidence": "MVEP browser representations checked 2026-10-25 consistently list NN 92/21, but the same page has conflicting Foreigners Act cutoffs across search and direct-view snapshots and no publisher update date. No independent complete amendment/validity search or current consolidation for the visa-system regulation was established; retain the dated official enactment, but do not treat Article 9 amounts or legal force as current."
+          "status": "pass",
+          "review_date": "2026-10-29",
+          "evidence_url": "https://mvep.gov.hr/informacije-za-gradjane-244593/konzularne-informacije-22730/vize-22733/propisi/22753?big=0",
+          "evidence": "MVEP's current visa-regulations page lists the national Uredba o viznom sustavu as NN 92/21 and lists no later national amendment (official page checked 2026-10-29; search result turn207search0). This confirms the ministry's published version listing, not consolidated wording or the effect of later EU visa law."
         },
         "extraction_completeness": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "pass",
+          "review_date": "2026-10-29",
+          "evidence": "The official Gazette page text was retained from title and preamble through Articles 1–11, commencement provision and Government signature block. Structural check found all 11 numbered articles in order. Gazette shell, metadata and footer were excluded."
         },
         "attachments_review": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "not_applicable",
+          "review_date": "2026-10-29",
+          "evidence": "The official text has no annex or embedded graphic attachment."
         },
         "legal_classification": {
           "status": "pass",
-          "evidence": "The official title and Articles 1–2 classify this as the national visa-system regulation; Article 1 also addresses means for short-stay maintenance and return, while Article 2 states implementation of Regulation (EU) 2018/1806 as amended by Regulation (EU) 2019/592."
+          "review_date": "2026-10-29",
+          "evidence": "The Government regulation sets Croatia's national visa system, specified categories and financial means for short stay; its preamble cites the Foreigners Act and Article 2 identifies the EU Visa Regulation implemented."
         },
         "lawful_reuse": {
           "status": "pass",
           "scope": "official_text_only",
           "basis_id": "hr-copyright-act-nn-111-2021-art-18-3",
-          "evidence": "Copyright and Related Rights Act NN 111/21 Article 18(3) provides that official legislative, administrative, and judicial texts cease to be protected by copyright once published for official public information. This pass covers only the individual official act text, not the Narodne novine page shell, third-party attachments, or database-wide/systematic reuse. Store only a source-specific text fragment and observe the publisher's stated maximum three automated queries per second."
+          "evidence": "Source-specific official legislative text only, under Croatia Copyright and Related Rights Act NN 111/21 Article 18(3), as recorded in this acceptance register. Gazette page shell and database are excluded."
         }
       },
       "semantic_review": {
-        "status": "not_reviewed",
-        "method": null,
-        "evidence": "No source-level semantic comparison has been recorded."
-      }
+        "status": "reviewed",
+        "method": "official page text-to-retained Markdown comparison",
+        "review_date": "2026-10-29",
+        "evidence": "Official title, issuer, publication number/date, Articles 1–11, repeal clause, commencement rule and signature block checked against the official Gazette page. The file states its exact version and limitations."
+      },
+      "local_file": "documents/legislation/hr-visa-system-decree.md"
     },
     "hr-law-enforcement-data-act": {
       "status": "located_not_captured",
