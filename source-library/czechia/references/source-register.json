@@ -2466,8 +2466,8 @@
     "repository_head_commit": "f88290efc3062a7b4a56105193238c269816b613",
     "repository_scope": "The repository README says it scans e-Sbírka act identifiers from 1945 onward and stores one SB-year-number Markdown file per instrument; the /cz directory listing was truncated at 1,000 entries and reported 17,436 more entries.",
     "purpose": "Secondary discovery and candidate-snapshot route only. The official e-Sbírka stable record and current version remain authoritative.",
-    "crosswalk": "All 17 statutory act identifiers already accepted as local copies in this Czechia pack were found as Legalize-CZ files. Three additional relevant acts (435/2004, 48/1997, and 117/1995) are now represented by direct official e-Sbírka links. Legalize-CZ's 429/2010 ELI URL points to 2020-02-01, which matches the current e-Sbírka consolidated version checked on 2026-10-29. For 326/1999, 435/2004, 48/1997 and 117/1995, Legalize-CZ file source URLs point to earlier effective versions than the current e-Sbírka versions checked here. The complete body of SB-2010-429.md was subsequently verified in a rendered official e-Sbírka page: §§1–3 and all 42 annex entries match after Markdown heading/list/whitespace normalization; the official enactment header and preamble omitted by the candidate were added from e-Sbírka. A dated 2020-02-01 local copy is accepted. The three additional candidates remain unverified and stale against current versions.",
-    "method_disposition": "Legalize-CZ remains a secondary discovery and dated candidate-snapshot source, not a generally accepted current-text route. One specific candidate (SB-2010-429.md at the pinned commit) is now accepted as the basis for a dated local copy because its complete §§1–3 and 42-item annex were compared with the same official e-Sbírka version; the candidate's omitted enactment header and preamble were supplied from e-Sbírka. This single verified result does not establish freshness or acceptance of other Legalize files.",
+    "crosswalk": "All 17 previously accepted statutory act identifiers have matching Legalize-CZ files. Three additional relevant acts (435/2004, 48/1997, and 117/1995) remain accepted as official e-Sbírka links only. Legalize-CZ's 429/2010 ELI points to the official version effective 2020-02-01; its complete body matched that same official version after documented Markdown normalization, with the official preamble supplemented. The complete bodies of the three additional candidates were compared against the official historical versions effective 2026-01-01 named by their ELIs; all three differ at §1. Their official current versions are later in 2026. They are not accepted as current or exact historical copies.",
+    "method_disposition": "Legalize-CZ remains a secondary discovery and dated candidate-snapshot source, not a generally accepted current-text route. SB-2010-429.md at pinned commit f88290efc3062a7b4a56105193238c269816b613 is accepted as the basis for one dated local copy after a complete match to its official 2020-02-01 e-Sbírka version and official preamble supplementation. The complete bodies of SB-2004-435.md, SB-1997-48.md, and SB-1995-117.md fail comparison against the official historical versions named by their own 2026-01-01 ELI links. No general Legalize-CZ current-text method is established.",
     "rights_and_attribution": "The repository LICENSE states the legislative content is official public-sector work treated as public domain under Czech Copyright Act No. 121/2000 Coll. §3(a); MIT applies to pipeline software. Attribute legal text to the issuing Czech law/e-Sbírka and separately identify Legalize-CZ as the Markdown transcription. Recheck notices before reuse.",
     "conversion_rules": [
       "Preserve the SB-year-number identifier, Czech title and full citation, rank, official source URL/ELI, version type, effective-from date, publication date and repository commit/path.",
@@ -2476,6 +2476,41 @@
       "Legalize-CZ omits images and binary attachments and replaces images with [image omitted]. Recover and inspect material attachments from e-Sbírka or mark the capture incomplete.",
       "Hash raw and converted bytes, record both official publisher attribution and Legalize-CZ transcription attribution, and retain e-Sbírka's informative-text caveat and date-specific limitation.",
       "For SB-2010-429.md at commit f88290efc3062a7b4a56105193238c269816b613 only: compare the complete candidate body to e-Sbírka ELI /eli/cz/sb/2010/429/2020-02-01; normalize only Markdown heading/list markers and whitespace. The candidate omits the enacted instrument number/date and preamble, so supplement those from the official page and record that supplementation. Preserve all 42 annex entries. The result is dated to 2020-02-01 and does not resolve EU-family route applicability."
+    ],
+    "candidate_body_comparisons": [
+      {
+        "file": "cz/SB-2004-435.md",
+        "source_id": "cz-esbirka-2004-435",
+        "candidate_eli": "https://e-sbirka.gov.cz/eli/cz/sb/2004/435/2026-01-01",
+        "official_historical_record": "https://e-sbirka.gov.cz/eli/cz/sb/2004/435/2026-01-01",
+        "official_historical_title": "435/2004 Sb., 1. 1. 2026 - 11. 6. 2026, minulé znění, informativní znění systému e-Sbírka",
+        "official_current_record": "https://e-sbirka.gov.cz/eli/cz/sb/2004/435/2026-07-01",
+        "comparison_scope": "Complete Legalize body compared with rendered official legal body, excluding page UI and table of contents; normalized only Markdown headings/list markers/emphasis/footnote superscript and whitespace.",
+        "result": "mismatch; not accepted as current or exact historical text",
+        "first_difference": "§ 1: candidate says the law is in accordance with European Communities law; official 2026-01 text says it transposes relevant European Union rules."
+      },
+      {
+        "file": "cz/SB-1997-48.md",
+        "source_id": "cz-esbirka-1997-48",
+        "candidate_eli": "https://e-sbirka.gov.cz/eli/cz/sb/1997/48/2026-01-01",
+        "official_historical_record": "https://e-sbirka.gov.cz/eli/cz/sb/1997/48/2026-01-01",
+        "official_historical_title": "48/1997 Sb., 1. 1. 2026 - 11. 6. 2026, minulé znění, informativní znění systému e-Sbírka",
+        "official_current_record": "https://e-sbirka.gov.cz/eli/cz/sb/1997/48/2026-10-01",
+        "comparison_scope": "Complete Legalize body compared with rendered official legal body, excluding page UI and table of contents; normalized only Markdown headings/list markers/emphasis/footnote superscript and whitespace.",
+        "result": "mismatch; not accepted as current or exact historical text",
+        "first_difference": "§ 1: candidate begins 'Zákon upravuje veřejné zdravotní pojištění'; official dated text begins with a paragraph on transposition of and linkage to EU law."
+      },
+      {
+        "file": "cz/SB-1995-117.md",
+        "source_id": "cz-esbirka-1995-117",
+        "candidate_eli": "https://e-sbirka.gov.cz/eli/cz/sb/1995/117/2026-01-01",
+        "official_historical_record": "https://e-sbirka.gov.cz/eli/cz/sb/1995/117/2026-01-01",
+        "official_historical_title": "117/1995 Sb., 1. 1. 2026 - 30. 6. 2026, minulé znění, informativní znění systému e-Sbírka",
+        "official_current_record": "https://e-sbirka.gov.cz/eli/cz/sb/1995/117/2026-09-01",
+        "comparison_scope": "Complete Legalize body compared with rendered official legal body, excluding page UI and table of contents; normalized only Markdown headings/list markers/emphasis/footnote superscript and whitespace.",
+        "result": "mismatch; not accepted as current or exact historical text",
+        "first_difference": "§ 1(1): candidate text and official text describe the covered family-support expense differently; the mismatch remains after Markdown-only normalization."
+      }
     ]
   }
 }
