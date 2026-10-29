@@ -1171,9 +1171,9 @@
         "official_source_url": "https://www.gesetze.li/konso/2020465000",
         "reviewed_on": "2026-10-29",
         "publisher": "Government Legal Services (Rechtsdienst der Regierung), Liechtenstein",
-        "verified_content": "Title, LGBl number, LR number, relation to the official EWR-Register, and distinct index role. No provision-by-provision legal interpretation was made.",
-        "version": "Record identifies the 15 December 2020 regulation and LGBl 2020.465; official 2026 systematic-register entry lists it.",
-        "retrieval_status": "official_link_reviewed; no local text copied"
+        "verified_content": "The complete preamble, Arts. 1–6, entry-into-force provision, signature, and footnote were compared against the official State Law Gazette PDF for LGBl 2020 Nr. 465; all legal wording and anchors match after layout-only normalization.",
+        "version": "The official Gazette PDF states Fassung 01.02.2021. The official 2026 systematic register lists LGBl 2020.465; this record accepts the Gazette version only and makes no later-currentness claim.",
+        "retrieval_status": "official_gazette_text_verified; Legalize-li candidate verified as matching conversion"
       },
       "local_copy_accepted": true,
       "accepted_topics": [],
