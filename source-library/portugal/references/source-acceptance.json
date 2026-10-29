@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "jurisdiction": "PT",
-  "as_of": "2026-10-24",
-  "accepted_source_count": 0,
+  "as_of": "2026-10-29",
+  "accepted_source_count": 1,
   "accepted_current_law_source_count": 0,
-  "accepted_derived_text_count": 0,
+  "accepted_derived_text_count": 1,
   "accepted_topic_count": 0,
   "country_review_complete": false,
-  "accepted_external_reference_count": 61,
+  "accepted_external_reference_count": 62,
   "external_reference_decisions": [
     {
       "source_id": "pt-02",
@@ -1109,6 +1109,24 @@
         "verified_content": "The opinion concerns a municipal information request. It explains that the general LADA access route may be used by an elected local member, distinguishes access to existing documents from requests to create explanations, and describes partial disclosure where protected material can be removed.",
         "limitations": "A selected opinion about a local-government records request, not migration procedure. Do not generalize beyond its facts and cited law; check current legislation and the live CADA channel."
       }
+    },
+    {
+      "source_id": "pt-01-lei-n.º-37-2006-on-free-movement-and-residence-of-eu-citizens-and-family-me",
+      "decision": "accepted_with_narrow_external_scope",
+      "accepted_role": "Official DRE consolidated record and dated text, for working-reference use within its stated version and legal-status caveats.",
+      "not_accepted": [
+        "A consolidated text with legal force; DRE explicitly says the consolidation has no legal value.",
+        "A guarantee of no later amendment beyond the date selector 2026-08-24.",
+        "Complete operational procedures, current forms, topic coverage, or country completion."
+      ],
+      "evidence": {
+        "official_source_url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2006-128792849",
+        "checked_on": "2026-10-29",
+        "language": "Portuguese",
+        "version": "DRE version selector displays 24 August 2026; last alteration displayed 2 June 2023; status Em vigor.",
+        "verified_content": "Full visible consolidated statutory text, Articles 1–34, retrieved and transcribed to Markdown; the source page says consolidated versions have no legal value and do not replace the acts from which the consolidation derives.",
+        "limitations": "Consult original enactments and later amendments if exact legal force, commencement or conflict matters. Recheck the date selector and amendment history."
+      }
     }
   ],
   "policy": "DRE states that its consolidated pages are government-produced working references but have no legal value and do not replace the original enacted acts. Under the repository source policy, a clearly identified official consolidated page may be used directly within its displayed status/date, subject and caveats; no Gazette-chain reconstruction or local copy is a prerequisite for link use. Original enactments/amendments remain the legal authority if a discrepancy matters.",
@@ -1127,7 +1145,7 @@
       "review_scope": "Confirm parent-page links, service authority, municipality/AIMA division, current forms, appointment and submission channels, and effective dates."
     }
   ],
-  "count_note": "61 official external-reference decisions cover links only; they do not count as local copies, accepted topics, or country completion. Three Gov.pt pages are not relied upon for current procedure. Four unresolved AIMA routes remain under a whole-site human-review offer.",
+  "count_note": "62 official external-reference decisions cover links within scope; they do not count as accepted topics or country completion. One dated derived text copy is retained: the full visible DRE consolidation of Lei 37/2006, with the publisher’s no-legal-value caveat. Three Gov.pt pages are not relied upon for current procedure. Four unresolved AIMA routes remain under a whole-site human-review offer.",
   "not_relied_upon_reference_count": 3,
   "not_relied_upon_references": [
     {
@@ -1152,5 +1170,19 @@
       "checked_on": "2026-10-24"
     }
   ],
-  "human_review_pending_reference_count": 4
+  "human_review_pending_reference_count": 4,
+  "accepted_derived_texts": [
+    {
+      "source_id": "pt-01-lei-n.º-37-2006-on-free-movement-and-residence-of-eu-citizens-and-family-me",
+      "path": "documents/legislation/pt-01-lei-37-2006-free-movement-consolidation-2026-08-24.md",
+      "sha256": "cb0a6e9788181b28557a47a7c69a538a851700e0d0bf27423e4022d6a6fa684b",
+      "bytes": 40393,
+      "source_url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2006-128792849",
+      "reviewed_on": "2026-10-29",
+      "decision": "accepted_dated_derived_text",
+      "reuse_basis": "Portuguese CDADC Article 8 states compiled or annotated official texts do not benefit from protection; DRE is the official publisher. Portal interface, branding and unrelated copyrighted material are excluded.",
+      "verification": "All visible statutory text from Article 1 through Article 34 and the publisher’s consolidation caveat were retained; DRE status and version fields were checked.",
+      "limitations": "DRE explicitly states consolidated text is not legally valid and does not replace originating acts. Version selector is dated 2026-08-24; this copy is not a consolidated legal instrument."
+    }
+  ]
 }
