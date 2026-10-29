@@ -302,11 +302,11 @@
       ],
       "evidence": {
         "official_source_url": "https://www.sem.admin.ch/sem/en/home/themen/fza_schweiz-eu-efta/eu-efta_buerger_schweiz/faq.html",
-        "checked_on": "2026-10-18",
+        "checked_on": "2026-10-29",
         "language": "en",
-        "version": "Official FAQ and linked factsheet dated 2024-02-07.",
-        "verified_content": "The official SEM FAQ and its linked family-reunification factsheet were inspected in the bounded source review; the factsheet date is recorded in the source register.",
-        "limitations": "This is a dated guidance reference. Recheck current SEM guidance and applicable law before relying on it for present procedure."
+        "version": "Live English SEM AFMP FAQ displayed last modification 2026-07-06; linked three-page family-reunification PDF carries version mark SP_02/24 (February 2024).",
+        "verified_content": "Opened the current FAQ family-reunification section and its linked three-page PDF. Checked stated eligible relatives and student limits, adequate housing/means, derived-duration status, documentary evidence, work access, divorce/death rules, and specified refusal/revocation grounds.",
+        "limitations": "The FAQ and factsheet are official guidance, not binding law; the PDF is dated February 2024. Current rights and differences in listed relatives must be checked against current AFMP/OLCP/VFP rules, SEM directives and cantonal procedure."
       },
       "document_path": "source-library/switzerland/documents/guidance/ch-24-sem-afmp-factsheet-20240207.md"
     },
