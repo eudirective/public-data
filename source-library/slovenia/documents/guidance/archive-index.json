@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "collection": "slovenia/documents/guidance",
+  "entries": [
+    {
+      "source_id": "si_22",
+      "official_url": "https://www.gov.si/teme/vstop-in-prebivanje/",
+      "current_path": "slovenia/documents/guidance/si-entry-residence-guidance.md",
+      "archive_path": "slovenia/documents/guidance/archive/si-entry-residence-guidance/05b6971663860b68af52bd5eca6509d61b366b4b879ad4842de42332d2e7ca1f.md",
+      "sha256": "05b6971663860b68af52bd5eca6509d61b366b4b879ad4842de42332d2e7ca1f",
+      "archived_at": "2026-10-29T06:27:16.639Z",
+      "superseded_by_sha256": "598c0d3519342c037d6b280c31ddd97c4953e486ca82585bbe0771a40f31c451"
+    }
+  ]
+}
