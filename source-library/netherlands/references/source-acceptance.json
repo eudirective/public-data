@@ -83,7 +83,7 @@
       "reason": "The captured Rechtspraak help route returned HTTP 403 in the research client. This does not establish publisher downtime; offer the official Rechtspraak site for human review."
     }
   ],
-  "local_copy_accepted_count": 11,
+  "local_copy_accepted_count": 12,
   "topic_accepted_count": 0,
   "country_review_complete": false,
   "acceptance_basis": [
@@ -162,6 +162,7 @@
     "nl-53",
     "nl-54",
     "nl-55",
-    "nl-19"
+    "nl-19",
+    "nl-20"
   ]
 }
