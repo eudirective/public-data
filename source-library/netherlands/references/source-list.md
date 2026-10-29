@@ -1,4 +1,4 @@
-# Netherlands official source list (source review 21 October 2026; additional review and local-copy disposition 25 October 2026)
+# Netherlands official source list (source review 21 October 2026; additional review and local-copy disposition 29 October 2026)
 
 **Status:** 63 unique source records; 60 official external references accepted within scope; 3 obsolete or unavailable exact routes not relied upon; 12 accepted local texts; 0 topics accepted as adequate; country review incomplete.
 
