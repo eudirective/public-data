@@ -6,11 +6,11 @@
 
 ## What is in the pack
 
-- The source register contains 49 official references: 41 accepted within recorded scope and 7 pending human or currentness review.
-- Thirteen attributed Lithuanian legal texts are held under `documents/legislation/` as exact-version TAR dataset snapshots. They include two historical card-procedure texts from 2019; the remaining snapshots are explicitly dated and are not certified as current. Six maintained English notes record the Migration Department’s dated certificate, residence-permit, 2019 family-card form and fee sources, plus the MFA's dynamic nationality visa lookup and visa-type/national-route overview; they flag historical scope, stale references, wording, dynamic rates/results and current-form limits.
+- The source register contains 49 official references: 42 accepted within recorded scope and 6 pending human or currentness review.
+- Thirteen attributed Lithuanian legal texts are held under `documents/legislation/` as exact-version TAR dataset snapshots. They include two historical card-procedure texts from 2019; the remaining snapshots are explicitly dated and are not certified as current. Seven maintained English notes record the Migration Department’s dated free-movement overview, certificate, residence-permit, 2019 family-card form and fee sources, plus the MFA's dynamic nationality visa lookup and visa-type/national-route overview; they flag historical scope, stale references, wording, dynamic rates/results and current-form limits.
 - Current Order 1V-594 is recorded as `lt-09`; e-TAR shows its combined procedure covers temporary and permanent family cards. Former Orders 1V-290 and 1V-369 are kept as separately identified historical documents, repealed from 1 July 2019.
 - Two captured HTML pages were not retained as local source documents: N-Lex country information and the TAR dataset description remain accepted link-only references.
-- The pack accepts 13 dated legal-text snapshots and six maintained guidance/lookup notes locally, 0 topics, and is not complete.
+- The pack accepts 13 dated legal-text snapshots and seven maintained guidance/lookup notes locally, 0 topics, and is not complete.
 
 Use the [source list](references/source-list.md), [source acceptance register](references/source-acceptance.json), [coverage register](references/coverage-register.md), [dependency register](references/dependency-register.json), and [source-rule sustainability assessment](references/sustainability-assessment.md). A link or dated source text does not by itself establish current law, topic coverage, or whole-country completion.
 
