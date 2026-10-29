@@ -283,11 +283,11 @@
       ],
       "evidence": {
         "official_source_url": "https://www.sem.admin.ch/sem/fr/home/publiservice/weisungen-kreisschreiben/fza.html",
-        "checked_on": "2026-10-25",
+        "checked_on": "2026-10-29",
         "language": "fr",
-        "version": "Official index page observed 25 October 2026; linked directive dates must be checked individually.",
-        "verified_content": "The live SEM page identifies itself as the directives and circulars index for the Agreement on the Free Movement of Persons.",
-        "limitations": "The index alone does not establish the current edition, legal effect, or content of any linked instruction; open each relevant dated document."
+        "version": "French SEM index displayed last modification 2026-05-08; linked OLCP/VFP directives dated 2026-01-01, annexes 2024-01-01, and circulars with displayed dates from 2004 through 2023, including the UK circular updated 2026-01-01.",
+        "verified_content": "Live index title and AFMP section identity; language options (DE/FR/IT, no English); linked directive/annex/circular titles and dates; displayed page modification date 2026-05-08.",
+        "limitations": "Dynamic index; linked documents must be opened and checked individually for current version, content and legal effect. The index is not complete treaty or legislative text and does not establish canton procedure."
       },
       "document_path": "source-library/switzerland/documents/guidance/ch-23-sem-afmp-directives-index-20261025.md"
     },
