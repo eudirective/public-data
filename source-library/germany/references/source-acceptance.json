@@ -4,7 +4,7 @@
   "as_of": "2026-10-29",
   "accepted_source_count": 43,
   "accepted_current_law_source_count": 18,
-  "accepted_derived_text_count": 20,
+  "accepted_derived_text_count": 21,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "accepted_external_reference_count": 43,
@@ -940,20 +940,31 @@
     {
       "source_id": "de-31",
       "decision": "accepted_with_narrow_external_scope",
-      "accepted_role": "Official Federal Foreign Office Visa Handbook. Accepted as date-stamped administrative guidance; its chapter dates vary and the handbook itself warns that residual visa-remonstration references are obsolete.",
+      "accepted_role": "Official Federal Foreign Office Visa Handbook, accepted as a dated administrative-guidance summary and locator. Cover states 15 October 2026; individual chapter dates vary. Its opening notice expressly says residual remonstration references are obsolete.",
       "not_accepted": [
         "Legislation or a binding legal source.",
         "Uniform currentness across all handbook chapters.",
-        "Current remonstration procedure; the handbook flags residual remonstration material as obsolete.",
-        "A complete Germany national source pack or topic coverage."
+        "Current remonstration procedure; publisher says residual remonstration material is obsolete.",
+        "A complete Germany national source pack, topic coverage, or country review.",
+        "A local full-text copy; extracted handbook text remains unaccepted."
       ],
       "evidence": {
         "official_source_url": "https://www.auswaertiges-amt.de/resource/blob/207816/71848fd0f126c2c1a48fcea7122fb2ca/visumhandbuch-data.pdf",
-        "checked_on": "2026-10-24",
+        "checked_on": "2026-10-29",
         "language": "de",
-        "version": "679-page PDF cover states Stand 15 October 2026; individual chapters have separate, older dates.",
-        "verified_content": "The first pages identify the current overall edition and expressly say remaining remonstration references are obsolete; topic pages show independent chapter dates.",
-        "publisher_note": "Administrative guidance is subordinate to legislation and the instructions in the actual decision notice."
+        "version": "Live 679-page PDF opened 2026-10-29; cover states Stand 15 October 2026. Individual chapters carry separate dates.",
+        "verified_content": "Opening notice states worldwide remonstration ended on 1 July 2025 and remaining handbook references to remonstration are obsolete. PDF is official administrative guidance; no chapter-by-chapter validation is claimed.",
+        "publisher_note": "The Federal Foreign Office legal notice reserves copyright in website texts and other media. Local Markdown is an independently written summary; the extracted local text remains unaccepted."
+      },
+      "accepted_local_copy": {
+        "status": "accepted_project_authored_source_summary",
+        "path": "documents/guidance/de-31.md",
+        "checked_on": "2026-10-29",
+        "language": "English summary of German handbook",
+        "publisher_version": "Cover dated 15 October 2026; chapter dates vary.",
+        "scope": "Handbook identity, scope, datedness, explicit obsolete-remonstration warning and maintenance instructions.",
+        "reuse": "Original summary; no handbook wording reproduced.",
+        "limits": "No chapter-by-chapter legal validation or complete local text. Guidance only; subordinate to legislation. Individual chapter date must be checked."
       }
     },
     {
@@ -1014,6 +1025,6 @@
   ],
   "human_review_offers": [],
   "policy": "Official source links may be accepted for ordinary reference use within the exact identity, date, and scope recorded. Link acceptance is separate from local-copy acceptance, topic coverage, dependencies, currentness, and country completion. Gesetze im Internet consolidations are working references; the electronic Bundesgesetzblatt is the authentic promulgation source for specific discrepancy, commencement, or amendment checks.",
-  "count_note": "43 official source references are accepted within recorded narrow roles. Eighteen accepted current-law source records correspond to 17 unique accepted local statutory text copies because de-10 is represented by de-09. Three independently authored Federal Foreign Office guidance summaries (de-25, de-26 and de-27) are accepted locally. Five proposals remain open for human review. The de-31 official reference is accepted, but its extracted local text is not. No topic coverage or country review is complete.",
-  "accepted_local_copy_count": 20
+  "count_note": "43 official source references are accepted within recorded narrow roles. Eighteen accepted current-law source records correspond to 17 unique accepted local statutory text copies because de-10 is represented by de-09. Four independently authored Federal Foreign Office guidance summaries (de-25, de-26, de-27 and de-31) are accepted locally. Five proposals remain open for human review. The de-31 handbook’s extracted local text is not accepted. No topic coverage or country review is complete.",
+  "accepted_local_copy_count": 21
 }
