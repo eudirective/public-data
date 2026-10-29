@@ -348,6 +348,26 @@
         "https://pisrs.si/api/datoteke/integracije/555241903",
         "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-3046"
       ]
+    },
+    "si_11": {
+      "status": "usable_official_reference_with_maintained_reference_note",
+      "publisher": "PISRS, Legal Information System of the Republic of Slovenia; promulgated acts and Constitutional Court decisions appear in the Official Gazette",
+      "url": "https://pisrs.si/pregledPredpisa?id=ZAKO7556",
+      "rediscovery_url": "https://pisrs.si/",
+      "checked_on": "2026-10-29",
+      "language": "Slovenian",
+      "version_or_cutoff": "Record ZAKO7556 / SOP 2017-01-0729; PISRS displays unofficial consolidated text NPB 8 with use date 19 April 2024 and listed materials through UL RS 34/2024.",
+      "scope": "Family Code covering family relationships, marriage and non-marital partnership, parent-child relations, child-protection measures, maintenance, adoption, foster care and guardianship.",
+      "reviewed_content": "Official PISRS record and integrated NPB 8 text checked for identity, status dates, scope, consolidation, incorporated instruments, use date and disclaimer.",
+      "limitations": [
+        "PISRS labels NPB 8 an informational unofficial consolidation; consult promulgated acts and operative Constitutional Court decisions where exact wording or effect matters.",
+        "Civil-status registration, procedural steps, cross-border law and immigration consequences may depend on other statutes, EU instruments, treaties or the competent authority.",
+        "This is reference-note acceptance only; no local statutory text copy, topic completeness or country-pack completion is accepted."
+      ],
+      "document_path": "documents/legislation/si-11-family-code-dz-2026-10-29.md",
+      "maintained_note_sha256": "1d2fbb6aff7a23e7b40bdb10d3818012381405283471d6d701c454382b302a4f",
+      "maintained_note_role": "maintained_official_reference_note_not_source_text_copy",
+      "integrated_text_url": "https://pisrs.si/api/datoteke/integracije/358638238"
     }
   },
   "historical_or_not_current_references": [
