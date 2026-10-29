@@ -27,7 +27,7 @@
     "accepted_external_references": 54,
     "historical_reference_only": 4,
     "not_relied_upon_or_human_review_offered": 5,
-    "accepted_local_copies": 27,
+    "accepted_local_copies": 28,
     "accepted_topics": 0,
     "country_review_complete": false,
     "source_records": 63
@@ -219,7 +219,7 @@
     "Voivodeship-local procedures, mission-specific services, case-law discovery completeness and country completion remain open."
   ],
   "reviewed_on": "2026-10-25",
-  "status": "54_scoped_official_links_accepted; 27_local_source_text_copies_accepted; 24_locator_disposition_notes; 4_historical_only; 5_routes_not_relied_on; topic_coverage_incomplete",
+  "status": "54_scoped_official_links_accepted; 28_local_source_text_copies_accepted; 24_locator_disposition_notes; 4_historical_only; 5_routes_not_relied_on; topic_coverage_incomplete",
   "accepted_external_reference_ids": [
     "pl-01",
     "pl-02",
@@ -358,7 +358,7 @@
       "limit": "The legal rule differs for EU-citizen residence documents and third-country-family residence cards. No Polish card specimen was visually verified."
     }
   ],
-  "content_reuse": "For the 12 accepted legal/instrument texts, Article 4(1)(1) and (2) of the Polish Copyright and Related Rights Act addresses normative acts, official drafts, official documents and materials. For the 15 gov.pl textual snapshots, the gov.pl footer states textual content excluding audiovisual material is available under CC BY-SA 4.0; each document identifies source, retrieval time and Markdown transformation. Images, audiovisual material and linked attachments are excluded. The Open Data Act permits reuse subject to its conditions and limits, including third-party rights, privacy and personal-data restrictions; see Articles 5, 6, 14 and 15. These bases are source-specific and do not extend to unaccepted locator captures or dynamic external sources.",
+  "content_reuse": "For the 13 accepted legal/instrument texts, Article 4(1)(1) and (2) of the Polish Copyright and Related Rights Act addresses normative acts, official drafts, official documents and materials. For the 15 gov.pl textual snapshots, the gov.pl footer states textual content excluding audiovisual material is available under CC BY-SA 4.0; each document identifies source, retrieval time and Markdown transformation. Images, audiovisual material and linked attachments are excluded. The Open Data Act permits reuse subject to its conditions and limits, including third-party rights, privacy and personal-data restrictions; see Articles 5, 6, 14 and 15. These bases are source-specific and do not extend to unaccepted locator captures or dynamic external sources.",
   "accepted_local_copy_reviews": {
     "pl-06-current-2026": {
       "decision": "accepted_local_official_text",
@@ -845,7 +845,20 @@
       "semantic_check": "ELI record shows the MSWiA regulation of 26 July 2021, publication 30 July 2021, in force from 2 August 2021 and status obowiązujący. The complete 228-line visible HTML response was retained; the HTML page lists ten annexes as linked originals. Companion instrument Dz.U. 2021 poz. 1392 is separately retained.",
       "reuse_basis": "Official Polish normative text and publication material; Article 4(1)(1) and (2) of the Polish Copyright and Related Rights Act addresses normative acts, official drafts, official documents and materials. ELI attribution and record/text links are preserved.",
       "limitations": "Local copy reproduces the complete visible HTML text body but not the ten annex specimen images/forms linked by ELI. Use official attachments for their exact layout/content. Dated snapshot; recheck ELI for amendments and displayed status. Not a conclusion on eligibility or topic adequacy."
+    },
+    "pl-63": {
+      "decision": "accepted_local_official_text",
+      "path": "documents/legislation/pl-63-sis-vis-act-consolidation-2026.md",
+      "sha256": "ad5ce98070653a284dce146bea93dd5c511a7fcbf4559f2a16d1beb9c390039b",
+      "bytes": 81709,
+      "source_url": "https://eli.gov.pl/eli/DU/2026/1061/ogl",
+      "text_url": "https://api.sejm.gov.pl/eli/acts/DU/2026/1061/text.pdf",
+      "reviewed_on": "2026-10-29",
+      "conversion_method": "20-page official PDF text extracted into Markdown; all 829 numbered extracted lines retained, with PDF page layout normalized and PDF extraction control characters removed.",
+      "semantic_check": "ELI record opened and displayed status obowiązujący, announcement 31 July 2026, publication 6 August 2026 and legal-status cutoff 20 July 2026. The official PDF states the consolidation cutoff, identifies amendments and flags provisions/exceptions with staged commencement. The full 829-line text extraction was retained.",
+      "reuse_basis": "Official Polish normative text and publication material; Article 4(1)(1) and (2) of the Polish Copyright and Related Rights Act addresses normative acts, official drafts, official documents and materials. ELI record and official PDF links are preserved; no portal UI or third-party material is included.",
+      "limitations": "Dated consolidated text only through 20 July 2026. Staged commencement and provisions tied to later EU Commission decisions must be checked before asserting current effect. This copy does not establish the applicable SIS/VIS data-subject request route, filing channel or topic adequacy."
     }
   },
-  "count_note": "accepted_local_copies counts 27 retained source-text copies: 12 official legal/instrument texts (including two historical copies) and 15 dated gov.pl text snapshots. The other 24 former candidate records have source-specific locator/disposition documents under documents/; those notes are not accepted copies of the underlying pages. External-reference status is recorded separately. No topic is accepted and country_review_complete remains false."
+  "count_note": "accepted_local_copies counts 28 retained source-text copies: 13 official legal/instrument texts (including two historical copies) and 15 dated gov.pl text snapshots. The other 24 former candidate records have source-specific locator/disposition documents under documents/; those notes are not accepted copies of the underlying pages. External-reference status is recorded separately. No topic is accepted and country_review_complete remains false."
 }
