@@ -4,13 +4,15 @@ Use this layout for a national source pack. Keep shared EU-language material, re
 
 ```text
 <country>/
-├── documents/                    # Reviewed, locally held national source text only
+├── documents/                    # Reviewed source text and maintained source-reference notes
 │   ├── legislation/
 │   ├── guidance/
 │   ├── forms/
 │   ├── case_law/
 │   ├── oversight/
-│   └── procedure/
+│   ├── procedure/
+│   ├── references/                # Final scoped source notes, not publisher-text copies
+│   └── discovery/                 # Final discovery notes or structured official-directory data
 ├── references/
 │   ├── candidate-manifest.json   # Canonical machine-readable source inventory
 │   ├── source-identity-inventory.json # Canonical identities and representation links
@@ -47,8 +49,8 @@ source-library/core/de/           # Canonical German EU-language corpus, shared 
 - The library-level `source-library/core/` contains the canonical EU corpus. English files directly under `core/eu/`, `core/case_law/`, and `core/guidance/` are shared with every country pack; do not duplicate them in country folders.
 - Store a given official EU-language representation once under `source-library/core/<language-code>/`, even when several jurisdictions use that language. Each country pack records source IDs and canonical paths in `references/shared-core.json`; do not duplicate the files or use filesystem symlinks. For an external-only reference, include the official URL and mark the local path absent until the source bytes are acquired and reviewed.
 - English is an official language in Ireland and Malta, and the shared English corpus already serves their English-language EU material; neither needs country-specific copies. Add Irish or Maltese representations under the library-level `source-library/core/` only if the plugin needs them and actual official files are available. For other countries, add only language-specific EU representations that are actually held in the shared library. National legislation, guidance, forms, and decisions belong in `documents/` after review.
-- `documents/` is for national text the pack has reviewed and chosen to store locally. Use the source-type folders; do not mix sources by discovery pass or retrieval method. A local file is optional: a human-reviewed official URL can be used and can support topic evidence without a saved copy. Record link-only references in the manifest/source list; do not create placeholder files.
-- Unaccepted source leads, discovery results, and raw or derived captures belong in the EU Source Update Monitor's indexed local-only archive, not in country-pack working folders. An uncaptured official lead remains in the source inventory; it is not a failed or unusable source.
+- `documents/` holds reviewed national source text and explicitly maintained source-reference notes or discovery outputs. Keep publisher-text copies in the relevant source-type folder. Use `documents/references/` for final scoped notes that identify an official source and its limits without reproducing its text; use `documents/discovery/` only for final reviewed discovery notes or structured official-directory outputs. These maintained artifacts must have a source ID, status, scope, provenance, and a register entry. A local source-text copy is optional: a human-reviewed official URL can support topic evidence without a saved copy. Record ordinary link-only references in the inventory; do not create placeholder files.
+- Unaccepted source leads, candidate conversions, raw or derived captures, and transient discovery results belong in the EU Source Update Monitor's indexed local-only archive, not in `documents/references/` or `documents/discovery/`. An uncaptured official lead remains in the source inventory; it is not a failed or unusable source.
 - `references/candidate-manifest.json` is the canonical source inventory, not a store for source files. The source list is its human-readable counterpart. `references/source-rules.json` records discovery, retrieval, and conversion methods. An existing capture ledger may keep source-specific retrieval metadata and local archive references, but the Monitor archive index remains authoritative for local research provenance and file hashes. Keep source acceptance, legal-currentness review, topic coverage, and sustainability findings distinct.
 - Keep transient downloads, scratch conversion output, and atomic-write staging files in the repository's configured temporary workspace, then remove them after the action. Do not commit disposable intermediates. A local copy of an accepted source belongs under `documents/` only when the pack has selected and reviewed it for use.
 - `scripts/` is optional for inventory-only packs. Put any pack-specific scripts there rather than at the pack root.
