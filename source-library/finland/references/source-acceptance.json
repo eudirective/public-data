@@ -19,7 +19,7 @@
     "accepted_topics": 0,
     "country_review_complete": false,
     "maintained_locator_notes": 1,
-    "maintained_markdown_records": 3
+    "maintained_markdown_records": 4
   },
   "accepted_references": [
     {
@@ -448,11 +448,11 @@
       "title": "Registration of the right of residence of a citizen of the European Union",
       "url": "https://migri.fi/en/registration-of-right-of-residence",
       "language": "en-fi",
-      "page_status": "Current Migri guidance page identified through official-site search; direct viewer request had returned 403",
-      "checked_at": "2026-10-24",
-      "acceptance_scope": "External link to Migri guidance for registration of EU, Liechtenstein and Swiss citizens staying in Finland over three months.",
-      "limitations": "Accepted as the official page locator and stated process only. Fees and processing estimates change; verify the live page and applicable law. Nordic registration rules differ. No local copy or legal topic is accepted.",
-      "verification_basis": "Official-domain search result identifies the exact current page, title and scope; current fee and processing pages link this route."
+      "page_status": "Current Migri guidance page identified by exact title and URL through official-domain indexed text; direct research-viewer request returned HTTP 403",
+      "checked_at": "2026-10-29",
+      "acceptance_scope": "External official reference for EU, Liechtenstein and Swiss citizens registering a right of residence after over three months, including published eligibility, attachment categories, application steps, Nordic distinction, Finnish-citizen cross-border route and appeal information.",
+      "limitations": "A maintained summary of the official indexed rendering is accepted; direct page body was not retrievable and the indexed content was crawled about three weeks before this review. Fees and processing times are dynamic and must be checked live. Nordic registration is distinct. This guidance does not establish legal topic coverage or replace the Aliens Act and Directive 2004/38.",
+      "verification_basis": "Official-domain indexed result at the exact URL exposes the page title and substantive requirements, document lists, application steps and appeal section. It was crawled about three weeks before review; direct open returned 403."
     },
     {
       "source_id": "fi-migri-eu-family-finder-step",
@@ -656,6 +656,13 @@
       "status": "accepted_maintained_source_summary",
       "checked_at": "2026-10-29",
       "source_representation": "Scoped summary of current official indexed landing-page text; direct research-viewer request returned 403; not a verbatim copy"
+    },
+    {
+      "source_id": "fi-migri-eu-registration",
+      "path": "documents/guidance/fi-migri-eu-registration-guidance.md",
+      "status": "accepted_maintained_source_summary",
+      "checked_at": "2026-10-29",
+      "source_representation": "Detailed summary of the official indexed page's eligibility, evidence categories and application/appeal flow; direct research-viewer request returned 403; not a verbatim copy"
     }
   ]
 }
