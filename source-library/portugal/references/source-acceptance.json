@@ -7,7 +7,7 @@
   "accepted_derived_text_count": 3,
   "accepted_topic_count": 0,
   "country_review_complete": false,
-  "accepted_external_reference_count": 66,
+  "accepted_external_reference_count": 69,
   "external_reference_decisions": [
     {
       "source_id": "pt-02",
@@ -1218,6 +1218,87 @@
       },
       "local_copy_accepted": false,
       "topic_accepted": false
+    },
+    {
+      "source_id": "pt-69",
+      "decision": "accepted_with_narrow_external_scope",
+      "accepted_role": "Accepted only as an official external reference to the current DRE consolidated record for Lei n.º 7/2009 — Código do Trabalho; Legalize-PT is recorded as a candidate-snapshot locator, not as an accepted legal text.",
+      "not_accepted": [
+        "A local Legalize-PT text copy or proof of the candidate’s complete body.",
+        "A complete employment or social-security topic crosswalk, benefit eligibility, or individual legal conclusion.",
+        "Legal authority for the DRE consolidated wording; DRE says consolidations do not replace enacted acts."
+      ],
+      "evidence": {
+        "official_source_url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475",
+        "checked_on": "2026-10-29",
+        "language": "Portuguese",
+        "version": "DRE displayed status Em vigor, last alteration 2025-03-27 and version selector 2026-09-28. Legalize-PT candidate metadata points to DRE ELI version 2025-03-27.",
+        "verified_content": "Official DRE consolidated record for Lei n.º 7/2009; title, status, alteration date and ELI version locator checked. Article 2 visibly identifies worker and equality directives.",
+        "limitations": "DRE states that consolidated text has no legal value and does not replace enacted acts. Candidate body, annexes and attachments were not compared provision by provision; no Legalize local copy or employment-rights topic is accepted.",
+        "candidate_snapshot": {
+          "repository": "legalize-dev/legalize-pt",
+          "commit": "175e00e1dfd066bf4c205b0d573266c077ffc73e",
+          "path": "pt/2009/DRE-2009-7-602073.md",
+          "url": "https://github.com/legalize-dev/legalize-pt/blob/175e00e1dfd066bf4c205b0d573266c077ffc73e/pt/2009/DRE-2009-7-602073.md",
+          "disposition": "Metadata and official ELI/version locator checked; full converted body not verified."
+        }
+      },
+      "local_copy_accepted": false,
+      "topic_accepted": false
+    },
+    {
+      "source_id": "pt-70",
+      "decision": "accepted_with_narrow_external_scope",
+      "accepted_role": "Accepted only as an official external reference to the current DRE consolidated record for Lei n.º 4/2007 — Bases gerais do sistema de segurança social; Legalize-PT is recorded as a candidate-snapshot locator, not as an accepted legal text.",
+      "not_accepted": [
+        "A local Legalize-PT text copy or proof of the candidate’s complete body.",
+        "A complete employment or social-security topic crosswalk, benefit eligibility, or individual legal conclusion.",
+        "Legal authority for the DRE consolidated wording; DRE says consolidations do not replace enacted acts."
+      ],
+      "evidence": {
+        "official_source_url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-66798712",
+        "checked_on": "2026-10-29",
+        "language": "Portuguese",
+        "version": "DRE displayed status Em vigor, last alteration 2013-12-30 and version selector 2026-08-23. Legalize-PT candidate metadata points to DRE ELI version 2013-12-30.",
+        "verified_content": "Official DRE consolidated record for Lei n.º 4/2007; title, status, alteration date and ELI version locator checked. Articles 2 and 7 were inspected for the statutory framework and its stated principles.",
+        "limitations": "DRE states that consolidated text has no legal value and does not replace enacted acts. Age alone is not treated as a rejection, but this check does not reconstruct amendments or determine benefit eligibility. Candidate body was not compared provision by provision.",
+        "candidate_snapshot": {
+          "repository": "legalize-dev/legalize-pt",
+          "commit": "175e00e1dfd066bf4c205b0d573266c077ffc73e",
+          "path": "pt/2007/DRE-2007-4-522781.md",
+          "url": "https://github.com/legalize-dev/legalize-pt/blob/175e00e1dfd066bf4c205b0d573266c077ffc73e/pt/2007/DRE-2007-4-522781.md",
+          "disposition": "Metadata and official ELI/version locator checked; full converted body not verified."
+        }
+      },
+      "local_copy_accepted": false,
+      "topic_accepted": false
+    },
+    {
+      "source_id": "pt-71",
+      "decision": "accepted_with_narrow_external_scope",
+      "accepted_role": "Accepted only as an official external reference to the current DRE consolidated record for Lei n.º 110/2009 — Código dos Regimes Contributivos; Legalize-PT is recorded as a candidate-snapshot locator, not as an accepted legal text.",
+      "not_accepted": [
+        "A local Legalize-PT text copy or proof of the candidate’s complete body.",
+        "A complete employment or social-security topic crosswalk, benefit eligibility, or individual legal conclusion.",
+        "Legal authority for the DRE consolidated wording; DRE says consolidations do not replace enacted acts."
+      ],
+      "evidence": {
+        "official_source_url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34514575",
+        "checked_on": "2026-10-29",
+        "language": "Portuguese",
+        "version": "DRE displayed status Em vigor, last alteration 2025-12-09 and version selector 2026-08-30. Legalize-PT candidate ELI points to DRE version 2025-12-09; its separate last_updated field is not used as the legal cutoff.",
+        "verified_content": "Official DRE consolidated record for Lei n.º 110/2009; title, status, alteration date and ELI version locator checked.",
+        "limitations": "DRE states that consolidated text has no legal value and does not replace enacted acts. Candidate body, annexes and attachments were not compared provision by provision; no contribution classification or individual eligibility is accepted.",
+        "candidate_snapshot": {
+          "repository": "legalize-dev/legalize-pt",
+          "commit": "175e00e1dfd066bf4c205b0d573266c077ffc73e",
+          "path": "pt/2009/DRE-2009-110-490249.md",
+          "url": "https://github.com/legalize-dev/legalize-pt/blob/175e00e1dfd066bf4c205b0d573266c077ffc73e/pt/2009/DRE-2009-110-490249.md",
+          "disposition": "Metadata and official ELI/version locator checked; full converted body not verified."
+        }
+      },
+      "local_copy_accepted": false,
+      "topic_accepted": false
     }
   ],
   "policy": "DRE states that its consolidated pages are government-produced working references but have no legal value and do not replace the original enacted acts. Under the repository source policy, a clearly identified official consolidated page may be used directly within its displayed status/date, subject and caveats; no Gazette-chain reconstruction or local copy is a prerequisite for link use. Original enactments/amendments remain the legal authority if a discrepancy matters.",
@@ -1236,7 +1317,7 @@
       "review_scope": "Confirm parent-page links, service authority, municipality/AIMA division, current forms, appointment and submission channels, and effective dates."
     }
   ],
-  "count_note": "66 official external-reference decisions cover links within scope; they do not count as accepted topics or country completion. Three dated derived text copies are retained: full visible DRE consolidated texts for Lei 37/2006, Lei 143/2015 and the Civil Registration Code, each with the publisher’s no-legal-value caveat. Three Gov.pt pages are not relied upon for current procedure. Four unresolved AIMA routes remain under a whole-site human-review offer.",
+  "count_note": "69 official external-reference decisions cover links within their stated scope; they do not count as accepted topics or country completion. Three dated derived text copies are retained for the previously listed statutes. Three Gov.pt pages are not relied upon for current procedure. Four AIMA routes remain under a whole-site human-review offer. The three Legalize-PT crosswalk additions are official DRE link references; no Legalize text copy or new topic is accepted.",
   "not_relied_upon_reference_count": 3,
   "not_relied_upon_references": [
     {
