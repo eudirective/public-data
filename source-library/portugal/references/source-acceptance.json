@@ -2,12 +2,12 @@
   "schema_version": "1.4.0",
   "jurisdiction": "PT",
   "as_of": "2026-10-29",
-  "accepted_source_count": 1,
+  "accepted_source_count": 2,
   "accepted_current_law_source_count": 0,
-  "accepted_derived_text_count": 1,
+  "accepted_derived_text_count": 2,
   "accepted_topic_count": 0,
   "country_review_complete": false,
-  "accepted_external_reference_count": 62,
+  "accepted_external_reference_count": 63,
   "external_reference_decisions": [
     {
       "source_id": "pt-02",
@@ -1127,6 +1127,24 @@
         "verified_content": "Full visible consolidated statutory text, Articles 1–34, retrieved and transcribed to Markdown; the source page says consolidated versions have no legal value and do not replace the acts from which the consolidation derives.",
         "limitations": "Consult original enactments and later amendments if exact legal force, commencement or conflict matters. Recheck the date selector and amendment history."
       }
+    },
+    {
+      "source_id": "pt-02-lei-n.º-143-2015-adoption-regime",
+      "decision": "accepted_with_narrow_external_scope",
+      "accepted_role": "Official DRE consolidated record and dated text for the adoption regime within the displayed version and legal-status caveats.",
+      "not_accepted": [
+        "A consolidated text with legal force; DRE explicitly states consolidations have no legal value.",
+        "No later changes after the 16 October 2026 selector date.",
+        "Individual adoption eligibility or country completion."
+      ],
+      "evidence": {
+        "official_source_url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2015-70208248",
+        "checked_on": "2026-10-29",
+        "language": "Portuguese",
+        "version": "DRE view selector displays 16 October 2026; last alteration shown 17 August 2023; status Em vigor.",
+        "verified_content": "The visible consolidated text includes Lei 143/2015 and annexed Regime Jurídico do Processo de Adoção through Article 90 and the consolidation caveat.",
+        "limitations": "Recheck current DRE date selector and the source enactments/amendments for legal force and commencement."
+      }
     }
   ],
   "policy": "DRE states that its consolidated pages are government-produced working references but have no legal value and do not replace the original enacted acts. Under the repository source policy, a clearly identified official consolidated page may be used directly within its displayed status/date, subject and caveats; no Gazette-chain reconstruction or local copy is a prerequisite for link use. Original enactments/amendments remain the legal authority if a discrepancy matters.",
@@ -1145,7 +1163,7 @@
       "review_scope": "Confirm parent-page links, service authority, municipality/AIMA division, current forms, appointment and submission channels, and effective dates."
     }
   ],
-  "count_note": "62 official external-reference decisions cover links within scope; they do not count as accepted topics or country completion. One dated derived text copy is retained: the full visible DRE consolidation of Lei 37/2006, with the publisher’s no-legal-value caveat. Three Gov.pt pages are not relied upon for current procedure. Four unresolved AIMA routes remain under a whole-site human-review offer.",
+  "count_note": "63 official external-reference decisions cover links within scope; they do not count as accepted topics or country completion. Two dated derived text copies are retained: full visible DRE consolidated texts of Lei 37/2006 and Lei 143/2015, each with the publisher’s no-legal-value caveat. Three Gov.pt pages are not relied upon for current procedure. Four unresolved AIMA routes remain under a whole-site human-review offer.",
   "not_relied_upon_reference_count": 3,
   "not_relied_upon_references": [
     {
@@ -1183,6 +1201,18 @@
       "reuse_basis": "Portuguese CDADC Article 8 states compiled or annotated official texts do not benefit from protection; DRE is the official publisher. Portal interface, branding and unrelated copyrighted material are excluded.",
       "verification": "All visible statutory text from Article 1 through Article 34 and the publisher’s consolidation caveat were retained; DRE status and version fields were checked.",
       "limitations": "DRE explicitly states consolidated text is not legally valid and does not replace originating acts. Version selector is dated 2026-08-24; this copy is not a consolidated legal instrument."
+    },
+    {
+      "source_id": "pt-02-lei-n.º-143-2015-adoption-regime",
+      "path": "documents/legislation/pt-02-lei-143-2015-adoption-regime-consolidation-2026-10-16.md",
+      "sha256": "3ac558a670a18f464b073a02bc0c3e0b3993f697abbf964506405b1f6fab8e31",
+      "bytes": 95322,
+      "source_url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2015-70208248",
+      "reviewed_on": "2026-10-29",
+      "decision": "accepted_dated_derived_text",
+      "reuse_basis": "Portuguese CDADC Article 8 states compiled or annotated official texts do not benefit from protection; DRE is the official publisher. Portal interface, branding and unrelated material are excluded.",
+      "verification": "All 668 visible statutory-body lines were retained from the DRE consolidated view, including the annexed adoption procedure statute and the DRE consolidation warning; current displayed status and version selector were checked.",
+      "limitations": "The consolidated text has no legal value and does not replace originating acts. Displayed version cutoff 2026-10-16. Not an authoritative consolidated instrument."
     }
   ]
 }
