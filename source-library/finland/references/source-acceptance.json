@@ -19,7 +19,7 @@
     "accepted_topics": 0,
     "country_review_complete": false,
     "maintained_locator_notes": 1,
-    "maintained_markdown_records": 1
+    "maintained_markdown_records": 2
   },
   "accepted_references": [
     {
@@ -378,10 +378,10 @@
       "title": "Appealing against the decision of an authority",
       "url": "https://www.oikeus.fi/en/themes/appealing-against-the-decision-of-an-authority/",
       "language": "en-fi",
-      "checked_at": "2026-10-24",
-      "acceptance_scope": "Oikeus.fi general public guidance on administrative rectification and appeal routes.",
-      "limitations": "General procedural guidance only; use the decision-specific appeal instructions, deadlines and competent authority for an individual matter.",
-      "verification_basis": "Live Ministry of Justice public guidance page describes administrative appeal and time-limit information."
+      "checked_at": "2026-10-29",
+      "acceptance_scope": "Oikeus.fi general public guidance on administrative rectification, court appeals, enforcement, further review and selected authority-specific routes; complete substantive English page directly reviewed 2026-10-29 and summarized at documents/guidance/fi-oikeus-appeal-guidance.md.",
+      "limitations": "General procedural guidance only; use the decision-specific appeal instructions, deadlines, competent authority and applicable statute. The traffic-fine time limits are examples for those decision types only.",
+      "verification_basis": "Direct review of official page content from title through authority-specific appeal channel links. Page identifies Ministry of Justice responsibility for maintaining Oikeus.fi."
     },
     {
       "source_id": "fi-oikeus-public-access",
@@ -631,6 +631,13 @@
       "status": "accepted_maintained_form_transcription",
       "checked_at": "2026-10-29",
       "source_representation": "complete rendered instruction and field schema; dynamic behavior/raw HTML not retained"
+    },
+    {
+      "source_id": "fi-oikeus-appeal-guidance",
+      "path": "documents/guidance/fi-oikeus-appeal-guidance.md",
+      "status": "accepted_maintained_source_summary",
+      "checked_at": "2026-10-29",
+      "source_representation": "complete substantive page summarized; raw HTML and verbatim conversion not retained"
     }
   ]
 }
