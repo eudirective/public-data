@@ -219,7 +219,7 @@
     "Voivodeship-local procedures, mission-specific services, case-law discovery completeness and country completion remain open."
   ],
   "reviewed_on": "2026-10-25",
-  "status": "54_scoped_official_links_accepted; 26_local_source_text_copies_accepted; 24_locator_disposition_notes; 4_historical_only; 5_routes_not_relied_on; topic_coverage_incomplete",
+  "status": "54_scoped_official_links_accepted; 27_local_source_text_copies_accepted; 24_locator_disposition_notes; 4_historical_only; 5_routes_not_relied_on; topic_coverage_incomplete",
   "accepted_external_reference_ids": [
     "pl-01",
     "pl-02",
@@ -358,7 +358,7 @@
       "limit": "The legal rule differs for EU-citizen residence documents and third-country-family residence cards. No Polish card specimen was visually verified."
     }
   ],
-  "content_reuse": "For the 11 accepted legal/instrument texts, Article 4(1)(1) and (2) of the Polish Copyright and Related Rights Act addresses normative acts, official drafts, official documents and materials. For the 15 gov.pl textual snapshots, the gov.pl footer states textual content excluding audiovisual material is available under CC BY-SA 4.0; each document identifies source, retrieval time and Markdown transformation. Images, audiovisual material and linked attachments are excluded. The Open Data Act permits reuse subject to its conditions and limits, including third-party rights, privacy and personal-data restrictions; see Articles 5, 6, 14 and 15. These bases are source-specific and do not extend to unaccepted locator captures or dynamic external sources.",
+  "content_reuse": "For the 12 accepted legal/instrument texts, Article 4(1)(1) and (2) of the Polish Copyright and Related Rights Act addresses normative acts, official drafts, official documents and materials. For the 15 gov.pl textual snapshots, the gov.pl footer states textual content excluding audiovisual material is available under CC BY-SA 4.0; each document identifies source, retrieval time and Markdown transformation. Images, audiovisual material and linked attachments are excluded. The Open Data Act permits reuse subject to its conditions and limits, including third-party rights, privacy and personal-data restrictions; see Articles 5, 6, 14 and 15. These bases are source-specific and do not extend to unaccepted locator captures or dynamic external sources.",
   "accepted_local_copy_reviews": {
     "pl-06-current-2026": {
       "decision": "accepted_local_official_text",
@@ -847,5 +847,5 @@
       "limitations": "Local copy reproduces the complete visible HTML text body but not the ten annex specimen images/forms linked by ELI. Use official attachments for their exact layout/content. Dated snapshot; recheck ELI for amendments and displayed status. Not a conclusion on eligibility or topic adequacy."
     }
   },
-  "count_note": "accepted_local_copies counts 26 retained source-text copies: 11 official legal/instrument texts (including two historical copies) and 15 dated gov.pl text snapshots. The other 24 former candidate records have source-specific locator/disposition documents under documents/; those notes are not accepted copies of the underlying pages. External-reference status is recorded separately. No topic is accepted and country_review_complete remains false."
+  "count_note": "accepted_local_copies counts 27 retained source-text copies: 12 official legal/instrument texts (including two historical copies) and 15 dated gov.pl text snapshots. The other 24 former candidate records have source-specific locator/disposition documents under documents/; those notes are not accepted copies of the underlying pages. External-reference status is recorded separately. No topic is accepted and country_review_complete remains false."
 }
