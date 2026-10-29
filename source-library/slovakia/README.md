@@ -1,6 +1,6 @@
 # Slovakia national source pack
 
-Reviewed 2026-10-29. The 40 bounded official-source leads now each have a final reference or disposition note under [documents/references/](documents/references/). Thirty-six official external links are accepted within their recorded scope and limits; four leads are not accepted or remain pending verification. Two local statutory transcriptions (Acts 71/1967 and 404/2011, effective 2018-09-01 and 2026-10-01) and zero topic coverage are accepted; the country review remains open.
+Reviewed 2026-10-29. The 40 bounded official-source leads now each have a final reference or disposition note under [documents/references/](documents/references/). Thirty-six official external links are accepted within their recorded scope and limits; four leads are not accepted or remain pending verification. Four local statutory transcriptions (Acts 71/1967, 404/2011, 365/2004 and 36/2005) and zero topic coverage are accepted; the country review remains open.
 
 - [Reviewed source-note directory](documents/README.md)
 - [Machine-readable accepted-reference register](references/source-acceptance.json)
