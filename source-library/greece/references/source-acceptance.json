@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 222 official-reference reviews approve use of identified official links within their recorded scopes. Eighty-four accepted source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), sixteen MITOS procedure-page copies under their displayed CC BY-SA 4.0 license, and one dated Gov.gr guidance-page snapshot under its stated lawful non-commercial reuse terms. These retained files are not consolidated laws unless expressly stated. One hundred thirty-eight distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. No automated retrieval rule is accepted. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 222 official-reference reviews approve use of identified official links within their recorded scopes. Eighty-four accepted source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), sixteen MITOS procedure-page copies under their displayed CC BY-SA 4.0 license, and one dated Gov.gr guidance-page snapshot under its stated lawful non-commercial reuse terms. These retained files are not consolidated laws unless expressly stated. One hundred thirty-eight distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. No automated retrieval rule is accepted. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate. Two additional official references (gr-224 and gr-225) have maintained authored Markdown summaries; the accepted source-text copy count remains 84 and 140 distinct official references remain without local source-text copies.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -3980,6 +3980,34 @@
         "The Ombudsman archive is a host; the Ministry is identified as publisher in the document header. Greek controls. No local source text or automated retrieval rule is accepted."
       ],
       "source_list_id": "gr-223"
+    },
+    "gr-224": {
+      "status": "usable_official_reference",
+      "publisher": "Attica Decentralized Administration",
+      "url": "https://apdattikis.gov.gr/episimeiosi-tis-chagis-sfragida-apostille/",
+      "checked_on": "2026-10-29",
+      "language": "Greek",
+      "version_or_cutoff": "Official page reviewed as displayed on 2026-10-29; no page revision date was relied on.",
+      "scope": "Attica Decentralized Administration: Apostille service scope.",
+      "reviewed_content": "The page distinguishes e-Apostille processing for eligible digitally issued records through gov.gr from the Attica office’s handling of physical originals bearing signatures of Attica municipalities or the Athens Special Registry Office. It describes the local office’s submission route and scope.",
+      "limitations": [
+        "This is regional operational information, not a national statement that every document can be apostilled or that a destination state will accept it. The issuing authority, document form, territorial link and destination-country requirements matter. No service transaction was submitted.",
+        "The maintained Markdown is an authored summary, not a verbatim source copy or a legal-completeness finding."
+      ]
+    },
+    "gr-225": {
+      "status": "usable_official_reference",
+      "publisher": "Greek Government Training Portal for Digital Services (howto.gov.gr)",
+      "url": "https://howto.gov.gr/mod/book/view.php?id=266",
+      "checked_on": "2026-10-29",
+      "language": "Greek",
+      "version_or_cutoff": "Official page reviewed as displayed on 2026-10-29; no page revision date was relied on.",
+      "scope": "Government training portal: issuing civil registry records.",
+      "reviewed_content": "The guide describes immediate electronic issuance through gov.gr for records issued from 2013 onward; older records amended or excerpted since 2018; and foreign events registered at the Athens Special Registry Office from 22 January 2018. If immediate issuance is unavailable, it describes a later KEP route and a myKEPlive video appointment where KEP cannot issue electronically.",
+      "limitations": [
+        "This is a government training/workflow guide, not a legal determination of eligibility, authentication, translation or cross-border acceptance. Dynamic portal availability and individual record data were not tested.",
+        "The maintained Markdown is an authored summary, not a verbatim source copy or a legal-completeness finding."
+      ]
     }
   },
   "local_copy_acceptance": {
@@ -5465,6 +5493,20 @@
       "version_or_cutoff": "Greek page revision oldid 441897; last updated 29 September 2026; checked 29 October 2026.",
       "monitor_archive_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-33.md",
       "monitor_archive_sha256": "03597526e50d45e594447963260901d5b764d578f0fb47040bdf03cb702fe4fe"
+    }
+  },
+  "maintained_reference_notes": {
+    "gr-224": {
+      "path": "documents/guidance/gr-224-summary.md",
+      "status": "accepted_maintained_reference_summary",
+      "checked_on": "2026-10-29",
+      "form": "official government page summarized in English; not verbatim"
+    },
+    "gr-225": {
+      "path": "documents/guidance/gr-225-summary.md",
+      "status": "accepted_maintained_reference_summary",
+      "checked_on": "2026-10-29",
+      "form": "official government page summarized in English; not verbatim"
     }
   }
 }
