@@ -2,11 +2,11 @@
 
 **Source review:** 21 October 2026. **Local-copy disposition:** 29 October 2026.
 
-**Status:** 63 unique source records; 60 official external references accepted within scope; 3 obsolete or unavailable exact routes not relied upon; 11 local texts accepted. No topics are accepted as adequately covered, and the country review remains incomplete.
+**Status:** 63 unique source records; 60 official external references accepted within scope; 3 obsolete or unavailable exact routes not relied upon; 12 local texts accepted. No topics are accepted as adequately covered, and the country review remains incomplete.
 
 ## Source records
 
-- The [source list](references/source-list.md) and [source-review manifest](references/source-review-manifest.json) contain the reconciled 63-record inventory. The [acceptance register](references/source-acceptance.json) records 60 accepted external references, 3 routes not relied upon, 11 local text copies, and whole-site human-review offers.
+- The [source list](references/source-list.md) and [source-review manifest](references/source-review-manifest.json) contain the reconciled 63-record inventory. The [acceptance register](references/source-acceptance.json) records 60 accepted external references, 3 routes not relied upon, 12 local text copies, and whole-site human-review offers.
 - The focused inventory (8 records) and broader inventory (52 records) had 5 overlaps; three focused-only records and 7 issue-led additions formed the 62-source inventory. The IND Proclaimer (nl-63) was added on 25 October as a distinct publisher-reuse policy record.
 - Prior inventories and raw captures remain in the EU Source Update Monitor local-only archive as provenance. Twelve source texts were separately reviewed and accepted: six Wetten.nl legal texts and six IND guidance pages. The nl-17 candidate header carried a wrong 17 June date, but its archived raw page and text display 8 October and match the live page checked 25 October. Duplicate candidates and other archived conversions remain provenance only.
 
