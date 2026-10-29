@@ -67,3 +67,17 @@
 - The 2026 ISD appeal page says ordinary short-stay refusal appeals ended on 1 June 2026 but EU Free Movement Directive cases remain appealable.
 - All 26 original captured responses, all 26 deterministic candidate conversions, and the retrieval manifest are indexed in the Monitor local-only archive. No pack-local `candidates/` or retrieval manifest is retained.
 - Open coverage items: mission-specific requirements, individual court judgments, precise current operative scope of the 1977/1997 EEA instruments, legal-aid eligibility in EU Treaty Rights/judicial-review matters, and foreign-status/adoption documentation. These are not certified by this bounded candidate review.
+
+## Legalize-IE crosswalk (2026-10-29)
+
+Pinned [Legalize-IE](https://github.com/legalize-dev/legalize-ie) at commit [b192408619518b7a268d2fb819e6dac4df71e8d5](https://github.com/legalize-dev/legalize-ie/commit/b192408619518b7a268d2fb819e6dac4df71e8d5). The repository contains matching candidates for the complete free-movement instrument chain already represented by `ie-08`–`ie-10`:
+
+| Legalize candidate | Pack record | Verified finding |
+|---|---|---|
+| [`IE-2015-si-548.md`](https://github.com/legalize-dev/legalize-ie/blob/b192408619518b7a268d2fb819e6dac4df71e8d5/ie/8c/IE-2015-si-548.md), blob `fa10d41bcd60f1d58b8ce211b7b4b9fd62f1a669` | `ie-08`, SI 548/2015 | Same eISB instrument and made version. Legalize says `text_state: as_enacted`; its later `last_updated` date does not mean amendments are incorporated. |
+| [`IE-2021-si-445.md`](https://github.com/legalize-dev/legalize-ie/blob/b192408619518b7a268d2fb819e6dac4df71e8d5/ie/40/IE-2021-si-445.md), blob `bdbcd734c4b98d31307b292ed9823d31a61d2e5f` | `ie-09`, SI 445/2021 | Same amending instrument; as-enacted text. |
+| [`IE-2025-si-398.md`](https://github.com/legalize-dev/legalize-ie/blob/b192408619518b7a268d2fb819e6dac4df71e8d5/ie/8e/IE-2025-si-398.md), blob `7dcfd80c2bf7ec8d90717128b3615b745126980f` | `ie-10`, SI 398/2025 | Same amending instrument; as-enacted text replacing SI 548 Regulation 24. |
+
+Each candidate identifies the corresponding official eISB `made/en/html` source. The pack already retains the official eISB `made/en/print` texts separately. Normalized candidate text did not exactly match the accepted official-source text for all three instruments; Legalize also flags one omitted image per file. Therefore no Legalize text is accepted and no automated conversion/retrieval method is recorded. Keep the official enacted texts and amendments separate; do not treat the Legalize candidate as a consolidated SI 548.
+
+**Reuse and conversion limits:** Legalize-IE states eISB/Oireachtas content is under the Oireachtas PSI Licence incorporating CC BY 4.0; its MIT licence is for pipeline code. If another copy is evaluated, preserve regulation/paragraph numbering, footnotes, schedules and image-omission notices, remove only page navigation, and compare the full made instrument against the same official eISB version. No new Irish source record was needed; country and topic completion remain open.
