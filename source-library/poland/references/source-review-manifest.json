@@ -3,12 +3,12 @@
   "jurisdiction": "Poland",
   "review_date": "2026-10-29",
   "scope": "Issue-led review of all 63 official-source references identified to date. This is not a legal sufficiency or country-completion certification.",
-  "status": "63 source records; 54 official external references accepted within scope, 4 historical-only, and 5 not relied upon or pending human review; 27 accepted dated local source-text copies; 24 additional candidate records dispositioned as official-link locator notes; 0 topics accepted; country review incomplete.",
+  "status": "63 source records; 54 official external references accepted within scope, 4 historical-only, and 5 not relied upon or pending human review; 28 accepted dated local source-text copies; 24 additional candidate records dispositioned as official-link locator notes; 0 topics accepted; country review incomplete.",
   "source_count": 63,
   "accepted_external_reference_count": 54,
   "historical_reference_only_count": 4,
   "not_relied_upon_count": 5,
-  "local_copy_accepted_count": 27,
+  "local_copy_accepted_count": 28,
   "topic_accepted_count": 0,
   "country_review_complete": false,
   "input_manifests": [
@@ -1454,10 +1454,13 @@
       "reference_status": "accepted_external_reference_with_narrow_scope",
       "acceptance_scope": "Use the official page or instrument only for its stated identity and scope: Schengen and Visa Information Systems Act, consolidated announcement Dz.U. 2026 poz. 1061. Source-specific limits: Current national implementation source for SIS/VIS data rights and competent-authority functions. The precise legal channel for requests, including the UODO page’s ePUAP instruction, still requires provision-specific review under the Electronic Delivery Act and special rules. Link acceptance does not accept a local copy, legal topic, or country completeness.",
       "captured_version_evidence": "Consolidated announcement of 31 July 2026, published 6 August 2026; ELI displayed status obowiązujący and legal-status date 20 July 2026.",
-      "capture_status": "link_only_official_reference",
-      "local_copy_accepted": false,
+      "capture_status": "promoted_accepted_local_copy",
+      "local_copy_accepted": true,
       "topic_accepted": false,
-      "local_copy_disposition": "No local capture retained; official-link disposition is recorded separately."
+      "local_copy_disposition": "The complete official 20-page consolidated PDF text was extracted line-by-line (829 source lines) and retained at documents/legislation/pl-63-sis-vis-act-consolidation-2026.md. The 2026 consolidation cutoff and displayed ELI status are recorded; source publication and text links are embedded.",
+      "document_path": "documents/legislation/pl-63-sis-vis-act-consolidation-2026.md",
+      "document_sha256": "ad5ce98070653a284dce146bea93dd5c511a7fcbf4559f2a16d1beb9c390039b",
+      "document_role": "accepted_dated_local_source_text"
     }
   ]
 }
