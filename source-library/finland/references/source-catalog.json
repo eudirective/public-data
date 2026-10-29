@@ -1,12 +1,12 @@
 {
   "catalog_version": 1,
-  "catalog_date": "2026-10-24",
+  "catalog_date": "2026-10-29",
   "catalog_status": "partial_retrieval_review_candidates",
   "jurisdiction": "Finland (FI)",
   "scope": "Official Finnish sources related to EU, EEA and Swiss free movement; third-country family members; visa and consular routes; administrative procedure, access to information, remedies, oversight, privacy, legal aid and administrative courts. This is a bounded discovery register, not a statement of legal equivalence or complete coverage.",
   "accepted_source_count": 2,
   "candidate_source_count": 37,
-  "acquisition_rule_status": "Thirty-four official external references are accepted with item-specific limits; two Finnish current-law conversions are accepted as dated local copies. One obsolete Migri route is dispositioned as already represented and wrong scope. Two oversight sites remain under human review. Unaccepted page/text conversions stay in the Monitor local-only archive; source acceptance, local copies, topic coverage and completion remain separate.",
+  "acquisition_rule_status": "Thirty-four official external references are accepted with item-specific limits; two Finnish current-law conversions are accepted as dated local copies. One maintained locator note records the Ministry for Foreign Affairs visa guidance without copying its page content. One obsolete Migri route is dispositioned as already represented and wrong scope. Two oversight sites remain under human review. Unaccepted page/text conversions stay in the Monitor local-only archive; source acceptance, local copies, maintained locator notes, topic coverage and completion remain separate.",
   "official_change_channels": {
     "national_legal_database": "https://www.finlex.fi/",
     "open_data_documentation": "https://www.finlex.fi/en/open-data",
@@ -900,8 +900,9 @@
       "monitor_converted_sha256": "e8fc8182d87b4cdee81b39045c26d0b7e4d03a396c98e89b7583eb72fb0c08b4",
       "monitor_archive_path": "candidates/public-data/finland/monitor-candidates/fi-mfa-visa-guide.md",
       "external_reference_accepted": true,
-      "external_reference_checked_at": "2026-10-24",
-      "local_copy_status": "no local copy accepted; captured page conversion archived in Monitor local-only archive"
+      "external_reference_checked_at": "2026-10-29",
+      "local_copy_status": "No source page copy accepted; independently authored maintained locator at documents/guidance/fi-mfa-visa-guide.md; no page content retained.",
+      "maintained_locator_path": "documents/guidance/fi-mfa-visa-guide.md"
     },
     {
       "id": "fi-mfa-visa-faq",
@@ -1272,5 +1273,6 @@
   "converted_review_candidate_count": 21,
   "accepted_external_reference_count": 34,
   "accepted_local_copy_count": 2,
-  "retrieval_status": null
+  "retrieval_status": null,
+  "maintained_locator_note_count": 1
 }
