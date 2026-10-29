@@ -14,7 +14,7 @@
   "counts": {
     "candidate_records": 37,
     "accepted_external_references": 34,
-    "accepted_local_copies": 3,
+    "accepted_local_copies": 4,
     "remaining_candidate_records": 2,
     "accepted_topics": 0,
     "country_review_complete": false
@@ -268,14 +268,18 @@
       "translation_completed": "2019-01-07",
       "amendment_cutoff": "893/2015",
       "checked_at": "2026-10-24",
-      "acceptance_scope": "External Finlex translation-history page accepted as a language aid for the Administrative Procedure Act; not accepted as current English legal text or as a local copy.",
+      "acceptance_scope": "Accepted dated local English language-aid copy only; not current English legal text. Use the current Finnish consolidated text for legal wording.",
       "limitations": "Finlex labels translations unofficial; only Finnish and Swedish are legally binding. The page states the translation was completed 7 January 2019 and tracks amendments through 893/2015. Verify the current Finnish/Swedish text and any later amendments.",
       "language_versions": {
         "en": {
           "url": "https://finlex.fi/en/legislation/translations/2003/eng/434",
-          "status": "accepted external reference only; unofficial translation; amendments through 893/2015"
+          "status": "Accepted dated local language-aid copy; unofficial; amendments through 893/2015 only; not current English legal text."
         }
-      }
+      },
+      "local_path": "documents/legislation/fi-administrative-procedure-act-434-2003-english-translation.md",
+      "local_sha256": "c9387476dea547662fe0ac724bd80e5044bc9e4e0b1ee5fe63774637825d4c2d",
+      "local_copy_checked_at": "2026-10-29",
+      "local_copy_status": "Accepted dated reflow of the complete 34-page Finlex translation PDF; 804 extracted lines with page breaks preserved. Finlex marks the English version unofficial and legally binding only in Finnish and Swedish; it was completed 7 January 2019 and incorporates amendments through 893/2015. Current Finnish consolidated version is separately listed at 27 June 2025. Not current English legal wording."
     },
     {
       "source_id": "fi-administrative-judicial-act-en",
