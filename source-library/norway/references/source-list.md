@@ -64,3 +64,20 @@ For Lovdata, the accepted items are references to specific official records and 
 | `no-52` | [Norwegian Data Protection Authority](https://www.datatilsynet.no/) | `data_protection_oversight` | accepted official external reference; link only | Oversight source for complaints about personal-data processing, with separate special rules for SIS/VIS/police records. Confirm mandate and process for UDI/UDB before treating as the direct remedy. | [no-52](../documents/references/no-52-norwegian-data-protection-authority.md) |
 | `no-53` | [New Public Administration Act, LOV-2025-06-20-81](https://lovdata.no/dokument/NL/lov/2025-06-20-81) | `administrative_procedure_legislation_future_effective` | accepted official external reference; link only | Replacement for the 1967 Public Administration Act; publisher metadata says commencement is set by the King, so do not treat as operative before commencement. | [no-53](../documents/references/no-53-new-public-administration-act-lov-2025-06-20-81.md) |
 | `no-54` | [Current EØS Worker Mobility Act, LOV-2012-12-14-81](https://lovdata.no/lov/2012-12-14-81) | `eea_worker_mobility_legislation` | accepted official external reference; link only | Current EØS worker-mobility implementing statute. The 1992 predecessor is repealed; preserve this record’s Nynorsk text and EEA adaptations. | [no-54](../documents/references/no-54-current-e-s-worker-mobility-act-lov-2012-12-14-81.md) |
+
+
+## Legalize-no crosswalk (29 October 2026)
+
+The following Legalize files were matched to official records already listed in this pack:
+
+| Existing source | Legalize candidate file | Crosswalk disposition |
+|---|---|---|
+| no-06 Utlendingsloven, LOV-2008-05-15-35 | [`no/LOV-2008-05-15-35.md`](https://github.com/legalize-dev/legalize-no/blob/729ce30333de9d6f9f1e5faf537999cf42bc2a2f/no/LOV-2008-05-15-35.md) | Identity confirmed. Candidate metadata names amendment LOV-2025-06-20-96; official Lovdata material also exposes later 2026 changes to the Act. Do not treat this file as the current consolidated text without an exact-version comparison. |
+| no-08 EØS-loven, LOV-1992-11-27-109 | [`no/LOV-1992-11-27-109.md`](https://github.com/legalize-dev/legalize-no/blob/729ce30333de9d6f9f1e5faf537999cf42bc2a2f/no/LOV-1992-11-27-109.md) | Identity confirmed. The Legalize file is a candidate snapshot; its `last_updated` field is the original 1994 date, not proof of present version status. |
+| no-54 EØS-arbeidstakarlova, LOV-2012-12-14-81 | [`no/LOV-2012-12-14-81.md`](https://github.com/legalize-dev/legalize-no/blob/729ce30333de9d6f9f1e5faf537999cf42bc2a2f/no/LOV-2012-12-14-81.md) | Identity confirmed as an EEA worker-mobility statute. Keep the EEA incorporation and the official current source record as the controlling version evidence. |
+
+Legalize-no's README states that its input is Lovdata's current-laws public-data package; central regulations are not included in that package, amendment history is not represented by the free-data extract, and images are omitted. Therefore the Legalize route does **not** fill the existing no-07 Utlendingsforskriften gap or no-05 Avdeling II/regional-regulation gap. It must not be described as a regulations retrieval method.
+
+**Use and attribution:** For an individual candidate, cite Lovdata's official law record and attribute the reused data to Stiftelsen Lovdata under NLOD 2.0, with the Legalize-no repository and pinned revision as the intermediary. Do not bulk-copy or systematically extract the dataset; Lovdata's terms distinguish single-law reuse from bulk extraction. The repo's MIT license covers pipeline code, not a separate content grant.
+
+**Conversion rules:** preserve Bokmål, formal identifiers, chapters/sections, lists, notes and footnotes; record the exact Legalize commit and source record; compare complete body and key EEA provisions against the same official Lovdata version; distinguish original publication date from amendment/effective dates; mark omitted images and attachments; never promote based on repository date or hash alone. No Legalize file is accepted as a retained source text in this review.
