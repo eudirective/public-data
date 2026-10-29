@@ -3,9 +3,9 @@
   "jurisdiction": "LV",
   "review_date": "2026-10-29",
   "candidate_record_count": 52,
-  "accepted_external_reference_count": 46,
+  "accepted_external_reference_count": 47,
   "pending_external_reference_count": 4,
-  "not_relied_upon_reference_count": 2,
+  "not_relied_upon_reference_count": 1,
   "accepted_local_copy_count": 30,
   "accepted_topic_count": 0,
   "country_review_complete": false,
@@ -1724,6 +1724,36 @@
       "maintained_source_note_path": "documents/guidance/lv-27-pmlp-personal-identity-number-and-residence.md",
       "maintained_source_note_checked_on": "2026-10-29",
       "maintained_source_note_status": "accepted_dated_paraphrased_source_note"
+    },
+    {
+      "source_id": "lv-28",
+      "title": "MFA: Entry into Latvia by Union citizens and family members",
+      "url": "https://www.mfa.gov.lv/en/entry-latvia-citizens-union-and-their-family-members",
+      "publisher": "Ministry of Foreign Affairs of Latvia",
+      "language": "en",
+      "checked_on": "2026-10-29",
+      "version_or_scope": "Published 5 July 2021; updated 17 June 2026. Briefly identifies the legal instrument the MFA page says governs EU/EEA/Swiss citizens and family members entering and residing in Latvia, with links to PMLP and visa-facilitation pages.",
+      "acceptance_scope": "Accepted as evidence of the MFA's published guidance within the page version dated 17 June 2026 and as a record of its legal citation; not accepted as current procedure after the new law took effect.",
+      "limitations": [
+        "The page was updated 17 June 2026 and still cites Cabinet Regulation No. 675 after the replacement free-movement Act took effect on 10 July 2026. Do not rely on it to determine current procedure.",
+        "The applicability of Regulation No. 675 to applications filed on or after 10 July 2026 remains unresolved; this page does not resolve the conflict.",
+        "The linked PMLP and visa-facilitation pages are separate sources and are not covered by this acceptance."
+      ],
+      "candidate_record": {
+        "manifest": "references/candidate-manifest.json",
+        "id": "lv-28"
+      },
+      "evidence": {
+        "official_source_url": "https://www.mfa.gov.lv/en/entry-latvia-citizens-union-and-their-family-members",
+        "verified_content": "Live official English MFA page opened 29 October 2026. It displays publication date 5 July 2021 and update date 17 June 2026; its substantive statement cites Cabinet Regulation No. 675 as governing EU/EEA/Swiss citizens and their family members. The current PMLP overview page (updated 17 July 2026) refers instead to the new free-movement law. The conflict is confirmed.",
+        "source_record_note": "Promoted as a maintained dated note documenting the MFA's published citation and its known staleness, not as current procedural advice.",
+        "retrieval_status": "human_reviewed_live_page"
+      },
+      "decision": "accepted_with_historical_scope_stale_current_procedure_not_relied_upon",
+      "local_copy_accepted": false,
+      "maintained_source_note_path": "documents/guidance/lv-28-mfa-eu-family-entry-stale-guidance.md",
+      "maintained_source_note_checked_on": "2026-10-29",
+      "maintained_source_note_status": "accepted_dated_paraphrased_source_note"
     }
   ],
   "pending_references": [
@@ -1771,17 +1801,6 @@
     }
   ],
   "not_relied_upon": [
-    {
-      "source_id": "lv-28",
-      "title": "MFA: Entry into Latvia by Union citizens and family members",
-      "url": "https://www.mfa.gov.lv/en/entry-latvia-citizens-union-and-their-family-members",
-      "reason": "The MFA page was updated 17 June 2026 but still presents Regulation 675 as the governing EU-family procedure after the replacement Act took effect on 10 July 2026. Preserve it as evidence of stale guidance; do not rely on it as current procedure.",
-      "candidate_record": {
-        "manifest": "references/candidate-manifest.json",
-        "id": "lv-28"
-      },
-      "candidate_archive_path": "candidates/latvia_candidate_promotion_20261024/Latvia/lv-28.md"
-    },
     {
       "source_id": "lv-34",
       "title": "PMLP: Family unification under general immigration route",
@@ -1847,6 +1866,6 @@
     }
   ],
   "currentness_and_dependency_note": "The new free-movement Act took effect on 10 July 2026 and sets 1 December 2027 deadlines for specified Cabinet regulations. Its transitional text says applications filed before commencement are handled under Regulation 675. The official Regulation 675 record, however, says it remains in force until 2 December 2027. This review records the regulation as an official legal reference but leaves its applicability to applications filed on or after 10 July 2026 unresolved; the stale MFA guidance is not used to resolve that conflict. The new Immigration Law is a separate third-country regime effective 15 September 2026; certain provisions take effect on 31 December 2027. Issue-led discovery also added the Residence Declaration Act, Register of Natural Persons Act (selected edition from 29 April 2026), and Civil Status Act as current official references for address registration, population-register records, and civil-status evidence. They do not resolve local implementation or all foreign-document recognition questions.",
-  "count_note": "The 52 source records comprise 46 accepted external references, 4 pending references, and 2 not-relied-upon references. Thirty records also have an accepted dated local text copy. Maintained paraphrased source notes are tracked separately from verbatim local copies. External-reference acceptance, local-copy acceptance, maintained source notes, topic coverage, and country-review completion are separate.",
+  "count_note": "The 52 source records comprise 47 accepted external references, 4 pending references, and 1 not-relied-upon reference. Thirty records also have an accepted dated local text copy. Maintained paraphrased source notes are tracked separately from verbatim local copies. External-reference acceptance, local-copy acceptance, maintained source notes, topic coverage, and country-review completion are separate.",
   "local_copy_review_policy": "Accepted local copies are dated text-only snapshots of the identified official source region. Acceptance does not include page chrome, link destinations, embedded files/forms, interactive fields, images, subsequent updates, legal-currentness certification, topic coverage, or country completion. Each local path, final-document hash, source-response hash, conversion hash, review date, and source-specific scope is recorded with its accepted reference."
 }
