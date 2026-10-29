@@ -3,9 +3,9 @@
   "jurisdiction": "LU",
   "review_date": "2026-10-29",
   "candidate_record_count": 49,
-  "accepted_external_reference_count": 45,
+  "accepted_external_reference_count": 46,
   "pending_external_reference_count": 1,
-  "not_relied_upon_reference_count": 3,
+  "not_relied_upon_reference_count": 2,
   "accepted_local_copy_count": 10,
   "accepted_topic_count": 0,
   "country_review_complete": false,
@@ -14,7 +14,7 @@
     "decision": "Legilux is accepted as the official publisher for Luxembourg legislation and government consolidations within each displayed edition and caveat. Guichet and ministry pages are accepted only for the official service content reviewed.",
     "basis": "Official Legilux ELI/LegalDocML records and Casemates release text under CC BY 4.0; Luxembourg Ministry visa lists verified as current attachments from visa pages last updated 2026-10-23; Guichet pages remain accepted only within individually recorded scopes.",
     "limits": "Legilux consolidated texts are documentary and without legal force. Several promoted local texts are original acts or dated snapshots only. The 2023 court-procedure consolidation has unresolved post-cutoff currentness; the 2023 coordinated formalities PDF predates later 2024 amendments and the separate A283 rectification. Visa PDFs are unversioned mutable attachments. No topic or country completeness is claimed. LU-10 is a coordinated text applicable from 2023-04-15; later amendments are outside its text. Reference notes do not certify current application.",
-    "local_copy_and_reuse": "Ten exact legal-text copies are accepted: nine Legilux texts under Casemates CC BY 4.0 and LU-10, a dated coordinated regulation text. Article 10, point 8, of the amended 18 April 2001 copyright law identifies official acts of the authority and official translations among permitted uses; that basis is applied only to the legal instrument text, not the Ministry page or surrounding website content. The other final files from this batch are independently written source-reference notes, not copies of website page bodies, forms, directories or search interfaces. No blanket webpage license is inferred. LU-11 is an independently written source-reference note and does not reproduce the Guichet page or linked forms."
+    "local_copy_and_reuse": "Ten exact legal-text copies are accepted: nine Legilux texts under Casemates CC BY 4.0 and LU-10, a dated coordinated regulation text. Article 10, point 8, of the amended 18 April 2001 copyright law identifies official acts of the authority and official translations among permitted uses; that basis is applied only to the legal instrument text, not the Ministry page or surrounding website content. The other final files from this batch are independently written source-reference notes, not copies of website page bodies, forms, directories or search interfaces. No blanket webpage license is inferred. LU-11 is an independently written source-reference note and does not reproduce the Guichet page or linked forms. LU-19 is an independently written note; the Guichet page and form are not reproduced."
   },
   "accepted_references": [
     {
@@ -1779,6 +1779,43 @@
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
       }
+    },
+    {
+      "source_id": "lu-19",
+      "title": "Short-stay visa entry guidance",
+      "url": "https://guichet.public.lu/en/citoyens/immigration/vivre/non-luxembourg/autres/entree-visa.html",
+      "publisher": "guichet.public.lu",
+      "language": "en",
+      "checked_on": "2026-10-29",
+      "version_or_scope": "Current English page last updated 2026-10-01; linked Schengen visa application form last updated 2023-10-18. Previous candidate route is stale.",
+      "decision": "accepted_with_narrow_external_scope",
+      "acceptance_scope": "Official administrative overview for third-country nationals subject to Schengen visa requirements, including airport-transit and short-stay procedures, within the displayed scope and date; verify variable requirements against current EU and official country-list sources.",
+      "reviewed_content": "Current page reviewed for visa categories, visa jurisdiction, application timing and supporting documents, fees as displayed, application processing, extension and refusal routes, paid-activity/work-permit distinctions and linked form.",
+      "limitations": [
+        "Administrative guidance only; the Visa Code, current nationality list and other controlling law must be checked for legal requirements.",
+        "Fees, exemptions, mission representation, forms, deadlines and appeal routes are date-sensitive; linked application form dates from 2023.",
+        "A visa does not guarantee border entry or independently authorize paid work.",
+        "Keep separate from EU-family facilitated short-stay rules and residence over 90 days.",
+        "This accepts the external reference and independent note only; no webpage/form reuse permission is inferred."
+      ],
+      "evidence": {
+        "official_source_url": "https://guichet.public.lu/en/citoyens/immigration/vivre/non-luxembourg/autres/entree-visa.html",
+        "verified_content": "Current Guichet page last updated 2026-10-01 and linked Schengen visa application form date 2023-10-18 were reviewed.",
+        "source_record_note": "Replacement for the stale prior candidate route confirmed 2026-10-29.",
+        "retrieval_status": "official_reference_rechecked_and_source_note_promoted"
+      },
+      "local_copy_accepted": false,
+      "local_copy_disposition": "promoted_independent_source_reference_note_not_verbatim_source_copy",
+      "archived_candidate_record": {
+        "archive_path": "candidates/luxembourg_promotion_20261025/Luxembourg/candidate-manifest.json",
+        "id": "lu-19",
+        "manifest_sha256": "493ad79375983bb78217e36ede350f0be319a35b7f604636d298c43912054a02"
+      },
+      "source_document": {
+        "path": "documents/guidance/lu-19-short-stay-entry-visa.md",
+        "kind": "independent_source_reference_note",
+        "reproduces_source_text": false
+      }
     }
   ],
   "pending_references": [
@@ -1803,24 +1840,6 @@
     }
   ],
   "not_relied_upon_references": [
-    {
-      "source_id": "lu-19",
-      "title": "Short-stay visa entry guidance",
-      "url": "https://guichet.public.lu/en/citoyens/immigration/moins-3-mois/ressortissant-tiers/entree-visa.html",
-      "publisher": "guichet.public.lu",
-      "language": "en",
-      "checked_on": "2026-10-21",
-      "version_or_scope": "English page last updated 17 November 2025; French version shows a later update in 2026.",
-      "decision": "not_relied_upon",
-      "reason": "The old candidate URL returned 404 and no current replacement for this exact source purpose was verified. Do not rely on the stale route; use current official parent pages and the whole-site review offers.",
-      "archived_candidate_record": {
-        "archive_path": "candidates/luxembourg_promotion_20261025/Luxembourg/candidate-manifest.json",
-        "id": "lu-19",
-        "manifest_sha256": "493ad79375983bb78217e36ede350f0be319a35b7f604636d298c43912054a02"
-      },
-      "local_copy_accepted": false,
-      "local_copy_disposition": "not_promoted_reference_or_candidate_only"
-    },
     {
       "source_id": "lu-20",
       "title": "Short stay for third-country nationals",
