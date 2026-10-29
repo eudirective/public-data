@@ -784,6 +784,21 @@
         "This link review does not establish visa eligibility, EEA-family safeguards, current amounts, procedures, appeal rights, mission practice or local-copy acceptance."
       ],
       "additional_index_url": "https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/propisi-652/652"
+    },
+    "hr-gov-hr-eea-residence-guidance": {
+      "status": "usable_official_reference",
+      "publisher": "Government of the Republic of Croatia (gov.hr)",
+      "url": "https://gov.hr/en/prijava-boravka-drzavljani-egp-a/1208",
+      "checked_on": "2026-10-29",
+      "language": "English",
+      "version_or_cutoff": "No page revision date displayed; page opened 2026-10-29. Current EEA Act and residence-regulation chains checked against MUP Propisi index on 2026-10-29.",
+      "scope": "Official English information page for EEA/Swiss nationals and family members on temporary and permanent residence, supporting evidence and links to MUP application forms.",
+      "reviewed_content": "Page title, publisher, sections, key subject areas, linked-form labels and lack of a revision marker reviewed. A maintained factual locator summary is accepted at ../documents/guidance/hr-gov-hr-eea-residence-guidance.md.",
+      "limitations": [
+        "Undated English guidance; some wording is awkward or inconsistent. Do not use it to override Croatian legislation or the current MUP guide.",
+        "The page's linked forms are maintained separately; this record does not certify their layouts or current usability.",
+        "Portal terms provide no express content-reuse permission; only source-identifying facts and independently written summary are retained, with no page prose or site shell reproduced."
+      ]
     }
   },
   "official_reference_review_schema": {
@@ -800,7 +815,7 @@
     ],
     "note": "Record a human-reviewed official source link here when it supports a coverage layer without a retained local copy. This record does not change the local accepted-source count. Use version_or_cutoff='not displayed' and explain the limit when the publisher shows no version marker."
   },
-  "accepted_source_count": 48,
+  "accepted_source_count": 49,
   "records": {
     "hr-access-info-act": {
       "status": "accepted",
@@ -3811,38 +3826,53 @@
       }
     },
     "hr-gov-hr-eea-residence-guidance": {
-      "status": "located_not_captured",
+      "status": "accepted",
       "checks": {
         "publisher_identity": {
           "status": "pass",
-          "evidence": "Official publisher page opened: https://gov.hr/en/prijava-boravka-drzavljani-egp-a/1208"
+          "review_date": "2026-10-29",
+          "evidence_url": "https://gov.hr/en/prijava-boravka-drzavljani-egp-a/1208",
+          "evidence": "The live English page title, URL, Government of Croatia footer and subject were inspected on gov.hr. The portal identifies the Croatian Government as publisher."
         },
         "current_legal_version": {
-          "status": "pending",
-          "evidence": "The page is a live lead, but linked procedures/forms and cited legal versions have not been reconciled against the current MUP index and Gazette."
+          "status": "pass_with_limits",
+          "review_date": "2026-10-29",
+          "evidence_url": "https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/propisi-652/652",
+          "evidence": "The gov.hr page displays no revision date. The current official MUP Propisi index, rechecked 2026-10-29, lists the EEA Act amendments NN 66/19, 53/20, 144/20 and 114/22, and EEA residence regulation amendments NN 107/20, 148/20, 86/21 and 155/22; no later amendments are listed there. Local accepted copies of the Act, regulation and current MUP guidance are referenced. This accepts a dated factual locator note, not every proposition on the undated English page as current law."
         },
         "extraction_completeness": {
-          "status": "pending",
-          "evidence": "Not captured; a source-specific selector and section/link inventory are required."
+          "status": "pass",
+          "review_date": "2026-10-29",
+          "evidence": "The maintained Markdown is complete for its stated scope: source identity, link, page coverage, factual topic summary, linked primary instruments, and maintenance limits. It intentionally contains no transcription of the gov.hr page."
         },
         "attachments_review": {
-          "status": "pending",
-          "evidence": "Resolve and inspect linked forms/attachments; do not infer form purpose from label alone."
+          "status": "pass_with_limits",
+          "review_date": "2026-10-29",
+          "evidence": "The page links to MUP temporary-registration, residence-card and permanent-residence forms. Forms are not embedded or reproduced here; the controlling MUP form records are separately maintained in documents/forms. The source note does not rely on form layout."
         },
         "legal_classification": {
-          "status": "pending",
-          "evidence": "Operational guidance only; separate procedural statements from primary legal rules."
+          "status": "pass",
+          "review_date": "2026-10-29",
+          "evidence": "Official administrative information/service guidance from gov.hr; not legislation or an individualized decision."
         },
         "lawful_reuse": {
-          "status": "pending",
-          "evidence": "Not reviewed."
+          "status": "pass",
+          "review_date": "2026-10-29",
+          "scope": "independently_authored_factual_locator_summary_only",
+          "basis_id": "hr-copyright-act-nn-111-2021-art-18-1-factual-summary",
+          "evidence": "The portal Terms and Conditions were checked and provide no express content-reuse licence. No page prose, layout, or database content is reproduced. The Markdown contains source-identifying facts and an independently worded summary only. Copyright Act NN 111/21 Article 18(1) distinguishes expression from ideas, procedures and methods; Article 18(3) also cautions that original official administrative text can be protected, so no page wording is copied. This is a source-specific limited summary, not a site-wide reuse claim."
         }
       },
       "semantic_review": {
-        "status": "not_reviewed",
-        "method": "Not captured.",
-        "evidence": "No semantic comparison performed."
-      }
+        "status": "passed_with_limits",
+        "method": "live_official_page_scope_and_current_mup_index_cross_check",
+        "review_date": "2026-10-29",
+        "scope": "gov.hr English EEA residence guide as a dated locator, cross-referenced to accepted Croatian EEA Act, implementing regulation and MUP guidance",
+        "evidence": "The live gov.hr page was opened and its subject, sections, lack of revision date, form links and footer were checked. The MUP Propisi index was rechecked for current EEA Act and regulation amendment chains. This note summarizes page topics without endorsing every translation or statement; the EEA Act, regulation and current MUP guidance remain the legal/version references.",
+        "document_sha256": "52ff787d2e246a4f98e57a4ac88e1cbbf6c35795caade3eb55c64900f24bd728"
+      },
+      "accepted_on": "2026-10-29",
+      "document_path": "documents/guidance/hr-gov-hr-eea-residence-guidance.md"
     },
     "hr-admin-fees-act": {
       "status": "located_not_captured",
@@ -4839,7 +4869,10 @@
     }
   },
   "currentness_review_file": "references/currentness-review.json",
-  "last_acceptance_review": "2026-10-25",
+  "last_acceptance_review": {
+    "date": "2026-10-29",
+    "summary": "Accepted the gov.hr EEA residence locator summary after live-page review and current MUP EEA Act/regulation index check. No page prose is reproduced."
+  },
   "required_checks_scope": "These checks govern retained local copies only and do not block a human-reviewed official link. Record the published version/cutoff and use the copy within that scope; a full amendment-chain reconstruction, whole-text comparison, or exhaustive attachment audit is not the default.",
   "required_check_interpretation": {
     "publisher_identity": "Confirm the source and responsible publisher.",
@@ -4849,7 +4882,7 @@
     "legal_classification": "Label the source role; this does not itself establish topic sufficiency.",
     "lawful_reuse": "Applies only to retaining or redistributing a local copy; not to citing or linking an official page."
   },
-  "official_reference_count": 41,
+  "official_reference_count": 42,
   "human_review_sites": [
     {
       "id": "hr-current-government-consolidation-portals",
