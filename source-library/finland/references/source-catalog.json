@@ -851,8 +851,8 @@
         "record": "Municipality of residence application form 6889"
       },
       "functional_relationship": "related_source",
-      "verification_status": "Official form search result inspected; identity and personal-data fields visible in page output",
-      "retrieval_status": "changed_review_candidate",
+      "verification_status": "Official DVV dynamic form fully reviewed in its rendered English form on 2026-10-29. Instructions and field schema are maintained at documents/forms/fi-dvv-municipality-form.md; raw HTML and client-side validation are not preserved.",
+      "retrieval_status": "maintained_markdown_transcription",
       "retrieval_shape": "Dynamic web form; manual applicant submission",
       "seed_status": "candidate",
       "check_note": "Monitor public form identity and linked instructions only; do not automate submission or retain personal data.",
@@ -868,8 +868,12 @@
       "retrieval_note": "A changed official response was saved for manual review; the new version is staged under temp/finland/pending.",
       "external_reference_accepted": true,
       "external_reference_checked_at": "2026-10-24",
-      "local_copy_status": "no local copy accepted; captured page conversion archived in Monitor local-only archive",
-      "monitor_archive_path": "candidates/public-data/finland/monitor-candidates/fi-dvv-municipality-form.md"
+      "local_copy_status": "Maintained Markdown transcription of complete rendered instructions and field schema; raw HTML, selector values, and dynamic behavior not retained. Earlier captured JavaScript fallback remains unaccepted.",
+      "monitor_archive_path": "candidates/public-data/finland/monitor-candidates/fi-dvv-municipality-form.md",
+      "maintained_markdown_path": "documents/forms/fi-dvv-municipality-form.md",
+      "maintained_markdown_checked_at": "2026-10-29",
+      "exact_source_copy_accepted": false,
+      "maintained_markdown_note_accepted": true
     },
     {
       "id": "fi-mfa-visa-guide",
@@ -1274,5 +1278,6 @@
   "accepted_external_reference_count": 34,
   "accepted_local_copy_count": 2,
   "retrieval_status": null,
-  "maintained_locator_note_count": 1
+  "maintained_locator_note_count": 1,
+  "maintained_markdown_record_count": 1
 }
