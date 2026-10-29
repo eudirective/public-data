@@ -368,6 +368,27 @@
       "maintained_note_sha256": "1d2fbb6aff7a23e7b40bdb10d3818012381405283471d6d701c454382b302a4f",
       "maintained_note_role": "maintained_official_reference_note_not_source_text_copy",
       "integrated_text_url": "https://pisrs.si/api/datoteke/integracije/358638238"
+    },
+    "si_12": {
+      "status": "usable_official_reference_with_maintained_reference_note",
+      "publisher": "PISRS, Legal Information System of the Republic of Slovenia; promulgated acts appear in the Official Gazette",
+      "url": "https://pisrs.si/pregledPredpisa?id=ZAKO3354",
+      "rediscovery_url": "https://pisrs.si/",
+      "checked_on": "2026-10-29",
+      "language": "Slovenian",
+      "version_or_cutoff": "Record ZAKO3354 / SOP 2003-01-1720. PISRS indexed record displays NPB 5; separate indexed integration endpoint displays NPB 4. Version mismatch remains unresolved.",
+      "scope": "Civil-status register and entries of legally specified events, including events occurring abroad, register administration, extracts/certificates, correction and information access.",
+      "reviewed_content": "PISRS record and indexed texts checked for identity, Gazette references, subject structure and version metadata. Record-page NPB 5 and integration NPB 4 mismatch recorded explicitly.",
+      "limitations": [
+        "PISRS public surfaces disagree on NPB edition; verify current record and integrated text before relying on consolidated wording.",
+        "PISRS consolidations are informational working aids; consult promulgated acts for authoritative wording and effect.",
+        "A register-entry statute does not alone determine validity or recognition of a foreign civil-status act or associated nationality/residence consequences.",
+        "Reference note only; no local statutory text copy or topic completeness accepted."
+      ],
+      "document_path": "documents/legislation/si-12-civil-status-registry-act-zmatr-2026-10-29.md",
+      "maintained_note_sha256": "e2e871552bea50e9ea582ec04503f7cf9255d9126ded05e3b32934329044e6e3",
+      "maintained_note_role": "maintained_official_reference_note_not_source_text_copy",
+      "integration_text_url": "https://pisrs.si/api/datoteke/integracije/356693895"
     }
   },
   "historical_or_not_current_references": [
