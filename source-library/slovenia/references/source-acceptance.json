@@ -7,13 +7,13 @@
   "accepted_derived_text_count": 0,
   "accepted_topic_count": 0,
   "country_review_complete": false,
-  "accepted_external_reference_count": 17,
+  "accepted_external_reference_count": 18,
   "legacy_inventory": {
     "candidate_records": 42,
     "retrieved_responses": 42,
     "candidate_texts_converted_and_replay_verified": 23,
     "discovery_or_application_shells": 19,
-    "local_acceptance_note": "The 23 converted candidate captures were replay-verified as historical research artifacts and are now retained only in the Monitor local-only archive. Seventeen official references are accepted for their stated link-only scopes, including one metadata-only catalogue reference; no local source copy, derived text, topic, or country review is accepted."
+    "local_acceptance_note": "The 23 converted candidate captures were replay-verified as historical research artifacts and are now retained only in the Monitor local-only archive. Eighteen official references are accepted for their stated link-only scopes, including one metadata-only catalogue reference; no local source copy, derived text, topic, or country review is accepted."
   },
   "policy": "Official GOV.SI service pages are usable links within their displayed dates and stated scopes. PISRS is the official national legal-information portal; its government-published consolidated texts are suitable working references with the displayed edition and informational label. Because this review client receives only a JavaScript shell for the PISRS records, offer the whole official PISRS site for human review of the listed records. API authorization applies only to automated API access; no API call, Gazette-fragment reconstruction, local capture, hash, replay, conversion, or copying permission is required for ordinary link use. Check a specific later amendment only when it may materially affect the issue. Link acceptance is separate from local-copy acceptance, topic coverage, and country completion.",
   "official_reference_reviews": {
@@ -305,6 +305,24 @@
         "No local page copy is accepted."
       ],
       "document_path": "documents/oversight/si-equality-advocate.md"
+    },
+    "si_02": {
+      "status": "usable_official_reference",
+      "publisher": "Government Office for Legislation of the Republic of Slovenia, PISRS",
+      "url": "https://pisrs.si/pregledPredpisa?id=ZAKO5761",
+      "rediscovery_url": "https://pisrs.si/",
+      "checked_on": "2026-10-29",
+      "language": "Slovenian",
+      "version_or_cutoff": "Official PISRS search output identifies unofficial consolidated text no. 20 (NPB 20), start of use 24 June 2025, based on UPB15 and Official Gazette RS 46/2025.",
+      "scope": "Official consolidated statutory reference for Slovenia's Foreigners Act (ZTuj-2), covering entry, departure and residence of foreign nationals.",
+      "reviewed_content": "Opened the official PISRS record URL, which returned a JavaScript shell in this review client. Official PISRS search output exposed the act title, NPB 20 label, start-of-use date and act provisions. GOV.SI reported on 22 October 2026 that the Government adopted a proposal to amend ZTuj-2; the proposal is not treated as enacted law.",
+      "limitations": [
+        "PISRS consolidated legal text is informational; retain its displayed edition and verify material commencement or transitional questions against the official publication.",
+        "The current consolidated text was not fully rendered in this client and no legal text is copied or accepted.",
+        "The 22 October 2026 amendment announcement concerns a proposal; verify enactment and commencement before applying proposed changes.",
+        "Do not conflate EU, EEA, Swiss, Slovenian-national-family and third-country routes."
+      ],
+      "document_path": "documents/legislation/si-foreigners-act-ztuj-2.md"
     }
   },
   "historical_or_not_current_references": [
