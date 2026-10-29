@@ -119,14 +119,16 @@
       "publisher": "Ministry of Interior (MVR), Migration Directorate",
       "url": "https://www.mvr.bg/upload/338042/%D0%9F%D0%9F%D0%97%D0%A7%D0%A0%D0%91%202026.pdf",
       "rediscovery_url": "https://www.mvr.bg/migration/дирекцията/нормативна-уредба/bgzac",
-      "checked_on": "2026-10-21",
+      "checked_on": "2026-10-29",
       "language": "Bulgarian",
       "version_or_cutoff": "MVR PDF heading records amendments through SG issue 7/2026 (20 January 2026), including SG 109/2025.",
       "scope": "Implementing rules for the Foreigners Act.",
-      "reviewed_content": "The 92-page consolidation identifies its amendment history and scope; Article 1 applies the rules to the Foreigners Act and specified family members of Bulgarian citizens.",
+      "reviewed_content": "The existing MVR review records the 2026-labelled 92-page consolidation, amendment history through SG issue 7/2026 (20 January 2026), and Article 1 scope. On 29 October the specific 2026 PDF returned HTTP 502. The official MVR Rules listing currently exposed an older PDF through SG 37/2023; that older file is not substituted for the recorded 2026 PDF. The maintained source note preserves the verified cutoff and retrieval limitation.",
       "limitations": [
-        "The implementing rules do not replace the separate EU/EEA/Swiss free-movement regime.",
-        "No local copy has been accepted."
+        "Latest verified publisher record is the MVR 2026-labelled consolidation through SG issue 7/2026 (20 January 2026); direct re-fetch on 29 October 2026 returned HTTP 502.",
+        "MVR's general rules listing surfaced an older PDF through 2023; do not substitute that historical text for the recorded 2026 edition.",
+        "The Rules do not replace the distinct EU/EEA/Swiss free-movement regime.",
+        "The Markdown is a locator and scope summary, not the full Rules text or a current procedural checklist."
       ],
       "supporting_sources": []
     },
@@ -750,7 +752,7 @@
     ],
     "note": "Record a human-reviewed official link when it supports a source area without retaining a local copy. This does not change the accepted local-source count."
   },
-  "accepted_source_count": 19,
+  "accepted_source_count": 20,
   "records": {
     "bg-eu-free-movement-act": {
       "status": "accepted",
@@ -1581,6 +1583,47 @@
       "accepted_on": "2026-10-29",
       "document_path": "documents/procedure/bg-apc.md",
       "scope_limit": "Maintained locator and narrow scope summary only. Direct source access failed in this browser session; recheck official MVR and Ministry of Justice pages before reliance."
+    },
+    "bg-foreigners-act-rules": {
+      "status": "accepted_scoped_source_note",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "review_date": "2026-10-29",
+          "evidence": "Existing official reference identifies the MVR Migration Directorate 2026-labelled Rules PDF and its official Migration legislation index. The official MVR rules listing identifies the instrument; the newer specific PDF URL returned HTTP 502 today."
+        },
+        "current_legal_version": {
+          "status": "pass_with_access_limit",
+          "review_date": "2026-10-29",
+          "evidence": "The latest reviewed MVR 2026 consolidation records amendments through SG issue 7/2026 (20 January 2026), including SG 109/2025. That cutoff was verified on 21 October 2026; direct retrieval of the same PDF failed with HTTP 502 on 29 October. An older MVR-hosted PDF through 2023 was not treated as current."
+        },
+        "extraction_completeness": {
+          "status": "not_applicable",
+          "evidence": "The local Markdown is an independent source locator and scope note, not a text conversion or claim to reproduce the Rules."
+        },
+        "attachments_review": {
+          "status": "not_applicable",
+          "evidence": "No separate attachments are included in the authored source note."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "Implementing rules under the Foreigners Act for the general third-country-national regime, including specified non-EU family members of Bulgarian citizens; separate from EU/EEA/Swiss free movement."
+        },
+        "lawful_reuse": {
+          "status": "pass_independent_summary",
+          "evidence": "No publisher text or layout is reproduced and no copying licence is asserted."
+        }
+      },
+      "semantic_review": {
+        "status": "passed_scoped_summary",
+        "method": "official publisher record, amendment cutoff, and legal-regime classification review",
+        "review_date": "2026-10-29",
+        "scope": "source identity, recorded cutoff, Article 1 scope, and separation from EU free movement only",
+        "evidence": "The recorded MVR source evidence supports the 2026 cutoff and Article 1 scope. The PDF could not be fetched on the review date; no provision-level summary is made."
+      },
+      "accepted_on": "2026-10-29",
+      "document_path": "documents/procedure/bg-foreigners-act-rules.md",
+      "scope_limit": "Maintained locator and limited source-scope note only. Recheck the MVR Migration index and current PDF; do not use the older indexed 2023 PDF as the 2026 text."
     }
   },
   "required_checks_scope": "local_copy_required_checks applies only before accepting a retained local artifact. Official link acceptance uses official_reference_review_schema and does not require retrieval, conversion, extraction, hashes, replay, or copy/republication permission.",
