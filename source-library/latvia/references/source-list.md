@@ -187,7 +187,7 @@ Scope: bounded discovery across official law/publication, free movement and immi
 
 | ID | Source | Relation | Verification | Route/version note |
 |---|---|---|---|---|
-| lv-35 | [State Border Guard official site — entry and border information](https://www.rs.gov.lv/en) | related_source | Official State Border Guard domain and current operational notices found; exact dedicated refusal/appeal guide not identified. | Site publishes dated daily operational notices; individual notices are not a complete rules source. Bounded search found operational examples, not a dedicated appeal procedure. Search border refusal decisions and complaints separately before implementation. |
+| lv-35 | [State Border Guard official site — entry and border information](https://www.rs.gov.lv/en) | related_source | Homepage and five linked service pages reviewed 29.10.2026; maintained route map at [lv-35](../documents/guidance/lv-35-state-border-guard-entry-and-border-information.md). | Official authority/navigation reference only. Several linked pages cite superseded law or show historical content; no dedicated entry-refusal or appeal procedure was confirmed. |
 
 ### Oversight Complaint Route
 
