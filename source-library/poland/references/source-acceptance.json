@@ -209,6 +209,25 @@
       "rediscovery_url": "https://eli.gov.pl/",
       "checked_on": "2026-10-25",
       "local_copy_review": "Accepted local statutory text at `documents/legislation/pl-52-personal-data-protection-act-2019.md`; file SHA-256 `3964512a2eb3b8062bc8ff138630c42aeae45e5b5c2d78b4ab309e52c96ba035`. This is separate from topic acceptance."
+    },
+    "pl-36": {
+      "title": "Free legal aid and citizen advice for foreigners",
+      "publisher": "Ministry of Justice, Republic of Poland (gov.pl)",
+      "url": "https://www.gov.pl/web/nieodplatna-pomoc/pomoc-dla-cudzoziemcow",
+      "language": "Polish",
+      "version_or_cutoff": "Live page opened 2026-10-29; no page revision date exposed; dynamic directory displayed 2,959 numbered entries.",
+      "scope": "Official Ministry of Justice service information that the public free-assistance system is open to foreigners in Poland, does not require a prior protection application, and provides in-person/remote access and specialist points.",
+      "reviewed_content": "Page states free legal aid and free citizen advice are available to all persons staying in Poland, including foreigners, without first applying for temporary or international protection; describes specialist migration/refugee-law points and a filterable provider directory with language filters including English, Ukrainian and Russian.",
+      "limitations": [
+        "Not the legal basis for eligibility and not a guarantee every listed point handles immigration matters.",
+        "The provider directory, contacts, schedules and language availability are dynamic; consult the live directory at use.",
+        "No full page or directory retained as source text; official footer states textual web content CC BY-SA 4.0, while this note does not make a separate database-rights claim."
+      ],
+      "status": "usable_official_reference",
+      "rediscovery_url": "https://www.gov.pl/web/nieodplatna-pomoc",
+      "checked_on": "2026-10-29",
+      "local_copy_review": "Maintained summary note only; the dynamic 2,959-row directory is not copied.",
+      "document_path": "documents/guidance/pl-36-foreigners-legal-aid-directory-locator.md"
     }
   },
   "not_accepted_or_still_under_review": [
