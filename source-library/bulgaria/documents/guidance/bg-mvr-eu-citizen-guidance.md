@@ -9,13 +9,11 @@
 
 ## Identification and use
 
-The MVR page is an official English-language route for general information about long-term and permanent residence in Bulgaria for EU citizens and their family members. Its displayed heading refers to a “Long-Term Residence Permit.” The page is a short overview, not a legal instrument or a complete statement of eligibility.
+This is the MVR Migration Directorate’s English-language information page for EU citizens and their family members concerning residence in Bulgaria. It is a dynamic administrative guidance route, not legislation and not a complete statement of the applicable legal conditions.
 
-The page presents residence beyond the initial three-month period as requiring an application. It links the overview to categories for employed or self-employed people, insured or self-funded people, students, EU-national family members, and non-EU family members of EU nationals. It states that permanent residence is available after five years of legal residence based on consecutive long-term residence. Treat these as descriptions of what the English page displays, not independent conclusions about statutory entitlement or the precise legal test.
+Use the page to identify the official MVR information route. For the governing Bulgarian procedure, follow the MVR administrative-service page, [Issuance of documents to EU citizens and their family members](https://www.mvr.bg/migration/административни-услуги/административни-услуги-за-граждани/издаване-на-документи-на-граждани-на-ес-и-на-членовете-на-техните-семейства), and consult the dedicated EU-citizen Act, Instruction №8121з-1276, and applicable EU law. The linked service page identifies those instruments and related forms. Their versions and cutoffs are recorded in the library entries below.
 
-For the underlying Bulgarian procedure, the linked MVR administrative-service page, [Issuance of documents to EU citizens and their family members](https://www.mvr.bg/migration/административни-услуги/административни-услуги-за-граждани/издаване-на-документи-на-граждани-на-ес-и-на-членовете-на-техните-семейства), identifies the dedicated Bulgarian EU-citizen Act, Instruction №8121з-1276, and application forms. Consult those primary materials and applicable EU law for eligibility, documents, deadlines, rights, and legal effects. Their versions and cutoffs are tracked in the linked library records below.
-
-The English page directs users to their local Migration office and displays the Migration Directorate telephone number +359 (2) 982 4808 and email migration@mvr.bg. Confirm contact details on the live page before use.
+The page is undated. Its current wording, linked resources, contact details, and availability must be checked on the live publisher site before use. This note does not preserve or paraphrase the page’s procedural instructions.
 
 ## Source and reuse limits
 
@@ -33,6 +31,6 @@ The source page is dynamic, undated, and uses simplified English terminology. MV
 
 | Checked | Result |
 |---|---|
-| 2026-10-29 | Opened the official English page and confirmed the publisher, page identity, displayed overview categories, three-month and five-year summaries, contact route, and linked MVR service page. No page revision date was exposed. The MVR reuse terms were reviewed. No source page content was copied or retained. |
+| 2026-10-29 | Opened the official English page and confirmed the publisher, page identity, page identity, general subject, and linked MVR administrative-service route. No page revision date was exposed. The MVR reuse terms were reviewed. No source page content was copied or retained. |
 
 Recheck the live URL and its linked service route during the next Bulgaria source review. Update this note only when the publisher, route, language, displayed scope, access conditions, or the relationship to the current legal instruments changes. Record a new check date and preserve the old note through the library’s source-note archive when revising it.
