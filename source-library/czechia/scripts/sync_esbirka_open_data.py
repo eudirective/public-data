@@ -163,11 +163,13 @@ def render_markdown(entry: dict, metadata: dict, fragments: list[dict], capture:
         f"- Publisher citation: {metadata.get('uplnaCitace', metadata.get('zkracenaCitace', ''))}",
         f"- Publisher version type: `{metadata.get('typZneni', 'unknown')}`",
         f"- Version effective from: `{metadata['datumUcinnostiZneniOd']}`",
+        f"- Scope: {entry.get('scope_note', 'Official consolidated instrument text')}",
         f"- Source retrieval: public e-Sbírka page-data route; no account or API key used",
         f"- Exact response set SHA-256: `{capture['source_sha256']}`",
         f"- Fragment pages: {capture['page_count']}; text fragments: {capture['text_fragment_count']}",
         "",
         "> **Review candidate.** Use this official e-Sbírka consolidated text as a dated working version and retain its informational status. Check a known later change or commencement issue only when relevant; no full Gazette history is required.",
+        *( [f"> **Additional scope review required.** {entry['conversion_review_note']}"] if entry.get("conversion_review_note") else [] ),
         "",
         "## Official text",
         "",
@@ -211,6 +213,7 @@ def legal_entries(manifest: dict) -> list[dict]:
     return [
         item for item in manifest.get("documents", [])
         if item.get("id", "").startswith("cz-esbirka-")
+        or item.get("retrieval_method") == "esbirka_public_current_version_fragment_service"
     ]
 
 

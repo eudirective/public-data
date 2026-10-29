@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3.0",
   "jurisdiction": "CZ",
-  "as_of": "2026-10-28",
+  "as_of": "2026-10-29",
   "accepted_source_count": 41,
   "accepted_current_law_source_count": 17,
   "accepted_derived_text_count": 41,
@@ -2110,41 +2110,57 @@
     {
       "source_id": "cz-mzv-eu-family-visa-cs",
       "decision": "accepted_with_narrow_external_scope",
-      "accepted_role": "Czech-language central guidance for EU-family short-stay visa applicants. The page has a limited scope and does not establish mission-specific filing arrangements. The official page or decision was checked on 2026-10-21. The local copy remains unaccepted.",
+      "accepted_role": "Czech-language central guidance for EU-family short-stay visa applicants, reviewed directly in full substantive page form on 29 October 2026. A maintained, source-grounded Czech Markdown summary is recorded at documents/guidance/cz-mzv-eu-family-visa-cs.md. It does not establish mission-specific filing arrangements or country-level topic adequacy.",
       "not_accepted": [
-        "A local captured or converted artifact; no local copy was added.",
+        "A verbatim or mechanically converted local copy of the official webpage; the Markdown is a structured paraphrase.",
         "Country-level completeness or adequacy of the linked legal topic.",
-        "Application beyond the displayed language, source role, decision date and scope stated above."
+        "Mission-specific appointment, filing-channel, translation, or local evidence requirements.",
+        "Application beyond the displayed language, source role, and checked date stated above."
       ],
       "evidence": {
         "official_source_url": "https://mzv.gov.cz/jnp/cz/informace_pro_cizince/kratkodobe_vizum/rodinny_prislusnik_obcana_eu/index.html",
         "stable_record_url": "https://mzv.gov.cz/jnp/cz/informace_pro_cizince/kratkodobe_vizum/rodinny_prislusnik_obcana_eu/index.html",
-        "reviewed_on": "2026-10-21",
+        "reviewed_on": "2026-10-29",
         "publisher": "Czech Ministry of Foreign Affairs (MFA)",
         "language": "cs",
-        "version": "Guidance or service page reviewed as displayed 2026-10-21.",
-        "verified_locations": "Official MFA page reviewed 2026-10-21. Treat case-specific procedural wording as guidance and cross-check the special EU-family statutory route.",
-        "limits": "Czech-language central guidance for EU-family short-stay visa applicants. The page has a limited scope and does not establish mission-specific filing arrangements."
+        "version": "Official guidance page retrieved and reviewed directly on 2026-10-29; no page update date was displayed in the retrieved rendering.",
+        "verified_locations": "Complete substantive page from family-category definitions through cited legal sources and useful link was available in the official rendered page. Maintained paraphrase at documents/guidance/cz-mzv-eu-family-visa-cs.md.",
+        "limits": "Czech-language central guidance for EU-family short-stay visa applicants. The page has a limited scope and does not establish mission-specific filing arrangements.",
+        "retrieval_limit": "A structured paraphrase is retained; raw HTML and a verbatim converted page copy are not stored."
+      },
+      "maintained_summary": {
+        "path": "documents/guidance/cz-mzv-eu-family-visa-cs.md",
+        "status": "accepted_maintained_source_summary",
+        "checked_on": "2026-10-29",
+        "form": "complete substantive page summarized in Czech; not verbatim"
       }
     },
     {
       "source_id": "cz-mzv-visa-refusal-cs",
       "decision": "accepted_with_narrow_external_scope",
-      "accepted_role": "Czech-language general visa-refusal guidance, visibly updated 6 May 2026. It states a 15-day request-for-reconsideration period for Schengen refusals; its application to EU-family applicants requires a statutory crosswalk. The official page or decision was checked on 2026-10-21. The local copy remains unaccepted.",
+      "accepted_role": "Czech-language general MFA visa-refusal guidance, visibly updated 6 May 2026 and directly reviewed in full substantive form on 29 October 2026. A maintained Czech Markdown summary is recorded at documents/guidance/cz-mzv-visa-refusal-cs.md. The ordinary 15-day reconsideration period must not be applied to an EU-family case without resolving the special statutory route.",
       "not_accepted": [
-        "A local captured or converted artifact; no local copy was added.",
+        "A verbatim or mechanically converted local copy; the retained Markdown is a structured paraphrase.",
         "Country-level completeness or adequacy of the linked legal topic.",
-        "Application beyond the displayed language, source role, decision date and scope stated above."
+        "Application of the general 15-day period to EU-family cases without resolving the special route.",
+        "Application beyond the checked page version and scope."
       ],
       "evidence": {
         "official_source_url": "https://mzv.gov.cz/jnp/cz/informace_pro_cizince/zamitnuti_viza/index.html",
         "stable_record_url": "https://mzv.gov.cz/jnp/cz/informace_pro_cizince/zamitnuti_viza/index.html",
-        "reviewed_on": "2026-10-21",
+        "reviewed_on": "2026-10-29",
         "publisher": "Czech Ministry of Foreign Affairs (MFA)",
         "language": "cs",
-        "version": "Guidance or service page reviewed as displayed 2026-10-21.",
-        "verified_locations": "Official MFA page reviewed 2026-10-21; displayed update date 2026-05-06. Do not apply the general period to an EU-family case without resolving the special statutory route.",
-        "limits": "Czech-language general visa-refusal guidance, visibly updated 6 May 2026. It states a 15-day request-for-reconsideration period for Schengen refusals; its application to EU-family applicants requires a statutory crosswalk."
+        "version": "Official page displayed initial publication 20 February 2020 and update 6 May 2026; complete substantive page directly reviewed 29 October 2026.",
+        "verified_locations": "Complete substantive page from title/update metadata through cited legal sources was available in the official rendered page. Maintained paraphrase at documents/guidance/cz-mzv-visa-refusal-cs.md.",
+        "limits": "Czech-language general visa-refusal guidance, visibly updated 6 May 2026. It states a 15-day request-for-reconsideration period for Schengen refusals; its application to EU-family applicants requires a statutory crosswalk.",
+        "retrieval_limit": "Raw HTML and a verbatim converted page are not retained; the substantive content is represented by structured paraphrase."
+      },
+      "maintained_summary": {
+        "path": "documents/guidance/cz-mzv-visa-refusal-cs.md",
+        "status": "accepted_maintained_source_summary",
+        "checked_on": "2026-10-29",
+        "form": "complete substantive page summarized in Czech; not verbatim"
       }
     },
     {
@@ -2252,22 +2268,29 @@
     {
       "source_id": "cz-mzv-local-consular-competence",
       "decision": "accepted_with_narrow_external_scope",
-      "accepted_role": "Official Czech MFA page on consular locality for long-term visa and long-term/permanent residence applications, checked 2026-10-28. The page describes specified exceptions to ordinary local competence and cites Acts 326/1999 and 150/2017 and Decree 429/2010.",
+      "accepted_role": "Official Czech MFA page on consular locality for long-term visa and long-term/permanent residence applications, directly reviewed in full substantive form on 29 October 2026. A maintained Czech Markdown summary is recorded at documents/guidance/cz-mzv-local-consular-competence.md. The source does not establish short-stay rules or mission-specific filing practices.",
       "not_accepted": [
         "Short-stay Schengen or EU-family visa application rules.",
         "Mission-specific appointments, local checklists, outsourcing or practices.",
-        "A local captured or converted artifact.",
+        "A verbatim or mechanically converted local webpage copy; the retained Markdown is a structured paraphrase.",
         "Topic adequacy or country-level completeness."
       ],
       "evidence": {
         "official_source_url": "https://mzv.gov.cz/jnp/cz/informace_pro_cizince/kde_podat_zadost_o_vizum/dlouhodobe_vizum_dlouhodoby_pobyt_a.html",
         "stable_record_url": "https://mzv.gov.cz/jnp/cz/informace_pro_cizince/kde_podat_zadost_o_vizum/dlouhodobe_vizum_dlouhodoby_pobyt_a.html",
-        "reviewed_on": "2026-10-28",
+        "reviewed_on": "2026-10-29",
         "publisher": "Ministry of Foreign Affairs of the Czech Republic",
         "language": "cs",
-        "version": "Official page as reviewed 2026-10-28; no publication/update date visible.",
-        "verified_locations": "Page heading and body reviewed. The body describes long-term visa, long-term residence and permanent residence locality rules and cites Act 326/1999 § 169g, Act 150/2017 § 4, and Decree 429/2010.",
-        "limits": "The accepted scope is limited to the stated long-term visa and long-term/permanent residence guidance. Do not infer short-stay Schengen or EU-family visa rules or mission-specific practice; no local copy was accepted."
+        "version": "Official page retrieved and reviewed directly on 2026-10-29; no publication or update date was visible.",
+        "verified_locations": "Complete substantive page from title through the legal-source list was available in the official rendered page. Maintained paraphrase at documents/guidance/cz-mzv-local-consular-competence.md.",
+        "limits": "The accepted scope is limited to the stated long-term visa and long-term/permanent residence guidance. Do not infer short-stay Schengen or EU-family visa rules or mission-specific practice; no local copy was accepted.",
+        "retrieval_limit": "The raw HTML and a verbatim converted webpage are not retained; the substantive page is represented by a structured paraphrase."
+      },
+      "maintained_summary": {
+        "path": "documents/guidance/cz-mzv-local-consular-competence.md",
+        "status": "accepted_maintained_source_summary",
+        "checked_on": "2026-10-29",
+        "form": "complete substantive page summarized in Czech; not verbatim"
       }
     }
   ],
@@ -2300,5 +2323,6 @@
       "effect": "The official e-Sbírka reference is accepted only as an instrument locator. Currentness and EU-family route applicability remain pending this targeted human review; other Czech source references and coverage work can proceed."
     }
   ],
-  "material_dependencies": "See references/source-dependencies.json. Select Czech statutory cross-references to EU instruments are recorded with their shared-core status or an explicit unresolved state. The national statutory wording is preserved."
+  "material_dependencies": "See references/source-dependencies.json. Select Czech statutory cross-references to EU instruments are recorded with their shared-core status or an explicit unresolved state. The national statutory wording is preserved.",
+  "maintained_source_summary_count": 3
 }
