@@ -2,9 +2,9 @@
   "schema_version": "1.0.0",
   "jurisdiction": "LI",
   "as_of": "2026-10-29",
-  "accepted_source_count": 21,
+  "accepted_source_count": 22,
   "accepted_local_copy_count": 11,
-  "accepted_external_reference_count": 21,
+  "accepted_external_reference_count": 22,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "policy": "A reviewed official source may be accepted within its publisher, identity, language, displayed version, scope, and stated limitations. The current Lilex consolidation is an informational working text, not the legally authentic publication. Local-copy acceptance is separate from topic coverage, legal equivalence, and country completion. Reuse acceptance for local laws, regulations, treaties and other official enactment text is limited to Liechtenstein URG Article 5(1)(a) and (2); it does not cover publisher site design, database-level or systematic reuse, or unrelated content.",
@@ -1151,6 +1151,42 @@
       "maintained_source_note_path": "documents/guidance/li-30-visa-guidance-and-representation.md",
       "maintained_source_note_checked_on": "2026-10-29",
       "maintained_source_note_status": "accepted_independent_source_reference_note_not_verbatim"
+    },
+    "li-41": {
+      "status": "accepted_with_narrow_external_scope",
+      "publisher": "Government Legal Services (Rechtsdienst der Regierung), Liechtenstein",
+      "url": "https://www.gesetze.li/konso/2020465000",
+      "checked_on": "2026-10-29",
+      "language": "German",
+      "version_or_scope": "LGBl 2020.465, adopted 15 December 2020 and published 18 December 2020. Official Lilex record identifies LR 170.511; the 2026 systematic register lists LGBl 2020.465. Checked 2026-10-29.",
+      "acceptance_scope": "Official external reference for the EWR-Register Regulation, within its source identity and index/publication function. It is a dependency for locating Liechtenstein-promulgated EEA measures, not evidence that any particular EEA act is operative.",
+      "reviewed_content": "Official Lilex identifies title, LGBl 2020.465 and LR 170.511; the 2026 systematic register lists the same regulation. The official EEA register page cites this instrument as its legal basis.",
+      "limitations": [
+        "Official Lilex consolidations are informational; the signed State Law Gazette is legally authentic.",
+        "Link-only source record; no statutory text copy, topic adequacy, or country completeness is accepted.",
+        "The EWR-Register is an index and does not establish each listed act's legal force or individual applicability.",
+        "Legalize-li is a third-party candidate-snapshot route; the official Lilex record remains primary."
+      ],
+      "evidence": {
+        "official_source_url": "https://www.gesetze.li/konso/2020465000",
+        "reviewed_on": "2026-10-29",
+        "publisher": "Government Legal Services (Rechtsdienst der Regierung), Liechtenstein",
+        "verified_content": "Title, LGBl number, LR number, relation to the official EWR-Register, and distinct index role. No provision-by-provision legal interpretation was made.",
+        "version": "Record identifies the 15 December 2020 regulation and LGBl 2020.465; official 2026 systematic-register entry lists it.",
+        "retrieval_status": "official_link_reviewed; no local text copied"
+      },
+      "local_copy_accepted": false,
+      "accepted_topics": [],
+      "decision": "accepted_with_narrow_external_scope",
+      "legalize_candidate_snapshot": {
+        "repository": "legalize-dev/legalize-li",
+        "revision": "1b19742b74b852c50b50bde418b8045db774b2ba",
+        "path": "li/LGBl-2020-465.md",
+        "status": "candidate_snapshot_method_only",
+        "metadata_last_updated": "2021-02-01",
+        "source": "Lilex official record",
+        "attribution_required": true
+      }
     }
   },
   "candidate_inventory_count": 40,
@@ -1165,5 +1201,19 @@
       "archived_candidate_path": "candidates/public-data/LI/liechtenstein/candidates/li-03.md",
       "archived_candidate_sha256": "961a3183ed0b2137723766bbd74eb1a0ef3fb5fbd2d85508f1466f7a7f1da96f"
     }
+  },
+  "legalize_crosswalk": {
+    "reviewed_on": "2026-10-29",
+    "repository": "https://github.com/legalize-dev/legalize-li",
+    "revision": "1b19742b74b852c50b50bde418b8045db774b2ba",
+    "files": [
+      {
+        "source_id": "li-41",
+        "path": "li/LGBl-2020-465.md",
+        "official_source": "https://www.gesetze.li/konso/2020465000",
+        "status": "identity_crosswalk_confirmed; not accepted as retained text"
+      }
+    ],
+    "method_limit": "Use Legalize only as an individually identified candidate snapshot. Compare its complete body to the exact Lilex version before any local copy is accepted. Attribute the official Lilex source and Legalize repository/revision. MIT applies to code, not the statutory text."
   }
 }

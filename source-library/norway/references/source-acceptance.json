@@ -1692,5 +1692,50 @@
       "Archive raw captures through Monitor before later offline semantic review.",
       "Build evidence-backed coverage, dependency, continuing-discovery and operational registers."
     ]
+  },
+  "legalize_crosswalk": {
+    "reviewed_on": "2026-10-29",
+    "repository": "https://github.com/legalize-dev/legalize-no",
+    "revision": "729ce30333de9d6f9f1e5faf537999cf42bc2a2f",
+    "confirmed_candidate_files": [
+      {
+        "source_id": "no-06",
+        "path": "no/LOV-2008-05-15-35.md",
+        "status": "identity confirmed; current-version mismatch/open comparison",
+        "official_source": "https://lovdata.no/dokument/NL/lov/2008-05-15-35"
+      },
+      {
+        "source_id": "no-08",
+        "path": "no/LOV-1992-11-27-109.md",
+        "status": "identity confirmed; candidate snapshot only",
+        "official_source": "https://lovdata.no/dokument/NL/lov/1992-11-27-109"
+      },
+      {
+        "source_id": "no-54",
+        "path": "no/LOV-2012-12-14-81.md",
+        "status": "identity confirmed; candidate snapshot only",
+        "official_source": "https://lovdata.no/dokument/NL/lov/2012-12-14-81"
+      }
+    ],
+    "excluded_source_classes": [
+      {
+        "source_id": "no-07",
+        "class": "central regulation",
+        "reason": "Legalize-no README says the free current-laws dataset does not include central regulations."
+      },
+      {
+        "source_id": "no-05",
+        "class": "regional/local Avdeling II rules",
+        "reason": "Not included in Legalize-no's described current-laws dataset; existing official retrieval gap remains open."
+      }
+    ],
+    "rights_and_attribution": "Individual law reuse requires attribution to Stiftelsen Lovdata under NLOD 2.0. Do not infer bulk/systematic extraction rights. Attribute Legalize-no and the pinned revision when it supplies a candidate.",
+    "conversion_rules": [
+      "Preserve Bokmål wording, hierarchy, formal legal identifiers, footnotes and source annotations.",
+      "Pin repository revision and source record; compare full body and anchors to the exact official Lovdata version.",
+      "Keep adoption, publication, amendment, effective and repository dates distinct; do not rely on last_updated.",
+      "Review image and attachment omissions; do not accept a candidate as current law based on its existence, hash, or status field."
+    ],
+    "accepted_local_source_copies": 0
   }
 }

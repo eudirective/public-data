@@ -7,7 +7,7 @@
   "accepted_derived_text_count": 0,
   "accepted_topic_count": 0,
   "country_review_complete": false,
-  "accepted_external_reference_count": 27,
+  "accepted_external_reference_count": 31,
   "policy": "A trustworthy official government text or page may be accepted as an external reference within the publisher, language, version or observed date, legal status, subject, and passages actually checked. Government-published consolidated texts are acceptable working references when their identity and scope are clear; Gazette-fragment reconstruction, a local copy, conversion, hashes, or an updater are not prerequisites for link use. If currentness, publisher trust, or scope remains unclear, leave the reference unresolved and offer the whole official website for human review. External-link acceptance does not accept a local conversion, establish topic adequacy, or complete the country review.",
   "external_reference_decisions": [
     {
@@ -538,6 +538,90 @@
         "limitations": "Navigation only. Page contains wording referring to EU-25/EFTA and dynamic ETIAS details; do not rely on dated operational claims without checking current SEM and EU guidance."
       },
       "document_path": "source-library/switzerland/documents/guidance/ch-33-fdfa-entry-residence-hub-20260201.md"
+    },
+    {
+      "source_id": "ch-45-zgb-sr-210",
+      "decision": "accepted_with_narrow_external_scope",
+      "accepted_role": "Official Fedlex locator for the Swiss Civil Code (ZGB), SR 210, in German. The selected ELI date is 1 July 2026. Relevant to civil status and family relationships underlying identity and relationship evidence.",
+      "not_accepted": [
+        "A locally retained or semantically checked full text copy.",
+        "Provision-specific recognition or civil-status conclusions.",
+        "The claim that the selected version is the latest current version; the Fedlex page returned a JavaScript shell in this review."
+      ],
+      "evidence": {
+        "official_source_url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de?version=20260701",
+        "stable_record_url": "https://www.fedlex.admin.ch/eli/cc/24/233_245_233/de",
+        "reviewed_on": "2026-10-29",
+        "publisher": "Fedlex, Swiss Federal Chancellery",
+        "language": "de",
+        "version": "Dated ELI locator for 2026-07-01. The official browser page rendered only a JavaScript shell; the text body and full version history were not inspected.",
+        "verified_content": "Official ELI identity crosswalked to Legalize-ch file cc-24-233_245_233.md, whose metadata identifies SR 210 and the Swiss Civil Code. No provision-level content accepted.",
+        "limits": "Link-only identity reference; no local statutory text, provision-level legal analysis, topic adequacy, or country completion accepted."
+      },
+      "document_path": "source-library/switzerland/documents/legislation/ch-45-zgb-sr-210.md"
+    },
+    {
+      "source_id": "ch-46-kvg-sr-832-10",
+      "decision": "accepted_with_narrow_external_scope",
+      "accepted_role": "Official Fedlex reference to the Federal Health Insurance Act (KVG), SR 832.10. Fedlex lists the consolidated version effective 1 July 2026; the Act is relevant to public compulsory health insurance for residents.",
+      "not_accepted": [
+        "A locally retained or semantically checked full text copy.",
+        "An individual health-insurance obligation, entitlement, or coverage determination.",
+        "Future amendments scheduled for 2028 as operative law."
+      ],
+      "evidence": {
+        "official_source_url": "https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/de?version=20260701",
+        "stable_record_url": "https://www.fedlex.admin.ch/eli/cc/1995/1328_1328_1328/de",
+        "reviewed_on": "2026-10-29",
+        "publisher": "Fedlex, Swiss Federal Chancellery",
+        "language": "de",
+        "version": "Official Fedlex result lists a current in-force consolidation effective 2026-07-01; a separately published future amendment has a 2028 commencement.",
+        "verified_content": "Official instrument title, SR 832.10, in-force status, and current version date were checked in Fedlex. Full statutory provisions were not reviewed.",
+        "limits": "Link-only reference; no local text, complete health-insurance analysis, personal coverage decision, topic adequacy, or country completion accepted."
+      },
+      "document_path": "source-library/switzerland/documents/legislation/ch-46-kvg-sr-832-10.md"
+    },
+    {
+      "source_id": "ch-47-kvv-sr-832-102",
+      "decision": "accepted_with_narrow_external_scope",
+      "accepted_role": "Official Fedlex dated ELI locator for the Health Insurance Ordinance (KVV), SR 832.102. Added as an implementation dependency alongside KVG.",
+      "not_accepted": [
+        "A locally retained or semantically checked full text copy.",
+        "The claim that 1 July 2026 is the latest current version; the Fedlex page rendered a JavaScript shell in this review.",
+        "An individual coverage or benefit determination."
+      ],
+      "evidence": {
+        "official_source_url": "https://www.fedlex.admin.ch/eli/cc/1995/3867_3867_3867/de?version=20260701",
+        "stable_record_url": "https://www.fedlex.admin.ch/eli/cc/1995/3867_3867_3867/de",
+        "reviewed_on": "2026-10-29",
+        "publisher": "Fedlex, Swiss Federal Chancellery",
+        "language": "de",
+        "version": "Dated ELI locator selected at 2026-07-01; Fedlex body rendered only its JavaScript shell, so currentness and complete content were not independently reviewed.",
+        "verified_content": "Official ELI identifier and Legalize-ch metadata identify the instrument as the KVV, SR 832.102. The current official body was not extracted.",
+        "limits": "Accept only as a dated official locator and cross-reference. No text, topic adequacy, individual insurance decision, or country completion accepted."
+      },
+      "document_path": "source-library/switzerland/documents/legislation/ch-47-kvv-sr-832-102.md"
+    },
+    {
+      "source_id": "ch-48-klv-sr-832-112-31",
+      "decision": "accepted_with_narrow_external_scope",
+      "accepted_role": "Official Fedlex dated ELI locator for the Health-Care Benefits Ordinance (KLV), SR 832.112.31, for benefit-specific follow-up where needed.",
+      "not_accepted": [
+        "A locally retained or semantically checked full text copy.",
+        "The claim that the selected date is the latest current version; Fedlex rendered a JavaScript shell in this review.",
+        "A benefit entitlement or individual health-insurance determination."
+      ],
+      "evidence": {
+        "official_source_url": "https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de?version=20260701",
+        "stable_record_url": "https://www.fedlex.admin.ch/eli/cc/1995/4964_4964_4964/de",
+        "reviewed_on": "2026-10-29",
+        "publisher": "Fedlex, Swiss Federal Chancellery",
+        "language": "de",
+        "version": "Dated ELI locator selected at 2026-07-01. Fedlex browser page returned a JavaScript-only shell, so the body and currentness were not independently checked.",
+        "verified_content": "Instrument identity crosswalked to Legalize-ch file cc-1995-4964_4964_4964.md and the official Fedlex ELI. No operative provision was reviewed.",
+        "limits": "Related follow-up locator only. No full legal text, benefits analysis, individual decision, topic adequacy, or country completion accepted."
+      },
+      "document_path": "source-library/switzerland/documents/legislation/ch-48-klv-sr-832-112-31.md"
     }
   ],
   "human_review_offers": [
@@ -582,7 +666,7 @@
       "reason": "Family-status, oversight, and current local ombuds coverage remain open in the candidate inventory."
     }
   ],
-  "count_note": "accepted_source_count and accepted_current_law_source_count count retained local artifacts and remain 0. 26 official external references are accepted within narrow scopes; this includes one EFTA institutional status reference outside the original 44-record capture inventory. No local conversion, topic, or country review is accepted or complete.",
+  "count_note": "accepted_source_count and accepted_current_law_source_count count retained local statutory artifacts and remain 0. 31 official external references are accepted within narrow scopes: 30 from the bounded source-lead inventory plus one supplemental EFTA institutional status reference. Four official legislation references were added in this crosswalk. No local conversion, topic, or country review is accepted or complete.",
   "official_reference_reviews": {
     "ch_21": {
       "status": "usable_official_reference_with_maintained_reference_note",
@@ -642,5 +726,71 @@
       "maintained_note_sha256": "529bbe8e039d2a266aa551d80638c55c7e300dcc2fc44fd511a7b957037c382e",
       "maintained_note_role": "maintained_official_legal_reference_note_not_source_text_copy"
     }
+  },
+  "legalize_crosswalk": {
+    "reviewed_on": "2026-10-29",
+    "repository": "https://github.com/legalize-dev/legalize-ch",
+    "revision": "bb25076ced856706100f601346a87764d8530630",
+    "confirmed_candidate_files": [
+      {
+        "source_id": "ch-04-aig-de-20231015",
+        "path": "ch/cc-2007-758.md",
+        "status": "identity confirmed; Legalize applicability_date is 2027-01-01 and must not be used as current law before that date"
+      },
+      {
+        "source_id": "ch-05",
+        "path": "ch/cc-2007-759.md",
+        "status": "identity confirmed; current official edition needs version-specific comparison"
+      },
+      {
+        "source_id": "ch-07-vev-de-20260612",
+        "path": "ch/cc-2018-493.md",
+        "status": "identity confirmed; candidate snapshot only"
+      },
+      {
+        "source_id": "ch-12-vwvg-de-20220701",
+        "path": "ch/cc-1969-737_757_755.md",
+        "status": "identity confirmed; dated candidate snapshot"
+      },
+      {
+        "source_id": "ch-45-zgb-sr-210",
+        "path": "ch/cc-24-233_245_233.md",
+        "status": "new official link-only reference; candidate snapshot not accepted"
+      },
+      {
+        "source_id": "ch-46-kvg-sr-832-10",
+        "path": "ch/cc-1995-1328_1328_1328.md",
+        "status": "candidate date 2026-01-01 is older than Fedlex version 2026-07-01"
+      },
+      {
+        "source_id": "ch-47-kvv-sr-832-102",
+        "path": "ch/cc-1995-3867_3867_3867.md",
+        "status": "candidate date 2026-01-01; official ELI link is date-pinned; semantic/currentness review open"
+      },
+      {
+        "source_id": "ch-48-klv-sr-832-112-31",
+        "path": "ch/cc-1995-4964_4964_4964.md",
+        "status": "candidate date 2027-01-01 is future at review date; do not use as current"
+      },
+      {
+        "source_id": "ch-06-vfp-fr-20260101",
+        "path": "ch/cc-2002-261.md",
+        "status": "identity confirmed; metadata last_updated is 2019-11-01 while the pack holds an official 2026-01-01 dated locator; require exact-version comparison"
+      },
+      {
+        "source_id": "ch-20",
+        "path": "ch/cc-2004-362.md",
+        "status": "identity confirmed as the Civil Status Ordinance SR 211.112.2; Legalize snapshot is a candidate only"
+      }
+    ],
+    "repository_scope": "Legalize-ch README limits its corpus to German-language XML consolidations, about 5,139 of roughly 17,258 SR numbers. It records that older version histories are incomplete and images are omitted.",
+    "rights_and_attribution": "Legalize-ch declares official statutory texts public domain. MIT covers pipeline code only. Cite Fedlex as official publisher and Legalize-ch plus the pinned revision as the candidate intermediary; no blanket database/systematic-copy right is inferred.",
+    "conversion_rules": [
+      "Preserve German source language, official title, SR/ELI identifiers, article hierarchy, tables, footnotes, amendment notes and annexes.",
+      "Pin the Legalize repository commit and exact file; compare the entire candidate with the exact official Fedlex version and inspect substantive anchors.",
+      "Record enactment, publication, effective/applicability and repository dates separately; never use last_updated or a future applicability_date as proof of current law.",
+      "Inspect image/binary omissions and note any extraction loss. Do not accept Markdown based only on hashes, parser output, or Legalize status labels."
+    ],
+    "accepted_local_source_copies": 0
   }
 }
