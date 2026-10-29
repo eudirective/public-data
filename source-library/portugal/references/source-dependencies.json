@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "PT",
-  "checked_on": "2026-10-21",
+  "checked_on": "2026-10-29",
   "status": "material_dependencies_partially_mapped; issue_and_remedy_crosswalk_incomplete",
   "policy": "Preserve Portuguese statutory wording. Record related EU/national instrument status separately. Prefer trustworthy government-published consolidated texts for link use, record cutoff/caveat, and check a specific later change only when material.",
   "dependencies": [
@@ -149,6 +149,35 @@
       ],
       "relationship": "Portals may group EU, EEA EFTA, Swiss, Andorran, Portuguese-family, and national third-country cases; legal bases remain distinct.",
       "review_state": "Separate routes identified; map statutory extensions and family definitions before treating operational groupings as equivalent."
+    },
+    {
+      "id": "pt-work-and-social-security",
+      "instruments": [
+        {
+          "title": "Law 37/2006 on EU citizens and family members",
+          "source_id": "pt-06"
+        },
+        {
+          "title": "Lei n.º 7/2009 — Código do Trabalho",
+          "source_id": "pt-69"
+        },
+        {
+          "title": "Lei n.º 4/2007 — Bases gerais do sistema de segurança social",
+          "source_id": "pt-70"
+        },
+        {
+          "title": "Lei n.º 110/2009 — Código dos Regimes Contributivos",
+          "source_id": "pt-71"
+        }
+      ],
+      "linked_national_sources": [
+        "pt-06",
+        "pt-69",
+        "pt-70",
+        "pt-71"
+      ],
+      "relationship": "Records the national free-movement, employment and social-security source cluster as a research dependency; it does not assert that their provisions produce the same scope or outcome.",
+      "review_state": "Official record identity, status and displayed version evidence checked 2026-10-29. Provision-level worker/equality, coordination, contribution and benefit crosswalk remains incomplete; no individual eligibility or topic adequacy accepted."
     }
   ]
 }
