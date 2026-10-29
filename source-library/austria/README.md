@@ -1,6 +1,6 @@
 # Austria national source pack
 
-**Review status (19 October 2026):** 73 of 74 retained source artifacts passed local-artifact acceptance; no captured sources remain pending review; one family-topic index is discovery-only. No official locator-only source remains uncaptured. A reviewed official reference can be used without a local capture; the counts below describe local artifacts. Legal topic coverage and country review remain incomplete.
+**Review status (29 October 2026):** 74 of 75 retained source artifacts passed local-artifact acceptance; no captured sources remain pending review; one family-topic index is discovery-only. No official locator-only source remains uncaptured. A reviewed official reference can be used without a local capture; the counts below describe local artifacts. Legal topic coverage and country review remain incomplete.
 
 This pack supports an issue-led review of EU free movement, privileged family-member visas, residence cards, administrative procedure, remedies, case law, oversight and local practice. Its source count is bounded; it is not an exhaustive inventory of Austrian law or practice.
 
@@ -15,6 +15,8 @@ This pack supports an issue-led review of EU free movement, privileged family-me
 - [Nine-Land and 524-mission discovery queue](references/operational-discovery.json)
 - [Capture ledger](references/capture-ledger.json)
 - [Per-source retrieval/conversion rules](references/source-rules.json)
+- [Legalize Austria crosswalk and verification status](references/legalize-crosswalk-2026-10-29.md)
+- [Legalize/RIS conversion rule](references/legalize-conversion-rules.md)
 - [Nine legacy conversion replays](scripts/replay_legacy_conversions.py)
 - [Operational discovery queue generator](scripts/operational_discovery.py)
 - [Review gates and acceptance action](scripts/validate_review_gates.py)
@@ -22,7 +24,7 @@ This pack supports an issue-led review of EU free movement, privileged family-me
 
 The pack has no local core folder. German EU sources are referenced through the shared core index.
 
-The earlier description of Austria as complete overstated a bounded 37-record capture exercise. The workflow now separates source accepted, topic adequately covered and country review complete. The 73 accepted records do not imply the latter two. Accepted sources include FPG §§2(4)(11), 11, 11a, 11b, 15a, 15b, 66, 67 and 70; BFA-VG §§9–10; IFG §§1–20; the BMI EEA-family application form and explanation; six additional VwGH decisions; the C1 visa form; and the verified complaint routes.
+The earlier description of Austria as complete overstated a bounded 37-record capture exercise. The workflow now separates source accepted, topic adequately covered and country review complete. The 74 accepted records do not imply the latter two. Accepted sources include FPG §§2(4)(11), 11, 11a, 11b, 15a, 15b, 66, 67 and 70; BFA-VG §§9–10; IFG §§1–20 and the verified consolidated full text (20/20 section bodies matched RIS); the BMI EEA-family application form and explanation; six additional VwGH decisions; the C1 visa form; and the verified complaint routes.
 
 All nine former broad-body conversions were replayed with source-specific extraction. The Vienna 2022 decision excludes the screen-reader-only duplicate while retaining the visible text. The BMEIA representation directory is structured as 196 country headings and 524 mission records, with the visible date “Stand 19. Oktober 2026.” Raw HTML/PDF responses are retained in the EU Source Update Monitor local-only archive; the capture ledger records their hashes and archive-relative paths. No raw captures or pending review candidates are stored in the country pack. Interactive complaint-form session HTML is intentionally not stored because it contains transient ViewState and validation/session state; only official route metadata is retained.
 
