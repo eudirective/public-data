@@ -18,3 +18,8 @@ The source review covers legislation, agency guidance, forms, visa and mission p
 Run `python3 sync_latvia.py verify` to check saved source hashes and replay accepted local text copies without modifying them. `reconvert` and `convert-pdfs` stage unaccepted conversions under the temp workspace; they do not replace or accept documents. PDF tooling is pinned in [`requirements.txt`](requirements.txt). These commands do not retrieve sources or establish source-monitor coverage.
 
 The ordinary HTTPS route worked without API registration or publisher security challenges. The publisher's reuse terms and fees concern retained or recurring copies; they do not block ordinary links to the official consolidated texts. No scheduled mirror is proposed here. See the [retrieval capture manifest](references/latvia-captures.json) and [sustainability assessment](references/sustainability-assessment.md) for the separate optional capture and reuse assessment.
+
+
+## Legalize crosswalk
+
+The bounded Legalize-LV findings for Act 369282 and Cabinet Regulation 675 are recorded at the end of the [source list](references/source-list.md). The official records already exist in the pack; candidate text was not promoted and does not resolve the 2026 transition question.
