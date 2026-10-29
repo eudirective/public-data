@@ -51,3 +51,8 @@ LU-41 is represented by the same final note as LU-12 because both point to the s
 - No Luxembourg source-pack action is registered in the Monitor, so this tranche used its documented manual workflow. The old candidate sync/replay utility has been retired; no updater or country-wide completion claim is made.
 
 Review method: EU Source Update Monitor manual country-pack workflow. Topic coverage, mission practice, current amendments and issue-level legal mapping remain open.
+
+
+## Legalize crosswalk
+
+The Legalize-LU comparison for the 2008 free-movement law and its administrative regulation is recorded at the end of the [source list](references/source-list.md). The Legalize files are dated snapshots; the pack retains the official dated consolidation and coordinated text.
