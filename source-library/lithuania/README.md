@@ -20,3 +20,8 @@ Use the [source list](references/source-list.md), [source acceptance register](r
 - The official API snapshots are not translations. Current legal research must account for the Lithuanian text and later amendments.
 - Lithuania's EU, EEA/EFTA, Swiss, UK Withdrawal Agreement, and third-country family routes remain distinct.
 - Topic-level provision mapping, visa and mission operations, remedies, and continuing court discovery remain open. The Monitor has no Lithuania runtime action; runtime-only checks are unsupported, not completed.
+
+
+## Legalize crosswalk
+
+The [Legalize-LT search result and limits](references/source-list.md) are recorded at the end of the source list. No exact candidate file was verified, so no Legalize text or retrieval method was accepted.
