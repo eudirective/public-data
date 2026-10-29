@@ -1233,7 +1233,7 @@
       "candidate_archive_sha256": "40a5e9cba3053fe5e225aef7b5eb9ec7d298f4efc63d20f0b99859b7cc6a737f"
     }
   ],
-  "accepted_maintained_source_note_count": 7,
+  "accepted_maintained_source_note_count": 8,
   "maintained_source_notes": [
     {
       "source_id": "cy-cypriot-family-employment-forms",
@@ -1321,6 +1321,19 @@
         "Not a full statement of current law or individual eligibility."
       ],
       "source_url": "https://www.gov.cy/mip-md/en/documents/e-u-e-e-a-citizens-and-family-members-2/e-u-e-e-a-citizens-family-member-2/entry-and-residence-of-third-country-nationals-who-are-family-members-of-an-e-u-e-e-a-citizen-meu2/"
+    },
+    {
+      "source_id": "cy-cap105-olc-greek-consolidation",
+      "status": "accepted_project_authored_source_note",
+      "document_path": "source-library/cyprus/documents/legislation/cy-cap105-olc-greek-consolidation-gen-n72.md",
+      "checked_on": "2026-10-29",
+      "scope": "Official OLC Greek GEN-N.72 Cap. 105 consolidation identity and 2024 publication, with version/currentness limit and link to the official 2025 amending Act section 29 record.",
+      "limits": [
+        "Full OLC PDF could not be retrieved and validated page by page; no full text or provision wording is accepted.",
+        "The 2024 consolidation predates Law 4(I)/2025; commencement notice and operative status remain unresolved.",
+        "This note is not a current consolidated text or legal advice."
+      ],
+      "source_url": "https://www.olc.gov.cy/olc/olc.nsf/6104940C95908049C2258B7200330D64/$file/%CE%9F%20%CF%80%CE%B5%CF%81%CE%AF%20%CE%91%CE%BB%CE%BB%CE%BF%CE%B4%CE%B1%CF%80%CF%8E%CE%BD%20%CE%BA%CE%B1%CE%B9%20%CE%9C%CE%B5%CF%84%CE%B1%CE%BD%CE%B1%CF%83%CF%84%CE%B5%CF%8D%CF%83%CE%B5%CF%89%CF%82%20%CE%9D%CF%8C%CE%BC%CE%BF%CF%82%2C%20%CE%9A%CE%B5%CF%86.105%20%282%29.pdf"
     }
   ]
 }
