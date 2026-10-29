@@ -28,6 +28,15 @@
       "sha256": "183822a1d3f7dc85cd0d51e1b480b1260f11ba7aef12718426c89ab8d5defbd6",
       "archived_at": "2026-10-29T06:22:40.497Z",
       "superseded_by_sha256": "485f67ec3d85736e03d237c7011332890902e408660403ca8f442fad6be23f64"
+    },
+    {
+      "source_id": "ch-30-sem-visa-index-20261025",
+      "official_url": "https://www.sem.admin.ch/sem/en/home/publiservice/weisungen-kreisschreiben/visa.html",
+      "current_path": "switzerland/documents/guidance/ch-30-sem-visa-index-20261025.md",
+      "archive_path": "switzerland/documents/guidance/archive/ch-30-sem-visa-index-20261025/531a084c3ef5770401e5636db21784edb0c3fd86082dae1ae190f8a542baa2c2.md",
+      "sha256": "531a084c3ef5770401e5636db21784edb0c3fd86082dae1ae190f8a542baa2c2",
+      "archived_at": "2026-10-29T06:23:58.601Z",
+      "superseded_by_sha256": "a5d913c97391bcad8a46468f53c3cc71cfe7e20bef28af0d7b33641e348bc23e"
     }
   ]
 }
