@@ -7,7 +7,7 @@
 ## What is in the pack
 
 - The register contains 51 official source references, each accepted only for its recorded purpose and scope.
-- Eleven reviewed eISB legal texts and eight maintained Markdown guidance/procedure summaries (19 local source documents total) are accepted in the pack. They are exact made/enacted versions, not a reconstructed current code.
+- Eleven reviewed eISB legal texts are stored under `documents/legislation/`; they are exact made/enacted versions, not a reconstructed current code. Eight maintained Markdown guidance/procedure summaries are stored under `documents/guidance/` (19 accepted local source documents total).
 - Eight maintained source summaries are stored under `documents/guidance/`: EEA/Swiss family entry (ie-19), family route selection (ie-22), Irish-national join-family visa (ie-24), visa-required nationality guidance (ie-25), visa appeal guidance (ie-26), the 2026 short-stay appeal change (ie-27), AVATS application instructions (ie-28), and High Court Practice Direction HC140 (ie-48).
 - Current Law Reform Commission Revised Act links are separately recorded for the Immigration Act 2004, Freedom of Information Act 2014 and Data Protection Act 2018. Each is an administrative consolidation with its own stated cutoff and disclaimer.
 - Fifteen other page conversions are retained as private research provenance in the EU Source Update Monitor archive; 25 references are link-only. No candidate, capture or retrieval-manifest copies remain in this pack.
