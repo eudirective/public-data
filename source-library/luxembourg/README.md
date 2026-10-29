@@ -2,7 +2,7 @@
 
 This is a bounded, issue-led source review across immigration, family residence, procedure, remedies, oversight, civil status, identity, and legal aid. It does not certify complete national coverage.
 
-Reviewed 29 October 2026: **45 official external references accepted within stated scope; 1 pending; 3 not relied upon; 10 exact legal-text copies accepted; 25 source-reference notes promoted; 0 topics accepted; country review incomplete.** These states are separate. An accepted link or local copy does not establish topic coverage or country completion. See [source acceptance](references/source-acceptance.json), [source list](references/source-list.md), [coverage register](references/coverage-register.md), and [dependency register](references/dependency-register.json).
+Reviewed 29 October 2026: **46 official external references accepted within stated scope; 1 pending; 2 not relied upon; 10 exact legal-text copies accepted; 26 source-reference notes promoted; 0 topics accepted; country review incomplete.** These states are separate. An accepted link or local copy does not establish topic coverage or country completion. See [source acceptance](references/source-acceptance.json), [source list](references/source-list.md), [coverage register](references/coverage-register.md), and [dependency register](references/dependency-register.json).
 
 ## Promoted legal documents
 
@@ -20,6 +20,8 @@ Reviewed 29 October 2026: **45 official external references accepted within stat
 The copies contain French legislative text only. Each records publisher, version/scope, source and body hashes, extraction method, reuse basis and limitations. Legilux consolidations are documentary texts without legal force. LU-10 is a separate dated Ministry-published coordinated regulation text through 15 April 2023; later changes are outside its copy.
 
 ## Promoted candidate source notes
+
+- [Short-stay visa entry guidance](documents/guidance/lu-19-short-stay-entry-visa.md) — current Guichet procedural overview; last updated 1 October 2026, with a linked form dated 18 October 2023.
 
 - [EU/EEA/Swiss citizen residence over 90 days](documents/guidance/lu-11-eu-citizen-residence-over-90-days.md) — official Guichet service guidance; last updated 1 October 2026 and marked as being updated.
 
