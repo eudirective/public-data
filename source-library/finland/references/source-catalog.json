@@ -695,14 +695,19 @@
         "record": "EU citizen registration guidance"
       },
       "functional_relationship": "close_functional_match",
-      "verification_status": "Official Migri page identity and scope verified through official-domain search on 2026-10-24; link accepted without a local copy. Dynamic instructions remain subject to live recheck.",
+      "verification_status": "Exact current Migri page title, URL and substantive English indexed text confirmed on 2026-10-29; direct page request returned HTTP 403; an attributed maintained summary is now recorded.",
       "retrieval_status": "official_locator_only",
-      "retrieval_shape": "Official HTML guidance with links to forms and Enter Finland; direct inspection blocked",
+      "retrieval_shape": "Official HTML guidance page with requirements, attachment categories, Enter Finland and paper application instructions; indexed text accessible, direct viewer fetch blocked.",
       "seed_status": "candidate",
-      "check_note": "Search evidence describes registration after three months, family routes, service channels and appeal; Nordic citizens use a different registration route.",
+      "check_note": "Official indexed content states EU/Liechtenstein/Swiss registration after over three months, distinguishes Nordic DVV registration, lists work/study/family grounds and documents, and includes Finnish-citizen cross-border conditions and appeal route. Fees/estimates are dynamic.",
       "monitor_retrieval_status": "retrieval_or_conversion_error",
       "monitor_retrieval_note": "HTTPError: HTTP Error 403: Forbidden",
-      "accepted": false
+      "accepted": false,
+      "external_reference_accepted": true,
+      "external_reference_checked_at": "2026-10-29",
+      "maintained_markdown_path": "documents/guidance/fi-migri-eu-registration-guidance.md",
+      "maintained_markdown_blob_sha": "4b4eb63054c7f0f91a966b88c74593a103c9ba7a",
+      "local_copy_status": "No verbatim copy accepted; maintained summary of official indexed rendering recorded in documents/guidance/fi-migri-eu-registration-guidance.md. Direct viewer request returned 403."
     },
     {
       "id": "fi-migri-eu-family-guidance",
@@ -1308,5 +1313,5 @@
   "accepted_local_copy_count": 2,
   "retrieval_status": null,
   "maintained_locator_note_count": 1,
-  "maintained_markdown_record_count": 3
+  "maintained_markdown_record_count": 4
 }
