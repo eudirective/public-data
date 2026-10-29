@@ -886,13 +886,13 @@
       "url": "https://www.mfa.gov.lv/en/entry-latvia",
       "publisher": "Ministry of Foreign Affairs of Latvia",
       "language": "en",
-      "checked_on": "2026-10-19",
-      "version_or_scope": "Updated 20.05.2026.",
-      "acceptance_scope": "official official ministry guidance reference: MFA entry information hub accepted as a navigation and discovery page only; it predates commencement of the new free-movement Act.",
+      "checked_on": "2026-10-29",
+      "version_or_scope": "MFA entry hub published 9 December 2024; updated 20 May 2026. Current observed index covers EES, electronic travel declaration, visa and entry routes.",
+      "acceptance_scope": "Official MFA navigation and discovery page for the listed entry, visa and border-information topics; the hub is not accepted as substantive law or proof that individual child pages are current.",
       "limitations": [
-        "MFA entry information hub accepted as a navigation and discovery page only; it predates commencement of the new free-movement Act.",
-        "This decision accepts the external link only. It does not accept a saved conversion, establish legal-topic coverage, or complete Latvia’s source review.",
-        "Discovery/index page for entry/visa information; pre-dates the EU-family law commencement, so check parent and child pages for current legal references."
+        "The hub was last updated 20 May 2026, before the new free-movement Act took effect on 10 July 2026. Its Union-citizen/family-member child page still cites Cabinet Regulation No. 675; see the lv-28 stale-guidance record.",
+        "The child pages have separate publisher dates, scope, and legal status; this hub decision does not validate their substantive instructions.",
+        "This decision accepts the external link only. It does not accept a saved conversion, establish legal-topic coverage, or complete Latvia's source review."
       ],
       "candidate_record": {
         "manifest": "references/candidate-manifest.json",
@@ -900,13 +900,16 @@
       },
       "evidence": {
         "official_source_url": "https://www.mfa.gov.lv/en/entry-latvia",
-        "verified_content": "Official MFA hub identified and updated metadata checked in prior official review.",
-        "source_record_note": "Discovery/index page for entry/visa information; pre-dates the EU-family law commencement, so check parent and child pages for current legal references.",
-        "retrieval_status": "converted_review_candidate"
+        "verified_content": "Live MFA English hub opened 29 October 2026. Displayed publication and update dates were checked. Current topic links reviewed: EES, electronic travel declaration and comparison, Russian/Belarus entry, visa waiver countries, visa legal framework/application/documents/processing/appeals, and Union-citizen/family entry. The EU-family child page's stale Regulation 675 citation was separately confirmed.",
+        "source_record_note": "Accepted as an official navigation page only. A maintained Markdown topic index records the current hub scope; child pages remain independent sources.",
+        "retrieval_status": "human_reviewed_live_page"
       },
       "local_copy_accepted": false,
       "decision": "accepted_with_narrow_external_scope",
-      "candidate_archive_path": "candidates/latvia_candidate_promotion_20261024/Latvia/lv-29.md"
+      "candidate_archive_path": "candidates/latvia_candidate_promotion_20261024/Latvia/lv-29.md",
+      "maintained_source_note_path": "documents/guidance/lv-29-mfa-entry-hub.md",
+      "maintained_source_note_checked_on": "2026-10-29",
+      "maintained_source_note_status": "accepted_official_navigation_record"
     },
     {
       "source_id": "lv-30",
