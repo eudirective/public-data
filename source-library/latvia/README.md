@@ -1,6 +1,6 @@
 # Latvia official-source review
 
-This directory contains Latvia’s official-source register, scoped external-link decisions, 30 accepted local text snapshots, maintained dated PMLP family-document, filing-channel, residence-document, identity-number/address, and MFA legal-conflict notes, a complete field map for the current PMLP EU-family application PDF, and a retrieval/conversion prototype. The external links and local copies are accepted only within their recorded source scopes; no topic is accepted as adequately covered and the country review is incomplete.
+This directory contains Latvia’s official-source register, scoped external-link decisions, 30 accepted local text snapshots, maintained dated PMLP family-document, filing-channel, residence-document, identity-number/address, MFA legal-conflict, and MFA entry-hub notes, a complete field map for the current PMLP EU-family application PDF, and a retrieval/conversion prototype. The external links and local copies are accepted only within their recorded source scopes; no topic is accepted as adequately covered and the country review is incomplete.
 
 - Source manifest: [references/candidate-manifest.json](references/candidate-manifest.json)
 - Source acceptance: [references/source-acceptance.json](references/source-acceptance.json)
