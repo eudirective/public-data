@@ -237,7 +237,7 @@
     "The exact current Polish residence-card specimen and the legal transition for each document class remain unverified.",
     "Voivodeship-local procedures, mission-specific services, case-law discovery completeness and country completion remain open."
   ],
-  "reviewed_on": "2026-10-25",
+  "reviewed_on": "2026-10-29",
   "status": "54_scoped_official_links_accepted; 29_local_source_text_copies_accepted; 23_locator_disposition_notes; 4_historical_only; 5_routes_not_relied_on; topic_coverage_incomplete",
   "accepted_external_reference_ids": [
     "pl-01",
@@ -891,5 +891,16 @@
       "limitations": "Navigation index only. Each child page and governing law requires separate review. Not substantive cross-border legal guidance and not a topic-coverage finding."
     }
   },
-  "count_note": "accepted_local_copies counts 29 retained source-text copies: 13 official legal/instrument texts (including two historical copies) and 16 dated gov.pl text snapshots. The other 23 former candidate records have source-specific locator/disposition documents under documents/; those notes are not accepted copies of the underlying pages. External-reference status is recorded separately. No topic is accepted and country_review_complete remains false."
+  "count_note": "accepted_local_copies counts 29 retained source-text copies: 13 official legal/instrument texts (including two historical copies) and 16 dated gov.pl text snapshots. The other 23 former candidate records have source-specific locator/disposition documents under documents/; those notes are not accepted copies of the underlying pages. External-reference status is recorded separately. No topic is accepted and country_review_complete remains false.",
+  "maintained_reference_note_reviews": [
+    {
+      "source_id": "pl-17",
+      "path": "documents/guidance/pl-17-udsc-eu-residence-guidance-locator.md",
+      "sha256": "c7f7226c8007054d96d9d96f806e1317386972871b7a4615250643323979fd3b",
+      "reviewed_on": "2026-10-29",
+      "status": "maintained_authored_reference_note; underlying_source_text_not_accepted",
+      "evidence": "Official Gov.pl search index returned the exact UDSC page title and bounded summary; direct opening redirected to generic Gov.pl homepage. The note separates index evidence from a live page capture.",
+      "limits": "Displayed modification date, current live body, attachments, page completeness and full procedural rules remain unverified. Does not increase accepted_local_copies or accepted_topics."
+    }
+  ]
 }
