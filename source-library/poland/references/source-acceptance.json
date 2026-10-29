@@ -1,7 +1,7 @@
 {
   "schema_version": "1.1.0",
   "jurisdiction": "PL",
-  "as_of": "2026-10-25",
+  "as_of": "2026-10-29",
   "source_review_manifest": "source-review-manifest.json",
   "required_checks": [
     "publisher_identity",
@@ -27,7 +27,7 @@
     "accepted_external_references": 54,
     "historical_reference_only": 4,
     "not_relied_upon_or_human_review_offered": 5,
-    "accepted_local_copies": 26,
+    "accepted_local_copies": 27,
     "accepted_topics": 0,
     "country_review_complete": false,
     "source_records": 63
@@ -832,6 +832,19 @@
       "semantic_check": "Official source identity and named page/instrument checked against source register; body-only replay from raw response matched archived candidate. Captured version evidence: Official consolidated text governing general free legal aid and civic advice. It does not establish the separate asylum-specific route; check the relevant eligibility provisions and related Ministry guidance without reconstructing a full amendment history. No later-currentness or topic-completeness claim is made.",
       "reuse_basis": "The retained material is official normative text/publication material. Article 4(1)(1) and (2) of the Polish Copyright and Related Rights Act addresses normative acts, official drafts, official documents and materials. Only official text and necessary publication metadata are included.",
       "limitations": "This is a dated source snapshot, not a legal conclusion. Recheck the official record for later amendments, page changes, eligibility, filing channel and case-specific applicability. Local-copy acceptance does not accept any topic or certify country completion. This source is historical or transitional and must not be presented as current guidance."
+    },
+    "pl-58": {
+      "decision": "accepted_local_official_text",
+      "path": "documents/legislation/pl-58-permanent-residence-applications-regulation-2021.md",
+      "sha256": "47ba96d389e656643936542268cfde1583002d39750d977d105cab0ff3fe3755",
+      "bytes": 13521,
+      "source_url": "https://eli.gov.pl/eli/DU/2021/1391/ogl",
+      "text_url": "https://eli.gov.pl/api/acts/DU/2021/1391/text.html",
+      "reviewed_on": "2026-10-29",
+      "conversion_method": "Full visible ELI HTML text body transcribed from official HTML to Markdown with headings and body lines retained.",
+      "semantic_check": "ELI record shows the MSWiA regulation of 26 July 2021, publication 30 July 2021, in force from 2 August 2021 and status obowiązujący. The complete 228-line visible HTML response was retained; the HTML page lists ten annexes as linked originals. Companion instrument Dz.U. 2021 poz. 1392 is separately retained.",
+      "reuse_basis": "Official Polish normative text and publication material; Article 4(1)(1) and (2) of the Polish Copyright and Related Rights Act addresses normative acts, official drafts, official documents and materials. ELI attribution and record/text links are preserved.",
+      "limitations": "Local copy reproduces the complete visible HTML text body but not the ten annex specimen images/forms linked by ELI. Use official attachments for their exact layout/content. Dated snapshot; recheck ELI for amendments and displayed status. Not a conclusion on eligibility or topic adequacy."
     }
   },
   "count_note": "accepted_local_copies counts 26 retained source-text copies: 11 official legal/instrument texts (including two historical copies) and 15 dated gov.pl text snapshots. The other 24 former candidate records have source-specific locator/disposition documents under documents/; those notes are not accepted copies of the underlying pages. External-reference status is recorded separately. No topic is accepted and country_review_complete remains false."
