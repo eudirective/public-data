@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "BG",
-  "as_of": "2026-10-24",
+  "as_of": "2026-10-29",
   "policy": "accepted_source_count and each record's accepted flag describe retained local artifacts only. A human-reviewed official link is sufficient for ordinary reference use within the publisher, identity, language, version/cutoff, scope, content and limitations actually checked. Do not require local retrieval, conversion, hashes, API registration, Gazette-chain reconstruction, or copying permission for link use. Use the closest usable government-published consolidation and preserve its cutoff and publisher attribution. When portal currentness or scope remains unclear, record the entire relevant official portal for human review and continue independent work. Link acceptance does not establish topic coverage or country completion.",
   "official_reference_reviews": {
     "bg-mfa-visa-ordinance-consolidated": {
@@ -607,28 +607,28 @@
     },
     "bg-eu-guidance-en": {
       "status": "usable_official_reference",
-      "publisher": "Ministry of Interior (MVR), Migration Directorate",
-      "url": "https://mvr.bg/migration/information-about-foreigners/дейности-и-функции/citizens-of-eu",
-      "checked_on": "2026-10-24",
+      "publisher": "Ministry of Interior of the Republic of Bulgaria (MVR), Migration Directorate",
+      "url": "https://www.mvr.bg/migration/information-about-foreigners/дейности-и-функции/citizens-of-eu",
+      "checked_on": "2026-10-29",
       "language": "English",
-      "version_or_cutoff": "Undated dynamic page. Official page opened and reviewed on 24 October 2026.",
-      "scope": "English administrative overview of long-term and permanent residence procedures for EU citizens and their family members.",
-      "reviewed_content": "The page gives a three-month overview, application categories, a five-year permanent-residence summary, and MVR contact details.",
+      "version_or_cutoff": "Dynamic, undated page. Publisher identity and page identity checked live on 29 October 2026; no revision date was displayed.",
+      "scope": "Official English-language information route concerning residence in Bulgaria for EU citizens and their family members.",
+      "reviewed_content": "The live MVR page and its navigation to the dedicated EU-citizen administrative-service page were checked. The service page identifies the dedicated Act, Instruction №8121з-1276, and related forms. The page is retained for link reference only; its content is not copied or archived.",
       "limitations": [
-        "The English page uses simplified terminology such as “long-term residence permit” and summarizes the three-month rule; it is not a legal text.",
-        "For conditions, rights, or legal effects, use the current Bulgarian EU-citizen Act, Instruction №8121з-1276, and applicable EU law.",
-        "Details on this dynamic page may change; no local copy or republication permission is inferred."
+        "Dynamic page with no displayed publication or revision date; the current wording, links, contact details, and availability require live rechecking.",
+        "Administrative information, not a legal instrument or complete statement of eligibility. Consult the current Bulgarian EU-citizen Act, Instruction №8121з-1276, and applicable EU law for legal conditions and effects.",
+        "MVR Terms of Use restrict copying, transmission, distribution, or storage of page content without prior written consent, subject to stated exceptions. The maintained Markdown file is an independently authored source locator and does not reproduce or paraphrase the page."
       ],
       "supporting_sources": [
         {
-          "title": "MVR-published EU-citizen Act, consolidation labelled 2026",
-          "url": "https://mvr.bg/upload/338040/%D0%97%D0%92%D0%9F%D0%9D%D0%A0%D0%91%D0%93%D0%95%D0%A1%D0%A7%D0%A2%D0%A1%202026.pdf",
-          "role": "controlling Bulgarian-language statutory reference; separately reviewed through its printed cutoff"
+          "title": "MVR EU-citizen administrative-service page",
+          "url": "https://www.mvr.bg/migration/административни-услуги/административни-услуги-за-граждани/издаване-на-документи-на-граждани-на-ес-и-на-членовете-на-техните-семейства",
+          "role": "official navigation route to the dedicated Act, Instruction №8121з-1276, and related forms"
         },
         {
-          "title": "MVR Instruction №8121з-1276",
-          "url": "https://mvr.bg/upload/24810/8121z12761110201809042021.pdf",
-          "role": "procedure for issuing residence documents; separately reviewed through SG 29/2021"
+          "title": "MVR Terms of Use",
+          "url": "https://www.mvr.bg/bg/terms",
+          "role": "publisher terms governing use and storage of website content"
         }
       ]
     },
@@ -749,7 +749,7 @@
     ],
     "note": "Record a human-reviewed official link when it supports a source area without retaining a local copy. This does not change the accepted local-source count."
   },
-  "accepted_source_count": 17,
+  "accepted_source_count": 18,
   "records": {
     "bg-eu-free-movement-act": {
       "status": "accepted",
@@ -1498,6 +1498,47 @@
       },
       "accepted_on": "2026-10-29",
       "document_path": "documents/legislation/bg-mfa-visa-ordinance-consolidated.md"
+    },
+    "bg-eu-guidance-en": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The live page is hosted by the MVR Migration Directorate and identifies itself as the English “Citizens of EU” information page. The linked administrative-service page is also on the official MVR domain."
+        },
+        "current_legal_version": {
+          "status": "pass",
+          "review_date": "2026-10-29",
+          "evidence": "The dynamic page was checked live on 29 October 2026. It has no displayed revision date; acceptance is of the currently reachable page as an official locator only and makes no claim that its guidance reflects a current legal version."
+        },
+        "extraction_completeness": {
+          "status": "pass",
+          "evidence": "This Markdown is an independently authored source locator, not an extraction or summary of the MVR page. It includes the official route, publisher, language, review date, source role, legal cross-references, reuse constraint, and maintenance instructions within that intended scope; no page text or screenshot is retained."
+        },
+        "attachments_review": {
+          "status": "pass",
+          "evidence": "The reviewed target page is a dynamic information page. The linked administrative-service route was opened; its linked statutory and procedure materials are separately recorded and versioned in the library."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "Administrative information route for EU-citizen and family-member residence. It is not classified as legislation or as a complete statement of legal conditions."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "independently_authored_locator_only",
+          "evidence": "MVR Terms of Use were reviewed at https://www.mvr.bg/bg/terms. The maintained file stores no MVR page text, screenshot, HTML, or response and does not reproduce or paraphrase its instructions. It contains publisher/link metadata, source classification, legal cross-references, and an independently authored maintenance record only."
+        }
+      },
+      "semantic_review": {
+        "status": "passed",
+        "method": "official_page_identity_scope_and_reuse_terms_review",
+        "review_date": "2026-10-29",
+        "scope": "Publisher identity, English page identity, general source role, linked MVR administrative-service route, page date availability, and reuse terms; no legal conclusion or page-text extraction.",
+        "evidence": "Opened the official page live and confirmed its MVR Migration Directorate identity, English route, undated dynamic status, and navigation to the official service page. The service page identifies the EU-citizen Act, Instruction №8121з-1276, and related forms. MVR Terms of Use were checked. The retained note is a link locator only.",
+        "document_sha256": "a188fdff242db71bc2fd2a19cd2db1400deb0d7aeb579d5530dd5bbd9a4d7ed5"
+      },
+      "accepted_on": "2026-10-29",
+      "document_path": "documents/guidance/bg-mvr-eu-citizen-guidance.md"
     }
   },
   "required_checks_scope": "local_copy_required_checks applies only before accepting a retained local artifact. Official link acceptance uses official_reference_review_schema and does not require retrieval, conversion, extraction, hashes, replay, or copy/republication permission.",
