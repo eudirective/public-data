@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "jurisdiction": "LI",
-  "updated": "2026-10-25",
+  "updated": "2026-10-29",
   "inventory_scope": "Reviewed official sources concerning Liechtenstein residence and free movement, related procedure and remedies, and official operational guidance. EEA, Swiss, and third-country legal routes remain distinct.",
   "source_rules_file": null,
   "official_hosts": [
@@ -181,6 +181,26 @@
         "Lilex consolidated text is informational and has no legal effect; signed LGBl is authentic.",
         "The official system register is current to 1 October 2026; it does not exclude a later VEV change.",
         "Schengen acquis, the Visa Code, Schengen Borders Code, VISV/EESV, AuG/PFZG, Swiss agreements, visa-fee rules and operational mission guidance require separate review.",
+        "Source acceptance is separate from topic coverage and country completion."
+      ]
+    },
+    {
+      "id": "li-12",
+      "class": "bilateral_visa_framework",
+      "title": "Framework agreement between Liechtenstein and Switzerland on visa procedures, entry, residence, and border-area police cooperation",
+      "publisher": "Government Legal Services (Rechtsdienst der Regierung), Liechtenstein",
+      "url": "https://www.gesetze.li/konso/2009217000",
+      "language": "German",
+      "version": "LGBl 2009.217; concluded 3 December 2008; entered into force for Liechtenstein 19 December 2011; Lilex consolidated PDF reviewed 2026-10-29 displays Fassung 19.12.2011.",
+      "scope": "Bilateral framework for visa procedure, entry, residence, and specified border-area police cooperation. Switzerland issues visas on Liechtenstein's behalf under the stated allocation; detailed procedures are supplemented by separate agreements. It preserves EEA and EU–Swiss free-movement obligations and does not make Liechtenstein and Swiss immigration rules identical.",
+      "status": "accepted_external_reference_only",
+      "checked_on": "2026-10-29",
+      "local_path": null,
+      "limitations": [
+        "Lilex consolidated text is informational and has no legal effect; the signed State Law Gazette publication is legally authentic.",
+        "A maintained article map is available at documents/treaties/li-liechtenstein-switzerland-visa-residence-framework.md; this is not a verbatim local copy of the treaty.",
+        "The displayed consolidation is dated 19 December 2011. Later legal changes or a termination notice were not independently ruled out.",
+        "Implementing agreements, current Schengen rules, and Swiss mission-specific procedures require separate review.",
         "Source acceptance is separate from topic coverage and country completion."
       ]
     },
