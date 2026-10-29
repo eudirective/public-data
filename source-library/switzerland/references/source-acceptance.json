@@ -7,7 +7,7 @@
   "accepted_derived_text_count": 0,
   "accepted_topic_count": 0,
   "country_review_complete": false,
-  "accepted_external_reference_count": 26,
+  "accepted_external_reference_count": 27,
   "policy": "A trustworthy official government text or page may be accepted as an external reference within the publisher, language, version or observed date, legal status, subject, and passages actually checked. Government-published consolidated texts are acceptable working references when their identity and scope are clear; Gazette-fragment reconstruction, a local copy, conversion, hashes, or an updater are not prerequisites for link use. If currentness, publisher trust, or scope remains unclear, leave the reference unresolved and offer the whole official website for human review. External-link acceptance does not accept a local conversion, establish topic adequacy, or complete the country review.",
   "external_reference_decisions": [
     {
@@ -518,6 +518,26 @@
         "limitations": "This is not a general immigration appeal route; check the applicable statute and decision notice."
       },
       "document_path": "source-library/switzerland/documents/procedure/ch-43-foj-federal-council-complaints-20260205.md"
+    },
+    {
+      "source_id": "ch-33-fdfa-entry-residence-hub-20260201",
+      "decision": "accepted_with_narrow_external_scope",
+      "accepted_role": "Official FDFA cross-authority navigation hub for high-level entry and residence information, identifying SEM as responsible and linking to SEM, cantonal and mission sources.",
+      "not_accepted": [
+        "An individual visa or residence determination.",
+        "Current visa or residence rules, deadlines or nationality coverage beyond directly checked live SEM sources.",
+        "Cantonal or mission-specific application procedures.",
+        "A retained full-text copy of this dynamic page."
+      ],
+      "evidence": {
+        "official_source_url": "https://www.eda.admin.ch/en/information-regarding-entry-into-switzerland-and-residence",
+        "checked_on": "2026-10-29",
+        "language": "en",
+        "version": "Official page published 2026-02-01; live page opened 2026-10-29.",
+        "verified_content": "Page distinguishes EU/EFTA and other nationals, identifies SEM as responsible, links to SEM nationality rules, visa, entry, short-stay calculator, free-movement and cantonal authority resources, and directs visa applicants to the Swiss representation competent for their residence.",
+        "limitations": "Navigation only. Page contains wording referring to EU-25/EFTA and dynamic ETIAS details; do not rely on dated operational claims without checking current SEM and EU guidance."
+      },
+      "document_path": "source-library/switzerland/documents/guidance/ch-33-fdfa-entry-residence-hub-20260201.md"
     }
   ],
   "human_review_offers": [
