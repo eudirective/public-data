@@ -2,9 +2,9 @@
   "schema_version": "1.0.0",
   "jurisdiction": "LI",
   "as_of": "2026-10-29",
-  "accepted_source_count": 20,
+  "accepted_source_count": 21,
   "accepted_local_copy_count": 11,
-  "accepted_external_reference_count": 20,
+  "accepted_external_reference_count": 21,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "policy": "A reviewed official source may be accepted within its publisher, identity, language, displayed version, scope, and stated limitations. The current Lilex consolidation is an informational working text, not the legally authentic publication. Local-copy acceptance is separate from topic coverage, legal equivalence, and country completion. Reuse acceptance for local laws, regulations, treaties and other official enactment text is limited to Liechtenstein URG Article 5(1)(a) and (2); it does not cover publisher site design, database-level or systematic reuse, or unrelated content.",
@@ -1119,11 +1119,43 @@
       "maintained_source_note_path": "documents/treaties/li-liechtenstein-switzerland-visa-residence-framework.md",
       "maintained_source_note_checked_on": "2026-10-29",
       "maintained_source_note_status": "accepted_article_map_not_verbatim"
+    },
+    "li-30": {
+      "status": "accepted_with_narrow_external_scope",
+      "publisher": "Liechtenstein National Administration, Migration and Passport Office (Ausländer- und Passamt)",
+      "url": "https://www.llv.li/de/landesverwaltung/auslaender-und-passamt/visum",
+      "checked_on": "2026-10-29",
+      "language": "German",
+      "version_or_scope": "Current APA visa guidance page checked 2026-10-29; page did not display a clear revision date.",
+      "acceptance_scope": "Official Liechtenstein entry-visa guidance for Swiss and other Schengen representation routes and allocation of decision authority. Use SEM and the Liechtenstein VEV to check visa obligation; verify the competent post for each application location.",
+      "reviewed_content": "Page says Liechtenstein and Switzerland generally apply the same entry rules, with bilateral/multilateral exceptions; visa-required applicants generally apply at a Swiss representation, while some locations are assigned to Austrian, Hungarian or Lithuanian representations. Decision authority is divided between Swiss authorities and the APA.",
+      "limitations": [
+        "Visa obligation should be checked against current SEM information and Liechtenstein VEV, LR 152.204; this guidance is a route and authority overview.",
+        "Representation arrangements and the location-specific table can change; verify current intake with the competent post.",
+        "Page is in German and has no clear revision date in the reviewed view.",
+        "Entry visas are distinct from residence, family-reunification and EEA free-movement procedures.",
+        "The maintained note is independently authored and is not a copy of the source page or regulation."
+      ],
+      "candidate_record": {
+        "manifest_archive_path": "candidates/liechtenstein_candidate_promotion_20261025/Liechtenstein/candidate-manifest.json",
+        "id": "li-30"
+      },
+      "evidence": {
+        "official_source_url": "https://www.llv.li/de/landesverwaltung/auslaender-und-passamt/visum",
+        "verified_content": "Live APA visa page opened 2026-10-29 and substantive content reviewed: Swiss/Liechtenstein alignment with caveat, Swiss representation as general route, divided decision authority, exceptions table, links to SEM and Liechtenstein VEV.",
+        "retrieval_status": "official_guidance_page_reviewed_and_maintained_note_promoted"
+      },
+      "local_copy_accepted": false,
+      "accepted_topics": [],
+      "decision": "accepted_with_narrow_external_scope",
+      "maintained_source_note_path": "documents/guidance/li-30-visa-guidance-and-representation.md",
+      "maintained_source_note_checked_on": "2026-10-29",
+      "maintained_source_note_status": "accepted_independent_source_reference_note_not_verbatim"
     }
   },
   "candidate_inventory_count": 40,
   "dispositioned_candidate_count": 1,
-  "open_candidate_count": 20,
+  "open_candidate_count": 18,
   "dispositions": {
     "li-03": {
       "status": "already_represented_duplicate",
