@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// Retrieve official Czech guidance and e-Sbírka's public date-bound PDF
-// representations of consolidated acts, then preserve review-only candidates.
+// Retrieve official Czech guidance and individual court decisions, then preserve review-only candidates.
+// e-Sbírka consolidated legal texts are acquired by sync_esbirka_open_data.py.
 import { createHash } from 'node:crypto';
 import { mkdir, readFile, readdir, copyFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -14,8 +14,8 @@ const DOCUMENTS = path.join(ROOT, 'documents');
 const MANIFEST_PATH = path.join(ROOT, 'references', 'source-register.json');
 const STATE_PATH = path.join(WORK, 'state.json');
 const REPORT_PATH = path.join(WORK, 'latest-report.json');
-const VERSION = '0.4.2';
-const HTML_CONVERSION_VERSION = '0.3.0';
+const VERSION = '0.4.3';
+const HTML_CONVERSION_VERSION = '0.4.0';
 const MAX_SOURCE_BYTES = 25 * 1024 * 1024;
 const sha = bytes => createHash('sha256').update(bytes).digest('hex');
 const safe = value => String(value).toLowerCase().replace(/[^a-z0-9._-]+/g, '-').replace(/^-|-$/g, '');
@@ -44,10 +44,11 @@ function workFile(relative, area) {
 }
 function candidateClass(source) {
   const type = source.source_type;
-  if (type === 'national_legislation' || type === 'constitutional_text') return 'legislation';
-  if (type === 'official_guidance' || type === 'official_public_service_guidance' || type === 'official_consular_guidance') return 'guidance';
-  if (type === 'official_application_form_pdf') return 'forms';
-  if (type === 'official_guidance_directory' || type === 'official_forms_directory' || type === 'official_mission_directory' || type === 'discovery_repository') return 'discovery';
+  if (type === 'national_legislation' || type === 'constitutional_text' || type === 'national_implementing_legislation') return 'legislation';
+  if (type === 'individual_court_decision') return 'case_law';
+  if (type === 'official_guidance' || type === 'official_procedure_guidance' || type === 'official_public_service_guidance' || type === 'official_consular_guidance') return 'guidance';
+  if (type === 'official_application_form_pdf' || type === 'official_forms_directory') return 'forms';
+  if (type === 'official_guidance_directory' || type === 'official_mission_directory' || type === 'discovery_repository') return 'discovery';
   throw new Error(`No candidate folder mapping for source type ${type || '(missing)'}.`);
 }
 function candidateRelativePath(source) { return path.posix.join('work', 'pending', candidateClass(source), `${safe(source.id)}.md`); }
@@ -118,7 +119,7 @@ function extractElement(html, name, id = '', className = '') {
   }
   return '';
 }
-function sourceBody(html) {
+function sourceBody(html, allowBodyFallback = false) {
   for (const tag of ['main', 'article']) {
     const body = extractElement(html, tag);
     if (body.length > 300) return { html: body, method: `<${tag}>` };
@@ -130,6 +131,10 @@ function sourceBody(html) {
   for (const className of ['gov3-container', 'main-content']) {
     const body = extractElement(html, 'div', '', className);
     if (body.length > 300) return { html: body, method: `.${className}` };
+  }
+  if (allowBodyFallback) {
+    const body = extractElement(html, 'body');
+    if (body.length > 500) return { html: body, method: '<body> with navigation chrome removed' };
   }
   throw new Error('No stable main/article content region found on official page.');
 }
@@ -301,6 +306,7 @@ async function replayActMarkdown(source, row, bytes) {
 }
 async function renderSavedMarkdown(source, row, bytes) {
   const format = row.format || path.extname(String(row.raw_path || '')).slice(1).replace(/^\./, '');
+  if (source.source_type === 'individual_court_decision') return makeCourtMarkdown(source, row, bytes);
   if (format === 'pdf') {
     const retrievalDate = row.retrieval_as_of || row.final_url?.match(/\/(\d{4}-\d{2}-\d{2})\.pdf(?:$|\?)/)?.[1];
     if (!retrievalDate) throw new Error('saved stable-download candidate has no consolidation date');
@@ -309,10 +315,32 @@ async function renderSavedMarkdown(source, row, bytes) {
   if (format !== 'html') throw new Error(`Unsupported saved source format: ${format || '(missing)'}`);
   const html = decodeHtml(bytes, row.content_type || ''), extracted = sourceBody(html);
   const sourceWithRetrievedUrl = row.final_url ? { ...source, retrieved_url: row.final_url } : source;
-  const converted = makeMarkdown(sourceWithRetrievedUrl, html, extracted.html, extracted.method);
+  const converted = makeMarkdown(sourceWithRetrievedUrl, html, extracted.html, extracted.method, sha(bytes));
   return { markdown: converted.markdown, method: extracted.method };
 }
-function makeMarkdown(source, html, body, method) {
+async function makeCourtMarkdown(source, response, bytes) {
+  const format = response.format;
+  let content, method;
+  if (format === 'pdf') {
+    content = await pdfText(bytes);
+    method = 'official court PDF text extraction';
+  } else if (format === 'html') {
+    const html = decodeHtml(bytes, response.content_type || '');
+    const extracted = sourceBody(html, true);
+    content = convertHtml(extracted.html, response.final_url || source.url);
+    method = `official court HTML extraction from ${extracted.method}`;
+  } else throw new Error(`Unsupported court decision format: ${format || '(missing)'}`);
+  if (content.length < (format === 'pdf' ? 1000 : 500)) throw new Error(`Official court decision exposed too little text (${content.length} characters).`);
+  const normalizeCaseId = value => String(value).normalize('NFKC').replace(/\s+/g, '').toLowerCase();
+  const expected = source.case_identifier;
+  if (!expected) throw new Error(`Manifest is missing case_identifier for ${source.id}.`);
+  if (!normalizeCaseId(content).includes(normalizeCaseId(expected))) throw new Error(`Official decision does not contain expected case identifier ${expected}.`);
+  return {
+    method,
+    markdown: `# ${source.title}\n\n- Source ID: \`${source.id}\`\n- Source type: \`${source.source_type}\`\n- Content language: \`${source.language}\`\n- Court: ${source.publisher_identifier?.publisher || 'Official Czech court'}\n- Case identifier: \`${expected}\`\n- Official decision URL: ${source.url}\n- Retrieved URL: ${response.final_url || source.url}\n- Source format: official court ${format.toUpperCase()}\n- Source response SHA-256: \`${sha(bytes)}\`\n- Conversion: Czechia court decision ${format.toUpperCase()} to Markdown ${HTML_CONVERSION_VERSION}\n- Scope: ${source.scope_note || 'Individual official decision; not a complete case-law search.'}\n- Coverage: ${method}; page layout, signatures, tables and footnote placement may not be preserved.\n\n> Review candidate. This copy records one official decision. Do not generalize its outcome beyond the judgment’s facts, procedural posture, applicable law and stated limits.\n\n${content}\n`
+  };
+}
+function makeMarkdown(source, html, body, method, sourceHash = '') {
   const title = pageTitle(html, source.title), heading = pageHeading(html), content = convertHtml(body, source.retrieved_url || source.url);
   if (!source.expected_heading) throw new Error(`Manifest is missing expected_heading for ${source.id}.`);
   if (!heading || normalizeHeading(heading) !== normalizeHeading(source.expected_heading)) {
@@ -322,7 +350,7 @@ function makeMarkdown(source, html, body, method) {
   return {
     title,
     method,
-    markdown: `# ${source.title}\n\n- Source ID: \`${source.id}\`\n- Source type: \`${source.source_type}\`\n- Content language: \`${source.language}\`\n- Official page heading: ${heading}\n- Official page title: ${title}\n- Official record URL: ${source.url}\n- Retrieved URL: ${source.retrieved_url || source.url}\n- Conversion: Czechia official HTML to Markdown ${HTML_CONVERSION_VERSION}\n- Coverage: page content extracted from ${method}; site chrome is omitted, and HTTP(S) links are preserved as links. Linked attachment contents are not fetched by this rule.\n\n> Review the official page directly; record its displayed date/version, scope, and any legal-status or content caveat. For a legal-text question, consult a specific Gazette act only when a material gap remains.\n\n${content}\n`
+    markdown: `# ${source.title}\n\n- Source ID: \`${source.id}\`\n- Source type: \`${source.source_type}\`\n- Content language: \`${source.language}\`\n- Official page heading: ${heading}\n- Official page title: ${title}\n- Official record URL: ${source.url}\n- Retrieved URL: ${source.retrieved_url || source.url}\n- Official response SHA-256: \`${sourceHash}\`\n- Scope: ${source.scope_note || 'Official publisher page; use only within the stated page scope.'}\n- Conversion: Czechia official HTML to Markdown ${HTML_CONVERSION_VERSION}\n- Coverage: page content extracted from ${method}; site chrome is omitted, and HTTP(S) links are preserved as links. Linked attachment contents are not fetched by this rule.\n\n> Review the official page directly; record its displayed date/version, scope, and any legal-status or content caveat. For a legal-text question, consult a specific Gazette act only when a material gap remains.\n\n${content}\n`
   };
 }
 
@@ -332,7 +360,7 @@ const mode = process.argv.find(arg => ['--check', '--sync', '--verify', '--recon
 if (mode === '--ack') {
   const id = process.argv[process.argv.indexOf('--ack') + 1];
   const source = manifest.documents.find(item => item.id === id);
-  if (!source || source.monitor_only || candidateClass(source) !== 'guidance') throw new Error('--ack requires a retrieved official guidance candidate ID.');
+  if (!source || source.monitor_only || !['guidance', 'case_law'].includes(candidateClass(source))) throw new Error('--ack requires a retrieved official guidance or individual court decision candidate ID.');
   const row = state.sources[id];
   if (!row?.raw_path || !row?.candidate_path) throw new Error(`Cannot acknowledge ${id}: no saved official retrieval state exists.`);
   const raw = await readFile(workFile(row.raw_path, 'raw'));
@@ -341,11 +369,11 @@ if (mode === '--ack') {
   if (sha(candidate) !== row.markdown_sha256) throw new Error(`Cannot acknowledge ${id}: candidate differs from its recorded hash.`);
   const converted = await renderSavedMarkdown(source, row, raw);
   if (sha(Buffer.from(converted.markdown, 'utf8')) !== row.markdown_sha256) throw new Error(`Cannot acknowledge ${id}: candidate does not match an offline replay of the saved official source.`);
-  const target = path.join(DOCUMENTS, 'guidance', `${safe(id)}.md`), bytes = candidate;
+  const category = candidateClass(source), target = path.join(DOCUMENTS, category, `${safe(id)}.md`), bytes = candidate;
   await atomic(target, bytes);
   const manifestItem = manifest.documents.find(item => item.id === id);
   manifestItem.accepted = true;
-  manifestItem.document_path = path.posix.join('documents', 'guidance', `${safe(id)}.md`);
+  manifestItem.document_path = path.posix.join('documents', category, `${safe(id)}.md`);
   await atomic(MANIFEST_PATH, `${JSON.stringify(manifest, null, 2)}\n`);
   state.sources[id] = { ...(state.sources[id] || {}), accepted_document_path: manifestItem.document_path, accepted_markdown_sha256: sha(bytes), accepted_at: now() };
   await atomic(STATE_PATH, `${JSON.stringify(state, null, 2)}\n`);
@@ -368,7 +396,7 @@ if (mode === '--ack') {
       }
       if (candidate && sha(candidate) !== row.markdown_sha256) throw new Error('saved review candidate hash mismatch');
       if (row.accepted_markdown_sha256) {
-        const acceptedPath = row.accepted_document_path ? path.resolve(ROOT, ...row.accepted_document_path.split('/')) : path.join(DOCUMENTS, 'guidance', `${safe(id)}.md`);
+        const acceptedPath = row.accepted_document_path ? path.resolve(ROOT, ...row.accepted_document_path.split('/')) : path.join(DOCUMENTS, candidateClass(source), `${safe(id)}.md`);
         const accepted = await readFile(acceptedPath);
         if (sha(accepted) !== row.accepted_markdown_sha256) throw new Error('saved accepted-copy hash mismatch');
         if (!candidate && row.accepted_from_conversion_sha256 !== row.markdown_sha256) throw new Error('accepted copy has no candidate and lacks its conversion provenance hash');
@@ -408,25 +436,27 @@ if (mode === '--ack') {
   if (failures.length) process.exitCode = 1;
 } else {
   const checkedAt = now(), asOfDate = checkedAt.slice(0, 10), observations = [], failures = [], blocked = [], monitorOnly = [];
-  const legislation = manifest.documents.filter(item => !item.monitor_only && (item.source_type === 'national_legislation' || item.source_type === 'constitutional_text'));
-  const guidance = manifest.documents.filter(item => !item.monitor_only && item.source_type !== 'national_legislation' && item.source_type !== 'constitutional_text');
+  const legislation = manifest.documents.filter(item => !item.monitor_only && item.retrieval_method === 'czech_legacy_date_bound_pdf');
+  const guidance = manifest.documents.filter(item => !item.monitor_only && item.retrieval_method === 'czech_official_guidance_html_adapter');
+  const courtDecisions = manifest.documents.filter(item => !item.monitor_only && item.retrieval_method === 'czech_official_case_document_adapter');
   for (const source of manifest.documents) {
     if (source.monitor_only) { monitorOnly.push({ source_id: source.id, status: 'discovery_channel_not_fetched' }); continue; }
   }
-  const queue = [...guidance.map(source => ({ source, lane: 'guidance' })), ...legislation.map(source => ({ source, lane: 'stable_url_pdf' }))]; let cursor = 0;
+  const queue = [...guidance.map(source => ({ source, lane: 'guidance' })), ...courtDecisions.map(source => ({ source, lane: 'court_decision' })), ...legislation.map(source => ({ source, lane: 'stable_url_pdf' }))]; let cursor = 0;
   async function worker() {
     while (cursor < queue.length) {
       const task = queue[cursor++], { source, lane } = task;
       try {
-        const response = lane === 'stable_url_pdf'
-          ? await fetchPublicAct(source, manifest.official_hosts || [], asOfDate)
-          : await fetchOfficial(source.url, manifest.official_hosts || [], 'html');
+        const response = lane === 'stable_url_pdf' ? await fetchPublicAct(source, manifest.official_hosts || [], asOfDate) : await fetchOfficial(source.url, manifest.official_hosts || [], lane === 'court_decision' ? source.retrieval_format : 'html');
+        const sourceHash = sha(response.bytes);
         const html = lane === 'guidance' ? decodeHtml(response.bytes, response.content_type) : '';
         const extracted = lane === 'guidance' ? sourceBody(html) : null;
         const converted = lane === 'stable_url_pdf'
           ? makeActMarkdown(source, response, asOfDate, response.content)
-          : makeMarkdown({ ...source, retrieved_url: response.final_url }, html, extracted.html, extracted.method);
-        const sourceHash = sha(response.bytes), markdownBytes = Buffer.from(converted.markdown, 'utf8'), markdownHash = sha(markdownBytes);
+          : lane === 'court_decision'
+            ? await makeCourtMarkdown({ ...source, retrieved_url: response.final_url }, response, response.bytes)
+            : makeMarkdown({ ...source, retrieved_url: response.final_url }, html, extracted.html, extracted.method, sourceHash);
+        const markdownBytes = Buffer.from(converted.markdown, 'utf8'), markdownHash = sha(markdownBytes);
         const previous = state.sources[source.id] || {}, sourceUnchanged = previous.source_bytes_sha256 === sourceHash, markdownUnchanged = previous.markdown_sha256 === markdownHash;
         const status = sourceUnchanged && markdownUnchanged ? 'unchanged' : !sourceUnchanged && markdownUnchanged ? 'source_changed_markdown_unchanged' : 'candidate_ready';
         const rawPath = path.posix.join('work', 'raw', safe(source.id), `${sourceHash}.${response.format}`);
@@ -456,12 +486,12 @@ if (mode === '--ack') {
     }
   }
   await Promise.all([worker(), worker()]);
-  const report = { report_version: 2, pack: manifest.pack, pack_version: VERSION, mode, checked_at: checkedAt, source_record_count: manifest.source_record_count, pending_review_artifact_count: manifest.pending_review_artifact_count, guidance_target_count: guidance.length, stable_url_pdf_target_count: legislation.length, retrieved_count: observations.length, failed_count: failures.length, blocked_law_count: blocked.length, monitor_only_target_count: monitorOnly.length, observations, blocked, monitor_only: monitorOnly, failures, actions: ['Review source identity, consolidation date, and temporary Markdown conversions; the acknowledgement action remains limited to guidance records.', 'Legislation uses the public e-Sbírka stable download URL with the check date and PDF format; the route is keyless and is not an API.', 'A successful retrieval or conversion does not establish currentness, legal force, completeness, or applicability.'] };
+  const report = { report_version: 3, pack: manifest.pack, pack_version: VERSION, mode, checked_at: checkedAt, source_record_count: manifest.source_record_count, pending_review_artifact_count: manifest.pending_review_artifact_count, guidance_target_count: guidance.length, court_decision_target_count: courtDecisions.length, stable_url_pdf_target_count: legislation.length, retrieved_count: observations.length, failed_count: failures.length, blocked_law_count: blocked.length, monitor_only_target_count: monitorOnly.length, observations, blocked, monitor_only: monitorOnly, failures, actions: ['Review source identity, page scope, and temporary Markdown conversions before acknowledgement.', 'Court decisions are retrieved only from allowlisted official NSS endpoints and must match the expected case identifier.', 'Czech legislation uses the e-Sbírka page-data adapter; preserve the informative-text caveat and resolve source-specific legal scope before acceptance.', 'A successful retrieval or conversion does not establish currentness, legal force, completeness, or applicability.'] };
   if (mode === '--sync') {
     await atomic(STATE_PATH, `${JSON.stringify(state, null, 2)}\n`);
     await atomic(REPORT_PATH, `${JSON.stringify(report, null, 2)}\n`);
   }
-  const summary = { mode, guidance_targets: guidance.length, stable_url_pdf_targets: legislation.length, retrieved: observations.length, failed: failures.length, law_targets_blocked: blocked.length, monitor_only: monitorOnly.length, report: REPORT_PATH };
+  const summary = { mode, guidance_targets: guidance.length, court_decision_targets: courtDecisions.length, stable_url_pdf_targets: legislation.length, retrieved: observations.length, failed: failures.length, law_targets_blocked: blocked.length, monitor_only: monitorOnly.length, report: REPORT_PATH };
   console.log(JSON.stringify(mode === '--check' ? { ...report, read_only: true } : summary, null, 2));
   if (failures.length) process.exitCode = 1;
 }
