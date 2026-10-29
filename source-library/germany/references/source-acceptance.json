@@ -2,12 +2,12 @@
   "schema_version": "1.0.0",
   "jurisdiction": "DE",
   "as_of": "2026-10-29",
-  "accepted_source_count": 42,
+  "accepted_source_count": 43,
   "accepted_current_law_source_count": 18,
-  "accepted_derived_text_count": 19,
+  "accepted_derived_text_count": 20,
   "accepted_topic_count": 0,
   "country_review_complete": false,
-  "accepted_external_reference_count": 42,
+  "accepted_external_reference_count": 43,
   "external_reference_decisions": [
     {
       "source_id": "de-06",
@@ -633,16 +633,26 @@
       "accepted_role": "Federal Foreign Office announcement documenting the end of its voluntary visa remonstration process from 1 July 2025. Accepted as a dated procedural announcement, not a complete remedies statement.",
       "not_accepted": [
         "A complete Germany national source pack, topic coverage, or country review.",
-        "A retained local copy of the candidate capture.",
-        "Mission-specific requirements, local practice, or legal conclusions beyond the stated source scope."
+        "Mission-specific requirements, local practice, or legal conclusions beyond the stated source scope.",
+        "A verbatim local copy; the publisher reserves copyright in its website content."
       ],
       "evidence": {
         "official_source_url": "https://www.auswaertiges-amt.de/en/2716462-2716462",
-        "checked_on": "2026-10-24",
+        "checked_on": "2026-10-29",
         "language": "en",
-        "version": "The official article was checked on 2026-10-24; it identifies the effective date as 1 July 2025.",
-        "verified_content": "The article states judicial review remains available and a new application may be submitted; applicable routes and deadlines still depend on the decision and law.",
-        "publisher_note": "Official publisher/service reference only; use the underlying legislation and responsible mission or regional authority for current legal and procedural requirements."
+        "version": "Live English page reviewed 2026-10-29; no publication or revision date displayed.",
+        "verified_content": "The page states that the voluntary worldwide visa-remonstration process ended 1 July 2025, and says judicial review and a new visa application remain available. This announcement does not specify case-specific remedies or deadlines.",
+        "publisher_note": "The Federal Foreign Office legal notice reserves copyright in website texts and other media. The maintained local file is an independently worded summary, not a reproduction."
+      },
+      "accepted_local_copy": {
+        "status": "accepted_project_authored_source_summary",
+        "path": "documents/guidance/de-27.md",
+        "checked_on": "2026-10-29",
+        "language": "English",
+        "publisher_version": "No page revision date displayed.",
+        "scope": "Dated summary of the Federal Foreign Office announcement ending voluntary remonstration; records the continued availability of judicial review and a new application.",
+        "reuse": "Original paraphrase only; no source wording or image reproduced. Publisher legal notice reviewed.",
+        "limits": "Not a complete remedies statement; no case-specific court, filing method, standing or deadline guidance; does not certify country review or topic coverage."
       }
     },
     {
@@ -1004,6 +1014,6 @@
   ],
   "human_review_offers": [],
   "policy": "Official source links may be accepted for ordinary reference use within the exact identity, date, and scope recorded. Link acceptance is separate from local-copy acceptance, topic coverage, dependencies, currentness, and country completion. Gesetze im Internet consolidations are working references; the electronic Bundesgesetzblatt is the authentic promulgation source for specific discrepancy, commencement, or amendment checks.",
-  "count_note": "42 official source references are accepted within recorded narrow roles. Eighteen accepted current-law source records correspond to 17 unique accepted local statutory text copies because de-10 is represented by de-09. Five proposals remain open for human review. The de-31 official reference is accepted, but its extracted local text is not. No topic coverage or country review is complete.",
-  "accepted_local_copy_count": 19
+  "count_note": "43 official source references are accepted within recorded narrow roles. Eighteen accepted current-law source records correspond to 17 unique accepted local statutory text copies because de-10 is represented by de-09. Three independently authored Federal Foreign Office guidance summaries (de-25, de-26 and de-27) are accepted locally. Five proposals remain open for human review. The de-31 official reference is accepted, but its extracted local text is not. No topic coverage or country review is complete.",
+  "accepted_local_copy_count": 20
 }
