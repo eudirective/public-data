@@ -3,8 +3,8 @@
   "jurisdiction": "LV",
   "review_date": "2026-10-29",
   "candidate_record_count": 52,
-  "accepted_external_reference_count": 42,
-  "pending_external_reference_count": 6,
+  "accepted_external_reference_count": 43,
+  "pending_external_reference_count": 5,
   "not_relied_upon_reference_count": 4,
   "accepted_local_copy_count": 30,
   "accepted_topic_count": 0,
@@ -1599,20 +1599,39 @@
       "maintained_source_note_path": "documents/guidance/lv-19-pmlp-eu-family-documents.md",
       "maintained_source_note_checked_on": "2026-10-29",
       "maintained_source_note_status": "accepted_dated_paraphrased_source_note"
-    }
-  ],
-  "pending_references": [
+    },
     {
       "source_id": "lv-20",
       "title": "PMLP: Where can residence documents be filed?",
-      "url": "https://www.pmlp.gov.lv/en/where-can-documents-be-filed",
-      "reason": "The PMLP filing-channel page predates the new Act and no current post-commencement filing workflow was confirmed. Recheck the relevant application path and mission intake through the current PMLP service pages.",
+      "url": "https://www.pmlp.gov.lv/en/where-documents-may-be-filed",
+      "publisher": "Office of Citizenship and Migration Affairs (PMLP)",
+      "language": "en",
+      "checked_on": "2026-10-29",
+      "version_or_scope": "Page published 23 January 2021 and updated 24 July 2025; live English version reviewed 29 October 2026.",
+      "acceptance_scope": "PMLP’s published filing routes for first-time registration/residence-document requests and duplicate-document requests, within the content and date displayed by the official page.",
+      "limitations": [
+        "This page predates the EU/EEA/Swiss residence Act effective 10 July 2026; link acceptance and the maintained note do not establish that its filing routes govern every post-commencement application.",
+        "The page is administrative guidance, not legislation. Verify current rules, PMLP instructions and mission intake for the application type and date.",
+        "The page describes electronic and postal channels and a specific embassy route; it does not describe in-person submission for the listed request types."
+      ],
       "candidate_record": {
         "manifest": "references/candidate-manifest.json",
         "id": "lv-20"
       },
-      "candidate_archive_path": "candidates/latvia_candidate_promotion_20261024/Latvia/lv-20.md"
-    },
+      "evidence": {
+        "official_source_url": "https://www.pmlp.gov.lv/en/where-documents-may-be-filed",
+        "verified_content": "Live page opened. Published 23 January 2021, updated 24 July 2025. It describes e-signature and postal filing at any territorial division for applicants in Latvia, the abroad embassy route for non-EU family members not residing in Latvia, and duplicate-document requests from inside or outside Latvia.",
+        "source_record_note": "Accepted as a dated official procedural statement and maintained paraphrased note; no current-law conclusion or verbatim local copy is claimed.",
+        "retrieval_status": "human_reviewed_live_page"
+      },
+      "decision": "accepted_with_narrow_dated_procedural_scope",
+      "local_copy_accepted": false,
+      "maintained_source_note_path": "documents/guidance/lv-20-pmlp-document-filing-channels.md",
+      "maintained_source_note_checked_on": "2026-10-29",
+      "maintained_source_note_status": "accepted_dated_paraphrased_source_note"
+    }
+  ],
+  "pending_references": [
     {
       "source_id": "lv-23",
       "title": "PMLP EU residence document types and explanation",
@@ -1767,6 +1786,6 @@
     }
   ],
   "currentness_and_dependency_note": "The new free-movement Act took effect on 10 July 2026 and sets 1 December 2027 deadlines for specified Cabinet regulations. Its transitional text says applications filed before commencement are handled under Regulation 675. The official Regulation 675 record, however, says it remains in force until 2 December 2027. This review records the regulation as an official legal reference but leaves its applicability to applications filed on or after 10 July 2026 unresolved; the stale MFA guidance is not used to resolve that conflict. The new Immigration Law is a separate third-country regime effective 15 September 2026; certain provisions take effect on 31 December 2027. Issue-led discovery also added the Residence Declaration Act, Register of Natural Persons Act (selected edition from 29 April 2026), and Civil Status Act as current official references for address registration, population-register records, and civil-status evidence. They do not resolve local implementation or all foreign-document recognition questions.",
-  "count_note": "The 52 source records comprise 42 accepted external references, 6 pending references, and 4 not-relied-upon references. Thirty records also have an accepted dated local text copy. External-reference acceptance, local-copy acceptance, maintained source notes, topic coverage, and country-review completion are separate.",
+  "count_note": "The 52 source records comprise 43 accepted external references, 5 pending references, and 4 not-relied-upon references. Thirty records also have an accepted dated local text copy. External-reference acceptance, local-copy acceptance, maintained source notes, topic coverage, and country-review completion are separate.",
   "local_copy_review_policy": "Accepted local copies are dated text-only snapshots of the identified official source region. Acceptance does not include page chrome, link destinations, embedded files/forms, interactive fields, images, subsequent updates, legal-currentness certification, topic coverage, or country completion. Each local path, final-document hash, source-response hash, conversion hash, review date, and source-specific scope is recorded with its accepted reference."
 }
