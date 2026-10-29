@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 222 official-reference reviews approve use of identified official links within their recorded scopes. Seventy-four accepted source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), and seven MITOS procedure-page copies under their displayed CC BY-SA 4.0 license. These retained files are not consolidated laws unless expressly stated. One hundred forty-eight distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. No automated retrieval rule is accepted. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 222 official-reference reviews approve use of identified official links within their recorded scopes. Seventy-five accepted source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), and eight MITOS procedure-page copies under their displayed CC BY-SA 4.0 license. These retained files are not consolidated laws unless expressly stated. One hundred forty-seven distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. No automated retrieval rule is accepted. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -418,15 +418,15 @@
       "status": "usable_official_reference",
       "publisher": "National Registry of Administrative Public Services (MITOS), Greece",
       "url": "https://mitos.gov.gr/index.php/%CE%94%CE%94:%CE%A0%CE%B1%CF%81%CE%BF%CF%87%CE%AE_%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%AE%CF%82_%CE%B2%CE%BF%CE%AE%CE%B8%CE%B5%CE%B9%CE%B1%CF%82_%28%CE%B5%CF%85%CE%B5%CF%81%CE%B3%CE%AD%CF%84%CE%B7%CE%BC%CE%B1_%CF%80%CE%B5%CE%BD%CE%AF%CE%B1%CF%82%29",
-      "checked_on": "2026-10-25",
+      "checked_on": "2026-10-29",
       "language": "Greek",
-      "version_or_cutoff": "Page last updated 2026-09-02.",
+      "version_or_cutoff": "MITOS revision 435731; page last updated 2 September 2026. Live page revision matches the archived capture.",
       "scope": "MITOS procedure for legal aid to low-income applicants seeking court representation.",
-      "reviewed_content": "The page identifies court filing, a 15-day advance application period, low-income criteria, and legal-aid legislation.",
+      "reviewed_content": "The official Greek page and live revision were checked 29 October 2026. Its record identifies page UUID f7f6bde8-2ff7-4df5-9520-9d21a9f56713 / service 109617. It describes low-income court legal aid, the income definition, a 15-day advance filing period, an estimated month, and Ministry of Justice cross-border Central Authority steps for applications involving other EU states. The page's Greek body, legal references and CC BY-SA footer were checked against archived revision 435731.",
       "limitations": [
         "The page does not establish eligibility for every EU-family immigration objection or appeal.",
         "Check Law 3226/2004 and current proceeding-specific criteria.",
-        "No local copy or republication permission is accepted."
+        "The complete page-body text is retained, but MITOS fields and table relationships are flattened. This snapshot does not establish qualification for any specific EU-family immigration proceeding or replace the cited Law 3226/2004 and cross-border instruments."
       ],
       "source_list_id": "gr-52"
     },
@@ -3981,8 +3981,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 74,
-    "note": "Seventy-four source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), and seven MITOS procedure-page copies under their displayed CC BY-SA 4.0 license. The MITOS copies are not legislation. One hundred forty-eight distinct accepted references remain without a local source-text copy; gr-06 is a duplicate locator for gr-05. Copy acceptance does not establish consolidated current law, topic coverage or country completion."
+    "accepted_source_count": 75,
+    "note": "Seventy-five source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), and eight MITOS procedure-page copies under their displayed CC BY-SA 4.0 license. The MITOS copies are not legislation. One hundred forty-seven distinct accepted references remain without a local source-text copy; gr-06 is a duplicate locator for gr-05. Copy acceptance does not establish consolidated current law, topic coverage or country completion."
   },
   "whole_portal_review_offers": [
     {
@@ -5269,6 +5269,26 @@
       "version_or_cutoff": "Revision 448467; page update 14 October 2026; revision last edited 15 October 2026; checked 29 October 2026.",
       "monitor_archive_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-35.md",
       "monitor_archive_sha256": "ca77dad46be4cebb85d61a37ee6021d2615535fcf184ea2a1e62d53224c54430"
+    },
+    "gr-mitos-gr-52": {
+      "decision": "accepted_local_official_page_copy",
+      "path": "source-library/greece/documents/procedure/gr-52-mitos-legal-aid-applications-locator.md",
+      "sha256": "bacd1e298898b2764aedd74ed802d3b475c93765bd713d99fd6786eb3e9a34d2",
+      "bytes": 22547,
+      "source_url": "https://mitos.gov.gr/index.php/%CE%94%CE%94:%CE%A0%CE%B1%CF%81%CE%BF%CF%87%CE%AE_%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%AE%CF%82_%CE%B2%CE%BF%CE%AE%CE%B8%CE%B5%CE%B9%CE%B1%CF%82_%28%CE%B5%CF%85%CE%B5%CF%81%CE%B3%CE%AD%CF%84%CE%B7%CE%BC%CE%B1_%CF%80%CE%B5%CE%BD%CE%AF%CE%B1%CF%82%29",
+      "captured_candidate_url": "https://mitos.gov.gr/index.php/%CE%94%CE%94:%CE%A0%CE%B1%CF%81%CE%BF%CF%87%CE%AE_%CE%BD%CE%BF%CE%BC%CE%B9%CE%BA%CE%AE%CF%82_%CE%B2%CE%BF%CE%AE%CE%B8%CE%B5%CE%B9%CE%B1%CF%82_%28%CE%B5%CF%85%CE%B5%CF%81%CE%B3%CE%AD%CF%84%CE%B7%CE%BC%CE%B1_%CF%80%CE%B5%CE%BD%CE%AF%CE%B1%CF%82%29",
+      "source_response_sha256": "d1da8f95ca6b52277d2bd3ca5e0a12f5c8215548c6e3299d540d38b666b44425",
+      "archived_candidate_sha256": "9efc712b48a4fcb565b7eb72417ed13c8179aee1f410ab1d953dd8183e03fbc3",
+      "archived_candidate_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-52.md",
+      "conversion_method": "Complete Greek HTML page-body text extraction, normalized as Markdown with attribution, source metadata and limits; 11,455 source-body characters. Matched to live revision 435731.",
+      "reviewed_on": "2026-10-29",
+      "semantic_check": "Title, page UUID/service ID, update date, Greek language, income criteria, advance filing period, court route, cross-border Central Authority steps, legal-reference links and CC BY-SA footer were checked against live official revision 435731. Complete body capture extends through page footer; structured fields are flattened.",
+      "reuse_basis": "The MITOS footer displays CC BY-SA 4.0 and states that content is available under Creative Commons Attribution-ShareAlike unless otherwise noted. Attribution, official URL, revision identifier and license link are preserved. This does not authorize automated retrieval.",
+      "limitations": "Dated procedure snapshot, not a consolidated statement of Law 3226/2004 or evidence that every proceeding qualifies. The source concerns low-income applicants seeking court representation and a cross-border civil legal-aid route; it does not establish eligibility for every EU-family immigration challenge. Full page text is retained, but tables are flattened.",
+      "scope": "Complete Greek page-body text for MITOS legal-aid procedure record 109617.",
+      "version_or_cutoff": "Revision 435731; page last updated 2 September 2026; checked 29 October 2026.",
+      "monitor_archive_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-52.md",
+      "monitor_archive_sha256": "9efc712b48a4fcb565b7eb72417ed13c8179aee1f410ab1d953dd8183e03fbc3"
     }
   }
 }
