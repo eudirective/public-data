@@ -7,11 +7,11 @@
   "accepted_derived_text_count": 0,
   "accepted_topic_count": 0,
   "country_review_complete": false,
-  "accepted_external_reference_count": 36,
+  "accepted_external_reference_count": 37,
   "legacy_inventory": {
     "candidate_records": 40,
     "candidate_texts_converted_and_replay_verified": 31,
-    "local_acceptance_note": "All 40 source leads have final source-reference or disposition notes. Thirty-six external official references are usable within recorded scope. Four local statutory transcriptions are accepted: Acts 71/1967, 404/2011, 365/2004 and 36/2005; 36 other lead records have no accepted local source-text copy. Thirty-one converted candidate texts and inputs remain in the Monitor archive; no topic or country completion is accepted."
+    "local_acceptance_note": "All 40 source leads have final source-reference or disposition notes. Thirty-seven external official references are usable within recorded scope. Four local statutory transcriptions are accepted: Acts 71/1967, 404/2011, 365/2004 and 36/2005; 36 other lead records have no accepted local source-text copy. Thirty-one converted candidate texts and inputs remain in the Monitor archive; no topic or country completion is accepted."
   },
   "policy": "A human-reviewed official link is usable for ordinary research within the identified publisher, instrument, language, displayed date or cutoff, reviewed content, and limitations. Slov-Lex, the Ministry of Foreign Affairs, and the Ministry of Interior are clearly identifiable official government sources. Use their government-published current or date-bound versions directly. No Gazette-fragment reconstruction, local capture, hash, replay, conversion, API access, or copying permission is required for link use. Check a later amendment only when it may materially affect the issue. Link acceptance is separate from local-copy acceptance, topic coverage, and country completion. Local statutory transcription acceptance requires a verified official dated version, complete captured body, explicit authority caveat, and applicable reuse basis; link acceptance remains separate from local-copy acceptance.",
   "official_reference_reviews": {
@@ -834,15 +834,53 @@
         "kind": "independently_prepared_source_reference_note",
         "reproduces_source_text": false
       }
+    },
+    "sk_30": {
+      "status": "usable_official_reference_for_dated_historical_mission_page_only",
+      "publisher": "Ministry of Foreign and European Affairs of the Slovak Republic, Embassy in Hanoi",
+      "url": "https://www.mzv.sk/web/hanoj/sluzby/pomoc-v-nudzi-v-zahranici/viza/rodinni-prislusnici-obcanov-unie",
+      "checked_on": "2026-10-29",
+      "language": "Slovak",
+      "version_or_cutoff": "Page says published 2022-07-07; no later page revision date displayed. Reviewed against Slov-Lex Act 404/2011 version effective 2026-10-01.",
+      "scope": "Evidence of the information the Slovak Embassy in Hanoi published on 2022-07-07 about EU/EEA/Swiss-family entry and visa applications. Not accepted as current operational guidance.",
+      "reviewed_content": "The mission page lists categories of family members, identity/relationship/dependency evidence, and states that visa applications are free and processed within 10 working days. It cites Regulation (EC) No 562/2006, since repealed. Current Act 404/2011 §7(17) requires a valid travel document, family-link proof and dependency evidence where required, and gives a maximum decision period of 10 days. Directive 2004/38 Article 5(2) supports the no-visa-fee/accelerated-treatment statement for qualifying family members.",
+      "limitations": [
+        "The page is dated 2022 and cites repealed Regulation (EC) No 562/2006; current Schengen Borders Code is Regulation (EU) 2016/399.",
+        "Its 10-working-day wording does not match current Act 404/2011 §7(17), which states 10 days. Do not rely on the mission page for the deadline.",
+        "No current Hanoi appointment channel, competent-mission determination, outsourcing arrangement or current checklist was established.",
+        "The page is a historical official page, not law, current operational guidance, a local source-text copy or topic coverage."
+      ],
+      "source_document": {
+        "path": "source-library/slovakia/documents/references/sk-30-mfa-hanoi-eu-family-mission-instructions.md",
+        "sha256": "b3634b0a2c14db1827861305da29ec576663e346e7320d026047ef0d95db7c72",
+        "kind": "maintained_official_historical_reference_note",
+        "reproduces_source_text": false
+      },
+      "cross_checks": [
+        {
+          "title": "Act 404/2011 version effective 2026-10-01",
+          "url": "https://static.slov-lex.sk/static/SK/ZZ/2011/404/20261001.print.html",
+          "sections": "§§2, 7, 16(17)"
+        },
+        {
+          "title": "Directive 2004/38/EC",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32004L0038",
+          "sections": "Article 5(2)"
+        },
+        {
+          "title": "Regulation (EU) 2016/399",
+          "url": "https://eur-lex.europa.eu/eli/reg/2016/399/oj/eng",
+          "sections": "Repeals Regulation (EC) No 562/2006"
+        }
+      ]
     }
   },
   "not_accepted_candidate_notes": [
     {
       "candidate_ids": [
-        "SK-26",
-        "SK-30"
+        "SK-26"
       ],
-      "reason": "The 2022 English EU-family page has a statutory-number error; the 2022 Hanoi instructions cite repealed Regulation 562/2006. Keep as stale discovery material, not current operative guidance."
+      "reason": "The 2022 English EU-family page has an incorrect statutory number; retain as stale discovery material, not current operative guidance."
     },
     {
       "candidate_ids": [
