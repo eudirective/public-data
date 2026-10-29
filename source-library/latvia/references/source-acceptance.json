@@ -1057,13 +1057,14 @@
       "url": "https://www.rs.gov.lv/en",
       "publisher": "State Border Guard of Latvia",
       "language": "en",
-      "checked_on": "2026-10-19",
-      "version_or_scope": "Site publishes dated daily operational notices; individual notices are not a complete rules source.",
-      "acceptance_scope": "official border authority information reference: State Border Guard homepage accepted as an official authority and public-information route only. It does not provide a verified complete border-refusal or appeal procedure.",
+      "checked_on": "2026-10-29",
+      "version_or_scope": "State Border Guard homepage is a dated operational-information and service-navigation route; linked person, vehicle, borderland, visa and travel-document pages are distinct sources.",
+      "acceptance_scope": "Official State Border Guard homepage and its visible service links as an authority/navigation reference only. Detailed child-page instructions are not accepted as current through this homepage review.",
       "limitations": [
-        "State Border Guard homepage accepted as an official authority and public-information route only. It does not provide a verified complete border-refusal or appeal procedure.",
-        "This decision accepts the external link only. It does not accept a saved conversion, establish legal-topic coverage, or complete Latvia’s source review.",
-        "Bounded search found operational examples, not a dedicated appeal procedure. Search border refusal decisions and complaints separately before implementation."
+        "The homepage is not a complete border-refusal or appeal procedure; no dedicated refusal/appeal guide was confirmed in this review.",
+        "The person-border-crossing child page still cites Regulation No. 675 for EU citizens after the new free-movement Act took effect; travel-document guidance cites the former Immigration Law; other child pages show 2020 dates or historical fee data.",
+        "Each child page has separate content, version and legal scope. This homepage decision does not validate its substantive instructions.",
+        "This decision accepts the external link only. It does not accept a saved conversion, establish legal-topic coverage, or complete Latvia's source review."
       ],
       "candidate_record": {
         "manifest": "references/candidate-manifest.json",
@@ -1071,13 +1072,16 @@
       },
       "evidence": {
         "official_source_url": "https://www.rs.gov.lv/en",
-        "verified_content": "Official State Border Guard domain and current operational notices found; exact dedicated refusal/appeal guide not identified.",
-        "source_record_note": "Bounded search found operational examples, not a dedicated appeal procedure. Search border refusal decisions and complaints separately before implementation.",
-        "retrieval_status": "converted_review_candidate"
+        "verified_content": "Live official English homepage opened 29 October 2026. Confirmed authority identity, current October 2026 news listings and five entry/border service routes. Opened all five linked service pages: person crossing updated 2 September 2025; vehicle crossing and borderland pages published 19 August 2020; visa requirements published 19 August 2020 with obsolete Schengen count and legacy fees; travel documents updated 9 December 2024 but cites former Immigration Law. No dedicated entry refusal or appeal procedure was confirmed.",
+        "source_record_note": "Accepted as an official authority/navigation reference only. The maintained Markdown note records service links and child-page currentness limits; do not treat the hub as complete border-law coverage.",
+        "retrieval_status": "human_reviewed_live_page"
       },
       "local_copy_accepted": false,
       "decision": "accepted_with_narrow_external_scope",
-      "candidate_archive_path": "candidates/latvia_candidate_promotion_20261024/Latvia/lv-35.md"
+      "candidate_archive_path": "candidates/latvia_candidate_promotion_20261024/Latvia/lv-35.md",
+      "maintained_source_note_path": "documents/guidance/lv-35-state-border-guard-entry-and-border-information.md",
+      "maintained_source_note_checked_on": "2026-10-29",
+      "maintained_source_note_status": "accepted_official_navigation_record"
     },
     {
       "source_id": "lv-36",
