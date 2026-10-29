@@ -1380,15 +1380,16 @@
       "publisher": "National Printing House, Greece",
       "url": "https://search.et.gr/en/search-legislation/",
       "rediscovery_url": "https://search.et.gr/en/search-legislation/",
-      "checked_on": "2026-10-25",
+      "checked_on": "2026-10-29",
       "language": "English",
-      "version_or_cutoff": "Live search interface checked 25 October 2026; no version date is displayed.",
+      "version_or_cutoff": "Official English search page reopened 29 October 2026; no content version/date is displayed.",
       "scope": "Official National Printing House legislation-search locator only; not an instrument text, complete catalogue, or proof of current law.",
-      "reviewed_content": "The page identifies the National Printing House search for annual F.E.K. law and presidential-decree catalogues and exposes year, legislation-catalogue, and legislation-number filters.",
+      "reviewed_content": "The live page is titled “Search Legislation” and describes searches across annual F.E.K. laws, Presidential Decrees and related catalogues. The search form exposes year, legislation-catalogue and legislation-number controls. The footer identifies the National Printing House; its terms-of-use link states that site content is protected and prohibits copying or transmission for non-personal use without permission. No instrument-specific result was opened.",
       "limitations": [
-        "No instrument-specific search was run for this acceptance review, and search coverage or completeness was not assessed.",
-        "Use the locator to find a specific official record, then accept that record separately.",
-        "No local copy or automated retrieval rule is accepted."
+        "A search route only; it is not an instrument text, a complete catalogue, or proof of current law.",
+        "The National Printing House terms page provides no open license and restricts non-personal reuse; no local copy of the search-interface text is accepted without permission.",
+        "No specific search was run in this review and no search-coverage claim is accepted.",
+        "No automated retrieval rule is accepted."
       ]
     },
     "gr-nph-gazette-search-locator": {
