@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 222 official-reference reviews approve use of identified official links within their recorded scopes. Seventy-six accepted source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), and nine MITOS procedure-page copies under their displayed CC BY-SA 4.0 license. These retained files are not consolidated laws unless expressly stated. One hundred forty-six distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. No automated retrieval rule is accepted. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 222 official-reference reviews approve use of identified official links within their recorded scopes. Seventy-seven accepted source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), and ten MITOS procedure-page copies under their displayed CC BY-SA 4.0 license. These retained files are not consolidated laws unless expressly stated. One hundred forty-five distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. No automated retrieval rule is accepted. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -466,15 +466,16 @@
       "status": "usable_official_reference",
       "publisher": "National Registry of Administrative Public Services (MITOS), Greece",
       "url": "https://en.mitos.gov.gr/index.php/%CE%94%CE%94:Acquisition_of_Greek_nationality_upon_recognition",
-      "checked_on": "2026-10-25",
+      "checked_on": "2026-10-29",
       "language": "English official MITOS page; Greek is controlling for national law",
-      "version_or_cutoff": "Page last updated 2026-08-07.",
+      "version_or_cutoff": "MITOS page revision 79890; last edited 2026-10-27 at 14:30; checked 2026-10-29.",
       "scope": "Nationality procedure after legal recognition of a child by a Greek father where the child is a minor at recognition.",
-      "reviewed_content": "The official page limits this route to a child born outside marriage and recognized by a Greek father while a minor.",
+      "reviewed_content": "The live English page identifies procedure record 4f9c15ec-e5e5-4e60-b749-2085ee56bfe9, service 471746. It concerns a foreign child born out of wedlock and legally recognised by a Greek father while under 18, and states the nationality-acquisition date for notarial and judicial recognition. The current page details five eligibility criteria, 12 document entries with alternatives, the EUR 100 special appeal, listed nationality/civil-code references and all 14 procedural steps. The full substantive page body is retained in the accepted local copy, with interface chrome omitted and structured fields normalized.",
       "limitations": [
         "Narrow nationality procedure, not an EU-family residence route or general parentage-recognition source.",
-        "Check Greek nationality and civil-status law for the facts.",
-        "No local copy or republication permission is accepted."
+        "Check Greek nationality and civil-status law for the facts; this MITOS snapshot is not consolidated law or a complete amendment history.",
+        "The English page is a dated procedure snapshot; structured fields and alternative-document relationships are normalized in the Markdown copy.",
+        "No automated retrieval or change-detection rule is accepted."
       ],
       "source_list_id": "gr-55"
     },
@@ -3981,8 +3982,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 76,
-    "note": "Seventy-six source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), and nine MITOS procedure-page copies under their displayed CC BY-SA 4.0 license. The MITOS copies are not legislation. One hundred forty-six distinct accepted references remain without a local source-text copy; gr-06 is a duplicate locator for gr-05. Copy acceptance does not establish consolidated current law, topic coverage or country completion."
+    "accepted_source_count": 77,
+    "note": "Seventy-seven source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), and nine MITOS procedure-page copies under their displayed CC BY-SA 4.0 license. The MITOS copies are not legislation. One hundred forty-five distinct accepted references remain without a local source-text copy; gr-06 is a duplicate locator for gr-05. Copy acceptance does not establish consolidated current law, topic coverage or country completion."
   },
   "whole_portal_review_offers": [
     {
@@ -5309,6 +5310,25 @@
       "version_or_cutoff": "Revision 439458; page last updated 21 September 2026; checked 29 October 2026.",
       "monitor_archive_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-54.md",
       "monitor_archive_sha256": "c7a32d46566a3b7e47c272cb9e68a13fca37fb3b27d4262818f6029b9bc0374a"
+    },
+    "gr-mitos-gr-55": {
+      "decision": "accepted_local_official_page_copy",
+      "path": "source-library/greece/documents/procedure/gr-55-mitos-greek-nationality-on-child-recognition-locator.md",
+      "sha256": "f842e997479caa47658a61ba0ce136f2f97ad5bd16ef2a4ddd1883916cd641e5",
+      "bytes": 13239,
+      "source_url": "https://en.mitos.gov.gr/index.php/%CE%94%CE%94:Acquisition_of_Greek_nationality_upon_recognition",
+      "captured_candidate_url": "https://en.mitos.gov.gr/index.php/%CE%94%CE%94:Acquisition_of_Greek_nationality_upon_recognition",
+      "archived_candidate_sha256": "8ecdf063232b41a3ca9d2e247ab9dd4ba137e4738619fee5f9f05337ef25dcc4",
+      "archived_candidate_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-55.md",
+      "conversion_method": "Section-by-section review of the live English MITOS page, normalized as attributed Markdown; substantive procedure content retained, interface/navigation omitted, structured fields reorganized.",
+      "reviewed_on": "2026-10-29",
+      "semantic_check": "Publisher, title, page UUID/service ID, current revision 79890 and update timestamp were checked. Procedure summary, application, five eligibility conditions, all listed document entries and alternatives, appeal, cited legislation, 14 steps, classifications and footer license were reviewed against the official rendered page.",
+      "reuse_basis": "The MITOS footer links to Creative Commons Attribution-ShareAlike 4.0. Attribution, official URL, revision identifier and license link are preserved; Markdown reformatting and omissions are disclosed. No automated retrieval is authorized by this copy acceptance.",
+      "limitations": "Dated procedure snapshot, not consolidated nationality law or a general parentage-recognition or EU-family residence source. Structured fields and alternatives are normalized; interface identifiers and table layout are not fully reproduced. Check the live page and legislation.",
+      "scope": "Substantive English page body for MITOS nationality-upon-recognition procedure record 471746, including summary, eligibility, documents, fees/redress, legal-reference list, 14 workflow steps and classifications.",
+      "version_or_cutoff": "Revision 79890; last edited 27 October 2026 at 14:30; checked 29 October 2026.",
+      "monitor_archive_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-55.md",
+      "monitor_archive_sha256": "8ecdf063232b41a3ca9d2e247ab9dd4ba137e4738619fee5f9f05337ef25dcc4"
     }
   }
 }
