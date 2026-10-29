@@ -800,7 +800,7 @@
     ],
     "note": "Record a human-reviewed official source link here when it supports a coverage layer without a retained local copy. This record does not change the local accepted-source count. Use version_or_cutoff='not displayed' and explain the limit when the publisher shows no version marker."
   },
-  "accepted_source_count": 44,
+  "accepted_source_count": 45,
   "records": {
     "hr-access-info-act": {
       "status": "accepted",
@@ -3399,43 +3399,50 @@
       "candidate_archive_path": "candidates/eudirective-public-data/HR/legislation/hr-third-country-procedure-rule.md"
     },
     "hr-third-country-residence-amend-155-22": {
-      "status": "located_not_captured",
+      "status": "accepted",
       "checks": {
         "publisher_identity": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "pass",
+          "review_date": "2026-10-29",
+          "evidence_url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_155_2458.html",
+          "evidence": "The official Gazette page identifies the amendment title, NN 155/2022, item 2458, publication date 29 December 2022, and Ministry of the Interior as issuer (official page lines 8–19)."
         },
         "current_legal_version": {
           "status": "pass",
           "chain_id": "hr-third-country-residence-regulation-chain",
-          "review_date": "2026-10-19",
+          "review_date": "2026-10-29",
           "evidence_url": "https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/propisi-652/652",
-          "evidence": "MUP's current Propisi page lists the third-country residence regulation as NN 20/22, 155/22 and 43/26. No later amendment is listed on that page as of 2026-10-19. Official publisher index checked 2026-10-19 at https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/propisi-652/652 (turn1078view0 lines 70-81). This confirms the listed chain only; it is not a consolidated-text or legal-topic-completeness review."
+          "evidence": "The MUP Propisi index lists the parent regulation chain NN 20/22, 155/22 and 43/26. This file is the original amending instrument NN 155/22, retained as a historical component of the chain, not represented as the current consolidated wording."
         },
         "extraction_completeness": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "pass",
+          "review_date": "2026-10-29",
+          "evidence": "The official Gazette page text was checked from the title and preamble through Articles 1–5, adoption date, class/registry numbers and minister signature. The Markdown reproduces the instrument text and excludes only the Gazette site shell and footer."
         },
         "attachments_review": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "not_applicable",
+          "review_date": "2026-10-29",
+          "evidence": "The official instrument is presented as text and contains no embedded form or separate annex attachment."
         },
         "legal_classification": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "pass",
+          "review_date": "2026-10-29",
+          "evidence": "The preamble identifies this as a Ministry of the Interior regulation amending the 2022 third-country residence regulation; Article 5 states its entry-into-force rule."
         },
         "lawful_reuse": {
           "status": "pass",
           "scope": "official_text_only",
           "basis_id": "hr-copyright-act-nn-111-2021-art-18-3",
-          "evidence": "Copyright and Related Rights Act NN 111/21 Article 18(3) provides that official legislative, administrative, and judicial texts cease to be protected by copyright once published for official public information. This pass covers only the individual official act text, not the Narodne novine page shell, third-party attachments, or database-wide/systematic reuse. Store only a source-specific text fragment and observe the publisher's stated maximum three automated queries per second."
+          "evidence": "Source-specific official legislative text only, under Croatia Copyright and Related Rights Act NN 111/21 Article 18(3), as recorded in the Croatia source-acceptance register. The Gazette shell and database are excluded."
         }
       },
       "semantic_review": {
-        "status": "not_reviewed",
-        "method": null,
-        "evidence": "No source-level semantic comparison has been recorded."
-      }
+        "status": "reviewed",
+        "method": "official page text-to-retained Markdown comparison",
+        "review_date": "2026-10-29",
+        "evidence": "Title, issuer, publication number/date, amendment body (Articles 1–5), commencement rule, class and registry numbers, and issuing minister match the official Gazette text."
+      },
+      "local_file": "documents/legislation/hr-third-country-residence-amend-155-22.md"
     },
     "hr-third-country-residence-base": {
       "status": "accepted",
