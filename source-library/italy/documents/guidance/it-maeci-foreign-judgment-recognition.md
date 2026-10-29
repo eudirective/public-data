@@ -1,6 +1,6 @@
 # MAECI: Recognition and registration of foreign judgments
 
-- **Source ID:** `it-04-ministry-of-foreign-affairs-guidance-on-recognition-of-foreign-judgments` (same source as Monitor record `monitor-it-17` is *not* intended; this is distinct from the visa FAQ)
+- **Source ID:** `it-04-ministry-of-foreign-affairs-guidance-on-recognition-of-foreign-judgments`
 - **Publisher:** Italian Ministry of Foreign Affairs and International Cooperation (MAECI)
 - **Official Italian page:** [Riconoscimento di sentenze straniere](https://www.esteri.it/it/servizi-opportunita/italiani-all-estero/stato-civile/riconoscimento-di-sentenze-straniere/)
 - **Official English page:** [Recognition of foreign judgments](https://www.esteri.it/en/servizi-opportunita/italiani-all-estero/stato-civile/riconoscimento-di-sentenze-straniere/)
