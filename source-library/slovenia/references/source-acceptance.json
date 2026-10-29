@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "SI",
-  "as_of": "2026-10-25",
+  "as_of": "2026-10-29",
   "accepted_source_count": 0,
   "accepted_current_law_source_count": 0,
   "accepted_derived_text_count": 0,
@@ -314,7 +314,10 @@
         "si_36"
       ],
       "status": "not_accepted_as_current_guidance",
-      "reason": "The official eUprava pages state that they have not yet been renewed and will redirect to the old eUprava site. Keep as dated navigation/eligibility leads only; do not use them alone for current legal-aid eligibility. Check the current ZBPP text and live service."
+      "reason": "The official eUprava FAQ opened on 29 October 2026 still displays its foreign-national eligibility answer and says the page has not yet been renewed and may redirect to the old eUprava site. Preserve it only as a historical official FAQ summary; do not use it alone for current eligibility. Check the current ZBPP and application route.",
+      "reviewed_on": "2026-10-29",
+      "document_path": "documents/guidance/si-legal-aid-foreigners-faq-historical.md",
+      "verified_content": "Page lists permit-holding residents in Slovenia, stateless persons lawfully residing in Slovenia, and persons lawfully residing in another EU Member State; other foreigners may qualify through reciprocity or an international treaty. No revision date exposed."
     },
     {
       "candidate_ids": [
