@@ -75,3 +75,12 @@ The source notes preserve official routes and dated evidence, not copies of sour
 
 The legal scope remains nonuniform: Act 404/2011 generally defines “member state” to include EU, EEA, and Swiss states but narrows the term to EU Member States in §§30 and 51–57. Preserve that distinction and the separate route for returning Slovak nationals and UK Withdrawal Agreement cases.
 | SK-41 | [MFA Minsk EU-family visa rules](https://www.mzv.sk/web/minsk/services/information-for-foreigners/visa/family-members-of-union-citizens) — mission-specific EU-family visa instructions; related source | Page published and updated 2025-09-17; opened and reviewed 2026-10-29. Covers family categories, supporting evidence, form, fingerprints, 10-day deadline and no fee. | Accepted within Minsk-specific scope. Cross-checked Act 404/2011 and Directive 2004/38. Keep Switzerland separate from EEA status; UK Withdrawal Agreement scope is conditional. [Maintained note](../documents/references/sk-41-mfa-minsk-eu-family-visa-rules.md). Mission competence and channels remain volatile. |
+
+## Legalize-SK crosswalk (2026-10-29)
+
+Pinned [Legalize-SK](https://github.com/legalize-dev/legalize-sk) at commit [5bdaa6eb40a6123d2d3dc8748074d0942796abf6](https://github.com/legalize-dev/legalize-sk/commit/5bdaa6eb40a6123d2d3dc8748074d0942796abf6), dated 23 June 2026.
+
+- [`ZZ-2011-404.md`](https://github.com/legalize-dev/legalize-sk/blob/5bdaa6eb40a6123d2d3dc8748074d0942796abf6/sk/ZZ-2011-404.md), blob `ffc7d93d3bf4265b4aa53836aaa60b6d426c7b40`, is the correct Act 404/2011 identity, but its front matter says `last_updated: 2012-01-01`. It cannot represent the current official edition accepted at `SK-02`, bound to 1 October 2026 with a 32-version history.
+- The current Act 128/2026 amendment is already recorded at `SK-03` from the official date-bound Slov-Lex route. The expected Legalize path `sk/ZZ-2026-128.md` returned 404 at the pinned commit.
+
+Legalize-SK describes statutory data as public-domain official text; MIT applies to its pipeline. Keep Slov-Lex as the accepted route. No Legalize copy or retrieval method was accepted, and no new official source record was needed. Do not use the older candidate to fill the 2026 current-text gap or infer that Act 128/2026 is covered by it.
