@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "collection": "poland/documents/guidance",
+  "entries": [
+    {
+      "source_id": "pl-16",
+      "official_url": "https://www.gov.pl/web/mswia/pobyt-w-innym-panstwie-czlonkowskim-",
+      "current_path": "poland/documents/guidance/pl-16-mswia-other-member-state-page-locator.md",
+      "archive_path": "poland/documents/guidance/archive/pl-16-mswia-other-member-state-page-locator/01b600be6d53033bc90876c2ea3ee1d1ec4d686f5ca00c2d7631ed089a3fe0b1.md",
+      "sha256": "01b600be6d53033bc90876c2ea3ee1d1ec4d686f5ca00c2d7631ed089a3fe0b1",
+      "archived_at": "2026-10-29T05:58:02.908Z",
+      "superseded_by_sha256": "cff698d6f55be0105f0ee050e8c6e746d6ac82a9dac28fdf4258028ab66fdcb1"
+    }
+  ]
+}
