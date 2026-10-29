@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "jurisdiction": "AT",
-  "updated": "2026-10-24",
+  "updated": "2026-10-29",
   "policy": {
     "scope": "The 74-record manifest contains 73 accepted sources, no captured pending-review candidates, and one discovery-only index. It is a bounded inventory, not an exhaustive country review. The fixed monitor checks registered records; separate manual discovery plans address missing cases, missions, and Länder practice.",
     "retrieval": "Use only the official URLs and hosts in the manifest. Make ordinary public HTTPS requests to one record at a time. Do not use RIS OGD/API, registration, parallel requests, authentication, browser challenge bypass, or undocumented bulk exports. If OGD is introduced later, first follow the current RIS OGD FAQ notice, timing, rate, and attribution requirements.",
@@ -385,6 +385,34 @@
         "verdict": "sustainable_with_limits",
         "limits": "Session pages cannot be replayed deterministically. Re-resolve the official route manually; no submission, authentication, or personal-data entry is automated."
       }
+    },
+    {
+      "id": "legalize-at-ris-consolidated-v1",
+      "applies_to": "Only the verified Legalize full consolidated Austrian Informationsfreiheitsgesetz, RIS Gesetzesnummer 20012537.",
+      "source_ids": [
+        "at-ifg-consolidated"
+      ],
+      "retrieval": {
+        "entry_point": "Pinned Legalize Austria file legalize-dev/legalize-at at/AT-20012537.md, with RIS current consolidation as the authoritative identity/version check.",
+        "identity_checks": [
+          "Confirm RIS is the official publisher and Gesetzesnummer 20012537/title match.",
+          "Check current RIS consolidation date and complete latest-amendment list against the candidate metadata.",
+          "Pin Legalize repository commit, path and blob SHA; record the source-data license attribution separately from the MIT pipeline license."
+        ],
+        "change_signal": "Any change to the current RIS date/amendment list, candidate blob, statute identity, or section-body comparison triggers review; no automatic refresh or acceptance."
+      },
+      "conversion": {
+        "method": "Map Legalize frontmatter into provenance metadata; remove the generated H1 and only standalone repeated Abkürzung/IFG display labels.",
+        "validation": [
+          "Preserve preamble, substantive headings, all 20 sections, numbering, text, punctuation and transitional provisions.",
+          "Compare every section body against the official current RIS text; formatting-only normalization is permitted for comparison, not for changing the stored legal wording.",
+          "Do not generalize this rule to any other Austrian statute."
+        ],
+        "rule_ids": [
+          "legalize-at-ris-consolidated-v1"
+        ]
+      },
+      "sustainability": "Conditional. Maintain only while Legalize publishes the same RIS-derived statute and a fresh full-section comparison confirms exact legal-body equivalence with current RIS. RIS remains authoritative; review on every snapshot update."
     }
   ],
   "discovery_surfaces": [
