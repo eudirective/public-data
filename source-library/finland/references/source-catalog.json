@@ -6,7 +6,7 @@
   "scope": "Official Finnish sources related to EU, EEA and Swiss free movement; third-country family members; visa and consular routes; administrative procedure, access to information, remedies, oversight, privacy, legal aid and administrative courts. This is a bounded discovery register, not a statement of legal equivalence or complete coverage.",
   "accepted_source_count": 2,
   "candidate_source_count": 37,
-  "acquisition_rule_status": "Thirty-four official external references are accepted with item-specific limits; two Finnish current-law conversions are accepted as dated local copies. One maintained locator note records the Ministry for Foreign Affairs visa guidance without copying its page content. One obsolete Migri route is dispositioned as already represented and wrong scope. Two oversight sites remain under human review. Unaccepted page/text conversions stay in the Monitor local-only archive; source acceptance, local copies, maintained locator notes, topic coverage and completion remain separate.",
+  "acquisition_rule_status": "Thirty-five official external references are accepted with item-specific limits; two Finnish current-law conversions are accepted as dated local copies. One maintained locator note records the Ministry for Foreign Affairs visa guidance without copying its page content. One obsolete Migri route is dispositioned as already represented and wrong scope. Two oversight sites remain under human review. Unaccepted page/text conversions stay in the Monitor local-only archive; source acceptance, local copies, maintained locator notes, topic coverage and completion remain separate.",
   "official_change_channels": {
     "national_legal_database": "https://www.finlex.fi/",
     "open_data_documentation": "https://www.finlex.fi/en/open-data",
@@ -710,22 +710,24 @@
       "authority": "Migri",
       "class": "immigration_authority_guidance",
       "language": "en-fi-sv",
-      "official_url": "https://migri.fi/en/i-am-a-family-member-of-an-eu-citizen",
+      "official_url": "https://migri.fi/en/i-am-an-eu-citizen-or-a-family-member",
       "publisher_identifier": {
         "system": "Migri",
         "record": "EU citizen and family member landing page"
       },
-      "functional_relationship": "partial_functional_match",
-      "verification_status": "Official Migri page identity and scope verified through official-domain search on 2026-10-24; link accepted without a local copy. Dynamic instructions remain subject to live recheck.",
+      "functional_relationship": "related_source",
+      "verification_status": "Current official landing page identity and indexed substantive text confirmed 2026-10-29; direct viewer request returned HTTP 403. A scoped maintained summary records the indexed rendering.",
       "retrieval_status": "official_locator_only",
       "retrieval_shape": "HTML topic landing page and application-finder links",
       "seed_status": "candidate",
-      "check_note": "Search snippet includes EU, Icelandic, Liechtenstein, Norwegian and Swiss nationals, while Nordic citizens follow a distinct procedure.",
+      "check_note": "Landing page states residence-permit exemption for EU, Icelandic, Liechtenstein, Norwegian and Swiss citizens and registration after three months; detailed family-member requirements are in separate routes.",
       "monitor_retrieval_status": "retrieval_or_conversion_error",
       "monitor_retrieval_note": "HTTPError: HTTP Error 403: Forbidden",
       "external_reference_accepted": true,
       "external_reference_checked_at": "2026-10-24",
-      "accepted": false
+      "accepted": false,
+      "maintained_markdown_path": "documents/guidance/fi-migri-eu-family-guidance.md",
+      "maintained_markdown_sha": "5e26603fb2357a6eb40d56edd2ab861c7691639b"
     },
     {
       "id": "fi-migri-family-residence-card",
@@ -1275,13 +1277,36 @@
       "retrieved": false,
       "accepted": false,
       "external_reference_accepted": true
+    },
+    {
+      "id": "fi-migri-eu-family-finder-step",
+      "title": "I am a family member of an EU citizen",
+      "authority": "Migri",
+      "class": "immigration_authority_guidance",
+      "language": "en-fi-sv",
+      "official_url": "https://migri.fi/en/i-am-a-family-member-of-an-eu-citizen",
+      "publisher_identifier": {
+        "system": "Migri",
+        "record": "EU citizen and family member landing page"
+      },
+      "functional_relationship": "partial_functional_match",
+      "verification_status": "Current Migri application-finder step identified through official-domain search; direct viewer request returned HTTP 403.",
+      "retrieval_status": "official_locator_only",
+      "retrieval_shape": "HTML topic landing page and application-finder links",
+      "seed_status": "candidate",
+      "check_note": "Separate family-member application-finder route linked from the EU/family landing page; not the landing page and not the detailed residence-card guidance.",
+      "monitor_retrieval_status": "retrieval_or_conversion_error",
+      "monitor_retrieval_note": "HTTPError: HTTP Error 403: Forbidden",
+      "external_reference_accepted": true,
+      "external_reference_checked_at": "2026-10-24",
+      "accepted": false
     }
   ],
   "retrieved_review_candidate_count": 23,
   "converted_review_candidate_count": 21,
-  "accepted_external_reference_count": 34,
+  "accepted_external_reference_count": 35,
   "accepted_local_copy_count": 2,
   "retrieval_status": null,
   "maintained_locator_note_count": 1,
-  "maintained_markdown_record_count": 2
+  "maintained_markdown_record_count": 3
 }
