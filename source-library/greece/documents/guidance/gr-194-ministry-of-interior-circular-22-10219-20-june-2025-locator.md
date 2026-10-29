@@ -12,7 +12,7 @@ Accepted official route: [https://www.ypes.gr/wp-content/uploads/2025/06/eggr102
 
 Language/version: Greek; Circular ΔΙΔΔΔΗ/Φ.22/οικ.10219, dated 20 June 2025; two-page Ministry PDF.
 
-Checked: 2026-10-26
+Checked: 2026-10-29
 
 Acceptance-register key: `gr-ypes-circular-10219-kya-8229-amendment`
 
@@ -40,6 +40,6 @@ This source-specific document is based on the already accepted official-link rev
 
 - Accepted for the Ministry notice and the text it reproduces; the formal Gazette body was not independently retrieved in this review.
 - Does not establish current application channels at any particular authority, immigration-file procedures, or live service operation.
-- No local copy is accepted.
+- A scoped Greek excerpt of the circular's quoted replacement Article 2 is retained at [the public-document request amendment excerpt](gr-194-ypes-circular-10219-public-access-amendment-excerpt.md). The operative Gazette decision remains the authoritative act; later currentness is not established.
 
 Use the live official route and confirm its identity, date, attachments and procedural scope before relying on it. Link acceptance does not establish a current consolidated text, topic coverage, or country completion.

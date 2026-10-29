@@ -1,43 +1,60 @@
-# Official source locator: Greek Civil Code marriage provisions, PD 456/1984
+# Civil Code: Articles 1368–1370 (original PD 456/1984 marriage provisions)
 
-Jurisdiction: Greece
+- Jurisdiction: Greece
+- Source ID: `gr-53`
+- Language: Greek
+- Official source: [https://api.et.gr/apiLAW/2/1984/456/pdf](https://api.et.gr/apiLAW/2/1984/456/pdf)
+- OCR derivative SHA-256: `c415d61993a0ae18a967e66a6e45c544181c3e3e9075661fec9e3fcffa82cd98`
+- OCR language: Greek
+- Version observed: Original Presidential Decree 456/1984, FEK A 164/24 October 1984; later amendments and current consolidated wording are not covered.
+- Review date: 2026-10-28
+- Accepted text scope: Articles 1368–1370 on marriage authorisation, notice and issue of the authorisation.
+- Original source response SHA-256: `3a48fb853c69d4c5885c44f7c2c61f4b9de8dc4ff3fc47457a20b56ea7d9f894`
+- Excerpt text SHA-256: `68e94e1292e43ee296c5582477b78e723aa638322de3cb6fb91ff9f0293a7911`
+- Extraction method: Greek OCR of scanned official Gazette PDF; OCR derivative used for reading, checked at PDF page 74.
+- Reuse basis: Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official legislative and administrative text, from copyright protection. This file retains only the scoped official wording and page markers; it omits Gazette layout, publisher branding, web interface and unrelated content. This narrow content-reuse basis does not authorize automated retrieval or determine search.et.gr terms.
 
-Source ID: gr-53
+## Scope and limitations
 
-Source class: `national_legislation`
+These are original 1984 Civil Code provisions. They are historical text and do not establish current marriage procedure or the present competent court/authority. OCR was run in Greek; page 74 was reviewed.
 
-Publisher: National Printing House of the Hellenic Republic
+## Official text (Greek)
 
-Accepted official route: [https://api.et.gr/apiLAW/2/1984/456/pdf](https://api.et.gr/apiLAW/2/1984/456/pdf)
 
-Language/version: Greek; Original Presidential Decree 456/1984 Gazette PDF; current consolidation not verified.
 
-Checked: 2026-10-25
 
-Monitor candidate record: `candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-53.md`
 
-Monitor candidate SHA-256: `b73fa07ecf66e64208209dff06b4f4da1e69c64a7c8c1920227bc5ab08b62d55`
 
-Local-copy status: No source text is retained in this note. The source remains an external-only official reference.
-
-## Source role and accepted scope
-
-Official source locator for the original Greek Civil Code; MITOS marriage-licence material cites the endpoint for Civil Code Articles 1368–1370.
-
-## Review findings
-
-The official URL resolves to a 120-page Gazette PDF, but its size prevents browser retrieval and archived text extraction is empty. This is accepted only as a source locator; no specific article wording or current status is confirmed.
-
-## Candidate reconciliation and disposition
-
-The archived candidate URL matches the accepted official-reference URL: https://api.et.gr/apiLAW/2/1984/456/pdf. The captured response is not reproduced here as accepted source text.
-
-The candidate body remains in the Monitor's indexed local-only archive for provenance. This file records the accepted link, review scope and disposition; it does not reproduce the captured page, establish current live operation, or establish topic coverage.
-
-## Use limits
-
-- Not a government-published consolidated Civil Code.
-- Inspect the official text before relying on Articles 1368–1370 or a current legal proposition.
-- No local copy or republication permission is accepted.
-
-Use the live official route and confirm its identity, date, attachments and procedural scope before relying on it. Link acceptance does not establish a current consolidated legal text, complete source coverage, or country completion.
+<!-- Official Gazette PDF page 74 -->
+'Apθpo 1368. 
+'Αοεια γάμου. 
+Για να τελεσθεί ο γάμος, είτε ως πολιτικός είτε με ιερο­
+λογία της ανατολικής ορθόδοξης εκκλησίας, απαιτείται 
+άδεια του δημάρχου ή του προέδρου της κοινότητας της 
+τελευταίας κατοικίας του καθενός από τα πρόσωπα που 
+πρόκειται να παντρευτούν. Σε περίπτωση που ο αρμόδιος 
+για την έκδοση της άδειας αρνείται να τη χορηγήσει, απο­
+φασ(ζει αμετάκλητα το αρμόδιο μονομελές πρωτοδικείο 
+σύμφωνα με τις διατάξεις της εκούσιας δικαιοδοσίοις του 
+κώδικα πολιτικής οικονομίας. Η απόφαση εκδίδεται μέσα 
+σε δέκα ημέρες από την κατάθεση της σχετικής αίτησης_ 
+'Αρθpο 1369. 
+Γνωστοποίηση μελλοντικού γάμου. 
+Πριν από την τέλiση του γάμου, με όποιον τύπο και αν 
+αυτός πρόκειται να τελεσθεί, πρέπει να γνωστοποιούνται 
+με τοιχοκόλληση σχετικής αγγελίας στο δημοτικό ή κοινο­
+τικό κατάστημα της κατοικίας του καθενός από τα πρόσωπα 
+που πρόκειται να παντρευτούν, το όνομοι και το επώνυμο 
+των προσώπων αυτών, το επάγγελμά τους, το όνομοι των 
+γονέων τους και ο τόπος όπου γεννήθηκαν, όπου κατοικού­
+σαν τελευταία και όπου πρόκειται να τελεσθεί ο γάμος. 
+Αν ο γάμος δεν τελεσθεί μέσα σε έξι μήνες από τη γνωστο­
+ποίηση, η γνωστοποίηση πρέπει να επαναληφθεί. 
+Όταν τα πρόσωπα που πρόκειται να παντρευτούν κατοι­
+κούν σε μεγάλη πόλη, η γνωστοποίηση γίνεται με δημο­
+σίευση σε ημερήσια εφημερίδα. του τόπου της κατοικίας. 
+'Apθpo 1370. 
+Η άδεια γάμου δίνεται υποχρεωτικά, αφού ερευνηθεί αν 
+συντρέχουν οι νόμιμοι όροι για το γάμο που πρόκειται να 
+τελεσθεί και αν έγινε η γνωστοποίηση. Αν υπάρχουν σπου­
+δαίοι λόγοι, η γνωστοποίηση μπορεί να παραλειφθεί.

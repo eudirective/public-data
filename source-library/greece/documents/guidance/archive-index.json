@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "collection": "greece/documents/guidance",
+  "entries": [
+    {
+      "source_id": "gr-96",
+      "official_url": "https://api.et.gr/apiFEK/2/2024/5223/pdf",
+      "current_path": "greece/documents/guidance/gr-96-jmd-225679-2024-article-2.md",
+      "archive_path": "greece/documents/guidance/archive/gr-96-jmd-225679-2024-article-2/758681601a0eccf7aea61ff9a5616f58dcdbf99ae59ace338179c24733af6aba.md",
+      "sha256": "758681601a0eccf7aea61ff9a5616f58dcdbf99ae59ace338179c24733af6aba",
+      "archived_at": "2026-10-28T20:15:27.021Z",
+      "superseded_by_sha256": "16e095a14f4cf42a8eedc55462dfe891e348c030dc0e79e29568e6fa6653ff82"
+    },
+    {
+      "source_id": "gr-99",
+      "official_url": "https://ypergasias.gov.gr/wp-content/uploads/2025/09/20250205007.pdf",
+      "current_path": "greece/documents/guidance/gr-99-ministerial-decision-144338-2025-articles-1-2.md",
+      "archive_path": "greece/documents/guidance/archive/gr-99-ministerial-decision-144338-2025-articles-1-2/43b590f0114bda7aa6d2067366fa8b4eeb803b9e8ddb7b47bb9c680e23376825.md",
+      "sha256": "43b590f0114bda7aa6d2067366fa8b4eeb803b9e8ddb7b47bb9c680e23376825",
+      "archived_at": "2026-10-28T20:15:45.100Z",
+      "superseded_by_sha256": "190f49eeb7ada0a1f095b542e60e5aadf39366458761baaba32dca981b6b2b0c"
+    },
+    {
+      "source_id": "gr-94",
+      "official_url": "https://migration.gov.gr/wp-content/uploads/2021/01/KYA-4000.1.113.2020.pdf",
+      "current_path": "greece/documents/guidance/gr-94-kya-4000-1-113-2020-articles-1-4-withdrawal-agreement.md",
+      "archive_path": "greece/documents/guidance/archive/gr-94-kya-4000-1-113-2020-articles-1-4-withdrawal-agreement/6aa612d154f9ab493227ae3de13fb64ac6d8aa297a3ffe562c4875ad7f58e7c0.md",
+      "sha256": "6aa612d154f9ab493227ae3de13fb64ac6d8aa297a3ffe562c4875ad7f58e7c0",
+      "archived_at": "2026-10-28T20:50:45.984Z",
+      "superseded_by_sha256": "6aa612d154f9ab493227ae3de13fb64ac6d8aa297a3ffe562c4875ad7f58e7c0"
+    },
+    {
+      "source_id": "gr-121",
+      "official_url": "https://www.fireservice.gr/documents/20184/797466/%CE%9A%CE%BF%CE%B9%CE%BD%CE%AE%2B%CE%A5%CF%80%CE%BF%CF%85%CF%81%CE%B3%CE%B9%CE%BA%CE%AE%2B%CE%91%CF%80%CF%8C%CF%86%CE%B1%CF%83%CE%B7%2B%CE%943-22560-2005.pdf/281e308b-1656-4b28-a4ca-e5866216c878?version=1.0",
+      "current_path": "greece/documents/guidance/gr-121-ministerial-decision-7004-3-40-amendment-on-delegated-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-121-ministerial-decision-7004-3-40-amendment-on-delegated-locator/68bfdcafa22eb6261e3a1cc0cc7613b5a431711463de9970d1ccd130bef57985.md",
+      "sha256": "68bfdcafa22eb6261e3a1cc0cc7613b5a431711463de9970d1ccd130bef57985",
+      "archived_at": "2026-10-28T21:52:02.703Z",
+      "superseded_by_sha256": "585692c071aa45656f3d9df9b0ed1f273b445d84ecf93e0767390be9bed8e073"
+    },
+    {
+      "source_id": "gr-144",
+      "official_url": "https://www.mfa.gr/archive/1/docs/ypiresies/B_3149.pdf",
+      "current_path": "greece/documents/guidance/gr-144-ya-p23met-34908-19-07-2021-fek-b-3149-certified-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-144-ya-p23met-34908-19-07-2021-fek-b-3149-certified-locator/697f4aacae9d184b1f728025d85030a16f0382e3d8cb59a7e6e7ce4b6cef8c26.md",
+      "sha256": "697f4aacae9d184b1f728025d85030a16f0382e3d8cb59a7e6e7ce4b6cef8c26",
+      "archived_at": "2026-10-28T21:54:31.088Z",
+      "superseded_by_sha256": "be9c87f2207776598b7224efb7deb5aa4c2d83c0c3206a081b53a8cd2e375a2a"
+    },
+    {
+      "source_id": "gr-160",
+      "official_url": "https://api.et.gr/apiFEK/2/2021/2705/pdf",
+      "current_path": "greece/documents/guidance/gr-160-kya-45927-2021-fek-b-2705-special-registry-exception-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-160-kya-45927-2021-fek-b-2705-special-registry-exception-locator/fe8c4df3d1a7f75a6bc3fefba13017220702a009b16163f251521c885962a75c.md",
+      "sha256": "fe8c4df3d1a7f75a6bc3fefba13017220702a009b16163f251521c885962a75c",
+      "archived_at": "2026-10-28T21:55:36.841Z",
+      "superseded_by_sha256": "e4a0e83534473a45f67ac433adaf75686f2d6297123f5272e05a82640f4bdaf6"
+    },
+    {
+      "source_id": "gr-176",
+      "official_url": "https://www.anynet.gr/legislation_pds/%CE%A5%CE%91%2057758-2484-2018-%CE%9A%CE%91%CE%9D%CE%9F%CE%9D%CE%99%CE%A3%CE%9C%CE%9F%CE%A3%20%CE%9B%CE%95%CE%99%CE%A4%CE%9F%CE%A5%CE%A1%CE%93%CE%99%CE%91%CE%A3%20%CE%95%CE%A3%CE%91%CE%9D%CE%A5.pdf",
+      "current_path": "greece/documents/guidance/gr-176-ya-11-57758-2484-2018-national-council-for-foster-care-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-176-ya-11-57758-2484-2018-national-council-for-foster-care-locator/7acef8dd8ff2fee81fabae2ef0277011ebe53fb646d71561b90a37f86e7a690f.md",
+      "sha256": "7acef8dd8ff2fee81fabae2ef0277011ebe53fb646d71561b90a37f86e7a690f",
+      "archived_at": "2026-10-28T21:56:05.426Z",
+      "superseded_by_sha256": "901e49e82b91b2ddd6a5b4cd55a1d7e764bcc1c5d6209cf930795a8e15421d7b"
+    },
+    {
+      "source_id": "gr-191",
+      "official_url": "https://migration.gov.gr/wp-content/uploads/2020/05/%CE%9510_2008.pdf",
+      "current_path": "greece/documents/guidance/gr-191-ministry-of-interior-circular-no-10-28-february-2008-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-191-ministry-of-interior-circular-no-10-28-february-2008-locator/3128bcf3d623829346df3a9ace2f13e8be0d3db8ee79dc5529d4a21e448d55d7.md",
+      "sha256": "3128bcf3d623829346df3a9ace2f13e8be0d3db8ee79dc5529d4a21e448d55d7",
+      "archived_at": "2026-10-28T21:56:21.732Z",
+      "superseded_by_sha256": "640c0b60624abb445f87edb81b59fd8aa0cf8d4bd25a4fd68885b8b80ee8c3ba"
+    },
+    {
+      "source_id": "gr-192",
+      "official_url": "https://www.ypes.gr/wp-content/uploads/2025/01/eggr21821-20241231.pdf",
+      "current_path": "greece/documents/guidance/gr-192-ministry-of-interior-circular-22-21821-31-december-2024-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-192-ministry-of-interior-circular-22-21821-31-december-2024-locator/4a27ae6b65dd0641ae084381b7c5ff7a3ed189ee31b95c1fc6ef70c71f65dce5.md",
+      "sha256": "4a27ae6b65dd0641ae084381b7c5ff7a3ed189ee31b95c1fc6ef70c71f65dce5",
+      "archived_at": "2026-10-28T21:56:37.928Z",
+      "superseded_by_sha256": "ff72e93028e4e70bd5dc642f48768e5cdc0c4d28f19e460a46c4e9d9defe4795"
+    },
+    {
+      "source_id": "gr-196",
+      "official_url": "https://api.et.gr/apiFEK/2/2024/7302/pdf",
+      "current_path": "greece/documents/guidance/gr-196-decision-21797-30-12-2024-fek-b-7302-official-national-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-196-decision-21797-30-12-2024-fek-b-7302-official-national-locator/7be4bd0daaae406232320b8fa0048db145c65d540ded076bc169dd76276aca82.md",
+      "sha256": "7be4bd0daaae406232320b8fa0048db145c65d540ded076bc169dd76276aca82",
+      "archived_at": "2026-10-28T21:56:51.958Z",
+      "superseded_by_sha256": "e67323cf0a566125d7f75db788d63b1791b5273b2588cbfd50a49c7acbfcec70"
+    },
+    {
+      "source_id": "gr-197",
+      "official_url": "https://api.et.gr/apiFEK/2/2025/2601/pdf",
+      "current_path": "greece/documents/guidance/gr-197-decision-8229-16-5-2025-fek-b-2601-official-national-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-197-decision-8229-16-5-2025-fek-b-2601-official-national-locator/bcce949fbecc5b1006c32ef1acc83132592696548dfcfdfa4a9957fa7d03f700.md",
+      "sha256": "bcce949fbecc5b1006c32ef1acc83132592696548dfcfdfa4a9957fa7d03f700",
+      "archived_at": "2026-10-28T21:57:06.789Z",
+      "superseded_by_sha256": "99ff63e858d7bac13826a667107af5a5fdcc47468dadae8ec064231ee60f7801"
+    },
+    {
+      "source_id": "gr-135",
+      "official_url": "https://www.dpa.gr/sites/default/files/2023-06/4624_2019%20%CE%BC%CE%B5%20%CF%84%CF%81%CE%BF%CF%80%CE%BF%CF%80%CE%BF%CE%B9%CE%AE%CF%83%CE%B5%CE%B9%CF%82.pdf",
+      "current_path": "greece/documents/guidance/gr-135-hellenic-dpa-law-4624-2019-with-amendments-integrated-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-135-hellenic-dpa-law-4624-2019-with-amendments-integrated-locator/4a995e984af4264aa3e7e9d2609849a2453071b0a97f94ff7a6e41237bf2489c.md",
+      "sha256": "4a995e984af4264aa3e7e9d2609849a2453071b0a97f94ff7a6e41237bf2489c",
+      "archived_at": "2026-10-28T22:20:52.589Z",
+      "superseded_by_sha256": "5c85a861f456ce689d9996ed18c3b4df9ca3ce7164b601b3a236095df4dcefa9"
+    },
+    {
+      "source_id": "gr-139",
+      "official_url": "https://api.et.gr/apiFEK/2/2024/6201/pdf",
+      "current_path": "greece/documents/guidance/gr-139-decision-272153-2024-amending-kya-95391-2024-athlete-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-139-decision-272153-2024-amending-kya-95391-2024-athlete-locator/33bb643e9a84aa7ca9d4dd71875e01cea168c6a7cad75e593ab2bdfddbee5d8c.md",
+      "sha256": "33bb643e9a84aa7ca9d4dd71875e01cea168c6a7cad75e593ab2bdfddbee5d8c",
+      "archived_at": "2026-10-28T22:25:22.553Z",
+      "superseded_by_sha256": "3e24a98e9f99a11ded15b3b2740f66a2e91e974f790d1b6d13c544948baa45c8"
+    },
+    {
+      "source_id": "gr-194",
+      "official_url": "https://www.ypes.gr/wp-content/uploads/2025/06/eggr10219-20250620.pdf",
+      "current_path": "greece/documents/guidance/gr-194-ministry-of-interior-circular-22-10219-20-june-2025-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-194-ministry-of-interior-circular-22-10219-20-june-2025-locator/21eba2ed00adc166958032ce32ed4a6ddd410d0e0fee86fa30f06195eafb1d01.md",
+      "sha256": "21eba2ed00adc166958032ce32ed4a6ddd410d0e0fee86fa30f06195eafb1d01",
+      "archived_at": "2026-10-28T22:27:21.689Z",
+      "superseded_by_sha256": "07c3e148578648c2cf0b2f6176c039971c94b4c45e6746a73687119d1675f405"
+    },
+    {
+      "source_id": "gr-56",
+      "official_url": "https://search.et.gr/el/oroi-xrisis/",
+      "current_path": "greece/documents/guidance/gr-56-national-printing-house-website-terms-of-use-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-56-national-printing-house-website-terms-of-use-locator/8bdf401e7d6d809bba3f46049bdc49091af683b7951e206c99025e2d504e0e60.md",
+      "sha256": "8bdf401e7d6d809bba3f46049bdc49091af683b7951e206c99025e2d504e0e60",
+      "archived_at": "2026-10-29T00:38:42.748Z",
+      "superseded_by_sha256": "fe75fdd3683fccf79dc69b7f613608718614b0d5cede109bcae8c76d87529dee"
+    },
+    {
+      "source_id": "gr-60",
+      "official_url": "https://www.gov.gr/el/sdg/residence/residence-cards-for-union-citizens-and-their-family-members/general/residence-of-third-country-citizens-who-are-family-members-of-eu-citizens",
+      "current_path": "greece/documents/guidance/gr-60-gov-gr-greek-sdg-residence-of-third-country-family-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-60-gov-gr-greek-sdg-residence-of-third-country-family-locator/213c8da3fa082dd60590996b59b9425405d53ea2e04eb4a23801e592775af896.md",
+      "sha256": "213c8da3fa082dd60590996b59b9425405d53ea2e04eb4a23801e592775af896",
+      "archived_at": "2026-10-29T00:42:41.476Z",
+      "superseded_by_sha256": "71e3522db6687201e4225bd4c8b6a5d10ced5aeda6ac1a2f23d4df2868340748"
+    }
+  ]
+}

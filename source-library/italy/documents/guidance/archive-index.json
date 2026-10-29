@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "collection": "italy/documents/guidance",
+  "entries": [
+    {
+      "source_id": "it-04-ministry-of-foreign-affairs-guidance-on-recognition-of-foreign-judgments",
+      "official_url": "https://www.esteri.it/it/servizi-opportunita/italiani-all-estero/stato-civile/riconoscimento-di-sentenze-straniere/",
+      "current_path": "italy/documents/guidance/it-maeci-foreign-judgment-recognition.md",
+      "archive_path": "italy/documents/guidance/archive/it-maeci-foreign-judgment-recognition/847b4ed03b0ec9a121c3650cff5d989a0caefa7cae64f91e34ce598c4380df47.md",
+      "sha256": "847b4ed03b0ec9a121c3650cff5d989a0caefa7cae64f91e34ce598c4380df47",
+      "archived_at": "2026-10-29T03:40:07.961Z",
+      "superseded_by_sha256": "770938c136e565fb691ecd9cffa9d9460232d3bfbee6d906baf1e3709f8d87e7"
+    }
+  ]
+}

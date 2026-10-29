@@ -1,51 +1,119 @@
-# Official source locator: National Printing House, Law 5326/2026, FEK A 125/4 August 2026
+# Law 5326/2026: Article 14 and commencement under Article 111
 
-Jurisdiction: Greece
+- Jurisdiction: Greece
+- Source ID: `gr-153`
+- Language: Greek
+- Official source: [https://api.et.gr/apiFEK/1/2026/125/pdf](https://api.et.gr/apiFEK/1/2026/125/pdf)
+- Version observed: Law 5326/2026, FEK A 125/4 August 2026; Article 14 effective 16 September 2026.
+- Review date: 2026-10-28
+- Accepted text scope: Article 14 amendments to CPC Articles 323 and 905, with Article 111 commencement relevant to Article 14.
+- Original source response SHA-256: `663e301682f616deacaa9b619d8daf6b23d0fba8dc9bd0ef7f6384f7adc34a51`
+- Excerpt text SHA-256: `4612d9dc79e08a500af269e4583cf3a38f36d4f17c4e69ec8721b90037b0fd01`
+- Extraction method: PDF embedded text extraction; scoped to the provisions stated above.
+- Reuse basis: Greek Law 2121/1993 Article 2(5) excludes official texts expressing the exercise of state authority, including official legislative and administrative text, from copyright protection. This file retains only the scoped official wording and page markers; it omits Gazette layout, publisher branding, web interface and unrelated content. This narrow content-reuse basis does not authorize automated retrieval or determine search.et.gr terms.
 
-Source ID: gr-153
+## Scope and limitations
 
-Source class: `amending_legislation`
+Targeted anti-SLAPP recognition/enforcement rules. It does not create a family-specific test or a current consolidated CPC; no family-specific application is inferred.
 
-Publisher: National Printing House of the Hellenic Republic; Hellenic Parliament docket cross-check
+## Official text (Greek)
 
-Accepted official route: [https://api.et.gr/apiFEK/1/2026/125/pdf](https://api.et.gr/apiFEK/1/2026/125/pdf)
 
-Language/version: Greek; Law 5326/2026, FEK A 125, 4 August 2026; Parliament docket records completion on 4 August 2026.
 
-Checked: 2026-10-26
 
-Acceptance-register key: `gr-law5326-2026-gazette-art14-recognition`
 
-Monitor manifest entry: `candidates/public-data/GR/candidate-manifest.json` (`gr-153`)
 
-Local-copy status: No source text is retained in this document. This is an external-only official reference.
+<!-- Official Gazette PDF page 10 -->
+Άρθρο 14 
+Άρνηση αναγνώρισης και εκτέλεσης αλλοδαπής δικαστικής απόφασης -  
+Τροποποίηση άρθρου 323 και παρ. 3 άρθρου 905 Κώδικα Πολιτικής Δικονομίας 
+(άρθρο 16 της Οδηγίας (ΕΕ) 2024/1069)
+1. Στο άρθρο 323 του Κώδικα Πολιτικής Δικονομίας (π.δ. 503/1985, Α ’ 182), περί ισχύος αποφάσεων αλ -
+λοδαπών πολιτικών δικαστηρίων, προστίθεται περ.  6) και μετά από νομοτεχνικές βελτιώσεις, το άρθρο 323 
+διαμορφώνεται ως εξής:
+«Άρθρο 323
+Με την επιφύλαξη αυτών που ορίζουν διεθνείς συμβάσεις, απόφαση αλλοδαπού πολιτικού δικαστηρίου 
+ισχύει και αποτελεί δεδικασμένο στην Ελλάδα χωρίς άλλη διαδικασία εφόσον:
+1) αποτελεί δεδικασμένο σύμφωνα με το δίκαιο του τόπου όπου εκδόθηκε,
+2) η υπόθεση κατά τις διατάξεις του ελληνικού δικαίου υπαγόταν στη δικαιοδοσία των δικαστηρίων του 
+κράτους στο οποίο ανήκει το δικαστήριο που εξέδωσε την απόφαση,
+3) ο διάδικος που νικήθηκε δεν στερήθηκε το δικαίωμα της υπεράσπισης και γενικά της συμμετοχής στη 
+δίκη, εκτός αν η στέρηση έγινε σύμφωνα με διάταξη που ισχύει και για τους υπηκόους του κράτους στο οποίο 
+ανήκει το δικαστήριο που εξέδωσε την απόφαση,
+4) δεν είναι αντίθετη προς απόφαση ελληνικού δικαστηρίου που εκδόθηκε στην ίδια υπόθεση και αποτε-
+λεί δεδικασμένο για τους διαδίκους μεταξύ των οποίων εκδόθηκε η απόφαση του αλλοδαπού δικαστηρίου,
+5) δεν είναι αντίθετη προς τα χρηστά ήθη ή προς τη δημόσια τάξη και
+6) δεν πρόκειται για αλλοδαπή δικαστική απόφαση που έχει εκδοθεί στο πλαίσιο δικαστικής διαδικασίας 
+προς αποθάρρυνση της συμμετοχής του κοινού κατά φυσικού ή νομικού προσώπου.»
+2. Στην παρ. 3 του άρθρου 905 του Κώδικα Πολιτικής Δικονομίας, περί κήρυξης αλλοδαπού τίτλου ως εκτελε-
+στού, οι λέξεις «αριθ. 2 έως 5» αντικαθίστανται από τις λέξεις «αριθ. 2 έως 6» και η παρ. 3 διαμορφώνεται ως εξής:
+«3. Αν ο αλλοδαπός τίτλος είναι δικαστική απόφαση, για να κηρυχθεί εκτελεστός πρέπει να συντρέχουν 
+και οι όροι του άρθρου 323 αριθ. 2 έως 6.»
 
-## Source role and accepted scope
+<!-- Official Gazette PDF page 70 -->
+Άρθρο 111 
+Έναρξη ισχύος
+1. Με την επιφύλαξη της παρ. 2, η ισχύς του παρόντος νόμου αρχίζει από τη δημοσίευσή του στην Εφημε-
+ρίδα της Κυβερνήσεως, εκτός αν ορίζεται διαφορετικά στις επιμέρους διατάξεις του.
+2. Η ισχύς του Μέρους Α’, των άρθρων 45 έως 51, 59 και 61 αρχίζει από την 16η.9.2026.
+3. Η ισχύς του άρθρου 68 αρχίζει από την 1η.10.2026.
 
-Official Gazette text of Law 5326/2026 reviewed at Article 14 (Code of Civil Procedure Articles 323 and 905(3)), Article 32 (limited repeal of Law 3068/2002 Articles 1–5), and Article 111 commencement as applicable to those provisions.
-
-## Review findings
-
-The official Gazette masthead identifies Law 5326/2026, FEK A 125/4 August 2026; the Parliament docket independently identifies the title, issue and date. Article 14 adds CPC Article 323 point 6 for a foreign civil-court judgment issued in judicial proceedings to discourage public participation against a natural or legal person, and updates CPC Article 905(3) to refer to points 2–6. Article 323 remains subject to international conventions. Article 14 is within Part A; Article 111(2) sets Part A commencement at 16 September 2026. On 26 October 2026, Article 32 was also reviewed in the official PDF (page 17; printed page 7293). It repeals only Articles 1–5 of Law 3068/2002 and does not list or amend Article 15(3). Article 111(1) sets commencement on Gazette publication unless otherwise specified; Article 32 is not among the delayed provisions and therefore took effect on 4 August 2026. A full-PDF text search found the Law 3068/2002 reference in the Article 32 repeal clause and a general purpose description. This is a narrow cross-reference check, not a complete amendment history or consolidation of Article 15(3). The supplemental Article 24(2) currentness record is retained in the Monitor local-only archive at discovery/eudirective-public-data/GR/free-movement/pd106-article24-2-eu-family-card-refusal-remedy-review-2026-10-26.json (SHA-256 c3f0b48dc3acc4481e9fde7be9a0c0286032fa2cbcf94fb39e20debd8e6634b3).
-
-## Official source links
-
-- [National Printing House, Law 5326/2026, FEK A 125/4 August 2026 ](https://api.et.gr/apiFEK/1/2026/125/pdf)
-- [Hellenic Parliament docket ](https://www.hellenicparliament.gr/Nomothetiko-Ergo/Anazitisi-Nomothetikou-Ergou?law_id=31af910c-a4de-4b94-b877-b48e01736015)
-- [issue index ](https://search.et.gr/en/fek/?fekId=803407)
-
-## Candidate disposition
-
-This source-specific document is based on the already accepted official-link review. No source text is reproduced here. No candidate-conversion Markdown file was associated with this manifest entry in the archived candidate set reviewed on 26 October 2026; the absence of a local copy does not mean the official reference failed or that the underlying source is unavailable.
-
-## Use limits
-
-- Only Articles 14 and 32, Article 111 commencement, and the relevant Gazette identity were reviewed; the other provisions in the 72-page law were not reviewed.
-- This is a targeted anti-SLAPP recognition/enforcement rule, not a general family-judgment recognition framework. No family-specific application is inferred.
-- The current consolidated CPC Articles 323 and 905, applicable EU and treaty routes, family-judgment procedure and case-specific effect remain open.
-- The Article 14 amendment took effect on 16 September 2026; this dated amendment text does not establish the current consolidated wording.
-- The embedded text layer was reviewed and Gazette page/article anchors checked; visual page rendering was unavailable.
-- No separate attachment was within the reviewed scope. Greek is the controlling language. No local copy or republication permission is approved by this link review.
-- Article 32 establishes only that this law repealed Law 3068/2002 Articles 1–5, not Article 15(3). Other amendments and the current consolidated text of Article 15(3) remain outside this review.
-
-Use the live official route and confirm its identity, date, attachments and procedural scope before relying on it. Link acceptance does not establish a current consolidated text, topic coverage, or country completion.
+<!-- Official Gazette PDF page 71 -->
+ΕΦΗΜΕΡΙΔΑ ΤΗΣ ΚΥΒΕΡΝΗΣΕΩΣ
+E
+7347Τεύχος A’ 125/04.08.2026
+Παραγγέλλομε τη δημοσίευση του παρόντος στην Εφημερίδα της Κυβερνήσεως και την εκτέλεσή του ως 
+νόμου του Κράτους.
+Αθήνα, 4 Αυγούστου 2026
+Ο Πρόεδρος της Δημοκρατίας
+ΚΩΝΣΤΑΝΤΙΝΟΣ ΑΝ. ΤΑΣΟΥ ΛΑΣ
+Ο Αντιπρόεδρος της Κυβέρνησης και Υπουργός Επικρατείας
+ΚΩΝΣΤΑΝΤΙΝΟΣ ΧΑΤΖΗΔΑΚΗΣ
+Οι Υπουργοί
+Εθνικής Οικονομίας και Οικονομικών 
+ΚΥΡΙΑΚΟΣ ΠΙΕΡΡΑΚΑΚΗΣ
+Αναπληρωτής Υπουργός 
+Εθνικής Οικονομίας και Οικονομικών 
+ΝΙΚΟΛΑΟΣ ΠΑΠΑΘΑΝΑΣΗΣ
+Εξωτερικών 
+ΓΕΩΡΓΙΟΣ ΓΕΡΑΠΕΤΡΙΤΗΣ
+Εθνικής Άμυνας 
+ΝΙΚΟΛΑΟΣ - ΓΕΩΡΓΙΟΣ Σ. ΔΕΝΔΙΑΣ
+Εσωτερικών 
+ΘΕΟΔΩΡΟΣ ΛΙΒΑΝΙΟΣ
+Παιδείας, Θρησκευμάτων και 
+Αθλητισμού 
+ΣΟΦΙΑ ΖΑΧΑΡΑΚΗ
+Υγείας 
+ΣΠΥΡΙΔΩΝ - ΑΔΩΝΙΣ ΓΕΩΡΓΙΑΔΗΣ
+Αναπληρώτρια Υπουργός Υγείας 
+ΕΙΡΗΝΗ ΑΓ ΑΠΗΔΑΚΗ
+Προστασίας του Πολίτη 
+ΜΙΧΑΗΛ ΧΡΥΣΟΧΟΪΔΗΣ
+Υποδομών και Μεταφορών 
+ΧΡΙΣΤΟΣ ΔΗΜΑΣ
+Αναπληρωτής Υπουργός 
+Υποδομών και Μεταφορών 
+ΓΕΩΡΓΙΟΣ ΚΩΤΣΗΡΑΣ
+Περιβάλλοντος και Ενέργειας 
+ΣΤΑΥΡΟΣ Ν. ΠΑΠΑΣΤΑΥΡΟΥ
+Ανάπτυξης 
+ΠΑΝΑΓΙΩΤΗΣ ΘΕΟΔΩΡΙΚΑΚΟΣ
+Εργασίας και Κοινωνικής Ασφάλισης 
+ΝΙΚΗ ΚΕΡΑΜΕΩΣ
+Δικαιοσύνης 
+ΓΕΩΡΓΙΟΣ ΦΛΩΡΙΔΗΣ
+Κοινωνικής Συνοχής και Οικογένειας 
+ΔΟΜΝΑ - ΜΑΡΙΑ ΜΙΧΑΗΛΙΔΟΥ
+Αγροτικής Ανάπτυξης και Τροφίμων 
+ΜΑΡΓ ΑΡΙΤΗΣ ΣΧΟΙΝΑΣ
+Ναυτιλίας και Νησιωτικής Πολιτικής 
+ΒΑΣΙΛΕΙΟΣ ΚΙΚΙΛΙΑΣ
+Ψηφιακής Διακυβέρνησης 
+ΔΗΜΗΤΡΙΟΣ ΠΑΠΑΣΤΕΡΓΙΟΥ
+Υφυπουργός στον Πρωθυπουργό 
+ΠΑΥ ΛΟΣ ΜΑΡΙΝΑΚΗΣ
+Θεωρήθηκε και τέθηκε η Μεγάλη Σφραγίδα του Κράτους.
+Αθήνα, 4 Αυγούστου  2026
+Ο επί της Δικαιοσύνης Υπουργός
+ΓΕΩΡΓΙΟΣ ΦΛΩΡΙΔΗΣ

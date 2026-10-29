@@ -12,13 +12,13 @@ Accepted official route: [https://mitos.gov.gr/index.php/%CE%94%CE%94%3A%CE%9A%C
 
 Language/version: Greek; Page last modified 30 July 2026.
 
-Checked: 2026-10-25
+Checked: 2026-10-29
 
 Acceptance-register key: `gr-mitos-adoption-registration-after-judgment`
 
 Monitor manifest entry: `candidates/public-data/GR/candidate-manifest.json` (`gr-83`)
 
-Local-copy status: No source text is retained in this document. This is an external-only official reference.
+Local-copy status: A scoped Greek page-text excerpt is retained at [the MITOS procedure excerpt](gr-83-mitos-minor-adoption-registration-scoped-excerpt.md). The exact viewed text was archived locally as derived page text; no raw publisher response was captured.
 
 ## Source role and accepted scope
 
@@ -34,13 +34,13 @@ The current MITOS record describes a no-fee, non-digital application to the civi
 
 ## Candidate disposition
 
-This source-specific document is based on the already accepted official-link review. No source text is reproduced here. No candidate-conversion Markdown file was associated with this manifest entry in the archived candidate set reviewed on 26 October 2026; the absence of a local copy does not mean the official reference failed or that the underlying source is unavailable.
+This source-specific record is based on the official MITOS page reviewed on 29 October 2026. Its footer links to CC BY-SA 4.0; the scoped excerpt preserves attribution and the license link. The retained text is a dated snapshot, not a substitute for the live procedure record.
 
 ## Use limits
 
 - This is the civil-registry recording step after a final adoption decision, not the adoption proceedings themselves.
 - The record does not explain when or how a foreign adoption judgment is recognized or accepted for registry recording.
 - Its Civil Code and civil-status citations are dependency leads; this review does not establish a current consolidated statutory text.
-- No local copy or republication permission is accepted.
+- The page is dynamic; the retained excerpt records only the text observed on 29 October 2026 and has no raw publisher-response hash.
 
 Use the live official route and confirm its identity, date, attachments and procedural scope before relying on it. Link acceptance does not establish a current consolidated text, topic coverage, or country completion.
