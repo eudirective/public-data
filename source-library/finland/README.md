@@ -22,3 +22,6 @@ The two Finnish local legal texts are the Aliens Act 301/2004 and Administrative
 The accepted external references include official Finlex statutory pages, guidance, source-discovery and retrieval pages, court information, and service locators. Three English Finlex translations are accepted only as unofficial language aids: the Aliens Act translation tracks amendments through 389/2023; the Administrative Procedure Act translation through 893/2015; and the Administrative Judicial Procedure Act translation through 639/2021. These are not current English legal texts. Verify legal wording against the official Finnish or Swedish version and check current agency instructions where fees, deadlines or service channels may change.
 
 All unaccepted converted page and text artifacts are retained in the EU Source Update Monitor's indexed local-only archive. They do not establish topic coverage. The optional Finlex converters keep raw captures and regenerated review outputs in the shared temporary workspace when `PUBLIC_DATA_TEMP_ROOT` is set; they do not create pack-local candidate folders.
+
+
+The scoped Legalize-FI candidate check for the Aliens Act is recorded in [the Legalize crosswalk](references/legalize-crosswalk-2026-10-29.md). The official Finlex record remains the source; the current local conversion is still a review candidate.
