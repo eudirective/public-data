@@ -2,8 +2,8 @@
   "schema_version": "1.0.0",
   "jurisdiction": "LU",
   "review_date": "2026-10-29",
-  "candidate_record_count": 50,
-  "accepted_external_reference_count": 47,
+  "candidate_record_count": 51,
+  "accepted_external_reference_count": 48,
   "pending_external_reference_count": 1,
   "not_relied_upon_reference_count": 2,
   "accepted_local_copy_count": 10,
@@ -1856,6 +1856,42 @@
       "selection_record": {
         "archive_path": "candidates/source-promotion-targets-150-non-malta-2026-10-29/multi-jurisdiction/source-promotion-targets-150-non-malta-2026-10-29/candidate-manifest.json",
         "sequence": 103
+      }
+    },
+    {
+      "source_id": "lu-51",
+      "title": "Council PRADO LUX-HO-12001: Luxembourg family-member permanent residence document",
+      "url": "https://www.consilium.europa.eu/prado/en/LUX-HO-12001/index.html",
+      "publisher": "Council of the European Union, General Secretariat; record compiled from information supplied by Luxembourg document experts",
+      "language": "en",
+      "checked_on": "2026-10-29",
+      "version_or_scope": "PRADO document code LUX-HO-12001; generated 2023-09-22; currently marked valid; first issued 2021-06-01.",
+      "decision": "accepted_with_narrow_external_scope",
+      "acceptance_scope": "Official EU document-identification record for the stated Luxembourg residence document and its displayed metadata only. The record contains an unresolved category inconsistency; do not treat it as determining the holder's legal status.",
+      "reviewed_content": "PRADO title is CARTE DE SEJOUR PERMANENT; it describes a third-country family-member residence document and separately states the document certifies permanent residence for a Union citizen under Directive 2004/38/EC. Maximum validity is ten years, with no extension.",
+      "limitations": [
+        "The page's family-member description conflicts with its separate Union-citizen permanent-residence statement; source-level ambiguity is preserved, not resolved.",
+        "PRADO record generated 2023-09-22; current valid flag does not prove no newer series/design exists.",
+        "The entry describes a document record, not residence eligibility or validation of an individual's card.",
+        "Check the document category and applicable law with Luxembourg authorities before relying on it.",
+        "This accepts the EU external reference and an independent summary only; no document images or source-page text are reproduced."
+      ],
+      "evidence": {
+        "official_source_url": "https://www.consilium.europa.eu/prado/en/LUX-HO-12001/index.html",
+        "verified_content": "Council PRADO page reviewed for issuer, document code/title, stated purpose, validity status, first issue date, 10-year maximum validity, and its two differing category descriptions; generated 2023-09-22.",
+        "source_record_note": "Checked 2026-10-29; category ambiguity and design currency remain unresolved.",
+        "retrieval_status": "official_prado_record_reviewed_and_source_note_promoted"
+      },
+      "local_copy_accepted": false,
+      "local_copy_disposition": "promoted_independent_source_reference_note_not_verbatim_source_copy",
+      "source_document": {
+        "path": "documents/identity/lu-51-prado-permanent-residence-card.md",
+        "kind": "independent_source_reference_note",
+        "reproduces_source_text": false
+      },
+      "selection_record": {
+        "archive_path": "candidates/source-promotion-targets-150-non-malta-2026-10-29/multi-jurisdiction/source-promotion-targets-150-non-malta-2026-10-29/candidate-manifest.json",
+        "sequence": 104
       }
     }
   ],
