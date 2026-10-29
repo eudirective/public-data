@@ -1286,6 +1286,6 @@
       "reason": "Accepted gov.ie page was last updated 11 April 2025 and states 12 months, conflicting with current ISD guidance of up to six months. Retain only as a dated historical page; do not use the estimate as current."
     }
   ],
-  "completion_note": "All 51 source-candidate rows have a scoped external-reference acceptance; 11 eISB texts are accepted local copies. Topic coverage remains 0 and the national review remains incomplete. Link acceptance, source identity, exact local text, currentness, topic coverage, retrieval sustainability and country completion remain distinct.",
-  "count_note": "accepted_local_copies counts the 11 reviewed local legislative text files. accepted_external_references separately counts official link references (including sources with an accepted local copy). Neither count establishes topic coverage or country completion."
+  "completion_note": "All 51 source-candidate rows have scoped external-reference acceptance; 11 eISB texts and 8 maintained guidance/procedure summaries are accepted local source documents. Topic coverage remains 0 and national review remains incomplete. Link acceptance, source identity, local document scope, currentness, topic coverage, retrieval sustainability and country completion remain distinct.",
+  "count_note": "accepted_local_copies counts 19 reviewed local source documents: 11 legislative texts and 8 maintained guidance/procedure summaries. accepted_external_references separately counts official link references, including sources with accepted local documents. Neither count establishes topic coverage or country completion."
 }
