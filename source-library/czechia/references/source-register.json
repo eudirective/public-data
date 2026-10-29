@@ -2407,6 +2407,33 @@
       "external_reference_decision": "accepted_with_narrow_external_scope",
       "external_reference_scope": "Official e-Sbírka record for Act No. 117/1995 Coll., on State Social Support. The current consolidated version displayed is effective 1 September 2026. Link-only reference; no benefit eligibility conclusion or local copy is accepted.",
       "retrieval_method": "direct_official_esbirka_current_page_review"
+    },
+    {
+      "source_id": "cz-esbirka-2025-151",
+      "title": "Act No. 151/2025 Coll., on State Social Assistance",
+      "source_type": "national_legislation",
+      "language": "cs",
+      "url": "https://e-sbirka.gov.cz/sb/2025/151/2026-10-01",
+      "publisher_identifier": {
+        "publisher": "e-Sbírka, official Collection of Laws and International Treaties",
+        "official_url": "https://e-sbirka.gov.cz/sb/2025/151/2026-10-01"
+      },
+      "functional_relationship": "related_source",
+      "verification_status": "Official e-Sbírka current consolidated version checked 2026-10-29; version effective 2026-10-01. The act regulates the state social assistance benefit and its personal scope includes specified EU citizens, persons with EU equal-treatment rights and family members.",
+      "retrieved": false,
+      "accepted": false,
+      "retrieval_status": "external_reference_only",
+      "retrieval_shape": "official version-specific consolidated page link; no local copy added",
+      "topic_ids": [
+        "RIGHTS-02",
+        "RIGHTS-03"
+      ],
+      "scope_note": "Relevant to the Czech state social assistance benefit and its personal scope for certain EU citizens, equal-treatment beneficiaries and family members. This locator does not determine individual benefit eligibility, resolve EU coordination or equal-treatment questions, or establish complete topic coverage.",
+      "local_copy_status": "not_stored",
+      "external_reference_accepted": true,
+      "external_reference_decision": "accepted_with_narrow_external_scope",
+      "external_reference_scope": "Official e-Sbírka version of Act No. 151/2025 Coll. effective 1 October 2026. Link-only reference; no individual eligibility conclusion, provision-level EU-law analysis or local text copy is accepted.",
+      "retrieval_method": "direct_official_esbirka_current_page_review"
     }
   ],
   "retrieved_source_count": 46,
@@ -2437,9 +2464,9 @@
     "promotion_review_date": "2026-10-25"
   },
   "storage_layout_version": "country-pack-template-1",
-  "accepted_external_reference_count": 67,
+  "accepted_external_reference_count": 68,
   "local_copy_acceptance_date": "2026-10-25",
-  "source_record_count": 67,
+  "source_record_count": 68,
   "pending_review_artifact_count": 0,
   "retrieved_review_artifact_count": 0,
   "converted_review_artifact_count": 0,
@@ -2449,7 +2476,7 @@
     "repository_head_commit": "f88290efc3062a7b4a56105193238c269816b613",
     "repository_scope": "The repository README says it scans e-Sbírka act identifiers from 1945 onward and stores one SB-year-number Markdown file per instrument; the /cz directory listing was truncated at 1,000 entries and reported 17,436 more entries.",
     "purpose": "Secondary discovery and candidate-snapshot route only. The official e-Sbírka stable record and current version remain authoritative.",
-    "crosswalk": "All 17 statutory act identifiers already accepted as local copies in this Czechia pack were found as Legalize-CZ files. Three additional relevant acts (435/2004, 48/1997, and 117/1995) are now represented by direct official e-Sbírka links. Legalize-CZ's 429/2010 ELI URL points to 2020-02-01, which matches the current e-Sbírka consolidated version checked on 2026-10-29. For 326/1999, 435/2004, 48/1997 and 117/1995, Legalize-CZ file source URLs point to earlier effective versions than the current e-Sbírka versions checked here.",
+    "crosswalk": "All 17 statutory act identifiers already accepted as local copies in this Czechia pack were found as Legalize-CZ files. Three additional relevant acts (435/2004, 48/1997, and 117/1995) are now represented by direct official e-Sbírka links. Legalize-CZ's 429/2010 ELI URL points to 2020-02-01, which matches the current e-Sbírka consolidated version checked on 2026-10-29. For 326/1999, 435/2004, 48/1997 and 117/1995, Legalize-CZ file source URLs point to earlier effective versions than the current e-Sbírka versions checked here. Legalize-CZ file SB-2025-151.md was also identified; its ELI URL points to 2026-03-31, while e-Sbírka's current version checked 2026-10-29 is effective 2026-10-01. Act 151/2025 is now recorded as a link-only official reference; the Legalize snapshot was not used as current text.",
     "method_disposition": "Confirmed for locating dated candidate files and their official ELI locators; not accepted as a current-text retrieval method. Never infer freshness from the repository last_updated field alone. Compare the file's ELI/version metadata and complete content with the current official record before any local-copy consideration. No Legalize-CZ legal text was copied into this update.",
     "rights_and_attribution": "The repository LICENSE states the legislative content is official public-sector work treated as public domain under Czech Copyright Act No. 121/2000 Coll. §3(a); MIT applies to pipeline software. Attribute legal text to the issuing Czech law/e-Sbírka and separately identify Legalize-CZ as the Markdown transcription. Recheck notices before reuse.",
     "conversion_rules": [
@@ -2457,7 +2484,8 @@
       "Preserve Czech wording, headings, section/paragraph/article numbering, lists, notes and footnote anchors; do not translate, summarize, reorder, normalize or silently correct the Legalize transcription.",
       "Check all content from beginning to end against the same dated official e-Sbírka version, including article anchors, amendment notes and scope; record the publisher version separately from repository dates.",
       "Legalize-CZ omits images and binary attachments and replaces images with [image omitted]. Recover and inspect material attachments from e-Sbírka or mark the capture incomplete.",
-      "Hash raw and converted bytes, record both official publisher attribution and Legalize-CZ transcription attribution, and retain e-Sbírka's informative-text caveat and date-specific limitation."
+      "Hash raw and converted bytes, record both official publisher attribution and Legalize-CZ transcription attribution, and retain e-Sbírka's informative-text caveat and date-specific limitation.",
+      "For each candidate, compare the complete Legalize-CZ file with the exact current e-Sbírka version and treat differences in version dates as a stale-candidate warning; the SB-2025-151 candidate points to 2026-03-31, not the current 2026-10-01 version."
     ]
   }
 }
