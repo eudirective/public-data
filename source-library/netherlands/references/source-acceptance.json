@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
   "jurisdiction": "Netherlands",
-  "reviewed_on": "2026-10-21",
+  "reviewed_on": "2026-10-29",
   "source_review_manifest": "source-review-manifest.json",
   "status": "external_references_reviewed_with_narrow_scope; ten_local_texts_accepted; topic_coverage_incomplete",
   "source_count": 63,
@@ -165,5 +165,16 @@
     "nl-19",
     "nl-20",
     "nl-21"
+  ],
+  "maintained_reference_note_count": 1,
+  "maintained_reference_notes": [
+    {
+      "source_id": "nl-12",
+      "path": "source-library/netherlands/documents/legislation/nl-voorschrift-vreemdelingen-2000-maintained-2026-10-29.md",
+      "kind": "maintained_official_reference_note",
+      "reviewed_on": "2026-10-29",
+      "evidence": "Official Staatscourant 2026, 35717: 205th amendment, published 14 October 2026, effective 15 October; replaces Annex 1.",
+      "limits": "Current consolidated Wetten.nl edition and complete amendment history not verified because the page was inaccessible in this review; this note is not legal text."
+    }
   ]
 }
