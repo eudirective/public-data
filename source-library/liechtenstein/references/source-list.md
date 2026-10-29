@@ -36,3 +36,34 @@ The two EFTA-hosted PDFs are retained with their extracted text. The guidance en
 The crosswalk added **li-41**, EWR-RegV LR 170.511, as an official Lilex source record and an authored locator note. Legalize-li contains the matching Lilex-derived file `li/LGBl-2020-465.md`; it is recorded as a candidate-snapshot method, not as an accepted local text. The official Lilex record and the EWR Registry remain primary.
 
 For any future retained conversion, preserve German wording, legal identifiers, article numbering, footnotes, amendment/version metadata and linked material. Verify the whole text against the exact official Lilex version, and keep publication, effective, consolidation and repository dates distinct. Attribute Lilex and Legalize-li separately. The pipeline's MIT license does not grant database/interface reuse rights. No topic or country-completion status changes.
+
+<!-- source-identity-inventory:start -->
+## Source identity crosswalk
+
+Canonical rows: **22**; provisional unique IDs: **22**; unresolved entries: **0**. This crosswalk preserves catalogue IDs, links external-reference and local-artifact representations to a source identity, and keeps acceptance status separate.
+
+| Existing entry ID | Canonical source identity | Resolution | Representations | Catalogued statuses | Status record IDs |
+|---|---|---|---|---|---|
+| `li-01` | `li:url:941cac1bbd7d36dcb9e9` | resolved | official_reference/de/undated<br>official_reference/de/2026-10-25 | accepted_external_reference | — |
+| `li-04` | `li:url:d4725f5308e84afec2be` | resolved | official_reference/de/undated<br>official_reference/de/2026-10-25<br>official_reference/en/2026-10-25<br>official_reference/en/undated | accepted_external_reference | — |
+| `li-05` | `li:url:9267181e123cf8cc0c86` | resolved | local_artifact/unspecified/undated<br>official_reference/en/1999 | accepted_external_reference, accepted_local_copy | — |
+| `li-06` | `li:url:3c63ac49067d45b3ca2e` | resolved | local_artifact/unspecified/undated<br>official_reference/de/2021 | accepted_external_reference, accepted_local_copy | — |
+| `li-07` | `li:url:cdafa8be8b148d0a1e98` | resolved | local_artifact/unspecified/undated<br>official_reference/de/2026 | accepted_external_reference, accepted_local_copy | — |
+| `li-08` | `li:url:4fb8704368cb86580291` | resolved | local_artifact/unspecified/undated<br>official_reference/de/2024 | accepted_external_reference, accepted_local_copy | — |
+| `li-09` | `li:url:661576db2453109bba0f` | resolved | local_artifact/unspecified/undated<br>official_reference/de/2026 | accepted_external_reference, accepted_local_copy | — |
+| `li-10` | `li:url:353c4dbf8029359f5e34` | resolved | local_artifact/unspecified/undated<br>official_reference/de/2026 | accepted_external_reference, accepted_local_copy | — |
+| `li-11` | `li:url:90698eabc7aa3ae471db` | resolved | local_artifact/unspecified/undated<br>official_reference/de/2025 | accepted_external_reference, accepted_local_copy | — |
+| `li-12` | `li:url:aed48340875290b27da1` | resolved | official_reference/de/undated<br>official_reference/de/2026-10-29 | accepted_external_reference | — |
+| `li-13` | `li:url:f09799946115c9b249be` | resolved | local_artifact/unspecified/undated<br>official_reference/en/2026-10-19 | accepted_external_reference, accepted_local_copy | — |
+| `li-14` | `li:url:3aa1a3b33e17055bcb00` | resolved | local_artifact/unspecified/undated<br>official_reference/de/2026-10-19 | accepted_external_reference, accepted_local_copy | — |
+| `li-15` | `li:url:471f591443b02df1f6d7` | resolved | local_artifact/unspecified/undated<br>official_reference/de/2026-10-19 | accepted_external_reference, accepted_local_copy | — |
+| `li-16` | `li:url:64ab8873b629b94a10cf` | resolved | local_artifact/unspecified/undated<br>official_reference/de/2026-10-19 | accepted_external_reference, accepted_local_copy | — |
+| `li-17` | `li:url:7730ced76112dc359fca` | resolved | official_reference/de/2026-10-25<br>official_reference/de/undated | accepted_external_reference | — |
+| `li-27` | `li:url:fbe29e057e1fa2c75bc8` | resolved | official_reference/de/undated<br>official_reference/de/2026-10-29<br>official_reference/en/undated<br>official_reference/en/2026-10-29 | accepted_external_reference | — |
+| `li-30` | `li:url:4e497580941990f0eab9` | resolved | official_reference/de/undated | accepted_external_reference | — |
+| `li-32` | `li:url:b21a17407b55b85a3eaf` | resolved | official_reference/de/2026-10-25<br>official_reference/de/undated | accepted_external_reference | — |
+| `li-36` | `li:url:c4f46f61523b491732e3` | resolved | official_reference/de/2026-10-25<br>official_reference/de/undated | accepted_external_reference | — |
+| `li-37` | `li:url:0b5a3d91ae58853a10ea` | resolved | official_reference/de/undated<br>official_reference/de/2026-10-25 | accepted_external_reference | — |
+| `li-40` | `li:url:a2453db128668042ee17` | resolved | official_reference/de/2026-10-25<br>official_reference/de/undated | accepted_external_reference | — |
+| `li-41` | `li:url:7c122246f54144234905` | resolved | official_reference/de/undated<br>official_reference/de/2026-10-29 | accepted_external_reference, not_relied_upon | — |
+<!-- source-identity-inventory:end -->

@@ -7,5 +7,30 @@
   "official_hosts": [],
   "discovery_hosts": [],
   "discovery_surfaces": [],
-  "entries": []
+  "source_identity_inventory_schema_version": 1,
+  "source_identity_inventory_file": "references/source-identity-inventory.json",
+  "identity_entry_pointer": "references/candidate-manifest.json#/entries",
+  "entries": [
+    {
+      "id": "<existing-entry-id>",
+      "title": "<source title>",
+      "source_identity_id": "<canonical-source-identity>",
+      "identity_resolution_status": "resolved",
+      "identity_resolution_basis": "<stable publisher identifier or official URL>",
+      "status_categories": ["accepted_external_reference"],
+      "representation_ids": ["<source-identity>#url:<language>:<stable-key>"],
+      "representations": [
+        {
+          "representation_id": "<source-identity>#url:<language>:<stable-key>",
+          "kind": "official_reference",
+          "language": "<language>",
+          "edition": "<edition or undated>",
+          "url": "<official URL>",
+          "path": null,
+          "acceptance_status": ["accepted_external_reference"]
+        }
+      ],
+      "status_record_ids": []
+    }
+  ]
 }
