@@ -180,3 +180,10 @@ The Access to Information Act, NN 25/13, is now accepted as a local text-only do
 | `hr-mvep-vis-rights-form` | [MVEP VIS rights request form](https://mvep.gov.hr/UserDocsImages/2023/datoteke/Request%20for%20Access%2C%20Correction%2C%20Deletion%20of%20Personal%20Data%20processed%20in%20the%20VIS%20in%20Croatia.pdf) | Accepted unchanged, four-page bilingual PDF; text and file properties reviewed, page-image layout not independently inspected. Source and local SHA-256 `c756db56b0eb401030a6df61ae48a35d4391f9ff4f46006c475501bfcccf43c9`. Narrowly treated as an individual official administrative form, not an MVEP site-content license. |
 
 The four new native PDFs are unencrypted and contain no embedded files. The three MUP PDFs have fillable AcroForm fields; the MVEP PDF does not. Their page counts, searchable text, source-page links and source/local hashes were checked. The forms remain evidence of published request routes, not a complete account of rights, authority competence, local practice or remedies.
+
+
+## Legalize-HR candidate crosswalk and attribution (29 October 2026)
+
+A pinned comparison of all 46 Narodne novine legal records already in this register is documented in [legalize-crosswalk-2026-10-29.md](legalize-crosswalk-2026-10-29.md), with strict intake and formatting requirements in [legalize-conversion-rules.md](legalize-conversion-rules.md). The source of law remains the official Narodne novine record linked above. Legalize-HR is attributed only as a secondary candidate-transcription route at pinned commit 074cad05e2cc3d49ca9d2611258845ae218b4d68.
+
+The comparison verified 28 full-body matches and eight body differences; three candidate files are metadata-only, one expected file is absent, five candidate bodies have no local pack text to compare, and one candidate body has no captured official pack text. No Legalize text was copied or accepted. Its MIT notice is not treated as a blanket rights grant for underlying Croatian law; follow this pack’s existing source-specific reuse policy.
