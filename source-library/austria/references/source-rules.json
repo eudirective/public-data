@@ -413,6 +413,37 @@
         ]
       },
       "sustainability": "Conditional. Maintain only while Legalize publishes the same RIS-derived statute and a fresh full-section comparison confirms exact legal-body equivalence with current RIS. RIS remains authoritative; review on every snapshot update."
+    },
+    {
+      "id": "legalize-at-ris-section-v1",
+      "applies_to": "Only at-avg-17, at-avg-73, at-vwgvg-7, and at-vwgvg-8; no other section or full statute.",
+      "source_ids": [
+        "at-avg-17",
+        "at-avg-73",
+        "at-vwgvg-7",
+        "at-vwgvg-8"
+      ],
+      "retrieval": {
+        "entry_point": "Pinned Legalize Austria Markdown files AT-10005768.md and AT-20008255.md at commit 30b7ded29545baa1079dc2ab8b2eef9193df3f59. Use the corresponding RIS current-section page as authority.",
+        "identity_checks": [
+          "Verify the RIS statute number and requested section on the official publisher page.",
+          "Ignore Legalize status/version metadata; confirm the current official RIS section and compare its complete body.",
+          "Record the pinned Legalize file path and blob SHA."
+        ],
+        "change_signal": "Any Legalize blob change, RIS section change, differing duplicate section, or identity mismatch triggers review; do not infer whole-act equivalence."
+      },
+      "conversion": {
+        "selector": "Only the full body of §§ 17 and 73 for AVG or §§ 7 and 8 for VwGVG, identified by its section heading; exclude YAML/frontmatter and surrounding sections.",
+        "validation": [
+          "All four specified bodies were compared with accepted 19 October 2026 RIS captures and current RIS text checked 29 October 2026.",
+          "Compare heading, complete paragraphs, numbering, lists, notes and punctuation; formatting normalization is comparison-only.",
+          "Do not accept another section or a full act under this rule."
+        ],
+        "rule_ids": [
+          "legalize-at-ris-section-v1"
+        ]
+      },
+      "sustainability": "Conditional and section-scoped. Recheck each selected section against the current RIS publisher text after every Legalize update; RIS remains authoritative."
     }
   ],
   "discovery_surfaces": [
