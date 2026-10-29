@@ -1,7 +1,7 @@
 {
   "schema_version": "1.3.0",
   "jurisdiction": "CZ",
-  "as_of": "2026-10-28",
+  "as_of": "2026-10-29",
   "accepted_source_count": 41,
   "accepted_current_law_source_count": 17,
   "accepted_derived_text_count": 41,
@@ -2110,21 +2110,29 @@
     {
       "source_id": "cz-mzv-eu-family-visa-cs",
       "decision": "accepted_with_narrow_external_scope",
-      "accepted_role": "Czech-language central guidance for EU-family short-stay visa applicants. The page has a limited scope and does not establish mission-specific filing arrangements. The official page or decision was checked on 2026-10-21. The local copy remains unaccepted.",
+      "accepted_role": "Czech-language central guidance for EU-family short-stay visa applicants, reviewed directly in full substantive page form on 29 October 2026. A maintained, source-grounded Czech Markdown summary is recorded at documents/guidance/cz-mzv-eu-family-visa-cs.md. It does not establish mission-specific filing arrangements or country-level topic adequacy.",
       "not_accepted": [
-        "A local captured or converted artifact; no local copy was added.",
+        "A verbatim or mechanically converted local copy of the official webpage; the Markdown is a structured paraphrase.",
         "Country-level completeness or adequacy of the linked legal topic.",
-        "Application beyond the displayed language, source role, decision date and scope stated above."
+        "Mission-specific appointment, filing-channel, translation, or local evidence requirements.",
+        "Application beyond the displayed language, source role, and checked date stated above."
       ],
       "evidence": {
         "official_source_url": "https://mzv.gov.cz/jnp/cz/informace_pro_cizince/kratkodobe_vizum/rodinny_prislusnik_obcana_eu/index.html",
         "stable_record_url": "https://mzv.gov.cz/jnp/cz/informace_pro_cizince/kratkodobe_vizum/rodinny_prislusnik_obcana_eu/index.html",
-        "reviewed_on": "2026-10-21",
+        "reviewed_on": "2026-10-29",
         "publisher": "Czech Ministry of Foreign Affairs (MFA)",
         "language": "cs",
-        "version": "Guidance or service page reviewed as displayed 2026-10-21.",
-        "verified_locations": "Official MFA page reviewed 2026-10-21. Treat case-specific procedural wording as guidance and cross-check the special EU-family statutory route.",
-        "limits": "Czech-language central guidance for EU-family short-stay visa applicants. The page has a limited scope and does not establish mission-specific filing arrangements."
+        "version": "Official guidance page retrieved and reviewed directly on 2026-10-29; no page update date was displayed in the retrieved rendering.",
+        "verified_locations": "Complete substantive page from family-category definitions through cited legal sources and useful link was available in the official rendered page. Maintained paraphrase at documents/guidance/cz-mzv-eu-family-visa-cs.md.",
+        "limits": "Czech-language central guidance for EU-family short-stay visa applicants. The page has a limited scope and does not establish mission-specific filing arrangements.",
+        "retrieval_limit": "A structured paraphrase is retained; raw HTML and a verbatim converted page copy are not stored."
+      },
+      "maintained_summary": {
+        "path": "documents/guidance/cz-mzv-eu-family-visa-cs.md",
+        "status": "accepted_maintained_source_summary",
+        "checked_on": "2026-10-29",
+        "form": "complete substantive page summarized in Czech; not verbatim"
       }
     },
     {
@@ -2300,5 +2308,6 @@
       "effect": "The official e-Sbírka reference is accepted only as an instrument locator. Currentness and EU-family route applicability remain pending this targeted human review; other Czech source references and coverage work can proceed."
     }
   ],
-  "material_dependencies": "See references/source-dependencies.json. Select Czech statutory cross-references to EU instruments are recorded with their shared-core status or an explicit unresolved state. The national statutory wording is preserved."
+  "material_dependencies": "See references/source-dependencies.json. Select Czech statutory cross-references to EU instruments are recorded with their shared-core status or an explicit unresolved state. The national statutory wording is preserved.",
+  "maintained_source_summary_count": 1
 }
