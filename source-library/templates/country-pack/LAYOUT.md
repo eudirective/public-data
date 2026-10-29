@@ -13,6 +13,8 @@ Use this layout for a national source pack. Keep shared EU-language material, re
 │   └── procedure/
 ├── references/
 │   ├── candidate-manifest.json   # Canonical machine-readable source inventory
+│   ├── source-identity-inventory.json # Canonical identities and representation links
+│   ├── source-acceptance.json    # Acceptance states and identity links
 │   ├── source-rules.json         # Optional local-copy and monitoring rules
 │   ├── source-list.md            # Human-readable view of that inventory
 │   ├── capture-ledger.json       # Optional source metadata with local archive references
@@ -24,6 +26,8 @@ Use this layout for a national source pack. Keep shared EU-language material, re
 ```
 
 An EU-language corpus is optional. Keep one canonical local copy of each acquired representation in the shared library, organized by language, and reference it from country packs. `references/shared-core.json` lists source IDs through the library-level language index. Do not create a country-local `core/` directory. Put official representations that are not held locally in `external_only_references`, with the official URL, a null local path, and an explicit external-only state; do not create an empty language folder or imply that a link is a stored copy. For example:
+
+The candidate manifest preserves each existing entry ID and stores `source_identity_id` plus stable `representation_ids`. Link and local-copy records, languages, and editions are representations of a source; do not count them as separate sources. Acceptance and discovery statuses remain attached to the source identity. Keep the inventory sidecar and the managed crosswalk in `source-list.md` synchronized. Leave ambiguous identity matches explicit until evidence resolves them.
 
 ```text
 source-library/core/de/           # Canonical German EU-language corpus, shared by Austria, Germany, and others
@@ -52,4 +56,4 @@ source-library/core/de/           # Canonical German EU-language corpus, shared 
 
 ## Template files
 
-Copy and complete the adjacent `README.template.md`, `SKILL.template.md` (if applicable), and reference templates, including `source-rules.template.json` when source-specific acquisition rules are needed. Add `shared-core.template.json` when the pack references shared or external-only EU-language representations. Remove placeholders and unused empty folders before treating a pack as complete.
+Copy and complete the adjacent `README.template.md`, `SKILL.template.md` (if applicable), and reference templates, including the candidate manifest, source identity inventory, and acceptance link map. Use `source-rules.template.json` when source-specific acquisition rules are needed. Add `shared-core.template.json` when the pack references shared or external-only EU-language representations. Remove placeholders and unused empty folders before treating a pack as complete.
