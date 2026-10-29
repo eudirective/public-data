@@ -30,16 +30,16 @@
       "status": "usable_official_reference",
       "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
       "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070158/LEGISCTA000042800206",
-      "checked_on": "2026-10-21",
+      "checked_on": "2026-10-29",
       "language": "French",
-      "version_or_cutoff": "Légifrance page header displayed 'Version en vigueur au 09/09/2026' when checked on 2026-10-21; unpinned link follows the maintained section.",
+      "version_or_cutoff": "Légifrance page header displayed Version en vigueur au 09/09/2026 when rechecked 2026-10-29; unpinned link follows the maintained section. Article R. 281-5 displayed an amendment effective 2026-06-13.",
       "scope": "CESEDA regulatory Book II, Articles R. 210-1 to R. 286-2, including admission, visa, residence-card issuance, removal, and related regulatory provisions for EU citizens and family members.",
-      "reviewed_content": "The page identifies the official code and Book II regulatory scope. Article R. 221-2 states the relevant admission, residence-card visa exemption, and free/accelerated visa provisions; the section also contains residence-card application provisions.",
+      "reviewed_content": "Exact official page opened and its Book II identity, title, article range and version header confirmed. R. 221-2 visa-facilitation text was reviewed along with residence, removal and territorial-adaptation provisions; the local summary is separately recorded under records.",
       "limitations": [
         "French text only; this is not an English translation.",
         "The displayed version cutoff was 9 September 2026; recheck the page header for later versions when using it for a date-sensitive question.",
         "Some rules depend on the legislative CESEDA part, other procedural codes, EU instruments, or mission-specific practice.",
-        "This approval is for reference use only and grants no permission to copy or republish the page."
+        "The accepted local record is an independently authored attributed summary, not a verbatim copy or a legal text conversion."
       ]
     },
     "fr-cada-open-opinions-dataset": {
@@ -460,7 +460,7 @@
     ],
     "note": "Record a human-reviewed official link here when it supports a coverage layer without a retained local copy. This does not change the local accepted-source count."
   },
-  "accepted_source_count": 19,
+  "accepted_source_count": 20,
   "records": {
     "fr-service-public-eu-long-stay-f2651": {
       "status": "accepted_local_copy",
@@ -790,6 +790,24 @@
         "The field map summarizes rather than reproduces the complete declaration text; no application data is present."
       ],
       "source_document_kind": "project_authored_source_summary"
+    },
+    "fr-01-ceseda-book-ii-eu-citizens-and-family-members-(including-articles-l.233-1-o": {
+      "status": "accepted_maintained_source_summary",
+      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070158/LEGISCTA000042800206",
+      "checked_on": "2026-10-29",
+      "language": "French",
+      "version_or_cutoff": "Official page displayed Version en vigueur au 09/09/2026; Article R. 281-5 separately displayed an amendment effective 2026-06-13.",
+      "local_path": "documents/legislation/fr-ceseda-book-ii-regulatory-eu-citizens-family.md",
+      "scope": "Maintained summary and section map for regulatory CESEDA Book II, Articles R. 210-1 to R. 286-2, including entry and visa, residence, removal and territorial adaptations.",
+      "reviewed_content": "Exact official section opened. Reviewed its title, article range, version header and table of contents, and operative content in admission/visa, residence, removal and territorial-adaptation portions. Article R. 221-2 covers visa facilitation for qualifying third-country family members; Title III includes residence and document rules; Title VIII contains territory-specific adaptations.",
+      "reuse": "Independently authored summary with publisher and source attribution. DILA identifies Légifrance legal data as available for free reuse; its official open-data/API information applies the Licence Ouverte 2.0 to stable API data. No verbatim code text is reproduced.",
+      "limitations": [
+        "The local file is a summary, not a verbatim statutory copy or English translation.",
+        "The legislative Book II and cross-referenced EU instruments are needed to establish substantive eligibility and legal effect.",
+        "The page is unpinned; recheck the version header and article-level effective dates before date-sensitive use.",
+        "Territorial adaptations and individual article amendments require provision-level review."
+      ]
     }
   }
 }
