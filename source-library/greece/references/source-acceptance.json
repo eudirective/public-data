@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 222 official-reference reviews approve use of identified official links within their recorded scopes. Seventy-three accepted source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), and six MITOS procedure-page copies under their displayed CC BY-SA 4.0 license. These retained files are not consolidated laws unless expressly stated. One hundred forty-nine distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. No automated retrieval rule is accepted. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 222 official-reference reviews approve use of identified official links within their recorded scopes. Seventy-four accepted source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), and seven MITOS procedure-page copies under their displayed CC BY-SA 4.0 license. These retained files are not consolidated laws unless expressly stated. One hundred forty-eight distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. No automated retrieval rule is accepted. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -258,15 +258,15 @@
       "status": "usable_official_reference",
       "publisher": "National Registry of Administrative Public Services (MITOS), Greece",
       "url": "https://mitos.gov.gr/index.php/%CE%94%CE%94:%CE%A0%CF%81%CF%8C%CF%83%CE%B2%CE%B1%CF%83%CE%B7_%CF%83%CF%84%CE%B1_%CE%B4%CE%B7%CE%BC%CF%8C%CF%83%CE%B9%CE%B1_%CE%AD%CE%B3%CE%B3%CF%81%CE%B1%CF%86%CE%B1",
-      "checked_on": "2026-10-25",
+      "checked_on": "2026-10-29",
       "language": "Greek",
-      "version_or_cutoff": "Page last updated 2026-10-14.",
+      "version_or_cutoff": "MITOS page update 14 October 2026; revision 448467 last edited 15 October 2026. Current page and archived capture identify the same revision.",
       "scope": "Greek administrative procedure for requesting access to public documents.",
-      "reviewed_content": "The procedure describes written, in-person, digital, or email requests; a 20-day period; and listed administrative remedies and silent-refusal consequences.",
+      "reviewed_content": "The official Greek MITOS page and current revision were checked 29 October 2026. Its page UUID/service ID are 4f5d9ace-230a-4a72-b141-306ead89d0a8 / 459234. The page describes access requests by natural and legal persons, a displayed 20-day period, request channels, access methods, privacy and public-interest limits, silent refusal and remedies. It cites Law 2690/1999 Article 5, as replaced by Law 5143/2024 Article 59, ministerial decisions 21797/2024 and 2601/2025, and Circular ΔΙΔΔΔΗ/Φ.22/21821/2024. The complete body capture matches current revision 448467, including legal references, four procedure steps and the CC BY-SA footer.",
       "limitations": [
         "This procedure page is not a current consolidated text of Law 2690/1999 or Law 5143/2024.",
         "Check legal dependencies for the particular request.",
-        "No local copy or republication permission is accepted."
+        "The full page-body text is retained, but MITOS structured fields and table relationships are flattened in the text extraction. The page's 20-day period and listed channels are not independently confirmed for every public authority; the source itself records limits based on applicable systems and intellectual-property rights."
       ],
       "source_list_id": "gr-35"
     },
@@ -3981,8 +3981,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 73,
-    "note": "Seventy-three source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), and six MITOS procedure-page copies under their displayed CC BY-SA 4.0 license. The MITOS copies are not legislation. One hundred forty-nine distinct accepted references remain without a local source-text copy; gr-06 is a duplicate locator for gr-05. Copy acceptance does not establish consolidated current law, topic coverage or country completion."
+    "accepted_source_count": 74,
+    "note": "Seventy-four source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), and seven MITOS procedure-page copies under their displayed CC BY-SA 4.0 license. The MITOS copies are not legislation. One hundred forty-eight distinct accepted references remain without a local source-text copy; gr-06 is a duplicate locator for gr-05. Copy acceptance does not establish consolidated current law, topic coverage or country completion."
   },
   "whole_portal_review_offers": [
     {
@@ -5249,6 +5249,26 @@
       "version_or_cutoff": "Revision 78880; last edited 11 September 2026; directly checked 29 October 2026.",
       "monitor_archive_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-17.md",
       "monitor_archive_sha256": "f4efd4e1caa9aa566fdb4823da5dd70b117f31b4a20d9aeaf500bdee376eb319"
+    },
+    "gr-mitos-gr-35": {
+      "decision": "accepted_local_official_page_copy",
+      "path": "source-library/greece/documents/procedure/gr-35-mitos-access-to-public-documents-locator.md",
+      "sha256": "6b964d6ad437b1360e1d9b8c6d4f609c424d3333e2a945ddfc9297518077b347",
+      "bytes": 19183,
+      "source_url": "https://mitos.gov.gr/index.php/%CE%94%CE%94:%CE%A0%CF%81%CF%8C%CF%83%CE%B2%CE%B1%CF%83%CE%B7_%CF%83%CF%84%CE%B1_%CE%B4%CE%B7%CE%BC%CF%8C%CF%83%CE%B9%CE%B1_%CE%AD%CE%B3%CE%B3%CF%81%CE%B1%CF%86%CE%B1",
+      "captured_candidate_url": "https://mitos.gov.gr/index.php/%CE%94%CE%94:%CE%A0%CF%81%CF%8C%CF%83%CE%B2%CE%B1%CF%83%CE%B7_%CF%83%CF%84%CE%B1_%CE%B4%CE%B7%CE%BC%CF%8C%CF%83%CE%B9%CE%B1_%CE%AD%CE%B3%CE%B3%CF%81%CE%B1%CF%86%CE%B1",
+      "source_response_sha256": "1372de153957fbe7d917a0b029e65944c1993f571bff9c62e48eebc0e524ceb6",
+      "archived_candidate_sha256": "ca77dad46be4cebb85d61a37ee6021d2615535fcf184ea2a1e62d53224c54430",
+      "archived_candidate_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-35.md",
+      "conversion_method": "Complete Greek HTML page-body text extraction, normalized as Markdown with attribution, source metadata and limits; 9,436 source-body characters. Matched to live revision 448467.",
+      "reviewed_on": "2026-10-29",
+      "semantic_check": "Title, page UUID/service ID, update date, Greek language, procedure scope, filing channels, 20-day period, access routes, limitations, remedies, current legal references, four process steps and footer license were reviewed against live official revision 448467. The complete body extraction includes content through the license/footer; structured fields are flattened.",
+      "reuse_basis": "The MITOS footer displays CC BY-SA 4.0 and states that content is available under Creative Commons Attribution-ShareAlike unless otherwise noted. Attribution, official URL, revision identifier and license link are preserved. This does not authorize automated retrieval.",
+      "limitations": "Dated administrative procedure snapshot, not consolidated current law or evidence of live operation for every authority. The page itself says the route depends on an authority's information system and preserves intellectual-property limitations. Full body text is retained, but table/field relationships are flattened.",
+      "scope": "Complete Greek body text for MITOS procedure record 459234 on public-document access requests.",
+      "version_or_cutoff": "Revision 448467; page update 14 October 2026; revision last edited 15 October 2026; checked 29 October 2026.",
+      "monitor_archive_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-35.md",
+      "monitor_archive_sha256": "ca77dad46be4cebb85d61a37ee6021d2615535fcf184ea2a1e62d53224c54430"
     }
   }
 }
