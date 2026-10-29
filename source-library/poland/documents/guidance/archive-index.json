@@ -28,6 +28,15 @@
       "sha256": "901d8f5d197b8593bc219f2f17ddb7ad7d04791d2a7cad28bc238c84265993ba",
       "archived_at": "2026-10-29T06:55:01.312Z",
       "superseded_by_sha256": "c7f7226c8007054d96d9d96f806e1317386972871b7a4615250643323979fd3b"
+    },
+    {
+      "source_id": "pl-41",
+      "official_url": "https://www.gov.pl/web/kazachstan/malzonkowie-i-dzieci-obywateli-panstw-ue",
+      "current_path": "poland/documents/guidance/pl-41-kazakhstan-mission-guidance-locator.md",
+      "archive_path": "poland/documents/guidance/archive/pl-41-kazakhstan-mission-guidance-locator/b1e91c48844b134a4cb5956095329a09a6e738bc8ae90d9b4b99bf8b6631558d.md",
+      "sha256": "b1e91c48844b134a4cb5956095329a09a6e738bc8ae90d9b4b99bf8b6631558d",
+      "archived_at": "2026-10-29T06:57:57.194Z",
+      "superseded_by_sha256": "fa98d8766afd51ff8e9a6f76b7dc9975dae428f9742632813b920f8d651c99f6"
     }
   ]
 }
