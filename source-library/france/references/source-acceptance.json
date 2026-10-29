@@ -5,7 +5,7 @@
   "acceptance_is_distinct_from_coverage": true,
   "policy": {
     "official_reference_use": "A human-reviewed official link is usable within its recorded scope after checking publisher, source identity, language, displayed date/version or cutoff, relevant content, and visible limits. No local capture, conversion, hash, or replay is required for ordinary link use.",
-    "local_artifact_acceptance": "Fourteen accepted local source texts are recorded: eight Service Public/DILA guidance, procedure-directory and administration-directory records; four DILA LEGI statutory texts under Licence Ouverte 2.0; one CNIL guidance text reproduction under CC BY-ND 4.0 FR; and one Conseil d’État court-source guide under its public-information reuse terms. Three additional project-authored official-source summaries are also accepted. Each copy has its own source identity, version, extraction, reuse and limitation record.",
+    "local_artifact_acceptance": "Fourteen accepted local source texts are recorded: eight Service Public/DILA guidance, procedure-directory and administration-directory records; four DILA LEGI statutory texts under Licence Ouverte 2.0; one CNIL guidance text reproduction under CC BY-ND 4.0 FR; and one Conseil d’État court-source guide under its public-information reuse terms. Four additional project-authored official-source summaries are also accepted. Each copy has its own source identity, version, extraction, reuse and limitation record.",
     "coverage": "Usable official references do not by themselves establish adequate topic coverage or country completion."
   },
   "official_reference_reviews": {
@@ -298,15 +298,15 @@
       "status": "usable_official_reference",
       "publisher": "Ministry for Europe and Foreign Affairs / France-Visas",
       "url": "https://www.france-visas.gouv.fr/famille-de-francais",
-      "checked_on": "2026-10-24",
+      "checked_on": "2026-10-29",
       "language": "French",
-      "version_or_cutoff": "Live guidance page checked 2026-10-24; no page publication or review date displayed.",
+      "version_or_cutoff": "Dynamic live guidance page checked on 2026-10-29; no publication or review date displayed.",
       "scope": "France-Visas guidance for family members of French citizens, organized by relationship and intended stay duration.",
-      "reviewed_content": "The live page describes separate spouse, child, ascendant, and parent-of-French-minor routes and directs applicants to the visa assistant for supporting documents.",
+      "reviewed_content": "All four sections for spouses, children, ascendants, and foreign parents of French minors were checked, including stated evidence categories, stay-duration branches, visa routes, and visa-assistant directions.",
       "limitations": [
-        "Dynamic guidance for family of French citizens; it is distinct from the EU-citizen family route and does not define that route.",
-        "Mission-specific requirements and substantive legal eligibility require separate official sources.",
-        "Link-only reference; no local copy and no application interaction."
+        "Dynamic public guidance; recheck the live page, visa assistant and mission instructions.",
+        "This is distinct from free-movement family routes and does not alone establish legal eligibility.",
+        "A project-authored local source summary is separately accepted under records; no page text or website design is reproduced."
       ]
     },
     "fr-france-visas-short-stay": {
@@ -445,7 +445,7 @@
     ],
     "note": "Record a human-reviewed official link here when it supports a coverage layer without a retained local copy. This does not change the local accepted-source count."
   },
-  "accepted_source_count": 17,
+  "accepted_source_count": 18,
   "records": {
     "fr-service-public-eu-long-stay-f2651": {
       "status": "accepted_local_copy",
@@ -739,6 +739,24 @@
         "The unpinned official Légifrance section is authoritative for later versions; recheck before date-sensitive use."
       ],
       "source_document_kind": "official_statutory_text_copy"
+    },
+    "fr-france-visas-family-french": {
+      "status": "accepted_local_copy",
+      "publisher": "Ministry for Europe and Foreign Affairs / France-Visas",
+      "url": "https://www.france-visas.gouv.fr/famille-de-francais",
+      "checked_on": "2026-10-29",
+      "language": "English summary of French source",
+      "version_or_cutoff": "No publication or review date displayed; live French page checked on 2026-10-29.",
+      "local_path": "documents/guidance/fr-france-visas-family-french.md",
+      "scope": "Independently worded summary of the four France-Visas family-of-French-citizen routes: spouse, child, ascendant, and foreign parent of a French minor.",
+      "reviewed_content": "All four current page sections, duration branches, principal evidence categories, visa routes, and directions to the online visa assistant were reviewed.",
+      "reuse": "The France-Visas legal notice describes qualifying public information as reusable under the applicable framework but restricts commercial/promotional reproduction and requires authorization for website reproduction. This local file is an attributed, independently worded summary, with no copied page wording, site design, imagery, logos, or third-party content. Notice checked at https://www.france-visas.gouv.fr/web/france-visas/mentions-legales; this record does not determine every downstream-use question.",
+      "limitations": [
+        "Summary, not verbatim page text or a complete account of every supporting-document requirement.",
+        "Dynamic route with no displayed page version date; verify current visa-assistant results and mission instructions.",
+        "This family-of-French-citizen route is distinct from the EU/EEA/Swiss free-movement family route."
+      ],
+      "source_document_kind": "project_authored_source_summary"
     }
   }
 }
