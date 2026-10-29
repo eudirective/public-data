@@ -444,6 +444,66 @@
         "Verify the current edition and consular recipient before use.",
         "No completed applicant data is stored."
       ]
+    },
+    "fr-ta-nantes-2105915-2105917-2021": {
+      "status": "usable_official_reference",
+      "publisher": "Tribunal administratif de Nantes / Conseil d’État administrative courts",
+      "url": "https://nantes.tribunal-administratif.fr/Media/mediatheque-ta-nantes/import/2105915-et-s.",
+      "checked_on": "2026-10-29",
+      "language": "French",
+      "version_or_cutoff": "Judgment nos. 2105915, 2105916 and 2105917, read 29 November 2021.",
+      "scope": "Three joined first-instance cases concerning refusal of short-stay visas for a Pakistani spouse and children of a Luxembourg EU citizen residing in France.",
+      "reviewed_content": "Official decision PDF and landing page reviewed. The judgment annulled the CRRV decision and ordered visa issuance in the particular circumstances.",
+      "limitations": [
+        "Case-specific first-instance judgment, not a general account of all EU-family visa criteria or later law.",
+        "Pre-recodification references; read with current CESEDA and applicable EU law.",
+        "Link only; no local PDF copy."
+      ]
+    },
+    "fr-france-visas-submission-location-directory": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry for Europe and Foreign Affairs / France-Visas",
+      "url": "https://www.france-visas.gouv.fr/en/lieu-de-depot",
+      "checked_on": "2026-10-29",
+      "language": "English interface; country-specific content may vary by language",
+      "version_or_cutoff": "Dynamic country-selection directory; no page version date displayed.",
+      "scope": "Official entry point for identifying where an applicant may submit a France visa application, with links to appointment, special-case, rates, payment and contact information.",
+      "reviewed_content": "Live official page opened and reviewed on 2026-10-29; country-selection structure and linked categories confirmed.",
+      "limitations": [
+        "Operational directory, not substantive visa law or a complete account of requirements.",
+        "Review country-specific child pages and mission instructions for each route.",
+        "Dynamic content; recheck before use. No application submitted and no applicant data accessed."
+      ]
+    },
+    "fr-prefecture-police-paris-prolongation-droit-au-sejour": {
+      "status": "usable_official_reference",
+      "publisher": "Préfecture de Police de Paris",
+      "url": "https://www.prefecturedepolice.interieur.gouv.fr/demarches/prolongation_droit_au_sejour",
+      "checked_on": "2026-10-29",
+      "language": "French",
+      "version_or_cutoff": "No page version date verified; official-host indexed content was available, but direct access required JavaScript/cookies.",
+      "scope": "Paris-resident operational information for specified extensions of stay and related electronic receipts/appointment steps.",
+      "reviewed_content": "Official-host indexed page text reviewed. It states a Paris-only territorial scope and directs residents of other departments to their own prefecture.",
+      "limitations": [
+        "Direct current page content could not be independently opened on the review date; treat as a last-known official route and verify live.",
+        "Limited to described extension/receipt procedures; it does not establish the process for an EU-family residence card.",
+        "Dynamic operational guidance, not primary law; link only."
+      ]
+    },
+    "fr-prefecture-police-2023-01288-immigration-familiale": {
+      "status": "usable_official_reference",
+      "publisher": "Préfecture de Police de Paris / Préfecture de la région Île-de-France",
+      "url": "https://www.prefectures-regions.gouv.fr/ile-de-france/irecontenu/telechargement/110298/828146/file/recueil-75-2023-604-recueil-des-actes-administratifs-special%20du%2023.10.2023.pdf",
+      "checked_on": "2026-10-29",
+      "language": "French",
+      "version_or_cutoff": "Order no. 2023-01288 in RAA no. 75-2023-604, published 23 October 2023; later organization/delegation acts exist, including order no. 2026-00083 of 19 January 2026.",
+      "scope": "Historical official organizational reference: Article 11 assigned specified residence-law matters concerning EU citizens and family members to the then-named division de l’immigration familiale.",
+      "reviewed_content": "Official RAA PDF reviewed for publication, order identifier and Article 11. Later 2026 official delegation material identifies the division but is not treated as proof that every substantive competence in the 2023 order remains current.",
+      "limitations": [
+        "Historical organizational act; do not rely on it as the current allocation without checking subsequent amending or replacement acts.",
+        "Documents internal assignment, not substantive residence rights or individual outcomes.",
+        "Link-only reference; verify current RAA and prefecture organization before date-sensitive use."
+      ]
     }
   },
   "official_reference_review_schema": {
