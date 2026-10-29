@@ -1,6 +1,6 @@
 # Liechtenstein national-source review
 
-**Review date:** 2026-10-29. **Status:** 21 accepted official references (11 accepted local legal-text copies and 10 link-only references); 1 duplicate lead dispositioned; 18 leads remain open; 0 topics accepted; country review incomplete.
+**Review date:** 2026-10-29. **Status:** 22 accepted official references (11 accepted local legal-text copies and 11 link-only references); 1 duplicate lead dispositioned; 18 leads remain open; 0 topics accepted; country review incomplete.
 
 ## Reviewed sources
 
@@ -21,3 +21,6 @@ Lilex consolidations are informational and have no legal effect; signed State La
 The 40-lead inventory now records 19 accepted references, one duplicate disposition (`li-03` represented by `li-01`), and 20 open leads retained locally. Source acceptance, local-copy status, topic coverage, dependencies, freshness and country completion remain separate. No topic is accepted and Liechtenstein review remains incomplete.
 
 See the [reviewed source list](references/source-list.md), [source register](references/source-register.json), [acceptance record](references/source-acceptance.json), and [sustainability assessment](references/sustainability-assessment.md).
+
+
+The Legalize-li crosswalk added the official EWR-RegV (LR 170.511) locator and an authored source note. Legalize-li's `LGBl-2020-465.md` is recorded only as an individually retrieved candidate snapshot; it is not accepted statutory text. Source attribution and German conversion rules are documented in the source list. Counts remain 11 accepted local legal-text copies, 11 link-only references, 0 accepted topics, and an incomplete country review.
