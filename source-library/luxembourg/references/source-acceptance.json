@@ -1355,21 +1355,22 @@
       "url": "https://legilux.public.lu/eli/etat/leg/loi/1978/12/01/n1/jo",
       "publisher": "legilux.public.lu",
       "language": "fr",
-      "checked_on": "2026-10-21",
-      "version_or_scope": "Original promulgated act; current consolidated edition and later amendments were not checked.",
+      "checked_on": "2026-10-29",
+      "version_or_scope": "Original promulgated act, Mémorial A No. 87/1978, p. 2486, in force from 1978-12-31. Current consolidation and later amendment status were not established; Legilux page requires JavaScript.",
       "decision": "accepted_with_narrow_external_scope",
       "acceptance_scope": "Use the official external reference for Law of 1 December 1978 on non-contentious administrative procedure only, within its recorded publisher, language, date/version and stated subject. Original publication only; current consolidation and amendments remain open.",
-      "reviewed_content": "Official ELI identifies the promulgated 1978 administrative-procedure law.",
+      "reviewed_content": "Official Legilux ELI identifies the promulgated act. Official Ombudsman and government pages corroborate its identity, subject and relationship to the 8 June 1979 implementing regulation. Article 4 is quoted in an official Ministry of Home Affairs circular.",
       "limitations": [
-        "Use the official external reference for Law of 1 December 1978 on non-contentious administrative procedure only, within its recorded publisher, language, date/version and stated subject. Original publication only; current consolidation and amendments remain open.",
-        "This accepts the external link only; it does not accept the saved conversion, establish topic adequacy, or complete Luxembourg’s review.",
-        "No copying or republication permission is inferred."
+        "Acceptance covers the original promulgated act as an external reference; the current consolidated text and post-1978 amendment status remain unverified.",
+        "The Legilux record page requires a JavaScript-capable browser; the act body was not exposed by this retrieval view.",
+        "Consult the implementing regulation and any special procedure; the general rules may yield to procedures providing at least equivalent safeguards.",
+        "This accepts the external link and an independently authored source-reference note only; no legal-text reuse permission is inferred."
       ],
       "evidence": {
         "official_source_url": "https://legilux.public.lu/eli/etat/leg/loi/1978/12/01/n1/jo",
-        "verified_content": "Official ELI identifies the promulgated 1978 administrative-procedure law.",
-        "source_record_note": "Original publication only; current consolidation and amendments remain open.",
-        "retrieval_status": "not_retrieved_link_review_only"
+        "verified_content": "Legilux identifies the original act. Official Ombudsman and government commissioner pages corroborate identity and relation to the 1979 implementing regulation; the Ministry of Home Affairs quotes Article 4.",
+        "source_record_note": "Checked 2026-10-29. Current consolidation and amendment status not established.",
+        "retrieval_status": "official_identity_corroborated_body_not_retrieved"
       },
       "local_copy_accepted": false,
       "archived_candidate_record": {
@@ -1377,7 +1378,12 @@
         "id": "lu-43",
         "manifest_sha256": "493ad79375983bb78217e36ede350f0be319a35b7f604636d298c43912054a02"
       },
-      "local_copy_disposition": "not_promoted_reference_or_candidate_only"
+      "local_copy_disposition": "promoted_independent_source_reference_note_not_verbatim_source_copy",
+      "source_document": {
+        "path": "documents/legislation/lu-43-law-non-contentious-administrative-procedure-reference.md",
+        "kind": "independent_source_reference_note",
+        "reproduces_source_text": false
+      }
     },
     {
       "source_id": "lu-44",
