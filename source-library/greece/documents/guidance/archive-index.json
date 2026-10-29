@@ -127,6 +127,15 @@
       "sha256": "21eba2ed00adc166958032ce32ed4a6ddd410d0e0fee86fa30f06195eafb1d01",
       "archived_at": "2026-10-28T22:27:21.689Z",
       "superseded_by_sha256": "07c3e148578648c2cf0b2f6176c039971c94b4c45e6746a73687119d1675f405"
+    },
+    {
+      "source_id": "gr-56",
+      "official_url": "https://search.et.gr/el/oroi-xrisis/",
+      "current_path": "greece/documents/guidance/gr-56-national-printing-house-website-terms-of-use-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-56-national-printing-house-website-terms-of-use-locator/8bdf401e7d6d809bba3f46049bdc49091af683b7951e206c99025e2d504e0e60.md",
+      "sha256": "8bdf401e7d6d809bba3f46049bdc49091af683b7951e206c99025e2d504e0e60",
+      "archived_at": "2026-10-29T00:38:42.748Z",
+      "superseded_by_sha256": "fe75fdd3683fccf79dc69b7f613608718614b0d5cede109bcae8c76d87529dee"
     }
   ]
 }
