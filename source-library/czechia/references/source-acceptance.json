@@ -2260,22 +2260,29 @@
     {
       "source_id": "cz-mzv-local-consular-competence",
       "decision": "accepted_with_narrow_external_scope",
-      "accepted_role": "Official Czech MFA page on consular locality for long-term visa and long-term/permanent residence applications, checked 2026-10-28. The page describes specified exceptions to ordinary local competence and cites Acts 326/1999 and 150/2017 and Decree 429/2010.",
+      "accepted_role": "Official Czech MFA page on consular locality for long-term visa and long-term/permanent residence applications, directly reviewed in full substantive form on 29 October 2026. A maintained Czech Markdown summary is recorded at documents/guidance/cz-mzv-local-consular-competence.md. The source does not establish short-stay rules or mission-specific filing practices.",
       "not_accepted": [
         "Short-stay Schengen or EU-family visa application rules.",
         "Mission-specific appointments, local checklists, outsourcing or practices.",
-        "A local captured or converted artifact.",
+        "A verbatim or mechanically converted local webpage copy; the retained Markdown is a structured paraphrase.",
         "Topic adequacy or country-level completeness."
       ],
       "evidence": {
         "official_source_url": "https://mzv.gov.cz/jnp/cz/informace_pro_cizince/kde_podat_zadost_o_vizum/dlouhodobe_vizum_dlouhodoby_pobyt_a.html",
         "stable_record_url": "https://mzv.gov.cz/jnp/cz/informace_pro_cizince/kde_podat_zadost_o_vizum/dlouhodobe_vizum_dlouhodoby_pobyt_a.html",
-        "reviewed_on": "2026-10-28",
+        "reviewed_on": "2026-10-29",
         "publisher": "Ministry of Foreign Affairs of the Czech Republic",
         "language": "cs",
-        "version": "Official page as reviewed 2026-10-28; no publication/update date visible.",
-        "verified_locations": "Page heading and body reviewed. The body describes long-term visa, long-term residence and permanent residence locality rules and cites Act 326/1999 § 169g, Act 150/2017 § 4, and Decree 429/2010.",
-        "limits": "The accepted scope is limited to the stated long-term visa and long-term/permanent residence guidance. Do not infer short-stay Schengen or EU-family visa rules or mission-specific practice; no local copy was accepted."
+        "version": "Official page retrieved and reviewed directly on 2026-10-29; no publication or update date was visible.",
+        "verified_locations": "Complete substantive page from title through the legal-source list was available in the official rendered page. Maintained paraphrase at documents/guidance/cz-mzv-local-consular-competence.md.",
+        "limits": "The accepted scope is limited to the stated long-term visa and long-term/permanent residence guidance. Do not infer short-stay Schengen or EU-family visa rules or mission-specific practice; no local copy was accepted.",
+        "retrieval_limit": "The raw HTML and a verbatim converted webpage are not retained; the substantive page is represented by a structured paraphrase."
+      },
+      "maintained_summary": {
+        "path": "documents/guidance/cz-mzv-local-consular-competence.md",
+        "status": "accepted_maintained_source_summary",
+        "checked_on": "2026-10-29",
+        "form": "complete substantive page summarized in Czech; not verbatim"
       }
     }
   ],
@@ -2309,5 +2316,5 @@
     }
   ],
   "material_dependencies": "See references/source-dependencies.json. Select Czech statutory cross-references to EU instruments are recorded with their shared-core status or an explicit unresolved state. The national statutory wording is preserved.",
-  "maintained_source_summary_count": 1
+  "maintained_source_summary_count": 2
 }
