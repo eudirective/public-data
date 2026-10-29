@@ -602,6 +602,45 @@
       "document_path": "documents/guidance/ch-21-sem-family-reunification-directives-2026-10-29.md",
       "maintained_note_sha256": "c1e6a4cfb832ca6ef9aebc357d16d33d7df25910fdeff04077c7afa291cea880",
       "maintained_note_role": "maintained_official_reference_index_note"
+    },
+    "ch-04": {
+      "status": "usable_official_reference_with_maintained_reference_note",
+      "publisher": "Swiss Confederation, Federal Chancellery (Fedlex)",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2007/758/en",
+      "rediscovery_url": "https://www.fedlex.admin.ch/",
+      "checked_on": "2026-10-29",
+      "language": "English ELI route; official languages govern",
+      "version_or_cutoff": "Fedlex official ELI record; latest page version was not rendered in the review client; non-official English reproduction reports amendment date 12 June 2026.",
+      "scope": "Federal rules on entry, exit, residence, family reunification and integration of foreign nationals, subject to treaties and other federal laws.",
+      "reviewed_content": "Fedlex official ELI record opened; review client returned JavaScript shell. An unofficial English reproduction reports an amendment date, recorded only as discovery evidence.",
+      "limitations": [
+        "Current-version metadata could not be read from the official Fedlex page in this review client.",
+        "The English translation is non-official and has no legal force; check current official-language version.",
+        "Treaty, asylum and implementing-ordinance rules may alter the applicable route.",
+        "Maintained locator note only; no local statute copy accepted."
+      ],
+      "document_path": "documents/legislation/ch-04-fnia-2026-06-12.md",
+      "maintained_note_sha256": "52791c23545b605ec741eb0d85ee7d9953799e2df6eb4ffec5c8f561cf0872c6",
+      "maintained_note_role": "maintained_official_legal_reference_note_not_source_text_copy"
+    },
+    "ch-06": {
+      "status": "usable_official_reference_with_maintained_reference_note",
+      "publisher": "Swiss Confederation, Federal Chancellery (Fedlex)",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2002/261/fr?version=20260101",
+      "rediscovery_url": "https://www.fedlex.admin.ch/",
+      "checked_on": "2026-10-29",
+      "language": "French",
+      "version_or_cutoff": "Fedlex versioned ELI route as of 1 January 2026; SR 142.203.",
+      "scope": "Swiss implementing ordinance for AFMP/EFTA free movement, including personal scope and related residence procedures.",
+      "reviewed_content": "Official Fedlex indexed versioned record reviewed for SR number, title, scope, treaty basis and version date.",
+      "limitations": [
+        "Check current amendments, treaties and transitional rules for the relevant date.",
+        "Do not conflate AFMP/EFTA routes with FNIA-only routes or infer entitlement from the title.",
+        "Maintained reference note only; no local ordinance copy accepted."
+      ],
+      "document_path": "documents/legislation/ch-06-olcp-vfp-2026-01-01.md",
+      "maintained_note_sha256": "529bbe8e039d2a266aa551d80638c55c7e300dcc2fc44fd511a7b957037c382e",
+      "maintained_note_role": "maintained_official_legal_reference_note_not_source_text_copy"
     }
   }
 }
