@@ -193,21 +193,25 @@
       "url": "https://www.e-tar.lt/portal/lt/legalAct/e1cacab099a811e9ae2e9d61b1f977b3/asr",
       "publisher": "Ministry of the Interior / Register of Legal Acts",
       "language": "lt",
-      "checked_on": "2026-10-25",
-      "version_or_scope": "Order 1V-594 covers both temporary and permanent family residence cards; e-TAR shows its current consolidated version effective from 2023-04-05 with no end date as checked 2026-10-25.",
-      "acceptance_scope": "Current e-TAR consolidated record for Order 1V-594, effective 2023-04-05 onward at the time checked; covers temporary and permanent family residence cards.",
+      "checked_on": "2026-10-29",
+      "version_or_scope": "Official e-TAR marks Order 1V-594 in force and shows the current consolidated edition effective 2023-04-05 onward, with no end date, as checked 2026-10-29.",
+      "acceptance_scope": "Current official e-TAR record and its displayed consolidation metadata for Order 1V-594, which the title identifies as covering temporary and permanent residence cards for a family member of a Union citizen.",
       "limitations": [
-        "Accepted as the current official order link within the version and subject scope recorded here; no current full local copy is retained.",
+        "Accepted as the official order link and a maintained authored version/scope summary; the complete legal text has not been copied or accepted locally.",
+        "The e-TAR page and edition PDF were not directly retrieved in this review client; version metadata and front matter were confirmed from official indexed e-TAR records.",
         "The former temporary and permanent procedure orders 1V-290 and 1V-369 are separate historical sources, each repealed effective 2019-07-01.",
-        "Verify the Aliens Law, current official application forms, and any later order amendments for the decision date. No topic adequacy or country completion is implied."
+        "Verify the Aliens Law, current official application forms, and any later order amendments for the decision date. The record does not establish route equivalence or country/topic completeness."
       ],
       "evidence": {
         "official_source_url": "https://www.e-tar.lt/portal/lt/legalAct/e1cacab099a811e9ae2e9d61b1f977b3/asr",
-        "verified_content": "Official e-TAR identifies Order 1V-594 and shows its current consolidated version from 2023-04-05; the title covers temporary or permanent family residence cards.",
-        "source_record_note": "Current combined card procedure; it superseded the separate 1V-290 and 1V-369 procedures from 2019-07-01.",
-        "retrieval_status": "current_official_external_reference_only"
+        "verified_content": "Official e-TAR identifies Order 1V-594 as in force, current consolidated version effective 2023-04-05 onward, original TAR publication 2019-06-28 No. 2019-10583, and chronology: amended by 1V-630 on 2020-06-23, 1V-702 on 2022-11-18 and 1V-192 on 2023-04-04. Official consolidated PDF search output confirms title, issuer, date and Directive 2004/38/EC reference.",
+        "source_record_note": "Current combined temporary/permanent card procedure; it superseded the separate 1V-290 and 1V-369 procedures from 2019-07-01. Edition status was refreshed 2026-10-29.",
+        "retrieval_status": "official_indexed_record_and_pdf_metadata_reviewed_with_maintained_scoped_summary",
+        "local_document_path": "documents/legislation/lt-order-1v-594-eu-family-card-procedure-2023-04-05.md",
+        "local_document_blob_sha": "4f9bb3cede320801e8e6f4a278f6fec317d60d75",
+        "local_document_kind": "authored_maintained_summary"
       },
-      "local_copy_accepted": false,
+      "local_copy_accepted": true,
       "decision": "accepted_with_narrow_external_scope"
     },
     {
