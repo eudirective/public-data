@@ -4,7 +4,7 @@
   "as_of": "2026-10-29",
   "accepted_source_count": 43,
   "accepted_current_law_source_count": 18,
-  "accepted_derived_text_count": 22,
+  "accepted_derived_text_count": 24,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "accepted_external_reference_count": 43,
@@ -777,37 +777,55 @@
     {
       "source_id": "de-37",
       "decision": "accepted_with_narrow_external_scope",
-      "accepted_role": "Berlin Administrative Court visa-procedure service page, directing applicants with a refusal to the court-published leaflet. Accepted as local court information only; the refusal notice remains controlling for the specific remedy and deadline.",
+      "accepted_role": "Berlin Administrative Court page directing visa-refusal recipients to its German and English general-information leaflets. Accepted as a Berlin court locator only.",
       "not_accepted": [
-        "A complete Germany national source pack or topic coverage.",
-        "Country-wide or case-specific legal conclusions beyond the page scope.",
-        "A local copy or future currentness after the checked date."
+        "A complete Germany national source pack, topic coverage, or country review.",
+        "Case-specific legal advice or determination beyond the source’s stated role.",
+        "A verbatim local copy."
       ],
       "evidence": {
         "official_source_url": "https://www.berlin.de/gerichte/verwaltungsgericht/service/visumsverfahren/",
-        "checked_on": "2026-10-24",
+        "checked_on": "2026-10-29",
         "language": "de",
-        "version": "Official court page opened 2026-10-24; page links to current German and English leaflets.",
-        "verified_content": "The court page provides information and leaflets; it does not establish national procedure or a case-specific appeal route.",
-        "publisher_note": "Official page accepted as a bounded locator/reference only. Use the governing legislation and the competent court or authority for current, case-specific requirements."
+        "version": "Live court page rechecked 29 October 2026.",
+        "verified_content": "Live court page rechecked 29 October 2026; it asks visa-refusal recipients to consult its linked leaflet and provides German/English downloads.",
+        "publisher_note": "Court information is regional and general. The applicable refusal notice and current law must be checked for the individual case; the local Markdown is independently worded."
+      },
+      "accepted_local_copy": {
+        "status": "accepted_project_authored_source_summary",
+        "path": "documents/procedure/de-37.md",
+        "checked_on": "2026-10-29",
+        "language": "English description of German page",
+        "scope": "Regional locator and referral to the leaflet summarized separately as de-38.",
+        "reuse": "Independent paraphrase; no source wording or document image reproduced.",
+        "limits": "Does not identify a particular case’s remedy, deadline, filing requirements or merits; not nationwide."
       }
     },
     {
       "source_id": "de-38",
       "decision": "accepted_with_narrow_external_scope",
-      "accepted_role": "English-language Berlin Administrative Court visa-procedure leaflet. Accepted as court-published general information on challenging a visa refusal and contacting the filing office; remedy instructions in the refusal notice control.",
+      "accepted_role": "English-language Administrative Court Berlin leaflet on actions challenging visa refusals. Accepted as undated Berlin-specific procedural information.",
       "not_accepted": [
-        "A complete Germany national source pack or topic coverage.",
-        "Country-wide or case-specific legal conclusions beyond the page scope.",
-        "A local copy or future currentness after the checked date."
+        "A complete Germany national source pack, topic coverage, or country review.",
+        "Case-specific legal advice or determination beyond the source’s stated role.",
+        "A verbatim local copy."
       ],
       "evidence": {
         "official_source_url": "https://www.berlin.de/gerichte/verwaltungsgericht/service/visumsverfahren/merkblatt_visum_englisch.pdf",
-        "checked_on": "2026-10-24",
+        "checked_on": "2026-10-29",
         "language": "en",
-        "version": "Official PDF opened 2026-10-24. The document has no issue date on the inspected pages.",
-        "verified_content": "The leaflet directs readers to the refusal notice for the applicable action, competent authority, and deadline, and says the court does not provide legal advice. No claim is made that it covers every case or later procedural change.",
-        "publisher_note": "Official page accepted as a bounded locator/reference only. Use the governing legislation and the competent court or authority for current, case-specific requirements."
+        "version": "Undated two-page PDF opened through the live court page on 29 October 2026.",
+        "verified_content": "Two-page English PDF opened via the court page on 29 October 2026; no issue date displayed. It directs readers to the refusal notice for remedy and deadline and disclaims court legal advice.",
+        "publisher_note": "Court information is regional and general. The applicable refusal notice and current law must be checked for the individual case; the local Markdown is independently worded."
+      },
+      "accepted_local_copy": {
+        "status": "accepted_project_authored_source_summary",
+        "path": "documents/guidance/de-38.md",
+        "checked_on": "2026-10-29",
+        "language": "English summary",
+        "scope": "Independent summary of the court leaflet’s filing-office role, language, listed information, channels and referrals.",
+        "reuse": "Independent paraphrase; no source wording or document image reproduced.",
+        "limits": "Berlin-specific and undated; no case-specific jurisdiction or deadline verification; current law and refusal notice control."
       }
     },
     {
@@ -1036,6 +1054,6 @@
   ],
   "human_review_offers": [],
   "policy": "Official source links may be accepted for ordinary reference use within the exact identity, date, and scope recorded. Link acceptance is separate from local-copy acceptance, topic coverage, dependencies, currentness, and country completion. Gesetze im Internet consolidations are working references; the electronic Bundesgesetzblatt is the authentic promulgation source for specific discrepancy, commencement, or amendment checks.",
-  "count_note": "43 official source references are accepted within recorded narrow roles. Eighteen accepted current-law source records correspond to 17 unique accepted local statutory text copies because de-10 is represented by de-09. Five independently authored government guidance summaries (de-25, de-26, de-27, de-31 and de-32) are accepted locally. Five proposals remain open for human review. The de-31 handbook’s extracted local text is not accepted. No topic coverage or country review is complete.",
-  "accepted_local_copy_count": 22
+  "count_note": "43 official source references are accepted within recorded narrow roles. Eighteen accepted current-law source records correspond to 17 unique accepted local statutory text copies because de-10 is represented by de-09. Seven independently authored government or court guidance summaries (de-25, de-26, de-27, de-31, de-32, de-37 and de-38) are accepted locally. Five proposals remain open for human review. The de-31 handbook’s extracted local text is not accepted. No topic coverage or country review is complete.",
+  "accepted_local_copy_count": 24
 }
