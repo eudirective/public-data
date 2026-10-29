@@ -13,17 +13,17 @@
       "status": "usable_official_reference",
       "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
       "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070158/LEGISCTA000042770930",
-      "checked_on": "2026-10-21",
+      "checked_on": "2026-10-29",
       "language": "French",
-      "version_or_cutoff": "Légifrance page header displayed 'Version en vigueur au 24/08/2026' when checked on 2026-10-21; unpinned link follows the maintained section.",
+      "version_or_cutoff": "Légifrance page header displayed Version en vigueur au 24/08/2026 when rechecked 2026-10-29; unpinned link follows the maintained section.",
       "scope": "CESEDA legislative Book II, Articles L. 200-1 to L. 286-2, governing entry, residence, and removal of EU citizens and family members, with the assimilation specified in Article L. 200-3.",
-      "reviewed_content": "The page identifies the official code and Book II scope; Article L. 200-3 names EEA EFTA and Swiss nationals within the code’s conditions. The Book II section includes residence rules and Légifrance flags the 2022 partial annulment affecting L. 233-1 and L. 233-2.",
+      "reviewed_content": "Exact official page opened. Section identity, scope, current version header and operative text confirmed. Articles L. 200-1 to L. 200-6, entry/stay, L. 233-1/L. 233-2 and their 2022 court annotation, permanent residence, removal/litigation and overseas adaptation were reviewed. A maintained summary is recorded under records.",
       "limitations": [
         "French text only; this is not an English translation.",
         "The displayed version cutoff was 24 August 2026; recheck the page header for later versions when using it for a date-sensitive question.",
         "Read Articles L. 233-1 and L. 233-2 with Conseil d’État decision nos. 450285/450288 of 24 February 2022; the code section’s own legal note records the partial annulment.",
         "This source does not establish completeness of related CRPA/CJA procedure, consular practice, forms, or local authority practice.",
-        "This approval is for reference use only and grants no permission to copy or republish the page."
+        "The accepted local record is an independently authored attributed summary, not a verbatim code copy."
       ]
     },
     "fr-ceseda-book-ii-regulatory": {
@@ -460,7 +460,7 @@
     ],
     "note": "Record a human-reviewed official link here when it supports a coverage layer without a retained local copy. This does not change the local accepted-source count."
   },
-  "accepted_source_count": 20,
+  "accepted_source_count": 21,
   "records": {
     "fr-service-public-eu-long-stay-f2651": {
       "status": "accepted_local_copy",
@@ -807,6 +807,24 @@
         "The legislative Book II and cross-referenced EU instruments are needed to establish substantive eligibility and legal effect.",
         "The page is unpinned; recheck the version header and article-level effective dates before date-sensitive use.",
         "Territorial adaptations and individual article amendments require provision-level review."
+      ]
+    },
+    "fr-ceseda-book-ii-legislative": {
+      "status": "accepted_maintained_source_summary",
+      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070158/LEGISCTA000042770930",
+      "checked_on": "2026-10-29",
+      "language": "French",
+      "version_or_cutoff": "Official page displayed Version en vigueur au 24/08/2026.",
+      "local_path": "documents/legislation/fr-ceseda-book-ii-legislative-eu-citizens-family.md",
+      "scope": "Maintained summary and section map for legislative CESEDA Book II, Articles L. 200-1 to L. 286-2, covering EU citizens, assimilated nationals, family/private ties, entry, residence, removal and territorial adaptations.",
+      "reviewed_content": "Exact official section opened. Reviewed its title, article range, version header and table of contents; statutory definitions in L. 200-1 to L. 200-6; entry and stay rules; residence beyond three months; L. 233-1/L. 233-2 with the 2022 Conseil d'État partial-annulment annotation; permanent residence; removal/litigation; and overseas provisions.",
+      "reuse": "Independently authored and attributed summary. DILA makes Légifrance legal data available for reuse; the official open-data/API page applies Licence Ouverte 2.0 to stable API data. No verbatim code text is reproduced.",
+      "limitations": [
+        "The local Markdown is a summary, not a verbatim statutory copy or English translation.",
+        "Read L. 233-1 and L. 233-2 with Conseil d'État decisions nos. 450285/450288 and the 2024 follow-up after CJEU C-143/22.",
+        "Use the regulatory Book II, applicable EU instruments and cross-referenced procedural codes for implementation.",
+        "The section URL is unpinned; confirm current section and article-level dates before date-sensitive use."
       ]
     }
   }
