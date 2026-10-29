@@ -69,7 +69,7 @@
     "accepted_source_records": 35,
     "accepted_official_link_urls": 37,
     "pending_source_records": 4,
-    "maintained_source_notes": 1
+    "maintained_source_notes": 2
   },
   "inventory_decisions": [
     {
@@ -980,10 +980,10 @@
       "url": "https://www.esteri.it/it/servizi-opportunita/italiani-all-estero/stato-civile/riconoscimento-di-sentenze-straniere/",
       "publisher": "Italian Ministry of Foreign Affairs and International Cooperation (MAECI)",
       "language": "it",
-      "checked_on": "2026-10-21",
-      "version": "Live official page content checked through the standard web view on 2026-10-21; no reliable revision date displayed.",
-      "acceptance_scope": "The current MAECI page as a practical guide to registration/recognition of foreign civil judgments and its reference to Law 218/1995 and applicable EU rules.",
-      "limitations": "Direct HTTP retrieval returned the publisher security challenge; link acceptance is based on the human-reviewed official page, not a raw capture. The page is not law and does not cover every judgment type or competent authority.",
+      "checked_on": "2026-10-29",
+      "version": "Live Italian and English MAECI pages opened 2026-10-29; no reliable revision date displayed. The Italian page cites Regulation (EU) 2019/1111; the English page still cites Regulation (EC) 2201/2003.",
+      "acceptance_scope": "MAECI central guidance on general registration of foreign judgments and its document checklist, with an explicit warning that its two language versions disagree on the current EU divorce instrument.",
+      "limitations": "Mutable guidance, not law. English language page contains stale EU divorce instrument reference. The Italian page's Regulation 2019/1111 summary also requires application of the instrument's temporal provisions; adoption matters are routed separately. Verify current law and competent authority requirements.",
       "candidate_records": [
         {
           "manifest": "candidates/italy-priority-manifest-2026-10-24/IT/priority/candidate-manifest.json",
@@ -992,10 +992,13 @@
       ],
       "evidence": {
         "official_source_url": "https://www.esteri.it/it/servizi-opportunita/italiani-all-estero/stato-civile/riconoscimento-di-sentenze-straniere/",
-        "verified_content": "Live official page content checked through the standard web view on 2026-10-21; no reliable revision date displayed.",
-        "source_record_note": "Human-reviewed official external link only; no local copy or conversion accepted."
+        "verified_content": "Both official language pages opened and compared 2026-10-29. Italian page describes general requirements, transmission routes and documents and cites Regulation (EU) 2019/1111 with Annex II/VIII. English page retains Regulation (EC) 2201/2003/Article 22. EUR-Lex Regulation (EU) 2019/1111 Articles 100, 104 and 105 confirm temporal application and repeal.",
+        "source_record_note": "Maintained paraphrased Markdown note captures both language versions and discrepancy. No verbatim copy or open licence asserted."
       },
-      "decision": "accepted_with_narrow_external_scope"
+      "decision": "accepted_with_narrow_external_scope",
+      "maintained_source_note_path": "documents/guidance/it-maeci-foreign-judgment-recognition.md",
+      "maintained_source_note_checked_on": "2026-10-29",
+      "maintained_source_note_status": "accepted_paraphrased_source_note"
     }
   ],
   "pending_references": [
