@@ -9,7 +9,7 @@
 - **Publisher update date:** 21 September 2026; revision last edited 21 September 2026
 - **Checked:** 29 October 2026
 - **Content license:** CC BY-SA 4.0, displayed in the page footer. Attribution: National Registry of Administrative Public Services (MITOS), “Κτήση Ελληνικής Ιθαγένειας με υιοθεσία,” revision 439458. This Markdown copy is shared under the same license. [License](https://creativecommons.org/licenses/by-sa/4.0/).
-- **Capture provenance:** Complete Greek page-body text extraction archived 19 October 2026 at `candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-54.md` (candidate SHA-256 `0d11f49df11fc6c2b6b348c17ee8f406e4392d947bcbe79aabe489e12bd1add9`; source-response SHA-256 `0d11f49df11fc6c2b6b348c17ee8f406e4392d947bcbe79aabe489e12bd1add9`). The live page's archived revision identifier matches the captured content.
+- **Capture provenance:** Complete Greek page-body text extraction archived 19 October 2026 at `candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-54.md` (candidate SHA-256 `c7a32d46566a3b7e47c272cb9e68a13fca37fb3b27d4262818f6029b9bc0374a`; source-response SHA-256 `0d11f49df11fc6c2b6b348c17ee8f406e4392d947bcbe79aabe489e12bd1add9`). The live page's archived revision identifier matches the captured content.
 
 ## Scope and use limits
 
