@@ -37,3 +37,8 @@ python3 scripts/sync_ireland.py verify
 ```
 
 A new pending conversion is still research material: archive it through Monitor `local_research_write` before review or acceptance. Replay proves byte integrity and reproducibility only; it does not establish legal currentness, reuse terms outside eISB, topic coverage, or country completion.
+
+
+## Legalize crosswalk
+
+The scoped Legalize-IE comparison is recorded at the end of the [source list](references/source-list.md). It confirms candidate identities for SI 548/2015 and its 2021 and 2025 amendments; no Legalize text or retrieval method was accepted.
