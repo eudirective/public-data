@@ -351,7 +351,7 @@
     {
       "source_id": "ch-30-sem-visa-index-20261025",
       "decision": "accepted_with_narrow_external_scope",
-      "accepted_role": "Official SEM navigation route to current visa instructions and associated materials.",
+      "accepted_role": "Official but stale SEM visa landing page used only as a navigation lead to the multilingual visa sections; the inspected English and German pages both display a last-modified date of 1 October 2012.",
       "not_accepted": [
         "The content or current edition of an individual handbook or annex not reviewed.",
         "EU Visa Code text as a substitute for Swiss instructions.",
@@ -359,11 +359,11 @@
       ],
       "evidence": {
         "official_source_url": "https://www.sem.admin.ch/sem/en/home/publiservice/weisungen-kreisschreiben/visa.html",
-        "checked_on": "2026-10-25",
+        "checked_on": "2026-10-29",
         "language": "en",
-        "version": "Live official index observed 25 October 2026; current Swiss Visa Handbook edition not established.",
-        "verified_content": "The official SEM page is the Visa instructions index and links to its Annex CH-1 nationality provisions.",
-        "limitations": "The current Swiss Visa Handbook edition and relevant attachment versions remain to be checked on the official index."
+        "version": "English and German pages both display last modification 2012-10-01; English says the documents do not exist in English. German page links to distinct <=90-day Schengen and >90-day Swiss-rule sections and Annex CH-1.",
+        "verified_content": "Opened the live official English and German SEM landing pages, checked language notice, visible route links and modification dates.",
+        "limitations": "The landing page is dated 2012 and cannot establish currentness of its links or the current Visa Handbook edition. Verify relevant dated instructions and annexes individually; no current handbook edition confirmed."
       },
       "document_path": "source-library/switzerland/documents/guidance/ch-30-sem-visa-index-20261025.md"
     },
