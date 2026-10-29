@@ -3481,8 +3481,7 @@
         "review_date": "2026-10-29",
         "evidence": "Official Gazette page title, issuer, publication and opening text checked against the converted capture; the conversion contains numbered Articles 1–99 and its closing provision. Candidate note records an independent visible-text check. Accepted Markdown includes explicit base-text cutoff, amendment chain, and the excluded form images."
       },
-      "local_file": "documents/legislation/hr-third-country-residence-base.md",
-      "local_file_sha256": ""
+      "local_file": "documents/legislation/hr-third-country-residence-base.md"
     },
     "hr-third-country-residence-rule": {
       "status": "accepted",
