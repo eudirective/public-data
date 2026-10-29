@@ -205,13 +205,13 @@ Verification against EU law for Union citizen family members
 Permanent residency for Union citizens and their family
 ### Rules and regulations
 
-Article 8.7 Aliens Decree (Vreemdelingenbesluit 2000)†wetten.overheid.nl
+Article 8.7 Aliens Decree (Vreemdelingenbesluit 2000)
 
-Article 8.9 Aliens Decree (Vreemdelingenbesluit 2000)†wetten.overheid.nl
+Article 8.9 Aliens Decree (Vreemdelingenbesluit 2000)
 
-Article 8.13 Aliens Decree (Vreemdelingenbesluit 2000)†wetten.overheid.nl
+Article 8.13 Aliens Decree (Vreemdelingenbesluit 2000)
 
-B10/2 Aliens Act Implementation Guidelines (Vreemdelingencirculaire 2000)​†wetten.overheid.nl
+B10/2 Aliens Act Implementation Guidelines (Vreemdelingencirculaire 2000)
 
 ## Capture notes
 
