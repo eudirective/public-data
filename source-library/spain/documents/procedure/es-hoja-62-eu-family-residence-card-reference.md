@@ -1,18 +1,21 @@
-# Hoja 62 - residence card for family member of an EU citizen
+# Hoja 62, EU-family residence card
 
-- **Source ID:** es-21
-- **Publisher:** Ministerio de Inclusión, Seguridad Social y Migraciones
-- **Official guidance:** [Hoja 62 - residence card for family member of an EU citizen](https://bibliovirtual.inclusion.gob.es/web/migraciones/w/62.-tarjeta-de-residencia-de-familiar-de-ciudadano-de-la-union-europea)
-- **Checked:** 2026-10-25
-- **Version or cutoff:** Official Ministry page and linked PDF state latest update May 2025.
-- **Local source copy:** none accepted; this is a link-only reference. The earlier HTML conversion is archived as a non-source artifact.
+- **Source ID:** es-21 (selected target alias: Ministry Hoja 62)
+- **Publisher:** Ministry of Inclusion, Social Security and Migration, Spain
+- **Official page:** [Hoja 62](https://bibliovirtual.inclusion.gob.es/web/migraciones/w/62.-tarjeta-de-residencia-de-familiar-de-ciudadano-de-la-union-europea)
+- **Checked:** 29 October 2026
+- **Version date:** The page states last update May 2025; its linked PDF was also previously verified as May 2025.
+- **Language:** Spanish
+- **Source-copy form:** Maintained reference and scope note; no full verbatim page/PDF copy is accepted.
 
-**Scope.** Dated operational guidance for a residence card for non-EU/EEA/Swiss family members of EU/EEA/Swiss citizens. It distinguishes Spanish nationals who exercised free movement (EX19 route) from other Spanish-national-family cases (EX24 route).
+## Scope and content
 
-**Reviewed content.** The current official Ministry page and linked PDF identify Hoja 62, display May 2025 as the last update, state that the page is merely orientative and that the rules in force at filing apply, list the applicable citizen categories, requirements, evidence and procedure, and distinguish the EX19 free-movement route from EX24 in other Spanish-national-family cases.
+The sheet addresses non-EU/EEA/Swiss family members accompanying or joining a Spanish, EU, EEA or Swiss citizen for residence in Spain over three months. It summarizes the citizen's qualifying activity or self-sufficiency conditions, the listed close and extended family categories, supporting documents, filing location and deadline, fee, expected decision/card timing, and the five-year card validity described by the page.
 
-**Limits.**
+The Ministry labels the sheet orientative and says the rules in force on the application date control. It lists Directive 2004/38/EC, Real Decreto 240/2007 and Orden PRE/1490/2012. For a Spanish citizen's relative, the EU-family route and EX-19 apply where the citizen exercised free movement; otherwise the Ministry points to the separate EX-24 route. Operational grouping of EU, EEA and Swiss citizens does not erase their distinct legal bases.
 
-- Dated, nonbinding guidance; verify the legislation and operational procedure in force at filing.
-- The page/PDF date predates later legal changes and should not be treated as a current legal consolidation.
-- No local copy was accepted: the saved HTML conversion includes navigation noise, the raw page capture is unavailable locally, and live retrieval returned HTTP 403. The official link remains usable.
+## Maintenance limits
+
+- The page is dated May 2025 and is not a legal consolidation. Confirm current statutory rules and Police/immigration-office process for the filing date.
+- The page and earlier reviewed PDF identify the same Hoja 62 and date, but this Markdown is an independently prepared scope summary rather than a verbatim copy of either item.
+- Document translation, legalization and evidence requirements must be checked against the rules applicable to the specific document and filing route.
