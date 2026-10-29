@@ -19,6 +19,15 @@
       "sha256": "66164d58811de18fb48b831d8f3a736eb217fdf70a0cf017e119d17037ab4c33",
       "archived_at": "2026-10-29T06:36:28.883Z",
       "superseded_by_sha256": "3331ca619fa715c7ad3d273acbc4d4430a45ac1e87a0b35832bc93116e0a624f"
+    },
+    {
+      "source_id": "pl-17",
+      "official_url": "https://www.gov.pl/web/udsc/obywatel-ue",
+      "current_path": "poland/documents/guidance/pl-17-udsc-eu-residence-guidance-locator.md",
+      "archive_path": "poland/documents/guidance/archive/pl-17-udsc-eu-residence-guidance-locator/901d8f5d197b8593bc219f2f17ddb7ad7d04791d2a7cad28bc238c84265993ba.md",
+      "sha256": "901d8f5d197b8593bc219f2f17ddb7ad7d04791d2a7cad28bc238c84265993ba",
+      "archived_at": "2026-10-29T06:55:01.312Z",
+      "superseded_by_sha256": "c7f7226c8007054d96d9d96f806e1317386972871b7a4615250643323979fd3b"
     }
   ]
 }
