@@ -136,6 +136,15 @@
       "sha256": "8bdf401e7d6d809bba3f46049bdc49091af683b7951e206c99025e2d504e0e60",
       "archived_at": "2026-10-29T00:38:42.748Z",
       "superseded_by_sha256": "fe75fdd3683fccf79dc69b7f613608718614b0d5cede109bcae8c76d87529dee"
+    },
+    {
+      "source_id": "gr-60",
+      "official_url": "https://www.gov.gr/el/sdg/residence/residence-cards-for-union-citizens-and-their-family-members/general/residence-of-third-country-citizens-who-are-family-members-of-eu-citizens",
+      "current_path": "greece/documents/guidance/gr-60-gov-gr-greek-sdg-residence-of-third-country-family-locator.md",
+      "archive_path": "greece/documents/guidance/archive/gr-60-gov-gr-greek-sdg-residence-of-third-country-family-locator/213c8da3fa082dd60590996b59b9425405d53ea2e04eb4a23801e592775af896.md",
+      "sha256": "213c8da3fa082dd60590996b59b9425405d53ea2e04eb4a23801e592775af896",
+      "archived_at": "2026-10-29T00:42:41.476Z",
+      "superseded_by_sha256": "71e3522db6687201e4225bd4c8b6a5d10ced5aeda6ac1a2f23d4df2868340748"
     }
   ]
 }
