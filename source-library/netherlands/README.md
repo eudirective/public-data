@@ -21,3 +21,8 @@ The six accepted statutory files are the [Vreemdelingenwet 2000](documents/legis
 Topic coverage remains at 0 and the Netherlands review is incomplete. Local text acceptance does not establish topic coverage. Open work includes the Article 2(2)/Article 3(2) family-category crosswalk, current residence-card specimens under Regulation (EU) 2025/1208, decision-specific remedies and deadlines, municipality-level BRP practice, mission procedures, court-publication coverage, and legal-aid eligibility. See the [coverage register](references/coverage-register.md), [dependency register](references/dependency-register.json), and [sustainability assessment](references/sustainability-assessment.md).
 
 The Monitor has no registered Netherlands runtime action, so runtime-only checks are unsupported, not completed.
+
+
+## Legalize crosswalk
+
+The four relevant Legalize-NL BWB snapshots and their version limits are documented at the end of the [source list](references/source-list.md). None replaces the accepted Wetten.nl route or the pack’s dated, scoped copies.
