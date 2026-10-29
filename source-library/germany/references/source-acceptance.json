@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "DE",
-  "as_of": "2026-10-24",
+  "as_of": "2026-10-29",
   "accepted_source_count": 42,
   "accepted_current_law_source_count": 18,
-  "accepted_derived_text_count": 17,
+  "accepted_derived_text_count": 18,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "accepted_external_reference_count": 42,
@@ -577,16 +577,26 @@
       "accepted_role": "AA short-stay FAQ for a non-German EU citizen visiting with a non-EU spouse. The official English page was checked live; its Schengen, Article 10 residence-card, and facilitated-visa statements are guidance within that short-stay context.",
       "not_accepted": [
         "A complete Germany national source pack, topic coverage, or country review.",
-        "A retained local copy of the candidate capture.",
-        "Mission-specific requirements, local practice, or legal conclusions beyond the stated source scope."
+        "Mission-specific requirements, local practice, or legal conclusions beyond the stated source scope.",
+        "An exact or verbatim page-text copy; the publisher's copyright notice retains all rights and recommends linking instead of reproducing source text."
       ],
       "evidence": {
         "official_source_url": "https://www.auswaertiges-amt.de/en/visa-service/buergerservice/faq/01aa-visa-unionsbuerger-606750",
-        "checked_on": "2026-10-24",
+        "checked_on": "2026-10-29",
         "language": "en",
-        "version": "The short-stay guidance page was opened on 2026-10-24. No page revision date was displayed.",
-        "verified_content": "The official FAQ distinguishes residence in Schengen, an Article 10 family-member card, and travel from outside the EU. It directs readers to the competent mission.",
-        "publisher_note": "Official publisher/service reference only; use the underlying legislation and responsible mission or regional authority for current legal and procedural requirements."
+        "version": "Live English FAQ reviewed 2026-10-29; no page revision date displayed.",
+        "verified_content": "The current official FAQ distinguishes Schengen residence permits, an Article 10(1) Directive 2004/38 family-member card, and travel from outside the EU subject to visa requirements with a facilitated procedure; it directs readers to the competent German mission.",
+        "publisher_note": "The Federal Foreign Office is the official publisher. Its publication notice says all site texts are copyright-protected and recommends linking rather than reproducing country-information text. The local file is independently worded and does not reproduce FAQ text or page design."
+      },
+      "accepted_local_copy": {
+        "status": "accepted_project_authored_source_summary",
+        "path": "documents/guidance/de-25.md",
+        "checked_on": "2026-10-29",
+        "language": "English",
+        "publisher_version": "No page revision date displayed.",
+        "scope": "Short-stay summary of the three residence scenarios on the FAQ page and its referral to the relevant German mission.",
+        "reuse": "Original paraphrase only; no source text or page design reproduced. Publisher copyright notice checked.",
+        "limits": "Guidance snapshot only; no long-stay or move-to-Germany route, mission-specific requirements, or legal eligibility determination."
       }
     },
     {
@@ -985,5 +995,5 @@
   "human_review_offers": [],
   "policy": "Official source links may be accepted for ordinary reference use within the exact identity, date, and scope recorded. Link acceptance is separate from local-copy acceptance, topic coverage, dependencies, currentness, and country completion. Gesetze im Internet consolidations are working references; the electronic Bundesgesetzblatt is the authentic promulgation source for specific discrepancy, commencement, or amendment checks.",
   "count_note": "42 official source references are accepted within recorded narrow roles. Eighteen accepted current-law source records correspond to 17 unique accepted local statutory text copies because de-10 is represented by de-09. Five proposals remain open for human review. The de-31 official reference is accepted, but its extracted local text is not. No topic coverage or country review is complete.",
-  "accepted_local_copy_count": 17
+  "accepted_local_copy_count": 18
 }
