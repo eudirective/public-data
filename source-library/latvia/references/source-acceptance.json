@@ -3,9 +3,9 @@
   "jurisdiction": "LV",
   "review_date": "2026-10-29",
   "candidate_record_count": 52,
-  "accepted_external_reference_count": 43,
+  "accepted_external_reference_count": 44,
   "pending_external_reference_count": 5,
-  "not_relied_upon_reference_count": 4,
+  "not_relied_upon_reference_count": 3,
   "accepted_local_copy_count": 30,
   "accepted_topic_count": 0,
   "country_review_complete": false,
@@ -1629,6 +1629,40 @@
       "maintained_source_note_path": "documents/guidance/lv-20-pmlp-document-filing-channels.md",
       "maintained_source_note_checked_on": "2026-10-29",
       "maintained_source_note_status": "accepted_dated_paraphrased_source_note"
+    },
+    {
+      "source_id": "lv-22",
+      "title": "PMLP EU citizen/family residence application form (current linked version)",
+      "url": "https://www.pmlp.gov.lv/en/media/1666/download",
+      "publisher": "Office of Citizenship and Migration Affairs (PMLP)",
+      "language": "lv/en",
+      "checked_on": "2026-10-29",
+      "version_or_scope": "Eight-page bilingual PDF linked from PMLP’s residence application index; the index and attachment display Updated 23.10.2026. Current attachment path is /en/media/1666/download.",
+      "acceptance_scope": "PMLP’s currently linked application form for a residence document of a Union citizen or a Union citizen’s family member, within the identity and version linked by the parent index on 29 October 2026. A full structured Markdown field map is retained.",
+      "limitations": [
+        "The Markdown file is a paraphrased field map, not a fillable form or verbatim transcription; use the linked official PDF for application.",
+        "No open reuse licence is identified. The PMLP site reserves rights to its published content.",
+        "The old direct URL /en/media/100/download was not linked from the current form index and is not accepted; do not rely on that older candidate PDF.",
+        "The form is an administrative document and does not determine current legal eligibility or all evidentiary requirements. Check applicable law and current PMLP instructions."
+      ],
+      "candidate_record": {
+        "manifest": "references/candidate-manifest.json",
+        "id": "lv-22"
+      },
+      "evidence": {
+        "official_source_url": "https://www.pmlp.gov.lv/en/media/1666/download",
+        "parent_index": "https://www.pmlp.gov.lv/en/application-requiring-residence-permit",
+        "verified_content": "PMLP parent index opened 29 October 2026 and linked current eight-page bilingual EU-citizen/family form, both updated 23 October 2026. The complete PDF opened and all pages were reviewed. Its sections cover purpose, identity, birth/kinship evidence, address, travel document, non-EU family member’s residence status, marital/partner details, relatives, emergency contacts and applicant declarations.",
+        "source_record_note": "Current linked PDF identity confirmed. Maintained Markdown field map is paraphrased; the live PDF remains the actual fillable application.",
+        "retrieval_status": "human_reviewed_pdf"
+      },
+      "decision": "accepted_with_narrow_current_form_scope",
+      "local_copy_accepted": false,
+      "maintained_source_note_path": "documents/forms/lv-22-pmlp-eu-family-residence-application-form.md",
+      "maintained_source_note_checked_on": "2026-10-29",
+      "maintained_source_note_status": "accepted_paraphrased_full_field_map",
+      "previous_candidate_url": "https://www.pmlp.gov.lv/en/media/100/download",
+      "previous_candidate_disposition": "not relied upon; not linked from current PMLP index"
     }
   ],
   "pending_references": [
@@ -1687,18 +1721,6 @@
     }
   ],
   "not_relied_upon": [
-    {
-      "source_id": "lv-22",
-      "title": "PMLP direct EU citizen/family residence application PDF",
-      "url": "https://www.pmlp.gov.lv/en/media/100/download",
-      "reason": "The direct PMLP PDF appears to be an older form, and the current parent index does not establish that this exact attachment remains applicable after the 2026 Act. Do not use it as a current application form.",
-      "candidate_record": {
-        "manifest": "references/candidate-manifest.json",
-        "id": "lv-22"
-      },
-      "candidate_archive_path": "candidates/latvia_candidate_promotion_20261024/Latvia/lv-22.md",
-      "candidate_source_archive_path": "candidates/latvia_candidate_promotion_20261024/Latvia/lv-22.pdf"
-    },
     {
       "source_id": "lv-27",
       "title": "PMLP: Identity number and declared residence for EU citizens",
@@ -1786,6 +1808,6 @@
     }
   ],
   "currentness_and_dependency_note": "The new free-movement Act took effect on 10 July 2026 and sets 1 December 2027 deadlines for specified Cabinet regulations. Its transitional text says applications filed before commencement are handled under Regulation 675. The official Regulation 675 record, however, says it remains in force until 2 December 2027. This review records the regulation as an official legal reference but leaves its applicability to applications filed on or after 10 July 2026 unresolved; the stale MFA guidance is not used to resolve that conflict. The new Immigration Law is a separate third-country regime effective 15 September 2026; certain provisions take effect on 31 December 2027. Issue-led discovery also added the Residence Declaration Act, Register of Natural Persons Act (selected edition from 29 April 2026), and Civil Status Act as current official references for address registration, population-register records, and civil-status evidence. They do not resolve local implementation or all foreign-document recognition questions.",
-  "count_note": "The 52 source records comprise 43 accepted external references, 5 pending references, and 4 not-relied-upon references. Thirty records also have an accepted dated local text copy. External-reference acceptance, local-copy acceptance, maintained source notes, topic coverage, and country-review completion are separate.",
+  "count_note": "The 52 source records comprise 44 accepted external references, 5 pending references, and 3 not-relied-upon references. Thirty records also have an accepted dated local text copy. Maintained paraphrased source notes are tracked separately from verbatim local copies. External-reference acceptance, local-copy acceptance, maintained source notes, topic coverage, and country-review completion are separate.",
   "local_copy_review_policy": "Accepted local copies are dated text-only snapshots of the identified official source region. Acceptance does not include page chrome, link destinations, embedded files/forms, interactive fields, images, subsequent updates, legal-currentness certification, topic coverage, or country completion. Each local path, final-document hash, source-response hash, conversion hash, review date, and source-specific scope is recorded with its accepted reference."
 }
