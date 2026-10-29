@@ -1,6 +1,6 @@
 # Liechtenstein national-source review
 
-**Review date:** 2026-10-29. **Status:** 22 accepted official references (11 accepted local legal-text copies and 11 link-only references); 1 duplicate lead dispositioned; 18 leads remain open; 0 topics accepted; country review incomplete.
+**Review date:** 2026-10-29. **Status:** 22 accepted official references (12 accepted local legal-text copies and 10 link-only references); 1 duplicate lead dispositioned; 18 leads remain open; 0 topics accepted; country review incomplete.
 
 ## Reviewed sources
 
@@ -23,4 +23,4 @@ The 40-lead inventory now records 19 accepted references, one duplicate disposit
 See the [reviewed source list](references/source-list.md), [source register](references/source-register.json), [acceptance record](references/source-acceptance.json), and [sustainability assessment](references/sustainability-assessment.md).
 
 
-The Legalize-li crosswalk added the official EWR-RegV (LR 170.511) locator and an authored source note. Legalize-li's `LGBl-2020-465.md` is recorded only as an individually retrieved candidate snapshot; it is not accepted statutory text. Source attribution and German conversion rules are documented in the source list. Counts remain 11 accepted local legal-text copies, 11 link-only references, 0 accepted topics, and an incomplete country review.
+The Legalize-li crosswalk added the official EWR-RegV (LR 170.511) locator and an authored source note. Legalize-li's `LGBl-2020-465.md` was compared against the official Gazette PDF and its complete legal body matched. The verified Gazette-version text and its conversion/attribution rule are recorded in the source library. Counts are 12 accepted local legal-text copies, 10 link-only references, 0 accepted topics, and an incomplete country review. The EWR-RegV copy is the official Gazette version marked Fassung 01.02.2021; later consolidated currentness is not asserted.
