@@ -621,24 +621,25 @@
       }
     },
     "sk_31": {
-      "status": "usable_official_reference",
+      "status": "usable_official_reference_with_maintained_local_summary",
       "publisher": "Ministry of Foreign and European Affairs of the Slovak Republic, Embassy in Minsk",
       "url": "https://www.mzv.sk/sk/web/minsk/sluzby/viza-a-pobyty/schengenske-viza/doklady-k-ziadosti-o-viza",
-      "checked_on": "2026-10-25",
+      "checked_on": "2026-10-29",
       "language": "Slovak",
-      "version_or_cutoff": "Official page updated 12 February 2026 says the general document list does not apply to EU/EEA/Swiss family members, with Slovak-national family treated separately subject to legal exceptions.",
-      "scope": "Minsk mission's local Schengen evidence and EU-family guidance only.",
-      "reviewed_content": "Official page updated 12 February 2026 says the general document list does not apply to EU/EEA/Swiss family members, with Slovak-national family treated separately subject to legal exceptions.",
+      "version_or_cutoff": "Page states updated 2026-02-12; opened and rechecked 2026-10-29.",
+      "scope": "Minsk mission's general Schengen evidence and application-channel guidance, with the page's separate exclusion and simplified-route statement for EU/EEA/Swiss family members.",
+      "reviewed_content": "The updated page says its general checklist does not apply to EU/EEA/Swiss family members, who are processed under a simplified regime. It separately notes the Slovak-citizen family exception subject to law. The general page describes standard evidence, additional requests/interviews, Minsk booking providers, biometric requirements and the Belarusian police-verified-invitation instruction. These general checklist details are not attributed to EU-family applicants.",
       "limitations": [
-        "Do not generalize local details to other missions or applicant locations.",
-        "Check current law and applicant's competent mission.",
-        "Network-wide location-specific review remains open."
+        "Mission-specific only; do not generalize to other missions or applicant locations.",
+        "Operational provider links and appointment conditions must be checked when used.",
+        "Read EU-family eligibility and evidence with current Act 404/2011 §§2, 7 and 16(17); do not apply the general checklist where the page expressly excludes EU-family applicants.",
+        "Network-wide mission competence and live process remain open."
       ],
       "source_document": {
         "path": "source-library/slovakia/documents/references/sk-31-mfa-minsk-visa-evidence-and-eu-family-instructions.md",
-        "sha256": "1da440f94fe25aafe4cd134b163624377f88fadcaa9e63508dc97336e9c21031",
-        "bytes": 1578,
-        "kind": "independently_prepared_source_reference_note",
+        "sha256": "60b634baa251ef3889a1401a25383e951489db0b569aedf79cee9a8a287aec50",
+        "bytes": 5518,
+        "kind": "maintained_official_reference_note",
         "reproduces_source_text": false
       }
     },
