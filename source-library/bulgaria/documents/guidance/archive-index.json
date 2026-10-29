@@ -10,6 +10,15 @@
       "sha256": "4b0c7cefedee6c7837b32f66af53d477bfa6317245981694ee0fe7882d73a5c3",
       "archived_at": "2026-10-29T02:15:02.491Z",
       "superseded_by_sha256": "a188fdff242db71bc2fd2a19cd2db1400deb0d7aeb579d5530dd5bbd9a4d7ed5"
+    },
+    {
+      "source_id": "bg-mfa-visa-hub",
+      "official_url": "https://www.mfa.bg/en/services-travel/consular-services/travel-bulgaria/visa-bulgaria/",
+      "current_path": "bulgaria/documents/guidance/bg-mfa-visa-hub.md",
+      "archive_path": "bulgaria/documents/guidance/archive/bg-mfa-visa-hub/2023be0d0f250926ee22ae53e69dcd23553d27dc4d65d5b4527c97a4e4d874e3.md",
+      "sha256": "2023be0d0f250926ee22ae53e69dcd23553d27dc4d65d5b4527c97a4e4d874e3",
+      "archived_at": "2026-10-25T01:43:39.395Z",
+      "superseded_by_sha256": "4afccb846b7cc8246cfd19de1562da13c5e7e28d35849dfe656315aa854e0493"
     }
   ]
 }
