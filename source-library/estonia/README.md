@@ -25,3 +25,6 @@ Three routes remain discovery-only: the Riigi Teataja portal, its FAQ, and N-Lex
 Seventeen page observations remain in the Monitor's local-only archive; they are research evidence, not accepted local copies. Two accepted official page routes (Tallinn service guidance and Riigi Teataja court-decision search) have no saved page snapshot. No complete court-decision corpus, form catalog, or country-level topic coverage is established.
 
 Raw Riigi Teataja responses and the retrieval ledger remain under the standard temporary archive at `/tmp/public-data/temp/estonia/`. Monitor research snapshots remain in its local-only archive. These materials are not published with the library. The country review remains incomplete.
+
+
+Legalize-EE candidate availability and exact-version comparison are documented in [the Legalize crosswalk](references/legalize-crosswalk-2026-10-29.md). The current Citizen of the European Union Act is retrieved from the official Riigi Teataja XML record; no Legalize copy is accepted.
