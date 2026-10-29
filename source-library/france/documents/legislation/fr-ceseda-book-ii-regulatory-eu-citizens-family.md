@@ -54,7 +54,7 @@ Title V contains rules for removal decisions, including the competent administra
 ## Currentness and cross-checks
 
 - The page header displayed “Version en vigueur au 09/09/2026” when checked on 29 October 2026. The link is unpinned and follows the maintained section; confirm the displayed version again before relying on it.
-- The page contains article-level version and effective-date notices. Those notices can differ within the section; a single section-level date does not replace checking the relevant article.
+- The page contains article-level version and effective-date notices. Article R. 253-1 and R. 264-1 displayed amendments effective 31 July 2025; R. 271-1 was created by Decree 2024-799 and has applied since 15 July 2024; R. 281-5 was amended effective 13 June 2026. These notices differ within the section, so a single section-level date does not replace checking the relevant article.
 - The legislative Book II section is a separate source and remains necessary for statutory conditions and definitions.
 - Légifrance itself records partial annulment affecting Articles L. 233-1 and L. 233-2 in the legislative section. Consult the linked Conseil d'État decisions and current legislative page; this regulatory summary does not resolve that issue.
 - General administrative procedure, court procedure, consular practice and local prefecture practices are outside this section unless an article expressly cross-refers to them.
