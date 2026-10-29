@@ -2,8 +2,8 @@
   "schema_version": "1.0.0",
   "jurisdiction": "LU",
   "review_date": "2026-10-29",
-  "candidate_record_count": 49,
-  "accepted_external_reference_count": 46,
+  "candidate_record_count": 50,
+  "accepted_external_reference_count": 47,
   "pending_external_reference_count": 1,
   "not_relied_upon_reference_count": 2,
   "accepted_local_copy_count": 10,
@@ -1821,6 +1821,41 @@
         "path": "documents/guidance/lu-19-short-stay-entry-visa.md",
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
+      }
+    },
+    {
+      "source_id": "lu-50",
+      "title": "Council PRADO LUX-HO-11001: Luxembourg family-member residence document",
+      "url": "https://www.consilium.europa.eu/prado/en/LUX-HO-11001/index.html",
+      "publisher": "Council of the European Union, General Secretariat; record compiled from information supplied by Luxembourg document experts",
+      "language": "en",
+      "checked_on": "2026-10-29",
+      "version_or_scope": "PRADO document code LUX-HO-11001; record generated 2023-09-22, currently marked valid; first issued 2021-06-01.",
+      "decision": "accepted_with_narrow_external_scope",
+      "acceptance_scope": "Official EU document-identification record for the stated Luxembourg residence document and its stated purpose, issue date, format and maximum validity. Not a source of eligibility rules or proof that an individual document is valid.",
+      "reviewed_content": "PRADO identifies the document as CARTE DE SEJOUR, issued by Luxembourg, for a third-country family member of an EU/EEA-EFTA citizen exercising free-movement rights; record states maximum validity five years and no extension.",
+      "limitations": [
+        "PRADO record generated 2023-09-22; current status says valid, but a newer document series/design may exist.",
+        "The record describes document identity and security features, not immigration eligibility or the authenticity/validity of any individual card.",
+        "Check current card forms and residence rules with Luxembourg authorities and applicable legislation.",
+        "This accepts the EU external reference and an independent summary only; no document images or source-page text are reproduced."
+      ],
+      "evidence": {
+        "official_source_url": "https://www.consilium.europa.eu/prado/en/LUX-HO-11001/index.html",
+        "verified_content": "Council PRADO page gives issuer, document code, stated purpose, validity status, first issue date, physical format and maximum validity; generation date shown 2023-09-22.",
+        "source_record_note": "Checked 2026-10-29; document design currency remains uncertain.",
+        "retrieval_status": "official_prado_record_reviewed_and_source_note_promoted"
+      },
+      "local_copy_accepted": false,
+      "local_copy_disposition": "promoted_independent_source_reference_note_not_verbatim_source_copy",
+      "source_document": {
+        "path": "documents/identity/lu-50-prado-family-member-residence-card.md",
+        "kind": "independent_source_reference_note",
+        "reproduces_source_text": false
+      },
+      "selection_record": {
+        "archive_path": "candidates/source-promotion-targets-150-non-malta-2026-10-29/multi-jurisdiction/source-promotion-targets-150-non-malta-2026-10-29/candidate-manifest.json",
+        "sequence": 103
       }
     }
   ],
