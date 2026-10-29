@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 222 official-reference reviews approve use of identified official links within their recorded scopes. Seventy-seven accepted source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), and ten MITOS procedure-page copies under their displayed CC BY-SA 4.0 license. These retained files are not consolidated laws unless expressly stated. One hundred forty-five distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. No automated retrieval rule is accepted. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 222 official-reference reviews approve use of identified official links within their recorded scopes. Seventy-eight accepted source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), and ten MITOS procedure-page copies under their displayed CC BY-SA 4.0 license, and one dated Gov.gr guidance-page snapshot under its stated lawful non-commercial reuse terms. These retained files are not consolidated laws unless expressly stated. One hundred forty-four distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. No automated retrieval rule is accepted. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -485,16 +485,16 @@
       "publisher": "Gov.gr, Greek Single Digital Gateway",
       "url": "https://www.gov.gr/el/sdg/residence/residence-cards-for-union-citizens-and-their-family-members/general/residence-of-third-country-citizens-who-are-family-members-of-eu-citizens",
       "rediscovery_url": "https://www.gov.gr/en/sdg/residence/residence-cards-for-union-citizens-and-their-family-members/general/residence-of-third-country-citizens-who-are-family-members-of-eu-citizens",
-      "checked_on": "2026-10-26",
-      "language": "Greek",
-      "version_or_cutoff": "The official English counterpart displays last updated 28 November 2022; the Greek page has the same date in its indexed official result. Direct page-reader extraction returned no body lines.",
+      "checked_on": "2026-10-29",
+      "language": "English official Gov.gr counterpart; Greek official page linked; Greek source is controlling.",
+      "version_or_cutoff": "The official English counterpart displays last updated 28 November 2022. The current Gov.gr general terms were checked 29 October 2026.",
       "scope": "Official, dated historical procedure evidence for third-country family members of Union citizens; not accepted as a current requirements checklist or live-service source.",
-      "reviewed_content": "Indexed official Gov.gr content says apply within three months of entry to the migration service for the place of residence; present ID or a valid travel document and a stated EUR 16 printing fee; receive a blue acknowledgment when documents are complete; expect a decision within six months of a complete application; and receive appeal authority/deadline information under PD 106/2007 Article 24. A refusal is described as including a departure period usually of at least one month. These are the page's 2022 statements, not verified current requirements.",
+      "reviewed_content": "The official page's indexed rendering identifies the Ministry of Migration and Asylum as content authority and states that third-country family members of EU citizens should apply within three months of entry to the migration service for their place of residence, show an ID or valid travel document, pay a stated EUR 16 document-printing fee, receive immediate acknowledgement when documents are complete, and expect a decision within six months of receipt of a complete application, absent public-policy, security or health objections. It says a decision identifies the appeal forum and deadline under PD 106/2007 Article 24 and that a refusal usually sets at least one month to leave. These remain the page's dated 2022 statements. Direct page-reader extraction returned no body lines; the official search-index rendering supplied the retained text.",
       "limitations": [
-        "The page displays a 28 November 2022 update date, and its direct page-reader route exposed no body lines; the listed content was recovered from the indexed official-domain result.",
-        "Do not treat its fee, deadline, filing office, document list or remedies as proof of present procedure.",
-        "Later legal changes and the current Greek procedure require separate verification; no live application route was tested.",
-        "Accepted only as dated historical evidence; no local copy or republication permission is approved."
+        "The page displays a 28 November 2022 update date. Its fee, deadline, filing office and remedies are preserved only as historical page statements, not current requirements.",
+        "The direct page-reader route exposed no body text; the local snapshot retains the substantive text surfaced in the official indexed rendering and is not a raw or byte-for-byte capture.",
+        "Gov.gr terms permit lawful non-commercial reuse with required rights/source notices; this does not authorize commercial reuse or establish a CC license.",
+        "Later legal changes, current procedure and any live application route require separate verification."
       ]
     },
     "gr-gov-gr-61-other-family-index": {
@@ -3982,8 +3982,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 77,
-    "note": "Seventy-seven source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), and ten MITOS procedure-page copies under their displayed CC BY-SA 4.0 license. The MITOS copies are not legislation. One hundred forty-five distinct accepted references remain without a local source-text copy; gr-06 is a duplicate locator for gr-05. Copy acceptance does not establish consolidated current law, topic coverage or country completion."
+    "accepted_source_count": 78,
+    "note": "Seventy-eight source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), ten MITOS procedure-page copies under their displayed CC BY-SA 4.0 license, and one dated Gov.gr guidance-page snapshot under its stated lawful non-commercial reuse terms. These page copies are not legislation or current procedure certification. One hundred forty-four distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. Copy acceptance does not establish consolidated current law, topic coverage or country completion."
   },
   "whole_portal_review_offers": [
     {
@@ -5329,6 +5329,21 @@
       "version_or_cutoff": "Revision 79890; last edited 27 October 2026 at 14:30; checked 29 October 2026.",
       "monitor_archive_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-55.md",
       "monitor_archive_sha256": "8ecdf063232b41a3ca9d2e247ab9dd4ba137e4738619fee5f9f05337ef25dcc4"
+    },
+    "gr-gov-gr-60-residence-locator": {
+      "decision": "accepted_local_official_page_copy",
+      "path": "source-library/greece/documents/guidance/gr-60-gov-gr-greek-sdg-residence-of-third-country-family-locator.md",
+      "sha256": "71e3522db6687201e4225bd4c8b6a5d10ced5aeda6ac1a2f23d4df2868340748",
+      "bytes": 5591,
+      "source_url": "https://www.gov.gr/el/sdg/residence/residence-cards-for-union-citizens-and-their-family-members/general/residence-of-third-country-citizens-who-are-family-members-of-eu-citizens",
+      "captured_candidate_url": "https://www.gov.gr/en/sdg/residence/residence-cards-for-union-citizens-and-their-family-members/general/residence-of-third-country-citizens-who-are-family-members-of-eu-citizens",
+      "conversion_method": "Official Gov.gr indexed English-page rendering reviewed and normalized into attributed Markdown; direct page-reader body unavailable, navigation omitted.",
+      "reviewed_on": "2026-10-29",
+      "semantic_check": "Official Gov.gr page title and content authority, page-displayed update date 28 November 2022, substantive residence-document instructions, refusal/appeal text and useful-link categories were checked against the official indexed result. The English page body was not exposed by direct page extraction.",
+      "reuse_basis": "The Gov.gr General Terms & Policies of Use, checked 29 October 2026, state that portal content may be used for lawful non-commercial purposes subject to preserving applicable copyright and other required notices. Attribution and the source route are retained. This is not a CC license; commercial reuse is not accepted.",
+      "limitations": "Dated 2022 procedure snapshot, not a current requirements checklist. Direct page extraction yielded no body, so completeness is limited to substantive text surfaced in the official indexed rendering; not a raw or byte-for-byte capture. Later law and practice were not checked.",
+      "scope": "Substantive text surfaced for the official English Gov.gr page on residence of third-country family members of EU citizens, including application timing, submission office, basic document and fee statements, acknowledgment, decision period, appeal and refusal information.",
+      "version_or_cutoff": "Gov.gr English page last updated 28 November 2022; checked 29 October 2026."
     }
   }
 }
