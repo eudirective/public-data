@@ -108,3 +108,7 @@ Thirty additional scoped Greek text excerpts are accepted: gr-53, gr-147, gr-153
 
 
 On 29 October 2026, two official operational references were added: gr-224, the Attica Apostille service scope, and gr-225, the government training guide to civil-registry issuance. Each has a maintained English summary. The 84 accepted source-text-copy total is unchanged; these summaries do not reproduce the official pages or establish legal eligibility or nationwide procedure.
+
+## Legalize crosswalk
+
+[2026-10-29 Legalize-GR review](references/legalize-crosswalk-2026-10-29.md): scoped to PD 106/2007 (`gr-05`); the Legalize candidate was compared with the accepted official-source-based extract and not accepted because several reviewed articles differ.
