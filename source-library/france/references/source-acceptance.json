@@ -887,5 +887,29 @@
         "The section URL is unpinned; confirm current section and article-level dates before date-sensitive use."
       ]
     }
+  },
+  "retrieval_method_reviews": {
+    "legalize-fr": {
+      "status": "discovery_and_dated_snapshot_method_only",
+      "repository": "https://github.com/legalize-dev/legalize-fr",
+      "reviewed_commit": "e38417fd7b982b2df02fbe01f2960127a7bf9031",
+      "checked_on": "2026-10-29",
+      "inventory": "83 Markdown code files under fr/; 4 code identifiers overlap the current France pack; 79 lack a same-code local document. This is a filename crosswalk, not a topic-relevance finding.",
+      "official_validation": {
+        "LEGITEXT000006070158": "Légifrance CESEDA page verified; current version shown as of 2026-10-28 and data last updated 2026-10-24.",
+        "LEGITEXT000006070721": "Légifrance Code civil page verified; current version shown as of 2026-10-29 and data last updated 2026-07-29.",
+        "LEGITEXT000006070933": "Légifrance CJA page verified; current version shown as of 2026-10-29 and data last updated 2026-09-01.",
+        "LEGITEXT000031366350": "Légifrance CRPA page verified; current version shown as of 2026-10-08 and data last updated 2026-05-28."
+      },
+      "disposition": "The repository files checked were dated 2026-04-03 and lagged the official consolidated pages. Confirmed only as a third-party discovery and dated snapshot route; not accepted as authoritative or current-version retrieval. No Legalize text was copied into documents/.",
+      "attribution_and_rights": "Attribute legal text to DILA/Légifrance under Licence Ouverte 2.0 and attribute the Markdown transformation to Legalize France at the pinned commit. The repository's MIT license covers software, not the statutory text. Recheck notices before reuse.",
+      "conversion_rules": [
+        "Preserve LEGITEXT ID, title, official URL, repository commit/path, snapshot date, status and language.",
+        "Preserve source hierarchy, article numbering, full wording, amendment/effective-date notes, cross-references, footnotes and links; do not silently rewrite, translate, reorder or omit content.",
+        "Compare all retained content and article anchors with the official Légifrance version; record official cutoff separately from snapshot date.",
+        "Review image/attachment omissions; mark incomplete when material cannot be recovered.",
+        "Store hashes and both source and transformation attribution; label every retained copy as dated and subordinate to the official Légifrance record."
+      ]
+    }
   }
 }
