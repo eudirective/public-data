@@ -15,3 +15,6 @@ The Monitor has no registered Germany pack action. Pack-level automated runtime 
 - [Source acceptance](references/source-acceptance.json)
 - [Retrieval rules](references/gii-retrieval-manifest.json)
 - [Sustainability assessment](references/sustainability-assessment.md)
+
+
+The bounded Legalize-DE crosswalk and section comparison for FreizügG/EU and AufenthG are in [references/legalize-crosswalk-2026-10-29.md](references/legalize-crosswalk-2026-10-29.md). No Legalize retrieval method is assigned to these records.
