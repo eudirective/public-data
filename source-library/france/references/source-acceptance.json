@@ -504,6 +504,81 @@
         "Documents internal assignment, not substantive residence rights or individual outcomes.",
         "Link-only reference; verify current RAA and prefecture organization before date-sensitive use."
       ]
+    },
+    "fr-code-travail": {
+      "status": "usable_official_reference",
+      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072050",
+      "checked_on": "2026-10-29",
+      "language": "French",
+      "version_or_cutoff": "Official full-code link is unpinned. The official Book II employment-contract section displayed a version in force at 2026-06-27; separately indexed official sections displayed versions in force at 2026-09-27.",
+      "scope": "Full Code du travail; potentially relevant to worker status and employment rights under free-movement routes.",
+      "reviewed_content": "Official code identity and title confirmed; official Légifrance section and current-version evidence reviewed. No full-code content extraction or provision-by-provision review was performed.",
+      "limitations": [
+        "Full-code link-only reference; use provision-level current text for a concrete issue.",
+        "This record does not establish immigration status, work authorization, or eligibility under EU law.",
+        "No Legalize Markdown copy is accepted."
+      ]
+    },
+    "fr-code-securite-sociale": {
+      "status": "usable_official_reference",
+      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006073189",
+      "checked_on": "2026-10-29",
+      "language": "French",
+      "version_or_cutoff": "Official code record displayed data last updated 2026-10-02; official provisions reviewed in search results were current through September 2026.",
+      "scope": "Full Code de la sécurité sociale; potentially relevant to social-insurance, health-coverage and benefit dependencies.",
+      "reviewed_content": "Official code identity, title and the current official code/provision pages were confirmed. This is a code-level reference, not a review of entitlement provisions.",
+      "limitations": [
+        "Full-code link-only reference; identify and check the exact provisions and EU coordination rules before applying it.",
+        "No benefits or residence entitlement is inferred.",
+        "No Legalize Markdown copy is accepted."
+      ]
+    },
+    "fr-code-education": {
+      "status": "usable_official_reference",
+      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006071191",
+      "checked_on": "2026-10-29",
+      "language": "French",
+      "version_or_cutoff": "Official code page displayed version in force at 2026-10-29 and code data last updated 2026-10-16.",
+      "scope": "Full Code de l’éducation; potentially relevant to student-route status and education dependencies.",
+      "reviewed_content": "The official full-code page was opened and its title, code identity, current-version date and data-update date confirmed.",
+      "limitations": [
+        "Full-code link-only reference; student-route provisions have not been mapped article by article.",
+        "Does not establish a student’s immigration or residence rights by itself.",
+        "No Legalize Markdown copy is accepted."
+      ]
+    },
+    "fr-code-sante-publique": {
+      "status": "usable_official_reference",
+      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072665",
+      "checked_on": "2026-10-29",
+      "language": "French",
+      "version_or_cutoff": "Official sections inspected displayed versions in force at 2026-10-18 and 2026-10-21.",
+      "scope": "Full Code de la santé publique; potentially relevant to public-health and health-service dependencies.",
+      "reviewed_content": "Official code identity and title, plus live current-version Légifrance sections, were confirmed; the full code page exceeded the retrieval display limit.",
+      "limitations": [
+        "Full-code link-only reference; no full-code extraction or provision-by-provision review was performed.",
+        "Use the relevant official current section for a concrete question; no health-entitlement conclusion is inferred.",
+        "No Legalize Markdown copy is accepted."
+      ]
+    },
+    "fr-code-procedure-civile": {
+      "status": "usable_official_reference",
+      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006070716",
+      "checked_on": "2026-10-29",
+      "language": "French",
+      "version_or_cutoff": "Official code page displayed version in force at 2026-10-29 and data last updated 2026-10-01.",
+      "scope": "Full Code de procédure civile; potentially relevant to civil-status and family proceedings.",
+      "reviewed_content": "The official full-code page was opened and its identity, title, current-version date and data-update date confirmed.",
+      "limitations": [
+        "Full-code link-only reference; exact procedural routes still require issue-specific review.",
+        "Special procedures and administrative jurisdiction may be governed elsewhere, including the CJA.",
+        "No Legalize Markdown copy is accepted."
+      ]
     }
   },
   "official_reference_review_schema": {
