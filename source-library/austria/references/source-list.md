@@ -1,8 +1,8 @@
 # Austria source inventory
 
-As of 19 October 2026: 73 of 74 source records passed per-source acceptance; no captured sources remain pending review; one family-topic index is discovery-only; no official locator-only source remains uncaptured. Country review remains incomplete.
+As of 29 October 2026: 74 of 75 source records passed per-source acceptance; no captured sources remain pending review; one family-topic index is discovery-only; no official locator-only source remains uncaptured. Country review remains incomplete.
 
-Accepted means the source passed per-record gates; it does not prove that all legal topics or procedures are covered. The 74-record register is a bounded inventory, not a conclusion that the source set is sufficient.
+Accepted means the source passed per-record gates; it does not prove that all legal topics or procedures are covered. The 75-record register is a bounded inventory, not a conclusion that the source set is sufficient.
 
 | ID | Class | State | Title | Official source |
 |---|---|---|---|---|
@@ -51,6 +51,7 @@ Accepted means the source passed per-record gates; it does not prove that all le
 | at-ifg-7 | national_legislation | accepted | Informationsfreiheitsgesetz § 7 — information request procedure | [Publisher](https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20012537&Paragraf=7) |
 | at-ifg-8 | national_legislation | accepted | Informationsfreiheitsgesetz § 8 — time limit for information access | [Publisher](https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20012537&Paragraf=8) |
 | at-ifg-9 | national_legislation | accepted | Informationsfreiheitsgesetz § 9 — response to information requests | [Publisher](https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20012537&Paragraf=9) |
+| at-ifg-consolidated | national_legislation | accepted | Informationsfreiheitsgesetz — full consolidated text, verified against RIS §§ 1–20 | [Publisher](https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20012537) |
 | at-lvwg-ni-2019-518 | official_case_law | accepted | Landesverwaltungsgericht Niederösterreich, LVwG-AV-518/001-2019 — EEA-family residence-card decision | [Publisher](https://ris.bka.gv.at/JudikaturEntscheidung.wxe?Abfrage=Lvwg&Dokumentnummer=LVWGT_NI_20191205_LVwG_AV_518_001_2019_00) |
 | at-lvwg-wien-2022-6086 | official_case_law | accepted | Verwaltungsgericht Wien, VGW-151/094/6086/2022 — Aufenthaltskarte challenge under NAG §§ 54 and 57 | [Publisher](https://ris.bka.gv.at/Dokumente/Lvwg/LVWGT_WI_20220808_VGW_151_094_6086_2022_00/LVWGT_WI_20220808_VGW_151_094_6086_2022_00.html) |
 | at-nag-3-authority | national_legislation | accepted | Niederlassungs- und Aufenthaltsgesetz § 3 — authorities and decision/review responsibility | [Publisher](https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004242&Paragraf=3) |
