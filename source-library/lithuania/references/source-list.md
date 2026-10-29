@@ -87,3 +87,13 @@ The bounded search identified no standalone Lithuanian UK Withdrawal Agreement i
 ## Search interpretation
 
 The bounded search identified no standalone Lithuanian UK Withdrawal Agreement implementing statute. This is a search outcome, not a claim that no such instrument exists. EEA, Swiss, EU, mobile-Lithuanian, and UK Withdrawal Agreement routes remain distinct. Direct e-TAR requests sometimes returned 403 in the research client; this does not establish an e-TAR service outage.
+
+## Legalize-LT crosswalk (2026-10-29)
+
+Pinned [Legalize-LT](https://github.com/legalize-dev/legalize-lt) at commit [76c1b579fba5a874079b2d3b99bf471befc4b877](https://github.com/legalize-dev/legalize-lt/commit/76c1b579fba5a874079b2d3b99bf471befc4b877). Its README says the text is derived from the Lithuanian legal-register dataset published through data.gov.lt / Spinta and converted to Markdown; the file front matter is meant to link to the official e-TAR act.
+
+A targeted repository search for the official identifier `TAR.42837E5A79DD`, act number `IX-2206`, the Lithuanian title of the Law on the Legal Status of Aliens, and Order `1V-594` returned no matching files. A direct check of the expected `lt/e1cacab099a811e9ae2e9d61b1f977b3.md` path also returned 404. Since the repository contains a very large dataset and those search results do not enumerate its full tree, this is **not proof that no candidate file exists**; no exact Legalize file was verified, so no absence claim or retrieval method is recorded.
+
+The official-source records already exist: `lt-08` identifies the Aliens Law and the official e-TAR version inspected for 1 July–31 October 2026; `lt-09` identifies the in-force Order 1V-594 consolidated version effective 5 April 2023. Neither Legalize text was promoted or compared as a full copy. Keep e-TAR and the accepted Migration Department references as the source routes.
+
+Legalize-LT states CC BY 4.0 for its data; MIT applies to pipeline code. No new official source record or conversion rule was added. A later review should identify the exact dataset record and file path before comparing its complete Lithuanian body with the same dated e-TAR version.
