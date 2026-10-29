@@ -323,6 +323,31 @@
         "Do not conflate EU, EEA, Swiss, Slovenian-national-family and third-country routes."
       ],
       "document_path": "documents/legislation/si-foreigners-act-ztuj-2.md"
+    },
+    "si_03": {
+      "status": "usable_official_reference_with_maintained_reference_note",
+      "publisher": "PISRS, Legal Information System of the Republic of Slovenia; amendments promulgated in the Official Gazette of the Republic of Slovenia",
+      "url": "https://pisrs.si/Pis.web/pregledPredpisa?sop=1999-01-3777",
+      "rediscovery_url": "https://pisrs.si/",
+      "checked_on": "2026-10-29",
+      "language": "Slovenian",
+      "version_or_cutoff": "PISRS record ZAKO1603 / SOP 1999-01-3777 identifies unofficial consolidated text NPB 14, amendments through ZUP-I (Official Gazette RS 85/2025), and date of use 7 February 2026.",
+      "scope": "General administrative procedure for public bodies deciding administrative matters; special statutes may displace or supplement ZUP for the issues they govern.",
+      "reviewed_content": "PISRS official indexed record and integration text were checked for title, record ID, NPB 14, amendment history, date of use, scope and informational disclaimer. Official Gazette item 3046 (ZUP-I) was checked for publication and commencement/transitional provisions.",
+      "limitations": [
+        "PISRS labels its consolidated text unofficial and informational; consult promulgated Gazette acts where exact wording or legal effect matters.",
+        "Special statutes may provide different procedural rules; verify the applicable proceeding and version for each matter.",
+        "The PISRS record route rendered as a JavaScript shell in this review client; no local source-text copy was accepted.",
+        "This is link-only legal-reference acceptance and does not establish topic coverage or country-pack completeness."
+      ],
+      "document_path": "documents/references/si-03-general-administrative-procedure-act-zup-2026-10-29.md",
+      "maintained_note_sha256": "7be3190f0505c69194a29398560e388edb0c094b9a6fb962d09c0a56b1bd2d73",
+      "maintained_note_role": "maintained_official_reference_note_not_source_text_copy",
+      "related_official_references": [
+        "https://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO1603",
+        "https://pisrs.si/api/datoteke/integracije/555241903",
+        "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-3046"
+      ]
     }
   },
   "historical_or_not_current_references": [
