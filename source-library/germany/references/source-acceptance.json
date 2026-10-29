@@ -4,7 +4,7 @@
   "as_of": "2026-10-29",
   "accepted_source_count": 43,
   "accepted_current_law_source_count": 18,
-  "accepted_derived_text_count": 21,
+  "accepted_derived_text_count": 22,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "accepted_external_reference_count": 43,
@@ -712,19 +712,30 @@
     {
       "source_id": "de-32",
       "decision": "accepted_with_narrow_external_scope",
-      "accepted_role": "Dated Make it in Germany government information page on spouses joining EU, EEA or Swiss citizens. The official print PDF was checked and carries a generation timestamp of 5 March 2026. Accepted as guidance reference only; legal bases and local procedures require separate checking.",
+      "accepted_role": "Federal government Make it in Germany guidance for spouses joining EU/EFTA citizens. Accepted as a dated guidance summary and locator only; legal regimes and local procedures require separate checking.",
       "not_accepted": [
         "A complete Germany national source pack, topic coverage, or country review.",
-        "A retained local copy of the candidate capture.",
-        "Mission-specific requirements, local practice, or legal conclusions beyond the stated source scope."
+        "Mission-specific requirements, local practice, or case-specific legal conclusions.",
+        "A verbatim page copy."
       ],
       "evidence": {
-        "official_source_url": "https://www.make-it-in-germany.com/en/visa-residence/family-reunification/spouses-joining-eu-citizens/print",
-        "checked_on": "2026-10-24",
+        "official_source_url": "https://www.make-it-in-germany.com/en/visa-recognition/family-reunification/spouses-joining-eu-citizens",
+        "superseded_locator": "https://www.make-it-in-germany.com/en/visa-residence/family-reunification/spouses-joining-eu-citizens/print",
+        "checked_on": "2026-10-29",
         "language": "en",
-        "version": "Official print PDF timestamp: 2026-03-05 19:34:26 GMT; checked 2026-10-24.",
-        "verified_content": "The page separates EU/EEA/Swiss sponsor routes and discusses visa and local residence steps. No currentness after the PDF timestamp or independent legal accuracy review is claimed.",
-        "publisher_note": "Official publisher/service reference only; use the underlying legislation and responsible mission or regional authority for current legal and procedural requirements."
+        "version": "Current page opened 2026-10-29. Previous print URL returned 404; the old route redirects to the current page path.",
+        "verified_content": "Page distinguishes EU/EFTA sponsor and applicant categories, discusses third-country spouse entry and residence routes, and directs users to the Consular Services Portal or German mission. No legal accuracy audit claimed.",
+        "publisher_note": "Legal notice identifies the Federal Republic represented by the Federal Ministry for Economic Affairs as service provider and permits cited unchanged use for specified non-commercial/editorial purposes. Local Markdown is independently worded."
+      },
+      "accepted_local_copy": {
+        "status": "accepted_project_authored_source_summary",
+        "path": "documents/guidance/de-32.md",
+        "checked_on": "2026-10-29",
+        "language": "English",
+        "publisher_version": "Live current page reviewed 29 October 2026; no version date captured.",
+        "scope": "Summary of page scope, spouse categories, visa/permit routes, and mission referral.",
+        "reuse": "Independent paraphrase; no source text reproduced.",
+        "limits": "Guidance only; does not collapse distinct EU, EEA, Swiss or national routes; no full checklist or legal determination."
       }
     },
     {
@@ -1025,6 +1036,6 @@
   ],
   "human_review_offers": [],
   "policy": "Official source links may be accepted for ordinary reference use within the exact identity, date, and scope recorded. Link acceptance is separate from local-copy acceptance, topic coverage, dependencies, currentness, and country completion. Gesetze im Internet consolidations are working references; the electronic Bundesgesetzblatt is the authentic promulgation source for specific discrepancy, commencement, or amendment checks.",
-  "count_note": "43 official source references are accepted within recorded narrow roles. Eighteen accepted current-law source records correspond to 17 unique accepted local statutory text copies because de-10 is represented by de-09. Four independently authored Federal Foreign Office guidance summaries (de-25, de-26, de-27 and de-31) are accepted locally. Five proposals remain open for human review. The de-31 handbook’s extracted local text is not accepted. No topic coverage or country review is complete.",
-  "accepted_local_copy_count": 21
+  "count_note": "43 official source references are accepted within recorded narrow roles. Eighteen accepted current-law source records correspond to 17 unique accepted local statutory text copies because de-10 is represented by de-09. Five independently authored government guidance summaries (de-25, de-26, de-27, de-31 and de-32) are accepted locally. Five proposals remain open for human review. The de-31 handbook’s extracted local text is not accepted. No topic coverage or country review is complete.",
+  "accepted_local_copy_count": 22
 }
