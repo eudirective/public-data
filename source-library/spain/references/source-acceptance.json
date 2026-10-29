@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "ES",
-  "as_of": "2026-10-25",
-  "accepted_source_count": 22,
+  "as_of": "2026-10-29",
+  "accepted_source_count": 23,
   "accepted_current_law_source_count": 15,
-  "accepted_derived_text_count": 18,
+  "accepted_derived_text_count": 19,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "accepted_external_reference_count": 54,
@@ -1820,6 +1820,43 @@
         "method": "Matched the official index entry, title, signer/date, nine-page PDF identity and route scope. Recorded its relation to RD 1155/2024 and the unresolved effect of the 2026 Supreme Court judgment."
       },
       "raw_capture_evidence": "Exact Ministry PDF response retained at temp/spain/raw/es-29-1c7ea39e4b707559e090b01342311c86b18c9e5b10a60f61ff3f30789926bec8.pdf (SHA-256 1c7ea39e4b707559e090b01342311c86b18c9e5b10a60f61ff3f30789926bec8; 464495 bytes). Candidate text preserved in Monitor local-only archive at candidates/public-data/ES/public-data/spain/monitor-candidates/es-29.md. Final accepted source PDF: ../documents/procedure/es-sem-instructions-2-2025-family-of-spanish-nationals.pdf."
+    },
+    "es-04-código-civil-private-international-law-family-provisions": {
+      "status": "accepted",
+      "document_path": "../documents/legislation/es-codigo-civil-private-international-law-family-provisions.md",
+      "accepted_on": "2026-10-29",
+      "local_document_sha256": "ea9c0040db40cb4b73fb8820d6389044ec075870",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The live BOE record identifies Real Decreto de 24 de julio de 1889, Código Civil, BOE-A-1889-4763, and matches the selected official URL."
+        },
+        "current_legal_version": {
+          "status": "pass",
+          "evidence": "The consolidated page was checked on 2026-10-29. Article-level displayed update/effective dates were recorded for Articles 12, 107 and 108. The BOE informational consolidation is not treated as authoritative legal text; no single overall cutoff is inferred."
+        },
+        "extraction_completeness": {
+          "status": "pass",
+          "evidence": "The maintained file is an authored, scoped summary rather than a copied text extraction. It identifies Articles 9–12, 16, 107 and 108, records relevant article-level dates, and states its omissions and limits."
+        },
+        "attachments_review": {
+          "status": "pass",
+          "evidence": "The reviewed BOE record is an HTML legislative record; no attachment is relied upon for the summary."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "National legislation, summarized for retrieval. The note preserves the BOE caveat that its consolidation is informational and without legal value."
+        }
+      },
+      "semantic_review": {
+        "status": "passed",
+        "method": "Compared official page identity and relevant provisions directly in the live BOE record. Preserved article numbers and provision-specific dates and distinguished the BOE consolidated informational text from authoritative promulgated law."
+      },
+      "limitations": [
+        "Spanish source only; no English translation is provided.",
+        "Scoped summary, not the full Civil Code or a case-specific conflict-of-laws analysis.",
+        "Apply relevant EU and international instruments where governing; no instrument-priority analysis is supplied."
+      ]
     }
   }
 }
