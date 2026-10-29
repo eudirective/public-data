@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "review_date": "2026-10-24",
+  "review_date": "2026-10-29",
   "jurisdiction": "BE",
   "status": "partial",
   "publisher_assessment": {
@@ -14,7 +14,7 @@
     "accepted_external_references": 47,
     "pending_external_references": 0,
     "not_relied_upon_superseded": 1,
-    "accepted_local_copies": 30,
+    "accepted_local_copies": 31,
     "accepted_topics": 0,
     "country_review_complete": false
   },
@@ -202,7 +202,8 @@
     "be-rvv-case-sample-320874",
     "be-annex-19ter-fr",
     "be-05-federal-justice-guidance-recognition-registration-foreign-adoptions",
-    "be-dpa-complaint-fr"
+    "be-dpa-complaint-fr",
+    "be-mobile-belgian-40ter"
   ],
   "local_copy_decisions": [
     {
@@ -629,6 +630,22 @@
         "legal_classification": "Official APD procedural guidance. It is not the Federal Data Protection Act, an immigration appeal procedure, or a guarantee that a complaint will be examined on its merits."
       },
       "scope_limit": "Dated snapshot only; direct page was under maintenance on 2026-10-24. Confirm the restored official page before relying on current filing steps. No topic coverage or Belgium completion is established."
+    },
+    {
+      "source_id": "be-mobile-belgian-40ter",
+      "decision": "accepted_scoped_source_note",
+      "local_path": "source-library/belgium/documents/guidance/be-mobile-belgian-40ter.md",
+      "review_date": "2026-10-29",
+      "official_url": "https://dofi.ibz.be/nl/themes/ressortissants-dun-pays-tiers/regroupement-familial/avec-un-belge/gezinshereniging-met-een",
+      "evidence": {
+        "publisher_identity": "The live Dutch IBZ/Dofi page was opened on 2026-10-29; its title and route identify family reunification with a Belgian returnee under Article 40ter §1.",
+        "version_currentness": "The page cites the Law of 10 March 2024, effective 1 September 2024, and has no displayed update date. The official Justel consolidation is updated through 2026-06-24; its Article 40ter §1 matches the described returnee route and three conditions.",
+        "extraction_completeness": "The captured page rendering interleaves the target Article 40ter text with unrelated generic EU-family text, so that capture was not promoted. The accepted Markdown is complete for its narrower scope as an independently written, dated source locator and provision summary.",
+        "attachments": "No linked form or payload is included or relied upon by this source note.",
+        "legal_classification": "Official IBZ/Dofi administrative guidance on Article 40ter §1; the Law of 15 December 1980 remains controlling.",
+        "lawful_reuse": "No page prose or layout is copied and no IBZ licence is asserted. The Markdown contains source-identifying facts and an independently worded summary only."
+      },
+      "scope_limit": "Accepted as a maintained factual locator/summary of the specific official page and provision. Not a verbatim transcription, not individualized legal advice, and not a substitute for current Justel legislation."
     }
   ]
 }
