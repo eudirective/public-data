@@ -9,18 +9,18 @@
       "publisher": "Ministry of Foreign Affairs of the Republic of Bulgaria (MFA)",
       "url": "https://www.mfa.bg/upload/138161/%D0%9D%D0%B0%D1%80%D0%B5%D0%B4%D0%B1%D0%B0%20%D0%B7%D0%B0%20%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F%D1%82%D0%B0%20%D0%B8%20%D1%80%D0%B5%D0%B4%D0%B0%20%D0%B7%D0%B0%20%D0%B8%D0%B7%D0%B4%D0%B0%D0%B2%D0%B0%D0%BD%D0%B5%20%D0%BD%D0%B0%20%D0%B2%D0%B8%D0%B7%D0%B8%20%D0%B8%20%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F%D0%BD%D0%B5%20%D0%BD%D0%B0%20%D0%B2%D0%B8%D0%B7%D0%BE%D0%B2%D0%B8%D1%8F%20%D1%80%D0%B5%D0%B6%D0%B8%D0%BC.pdf",
       "rediscovery_url": "https://www.mfa.bg/bg/ministerstvo/dokumenti/normativni-dokumenti",
-      "checked_on": "2026-10-21",
+      "checked_on": "2026-10-29",
       "language": "Bulgarian",
       "version_or_cutoff": "The 42-page PDF heading lists amendments through State Gazette issue 4/2025, published 14 January 2025. The official MFA normative-documents page links to this file.",
       "scope": "Government-published consolidated text of Ordinance №198/2011 on conditions and procedure for visa issuance and determination of the visa regime.",
-      "reviewed_content": "The document heading identifies the ordinance and its amendment history through issue 4/2025. The reviewed provisions include Article 20(2)(4), which exempts qualifying EU/EEA/Swiss family or household members from the listed insurance-document requirement, and Article 23(3), which grants those family or household members direct access to the consular section without a prior appointment. The MFA parent index lists the ordinance and links to this PDF. The text is read together with the specific later amendments in Decree №221/2025 §3.",
+      "reviewed_content": "The document heading identifies the ordinance and its amendment history through issue 4/2025. The reviewed provisions include Article 20(2)(4), which exempts qualifying EU/EEA/Swiss family or household members from the listed insurance-document requirement, and Article 23(3), which grants those family or household members direct access to the consular section without a prior appointment. The MFA parent index lists the ordinance and links to this PDF. The text is read together with the specific later amendments in Decree №221/2025 §3. A complete extractable-text Markdown copy is now retained at `../documents/legislation/bg-mfa-visa-ordinance-consolidated.md` (document SHA-256 d91e8e7af427758701cd5a6f91d6e633f6ae37c16c82c92b66b11d5a03f26e64). The local copy is limited to normative text; annex visual layout is not represented.",
       "limitations": [
         "Bulgarian text only; the Bulgarian text is the controlling reference.",
         "The consolidated edition predates Decree №221/2025, published 28 October 2025. Supplement it with §3 of that decree: Article 27(1) wording changed under §3(3); the currency-related changes in Articles 16(3) and 17(1) became effective with euro adoption on 1 January 2026.",
         "The linked MVR-hosted edition that ends in 2019 is stale and is retained only as a historical comparator.",
         "PDF annexes were not visually reviewed and are not relied upon by this reference entry.",
-        "This approval is for reference use only and grants no permission to copy or republish the PDF.",
-        "This reference does not establish coverage of all consular practice, forms, or other visa and residence law."
+        "This reference does not establish coverage of all consular practice, forms, or other visa and residence law.",
+        "The accepted Markdown is a text extraction; it does not preserve PDF form layout, graphics, or fillable controls."
       ],
       "supporting_sources": [
         {
@@ -749,7 +749,7 @@
     ],
     "note": "Record a human-reviewed official link when it supports a source area without retaining a local copy. This does not change the accepted local-source count."
   },
-  "accepted_source_count": 16,
+  "accepted_source_count": 17,
   "records": {
     "bg-eu-free-movement-act": {
       "status": "accepted",
@@ -1456,6 +1456,48 @@
       },
       "accepted_on": "2026-10-24",
       "document_path": "documents/forms/bg-eu-instruction-annex-6-residence-address-declaration-2018-repealed.html"
+    },
+    "bg-mfa-visa-ordinance-consolidated": {
+      "status": "accepted",
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The MFA normative-documents index lists Ordinance №198/2011 and links this 42-page PDF. The PDF title and amendment history were reviewed directly; it identifies amendments through State Gazette issue 4/2025."
+        },
+        "current_legal_version": {
+          "status": "pass",
+          "review_date": "2026-10-29",
+          "evidence": "The consolidation cutoff is explicitly issue 4/2025 (14 January 2025). Official PRIS modification history and State Gazette Decree №221/2025 issue 90/2025 §3 were checked as later changes. Read §3 with this edition: Article 27(1) changed; changes to Articles 16(3) and 17(1) took effect on euro adoption, 1 January 2026. The 2019 MVR text remains a distinct historical edition."
+        },
+        "extraction_completeness": {
+          "status": "pass",
+          "evidence": "All 1,395 extracted text lines across the 42-page PDF are present in sequence; Ordinance Articles 1–47 and Annexes 1–8 text are represented."
+        },
+        "attachments_review": {
+          "status": "pass_with_limits",
+          "evidence": "Annex text is included. PDF layout, form graphics, boxes, signatures, and fillable controls are not preserved; use the official PDF for visual/form use. The copy does not claim visual-form completeness."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "Council of Ministers Ordinance №198/2011 governing visa issuance and visa regime; Bulgarian national secondary legislation."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "official_text_only",
+          "basis_id": "bg-copyright-act-art-4-1",
+          "evidence": "Bulgarian Copyright and Related Rights Act Article 4(1) excludes normative acts of state-government bodies from copyright. Acceptance is limited to official normative text, not the MFA page shell or database-wide reuse. Official Act: https://www.mlsp.government.bg/uploads/3/zakonodatelstvo/zakon-za-avtorskoto-pravo-i-srodnite-mu-prava.pdf . Consolidated Article 4 text: https://legislation.apis.bg/doc/8772/0/par5%D0%B3 ."
+        },
+        "semantic_review": {
+          "status": "passed",
+          "method": "official_source_text_and_legal_anchor_review",
+          "review_date": "2026-10-29",
+          "scope": "Complete extractable text of MFA consolidation through SG issue 4/2025, 42-page PDF; Bulgarian only; later Decree №221/2025 §3 disclosed; Annex layout excluded.",
+          "evidence": "Reviewed publisher identity, ordinance title/adoption and cutoff, page sequence, Articles 1–47, Annexes 1–8 text, and separate later amendment. This is a maintained dated consolidation and requires reading with Decree №221/2025 §3.",
+          "document_sha256": "d91e8e7af427758701cd5a6f91d6e633f6ae37c16c82c92b66b11d5a03f26e64"
+        }
+      },
+      "accepted_on": "2026-10-29",
+      "document_path": "documents/legislation/bg-mfa-visa-ordinance-consolidated.md"
     }
   },
   "required_checks_scope": "local_copy_required_checks applies only before accepting a retained local artifact. Official link acceptance uses official_reference_review_schema and does not require retrieval, conversion, extraction, hashes, replay, or copy/republication permission.",
