@@ -7,7 +7,7 @@
   "accepted_derived_text_count": 41,
   "accepted_topic_count": 0,
   "country_review_complete": false,
-  "accepted_external_reference_count": 67,
+  "accepted_external_reference_count": 68,
   "external_reference_decisions": [
     {
       "source_id": "cz-esbirka-1993-1",
@@ -2459,10 +2459,30 @@
         "verified_locations": "Potentially relevant to state family and social benefits under equal-treatment and social-assistance rules. This is a code-level locator only; no specific benefit eligibility rule or EU-law interaction was reviewed.",
         "limits": "Official e-Sbírka record for Act No. 117/1995 Coll., on State Social Support. The current consolidated version displayed is effective 1 September 2026. Link-only reference; no benefit eligibility conclusion or local copy is accepted."
       }
+    },
+    {
+      "source_id": "cz-esbirka-2025-151",
+      "decision": "accepted_with_narrow_external_scope",
+      "accepted_role": "Official e-Sbírka version of Act No. 151/2025 Coll. effective 1 October 2026. Link-only reference; no individual eligibility conclusion, provision-level EU-law analysis or local text copy is accepted.",
+      "not_accepted": [
+        "A locally captured, converted or semantically reviewed source copy.",
+        "An individual benefit eligibility determination or provision-level EU coordination/equal-treatment conclusion.",
+        "Country-level topic adequacy or completeness."
+      ],
+      "evidence": {
+        "official_source_url": "https://e-sbirka.gov.cz/sb/2025/151/2026-10-01",
+        "stable_record_url": "https://e-sbirka.gov.cz/sb/2025/151",
+        "reviewed_on": "2026-10-29",
+        "publisher": "e-Sbírka, official Collection of Laws and International Treaties",
+        "language": "cs",
+        "version": "e-Sbírka identifies the current consolidated version as effective 2026-10-01 (amendment 509/2025 Sb.); reviewed 2026-10-29.",
+        "verified_locations": "Official title, current-version date and §15 personal-scope provisions were checked. The act addresses certain EU citizens, people entitled under directly applicable EU rules or EU equal-treatment rules, and qualifying family members.",
+        "limits": "This link does not establish an individual applicant's entitlement, resolve EU-law coordination or equal-treatment interpretation, or constitute a local accepted text copy."
+      }
     }
   ],
   "policy": "Accept trustworthy official links within the source identity, language, displayed version or cutoff, content, scope and caveats actually checked. Prefer government-published consolidations and do not reconstruct Gazette fragments by default. When publisher reliability, currentness, scope or legal effect is unclear, offer the whole relevant official portal for human review and continue independent work. External-link acceptance is separate from local-copy acceptance, topic adequacy and country review completion.",
-  "count_note": "41 accepted dated source-text copies are unchanged. The maintained-source-summary count includes 3 previously accepted summaries, 13 added guidance summaries and 4 added case summaries. The separate locator-note count includes the Decree 429/2010 disposition note. These authored Markdown notes are not accepted source-text copies.",
+  "count_note": "41 accepted dated source-text copies are unchanged. The maintained-source-summary count includes 3 previously accepted summaries, 13 Czech-language official guidance summaries and 4 court-decision summaries. One additional official e-Sbírka external reference (Act 151/2025) is link-only; no local copy was accepted. The separate locator-note count includes the Decree 429/2010 disposition note. Authored Markdown notes are not accepted source-text copies.",
   "status": "partial_source_and_external_reference_review",
   "required_checks_scope": "Local artifact checks apply only before accepting a retained copy. They do not block use of a human-reviewed official link within the publisher, identity, language, date/version, content, scope and caveats actually checked. A full Gazette chain, local conversion, hash, replay or API is not a blanket prerequisite.",
   "required_check_interpretation": [
