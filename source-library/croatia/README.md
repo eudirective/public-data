@@ -12,6 +12,7 @@ The source-state review keeps the AZOP national-legislation index as a discovery
 ## Review registers
 
 - [Source discovery register](references/source-list.md)
+- [Legalize-HR candidate crosswalk](references/legalize-crosswalk-2026-10-29.md) and [conversion rules](references/legalize-conversion-rules.md)
 - Candidate, discovery and capture archive: indexed local-only EU Source Update Monitor archive (outside this repository)
 - [Retrieval and conversion rules](references/source-rules.json)
 - [Source acceptance register](references/source-acceptance.json)
