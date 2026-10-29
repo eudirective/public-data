@@ -582,5 +582,26 @@
       "reason": "Family-status, oversight, and current local ombuds coverage remain open in the candidate inventory."
     }
   ],
-  "count_note": "accepted_source_count and accepted_current_law_source_count count retained local artifacts and remain 0. 26 official external references are accepted within narrow scopes; this includes one EFTA institutional status reference outside the original 44-record capture inventory. No local conversion, topic, or country review is accepted or complete."
+  "count_note": "accepted_source_count and accepted_current_law_source_count count retained local artifacts and remain 0. 26 official external references are accepted within narrow scopes; this includes one EFTA institutional status reference outside the original 44-record capture inventory. No local conversion, topic, or country review is accepted or complete.",
+  "official_reference_reviews": {
+    "ch_21": {
+      "status": "usable_official_reference_with_maintained_reference_note",
+      "publisher": "Swiss State Secretariat for Migration (SEM)",
+      "url": "https://www.sem.admin.ch/sem/fr/home/publiservice/weisungen-kreisschreiben/auslaenderbereich/familiennachzug.html",
+      "checked_on": "2026-10-29",
+      "language": "French (German counterpart also checked)",
+      "version_or_cutoff": "General LEI directives dated 15 June 2026; separate Chapter 4 dated 30 June 2026; third-country procedure instruction dated 4 December 2025, effective 1 January 2026; country list dated 4 December 2025.",
+      "scope": "Official SEM index for Chapter 6 family-reunification guidance and current linked versions/annexes.",
+      "reviewed_content": "French and German family-reunification indexes, LEI chronology and third-country family-reunification instruction metadata/effective date checked.",
+      "limitations": [
+        "Dynamic index; underlying PDFs and attachments must be reopened from SEM for each use.",
+        "Administrative guidance does not replace legislation, treaties or case law.",
+        "Different pathways apply by sponsor and family-member status; this note does not establish case entitlement.",
+        "The narrower Directive 322.3-12 is separately summarized in the existing CH-22 note; this note maintains the broader chapter index and edition chronology."
+      ],
+      "document_path": "documents/guidance/ch-21-sem-family-reunification-directives-2026-10-29.md",
+      "maintained_note_sha256": "c1e6a4cfb832ca6ef9aebc357d16d33d7df25910fdeff04077c7afa291cea880",
+      "maintained_note_role": "maintained_official_reference_index_note"
+    }
+  }
 }
