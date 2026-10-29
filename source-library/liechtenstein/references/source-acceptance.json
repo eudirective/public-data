@@ -3,7 +3,7 @@
   "jurisdiction": "LI",
   "as_of": "2026-10-29",
   "accepted_source_count": 22,
-  "accepted_local_copy_count": 11,
+  "accepted_local_copy_count": 12,
   "accepted_external_reference_count": 22,
   "accepted_topic_count": 0,
   "country_review_complete": false,
@@ -1153,19 +1153,19 @@
       "maintained_source_note_status": "accepted_independent_source_reference_note_not_verbatim"
     },
     "li-41": {
-      "status": "accepted_with_narrow_external_scope",
+      "status": "accepted_with_limitations",
       "publisher": "Government Legal Services (Rechtsdienst der Regierung), Liechtenstein",
       "url": "https://www.gesetze.li/konso/2020465000",
       "checked_on": "2026-10-29",
       "language": "German",
-      "version_or_scope": "LGBl 2020.465, adopted 15 December 2020 and published 18 December 2020. Official Lilex record identifies LR 170.511; the 2026 systematic register lists LGBl 2020.465. Checked 2026-10-29.",
-      "acceptance_scope": "Official external reference for the EWR-Register Regulation, within its source identity and index/publication function. It is a dependency for locating Liechtenstein-promulgated EEA measures, not evidence that any particular EEA act is operative.",
-      "reviewed_content": "Official Lilex identifies title, LGBl 2020.465 and LR 170.511; the 2026 systematic register lists the same regulation. The official EEA register page cites this instrument as its legal basis.",
+      "version_or_scope": "LGBl 2020.465; official State Law Gazette PDF states Fassung 01.02.2021. The 2026 systematic register lists the regulation. This acceptance is for the verified Gazette version and does not assert later consolidated currentness.",
+      "acceptance_scope": "Official reference plus local copy of the complete EWR-RegV enactment text, within its index/publication role. It is a dependency for tracing Liechtenstein-promulgated EEA measures, not evidence that any particular EEA act is operative.",
+      "reviewed_content": "The complete preamble, Arts. 1–6, commencement provision, signature, and footnote were compared against the official State Law Gazette PDF for LGBl 2020 Nr. 465. Wording and legal anchors match; only PDF line wrapping, line-break hyphenation, and Markdown presentation differ.",
       "limitations": [
-        "Official Lilex consolidations are informational; the signed State Law Gazette is legally authentic.",
-        "Link-only source record; no statutory text copy, topic adequacy, or country completeness is accepted.",
-        "The EWR-Register is an index and does not establish each listed act's legal force or individual applicability.",
-        "Legalize-li is a third-party candidate-snapshot route; the official Lilex record remains primary."
+        "The accepted copy is the official Gazette text in the version marked Fassung 01.02.2021; current consolidated status after that version is not asserted.",
+        "Lilex consolidations are informational; the signed State Law Gazette is legally authentic.",
+        "The EWR-Register is an index and does not establish each listed EEA act's legal force or individual applicability.",
+        "This source acceptance does not establish topic coverage or country completion."
       ],
       "evidence": {
         "official_source_url": "https://www.gesetze.li/konso/2020465000",
@@ -1175,17 +1175,68 @@
         "version": "Record identifies the 15 December 2020 regulation and LGBl 2020.465; official 2026 systematic-register entry lists it.",
         "retrieval_status": "official_link_reviewed; no local text copied"
       },
-      "local_copy_accepted": false,
+      "local_copy_accepted": true,
       "accepted_topics": [],
-      "decision": "accepted_with_narrow_external_scope",
+      "decision": "accepted_official_reference_and_local_copy_with_limitations",
       "legalize_candidate_snapshot": {
         "repository": "legalize-dev/legalize-li",
         "revision": "1b19742b74b852c50b50bde418b8045db774b2ba",
         "path": "li/LGBl-2020-465.md",
-        "status": "candidate_snapshot_method_only",
+        "blob_sha": "db8d62161d531a1972419154df4667c867b19f58",
+        "status": "verified_candidate_retrieval_and_conversion",
         "metadata_last_updated": "2021-02-01",
         "source": "Lilex official record",
-        "attribution_required": true
+        "attribution_required": true,
+        "accepted_as_current_text": false,
+        "verification": "Complete legal body matched official LGBl PDF Fassung 01.02.2021; only layout/Markdown normalization."
+      },
+      "accepted_external_reference": true,
+      "accepted_on": "2026-10-29",
+      "document_path": "source-library/liechtenstein/documents/legislation/li-41-ewr-register-regulation.md",
+      "local_file_sha256": "3c2820dd253a3531b6df0dac34857fcd6c70cbcd1c35c0edbe33e7f8e2dd498a",
+      "source_text_sha256": "9bd5750ccd390275be46e96115fe9bec6e11922330ea97381451ffc26bd2e3b5",
+      "semantic_review": {
+        "status": "passed_with_limitations",
+        "method": "article_by_article_comparison_with_official_state_law_gazette_pdf",
+        "review_date": "2026-10-29",
+        "scope": "Full enactment: preamble; Arts. 1–6; commencement; signature; footnote. Compared against official LGBl 2020 Nr. 465 PDF, Fassung 01.02.2021.",
+        "source_text_sha256": "9bd5750ccd390275be46e96115fe9bec6e11922330ea97381451ffc26bd2e3b5",
+        "source_text_bytes": 1797,
+        "limitations": [
+          "Comparison normalizes PDF line wrapping and line-break hyphenation and represents headings and footnote markers in Markdown.",
+          "The copy preserves the 2021 Gazette version and does not claim later consolidated currentness.",
+          "Lilex consolidations are informational; the signed State Law Gazette is legally authentic."
+        ]
+      },
+      "checks": {
+        "publisher_identity": {
+          "status": "pass",
+          "evidence": "The official Lilex record identifies the Government Legal Services, the title EWR-RegV, LGBl 2020.465, and LR 170.511. The official Gazette PDF identifies the same publication number and regulation."
+        },
+        "current_legal_version": {
+          "status": "pass_with_limitations",
+          "review_date": "2026-10-29",
+          "evidence_url": "https://www.gesetze.li/konso/pdf/2020465000?version=1",
+          "evidence": "The exact official Gazette PDF states Fassung 01.02.2021. The 2026 systematic register lists LGBl 2020.465. The acceptance is limited to this Gazette version; no claim is made that it is the current consolidated text after 1 February 2021."
+        },
+        "extraction_completeness": {
+          "status": "pass",
+          "evidence": "All legal text present in the three-page official Gazette PDF was compared: preamble, six articles, entry-into-force provision, signature, and footnote. All wording and legal anchors match. Differences are only line wraps, end-of-line hyphenation, and Markdown heading/footnote presentation."
+        },
+        "attachments_review": {
+          "status": "pass_with_limitations",
+          "evidence": "The Gazette PDF contains the complete regulation and footnote on three pages. No separate schedule or statutory annex is attached to this enactment. PDF pagination and visual layout are not represented in Markdown."
+        },
+        "legal_classification": {
+          "status": "pass",
+          "evidence": "The source is a Liechtenstein regulation governing issuance, content, maintenance, and publication of the EWR-Register. It is an index/publication dependency, not substantive family-residence legislation."
+        },
+        "lawful_reuse": {
+          "status": "pass",
+          "scope": "official_statutory_text_only",
+          "basis_url": "https://www.gesetze.li/konso/html/1999160000",
+          "evidence": "Liechtenstein URG Art. 5(1)(a) excludes laws and other official enactments from copyright protection. Acceptance covers the statutory text only, not Lilex interface/design, unrelated materials, or systematic database reuse."
+        }
       }
     }
   },
