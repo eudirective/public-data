@@ -10,7 +10,7 @@
     "legal_classification",
     "lawful_reuse"
   ],
-  "policy": "The 222 official-reference reviews approve use of identified official links within their recorded scopes. Eighty-three accepted source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), fifteen MITOS procedure-page copies under their displayed CC BY-SA 4.0 license, and one dated Gov.gr guidance-page snapshot under its stated lawful non-commercial reuse terms. These retained files are not consolidated laws unless expressly stated. One hundred thirty-nine distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. No automated retrieval rule is accepted. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
+  "policy": "The 222 official-reference reviews approve use of identified official links within their recorded scopes. Eighty-four accepted source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), sixteen MITOS procedure-page copies under their displayed CC BY-SA 4.0 license, and one dated Gov.gr guidance-page snapshot under its stated lawful non-commercial reuse terms. These retained files are not consolidated laws unless expressly stated. One hundred thirty-eight distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. No automated retrieval rule is accepted. Link acceptance, local-copy acceptance, topic coverage, freshness and country completion remain separate.",
   "official_reference_reviews": {
     "gr-pd106-2007-original": {
       "status": "usable_official_reference",
@@ -241,16 +241,16 @@
       "status": "usable_official_reference",
       "publisher": "National Registry of Administrative Public Services (MITOS), Greece",
       "url": "https://mitos.gov.gr/index.php/%CE%94%CE%94:%CE%9B%CE%B7%CE%BE%CE%B9%CE%B1%CF%81%CF%87%CE%B9%CE%BA%CE%AE_%CF%80%CF%81%CE%AC%CE%BE%CE%B7_%CE%B3%CE%AC%CE%BC%CE%BF%CF%85_%CE%B1%CF%80%CF%8C_%CE%B5%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AE_%CE%A0%CF%81%CE%BF%CE%BE%CE%B5%CE%BD%CE%B9%CE%BA%CE%AE_Αρχή",
-      "checked_on": "2026-10-26",
+      "checked_on": "2026-10-29",
       "language": "Greek",
-      "version_or_cutoff": "Page last updated 2026-09-29; direct page review on 2026-10-26, revision oldid 441897.",
+      "version_or_cutoff": "Greek-language page last updated 2026-09-29; live page reopened with revision oldid 441897.",
       "scope": "Registration by a Greek consular authority of a marriage abroad by Greek citizens.",
-      "reviewed_content": "The official Greek-language MITOS procedure concerns Greek citizens marrying abroad, civilly or religiously, who declare the marriage in person to the territorially competent Greek consulate. It requires at least one spouse to be registered in a Greek municipal register. Displayed material includes the local civil marriage act or relevant Metropolis certificate, identity evidence, and recent municipal-register certificates for both spouses retrieved ex officio. The page displays a €10 application fee and €10 per copy, with late-declaration fines under PD 16/2014. Its steps include checking documents, retrieving registry records, preparing/checking/signing the act, payment and issuance; the act is automatically transmitted to the competent Municipality. The page lists Law 5089/2024 and Regulation (EU) 2016/1191 among related legal materials.",
+      "reviewed_content": "The live MITOS Greek page matched the archived revision 441897 and procedure cce2d2e1-7b10-4f7c-82db-add893c54758 / service 675455. It concerns Greek citizens marrying abroad, consular registration, minimum one spouse in a Greek municipal register, required documents, fee structure, late-declaration fines, relevant steps and automatic transmission to the municipality. The page footer displays CC BY-SA.",
       "limitations": [
         "This is a dated service description, not proof of substantive recognition of every marriage celebrated abroad.",
         "No consular application, live system, mission-specific variation or late-filing calculation was tested.",
         "It does not describe foreign residents marrying in Greece or the Special Registry exception route.",
-        "No local copy or republication permission is accepted."
+        "Complete retained copy of the page body is the Greek revision 441897; no automated retrieval rule is accepted."
       ],
       "source_list_id": "gr-33"
     },
@@ -3983,8 +3983,8 @@
     }
   },
   "local_copy_acceptance": {
-    "accepted_source_count": 83,
-    "note": "Eighty-three source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), fifteen MITOS procedure-page copies under their displayed CC BY-SA 4.0 license, and one dated Gov.gr guidance-page snapshot under its stated lawful non-commercial reuse terms. These page copies are not legislation or current procedure certification. One hundred thirty-nine distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. Copy acceptance does not establish consolidated current law, topic coverage or country completion."
+    "accepted_source_count": 84,
+    "note": "Eighty-four source-specific Markdown files retain source text: 67 scoped official legislative or administrative text excerpts under Greek Law 2121/1993 Article 2(5), sixteen MITOS procedure-page copies under their displayed CC BY-SA 4.0 license, and one dated Gov.gr guidance-page snapshot under its stated lawful non-commercial reuse terms. These page copies are not legislation or current procedure certification. One hundred thirty-eight distinct accepted references remain without a local source-text copy; source-list row gr-06 duplicates gr-05. Copy acceptance does not establish consolidated current law, topic coverage or country completion."
   },
   "whole_portal_review_offers": [
     {
@@ -5445,6 +5445,26 @@
       "version_or_cutoff": "English page last edited 6 August 2026 at 10:01; Greek page last updated 21 September 2026; checked 29 October 2026.",
       "monitor_archive_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-16.md",
       "monitor_archive_sha256": "1ca3225bfc2bdff08720175d1d96b467ad0ed400f664e39fd43518b4c8d2583e"
+    },
+    "gr-mitos-gr-33": {
+      "decision": "accepted_local_official_page_copy",
+      "path": "source-library/greece/documents/procedure/gr-33-mitos-marriage-registration-before-a-greek-consular-authority-locator.md",
+      "sha256": "1e059fef1384ccb0fafb87dd5cb55f3451f3dcc868027deb9950ed4a412fad10",
+      "bytes": 19620,
+      "source_url": "https://mitos.gov.gr/index.php/%CE%94%CE%94:%CE%9B%CE%B7%CE%BE%CE%B9%CE%B1%CF%81%CF%87%CE%B9%CE%BA%CE%AE_%CF%80%CF%81%CE%AC%CE%BE%CE%B7_%CE%B3%CE%AC%CE%BC%CE%BF%CF%85_%CE%B1%CF%80%CF%8C_%CE%B5%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AE_%CE%A0%CF%81%CE%BF%CE%BE%CE%B5%CE%BD%CE%B9%CE%BA%CE%AE_Αρχή",
+      "captured_candidate_url": "https://mitos.gov.gr/index.php/%CE%94%CE%94:%CE%9B%CE%B7%CE%BE%CE%B9%CE%B1%CF%81%CF%87%CE%B9%CE%BA%CE%AE_%CF%80%CF%81%CE%AC%CE%BE%CE%B7_%CE%B3%CE%AC%CE%BC%CE%BF%CF%85_%CE%B1%CF%80%CF%8C_%CE%B5%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AE_%CE%A0%CF%81%CE%BF%CE%BE%CE%B5%CE%BD%CE%B9%CE%BA%CE%AE_Αρχή",
+      "source_response_sha256": "b3f12b81efa5676b69fcf1bb318798e522c0e99863fb79fafffcbdad04e4b1fc",
+      "archived_candidate_sha256": "03597526e50d45e594447963260901d5b764d578f0fb47040bdf03cb702fe4fe",
+      "archived_candidate_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-33.md",
+      "conversion_method": "Complete Greek MITOS page-body capture, normalized as attributed Markdown and matched to live revision oldid 441897.",
+      "reviewed_on": "2026-10-29",
+      "semantic_check": "The live page matched the captured Greek revision oldid 441897, UUID cce2d2e1-7b10-4f7c-82db-add893c54758, service 675455 and last-updated date 29 September 2026. Body review covered the Greek-citizen/marriage-abroad scope, consular submission, requirements, fees/fines, legal references, steps and automatic transmission to the municipality. The footer displays CC BY-SA 4.0.",
+      "reuse_basis": "MITOS page footer links to the Creative Commons Attribution-ShareAlike 4.0 license. Attribution, official page, revision, license link and Markdown conversion notice are preserved.",
+      "limitations": "This is a procedure page for Greek citizens registering a marriage abroad, not a substantive marriage-recognition rule or mission-specific current practice. No live consular application or variation was tested.",
+      "scope": "Complete Greek page body for MITOS procedure record cce2d2e1-7b10-4f7c-82db-add893c54758 / service 675455.",
+      "version_or_cutoff": "Greek page revision oldid 441897; last updated 29 September 2026; checked 29 October 2026.",
+      "monitor_archive_path": "candidates/eudirective-public-data/GR/published-candidate-records-2026-10-21/gr-33.md",
+      "monitor_archive_sha256": "03597526e50d45e594447963260901d5b764d578f0fb47040bdf03cb702fe4fe"
     }
   }
 }
