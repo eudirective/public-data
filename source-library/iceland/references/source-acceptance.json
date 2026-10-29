@@ -1,18 +1,18 @@
 {
   "schema_version": "1.0",
-  "review_date": "2026-10-24",
+  "review_date": "2026-10-29",
   "jurisdiction": "IS",
   "status": "partial",
   "publisher_assessment": {
     "publisher": "Alþingi (Icelandic Parliament) and official public authorities",
     "decision": "Accept the listed government-published links for their stated, limited uses. The current Alþingi consolidated-law pages are accepted as external references in Icelandic.",
     "basis": "The publisher and instrument identities are clear. Alþingi current law pages display Lagasafn edition 158a dated 1 October 2026. The official Ministry of Justice immigration page links to Alþingi, Reglugerðasafn and published appeal decisions. The Courts Administration publishes Rules No. 3/2022 on its official court-service network and identifies its effective date and repeal of the 2019 rule. The official Directorate of Immigration processing page was checked on 24 October 2026 and states that its selected-type averages are based on applications approved so far in the year and do not predict an individual pending decision. Alþingi’s current consolidated Visa Act No. 37/2026 page identifies edition 158a dated 1 October 2026 and an effective date of 12 May 2026.",
-    "limitation": "All accepted items are external references within the scopes recorded in this register; no local copies or topics are accepted and the Iceland review remains incomplete. The linked Regulation 540/2017 base text predates amendments 669/2026, 724/2026 and 725/2026 and is accepted only as the official record and amendment index. Court and appeals publications are not established as exhaustive."
+    "limitation": "All accepted external references retain their recorded narrow scope. One locally maintained English summary is accepted for is-05; it is not a consolidated legal text. No local full statutory text or topics are accepted and the Iceland review remains incomplete. The linked Regulation 540/2017 base text predates listed amendments 669/2026, 724/2026 and 725/2026. Court and appeals publications are not established as exhaustive."
   },
   "counts": {
     "candidate_records": 34,
     "accepted_external_references": 36,
-    "accepted_local_copies": 0,
+    "accepted_local_copies": 1,
     "remaining_candidate_records": 0,
     "accepted_topics": 0,
     "country_review_complete": false
@@ -84,9 +84,17 @@
       "url": "https://www.reglugerd.is/reglugerdir/eftir-raduneytum/domsmala--og-mannrettindaraduneyti/nr/20605",
       "publisher": "Ministry of Justice / Reglugerðasafn",
       "language": "is",
-      "checked_at": "2026-10-21",
-      "acceptance_scope": "Official identity and amendment-index page for Regulation 540/2017.",
-      "limitations": "Not accepted as a current consolidated text: the page's linked base text retains provisions replaced by later listed amendments."
+      "checked_at": "2026-10-29",
+      "acceptance_scope": "Official instrument identity and amendment-index page for Regulation 540/2017. Maintained Icelandic-source summary accepted at documents/guidance/is-05.md; the linked base text is not accepted as current consolidated text.",
+      "limitations": "The linked base text predates listed amendments 669/2026, 724/2026 and 725/2026. The three 2026 amendments were opened and their scoped effects recorded in the maintained summary; older linked amendment texts were not individually re-reviewed. Do not treat the base text alone as current consolidated law.",
+      "accepted_local_summary": {
+        "status": "accepted_project_authored_source_summary",
+        "path": "documents/guidance/is-05.md",
+        "checked_at": "2026-10-29",
+        "language": "English",
+        "scope": "Instrument identity, displayed amendment chain, and scoped summary of the three listed 2026 amendments.",
+        "limits": "Not a full consolidated regulation or official translation. Older amendments not individually re-reviewed."
+      }
     },
     {
       "source_id": "is-07",
@@ -456,6 +464,6 @@
       "reason": "Rules No. 3/2019 are superseded; Rules No. 3/2022 state they took effect on 2022-10-01 and repealed the 2019 rules."
     }
   ],
-  "completion_note": "Thirty-six official external references have scoped acceptance. No local copy or topic is accepted, and Iceland is not complete. Open work includes resolving the three-month/six-month registration guidance conflict against primary law, verifying court-search coverage and continuing case-law discovery, mapping visa and immigration judicial remedies, checking current mission instructions, and completing operational and dependency review.",
-  "count_note": "The 34 candidate_records are the original discovery inventory; all have a documented disposition and accepted official external references, so remaining_candidate_records is 0. Two additional official references (is-35 and is-36) were added during this review. These counts do not accept local copies: accepted_local_copies is 0. Topic coverage and country completion remain separate and open."
+  "completion_note": "Thirty-six official external references have scoped acceptance. One maintained source summary is accepted for is-05; no local full statutory text or topic is accepted, and Iceland is not complete. Open work includes resolving the three-month/six-month registration guidance conflict against primary law, verifying court-search coverage and continuing case-law discovery, mapping visa and immigration judicial remedies, checking current mission instructions, and completing operational and dependency review.",
+  "count_note": "The 34 candidate_records are the original discovery inventory; all have a documented disposition and accepted official external references, so remaining_candidate_records is 0. Two additional official references (is-35 and is-36) were added during this review. These counts do not accept local copies: accepted_local_copies is 1 (the maintained is-05 source summary; it is not a full consolidated law text). Topic coverage and country completion remain separate and open."
 }
