@@ -1,13 +1,13 @@
 {
   "manifest_version": "0.4.8",
-  "external_reference_review_date": "2026-10-28",
+  "external_reference_review_date": "2026-10-29",
   "pack": "czechia-national-legal-sources",
   "inventory_source": "references/source-list.md",
   "inventory_research_date": "2026-10-18",
   "scope": "Official Czech national legislation and official guidance, forms, consular instructions, and official court/oversight discovery channels relevant to EU free movement and family members. EU and CJEU source texts are excluded. Czech official guidance also describes similar rights for Icelandic, Liechtenstein, Norwegian, and Swiss citizens; UK Withdrawal Agreement cases are distinct.",
-  "status": "67 source records; 67 official external references accepted within recorded scope; 41 accepted dated local source copies (17 e-Sbírka texts, 13 guidance pages, 6 forms with native PDF companions, 5 discovery/index snapshots); 2 official-link locator notes for incomplete captures; Decree 429/2010 accepted as an official locator only, with currentness and route applicability still pending whole-portal human review; 0 accepted topics; country review incomplete; no files remain under candidates/.",
-  "retrieval_status": "43 prior candidate artifacts remain dispositioned as 41 accepted dated source copies and 2 incomplete-capture locator notes. The Decree 429/2010 locator and MFA long-stay/residence page are separately accepted as external-only references; currentness/scope limits remain recorded. No local copies, topics, or country completion are added by these decisions.",
-  "accepted_source_count": 41,
+  "status": "67 source records; 67 official external references accepted within recorded scope; 42 accepted dated local source copies (18 e-Sbírka texts, 13 guidance pages, 6 forms with native PDF companions, 5 discovery/index snapshots); 2 official-link locator notes for incomplete captures; Decree 429/2010 now has a dated local copy verified against the official 2020-02-01 e-Sbírka version, with its omitted preamble supplemented from e-Sbírka; EU-family route applicability remains pending targeted legal review; 0 accepted topics; country review incomplete; no files remain under candidates/.",
+  "retrieval_status": "43 prior candidate artifacts remain dispositioned as 41 accepted dated copies plus 2 incomplete-capture locator notes. A separately discovered Legalize-CZ candidate has now supported one additional accepted dated copy: Decree 429/2010, fully compared with the official e-Sbírka version. The Decree locator note remains as a scope pointer; the MFA long-stay/residence page remains external-only. Route applicability, topics, and country completion remain unresolved.",
+  "accepted_source_count": 42,
   "official_hosts": [
     "e-sbirka.gov.cz",
     "ipc.gov.cz",
@@ -2274,26 +2274,43 @@
       },
       "functional_relationship": "partial_functional_match",
       "verification_status": "Official e-Sbírka current consolidated record opened and checked 2026-10-29. It displays the version effective 1 February 2020, incorporating Decree 67/2019; the act itself entered into force 1 January 2011. The official page states that the decree sets exceptions to applying at the locally competent diplomatic mission. Applicability to EU-family short-stay visa/residence routes remains unresolved and requires targeted legal scope review.",
-      "retrieved": false,
-      "accepted": false,
-      "retrieval_status": "official_current_consolidation_verified_link_only",
-      "retrieval_shape": "official live page or decision link; no local copy added",
+      "retrieved": true,
+      "accepted": true,
+      "retrieval_status": "accepted_local_copy",
+      "retrieval_shape": "Dated official legal-text copy with a Legalize-CZ-derived body verified against e-Sbírka and an e-Sbírka-supplemented preamble.",
       "topic_ids": [
         "VISA-03",
         "VISA-04",
         "MISSION-18",
         "MISSION-19"
       ],
-      "scope_note": "Official current e-Sbírka version and effective date are now verified; its application to the EU-family routes in this pack is still unresolved. No local copy is stored.",
-      "local_copy_status": "not_stored",
+      "scope_note": "The local copy represents the official consolidated version effective 2020-02-01 (Decree 67/2019), not a later consolidation. e-Sbírka labels the consolidated text informative. Whether the decree's mission-jurisdiction exceptions apply to EU-family short-stay visa or residence routes remains unresolved. No topic or country-completeness finding is made.",
+      "local_copy_status": "accepted",
       "external_reference_accepted": true,
       "external_reference_decision": "accepted_with_narrow_external_scope",
-      "external_reference_scope": "Official e-Sbírka current consolidated record for Decree 429/2010, checked 2026-10-29; displayed version effective 1 February 2020 (amended by Decree 67/2019), original effective date 1 January 2011. The decree concerns exceptions to local-mission filing. Its applicability to the EU-family short-stay visa or residence routes remains unresolved. No local copy is accepted.",
+      "external_reference_scope": "Official e-Sbírka current consolidated record checked 2026-10-29; displayed version effective 2020-02-01 (Decree 67/2019), original effective date 2011-01-01. The dated local copy was compared through §1, §§2–3, signature and all 42 annex entries; e-Sbírka supplied the candidate's omitted enactment header and preamble. Applicability to EU-family routes remains unresolved; e-Sbírka labels the consolidated version informative.",
       "whole_site_review_offer": "cz-esbirka-decree-429-currentness",
-      "retrieval_method": "direct_official_esbirka_current_page_review",
+      "retrieval_method": "legalize_cz_dated_candidate_full_text_verified_against_official_esbirka",
       "conversion_review_note": "A current official version is now located and dated. If a local text copy is later prepared, retain the 2020-02-01 cutoff and the open route-applicability question; successful extraction does not resolve that legal-scope issue.",
       "version_or_cutoff": "2020-02-01",
-      "official_current_version_url": "https://e-sbirka.gov.cz/eli/cz/sb/2010/429/2020-02-01"
+      "official_current_version_url": "https://e-sbirka.gov.cz/eli/cz/sb/2010/429/2020-02-01",
+      "official_source_text_sha256": "f6e8563f6f2baa21310aa1b84aa2cc98fc500607e79ccbbd99f7dc7ce34a5e8b",
+      "legalize_candidate_sha256": "2e2633898d0ba439a309a6bd15bbaaf5de878717b4dc42b5b76245f9bd847059",
+      "legalize_candidate_body_sha256": "dac4654755df24bcb5342f8fe25f72e440cfccec646805d24f4405506dd2166c",
+      "legalize_candidate_repo": "https://github.com/legalize-dev/legalize-cz",
+      "legalize_candidate_commit": "f88290efc3062a7b4a56105193238c269816b613",
+      "legalize_candidate_path": "cz/SB-2010-429.md",
+      "legalize_candidate_blob": "9f86ae027ff3b12aacff28c59254853ccbd4a050",
+      "document_path": "documents/legislation/cz-decree-429-2010.md",
+      "document_role": "accepted_source_copy",
+      "local_copy_acceptance_date": "2026-10-29",
+      "document_sha256": "493f6eb0d8e78499467452f527d1aaed19c8a707a91853d41846e693f3525ccc",
+      "document_bytes": 5120,
+      "accepted_from_conversion_sha256": "2e2633898d0ba439a309a6bd15bbaaf5de878717b4dc42b5b76245f9bd847059",
+      "accepted_local_copy_sha256": "493f6eb0d8e78499467452f527d1aaed19c8a707a91853d41846e693f3525ccc",
+      "accepted_local_copy_bytes": 5120,
+      "local_copy_disposition_date": "2026-10-29",
+      "source_class": "legislation"
     },
     {
       "id": "cz-mzv-local-consular-competence",
@@ -2409,7 +2426,7 @@
       "retrieval_method": "direct_official_esbirka_current_page_review"
     }
   ],
-  "retrieved_source_count": 46,
+  "retrieved_source_count": 47,
   "blocked_source_count": 0,
   "monitor_only_source_count": 13,
   "legal_retrieval": {
@@ -2449,15 +2466,16 @@
     "repository_head_commit": "f88290efc3062a7b4a56105193238c269816b613",
     "repository_scope": "The repository README says it scans e-Sbírka act identifiers from 1945 onward and stores one SB-year-number Markdown file per instrument; the /cz directory listing was truncated at 1,000 entries and reported 17,436 more entries.",
     "purpose": "Secondary discovery and candidate-snapshot route only. The official e-Sbírka stable record and current version remain authoritative.",
-    "crosswalk": "All 17 statutory act identifiers already accepted as local copies in this Czechia pack were found as Legalize-CZ files. Three additional relevant acts (435/2004, 48/1997, and 117/1995) are now represented by direct official e-Sbírka links. Legalize-CZ's 429/2010 ELI URL points to 2020-02-01, which matches the current e-Sbírka consolidated version checked on 2026-10-29. For 326/1999, 435/2004, 48/1997 and 117/1995, Legalize-CZ file source URLs point to earlier effective versions than the current e-Sbírka versions checked here.",
-    "method_disposition": "Confirmed for locating dated candidate files and their official ELI locators; not accepted as a current-text retrieval method. Never infer freshness from the repository last_updated field alone. Compare the file's ELI/version metadata and complete content with the current official record before any local-copy consideration. No Legalize-CZ legal text was copied into this update.",
+    "crosswalk": "All 17 statutory act identifiers already accepted as local copies in this Czechia pack were found as Legalize-CZ files. Three additional relevant acts (435/2004, 48/1997, and 117/1995) are now represented by direct official e-Sbírka links. Legalize-CZ's 429/2010 ELI URL points to 2020-02-01, which matches the current e-Sbírka consolidated version checked on 2026-10-29. For 326/1999, 435/2004, 48/1997 and 117/1995, Legalize-CZ file source URLs point to earlier effective versions than the current e-Sbírka versions checked here. The complete body of SB-2010-429.md was subsequently verified in a rendered official e-Sbírka page: §§1–3 and all 42 annex entries match after Markdown heading/list/whitespace normalization; the official enactment header and preamble omitted by the candidate were added from e-Sbírka. A dated 2020-02-01 local copy is accepted. The three additional candidates remain unverified and stale against current versions.",
+    "method_disposition": "Legalize-CZ remains a secondary discovery and dated candidate-snapshot source, not a generally accepted current-text route. One specific candidate (SB-2010-429.md at the pinned commit) is now accepted as the basis for a dated local copy because its complete §§1–3 and 42-item annex were compared with the same official e-Sbírka version; the candidate's omitted enactment header and preamble were supplied from e-Sbírka. This single verified result does not establish freshness or acceptance of other Legalize files.",
     "rights_and_attribution": "The repository LICENSE states the legislative content is official public-sector work treated as public domain under Czech Copyright Act No. 121/2000 Coll. §3(a); MIT applies to pipeline software. Attribute legal text to the issuing Czech law/e-Sbírka and separately identify Legalize-CZ as the Markdown transcription. Recheck notices before reuse.",
     "conversion_rules": [
       "Preserve the SB-year-number identifier, Czech title and full citation, rank, official source URL/ELI, version type, effective-from date, publication date and repository commit/path.",
       "Preserve Czech wording, headings, section/paragraph/article numbering, lists, notes and footnote anchors; do not translate, summarize, reorder, normalize or silently correct the Legalize transcription.",
       "Check all content from beginning to end against the same dated official e-Sbírka version, including article anchors, amendment notes and scope; record the publisher version separately from repository dates.",
       "Legalize-CZ omits images and binary attachments and replaces images with [image omitted]. Recover and inspect material attachments from e-Sbírka or mark the capture incomplete.",
-      "Hash raw and converted bytes, record both official publisher attribution and Legalize-CZ transcription attribution, and retain e-Sbírka's informative-text caveat and date-specific limitation."
+      "Hash raw and converted bytes, record both official publisher attribution and Legalize-CZ transcription attribution, and retain e-Sbírka's informative-text caveat and date-specific limitation.",
+      "For SB-2010-429.md at commit f88290efc3062a7b4a56105193238c269816b613 only: compare the complete candidate body to e-Sbírka ELI /eli/cz/sb/2010/429/2020-02-01; normalize only Markdown heading/list markers and whitespace. The candidate omits the enacted instrument number/date and preamble, so supplement those from the official page and record that supplementation. Preserve all 42 annex entries. The result is dated to 2020-02-01 and does not resolve EU-family route applicability."
     ]
   }
 }
