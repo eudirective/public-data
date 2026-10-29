@@ -2,12 +2,14 @@
 
 **Review status (29 October 2026):** 35 distinct source records are accepted through 37 official links within recorded limits. Three full Normattiva statutory copies have passed source-identity, article-inventory and extraction review under `documents/legislation/`; two maintained paraphrased MAECI guidance notes are stored under `documents/guidance/`. Four external references remain pending; five leads are not relied upon and three records are duplicates. **No legal topic or country review is accepted or complete.**
 
+- [Legalize Italy crosswalk](references/legalize-crosswalk-2026-10-29.md)
+- [Legalize conversion rules](references/legalize-conversion-rules.md)
 - [Priority source list](references/source-list.md)
 - [Source acceptance register](references/source-acceptance.json)
 - [Expanded monitor source list](references/monitor-source-list-2026-10-18.md)
 - [Sustainability assessment](references/sustainability-assessment.md)
 
-The source pack covers a bounded set of Italian legislation, guidance, procedure and discovery routes. Normattiva is the preferred official national legislation source. Its site explains current, original and date-selected versions. Reviewed 2026-10-24 article-level copies of D.Lgs 30/2007, Law 218/1995 and Law 184/1983 are stored under `documents/legislation/`; their exact source URLs, capture dates and limitations remain recorded in `references/source-acceptance.json`. The earlier TUI Article 40 excerpt, 20 June 2024 D.P.R. 394/1999 edition and all unaccepted page extracts have been retained as local-only research records, not promoted as current full-text sources.
+The 29 October Legalize Italy crosswalk screened the 13 registered Normattiva act references; no Legalize text or retrieval method passed the current-text verification gate. See `references/legalize-crosswalk-2026-10-29.md` and `references/legalize-conversion-rules.md`. The source pack covers a bounded set of Italian legislation, guidance, procedure and discovery routes. Normattiva is the preferred official national legislation source. Its site explains current, original and date-selected versions. Reviewed 2026-10-24 article-level copies of D.Lgs 30/2007, Law 218/1995 and Law 184/1983 are stored under `documents/legislation/`; their exact source URLs, capture dates and limitations remain recorded in `references/source-acceptance.json`. The earlier TUI Article 40 excerpt, 20 June 2024 D.P.R. 394/1999 edition and all unaccepted page extracts have been retained as local-only research records, not promoted as current full-text sources.
 
 MAECI pages were reviewed through the standard web view even though direct retrieval clients receive a publisher security challenge. Their official links are accepted with no dependable revision date, and should be checked live when used. The expanded capture pass is a one-time review aid; API access, registration, a custom downloader, a complete Gazette chain, local hashes, replay, and scheduled updates are not prerequisites for ordinary official-source use. Do not bypass access controls.
 
