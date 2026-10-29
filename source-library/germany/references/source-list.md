@@ -66,3 +66,8 @@ Skill: author-source-pack-rules v1.0.1
 - Residence routes and procedures vary by mission and Land. Swiss, EEA, EU and German-citizen family routes remain distinct. Adoption and civil-status references are adjacent categories, not EU-family residence rules.
 
 No Germany topic is marked covered and country review remains incomplete. The Monitor has no registered Germany pack action, so runtime pack checks and acceptance gates are unsupported here; the documented source dispositions are manual review results.
+
+
+## Legalize-DE crosswalk — 29 October 2026
+
+Legalize-DE has no file for FreizügG/EU in the checked full repository tree. Its AufenthG candidate was found, but six sections differed from the pack’s dated official capture and the candidate’s later update claim needs an exact-version check. No Legalize method or local copy is accepted. See [the detailed crosswalk](legalize-crosswalk-2026-10-29.md).
