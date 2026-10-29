@@ -10,6 +10,15 @@
       "sha256": "a42b88bbe9dd8c4bf85ba7a923e0aefca25296dfae8b667c360472c862c196fc",
       "archived_at": "2026-10-29T06:18:29.032Z",
       "superseded_by_sha256": "5d90eef216e72e881c21c8479ccc84207f82c08cf3603577598ba46de7a3ffda"
+    },
+    {
+      "source_id": "ch-23-sem-afmp-directives-index-20261025",
+      "official_url": "https://www.sem.admin.ch/sem/fr/home/publiservice/weisungen-kreisschreiben/fza.html",
+      "current_path": "switzerland/documents/guidance/ch-23-sem-afmp-directives-index-20261025.md",
+      "archive_path": "switzerland/documents/guidance/archive/ch-23-sem-afmp-directives-index-20261025/fbe1d4b3d29920308f3e0f4fb0bc53e57f827aa84a8601b525f3e4f4bc123129.md",
+      "sha256": "fbe1d4b3d29920308f3e0f4fb0bc53e57f827aa84a8601b525f3e4f4bc123129",
+      "archived_at": "2026-10-29T06:21:07.148Z",
+      "superseded_by_sha256": "a27c1a96b1eda259831fc05f315fd5abe76fa6636f515132ef7571a2293e2a7e"
     }
   ]
 }
