@@ -7,7 +7,7 @@
   "accepted_derived_text_count": 3,
   "accepted_topic_count": 0,
   "country_review_complete": false,
-  "accepted_external_reference_count": 65,
+  "accepted_external_reference_count": 66,
   "external_reference_decisions": [
     {
       "source_id": "pt-02",
@@ -1192,6 +1192,32 @@
       },
       "local_copy_accepted": false,
       "topic_accepted": false
+    },
+    {
+      "source_id": "pt-06-portaria-models-fees",
+      "decision": "accepted_with_narrow_external_scope",
+      "accepted_role": "Accepted as a government-published working consolidation for the identified document models, Article 3 fee schedule, procedural cost allocations, and issuer responsibilities.",
+      "not_accepted": [
+        "DRE consolidation as legally authoritative wording; DRE expressly says it has no legal value and does not replace the originating acts.",
+        "A retained local source-text copy or reproduction of the annex form images.",
+        "A fee quotation for a particular municipality, procedure or applicant without checking local and case-specific charges.",
+        "Complete Portuguese free-movement legal or procedural coverage."
+      ],
+      "evidence": {
+        "official_source_url": "https://diariodarepublica.pt/dr/legislacao-consolidada/portaria/2010-107034650",
+        "checked_on": "2026-10-29",
+        "language": "Portuguese",
+        "version": "DRE status Em vigor; last alteration 2024-01-31; version selector displayed 2026-08-24.",
+        "verified_content": "Consolidated Portaria n.º 1334-D/2010, Articles 1-7, annex and modification notes. Cross-checked Portaria n.º 13/2024 and Portaria n.º 32/2024 for the model, fee and commencement changes.",
+        "limitations": "DRE warns the consolidation has no legal value. Fee totals can include a municipality-specific component; annex images may need to be inspected in the official publication. The note is a summary, not source-text copy."
+      },
+      "maintained_note": {
+        "path": "documents/guidance/pt-06-portaria-1334-d-2010-models-fees-2026-10-29.md",
+        "sha256": "871daa1fb89d55e20f3adcdad5b4542c70bb98be3f37ddc17ff46073cefc022c",
+        "role": "maintained_official_reference_note_not_source_text_copy"
+      },
+      "local_copy_accepted": false,
+      "topic_accepted": false
     }
   ],
   "policy": "DRE states that its consolidated pages are government-produced working references but have no legal value and do not replace the original enacted acts. Under the repository source policy, a clearly identified official consolidated page may be used directly within its displayed status/date, subject and caveats; no Gazette-chain reconstruction or local copy is a prerequisite for link use. Original enactments/amendments remain the legal authority if a discrepancy matters.",
@@ -1210,7 +1236,7 @@
       "review_scope": "Confirm parent-page links, service authority, municipality/AIMA division, current forms, appointment and submission channels, and effective dates."
     }
   ],
-  "count_note": "65 official external-reference decisions cover links within scope; they do not count as accepted topics or country completion. Three dated derived text copies are retained: full visible DRE consolidated texts for Lei 37/2006, Lei 143/2015 and the Civil Registration Code, each with the publisher’s no-legal-value caveat. Three Gov.pt pages are not relied upon for current procedure. Four unresolved AIMA routes remain under a whole-site human-review offer.",
+  "count_note": "66 official external-reference decisions cover links within scope; they do not count as accepted topics or country completion. Three dated derived text copies are retained: full visible DRE consolidated texts for Lei 37/2006, Lei 143/2015 and the Civil Registration Code, each with the publisher’s no-legal-value caveat. Three Gov.pt pages are not relied upon for current procedure. Four unresolved AIMA routes remain under a whole-site human-review offer.",
   "not_relied_upon_reference_count": 3,
   "not_relied_upon_references": [
     {
