@@ -2,8 +2,8 @@
   "schema_version": "1.0.0",
   "jurisdiction": "SK",
   "as_of": "2026-10-29",
-  "accepted_source_count": 1,
-  "accepted_current_law_source_count": 1,
+  "accepted_source_count": 2,
+  "accepted_current_law_source_count": 2,
   "accepted_derived_text_count": 0,
   "accepted_topic_count": 0,
   "country_review_complete": false,
@@ -11,32 +11,36 @@
   "legacy_inventory": {
     "candidate_records": 40,
     "candidate_texts_converted_and_replay_verified": 31,
-    "local_acceptance_note": "All 40 source leads have final source-reference or disposition notes. Thirty-six external official references are usable within recorded scope. One current local statutory transcription is accepted for Slovakia Act 71/1967, version effective 2018-09-01; 39 other lead records have no accepted local source-text copy. Thirty-one converted candidate texts and inputs remain in the Monitor archive; no topic or country completion is accepted."
+    "local_acceptance_note": "All 40 source leads have final source-reference or disposition notes. Thirty-six external official references are usable within recorded scope. Two current local statutory transcriptions are accepted: Act 71/1967 (version 2018-09-01) and Act 404/2011 (version 2026-10-01); 38 other lead records have no accepted local source-text copy. Thirty-one converted candidate texts and inputs remain in the Monitor archive; no topic or country completion is accepted."
   },
   "policy": "A human-reviewed official link is usable for ordinary research within the identified publisher, instrument, language, displayed date or cutoff, reviewed content, and limitations. Slov-Lex, the Ministry of Foreign Affairs, and the Ministry of Interior are clearly identifiable official government sources. Use their government-published current or date-bound versions directly. No Gazette-fragment reconstruction, local capture, hash, replay, conversion, API access, or copying permission is required for link use. Check a later amendment only when it may materially affect the issue. Link acceptance is separate from local-copy acceptance, topic coverage, and country completion. Local statutory transcription acceptance requires a verified official dated version, complete captured body, explicit authority caveat, and applicable reuse basis; link acceptance remains separate from local-copy acceptance.",
   "official_reference_reviews": {
     "sk_02": {
-      "status": "usable_official_reference",
+      "status": "usable_official_reference_with_accepted_local_text",
       "publisher": "Slov-Lex, electronic Collection of Laws of the Slovak Republic",
       "url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2011/404/20261001",
       "binding_pdf_url": "https://static.slov-lex.sk/pdf/SK/ZZ/2011/404/ZZ_2011_404_20261001.pdf",
       "version_history_url": "https://www.slov-lex.sk/ezbierky/pravne-predpisy/SK/ZZ/2011/404/",
-      "checked_on": "2026-10-21",
+      "checked_on": "2026-10-29",
       "language": "Slovak",
-      "version_or_cutoff": "Version effective from 1 October 2026; Slov-Lex history page showed it as the current open-ended version.",
+      "version_or_cutoff": "Version effective from 1 October 2026; rechecked on 29 October 2026 and still displayed as current.",
       "scope": "Act 404/2011 on Residence of Foreigners, including entry, residence, residence documents, removal, and EU-family provisions.",
-      "reviewed_content": "The official act history and binding PDF identify the act, version, and effective date. The act is a broad immigration statute and only a partial functional match for Directive 2004/38. Its general member-state definition includes EU, EEA, and Swiss states, while §§30 and 51–57 narrow the term to EU Member States.",
+      "reviewed_content": "The official Slov-Lex date-bound print page was opened on 29 October 2026 and identifies the version effective 2026-10-01, amendment 128/2026. The complete captured HTML body from 19 October 2026 was promoted as a searchable transcription; Slov-Lex warns the binding text is in the PDF.",
       "limitations": [
+        "The Markdown file is a searchable transcription of informative Slov-Lex HTML, not the binding legal text; consult the official PDF and live version history.",
         "The EEA, Swiss, EU, Slovak-return, and UK Withdrawal Agreement routes must be kept distinct where the act or another instrument does not expressly group them.",
         "No article-by-article coverage or procedural completeness finding is made; see the coverage register.",
         "The link does not accept a locally converted copy."
       ],
       "source_document": {
-        "path": "source-library/slovakia/documents/references/sk-02-act-404-2011-on-residence-of-foreigners.md",
-        "sha256": "b306cfe09ae119dc482ba9a988ef939d3574990c6a80c2cc3d18e93b37a4ba53",
-        "bytes": 2657,
-        "kind": "independently_prepared_source_reference_note",
-        "reproduces_source_text": false
+        "path": "source-library/slovakia/documents/legislation/sk-02-act-404-2011-residence-of-foreigners-consolidated-2026-10-01.md",
+        "sha256": "f9c700c6825ea79932e7a8c7733b9e4acc2871192caa69b04a9c7225b7ec1aad",
+        "bytes": 493120,
+        "kind": "complete_official_html_text_transcription",
+        "reproduces_source_text": true,
+        "reuse_basis": "Slovak Copyright Act 185/2015 §5(b); the text of legislation is not subject to copyright.",
+        "captured_on": "2026-10-19",
+        "rechecked_on": "2026-10-29"
       }
     },
     "sk_03": {
