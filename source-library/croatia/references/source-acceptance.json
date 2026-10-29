@@ -800,7 +800,7 @@
     ],
     "note": "Record a human-reviewed official source link here when it supports a coverage layer without a retained local copy. This record does not change the local accepted-source count. Use version_or_cutoff='not displayed' and explain the limit when the publisher shows no version marker."
   },
-  "accepted_source_count": 47,
+  "accepted_source_count": 48,
   "records": {
     "hr-access-info-act": {
       "status": "accepted",
@@ -3594,43 +3594,50 @@
       "local_file": "documents/legislation/hr-vis-decree.md"
     },
     "hr-vis-decree-amend-105-17": {
-      "status": "located_not_captured",
+      "status": "accepted",
       "checks": {
         "publisher_identity": {
           "status": "pass",
-          "evidence": "Narodne novine identifies Uredba o izmjeni Uredbe o Hrvatskom viznom informacijskom sustavu as NN 105/2017, item 2403, adopted by the Government of the Republic of Croatia, ELI /eli/sluzbeni/2017/105/2403. MUP and MVEP indexes list it as the amendment to NN 36/13. Checked 2026-10-25."
+          "review_date": "2026-10-29",
+          "evidence_url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2017_10_105_2403.html",
+          "evidence": "Narodne novine identifies Uredba o izmjeni Uredbe o Hrvatskom viznom informacijskom sustavu as NN 105/2017, item 2403, adopted by the Government of the Republic of Croatia (official page lines 8–19)."
         },
         "current_legal_version": {
           "status": "pass",
           "chain_id": "hr-vis-decree-chain",
-          "review_date": "2026-10-25",
+          "review_date": "2026-10-29",
           "evidence_url": "https://mup.gov.hr/gradjani-281562/moji-dokumenti-281563/stranci-333/propisi-652/652",
-          "evidence": "The live MUP Propisi and MVEP visa-regulations indexes checked 2026-10-25 both list NN 105/17 with the base NN 36/13 VIS regulation. This confirms the publisher-listed amendment chain only; it does not provide consolidated wording or resolve later EU VIS-law effects."
+          "evidence": "Current MUP and MVEP indexes list NN 105/17 with the base regulation NN 36/13. The retained text is the 2017 amending instrument only, not consolidated wording or a review of later EU VIS law."
         },
         "extraction_completeness": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "pass",
+          "review_date": "2026-10-29",
+          "evidence": "The official Gazette page was checked from the title and preamble through Articles 1–2, class/registry numbers, date, and President's signature. The Markdown reproduces the complete instrument text and excludes Gazette metadata/footer."
         },
         "attachments_review": {
-          "status": "pending",
-          "evidence": "Not yet reviewed."
+          "status": "not_applicable",
+          "review_date": "2026-10-29",
+          "evidence": "No annex or embedded attachment accompanies this amendment."
         },
         "legal_classification": {
           "status": "pass",
-          "evidence": "Article 1 replaces Croatian VIS Regulation NN 36/13 Article 21(3), specifying access to visa-authority records by authorized MUP border-administration officers for border-visa decisions and border-crossing oversight. Article 2 states entry into force."
+          "review_date": "2026-10-29",
+          "evidence": "The Government regulation amends Article 21(3) of the Croatian HVIS regulation, specifying authorized MUP Border Administration officers' access to visa-authority records for border visa decisions and oversight; Article 2 states commencement."
         },
         "lawful_reuse": {
           "status": "pass",
           "scope": "official_text_only",
           "basis_id": "hr-copyright-act-nn-111-2021-art-18-3",
-          "evidence": "Copyright and Related Rights Act NN 111/21 Article 18(3) provides that official legislative, administrative, and judicial texts cease to be protected by copyright once published for official public information. This pass covers only the individual official act text, not the Narodne novine page shell, third-party attachments, or database-wide/systematic reuse. Store only a source-specific text fragment and observe the publisher's stated maximum three automated queries per second."
+          "evidence": "Source-specific official legislative text only, under Croatia Copyright and Related Rights Act NN 111/21 Article 18(3), as recorded in this register. Gazette shell and database-wide/systematic content are excluded."
         }
       },
       "semantic_review": {
-        "status": "not_reviewed",
-        "method": null,
-        "evidence": "No source-level semantic comparison has been recorded."
-      }
+        "status": "reviewed",
+        "method": "official page text-to-retained Markdown comparison",
+        "review_date": "2026-10-29",
+        "evidence": "Title, issuer, publication number/date, replacement wording in Article 1, commencement rule, publication class and signature block checked against the official Gazette page."
+      },
+      "local_file": "documents/legislation/hr-vis-decree-amend-105-17.md"
     },
     "hr-visa-ordinance": {
       "status": "accepted",
