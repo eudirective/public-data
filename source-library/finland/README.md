@@ -1,6 +1,6 @@
 # Finland source pack
 
-**Status (29 October 2026):** The inventory has 37 source records. Thirty-four official external references, four dated local copies, and one maintained source locator are recorded: the local copies are two Finnish legal texts and two unofficial English language-aid translations. One obsolete or out-of-scope Migri route is dispositioned, and two oversight routes remain under human review. No legal topic is accepted, and Finland is incomplete.
+**Status (29 October 2026):** The inventory has 37 source records. Thirty-four official external references, four dated local copies, one maintained source locator, and one maintained Markdown transcription of a live DVV form are recorded: the local copies are two Finnish legal texts and two unofficial English language-aid translations. One obsolete or out-of-scope Migri route is dispositioned, and two oversight routes remain under human review. No legal topic is accepted, and Finland is incomplete. The DVV form transcription records the directly reviewed form instructions and field schema; it is not a verbatim HTML capture and does not preserve client-side behavior.
 
 - [Candidate manifest](references/candidate-manifest.json)
 - [Source catalog](references/source-catalog.json)
