@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "collection": "netherlands/documents/guidance",
+  "entries": [
+    {
+      "source_id": "nl-19",
+      "official_url": "https://ind.nl/en/residence-permits/eu-eea-or-swiss-citizens/returning-with-a-dutch-national-from-another-eueea-country-or-switzerland",
+      "current_path": "netherlands/documents/guidance/nl-ind-return-dutch-national-2026-10-07.md",
+      "archive_path": "netherlands/documents/guidance/archive/nl-ind-return-dutch-national-2026-10-07/ac52b49a6bb3855b39018961674dbf762fbedadd9f98039e817fc49b12a4f507.md",
+      "sha256": "ac52b49a6bb3855b39018961674dbf762fbedadd9f98039e817fc49b12a4f507",
+      "archived_at": "2026-10-29T05:29:26.807Z",
+      "superseded_by_sha256": "903d704e6d538ba9a525d922eb7d05f733c1821f1aea685b42ddfc9beb75a2b1"
+    }
+  ]
+}
