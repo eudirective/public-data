@@ -2047,9 +2047,9 @@
       },
       "functional_relationship": "related_source",
       "verification_status": "Official MFA page reviewed 2026-10-21. Treat case-specific procedural wording as guidance and cross-check the special EU-family statutory route.",
-      "retrieved": false,
+      "retrieved": true,
       "accepted": false,
-      "retrieval_status": "external_reference_only",
+      "retrieval_status": "official_page_directly_reviewed_maintained_summary",
       "retrieval_shape": "official live page or decision link; no local copy added",
       "topic_ids": [
         "VISA-01",
@@ -2066,10 +2066,14 @@
         "MISSION-25"
       ],
       "scope_note": "Czech-language central guidance for EU-family short-stay visa applicants. The page has a limited scope and does not establish mission-specific filing arrangements.",
-      "local_copy_status": "not_stored",
+      "local_copy_status": "maintained_source_summary",
       "external_reference_accepted": true,
       "external_reference_decision": "accepted_with_narrow_external_scope",
-      "external_reference_scope": "Czech-language central guidance for EU-family short-stay visa applicants. The page has a limited scope and does not establish mission-specific filing arrangements. The local copy remains unaccepted."
+      "external_reference_scope": "Czech-language central guidance for EU-family short-stay visa applicants. The page has a limited scope and does not establish mission-specific filing arrangements. The local copy remains unaccepted.",
+      "retrieval_method": "direct official rendered page review; full substantive content checked",
+      "document_path": "documents/guidance/cz-mzv-eu-family-visa-cs.md",
+      "local_copy_disposition_date": "2026-10-29",
+      "document_role": "structured paraphrase of official guidance; not a verbatim or mechanically converted source copy"
     },
     {
       "id": "cz-mzv-visa-refusal-cs",
