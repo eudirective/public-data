@@ -558,7 +558,7 @@
         "verified_content": "Official ELI identity crosswalked to Legalize-ch file cc-24-233_245_233.md, whose metadata identifies SR 210 and the Swiss Civil Code. No provision-level content accepted.",
         "limits": "Link-only identity reference; no local statutory text, provision-level legal analysis, topic adequacy, or country completion accepted."
       },
-      "document_path": "documents/legislation/ch-45-zgb-sr-210.md"
+      "document_path": "source-library/switzerland/documents/legislation/ch-45-zgb-sr-210.md"
     },
     {
       "source_id": "ch-46-kvg-sr-832-10",
@@ -579,7 +579,7 @@
         "verified_content": "Official instrument title, SR 832.10, in-force status, and current version date were checked in Fedlex. Full statutory provisions were not reviewed.",
         "limits": "Link-only reference; no local text, complete health-insurance analysis, personal coverage decision, topic adequacy, or country completion accepted."
       },
-      "document_path": "documents/legislation/ch-46-kvg-sr-832-10.md"
+      "document_path": "source-library/switzerland/documents/legislation/ch-46-kvg-sr-832-10.md"
     },
     {
       "source_id": "ch-47-kvv-sr-832-102",
@@ -600,7 +600,7 @@
         "verified_content": "Official ELI identifier and Legalize-ch metadata identify the instrument as the KVV, SR 832.102. The current official body was not extracted.",
         "limits": "Accept only as a dated official locator and cross-reference. No text, topic adequacy, individual insurance decision, or country completion accepted."
       },
-      "document_path": "documents/legislation/ch-47-kvv-sr-832-102.md"
+      "document_path": "source-library/switzerland/documents/legislation/ch-47-kvv-sr-832-102.md"
     },
     {
       "source_id": "ch-48-klv-sr-832-112-31",
@@ -621,7 +621,7 @@
         "verified_content": "Instrument identity crosswalked to Legalize-ch file cc-1995-4964_4964_4964.md and the official Fedlex ELI. No operative provision was reviewed.",
         "limits": "Related follow-up locator only. No full legal text, benefits analysis, individual decision, topic adequacy, or country completion accepted."
       },
-      "document_path": "documents/legislation/ch-48-klv-sr-832-112-31.md"
+      "document_path": "source-library/switzerland/documents/legislation/ch-48-klv-sr-832-112-31.md"
     }
   ],
   "human_review_offers": [
@@ -666,7 +666,7 @@
       "reason": "Family-status, oversight, and current local ombuds coverage remain open in the candidate inventory."
     }
   ],
-  "count_note": "accepted_source_count and accepted_current_law_source_count count retained local artifacts and remain 0. 30 official external references are accepted within narrow scopes; this includes one EFTA institutional status reference outside the source-lead inventory; four new official legislation references were added in this crosswalk. No local conversion, topic, or country review is accepted or complete.",
+  "count_note": "accepted_source_count and accepted_current_law_source_count count retained local statutory artifacts and remain 0. 31 official external references are accepted within narrow scopes: 30 from the bounded source-lead inventory plus one supplemental EFTA institutional status reference. Four official legislation references were added in this crosswalk. No local conversion, topic, or country review is accepted or complete.",
   "official_reference_reviews": {
     "ch_21": {
       "status": "usable_official_reference_with_maintained_reference_note",
@@ -771,6 +771,16 @@
         "source_id": "ch-48-klv-sr-832-112-31",
         "path": "ch/cc-1995-4964_4964_4964.md",
         "status": "candidate date 2027-01-01 is future at review date; do not use as current"
+      },
+      {
+        "source_id": "ch-06-vfp-fr-20260101",
+        "path": "ch/cc-2002-261.md",
+        "status": "identity confirmed; metadata last_updated is 2019-11-01 while the pack holds an official 2026-01-01 dated locator; require exact-version comparison"
+      },
+      {
+        "source_id": "ch-20",
+        "path": "ch/cc-2004-362.md",
+        "status": "identity confirmed as the Civil Status Ordinance SR 211.112.2; Legalize snapshot is a candidate only"
       }
     ],
     "repository_scope": "Legalize-ch README limits its corpus to German-language XML consolidations, about 5,139 of roughly 17,258 SR numbers. It records that older version histories are incomplete and images are omitted.",
