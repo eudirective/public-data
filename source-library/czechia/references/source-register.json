@@ -2291,7 +2291,7 @@
       "external_reference_scope": "Official e-Sbírka current consolidated record checked 2026-10-29; displayed version effective 2020-02-01 (Decree 67/2019), original effective date 2011-01-01. The dated local copy was compared through §1, §§2–3, signature and all 42 annex entries; e-Sbírka supplied the candidate's omitted enactment header and preamble. Applicability to EU-family routes remains unresolved; e-Sbírka labels the consolidated version informative.",
       "whole_site_review_offer": "cz-esbirka-decree-429-currentness",
       "retrieval_method": "legalize_cz_dated_candidate_full_text_verified_against_official_esbirka",
-      "conversion_review_note": "A current official version is now located and dated. If a local text copy is later prepared, retain the 2020-02-01 cutoff and the open route-applicability question; successful extraction does not resolve that legal-scope issue.",
+      "conversion_review_note": "The accepted local copy represents e-Sbírka version 2020-02-01. Its complete text comparison, candidate-specific Markdown normalization, and official preamble supplementation are documented in references/legalize-cz-conversion-rules.md. A later version requires a new full comparison; current copy acceptance does not resolve EU-family route applicability.",
       "version_or_cutoff": "2020-02-01",
       "official_current_version_url": "https://e-sbirka.gov.cz/eli/cz/sb/2010/429/2020-02-01",
       "official_source_text_sha256": "f6e8563f6f2baa21310aa1b84aa2cc98fc500607e79ccbbd99f7dc7ce34a5e8b",
