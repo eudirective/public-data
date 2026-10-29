@@ -4,7 +4,7 @@
   "as_of": "2026-10-29",
   "accepted_source_count": 43,
   "accepted_current_law_source_count": 18,
-  "accepted_derived_text_count": 24,
+  "accepted_derived_text_count": 25,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "accepted_external_reference_count": 43,
@@ -1017,20 +1017,31 @@
     {
       "source_id": "de-46",
       "decision": "accepted_with_narrow_external_scope",
-      "accepted_role": "Official Federal Office of Justice brochure describing the federal central-authority role for intercountry adoption. The BfJ coordinates international cooperation but does not conduct individual adoptions; Land central authorities and accredited bodies do that work.",
+      "accepted_role": "Official Federal Office of Justice brochure, accepted as a limited institutional-role locator for Germany’s Central Authority under the Hague Adoption Convention. This is adjacent family-law material, not migration guidance.",
       "not_accepted": [
         "A complete adoption procedure or applicant checklist.",
         "EU-family residence guidance or migration-topic coverage.",
-        "A complete Germany national source pack or country review."
+        "A complete Germany national source pack or country review.",
+        "Full-text verification or a confirmed publication date; direct PDF fetch returned 403."
       ],
       "evidence": {
         "official_source_url": "https://www.bundesjustizamt.de/SharedDocs/Downloads/EN/AU/Germanys_Central_Authority.pdf?__blob=publicationFile&v=2",
         "superseded_official_url": "https://www.bundesjustizamt.de/EN/Topics/FamilyMattersInternational/Adoption/Adoption_node.html",
-        "checked_on": "2026-10-24",
+        "checked_on": "2026-10-29",
         "language": "en",
-        "version": "Official BfJ brochure; official search result dated within the previous year. Original landing page returned 404 and the PDF returned 403 to direct fetch.",
-        "verified_content": "Official PDF result identifies BfJ as Federal Central Authority and states that Land central authorities and accredited adoption bodies handle individual adoptions.",
-        "publisher_note": "This is an adjacent family-law authority source, not an EU residence-right source."
+        "version": "Official indexed brochure; publication date not established. Direct PDF retrieval returned HTTP 403.",
+        "verified_content": "Officially indexed brochure text identifies BfJ as Federal Central Authority and describes coordination duties, while stating that Länder authorities and accredited bodies handle individual adoption work. Full PDF was not directly retrievable.",
+        "publisher_note": "Use current BfJ guidance, competent Land central authority and applicable Convention/law for an individual matter. The local Markdown is an independently worded limited summary."
+      },
+      "accepted_local_copy": {
+        "status": "accepted_project_authored_source_summary",
+        "path": "documents/guidance/de-46.md",
+        "checked_on": "2026-10-29",
+        "language": "English",
+        "publisher_version": "Unknown; official PDF indexed but direct fetch returned 403.",
+        "scope": "Limited summary of BfJ institutional role as reflected in official indexed brochure content.",
+        "reuse": "Original paraphrase; no source text reproduced.",
+        "limits": "Full brochure not directly checked; no confirmed edition date, complete adoption process, migration guidance or case advice."
       }
     },
     {
@@ -1054,6 +1065,6 @@
   ],
   "human_review_offers": [],
   "policy": "Official source links may be accepted for ordinary reference use within the exact identity, date, and scope recorded. Link acceptance is separate from local-copy acceptance, topic coverage, dependencies, currentness, and country completion. Gesetze im Internet consolidations are working references; the electronic Bundesgesetzblatt is the authentic promulgation source for specific discrepancy, commencement, or amendment checks.",
-  "count_note": "43 official source references are accepted within recorded narrow roles. Eighteen accepted current-law source records correspond to 17 unique accepted local statutory text copies because de-10 is represented by de-09. Seven independently authored government or court guidance summaries (de-25, de-26, de-27, de-31, de-32, de-37 and de-38) are accepted locally. Five proposals remain open for human review. The de-31 handbook’s extracted local text is not accepted. No topic coverage or country review is complete.",
-  "accepted_local_copy_count": 24
+  "count_note": "43 official source references are accepted within recorded narrow roles. Eighteen accepted current-law source records correspond to 17 unique accepted local statutory text copies because de-10 is represented by de-09. Eight independently authored government or court guidance summaries (de-25, de-26, de-27, de-31, de-32, de-37, de-38 and de-46) are accepted locally. Five proposals remain open for human review. The de-31 handbook’s extracted local text is not accepted. No topic coverage or country review is complete.",
+  "accepted_local_copy_count": 25
 }
