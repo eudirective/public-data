@@ -166,7 +166,7 @@
     "nl-20",
     "nl-21"
   ],
-  "maintained_reference_note_count": 1,
+  "maintained_reference_note_count": 2,
   "maintained_reference_notes": [
     {
       "source_id": "nl-12",
@@ -175,6 +175,14 @@
       "reviewed_on": "2026-10-29",
       "evidence": "Official Staatscourant 2026, 35717: 205th amendment, published 14 October 2026, effective 15 October; replaces Annex 1.",
       "limits": "Current consolidated Wetten.nl edition and complete amendment history not verified because the page was inaccessible in this review; this note is not legal text."
+    },
+    {
+      "source_id": "nl-13",
+      "path": "source-library/netherlands/documents/legislation/nl-vreemdelingencirculaire-2000-maintained-2026-10-29.md",
+      "kind": "maintained_official_reference_note",
+      "reviewed_on": "2026-10-29",
+      "evidence": "Official Staatscourant confirms WBV 2026/21, signed 30 September, published 2 October and effective 1 October 2026; located amendment sequence includes WBV 2026/20 through 2026/5.",
+      "limits": "Wetten.nl consolidated edition and all post-WBV 2026/21 amendments not independently verified; this is not consolidated policy text."
     }
   ]
 }
