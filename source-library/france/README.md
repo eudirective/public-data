@@ -1,10 +1,10 @@
 # France national source references
 
-**Review updated 2026-10-29.** All 18 legacy candidate files have been reviewed and preserved in the Monitor's indexed local-only archive. Twenty-one local Markdown records are now in documents/: eight Service Public/DILA items, four DILA LEGI statutory texts, one CNIL oversight text, one Conseil d’État case-source guide, and seven project-authored maintained summaries, including France-Visas, CADA, the CERFA field map, the Nantes administrative-court portal, the CESEDA regulatory Book II section, and its legislative Book II counterpart. Twenty-seven usable official references by link remain recorded; some also have accepted local documents. Four candidates remain link-only because they are search/catalogue interfaces rather than the underlying records; N-Lex remains discovery-only/already represented. France topic coverage and country review remain incomplete.
+**Review updated 2026-10-29.** All 18 legacy candidate files have been reviewed and preserved in the Monitor's indexed local-only archive. Twenty-one local Markdown records are now in documents/: eight Service Public/DILA items, four DILA LEGI statutory texts, one CNIL oversight text, one Conseil d’État case-source guide, and seven project-authored maintained summaries, including France-Visas, CADA, the CERFA field map, the Nantes administrative-court portal, the CESEDA regulatory Book II section, and its legislative Book II counterpart. Thirty-one usable official references by link are now recorded; some also have accepted local documents. Four earlier candidates remain link-only because they are search/catalogue interfaces rather than the underlying records; the four 2026-10-29 additions are accepted official link references. The Paris order is historical and the Paris procedure page has an access/currentness caveat; N-Lex remains discovery-only. France topic coverage and country review remain incomplete.
 
 ## Active registers
 
-- [Source list and dispositions](references/source-list.md) — the 48-item bounded source inventory, including current dispositions and known retrieval limits.
+- [Source list and dispositions](references/source-list.md) — the 52-item bounded source inventory, including current dispositions and known retrieval limits.
 - [Source acceptance](references/source-acceptance.json) — accepted local guidance copies and reviewed official links.
 - [Sustainability assessment](references/sustainability-assessment.md)
 
