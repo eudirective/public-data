@@ -1499,15 +1499,15 @@
       "publisher": "National Printing House, Greece",
       "url": "https://search.et.gr/el/oroi-xrisis/",
       "rediscovery_url": "https://search.et.gr/en/search-legislation/",
-      "checked_on": "2026-10-25",
+      "checked_on": "2026-10-29",
       "language": "Greek",
-      "version_or_cutoff": "Terms page inspected 18 October 2026 and rechecked 25 October 2026; the page says terms may change without notice.",
+      "version_or_cutoff": "Live Greek terms page reviewed 29 October 2026; no publication date or page revision was displayed. The terms state they may be changed without prior notice.",
       "scope": "Official terms of use for the search.et.gr website as published; not a determination that the same terms govern direct api.et.gr PDF links.",
-      "reviewed_content": "The page identifies search.et.gr as an official National Printing House search and information website and restricts use to personal, informational, non-commercial purposes; the captured terms also restrict certain copying, conversion, and transmission.",
+      "reviewed_content": "The official National Printing House site identifies its search website as providing information about the National Printing House and access to Gazette search. The current terms restrict site use to personal, informational, non-commercial purposes, identify site documents/files/text as protected intellectual property of the Presidency of Government unless otherwise stated, and prohibit reproduction for commercial or non-personal use and copying, conversion, lending, transmission or broadcast without permission. No open content license is stated on the page. The terms separately exclude third-party material from any permission they provide.",
       "limitations": [
-        "The application of the search-site terms to direct api.et.gr PDFs and internal monitoring is unresolved.",
-        "No conclusion about republication or automated acquisition of National Printing House PDFs is accepted.",
-        "No local copy or automated retrieval rule is accepted."
+        "This page provides no open license for retaining or redistributing its text; the explicit restriction against non-personal use means no local copy of the terms is accepted for the public source library without permission.",
+        "This review covers the search.et.gr terms page only. Whether these terms govern direct api.et.gr Gazette PDF access is unresolved.",
+        "No automated retrieval or change-detection rule is accepted."
       ]
     },
     "gr-ya-144338-2025-app-filing-exception": {
