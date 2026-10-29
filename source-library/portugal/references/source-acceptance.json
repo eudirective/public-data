@@ -2,12 +2,12 @@
   "schema_version": "1.4.0",
   "jurisdiction": "PT",
   "as_of": "2026-10-29",
-  "accepted_source_count": 2,
+  "accepted_source_count": 3,
   "accepted_current_law_source_count": 0,
-  "accepted_derived_text_count": 2,
+  "accepted_derived_text_count": 3,
   "accepted_topic_count": 0,
   "country_review_complete": false,
-  "accepted_external_reference_count": 63,
+  "accepted_external_reference_count": 64,
   "external_reference_decisions": [
     {
       "source_id": "pt-02",
@@ -1145,6 +1145,24 @@
         "verified_content": "The visible consolidated text includes Lei 143/2015 and annexed Regime Jurídico do Processo de Adoção through Article 90 and the consolidation caveat.",
         "limitations": "Recheck current DRE date selector and the source enactments/amendments for legal force and commencement."
       }
+    },
+    {
+      "source_id": "pt-03-código-do-registo-civil-decreto-lei-n.º-131-95-consolidated-provisions",
+      "decision": "accepted_with_narrow_external_scope",
+      "accepted_role": "Official DRE consolidated civil-registration code, as a dated working reference within its displayed status and no-legal-value caveat.",
+      "not_accepted": [
+        "A consolidated text with legal value; DRE expressly says consolidations do not replace source acts.",
+        "No changes after 6 September 2026 or complete current operational practice.",
+        "Topic adequacy or country completion."
+      ],
+      "evidence": {
+        "official_source_url": "https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1995-34525275",
+        "checked_on": "2026-10-29",
+        "language": "Portuguese",
+        "version": "Displayed version selector 6 September 2026; last alteration 1 April 2025; status Em vigor.",
+        "verified_content": "Full visible consolidated code through Article 305, alteration notes, and DRE consolidation warning were opened and retained.",
+        "limitations": "The consolidated view has no legal value and does not replace the originating acts. Recheck later amendments and any applicable regulations."
+      }
     }
   ],
   "policy": "DRE states that its consolidated pages are government-produced working references but have no legal value and do not replace the original enacted acts. Under the repository source policy, a clearly identified official consolidated page may be used directly within its displayed status/date, subject and caveats; no Gazette-chain reconstruction or local copy is a prerequisite for link use. Original enactments/amendments remain the legal authority if a discrepancy matters.",
@@ -1163,7 +1181,7 @@
       "review_scope": "Confirm parent-page links, service authority, municipality/AIMA division, current forms, appointment and submission channels, and effective dates."
     }
   ],
-  "count_note": "63 official external-reference decisions cover links within scope; they do not count as accepted topics or country completion. Two dated derived text copies are retained: full visible DRE consolidated texts of Lei 37/2006 and Lei 143/2015, each with the publisher’s no-legal-value caveat. Three Gov.pt pages are not relied upon for current procedure. Four unresolved AIMA routes remain under a whole-site human-review offer.",
+  "count_note": "64 official external-reference decisions cover links within scope; they do not count as accepted topics or country completion. Three dated derived text copies are retained: full visible DRE consolidated texts for Lei 37/2006, Lei 143/2015 and the Civil Registration Code, each with the publisher’s no-legal-value caveat. Three Gov.pt pages are not relied upon for current procedure. Four unresolved AIMA routes remain under a whole-site human-review offer.",
   "not_relied_upon_reference_count": 3,
   "not_relied_upon_references": [
     {
@@ -1213,6 +1231,18 @@
       "reuse_basis": "Portuguese CDADC Article 8 states compiled or annotated official texts do not benefit from protection; DRE is the official publisher. Portal interface, branding and unrelated material are excluded.",
       "verification": "All 668 visible statutory-body lines were retained from the DRE consolidated view, including the annexed adoption procedure statute and the DRE consolidation warning; current displayed status and version selector were checked.",
       "limitations": "The consolidated text has no legal value and does not replace originating acts. Displayed version cutoff 2026-10-16. Not an authoritative consolidated instrument."
+    },
+    {
+      "source_id": "pt-03-código-do-registo-civil-decreto-lei-n.º-131-95-consolidated-provisions",
+      "path": "documents/legislation/pt-03-codigo-registo-civil-consolidation-2026-09-06.md",
+      "sha256": "ef54dbbebd614873b6591a9f5686793e36890c0edc91278c4f9571b3e0c65e6b",
+      "bytes": 283553,
+      "source_url": "https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1995-34525275",
+      "reviewed_on": "2026-10-29",
+      "decision": "accepted_dated_derived_text",
+      "reuse_basis": "Portuguese CDADC Article 8 states compiled or annotated official texts do not benefit from protection. Only the official statutory text and necessary provenance are retained; portal interface and unrelated material are excluded.",
+      "verification": "All 3,565 visible lines from the statutory body through Article 305 and DRE consolidation disclaimer were retained; source page displays Em vigor, version selector 2026-09-06, last alteration 2025-04-01.",
+      "limitations": "DRE states consolidation has no legal value and does not replace source acts. Dated version 2026-09-06; check later changes and applicable regulations. Not operational practice."
     }
   ]
 }
