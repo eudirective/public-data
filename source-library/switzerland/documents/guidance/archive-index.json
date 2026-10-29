@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "collection": "switzerland/documents/guidance",
+  "entries": [
+    {
+      "source_id": "ch-22-sem-family-reunification-procedure-20251204",
+      "official_url": "https://www.sem.admin.ch/dam/sem/fr/data/rechtsgrundlagen/weisungen/auslaender/familie/251204-weisung-familiennachzug.pdf.download.pdf/251204-weisung-familiennachzug-f.pdf",
+      "current_path": "switzerland/documents/guidance/ch-22-sem-family-reunification-procedure-20251204.md",
+      "archive_path": "switzerland/documents/guidance/archive/ch-22-sem-family-reunification-procedure-20251204/a42b88bbe9dd8c4bf85ba7a923e0aefca25296dfae8b667c360472c862c196fc.md",
+      "sha256": "a42b88bbe9dd8c4bf85ba7a923e0aefca25296dfae8b667c360472c862c196fc",
+      "archived_at": "2026-10-29T06:18:29.032Z",
+      "superseded_by_sha256": "5d90eef216e72e881c21c8479ccc84207f82c08cf3603577598ba46de7a3ffda"
+    }
+  ]
+}
