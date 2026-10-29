@@ -2086,21 +2086,25 @@
         "official_url": "https://mzv.gov.cz/jnp/cz/informace_pro_cizince/zamitnuti_viza/index.html"
       },
       "functional_relationship": "related_source",
-      "verification_status": "Official MFA page reviewed 2026-10-21; displayed update date 2026-05-06. Do not apply the general period to an EU-family case without resolving the special statutory route.",
-      "retrieved": false,
+      "verification_status": "Complete substantive page directly reviewed 2026-10-29; page displays update date 2026-05-06. General refusal guidance; special EU-family deadline requires separate statutory crosswalk.",
+      "retrieved": true,
       "accepted": false,
-      "retrieval_status": "external_reference_only",
-      "retrieval_shape": "official live page or decision link; no local copy added",
+      "retrieval_status": "official_page_directly_reviewed_maintained_summary",
+      "retrieval_shape": "complete substantive official page directly reviewed; maintained structured paraphrase",
       "topic_ids": [
         "VISA-09",
         "REMEDY-02",
         "REMEDY-03"
       ],
       "scope_note": "Czech-language general visa-refusal guidance, visibly updated 6 May 2026. It states a 15-day request-for-reconsideration period for Schengen refusals; its application to EU-family applicants requires a statutory crosswalk.",
-      "local_copy_status": "not_stored",
+      "local_copy_status": "maintained_source_summary",
       "external_reference_accepted": true,
       "external_reference_decision": "accepted_with_narrow_external_scope",
-      "external_reference_scope": "Czech-language general visa-refusal guidance, visibly updated 6 May 2026. It states a 15-day request-for-reconsideration period for Schengen refusals; its application to EU-family applicants requires a statutory crosswalk. The local copy remains unaccepted."
+      "external_reference_scope": "Czech-language general visa-refusal guidance, visibly updated 6 May 2026. It states a 15-day request-for-reconsideration period for Schengen refusals; its application to EU-family applicants requires a statutory crosswalk. The local copy remains unaccepted.",
+      "retrieval_method": "direct official rendered page review",
+      "document_path": "documents/guidance/cz-mzv-visa-refusal-cs.md",
+      "local_copy_disposition_date": "2026-10-29",
+      "document_role": "structured paraphrase of the complete substantive official guidance page; not a verbatim or mechanically converted source copy"
     },
     {
       "id": "cz-nss-8-azs-139-2025-24",
@@ -2280,7 +2284,7 @@
       "document_role": "structured paraphrase of the complete substantive official guidance page; not a verbatim or mechanically converted source copy"
     }
   ],
-  "retrieved_source_count": 45,
+  "retrieved_source_count": 46,
   "blocked_source_count": 0,
   "monitor_only_source_count": 13,
   "legal_retrieval": {
