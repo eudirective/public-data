@@ -5,7 +5,7 @@
   "acceptance_is_distinct_from_coverage": true,
   "policy": {
     "official_reference_use": "A human-reviewed official link is usable within its recorded scope after checking publisher, source identity, language, displayed date/version or cutoff, relevant content, and visible limits. No local capture, conversion, hash, or replay is required for ordinary link use.",
-    "local_artifact_acceptance": "Fourteen accepted local source texts are recorded: eight Service Public/DILA guidance, procedure-directory and administration-directory records; four DILA LEGI statutory texts under Licence Ouverte 2.0; one CNIL guidance text reproduction under CC BY-ND 4.0 FR; and one Conseil d’État court-source guide under its public-information reuse terms. Four additional project-authored official-source summaries are also accepted. Each copy has its own source identity, version, extraction, reuse and limitation record.",
+    "local_artifact_acceptance": "Fourteen accepted local source texts are recorded: eight Service Public/DILA guidance, procedure-directory and administration-directory records; four DILA LEGI statutory texts under Licence Ouverte 2.0; one CNIL guidance text reproduction under CC BY-ND 4.0 FR; and one Conseil d’État court-source guide under its public-information reuse terms. Five additional project-authored official-source summaries are also accepted. Each copy has its own source identity, version, extraction, reuse and limitation record.",
     "coverage": "Usable official references do not by themselves establish adequate topic coverage or country completion."
   },
   "official_reference_reviews": {
@@ -429,6 +429,21 @@
         "A specific immigration proceeding must be matched to the listed statutory categories and applicable amendments.",
         "Link-only reference; no local copy or automated retrieval rule is accepted."
       ]
+    },
+    "fr-cerfa-14076-eu-family-visa-form": {
+      "status": "usable_official_reference",
+      "publisher": "Ministry for Europe and Foreign Affairs; Service Public / DILA distributes and references the form",
+      "url": "https://www.formulaires.service-public.fr/gf/cerfa_14076.do",
+      "checked_on": "2026-10-29",
+      "language": "French",
+      "version_or_cutoff": "CERFA 14076*05, valid from 2024-02-12; four-page static PDF observed on 2026-10-29.",
+      "scope": "Harmonised Schengen visa application form, including data fields and special completion instructions for EU, EEA, Swiss, and qualifying UK Withdrawal Agreement family members.",
+      "reviewed_content": "The current official PDF and Service Public form metadata identify version 14076*05, its 2024-02-12 validity date, 33 numbered fields, family-member exemptions, administration-only section, and declaration/signature pages.",
+      "limitations": [
+        "The official PDF is the form to complete and submit; the local Markdown is only an independently authored field map.",
+        "Verify the current edition and consular recipient before use.",
+        "No completed applicant data is stored."
+      ]
     }
   },
   "official_reference_review_schema": {
@@ -445,7 +460,7 @@
     ],
     "note": "Record a human-reviewed official link here when it supports a coverage layer without a retained local copy. This does not change the local accepted-source count."
   },
-  "accepted_source_count": 18,
+  "accepted_source_count": 19,
   "records": {
     "fr-service-public-eu-long-stay-f2651": {
       "status": "accepted_local_copy",
@@ -755,6 +770,24 @@
         "Summary, not verbatim page text or a complete account of every supporting-document requirement.",
         "Dynamic route with no displayed page version date; verify current visa-assistant results and mission instructions.",
         "This family-of-French-citizen route is distinct from the EU/EEA/Swiss free-movement family route."
+      ],
+      "source_document_kind": "project_authored_source_summary"
+    },
+    "fr-cerfa-14076-eu-family-visa-form": {
+      "status": "accepted_local_copy",
+      "publisher": "Ministry for Europe and Foreign Affairs; Service Public / DILA distributes and references the form",
+      "url": "https://www.formulaires.service-public.fr/gf/cerfa_14076.do",
+      "checked_on": "2026-10-29",
+      "language": "English summary of French official form",
+      "version_or_cutoff": "CERFA 14076*05, valid from 2024-02-12; official PDF checked 2026-10-29.",
+      "local_path": "documents/guidance/fr-cerfa-14076-eu-family-visa-form.md",
+      "scope": "Independently authored field map for the four-page harmonised Schengen visa form, with the instructions relevant to EU/EEA/Swiss and qualifying UK Withdrawal Agreement family members.",
+      "reviewed_content": "All 33 numbered-field topics, family-member field exclusions, administration-only area, signature and declaration content, and filing metadata were checked against the current official PDF and official form record.",
+      "reuse": "No full PDF text, visual layout, logo, or extended form wording is reproduced. The local Markdown is an original field map and summary; no separate reuse license for the form PDF is claimed.",
+      "limitations": [
+        "Not the official blank CERFA and not accepted as a replacement form; use the unmodified official PDF.",
+        "Recheck the official form edition and current consular instructions before filing.",
+        "The field map summarizes rather than reproduces the complete declaration text; no application data is present."
       ],
       "source_document_kind": "project_authored_source_summary"
     }
