@@ -5,7 +5,7 @@
   "accepted_external_reference_count": 41,
   "pending_external_reference_count": 7,
   "not_relied_upon_reference_count": 0,
-  "accepted_local_copy_count": 17,
+  "accepted_local_copy_count": 18,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "policy": "Official links may be accepted within their checked identity, status, version, language, date and subject. Selected local TAR dataset texts are accepted only as dated source snapshots with attribution under the dataset CC BY 4.0 licence; they do not establish currentness. Prefer the government-published e-TAR consolidated edition for current-law questions. External-link acceptance, local-copy acceptance, topic coverage and country review completion are separate decisions.",
@@ -314,21 +314,25 @@
       "url": "https://keliauk.urm.lt/en/entry-to-lithuania/visas/list-of-countries-whose-citizens-do-not-require-visas-to-enter-the-republic-of-lithuania",
       "publisher": "Ministry of Foreign Affairs of Lithuania (URM / Keliauk)",
       "language": "en",
-      "checked_on": "2026-10-21",
-      "version_or_scope": "Page crawled 2026-10-18; a page-level update date was not recorded.",
-      "acceptance_scope": "Page crawled 2026-10-18; a page-level update date was not recorded.",
+      "checked_on": "2026-10-29",
+      "version_or_scope": "Official English dynamic nationality lookup. The page says created 2015-09-09 and renewed 2026-09-09 13:34.",
+      "acceptance_scope": "MFA nationality-based lookup route and its visible selector/navigation only. No individual country result is accepted or cached by this review.",
       "limitations": [
-        "This decision accepts the official external link only. It does not accept a saved conversion, establish legal-topic adequacy, or complete Lithuania’s source review.",
-        "Use only the instrument, page, language, and displayed version/date stated here. Check a later edition only when it may materially affect the provision or operational instruction being relied on."
+        "The dynamic country selector is official, but the text rendering does not expose a selected-country result. Query a nationality directly on the live page and record the result and date.",
+        "This summary does not state whether any nationality is visa-exempt or visa-required.",
+        "Visa requirement alone does not determine work/residence rights, permitted purpose or duration, border admission, or individual eligibility."
       ],
       "evidence": {
         "official_source_url": "https://keliauk.urm.lt/en/entry-to-lithuania/visas/list-of-countries-whose-citizens-do-not-require-visas-to-enter-the-republic-of-lithuania",
-        "verified_content": "Official dynamic list opened from the MFA visa hub.",
-        "source_record_note": "Nationality-specific facts and exemptions change; retrieve only through the parent hub and preserve the dated page state.",
-        "retrieval_status": "retrieval_or_conversion_error"
+        "verified_content": "Live official MFA page opened 2026-10-29. It identifies the MFA/URM Keliauk consular-information site, a country selector and alphabetical nationality labels; it exposes linked visa types, authorities, application, fee, prior consultation, decision, provider, EU/EFTA-family, complaint, visa-holder and data-protection guidance. The page displays Created 2015-09-09 / Renewed 2026-09-09 13:34. The text renderer showed no selected-country result.",
+        "source_record_note": "Dynamic lookup route accepted; no nationality result is inferred from a selector item. Use live page for each dated query.",
+        "retrieval_status": "live_official_dynamic_lookup_reviewed; country_specific_result_not_rendered",
+        "local_document_path": "documents/guidance/lt-mfa-visa-nationality-lookup.md",
+        "local_document_blob_sha": "8266b916e455b4b57626f0759dadedf5353e2522",
+        "local_document_kind": "authored_maintained_lookup_route_note"
       },
-      "local_copy_accepted": false,
-      "decision": "accepted_with_narrow_external_scope"
+      "local_copy_accepted": true,
+      "decision": "accepted_with_narrow_dynamic_route_scope"
     },
     {
       "source_id": "lt-20",
@@ -1099,6 +1103,6 @@
     }
   ],
   "currentness_and_dependency_note": "The Aliens Law’s current edition on the review date is 2026-07-01 through 2026-10-31; the captured TAR API copy is from 2026-01-01 and is not current. The Public Administration Law’s current edition is 2026-10-01 through 2026-12-31; the API capture begins 2024-01-01. Preserve the statutory reference to Regulation (EU) 2019/1157, but mark it as invalidated in CJEU judgment C-61/22 and replaced by Regulation (EU) 2025/1208; family-card requirements and old specimens need review against the successor regulation, whose 3 August 2026 transition date has passed. The lt-12 certificate page is retained only as dated 2022 format-identification guidance: its 2019/1157 citation is stale, and its English permanent-certificate description contains an apparent wording error. See its maintained record. The lt-13 page and its 2020 leaflet are accepted as dated document-identification material only; the page's 2019/1157 family-card citation is stale. See the maintained record. The lt-14 combined bilingual form is accepted only as a dated 2019 form version; the current temporary-card attachment is unconfirmed and a separate permanent-card form has since been directly reviewed. See its maintained record. The lt-15 fee page displayed update date 2026-10-13 and was captured on 2026-10-29. Treat its rates and payment instructions as dynamic; its permit exemption lists are not assumed to apply to EU-family card fees.",
-  "count_note": "There are 41 accepted external references and 7 pending; 13 dated Lithuanian statutory text snapshots and four maintained English guidance/form summaries are accepted locally, and 0 topics are accepted. The source register has 49 official references. Lithuania remains incomplete.",
+  "count_note": "There are 41 accepted external references and 7 pending; 13 dated Lithuanian statutory text snapshots and five maintained English guidance/form summaries are accepted locally, and 0 topics are accepted. The source register has 49 official references. Lithuania remains incomplete.",
   "source_reference_count": 49
 }
