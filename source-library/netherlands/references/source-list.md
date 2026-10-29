@@ -82,3 +82,16 @@ When direct page access, current version, court publication scope, appointment r
 ## Boundaries
 
 An accepted link is usable for the named source or service within its recorded scope. Local text copies have separate review and file records. Neither link nor copy acceptance establishes topic coverage or legal sufficiency, or marks the Netherlands review complete.
+
+## Legalize-NL crosswalk (2026-10-29)
+
+Pinned [Legalize-NL](https://github.com/legalize-dev/legalize-nl) at commit [750c8ecf86366db308a90d6ae20202b868e91b5c](https://github.com/legalize-dev/legalize-nl/commit/750c8ecf86366db308a90d6ae20202b868e91b5c). Four relevant Wetten.nl/BWB records already have official links or dated records in this pack:
+
+| Legalize file (blob) | Pack record | Snapshot evidence and disposition |
+|---|---|---|
+| [`BWBR0011823.md`](https://github.com/legalize-dev/legalize-nl/blob/750c8ecf86366db308a90d6ae20202b868e91b5c/nl/BWBR0011823.md) (`5a7f758827433e9692f301d1f20112d7a238c88a`) | `nl-10`, Vreemdelingenwet 2000 | Legalize identifies a Wetten.nl state dated 16 October 2026. The pack’s accepted local version is 1 September 2026. This is a later candidate, but the official site’s live recheck was unavailable (HTTP 429/cache miss), so the later body and currentness were not verified against Wetten.nl. |
+| [`BWBR0011825.md`](https://github.com/legalize-dev/legalize-nl/blob/750c8ecf86366db308a90d6ae20202b868e91b5c/nl/BWBR0011825.md) (`7b0bbcfba62d4467a6f5ff4d5b7d8f28724213e8`) | `nl-11`, Vreemdelingenbesluit 2000 | Candidate date 25 September 2026 matches the pack’s dated official version. The retained official text is scoped to EU/EEA family provisions, while Legalize presents the whole regulation; no complete whole-instrument comparison was made. |
+| [`BWBR0012002.md`](https://github.com/legalize-dev/legalize-nl/blob/750c8ecf86366db308a90d6ae20202b868e91b5c/nl/BWBR0012002.md) (`0ec482e17dc227e6245d889c7dcd2fc519d77fe7`) | `nl-12`, Voorschrift Vreemdelingen 2000 | Candidate state dated 15 October 2026 aligns with the official 205th amendment’s publication/effect dates. The consolidated official body and full amendment position remain unverified. |
+| [`BWBR0012288.md`](https://github.com/legalize-dev/legalize-nl/blob/750c8ecf86366db308a90d6ae20202b868e91b5c/nl/BWBR0012288.md) (`f214b7e5dc2e136b6a1e8eebc3b7430b4f9dcbe3`) | `nl-13`, Vreemdelingencirculaire 2000 | Candidate state dated 1 October 2026 aligns with the latest located WBV 2026/21 evidence. The whole current circular was not compared with an official consolidated body. |
+
+Legalize-NL describes BWB data as CC0 1.0; MIT applies to pipeline code. Keep Wetten.nl as the accepted source route. None of these snapshots is accepted as a local text or approved as a retrieval/conversion method: currentness or complete same-version content was not independently verified. Existing pack records cover the identified instruments; no duplicate official-source entries were needed.
