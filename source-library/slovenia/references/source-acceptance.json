@@ -389,6 +389,26 @@
       "maintained_note_sha256": "e2e871552bea50e9ea582ec04503f7cf9255d9126ded05e3b32934329044e6e3",
       "maintained_note_role": "maintained_official_reference_note_not_source_text_copy",
       "integration_text_url": "https://pisrs.si/api/datoteke/integracije/356693895"
+    },
+    "si_13": {
+      "status": "usable_official_reference_with_maintained_reference_note",
+      "publisher": "PISRS, Legal Information System of the Republic of Slovenia; promulgated acts appear in the Official Gazette",
+      "url": "https://pisrs.si/Pis.web/pregledPredpisa?id=ZAKO6046",
+      "rediscovery_url": "https://pisrs.si/",
+      "checked_on": "2026-10-29",
+      "language": "Slovenian",
+      "version_or_cutoff": "Record ZAKO6046 / SOP 2016-01-2294; PISRS displays NPB 3 with use date 25 October 2024 and lists materials through UL RS 62/2024.",
+      "scope": "Residence/address registration and deregistration, register administration, temporary accommodation and guest records.",
+      "reviewed_content": "Official PISRS record and integrated text checked for identity, status dates, NPB 3, use date, amendment list, statutory scope and disclaimer.",
+      "limitations": [
+        "PISRS labels NPB 3 an informational, unofficial consolidation; consult promulgated acts where exact wording or legal effect matters.",
+        "Address registration under this Act is distinct from immigration or free-movement entitlement to reside.",
+        "This is reference-note acceptance only; no local statutory copy, topic coverage or country completion accepted."
+      ],
+      "document_path": "documents/legislation/si-13-residence-registration-act-zppreb-1-2026-10-29.md",
+      "maintained_note_sha256": "d14f5ced9c760338f8fe5d7d83638853f50618585caffecdf7f091c2a6d3b91d",
+      "maintained_note_role": "maintained_official_reference_note_not_source_text_copy",
+      "integrated_text_url": "https://pisrs.si/api/datoteke/integracije/358969199"
     }
   },
   "historical_or_not_current_references": [
