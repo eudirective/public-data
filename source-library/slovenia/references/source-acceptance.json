@@ -22,15 +22,15 @@
       "publisher": "GOV.SI, Government of the Republic of Slovenia; page content assigned to the Ministry of the Interior and the Ministry of Foreign and European Affairs",
       "url": "https://www.gov.si/teme/vstop-in-prebivanje/",
       "rediscovery_url": "https://www.gov.si/",
-      "checked_on": "2026-10-25",
+      "checked_on": "2026-10-29",
       "language": "Slovenian",
       "version_or_cutoff": "Page displays last change 12 June 2026.",
       "scope": "Central official guidance and discovery page for entry, residence, EU/EEA nationals, Swiss nationals, visas, and related services.",
-      "reviewed_content": "The page separates EU citizens, their family members, EEA extension, Swiss nationals, and third-country nationals, and links to residence, visa, privacy, and service pages.",
+      "reviewed_content": "Opened the Slovenian page and checked EU entry and three-month/longer-stay service routes, non-EU family-member 90-day route, separate Swiss section, third-country visa C/D sections, mission and document links, local registration and legislation links; page displays last change 12 June 2026.",
       "limitations": [
-        "Guidance and linked pages are not a substitute for the law. Keep the EU/EEA route distinct from the separately described Swiss Agreement route.",
-        "The page and its attachments change; rediscover current services and forms from this parent when needed.",
-        "This link decision accepts reference use only, not a local copy or topic coverage."
+        "Guidance and linked pages are not a substitute for the law; verify current rules and deadlines against the linked service and governing instruments.",
+        "The page and its attachments change; rediscover current services, mission channels, visa checklists and forms from this parent when needed.",
+        "This decision accepts reference use only, not a local source-text copy or complete topic coverage."
       ],
       "document_path": "documents/guidance/si-entry-residence-guidance.md"
     },
