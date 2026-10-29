@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "LI",
-  "as_of": "2026-10-25",
-  "accepted_source_count": 18,
+  "as_of": "2026-10-29",
+  "accepted_source_count": 19,
   "accepted_local_copy_count": 11,
-  "accepted_external_reference_count": 18,
+  "accepted_external_reference_count": 19,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "policy": "A reviewed official source may be accepted within its publisher, identity, language, displayed version, scope, and stated limitations. The current Lilex consolidation is an informational working text, not the legally authentic publication. Local-copy acceptance is separate from topic coverage, legal equivalence, and country completion. Reuse acceptance for local laws, regulations, treaties and other official enactment text is limited to Liechtenstein URG Article 5(1)(a) and (2); it does not cover publisher site design, database-level or systematic reuse, or unrelated content.",
@@ -1053,11 +1053,43 @@
       "local_copy_accepted": false,
       "accepted_topics": [],
       "decision": "accepted_with_narrow_external_scope"
+    },
+    "li-27": {
+      "status": "accepted_with_narrow_external_scope",
+      "publisher": "Migration and Passport Office (Ausländer- und Passamt, APA), Liechtenstein",
+      "url": "https://formulare.llv.li/formserver_APA/start.do?generalid=APA_FN",
+      "checked_on": "2026-10-29",
+      "language": "German; English option displayed, but English form view not verified",
+      "version_or_scope": "Interactive family-reunification form APA_FN. The public initial page displayed a five-step progress indicator; no publication or revision date was shown.",
+      "acceptance_scope": "Official APA online form entry point and first step only. The maintained Markdown record summarizes the verified initial screen. The remaining steps and complete application requirements are not accepted as reviewed.",
+      "reviewed_content": "The initial page names the Migration and Passport Office, says a separate application is required for each family member seeking a permit, and shows a required family-relationship choice with spouse/registered partner, child, parents, life partner, and other eligible persons. It offers German and English language options and save/end controls. No data was entered and no form was submitted.",
+      "limitations": [
+        "Only the public initial step was verified. Fields, eligibility, supporting documents, validation and requirements on steps 2–5 remain unverified.",
+        "The parent forms index was not resolved; this is an interactive application route rather than a static form document.",
+        "The English option is displayed, but the English-language form view was not verified.",
+        "Do not treat the Markdown field map as a complete application checklist. Use the live form for its full workflow and do not enter applicant data into the library."
+      ],
+      "candidate_record": {
+        "manifest_archive_path": "candidates/public-data/liechtenstein/references/candidate-manifest.json",
+        "id": "li-27",
+        "source_sha256": "fccf8355c4b100c1d28f91f5ff45cd2751abb2232632274b427cdfc41ee80a66"
+      },
+      "evidence": {
+        "official_source_url": "https://formulare.llv.li/formserver_APA/start.do?generalid=APA_FN",
+        "verified_content": "Live public first step opened on 2026-10-29. Form title, provider, addressee, introductory separate-application instruction, five-step indicator and relationship choices reviewed.",
+        "retrieval_status": "interactive_form_initial_step_only"
+      },
+      "local_copy_accepted": false,
+      "accepted_topics": [],
+      "decision": "accepted_with_narrow_external_scope",
+      "maintained_source_note_path": "documents/forms/li-27-family-reunification-online-form.md",
+      "maintained_source_note_checked_on": "2026-10-29",
+      "maintained_source_note_status": "accepted_field_map_initial_step_only"
     }
   },
   "candidate_inventory_count": 40,
   "dispositioned_candidate_count": 1,
-  "open_candidate_count": 21,
+  "open_candidate_count": 20,
   "dispositions": {
     "li-03": {
       "status": "already_represented_duplicate",
