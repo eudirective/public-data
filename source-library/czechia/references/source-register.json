@@ -2445,19 +2445,152 @@
   "converted_review_artifact_count": 0,
   "legalize_cz_review": {
     "repository": "https://github.com/legalize-dev/legalize-cz",
-    "checked_on": "2026-10-29",
+    "checked_on": "2026-10-30",
     "repository_head_commit": "f88290efc3062a7b4a56105193238c269816b613",
     "repository_scope": "The repository README says it scans e-Sbírka act identifiers from 1945 onward and stores one SB-year-number Markdown file per instrument; the /cz directory listing was truncated at 1,000 entries and reported 17,436 more entries.",
     "purpose": "Secondary discovery and candidate-snapshot route only. The official e-Sbírka stable record and current version remain authoritative.",
-    "crosswalk": "All 17 statutory act identifiers already accepted as local copies in this Czechia pack were found as Legalize-CZ files. Three additional relevant acts (435/2004, 48/1997, and 117/1995) are now represented by direct official e-Sbírka links. Legalize-CZ's 429/2010 ELI URL points to 2020-02-01, which matches the current e-Sbírka consolidated version checked on 2026-10-29. For 326/1999, 435/2004, 48/1997 and 117/1995, Legalize-CZ file source URLs point to earlier effective versions than the current e-Sbírka versions checked here.",
-    "method_disposition": "Confirmed for locating dated candidate files and their official ELI locators; not accepted as a current-text retrieval method. Never infer freshness from the repository last_updated field alone. Compare the file's ELI/version metadata and complete content with the current official record before any local-copy consideration. No Legalize-CZ legal text was copied into this update.",
+    "crosswalk": "All 17 statutory act identities already accepted as local e-Sbírka text copies were found in Legalize-CZ and compared. Ten dated bodies match after formatting normalization; four Legalize snapshots are older than the accepted official copies; three same-date items are not accepted as exact matches (two substantive omissions and one unresolved image-marker difference). Three additional relevant acts (435/2004, 48/1997, 117/1995) and Decree 429/2010 remain locator-only: none has a retained legal text or completed Legalize full-text comparison. Four Czech archive additions SB 2026/204–207 also remain unverified. See comparison_results and locator_only_gaps for instrument-level outcomes. The October 19 official copies were not refreshed on October 30 because the attempted dated-PDF route returned HTML.",
+    "method_disposition": "Legalize-CZ is verified as a secondary transcription for the 10 exact, explicitly dated versions listed in comparison_results, and as a locator/candidate route for other files. That does not establish currentness or authorize substituting Legalize-CZ for the official e-Sbírka publisher record. The four older and three non-exact items are not accepted as equivalent copies; the 2013/186 image material remains unresolved. Existing retained Czech texts were retrieved from e-Sbírka, not Legalize-CZ.",
     "rights_and_attribution": "The repository LICENSE states the legislative content is official public-sector work treated as public domain under Czech Copyright Act No. 121/2000 Coll. §3(a); MIT applies to pipeline software. Attribute legal text to the issuing Czech law/e-Sbírka and separately identify Legalize-CZ as the Markdown transcription. Recheck notices before reuse.",
     "conversion_rules": [
       "Preserve the SB-year-number identifier, Czech title and full citation, rank, official source URL/ELI, version type, effective-from date, publication date and repository commit/path.",
       "Preserve Czech wording, headings, section/paragraph/article numbering, lists, notes and footnote anchors; do not translate, summarize, reorder, normalize or silently correct the Legalize transcription.",
       "Check all content from beginning to end against the same dated official e-Sbírka version, including article anchors, amendment notes and scope; record the publisher version separately from repository dates.",
       "Legalize-CZ omits images and binary attachments and replaces images with [image omitted]. Recover and inspect material attachments from e-Sbírka or mark the capture incomplete.",
-      "Hash raw and converted bytes, record both official publisher attribution and Legalize-CZ transcription attribution, and retain e-Sbírka's informative-text caveat and date-specific limitation."
+      "Hash raw and converted bytes, record both official publisher attribution and Legalize-CZ transcription attribution, and retain e-Sbírka's informative-text caveat and date-specific limitation.",
+      "Audit-only comparison normalization was used to isolate Markdown formatting differences; it is not a text-conversion rule. Preserve all source spacing and legal text in accepted copies. If Legalize-CZ contains [image omitted] markers or other material absent from the official text capture, inspect publisher attachments or mark the comparison/capture incomplete."
+    ],
+    "comparison_baseline": "Accepted e-Sbírka local text copies captured 2026-10-19; this is not a fresh 2026-10-30 publisher retrieval.",
+    "comparison_method": "Compared all 17 same-identity Legalize-CZ Markdown bodies with the retained official e-Sbírka bodies. Audit-only normalization stripped source wrappers and Markdown heading/list syntax, page-number-only lines, Unicode superscript digits, caret footnote markers and the publisher-only footnote heading; it did not alter retained source files. Results: 10 exact body matches, 4 older Legalize versions, and 3 same-date items not accepted as exact matches.",
+    "comparison_results": {
+      "exact_body_match_after_formatting_normalization": [
+        {
+          "instrument": "Act 85/1990",
+          "source_id": "cz-esbirka-1990-85",
+          "legalize_version": "2023-12-31"
+        },
+        {
+          "instrument": "Act 1/1993",
+          "source_id": "cz-esbirka-1993-1",
+          "legalize_version": "2026-01-01"
+        },
+        {
+          "instrument": "Act 106/1999",
+          "source_id": "cz-esbirka-1999-106",
+          "legalize_version": "2025-08-19"
+        },
+        {
+          "instrument": "Act 133/2000",
+          "source_id": "cz-esbirka-2000-133",
+          "legalize_version": "2025-01-01"
+        },
+        {
+          "instrument": "Act 150/2002",
+          "source_id": "cz-esbirka-2002-150",
+          "legalize_version": "2026-01-01"
+        },
+        {
+          "instrument": "Act 500/2004",
+          "source_id": "cz-esbirka-2004-500",
+          "legalize_version": "2025-07-01"
+        },
+        {
+          "instrument": "Act 115/2006",
+          "source_id": "cz-esbirka-2006-115",
+          "legalize_version": "2025-01-01"
+        },
+        {
+          "instrument": "Act 89/2012",
+          "source_id": "cz-esbirka-2012-89",
+          "legalize_version": "2026-01-01"
+        },
+        {
+          "instrument": "Act 91/2012",
+          "source_id": "cz-esbirka-2012-91",
+          "legalize_version": "2023-09-23"
+        },
+        {
+          "instrument": "Act 110/2019",
+          "source_id": "cz-esbirka-2019-110",
+          "legalize_version": "2025-08-01"
+        }
+      ],
+      "older_legalize_version_than_retained_official_copy": [
+        {
+          "instrument": "Act 326/1999",
+          "source_id": "cz-esbirka-1999-326",
+          "legalize_version": "2026-01-01",
+          "official_copy_version": "2026-06-12"
+        },
+        {
+          "instrument": "Act 349/1999",
+          "source_id": "cz-esbirka-1999-349",
+          "legalize_version": "2025-07-01",
+          "official_copy_version": "2026-06-12"
+        },
+        {
+          "instrument": "Act 634/2004",
+          "source_id": "cz-esbirka-2004-634",
+          "legalize_version": "2026-01-11",
+          "official_copy_version": "2026-09-01"
+        },
+        {
+          "instrument": "Act 273/2008",
+          "source_id": "cz-esbirka-2008-273",
+          "legalize_version": "2026-01-01",
+          "official_copy_version": "2026-06-12"
+        }
+      ],
+      "not_accepted_as_exact_match": [
+        {
+          "instrument": "Act 301/2000",
+          "source_id": "cz-esbirka-2000-301",
+          "same_effective_date": "2025-01-01",
+          "finding": "Legalize body is substantially shorter and omits provisions concerning registration of partnerships."
+        },
+        {
+          "instrument": "Act 186/2013",
+          "source_id": "cz-esbirka-2013-186",
+          "same_effective_date": "2025-10-01",
+          "finding": "Remaining differences include Markdown/layout variation and four [image omitted] markers present only in Legalize-CZ; corresponding image material was not verified."
+        },
+        {
+          "instrument": "Act 150/2017",
+          "source_id": "cz-esbirka-2017-150",
+          "same_effective_date": "2025-12-09",
+          "finding": "Legalize body is materially shorter and omits Part 3 on EU emergency travel documents."
+        }
+      ]
+    },
+    "locator_only_gaps": [
+      {
+        "source_id": "cz-esbirka-2004-435",
+        "instrument": "Act 435/2004 Coll., on Employment",
+        "legalize_version": "2026-01-01",
+        "official_current_version_effective": "2026-07-01",
+        "state": "locator only; no retained legal text; no full-text comparison or current official text capture"
+      },
+      {
+        "source_id": "cz-esbirka-1997-48",
+        "instrument": "Act 48/1997 Coll., on Public Health Insurance",
+        "legalize_version": "2026-01-01",
+        "official_current_version_effective": "2026-10-01",
+        "state": "locator only; no retained legal text; no full-text comparison or current official text capture"
+      },
+      {
+        "source_id": "cz-esbirka-1995-117",
+        "instrument": "Act 117/1995 Coll., on State Social Support",
+        "legalize_version": "2026-01-01",
+        "official_current_version_effective": "2026-09-01",
+        "state": "locator only; no retained legal text; no full-text comparison or current official text capture"
+      },
+      {
+        "source_id": "cz-decree-429-2010",
+        "instrument": "Decree 429/2010 Coll.",
+        "legalize_version": "2020-02-01",
+        "official_current_version_effective": "2020-02-01",
+        "state": "locator note only; current text not retained or compared; route-specific legal scope remains open"
+      }
     ]
   }
 }
