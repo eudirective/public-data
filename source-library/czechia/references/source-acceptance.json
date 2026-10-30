@@ -2387,7 +2387,16 @@
           "attachments_exposed": 0,
           "table_fragments": 0,
           "table_preservation": "not applicable; no table fragments",
-          "review": "Publisher order, document identity and effective-version metadata checked; legal structure retained. Topic coverage remains unaccepted."
+          "review": "Publisher identity/version, page-response hashes and ELI fragments checked. All 59 non-table text fragments match the retained body in publisher order after whitespace normalization; 0 of 0 table fragments (where present) are byte-identical source XHTML. No omission or reordering found. This does not establish topic coverage or legal effect.",
+          "fragment_order_replay": {
+            "checked_on": "2026-10-30",
+            "result": "passed",
+            "ledger": "captures/czechia-esbirka-current-import-2026-10-30/Czechia/captures/czechia-esbirka-current-2026-10-30/fragment-order-verification.json",
+            "non_table_text_fragments_matched_in_order": 59,
+            "source_fragments": 66,
+            "table_fragments_byte_identical": 0,
+            "interpretation": "Text/structure fidelity check only; no topic adequacy or legal conclusion."
+          }
         },
         "legalize_cz_comparison": {
           "pinned_commit": "f88290efc3062a7b4a56105193238c269816b613",
@@ -2490,7 +2499,16 @@
           "attachments_exposed": 0,
           "table_fragments": 0,
           "table_preservation": "not applicable; no table fragments",
-          "review": "Publisher order, document identity and effective-version metadata checked; legal structure retained. Topic coverage remains unaccepted."
+          "review": "Publisher identity/version, page-response hashes and ELI fragments checked. All 1842 non-table text fragments match the retained body in publisher order after whitespace normalization; 0 of 0 table fragments (where present) are byte-identical source XHTML. No omission or reordering found. This does not establish topic coverage or legal effect.",
+          "fragment_order_replay": {
+            "checked_on": "2026-10-30",
+            "result": "passed",
+            "ledger": "captures/czechia-esbirka-current-import-2026-10-30/Czechia/captures/czechia-esbirka-current-2026-10-30/fragment-order-verification.json",
+            "non_table_text_fragments_matched_in_order": 1842,
+            "source_fragments": 1850,
+            "table_fragments_byte_identical": 0,
+            "interpretation": "Text/structure fidelity check only; no topic adequacy or legal conclusion."
+          }
         },
         "legalize_cz_comparison": {
           "pinned_commit": "f88290efc3062a7b4a56105193238c269816b613",
@@ -2565,7 +2583,16 @@
             "cell_count": 2289,
             "fragments_with_row_or_column_spans": 7
           },
-          "review": "Publisher order, document identity and effective-version metadata checked; legal structure retained. Topic coverage remains unaccepted."
+          "review": "Publisher identity/version, page-response hashes and ELI fragments checked. All 1877 non-table text fragments match the retained body in publisher order after whitespace normalization; 14 of 14 table fragments (where present) are byte-identical source XHTML. No omission or reordering found. This does not establish topic coverage or legal effect.",
+          "fragment_order_replay": {
+            "checked_on": "2026-10-30",
+            "result": "passed",
+            "ledger": "captures/czechia-esbirka-current-import-2026-10-30/Czechia/captures/czechia-esbirka-current-2026-10-30/fragment-order-verification.json",
+            "non_table_text_fragments_matched_in_order": 1877,
+            "source_fragments": 1909,
+            "table_fragments_byte_identical": 14,
+            "interpretation": "Text/structure fidelity check only; no topic adequacy or legal conclusion."
+          }
         },
         "legalize_cz_comparison": {
           "pinned_commit": "f88290efc3062a7b4a56105193238c269816b613",
@@ -2634,7 +2661,16 @@
           "attachments_exposed": 0,
           "table_fragments": 0,
           "table_preservation": "not applicable; no table fragments",
-          "review": "Publisher order, document identity and effective-version metadata checked; legal structure retained. Topic coverage remains unaccepted."
+          "review": "Publisher identity/version, page-response hashes and ELI fragments checked. All 679 non-table text fragments match the retained body in publisher order after whitespace normalization; 0 of 0 table fragments (where present) are byte-identical source XHTML. No omission or reordering found. This does not establish topic coverage or legal effect.",
+          "fragment_order_replay": {
+            "checked_on": "2026-10-30",
+            "result": "passed",
+            "ledger": "captures/czechia-esbirka-current-import-2026-10-30/Czechia/captures/czechia-esbirka-current-2026-10-30/fragment-order-verification.json",
+            "non_table_text_fragments_matched_in_order": 679,
+            "source_fragments": 687,
+            "table_fragments_byte_identical": 0,
+            "interpretation": "Text/structure fidelity check only; no topic adequacy or legal conclusion."
+          }
         },
         "legalize_cz_comparison": {
           "pinned_commit": "f88290efc3062a7b4a56105193238c269816b613",
