@@ -1,6 +1,6 @@
 # Croatia: Legalize-HR candidate crosswalk
 
-**Review date:** 29 October 2026
+**Review date:** 30 October 2026
 **Pinned repository:** [norislav/legalize-hr at 074cad05e2cc3d49ca9d2611258845ae218b4d68](https://github.com/norislav/legalize-hr/tree/074cad05e2cc3d49ca9d2611258845ae218b4d68)
 **Official publisher:** [Narodne novine](https://narodne-novine.nn.hr)
 **Scope:** the 46 Narodne novine legal records already listed in Croatia’s source register. This is a record-level crosswalk, not a country-wide corpus review.
@@ -11,7 +11,7 @@ The candidate snapshot is pinned to commit 074cad05e2cc3d49ca9d2611258845ae218b4
 
 For every source-register row, the candidate path was derived from the official NN year, issue and item number. All 45 candidate files present at the pinned commit carry the expected HR-NN identifier and an ELI source URL matching the official Gazette record. One expected candidate file is absent. Candidate identity metadata was not treated as proof of body accuracy or currentness.
 
-For the 36 source records where both an accepted official-source local text and a non-empty Legalize body were available, the complete bodies were compared after removing Legalize YAML frontmatter and normalizing Markdown presentation, Unicode form, hyphen/space variants and whitespace. No internal word-split repair, table reconstruction or annex substitution was used to make a body match. The official MUP index was checked for the current EEA and third-country instrument chains.
+For the 42 source records where both an accepted local official text and a non-empty Legalize body were available, the complete bodies were compared after removing Legalize YAML frontmatter and normalizing Markdown presentation, Unicode form, hyphen/space variants and whitespace. No internal word-split repair, table reconstruction or annex substitution was used to make a body match. The official MUP index was checked for the current EEA and third-country instrument chains.
 
 ## Currentness check for the EEA instruments
 
@@ -23,17 +23,15 @@ This MUP check confirms the listed chains as of the review date. It does not est
 
 | Outcome | Records |
 |---|---:|
-| Full-body match after the stated formatting normalization | 28 |
-| Body difference; candidate not accepted | 8 |
+| Full-body match after the stated formatting normalization | 32 |
+| Body difference; candidate not accepted | 10 |
 | Legalize metadata-only stub | 3 |
 | Expected Legalize file absent at the pinned commit | 1 |
-| Candidate body exists, but the pack has only an official link and no local text to compare | 5 |
-| Candidate body exists, but the official pack record is located-not-captured | 1 |
 | **Total records crosswalked** | **46** |
 
-The 28 matches are identity and transcription comparisons for the cited edition only. No Legalize text was copied into the pack or promoted as an accepted local source by this crosswalk.
+All 46 source records have accepted local official-text files in the Croatia pack. The 32 matches are identity and transcription comparisons for the cited editions only. No Legalize text was copied into the pack or promoted as an accepted local source by this crosswalk.
 
-### Eight body differences
+### Ten body differences
 
 | Source ID | Verified difference in the pinned candidate |
 |---|---|
@@ -45,14 +43,14 @@ The 28 matches are identity and transcription comparisons for the cited edition 
 | hr-admin-fees-tariff | Table columns collapse, joining labels and amounts. |
 | hr-legal-aid-tariff-2025 | Fee-table columns are flattened and row boundaries are lost. |
 | hr-state-budget-execution-2026 | “TRANSFORMACIJE” is split inside the candidate. |
+| hr-third-country-residence-base | At Article 43, the candidate collapses a table and joins labels and values; the accepted official text preserves the table structure. |
+| hr-judicial-fees-tariff-transition-37-23 | The candidate flattens the three-column tariff tables, losing cell and row boundaries. |
 
 The court-decision discrepancy is a spacing loss between “Broj:” and the case numbers. It is small but remains a body difference under the comparison rule; it is recorded here instead of silently normalized.
 
-### Candidate stubs and records without an official-text comparator
+### Candidate stubs and missing candidate file
 
 - Metadata-only stubs with no body: hr-foreigners-amend-55-26 (NN 55/26), hr-third-country-procedure-rule (NN 116/26), and hr-judicial-fees-tariff (NN 50/26).
-- Candidate bodies not compared to a pack copy because the pack is link-only: hr-third-country-residence-base (NN 20/22), hr-third-country-residence-amend-155-22 (NN 155/22), hr-visa-system-decree (NN 92/21), hr-vis-decree (NN 36/13), and hr-vis-decree-amend-105-17 (NN 105/17). Their official link-only state is unchanged.
-- Candidate body present without a pack capture: hr-judicial-fees-tariff-transition-37-23 (NN 37/23). Its source-register state remains located-not-captured; the candidate does not change it.
 - Candidate file absent: hr-third-country-residence-rule (NN 43/26). The official MUP index lists this amendment, and the Croatia pack already records the official Gazette source. The absence is specific to the pinned Legalize snapshot.
 
 ## Record-by-record crosswalk
@@ -83,14 +81,14 @@ The court-decision discrepancy is a spacing loss between “Broj:” and the cas
 | hr-foreigners-amend-114-22 | [NN 2022/114, item 1695](https://narodne-novine.nn.hr/clanci/sluzbeni/2022_10_114_1695.html) | [hr-foreigners-amend-114-22.md](../documents/legislation/hr-foreigners-amend-114-22.md) | [hr/HR-NN-2022-114-1695.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2022-114-1695.md) (blob f37c2b4bb733cc372d887d6255094eb134d733af) | Full-body match |
 | hr-foreigners-amend-151-22 | [NN 2022/151, item 2347](https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2347.html) | [hr-foreigners-amend-151-22.md](../documents/legislation/hr-foreigners-amend-151-22.md) | [hr/HR-NN-2022-151-2347.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2022-151-2347.md) (blob 3ef16eb62be56957adf6b495c98c6e26c878c491) | Full-body match |
 | hr-foreigners-amend-40-25 | [NN 2025/40, item 545](https://narodne-novine.nn.hr/clanci/sluzbeni/2025_03_40_545.html) | [hr-foreigners-amend-40-25.md](../documents/legislation/hr-foreigners-amend-40-25.md) | [hr/HR-NN-2025-40-545.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2025-40-545.md) (blob 7590687c967efc5fb858def188889872f8dc7240) | Full-body match |
-| hr-third-country-residence-base | [NN 2022/20, item 215](https://narodne-novine.nn.hr/clanci/sluzbeni/2022_02_20_215.html) | Official link only | [hr/HR-NN-2022-20-215.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2022-20-215.md) (blob 62067ffc278025e67ecb7c025d418fd4e17051ac) | Body present; link-only comparator |
-| hr-third-country-residence-amend-155-22 | [NN 2022/155, item 2458](https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_155_2458.html) | Official link only | [hr/HR-NN-2022-155-2458.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2022-155-2458.md) (blob 0208de575a14b8805b53ca3e0039cbad81b6aa3c) | Body present; link-only comparator |
+| hr-third-country-residence-base | [NN 2022/20, item 215](https://narodne-novine.nn.hr/clanci/sluzbeni/2022_02_20_215.html) | [hr-third-country-residence-base.md](../documents/legislation/hr-third-country-residence-base.md) | [hr/HR-NN-2022-20-215.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2022-20-215.md) (blob 62067ffc278025e67ecb7c025d418fd4e17051ac) | Difference; see above |
+| hr-third-country-residence-amend-155-22 | [NN 2022/155, item 2458](https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_155_2458.html) | [hr-third-country-residence-amend-155-22.md](../documents/legislation/hr-third-country-residence-amend-155-22.md) | [hr/HR-NN-2022-155-2458.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2022-155-2458.md) (blob 0208de575a14b8805b53ca3e0039cbad81b6aa3c) | Full-body match |
 | hr-third-country-procedure-base | [NN 2021/136, item 2244](https://narodne-novine.nn.hr/clanci/sluzbeni/2021_12_136_2244.html) | [hr-third-country-procedure-base.md](../documents/legislation/hr-third-country-procedure-base.md) | [hr/HR-NN-2021-136-2244.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2021-136-2244.md) (blob 3d8661318c90f618cdbaa4865f1a1e2dd10658ca) | Difference; see above |
 | hr-third-country-procedure-amend-145-23 | [NN 2023/145, item 2004](https://narodne-novine.nn.hr/clanci/sluzbeni/2023_12_145_2004.html) | [hr-third-country-procedure-amend-145-23.md](../documents/legislation/hr-third-country-procedure-amend-145-23.md) | [hr/HR-NN-2023-145-2004.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2023-145-2004.md) (blob 1f693d4cd512053ae5c8de1ef677c0e0d01cbd01) | Full-body match |
 | hr-third-country-procedure-amend-102-25 | [NN 2025/102, item 1414](https://narodne-novine.nn.hr/clanci/sluzbeni/2025_07_102_1414.html) | [hr-third-country-procedure-amend-102-25.md](../documents/legislation/hr-third-country-procedure-amend-102-25.md) | [hr/HR-NN-2025-102-1414.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2025-102-1414.md) (blob f179c868aa39ad3a2e17f3d732d6ce8fe0b13c1c) | Full-body match |
-| hr-visa-system-decree | [NN 2021/92, item 1661](https://narodne-novine.nn.hr/clanci/sluzbeni/2021_08_92_1661.html) | Official link only | [hr/HR-NN-2021-92-1661.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2021-92-1661.md) (blob 1d2536a7603d89fe50669add0bdd4922845879c6) | Body present; link-only comparator |
-| hr-vis-decree | [NN 2013/36, item 657](https://narodne-novine.nn.hr/clanci/sluzbeni/2013_03_36_657.html) | Official link only | [hr/HR-NN-2013-36-657.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2013-36-657.md) (blob 299c15e5a87aa4d513dba68bcd243306ac0c7304) | Body present; link-only comparator |
-| hr-vis-decree-amend-105-17 | [NN 2017/105, item 2403](https://narodne-novine.nn.hr/clanci/sluzbeni/2017_10_105_2403.html) | Official link only | [hr/HR-NN-2017-105-2403.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2017-105-2403.md) (blob f77f3b2efe4c018480e4345c023789f7d9cdd94e) | Body present; link-only comparator |
+| hr-visa-system-decree | [NN 2021/92, item 1661](https://narodne-novine.nn.hr/clanci/sluzbeni/2021_08_92_1661.html) | [hr-visa-system-decree.md](../documents/legislation/hr-visa-system-decree.md) | [hr/HR-NN-2021-92-1661.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2021-92-1661.md) (blob 1d2536a7603d89fe50669add0bdd4922845879c6) | Full-body match |
+| hr-vis-decree | [NN 2013/36, item 657](https://narodne-novine.nn.hr/clanci/sluzbeni/2013_03_36_657.html) | [hr-vis-decree.md](../documents/legislation/hr-vis-decree.md) | [hr/HR-NN-2013-36-657.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2013-36-657.md) (blob 299c15e5a87aa4d513dba68bcd243306ac0c7304) | Full-body match |
+| hr-vis-decree-amend-105-17 | [NN 2017/105, item 2403](https://narodne-novine.nn.hr/clanci/sluzbeni/2017_10_105_2403.html) | [hr-vis-decree-amend-105-17.md](../documents/legislation/hr-vis-decree-amend-105-17.md) | [hr/HR-NN-2017-105-2403.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2017-105-2403.md) (blob f77f3b2efe4c018480e4345c023789f7d9cdd94e) | Full-body match |
 | hr-access-info-amend-85-15 | [NN 2015/85, item 1649](https://narodne-novine.nn.hr/clanci/sluzbeni/2015_08_85_1649.html) | [hr-access-info-amend-85-15.md](../documents/legislation/hr-access-info-amend-85-15.md) | [hr/HR-NN-2015-85-1649.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2015-85-1649.md) (blob 57740d7687a183faa68003dab2b8060c2be7dd32) | Full-body match |
 | hr-access-info-amend-69-22 | [NN 2022/69, item 1025](https://narodne-novine.nn.hr/clanci/sluzbeni/full/2022_06_69_1025.html) | [hr-access-info-amend-69-22.md](../documents/legislation/hr-access-info-amend-69-22.md) | [hr/HR-NN-2022-69-1025.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2022-69-1025.md) (blob 225847f27cd32c42bb5ac165fc03bed578c31345) | Full-body match |
 | hr-data-protection-act | [NN 2018/42, item 805](https://narodne-novine.nn.hr/clanci/sluzbeni/2018_05_42_805.html) | [hr-data-protection-act.md](../documents/legislation/hr-data-protection-act.md) | [hr/HR-NN-2018-42-805.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2018-42-805.md) (blob 84b8509fbebd43067113f499ec3115d9c7f75d20) | Full-body match |
@@ -102,13 +100,13 @@ The court-decision discrepancy is a spacing loss between “Broj:” and the cas
 | hr-judicial-fees-act | [NN 2018/118, item 2335](https://narodne-novine.nn.hr/clanci/sluzbeni/full/2018_12_118_2335.html) | [hr-judicial-fees-act.md](../documents/legislation/hr-judicial-fees-act.md) | [hr/HR-NN-2018-118-2335.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2018-118-2335.md) (blob b7879736a45c29d36873c955aeb9b7b9ee9f444b) | Full-body match |
 | hr-judicial-fees-amend-51-23 | [NN 2023/51, item 840](https://narodne-novine.nn.hr/clanci/sluzbeni/full/2023_05_51_840.html) | [hr-judicial-fees-amend-51-23.md](../documents/legislation/hr-judicial-fees-amend-51-23.md) | [hr/HR-NN-2023-51-840.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2023-51-840.md) (blob e27f9a826f867faa8559097c9a986cbbf9f4d685) | Full-body match |
 | hr-judicial-fees-tariff | [NN 2026/50, item 624](https://narodne-novine.nn.hr/clanci/sluzbeni/2026_05_50_624.html) | [hr-judicial-fees-tariff.md](../documents/legislation/hr-judicial-fees-tariff.md) | [hr/HR-NN-2026-50-624.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2026-50-624.md) (blob 8629f0322bd070b9b826b990638093c18e583613) | Metadata-only stub |
-| hr-judicial-fees-tariff-transition-37-23 | [NN 2023/37, item 621](https://narodne-novine.nn.hr/clanci/sluzbeni/2023_03_37_621.html) | No local capture (located-not-captured) | [hr/HR-NN-2023-37-621.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2023-37-621.md) (blob c1f1c6de923ded726867dc4133b690ea84168e36) | Body present; not captured |
+| hr-judicial-fees-tariff-transition-37-23 | [NN 2023/37, item 621](https://narodne-novine.nn.hr/clanci/sluzbeni/2023_03_37_621.html) | [hr-judicial-fees-tariff-transition-37-23.md](../documents/legislation/hr-judicial-fees-tariff-transition-37-23.md) | [hr/HR-NN-2023-37-621.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2023-37-621.md) (blob c1f1c6de923ded726867dc4133b690ea84168e36) | Difference; see above |
 | hr-legal-aid-tariff-2025 | [NN 2025/142, item 2106](https://narodne-novine.nn.hr/clanci/sluzbeni/2025_11_142_2106.html) | [hr-legal-aid-tariff-2025.md](../documents/legislation/hr-legal-aid-tariff-2025.md) | [hr/HR-NN-2025-142-2106.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2025-142-2106.md) (blob db2632093e67be88c0d03affbe1ffb3bf3c38d12) | Difference; see above |
 | hr-state-budget-execution-2026 | [NN 2025/152, item 2277](https://narodne-novine.nn.hr/clanci/sluzbeni/full/2025_12_152_2277.html) | [hr-state-budget-execution-2026.md](../documents/legislation/hr-state-budget-execution-2026.md) | [hr/HR-NN-2025-152-2277.md](https://github.com/norislav/legalize-hr/blob/074cad05e2cc3d49ca9d2611258845ae218b4d68/hr/HR-NN-2025-152-2277.md) (blob b3b5c8fe9d0bccd29ad4f130d1e584acc5f679de) | Difference; see above |
 
 ## Retrieval method, attribution and reuse limits
 
-Narodne novine remains the source of law. The source register’s official Gazette URLs and its accepted local captures remain the accepted source routes. Legalize-HR is recorded only as a pinned secondary discovery and candidate-transcription route for the 28 exact body pairs. It is not an authority, and its commit or update dates do not establish currentness. For the eight discrepant candidates, stubs, missing file and records without an official comparator, no Legalize retrieval method is accepted.
+Narodne novine is the source of law. The official Gazette URLs in the register are provenance and navigation pointers; the accepted local text files are the source documents. Legalize-HR is recorded as a pinned secondary candidate-transcription route for the 32 exact body pairs only. It is not an authority, and its commit or update dates do not establish currentness. The ten discrepant candidates, three metadata stubs and one absent file are not accepted source text.
 
 Attribution for any future review must identify the specific Narodne novine record as the legal source and Legalize-HR, the pinned commit and file as the intermediary transcription. The repository’s MIT notice is not treated as a blanket reuse grant for underlying Croatian legal texts. The Croatia pack’s existing reuse policy applies Copyright Act NN 111/21, Article 18(3), to individually identified official texts and excludes bulk/database-wide reuse. This crosswalk retains no Legalize text.
 
@@ -118,4 +116,4 @@ The companion [legalize-conversion-rules.md](legalize-conversion-rules.md) gover
 
 ## Coverage boundary
 
-This crosswalk covers only 46 Narodne novine legal records already present in the Croatia source register; it does not review the Legalize-HR catalogue as a whole or assert Croatian source-pack completeness. The repository-wide source-library audit found crosswalks for 25 of 31 jurisdiction packs before this addition. A bounded GitHub repository search found the Croatia candidate repository and no relevant matching repository for Cyprus, Hungary, Iceland, Malta or Slovenia. Search results are not proof that no repository exists. This review does not make legal-equivalence claims or change topic-coverage status.
+This crosswalk covers only 46 Narodne novine legal records already present in the Croatia source register; it does not review the Legalize-HR catalogue as a whole or assert Croatian source-pack completeness. The repository-wide source-library audit found crosswalks for 26 of 31 jurisdiction packs after adding Croatia. A bounded GitHub repository search found the Croatia candidate repository and no relevant matching repository for Cyprus, Hungary, Iceland, Malta or Slovenia. Search results are not proof that no repository exists. This review does not make legal-equivalence claims or change topic-coverage status.
