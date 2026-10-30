@@ -1,17 +1,11 @@
-# Decree 429/2010: official locator and review status
+# Decree 429/2010 — scope note
 
-- **Source ID:** `cz-decree-429-2010`
-- **Publisher:** e-Sbírka, official Czech Collection of Laws and International Treaties; corroborating locator: Czech Parliament metadata
-- **Language:** Czech
-- **Official instrument locator:** https://e-sbirka.gov.cz/sb/2010/429
-- **Corroborating metadata:** https://www.psp.cz/sqw/sbirka.sqw?cz=429&r=2010
-- **Checked:** 2026-10-29
-- **Record type:** Project-authored locator note; no legal text is reproduced.
+This file records the source locator and the unresolved application question; it is not the legal source text.
 
-## What is confirmed
+- Official stable record: https://e-sbirka.gov.cz/sb/2010/429
+- Dated full text retained separately: [cz-decree-429-2010.md](cz-decree-429-2010.md)
+- Publisher version captured: `AKTUALNI`, effective 2020-02-01; retrieved 2026-10-30.
+- Publisher caveat: consolidated texts are labelled informative.
+- Open question: whether its exceptions from filing at the locally competent diplomatic mission apply to EU-family short-stay visa and residence procedures.
 
-The Czech Parliament metadata identifies Decree 429/2010, reports its effect from 1 January 2011 and records amendment by Decree 67/2019. The e-Sbírka stable instrument route is retained as the official locator.
-
-## Limits and open review
-
-The current consolidated wording and cutoff could not be verified from the e-Sbírka page in the review client. Its application to EU-family visa or residence routes is unresolved. This note is not accepted as current legislation, a legal-text copy, a topic-coverage finding or a substitute for the open whole-portal human review.
+The URL above is locator/provenance metadata only. This scope note does not reproduce the decree and is not counted as a source-text copy.
