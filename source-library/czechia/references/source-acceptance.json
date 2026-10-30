@@ -1,10 +1,10 @@
 {
   "schema_version": "1.3.0",
   "jurisdiction": "CZ",
-  "as_of": "2026-10-29",
-  "accepted_source_count": 42,
-  "accepted_current_law_source_count": 18,
-  "accepted_derived_text_count": 42,
+  "as_of": "2026-10-30",
+  "accepted_source_count": 45,
+  "accepted_current_law_source_count": 21,
+  "accepted_derived_text_count": 45,
   "accepted_topic_count": 0,
   "country_review_complete": false,
   "accepted_external_reference_count": 67,
@@ -2425,21 +2425,21 @@
     {
       "source_id": "cz-esbirka-2004-435",
       "decision": "accepted_with_narrow_external_scope",
-      "accepted_role": "Official e-Sbírka record for Act No. 435/2004 Coll., on Employment. The current consolidated version displayed is effective 1 July 2026. Link-only reference; no local copy or complete employment-rights analysis is accepted.",
+      "accepted_role": "The official e-Sbírka stable record and dated version URL are provenance/version locators for the accepted local source text at documents/legislation/cz-esbirka-2004-435.md; the URL alone is not the source document.",
       "not_accepted": [
-        "The Legalize-CZ candidate is not accepted as a local copy: its complete body mismatches the official historical text named by its 2026-01-01 ELI link.",
-        "A locally captured, converted or semantically reviewed source copy.",
-        "A complete provision-level EU free-movement analysis or topic coverage.",
-        "Application beyond the official current version date and scope stated here."
+        "The Legalize-CZ candidate is not an exact copy of the official historical version named by its 2026-01-01 ELI; the full-body comparison found a substantive §1 mismatch.",
+        "A provision-by-provision analysis of EU free-movement or individual eligibility consequences.",
+        "Applicability beyond the official version dates recorded for the accepted local copy.",
+        "Gazette-chain certification or legal-effect verification for a particular event."
       ],
       "evidence": {
-        "official_source_url": "https://e-sbirka.gov.cz/sb/2004/435",
+        "official_source_url": "https://e-sbirka.gov.cz/sb/2004/435/2026-07-01",
         "stable_record_url": "https://e-sbirka.gov.cz/sb/2004/435",
-        "reviewed_on": "2026-10-29",
+        "reviewed_on": "2026-10-30",
         "publisher": "e-Sbírka, official Collection of Laws and International Treaties",
         "language": "cs",
-        "version": "Official e-Sbírka record and current consolidated page checked 2026-10-29; current version effective 2026-07-01. Its published provisions include employment-access rules and EU legal references.",
-        "verified_locations": "Potentially relevant to worker status, job access, and employment-related equality. Only code identity, current version date and selected official page content were reviewed; no provision-by-provision EU free-movement crosswalk is complete. A complete-body check of Legalize-CZ SB-2004-435.md against the official historical version (435/2004 Sb., 1. 1. 2026 - 11. 6. 2026, minulé znění, informativní znění systému e-Sbírka) found a substantive § 1 mismatch; the candidate is not accepted.",
+        "version": "Zákon č. 435/2004 Sb., o zaměstnanosti; publisher version type AKTUALNI; effective 2026-07-01 through 2026-12-31",
+        "verified_locations": "Official metadata plus all 2 ordered JSON text-fragment pages (1842 fragments with XHTML text); complete fragment stream converted and retained at documents/legislation/cz-esbirka-2004-435.md. Raw response bytes are in the Monitor local-only archive.",
         "limits": "Official e-Sbírka record for Act No. 435/2004 Coll., on Employment. The current consolidated version displayed is effective 1 July 2026. Link-only reference; no local copy or complete employment-rights analysis is accepted. The tested Legalize-CZ file fails the complete historical-text comparison, so it does not supply a local text copy or retrieval method.",
         "legalize_candidate_review": {
           "repository": "https://github.com/legalize-dev/legalize-cz",
@@ -2451,27 +2451,52 @@
           "first_difference": "§ 1: candidate says the law is in accordance with European Communities law; official 2026-01 text says it transposes relevant European Union rules.",
           "normalized_for_comparison": "Markdown headings, list markers, emphasis, superscript footnote marker and whitespace only",
           "accepted_as_local_copy": false
-        }
+        },
+        "capture_ledger": "captures/czechia-official-source-capture-2026-10-30/Czechia/czechia/esbirka/retrieval-manifest.json",
+        "capture_manifest_sha256": "026cbaa41a037da14dc8305531f74d2917c3392eaff50b204db5b0c9410b8eb3",
+        "raw_response_bundle": "captures/czechia-official-source-capture-2026-10-30/Czechia/czechia/esbirka/official-responses.tar.gz",
+        "raw_response_bundle_sha256": "a4243b9611ed8e29b9ccbb6af8907db66fa999206edbc29d9f3591fce5d8a04d",
+        "response_set_sha256": "4cd1d9f17ad68d3edba8a7032c3adc6793a8855439e22e5392b6b919ba3a3e7d",
+        "local_copy_sha256": "93faf7db207db9c03cfbb77d22075cc3ec2750736e7b0ada5d7a43739b4acc12",
+        "local_copy_path": "documents/legislation/cz-esbirka-2004-435.md",
+        "local_copy_bytes": 351335
+      },
+      "local_copy_decision": {
+        "status": "accepted_dated_local_copy",
+        "accepted_on": "2026-10-30",
+        "path": "documents/legislation/cz-esbirka-2004-435.md",
+        "sha256": "93faf7db207db9c03cfbb77d22075cc3ec2750736e7b0ada5d7a43739b4acc12",
+        "bytes": 351335,
+        "source_sha256": "4cd1d9f17ad68d3edba8a7032c3adc6793a8855439e22e5392b6b919ba3a3e7d",
+        "converted_source_sha256": "93faf7db207db9c03cfbb77d22075cc3ec2750736e7b0ada5d7a43739b4acc12",
+        "retrieved_on": "2026-10-30",
+        "method": "esbirka_public_current_version_fragment_service",
+        "limitations": [
+          "e-Sbírka labels the consolidated text informative.",
+          "The accepted copy is limited to the publisher-reported effective dates and does not establish applicability to a particular event.",
+          "The Markdown conversion preserves fragment order and statutory wording; tables remain XHTML and layout or footnote placement may differ from the rendered page.",
+          "No topic-coverage or country-completeness finding is made."
+        ]
       }
     },
     {
       "source_id": "cz-esbirka-1997-48",
       "decision": "accepted_with_narrow_external_scope",
-      "accepted_role": "Official e-Sbírka record for Act No. 48/1997 Coll., on Public Health Insurance. The current consolidated version displayed is effective 1 October 2026. Link-only reference; no local copy or individual coverage determination is accepted.",
+      "accepted_role": "The official e-Sbírka stable record and dated version URL are provenance/version locators for the accepted local source text at documents/legislation/cz-esbirka-1997-48.md; the URL alone is not the source document.",
       "not_accepted": [
-        "The Legalize-CZ candidate is not accepted as a local copy: its complete body mismatches the official historical text named by its 2026-01-01 ELI link.",
-        "A locally captured, converted or semantically reviewed source copy.",
-        "A complete provision-level EU free-movement analysis or topic coverage.",
-        "Application beyond the official current version date and scope stated here."
+        "The Legalize-CZ candidate is not an exact copy of the official historical version named by its 2026-01-01 ELI; the full-body comparison found a substantive §1 mismatch.",
+        "A provision-by-provision analysis of EU free-movement or individual eligibility consequences.",
+        "Applicability beyond the official version dates recorded for the accepted local copy.",
+        "Gazette-chain certification or legal-effect verification for a particular event."
       ],
       "evidence": {
-        "official_source_url": "https://e-sbirka.gov.cz/sb/1997/48",
+        "official_source_url": "https://e-sbirka.gov.cz/sb/1997/48/2026-10-01",
         "stable_record_url": "https://e-sbirka.gov.cz/sb/1997/48",
-        "reviewed_on": "2026-10-29",
+        "reviewed_on": "2026-10-30",
         "publisher": "e-Sbírka, official Collection of Laws and International Treaties",
         "language": "cs",
-        "version": "Official e-Sbírka record and current consolidated page checked 2026-10-29; current version effective 2026-10-01. The official text states that it implements and builds on EU regulations and governs public health insurance.",
-        "verified_locations": "Relevant to public-health-insurance and sickness-insurance dependencies for EU citizens and family members. The link does not determine an individual’s insurance obligation or entitlement; provision-level coordination-law mapping remains open. A complete-body check of Legalize-CZ SB-1997-48.md against the official historical version (48/1997 Sb., 1. 1. 2026 - 11. 6. 2026, minulé znění, informativní znění systému e-Sbírka) found a substantive § 1 mismatch; the candidate is not accepted.",
+        "version": "Zákon č. 48/1997 Sb., o veřejném zdravotním pojištění a o změně a doplnění některých souvisejících zákonů; publisher version type AKTUALNI; effective 2026-10-01 through 2027-12-31",
+        "verified_locations": "Official metadata plus all 2 ordered JSON text-fragment pages (1891 fragments with XHTML text); complete fragment stream converted and retained at documents/legislation/cz-esbirka-1997-48.md. Raw response bytes are in the Monitor local-only archive.",
         "limits": "Official e-Sbírka record for Act No. 48/1997 Coll., on Public Health Insurance. The current consolidated version displayed is effective 1 October 2026. Link-only reference; no local copy or individual coverage determination is accepted. The tested Legalize-CZ file fails the complete historical-text comparison, so it does not supply a local text copy or retrieval method.",
         "legalize_candidate_review": {
           "repository": "https://github.com/legalize-dev/legalize-cz",
@@ -2483,27 +2508,52 @@
           "first_difference": "§ 1: candidate begins 'Zákon upravuje veřejné zdravotní pojištění'; official dated text begins with a paragraph on transposition of and linkage to EU law.",
           "normalized_for_comparison": "Markdown headings, list markers, emphasis, superscript footnote marker and whitespace only",
           "accepted_as_local_copy": false
-        }
+        },
+        "capture_ledger": "captures/czechia-official-source-capture-2026-10-30/Czechia/czechia/esbirka/retrieval-manifest.json",
+        "capture_manifest_sha256": "026cbaa41a037da14dc8305531f74d2917c3392eaff50b204db5b0c9410b8eb3",
+        "raw_response_bundle": "captures/czechia-official-source-capture-2026-10-30/Czechia/czechia/esbirka/official-responses.tar.gz",
+        "raw_response_bundle_sha256": "a4243b9611ed8e29b9ccbb6af8907db66fa999206edbc29d9f3591fce5d8a04d",
+        "response_set_sha256": "9cf9aaf64e88631e85d9a7709d8fc1a1205f8cb6401d33e1d95100e8f2a163b8",
+        "local_copy_sha256": "4500b669f6717eb760490722e8ee33c3ad0887a482875884709ef497bb784573",
+        "local_copy_path": "documents/legislation/cz-esbirka-1997-48.md",
+        "local_copy_bytes": 740383
+      },
+      "local_copy_decision": {
+        "status": "accepted_dated_local_copy",
+        "accepted_on": "2026-10-30",
+        "path": "documents/legislation/cz-esbirka-1997-48.md",
+        "sha256": "4500b669f6717eb760490722e8ee33c3ad0887a482875884709ef497bb784573",
+        "bytes": 740383,
+        "source_sha256": "9cf9aaf64e88631e85d9a7709d8fc1a1205f8cb6401d33e1d95100e8f2a163b8",
+        "converted_source_sha256": "4500b669f6717eb760490722e8ee33c3ad0887a482875884709ef497bb784573",
+        "retrieved_on": "2026-10-30",
+        "method": "esbirka_public_current_version_fragment_service",
+        "limitations": [
+          "e-Sbírka labels the consolidated text informative.",
+          "The accepted copy is limited to the publisher-reported effective dates and does not establish applicability to a particular event.",
+          "The Markdown conversion preserves fragment order and statutory wording; tables remain XHTML and layout or footnote placement may differ from the rendered page.",
+          "No topic-coverage or country-completeness finding is made."
+        ]
       }
     },
     {
       "source_id": "cz-esbirka-1995-117",
       "decision": "accepted_with_narrow_external_scope",
-      "accepted_role": "Official e-Sbírka record for Act No. 117/1995 Coll., on State Social Support. The current consolidated version displayed is effective 1 September 2026. Link-only reference; no benefit eligibility conclusion or local copy is accepted.",
+      "accepted_role": "The official e-Sbírka stable record and dated version URL are provenance/version locators for the accepted local source text at documents/legislation/cz-esbirka-1995-117.md; the URL alone is not the source document.",
       "not_accepted": [
-        "The Legalize-CZ candidate is not accepted as a local copy: its complete body mismatches the official historical text named by its 2026-01-01 ELI link.",
-        "A locally captured, converted or semantically reviewed source copy.",
-        "A complete provision-level EU free-movement analysis or topic coverage.",
-        "Application beyond the official current version date and scope stated here."
+        "The Legalize-CZ candidate is not an exact copy of the official historical version named by its 2026-01-01 ELI; the full-body comparison found a substantive §1 mismatch.",
+        "A provision-by-provision analysis of EU free-movement or individual eligibility consequences.",
+        "Applicability beyond the official version dates recorded for the accepted local copy.",
+        "Gazette-chain certification or legal-effect verification for a particular event."
       ],
       "evidence": {
-        "official_source_url": "https://e-sbirka.gov.cz/sb/1995/117",
+        "official_source_url": "https://e-sbirka.gov.cz/sb/1995/117/2026-09-01",
         "stable_record_url": "https://e-sbirka.gov.cz/sb/1995/117",
-        "reviewed_on": "2026-10-29",
+        "reviewed_on": "2026-10-30",
         "publisher": "e-Sbírka, official Collection of Laws and International Treaties",
         "language": "cs",
-        "version": "Official e-Sbírka record and current version metadata checked 2026-10-29; current version effective 2026-09-01.",
-        "verified_locations": "Potentially relevant to state family and social benefits under equal-treatment and social-assistance rules. This is a code-level locator only; no specific benefit eligibility rule or EU-law interaction was reviewed. A complete-body check of Legalize-CZ SB-1995-117.md against the official historical version (117/1995 Sb., 1. 1. 2026 - 30. 6. 2026, minulé znění, informativní znění systému e-Sbírka) found a substantive § 1 mismatch; the candidate is not accepted.",
+        "version": "Zákon č. 117/1995 Sb., o státní sociální podpoře; publisher version type AKTUALNI; effective 2026-09-01 through 2026-12-31",
+        "verified_locations": "Official metadata plus all 1 ordered JSON text-fragment pages (679 fragments with XHTML text); complete fragment stream converted and retained at documents/legislation/cz-esbirka-1995-117.md. Raw response bytes are in the Monitor local-only archive.",
         "limits": "Official e-Sbírka record for Act No. 117/1995 Coll., on State Social Support. The current consolidated version displayed is effective 1 September 2026. Link-only reference; no benefit eligibility conclusion or local copy is accepted. The tested Legalize-CZ file fails the complete historical-text comparison, so it does not supply a local text copy or retrieval method.",
         "legalize_candidate_review": {
           "repository": "https://github.com/legalize-dev/legalize-cz",
@@ -2515,12 +2565,37 @@
           "first_difference": "§ 1(1): candidate and official wording differ on the family-support expenses covered.",
           "normalized_for_comparison": "Markdown headings, list markers, emphasis, superscript footnote marker and whitespace only",
           "accepted_as_local_copy": false
-        }
+        },
+        "capture_ledger": "captures/czechia-official-source-capture-2026-10-30/Czechia/czechia/esbirka/retrieval-manifest.json",
+        "capture_manifest_sha256": "026cbaa41a037da14dc8305531f74d2917c3392eaff50b204db5b0c9410b8eb3",
+        "raw_response_bundle": "captures/czechia-official-source-capture-2026-10-30/Czechia/czechia/esbirka/official-responses.tar.gz",
+        "raw_response_bundle_sha256": "a4243b9611ed8e29b9ccbb6af8907db66fa999206edbc29d9f3591fce5d8a04d",
+        "response_set_sha256": "965d048f77fc0e7e0b8ed4e53cdc30a6265fef79a790ca65856c246f2d24afb7",
+        "local_copy_sha256": "3c4dcfa6744aa1de1e6e2e1874b3a3759b34cb8d26ac02df86f67a676ef7db54",
+        "local_copy_path": "documents/legislation/cz-esbirka-1995-117.md",
+        "local_copy_bytes": 117367
+      },
+      "local_copy_decision": {
+        "status": "accepted_dated_local_copy",
+        "accepted_on": "2026-10-30",
+        "path": "documents/legislation/cz-esbirka-1995-117.md",
+        "sha256": "3c4dcfa6744aa1de1e6e2e1874b3a3759b34cb8d26ac02df86f67a676ef7db54",
+        "bytes": 117367,
+        "source_sha256": "965d048f77fc0e7e0b8ed4e53cdc30a6265fef79a790ca65856c246f2d24afb7",
+        "converted_source_sha256": "3c4dcfa6744aa1de1e6e2e1874b3a3759b34cb8d26ac02df86f67a676ef7db54",
+        "retrieved_on": "2026-10-30",
+        "method": "esbirka_public_current_version_fragment_service",
+        "limitations": [
+          "e-Sbírka labels the consolidated text informative.",
+          "The accepted copy is limited to the publisher-reported effective dates and does not establish applicability to a particular event.",
+          "The Markdown conversion preserves fragment order and statutory wording; tables remain XHTML and layout or footnote placement may differ from the rendered page.",
+          "No topic-coverage or country-completeness finding is made."
+        ]
       }
     }
   ],
-  "policy": "Accept trustworthy official links within the source identity, language, displayed version or cutoff, content, scope and caveats actually checked. Prefer government-published consolidations and do not reconstruct Gazette fragments by default. When publisher reliability, currentness, scope or legal effect is unclear, offer the whole relevant official portal for human review and continue independent work. External-link acceptance is separate from local-copy acceptance, topic adequacy and country review completion.",
-  "count_note": "42 accepted dated source-text copies, including Decree 429/2010 added on 2026-10-29 after full comparison against its official dated e-Sbírka version. The maintained-source-summary count includes 3 previously accepted summaries, 13 added guidance summaries and 4 added case summaries. One separate Decree locator/scope note remains, and two incomplete-capture locator notes remain in the inventory dispositions; these authored notes are not source-text copies.",
+  "policy": "Official URLs may be retained as provenance and version locators, but a URL or external-reference decision alone is not an accepted source document. Accepted source counts require a retained local source-text artifact with its own version, attribution, conversion evidence, integrity hashes, and recorded limits. External-reference decisions are counted separately from local-copy acceptance, topic adequacy, and country review completion. A dated copy is limited to its recorded publisher version.",
+  "count_note": "45 accepted dated local source-text copies. This count includes 20 e-Sbírka page-data text copies (17 retrieved 2026-10-19 and 3 additional current texts captured 2026-10-30), plus the separately verified Decree 429/2010 text effective 2020-02-01; 13 guidance pages, 6 form text companions, and 5 limited discovery/index snapshots. The maintained-source-summary count includes 3 prior Czech-language summaries, 13 guidance summaries, and 4 case summaries. The 3 new e-Sbírka documents are full official text captures; their Legalize-CZ candidate counterparts were rejected after complete historical-version mismatches. External URLs remain locators/provenance, not source-text copies. The Decree locator note and two incomplete-capture locator notes remain separate authored notes.",
   "status": "partial_source_and_external_reference_review",
   "required_checks_scope": "Local artifact checks apply only before accepting a retained copy. They do not block use of a human-reviewed official link within the publisher, identity, language, date/version, content, scope and caveats actually checked. A full Gazette chain, local conversion, hash, replay or API is not a blanket prerequisite.",
   "required_check_interpretation": [
