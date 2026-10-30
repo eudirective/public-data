@@ -16,11 +16,15 @@ These rules apply when considering a Legalize-HR file as a candidate transcripti
 ## Body conversion and comparison
 
 1. Exclude YAML frontmatter only from the body-to-body comparison. Keep its identifier and official ELI as identity metadata.
-2. Preserve Croatian diacritics, punctuation, paragraph numbering, heading hierarchy, article structure, tables, forms, annexes, signatures, footnotes and source links.
+2. Preserve Croatian diacritics, punctuation, paragraph numbering, heading hierarchy, article structure, tables, forms, annexes, signatures and footnotes.
 3. Normalize only Markdown presentation, Unicode normalization, equivalent hyphen/space code points and whitespace for comparison. Do not join or split words, infer missing characters, reorder columns, rebuild tables, substitute annex text or remove repeated legal text to force a match.
 4. Compare the complete candidate body with the complete official text for the same Gazette edition. Record the exact candidate and official blob/content hashes and the first substantive difference.
 5. Treat a missing body, metadata-only file, unreviewed image, omitted form or incomplete PDF extraction as a gap. Do not infer body equivalence from matching title or ELI.
 6. Inspect image-based forms and attachments against official page images. If they are omitted or not visually reviewed, mark the candidate incomplete for any use that depends on them.
+
+### Official HTML table rendering
+
+For NN 37/23, the official HTML presents three tariff tables as pipe-delimited text. Render each as a Markdown table by adding a separator row after its header; preserve every source cell and row order. Verify all three tables and all 11 data rows against the official page. Do not use a candidate that flattens cells or merges rows as a source text.
 
 ## Acceptance, attribution and rights
 
@@ -32,4 +36,4 @@ These rules apply when considering a Legalize-HR file as a candidate transcripti
 
 ## Croatia review outcome
 
-The 29 October 2026 review found 28 exact normalized body pairs and eight body differences among 36 comparable full bodies. Three candidate files are metadata-only, one expected file is absent, five bodies have no local pack comparator, and one candidate body has no captured official pack text. None of those states is changed by this guidance.
+The 30 October 2026 review found 32 exact normalized body pairs and ten body differences among 42 comparable full bodies. All 46 crosswalk records now have accepted local official text. Three candidate files are metadata-only and one expected Legalize file is absent. The candidate remains a discovery/transcription route; source acceptance requires the locally retained official text.
