@@ -1,16 +1,16 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "FR",
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "acceptance_is_distinct_from_coverage": true,
   "policy": {
-    "official_reference_use": "A human-reviewed official link is usable within its recorded scope after checking publisher, source identity, language, displayed date/version or cutoff, relevant content, and visible limits. No local capture, conversion, hash, or replay is required for ordinary link use.",
-    "local_artifact_acceptance": "Fourteen accepted local source texts are recorded: eight Service Public/DILA guidance, procedure-directory and administration-directory records; four DILA LEGI statutory texts under Licence Ouverte 2.0; one CNIL guidance text reproduction under CC BY-ND 4.0 FR; and one Conseil d’État court-source guide under its public-information reuse terms. Five additional project-authored official-source summaries are also accepted. Each copy has its own source identity, version, extraction, reuse and limitation record.",
-    "coverage": "Usable official references do not by themselves establish adequate topic coverage or country completion."
+    "official_reference_use": "Every official URL recorded in official_reference_reviews is a locator/provenance record only; it is not a source document and does not count toward accepted_source_count. Count an official source only when its French text or native official record is retained locally under documents/ and passes identity, scope, version, extraction, rights and completeness review. A project-authored summary is accepted only as a clearly labeled summary, not as official source text.",
+    "local_artifact_acceptance": "Nineteen accepted local official source texts are recorded: eight Service Public/DILA guidance or procedure records, nine DILA LEGI statutory texts (four previously accepted plus five newly verified scoped code extracts), one CNIL text reproduction under CC BY-ND 4.0 FR, and one Conseil d’État case-source guide under its public-information reuse terms. Seven project-authored maintained summaries are also accepted. Each local text has source identity, scope, checked version, extraction, reuse, attribution and limitations recorded; external URLs are locators only.",
+    "coverage": "A retained local source document may support a topic, but a locator or an accepted text does not by itself establish adequate topic coverage or country completion."
   },
   "official_reference_reviews": {
     "fr-ceseda-book-ii-legislative": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
       "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070158/LEGISCTA000042770930",
       "checked_on": "2026-10-29",
@@ -27,7 +27,7 @@
       ]
     },
     "fr-ceseda-book-ii-regulatory": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
       "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070158/LEGISCTA000042800206",
       "checked_on": "2026-10-29",
@@ -43,7 +43,7 @@
       ]
     },
     "fr-cada-open-opinions-dataset": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "CADA / data.gouv.fr",
       "url": "https://www.data.gouv.fr/explore/cada",
       "checked_on": "2026-10-24",
@@ -59,7 +59,7 @@
       ]
     },
     "fr-datagouv-legi-dataset": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "Direction de l’information légale et administrative (DILA), data.gouv.fr",
       "url": "https://www.data.gouv.fr/datasets/legi-codes-lois-et-reglements-consolides",
       "checked_on": "2026-10-24",
@@ -74,7 +74,7 @@
       ]
     },
     "fr-dila-legi-bulk-directory": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "DILA open-data directory",
       "url": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/",
       "checked_on": "2026-10-24",
@@ -103,7 +103,7 @@
       ]
     },
     "fr-dila-legifrance-dtd": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "DILA open-data technical directory",
       "url": "https://echanges.dila.gouv.fr/OPENDATA/DTD_LEGIFRANCE/",
       "checked_on": "2026-10-24",
@@ -118,7 +118,7 @@
       ]
     },
     "fr-conseil-etat-450285-450288-2022": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "Conseil d'État, ArianeWeb",
       "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2022-02-24/450285",
       "checked_on": "2026-10-24",
@@ -133,7 +133,7 @@
       ]
     },
     "fr-02-code-civil-international-adoption-(articles-370-2-to-370-5)": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "DILA, Légifrance",
       "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000046369964/",
       "checked_on": "2026-10-29",
@@ -148,7 +148,7 @@
       ]
     },
     "fr-03-code-civil-marriage-celebrated-abroad-(article-171-1-and-connected-provisio": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "DILA, Légifrance",
       "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006149973",
       "checked_on": "2026-10-29",
@@ -163,7 +163,7 @@
       ]
     },
     "fr-04-code-de-l’action-sociale-et-des-familles-international-adoption-provisions": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "DILA, Légifrance",
       "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006174341/",
       "checked_on": "2026-10-29",
@@ -177,7 +177,7 @@
       ]
     },
     "fr-06-code-civil-article-47:-evidentiary-effect-and-verification-of-foreign-civil": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "DILA, Légifrance",
       "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043895621/",
       "checked_on": "2026-10-29",
@@ -191,7 +191,7 @@
       ]
     },
     "fr-07-code-de-justice-administrative": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "DILA, Légifrance",
       "url": "https://www.legifrance.gouv.fr/codes/id/LEGITEXT000006070933/",
       "checked_on": "2026-10-24",
@@ -206,7 +206,7 @@
       ]
     },
     "fr-crpa-code": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "DILA, Légifrance",
       "url": "https://www.legifrance.gouv.fr/codes/id/LEGITEXT000031366350/",
       "checked_on": "2026-10-24",
@@ -220,7 +220,7 @@
       ]
     },
     "fr-crpa-l411-1-appeals": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "DILA, Légifrance",
       "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031367827",
       "checked_on": "2026-10-24",
@@ -235,7 +235,7 @@
       ]
     },
     "fr-cja-r312-18-visa-jurisdiction": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "DILA, Légifrance",
       "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000046000401",
       "checked_on": "2026-10-24",
@@ -250,7 +250,7 @@
       ]
     },
     "fr-cja-r421-1-deadline": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "DILA, Légifrance",
       "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039807005",
       "checked_on": "2026-10-24",
@@ -265,7 +265,7 @@
       ]
     },
     "fr-legifrance-api-open-data-docs": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "DILA, Légifrance",
       "url": "https://www.legifrance.gouv.fr/contenu/pied-de-page/open-data-et-api",
       "checked_on": "2026-10-24",
@@ -280,7 +280,7 @@
       ]
     },
     "fr-legifrance-api-faq": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "DILA, Légifrance",
       "url": "https://www.legifrance.gouv.fr/contenu/pied-de-page/foire-aux-questions-api",
       "checked_on": "2026-10-24",
@@ -295,7 +295,7 @@
       ]
     },
     "fr-france-visas-family-french": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "Ministry for Europe and Foreign Affairs / France-Visas",
       "url": "https://www.france-visas.gouv.fr/famille-de-francais",
       "checked_on": "2026-10-29",
@@ -310,7 +310,7 @@
       ]
     },
     "fr-france-visas-short-stay": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "Ministry for Europe and Foreign Affairs / France-Visas",
       "url": "https://www.france-visas.gouv.fr/visa-de-court-sejour",
       "checked_on": "2026-10-24",
@@ -325,7 +325,7 @@
       ]
     },
     "fr-france-visas-long-stay": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "Ministry for Europe and Foreign Affairs / France-Visas",
       "url": "https://www.france-visas.gouv.fr/web/france-visas/visa-de-long-sejour",
       "checked_on": "2026-10-24",
@@ -340,7 +340,7 @@
       ]
     },
     "fr-france-visas-fees": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "Ministry for Europe and Foreign Affairs / France-Visas",
       "url": "https://www.france-visas.gouv.fr/documents/d/france-visas/frais-de-visa-francais",
       "checked_on": "2026-10-24",
@@ -355,7 +355,7 @@
       ]
     },
     "fr-ministry-anef-overview": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "Direction générale des étrangers en France, Ministry of the Interior",
       "url": "https://www.immigration.interieur.gouv.fr/limmigration-en-france/ladministration-numerique-pour-etrangers-en-france",
       "checked_on": "2026-10-24",
@@ -370,7 +370,7 @@
       ]
     },
     "fr-cnil-agdref-information": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "Commission nationale de l’informatique et des libertés (CNIL)",
       "url": "https://www.cnil.fr/fr/application-de-gestion-des-dossiers-des-ressortissants-etrangers-en-france-agdref",
       "checked_on": "2026-10-24",
@@ -386,7 +386,7 @@
       ]
     },
     "fr-defenseur-des-droits-portal": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "Défenseur des droits",
       "url": "https://www.defenseurdesdroits.fr/",
       "checked_on": "2026-10-24",
@@ -401,7 +401,7 @@
       ]
     },
     "fr-defenseur-delays-titles-report-2026": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "Défenseur des droits",
       "url": "https://www.defenseurdesdroits.fr/degradation-des-delais-dinstruction-des-titres-de-sejour-la-defenseure-des-droits-publie-un-rapport",
       "checked_on": "2026-10-24",
@@ -416,7 +416,7 @@
       ]
     },
     "fr-legal-aid-act-91-647": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "DILA, Légifrance",
       "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000537611/2026-05-08",
       "checked_on": "2026-10-24",
@@ -431,7 +431,7 @@
       ]
     },
     "fr-cerfa-14076-eu-family-visa-form": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "Ministry for Europe and Foreign Affairs; Service Public / DILA distributes and references the form",
       "url": "https://www.formulaires.service-public.fr/gf/cerfa_14076.do",
       "checked_on": "2026-10-29",
@@ -446,7 +446,7 @@
       ]
     },
     "fr-ta-nantes-2105915-2105917-2021": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "Tribunal administratif de Nantes / Conseil d’État administrative courts",
       "url": "https://nantes.tribunal-administratif.fr/Media/mediatheque-ta-nantes/import/2105915-et-s.",
       "checked_on": "2026-10-29",
@@ -461,7 +461,7 @@
       ]
     },
     "fr-france-visas-submission-location-directory": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "Ministry for Europe and Foreign Affairs / France-Visas",
       "url": "https://www.france-visas.gouv.fr/en/lieu-de-depot",
       "checked_on": "2026-10-29",
@@ -476,7 +476,7 @@
       ]
     },
     "fr-prefecture-police-paris-prolongation-droit-au-sejour": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "Préfecture de Police de Paris",
       "url": "https://www.prefecturedepolice.interieur.gouv.fr/demarches/prolongation_droit_au_sejour",
       "checked_on": "2026-10-29",
@@ -491,7 +491,7 @@
       ]
     },
     "fr-prefecture-police-2023-01288-immigration-familiale": {
-      "status": "usable_official_reference",
+      "status": "official_locator_only_not_source_document",
       "publisher": "Préfecture de Police de Paris / Préfecture de la région Île-de-France",
       "url": "https://www.prefectures-regions.gouv.fr/ile-de-france/irecontenu/telechargement/110298/828146/file/recueil-75-2023-604-recueil-des-actes-administratifs-special%20du%2023.10.2023.pdf",
       "checked_on": "2026-10-29",
@@ -504,85 +504,10 @@
         "Documents internal assignment, not substantive residence rights or individual outcomes.",
         "Link-only reference; verify current RAA and prefecture organization before date-sensitive use."
       ]
-    },
-    "fr-code-travail": {
-      "status": "usable_official_reference",
-      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
-      "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072050",
-      "checked_on": "2026-10-29",
-      "language": "French",
-      "version_or_cutoff": "Official full-code link is unpinned. The official Book II employment-contract section displayed a version in force at 2026-06-27; separately indexed official sections displayed versions in force at 2026-09-27.",
-      "scope": "Full Code du travail; potentially relevant to worker status and employment rights under free-movement routes.",
-      "reviewed_content": "Official code identity and title confirmed; official Légifrance section and current-version evidence reviewed. No full-code content extraction or provision-by-provision review was performed.",
-      "limitations": [
-        "Full-code link-only reference; use provision-level current text for a concrete issue.",
-        "This record does not establish immigration status, work authorization, or eligibility under EU law.",
-        "No Legalize Markdown copy is accepted."
-      ]
-    },
-    "fr-code-securite-sociale": {
-      "status": "usable_official_reference",
-      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
-      "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006073189",
-      "checked_on": "2026-10-29",
-      "language": "French",
-      "version_or_cutoff": "Official code record displayed data last updated 2026-10-02; official provisions reviewed in search results were current through September 2026.",
-      "scope": "Full Code de la sécurité sociale; potentially relevant to social-insurance, health-coverage and benefit dependencies.",
-      "reviewed_content": "Official code identity, title and the current official code/provision pages were confirmed. This is a code-level reference, not a review of entitlement provisions.",
-      "limitations": [
-        "Full-code link-only reference; identify and check the exact provisions and EU coordination rules before applying it.",
-        "No benefits or residence entitlement is inferred.",
-        "No Legalize Markdown copy is accepted."
-      ]
-    },
-    "fr-code-education": {
-      "status": "usable_official_reference",
-      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
-      "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006071191",
-      "checked_on": "2026-10-29",
-      "language": "French",
-      "version_or_cutoff": "Official code page displayed version in force at 2026-10-29 and code data last updated 2026-10-16.",
-      "scope": "Full Code de l’éducation; potentially relevant to student-route status and education dependencies.",
-      "reviewed_content": "The official full-code page was opened and its title, code identity, current-version date and data-update date confirmed.",
-      "limitations": [
-        "Full-code link-only reference; student-route provisions have not been mapped article by article.",
-        "Does not establish a student’s immigration or residence rights by itself.",
-        "No Legalize Markdown copy is accepted."
-      ]
-    },
-    "fr-code-sante-publique": {
-      "status": "usable_official_reference",
-      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
-      "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072665",
-      "checked_on": "2026-10-29",
-      "language": "French",
-      "version_or_cutoff": "Official sections inspected displayed versions in force at 2026-10-18 and 2026-10-21.",
-      "scope": "Full Code de la santé publique; potentially relevant to public-health and health-service dependencies.",
-      "reviewed_content": "Official code identity and title, plus live current-version Légifrance sections, were confirmed; the full code page exceeded the retrieval display limit.",
-      "limitations": [
-        "Full-code link-only reference; no full-code extraction or provision-by-provision review was performed.",
-        "Use the relevant official current section for a concrete question; no health-entitlement conclusion is inferred.",
-        "No Legalize Markdown copy is accepted."
-      ]
-    },
-    "fr-code-procedure-civile": {
-      "status": "usable_official_reference",
-      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
-      "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006070716",
-      "checked_on": "2026-10-29",
-      "language": "French",
-      "version_or_cutoff": "Official code page displayed version in force at 2026-10-29 and data last updated 2026-10-01.",
-      "scope": "Full Code de procédure civile; potentially relevant to civil-status and family proceedings.",
-      "reviewed_content": "The official full-code page was opened and its identity, title, current-version date and data-update date confirmed.",
-      "limitations": [
-        "Full-code link-only reference; exact procedural routes still require issue-specific review.",
-        "Special procedures and administrative jurisdiction may be governed elsewhere, including the CJA.",
-        "No Legalize Markdown copy is accepted."
-      ]
     }
   },
   "official_reference_review_schema": {
-    "status": "usable_official_reference",
+    "status": "official_locator_only_not_source_document",
     "required_fields": [
       "publisher",
       "url",
@@ -593,9 +518,9 @@
       "reviewed_content",
       "limitations"
     ],
-    "note": "Record a human-reviewed official link here when it supports a coverage layer without a retained local copy. This does not change the local accepted-source count."
+    "note": "This map contains reviewed official URLs for navigation and provenance only. It is never counted as source-document acceptance; accepted source documents require retained local text/native files in records."
   },
-  "accepted_source_count": 21,
+  "accepted_source_count": 26,
   "records": {
     "fr-service-public-eu-long-stay-f2651": {
       "status": "accepted_local_copy",
@@ -961,29 +886,157 @@
         "Use the regulatory Book II, applicable EU instruments and cross-referenced procedural codes for implementation.",
         "The section URL is unpinned; confirm current section and article-level dates before date-sensitive use."
       ]
+    },
+    "fr-code-travail": {
+      "status": "accepted_local_copy",
+      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006189813/",
+      "checked_on": "2026-10-30",
+      "language": "French",
+      "version_or_cutoff": "Légifrance Section 3 displayed in force at 2026-10-28.",
+      "local_path": "documents/legislation/fr-code-travail-title-ii-articles-l5221-5-to-l5221-11.md",
+      "scope": "Current text of Articles L5221-5 to L5221-9 and L5221-11 in Section 3; L5221-10 is marked repealed and not transcribed.",
+      "reviewed_content": "Articles L5221-6, -7, current -8, -9 and -11 from the pinned Legalize file were compared against the complete current official Section 3 text. The older duplicate -8 was excluded. Legalize's -5 omitted the official applicability note, so the full current -5 and note were converted from DILA XML. The section article anchors and status were checked.",
+      "reuse": "DILA/Légifrance statutory text under Licence Ouverte / Open Licence 2.0. Legalize France Markdown transformation at commit e38417fd7b982b2df02fbe01f2960127a7bf9031 is attributed only for individually verified provisions; MIT covers software, not the text.",
+      "limitations": [
+        "Bounded section, not the full Code du travail.",
+        "Does not itself determine EU/free-movement work-authorisation obligations or an individual's immigration status.",
+        "Article L5221-5 displays an applicability limit through 2026-12-31; recheck thereafter."
+      ],
+      "source_document_kind": "official_statutory_text_copy",
+      "retrieval_method": "Legalize France pinned article excerpts verified against Légifrance; Article L5221-5 and its note from official DILA LEGI 2026-10-29 XML.",
+      "content_sha256": "1b9a2103aeb9e557b4e337146396edde7320d4ad73d99e9c08e668783b44649b"
+    },
+    "fr-code-securite-sociale": {
+      "status": "accepted_local_copy",
+      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance)",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073189/LEGISCTA000031668675/",
+      "checked_on": "2026-10-30",
+      "language": "French",
+      "version_or_cutoff": "Légifrance Section 1 displayed in force through 2026-10-09; Article L160-1-1 checked individually in force 2026-10-30.",
+      "local_path": "documents/legislation/fr-code-securite-sociale-beneficiaries-l160-1-to-l160-7.md",
+      "scope": "Current text of Articles L160-1, L160-1-1 and L160-2 to L160-7 in Section 1, Dispositions relatives aux bénéficiaires.",
+      "reviewed_content": "Articles L160-1 and L160-2 to -7 from the pinned Legalize file were compared against the complete official Section 1 and its displayed version notes. Legalize omitted current Article L160-1-1, created by Law No. 2025-1403; the article and effective-date note were retrieved from DILA LEGI XML and inserted in article order.",
+      "reuse": "DILA/Légifrance statutory text under Licence Ouverte / Open Licence 2.0. Legalize France Markdown transformation at commit e38417fd7b982b2df02fbe01f2960127a7bf9031 is attributed only for verified articles; MIT covers software, not the text.",
+      "limitations": [
+        "Beneficiaries section only; EU coordination rules, international agreements and individual facts remain necessary to assess entitlement.",
+        "The Legalize code file is not accepted as a complete current copy."
+      ],
+      "source_document_kind": "official_statutory_text_copy",
+      "retrieval_method": "Legalize France verified article excerpts plus official DILA LEGI 2026-01-02 XML for Article L160-1-1.",
+      "content_sha256": "93018a50cb29908c1103a8bcde3961266238fc7772ff5b99bd77403576b7939d"
+    },
+    "fr-code-education": {
+      "status": "accepted_local_copy",
+      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071191/LEGISCTA000006166564/",
+      "checked_on": "2026-10-30",
+      "language": "French",
+      "version_or_cutoff": "Code de l’éducation page displayed in force as of 2026-10-29.",
+      "local_path": "documents/legislation/fr-code-education-instruction-l131-1-and-l131-1-1.md",
+      "scope": "Articles L131-1 and L131-1-1: compulsory instruction age and child’s right to instruction.",
+      "reviewed_content": "The complete selected articles and article anchors from the pinned Legalize file were compared against current Légifrance entries; wording matched and official effective-date metadata was retained.",
+      "reuse": "DILA/Légifrance statutory text under Licence Ouverte / Open Licence 2.0. Legalize France Markdown transformation at commit e38417fd7b982b2df02fbe01f2960127a7bf9031 is attributed; MIT covers software, not the text.",
+      "limitations": [
+        "Two articles only; does not cover all school-enrolment, allocation or student-residence rules.",
+        "These provisions do not establish an immigration or residence entitlement."
+      ],
+      "source_document_kind": "official_statutory_text_copy",
+      "retrieval_method": "Legalize France pinned article excerpts, verified article-by-article against Légifrance.",
+      "content_sha256": "e19eabd1d7b60ec7c8c154c61053aa54dc5933b075a68e3a4721b43c6a81f45f"
+    },
+    "fr-code-sante-publique": {
+      "status": "accepted_local_copy",
+      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006154977/",
+      "checked_on": "2026-10-30",
+      "language": "French",
+      "version_or_cutoff": "Code title displayed in force as of 2026-10-28; Article L1110-3 in force since 2022-03-04.",
+      "local_path": "documents/legislation/fr-code-sante-publique-l1110-3.md",
+      "scope": "Article L1110-3 on discrimination in access to prevention or care, refusal of care, and complaint/conciliation.",
+      "reviewed_content": "The complete Article L1110-3 wording from the pinned Legalize file was compared against the current official article and matched. The adjacent Article L1110-3-1 was reviewed but excluded because its Legalize text omits 2026-effective amendments.",
+      "reuse": "DILA/Légifrance statutory text under Licence Ouverte / Open Licence 2.0. Legalize France Markdown transformation at commit e38417fd7b982b2df02fbe01f2960127a7bf9031 is attributed only for Article L1110-3; MIT covers software, not the text.",
+      "limitations": [
+        "Article L1110-3 only; the neighboring Article L1110-3-1 and full code are not included.",
+        "Does not establish individual health-insurance entitlement or all public-health procedure."
+      ],
+      "source_document_kind": "official_statutory_text_copy",
+      "retrieval_method": "Legalize France pinned Article L1110-3 excerpt, verified against current Légifrance.",
+      "content_sha256": "77c9f880a93d8371f6c2123e59e7892deaba6e625b51628cc986a1fd5c277d4b"
+    },
+    "fr-code-procedure-civile": {
+      "status": "accepted_local_copy",
+      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070716/LEGISCTA000006149749/",
+      "checked_on": "2026-10-30",
+      "language": "French",
+      "version_or_cutoff": "Adoption-procedure section displayed in force as of 2026-10-23; Article 1166 effective since 2020-01-01.",
+      "local_path": "documents/legislation/fr-code-procedure-civile-adoption-article-1166.md",
+      "scope": "Article 1166 on territorial venue for an adoption application where a party resides outside France.",
+      "reviewed_content": "The complete Article 1166 wording and its article anchor from the pinned Legalize file were compared against the current official adoption-procedure section; wording matched and the official effective-date note was retained.",
+      "reuse": "DILA/Légifrance statutory text under Licence Ouverte / Open Licence 2.0. Legalize France Markdown transformation at commit e38417fd7b982b2df02fbe01f2960127a7bf9031 is attributed; MIT covers software, not the text.",
+      "limitations": [
+        "One procedural article only; the rest of the adoption procedure and individual jurisdiction facts are not covered.",
+        "Does not replace special procedures or the CJA."
+      ],
+      "source_document_kind": "official_statutory_text_copy",
+      "retrieval_method": "Legalize France pinned Article 1166 excerpt, verified against current Légifrance.",
+      "content_sha256": "4ea7e8fb92161adf18c7c018adf881aa4bf51ab0fed1a055fce6204f88e6dcac"
     }
   },
   "retrieval_method_reviews": {
     "legalize-fr": {
-      "status": "discovery_and_dated_snapshot_method_only",
+      "status": "verified_for_scoped_article_retrieval_not_whole_code",
       "repository": "https://github.com/legalize-dev/legalize-fr",
       "reviewed_commit": "e38417fd7b982b2df02fbe01f2960127a7bf9031",
-      "checked_on": "2026-10-29",
-      "inventory": "83 Markdown code files under fr/; 4 code identifiers overlap the current France pack; 79 lack a same-code local document. This is a filename crosswalk, not a topic-relevance finding.",
+      "checked_on": "2026-10-30",
+      "inventory": "The pinned repository contains 83 Markdown code files. Four code IDs already had scoped local documents, and five formerly full-code locator-only IDs now have verified local article/section text; 74 other files still have no same-code local document and have not been issue-triaged as sources. This is a file-identity crosswalk, not a finding that all 74 are relevant.",
       "official_validation": {
-        "LEGITEXT000006070158": "Légifrance CESEDA page verified; current version shown as of 2026-10-28 and data last updated 2026-10-24.",
-        "LEGITEXT000006070721": "Légifrance Code civil page verified; current version shown as of 2026-10-29 and data last updated 2026-07-29.",
-        "LEGITEXT000006070933": "Légifrance CJA page verified; current version shown as of 2026-10-29 and data last updated 2026-09-01.",
-        "LEGITEXT000031366350": "Légifrance CRPA page verified; current version shown as of 2026-10-08 and data last updated 2026-05-28."
+        "LEGITEXT000006072050": "Current Légifrance Section 3 displayed version in force 2026-10-28. Articles L5221-6, L5221-7, current L5221-8, L5221-9 and L5221-11 matched. Candidate L5221-5 omitted its official applicability note; a duplicate older L5221-8 was excluded. L5221-5 plus its note were captured from the DILA 2026-10-29 delta.",
+        "LEGITEXT000006073189": "Current Légifrance Section 1 displayed version through 2026-10-09. Articles L160-1 and L160-2 to L160-7 matched; current Article L160-1-1 was absent from Legalize and was captured from DILA's 2026-01-02 delta.",
+        "LEGITEXT000006071191": "Articles L131-1 and L131-1-1 matched the current Légifrance pages checked 2026-10-30; Code de l’éducation page showed version in force 2026-10-29.",
+        "LEGITEXT000006072665": "Article L1110-3 matched the current Légifrance text checked 2026-10-30. Neighboring Article L1110-3-1 in the Legalize snapshot was stale because current text includes amendments effective 2026-07-01; no full-code copy was accepted.",
+        "LEGITEXT000006070716": "Article 1166 matched the current Légifrance adoption section, version in force 2026-10-23."
       },
-      "disposition": "The repository files checked were dated 2026-04-03 and lagged the official consolidated pages. Confirmed only as a third-party discovery and dated snapshot route; not accepted as authoritative or current-version retrieval. No Legalize text was copied into documents/.",
-      "attribution_and_rights": "Attribute legal text to DILA/Légifrance under Licence Ouverte 2.0 and attribute the Markdown transformation to Legalize France at the pinned commit. The repository's MIT license covers software, not the statutory text. Recheck notices before reuse.",
+      "disposition": "Legalize France is accepted only as a pinned, provision-scoped retrieval and Markdown conversion method for the exact article text identified in the five accepted local records. No Legalize full-code file is accepted as a current full-code source. Known neighboring omissions, stale text and duplicate article versions remain documented; current/corrected provisions were taken from official DILA XML where needed.",
+      "attribution_and_rights": "DILA/Légifrance is the legal-text publisher and source authority; attribute retained legal text to DILA under Licence Ouverte / Open Licence 2.0. Attribute the Markdown transformation to Legalize France at pinned commit e38417fd7b982b2df02fbe01f2960127a7bf9031 only for provision text verified against the official source. The Legalize MIT licence applies to its software, not statutory text.",
       "conversion_rules": [
-        "Preserve LEGITEXT ID, title, official URL, repository commit/path, snapshot date, status and language.",
-        "Preserve source hierarchy, article numbering, full wording, amendment/effective-date notes, cross-references, footnotes and links; do not silently rewrite, translate, reorder or omit content.",
-        "Compare all retained content and article anchors with the official Légifrance version; record official cutoff separately from snapshot date.",
-        "Review image/attachment omissions; mark incomplete when material cannot be recovered.",
-        "Store hashes and both source and transformation attribution; label every retained copy as dated and subordinate to the official Légifrance record."
+        "Pin repository commit e38417fd7b982b2df02fbe01f2960127a7bf9031; record exact file path, LEGITEXT identifier, snapshot metadata, file size and SHA-256.",
+        "Treat last_updated 2026-04-03 as a repository snapshot date, not as proof of legal currentness.",
+        "Select only issue-relevant articles. If duplicated, compare each occurrence against the official active version; do not select solely by file order.",
+        "Compare each complete retained provision, paragraph/list sequence, legal cross-references, effective-date notes and status against current Légifrance or official DILA LEGI XML. A spot-check does not accept a whole code.",
+        "Preserve French text, article hierarchy, punctuation, list order and official notes. Remove Markdown link syntax only while preserving the visible label and legal identifier verbatim.",
+        "For DILA XML, extract BLOC_TEXTUEL/CONTENU in publisher order; retain NOTA/CONTENU separately and use VERSIONS plus DATE_DEBUT/DATE_FIN to identify the active text.",
+        "If any relevant provision is absent, stale, duplicated, truncated or mismatched, do not accept the candidate as a full current code; retain only individually verified articles and obtain corrections from DILA/Légifrance.",
+        "Place accepted text in documents/legislation with publisher attribution, license, source method, local content hash, official version cutoff, exact scope and limitations. URLs remain locators/provenance only."
+      ]
+    },
+    "dila-legi-bulk": {
+      "status": "verified_for_exact_official_xml_capture",
+      "publisher": "Direction de l’information légale et administrative (DILA)",
+      "directory_url": "https://echanges.dila.gouv.fr/OPENDATA/LEGI/",
+      "checked_on": "2026-10-30",
+      "rights": "DILA LEGI legal data is listed under Licence Ouverte / Open Licence 2.0.",
+      "captures": [
+        {
+          "archive": "LEGI_20261029-215000.tar.gz",
+          "archive_sha256": "d9e1db0ffebf0be1165629c11fdb3fd3b0879546a7ea97fd38f8da83f83eafec",
+          "article_id": "LEGIARTI000050773226",
+          "article_sha256": "b995f92c3005107eb831e730803178fba2eb2322e7867420b9e416c6875d3fc4",
+          "scope": "Code du travail Article L5221-5 and official applicability note."
+        },
+        {
+          "archive": "LEGI_20260102-215048.tar.gz",
+          "archive_sha256": "e7b326914835151d27abccf55454e2733e663e31ba360ea8e8adb942205d53a1",
+          "article_id": "LEGIARTI000053266871",
+          "article_sha256": "39dc12cdebd9fb255b107bdc9697f9fb0a4fab843bcacc104cc610784d1c8948",
+          "scope": "Code de la sécurité sociale Article L160-1-1 and official effective-date note."
+        }
+      ],
+      "disposition": "The raw DILA article XML was retrieved from the official dated open-data deltas, hashed and retained in the Monitor's local-only capture archive. The official URL remains locator/provenance; accepted source text is the local converted file.",
+      "limitations": [
+        "These exact XML captures do not constitute a full-code LEGI replay or validate an entire code.",
+        "Use the pinned source data and conversion rules for replay; recheck the official current version before date-sensitive use."
       ]
     }
   }
