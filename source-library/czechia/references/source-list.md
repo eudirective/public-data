@@ -126,7 +126,7 @@ Four records previously represented only by official-page locators now have comp
 | `cz-esbirka-1995-117` — Act 117/1995, State Social Support | 2026-09-01 | [Full dated text](../documents/legislation/cz-esbirka-1995-117.md) | e-Sbírka capture 2026-10-30; Legalize-CZ 2026-01-01 snapshot is older. Benefit-level relevance and EU-law interaction remain open. |
 | `cz-decree-429-2010` — Decree 429/2010 | 2020-02-01 | [Full dated text](../documents/legislation/cz-decree-429-2010.md) | Current cutoff verified and text retained. Same-date Legalize-CZ transcription omits official opening material; applicability to EU-family mission routes remains open. |
 
-Reuse basis: Czech Copyright Act 121/2000 §3(a) excludes official legal regulations from copyright protection. This is not a Creative Commons licence. Attribution is to Czech Republic / e-Sbírka. Conversion rules preserve publisher fragment order and legal structure; Act 48/1997 keeps raw publisher XHTML for tables with merged cells. Capture manifests and raw/derived evidence are local-only in the Monitor archive.
+Reuse basis: Czech Copyright Act 121/2000 §3(a) excludes official legal regulations from copyright protection. This is not a Creative Commons licence. Attribution is to Czech Republic / e-Sbírka. Conversion rules preserve publisher fragment order and legal structure; Act 48/1997 keeps raw publisher XHTML for tables with merged cells. Capture manifests and raw/derived evidence are local-only in the Monitor archive. A replay check matched all non-table text fragments in order and confirmed all 14 Act 48/1997 table fragments byte-for-byte against the source XHTML.
 
 ## 12. Legalize-CZ crosswalk: text/version comparison and method limits (30 October 2026)
 
