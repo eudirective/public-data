@@ -129,11 +129,11 @@ Canonical rows: **57**; provisional unique IDs: **57**; unresolved entries: **0*
 | `fr-cja-r421-1-deadline` | `fr:url:7ef87c287048c059111e` | resolved | official_reference/fr/2026 | accepted_external_reference | — |
 | `fr-cnil-agdref-information` | `fr:url:f589fb46b6584d4166cf` | resolved | official_reference/fr/2026-10-24 | accepted_external_reference | — |
 | `fr-cnil-complaints` | `fr:url:560b8aae29ecc032f3d8` | resolved | local_artifact/unspecified/undated<br>official_reference/fr/2026-10-24 | accepted_local_copy | — |
-| `fr-code-education` | `fr:url:0aa2516dce99b7e09382` | resolved | official_reference/fr/2026-10-30| accepted_external_reference, accepted_local_copy| documents/legislation/fr-code-education-articles-l131-1-and-l131-1-1.md |
-| `fr-code-procedure-civile` | `fr:url:ecc38235eb9f4ea1c978` | resolved | official_reference/fr/2026-10-30| accepted_external_reference, accepted_local_copy| documents/legislation/fr-code-procedure-civile-article-1166-adoption.md |
-| `fr-code-sante-publique` | `fr:url:83514114f393685c7a75` | resolved | official_reference/fr/2026-10-30| accepted_external_reference, accepted_local_copy| documents/legislation/fr-code-sante-publique-article-l1110-3.md |
-| `fr-code-securite-sociale` | `fr:url:0fee651cb51f5b94ed38` | resolved | official_reference/fr/2026-10-30| accepted_external_reference, accepted_local_copy| documents/legislation/fr-code-securite-sociale-beneficiaries-l160-1-to-l160-7.md |
-| `fr-code-travail` | `fr:url:a0541676533aa7fc6488` | resolved | official_reference/fr/2026-10-30| accepted_external_reference, accepted_local_copy| documents/legislation/fr-code-travail-articles-l5221-5-to-l5221-11.md |
+| `fr-code-education` | `fr:url:0aa2516dce99b7e09382` | resolved | official_reference/fr/2026-10-30 | accepted_external_reference, accepted_local_copy | documents/legislation/fr-code-education-articles-l131-1-and-l131-1-1.md |
+| `fr-code-procedure-civile` | `fr:url:ecc38235eb9f4ea1c978` | resolved | official_reference/fr/2026-10-30 | accepted_external_reference, accepted_local_copy | documents/legislation/fr-code-procedure-civile-article-1166-adoption.md |
+| `fr-code-sante-publique` | `fr:url:83514114f393685c7a75` | resolved | official_reference/fr/2026-10-30 | accepted_external_reference, accepted_local_copy | documents/legislation/fr-code-sante-publique-article-l1110-3.md |
+| `fr-code-securite-sociale` | `fr:url:0fee651cb51f5b94ed38` | resolved | official_reference/fr/2026-10-30 | accepted_external_reference, accepted_local_copy | documents/legislation/fr-code-securite-sociale-beneficiaries-l160-1-to-l160-7.md |
+| `fr-code-travail` | `fr:url:a0541676533aa7fc6488` | resolved | official_reference/fr/2026-10-30 | accepted_external_reference, accepted_local_copy | documents/legislation/fr-code-travail-articles-l5221-5-to-l5221-11.md |
 | `fr-conseil-etat-450285-450288-2022` | `fr:url:6bb06b3cebab74e84444` | resolved | official_reference/fr/2022 | accepted_external_reference | — |
 | `fr-conseil-etat-open-data-and-ariane` | `fr:url:92519c26e1a18537b2af` | resolved | local_artifact/unspecified/undated<br>official_reference/fr/2026-10-24 | accepted_local_copy | — |
 | `fr-crpa-code` | `fr:url:59230065e6fc85ffd4c2` | resolved | official_reference/fr/2026 | accepted_external_reference | — |
