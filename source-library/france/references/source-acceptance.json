@@ -693,7 +693,7 @@
       ]
     },
     "fr-cada-access-portal": {
-      "status": "accepted_local_copy",
+      "status": "accepted_maintained_source_summary",
       "publisher": "Commission d’accès aux documents administratifs (CADA)",
       "url": "https://www.cada.fr/",
       "checked_on": "2026-10-24",
@@ -711,7 +711,7 @@
       "reuse": "The legal notice expressly permits hyperlinks but is silent on general text reuse. The accepted file is an attributed project-authored summary of public-facing institutional information, excluding page design, images, logos, media and linked items. CRPA applicability is limited to qualifying public information; this is not a claim that every site element is reusable."
     },
     "fr-france-visas-family-eu": {
-      "status": "accepted_local_copy",
+      "status": "accepted_maintained_source_summary",
       "publisher": "Ministry for Europe and Foreign Affairs / France-Visas",
       "url": "https://www.france-visas.gouv.fr/famille-de-citoyen-europeen",
       "checked_on": "2026-10-24",
@@ -729,7 +729,7 @@
       "reuse": "France-Visas' legal notice identifies qualifying site content, subject to listed exclusions, as public information reusable under applicable law. It also asks users to contact the administration and contains additional commercial/promotional and website-reproduction language. The accepted file is an independently worded, attributed summary and includes no marks, logos, images or third-party content; this record does not decide every notice clause's application to downstream use."
     },
     "fr-ta-nantes-official-site": {
-      "status": "accepted_local_copy",
+      "status": "accepted_maintained_source_summary",
       "publisher": "Tribunal administratif de Nantes / Conseil d’État administrative courts",
       "url": "https://nantes.tribunal-administratif.fr/",
       "checked_on": "2026-10-24",
@@ -816,7 +816,7 @@
       "source_document_kind": "official_statutory_text_copy"
     },
     "fr-france-visas-family-french": {
-      "status": "accepted_local_copy",
+      "status": "accepted_maintained_source_summary",
       "publisher": "Ministry for Europe and Foreign Affairs / France-Visas",
       "url": "https://www.france-visas.gouv.fr/famille-de-francais",
       "checked_on": "2026-10-29",
@@ -834,7 +834,7 @@
       "source_document_kind": "project_authored_source_summary"
     },
     "fr-cerfa-14076-eu-family-visa-form": {
-      "status": "accepted_local_copy",
+      "status": "accepted_maintained_source_summary",
       "publisher": "Ministry for Europe and Foreign Affairs; Service Public / DILA distributes and references the form",
       "url": "https://www.formulaires.service-public.fr/gf/cerfa_14076.do",
       "checked_on": "2026-10-29",
