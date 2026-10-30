@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "HR",
-  "as_of": "2026-10-28",
-  "policy": "Rules may group sources and describe optional retrieval/conversion for retained local artifacts. A human-reviewed official reference may be used within the publisher, identity, language, version, passage, and caveats actually checked without capture, conversion, hashes, replay, or reproduction permission. Prefer a usable government-published consolidation; otherwise use the closest government-published version and record its cutoff and limits. Do not reconstruct a full Gazette chain by default. Semantic and reuse checks apply to retained copies, not ordinary link use. Neither reference use nor local-copy acceptance alone establishes topic or country completion.",
+  "as_of": "2026-10-30",
+  "policy": "Rules may group sources and define retrieval/conversion for retained source artifacts. Official URLs may be recorded for provenance, discovery and navigation, but a hyperlink alone is not an accepted source document and does not count toward source-library coverage. Reference reviews record limited link checks, not retained source text. For local copies, use the preferred official publisher, record version and cutoff, and check later changes material to intended use. Do not reconstruct a full Gazette chain by default. Semantic and reuse checks apply to retained copies. Neither a reference link nor local-copy acceptance alone establishes topic or country completion.",
   "rules": [
     {
       "rule_id": "hr-access-info-act-nn-eli-v1",
@@ -1335,21 +1335,21 @@
       "source_ids": [
         "hr-judicial-fees-tariff-transition-37-23"
       ],
-      "retrieval": "GET the exact stable official Narodne novine record URL; record final URL, issue/document number, media type, capture time and raw-response SHA-256. Respect the publisher maximum of three automated queries per second; retain only the official text after reuse-scope review.",
-      "conversion": "Select .sl-content .doc from the exact record. Preserve Croatian text, article/paragraph/list order and tables; inspect and inventory all img/link attachments separately. Full publisher page shell is not retained.",
-      "selector": ".sl-content .doc",
-      "status": "source_specific_capture_pending",
+      "retrieval": "Open the exact official Narodne novine HTML record https://narodne-novine.nn.hr/clanci/sluzbeni/2023_03_37_621.html and retain its browser-visible legal body as a derived text capture. Record the URL and review date; do not claim raw HTML bytes or a response SHA-256 when they were not captured. Verify the transition-only scope against NN 50/26 Article 2.",
+      "conversion": "Preserve the complete official visible text through Tariff No. 35. The HTML exposes three pipe-delimited tables; render each as a three-column Markdown table by adding separator rows only, preserving every source cell and row order. Exclude page shell, navigation and footer. The alternate Gazette issue PDF is not used when the inline HTML text is complete.",
+      "selector": "Official browser-visible text lines 11–622; not a raw DOM selector",
+      "status": "source_accepted_transition_only",
       "semantic_checks": [
-        "publisher title, Gazette issue and item match URL and legal instrument",
-        "ordered visible text in selected source region equals the converted text after normalization",
-        "all article, tariff and table rows are retained",
-        "all attachments and external files inventoried",
-        "currentness and transition status checked against official index",
+        "official HTML title, NN 37/2023 item 621 and Government issuer match",
+        "official body through Tariff No. 35 retained in order",
+        "three tables and all 11 data rows retain three columns and original cell order",
+        "NN 50/26 Article 2 confirms applicability only to administrative disputes begun before 1 June 2026",
+        "no separate image or external attachment is relied upon; inline tariff annex retained",
+        "capture is indexed locally as derived browser-visible text; no raw-response hash is claimed",
         "official text only; publisher shell excluded",
-        "if captured, fragment is retained in the Monitor local-only archive with a verified source hash",
-        "current legal effect and legal-topic sufficiency are assessed separately"
+        "current legal effect and topic sufficiency are assessed separately"
       ],
-      "acceptance_policy": "A human-reviewed official link may be used within its checked identity, language, date/cutoff, relevant content, and limitations; capture and conversion are not prerequisites. This rule governs optional local-copy work only. For legislation, use a government consolidation or closest government-published version; consult a Gazette act only for a material gap."
+      "acceptance_policy": "This record counts as an accepted local source only because the official text is retained at source-library/croatia/documents/legislation/hr-judicial-fees-tariff-transition-37-23.md. Its Gazette URL is a provenance pointer, not the source artifact. Acceptance is limited to the transition-only tariff for the proceedings described by NN 50/26 Article 2."
     },
     {
       "rule_id": "hr-mvep-visa-appeal-current-mvep-page-v2",
@@ -1611,5 +1611,5 @@
       "acceptance_policy": "Accepted unchanged as an individually identified blank official form within the recorded scope. MUP forms carry the MUP source-attribution reuse permission; the MVEP form relies on a narrow individual-form application of Copyright Act Article 18(3). No general guidance/page reuse is inferred."
     }
   ],
-  "reference_use_policy": "For every source type, prefer the responsible official publisher. Prefer a usable government-published consolidation for national legislation and the responsible EU publisher consolidation for EU legislation; if none is usable, use the closest government-published or official-service version and record its language, displayed date/cutoff, scope, and limits. A human-reviewed official link is enough for ordinary research; a custom capture/conversion rule, local copy, API, replay check, or updater is optional. Use Gazette fragments only to resolve a material question; do not reconstruct a full chain by default. Keep reference use, local-copy acceptance, topic coverage, and country completion separate."
+  "reference_use_policy": "Use responsible official publishers and government-published legal text. Official URLs in source records are provenance or navigation pointers; they are not accepted source text and do not count toward source-library coverage. For national legislation, use a usable government-published consolidation or the closest government-published version and record its language, displayed date/cutoff, scope and limits. A link-only review may identify or verify a record, but a source is accepted in the library only when the relevant official text is retained locally. Use Gazette fragments to resolve material issues; do not reconstruct a full chain by default. Keep reference checks, local-source acceptance, topic coverage and country completion separate."
 }
