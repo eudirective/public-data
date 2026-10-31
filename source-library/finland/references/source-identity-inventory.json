@@ -2,7 +2,7 @@
   "schema_version": 1,
   "jurisdiction": "FI",
   "jurisdiction_name": "finland",
-  "updated": "2026-10-29",
+  "updated": "2026-10-31",
   "identity_rule": "Existing catalogue IDs are preserved. Exact official URLs, CELEX and ELI identities are joined; language, edition, link and local-copy representations remain distinct. Potential cross-record matches are surfaced instead of silently merged.",
   "source_count": 38,
   "unique_identity_count": 37,
@@ -570,7 +570,7 @@
     },
     {
       "id": "fi-data-protection-act",
-      "title": "Tietosuojalaki (Data Protection Act), 1050/2018",
+      "title": "Tietosuojalaki (Data Protection Act), 1050/2018, current Finnish text",
       "source_type": "national_data_protection_statute",
       "official_urls": [
         "https://finlex.fi/fi/lainsaadanto/2018/1050"
@@ -579,21 +579,36 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference"
+        "accepted_external_reference",
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "fi:url:fafd4c3a8d75662ae785#url:fi:7681649a9812"
+        "fi:url:fafd4c3a8d75662ae785#local:fi:8ef268a0f093",
+        "fi:url:fafd4c3a8d75662ae785#url:fi:6a13dee6cd66"
       ],
       "representations": [
         {
+          "kind": "local_artifact",
+          "language": "fi",
+          "edition": "2026-05-22",
+          "url": null,
+          "path": "documents/legislation/fi-data-protection-act-1050-2018-current-fi.md",
+          "representation_id": "fi:url:fafd4c3a8d75662ae785#local:fi:8ef268a0f093",
+          "acceptance_status": [
+            "accepted_external_reference",
+            "accepted_local_copy"
+          ]
+        },
+        {
           "kind": "official_reference",
           "language": "fi",
-          "edition": "undated",
+          "edition": "2026-05-22",
           "url": "https://finlex.fi/fi/lainsaadanto/2018/1050",
           "path": null,
-          "representation_id": "fi:url:fafd4c3a8d75662ae785#url:fi:7681649a9812",
+          "representation_id": "fi:url:fafd4c3a8d75662ae785#url:fi:6a13dee6cd66",
           "acceptance_status": [
-            "accepted_external_reference"
+            "accepted_external_reference",
+            "accepted_local_copy"
           ]
         }
       ],
