@@ -1007,7 +1007,6 @@
       "review_state": "discovery_only",
       "source_identity_id": "at:url:dd9874ffa4bce618e7c8",
       "representation_ids": [
-        "at:url:dd9874ffa4bce618e7c8#local:de:470a3c1a9890",
         "at:url:dd9874ffa4bce618e7c8#url:de:afe117becd83"
       ]
     },
@@ -5807,31 +5806,12 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "pending",
         "discovery"
       ],
       "representation_ids": [
-        "at:url:dd9874ffa4bce618e7c8#local:de:470a3c1a9890",
         "at:url:dd9874ffa4bce618e7c8#url:de:afe117becd83"
       ],
       "representations": [
-        {
-          "kind": "local_artifact",
-          "language": "de",
-          "edition": "undated",
-          "url": null,
-          "path": "references/family-index-discovery.md",
-          "representation_id": "at:url:dd9874ffa4bce618e7c8#local:de:470a3c1a9890",
-          "acceptance_status": [
-            "discovery",
-            "pending"
-          ],
-          "source_identity_id": "at:url:dd9874ffa4bce618e7c8",
-          "representation_ids": [
-            "at:url:dd9874ffa4bce618e7c8#local:de:470a3c1a9890",
-            "at:url:dd9874ffa4bce618e7c8#url:de:afe117becd83"
-          ]
-        },
         {
           "kind": "official_reference",
           "language": "de",
@@ -5844,7 +5824,6 @@
           ],
           "source_identity_id": "at:url:dd9874ffa4bce618e7c8",
           "representation_ids": [
-            "at:url:dd9874ffa4bce618e7c8#local:de:470a3c1a9890",
             "at:url:dd9874ffa4bce618e7c8#url:de:afe117becd83"
           ]
         }
@@ -5855,7 +5834,6 @@
           "json_pointer": "/documents/21",
           "source_identity_id": "at:url:dd9874ffa4bce618e7c8",
           "representation_ids": [
-            "at:url:dd9874ffa4bce618e7c8#local:de:470a3c1a9890",
             "at:url:dd9874ffa4bce618e7c8#url:de:afe117becd83"
           ]
         },
@@ -5879,7 +5857,6 @@
           "category": "catalogue",
           "source_identity_id": "at:url:dd9874ffa4bce618e7c8",
           "representation_ids": [
-            "at:url:dd9874ffa4bce618e7c8#local:de:470a3c1a9890",
             "at:url:dd9874ffa4bce618e7c8#url:de:afe117becd83"
           ]
         }
@@ -5891,7 +5868,6 @@
           "category": "acceptance",
           "source_identity_id": "at:url:dd9874ffa4bce618e7c8",
           "representation_ids": [
-            "at:url:dd9874ffa4bce618e7c8#local:de:470a3c1a9890",
             "at:url:dd9874ffa4bce618e7c8#url:de:afe117becd83"
           ]
         }

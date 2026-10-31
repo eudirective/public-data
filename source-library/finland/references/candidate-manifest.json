@@ -383,7 +383,7 @@
         "record": "301/2004; current ELI: http://data.finlex.fi/eli/sd/2004/301/ajantasa/2026-06-26/fin",
         "source_identity_id": "fi:language-variant:fi-aliens-act:325e615cad2f",
         "representation_ids": [
-          "fi:language-variant:fi-aliens-act:325e615cad2f#local:fi:2437a45b46e6",
+          "fi:language-variant:fi-aliens-act:325e615cad2f#local:fi:ee6965a95552",
           "fi:language-variant:fi-aliens-act:325e615cad2f#url:fi:24bed4e97d58"
         ]
       },
@@ -413,7 +413,7 @@
       "monitor_shell_archive_path": "candidates/public-data/finland/monitor-candidates/fi-aliens-act-fi.md",
       "source_identity_id": "fi:language-variant:fi-aliens-act:325e615cad2f",
       "representation_ids": [
-        "fi:language-variant:fi-aliens-act:325e615cad2f#local:fi:2437a45b46e6",
+        "fi:language-variant:fi-aliens-act:325e615cad2f#local:fi:ee6965a95552",
         "fi:language-variant:fi-aliens-act:325e615cad2f#url:fi:24bed4e97d58"
       ]
     },
@@ -428,6 +428,7 @@
         "record": "301/2004; unofficial English translation; amendments through 389/2023",
         "source_identity_id": "fi:language-variant:fi-aliens-act:325e615cad2f",
         "representation_ids": [
+          "fi:language-variant:fi-aliens-act:325e615cad2f#local:en:62fbd359b33f",
           "fi:language-variant:fi-aliens-act:325e615cad2f#url:en:c03ca21c3620"
         ]
       },
@@ -457,6 +458,7 @@
       "monitor_shell_archive_path": "candidates/public-data/finland/monitor-candidates/fi-aliens-act-en.md",
       "source_identity_id": "fi:language-variant:fi-aliens-act:325e615cad2f",
       "representation_ids": [
+        "fi:language-variant:fi-aliens-act:325e615cad2f#local:en:62fbd359b33f",
         "fi:language-variant:fi-aliens-act:325e615cad2f#url:en:c03ca21c3620"
       ]
     },
@@ -471,7 +473,7 @@
         "record": "434/2003; current ELI: http://data.finlex.fi/eli/sd/2003/434/ajantasa/2025-06-27/fin",
         "source_identity_id": "fi:url:1a8cb783af904e8b065a",
         "representation_ids": [
-          "fi:url:1a8cb783af904e8b065a#local:fi:53fd3cdae9ad",
+          "fi:url:1a8cb783af904e8b065a#local:fi:a2218290ff3a",
           "fi:url:1a8cb783af904e8b065a#url:fi:d06f9516f9ad"
         ]
       },
@@ -501,7 +503,7 @@
       "monitor_shell_archive_path": "candidates/public-data/finland/monitor-candidates/fi-administrative-procedure-act.md",
       "source_identity_id": "fi:url:1a8cb783af904e8b065a",
       "representation_ids": [
-        "fi:url:1a8cb783af904e8b065a#local:fi:53fd3cdae9ad",
+        "fi:url:1a8cb783af904e8b065a#local:fi:a2218290ff3a",
         "fi:url:1a8cb783af904e8b065a#url:fi:d06f9516f9ad"
       ]
     },
@@ -556,6 +558,7 @@
         "record": "434/2003; unofficial English translation; amendments through 893/2015",
         "source_identity_id": "fi:url:baa305bace852ab83644",
         "representation_ids": [
+          "fi:url:baa305bace852ab83644#local:en:06650bf5af2c",
           "fi:url:baa305bace852ab83644#url:en:04d27a0d0c55"
         ]
       },
@@ -583,6 +586,7 @@
       "monitor_shell_archive_path": "candidates/public-data/finland/monitor-candidates/fi-administrative-procedure-act-en.md",
       "source_identity_id": "fi:url:baa305bace852ab83644",
       "representation_ids": [
+        "fi:url:baa305bace852ab83644#local:en:06650bf5af2c",
         "fi:url:baa305bace852ab83644#url:en:04d27a0d0c55"
       ]
     },
@@ -1951,7 +1955,7 @@
         "pending"
       ],
       "representation_ids": [
-        "fi:url:1a8cb783af904e8b065a#local:fi:53fd3cdae9ad",
+        "fi:url:1a8cb783af904e8b065a#local:fi:a2218290ff3a",
         "fi:url:1a8cb783af904e8b065a#url:fi:d06f9516f9ad"
       ],
       "representations": [
@@ -1960,15 +1964,16 @@
           "language": "fi",
           "edition": "2003",
           "url": null,
-          "path": "../documents/legislation/fi-administrative-procedure-act-434-2003-current-fi.md",
-          "representation_id": "fi:url:1a8cb783af904e8b065a#local:fi:53fd3cdae9ad",
+          "path": "documents/legislation/fi-administrative-procedure-act-434-2003-current-fi.md",
+          "representation_id": "fi:url:1a8cb783af904e8b065a#local:fi:a2218290ff3a",
           "acceptance_status": [
             "accepted_external_reference",
-            "accepted_local_copy"
+            "accepted_local_copy",
+            "pending"
           ],
           "source_identity_id": "fi:url:1a8cb783af904e8b065a",
           "representation_ids": [
-            "fi:url:1a8cb783af904e8b065a#local:fi:53fd3cdae9ad",
+            "fi:url:1a8cb783af904e8b065a#local:fi:a2218290ff3a",
             "fi:url:1a8cb783af904e8b065a#url:fi:d06f9516f9ad"
           ]
         },
@@ -1986,7 +1991,7 @@
           ],
           "source_identity_id": "fi:url:1a8cb783af904e8b065a",
           "representation_ids": [
-            "fi:url:1a8cb783af904e8b065a#local:fi:53fd3cdae9ad",
+            "fi:url:1a8cb783af904e8b065a#local:fi:a2218290ff3a",
             "fi:url:1a8cb783af904e8b065a#url:fi:d06f9516f9ad"
           ]
         }
@@ -1997,7 +2002,7 @@
           "json_pointer": "/documents/6",
           "source_identity_id": "fi:url:1a8cb783af904e8b065a",
           "representation_ids": [
-            "fi:url:1a8cb783af904e8b065a#local:fi:53fd3cdae9ad",
+            "fi:url:1a8cb783af904e8b065a#local:fi:a2218290ff3a",
             "fi:url:1a8cb783af904e8b065a#url:fi:d06f9516f9ad"
           ]
         },
@@ -2006,7 +2011,7 @@
           "json_pointer": "/sources/6",
           "source_identity_id": "fi:url:1a8cb783af904e8b065a",
           "representation_ids": [
-            "fi:url:1a8cb783af904e8b065a#local:fi:53fd3cdae9ad",
+            "fi:url:1a8cb783af904e8b065a#local:fi:a2218290ff3a",
             "fi:url:1a8cb783af904e8b065a#url:fi:d06f9516f9ad"
           ]
         }
@@ -2018,7 +2023,7 @@
           "category": "acceptance",
           "source_identity_id": "fi:url:1a8cb783af904e8b065a",
           "representation_ids": [
-            "fi:url:1a8cb783af904e8b065a#local:fi:53fd3cdae9ad",
+            "fi:url:1a8cb783af904e8b065a#local:fi:a2218290ff3a",
             "fi:url:1a8cb783af904e8b065a#url:fi:d06f9516f9ad"
           ]
         }
@@ -2041,9 +2046,26 @@
         "not_relied_upon"
       ],
       "representation_ids": [
+        "fi:url:baa305bace852ab83644#local:en:06650bf5af2c",
         "fi:url:baa305bace852ab83644#url:en:04d27a0d0c55"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "en",
+          "edition": "2003",
+          "url": null,
+          "path": "documents/legislation/fi-administrative-procedure-act-434-2003-english-translation.md",
+          "representation_id": "fi:url:baa305bace852ab83644#local:en:06650bf5af2c",
+          "acceptance_status": [
+            "pending"
+          ],
+          "source_identity_id": "fi:url:baa305bace852ab83644",
+          "representation_ids": [
+            "fi:url:baa305bace852ab83644#local:en:06650bf5af2c",
+            "fi:url:baa305bace852ab83644#url:en:04d27a0d0c55"
+          ]
+        },
         {
           "kind": "official_reference",
           "language": "en",
@@ -2057,6 +2079,7 @@
           ],
           "source_identity_id": "fi:url:baa305bace852ab83644",
           "representation_ids": [
+            "fi:url:baa305bace852ab83644#local:en:06650bf5af2c",
             "fi:url:baa305bace852ab83644#url:en:04d27a0d0c55"
           ]
         }
@@ -2067,6 +2090,7 @@
           "json_pointer": "/documents/8",
           "source_identity_id": "fi:url:baa305bace852ab83644",
           "representation_ids": [
+            "fi:url:baa305bace852ab83644#local:en:06650bf5af2c",
             "fi:url:baa305bace852ab83644#url:en:04d27a0d0c55"
           ]
         },
@@ -2075,6 +2099,7 @@
           "json_pointer": "/sources/8",
           "source_identity_id": "fi:url:baa305bace852ab83644",
           "representation_ids": [
+            "fi:url:baa305bace852ab83644#local:en:06650bf5af2c",
             "fi:url:baa305bace852ab83644#url:en:04d27a0d0c55"
           ]
         }
@@ -2086,6 +2111,7 @@
           "category": "acceptance",
           "source_identity_id": "fi:url:baa305bace852ab83644",
           "representation_ids": [
+            "fi:url:baa305bace852ab83644#local:en:06650bf5af2c",
             "fi:url:baa305bace852ab83644#url:en:04d27a0d0c55"
           ]
         }
@@ -2108,9 +2134,26 @@
         "not_relied_upon"
       ],
       "representation_ids": [
+        "fi:language-variant:fi-aliens-act:325e615cad2f#local:en:62fbd359b33f",
         "fi:language-variant:fi-aliens-act:325e615cad2f#url:en:c03ca21c3620"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "en",
+          "edition": "2004",
+          "url": null,
+          "path": "documents/legislation/fi-aliens-act-301-2004-english-translation.md",
+          "representation_id": "fi:language-variant:fi-aliens-act:325e615cad2f#local:en:62fbd359b33f",
+          "acceptance_status": [
+            "pending"
+          ],
+          "source_identity_id": "fi:language-variant:fi-aliens-act:325e615cad2f",
+          "representation_ids": [
+            "fi:language-variant:fi-aliens-act:325e615cad2f#local:en:62fbd359b33f",
+            "fi:language-variant:fi-aliens-act:325e615cad2f#url:en:c03ca21c3620"
+          ]
+        },
         {
           "kind": "official_reference",
           "language": "en",
@@ -2124,6 +2167,7 @@
           ],
           "source_identity_id": "fi:language-variant:fi-aliens-act:325e615cad2f",
           "representation_ids": [
+            "fi:language-variant:fi-aliens-act:325e615cad2f#local:en:62fbd359b33f",
             "fi:language-variant:fi-aliens-act:325e615cad2f#url:en:c03ca21c3620"
           ]
         }
@@ -2134,6 +2178,7 @@
           "json_pointer": "/documents/5",
           "source_identity_id": "fi:language-variant:fi-aliens-act:325e615cad2f",
           "representation_ids": [
+            "fi:language-variant:fi-aliens-act:325e615cad2f#local:en:62fbd359b33f",
             "fi:language-variant:fi-aliens-act:325e615cad2f#url:en:c03ca21c3620"
           ]
         },
@@ -2142,6 +2187,7 @@
           "json_pointer": "/sources/5",
           "source_identity_id": "fi:language-variant:fi-aliens-act:325e615cad2f",
           "representation_ids": [
+            "fi:language-variant:fi-aliens-act:325e615cad2f#local:en:62fbd359b33f",
             "fi:language-variant:fi-aliens-act:325e615cad2f#url:en:c03ca21c3620"
           ]
         }
@@ -2153,6 +2199,7 @@
           "category": "acceptance",
           "source_identity_id": "fi:language-variant:fi-aliens-act:325e615cad2f",
           "representation_ids": [
+            "fi:language-variant:fi-aliens-act:325e615cad2f#local:en:62fbd359b33f",
             "fi:language-variant:fi-aliens-act:325e615cad2f#url:en:c03ca21c3620"
           ]
         }
@@ -2175,7 +2222,7 @@
         "pending"
       ],
       "representation_ids": [
-        "fi:language-variant:fi-aliens-act:325e615cad2f#local:fi:2437a45b46e6",
+        "fi:language-variant:fi-aliens-act:325e615cad2f#local:fi:ee6965a95552",
         "fi:language-variant:fi-aliens-act:325e615cad2f#url:fi:24bed4e97d58"
       ],
       "representations": [
@@ -2184,15 +2231,16 @@
           "language": "fi",
           "edition": "2004",
           "url": null,
-          "path": "../documents/legislation/fi-aliens-act-301-2004-current-fi.md",
-          "representation_id": "fi:language-variant:fi-aliens-act:325e615cad2f#local:fi:2437a45b46e6",
+          "path": "documents/legislation/fi-aliens-act-301-2004-current-fi.md",
+          "representation_id": "fi:language-variant:fi-aliens-act:325e615cad2f#local:fi:ee6965a95552",
           "acceptance_status": [
             "accepted_external_reference",
-            "accepted_local_copy"
+            "accepted_local_copy",
+            "pending"
           ],
           "source_identity_id": "fi:language-variant:fi-aliens-act:325e615cad2f",
           "representation_ids": [
-            "fi:language-variant:fi-aliens-act:325e615cad2f#local:fi:2437a45b46e6",
+            "fi:language-variant:fi-aliens-act:325e615cad2f#local:fi:ee6965a95552",
             "fi:language-variant:fi-aliens-act:325e615cad2f#url:fi:24bed4e97d58"
           ]
         },
@@ -2210,7 +2258,7 @@
           ],
           "source_identity_id": "fi:language-variant:fi-aliens-act:325e615cad2f",
           "representation_ids": [
-            "fi:language-variant:fi-aliens-act:325e615cad2f#local:fi:2437a45b46e6",
+            "fi:language-variant:fi-aliens-act:325e615cad2f#local:fi:ee6965a95552",
             "fi:language-variant:fi-aliens-act:325e615cad2f#url:fi:24bed4e97d58"
           ]
         }
@@ -2221,7 +2269,7 @@
           "json_pointer": "/documents/4",
           "source_identity_id": "fi:language-variant:fi-aliens-act:325e615cad2f",
           "representation_ids": [
-            "fi:language-variant:fi-aliens-act:325e615cad2f#local:fi:2437a45b46e6",
+            "fi:language-variant:fi-aliens-act:325e615cad2f#local:fi:ee6965a95552",
             "fi:language-variant:fi-aliens-act:325e615cad2f#url:fi:24bed4e97d58"
           ]
         },
@@ -2230,7 +2278,7 @@
           "json_pointer": "/sources/4",
           "source_identity_id": "fi:language-variant:fi-aliens-act:325e615cad2f",
           "representation_ids": [
-            "fi:language-variant:fi-aliens-act:325e615cad2f#local:fi:2437a45b46e6",
+            "fi:language-variant:fi-aliens-act:325e615cad2f#local:fi:ee6965a95552",
             "fi:language-variant:fi-aliens-act:325e615cad2f#url:fi:24bed4e97d58"
           ]
         }
@@ -2242,7 +2290,7 @@
           "category": "acceptance",
           "source_identity_id": "fi:language-variant:fi-aliens-act:325e615cad2f",
           "representation_ids": [
-            "fi:language-variant:fi-aliens-act:325e615cad2f#local:fi:2437a45b46e6",
+            "fi:language-variant:fi-aliens-act:325e615cad2f#local:fi:ee6965a95552",
             "fi:language-variant:fi-aliens-act:325e615cad2f#url:fi:24bed4e97d58"
           ]
         }

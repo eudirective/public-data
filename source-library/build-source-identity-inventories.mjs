@@ -29,7 +29,7 @@ const collectStrings = (value, keys, found = []) => {
   return found;
 };
 const URL_KEYS = new Set(['url','official_url','canonical_url','source_url','external_url','rediscovery_url','resolved_url','acquisition_url','uri','href']);
-const PATH_KEYS = new Set(['document_path','local_copy_path','artifact_path','relative_path','file_path','path','original_combined_pack_path','candidate_text_path','source_text_path','accepted_local_copy_path','capture_path']);
+const PATH_KEYS = new Set(['document_path','local_path','local_copy_path','artifact_path','relative_path','file_path','path','original_combined_pack_path','candidate_text_path','source_text_path','accepted_local_copy_path','capture_path']);
 const LANGUAGE_KEYS = new Set(['language','languages','lang']);
 const LANGUAGE_NAMES = {
   bg:['bulgarian'], cs:['czech'], da:['danish'], de:['german'], el:['greek'], en:['english'], es:['spanish'], et:['estonian'],
@@ -139,7 +139,10 @@ function normalizedArtifactPath(value, country) {
   const prefix=`source-library/${country}/`;
   if(raw.startsWith(prefix)) raw=raw.slice(prefix.length);
   else if(raw.startsWith('source-library/')) raw=raw.slice('source-library/'.length);
-  return /(^|\/)(documents|sources)\//.test(raw) ? raw : '';
+  if(/^\.\/(?:documents|sources)\//.test(raw)) raw=raw.slice(2);
+  else if(/^\.\.\/(?:documents|sources)\//.test(raw)) raw=raw.slice(3);
+  if(raw.split('/').includes('..')) return '';
+  return /^(documents|sources)\//.test(raw) ? raw : '';
 }
 function representationSpecs(item, sourceIdentityId, country, fallbackLanguage = 'unspecified') {
   const specs = [];
@@ -533,7 +536,7 @@ function replaceBlock(text,block) {
   return `${text.trimEnd()}\n\n${wrapped}\n`;
 }
 function renderSourceListBlock(inventory) {
-  const rows=inventory.entries.map(entry=>`| \`${entry.id.replaceAll('|','\\|')}\` | \`${entry.source_identity_id}\` | ${entry.identity_resolution_status} | ${entry.representations.map(rep=>`${rep.kind}/${rep.language}/${rep.edition}`).join('<br>')||'—'} | ${entry.status_categories.join(', ')||'candidate'} | ${entry.status_record_ids.join(', ')||'—'} |`);
+  const rows=inventory.entries.map(entry=>`| \`${entry.id.replaceAll('|','\\|')}\` | \`${entry.source_identity_id}\` | ${entry.identity_resolution_status} | ${entry.representations.map(rep=>`${rep.kind}/${rep.language}/${rep.edition}${rep.kind==='local_artifact'&&rep.path?` (\`${rep.path.replaceAll('|','\\|')}\`)`:''}`).join('<br>')||'—'} | ${entry.status_categories.join(', ')||'candidate'} | ${entry.status_record_ids.join(', ')||'—'} |`);
   return [`## Source identity crosswalk`,``,`Canonical rows: **${inventory.entries.length}**; provisional unique IDs: **${inventory.unique_identity_count}**; unresolved entries: **${inventory.unresolved_identity_entry_count}**. This crosswalk preserves catalogue IDs, links external-reference and local-artifact representations to a source identity, and keeps acceptance status separate.`, ``,`| Existing entry ID | Canonical source identity | Resolution | Representations | Catalogued statuses | Status record IDs |`,`|---|---|---|---|---|---|`,...rows].join('\n');
 }
 async function main() {

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "jurisdiction": "CZ",
   "jurisdiction_name": "czechia",
-  "updated": "2026-10-30",
+  "updated": "2026-10-29",
   "identity_rule": "Existing catalogue IDs are preserved. Exact official URLs, CELEX and ELI identities are joined; language, edition, link and local-copy representations remain distinct. Potential cross-record matches are surfaced instead of silently merged.",
   "source_count": 67,
   "unique_identity_count": 67,
@@ -15,42 +15,33 @@
       "title": "Decree No. 429/2010 Coll., exceptions from the duty to apply at the locally competent diplomatic mission",
       "source_type": "national_implementing_legislation",
       "official_urls": [
-        "https://e-sbirka.gov.cz/sb/2010/429"
+        "https://e-sbirka.gov.cz/sb/2010/429",
+        "https://e-sbirka.gov.cz/sb/2010/429/2020-02-01"
       ],
       "source_identity_id": "cz:url:9db65f7bbd8e93c69492",
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "pending",
         "accepted_external_reference",
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "cz:url:9db65f7bbd8e93c69492#local:cs:02ce8fdf66c9",
+        "cz:url:9db65f7bbd8e93c69492#local:cs:300314b3fd23",
         "cz:url:9db65f7bbd8e93c69492#local:cs:90ed7326598c",
         "cz:url:9db65f7bbd8e93c69492#url:cs:2a775d771391",
-        "cz:url:9db65f7bbd8e93c69492#local:cs:14248fbfd1d5"
+        "cz:url:9db65f7bbd8e93c69492#url:cs:e8f2e6368c69"
       ],
       "representations": [
         {
           "kind": "local_artifact",
           "language": "cs",
-          "edition": "undated",
+          "edition": "2010",
           "url": null,
-          "path": "documents/guidance/cz-ipc-obligations-cs.md",
-          "representation_id": "cz:url:9db65f7bbd8e93c69492#local:cs:90ed7326598c",
+          "path": "documents/legislation/cz-decree-429-2010.md",
+          "representation_id": "cz:url:9db65f7bbd8e93c69492#local:cs:02ce8fdf66c9",
           "acceptance_status": [
-            "pending"
-          ]
-        },
-        {
-          "kind": "official_reference",
-          "language": "cs",
-          "edition": "2020-02-01",
-          "url": "https://e-sbirka.gov.cz/sb/2010/429/2020-02-01",
-          "path": null,
-          "representation_id": "cz:url:9db65f7bbd8e93c69492#url:cs:2a775d771391",
-          "acceptance_status": [
-            "accepted_external_reference"
+            "accepted_local_copy"
           ]
         },
         {
@@ -59,8 +50,44 @@
           "edition": "2020-02-01",
           "url": null,
           "path": "documents/legislation/cz-decree-429-2010.md",
-          "representation_id": "cz:url:9db65f7bbd8e93c69492#local:cs:14248fbfd1d5",
+          "representation_id": "cz:url:9db65f7bbd8e93c69492#local:cs:300314b3fd23",
           "acceptance_status": [
+            "accepted_external_reference",
+            "accepted_local_copy"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "cs",
+          "edition": "undated",
+          "url": null,
+          "path": "documents/guidance/cz-ipc-obligations-cs.md",
+          "representation_id": "cz:url:9db65f7bbd8e93c69492#local:cs:90ed7326598c",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ]
+        },
+        {
+          "kind": "official_reference",
+          "language": "cs",
+          "edition": "2020-02-01",
+          "url": "https://e-sbirka.gov.cz/sb/2010/429",
+          "path": null,
+          "representation_id": "cz:url:9db65f7bbd8e93c69492#url:cs:2a775d771391",
+          "acceptance_status": [
+            "accepted_external_reference",
+            "accepted_local_copy"
+          ]
+        },
+        {
+          "kind": "official_reference",
+          "language": "cs",
+          "edition": "2020-02-01",
+          "url": "https://e-sbirka.gov.cz/sb/2010/429/2020-02-01",
+          "path": null,
+          "representation_id": "cz:url:9db65f7bbd8e93c69492#url:cs:e8f2e6368c69",
+          "acceptance_status": [
+            "accepted_external_reference",
             "accepted_local_copy"
           ]
         }
@@ -80,16 +107,10 @@
           ],
           "cells": [
             "`cz-decree-429-2010`",
-            "[Decree 429/2010 locator](https://e-sbirka.gov.cz/sb/2010/429); [PSP metadata](https://www.psp.cz/sqw/sbirka.sqw?cz=429&r=2010)",
-            "Full dated legal text retained at documents/legislation/cz-decree-429-2010.md. URLs are provenance metadata, not source documents. Currentness/cutoff verified; EU-family route applicability remains open. Separate scope note: ../documents/legislation/cz-decree-429-2010-locator.md."
+            "[Decree 429/2010 — e-Sbírka locator](https://e-sbirka.gov.cz/sb/2010/429); [PSP metadata](https://www.psp.cz/sqw/sbirka.sqw?cz=429&r=2010)",
+            "Full dated legal text retained at [cz-decree-429-2010.md](../documents/legislation/cz-decree-429-2010.md); URLs are locator/provenance metadata only. Currentness/cutoff verified; EU-family route applicability remains open. Scope note: [Decree 429/2010 disposition](../documents/legislation/cz-decree-429-2010-locator.md)."
           ],
           "category": "catalogue"
-        },
-        {
-          "path": "references/source-list.md",
-          "line": 127,
-          "category": "retained_local_text",
-          "local_copy_path": "documents/legislation/cz-decree-429-2010.md"
         }
       ],
       "acceptance_references": [
@@ -264,22 +285,35 @@
       "title": "Act No. 117/1995 Coll., on State Social Support",
       "source_type": "national_legislation",
       "official_urls": [
-        "https://e-sbirka.gov.cz/sb/1995/117"
+        "https://e-sbirka.gov.cz/sb/1995/117",
+        "https://e-sbirka.gov.cz/sb/1995/117/2026-09-01"
       ],
       "source_identity_id": "cz:url:0f5f21776315a85599c5",
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "pending",
         "accepted_external_reference",
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "cz:url:0f5f21776315a85599c5#local:cs:1af378dee3a4",
         "cz:url:0f5f21776315a85599c5#local:cs:75cd423a3e65",
-        "cz:url:0f5f21776315a85599c5#url:cs:25ebaf5282ab",
-        "cz:url:0f5f21776315a85599c5#local:cs:8bbed3589c82"
+        "cz:url:0f5f21776315a85599c5#local:cs:8afe65de1d84",
+        "cz:url:0f5f21776315a85599c5#url:cs:21cd0f5821c8",
+        "cz:url:0f5f21776315a85599c5#url:cs:f2eb5f2d6c87"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "cs",
+          "edition": "undated",
+          "url": null,
+          "path": "documents/legislation/cz-esbirka-1995-117.md",
+          "representation_id": "cz:url:0f5f21776315a85599c5#local:cs:1af378dee3a4",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ]
+        },
         {
           "kind": "local_artifact",
           "language": "cs",
@@ -288,18 +322,7 @@
           "path": "documents/guidance/cz-mzv-visa-refusal-cs.md",
           "representation_id": "cz:url:0f5f21776315a85599c5#local:cs:75cd423a3e65",
           "acceptance_status": [
-            "pending"
-          ]
-        },
-        {
-          "kind": "official_reference",
-          "language": "cs",
-          "edition": "2026-09-01",
-          "url": "https://e-sbirka.gov.cz/sb/1995/117/2026-09-01",
-          "path": null,
-          "representation_id": "cz:url:0f5f21776315a85599c5#url:cs:25ebaf5282ab",
-          "acceptance_status": [
-            "accepted_external_reference"
+            "accepted_local_copy"
           ]
         },
         {
@@ -308,8 +331,33 @@
           "edition": "2026-09-01",
           "url": null,
           "path": "documents/legislation/cz-esbirka-1995-117.md",
-          "representation_id": "cz:url:0f5f21776315a85599c5#local:cs:8bbed3589c82",
+          "representation_id": "cz:url:0f5f21776315a85599c5#local:cs:8afe65de1d84",
           "acceptance_status": [
+            "accepted_external_reference",
+            "accepted_local_copy"
+          ]
+        },
+        {
+          "kind": "official_reference",
+          "language": "cs",
+          "edition": "2026-09-01",
+          "url": "https://e-sbirka.gov.cz/sb/1995/117/2026-09-01",
+          "path": null,
+          "representation_id": "cz:url:0f5f21776315a85599c5#url:cs:21cd0f5821c8",
+          "acceptance_status": [
+            "accepted_external_reference",
+            "accepted_local_copy"
+          ]
+        },
+        {
+          "kind": "official_reference",
+          "language": "cs",
+          "edition": "2026-09-01",
+          "url": "https://e-sbirka.gov.cz/sb/1995/117",
+          "path": null,
+          "representation_id": "cz:url:0f5f21776315a85599c5#url:cs:f2eb5f2d6c87",
+          "acceptance_status": [
+            "accepted_external_reference",
             "accepted_local_copy"
           ]
         }
@@ -318,12 +366,6 @@
         {
           "path": "references/source-register.json",
           "json_pointer": "/documents/66"
-        },
-        {
-          "path": "references/source-list.md",
-          "line": 126,
-          "category": "retained_local_text",
-          "local_copy_path": "documents/legislation/cz-esbirka-1995-117.md"
         }
       ],
       "acceptance_references": [
@@ -340,20 +382,22 @@
       "title": "Act No. 48/1997 Coll., on Public Health Insurance",
       "source_type": "national_legislation",
       "official_urls": [
-        "https://e-sbirka.gov.cz/sb/1997/48"
+        "https://e-sbirka.gov.cz/sb/1997/48",
+        "https://e-sbirka.gov.cz/sb/1997/48/2026-10-01"
       ],
       "source_identity_id": "cz:url:a1d8abffe213495cbe11",
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "pending",
         "accepted_external_reference",
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "cz:url:a1d8abffe213495cbe11#local:cs:012ddd49eca5",
+        "cz:url:a1d8abffe213495cbe11#local:cs:41529cbeb5c0",
         "cz:url:a1d8abffe213495cbe11#local:cs:90ed7326598c",
-        "cz:url:a1d8abffe213495cbe11#url:cs:d6d0254bc661",
-        "cz:url:a1d8abffe213495cbe11#local:cs:4c185b9e14dd"
+        "cz:url:a1d8abffe213495cbe11#url:cs:63e87db864a6",
+        "cz:url:a1d8abffe213495cbe11#url:cs:99bf75b7893a"
       ],
       "representations": [
         {
@@ -361,21 +405,10 @@
           "language": "cs",
           "edition": "undated",
           "url": null,
-          "path": "documents/guidance/cz-ipc-obligations-cs.md",
-          "representation_id": "cz:url:a1d8abffe213495cbe11#local:cs:90ed7326598c",
+          "path": "documents/legislation/cz-esbirka-1997-48.md",
+          "representation_id": "cz:url:a1d8abffe213495cbe11#local:cs:012ddd49eca5",
           "acceptance_status": [
-            "pending"
-          ]
-        },
-        {
-          "kind": "official_reference",
-          "language": "cs",
-          "edition": "2026-10-01",
-          "url": "https://e-sbirka.gov.cz/sb/1997/48/2026-10-01",
-          "path": null,
-          "representation_id": "cz:url:a1d8abffe213495cbe11#url:cs:d6d0254bc661",
-          "acceptance_status": [
-            "accepted_external_reference"
+            "accepted_local_copy"
           ]
         },
         {
@@ -384,8 +417,44 @@
           "edition": "2026-10-01",
           "url": null,
           "path": "documents/legislation/cz-esbirka-1997-48.md",
-          "representation_id": "cz:url:a1d8abffe213495cbe11#local:cs:4c185b9e14dd",
+          "representation_id": "cz:url:a1d8abffe213495cbe11#local:cs:41529cbeb5c0",
           "acceptance_status": [
+            "accepted_external_reference",
+            "accepted_local_copy"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "cs",
+          "edition": "undated",
+          "url": null,
+          "path": "documents/guidance/cz-ipc-obligations-cs.md",
+          "representation_id": "cz:url:a1d8abffe213495cbe11#local:cs:90ed7326598c",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ]
+        },
+        {
+          "kind": "official_reference",
+          "language": "cs",
+          "edition": "2026-10-01",
+          "url": "https://e-sbirka.gov.cz/sb/1997/48/2026-10-01",
+          "path": null,
+          "representation_id": "cz:url:a1d8abffe213495cbe11#url:cs:63e87db864a6",
+          "acceptance_status": [
+            "accepted_external_reference",
+            "accepted_local_copy"
+          ]
+        },
+        {
+          "kind": "official_reference",
+          "language": "cs",
+          "edition": "2026-10-01",
+          "url": "https://e-sbirka.gov.cz/sb/1997/48",
+          "path": null,
+          "representation_id": "cz:url:a1d8abffe213495cbe11#url:cs:99bf75b7893a",
+          "acceptance_status": [
+            "accepted_external_reference",
             "accepted_local_copy"
           ]
         }
@@ -394,12 +463,6 @@
         {
           "path": "references/source-register.json",
           "json_pointer": "/documents/65"
-        },
-        {
-          "path": "references/source-list.md",
-          "line": 125,
-          "category": "retained_local_text",
-          "local_copy_path": "documents/legislation/cz-esbirka-1997-48.md"
         }
       ],
       "acceptance_references": [
@@ -926,42 +989,33 @@
       "title": "Act No. 435/2004 Coll., on Employment",
       "source_type": "national_legislation",
       "official_urls": [
-        "https://e-sbirka.gov.cz/sb/2004/435"
+        "https://e-sbirka.gov.cz/sb/2004/435",
+        "https://e-sbirka.gov.cz/sb/2004/435/2026-07-01"
       ],
       "source_identity_id": "cz:url:5663814b7cdfdceadf39",
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "pending",
         "accepted_external_reference",
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "cz:url:5663814b7cdfdceadf39#local:cs:0e09a3a35244",
+        "cz:url:5663814b7cdfdceadf39#local:cs:4a91de5af34d",
         "cz:url:5663814b7cdfdceadf39#local:cs:75cd423a3e65",
-        "cz:url:5663814b7cdfdceadf39#url:cs:eec874d8d2ca",
-        "cz:url:5663814b7cdfdceadf39#local:cs:4bf8c8dc134e"
+        "cz:url:5663814b7cdfdceadf39#url:cs:2ea3855d6cf6",
+        "cz:url:5663814b7cdfdceadf39#url:cs:f52a9b1f09b7"
       ],
       "representations": [
         {
           "kind": "local_artifact",
           "language": "cs",
-          "edition": "undated",
+          "edition": "2004",
           "url": null,
-          "path": "documents/guidance/cz-mzv-visa-refusal-cs.md",
-          "representation_id": "cz:url:5663814b7cdfdceadf39#local:cs:75cd423a3e65",
+          "path": "documents/legislation/cz-esbirka-2004-435.md",
+          "representation_id": "cz:url:5663814b7cdfdceadf39#local:cs:0e09a3a35244",
           "acceptance_status": [
-            "pending"
-          ]
-        },
-        {
-          "kind": "official_reference",
-          "language": "cs",
-          "edition": "2026-07-01",
-          "url": "https://e-sbirka.gov.cz/sb/2004/435/2026-07-01",
-          "path": null,
-          "representation_id": "cz:url:5663814b7cdfdceadf39#url:cs:eec874d8d2ca",
-          "acceptance_status": [
-            "accepted_external_reference"
+            "accepted_local_copy"
           ]
         },
         {
@@ -970,8 +1024,44 @@
           "edition": "2026-07-01",
           "url": null,
           "path": "documents/legislation/cz-esbirka-2004-435.md",
-          "representation_id": "cz:url:5663814b7cdfdceadf39#local:cs:4bf8c8dc134e",
+          "representation_id": "cz:url:5663814b7cdfdceadf39#local:cs:4a91de5af34d",
           "acceptance_status": [
+            "accepted_external_reference",
+            "accepted_local_copy"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "cs",
+          "edition": "undated",
+          "url": null,
+          "path": "documents/guidance/cz-mzv-visa-refusal-cs.md",
+          "representation_id": "cz:url:5663814b7cdfdceadf39#local:cs:75cd423a3e65",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ]
+        },
+        {
+          "kind": "official_reference",
+          "language": "cs",
+          "edition": "2026-07-01",
+          "url": "https://e-sbirka.gov.cz/sb/2004/435/2026-07-01",
+          "path": null,
+          "representation_id": "cz:url:5663814b7cdfdceadf39#url:cs:2ea3855d6cf6",
+          "acceptance_status": [
+            "accepted_external_reference",
+            "accepted_local_copy"
+          ]
+        },
+        {
+          "kind": "official_reference",
+          "language": "cs",
+          "edition": "2026-07-01",
+          "url": "https://e-sbirka.gov.cz/sb/2004/435",
+          "path": null,
+          "representation_id": "cz:url:5663814b7cdfdceadf39#url:cs:f52a9b1f09b7",
+          "acceptance_status": [
+            "accepted_external_reference",
             "accepted_local_copy"
           ]
         }
@@ -980,12 +1070,6 @@
         {
           "path": "references/source-register.json",
           "json_pointer": "/documents/64"
-        },
-        {
-          "path": "references/source-list.md",
-          "line": 124,
-          "category": "retained_local_text",
-          "local_copy_path": "documents/legislation/cz-esbirka-2004-435.md"
         }
       ],
       "acceptance_references": [
