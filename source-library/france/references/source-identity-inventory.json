@@ -42,7 +42,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 21,
+          "line": 23,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -103,7 +103,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 23,
+          "line": 25,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -155,7 +155,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 24,
+          "line": 26,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -207,7 +207,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 25,
+          "line": 27,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -272,7 +272,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 26,
+          "line": 28,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -348,7 +348,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 27,
+          "line": 29,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -412,7 +412,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 28,
+          "line": 30,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -495,7 +495,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 58,
+          "line": 60,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -564,7 +564,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 59,
+          "line": 61,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -673,7 +673,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 57,
+          "line": 59,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -757,7 +757,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 22,
+          "line": 24,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -821,7 +821,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 36,
+          "line": 38,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -872,7 +872,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 37,
+          "line": 39,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -923,7 +923,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 38,
+          "line": 40,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -955,28 +955,52 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference"
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "fr:url:424c641ef57bc6dcf597#url:fr:40fc2b81de07"
+        "fr:url:424c641ef57bc6dcf597#local:fr:57a9f6f0eef0",
+        "fr:url:424c641ef57bc6dcf597#local:unspecified:be178adfa2f8",
+        "fr:url:424c641ef57bc6dcf597#url:fr:dc9926d9a2af"
       ],
       "representations": [
         {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-10-29",
+          "url": null,
+          "path": "documents/legislation/fr-cja-r312-18-visa-jurisdiction.md",
+          "representation_id": "fr:url:424c641ef57bc6dcf597#local:fr:57a9f6f0eef0",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "unspecified",
+          "edition": "undated",
+          "url": null,
+          "path": "documents/legislation/fr-cja-r312-18-visa-jurisdiction.md",
+          "representation_id": "fr:url:424c641ef57bc6dcf597#local:unspecified:be178adfa2f8",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ]
+        },
+        {
           "kind": "official_reference",
           "language": "fr",
-          "edition": "2022",
+          "edition": "2026-10-29",
           "url": "https://legifrance.gouv.fr/codes/article_lc/LEGIARTI000046000401",
           "path": null,
-          "representation_id": "fr:url:424c641ef57bc6dcf597#url:fr:40fc2b81de07",
+          "representation_id": "fr:url:424c641ef57bc6dcf597#url:fr:dc9926d9a2af",
           "acceptance_status": [
-            "accepted_external_reference"
+            "accepted_local_copy"
           ]
         }
       ],
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 41,
+          "line": 43,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -988,8 +1012,8 @@
             "fr-cja-r312-18-visa-jurisdiction",
             "[CJA Article R. 312-18: jurisdiction for specified consular visa decisions](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000046000401)",
             "related_source",
-            "Official article checked 2026-10-24; in force since 2022-07-02; assigns the specified disputes to the Tribunal administratif de Nantes.",
-            "Usable official link-only reference; no local copy; pre-appeal route and deadline are separate questions"
+            "Official article checked 2026-10-31; CJA displayed in force 2026-10-29; Article R. 312-18 in force since 2022-07-02, amended by Decree No. 2022-962, Article 3; complete body matched the pinned Legalize France retrieval input.",
+            "Retained statutory text at [documents/legislation/fr-cja-r312-18-visa-jurisdiction.md](../documents/legislation/fr-cja-r312-18-visa-jurisdiction.md). Official URL is provenance/version metadata; pre-appeal route and deadline are separate questions."
           ],
           "category": "catalogue"
         }
@@ -998,6 +1022,11 @@
         {
           "path": "references/source-acceptance.json",
           "json_pointer": "/official_reference_reviews/fr-cja-r312-18-visa-jurisdiction",
+          "category": "acceptance"
+        },
+        {
+          "path": "references/source-acceptance.json",
+          "json_pointer": "/records/fr-cja-r312-18-visa-jurisdiction",
           "category": "acceptance"
         }
       ],
@@ -1014,28 +1043,52 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference"
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "fr:url:7ef87c287048c059111e#url:fr:8f3f4d29b88d"
+        "fr:url:7ef87c287048c059111e#local:fr:43b1000ed273",
+        "fr:url:7ef87c287048c059111e#local:unspecified:85c062c535f1",
+        "fr:url:7ef87c287048c059111e#url:fr:6056de5c14fe"
       ],
       "representations": [
         {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-10-31",
+          "url": null,
+          "path": "documents/legislation/fr-cja-r421-1-deadline.md",
+          "representation_id": "fr:url:7ef87c287048c059111e#local:fr:43b1000ed273",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "unspecified",
+          "edition": "undated",
+          "url": null,
+          "path": "documents/legislation/fr-cja-r421-1-deadline.md",
+          "representation_id": "fr:url:7ef87c287048c059111e#local:unspecified:85c062c535f1",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ]
+        },
+        {
           "kind": "official_reference",
           "language": "fr",
-          "edition": "2026",
+          "edition": "2026-10-31",
           "url": "https://legifrance.gouv.fr/codes/article_lc/LEGIARTI000039807005",
           "path": null,
-          "representation_id": "fr:url:7ef87c287048c059111e#url:fr:8f3f4d29b88d",
+          "representation_id": "fr:url:7ef87c287048c059111e#url:fr:6056de5c14fe",
           "acceptance_status": [
-            "accepted_external_reference"
+            "accepted_local_copy"
           ]
         }
       ],
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 42,
+          "line": 44,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1047,8 +1100,8 @@
             "fr-cja-r421-1-deadline",
             "[CJA Article R. 421-1: general time limit for administrative proceedings](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039807005)",
             "related_source",
-            "Official article checked 2026-10-24; page displayed version current at 2026-10-02. It states a general two-month period, a prior-decision rule for money claims, and an exception for contract-execution measures.",
-            "Usable official link-only reference; special deadlines and decision-specific notice still control"
+            "Official article checked 2026-10-31; CJA displayed in force 2026-10-31; Article R. 421-1 in force since 2020-01-01, amended by Decree No. 2019-1502, Article 7; complete body matched the pinned Legalize France retrieval input.",
+            "Retained statutory text at [documents/legislation/fr-cja-r421-1-deadline.md](../documents/legislation/fr-cja-r421-1-deadline.md). Official URL is provenance/version metadata; special deadlines and decision-specific notices may control."
           ],
           "category": "catalogue"
         }
@@ -1057,6 +1110,11 @@
         {
           "path": "references/source-acceptance.json",
           "json_pointer": "/official_reference_reviews/fr-cja-r421-1-deadline",
+          "category": "acceptance"
+        },
+        {
+          "path": "references/source-acceptance.json",
+          "json_pointer": "/records/fr-cja-r421-1-deadline",
           "category": "acceptance"
         }
       ],
@@ -1094,7 +1152,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 61,
+          "line": 63,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1177,7 +1235,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 60,
+          "line": 62,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1581,7 +1639,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 65,
+          "line": 67,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1664,7 +1722,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 66,
+          "line": 68,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1723,7 +1781,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 39,
+          "line": 41,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1761,28 +1819,52 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference"
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "fr:url:3469778c51c1248db0c1#url:fr:9eccc53e8bdb"
+        "fr:url:3469778c51c1248db0c1#local:fr:009b1e9bfdee",
+        "fr:url:3469778c51c1248db0c1#local:unspecified:78dae59e0ac3",
+        "fr:url:3469778c51c1248db0c1#url:fr:9fa9d45e9999"
       ],
       "representations": [
         {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-10-30",
+          "url": null,
+          "path": "documents/legislation/fr-crpa-l411-1-appeals.md",
+          "representation_id": "fr:url:3469778c51c1248db0c1#local:fr:009b1e9bfdee",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "unspecified",
+          "edition": "undated",
+          "url": null,
+          "path": "documents/legislation/fr-crpa-l411-1-appeals.md",
+          "representation_id": "fr:url:3469778c51c1248db0c1#local:unspecified:78dae59e0ac3",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ]
+        },
+        {
           "kind": "official_reference",
           "language": "fr",
-          "edition": "2016",
+          "edition": "2026-10-30",
           "url": "https://legifrance.gouv.fr/codes/article_lc/LEGIARTI000031367827",
           "path": null,
-          "representation_id": "fr:url:3469778c51c1248db0c1#url:fr:9eccc53e8bdb",
+          "representation_id": "fr:url:3469778c51c1248db0c1#url:fr:9fa9d45e9999",
           "acceptance_status": [
-            "accepted_external_reference"
+            "accepted_local_copy"
           ]
         }
       ],
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 40,
+          "line": 42,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1794,8 +1876,8 @@
             "fr-crpa-l411-1-appeals",
             "[CRPA Article L. 411-1: general administrative-appeal rules](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031367827)",
             "related_source",
-            "Official article checked 2026-10-24; in force since 2016-01-01, last modified 2019-01-21; it makes the general CRPA appeal rules subject to special or contrary provisions.",
-            "Usable official link-only reference; no particular appeal or deadline inferred"
+            "Official Légifrance chapter page checked 2026-10-31; Article L. 411-1 in force since 2016-01-01 and created by Ordinance No. 2015-1341; complete body matched the pinned Legalize France retrieval input.",
+            "Retained statutory text at [documents/legislation/fr-crpa-l411-1-appeals.md](../documents/legislation/fr-crpa-l411-1-appeals.md). Official URL is provenance/version metadata; the text remains subject to special or contrary provisions."
           ],
           "category": "catalogue"
         }
@@ -1804,6 +1886,11 @@
         {
           "path": "references/source-acceptance.json",
           "json_pointer": "/official_reference_reviews/fr-crpa-l411-1-appeals",
+          "category": "acceptance"
+        },
+        {
+          "path": "references/source-acceptance.json",
+          "json_pointer": "/records/fr-crpa-l411-1-appeals",
           "category": "acceptance"
         }
       ],
@@ -1865,7 +1952,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 56,
+          "line": 58,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1924,7 +2011,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 31,
+          "line": 33,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1983,7 +2070,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 63,
+          "line": 65,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2042,7 +2129,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 62,
+          "line": 64,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2101,7 +2188,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 32,
+          "line": 34,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2160,7 +2247,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 33,
+          "line": 35,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2269,7 +2356,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 46,
+          "line": 48,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2333,7 +2420,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 47,
+          "line": 49,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2386,7 +2473,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 50,
+          "line": 52,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2445,7 +2532,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 49,
+          "line": 51,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2502,7 +2589,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 51,
+          "line": 53,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2555,7 +2642,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 48,
+          "line": 50,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2653,7 +2740,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 68,
+          "line": 70,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2712,7 +2799,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 35,
+          "line": 37,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2771,7 +2858,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 34,
+          "line": 36,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2832,7 +2919,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 30,
+          "line": 32,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2885,7 +2972,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 52,
+          "line": 54,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2956,7 +3043,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 29,
+          "line": 31,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3117,7 +3204,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 53,
+          "line": 55,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3200,7 +3287,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 43,
+          "line": 45,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3283,7 +3370,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 44,
+          "line": 46,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3366,7 +3453,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 45,
+          "line": 47,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3449,7 +3536,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 67,
+          "line": 69,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3532,7 +3619,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 55,
+          "line": 57,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3625,7 +3712,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 54,
+          "line": 56,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3747,7 +3834,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 64,
+          "line": 66,
           "table_headers": [
             "Candidate ID",
             "Official source",
