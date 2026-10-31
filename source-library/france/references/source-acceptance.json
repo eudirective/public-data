@@ -981,7 +981,9 @@
         "This is a bounded section extract, not the Code du travail. The full-code locator is not a retained text. Check the official section for later amendments before date-sensitive use.",
         "The live official Légifrance page is the authority for later versions."
       ],
-      "source_document_kind": "official_statutory_text_copy"
+      "source_document_kind": "official_statutory_text_copy",
+      "local_copy_sha256": "1b9a2103aeb9e557b4e337146396edde7320d4ad73d99e9c08e668783b44649b",
+      "local_copy_bytes": 5879
     },
     "fr-code-securite-sociale": {
       "status": "accepted_local_copy",
@@ -989,7 +991,7 @@
       "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073189/LEGISCTA000031668675/",
       "checked_on": "2026-10-30",
       "language": "French",
-      "version_or_cutoff": "Official section version displayed in force at 2026-10-09; checked 2026-10-30. Article L160-1-1 has been in force since 2025-12-31 and was checked in its official article entry.",
+      "version_or_cutoff": "The 2026-10-30 capture recorded a section cutoff of 2026-10-09, but the 2026-10-31 recheck could not reproduce it (live section request returned HTTP 403; an official indexed dated section snapshot surfaced for 2026-09-09). Article L160-1-1 is individually reported in force since 2025-12-31. This is a dated official copy, not proof of full-section currentness on 2026-10-31.",
       "local_path": "documents/legislation/fr-code-securite-sociale-beneficiaries-l160-1-to-l160-7.md",
       "scope": "Current text of Code de la sécurité sociale Articles L160-1, L160-1-1, and L160-2 to L160-7, Section 1 on beneficiaries.",
       "reviewed_content": "Each retained article body and version note was compared with the official current section. Legalize France supplied L160-1 and L160-2 to L160-7; the currently effective L160-1-1 absent from that snapshot was taken from DILA's 2026-01-02 LEGI delta XML.",
@@ -1000,9 +1002,13 @@
       "attachments": "Not applicable: the retained statutory section/article is text-only; no source attachment belongs to this scoped record.",
       "limitations": [
         "This is one section, not the complete Social Security Code or an entitlement determination. EU coordination and international-agreement dependencies require separate review; recheck the official section for later changes.",
-        "The live official Légifrance page is the authority for later versions."
+        "The live official Légifrance page is the authority for later versions.",
+        "The previously recorded 2026-10-09 section cutoff was not reproduced on 2026-10-31; the live request returned HTTP 403. Recheck the section before asserting later currentness."
       ],
-      "source_document_kind": "official_statutory_text_copy"
+      "source_document_kind": "official_statutory_text_copy",
+      "local_copy_sha256": "1f3980424c2a108b44ebe9eac6b248846d54858a1eaaea3ae1b8e30ad4e27766",
+      "local_copy_bytes": 15922,
+      "currentness_review_evidence": "captures/www.legifrance.gouv.fr/France/france-css-beneficiaries-section-cutoff-review-2026-10-31.md (SHA-256 6549e9fee5a301157b76dd9002e7fb3be143f063287a695db69c411c36980659)"
     },
     "fr-code-education": {
       "status": "accepted_local_copy",
@@ -1023,7 +1029,9 @@
         "These two provisions do not cover all school-enrollment, allocation, or student-residence rules. Recheck the official section for later changes.",
         "The live official Légifrance page is the authority for later versions."
       ],
-      "source_document_kind": "official_statutory_text_copy"
+      "source_document_kind": "official_statutory_text_copy",
+      "local_copy_sha256": "a301555c424e698f7bb3dccfcbb6351b9fa717e731c7935b0d4cee41c6c73692",
+      "local_copy_bytes": 2785
     },
     "fr-code-sante-publique": {
       "status": "accepted_local_copy",
@@ -1044,7 +1052,9 @@
         "This is one article, not the Code de la santé publique or a health-entitlement determination. Recheck the official section for later changes.",
         "The live official Légifrance page is the authority for later versions."
       ],
-      "source_document_kind": "official_statutory_text_copy"
+      "source_document_kind": "official_statutory_text_copy",
+      "local_copy_sha256": "77c9f880a93d8371f6c2123e59e7892deaba6e625b51628cc986a1fd5c277d4b",
+      "local_copy_bytes": 4290
     },
     "fr-code-procedure-civile": {
       "status": "accepted_local_copy",
@@ -1065,7 +1075,9 @@
         "This is one procedural article only and does not cover the entire adoption process, other procedural routes, or cross-border adoption dependencies. Recheck the official section for later changes.",
         "The live official Légifrance page is the authority for later versions."
       ],
-      "source_document_kind": "official_statutory_text_copy"
+      "source_document_kind": "official_statutory_text_copy",
+      "local_copy_sha256": "610ff8fa1e75fe334f90fcc71959ac961af984726b048b152ec6e97bfc64e6fb",
+      "local_copy_bytes": 2026
     }
   },
   "retrieval_method_reviews": {
