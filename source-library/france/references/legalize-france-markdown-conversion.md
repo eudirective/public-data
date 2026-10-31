@@ -23,6 +23,7 @@ Apply this procedure when using a pinned Legalize France Markdown archive to ret
 4. Markdown conversion may change structural presentation only: use headings for article labels and Markdown list syntax for equivalent enumerations. Do not paraphrase, normalize legal terms, remove qualifiers, renumber points, or silently merge distinct provisions.
 5. Add a metadata header that clearly separates publisher, code identifier, retained scope, version/cutoff, official provenance locator, retrieval source/commit, reuse/attribution, and limits from the official statutory body.
 6. For a bounded Code du travail R5221-17/R5221-19 extract, compare each body and version note to the corresponding current Légifrance article. Preserve the R5221-17 commencement note from the official record if the Legalize block omits it. R5221-19 names the hierarchical appeal authority but states no filing deadline; do not infer or add one. This two-article extraction does not establish whole-code completeness or currentness.
+7. For Code du travail Article R5221-2, compare the full current body and version note with the official consolidated article and check amendments against the Journal officiel. Preserve every numbered item and its full text. The pinned Legalize candidate contains repeated/historical variants and its latest-looking R5221-2 body stops at 20°; do not treat that snapshot as current or complete. Verify items 21° and 22° against Légifrance and Article 13 of Decree No. 2026-1001 (item 22 effective 2026-10-30). This extract is one article only and does not establish full-code completeness or a broad employment-access topic.
 
 ## Acceptance and maintenance
 
@@ -30,6 +31,7 @@ Accept a retained copy only after all of these are recorded: official publisher 
 
 ## Applied extracts
 
+- [Code du travail, Article R5221-2 (work-authorisation exemptions)](../documents/legislation/fr-code-travail-article-r5221-2-work-authorization-exemptions.md)
 - [Code du travail, Articles R5221-17 and R5221-19 (prefect decision/notice and hierarchical appeal)](../documents/legislation/fr-r5221-17-and-r5221-19-decision-appeal.md)
 
 - [Code du travail, Articles L5221-5 to L5221-9 and L5221-11](../documents/legislation/fr-code-travail-articles-l5221-5-to-l5221-11.md)

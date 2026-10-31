@@ -42,7 +42,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 23,
+          "line": 25,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -103,7 +103,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 25,
+          "line": 27,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -155,7 +155,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 26,
+          "line": 28,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -207,7 +207,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 27,
+          "line": 29,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -272,7 +272,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 28,
+          "line": 30,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -348,7 +348,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 29,
+          "line": 31,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -412,7 +412,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 30,
+          "line": 32,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -495,7 +495,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 60,
+          "line": 62,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -564,7 +564,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 61,
+          "line": 63,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -673,7 +673,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 59,
+          "line": 61,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -757,7 +757,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 24,
+          "line": 26,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -821,7 +821,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 38,
+          "line": 40,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -872,7 +872,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 39,
+          "line": 41,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -923,7 +923,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 40,
+          "line": 42,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1000,7 +1000,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 43,
+          "line": 45,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1088,7 +1088,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 44,
+          "line": 46,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1152,7 +1152,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 63,
+          "line": 65,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1235,7 +1235,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 62,
+          "line": 64,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1553,6 +1553,7 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:a0541676533aa7fc6488#local:fr:1af159dff2e6",
         "fr:url:a0541676533aa7fc6488#local:fr:2cebf1f153de",
         "fr:url:a0541676533aa7fc6488#local:fr:b66007ad41fa",
         "fr:url:a0541676533aa7fc6488#url:fr:27bbd46ed37e",
@@ -1562,6 +1563,17 @@
         "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-10-30",
+          "url": null,
+          "path": "documents/legislation/fr-code-travail-article-r5221-2-work-authorization-exemptions.md",
+          "representation_id": "fr:url:a0541676533aa7fc6488#local:fr:1af159dff2e6",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ]
+        },
         {
           "kind": "local_artifact",
           "language": "fr",
@@ -1687,7 +1699,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 67,
+          "line": 69,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1770,7 +1782,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 68,
+          "line": 70,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1829,7 +1841,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 41,
+          "line": 43,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1912,7 +1924,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 42,
+          "line": 44,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2000,7 +2012,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 58,
+          "line": 60,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2059,7 +2071,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 33,
+          "line": 35,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2118,7 +2130,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 65,
+          "line": 67,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2177,7 +2189,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 64,
+          "line": 66,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2236,7 +2248,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 34,
+          "line": 36,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2295,7 +2307,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 35,
+          "line": 37,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2404,7 +2416,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 48,
+          "line": 50,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2468,7 +2480,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 49,
+          "line": 51,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2521,7 +2533,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 52,
+          "line": 54,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2580,7 +2592,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 51,
+          "line": 53,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2637,7 +2649,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 53,
+          "line": 55,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2690,7 +2702,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 50,
+          "line": 52,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2788,7 +2800,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 70,
+          "line": 72,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2847,7 +2859,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 37,
+          "line": 39,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2906,7 +2918,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 36,
+          "line": 38,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2967,7 +2979,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 32,
+          "line": 34,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3020,7 +3032,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 54,
+          "line": 56,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3091,7 +3103,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 31,
+          "line": 33,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3252,7 +3264,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 55,
+          "line": 57,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3335,7 +3347,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 45,
+          "line": 47,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3418,7 +3430,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 46,
+          "line": 48,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3501,7 +3513,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 47,
+          "line": 49,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3584,7 +3596,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 69,
+          "line": 71,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3667,7 +3679,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 57,
+          "line": 59,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3760,7 +3772,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 56,
+          "line": 58,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3882,7 +3894,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 66,
+          "line": 68,
           "table_headers": [
             "Candidate ID",
             "Official source",
