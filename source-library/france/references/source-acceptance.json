@@ -966,15 +966,15 @@
       "status": "accepted_local_copy",
       "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
       "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006189813/",
-      "checked_on": "2026-10-30",
+      "checked_on": "2026-10-31",
       "language": "French",
-      "version_or_cutoff": "Official section version displayed in force at 2026-10-28; checked 2026-10-30. Article L5221-10 is repealed and is not transcribed.",
+      "version_or_cutoff": "Official section displayed En vigueur au 28/10/2026 when checked 2026-10-31. Current text of L5221-5 to L5221-9 and L5221-11; L5221-10 repealed and omitted. Article-level effective-date and amending-act metadata recorded in the retained document.",
       "local_path": "documents/legislation/fr-code-travail-articles-l5221-5-to-l5221-11.md",
       "scope": "Current text of Code du travail Articles L5221-5 to L5221-9 and L5221-11 in the selected Section 3; L5221-10 is identified as repealed but historical wording is omitted.",
-      "reviewed_content": "The complete retained article bodies and their notes were checked against the current official Légifrance section. L5221-5 was supplemented from DILA's 2026-10-29 LEGI delta because the Legalize snapshot omitted its applicability note; a duplicated L5221-8 block was excluded.",
+      "reviewed_content": "The complete operative bodies of retained Articles L5221-5 to L5221-9 and L5221-11 were rechecked against the exact current official Légifrance section on 2026-10-31 and matched. The applicable commencement/version notes also matched. L5221-5 was supplemented from DILA's 2026-10-29 LEGI delta because the Legalize snapshot omitted its applicability note; the duplicate L5221-8 block and adjacent Chapter II heading were excluded. Official article-history labels are recorded separately from the statutory body.",
       "reuse": "DILA LEGI consolidated statutory text reused with attribution under Licence Ouverte / Open Licence 2.0. The Legalize France MIT licence covers its software, not statutory wording; source attribution and official locator are retained.",
       "retrieval_method": "Legalize France, pinned source commit e38417fd7b982b2df02fbe01f2960127a7bf9031; used as a retrieval input and checked provision by provision against official DILA/Légifrance text. Different, duplicated, or missing wording was corrected from the official current record or DILA LEGI delta.",
-      "retrieval_evidence": "captures/article-scoped-source-conversion-20261030/France/france-legalize-official-verification-2026-10-30/France/derived/fr-code-travail-title-ii-articles-l5221-5-to-l5221-11.md (Monitor local-only archive, SHA-256 1b9a2103aeb9e557b4e337146396edde7320d4ad73d99e9c08e668783b44649b)",
+      "retrieval_evidence": "captures/article-scoped-source-conversion-20261030/France/france-legalize-official-verification-2026-10-30/France/derived/fr-code-travail-title-ii-articles-l5221-5-to-l5221-11.md (Monitor local-only archive, SHA-256 1b9a2103aeb9e557b4e337146396edde7320d4ad73d99e9c08e668783b44649b); live official article-by-article verification 2026-10-31 recorded in local-only archive captures/legifrance/France/official-verification/fr-code-travail-l5221-5-to-l5221-11-2026-10-31.json (SHA-256 400a25b65db37c47c447e40db8e3e33404dc816cf1aaa8de955b7cf39dfdebeb)",
       "conversion_rule": "references/legalize-france-markdown-conversion.md",
       "attachments": "Not applicable: the retained statutory section/article is text-only; no source attachment belongs to this scoped record.",
       "limitations": [
@@ -982,8 +982,8 @@
         "The live official Légifrance page is the authority for later versions."
       ],
       "source_document_kind": "official_statutory_text_copy",
-      "local_copy_sha256": "1b9a2103aeb9e557b4e337146396edde7320d4ad73d99e9c08e668783b44649b",
-      "local_copy_bytes": 5879
+      "local_copy_sha256": "105b4c514ef084af25a483cff59033b8981ce700a86492c7bd8d166920fe1785",
+      "local_copy_bytes": 6589
     },
     "fr-code-securite-sociale": {
       "status": "accepted_local_copy",
