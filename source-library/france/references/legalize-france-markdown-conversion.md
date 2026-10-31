@@ -2,7 +2,7 @@
 
 **Document type:** project-authored retrieval and conversion procedure, not a legal source.
 **Jurisdiction:** France.
-**Reviewed:** 2026-10-30.
+**Reviewed:** 2026-10-31.
 
 ## Scope
 
@@ -13,7 +13,7 @@ Apply this procedure when using a pinned Legalize France Markdown archive to ret
 1. Record the Legalize France repository commit and exact file path. Do not use a moving branch as provenance.
 2. Resolve the code by its official Légifrance code identifier, then resolve the exact section and article scope on the official publisher site.
 3. Record the displayed official version cutoff, per-article commencement or amendment note where applicable, and the date checked. Treat the official page as a locator and current-version check, not as a substitute for retaining text where a source copy is required.
-4. Keep the original Legalize snapshot and official response/delta evidence in the Monitor's indexed local-only archive. Record their archive-relative paths and SHA-256 values in the acceptance entry.
+4. Keep the pinned Legalize snapshot and dated official-text comparison evidence in the Monitor's indexed local-only archive. Record their archive-relative paths and SHA-256 values in the acceptance entry. A URL is provenance/version metadata; it does not replace the retained text.
 
 ## Text selection and conversion
 
@@ -34,3 +34,6 @@ Accept a retained copy only after all of these are recorded: official publisher 
 - [Code de l’éducation, Articles L131-1 and L131-1-1](../documents/legislation/fr-code-education-articles-l131-1-and-l131-1-1.md)
 - [Code de la santé publique, Article L1110-3](../documents/legislation/fr-code-sante-publique-article-l1110-3.md)
 - [Code de procédure civile, Article 1166](../documents/legislation/fr-code-procedure-civile-article-1166-adoption.md)
+- [Code de justice administrative, Article R. 312-18](../documents/legislation/fr-cja-r312-18-visa-jurisdiction.md)
+- [Code de justice administrative, Article R. 421-1](../documents/legislation/fr-cja-r421-1-deadline.md)
+- [Code des relations entre le public et l’administration, Article L. 411-1](../documents/legislation/fr-crpa-l411-1-appeals.md)
