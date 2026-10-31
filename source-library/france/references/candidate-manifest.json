@@ -44,7 +44,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 17,
+          "line": 21,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -117,7 +117,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 19,
+          "line": 23,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -177,7 +177,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 20,
+          "line": 24,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -237,7 +237,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 21,
+          "line": 25,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -298,7 +298,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 22,
+          "line": 26,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -374,7 +374,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 23,
+          "line": 27,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -454,7 +454,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 24,
+          "line": 28,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -543,7 +543,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 54,
+          "line": 58,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -632,7 +632,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 55,
+          "line": 59,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -745,7 +745,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 53,
+          "line": 57,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -847,7 +847,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 18,
+          "line": 22,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -930,7 +930,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 32,
+          "line": 36,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -989,7 +989,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 33,
+          "line": 37,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1048,7 +1048,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 34,
+          "line": 38,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1109,7 +1109,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 37,
+          "line": 41,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1180,7 +1180,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 38,
+          "line": 42,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1251,7 +1251,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 57,
+          "line": 61,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1340,7 +1340,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 56,
+          "line": 60,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1388,25 +1388,44 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference"
+        "accepted_external_reference",
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "fr:url:0aa2516dce99b7e09382#url:fr:f41ee8a90407"
+        "fr:url:0aa2516dce99b7e09382#url:fr:263834d0abae",
+        "fr:url:0aa2516dce99b7e09382#url:fr:67440485e74a"
       ],
       "representations": [
         {
           "kind": "official_reference",
           "language": "fr",
-          "edition": "2026-10-29",
+          "edition": "2026-10-21",
           "url": "https://legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006071191",
           "path": null,
-          "representation_id": "fr:url:0aa2516dce99b7e09382#url:fr:f41ee8a90407",
+          "representation_id": "fr:url:0aa2516dce99b7e09382#url:fr:263834d0abae",
           "acceptance_status": [
             "accepted_external_reference"
           ],
           "source_identity_id": "fr:url:0aa2516dce99b7e09382",
           "representation_ids": [
-            "fr:url:0aa2516dce99b7e09382#url:fr:f41ee8a90407"
+            "fr:url:0aa2516dce99b7e09382#url:fr:263834d0abae",
+            "fr:url:0aa2516dce99b7e09382#url:fr:67440485e74a"
+          ]
+        },
+        {
+          "kind": "official_reference",
+          "language": "fr",
+          "edition": "2026-10-21",
+          "url": "https://legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071191/LEGISCTA000006166564",
+          "path": null,
+          "representation_id": "fr:url:0aa2516dce99b7e09382#url:fr:67440485e74a",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:0aa2516dce99b7e09382",
+          "representation_ids": [
+            "fr:url:0aa2516dce99b7e09382#url:fr:263834d0abae",
+            "fr:url:0aa2516dce99b7e09382#url:fr:67440485e74a"
           ]
         }
       ],
@@ -1418,7 +1437,18 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:0aa2516dce99b7e09382",
           "representation_ids": [
-            "fr:url:0aa2516dce99b7e09382#url:fr:f41ee8a90407"
+            "fr:url:0aa2516dce99b7e09382#url:fr:263834d0abae",
+            "fr:url:0aa2516dce99b7e09382#url:fr:67440485e74a"
+          ]
+        },
+        {
+          "path": "references/source-acceptance.json",
+          "json_pointer": "/records/fr-code-education",
+          "category": "acceptance",
+          "source_identity_id": "fr:url:0aa2516dce99b7e09382",
+          "representation_ids": [
+            "fr:url:0aa2516dce99b7e09382#url:fr:263834d0abae",
+            "fr:url:0aa2516dce99b7e09382#url:fr:67440485e74a"
           ]
         }
       ],
@@ -1435,25 +1465,44 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference"
+        "accepted_external_reference",
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "fr:url:ecc38235eb9f4ea1c978#url:fr:ad870ae8339b"
+        "fr:url:ecc38235eb9f4ea1c978#url:fr:055af0db6062",
+        "fr:url:ecc38235eb9f4ea1c978#url:fr:26cf3c13d081"
       ],
       "representations": [
         {
           "kind": "official_reference",
           "language": "fr",
-          "edition": "2026-10-29",
+          "edition": "2026-10-30",
           "url": "https://legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006070716",
           "path": null,
-          "representation_id": "fr:url:ecc38235eb9f4ea1c978#url:fr:ad870ae8339b",
+          "representation_id": "fr:url:ecc38235eb9f4ea1c978#url:fr:055af0db6062",
           "acceptance_status": [
             "accepted_external_reference"
           ],
           "source_identity_id": "fr:url:ecc38235eb9f4ea1c978",
           "representation_ids": [
-            "fr:url:ecc38235eb9f4ea1c978#url:fr:ad870ae8339b"
+            "fr:url:ecc38235eb9f4ea1c978#url:fr:055af0db6062",
+            "fr:url:ecc38235eb9f4ea1c978#url:fr:26cf3c13d081"
+          ]
+        },
+        {
+          "kind": "official_reference",
+          "language": "fr",
+          "edition": "2026-10-30",
+          "url": "https://legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070716/LEGISCTA000006149749",
+          "path": null,
+          "representation_id": "fr:url:ecc38235eb9f4ea1c978#url:fr:26cf3c13d081",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:ecc38235eb9f4ea1c978",
+          "representation_ids": [
+            "fr:url:ecc38235eb9f4ea1c978#url:fr:055af0db6062",
+            "fr:url:ecc38235eb9f4ea1c978#url:fr:26cf3c13d081"
           ]
         }
       ],
@@ -1465,7 +1514,18 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:ecc38235eb9f4ea1c978",
           "representation_ids": [
-            "fr:url:ecc38235eb9f4ea1c978#url:fr:ad870ae8339b"
+            "fr:url:ecc38235eb9f4ea1c978#url:fr:055af0db6062",
+            "fr:url:ecc38235eb9f4ea1c978#url:fr:26cf3c13d081"
+          ]
+        },
+        {
+          "path": "references/source-acceptance.json",
+          "json_pointer": "/records/fr-code-procedure-civile",
+          "category": "acceptance",
+          "source_identity_id": "fr:url:ecc38235eb9f4ea1c978",
+          "representation_ids": [
+            "fr:url:ecc38235eb9f4ea1c978#url:fr:055af0db6062",
+            "fr:url:ecc38235eb9f4ea1c978#url:fr:26cf3c13d081"
           ]
         }
       ],
@@ -1482,25 +1542,44 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference"
+        "accepted_external_reference",
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "fr:url:83514114f393685c7a75#url:fr:ff13655e8cc5"
+        "fr:url:83514114f393685c7a75#url:fr:2e2b5f4087d5",
+        "fr:url:83514114f393685c7a75#url:fr:e2d193632710"
       ],
       "representations": [
         {
           "kind": "official_reference",
           "language": "fr",
-          "edition": "2026-10-18",
+          "edition": "2026-10-28",
+          "url": "https://legifrance.gouv.fr/codes/id/LEGISCTA000006154977",
+          "path": null,
+          "representation_id": "fr:url:83514114f393685c7a75#url:fr:2e2b5f4087d5",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:83514114f393685c7a75",
+          "representation_ids": [
+            "fr:url:83514114f393685c7a75#url:fr:2e2b5f4087d5",
+            "fr:url:83514114f393685c7a75#url:fr:e2d193632710"
+          ]
+        },
+        {
+          "kind": "official_reference",
+          "language": "fr",
+          "edition": "2026-10-28",
           "url": "https://legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072665",
           "path": null,
-          "representation_id": "fr:url:83514114f393685c7a75#url:fr:ff13655e8cc5",
+          "representation_id": "fr:url:83514114f393685c7a75#url:fr:e2d193632710",
           "acceptance_status": [
             "accepted_external_reference"
           ],
           "source_identity_id": "fr:url:83514114f393685c7a75",
           "representation_ids": [
-            "fr:url:83514114f393685c7a75#url:fr:ff13655e8cc5"
+            "fr:url:83514114f393685c7a75#url:fr:2e2b5f4087d5",
+            "fr:url:83514114f393685c7a75#url:fr:e2d193632710"
           ]
         }
       ],
@@ -1512,7 +1591,18 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:83514114f393685c7a75",
           "representation_ids": [
-            "fr:url:83514114f393685c7a75#url:fr:ff13655e8cc5"
+            "fr:url:83514114f393685c7a75#url:fr:2e2b5f4087d5",
+            "fr:url:83514114f393685c7a75#url:fr:e2d193632710"
+          ]
+        },
+        {
+          "path": "references/source-acceptance.json",
+          "json_pointer": "/records/fr-code-sante-publique",
+          "category": "acceptance",
+          "source_identity_id": "fr:url:83514114f393685c7a75",
+          "representation_ids": [
+            "fr:url:83514114f393685c7a75#url:fr:2e2b5f4087d5",
+            "fr:url:83514114f393685c7a75#url:fr:e2d193632710"
           ]
         }
       ],
@@ -1529,25 +1619,44 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference"
+        "accepted_external_reference",
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "fr:url:0fee651cb51f5b94ed38#url:fr:8e3c58f740d3"
+        "fr:url:0fee651cb51f5b94ed38#url:fr:9a9e2723e89a",
+        "fr:url:0fee651cb51f5b94ed38#url:fr:df7d2cd8b269"
       ],
       "representations": [
         {
           "kind": "official_reference",
           "language": "fr",
-          "edition": "2026-10-02",
+          "edition": "2026-10-09",
           "url": "https://legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006073189",
           "path": null,
-          "representation_id": "fr:url:0fee651cb51f5b94ed38#url:fr:8e3c58f740d3",
+          "representation_id": "fr:url:0fee651cb51f5b94ed38#url:fr:9a9e2723e89a",
           "acceptance_status": [
             "accepted_external_reference"
           ],
           "source_identity_id": "fr:url:0fee651cb51f5b94ed38",
           "representation_ids": [
-            "fr:url:0fee651cb51f5b94ed38#url:fr:8e3c58f740d3"
+            "fr:url:0fee651cb51f5b94ed38#url:fr:9a9e2723e89a",
+            "fr:url:0fee651cb51f5b94ed38#url:fr:df7d2cd8b269"
+          ]
+        },
+        {
+          "kind": "official_reference",
+          "language": "fr",
+          "edition": "2026-10-30",
+          "url": "https://legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073189/LEGISCTA000031668675",
+          "path": null,
+          "representation_id": "fr:url:0fee651cb51f5b94ed38#url:fr:df7d2cd8b269",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:0fee651cb51f5b94ed38",
+          "representation_ids": [
+            "fr:url:0fee651cb51f5b94ed38#url:fr:9a9e2723e89a",
+            "fr:url:0fee651cb51f5b94ed38#url:fr:df7d2cd8b269"
           ]
         }
       ],
@@ -1559,7 +1668,18 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:0fee651cb51f5b94ed38",
           "representation_ids": [
-            "fr:url:0fee651cb51f5b94ed38#url:fr:8e3c58f740d3"
+            "fr:url:0fee651cb51f5b94ed38#url:fr:9a9e2723e89a",
+            "fr:url:0fee651cb51f5b94ed38#url:fr:df7d2cd8b269"
+          ]
+        },
+        {
+          "path": "references/source-acceptance.json",
+          "json_pointer": "/records/fr-code-securite-sociale",
+          "category": "acceptance",
+          "source_identity_id": "fr:url:0fee651cb51f5b94ed38",
+          "representation_ids": [
+            "fr:url:0fee651cb51f5b94ed38#url:fr:9a9e2723e89a",
+            "fr:url:0fee651cb51f5b94ed38#url:fr:df7d2cd8b269"
           ]
         }
       ],
@@ -1576,25 +1696,44 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference"
+        "accepted_external_reference",
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "fr:url:a0541676533aa7fc6488#url:fr:f61e3f25bb63"
+        "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
+        "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
       ],
       "representations": [
         {
           "kind": "official_reference",
           "language": "fr",
-          "edition": "2026-06-27",
+          "edition": "2026-10-28",
+          "url": "https://legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006189813",
+          "path": null,
+          "representation_id": "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:a0541676533aa7fc6488",
+          "representation_ids": [
+            "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
+            "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
+          ]
+        },
+        {
+          "kind": "official_reference",
+          "language": "fr",
+          "edition": "2026-10-28",
           "url": "https://legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072050",
           "path": null,
-          "representation_id": "fr:url:a0541676533aa7fc6488#url:fr:f61e3f25bb63",
+          "representation_id": "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc",
           "acceptance_status": [
             "accepted_external_reference"
           ],
           "source_identity_id": "fr:url:a0541676533aa7fc6488",
           "representation_ids": [
-            "fr:url:a0541676533aa7fc6488#url:fr:f61e3f25bb63"
+            "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
+            "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
           ]
         }
       ],
@@ -1606,7 +1745,18 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:a0541676533aa7fc6488",
           "representation_ids": [
-            "fr:url:a0541676533aa7fc6488#url:fr:f61e3f25bb63"
+            "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
+            "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
+          ]
+        },
+        {
+          "path": "references/source-acceptance.json",
+          "json_pointer": "/records/fr-code-travail",
+          "category": "acceptance",
+          "source_identity_id": "fr:url:a0541676533aa7fc6488",
+          "representation_ids": [
+            "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
+            "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
           ]
         }
       ],
@@ -1648,7 +1798,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 61,
+          "line": 65,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1737,7 +1887,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 62,
+          "line": 66,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1810,7 +1960,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 35,
+          "line": 39,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1881,7 +2031,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 36,
+          "line": 40,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -1970,7 +2120,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 52,
+          "line": 56,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2043,7 +2193,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 27,
+          "line": 31,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2114,7 +2264,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 59,
+          "line": 63,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2185,7 +2335,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 58,
+          "line": 62,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2256,7 +2406,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 28,
+          "line": 32,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2327,7 +2477,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 29,
+          "line": 33,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2438,7 +2588,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 42,
+          "line": 46,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2524,7 +2674,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 43,
+          "line": 47,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2585,7 +2735,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 46,
+          "line": 50,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2656,7 +2806,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 45,
+          "line": 49,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2725,7 +2875,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 47,
+          "line": 51,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2786,7 +2936,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 44,
+          "line": 48,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2904,7 +3054,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 64,
+          "line": 68,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -2975,7 +3125,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 31,
+          "line": 35,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3046,7 +3196,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 30,
+          "line": 34,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3119,7 +3269,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 26,
+          "line": 30,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3180,7 +3330,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 48,
+          "line": 52,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3269,7 +3419,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 25,
+          "line": 29,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3454,7 +3604,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 49,
+          "line": 53,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3545,7 +3695,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 39,
+          "line": 43,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3636,7 +3786,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 40,
+          "line": 44,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3727,7 +3877,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 41,
+          "line": 45,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3818,7 +3968,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 63,
+          "line": 67,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -3909,7 +4059,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 51,
+          "line": 55,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -4018,7 +4168,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 50,
+          "line": 54,
           "table_headers": [
             "Candidate ID",
             "Official source",
@@ -4158,7 +4308,7 @@
       "catalogue_references": [
         {
           "path": "references/source-list.md",
-          "line": 60,
+          "line": 64,
           "table_headers": [
             "Candidate ID",
             "Official source",

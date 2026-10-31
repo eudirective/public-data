@@ -122,7 +122,7 @@ Canonical rows: **74**; provisional unique IDs: **74**; unresolved entries: **0*
 | `at-fpg-67` | `at:url:877c844d73ffc231e8f6` | resolved | local_artifact/de/undated<br>official_reference/de/undated | accepted_local_copy | — |
 | `at-fpg-70` | `at:url:f76380048f83e3f8d4c1` | resolved | local_artifact/de/undated<br>official_reference/de/undated | accepted_local_copy | — |
 | `at-guidance-family-card` | `at:url:5de244a9867758827ddd` | resolved | local_artifact/de/undated<br>official_reference/de/undated | accepted_local_copy | — |
-| `at-guidance-family-index` | `at:url:dd9874ffa4bce618e7c8` | resolved | local_artifact/de/undated<br>official_reference/de/undated | pending, discovery | — |
+| `at-guidance-family-index` | `at:url:dd9874ffa4bce618e7c8` | resolved | official_reference/de/undated | discovery | — |
 | `at-guidance-visa-application` | `at:url:951c686a9f44350ef8a3` | resolved | local_artifact/de/undated<br>official_reference/de/undated | accepted_local_copy | — |
 | `at-ifg-1` | `at:url:c4a7a6f4079b654fae36` | resolved | local_artifact/de/undated<br>official_reference/de/undated | accepted_local_copy | — |
 | `at-ifg-10` | `at:url:4c222a887223cb92448e` | resolved | local_artifact/de/undated<br>official_reference/de/undated | accepted_local_copy | — |
