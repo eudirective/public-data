@@ -2334,12 +2334,28 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference"
+        "accepted_external_reference",
+        "accepted_local_copy",
+        "pending"
       ],
       "representation_ids": [
+        "fi:url:651d9576b87a816ddadb#local:fi:1af5b7981aa9",
         "fi:url:651d9576b87a816ddadb#url:fi:b8df93a657ba"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fi",
+          "edition": "2019",
+          "url": null,
+          "path": "documents/legislation/fi-police-personal-data-act-616-2019-current-fi.md",
+          "representation_id": "fi:url:651d9576b87a816ddadb#local:fi:1af5b7981aa9",
+          "acceptance_status": [
+            "accepted_external_reference",
+            "accepted_local_copy",
+            "pending"
+          ]
+        },
         {
           "kind": "official_reference",
           "language": "fi",
@@ -2348,7 +2364,9 @@
           "path": null,
           "representation_id": "fi:url:651d9576b87a816ddadb#url:fi:b8df93a657ba",
           "acceptance_status": [
-            "accepted_external_reference"
+            "accepted_external_reference",
+            "accepted_local_copy",
+            "pending"
           ]
         }
       ],
