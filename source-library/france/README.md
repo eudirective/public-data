@@ -6,6 +6,8 @@
 
 - [Source list and dispositions](references/source-list.md) — the 57-item bounded source inventory, including current dispositions and known retrieval limits.
 - [Source acceptance](references/source-acceptance.json) — accepted local text copies and official URL provenance/locator metadata.
+- [Topic coverage model](references/coverage-model.json) and [coverage register](references/coverage-register.md) — six approved pathways; all remain incomplete.
+- [Source dependency register](references/source-dependencies.json) — partial EU/shared and national dependency map; EEA EFTA and Swiss routes remain distinct and open.
 - [Legalize France conversion rules](references/legalize-france-markdown-conversion.md) — article-scoped Markdown extraction and verification rules.
 - [Sustainability assessment](references/sustainability-assessment.md)
 
