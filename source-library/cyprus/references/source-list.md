@@ -126,7 +126,7 @@ Canonical rows: **90**; provisional unique IDs: **89**; unresolved entries: **1*
 | `cy-access-info-faq` | `cy:url:5ab88d134d5635b2d076` | resolved | official_reference/el/undated | candidate | — |
 | `cy-admin-court-acs-477-2022` | `cy:url:33c0950a7a05ef167648` | resolved | official_reference/el/undated | pending | — |
 | `cy-admin-court-amendment-142i-2025` | `cy:url:563c43513af2d4ea01fd` | resolved | official_reference/el/undated | accepted_external_reference | — |
-| `cy-admin-court-law-lead` | `cy:url:b804605e82dce2d31163` | resolved | local_artifact/el/undated (`documents/guidance/cy-cypriot-family-route-el.md`)<br>local_artifact/unspecified/2015 (`documents/legislation/cy-law-131i-2015-admin-court-articles-3-13-secondary.md`)<br>official_reference/el/undated | accepted_external_reference, accepted_local_copy | — |
+| `cy-admin-court-law-lead` | `cy:url:b804605e82dce2d31163` | resolved | local_artifact/unspecified/2015 (`documents/legislation/cy-law-131i-2015-admin-court-articles-3-13-secondary.md`)<br>official_reference/el/undated | accepted_external_reference, accepted_local_copy | — |
 | `cy-admin-court-nurul-amin-1706-2017` | `cy:url:a90f45830d7af0736b0d` | resolved | official_reference/el/undated | pending | — |
 | `cy-admin-court-rules-index` | `cy:url:bcb18fe4834d26e1b027` | resolved | official_reference/el/undated | accepted_external_reference, discovery | — |
 | `cy-admin-law-office-art146` | `cy:url:e081323eb8d351875317` | resolved | official_reference/en/undated | discovery | — |
@@ -194,19 +194,19 @@ Canonical rows: **90**; provisional unique IDs: **89**; unresolved entries: **1*
 | `cy-mission-athens-example` | `cy:url:2ee00d22dabaecef76cd` | resolved | official_reference/en/undated | candidate | — |
 | `cy-mission-yerevan-example` | `cy:url:6fa78296cec42ea9ac75` | resolved | official_reference/en/undated | candidate | — |
 | `cy-moi-residence-cards-legacy` | `cy:url:775ea80aa5650c497271` | resolved | official_reference/en/undated | candidate | — |
-| `cy-mvis8-criteria` | `cy:url:357eb20a47dc086195a2` | resolved | local_artifact/el/undated (`documents/legislation/cy-protocol-no-10-el.md`)<br>local_artifact/en/undated (`documents/legislation/cy-protocol-no-10-en.md`)<br>official_reference/en/undated | pending, candidate | — |
+| `cy-mvis8-criteria` | `cy:url:357eb20a47dc086195a2` | resolved | official_reference/en/undated | candidate | — |
 | `cy-mvis8-form` | `cy:url:7c55b778c1167dd821a0` | resolved | official_reference/en/undated | candidate | — |
 | `cy-national-vis-pdf` | `cy:url:da69618d94a77ff86e5e` | resolved | official_reference/en/undated | candidate | — |
 | `cy-nlex` | `cy:url:b35be9211e76bb5077b7` | resolved | official_reference/en/undated | discovery | — |
 | `cy-ombudsman-amendment-127i-2022` | `cy:url:a20cbffa37b16be372d3` | resolved | official_reference/el/undated | candidate | — |
 | `cy-ombudsman-complaint-service` | `cy:url:4be66ef0e00db933bc2b` | resolved | official_reference/en/undated | candidate | — |
-| `cy-ombudsman-core` | `cy:url:74887816741e8f599953` | resolved | local_artifact/el/undated (`documents/legislation/cy-protocol-no-10-el.md`)<br>local_artifact/en/undated (`documents/legislation/cy-protocol-no-10-en.md`)<br>official_reference/en/undated | pending, candidate | — |
-| `cy-ombudsman-core-greek` | `cy:url:d78738691c19121b633b` | resolved | local_artifact/el/undated (`documents/guidance/cy-cypriot-family-route-el.md`)<br>official_reference/el/undated | pending, candidate | — |
-| `cy-ombudsman-form` | `cy:url:71d9a2aa6994b71a31d5` | resolved | local_artifact/el/undated (`documents/legislation/cy-protocol-no-10-el.md`)<br>local_artifact/en/undated (`documents/legislation/cy-protocol-no-10-en.md`)<br>official_reference/en/undated | pending, discovery | — |
+| `cy-ombudsman-core` | `cy:url:74887816741e8f599953` | resolved | official_reference/en/undated | candidate | — |
+| `cy-ombudsman-core-greek` | `cy:url:d78738691c19121b633b` | resolved | official_reference/el/undated | candidate | — |
+| `cy-ombudsman-form` | `cy:url:71d9a2aa6994b71a31d5` | resolved | official_reference/en/undated | discovery | — |
 | `cy-ombudsman-laws-consolidation` | `cy:url:63f1ca16cead96202a2b` | resolved | official_reference/en/undated | candidate | — |
 | `cy-protocol-no-10` | `cy:url:1b26ea6f26e10bcd6766` | resolved | local_artifact/el/undated (`documents/legislation/cy-protocol-no-10-el.md`)<br>local_artifact/en/undated (`documents/legislation/cy-protocol-no-10-en.md`)<br>official_reference/en/undated | accepted_external_reference, accepted_local_copy | — |
 | `cy-protocol-no-10-el` | `cy:url:14093ec469a2767a7071` | resolved | local_artifact/el/undated (`documents/legislation/cy-protocol-no-10-el.md`)<br>official_reference/el/undated | accepted_external_reference, accepted_local_copy | — |
-| `cy-scc-edd-215-19` | `cy:url:a1df544d2bf2860a7b24` | resolved | local_artifact/el/undated (`documents/legislation/cy-protocol-no-10-el.md`)<br>local_artifact/en/undated (`documents/legislation/cy-protocol-no-10-en.md`)<br>official_reference/el/undated | accepted_external_reference, accepted_local_copy | — |
+| `cy-scc-edd-215-19` | `cy:url:a1df544d2bf2860a7b24` | resolved | official_reference/el/undated | accepted_external_reference, accepted_local_copy | — |
 | `cy-schengen-status-pdf` | `cy:url:591110cc31ab163fbeee` | resolved | official_reference/en/undated | candidate | — |
 | `cy-supreme-constitutional-court-decisions` | `cy:url:ea2896646789f094b2db` | resolved | official_reference/el/undated<br>official_reference/el/undated | accepted_external_reference | — |
 | `cy-supreme-court-decisions` | `cy:url:88a3c2b6297d8e1a7e32` | resolved | official_reference/el/undated | discovery | — |

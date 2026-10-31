@@ -211,6 +211,8 @@ function sourceListRows(text, filePath) {
       const row=cells(lines[j]); if(!row.length) continue;
       const rawId=(row[0].match(/`([^`]+)`/)||[,row[0]])[1].trim();
       if(!rawId || /^[-—–]$/.test(rawId) || /^(?:id|source id|candidate id)$/i.test(rawId)) continue;
+      // Keep the candidate-manifest disposition visible without treating this tooling file as a legal source identity.
+      if(/^candidate-manifest\.json$/i.test(rawId) && /^candidate id$/i.test(header[0]||'')) continue;
       const cellsByName=Object.fromEntries(tableHeaders.map((name,index)=>[name,row[index]||'']));
       const titleCell=row[tableHeaders.findIndex(name=>/title|official source|source record|source$/.test(name))] || row[1] || rawId;
       const url=[...row.join(' ').matchAll(/https?:\/\/[^\s)\]>|]+/g)].map(m=>m[0].replace(/[.,;]+$/,''))[0]||'';
@@ -405,7 +407,7 @@ async function loadCountry(country, extraDocumentPaths = []) {
     const normalizedId=slug(row.id).toLowerCase();
     for(const absolute of documentFiles) {
       const base=path.basename(absolute,path.extname(absolute)).toLowerCase();
-      const suffix=base.slice(normalizedId.length);
+      const suffix=base.startsWith(`${normalizedId}-`)||base.startsWith(`${normalizedId}_`)?base.slice(normalizedId.length):'';
       const languageSuffix=/^[-_](?:en|fr|nl|de|it|es|pt|sv|fi|da|no|is|hr|cs|sk|sl|el|et|lv|lt|mt|hu|pl|ro|bg)$/i.test(suffix);
       if(base===normalizedId || languageSuffix) {
         const relative=path.relative(ROOT,absolute).split(path.sep).join('/');
@@ -543,9 +545,12 @@ async function main() {
   const write=process.argv.includes('--write');
   const check=process.argv.includes('--check');
   if(!write&&!check) throw new Error('Use --write to generate inventories, or --check to verify them.');
+  const countryArg=process.argv.find(arg=>arg.startsWith('--country='));
+  const selectedCountry=countryArg?countryArg.slice('--country='.length).toLowerCase():'';
+  if(selectedCountry && !Object.hasOwn(ISO,selectedCountry)) throw new Error(`Unknown country: ${selectedCountry}`);
   const extraFileArg=process.argv.find(arg=>arg.startsWith('--extra-document-paths='));
   const extraDocumentMap=extraFileArg?await parseJson(path.resolve(extraFileArg.slice('--extra-document-paths='.length))):{};
-  const countries=Object.keys(ISO);
+  const countries=selectedCountry?[selectedCountry]:Object.keys(ISO);
   const packs=[];
   for(const country of countries) packs.push(await loadCountry(country,extraDocumentMap[country]||[]));
   const mismatches=[];

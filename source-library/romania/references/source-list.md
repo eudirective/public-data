@@ -242,7 +242,7 @@ Canonical rows: **89**; provisional unique IDs: **88**; unresolved entries: **0*
 | `ro-scj-228545` | `ro:url:e659bcab6a90f062c5df` | resolved | local_artifact/ro/undated (`documents/case_law/ro-scj-228545.md`)<br>official_reference/ro/undated | pending, candidate | — |
 | `ro-scj-231772` | `ro:url:32685c85d19fe18ca7ac` | resolved | local_artifact/ro/undated (`documents/case_law/ro-scj-231772.md`)<br>official_reference/ro/undated | pending, candidate | — |
 | `ro-scj-237168` | `ro:url:13cf48d8a59b22d1179a` | resolved | local_artifact/ro/undated (`documents/case_law/ro-scj-237168.md`)<br>official_reference/ro/undated | pending, candidate | — |
-| `ro-scj-60414` | `ro:url:4f2121e047d5635e95fe` | resolved | local_artifact/en/undated (`documents/guidance/ro-eviza-faq-en.md`)<br>local_artifact/ro/undated (`documents/case_law/ro-scj-60414.md`)<br>local_artifact/ro/undated (`documents/guidance/ro-eviza-faq-ro.md`)<br>official_reference/ro/undated | pending, candidate | — |
+| `ro-scj-60414` | `ro:url:4f2121e047d5635e95fe` | resolved | local_artifact/ro/undated (`documents/case_law/ro-scj-60414.md`)<br>official_reference/ro/undated | pending, candidate | — |
 | `ro-www-ccr-ro-home` | `ro:url:5cf6981ca102b99abde0` | resolved | official_reference/ro/undated | discovery | — |
 | `ro-www-cncd-ro-home` | `ro:url:338960f70a721accce05` | resolved | official_reference/ro/undated | candidate | — |
 | `ro-www-dataprotection-ro-home` | `ro:url:a43b4ed818ef90968b75` | resolved | official_reference/ro/undated | candidate | — |

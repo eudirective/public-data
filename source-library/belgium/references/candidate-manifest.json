@@ -884,12 +884,6 @@
         "source_identity_id": "be:url:20211610002bc7f30706",
         "representation_ids": [
           "be:url:20211610002bc7f30706#local:en:3d5c4ca10cc6",
-          "be:url:20211610002bc7f30706#local:fr:32eb1e6aadf0",
-          "be:url:20211610002bc7f30706#local:fr:71c8b056f0a3",
-          "be:url:20211610002bc7f30706#local:fr:e5304443989b",
-          "be:url:20211610002bc7f30706#local:fr:f44b6f96fe6d",
-          "be:url:20211610002bc7f30706#local:nl:5078068fa6ec",
-          "be:url:20211610002bc7f30706#local:nl:639812004b02",
           "be:url:20211610002bc7f30706#local:unspecified:3d5c4ca10cc6",
           "be:url:20211610002bc7f30706#url:en:afb3cbaa1e18"
         ]
@@ -926,12 +920,6 @@
       "source_identity_id": "be:url:20211610002bc7f30706",
       "representation_ids": [
         "be:url:20211610002bc7f30706#local:en:3d5c4ca10cc6",
-        "be:url:20211610002bc7f30706#local:fr:32eb1e6aadf0",
-        "be:url:20211610002bc7f30706#local:fr:71c8b056f0a3",
-        "be:url:20211610002bc7f30706#local:fr:e5304443989b",
-        "be:url:20211610002bc7f30706#local:fr:f44b6f96fe6d",
-        "be:url:20211610002bc7f30706#local:nl:5078068fa6ec",
-        "be:url:20211610002bc7f30706#local:nl:639812004b02",
         "be:url:20211610002bc7f30706#local:unspecified:3d5c4ca10cc6",
         "be:url:20211610002bc7f30706#url:en:afb3cbaa1e18"
       ]
@@ -1211,7 +1199,6 @@
         "page": "privacy-statement-visa",
         "source_identity_id": "be:url:1a01a567611f3946dc07",
         "representation_ids": [
-          "be:url:1a01a567611f3946dc07#local:en:a4b001c7a393",
           "be:url:1a01a567611f3946dc07#url:en:da543076c0a5"
         ]
       },
@@ -1241,7 +1228,6 @@
         "review_date": "2026-10-24",
         "source_identity_id": "be:url:1a01a567611f3946dc07",
         "representation_ids": [
-          "be:url:1a01a567611f3946dc07#local:en:a4b001c7a393",
           "be:url:1a01a567611f3946dc07#url:en:da543076c0a5"
         ]
       },
@@ -1249,7 +1235,6 @@
       "review_state": "link_only_or_manual_follow_up",
       "source_identity_id": "be:url:1a01a567611f3946dc07",
       "representation_ids": [
-        "be:url:1a01a567611f3946dc07#local:en:a4b001c7a393",
         "be:url:1a01a567611f3946dc07#url:en:da543076c0a5"
       ]
     },
@@ -1265,7 +1250,6 @@
         "source_identity_id": "be:url:5f70a53c3c749537880d",
         "representation_ids": [
           "be:url:5f70a53c3c749537880d#local:fr:2592d8eea204",
-          "be:url:5f70a53c3c749537880d#local:nl:0c5f8bc4ac38",
           "be:url:5f70a53c3c749537880d#local:unspecified:2592d8eea204",
           "be:url:5f70a53c3c749537880d#url:fr:a09500f8a40f"
         ]
@@ -1300,7 +1284,6 @@
       "source_identity_id": "be:url:5f70a53c3c749537880d",
       "representation_ids": [
         "be:url:5f70a53c3c749537880d#local:fr:2592d8eea204",
-        "be:url:5f70a53c3c749537880d#local:nl:0c5f8bc4ac38",
         "be:url:5f70a53c3c749537880d#local:unspecified:2592d8eea204",
         "be:url:5f70a53c3c749537880d#url:fr:a09500f8a40f"
       ]
@@ -1565,11 +1548,7 @@
         "NUMAC": "2004009511",
         "source_identity_id": "be:url:4abd2b5105caf3c0552e",
         "representation_ids": [
-          "be:url:4abd2b5105caf3c0552e#local:fr:32eb1e6aadf0",
-          "be:url:4abd2b5105caf3c0552e#local:fr:71c8b056f0a3",
           "be:url:4abd2b5105caf3c0552e#local:fr:e5304443989b",
-          "be:url:4abd2b5105caf3c0552e#local:fr:f44b6f96fe6d",
-          "be:url:4abd2b5105caf3c0552e#local:nl:5078068fa6ec",
           "be:url:4abd2b5105caf3c0552e#local:nl:639812004b02",
           "be:url:4abd2b5105caf3c0552e#local:unspecified:e5304443989b",
           "be:url:4abd2b5105caf3c0552e#url:fr:43c6039250ff"
@@ -1605,11 +1584,7 @@
       "local_copy_review_date": "2026-10-24",
       "source_identity_id": "be:url:4abd2b5105caf3c0552e",
       "representation_ids": [
-        "be:url:4abd2b5105caf3c0552e#local:fr:32eb1e6aadf0",
-        "be:url:4abd2b5105caf3c0552e#local:fr:71c8b056f0a3",
         "be:url:4abd2b5105caf3c0552e#local:fr:e5304443989b",
-        "be:url:4abd2b5105caf3c0552e#local:fr:f44b6f96fe6d",
-        "be:url:4abd2b5105caf3c0552e#local:nl:5078068fa6ec",
         "be:url:4abd2b5105caf3c0552e#local:nl:639812004b02",
         "be:url:4abd2b5105caf3c0552e#local:unspecified:e5304443989b",
         "be:url:4abd2b5105caf3c0552e#url:fr:43c6039250ff"
@@ -1629,7 +1604,6 @@
         "selected_case_in_issue": "320874, 2025-01-30",
         "source_identity_id": "be:url:1cdb3f2ffafc9cf3f7de",
         "representation_ids": [
-          "be:url:1cdb3f2ffafc9cf3f7de#local:en:a4b001c7a393",
           "be:url:1cdb3f2ffafc9cf3f7de#local:fr:ea7bd6ebe1a5",
           "be:url:1cdb3f2ffafc9cf3f7de#local:unspecified:ea7bd6ebe1a5",
           "be:url:1cdb3f2ffafc9cf3f7de#url:fr:08cd7cf72f20"
@@ -1666,7 +1640,6 @@
       "source_text_bytes": 1647953,
       "source_identity_id": "be:url:1cdb3f2ffafc9cf3f7de",
       "representation_ids": [
-        "be:url:1cdb3f2ffafc9cf3f7de#local:en:a4b001c7a393",
         "be:url:1cdb3f2ffafc9cf3f7de#local:fr:ea7bd6ebe1a5",
         "be:url:1cdb3f2ffafc9cf3f7de#local:unspecified:ea7bd6ebe1a5",
         "be:url:1cdb3f2ffafc9cf3f7de#url:fr:08cd7cf72f20"
@@ -1923,7 +1896,6 @@
         "institution": "CADA",
         "source_identity_id": "be:url:b2212126a0c645c2caf0",
         "representation_ids": [
-          "be:url:b2212126a0c645c2caf0#local:en:a4b001c7a393",
           "be:url:b2212126a0c645c2caf0#local:fr:f4acb720c0a0",
           "be:url:b2212126a0c645c2caf0#local:unspecified:f4acb720c0a0",
           "be:url:b2212126a0c645c2caf0#url:fr:1c97721e50dd"
@@ -1959,7 +1931,6 @@
       "local_copy_review_date": "2026-10-24",
       "source_identity_id": "be:url:b2212126a0c645c2caf0",
       "representation_ids": [
-        "be:url:b2212126a0c645c2caf0#local:en:a4b001c7a393",
         "be:url:b2212126a0c645c2caf0#local:fr:f4acb720c0a0",
         "be:url:b2212126a0c645c2caf0#local:unspecified:f4acb720c0a0",
         "be:url:b2212126a0c645c2caf0#url:fr:1c97721e50dd"
@@ -2394,7 +2365,6 @@
         "service": "access to administrative documents",
         "source_identity_id": "be:url:889c418d9fd725c44892",
         "representation_ids": [
-          "be:url:889c418d9fd725c44892#local:en:a4b001c7a393",
           "be:url:889c418d9fd725c44892#url:fr:c9ec36e93eea"
         ]
       },
@@ -2414,7 +2384,6 @@
       "external_reference_scope": "Official COCOF request and review route for documents held by COCOF institutions; not a route for all Brussels or Belgian public authorities.",
       "source_identity_id": "be:url:889c418d9fd725c44892",
       "representation_ids": [
-        "be:url:889c418d9fd725c44892#local:en:a4b001c7a393",
         "be:url:889c418d9fd725c44892#url:fr:c9ec36e93eea"
       ]
     },
@@ -2842,7 +2811,6 @@
       ],
       "representation_ids": [
         "be:url:5f70a53c3c749537880d#local:fr:2592d8eea204",
-        "be:url:5f70a53c3c749537880d#local:nl:0c5f8bc4ac38",
         "be:url:5f70a53c3c749537880d#local:unspecified:2592d8eea204",
         "be:url:5f70a53c3c749537880d#url:fr:a09500f8a40f"
       ],
@@ -2861,25 +2829,6 @@
           "source_identity_id": "be:url:5f70a53c3c749537880d",
           "representation_ids": [
             "be:url:5f70a53c3c749537880d#local:fr:2592d8eea204",
-            "be:url:5f70a53c3c749537880d#local:nl:0c5f8bc4ac38",
-            "be:url:5f70a53c3c749537880d#local:unspecified:2592d8eea204",
-            "be:url:5f70a53c3c749537880d#url:fr:a09500f8a40f"
-          ]
-        },
-        {
-          "kind": "local_artifact",
-          "language": "nl",
-          "edition": "2018",
-          "url": null,
-          "path": "documents/legislation/be-flanders-bestuursdecreet-2018-nl.md",
-          "representation_id": "be:url:5f70a53c3c749537880d#local:nl:0c5f8bc4ac38",
-          "acceptance_status": [
-            "accepted_local_copy"
-          ],
-          "source_identity_id": "be:url:5f70a53c3c749537880d",
-          "representation_ids": [
-            "be:url:5f70a53c3c749537880d#local:fr:2592d8eea204",
-            "be:url:5f70a53c3c749537880d#local:nl:0c5f8bc4ac38",
             "be:url:5f70a53c3c749537880d#local:unspecified:2592d8eea204",
             "be:url:5f70a53c3c749537880d#url:fr:a09500f8a40f"
           ]
@@ -2895,7 +2844,6 @@
           "source_identity_id": "be:url:5f70a53c3c749537880d",
           "representation_ids": [
             "be:url:5f70a53c3c749537880d#local:fr:2592d8eea204",
-            "be:url:5f70a53c3c749537880d#local:nl:0c5f8bc4ac38",
             "be:url:5f70a53c3c749537880d#local:unspecified:2592d8eea204",
             "be:url:5f70a53c3c749537880d#url:fr:a09500f8a40f"
           ]
@@ -2914,7 +2862,6 @@
           "source_identity_id": "be:url:5f70a53c3c749537880d",
           "representation_ids": [
             "be:url:5f70a53c3c749537880d#local:fr:2592d8eea204",
-            "be:url:5f70a53c3c749537880d#local:nl:0c5f8bc4ac38",
             "be:url:5f70a53c3c749537880d#local:unspecified:2592d8eea204",
             "be:url:5f70a53c3c749537880d#url:fr:a09500f8a40f"
           ]
@@ -2927,7 +2874,6 @@
           "source_identity_id": "be:url:5f70a53c3c749537880d",
           "representation_ids": [
             "be:url:5f70a53c3c749537880d#local:fr:2592d8eea204",
-            "be:url:5f70a53c3c749537880d#local:nl:0c5f8bc4ac38",
             "be:url:5f70a53c3c749537880d#local:unspecified:2592d8eea204",
             "be:url:5f70a53c3c749537880d#url:fr:a09500f8a40f"
           ]
@@ -2951,7 +2897,6 @@
           "source_identity_id": "be:url:5f70a53c3c749537880d",
           "representation_ids": [
             "be:url:5f70a53c3c749537880d#local:fr:2592d8eea204",
-            "be:url:5f70a53c3c749537880d#local:nl:0c5f8bc4ac38",
             "be:url:5f70a53c3c749537880d#local:unspecified:2592d8eea204",
             "be:url:5f70a53c3c749537880d#url:fr:a09500f8a40f"
           ]
@@ -2965,7 +2910,6 @@
           "source_identity_id": "be:url:5f70a53c3c749537880d",
           "representation_ids": [
             "be:url:5f70a53c3c749537880d#local:fr:2592d8eea204",
-            "be:url:5f70a53c3c749537880d#local:nl:0c5f8bc4ac38",
             "be:url:5f70a53c3c749537880d#local:unspecified:2592d8eea204",
             "be:url:5f70a53c3c749537880d#url:fr:a09500f8a40f"
           ]
@@ -3434,30 +3378,11 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
-        "be:url:b2212126a0c645c2caf0#local:en:a4b001c7a393",
         "be:url:b2212126a0c645c2caf0#local:fr:f4acb720c0a0",
         "be:url:b2212126a0c645c2caf0#local:unspecified:f4acb720c0a0",
         "be:url:b2212126a0c645c2caf0#url:fr:1c97721e50dd"
       ],
       "representations": [
-        {
-          "kind": "local_artifact",
-          "language": "en",
-          "edition": "undated",
-          "url": null,
-          "path": "documents/guidance/be-visa-competence-matrix-en.pdf",
-          "representation_id": "be:url:b2212126a0c645c2caf0#local:en:a4b001c7a393",
-          "acceptance_status": [
-            "accepted_local_copy"
-          ],
-          "source_identity_id": "be:url:b2212126a0c645c2caf0",
-          "representation_ids": [
-            "be:url:b2212126a0c645c2caf0#local:en:a4b001c7a393",
-            "be:url:b2212126a0c645c2caf0#local:fr:f4acb720c0a0",
-            "be:url:b2212126a0c645c2caf0#local:unspecified:f4acb720c0a0",
-            "be:url:b2212126a0c645c2caf0#url:fr:1c97721e50dd"
-          ]
-        },
         {
           "kind": "local_artifact",
           "language": "fr",
@@ -3471,7 +3396,6 @@
           ],
           "source_identity_id": "be:url:b2212126a0c645c2caf0",
           "representation_ids": [
-            "be:url:b2212126a0c645c2caf0#local:en:a4b001c7a393",
             "be:url:b2212126a0c645c2caf0#local:fr:f4acb720c0a0",
             "be:url:b2212126a0c645c2caf0#local:unspecified:f4acb720c0a0",
             "be:url:b2212126a0c645c2caf0#url:fr:1c97721e50dd"
@@ -3487,7 +3411,6 @@
           "acceptance_status": [],
           "source_identity_id": "be:url:b2212126a0c645c2caf0",
           "representation_ids": [
-            "be:url:b2212126a0c645c2caf0#local:en:a4b001c7a393",
             "be:url:b2212126a0c645c2caf0#local:fr:f4acb720c0a0",
             "be:url:b2212126a0c645c2caf0#local:unspecified:f4acb720c0a0",
             "be:url:b2212126a0c645c2caf0#url:fr:1c97721e50dd"
@@ -3506,7 +3429,6 @@
           ],
           "source_identity_id": "be:url:b2212126a0c645c2caf0",
           "representation_ids": [
-            "be:url:b2212126a0c645c2caf0#local:en:a4b001c7a393",
             "be:url:b2212126a0c645c2caf0#local:fr:f4acb720c0a0",
             "be:url:b2212126a0c645c2caf0#local:unspecified:f4acb720c0a0",
             "be:url:b2212126a0c645c2caf0#url:fr:1c97721e50dd"
@@ -3519,7 +3441,6 @@
           "json_pointer": "/documents/35",
           "source_identity_id": "be:url:b2212126a0c645c2caf0",
           "representation_ids": [
-            "be:url:b2212126a0c645c2caf0#local:en:a4b001c7a393",
             "be:url:b2212126a0c645c2caf0#local:fr:f4acb720c0a0",
             "be:url:b2212126a0c645c2caf0#local:unspecified:f4acb720c0a0",
             "be:url:b2212126a0c645c2caf0#url:fr:1c97721e50dd"
@@ -3543,7 +3464,6 @@
           "category": "catalogue",
           "source_identity_id": "be:url:b2212126a0c645c2caf0",
           "representation_ids": [
-            "be:url:b2212126a0c645c2caf0#local:en:a4b001c7a393",
             "be:url:b2212126a0c645c2caf0#local:fr:f4acb720c0a0",
             "be:url:b2212126a0c645c2caf0#local:unspecified:f4acb720c0a0",
             "be:url:b2212126a0c645c2caf0#url:fr:1c97721e50dd"
@@ -3557,7 +3477,6 @@
           "category": "acceptance",
           "source_identity_id": "be:url:b2212126a0c645c2caf0",
           "representation_ids": [
-            "be:url:b2212126a0c645c2caf0#local:en:a4b001c7a393",
             "be:url:b2212126a0c645c2caf0#local:fr:f4acb720c0a0",
             "be:url:b2212126a0c645c2caf0#local:unspecified:f4acb720c0a0",
             "be:url:b2212126a0c645c2caf0#url:fr:1c97721e50dd"
@@ -3644,30 +3563,12 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference",
-        "pending"
+        "accepted_external_reference"
       ],
       "representation_ids": [
-        "be:url:889c418d9fd725c44892#local:en:a4b001c7a393",
         "be:url:889c418d9fd725c44892#url:fr:c9ec36e93eea"
       ],
       "representations": [
-        {
-          "kind": "local_artifact",
-          "language": "en",
-          "edition": "undated",
-          "url": null,
-          "path": "documents/guidance/be-visa-competence-matrix-en.pdf",
-          "representation_id": "be:url:889c418d9fd725c44892#local:en:a4b001c7a393",
-          "acceptance_status": [
-            "pending"
-          ],
-          "source_identity_id": "be:url:889c418d9fd725c44892",
-          "representation_ids": [
-            "be:url:889c418d9fd725c44892#local:en:a4b001c7a393",
-            "be:url:889c418d9fd725c44892#url:fr:c9ec36e93eea"
-          ]
-        },
         {
           "kind": "official_reference",
           "language": "fr",
@@ -3680,7 +3581,6 @@
           ],
           "source_identity_id": "be:url:889c418d9fd725c44892",
           "representation_ids": [
-            "be:url:889c418d9fd725c44892#local:en:a4b001c7a393",
             "be:url:889c418d9fd725c44892#url:fr:c9ec36e93eea"
           ]
         }
@@ -3691,7 +3591,6 @@
           "json_pointer": "/documents/46",
           "source_identity_id": "be:url:889c418d9fd725c44892",
           "representation_ids": [
-            "be:url:889c418d9fd725c44892#local:en:a4b001c7a393",
             "be:url:889c418d9fd725c44892#url:fr:c9ec36e93eea"
           ]
         },
@@ -3713,7 +3612,6 @@
           "category": "catalogue",
           "source_identity_id": "be:url:889c418d9fd725c44892",
           "representation_ids": [
-            "be:url:889c418d9fd725c44892#local:en:a4b001c7a393",
             "be:url:889c418d9fd725c44892#url:fr:c9ec36e93eea"
           ]
         }
@@ -3736,60 +3634,12 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
-        "be:url:4abd2b5105caf3c0552e#local:fr:32eb1e6aadf0",
-        "be:url:4abd2b5105caf3c0552e#local:fr:71c8b056f0a3",
         "be:url:4abd2b5105caf3c0552e#local:fr:e5304443989b",
-        "be:url:4abd2b5105caf3c0552e#local:fr:f44b6f96fe6d",
-        "be:url:4abd2b5105caf3c0552e#local:nl:5078068fa6ec",
         "be:url:4abd2b5105caf3c0552e#local:nl:639812004b02",
         "be:url:4abd2b5105caf3c0552e#local:unspecified:e5304443989b",
         "be:url:4abd2b5105caf3c0552e#url:fr:43c6039250ff"
       ],
       "representations": [
-        {
-          "kind": "local_artifact",
-          "language": "fr",
-          "edition": "undated",
-          "url": null,
-          "path": "documents/legislation/be-law-1980-fr.md",
-          "representation_id": "be:url:4abd2b5105caf3c0552e#local:fr:32eb1e6aadf0",
-          "acceptance_status": [
-            "accepted_local_copy"
-          ],
-          "source_identity_id": "be:url:4abd2b5105caf3c0552e",
-          "representation_ids": [
-            "be:url:4abd2b5105caf3c0552e#local:fr:32eb1e6aadf0",
-            "be:url:4abd2b5105caf3c0552e#local:fr:71c8b056f0a3",
-            "be:url:4abd2b5105caf3c0552e#local:fr:e5304443989b",
-            "be:url:4abd2b5105caf3c0552e#local:fr:f44b6f96fe6d",
-            "be:url:4abd2b5105caf3c0552e#local:nl:5078068fa6ec",
-            "be:url:4abd2b5105caf3c0552e#local:nl:639812004b02",
-            "be:url:4abd2b5105caf3c0552e#local:unspecified:e5304443989b",
-            "be:url:4abd2b5105caf3c0552e#url:fr:43c6039250ff"
-          ]
-        },
-        {
-          "kind": "local_artifact",
-          "language": "fr",
-          "edition": "undated",
-          "url": null,
-          "path": "documents/forms/be-annex-19-fr.pdf",
-          "representation_id": "be:url:4abd2b5105caf3c0552e#local:fr:71c8b056f0a3",
-          "acceptance_status": [
-            "accepted_local_copy"
-          ],
-          "source_identity_id": "be:url:4abd2b5105caf3c0552e",
-          "representation_ids": [
-            "be:url:4abd2b5105caf3c0552e#local:fr:32eb1e6aadf0",
-            "be:url:4abd2b5105caf3c0552e#local:fr:71c8b056f0a3",
-            "be:url:4abd2b5105caf3c0552e#local:fr:e5304443989b",
-            "be:url:4abd2b5105caf3c0552e#local:fr:f44b6f96fe6d",
-            "be:url:4abd2b5105caf3c0552e#local:nl:5078068fa6ec",
-            "be:url:4abd2b5105caf3c0552e#local:nl:639812004b02",
-            "be:url:4abd2b5105caf3c0552e#local:unspecified:e5304443989b",
-            "be:url:4abd2b5105caf3c0552e#url:fr:43c6039250ff"
-          ]
-        },
         {
           "kind": "local_artifact",
           "language": "fr",
@@ -3803,55 +3653,7 @@
           ],
           "source_identity_id": "be:url:4abd2b5105caf3c0552e",
           "representation_ids": [
-            "be:url:4abd2b5105caf3c0552e#local:fr:32eb1e6aadf0",
-            "be:url:4abd2b5105caf3c0552e#local:fr:71c8b056f0a3",
             "be:url:4abd2b5105caf3c0552e#local:fr:e5304443989b",
-            "be:url:4abd2b5105caf3c0552e#local:fr:f44b6f96fe6d",
-            "be:url:4abd2b5105caf3c0552e#local:nl:5078068fa6ec",
-            "be:url:4abd2b5105caf3c0552e#local:nl:639812004b02",
-            "be:url:4abd2b5105caf3c0552e#local:unspecified:e5304443989b",
-            "be:url:4abd2b5105caf3c0552e#url:fr:43c6039250ff"
-          ]
-        },
-        {
-          "kind": "local_artifact",
-          "language": "fr",
-          "edition": "undated",
-          "url": null,
-          "path": "documents/forms/be-annex-20-fr.pdf",
-          "representation_id": "be:url:4abd2b5105caf3c0552e#local:fr:f44b6f96fe6d",
-          "acceptance_status": [
-            "accepted_local_copy"
-          ],
-          "source_identity_id": "be:url:4abd2b5105caf3c0552e",
-          "representation_ids": [
-            "be:url:4abd2b5105caf3c0552e#local:fr:32eb1e6aadf0",
-            "be:url:4abd2b5105caf3c0552e#local:fr:71c8b056f0a3",
-            "be:url:4abd2b5105caf3c0552e#local:fr:e5304443989b",
-            "be:url:4abd2b5105caf3c0552e#local:fr:f44b6f96fe6d",
-            "be:url:4abd2b5105caf3c0552e#local:nl:5078068fa6ec",
-            "be:url:4abd2b5105caf3c0552e#local:nl:639812004b02",
-            "be:url:4abd2b5105caf3c0552e#local:unspecified:e5304443989b",
-            "be:url:4abd2b5105caf3c0552e#url:fr:43c6039250ff"
-          ]
-        },
-        {
-          "kind": "local_artifact",
-          "language": "nl",
-          "edition": "undated",
-          "url": null,
-          "path": "documents/legislation/be-law-1980-nl.md",
-          "representation_id": "be:url:4abd2b5105caf3c0552e#local:nl:5078068fa6ec",
-          "acceptance_status": [
-            "accepted_local_copy"
-          ],
-          "source_identity_id": "be:url:4abd2b5105caf3c0552e",
-          "representation_ids": [
-            "be:url:4abd2b5105caf3c0552e#local:fr:32eb1e6aadf0",
-            "be:url:4abd2b5105caf3c0552e#local:fr:71c8b056f0a3",
-            "be:url:4abd2b5105caf3c0552e#local:fr:e5304443989b",
-            "be:url:4abd2b5105caf3c0552e#local:fr:f44b6f96fe6d",
-            "be:url:4abd2b5105caf3c0552e#local:nl:5078068fa6ec",
             "be:url:4abd2b5105caf3c0552e#local:nl:639812004b02",
             "be:url:4abd2b5105caf3c0552e#local:unspecified:e5304443989b",
             "be:url:4abd2b5105caf3c0552e#url:fr:43c6039250ff"
@@ -3869,11 +3671,7 @@
           ],
           "source_identity_id": "be:url:4abd2b5105caf3c0552e",
           "representation_ids": [
-            "be:url:4abd2b5105caf3c0552e#local:fr:32eb1e6aadf0",
-            "be:url:4abd2b5105caf3c0552e#local:fr:71c8b056f0a3",
             "be:url:4abd2b5105caf3c0552e#local:fr:e5304443989b",
-            "be:url:4abd2b5105caf3c0552e#local:fr:f44b6f96fe6d",
-            "be:url:4abd2b5105caf3c0552e#local:nl:5078068fa6ec",
             "be:url:4abd2b5105caf3c0552e#local:nl:639812004b02",
             "be:url:4abd2b5105caf3c0552e#local:unspecified:e5304443989b",
             "be:url:4abd2b5105caf3c0552e#url:fr:43c6039250ff"
@@ -3889,11 +3687,7 @@
           "acceptance_status": [],
           "source_identity_id": "be:url:4abd2b5105caf3c0552e",
           "representation_ids": [
-            "be:url:4abd2b5105caf3c0552e#local:fr:32eb1e6aadf0",
-            "be:url:4abd2b5105caf3c0552e#local:fr:71c8b056f0a3",
             "be:url:4abd2b5105caf3c0552e#local:fr:e5304443989b",
-            "be:url:4abd2b5105caf3c0552e#local:fr:f44b6f96fe6d",
-            "be:url:4abd2b5105caf3c0552e#local:nl:5078068fa6ec",
             "be:url:4abd2b5105caf3c0552e#local:nl:639812004b02",
             "be:url:4abd2b5105caf3c0552e#local:unspecified:e5304443989b",
             "be:url:4abd2b5105caf3c0552e#url:fr:43c6039250ff"
@@ -3912,11 +3706,7 @@
           ],
           "source_identity_id": "be:url:4abd2b5105caf3c0552e",
           "representation_ids": [
-            "be:url:4abd2b5105caf3c0552e#local:fr:32eb1e6aadf0",
-            "be:url:4abd2b5105caf3c0552e#local:fr:71c8b056f0a3",
             "be:url:4abd2b5105caf3c0552e#local:fr:e5304443989b",
-            "be:url:4abd2b5105caf3c0552e#local:fr:f44b6f96fe6d",
-            "be:url:4abd2b5105caf3c0552e#local:nl:5078068fa6ec",
             "be:url:4abd2b5105caf3c0552e#local:nl:639812004b02",
             "be:url:4abd2b5105caf3c0552e#local:unspecified:e5304443989b",
             "be:url:4abd2b5105caf3c0552e#url:fr:43c6039250ff"
@@ -3929,11 +3719,7 @@
           "json_pointer": "/documents/29",
           "source_identity_id": "be:url:4abd2b5105caf3c0552e",
           "representation_ids": [
-            "be:url:4abd2b5105caf3c0552e#local:fr:32eb1e6aadf0",
-            "be:url:4abd2b5105caf3c0552e#local:fr:71c8b056f0a3",
             "be:url:4abd2b5105caf3c0552e#local:fr:e5304443989b",
-            "be:url:4abd2b5105caf3c0552e#local:fr:f44b6f96fe6d",
-            "be:url:4abd2b5105caf3c0552e#local:nl:5078068fa6ec",
             "be:url:4abd2b5105caf3c0552e#local:nl:639812004b02",
             "be:url:4abd2b5105caf3c0552e#local:unspecified:e5304443989b",
             "be:url:4abd2b5105caf3c0552e#url:fr:43c6039250ff"
@@ -3957,11 +3743,7 @@
           "category": "catalogue",
           "source_identity_id": "be:url:4abd2b5105caf3c0552e",
           "representation_ids": [
-            "be:url:4abd2b5105caf3c0552e#local:fr:32eb1e6aadf0",
-            "be:url:4abd2b5105caf3c0552e#local:fr:71c8b056f0a3",
             "be:url:4abd2b5105caf3c0552e#local:fr:e5304443989b",
-            "be:url:4abd2b5105caf3c0552e#local:fr:f44b6f96fe6d",
-            "be:url:4abd2b5105caf3c0552e#local:nl:5078068fa6ec",
             "be:url:4abd2b5105caf3c0552e#local:nl:639812004b02",
             "be:url:4abd2b5105caf3c0552e#local:unspecified:e5304443989b",
             "be:url:4abd2b5105caf3c0552e#url:fr:43c6039250ff"
@@ -3975,11 +3757,7 @@
           "category": "acceptance",
           "source_identity_id": "be:url:4abd2b5105caf3c0552e",
           "representation_ids": [
-            "be:url:4abd2b5105caf3c0552e#local:fr:32eb1e6aadf0",
-            "be:url:4abd2b5105caf3c0552e#local:fr:71c8b056f0a3",
             "be:url:4abd2b5105caf3c0552e#local:fr:e5304443989b",
-            "be:url:4abd2b5105caf3c0552e#local:fr:f44b6f96fe6d",
-            "be:url:4abd2b5105caf3c0552e#local:nl:5078068fa6ec",
             "be:url:4abd2b5105caf3c0552e#local:nl:639812004b02",
             "be:url:4abd2b5105caf3c0552e#local:unspecified:e5304443989b",
             "be:url:4abd2b5105caf3c0552e#url:fr:43c6039250ff"
@@ -6701,30 +6479,11 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
-        "be:url:1cdb3f2ffafc9cf3f7de#local:en:a4b001c7a393",
         "be:url:1cdb3f2ffafc9cf3f7de#local:fr:ea7bd6ebe1a5",
         "be:url:1cdb3f2ffafc9cf3f7de#local:unspecified:ea7bd6ebe1a5",
         "be:url:1cdb3f2ffafc9cf3f7de#url:fr:08cd7cf72f20"
       ],
       "representations": [
-        {
-          "kind": "local_artifact",
-          "language": "en",
-          "edition": "undated",
-          "url": null,
-          "path": "documents/guidance/be-visa-competence-matrix-en.pdf",
-          "representation_id": "be:url:1cdb3f2ffafc9cf3f7de#local:en:a4b001c7a393",
-          "acceptance_status": [
-            "accepted_local_copy"
-          ],
-          "source_identity_id": "be:url:1cdb3f2ffafc9cf3f7de",
-          "representation_ids": [
-            "be:url:1cdb3f2ffafc9cf3f7de#local:en:a4b001c7a393",
-            "be:url:1cdb3f2ffafc9cf3f7de#local:fr:ea7bd6ebe1a5",
-            "be:url:1cdb3f2ffafc9cf3f7de#local:unspecified:ea7bd6ebe1a5",
-            "be:url:1cdb3f2ffafc9cf3f7de#url:fr:08cd7cf72f20"
-          ]
-        },
         {
           "kind": "local_artifact",
           "language": "fr",
@@ -6738,7 +6497,6 @@
           ],
           "source_identity_id": "be:url:1cdb3f2ffafc9cf3f7de",
           "representation_ids": [
-            "be:url:1cdb3f2ffafc9cf3f7de#local:en:a4b001c7a393",
             "be:url:1cdb3f2ffafc9cf3f7de#local:fr:ea7bd6ebe1a5",
             "be:url:1cdb3f2ffafc9cf3f7de#local:unspecified:ea7bd6ebe1a5",
             "be:url:1cdb3f2ffafc9cf3f7de#url:fr:08cd7cf72f20"
@@ -6754,7 +6512,6 @@
           "acceptance_status": [],
           "source_identity_id": "be:url:1cdb3f2ffafc9cf3f7de",
           "representation_ids": [
-            "be:url:1cdb3f2ffafc9cf3f7de#local:en:a4b001c7a393",
             "be:url:1cdb3f2ffafc9cf3f7de#local:fr:ea7bd6ebe1a5",
             "be:url:1cdb3f2ffafc9cf3f7de#local:unspecified:ea7bd6ebe1a5",
             "be:url:1cdb3f2ffafc9cf3f7de#url:fr:08cd7cf72f20"
@@ -6773,7 +6530,6 @@
           ],
           "source_identity_id": "be:url:1cdb3f2ffafc9cf3f7de",
           "representation_ids": [
-            "be:url:1cdb3f2ffafc9cf3f7de#local:en:a4b001c7a393",
             "be:url:1cdb3f2ffafc9cf3f7de#local:fr:ea7bd6ebe1a5",
             "be:url:1cdb3f2ffafc9cf3f7de#local:unspecified:ea7bd6ebe1a5",
             "be:url:1cdb3f2ffafc9cf3f7de#url:fr:08cd7cf72f20"
@@ -6786,7 +6542,6 @@
           "json_pointer": "/documents/30",
           "source_identity_id": "be:url:1cdb3f2ffafc9cf3f7de",
           "representation_ids": [
-            "be:url:1cdb3f2ffafc9cf3f7de#local:en:a4b001c7a393",
             "be:url:1cdb3f2ffafc9cf3f7de#local:fr:ea7bd6ebe1a5",
             "be:url:1cdb3f2ffafc9cf3f7de#local:unspecified:ea7bd6ebe1a5",
             "be:url:1cdb3f2ffafc9cf3f7de#url:fr:08cd7cf72f20"
@@ -6810,7 +6565,6 @@
           "category": "catalogue",
           "source_identity_id": "be:url:1cdb3f2ffafc9cf3f7de",
           "representation_ids": [
-            "be:url:1cdb3f2ffafc9cf3f7de#local:en:a4b001c7a393",
             "be:url:1cdb3f2ffafc9cf3f7de#local:fr:ea7bd6ebe1a5",
             "be:url:1cdb3f2ffafc9cf3f7de#local:unspecified:ea7bd6ebe1a5",
             "be:url:1cdb3f2ffafc9cf3f7de#url:fr:08cd7cf72f20"
@@ -6824,7 +6578,6 @@
           "category": "acceptance",
           "source_identity_id": "be:url:1cdb3f2ffafc9cf3f7de",
           "representation_ids": [
-            "be:url:1cdb3f2ffafc9cf3f7de#local:en:a4b001c7a393",
             "be:url:1cdb3f2ffafc9cf3f7de#local:fr:ea7bd6ebe1a5",
             "be:url:1cdb3f2ffafc9cf3f7de#local:unspecified:ea7bd6ebe1a5",
             "be:url:1cdb3f2ffafc9cf3f7de#url:fr:08cd7cf72f20"
@@ -7337,12 +7090,6 @@
       ],
       "representation_ids": [
         "be:url:20211610002bc7f30706#local:en:3d5c4ca10cc6",
-        "be:url:20211610002bc7f30706#local:fr:32eb1e6aadf0",
-        "be:url:20211610002bc7f30706#local:fr:71c8b056f0a3",
-        "be:url:20211610002bc7f30706#local:fr:e5304443989b",
-        "be:url:20211610002bc7f30706#local:fr:f44b6f96fe6d",
-        "be:url:20211610002bc7f30706#local:nl:5078068fa6ec",
-        "be:url:20211610002bc7f30706#local:nl:639812004b02",
         "be:url:20211610002bc7f30706#local:unspecified:3d5c4ca10cc6",
         "be:url:20211610002bc7f30706#url:en:afb3cbaa1e18"
       ],
@@ -7361,150 +7108,6 @@
           "source_identity_id": "be:url:20211610002bc7f30706",
           "representation_ids": [
             "be:url:20211610002bc7f30706#local:en:3d5c4ca10cc6",
-            "be:url:20211610002bc7f30706#local:fr:32eb1e6aadf0",
-            "be:url:20211610002bc7f30706#local:fr:71c8b056f0a3",
-            "be:url:20211610002bc7f30706#local:fr:e5304443989b",
-            "be:url:20211610002bc7f30706#local:fr:f44b6f96fe6d",
-            "be:url:20211610002bc7f30706#local:nl:5078068fa6ec",
-            "be:url:20211610002bc7f30706#local:nl:639812004b02",
-            "be:url:20211610002bc7f30706#local:unspecified:3d5c4ca10cc6",
-            "be:url:20211610002bc7f30706#url:en:afb3cbaa1e18"
-          ]
-        },
-        {
-          "kind": "local_artifact",
-          "language": "fr",
-          "edition": "undated",
-          "url": null,
-          "path": "documents/legislation/be-law-1980-fr.md",
-          "representation_id": "be:url:20211610002bc7f30706#local:fr:32eb1e6aadf0",
-          "acceptance_status": [
-            "accepted_local_copy"
-          ],
-          "source_identity_id": "be:url:20211610002bc7f30706",
-          "representation_ids": [
-            "be:url:20211610002bc7f30706#local:en:3d5c4ca10cc6",
-            "be:url:20211610002bc7f30706#local:fr:32eb1e6aadf0",
-            "be:url:20211610002bc7f30706#local:fr:71c8b056f0a3",
-            "be:url:20211610002bc7f30706#local:fr:e5304443989b",
-            "be:url:20211610002bc7f30706#local:fr:f44b6f96fe6d",
-            "be:url:20211610002bc7f30706#local:nl:5078068fa6ec",
-            "be:url:20211610002bc7f30706#local:nl:639812004b02",
-            "be:url:20211610002bc7f30706#local:unspecified:3d5c4ca10cc6",
-            "be:url:20211610002bc7f30706#url:en:afb3cbaa1e18"
-          ]
-        },
-        {
-          "kind": "local_artifact",
-          "language": "fr",
-          "edition": "undated",
-          "url": null,
-          "path": "documents/forms/be-annex-19-fr.pdf",
-          "representation_id": "be:url:20211610002bc7f30706#local:fr:71c8b056f0a3",
-          "acceptance_status": [
-            "accepted_local_copy"
-          ],
-          "source_identity_id": "be:url:20211610002bc7f30706",
-          "representation_ids": [
-            "be:url:20211610002bc7f30706#local:en:3d5c4ca10cc6",
-            "be:url:20211610002bc7f30706#local:fr:32eb1e6aadf0",
-            "be:url:20211610002bc7f30706#local:fr:71c8b056f0a3",
-            "be:url:20211610002bc7f30706#local:fr:e5304443989b",
-            "be:url:20211610002bc7f30706#local:fr:f44b6f96fe6d",
-            "be:url:20211610002bc7f30706#local:nl:5078068fa6ec",
-            "be:url:20211610002bc7f30706#local:nl:639812004b02",
-            "be:url:20211610002bc7f30706#local:unspecified:3d5c4ca10cc6",
-            "be:url:20211610002bc7f30706#url:en:afb3cbaa1e18"
-          ]
-        },
-        {
-          "kind": "local_artifact",
-          "language": "fr",
-          "edition": "undated",
-          "url": null,
-          "path": "documents/legislation/be-code-pil-fr.md",
-          "representation_id": "be:url:20211610002bc7f30706#local:fr:e5304443989b",
-          "acceptance_status": [
-            "accepted_local_copy"
-          ],
-          "source_identity_id": "be:url:20211610002bc7f30706",
-          "representation_ids": [
-            "be:url:20211610002bc7f30706#local:en:3d5c4ca10cc6",
-            "be:url:20211610002bc7f30706#local:fr:32eb1e6aadf0",
-            "be:url:20211610002bc7f30706#local:fr:71c8b056f0a3",
-            "be:url:20211610002bc7f30706#local:fr:e5304443989b",
-            "be:url:20211610002bc7f30706#local:fr:f44b6f96fe6d",
-            "be:url:20211610002bc7f30706#local:nl:5078068fa6ec",
-            "be:url:20211610002bc7f30706#local:nl:639812004b02",
-            "be:url:20211610002bc7f30706#local:unspecified:3d5c4ca10cc6",
-            "be:url:20211610002bc7f30706#url:en:afb3cbaa1e18"
-          ]
-        },
-        {
-          "kind": "local_artifact",
-          "language": "fr",
-          "edition": "undated",
-          "url": null,
-          "path": "documents/forms/be-annex-20-fr.pdf",
-          "representation_id": "be:url:20211610002bc7f30706#local:fr:f44b6f96fe6d",
-          "acceptance_status": [
-            "accepted_local_copy"
-          ],
-          "source_identity_id": "be:url:20211610002bc7f30706",
-          "representation_ids": [
-            "be:url:20211610002bc7f30706#local:en:3d5c4ca10cc6",
-            "be:url:20211610002bc7f30706#local:fr:32eb1e6aadf0",
-            "be:url:20211610002bc7f30706#local:fr:71c8b056f0a3",
-            "be:url:20211610002bc7f30706#local:fr:e5304443989b",
-            "be:url:20211610002bc7f30706#local:fr:f44b6f96fe6d",
-            "be:url:20211610002bc7f30706#local:nl:5078068fa6ec",
-            "be:url:20211610002bc7f30706#local:nl:639812004b02",
-            "be:url:20211610002bc7f30706#local:unspecified:3d5c4ca10cc6",
-            "be:url:20211610002bc7f30706#url:en:afb3cbaa1e18"
-          ]
-        },
-        {
-          "kind": "local_artifact",
-          "language": "nl",
-          "edition": "undated",
-          "url": null,
-          "path": "documents/legislation/be-law-1980-nl.md",
-          "representation_id": "be:url:20211610002bc7f30706#local:nl:5078068fa6ec",
-          "acceptance_status": [
-            "accepted_local_copy"
-          ],
-          "source_identity_id": "be:url:20211610002bc7f30706",
-          "representation_ids": [
-            "be:url:20211610002bc7f30706#local:en:3d5c4ca10cc6",
-            "be:url:20211610002bc7f30706#local:fr:32eb1e6aadf0",
-            "be:url:20211610002bc7f30706#local:fr:71c8b056f0a3",
-            "be:url:20211610002bc7f30706#local:fr:e5304443989b",
-            "be:url:20211610002bc7f30706#local:fr:f44b6f96fe6d",
-            "be:url:20211610002bc7f30706#local:nl:5078068fa6ec",
-            "be:url:20211610002bc7f30706#local:nl:639812004b02",
-            "be:url:20211610002bc7f30706#local:unspecified:3d5c4ca10cc6",
-            "be:url:20211610002bc7f30706#url:en:afb3cbaa1e18"
-          ]
-        },
-        {
-          "kind": "local_artifact",
-          "language": "nl",
-          "edition": "undated",
-          "url": null,
-          "path": "documents/legislation/be-code-pil-nl.md",
-          "representation_id": "be:url:20211610002bc7f30706#local:nl:639812004b02",
-          "acceptance_status": [
-            "accepted_local_copy"
-          ],
-          "source_identity_id": "be:url:20211610002bc7f30706",
-          "representation_ids": [
-            "be:url:20211610002bc7f30706#local:en:3d5c4ca10cc6",
-            "be:url:20211610002bc7f30706#local:fr:32eb1e6aadf0",
-            "be:url:20211610002bc7f30706#local:fr:71c8b056f0a3",
-            "be:url:20211610002bc7f30706#local:fr:e5304443989b",
-            "be:url:20211610002bc7f30706#local:fr:f44b6f96fe6d",
-            "be:url:20211610002bc7f30706#local:nl:5078068fa6ec",
-            "be:url:20211610002bc7f30706#local:nl:639812004b02",
             "be:url:20211610002bc7f30706#local:unspecified:3d5c4ca10cc6",
             "be:url:20211610002bc7f30706#url:en:afb3cbaa1e18"
           ]
@@ -7520,12 +7123,6 @@
           "source_identity_id": "be:url:20211610002bc7f30706",
           "representation_ids": [
             "be:url:20211610002bc7f30706#local:en:3d5c4ca10cc6",
-            "be:url:20211610002bc7f30706#local:fr:32eb1e6aadf0",
-            "be:url:20211610002bc7f30706#local:fr:71c8b056f0a3",
-            "be:url:20211610002bc7f30706#local:fr:e5304443989b",
-            "be:url:20211610002bc7f30706#local:fr:f44b6f96fe6d",
-            "be:url:20211610002bc7f30706#local:nl:5078068fa6ec",
-            "be:url:20211610002bc7f30706#local:nl:639812004b02",
             "be:url:20211610002bc7f30706#local:unspecified:3d5c4ca10cc6",
             "be:url:20211610002bc7f30706#url:en:afb3cbaa1e18"
           ]
@@ -7544,12 +7141,6 @@
           "source_identity_id": "be:url:20211610002bc7f30706",
           "representation_ids": [
             "be:url:20211610002bc7f30706#local:en:3d5c4ca10cc6",
-            "be:url:20211610002bc7f30706#local:fr:32eb1e6aadf0",
-            "be:url:20211610002bc7f30706#local:fr:71c8b056f0a3",
-            "be:url:20211610002bc7f30706#local:fr:e5304443989b",
-            "be:url:20211610002bc7f30706#local:fr:f44b6f96fe6d",
-            "be:url:20211610002bc7f30706#local:nl:5078068fa6ec",
-            "be:url:20211610002bc7f30706#local:nl:639812004b02",
             "be:url:20211610002bc7f30706#local:unspecified:3d5c4ca10cc6",
             "be:url:20211610002bc7f30706#url:en:afb3cbaa1e18"
           ]
@@ -7562,12 +7153,6 @@
           "source_identity_id": "be:url:20211610002bc7f30706",
           "representation_ids": [
             "be:url:20211610002bc7f30706#local:en:3d5c4ca10cc6",
-            "be:url:20211610002bc7f30706#local:fr:32eb1e6aadf0",
-            "be:url:20211610002bc7f30706#local:fr:71c8b056f0a3",
-            "be:url:20211610002bc7f30706#local:fr:e5304443989b",
-            "be:url:20211610002bc7f30706#local:fr:f44b6f96fe6d",
-            "be:url:20211610002bc7f30706#local:nl:5078068fa6ec",
-            "be:url:20211610002bc7f30706#local:nl:639812004b02",
             "be:url:20211610002bc7f30706#local:unspecified:3d5c4ca10cc6",
             "be:url:20211610002bc7f30706#url:en:afb3cbaa1e18"
           ]
@@ -7591,12 +7176,6 @@
           "source_identity_id": "be:url:20211610002bc7f30706",
           "representation_ids": [
             "be:url:20211610002bc7f30706#local:en:3d5c4ca10cc6",
-            "be:url:20211610002bc7f30706#local:fr:32eb1e6aadf0",
-            "be:url:20211610002bc7f30706#local:fr:71c8b056f0a3",
-            "be:url:20211610002bc7f30706#local:fr:e5304443989b",
-            "be:url:20211610002bc7f30706#local:fr:f44b6f96fe6d",
-            "be:url:20211610002bc7f30706#local:nl:5078068fa6ec",
-            "be:url:20211610002bc7f30706#local:nl:639812004b02",
             "be:url:20211610002bc7f30706#local:unspecified:3d5c4ca10cc6",
             "be:url:20211610002bc7f30706#url:en:afb3cbaa1e18"
           ]
@@ -7610,12 +7189,6 @@
           "source_identity_id": "be:url:20211610002bc7f30706",
           "representation_ids": [
             "be:url:20211610002bc7f30706#local:en:3d5c4ca10cc6",
-            "be:url:20211610002bc7f30706#local:fr:32eb1e6aadf0",
-            "be:url:20211610002bc7f30706#local:fr:71c8b056f0a3",
-            "be:url:20211610002bc7f30706#local:fr:e5304443989b",
-            "be:url:20211610002bc7f30706#local:fr:f44b6f96fe6d",
-            "be:url:20211610002bc7f30706#local:nl:5078068fa6ec",
-            "be:url:20211610002bc7f30706#local:nl:639812004b02",
             "be:url:20211610002bc7f30706#local:unspecified:3d5c4ca10cc6",
             "be:url:20211610002bc7f30706#url:en:afb3cbaa1e18"
           ]
@@ -7639,26 +7212,9 @@
         "historical"
       ],
       "representation_ids": [
-        "be:url:1a01a567611f3946dc07#local:en:a4b001c7a393",
         "be:url:1a01a567611f3946dc07#url:en:da543076c0a5"
       ],
       "representations": [
-        {
-          "kind": "local_artifact",
-          "language": "en",
-          "edition": "undated",
-          "url": null,
-          "path": "documents/guidance/be-visa-competence-matrix-en.pdf",
-          "representation_id": "be:url:1a01a567611f3946dc07#local:en:a4b001c7a393",
-          "acceptance_status": [
-            "pending"
-          ],
-          "source_identity_id": "be:url:1a01a567611f3946dc07",
-          "representation_ids": [
-            "be:url:1a01a567611f3946dc07#local:en:a4b001c7a393",
-            "be:url:1a01a567611f3946dc07#url:en:da543076c0a5"
-          ]
-        },
         {
           "kind": "official_reference",
           "language": "en",
@@ -7672,7 +7228,6 @@
           ],
           "source_identity_id": "be:url:1a01a567611f3946dc07",
           "representation_ids": [
-            "be:url:1a01a567611f3946dc07#local:en:a4b001c7a393",
             "be:url:1a01a567611f3946dc07#url:en:da543076c0a5"
           ]
         }
@@ -7683,7 +7238,6 @@
           "json_pointer": "/documents/22",
           "source_identity_id": "be:url:1a01a567611f3946dc07",
           "representation_ids": [
-            "be:url:1a01a567611f3946dc07#local:en:a4b001c7a393",
             "be:url:1a01a567611f3946dc07#url:en:da543076c0a5"
           ]
         },
@@ -7705,7 +7259,6 @@
           "category": "catalogue",
           "source_identity_id": "be:url:1a01a567611f3946dc07",
           "representation_ids": [
-            "be:url:1a01a567611f3946dc07#local:en:a4b001c7a393",
             "be:url:1a01a567611f3946dc07#url:en:da543076c0a5"
           ]
         }
