@@ -920,7 +920,6 @@
         "record": "Family member residence card guidance",
         "source_identity_id": "fi:url:ab236f0863ddce5c1016",
         "representation_ids": [
-          "fi:url:ab236f0863ddce5c1016#local:fi:ee6965a95552",
           "fi:url:ab236f0863ddce5c1016#url:en:15dfd19983ab",
           "fi:url:ab236f0863ddce5c1016#url:fi:1fe988728f4c"
         ]
@@ -935,7 +934,6 @@
       "accepted": false,
       "source_identity_id": "fi:url:ab236f0863ddce5c1016",
       "representation_ids": [
-        "fi:url:ab236f0863ddce5c1016#local:fi:ee6965a95552",
         "fi:url:ab236f0863ddce5c1016#url:en:15dfd19983ab",
         "fi:url:ab236f0863ddce5c1016#url:fi:1fe988728f4c"
       ]
@@ -3698,34 +3696,14 @@
       "identity_resolution_status": "unresolved",
       "identity_resolution_basis": "official URL is shared by distinct catalogue IDs with different titles",
       "status_categories": [
-        "accepted_external_reference",
-        "pending"
+        "accepted_external_reference"
       ],
       "representation_ids": [
-        "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#local:fi:ee6965a95552",
         "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:en:479f0d7d1957",
         "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:fi:5d3164ee680d",
         "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:sv:1ad7ec0e55bc"
       ],
       "representations": [
-        {
-          "kind": "local_artifact",
-          "language": "fi",
-          "edition": "2004",
-          "url": null,
-          "path": "documents/legislation/fi-aliens-act-301-2004-current-fi.md",
-          "representation_id": "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#local:fi:ee6965a95552",
-          "acceptance_status": [
-            "pending"
-          ],
-          "source_identity_id": "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb",
-          "representation_ids": [
-            "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#local:fi:ee6965a95552",
-            "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:en:479f0d7d1957",
-            "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:fi:5d3164ee680d",
-            "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:sv:1ad7ec0e55bc"
-          ]
-        },
         {
           "kind": "official_reference",
           "language": "en",
@@ -3738,7 +3716,6 @@
           ],
           "source_identity_id": "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb",
           "representation_ids": [
-            "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#local:fi:ee6965a95552",
             "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:en:479f0d7d1957",
             "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:fi:5d3164ee680d",
             "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:sv:1ad7ec0e55bc"
@@ -3756,7 +3733,6 @@
           ],
           "source_identity_id": "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb",
           "representation_ids": [
-            "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#local:fi:ee6965a95552",
             "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:en:479f0d7d1957",
             "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:fi:5d3164ee680d",
             "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:sv:1ad7ec0e55bc"
@@ -3774,7 +3750,6 @@
           ],
           "source_identity_id": "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb",
           "representation_ids": [
-            "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#local:fi:ee6965a95552",
             "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:en:479f0d7d1957",
             "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:fi:5d3164ee680d",
             "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:sv:1ad7ec0e55bc"
@@ -3787,7 +3762,6 @@
           "json_pointer": "/sources/37",
           "source_identity_id": "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb",
           "representation_ids": [
-            "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#local:fi:ee6965a95552",
             "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:en:479f0d7d1957",
             "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:fi:5d3164ee680d",
             "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:sv:1ad7ec0e55bc"
@@ -3801,7 +3775,6 @@
           "category": "acceptance",
           "source_identity_id": "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb",
           "representation_ids": [
-            "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#local:fi:ee6965a95552",
             "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:en:479f0d7d1957",
             "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:fi:5d3164ee680d",
             "fi:ambiguous:fi-migri-eu-family-finder-step:c306cee80dbb#url:sv:1ad7ec0e55bc"
@@ -4207,32 +4180,13 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference",
-        "pending"
+        "accepted_external_reference"
       ],
       "representation_ids": [
-        "fi:url:ab236f0863ddce5c1016#local:fi:ee6965a95552",
         "fi:url:ab236f0863ddce5c1016#url:en:15dfd19983ab",
         "fi:url:ab236f0863ddce5c1016#url:fi:1fe988728f4c"
       ],
       "representations": [
-        {
-          "kind": "local_artifact",
-          "language": "fi",
-          "edition": "2004",
-          "url": null,
-          "path": "documents/legislation/fi-aliens-act-301-2004-current-fi.md",
-          "representation_id": "fi:url:ab236f0863ddce5c1016#local:fi:ee6965a95552",
-          "acceptance_status": [
-            "pending"
-          ],
-          "source_identity_id": "fi:url:ab236f0863ddce5c1016",
-          "representation_ids": [
-            "fi:url:ab236f0863ddce5c1016#local:fi:ee6965a95552",
-            "fi:url:ab236f0863ddce5c1016#url:en:15dfd19983ab",
-            "fi:url:ab236f0863ddce5c1016#url:fi:1fe988728f4c"
-          ]
-        },
         {
           "kind": "official_reference",
           "language": "en",
@@ -4243,7 +4197,6 @@
           "acceptance_status": [],
           "source_identity_id": "fi:url:ab236f0863ddce5c1016",
           "representation_ids": [
-            "fi:url:ab236f0863ddce5c1016#local:fi:ee6965a95552",
             "fi:url:ab236f0863ddce5c1016#url:en:15dfd19983ab",
             "fi:url:ab236f0863ddce5c1016#url:fi:1fe988728f4c"
           ]
@@ -4258,7 +4211,6 @@
           "acceptance_status": [],
           "source_identity_id": "fi:url:ab236f0863ddce5c1016",
           "representation_ids": [
-            "fi:url:ab236f0863ddce5c1016#local:fi:ee6965a95552",
             "fi:url:ab236f0863ddce5c1016#url:en:15dfd19983ab",
             "fi:url:ab236f0863ddce5c1016#url:fi:1fe988728f4c"
           ]
@@ -4270,7 +4222,6 @@
           "json_pointer": "/documents/17",
           "source_identity_id": "fi:url:ab236f0863ddce5c1016",
           "representation_ids": [
-            "fi:url:ab236f0863ddce5c1016#local:fi:ee6965a95552",
             "fi:url:ab236f0863ddce5c1016#url:en:15dfd19983ab",
             "fi:url:ab236f0863ddce5c1016#url:fi:1fe988728f4c"
           ]
@@ -4280,7 +4231,6 @@
           "json_pointer": "/sources/17",
           "source_identity_id": "fi:url:ab236f0863ddce5c1016",
           "representation_ids": [
-            "fi:url:ab236f0863ddce5c1016#local:fi:ee6965a95552",
             "fi:url:ab236f0863ddce5c1016#url:en:15dfd19983ab",
             "fi:url:ab236f0863ddce5c1016#url:fi:1fe988728f4c"
           ]
@@ -4293,7 +4243,6 @@
           "category": "acceptance",
           "source_identity_id": "fi:url:ab236f0863ddce5c1016",
           "representation_ids": [
-            "fi:url:ab236f0863ddce5c1016#local:fi:ee6965a95552",
             "fi:url:ab236f0863ddce5c1016#url:en:15dfd19983ab",
             "fi:url:ab236f0863ddce5c1016#url:fi:1fe988728f4c"
           ]

@@ -697,7 +697,6 @@
       "source_identity_id": "be:url:5f70a53c3c749537880d",
       "representation_ids": [
         "be:url:5f70a53c3c749537880d#local:fr:2592d8eea204",
-        "be:url:5f70a53c3c749537880d#local:nl:0c5f8bc4ac38",
         "be:url:5f70a53c3c749537880d#local:unspecified:2592d8eea204",
         "be:url:5f70a53c3c749537880d#url:fr:a09500f8a40f"
       ],
@@ -744,7 +743,6 @@
     "be-brussels-cada-guidance": {
       "source_identity_id": "be:url:b2212126a0c645c2caf0",
       "representation_ids": [
-        "be:url:b2212126a0c645c2caf0#local:en:a4b001c7a393",
         "be:url:b2212126a0c645c2caf0#local:fr:f4acb720c0a0",
         "be:url:b2212126a0c645c2caf0#local:unspecified:f4acb720c0a0",
         "be:url:b2212126a0c645c2caf0#url:fr:1c97721e50dd"
@@ -761,7 +759,6 @@
     "be-cocof-access-procedure": {
       "source_identity_id": "be:url:889c418d9fd725c44892",
       "representation_ids": [
-        "be:url:889c418d9fd725c44892#local:en:a4b001c7a393",
         "be:url:889c418d9fd725c44892#url:fr:c9ec36e93eea"
       ],
       "identity_resolution_status": "resolved"
@@ -769,11 +766,7 @@
     "be-code-pil": {
       "source_identity_id": "be:url:4abd2b5105caf3c0552e",
       "representation_ids": [
-        "be:url:4abd2b5105caf3c0552e#local:fr:32eb1e6aadf0",
-        "be:url:4abd2b5105caf3c0552e#local:fr:71c8b056f0a3",
         "be:url:4abd2b5105caf3c0552e#local:fr:e5304443989b",
-        "be:url:4abd2b5105caf3c0552e#local:fr:f44b6f96fe6d",
-        "be:url:4abd2b5105caf3c0552e#local:nl:5078068fa6ec",
         "be:url:4abd2b5105caf3c0552e#local:nl:639812004b02",
         "be:url:4abd2b5105caf3c0552e#local:unspecified:e5304443989b",
         "be:url:4abd2b5105caf3c0552e#url:fr:43c6039250ff"
@@ -1009,7 +1002,6 @@
     "be-rvv-case-sample-320874": {
       "source_identity_id": "be:url:1cdb3f2ffafc9cf3f7de",
       "representation_ids": [
-        "be:url:1cdb3f2ffafc9cf3f7de#local:en:a4b001c7a393",
         "be:url:1cdb3f2ffafc9cf3f7de#local:fr:ea7bd6ebe1a5",
         "be:url:1cdb3f2ffafc9cf3f7de#local:unspecified:ea7bd6ebe1a5",
         "be:url:1cdb3f2ffafc9cf3f7de#url:fr:08cd7cf72f20"
@@ -1056,12 +1048,6 @@
       "source_identity_id": "be:url:20211610002bc7f30706",
       "representation_ids": [
         "be:url:20211610002bc7f30706#local:en:3d5c4ca10cc6",
-        "be:url:20211610002bc7f30706#local:fr:32eb1e6aadf0",
-        "be:url:20211610002bc7f30706#local:fr:71c8b056f0a3",
-        "be:url:20211610002bc7f30706#local:fr:e5304443989b",
-        "be:url:20211610002bc7f30706#local:fr:f44b6f96fe6d",
-        "be:url:20211610002bc7f30706#local:nl:5078068fa6ec",
-        "be:url:20211610002bc7f30706#local:nl:639812004b02",
         "be:url:20211610002bc7f30706#local:unspecified:3d5c4ca10cc6",
         "be:url:20211610002bc7f30706#url:en:afb3cbaa1e18"
       ],
@@ -1070,7 +1056,6 @@
     "be-visa-privacy-statement": {
       "source_identity_id": "be:url:1a01a567611f3946dc07",
       "representation_ids": [
-        "be:url:1a01a567611f3946dc07#local:en:a4b001c7a393",
         "be:url:1a01a567611f3946dc07#url:en:da543076c0a5"
       ],
       "identity_resolution_status": "resolved"
