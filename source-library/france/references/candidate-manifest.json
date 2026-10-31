@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "jurisdiction": "FR",
-  "updated": "2026-10-29",
-  "inventory_scope": "Existing catalogued source records for france; no acceptance or coverage decision is changed.",
+  "updated": "2026-10-31",
+  "inventory_scope": "Existing catalogued source records for France; local-artifact representations and status pointers are reconciled to the source-acceptance register, which remains the acceptance authority; topic coverage is recorded separately.",
   "source_rules_file": null,
   "official_hosts": [],
   "discovery_hosts": [],

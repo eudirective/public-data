@@ -5,7 +5,7 @@
   "acceptance_is_distinct_from_coverage": true,
   "policy": {
     "official_reference_use": "Official URLs may be retained as provenance, publisher identity, navigation, and version-check metadata. A locator is not retained legal source text and does not satisfy local-text acceptance. When a local text copy is required, accept the text file only after official-source identity, exact scope/version, body comparison, rights, attribution, conversion, and limitations are recorded.",
-    "local_artifact_acceptance": "Twenty-nine accepted local Markdown records are maintained under documents/: twenty-two retained source texts (eight Service Public/DILA guidance and procedure items, twelve DILA LEGI statutory texts, one CNIL text, and one Conseil d’État case-source guide) and seven project-authored maintained summaries. Every retained copy has its own publisher, source identity, version, extraction, retrieval method, reuse basis, and limitation record.",
+    "local_artifact_acceptance": "Thirty-one accepted local Markdown records are maintained under documents/: twenty-four retained source texts (eight Service Public/DILA guidance and procedure items, fourteen DILA LEGI statutory texts, one CNIL text, and one Conseil d’État case-source guide) and seven project-authored maintained summaries. Every retained copy has its own publisher, source identity, version, extraction, retrieval method, reuse basis, and limitation record.",
     "coverage": "Usable official references do not by themselves establish adequate topic coverage or country completion."
   },
   "official_reference_reviews": {

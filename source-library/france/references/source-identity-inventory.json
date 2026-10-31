@@ -2,7 +2,7 @@
   "schema_version": 1,
   "jurisdiction": "FR",
   "jurisdiction_name": "france",
-  "updated": "2026-10-29",
+  "updated": "2026-10-31",
   "identity_rule": "Existing catalogue IDs are preserved. Exact official URLs, CELEX and ELI identities are joined; language, edition, link and local-copy representations remain distinct. Potential cross-record matches are surfaced instead of silently merged.",
   "source_count": 57,
   "unique_identity_count": 57,
