@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0.0",
   "jurisdiction": "FR",
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "acceptance_is_distinct_from_coverage": true,
   "policy": {
     "official_reference_use": "A human-reviewed official link is usable within its recorded scope after checking publisher, source identity, language, displayed date/version or cutoff, relevant content, and visible limits. No local capture, conversion, hash, or replay is required for ordinary link use.",
-    "local_artifact_acceptance": "Fourteen accepted local source texts are recorded: eight Service Public/DILA guidance, procedure-directory and administration-directory records; four DILA LEGI statutory texts under Licence Ouverte 2.0; one CNIL guidance text reproduction under CC BY-ND 4.0 FR; and one Conseil d’État court-source guide under its public-information reuse terms. Five additional project-authored official-source summaries are also accepted. Each copy has its own source identity, version, extraction, reuse and limitation record.",
+    "local_artifact_acceptance": "Twenty-six accepted local Markdown records are maintained under documents/: nineteen retained source texts (eight Service Public/DILA guidance and procedure items, nine DILA LEGI statutory texts, one CNIL text, and one Conseil d’État case-source guide) and seven project-authored maintained summaries. Every retained copy has its own publisher, source identity, version, extraction, retrieval method, reuse basis, and limitation record.",
     "coverage": "Usable official references do not by themselves establish adequate topic coverage or country completion."
   },
   "official_reference_reviews": {
@@ -511,13 +511,13 @@
       "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072050",
       "checked_on": "2026-10-29",
       "language": "French",
-      "version_or_cutoff": "Official full-code link is unpinned. The official Book II employment-contract section displayed a version in force at 2026-06-27; separately indexed official sections displayed versions in force at 2026-09-27.",
+      "version_or_cutoff": "Official section version displayed in force at 2026-10-28; checked 2026-10-30. Article L5221-10 is repealed and is not transcribed.",
       "scope": "Full Code du travail; potentially relevant to worker status and employment rights under free-movement routes.",
-      "reviewed_content": "Official code identity and title confirmed; official Légifrance section and current-version evidence reviewed. No full-code content extraction or provision-by-provision review was performed.",
+      "reviewed_content": "Official full-code identity and title confirmed; full-code text is not retained. A separately scoped official text copy is accepted at documents/legislation/fr-code-travail-articles-l5221-5-to-l5221-11.md.",
       "limitations": [
         "Full-code link-only reference; use provision-level current text for a concrete issue.",
         "This record does not establish immigration status, work authorization, or eligibility under EU law.",
-        "No Legalize Markdown copy is accepted."
+        "No complete-code Legalize Markdown copy is accepted; the bounded text copy is recorded separately at documents/legislation/fr-code-travail-articles-l5221-5-to-l5221-11.md."
       ]
     },
     "fr-code-securite-sociale": {
@@ -526,13 +526,13 @@
       "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006073189",
       "checked_on": "2026-10-29",
       "language": "French",
-      "version_or_cutoff": "Official code record displayed data last updated 2026-10-02; official provisions reviewed in search results were current through September 2026.",
+      "version_or_cutoff": "Official section version displayed in force at 2026-10-09; checked 2026-10-30. Article L160-1-1 has been in force since 2025-12-31 and was checked in its official article entry.",
       "scope": "Full Code de la sécurité sociale; potentially relevant to social-insurance, health-coverage and benefit dependencies.",
-      "reviewed_content": "Official code identity, title and the current official code/provision pages were confirmed. This is a code-level reference, not a review of entitlement provisions.",
+      "reviewed_content": "Official full-code identity and title confirmed; full-code text is not retained. A separately scoped official text copy is accepted at documents/legislation/fr-code-securite-sociale-beneficiaries-l160-1-to-l160-7.md.",
       "limitations": [
         "Full-code link-only reference; identify and check the exact provisions and EU coordination rules before applying it.",
         "No benefits or residence entitlement is inferred.",
-        "No Legalize Markdown copy is accepted."
+        "No complete-code Legalize Markdown copy is accepted; the bounded text copy is recorded separately at documents/legislation/fr-code-securite-sociale-beneficiaries-l160-1-to-l160-7.md."
       ]
     },
     "fr-code-education": {
@@ -541,13 +541,13 @@
       "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006071191",
       "checked_on": "2026-10-29",
       "language": "French",
-      "version_or_cutoff": "Official code page displayed version in force at 2026-10-29 and code data last updated 2026-10-16.",
+      "version_or_cutoff": "The Code page displayed a version in force at 2026-10-21 and the chapter page a section version at 2026-08-27; checked 2026-10-30. Article L131-1-1 has been in force since 2013-07-10.",
       "scope": "Full Code de l’éducation; potentially relevant to student-route status and education dependencies.",
-      "reviewed_content": "The official full-code page was opened and its title, code identity, current-version date and data-update date confirmed.",
+      "reviewed_content": "Official full-code identity and title confirmed; full-code text is not retained. A separately scoped official text copy is accepted at documents/legislation/fr-code-education-articles-l131-1-and-l131-1-1.md.",
       "limitations": [
         "Full-code link-only reference; student-route provisions have not been mapped article by article.",
         "Does not establish a student’s immigration or residence rights by itself.",
-        "No Legalize Markdown copy is accepted."
+        "No complete-code Legalize Markdown copy is accepted; the bounded text copy is recorded separately at documents/legislation/fr-code-education-articles-l131-1-and-l131-1-1.md."
       ]
     },
     "fr-code-sante-publique": {
@@ -556,13 +556,13 @@
       "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072665",
       "checked_on": "2026-10-29",
       "language": "French",
-      "version_or_cutoff": "Official sections inspected displayed versions in force at 2026-10-18 and 2026-10-21.",
+      "version_or_cutoff": "The official title section displayed a version in force at 2026-10-28; Article L1110-3 has been in force since 2022-03-04; checked 2026-10-30.",
       "scope": "Full Code de la santé publique; potentially relevant to public-health and health-service dependencies.",
-      "reviewed_content": "Official code identity and title, plus live current-version Légifrance sections, were confirmed; the full code page exceeded the retrieval display limit.",
+      "reviewed_content": "Official full-code identity and title confirmed; full-code text is not retained. A separately scoped official text copy is accepted at documents/legislation/fr-code-sante-publique-article-l1110-3.md.",
       "limitations": [
         "Full-code link-only reference; no full-code extraction or provision-by-provision review was performed.",
         "Use the relevant official current section for a concrete question; no health-entitlement conclusion is inferred.",
-        "No Legalize Markdown copy is accepted."
+        "No complete-code Legalize Markdown copy is accepted; the bounded text copy is recorded separately at documents/legislation/fr-code-sante-publique-article-l1110-3.md."
       ]
     },
     "fr-code-procedure-civile": {
@@ -571,13 +571,13 @@
       "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006070716",
       "checked_on": "2026-10-29",
       "language": "French",
-      "version_or_cutoff": "Official code page displayed version in force at 2026-10-29 and data last updated 2026-10-01.",
+      "version_or_cutoff": "The official adoption-procedure section displayed a version in force at 2026-10-30; Article 1166 has been in force since 2020-01-01; checked 2026-10-30.",
       "scope": "Full Code de procédure civile; potentially relevant to civil-status and family proceedings.",
-      "reviewed_content": "The official full-code page was opened and its identity, title, current-version date and data-update date confirmed.",
+      "reviewed_content": "Official full-code identity and title confirmed; full-code text is not retained. A separately scoped official text copy is accepted at documents/legislation/fr-code-procedure-civile-article-1166-adoption.md.",
       "limitations": [
         "Full-code link-only reference; exact procedural routes still require issue-specific review.",
         "Special procedures and administrative jurisdiction may be governed elsewhere, including the CJA.",
-        "No Legalize Markdown copy is accepted."
+        "No complete-code Legalize Markdown copy is accepted; the bounded text copy is recorded separately at documents/legislation/fr-code-procedure-civile-article-1166-adoption.md."
       ]
     }
   },
@@ -595,7 +595,7 @@
     ],
     "note": "Record a human-reviewed official link here when it supports a coverage layer without a retained local copy. This does not change the local accepted-source count."
   },
-  "accepted_source_count": 21,
+  "accepted_source_count": 26,
   "records": {
     "fr-service-public-eu-long-stay-f2651": {
       "status": "accepted_local_copy",
@@ -961,6 +961,123 @@
         "Use the regulatory Book II, applicable EU instruments and cross-referenced procedural codes for implementation.",
         "The section URL is unpinned; confirm current section and article-level dates before date-sensitive use."
       ]
+    },
+    "fr-code-travail": {
+      "status": "accepted_local_copy",
+      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006189813/",
+      "checked_on": "2026-10-30",
+      "language": "French",
+      "version_or_cutoff": "Official section version displayed in force at 2026-10-28; checked 2026-10-30. Article L5221-10 is repealed and is not transcribed.",
+      "local_path": "documents/legislation/fr-code-travail-articles-l5221-5-to-l5221-11.md",
+      "scope": "Current text of Code du travail Articles L5221-5 to L5221-9 and L5221-11 in the selected Section 3; L5221-10 is identified as repealed but historical wording is omitted.",
+      "reviewed_content": "The complete retained article bodies and their notes were checked against the current official Légifrance section. L5221-5 was supplemented from DILA's 2026-10-29 LEGI delta because the Legalize snapshot omitted its applicability note; a duplicated L5221-8 block was excluded.",
+      "reuse": "DILA LEGI consolidated statutory text reused with attribution under Licence Ouverte / Open Licence 2.0. The Legalize France MIT licence covers its software, not statutory wording; source attribution and official locator are retained.",
+      "retrieval_method": "Legalize France, pinned source commit e38417fd7b982b2df02fbe01f2960127a7bf9031; used as a retrieval input and checked provision by provision against official DILA/Légifrance text. Different, duplicated, or missing wording was corrected from the official current record or DILA LEGI delta.",
+      "retrieval_evidence": "captures/article-scoped-source-conversion-20261030/France/france-legalize-official-verification-2026-10-30/France/derived/fr-code-travail-title-ii-articles-l5221-5-to-l5221-11.md (Monitor local-only archive, SHA-256 1b9a2103aeb9e557b4e337146396edde7320d4ad73d99e9c08e668783b44649b)",
+      "conversion_rule": "references/legalize-france-markdown-conversion.md",
+      "attachments": "Not applicable: the retained statutory section/article is text-only; no source attachment belongs to this scoped record.",
+      "limitations": [
+        "This is a bounded section extract, not the Code du travail. The full-code locator is not a retained text. Check the official section for later amendments before date-sensitive use.",
+        "The live official Légifrance page is the authority for later versions."
+      ],
+      "source_document_kind": "official_statutory_text_copy",
+      "local_copy_sha256": "1b9a2103aeb9e557b4e337146396edde7320d4ad73d99e9c08e668783b44649b",
+      "local_copy_bytes": 5879
+    },
+    "fr-code-securite-sociale": {
+      "status": "accepted_local_copy",
+      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073189/LEGISCTA000031668675/",
+      "checked_on": "2026-10-30",
+      "language": "French",
+      "version_or_cutoff": "The 2026-10-30 capture recorded a section cutoff of 2026-10-09, but the 2026-10-31 recheck could not reproduce it (live section request returned HTTP 403; an official indexed dated section snapshot surfaced for 2026-09-09). Article L160-1-1 is individually reported in force since 2025-12-31. This is a dated official copy, not proof of full-section currentness on 2026-10-31.",
+      "local_path": "documents/legislation/fr-code-securite-sociale-beneficiaries-l160-1-to-l160-7.md",
+      "scope": "Current text of Code de la sécurité sociale Articles L160-1, L160-1-1, and L160-2 to L160-7, Section 1 on beneficiaries.",
+      "reviewed_content": "Each retained article body and version note was compared with the official current section. Legalize France supplied L160-1 and L160-2 to L160-7; the currently effective L160-1-1 absent from that snapshot was taken from DILA's 2026-01-02 LEGI delta XML.",
+      "reuse": "DILA LEGI consolidated statutory text reused with attribution under Licence Ouverte / Open Licence 2.0. The Legalize France MIT licence covers its software, not statutory wording; source attribution and official locator are retained.",
+      "retrieval_method": "Legalize France, pinned source commit e38417fd7b982b2df02fbe01f2960127a7bf9031; used as a retrieval input and checked provision by provision against official DILA/Légifrance text. Different, duplicated, or missing wording was corrected from the official current record or DILA LEGI delta.",
+      "retrieval_evidence": "captures/article-scoped-source-conversion-20261030/France/france-legalize-official-verification-2026-10-30/France/derived/fr-code-securite-sociale-beneficiaries-l160-1-to-l160-7.md (Monitor local-only archive, SHA-256 93018a50cb29908c1103a8bcde3961266238fc7772ff5b99bd77403576b7939d)",
+      "conversion_rule": "references/legalize-france-markdown-conversion.md",
+      "attachments": "Not applicable: the retained statutory section/article is text-only; no source attachment belongs to this scoped record.",
+      "limitations": [
+        "This is one section, not the complete Social Security Code or an entitlement determination. EU coordination and international-agreement dependencies require separate review; recheck the official section for later changes.",
+        "The live official Légifrance page is the authority for later versions.",
+        "The previously recorded 2026-10-09 section cutoff was not reproduced on 2026-10-31; the live request returned HTTP 403. Recheck the section before asserting later currentness."
+      ],
+      "source_document_kind": "official_statutory_text_copy",
+      "local_copy_sha256": "1f3980424c2a108b44ebe9eac6b248846d54858a1eaaea3ae1b8e30ad4e27766",
+      "local_copy_bytes": 15922,
+      "currentness_review_evidence": "captures/www.legifrance.gouv.fr/France/france-css-beneficiaries-section-cutoff-review-2026-10-31.md (SHA-256 6549e9fee5a301157b76dd9002e7fb3be143f063287a695db69c411c36980659)"
+    },
+    "fr-code-education": {
+      "status": "accepted_local_copy",
+      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071191/LEGISCTA000006166564/",
+      "checked_on": "2026-10-30",
+      "language": "French",
+      "version_or_cutoff": "The Code page displayed a version in force at 2026-10-21 and the chapter page a section version at 2026-08-27; checked 2026-10-30. Article L131-1-1 has been in force since 2013-07-10.",
+      "local_path": "documents/legislation/fr-code-education-articles-l131-1-and-l131-1-1.md",
+      "scope": "The compulsory-schooling rule and child’s right to instruction in Code de l’éducation Articles L131-1 and L131-1-1.",
+      "reviewed_content": "Both selected article bodies and the L131-1-1 version note were checked against the official Légifrance article and section text; the Legalize France wording matched.",
+      "reuse": "DILA LEGI consolidated statutory text reused with attribution under Licence Ouverte / Open Licence 2.0. The Legalize France MIT licence covers its software, not statutory wording; source attribution and official locator are retained.",
+      "retrieval_method": "Legalize France, pinned source commit e38417fd7b982b2df02fbe01f2960127a7bf9031; used as a retrieval input and checked provision by provision against official DILA/Légifrance text. Different, duplicated, or missing wording was corrected from the official current record or DILA LEGI delta.",
+      "retrieval_evidence": "captures/article-scoped-source-conversion-20261030/France/france-legalize-official-verification-2026-10-30/France/derived/fr-code-education-instruction-l131-1-and-l131-1-1.md (Monitor local-only archive, SHA-256 e19eabd1d7b60ec7c8c154c61053aa54dc5933b075a68e3a4721b43c6a81f45f)",
+      "conversion_rule": "references/legalize-france-markdown-conversion.md",
+      "attachments": "Not applicable: the retained statutory section/article is text-only; no source attachment belongs to this scoped record.",
+      "limitations": [
+        "These two provisions do not cover all school-enrollment, allocation, or student-residence rules. Recheck the official section for later changes.",
+        "The live official Légifrance page is the authority for later versions."
+      ],
+      "source_document_kind": "official_statutory_text_copy",
+      "local_copy_sha256": "a301555c424e698f7bb3dccfcbb6351b9fa717e731c7935b0d4cee41c6c73692",
+      "local_copy_bytes": 2785
+    },
+    "fr-code-sante-publique": {
+      "status": "accepted_local_copy",
+      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006154977/",
+      "checked_on": "2026-10-30",
+      "language": "French",
+      "version_or_cutoff": "The official title section displayed a version in force at 2026-10-28; Article L1110-3 has been in force since 2022-03-04; checked 2026-10-30.",
+      "local_path": "documents/legislation/fr-code-sante-publique-article-l1110-3.md",
+      "scope": "The full current text of Code de la santé publique Article L1110-3 on access to prevention and care, refusal of care, and complaint/conciliation.",
+      "reviewed_content": "The complete article body and version note were checked against Légifrance and matched. Neighboring Article L1110-3-1 was excluded because the Legalize snapshot lacked 2026-effective amendments.",
+      "reuse": "DILA LEGI consolidated statutory text reused with attribution under Licence Ouverte / Open Licence 2.0. The Legalize France MIT licence covers its software, not statutory wording; source attribution and official locator are retained.",
+      "retrieval_method": "Legalize France, pinned source commit e38417fd7b982b2df02fbe01f2960127a7bf9031; used as a retrieval input and checked provision by provision against official DILA/Légifrance text. Different, duplicated, or missing wording was corrected from the official current record or DILA LEGI delta.",
+      "retrieval_evidence": "captures/article-scoped-source-conversion-20261030/France/france-legalize-official-verification-2026-10-30/France/derived/fr-code-sante-publique-l1110-3.md (Monitor local-only archive, SHA-256 77c9f880a93d8371f6c2123e59e7892deaba6e625b51628cc986a1fd5c277d4b)",
+      "conversion_rule": "references/legalize-france-markdown-conversion.md",
+      "attachments": "Not applicable: the retained statutory section/article is text-only; no source attachment belongs to this scoped record.",
+      "limitations": [
+        "This is one article, not the Code de la santé publique or a health-entitlement determination. Recheck the official section for later changes.",
+        "The live official Légifrance page is the authority for later versions."
+      ],
+      "source_document_kind": "official_statutory_text_copy",
+      "local_copy_sha256": "77c9f880a93d8371f6c2123e59e7892deaba6e625b51628cc986a1fd5c277d4b",
+      "local_copy_bytes": 4290
+    },
+    "fr-code-procedure-civile": {
+      "status": "accepted_local_copy",
+      "publisher": "Direction de l’information légale et administrative (DILA), Légifrance",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070716/LEGISCTA000006149749/",
+      "checked_on": "2026-10-30",
+      "language": "French",
+      "version_or_cutoff": "The official adoption-procedure section displayed a version in force at 2026-10-30; Article 1166 has been in force since 2020-01-01; checked 2026-10-30.",
+      "local_path": "documents/legislation/fr-code-procedure-civile-article-1166-adoption.md",
+      "scope": "Code de procédure civile Article 1166 on territorial competence for an adoption application when one or both parties reside outside France.",
+      "reviewed_content": "The complete Article 1166 text and its entry-into-force note were checked against the current official section and matched.",
+      "reuse": "DILA LEGI consolidated statutory text reused with attribution under Licence Ouverte / Open Licence 2.0. The Legalize France MIT licence covers its software, not statutory wording; source attribution and official locator are retained.",
+      "retrieval_method": "Legalize France, pinned source commit e38417fd7b982b2df02fbe01f2960127a7bf9031; used as a retrieval input and checked provision by provision against official DILA/Légifrance text. Different, duplicated, or missing wording was corrected from the official current record or DILA LEGI delta.",
+      "retrieval_evidence": "captures/article-scoped-source-conversion-20261030/France/france-legalize-official-verification-2026-10-30/France/derived/fr-code-procedure-civile-adoption-article-1166.md (Monitor local-only archive, SHA-256 4ea7e8fb92161adf18c7c018adf881aa4bf51ab0fed1a055fce6204f88e6dcac)",
+      "conversion_rule": "references/legalize-france-markdown-conversion.md",
+      "attachments": "Not applicable: the retained statutory section/article is text-only; no source attachment belongs to this scoped record.",
+      "limitations": [
+        "This is one procedural article only and does not cover the entire adoption process, other procedural routes, or cross-border adoption dependencies. Recheck the official section for later changes.",
+        "The live official Légifrance page is the authority for later versions."
+      ],
+      "source_document_kind": "official_statutory_text_copy",
+      "local_copy_sha256": "610ff8fa1e75fe334f90fcc71959ac961af984726b048b152ec6e97bfc64e6fb",
+      "local_copy_bytes": 2026
     }
   },
   "retrieval_method_reviews": {
