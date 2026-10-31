@@ -22,6 +22,12 @@ The previous candidates and manifests are preserved in the EU Source Update Moni
 
 No Norway-specific Source Monitor action is registered. The legacy updater has been disabled because it wrote candidate files and manifests into the pack. No Norway-specific replacement action is registered. National topic coverage, cross-reference dependencies, continuing case-law/mission discovery and operational evidence remain open.
 
+## Topic coverage and dependencies (31 October 2026)
+
+The [coverage register](references/coverage-register.md) and [machine-readable coverage model](references/coverage-model.json) apply the owner-approved EEA scope map v1.0.0 to the six core review pathways. The [dependency register](references/source-dependencies.json) keeps EEA incorporation/adaptations, Norwegian implementation, the Schengen visa route, and the separate EFTA/Swiss route distinct. All six pathways remain incomplete; zero topics are accepted and country review is incomplete.
+
+These registers distinguish retained text from official-reference notes. An official URL or source locator is metadata, not a retained legal source. The no-54 text shown in the current PR branch is proposed in open PR #167 and is not present on `main` until that PR is merged.
+
 
 ## Legalize-no crosswalk (29 October 2026)
 
