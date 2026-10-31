@@ -4,7 +4,7 @@
 
 **Code identifier:** `LEGITEXT000006072050`  
 **Scope retained:** Current text of Articles L5221-5 to L5221-9 and L5221-11. Article L5221-10 is marked repealed and not transcribed.  
-**Official current version observed:** Légifrance displayed “en vigueur au 28/10/2026”; checked 2026-10-30.
+**Official current version observed:** Légifrance displayed “en vigueur au 28/10/2026”; checked 2026-10-31.
 
 **Official locator (provenance/navigation only):** https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006189813/
 
