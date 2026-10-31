@@ -276,9 +276,26 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:9d354dc95f3eb0f8115e#local:fr:0e934d976a2f",
         "fr:url:9d354dc95f3eb0f8115e#url:fr:a35e710f8dd8"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-10-24",
+          "url": null,
+          "path": "documents/guidance/fr-france-visas-family-eu.md",
+          "representation_id": "fr:url:9d354dc95f3eb0f8115e#local:fr:0e934d976a2f",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:9d354dc95f3eb0f8115e",
+          "representation_ids": [
+            "fr:url:9d354dc95f3eb0f8115e#local:fr:0e934d976a2f",
+            "fr:url:9d354dc95f3eb0f8115e#url:fr:a35e710f8dd8"
+          ]
+        },
         {
           "kind": "official_reference",
           "language": "fr",
@@ -291,6 +308,7 @@
           ],
           "source_identity_id": "fr:url:9d354dc95f3eb0f8115e",
           "representation_ids": [
+            "fr:url:9d354dc95f3eb0f8115e#local:fr:0e934d976a2f",
             "fr:url:9d354dc95f3eb0f8115e#url:fr:a35e710f8dd8"
           ]
         }
@@ -316,6 +334,7 @@
           "category": "catalogue",
           "source_identity_id": "fr:url:9d354dc95f3eb0f8115e",
           "representation_ids": [
+            "fr:url:9d354dc95f3eb0f8115e#local:fr:0e934d976a2f",
             "fr:url:9d354dc95f3eb0f8115e#url:fr:a35e710f8dd8"
           ]
         }
@@ -328,6 +347,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:9d354dc95f3eb0f8115e",
           "representation_ids": [
+            "fr:url:9d354dc95f3eb0f8115e#local:fr:0e934d976a2f",
             "fr:url:9d354dc95f3eb0f8115e#url:fr:a35e710f8dd8"
           ]
         }
@@ -351,9 +371,26 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:79e421e74588026ff69e#local:fr:99e4cb52bc9d",
         "fr:url:79e421e74588026ff69e#url:fr:5a06f9746dc1"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-07-28",
+          "url": null,
+          "path": "documents/legislation/fr-code-civil-article-47-foreign-civil-status-records.md",
+          "representation_id": "fr:url:79e421e74588026ff69e#local:fr:99e4cb52bc9d",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:79e421e74588026ff69e",
+          "representation_ids": [
+            "fr:url:79e421e74588026ff69e#local:fr:99e4cb52bc9d",
+            "fr:url:79e421e74588026ff69e#url:fr:5a06f9746dc1"
+          ]
+        },
         {
           "kind": "official_reference",
           "language": "fr",
@@ -367,6 +404,7 @@
           ],
           "source_identity_id": "fr:url:79e421e74588026ff69e",
           "representation_ids": [
+            "fr:url:79e421e74588026ff69e#local:fr:99e4cb52bc9d",
             "fr:url:79e421e74588026ff69e#url:fr:5a06f9746dc1"
           ]
         }
@@ -392,6 +430,7 @@
           "category": "catalogue",
           "source_identity_id": "fr:url:79e421e74588026ff69e",
           "representation_ids": [
+            "fr:url:79e421e74588026ff69e#local:fr:99e4cb52bc9d",
             "fr:url:79e421e74588026ff69e#url:fr:5a06f9746dc1"
           ]
         }
@@ -403,6 +442,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:79e421e74588026ff69e",
           "representation_ids": [
+            "fr:url:79e421e74588026ff69e#local:fr:99e4cb52bc9d",
             "fr:url:79e421e74588026ff69e#url:fr:5a06f9746dc1"
           ]
         },
@@ -412,6 +452,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:79e421e74588026ff69e",
           "representation_ids": [
+            "fr:url:79e421e74588026ff69e#local:fr:99e4cb52bc9d",
             "fr:url:79e421e74588026ff69e#url:fr:5a06f9746dc1"
           ]
         }
@@ -503,10 +544,28 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:3152e07f2028501a23a2#local:fr:94570be7c26a",
         "fr:url:3152e07f2028501a23a2#local:unspecified:5399bff92d4b",
         "fr:url:3152e07f2028501a23a2#url:fr:36c6cef529ed"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-10-19",
+          "url": null,
+          "path": "documents/oversight/fr-cada-access-portal.md",
+          "representation_id": "fr:url:3152e07f2028501a23a2#local:fr:94570be7c26a",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:3152e07f2028501a23a2",
+          "representation_ids": [
+            "fr:url:3152e07f2028501a23a2#local:fr:94570be7c26a",
+            "fr:url:3152e07f2028501a23a2#local:unspecified:5399bff92d4b",
+            "fr:url:3152e07f2028501a23a2#url:fr:36c6cef529ed"
+          ]
+        },
         {
           "kind": "local_artifact",
           "language": "unspecified",
@@ -519,6 +578,7 @@
           ],
           "source_identity_id": "fr:url:3152e07f2028501a23a2",
           "representation_ids": [
+            "fr:url:3152e07f2028501a23a2#local:fr:94570be7c26a",
             "fr:url:3152e07f2028501a23a2#local:unspecified:5399bff92d4b",
             "fr:url:3152e07f2028501a23a2#url:fr:36c6cef529ed"
           ]
@@ -535,6 +595,7 @@
           ],
           "source_identity_id": "fr:url:3152e07f2028501a23a2",
           "representation_ids": [
+            "fr:url:3152e07f2028501a23a2#local:fr:94570be7c26a",
             "fr:url:3152e07f2028501a23a2#local:unspecified:5399bff92d4b",
             "fr:url:3152e07f2028501a23a2#url:fr:36c6cef529ed"
           ]
@@ -561,6 +622,7 @@
           "category": "catalogue",
           "source_identity_id": "fr:url:3152e07f2028501a23a2",
           "representation_ids": [
+            "fr:url:3152e07f2028501a23a2#local:fr:94570be7c26a",
             "fr:url:3152e07f2028501a23a2#local:unspecified:5399bff92d4b",
             "fr:url:3152e07f2028501a23a2#url:fr:36c6cef529ed"
           ]
@@ -573,6 +635,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:3152e07f2028501a23a2",
           "representation_ids": [
+            "fr:url:3152e07f2028501a23a2#local:fr:94570be7c26a",
             "fr:url:3152e07f2028501a23a2#local:unspecified:5399bff92d4b",
             "fr:url:3152e07f2028501a23a2#url:fr:36c6cef529ed"
           ]
@@ -684,11 +747,51 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:3c09b8ff0ea6d91aa222#local:en:5e97453e0659",
+        "fr:url:3c09b8ff0ea6d91aa222#local:fr:5e97453e0659",
         "fr:url:3c09b8ff0ea6d91aa222#local:unspecified:eef9523ce3d4",
         "fr:url:3c09b8ff0ea6d91aa222#url:en:67b216244cf0",
         "fr:url:3c09b8ff0ea6d91aa222#url:fr:77b1a95393a1"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "en",
+          "edition": "2024-02-12",
+          "url": null,
+          "path": "documents/guidance/fr-cerfa-14076-eu-family-visa-form.md",
+          "representation_id": "fr:url:3c09b8ff0ea6d91aa222#local:en:5e97453e0659",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:3c09b8ff0ea6d91aa222",
+          "representation_ids": [
+            "fr:url:3c09b8ff0ea6d91aa222#local:en:5e97453e0659",
+            "fr:url:3c09b8ff0ea6d91aa222#local:fr:5e97453e0659",
+            "fr:url:3c09b8ff0ea6d91aa222#local:unspecified:eef9523ce3d4",
+            "fr:url:3c09b8ff0ea6d91aa222#url:en:67b216244cf0",
+            "fr:url:3c09b8ff0ea6d91aa222#url:fr:77b1a95393a1"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2024-02-12",
+          "url": null,
+          "path": "documents/guidance/fr-cerfa-14076-eu-family-visa-form.md",
+          "representation_id": "fr:url:3c09b8ff0ea6d91aa222#local:fr:5e97453e0659",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:3c09b8ff0ea6d91aa222",
+          "representation_ids": [
+            "fr:url:3c09b8ff0ea6d91aa222#local:en:5e97453e0659",
+            "fr:url:3c09b8ff0ea6d91aa222#local:fr:5e97453e0659",
+            "fr:url:3c09b8ff0ea6d91aa222#local:unspecified:eef9523ce3d4",
+            "fr:url:3c09b8ff0ea6d91aa222#url:en:67b216244cf0",
+            "fr:url:3c09b8ff0ea6d91aa222#url:fr:77b1a95393a1"
+          ]
+        },
         {
           "kind": "local_artifact",
           "language": "unspecified",
@@ -701,6 +804,8 @@
           ],
           "source_identity_id": "fr:url:3c09b8ff0ea6d91aa222",
           "representation_ids": [
+            "fr:url:3c09b8ff0ea6d91aa222#local:en:5e97453e0659",
+            "fr:url:3c09b8ff0ea6d91aa222#local:fr:5e97453e0659",
             "fr:url:3c09b8ff0ea6d91aa222#local:unspecified:eef9523ce3d4",
             "fr:url:3c09b8ff0ea6d91aa222#url:en:67b216244cf0",
             "fr:url:3c09b8ff0ea6d91aa222#url:fr:77b1a95393a1"
@@ -718,6 +823,8 @@
           ],
           "source_identity_id": "fr:url:3c09b8ff0ea6d91aa222",
           "representation_ids": [
+            "fr:url:3c09b8ff0ea6d91aa222#local:en:5e97453e0659",
+            "fr:url:3c09b8ff0ea6d91aa222#local:fr:5e97453e0659",
             "fr:url:3c09b8ff0ea6d91aa222#local:unspecified:eef9523ce3d4",
             "fr:url:3c09b8ff0ea6d91aa222#url:en:67b216244cf0",
             "fr:url:3c09b8ff0ea6d91aa222#url:fr:77b1a95393a1"
@@ -736,6 +843,8 @@
           ],
           "source_identity_id": "fr:url:3c09b8ff0ea6d91aa222",
           "representation_ids": [
+            "fr:url:3c09b8ff0ea6d91aa222#local:en:5e97453e0659",
+            "fr:url:3c09b8ff0ea6d91aa222#local:fr:5e97453e0659",
             "fr:url:3c09b8ff0ea6d91aa222#local:unspecified:eef9523ce3d4",
             "fr:url:3c09b8ff0ea6d91aa222#url:en:67b216244cf0",
             "fr:url:3c09b8ff0ea6d91aa222#url:fr:77b1a95393a1"
@@ -763,6 +872,8 @@
           "category": "catalogue",
           "source_identity_id": "fr:url:3c09b8ff0ea6d91aa222",
           "representation_ids": [
+            "fr:url:3c09b8ff0ea6d91aa222#local:en:5e97453e0659",
+            "fr:url:3c09b8ff0ea6d91aa222#local:fr:5e97453e0659",
             "fr:url:3c09b8ff0ea6d91aa222#local:unspecified:eef9523ce3d4",
             "fr:url:3c09b8ff0ea6d91aa222#url:en:67b216244cf0",
             "fr:url:3c09b8ff0ea6d91aa222#url:fr:77b1a95393a1"
@@ -776,6 +887,8 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:3c09b8ff0ea6d91aa222",
           "representation_ids": [
+            "fr:url:3c09b8ff0ea6d91aa222#local:en:5e97453e0659",
+            "fr:url:3c09b8ff0ea6d91aa222#local:fr:5e97453e0659",
             "fr:url:3c09b8ff0ea6d91aa222#local:unspecified:eef9523ce3d4",
             "fr:url:3c09b8ff0ea6d91aa222#url:en:67b216244cf0",
             "fr:url:3c09b8ff0ea6d91aa222#url:fr:77b1a95393a1"
@@ -787,6 +900,8 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:3c09b8ff0ea6d91aa222",
           "representation_ids": [
+            "fr:url:3c09b8ff0ea6d91aa222#local:en:5e97453e0659",
+            "fr:url:3c09b8ff0ea6d91aa222#local:fr:5e97453e0659",
             "fr:url:3c09b8ff0ea6d91aa222#local:unspecified:eef9523ce3d4",
             "fr:url:3c09b8ff0ea6d91aa222#url:en:67b216244cf0",
             "fr:url:3c09b8ff0ea6d91aa222#url:fr:77b1a95393a1"
@@ -809,10 +924,26 @@
         "accepted_external_reference"
       ],
       "representation_ids": [
+        "fr:url:478a7064b9ff5f0f1b34#local:fr:626d23131dfc",
         "fr:url:478a7064b9ff5f0f1b34#url:fr:b5356f5dcc99",
         "fr:url:478a7064b9ff5f0f1b34#url:fr:d6cb3198a2cf"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026",
+          "url": null,
+          "path": "documents/legislation/fr-ceseda-book-ii-legislative-eu-citizens-family.md",
+          "representation_id": "fr:url:478a7064b9ff5f0f1b34#local:fr:626d23131dfc",
+          "acceptance_status": [],
+          "source_identity_id": "fr:url:478a7064b9ff5f0f1b34",
+          "representation_ids": [
+            "fr:url:478a7064b9ff5f0f1b34#local:fr:626d23131dfc",
+            "fr:url:478a7064b9ff5f0f1b34#url:fr:b5356f5dcc99",
+            "fr:url:478a7064b9ff5f0f1b34#url:fr:d6cb3198a2cf"
+          ]
+        },
         {
           "kind": "official_reference",
           "language": "fr",
@@ -825,6 +956,7 @@
           ],
           "source_identity_id": "fr:url:478a7064b9ff5f0f1b34",
           "representation_ids": [
+            "fr:url:478a7064b9ff5f0f1b34#local:fr:626d23131dfc",
             "fr:url:478a7064b9ff5f0f1b34#url:fr:b5356f5dcc99",
             "fr:url:478a7064b9ff5f0f1b34#url:fr:d6cb3198a2cf"
           ]
@@ -839,6 +971,7 @@
           "acceptance_status": [],
           "source_identity_id": "fr:url:478a7064b9ff5f0f1b34",
           "representation_ids": [
+            "fr:url:478a7064b9ff5f0f1b34#local:fr:626d23131dfc",
             "fr:url:478a7064b9ff5f0f1b34#url:fr:b5356f5dcc99",
             "fr:url:478a7064b9ff5f0f1b34#url:fr:d6cb3198a2cf"
           ]
@@ -865,6 +998,7 @@
           "category": "catalogue",
           "source_identity_id": "fr:url:478a7064b9ff5f0f1b34",
           "representation_ids": [
+            "fr:url:478a7064b9ff5f0f1b34#local:fr:626d23131dfc",
             "fr:url:478a7064b9ff5f0f1b34#url:fr:b5356f5dcc99",
             "fr:url:478a7064b9ff5f0f1b34#url:fr:d6cb3198a2cf"
           ]
@@ -877,6 +1011,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:478a7064b9ff5f0f1b34",
           "representation_ids": [
+            "fr:url:478a7064b9ff5f0f1b34#local:fr:626d23131dfc",
             "fr:url:478a7064b9ff5f0f1b34#url:fr:b5356f5dcc99",
             "fr:url:478a7064b9ff5f0f1b34#url:fr:d6cb3198a2cf"
           ]
@@ -887,6 +1022,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:478a7064b9ff5f0f1b34",
           "representation_ids": [
+            "fr:url:478a7064b9ff5f0f1b34#local:fr:626d23131dfc",
             "fr:url:478a7064b9ff5f0f1b34#url:fr:b5356f5dcc99",
             "fr:url:478a7064b9ff5f0f1b34#url:fr:d6cb3198a2cf"
           ]
@@ -1300,10 +1436,28 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:560b8aae29ecc032f3d8#local:fr:925abfdb8953",
         "fr:url:560b8aae29ecc032f3d8#local:unspecified:c59d7e3283f1",
         "fr:url:560b8aae29ecc032f3d8#url:fr:dbd4bf06868e"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-10-24",
+          "url": null,
+          "path": "documents/oversight/fr-cnil-complaints.md",
+          "representation_id": "fr:url:560b8aae29ecc032f3d8#local:fr:925abfdb8953",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:560b8aae29ecc032f3d8",
+          "representation_ids": [
+            "fr:url:560b8aae29ecc032f3d8#local:fr:925abfdb8953",
+            "fr:url:560b8aae29ecc032f3d8#local:unspecified:c59d7e3283f1",
+            "fr:url:560b8aae29ecc032f3d8#url:fr:dbd4bf06868e"
+          ]
+        },
         {
           "kind": "local_artifact",
           "language": "unspecified",
@@ -1316,6 +1470,7 @@
           ],
           "source_identity_id": "fr:url:560b8aae29ecc032f3d8",
           "representation_ids": [
+            "fr:url:560b8aae29ecc032f3d8#local:fr:925abfdb8953",
             "fr:url:560b8aae29ecc032f3d8#local:unspecified:c59d7e3283f1",
             "fr:url:560b8aae29ecc032f3d8#url:fr:dbd4bf06868e"
           ]
@@ -1332,6 +1487,7 @@
           ],
           "source_identity_id": "fr:url:560b8aae29ecc032f3d8",
           "representation_ids": [
+            "fr:url:560b8aae29ecc032f3d8#local:fr:925abfdb8953",
             "fr:url:560b8aae29ecc032f3d8#local:unspecified:c59d7e3283f1",
             "fr:url:560b8aae29ecc032f3d8#url:fr:dbd4bf06868e"
           ]
@@ -1358,6 +1514,7 @@
           "category": "catalogue",
           "source_identity_id": "fr:url:560b8aae29ecc032f3d8",
           "representation_ids": [
+            "fr:url:560b8aae29ecc032f3d8#local:fr:925abfdb8953",
             "fr:url:560b8aae29ecc032f3d8#local:unspecified:c59d7e3283f1",
             "fr:url:560b8aae29ecc032f3d8#url:fr:dbd4bf06868e"
           ]
@@ -1370,6 +1527,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:560b8aae29ecc032f3d8",
           "representation_ids": [
+            "fr:url:560b8aae29ecc032f3d8#local:fr:925abfdb8953",
             "fr:url:560b8aae29ecc032f3d8#local:unspecified:c59d7e3283f1",
             "fr:url:560b8aae29ecc032f3d8#url:fr:dbd4bf06868e"
           ]
@@ -1392,10 +1550,28 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:0aa2516dce99b7e09382#local:fr:baa97aad9cfb",
         "fr:url:0aa2516dce99b7e09382#url:fr:263834d0abae",
         "fr:url:0aa2516dce99b7e09382#url:fr:67440485e74a"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-10-21",
+          "url": null,
+          "path": "documents/legislation/fr-code-education-articles-l131-1-and-l131-1-1.md",
+          "representation_id": "fr:url:0aa2516dce99b7e09382#local:fr:baa97aad9cfb",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:0aa2516dce99b7e09382",
+          "representation_ids": [
+            "fr:url:0aa2516dce99b7e09382#local:fr:baa97aad9cfb",
+            "fr:url:0aa2516dce99b7e09382#url:fr:263834d0abae",
+            "fr:url:0aa2516dce99b7e09382#url:fr:67440485e74a"
+          ]
+        },
         {
           "kind": "official_reference",
           "language": "fr",
@@ -1408,6 +1584,7 @@
           ],
           "source_identity_id": "fr:url:0aa2516dce99b7e09382",
           "representation_ids": [
+            "fr:url:0aa2516dce99b7e09382#local:fr:baa97aad9cfb",
             "fr:url:0aa2516dce99b7e09382#url:fr:263834d0abae",
             "fr:url:0aa2516dce99b7e09382#url:fr:67440485e74a"
           ]
@@ -1424,6 +1601,7 @@
           ],
           "source_identity_id": "fr:url:0aa2516dce99b7e09382",
           "representation_ids": [
+            "fr:url:0aa2516dce99b7e09382#local:fr:baa97aad9cfb",
             "fr:url:0aa2516dce99b7e09382#url:fr:263834d0abae",
             "fr:url:0aa2516dce99b7e09382#url:fr:67440485e74a"
           ]
@@ -1437,6 +1615,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:0aa2516dce99b7e09382",
           "representation_ids": [
+            "fr:url:0aa2516dce99b7e09382#local:fr:baa97aad9cfb",
             "fr:url:0aa2516dce99b7e09382#url:fr:263834d0abae",
             "fr:url:0aa2516dce99b7e09382#url:fr:67440485e74a"
           ]
@@ -1447,6 +1626,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:0aa2516dce99b7e09382",
           "representation_ids": [
+            "fr:url:0aa2516dce99b7e09382#local:fr:baa97aad9cfb",
             "fr:url:0aa2516dce99b7e09382#url:fr:263834d0abae",
             "fr:url:0aa2516dce99b7e09382#url:fr:67440485e74a"
           ]
@@ -1469,10 +1649,28 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:ecc38235eb9f4ea1c978#local:fr:50f00b9a3451",
         "fr:url:ecc38235eb9f4ea1c978#url:fr:055af0db6062",
         "fr:url:ecc38235eb9f4ea1c978#url:fr:26cf3c13d081"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-10-30",
+          "url": null,
+          "path": "documents/legislation/fr-code-procedure-civile-article-1166-adoption.md",
+          "representation_id": "fr:url:ecc38235eb9f4ea1c978#local:fr:50f00b9a3451",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:ecc38235eb9f4ea1c978",
+          "representation_ids": [
+            "fr:url:ecc38235eb9f4ea1c978#local:fr:50f00b9a3451",
+            "fr:url:ecc38235eb9f4ea1c978#url:fr:055af0db6062",
+            "fr:url:ecc38235eb9f4ea1c978#url:fr:26cf3c13d081"
+          ]
+        },
         {
           "kind": "official_reference",
           "language": "fr",
@@ -1485,6 +1683,7 @@
           ],
           "source_identity_id": "fr:url:ecc38235eb9f4ea1c978",
           "representation_ids": [
+            "fr:url:ecc38235eb9f4ea1c978#local:fr:50f00b9a3451",
             "fr:url:ecc38235eb9f4ea1c978#url:fr:055af0db6062",
             "fr:url:ecc38235eb9f4ea1c978#url:fr:26cf3c13d081"
           ]
@@ -1501,6 +1700,7 @@
           ],
           "source_identity_id": "fr:url:ecc38235eb9f4ea1c978",
           "representation_ids": [
+            "fr:url:ecc38235eb9f4ea1c978#local:fr:50f00b9a3451",
             "fr:url:ecc38235eb9f4ea1c978#url:fr:055af0db6062",
             "fr:url:ecc38235eb9f4ea1c978#url:fr:26cf3c13d081"
           ]
@@ -1514,6 +1714,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:ecc38235eb9f4ea1c978",
           "representation_ids": [
+            "fr:url:ecc38235eb9f4ea1c978#local:fr:50f00b9a3451",
             "fr:url:ecc38235eb9f4ea1c978#url:fr:055af0db6062",
             "fr:url:ecc38235eb9f4ea1c978#url:fr:26cf3c13d081"
           ]
@@ -1524,6 +1725,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:ecc38235eb9f4ea1c978",
           "representation_ids": [
+            "fr:url:ecc38235eb9f4ea1c978#local:fr:50f00b9a3451",
             "fr:url:ecc38235eb9f4ea1c978#url:fr:055af0db6062",
             "fr:url:ecc38235eb9f4ea1c978#url:fr:26cf3c13d081"
           ]
@@ -1546,10 +1748,28 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:83514114f393685c7a75#local:fr:56fbd8441d5f",
         "fr:url:83514114f393685c7a75#url:fr:2e2b5f4087d5",
         "fr:url:83514114f393685c7a75#url:fr:e2d193632710"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-10-28",
+          "url": null,
+          "path": "documents/legislation/fr-code-sante-publique-article-l1110-3.md",
+          "representation_id": "fr:url:83514114f393685c7a75#local:fr:56fbd8441d5f",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:83514114f393685c7a75",
+          "representation_ids": [
+            "fr:url:83514114f393685c7a75#local:fr:56fbd8441d5f",
+            "fr:url:83514114f393685c7a75#url:fr:2e2b5f4087d5",
+            "fr:url:83514114f393685c7a75#url:fr:e2d193632710"
+          ]
+        },
         {
           "kind": "official_reference",
           "language": "fr",
@@ -1562,6 +1782,7 @@
           ],
           "source_identity_id": "fr:url:83514114f393685c7a75",
           "representation_ids": [
+            "fr:url:83514114f393685c7a75#local:fr:56fbd8441d5f",
             "fr:url:83514114f393685c7a75#url:fr:2e2b5f4087d5",
             "fr:url:83514114f393685c7a75#url:fr:e2d193632710"
           ]
@@ -1578,6 +1799,7 @@
           ],
           "source_identity_id": "fr:url:83514114f393685c7a75",
           "representation_ids": [
+            "fr:url:83514114f393685c7a75#local:fr:56fbd8441d5f",
             "fr:url:83514114f393685c7a75#url:fr:2e2b5f4087d5",
             "fr:url:83514114f393685c7a75#url:fr:e2d193632710"
           ]
@@ -1591,6 +1813,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:83514114f393685c7a75",
           "representation_ids": [
+            "fr:url:83514114f393685c7a75#local:fr:56fbd8441d5f",
             "fr:url:83514114f393685c7a75#url:fr:2e2b5f4087d5",
             "fr:url:83514114f393685c7a75#url:fr:e2d193632710"
           ]
@@ -1601,6 +1824,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:83514114f393685c7a75",
           "representation_ids": [
+            "fr:url:83514114f393685c7a75#local:fr:56fbd8441d5f",
             "fr:url:83514114f393685c7a75#url:fr:2e2b5f4087d5",
             "fr:url:83514114f393685c7a75#url:fr:e2d193632710"
           ]
@@ -1623,10 +1847,28 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:0fee651cb51f5b94ed38#local:fr:9345230c363c",
         "fr:url:0fee651cb51f5b94ed38#url:fr:9a9e2723e89a",
         "fr:url:0fee651cb51f5b94ed38#url:fr:df7d2cd8b269"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-10-30",
+          "url": null,
+          "path": "documents/legislation/fr-code-securite-sociale-beneficiaries-l160-1-to-l160-7.md",
+          "representation_id": "fr:url:0fee651cb51f5b94ed38#local:fr:9345230c363c",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:0fee651cb51f5b94ed38",
+          "representation_ids": [
+            "fr:url:0fee651cb51f5b94ed38#local:fr:9345230c363c",
+            "fr:url:0fee651cb51f5b94ed38#url:fr:9a9e2723e89a",
+            "fr:url:0fee651cb51f5b94ed38#url:fr:df7d2cd8b269"
+          ]
+        },
         {
           "kind": "official_reference",
           "language": "fr",
@@ -1639,6 +1881,7 @@
           ],
           "source_identity_id": "fr:url:0fee651cb51f5b94ed38",
           "representation_ids": [
+            "fr:url:0fee651cb51f5b94ed38#local:fr:9345230c363c",
             "fr:url:0fee651cb51f5b94ed38#url:fr:9a9e2723e89a",
             "fr:url:0fee651cb51f5b94ed38#url:fr:df7d2cd8b269"
           ]
@@ -1655,6 +1898,7 @@
           ],
           "source_identity_id": "fr:url:0fee651cb51f5b94ed38",
           "representation_ids": [
+            "fr:url:0fee651cb51f5b94ed38#local:fr:9345230c363c",
             "fr:url:0fee651cb51f5b94ed38#url:fr:9a9e2723e89a",
             "fr:url:0fee651cb51f5b94ed38#url:fr:df7d2cd8b269"
           ]
@@ -1668,6 +1912,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:0fee651cb51f5b94ed38",
           "representation_ids": [
+            "fr:url:0fee651cb51f5b94ed38#local:fr:9345230c363c",
             "fr:url:0fee651cb51f5b94ed38#url:fr:9a9e2723e89a",
             "fr:url:0fee651cb51f5b94ed38#url:fr:df7d2cd8b269"
           ]
@@ -1678,6 +1923,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:0fee651cb51f5b94ed38",
           "representation_ids": [
+            "fr:url:0fee651cb51f5b94ed38#local:fr:9345230c363c",
             "fr:url:0fee651cb51f5b94ed38#url:fr:9a9e2723e89a",
             "fr:url:0fee651cb51f5b94ed38#url:fr:df7d2cd8b269"
           ]
@@ -1700,10 +1946,28 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:a0541676533aa7fc6488#local:fr:b66007ad41fa",
         "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
         "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-10-28",
+          "url": null,
+          "path": "documents/legislation/fr-code-travail-articles-l5221-5-to-l5221-11.md",
+          "representation_id": "fr:url:a0541676533aa7fc6488#local:fr:b66007ad41fa",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:a0541676533aa7fc6488",
+          "representation_ids": [
+            "fr:url:a0541676533aa7fc6488#local:fr:b66007ad41fa",
+            "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
+            "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
+          ]
+        },
         {
           "kind": "official_reference",
           "language": "fr",
@@ -1716,6 +1980,7 @@
           ],
           "source_identity_id": "fr:url:a0541676533aa7fc6488",
           "representation_ids": [
+            "fr:url:a0541676533aa7fc6488#local:fr:b66007ad41fa",
             "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
             "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
           ]
@@ -1732,6 +1997,7 @@
           ],
           "source_identity_id": "fr:url:a0541676533aa7fc6488",
           "representation_ids": [
+            "fr:url:a0541676533aa7fc6488#local:fr:b66007ad41fa",
             "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
             "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
           ]
@@ -1745,6 +2011,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:a0541676533aa7fc6488",
           "representation_ids": [
+            "fr:url:a0541676533aa7fc6488#local:fr:b66007ad41fa",
             "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
             "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
           ]
@@ -1755,6 +2022,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:a0541676533aa7fc6488",
           "representation_ids": [
+            "fr:url:a0541676533aa7fc6488#local:fr:b66007ad41fa",
             "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
             "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
           ]
@@ -1847,10 +2115,28 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:92519c26e1a18537b2af#local:fr:48352183a3d5",
         "fr:url:92519c26e1a18537b2af#local:unspecified:714ea468b455",
         "fr:url:92519c26e1a18537b2af#url:fr:0194ddaca359"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-10-24",
+          "url": null,
+          "path": "documents/case_law/fr-conseil-etat-open-data-and-ariane.md",
+          "representation_id": "fr:url:92519c26e1a18537b2af#local:fr:48352183a3d5",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:92519c26e1a18537b2af",
+          "representation_ids": [
+            "fr:url:92519c26e1a18537b2af#local:fr:48352183a3d5",
+            "fr:url:92519c26e1a18537b2af#local:unspecified:714ea468b455",
+            "fr:url:92519c26e1a18537b2af#url:fr:0194ddaca359"
+          ]
+        },
         {
           "kind": "local_artifact",
           "language": "unspecified",
@@ -1863,6 +2149,7 @@
           ],
           "source_identity_id": "fr:url:92519c26e1a18537b2af",
           "representation_ids": [
+            "fr:url:92519c26e1a18537b2af#local:fr:48352183a3d5",
             "fr:url:92519c26e1a18537b2af#local:unspecified:714ea468b455",
             "fr:url:92519c26e1a18537b2af#url:fr:0194ddaca359"
           ]
@@ -1879,6 +2166,7 @@
           ],
           "source_identity_id": "fr:url:92519c26e1a18537b2af",
           "representation_ids": [
+            "fr:url:92519c26e1a18537b2af#local:fr:48352183a3d5",
             "fr:url:92519c26e1a18537b2af#local:unspecified:714ea468b455",
             "fr:url:92519c26e1a18537b2af#url:fr:0194ddaca359"
           ]
@@ -1905,6 +2193,7 @@
           "category": "catalogue",
           "source_identity_id": "fr:url:92519c26e1a18537b2af",
           "representation_ids": [
+            "fr:url:92519c26e1a18537b2af#local:fr:48352183a3d5",
             "fr:url:92519c26e1a18537b2af#local:unspecified:714ea468b455",
             "fr:url:92519c26e1a18537b2af#url:fr:0194ddaca359"
           ]
@@ -1917,6 +2206,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:92519c26e1a18537b2af",
           "representation_ids": [
+            "fr:url:92519c26e1a18537b2af#local:fr:48352183a3d5",
             "fr:url:92519c26e1a18537b2af#local:unspecified:714ea468b455",
             "fr:url:92519c26e1a18537b2af#url:fr:0194ddaca359"
           ]
@@ -2080,10 +2370,28 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:bec58a8a30291c49bb9f#local:fr:0dde067cf3e7",
         "fr:url:bec58a8a30291c49bb9f#local:unspecified:9e14dc1f84c7",
         "fr:url:bec58a8a30291c49bb9f#url:fr:6913b4c59806"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-01-05",
+          "url": null,
+          "path": "documents/procedure/fr-crrv-official-directory.md",
+          "representation_id": "fr:url:bec58a8a30291c49bb9f#local:fr:0dde067cf3e7",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:bec58a8a30291c49bb9f",
+          "representation_ids": [
+            "fr:url:bec58a8a30291c49bb9f#local:fr:0dde067cf3e7",
+            "fr:url:bec58a8a30291c49bb9f#local:unspecified:9e14dc1f84c7",
+            "fr:url:bec58a8a30291c49bb9f#url:fr:6913b4c59806"
+          ]
+        },
         {
           "kind": "local_artifact",
           "language": "unspecified",
@@ -2096,6 +2404,7 @@
           ],
           "source_identity_id": "fr:url:bec58a8a30291c49bb9f",
           "representation_ids": [
+            "fr:url:bec58a8a30291c49bb9f#local:fr:0dde067cf3e7",
             "fr:url:bec58a8a30291c49bb9f#local:unspecified:9e14dc1f84c7",
             "fr:url:bec58a8a30291c49bb9f#url:fr:6913b4c59806"
           ]
@@ -2112,6 +2421,7 @@
           ],
           "source_identity_id": "fr:url:bec58a8a30291c49bb9f",
           "representation_ids": [
+            "fr:url:bec58a8a30291c49bb9f#local:fr:0dde067cf3e7",
             "fr:url:bec58a8a30291c49bb9f#local:unspecified:9e14dc1f84c7",
             "fr:url:bec58a8a30291c49bb9f#url:fr:6913b4c59806"
           ]
@@ -2138,6 +2448,7 @@
           "category": "catalogue",
           "source_identity_id": "fr:url:bec58a8a30291c49bb9f",
           "representation_ids": [
+            "fr:url:bec58a8a30291c49bb9f#local:fr:0dde067cf3e7",
             "fr:url:bec58a8a30291c49bb9f#local:unspecified:9e14dc1f84c7",
             "fr:url:bec58a8a30291c49bb9f#url:fr:6913b4c59806"
           ]
@@ -2150,6 +2461,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:bec58a8a30291c49bb9f",
           "representation_ids": [
+            "fr:url:bec58a8a30291c49bb9f#local:fr:0dde067cf3e7",
             "fr:url:bec58a8a30291c49bb9f#local:unspecified:9e14dc1f84c7",
             "fr:url:bec58a8a30291c49bb9f#url:fr:6913b4c59806"
           ]
@@ -2527,11 +2839,51 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:de58ea84f0e60a54f0a0#local:en:a41440824c25",
+        "fr:url:de58ea84f0e60a54f0a0#local:fr:a41440824c25",
         "fr:url:de58ea84f0e60a54f0a0#local:unspecified:ffe881025f4d",
         "fr:url:de58ea84f0e60a54f0a0#url:en:ba1fdcca4117",
         "fr:url:de58ea84f0e60a54f0a0#url:fr:12a167796df6"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "en",
+          "edition": "2026-10-29",
+          "url": null,
+          "path": "documents/guidance/fr-france-visas-family-french.md",
+          "representation_id": "fr:url:de58ea84f0e60a54f0a0#local:en:a41440824c25",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:de58ea84f0e60a54f0a0",
+          "representation_ids": [
+            "fr:url:de58ea84f0e60a54f0a0#local:en:a41440824c25",
+            "fr:url:de58ea84f0e60a54f0a0#local:fr:a41440824c25",
+            "fr:url:de58ea84f0e60a54f0a0#local:unspecified:ffe881025f4d",
+            "fr:url:de58ea84f0e60a54f0a0#url:en:ba1fdcca4117",
+            "fr:url:de58ea84f0e60a54f0a0#url:fr:12a167796df6"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-10-29",
+          "url": null,
+          "path": "documents/guidance/fr-france-visas-family-french.md",
+          "representation_id": "fr:url:de58ea84f0e60a54f0a0#local:fr:a41440824c25",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:de58ea84f0e60a54f0a0",
+          "representation_ids": [
+            "fr:url:de58ea84f0e60a54f0a0#local:en:a41440824c25",
+            "fr:url:de58ea84f0e60a54f0a0#local:fr:a41440824c25",
+            "fr:url:de58ea84f0e60a54f0a0#local:unspecified:ffe881025f4d",
+            "fr:url:de58ea84f0e60a54f0a0#url:en:ba1fdcca4117",
+            "fr:url:de58ea84f0e60a54f0a0#url:fr:12a167796df6"
+          ]
+        },
         {
           "kind": "local_artifact",
           "language": "unspecified",
@@ -2544,6 +2896,8 @@
           ],
           "source_identity_id": "fr:url:de58ea84f0e60a54f0a0",
           "representation_ids": [
+            "fr:url:de58ea84f0e60a54f0a0#local:en:a41440824c25",
+            "fr:url:de58ea84f0e60a54f0a0#local:fr:a41440824c25",
             "fr:url:de58ea84f0e60a54f0a0#local:unspecified:ffe881025f4d",
             "fr:url:de58ea84f0e60a54f0a0#url:en:ba1fdcca4117",
             "fr:url:de58ea84f0e60a54f0a0#url:fr:12a167796df6"
@@ -2561,6 +2915,8 @@
           ],
           "source_identity_id": "fr:url:de58ea84f0e60a54f0a0",
           "representation_ids": [
+            "fr:url:de58ea84f0e60a54f0a0#local:en:a41440824c25",
+            "fr:url:de58ea84f0e60a54f0a0#local:fr:a41440824c25",
             "fr:url:de58ea84f0e60a54f0a0#local:unspecified:ffe881025f4d",
             "fr:url:de58ea84f0e60a54f0a0#url:en:ba1fdcca4117",
             "fr:url:de58ea84f0e60a54f0a0#url:fr:12a167796df6"
@@ -2579,6 +2935,8 @@
           ],
           "source_identity_id": "fr:url:de58ea84f0e60a54f0a0",
           "representation_ids": [
+            "fr:url:de58ea84f0e60a54f0a0#local:en:a41440824c25",
+            "fr:url:de58ea84f0e60a54f0a0#local:fr:a41440824c25",
             "fr:url:de58ea84f0e60a54f0a0#local:unspecified:ffe881025f4d",
             "fr:url:de58ea84f0e60a54f0a0#url:en:ba1fdcca4117",
             "fr:url:de58ea84f0e60a54f0a0#url:fr:12a167796df6"
@@ -2606,6 +2964,8 @@
           "category": "catalogue",
           "source_identity_id": "fr:url:de58ea84f0e60a54f0a0",
           "representation_ids": [
+            "fr:url:de58ea84f0e60a54f0a0#local:en:a41440824c25",
+            "fr:url:de58ea84f0e60a54f0a0#local:fr:a41440824c25",
             "fr:url:de58ea84f0e60a54f0a0#local:unspecified:ffe881025f4d",
             "fr:url:de58ea84f0e60a54f0a0#url:en:ba1fdcca4117",
             "fr:url:de58ea84f0e60a54f0a0#url:fr:12a167796df6"
@@ -2619,6 +2979,8 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:de58ea84f0e60a54f0a0",
           "representation_ids": [
+            "fr:url:de58ea84f0e60a54f0a0#local:en:a41440824c25",
+            "fr:url:de58ea84f0e60a54f0a0#local:fr:a41440824c25",
             "fr:url:de58ea84f0e60a54f0a0#local:unspecified:ffe881025f4d",
             "fr:url:de58ea84f0e60a54f0a0#url:en:ba1fdcca4117",
             "fr:url:de58ea84f0e60a54f0a0#url:fr:12a167796df6"
@@ -2630,6 +2992,8 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:de58ea84f0e60a54f0a0",
           "representation_ids": [
+            "fr:url:de58ea84f0e60a54f0a0#local:en:a41440824c25",
+            "fr:url:de58ea84f0e60a54f0a0#local:fr:a41440824c25",
             "fr:url:de58ea84f0e60a54f0a0#local:unspecified:ffe881025f4d",
             "fr:url:de58ea84f0e60a54f0a0#url:en:ba1fdcca4117",
             "fr:url:de58ea84f0e60a54f0a0#url:fr:12a167796df6"
@@ -3564,10 +3928,28 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:1a04b5a0194e5e2764ed#local:fr:9779e0e7576d",
         "fr:url:1a04b5a0194e5e2764ed#local:unspecified:7db7e404b0ea",
         "fr:url:1a04b5a0194e5e2764ed#url:fr:02808230380c"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-08-13",
+          "url": null,
+          "path": "documents/procedure/fr-service-public-anef-task-r59398.md",
+          "representation_id": "fr:url:1a04b5a0194e5e2764ed#local:fr:9779e0e7576d",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:1a04b5a0194e5e2764ed",
+          "representation_ids": [
+            "fr:url:1a04b5a0194e5e2764ed#local:fr:9779e0e7576d",
+            "fr:url:1a04b5a0194e5e2764ed#local:unspecified:7db7e404b0ea",
+            "fr:url:1a04b5a0194e5e2764ed#url:fr:02808230380c"
+          ]
+        },
         {
           "kind": "local_artifact",
           "language": "unspecified",
@@ -3580,6 +3962,7 @@
           ],
           "source_identity_id": "fr:url:1a04b5a0194e5e2764ed",
           "representation_ids": [
+            "fr:url:1a04b5a0194e5e2764ed#local:fr:9779e0e7576d",
             "fr:url:1a04b5a0194e5e2764ed#local:unspecified:7db7e404b0ea",
             "fr:url:1a04b5a0194e5e2764ed#url:fr:02808230380c"
           ]
@@ -3596,6 +3979,7 @@
           ],
           "source_identity_id": "fr:url:1a04b5a0194e5e2764ed",
           "representation_ids": [
+            "fr:url:1a04b5a0194e5e2764ed#local:fr:9779e0e7576d",
             "fr:url:1a04b5a0194e5e2764ed#local:unspecified:7db7e404b0ea",
             "fr:url:1a04b5a0194e5e2764ed#url:fr:02808230380c"
           ]
@@ -3622,6 +4006,7 @@
           "category": "catalogue",
           "source_identity_id": "fr:url:1a04b5a0194e5e2764ed",
           "representation_ids": [
+            "fr:url:1a04b5a0194e5e2764ed#local:fr:9779e0e7576d",
             "fr:url:1a04b5a0194e5e2764ed#local:unspecified:7db7e404b0ea",
             "fr:url:1a04b5a0194e5e2764ed#url:fr:02808230380c"
           ]
@@ -3634,6 +4019,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:1a04b5a0194e5e2764ed",
           "representation_ids": [
+            "fr:url:1a04b5a0194e5e2764ed#local:fr:9779e0e7576d",
             "fr:url:1a04b5a0194e5e2764ed#local:unspecified:7db7e404b0ea",
             "fr:url:1a04b5a0194e5e2764ed#url:fr:02808230380c"
           ]
@@ -3655,10 +4041,28 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:65354b5951d6314aae72#local:fr:6e28b7985b03",
         "fr:url:65354b5951d6314aae72#local:unspecified:4eb73ccb79ae",
         "fr:url:65354b5951d6314aae72#url:fr:40d5381fbd74"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-04-01",
+          "url": null,
+          "path": "documents/guidance/fr-service-public-eu-long-stay-f2651.md",
+          "representation_id": "fr:url:65354b5951d6314aae72#local:fr:6e28b7985b03",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:65354b5951d6314aae72",
+          "representation_ids": [
+            "fr:url:65354b5951d6314aae72#local:fr:6e28b7985b03",
+            "fr:url:65354b5951d6314aae72#local:unspecified:4eb73ccb79ae",
+            "fr:url:65354b5951d6314aae72#url:fr:40d5381fbd74"
+          ]
+        },
         {
           "kind": "local_artifact",
           "language": "unspecified",
@@ -3671,6 +4075,7 @@
           ],
           "source_identity_id": "fr:url:65354b5951d6314aae72",
           "representation_ids": [
+            "fr:url:65354b5951d6314aae72#local:fr:6e28b7985b03",
             "fr:url:65354b5951d6314aae72#local:unspecified:4eb73ccb79ae",
             "fr:url:65354b5951d6314aae72#url:fr:40d5381fbd74"
           ]
@@ -3687,6 +4092,7 @@
           ],
           "source_identity_id": "fr:url:65354b5951d6314aae72",
           "representation_ids": [
+            "fr:url:65354b5951d6314aae72#local:fr:6e28b7985b03",
             "fr:url:65354b5951d6314aae72#local:unspecified:4eb73ccb79ae",
             "fr:url:65354b5951d6314aae72#url:fr:40d5381fbd74"
           ]
@@ -3713,6 +4119,7 @@
           "category": "catalogue",
           "source_identity_id": "fr:url:65354b5951d6314aae72",
           "representation_ids": [
+            "fr:url:65354b5951d6314aae72#local:fr:6e28b7985b03",
             "fr:url:65354b5951d6314aae72#local:unspecified:4eb73ccb79ae",
             "fr:url:65354b5951d6314aae72#url:fr:40d5381fbd74"
           ]
@@ -3725,6 +4132,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:65354b5951d6314aae72",
           "representation_ids": [
+            "fr:url:65354b5951d6314aae72#local:fr:6e28b7985b03",
             "fr:url:65354b5951d6314aae72#local:unspecified:4eb73ccb79ae",
             "fr:url:65354b5951d6314aae72#url:fr:40d5381fbd74"
           ]
@@ -3746,10 +4154,28 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:ebd705a0859432c0f6d9#local:fr:a41aa1671fd8",
         "fr:url:ebd705a0859432c0f6d9#local:unspecified:9a0bd41130ab",
         "fr:url:ebd705a0859432c0f6d9#url:fr:deb27f416952"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2024-02-02",
+          "url": null,
+          "path": "documents/guidance/fr-service-public-family-card-f19315.md",
+          "representation_id": "fr:url:ebd705a0859432c0f6d9#local:fr:a41aa1671fd8",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:ebd705a0859432c0f6d9",
+          "representation_ids": [
+            "fr:url:ebd705a0859432c0f6d9#local:fr:a41aa1671fd8",
+            "fr:url:ebd705a0859432c0f6d9#local:unspecified:9a0bd41130ab",
+            "fr:url:ebd705a0859432c0f6d9#url:fr:deb27f416952"
+          ]
+        },
         {
           "kind": "local_artifact",
           "language": "unspecified",
@@ -3762,6 +4188,7 @@
           ],
           "source_identity_id": "fr:url:ebd705a0859432c0f6d9",
           "representation_ids": [
+            "fr:url:ebd705a0859432c0f6d9#local:fr:a41aa1671fd8",
             "fr:url:ebd705a0859432c0f6d9#local:unspecified:9a0bd41130ab",
             "fr:url:ebd705a0859432c0f6d9#url:fr:deb27f416952"
           ]
@@ -3778,6 +4205,7 @@
           ],
           "source_identity_id": "fr:url:ebd705a0859432c0f6d9",
           "representation_ids": [
+            "fr:url:ebd705a0859432c0f6d9#local:fr:a41aa1671fd8",
             "fr:url:ebd705a0859432c0f6d9#local:unspecified:9a0bd41130ab",
             "fr:url:ebd705a0859432c0f6d9#url:fr:deb27f416952"
           ]
@@ -3804,6 +4232,7 @@
           "category": "catalogue",
           "source_identity_id": "fr:url:ebd705a0859432c0f6d9",
           "representation_ids": [
+            "fr:url:ebd705a0859432c0f6d9#local:fr:a41aa1671fd8",
             "fr:url:ebd705a0859432c0f6d9#local:unspecified:9a0bd41130ab",
             "fr:url:ebd705a0859432c0f6d9#url:fr:deb27f416952"
           ]
@@ -3816,6 +4245,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:ebd705a0859432c0f6d9",
           "representation_ids": [
+            "fr:url:ebd705a0859432c0f6d9#local:fr:a41aa1671fd8",
             "fr:url:ebd705a0859432c0f6d9#local:unspecified:9a0bd41130ab",
             "fr:url:ebd705a0859432c0f6d9#url:fr:deb27f416952"
           ]
@@ -3837,10 +4267,28 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:d865744a9fe30fb3a6b5#local:fr:acae6f954487",
         "fr:url:d865744a9fe30fb3a6b5#local:unspecified:f5ed5f254d99",
         "fr:url:d865744a9fe30fb3a6b5#url:fr:3509971d46fc"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-07-08",
+          "url": null,
+          "path": "documents/guidance/fr-service-public-general-stay-f39.md",
+          "representation_id": "fr:url:d865744a9fe30fb3a6b5#local:fr:acae6f954487",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:d865744a9fe30fb3a6b5",
+          "representation_ids": [
+            "fr:url:d865744a9fe30fb3a6b5#local:fr:acae6f954487",
+            "fr:url:d865744a9fe30fb3a6b5#local:unspecified:f5ed5f254d99",
+            "fr:url:d865744a9fe30fb3a6b5#url:fr:3509971d46fc"
+          ]
+        },
         {
           "kind": "local_artifact",
           "language": "unspecified",
@@ -3853,6 +4301,7 @@
           ],
           "source_identity_id": "fr:url:d865744a9fe30fb3a6b5",
           "representation_ids": [
+            "fr:url:d865744a9fe30fb3a6b5#local:fr:acae6f954487",
             "fr:url:d865744a9fe30fb3a6b5#local:unspecified:f5ed5f254d99",
             "fr:url:d865744a9fe30fb3a6b5#url:fr:3509971d46fc"
           ]
@@ -3869,6 +4318,7 @@
           ],
           "source_identity_id": "fr:url:d865744a9fe30fb3a6b5",
           "representation_ids": [
+            "fr:url:d865744a9fe30fb3a6b5#local:fr:acae6f954487",
             "fr:url:d865744a9fe30fb3a6b5#local:unspecified:f5ed5f254d99",
             "fr:url:d865744a9fe30fb3a6b5#url:fr:3509971d46fc"
           ]
@@ -3895,6 +4345,7 @@
           "category": "catalogue",
           "source_identity_id": "fr:url:d865744a9fe30fb3a6b5",
           "representation_ids": [
+            "fr:url:d865744a9fe30fb3a6b5#local:fr:acae6f954487",
             "fr:url:d865744a9fe30fb3a6b5#local:unspecified:f5ed5f254d99",
             "fr:url:d865744a9fe30fb3a6b5#url:fr:3509971d46fc"
           ]
@@ -3907,6 +4358,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:d865744a9fe30fb3a6b5",
           "representation_ids": [
+            "fr:url:d865744a9fe30fb3a6b5#local:fr:acae6f954487",
             "fr:url:d865744a9fe30fb3a6b5#local:unspecified:f5ed5f254d99",
             "fr:url:d865744a9fe30fb3a6b5#url:fr:3509971d46fc"
           ]
@@ -3928,10 +4380,28 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:142a644541bfe62b2da1#local:fr:ce1d608a9474",
         "fr:url:142a644541bfe62b2da1#local:unspecified:a1e3f18cfd84",
         "fr:url:142a644541bfe62b2da1#url:fr:c827c9c65205"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-06-12",
+          "url": null,
+          "path": "documents/guidance/fr-service-public-legal-aid-f18074.md",
+          "representation_id": "fr:url:142a644541bfe62b2da1#local:fr:ce1d608a9474",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:142a644541bfe62b2da1",
+          "representation_ids": [
+            "fr:url:142a644541bfe62b2da1#local:fr:ce1d608a9474",
+            "fr:url:142a644541bfe62b2da1#local:unspecified:a1e3f18cfd84",
+            "fr:url:142a644541bfe62b2da1#url:fr:c827c9c65205"
+          ]
+        },
         {
           "kind": "local_artifact",
           "language": "unspecified",
@@ -3944,6 +4414,7 @@
           ],
           "source_identity_id": "fr:url:142a644541bfe62b2da1",
           "representation_ids": [
+            "fr:url:142a644541bfe62b2da1#local:fr:ce1d608a9474",
             "fr:url:142a644541bfe62b2da1#local:unspecified:a1e3f18cfd84",
             "fr:url:142a644541bfe62b2da1#url:fr:c827c9c65205"
           ]
@@ -3960,6 +4431,7 @@
           ],
           "source_identity_id": "fr:url:142a644541bfe62b2da1",
           "representation_ids": [
+            "fr:url:142a644541bfe62b2da1#local:fr:ce1d608a9474",
             "fr:url:142a644541bfe62b2da1#local:unspecified:a1e3f18cfd84",
             "fr:url:142a644541bfe62b2da1#url:fr:c827c9c65205"
           ]
@@ -3986,6 +4458,7 @@
           "category": "catalogue",
           "source_identity_id": "fr:url:142a644541bfe62b2da1",
           "representation_ids": [
+            "fr:url:142a644541bfe62b2da1#local:fr:ce1d608a9474",
             "fr:url:142a644541bfe62b2da1#local:unspecified:a1e3f18cfd84",
             "fr:url:142a644541bfe62b2da1#url:fr:c827c9c65205"
           ]
@@ -3998,6 +4471,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:142a644541bfe62b2da1",
           "representation_ids": [
+            "fr:url:142a644541bfe62b2da1#local:fr:ce1d608a9474",
             "fr:url:142a644541bfe62b2da1#local:unspecified:a1e3f18cfd84",
             "fr:url:142a644541bfe62b2da1#url:fr:c827c9c65205"
           ]
@@ -4019,10 +4493,28 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:b5ea51d8cbc0abd6038d#local:fr:f51b533331bb",
         "fr:url:b5ea51d8cbc0abd6038d#local:unspecified:da966cefc5f3",
         "fr:url:b5ea51d8cbc0abd6038d#url:fr:e31e14496f6e"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-10-09",
+          "url": null,
+          "path": "documents/guidance/fr-service-public-long-visa-refusal.md",
+          "representation_id": "fr:url:b5ea51d8cbc0abd6038d#local:fr:f51b533331bb",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:b5ea51d8cbc0abd6038d",
+          "representation_ids": [
+            "fr:url:b5ea51d8cbc0abd6038d#local:fr:f51b533331bb",
+            "fr:url:b5ea51d8cbc0abd6038d#local:unspecified:da966cefc5f3",
+            "fr:url:b5ea51d8cbc0abd6038d#url:fr:e31e14496f6e"
+          ]
+        },
         {
           "kind": "local_artifact",
           "language": "unspecified",
@@ -4035,6 +4527,7 @@
           ],
           "source_identity_id": "fr:url:b5ea51d8cbc0abd6038d",
           "representation_ids": [
+            "fr:url:b5ea51d8cbc0abd6038d#local:fr:f51b533331bb",
             "fr:url:b5ea51d8cbc0abd6038d#local:unspecified:da966cefc5f3",
             "fr:url:b5ea51d8cbc0abd6038d#url:fr:e31e14496f6e"
           ]
@@ -4051,6 +4544,7 @@
           ],
           "source_identity_id": "fr:url:b5ea51d8cbc0abd6038d",
           "representation_ids": [
+            "fr:url:b5ea51d8cbc0abd6038d#local:fr:f51b533331bb",
             "fr:url:b5ea51d8cbc0abd6038d#local:unspecified:da966cefc5f3",
             "fr:url:b5ea51d8cbc0abd6038d#url:fr:e31e14496f6e"
           ]
@@ -4077,6 +4571,7 @@
           "category": "catalogue",
           "source_identity_id": "fr:url:b5ea51d8cbc0abd6038d",
           "representation_ids": [
+            "fr:url:b5ea51d8cbc0abd6038d#local:fr:f51b533331bb",
             "fr:url:b5ea51d8cbc0abd6038d#local:unspecified:da966cefc5f3",
             "fr:url:b5ea51d8cbc0abd6038d#url:fr:e31e14496f6e"
           ]
@@ -4089,6 +4584,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:b5ea51d8cbc0abd6038d",
           "representation_ids": [
+            "fr:url:b5ea51d8cbc0abd6038d#local:fr:f51b533331bb",
             "fr:url:b5ea51d8cbc0abd6038d#local:unspecified:da966cefc5f3",
             "fr:url:b5ea51d8cbc0abd6038d#url:fr:e31e14496f6e"
           ]
@@ -4110,11 +4606,30 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:e40f2031df77cd46a44b#local:fr:d1ae1615b1d0",
         "fr:url:e40f2031df77cd46a44b#local:unspecified:8e7147493fbb",
         "fr:url:e40f2031df77cd46a44b#url:fr:e224c4ac2c2b",
         "fr:url:e40f2031df77cd46a44b#url:unspecified:d99830f49b07"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-08-13",
+          "url": null,
+          "path": "documents/guidance/fr-service-public-short-visa-refusal.md",
+          "representation_id": "fr:url:e40f2031df77cd46a44b#local:fr:d1ae1615b1d0",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:e40f2031df77cd46a44b",
+          "representation_ids": [
+            "fr:url:e40f2031df77cd46a44b#local:fr:d1ae1615b1d0",
+            "fr:url:e40f2031df77cd46a44b#local:unspecified:8e7147493fbb",
+            "fr:url:e40f2031df77cd46a44b#url:fr:e224c4ac2c2b",
+            "fr:url:e40f2031df77cd46a44b#url:unspecified:d99830f49b07"
+          ]
+        },
         {
           "kind": "local_artifact",
           "language": "unspecified",
@@ -4127,6 +4642,7 @@
           ],
           "source_identity_id": "fr:url:e40f2031df77cd46a44b",
           "representation_ids": [
+            "fr:url:e40f2031df77cd46a44b#local:fr:d1ae1615b1d0",
             "fr:url:e40f2031df77cd46a44b#local:unspecified:8e7147493fbb",
             "fr:url:e40f2031df77cd46a44b#url:fr:e224c4ac2c2b",
             "fr:url:e40f2031df77cd46a44b#url:unspecified:d99830f49b07"
@@ -4144,6 +4660,7 @@
           ],
           "source_identity_id": "fr:url:e40f2031df77cd46a44b",
           "representation_ids": [
+            "fr:url:e40f2031df77cd46a44b#local:fr:d1ae1615b1d0",
             "fr:url:e40f2031df77cd46a44b#local:unspecified:8e7147493fbb",
             "fr:url:e40f2031df77cd46a44b#url:fr:e224c4ac2c2b",
             "fr:url:e40f2031df77cd46a44b#url:unspecified:d99830f49b07"
@@ -4159,6 +4676,7 @@
           "acceptance_status": [],
           "source_identity_id": "fr:url:e40f2031df77cd46a44b",
           "representation_ids": [
+            "fr:url:e40f2031df77cd46a44b#local:fr:d1ae1615b1d0",
             "fr:url:e40f2031df77cd46a44b#local:unspecified:8e7147493fbb",
             "fr:url:e40f2031df77cd46a44b#url:fr:e224c4ac2c2b",
             "fr:url:e40f2031df77cd46a44b#url:unspecified:d99830f49b07"
@@ -4186,6 +4704,7 @@
           "category": "catalogue",
           "source_identity_id": "fr:url:e40f2031df77cd46a44b",
           "representation_ids": [
+            "fr:url:e40f2031df77cd46a44b#local:fr:d1ae1615b1d0",
             "fr:url:e40f2031df77cd46a44b#local:unspecified:8e7147493fbb",
             "fr:url:e40f2031df77cd46a44b#url:fr:e224c4ac2c2b",
             "fr:url:e40f2031df77cd46a44b#url:unspecified:d99830f49b07"
@@ -4199,6 +4718,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:e40f2031df77cd46a44b",
           "representation_ids": [
+            "fr:url:e40f2031df77cd46a44b#local:fr:d1ae1615b1d0",
             "fr:url:e40f2031df77cd46a44b#local:unspecified:8e7147493fbb",
             "fr:url:e40f2031df77cd46a44b#url:fr:e224c4ac2c2b",
             "fr:url:e40f2031df77cd46a44b#url:unspecified:d99830f49b07"
@@ -4268,10 +4788,28 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:2f0bc7475c9f2bd969ec#local:fr:f129b725f567",
         "fr:url:2f0bc7475c9f2bd969ec#local:unspecified:55b5f6f9e56e",
         "fr:url:2f0bc7475c9f2bd969ec#url:fr:ee0cc637a8d0"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-10-19",
+          "url": null,
+          "path": "documents/procedure/fr-ta-nantes-official-site.md",
+          "representation_id": "fr:url:2f0bc7475c9f2bd969ec#local:fr:f129b725f567",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:2f0bc7475c9f2bd969ec",
+          "representation_ids": [
+            "fr:url:2f0bc7475c9f2bd969ec#local:fr:f129b725f567",
+            "fr:url:2f0bc7475c9f2bd969ec#local:unspecified:55b5f6f9e56e",
+            "fr:url:2f0bc7475c9f2bd969ec#url:fr:ee0cc637a8d0"
+          ]
+        },
         {
           "kind": "local_artifact",
           "language": "unspecified",
@@ -4284,6 +4822,7 @@
           ],
           "source_identity_id": "fr:url:2f0bc7475c9f2bd969ec",
           "representation_ids": [
+            "fr:url:2f0bc7475c9f2bd969ec#local:fr:f129b725f567",
             "fr:url:2f0bc7475c9f2bd969ec#local:unspecified:55b5f6f9e56e",
             "fr:url:2f0bc7475c9f2bd969ec#url:fr:ee0cc637a8d0"
           ]
@@ -4300,6 +4839,7 @@
           ],
           "source_identity_id": "fr:url:2f0bc7475c9f2bd969ec",
           "representation_ids": [
+            "fr:url:2f0bc7475c9f2bd969ec#local:fr:f129b725f567",
             "fr:url:2f0bc7475c9f2bd969ec#local:unspecified:55b5f6f9e56e",
             "fr:url:2f0bc7475c9f2bd969ec#url:fr:ee0cc637a8d0"
           ]
@@ -4326,6 +4866,7 @@
           "category": "catalogue",
           "source_identity_id": "fr:url:2f0bc7475c9f2bd969ec",
           "representation_ids": [
+            "fr:url:2f0bc7475c9f2bd969ec#local:fr:f129b725f567",
             "fr:url:2f0bc7475c9f2bd969ec#local:unspecified:55b5f6f9e56e",
             "fr:url:2f0bc7475c9f2bd969ec#url:fr:ee0cc637a8d0"
           ]
@@ -4338,6 +4879,7 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:2f0bc7475c9f2bd969ec",
           "representation_ids": [
+            "fr:url:2f0bc7475c9f2bd969ec#local:fr:f129b725f567",
             "fr:url:2f0bc7475c9f2bd969ec#local:unspecified:55b5f6f9e56e",
             "fr:url:2f0bc7475c9f2bd969ec#url:fr:ee0cc637a8d0"
           ]
