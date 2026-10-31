@@ -2052,11 +2052,36 @@
         "accepted_local_copy"
       ],
       "representation_ids": [
+        "fr:url:a0541676533aa7fc6488#local:fr:2cebf1f153de",
         "fr:url:a0541676533aa7fc6488#local:fr:b66007ad41fa",
+        "fr:url:a0541676533aa7fc6488#url:fr:27bbd46ed37e",
         "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
+        "fr:url:a0541676533aa7fc6488#url:fr:9e8b05c717cc",
+        "fr:url:a0541676533aa7fc6488#url:fr:ba3416ed02a3",
         "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fr",
+          "edition": "2026-10-04",
+          "url": null,
+          "path": "documents/legislation/fr-r5221-17-and-r5221-19-decision-appeal.md",
+          "representation_id": "fr:url:a0541676533aa7fc6488#local:fr:2cebf1f153de",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "fr:url:a0541676533aa7fc6488",
+          "representation_ids": [
+            "fr:url:a0541676533aa7fc6488#local:fr:2cebf1f153de",
+            "fr:url:a0541676533aa7fc6488#local:fr:b66007ad41fa",
+            "fr:url:a0541676533aa7fc6488#url:fr:27bbd46ed37e",
+            "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
+            "fr:url:a0541676533aa7fc6488#url:fr:9e8b05c717cc",
+            "fr:url:a0541676533aa7fc6488#url:fr:ba3416ed02a3",
+            "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
+          ]
+        },
         {
           "kind": "local_artifact",
           "language": "fr",
@@ -2069,8 +2094,33 @@
           ],
           "source_identity_id": "fr:url:a0541676533aa7fc6488",
           "representation_ids": [
+            "fr:url:a0541676533aa7fc6488#local:fr:2cebf1f153de",
             "fr:url:a0541676533aa7fc6488#local:fr:b66007ad41fa",
+            "fr:url:a0541676533aa7fc6488#url:fr:27bbd46ed37e",
             "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
+            "fr:url:a0541676533aa7fc6488#url:fr:9e8b05c717cc",
+            "fr:url:a0541676533aa7fc6488#url:fr:ba3416ed02a3",
+            "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
+          ]
+        },
+        {
+          "kind": "official_reference",
+          "language": "fr",
+          "edition": "2016-11-01",
+          "url": "https://legifrance.gouv.fr/codes/article_lc/LEGIARTI000033333034",
+          "path": null,
+          "representation_id": "fr:url:a0541676533aa7fc6488#url:fr:27bbd46ed37e",
+          "acceptance_status": [
+            "accepted_external_reference"
+          ],
+          "source_identity_id": "fr:url:a0541676533aa7fc6488",
+          "representation_ids": [
+            "fr:url:a0541676533aa7fc6488#local:fr:2cebf1f153de",
+            "fr:url:a0541676533aa7fc6488#local:fr:b66007ad41fa",
+            "fr:url:a0541676533aa7fc6488#url:fr:27bbd46ed37e",
+            "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
+            "fr:url:a0541676533aa7fc6488#url:fr:9e8b05c717cc",
+            "fr:url:a0541676533aa7fc6488#url:fr:ba3416ed02a3",
             "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
           ]
         },
@@ -2086,8 +2136,54 @@
           ],
           "source_identity_id": "fr:url:a0541676533aa7fc6488",
           "representation_ids": [
+            "fr:url:a0541676533aa7fc6488#local:fr:2cebf1f153de",
             "fr:url:a0541676533aa7fc6488#local:fr:b66007ad41fa",
+            "fr:url:a0541676533aa7fc6488#url:fr:27bbd46ed37e",
             "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
+            "fr:url:a0541676533aa7fc6488#url:fr:9e8b05c717cc",
+            "fr:url:a0541676533aa7fc6488#url:fr:ba3416ed02a3",
+            "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
+          ]
+        },
+        {
+          "kind": "official_reference",
+          "language": "fr",
+          "edition": "2026-10-04",
+          "url": "https://legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000018495598/2026-10-04",
+          "path": null,
+          "representation_id": "fr:url:a0541676533aa7fc6488#url:fr:9e8b05c717cc",
+          "acceptance_status": [
+            "accepted_external_reference"
+          ],
+          "source_identity_id": "fr:url:a0541676533aa7fc6488",
+          "representation_ids": [
+            "fr:url:a0541676533aa7fc6488#local:fr:2cebf1f153de",
+            "fr:url:a0541676533aa7fc6488#local:fr:b66007ad41fa",
+            "fr:url:a0541676533aa7fc6488#url:fr:27bbd46ed37e",
+            "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
+            "fr:url:a0541676533aa7fc6488#url:fr:9e8b05c717cc",
+            "fr:url:a0541676533aa7fc6488#url:fr:ba3416ed02a3",
+            "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
+          ]
+        },
+        {
+          "kind": "official_reference",
+          "language": "fr",
+          "edition": "2021-04-01",
+          "url": "https://legifrance.gouv.fr/codes/article_lc/LEGIARTI000043320719",
+          "path": null,
+          "representation_id": "fr:url:a0541676533aa7fc6488#url:fr:ba3416ed02a3",
+          "acceptance_status": [
+            "accepted_external_reference"
+          ],
+          "source_identity_id": "fr:url:a0541676533aa7fc6488",
+          "representation_ids": [
+            "fr:url:a0541676533aa7fc6488#local:fr:2cebf1f153de",
+            "fr:url:a0541676533aa7fc6488#local:fr:b66007ad41fa",
+            "fr:url:a0541676533aa7fc6488#url:fr:27bbd46ed37e",
+            "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
+            "fr:url:a0541676533aa7fc6488#url:fr:9e8b05c717cc",
+            "fr:url:a0541676533aa7fc6488#url:fr:ba3416ed02a3",
             "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
           ]
         },
@@ -2103,8 +2199,12 @@
           ],
           "source_identity_id": "fr:url:a0541676533aa7fc6488",
           "representation_ids": [
+            "fr:url:a0541676533aa7fc6488#local:fr:2cebf1f153de",
             "fr:url:a0541676533aa7fc6488#local:fr:b66007ad41fa",
+            "fr:url:a0541676533aa7fc6488#url:fr:27bbd46ed37e",
             "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
+            "fr:url:a0541676533aa7fc6488#url:fr:9e8b05c717cc",
+            "fr:url:a0541676533aa7fc6488#url:fr:ba3416ed02a3",
             "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
           ]
         }
@@ -2117,8 +2217,12 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:a0541676533aa7fc6488",
           "representation_ids": [
+            "fr:url:a0541676533aa7fc6488#local:fr:2cebf1f153de",
             "fr:url:a0541676533aa7fc6488#local:fr:b66007ad41fa",
+            "fr:url:a0541676533aa7fc6488#url:fr:27bbd46ed37e",
             "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
+            "fr:url:a0541676533aa7fc6488#url:fr:9e8b05c717cc",
+            "fr:url:a0541676533aa7fc6488#url:fr:ba3416ed02a3",
             "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
           ]
         },
@@ -2128,8 +2232,12 @@
           "category": "acceptance",
           "source_identity_id": "fr:url:a0541676533aa7fc6488",
           "representation_ids": [
+            "fr:url:a0541676533aa7fc6488#local:fr:2cebf1f153de",
             "fr:url:a0541676533aa7fc6488#local:fr:b66007ad41fa",
+            "fr:url:a0541676533aa7fc6488#url:fr:27bbd46ed37e",
             "fr:url:a0541676533aa7fc6488#url:fr:4da560fa9384",
+            "fr:url:a0541676533aa7fc6488#url:fr:9e8b05c717cc",
+            "fr:url:a0541676533aa7fc6488#url:fr:ba3416ed02a3",
             "fr:url:a0541676533aa7fc6488#url:fr:bc73bb32b3fc"
           ]
         }
