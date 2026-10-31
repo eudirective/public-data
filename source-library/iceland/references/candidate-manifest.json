@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "jurisdiction": "IS",
-  "updated": "2026-10-29",
-  "inventory_scope": "Existing catalogued source records for iceland; no acceptance or coverage decision is changed.",
+  "updated": "2026-10-31",
+  "inventory_scope": "Inventory includes accepted local-copy representations; acceptance and coverage decisions remain in source-acceptance.json.",
   "source_rules_file": null,
   "official_hosts": [],
   "discovery_hosts": [],
@@ -11,7 +11,7 @@
     {
       "id": "is-01",
       "title": "Althingi Lagasafn version index and SGML bundles",
-      "source_type": "unspecified",
+      "source_type": "legislation archive",
       "official_urls": [
         "https://althingi.is/lagasafn/zip-skra-af-lagasafni"
       ],
@@ -45,7 +45,7 @@
           "line": 9,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -82,7 +82,7 @@
     {
       "id": "is-02",
       "title": "Foreign Nationals Act No. 80/2016",
-      "source_type": "unspecified",
+      "source_type": "national legislation",
       "official_urls": [
         "https://althingi.is/lagas/nuna/2016080.html"
       ],
@@ -116,7 +116,7 @@
           "line": 10,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -153,7 +153,7 @@
     {
       "id": "is-03",
       "title": "Administrative Procedure Act No. 37/1993",
-      "source_type": "unspecified",
+      "source_type": "national legislation",
       "official_urls": [
         "https://althingi.is/lagas/nuna/1993037.html"
       ],
@@ -187,7 +187,7 @@
           "line": 11,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -224,7 +224,7 @@
     {
       "id": "is-04",
       "title": "Act No. 2/1993 on the EEA",
-      "source_type": "unspecified",
+      "source_type": "EEA framework legislation",
       "official_urls": [
         "https://althingi.is/lagas/nuna/1993002.html"
       ],
@@ -258,7 +258,7 @@
           "line": 12,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -295,7 +295,7 @@
     {
       "id": "is-05",
       "title": "Regulation No. 540/2017 official record and amendment index",
-      "source_type": "unspecified",
+      "source_type": "regulation",
       "official_urls": [
         "https://reglugerd.is/reglugerdir/eftir-raduneytum/domsmala--og-mannrettindaraduneyti/nr/20605"
       ],
@@ -304,27 +304,27 @@
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
         "accepted_external_reference",
-        "pending"
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "is:url:2bfdee90e64f06e4abf7#local:unspecified:06144babb7c0",
-        "is:url:2bfdee90e64f06e4abf7#url:is:6e6b185ebf4e"
+        "is:url:2bfdee90e64f06e4abf7#local:en:eae0b40aea19",
+        "is:url:2bfdee90e64f06e4abf7#url:is:976a2b9daaf8"
       ],
       "representations": [
         {
           "kind": "local_artifact",
-          "language": "unspecified",
+          "language": "en",
           "edition": "undated",
           "url": null,
           "path": "documents/guidance/is-05.md",
-          "representation_id": "is:url:2bfdee90e64f06e4abf7#local:unspecified:06144babb7c0",
+          "representation_id": "is:url:2bfdee90e64f06e4abf7#local:en:eae0b40aea19",
           "acceptance_status": [
-            "pending"
+            "accepted_local_copy"
           ],
           "source_identity_id": "is:url:2bfdee90e64f06e4abf7",
           "representation_ids": [
-            "is:url:2bfdee90e64f06e4abf7#local:unspecified:06144babb7c0",
-            "is:url:2bfdee90e64f06e4abf7#url:is:6e6b185ebf4e"
+            "is:url:2bfdee90e64f06e4abf7#local:en:eae0b40aea19",
+            "is:url:2bfdee90e64f06e4abf7#url:is:976a2b9daaf8"
           ]
         },
         {
@@ -333,12 +333,14 @@
           "edition": "undated",
           "url": "https://reglugerd.is/reglugerdir/eftir-raduneytum/domsmala--og-mannrettindaraduneyti/nr/20605",
           "path": null,
-          "representation_id": "is:url:2bfdee90e64f06e4abf7#url:is:6e6b185ebf4e",
-          "acceptance_status": [],
+          "representation_id": "is:url:2bfdee90e64f06e4abf7#url:is:976a2b9daaf8",
+          "acceptance_status": [
+            "accepted_external_reference"
+          ],
           "source_identity_id": "is:url:2bfdee90e64f06e4abf7",
           "representation_ids": [
-            "is:url:2bfdee90e64f06e4abf7#local:unspecified:06144babb7c0",
-            "is:url:2bfdee90e64f06e4abf7#url:is:6e6b185ebf4e"
+            "is:url:2bfdee90e64f06e4abf7#local:en:eae0b40aea19",
+            "is:url:2bfdee90e64f06e4abf7#url:is:976a2b9daaf8"
           ]
         }
       ],
@@ -348,7 +350,7 @@
           "line": 13,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -365,8 +367,8 @@
           "category": "catalogue",
           "source_identity_id": "is:url:2bfdee90e64f06e4abf7",
           "representation_ids": [
-            "is:url:2bfdee90e64f06e4abf7#local:unspecified:06144babb7c0",
-            "is:url:2bfdee90e64f06e4abf7#url:is:6e6b185ebf4e"
+            "is:url:2bfdee90e64f06e4abf7#local:en:eae0b40aea19",
+            "is:url:2bfdee90e64f06e4abf7#url:is:976a2b9daaf8"
           ]
         }
       ],
@@ -377,8 +379,8 @@
           "category": "acceptance",
           "source_identity_id": "is:url:2bfdee90e64f06e4abf7",
           "representation_ids": [
-            "is:url:2bfdee90e64f06e4abf7#local:unspecified:06144babb7c0",
-            "is:url:2bfdee90e64f06e4abf7#url:is:6e6b185ebf4e"
+            "is:url:2bfdee90e64f06e4abf7#local:en:eae0b40aea19",
+            "is:url:2bfdee90e64f06e4abf7#url:is:976a2b9daaf8"
           ]
         }
       ],
@@ -387,7 +389,7 @@
     {
       "id": "is-06",
       "title": "Stjórnartíðindi official electronic gazette",
-      "source_type": "unspecified",
+      "source_type": "official gazette",
       "official_urls": [
         "https://stjornartidindi.is/AdvertList.aspx"
       ],
@@ -421,7 +423,7 @@
           "line": 14,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -458,7 +460,7 @@
     {
       "id": "is-07",
       "title": "EFTA EEA-Lex: Directive 2004/38/EC and JCD 158/2007",
-      "source_type": "unspecified",
+      "source_type": "EEA incorporation",
       "official_urls": [
         "https://efta.int/eea-lex/32004l0038"
       ],
@@ -492,7 +494,7 @@
           "line": 15,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -529,7 +531,7 @@
     {
       "id": "is-08",
       "title": "Residence right of EEA/EFTA family members",
-      "source_type": "unspecified",
+      "source_type": "residence guidance",
       "official_urls": [
         "https://island.is/en/residence-right-of-family-members-of-eea-efta-citizens"
       ],
@@ -538,27 +540,27 @@
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
         "accepted_external_reference",
-        "pending"
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "is:url:b2026863c55f6ee47cd4#local:unspecified:4193c959c9c2",
-        "is:url:b2026863c55f6ee47cd4#url:en:40602563d596"
+        "is:url:b2026863c55f6ee47cd4#local:en:bc4fcbbc2e40",
+        "is:url:b2026863c55f6ee47cd4#url:en:04f70efcc7c6"
       ],
       "representations": [
         {
           "kind": "local_artifact",
-          "language": "unspecified",
+          "language": "en",
           "edition": "undated",
           "url": null,
           "path": "documents/guidance/is-08.md",
-          "representation_id": "is:url:b2026863c55f6ee47cd4#local:unspecified:4193c959c9c2",
+          "representation_id": "is:url:b2026863c55f6ee47cd4#local:en:bc4fcbbc2e40",
           "acceptance_status": [
-            "pending"
+            "accepted_local_copy"
           ],
           "source_identity_id": "is:url:b2026863c55f6ee47cd4",
           "representation_ids": [
-            "is:url:b2026863c55f6ee47cd4#local:unspecified:4193c959c9c2",
-            "is:url:b2026863c55f6ee47cd4#url:en:40602563d596"
+            "is:url:b2026863c55f6ee47cd4#local:en:bc4fcbbc2e40",
+            "is:url:b2026863c55f6ee47cd4#url:en:04f70efcc7c6"
           ]
         },
         {
@@ -567,12 +569,14 @@
           "edition": "undated",
           "url": "https://island.is/en/residence-right-of-family-members-of-eea-efta-citizens",
           "path": null,
-          "representation_id": "is:url:b2026863c55f6ee47cd4#url:en:40602563d596",
-          "acceptance_status": [],
+          "representation_id": "is:url:b2026863c55f6ee47cd4#url:en:04f70efcc7c6",
+          "acceptance_status": [
+            "accepted_external_reference"
+          ],
           "source_identity_id": "is:url:b2026863c55f6ee47cd4",
           "representation_ids": [
-            "is:url:b2026863c55f6ee47cd4#local:unspecified:4193c959c9c2",
-            "is:url:b2026863c55f6ee47cd4#url:en:40602563d596"
+            "is:url:b2026863c55f6ee47cd4#local:en:bc4fcbbc2e40",
+            "is:url:b2026863c55f6ee47cd4#url:en:04f70efcc7c6"
           ]
         }
       ],
@@ -582,7 +586,7 @@
           "line": 16,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -599,8 +603,8 @@
           "category": "catalogue",
           "source_identity_id": "is:url:b2026863c55f6ee47cd4",
           "representation_ids": [
-            "is:url:b2026863c55f6ee47cd4#local:unspecified:4193c959c9c2",
-            "is:url:b2026863c55f6ee47cd4#url:en:40602563d596"
+            "is:url:b2026863c55f6ee47cd4#local:en:bc4fcbbc2e40",
+            "is:url:b2026863c55f6ee47cd4#url:en:04f70efcc7c6"
           ]
         }
       ],
@@ -611,8 +615,8 @@
           "category": "acceptance",
           "source_identity_id": "is:url:b2026863c55f6ee47cd4",
           "representation_ids": [
-            "is:url:b2026863c55f6ee47cd4#local:unspecified:4193c959c9c2",
-            "is:url:b2026863c55f6ee47cd4#url:en:40602563d596"
+            "is:url:b2026863c55f6ee47cd4#local:en:bc4fcbbc2e40",
+            "is:url:b2026863c55f6ee47cd4#url:en:04f70efcc7c6"
           ]
         }
       ],
@@ -621,7 +625,7 @@
     {
       "id": "is-09",
       "title": "Supporting documents and authentication",
-      "source_type": "unspecified",
+      "source_type": "application evidence",
       "official_urls": [
         "https://island.is/en/residence-right-of-family-members-of-eea-efta-citizens/supporting-documents"
       ],
@@ -630,27 +634,27 @@
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
         "accepted_external_reference",
-        "pending"
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "is:url:c42a5ebf85bad985c756#local:unspecified:728e5d8e6c9b",
-        "is:url:c42a5ebf85bad985c756#url:en:2f9644efcf52"
+        "is:url:c42a5ebf85bad985c756#local:en:b2ef8b588da7",
+        "is:url:c42a5ebf85bad985c756#url:en:c8465fd232c2"
       ],
       "representations": [
         {
           "kind": "local_artifact",
-          "language": "unspecified",
+          "language": "en",
           "edition": "undated",
           "url": null,
           "path": "documents/guidance/is-09.md",
-          "representation_id": "is:url:c42a5ebf85bad985c756#local:unspecified:728e5d8e6c9b",
+          "representation_id": "is:url:c42a5ebf85bad985c756#local:en:b2ef8b588da7",
           "acceptance_status": [
-            "pending"
+            "accepted_local_copy"
           ],
           "source_identity_id": "is:url:c42a5ebf85bad985c756",
           "representation_ids": [
-            "is:url:c42a5ebf85bad985c756#local:unspecified:728e5d8e6c9b",
-            "is:url:c42a5ebf85bad985c756#url:en:2f9644efcf52"
+            "is:url:c42a5ebf85bad985c756#local:en:b2ef8b588da7",
+            "is:url:c42a5ebf85bad985c756#url:en:c8465fd232c2"
           ]
         },
         {
@@ -659,12 +663,14 @@
           "edition": "undated",
           "url": "https://island.is/en/residence-right-of-family-members-of-eea-efta-citizens/supporting-documents",
           "path": null,
-          "representation_id": "is:url:c42a5ebf85bad985c756#url:en:2f9644efcf52",
-          "acceptance_status": [],
+          "representation_id": "is:url:c42a5ebf85bad985c756#url:en:c8465fd232c2",
+          "acceptance_status": [
+            "accepted_external_reference"
+          ],
           "source_identity_id": "is:url:c42a5ebf85bad985c756",
           "representation_ids": [
-            "is:url:c42a5ebf85bad985c756#local:unspecified:728e5d8e6c9b",
-            "is:url:c42a5ebf85bad985c756#url:en:2f9644efcf52"
+            "is:url:c42a5ebf85bad985c756#local:en:b2ef8b588da7",
+            "is:url:c42a5ebf85bad985c756#url:en:c8465fd232c2"
           ]
         }
       ],
@@ -674,7 +680,7 @@
           "line": 17,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -691,8 +697,8 @@
           "category": "catalogue",
           "source_identity_id": "is:url:c42a5ebf85bad985c756",
           "representation_ids": [
-            "is:url:c42a5ebf85bad985c756#local:unspecified:728e5d8e6c9b",
-            "is:url:c42a5ebf85bad985c756#url:en:2f9644efcf52"
+            "is:url:c42a5ebf85bad985c756#local:en:b2ef8b588da7",
+            "is:url:c42a5ebf85bad985c756#url:en:c8465fd232c2"
           ]
         }
       ],
@@ -703,8 +709,8 @@
           "category": "acceptance",
           "source_identity_id": "is:url:c42a5ebf85bad985c756",
           "representation_ids": [
-            "is:url:c42a5ebf85bad985c756#local:unspecified:728e5d8e6c9b",
-            "is:url:c42a5ebf85bad985c756#url:en:2f9644efcf52"
+            "is:url:c42a5ebf85bad985c756#local:en:b2ef8b588da7",
+            "is:url:c42a5ebf85bad985c756#url:en:c8465fd232c2"
           ]
         }
       ],
@@ -713,7 +719,7 @@
     {
       "id": "is-10",
       "title": "Rights and obligations of residence-card holders",
-      "source_type": "unspecified",
+      "source_type": "residence guidance",
       "official_urls": [
         "https://island.is/en/residence-right-of-family-members-of-eea-efta-citizens/residence-card"
       ],
@@ -722,27 +728,27 @@
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
         "accepted_external_reference",
-        "pending"
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "is:url:9beefac051c07e398197#local:unspecified:2725e220469a",
-        "is:url:9beefac051c07e398197#url:en:284fa099c295"
+        "is:url:9beefac051c07e398197#local:en:f5c7db28e530",
+        "is:url:9beefac051c07e398197#url:en:5969cf67f391"
       ],
       "representations": [
         {
           "kind": "local_artifact",
-          "language": "unspecified",
+          "language": "en",
           "edition": "undated",
           "url": null,
           "path": "documents/guidance/is-10.md",
-          "representation_id": "is:url:9beefac051c07e398197#local:unspecified:2725e220469a",
+          "representation_id": "is:url:9beefac051c07e398197#local:en:f5c7db28e530",
           "acceptance_status": [
-            "pending"
+            "accepted_local_copy"
           ],
           "source_identity_id": "is:url:9beefac051c07e398197",
           "representation_ids": [
-            "is:url:9beefac051c07e398197#local:unspecified:2725e220469a",
-            "is:url:9beefac051c07e398197#url:en:284fa099c295"
+            "is:url:9beefac051c07e398197#local:en:f5c7db28e530",
+            "is:url:9beefac051c07e398197#url:en:5969cf67f391"
           ]
         },
         {
@@ -751,12 +757,14 @@
           "edition": "undated",
           "url": "https://island.is/en/residence-right-of-family-members-of-eea-efta-citizens/residence-card",
           "path": null,
-          "representation_id": "is:url:9beefac051c07e398197#url:en:284fa099c295",
-          "acceptance_status": [],
+          "representation_id": "is:url:9beefac051c07e398197#url:en:5969cf67f391",
+          "acceptance_status": [
+            "accepted_external_reference"
+          ],
           "source_identity_id": "is:url:9beefac051c07e398197",
           "representation_ids": [
-            "is:url:9beefac051c07e398197#local:unspecified:2725e220469a",
-            "is:url:9beefac051c07e398197#url:en:284fa099c295"
+            "is:url:9beefac051c07e398197#local:en:f5c7db28e530",
+            "is:url:9beefac051c07e398197#url:en:5969cf67f391"
           ]
         }
       ],
@@ -766,7 +774,7 @@
           "line": 18,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -783,8 +791,8 @@
           "category": "catalogue",
           "source_identity_id": "is:url:9beefac051c07e398197",
           "representation_ids": [
-            "is:url:9beefac051c07e398197#local:unspecified:2725e220469a",
-            "is:url:9beefac051c07e398197#url:en:284fa099c295"
+            "is:url:9beefac051c07e398197#local:en:f5c7db28e530",
+            "is:url:9beefac051c07e398197#url:en:5969cf67f391"
           ]
         }
       ],
@@ -795,8 +803,8 @@
           "category": "acceptance",
           "source_identity_id": "is:url:9beefac051c07e398197",
           "representation_ids": [
-            "is:url:9beefac051c07e398197#local:unspecified:2725e220469a",
-            "is:url:9beefac051c07e398197#url:en:284fa099c295"
+            "is:url:9beefac051c07e398197#local:en:f5c7db28e530",
+            "is:url:9beefac051c07e398197#url:en:5969cf67f391"
           ]
         }
       ],
@@ -805,7 +813,7 @@
     {
       "id": "is-11",
       "title": "Permanent residence for EEA/EFTA family members",
-      "source_type": "unspecified",
+      "source_type": "residence guidance",
       "official_urls": [
         "https://island.is/en/permanent-residence-for-family-members-of-eea-efta-citizens"
       ],
@@ -814,27 +822,27 @@
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
         "accepted_external_reference",
-        "pending"
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "is:url:54d3385afc558478dda5#local:unspecified:9cc498c3a4b8",
-        "is:url:54d3385afc558478dda5#url:en:0a2a7b876376"
+        "is:url:54d3385afc558478dda5#local:en:3e1ac7a58f97",
+        "is:url:54d3385afc558478dda5#url:en:cd9a8effd103"
       ],
       "representations": [
         {
           "kind": "local_artifact",
-          "language": "unspecified",
+          "language": "en",
           "edition": "undated",
           "url": null,
           "path": "documents/guidance/is-11.md",
-          "representation_id": "is:url:54d3385afc558478dda5#local:unspecified:9cc498c3a4b8",
+          "representation_id": "is:url:54d3385afc558478dda5#local:en:3e1ac7a58f97",
           "acceptance_status": [
-            "pending"
+            "accepted_local_copy"
           ],
           "source_identity_id": "is:url:54d3385afc558478dda5",
           "representation_ids": [
-            "is:url:54d3385afc558478dda5#local:unspecified:9cc498c3a4b8",
-            "is:url:54d3385afc558478dda5#url:en:0a2a7b876376"
+            "is:url:54d3385afc558478dda5#local:en:3e1ac7a58f97",
+            "is:url:54d3385afc558478dda5#url:en:cd9a8effd103"
           ]
         },
         {
@@ -843,12 +851,14 @@
           "edition": "undated",
           "url": "https://island.is/en/permanent-residence-for-family-members-of-eea-efta-citizens",
           "path": null,
-          "representation_id": "is:url:54d3385afc558478dda5#url:en:0a2a7b876376",
-          "acceptance_status": [],
+          "representation_id": "is:url:54d3385afc558478dda5#url:en:cd9a8effd103",
+          "acceptance_status": [
+            "accepted_external_reference"
+          ],
           "source_identity_id": "is:url:54d3385afc558478dda5",
           "representation_ids": [
-            "is:url:54d3385afc558478dda5#local:unspecified:9cc498c3a4b8",
-            "is:url:54d3385afc558478dda5#url:en:0a2a7b876376"
+            "is:url:54d3385afc558478dda5#local:en:3e1ac7a58f97",
+            "is:url:54d3385afc558478dda5#url:en:cd9a8effd103"
           ]
         }
       ],
@@ -858,7 +868,7 @@
           "line": 19,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -875,8 +885,8 @@
           "category": "catalogue",
           "source_identity_id": "is:url:54d3385afc558478dda5",
           "representation_ids": [
-            "is:url:54d3385afc558478dda5#local:unspecified:9cc498c3a4b8",
-            "is:url:54d3385afc558478dda5#url:en:0a2a7b876376"
+            "is:url:54d3385afc558478dda5#local:en:3e1ac7a58f97",
+            "is:url:54d3385afc558478dda5#url:en:cd9a8effd103"
           ]
         }
       ],
@@ -887,8 +897,8 @@
           "category": "acceptance",
           "source_identity_id": "is:url:54d3385afc558478dda5",
           "representation_ids": [
-            "is:url:54d3385afc558478dda5#local:unspecified:9cc498c3a4b8",
-            "is:url:54d3385afc558478dda5#url:en:0a2a7b876376"
+            "is:url:54d3385afc558478dda5#local:en:3e1ac7a58f97",
+            "is:url:54d3385afc558478dda5#url:en:cd9a8effd103"
           ]
         }
       ],
@@ -897,7 +907,7 @@
     {
       "id": "is-12",
       "title": "Directorate of Immigration applications and forms",
-      "source_type": "unspecified",
+      "source_type": "forms index",
       "official_urls": [
         "https://island.is/en/o/directorate-of-immigration/applications-and-forms"
       ],
@@ -905,7 +915,8 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference"
+        "accepted_external_reference",
+        "discovery"
       ],
       "representation_ids": [
         "is:url:616421fea0aa0d3c2bd5#url:en:50076fc2da05"
@@ -931,7 +942,7 @@
           "line": 20,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -968,7 +979,7 @@
     {
       "id": "is-13",
       "title": "EEA/EFTA family-card processing guidance",
-      "source_type": "unspecified",
+      "source_type": "processing guidance",
       "official_urls": [
         "https://island.is/en/o/directorate-of-immigration/have-applied-eea-efta"
       ],
@@ -977,27 +988,27 @@
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
         "accepted_external_reference",
-        "pending"
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "is:url:304413837be9dc0f05d4#local:unspecified:61336559d53b",
-        "is:url:304413837be9dc0f05d4#url:en:8b3075965e4b"
+        "is:url:304413837be9dc0f05d4#local:en:0332874abf84",
+        "is:url:304413837be9dc0f05d4#url:en:2685e762e62a"
       ],
       "representations": [
         {
           "kind": "local_artifact",
-          "language": "unspecified",
+          "language": "en",
           "edition": "undated",
           "url": null,
           "path": "documents/guidance/is-13.md",
-          "representation_id": "is:url:304413837be9dc0f05d4#local:unspecified:61336559d53b",
+          "representation_id": "is:url:304413837be9dc0f05d4#local:en:0332874abf84",
           "acceptance_status": [
-            "pending"
+            "accepted_local_copy"
           ],
           "source_identity_id": "is:url:304413837be9dc0f05d4",
           "representation_ids": [
-            "is:url:304413837be9dc0f05d4#local:unspecified:61336559d53b",
-            "is:url:304413837be9dc0f05d4#url:en:8b3075965e4b"
+            "is:url:304413837be9dc0f05d4#local:en:0332874abf84",
+            "is:url:304413837be9dc0f05d4#url:en:2685e762e62a"
           ]
         },
         {
@@ -1006,12 +1017,14 @@
           "edition": "undated",
           "url": "https://island.is/en/o/directorate-of-immigration/have-applied-eea-efta",
           "path": null,
-          "representation_id": "is:url:304413837be9dc0f05d4#url:en:8b3075965e4b",
-          "acceptance_status": [],
+          "representation_id": "is:url:304413837be9dc0f05d4#url:en:2685e762e62a",
+          "acceptance_status": [
+            "accepted_external_reference"
+          ],
           "source_identity_id": "is:url:304413837be9dc0f05d4",
           "representation_ids": [
-            "is:url:304413837be9dc0f05d4#local:unspecified:61336559d53b",
-            "is:url:304413837be9dc0f05d4#url:en:8b3075965e4b"
+            "is:url:304413837be9dc0f05d4#local:en:0332874abf84",
+            "is:url:304413837be9dc0f05d4#url:en:2685e762e62a"
           ]
         }
       ],
@@ -1021,7 +1034,7 @@
           "line": 21,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -1038,8 +1051,8 @@
           "category": "catalogue",
           "source_identity_id": "is:url:304413837be9dc0f05d4",
           "representation_ids": [
-            "is:url:304413837be9dc0f05d4#local:unspecified:61336559d53b",
-            "is:url:304413837be9dc0f05d4#url:en:8b3075965e4b"
+            "is:url:304413837be9dc0f05d4#local:en:0332874abf84",
+            "is:url:304413837be9dc0f05d4#url:en:2685e762e62a"
           ]
         }
       ],
@@ -1050,8 +1063,8 @@
           "category": "acceptance",
           "source_identity_id": "is:url:304413837be9dc0f05d4",
           "representation_ids": [
-            "is:url:304413837be9dc0f05d4#local:unspecified:61336559d53b",
-            "is:url:304413837be9dc0f05d4#url:en:8b3075965e4b"
+            "is:url:304413837be9dc0f05d4#local:en:0332874abf84",
+            "is:url:304413837be9dc0f05d4#url:en:2685e762e62a"
           ]
         }
       ],
@@ -1060,7 +1073,7 @@
     {
       "id": "is-14",
       "title": "EEA/EFTA registration at Registers Iceland",
-      "source_type": "unspecified",
+      "source_type": "registration guidance",
       "official_urls": [
         "https://island.is/en/registration-of-eea-efta-foreign-nationals"
       ],
@@ -1069,27 +1082,27 @@
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
         "accepted_external_reference",
-        "pending"
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "is:url:b00e85cba6c91e19cf3a#local:unspecified:392cf503796e",
-        "is:url:b00e85cba6c91e19cf3a#url:en:09bd25de347d"
+        "is:url:b00e85cba6c91e19cf3a#local:en:4a9ae343b915",
+        "is:url:b00e85cba6c91e19cf3a#url:en:6ed8e1765ead"
       ],
       "representations": [
         {
           "kind": "local_artifact",
-          "language": "unspecified",
+          "language": "en",
           "edition": "undated",
           "url": null,
           "path": "documents/guidance/is-14.md",
-          "representation_id": "is:url:b00e85cba6c91e19cf3a#local:unspecified:392cf503796e",
+          "representation_id": "is:url:b00e85cba6c91e19cf3a#local:en:4a9ae343b915",
           "acceptance_status": [
-            "pending"
+            "accepted_local_copy"
           ],
           "source_identity_id": "is:url:b00e85cba6c91e19cf3a",
           "representation_ids": [
-            "is:url:b00e85cba6c91e19cf3a#local:unspecified:392cf503796e",
-            "is:url:b00e85cba6c91e19cf3a#url:en:09bd25de347d"
+            "is:url:b00e85cba6c91e19cf3a#local:en:4a9ae343b915",
+            "is:url:b00e85cba6c91e19cf3a#url:en:6ed8e1765ead"
           ]
         },
         {
@@ -1098,12 +1111,14 @@
           "edition": "undated",
           "url": "https://island.is/en/registration-of-eea-efta-foreign-nationals",
           "path": null,
-          "representation_id": "is:url:b00e85cba6c91e19cf3a#url:en:09bd25de347d",
-          "acceptance_status": [],
+          "representation_id": "is:url:b00e85cba6c91e19cf3a#url:en:6ed8e1765ead",
+          "acceptance_status": [
+            "accepted_external_reference"
+          ],
           "source_identity_id": "is:url:b00e85cba6c91e19cf3a",
           "representation_ids": [
-            "is:url:b00e85cba6c91e19cf3a#local:unspecified:392cf503796e",
-            "is:url:b00e85cba6c91e19cf3a#url:en:09bd25de347d"
+            "is:url:b00e85cba6c91e19cf3a#local:en:4a9ae343b915",
+            "is:url:b00e85cba6c91e19cf3a#url:en:6ed8e1765ead"
           ]
         }
       ],
@@ -1113,7 +1128,7 @@
           "line": 22,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -1130,8 +1145,8 @@
           "category": "catalogue",
           "source_identity_id": "is:url:b00e85cba6c91e19cf3a",
           "representation_ids": [
-            "is:url:b00e85cba6c91e19cf3a#local:unspecified:392cf503796e",
-            "is:url:b00e85cba6c91e19cf3a#url:en:09bd25de347d"
+            "is:url:b00e85cba6c91e19cf3a#local:en:4a9ae343b915",
+            "is:url:b00e85cba6c91e19cf3a#url:en:6ed8e1765ead"
           ]
         }
       ],
@@ -1142,8 +1157,8 @@
           "category": "acceptance",
           "source_identity_id": "is:url:b00e85cba6c91e19cf3a",
           "representation_ids": [
-            "is:url:b00e85cba6c91e19cf3a#local:unspecified:392cf503796e",
-            "is:url:b00e85cba6c91e19cf3a#url:en:09bd25de347d"
+            "is:url:b00e85cba6c91e19cf3a#local:en:4a9ae343b915",
+            "is:url:b00e85cba6c91e19cf3a#url:en:6ed8e1765ead"
           ]
         }
       ],
@@ -1152,7 +1167,7 @@
     {
       "id": "is-15",
       "title": "Moving from Nordic countries to Iceland",
-      "source_type": "unspecified",
+      "source_type": "Nordic registration",
       "official_urls": [
         "https://island.is/en/moving-from-nordic-countries-to-iceland"
       ],
@@ -1186,7 +1201,7 @@
           "line": 23,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -1223,7 +1238,7 @@
     {
       "id": "is-16",
       "title": "Moving to Iceland and returning Icelandic citizens",
-      "source_type": "unspecified",
+      "source_type": "moving guidance",
       "official_urls": [
         "https://island.is/en/life-events/moving"
       ],
@@ -1232,27 +1247,27 @@
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
         "accepted_external_reference",
-        "pending"
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "is:url:d6a02eb524ab4688c768#local:unspecified:7f9c7442862e",
-        "is:url:d6a02eb524ab4688c768#url:en:caf0084cc78f"
+        "is:url:d6a02eb524ab4688c768#local:en:9d27fb85bb53",
+        "is:url:d6a02eb524ab4688c768#url:en:18edf00dfea7"
       ],
       "representations": [
         {
           "kind": "local_artifact",
-          "language": "unspecified",
+          "language": "en",
           "edition": "undated",
           "url": null,
           "path": "documents/guidance/is-16.md",
-          "representation_id": "is:url:d6a02eb524ab4688c768#local:unspecified:7f9c7442862e",
+          "representation_id": "is:url:d6a02eb524ab4688c768#local:en:9d27fb85bb53",
           "acceptance_status": [
-            "pending"
+            "accepted_local_copy"
           ],
           "source_identity_id": "is:url:d6a02eb524ab4688c768",
           "representation_ids": [
-            "is:url:d6a02eb524ab4688c768#local:unspecified:7f9c7442862e",
-            "is:url:d6a02eb524ab4688c768#url:en:caf0084cc78f"
+            "is:url:d6a02eb524ab4688c768#local:en:9d27fb85bb53",
+            "is:url:d6a02eb524ab4688c768#url:en:18edf00dfea7"
           ]
         },
         {
@@ -1261,12 +1276,14 @@
           "edition": "undated",
           "url": "https://island.is/en/life-events/moving",
           "path": null,
-          "representation_id": "is:url:d6a02eb524ab4688c768#url:en:caf0084cc78f",
-          "acceptance_status": [],
+          "representation_id": "is:url:d6a02eb524ab4688c768#url:en:18edf00dfea7",
+          "acceptance_status": [
+            "accepted_external_reference"
+          ],
           "source_identity_id": "is:url:d6a02eb524ab4688c768",
           "representation_ids": [
-            "is:url:d6a02eb524ab4688c768#local:unspecified:7f9c7442862e",
-            "is:url:d6a02eb524ab4688c768#url:en:caf0084cc78f"
+            "is:url:d6a02eb524ab4688c768#local:en:9d27fb85bb53",
+            "is:url:d6a02eb524ab4688c768#url:en:18edf00dfea7"
           ]
         }
       ],
@@ -1276,7 +1293,7 @@
           "line": 24,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -1293,8 +1310,8 @@
           "category": "catalogue",
           "source_identity_id": "is:url:d6a02eb524ab4688c768",
           "representation_ids": [
-            "is:url:d6a02eb524ab4688c768#local:unspecified:7f9c7442862e",
-            "is:url:d6a02eb524ab4688c768#url:en:caf0084cc78f"
+            "is:url:d6a02eb524ab4688c768#local:en:9d27fb85bb53",
+            "is:url:d6a02eb524ab4688c768#url:en:18edf00dfea7"
           ]
         }
       ],
@@ -1305,8 +1322,8 @@
           "category": "acceptance",
           "source_identity_id": "is:url:d6a02eb524ab4688c768",
           "representation_ids": [
-            "is:url:d6a02eb524ab4688c768#local:unspecified:7f9c7442862e",
-            "is:url:d6a02eb524ab4688c768#url:en:caf0084cc78f"
+            "is:url:d6a02eb524ab4688c768#local:en:9d27fb85bb53",
+            "is:url:d6a02eb524ab4688c768#url:en:18edf00dfea7"
           ]
         }
       ],
@@ -1315,7 +1332,7 @@
     {
       "id": "is-17",
       "title": "Entry requirements to Iceland",
-      "source_type": "unspecified",
+      "source_type": "entry guidance",
       "official_urls": [
         "https://island.is/en/entry-requirements-to-iceland"
       ],
@@ -1324,27 +1341,27 @@
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
         "accepted_external_reference",
-        "pending"
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "is:url:16656e098d2be48bc8d7#local:unspecified:508b3ba8c100",
-        "is:url:16656e098d2be48bc8d7#url:en:d4ce34d00118"
+        "is:url:16656e098d2be48bc8d7#local:en:bd1dc4672615",
+        "is:url:16656e098d2be48bc8d7#url:en:6f204ca78cdc"
       ],
       "representations": [
         {
           "kind": "local_artifact",
-          "language": "unspecified",
+          "language": "en",
           "edition": "undated",
           "url": null,
           "path": "documents/guidance/is-17.md",
-          "representation_id": "is:url:16656e098d2be48bc8d7#local:unspecified:508b3ba8c100",
+          "representation_id": "is:url:16656e098d2be48bc8d7#local:en:bd1dc4672615",
           "acceptance_status": [
-            "pending"
+            "accepted_local_copy"
           ],
           "source_identity_id": "is:url:16656e098d2be48bc8d7",
           "representation_ids": [
-            "is:url:16656e098d2be48bc8d7#local:unspecified:508b3ba8c100",
-            "is:url:16656e098d2be48bc8d7#url:en:d4ce34d00118"
+            "is:url:16656e098d2be48bc8d7#local:en:bd1dc4672615",
+            "is:url:16656e098d2be48bc8d7#url:en:6f204ca78cdc"
           ]
         },
         {
@@ -1353,12 +1370,14 @@
           "edition": "undated",
           "url": "https://island.is/en/entry-requirements-to-iceland",
           "path": null,
-          "representation_id": "is:url:16656e098d2be48bc8d7#url:en:d4ce34d00118",
-          "acceptance_status": [],
+          "representation_id": "is:url:16656e098d2be48bc8d7#url:en:6f204ca78cdc",
+          "acceptance_status": [
+            "accepted_external_reference"
+          ],
           "source_identity_id": "is:url:16656e098d2be48bc8d7",
           "representation_ids": [
-            "is:url:16656e098d2be48bc8d7#local:unspecified:508b3ba8c100",
-            "is:url:16656e098d2be48bc8d7#url:en:d4ce34d00118"
+            "is:url:16656e098d2be48bc8d7#local:en:bd1dc4672615",
+            "is:url:16656e098d2be48bc8d7#url:en:6f204ca78cdc"
           ]
         }
       ],
@@ -1368,7 +1387,7 @@
           "line": 25,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -1385,8 +1404,8 @@
           "category": "catalogue",
           "source_identity_id": "is:url:16656e098d2be48bc8d7",
           "representation_ids": [
-            "is:url:16656e098d2be48bc8d7#local:unspecified:508b3ba8c100",
-            "is:url:16656e098d2be48bc8d7#url:en:d4ce34d00118"
+            "is:url:16656e098d2be48bc8d7#local:en:bd1dc4672615",
+            "is:url:16656e098d2be48bc8d7#url:en:6f204ca78cdc"
           ]
         }
       ],
@@ -1397,8 +1416,8 @@
           "category": "acceptance",
           "source_identity_id": "is:url:16656e098d2be48bc8d7",
           "representation_ids": [
-            "is:url:16656e098d2be48bc8d7#local:unspecified:508b3ba8c100",
-            "is:url:16656e098d2be48bc8d7#url:en:d4ce34d00118"
+            "is:url:16656e098d2be48bc8d7#local:en:bd1dc4672615",
+            "is:url:16656e098d2be48bc8d7#url:en:6f204ca78cdc"
           ]
         }
       ],
@@ -1407,7 +1426,7 @@
     {
       "id": "is-18",
       "title": "Apply for an Icelandic Schengen C visa",
-      "source_type": "unspecified",
+      "source_type": "visas and missions",
       "official_urls": [
         "https://island.is/en/get-a-visa/where-to-apply-schengen"
       ],
@@ -1441,7 +1460,7 @@
           "line": 26,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -1478,7 +1497,7 @@
     {
       "id": "is-19",
       "title": "Residence permit for spouse",
-      "source_type": "unspecified",
+      "source_type": "national family route",
       "official_urls": [
         "https://island.is/en/residence-permit-for-spouse"
       ],
@@ -1512,7 +1531,7 @@
           "line": 27,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -1549,7 +1568,7 @@
     {
       "id": "is-20",
       "title": "Kærunefnd útlendingamála appeal guidance",
-      "source_type": "unspecified",
+      "source_type": "appeal authority",
       "official_urls": [
         "https://knu.is/hvernig-get-eg-kaert"
       ],
@@ -1583,7 +1602,7 @@
           "line": 28,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -1620,7 +1639,7 @@
     {
       "id": "is-21",
       "title": "Published KNU decisions and opinions",
-      "source_type": "unspecified",
+      "source_type": "administrative case-law",
       "official_urls": [
         "https://stjornarradid.is/gogn/urskurdir-og-alit-"
       ],
@@ -1654,7 +1673,7 @@
           "line": 29,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -1691,7 +1710,7 @@
     {
       "id": "is-22",
       "title": "Information Act No. 140/2012",
-      "source_type": "unspecified",
+      "source_type": "public access",
       "official_urls": [
         "https://althingi.is/lagas/nuna/2012140.html"
       ],
@@ -1725,7 +1744,7 @@
           "line": 30,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -1762,7 +1781,7 @@
     {
       "id": "is-23",
       "title": "Icelandic Parliamentary Ombudsman",
-      "source_type": "unspecified",
+      "source_type": "oversight",
       "official_urls": [
         "https://umbodsmadur.is/en"
       ],
@@ -1796,7 +1815,7 @@
           "line": 31,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -1833,7 +1852,7 @@
     {
       "id": "is-24",
       "title": "Data Protection Act No. 90/2018",
-      "source_type": "unspecified",
+      "source_type": "privacy legislation",
       "official_urls": [
         "https://althingi.is/lagas/nuna/2018090.html"
       ],
@@ -1867,7 +1886,7 @@
           "line": 32,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -1904,7 +1923,7 @@
     {
       "id": "is-25",
       "title": "Data Protection Authority public guidance",
-      "source_type": "unspecified",
+      "source_type": "privacy oversight",
       "official_urls": [
         "https://island.is/en/o/the-data-protection-authority/submit-a-tip"
       ],
@@ -1938,7 +1957,7 @@
           "line": 33,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -1975,7 +1994,7 @@
     {
       "id": "is-26",
       "title": "Rules No. 3/2022 on online publication of court decisions and orders (current portal route)",
-      "source_type": "unspecified",
+      "source_type": "court publication rules",
       "official_urls": [
         "https://gamli.domstolar.is/domstolasyslan/reglur/reglur-um-utgafu-doma-og-urskurda-a-vefsidum-domstola"
       ],
@@ -2009,7 +2028,7 @@
           "line": 34,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -2046,7 +2065,7 @@
     {
       "id": "is-27",
       "title": "Icelandic Courts portal",
-      "source_type": "unspecified",
+      "source_type": "court-case discovery",
       "official_urls": [
         "https://island.is/s/domstolar"
       ],
@@ -2054,7 +2073,8 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference"
+        "accepted_external_reference",
+        "discovery"
       ],
       "representation_ids": [
         "is:url:a1f5517132ea960b158d#url:is:e43c89244cbd"
@@ -2080,7 +2100,7 @@
           "line": 35,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -2117,7 +2137,7 @@
     {
       "id": "is-28",
       "title": "Ísland.is general terms",
-      "source_type": "unspecified",
+      "source_type": "service portal terms",
       "official_urls": [
         "https://island.is/en/o/digital-iceland/notendaskilmalar-islandis-terms-and-conditions-stefnur-og-skilmalar-1"
       ],
@@ -2125,7 +2145,8 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference"
+        "accepted_external_reference",
+        "discovery"
       ],
       "representation_ids": [
         "is:url:a7887defa5ecafde271f#url:en:3959fc8cd92b"
@@ -2151,7 +2172,7 @@
           "line": 36,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -2188,7 +2209,7 @@
     {
       "id": "is-29",
       "title": "Ministry of Justice immigration overview",
-      "source_type": "unspecified",
+      "source_type": "official authority directory",
       "official_urls": [
         "https://stjornarradid.is/verkefni/utlendingar"
       ],
@@ -2222,7 +2243,7 @@
           "line": 37,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -2259,7 +2280,7 @@
     {
       "id": "is-30",
       "title": "Regulation 669/2026",
-      "source_type": "unspecified",
+      "source_type": "regulation amendment",
       "official_urls": [
         "https://reglugerd.is/reglugerdir/allar/nr/0669-2026"
       ],
@@ -2267,23 +2288,44 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference"
+        "accepted_external_reference",
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "is:url:067f3b40ccef54d6c000#url:is:deae35eb606c"
+        "is:url:067f3b40ccef54d6c000#local:is:7cd0a7479eec",
+        "is:url:067f3b40ccef54d6c000#url:is:81cdf9c94fdd"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "is",
+          "edition": "2026",
+          "url": null,
+          "path": "documents/legislation/is-30-669-2026-amendment.md",
+          "representation_id": "is:url:067f3b40ccef54d6c000#local:is:7cd0a7479eec",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "is:url:067f3b40ccef54d6c000",
+          "representation_ids": [
+            "is:url:067f3b40ccef54d6c000#local:is:7cd0a7479eec",
+            "is:url:067f3b40ccef54d6c000#url:is:81cdf9c94fdd"
+          ]
+        },
         {
           "kind": "official_reference",
           "language": "is",
           "edition": "undated",
           "url": "https://reglugerd.is/reglugerdir/allar/nr/0669-2026",
           "path": null,
-          "representation_id": "is:url:067f3b40ccef54d6c000#url:is:deae35eb606c",
-          "acceptance_status": [],
+          "representation_id": "is:url:067f3b40ccef54d6c000#url:is:81cdf9c94fdd",
+          "acceptance_status": [
+            "accepted_external_reference"
+          ],
           "source_identity_id": "is:url:067f3b40ccef54d6c000",
           "representation_ids": [
-            "is:url:067f3b40ccef54d6c000#url:is:deae35eb606c"
+            "is:url:067f3b40ccef54d6c000#local:is:7cd0a7479eec",
+            "is:url:067f3b40ccef54d6c000#url:is:81cdf9c94fdd"
           ]
         }
       ],
@@ -2293,7 +2335,7 @@
           "line": 38,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -2304,13 +2346,14 @@
             "[Regulation 669/2026](https://www.reglugerd.is/reglugerdir/allar/nr/0669-2026)",
             "regulation amendment",
             "related_source",
-            "Official amendment record repeals §41 and updates §47 terminology; the terminology change took effect 1 July 2026.",
-            "Accepted external reference to the amendment text; not a consolidation."
+            "Official published text repeals §41 and updates §47 terminology; the §47 change took effect 1 July 2026.",
+            "Complete Icelandic legal text retained at [is-30](../documents/legislation/is-30-669-2026-amendment.md); accepted as this amendment only, not a consolidation."
           ],
           "category": "catalogue",
           "source_identity_id": "is:url:067f3b40ccef54d6c000",
           "representation_ids": [
-            "is:url:067f3b40ccef54d6c000#url:is:deae35eb606c"
+            "is:url:067f3b40ccef54d6c000#local:is:7cd0a7479eec",
+            "is:url:067f3b40ccef54d6c000#url:is:81cdf9c94fdd"
           ]
         }
       ],
@@ -2321,7 +2364,8 @@
           "category": "acceptance",
           "source_identity_id": "is:url:067f3b40ccef54d6c000",
           "representation_ids": [
-            "is:url:067f3b40ccef54d6c000#url:is:deae35eb606c"
+            "is:url:067f3b40ccef54d6c000#local:is:7cd0a7479eec",
+            "is:url:067f3b40ccef54d6c000#url:is:81cdf9c94fdd"
           ]
         }
       ],
@@ -2330,7 +2374,7 @@
     {
       "id": "is-31",
       "title": "Regulation 724/2026",
-      "source_type": "unspecified",
+      "source_type": "regulation amendment",
       "official_urls": [
         "https://reglugerd.is/reglugerdir/eftir-raduneytum/dmr/nr/25017"
       ],
@@ -2338,23 +2382,44 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference"
+        "accepted_external_reference",
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "is:url:fe85a811788e1c4c214e#url:is:ba680a2ab251"
+        "is:url:fe85a811788e1c4c214e#local:is:a01e6411a6aa",
+        "is:url:fe85a811788e1c4c214e#url:is:f74ab6b9a54f"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "is",
+          "edition": "2026",
+          "url": null,
+          "path": "documents/legislation/is-31-724-2026-amendment.md",
+          "representation_id": "is:url:fe85a811788e1c4c214e#local:is:a01e6411a6aa",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "is:url:fe85a811788e1c4c214e",
+          "representation_ids": [
+            "is:url:fe85a811788e1c4c214e#local:is:a01e6411a6aa",
+            "is:url:fe85a811788e1c4c214e#url:is:f74ab6b9a54f"
+          ]
+        },
         {
           "kind": "official_reference",
           "language": "is",
           "edition": "undated",
           "url": "https://reglugerd.is/reglugerdir/eftir-raduneytum/dmr/nr/25017",
           "path": null,
-          "representation_id": "is:url:fe85a811788e1c4c214e#url:is:ba680a2ab251",
-          "acceptance_status": [],
+          "representation_id": "is:url:fe85a811788e1c4c214e#url:is:f74ab6b9a54f",
+          "acceptance_status": [
+            "accepted_external_reference"
+          ],
           "source_identity_id": "is:url:fe85a811788e1c4c214e",
           "representation_ids": [
-            "is:url:fe85a811788e1c4c214e#url:is:ba680a2ab251"
+            "is:url:fe85a811788e1c4c214e#local:is:a01e6411a6aa",
+            "is:url:fe85a811788e1c4c214e#url:is:f74ab6b9a54f"
           ]
         }
       ],
@@ -2364,7 +2429,7 @@
           "line": 39,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -2375,13 +2440,14 @@
             "[Regulation 724/2026](https://www.reglugerd.is/reglugerdir/eftir-raduneytum/dmr/nr/25017)",
             "regulation amendment",
             "related_source",
-            "Official amendment record changes §§11, 13, 38a, 43b, and 52; it states immediate entry into force and was published 26 June 2026.",
-            "Accepted external reference to the amendment text; not a consolidation."
+            "Official published text changes §§11 and 13, inserts §38a, repeals §43b, adds §52, and states immediate entry into force; Gazette issue dated 26 June 2026.",
+            "Complete Icelandic legal text retained at [is-31](../documents/legislation/is-31-724-2026-amendment.md); accepted as this amendment only, not a consolidation."
           ],
           "category": "catalogue",
           "source_identity_id": "is:url:fe85a811788e1c4c214e",
           "representation_ids": [
-            "is:url:fe85a811788e1c4c214e#url:is:ba680a2ab251"
+            "is:url:fe85a811788e1c4c214e#local:is:a01e6411a6aa",
+            "is:url:fe85a811788e1c4c214e#url:is:f74ab6b9a54f"
           ]
         }
       ],
@@ -2392,7 +2458,8 @@
           "category": "acceptance",
           "source_identity_id": "is:url:fe85a811788e1c4c214e",
           "representation_ids": [
-            "is:url:fe85a811788e1c4c214e#url:is:ba680a2ab251"
+            "is:url:fe85a811788e1c4c214e#local:is:a01e6411a6aa",
+            "is:url:fe85a811788e1c4c214e#url:is:f74ab6b9a54f"
           ]
         }
       ],
@@ -2401,7 +2468,7 @@
     {
       "id": "is-32",
       "title": "Regulation 725/2026",
-      "source_type": "unspecified",
+      "source_type": "regulation amendment",
       "official_urls": [
         "https://reglugerd.is/reglugerdir/eftir-raduneytum/dmr/nr/25018"
       ],
@@ -2409,23 +2476,44 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference"
+        "accepted_external_reference",
+        "accepted_local_copy"
       ],
       "representation_ids": [
-        "is:url:ee67f636fae12a9ab4c4#url:is:e9f959784edc"
+        "is:url:ee67f636fae12a9ab4c4#local:is:2e47a57cbc2b",
+        "is:url:ee67f636fae12a9ab4c4#url:is:bd24a7d79dc9"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "is",
+          "edition": "2026",
+          "url": null,
+          "path": "documents/legislation/is-32-725-2026-amendment.md",
+          "representation_id": "is:url:ee67f636fae12a9ab4c4#local:is:2e47a57cbc2b",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "is:url:ee67f636fae12a9ab4c4",
+          "representation_ids": [
+            "is:url:ee67f636fae12a9ab4c4#local:is:2e47a57cbc2b",
+            "is:url:ee67f636fae12a9ab4c4#url:is:bd24a7d79dc9"
+          ]
+        },
         {
           "kind": "official_reference",
           "language": "is",
           "edition": "undated",
           "url": "https://reglugerd.is/reglugerdir/eftir-raduneytum/dmr/nr/25018",
           "path": null,
-          "representation_id": "is:url:ee67f636fae12a9ab4c4#url:is:e9f959784edc",
-          "acceptance_status": [],
+          "representation_id": "is:url:ee67f636fae12a9ab4c4#url:is:bd24a7d79dc9",
+          "acceptance_status": [
+            "accepted_external_reference"
+          ],
           "source_identity_id": "is:url:ee67f636fae12a9ab4c4",
           "representation_ids": [
-            "is:url:ee67f636fae12a9ab4c4#url:is:e9f959784edc"
+            "is:url:ee67f636fae12a9ab4c4#local:is:2e47a57cbc2b",
+            "is:url:ee67f636fae12a9ab4c4#url:is:bd24a7d79dc9"
           ]
         }
       ],
@@ -2435,7 +2523,7 @@
           "line": 40,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -2446,13 +2534,14 @@
             "[Regulation 725/2026](https://www.reglugerd.is/reglugerdir/eftir-raduneytum/dmr/nr/25018)",
             "regulation amendment",
             "related_source",
-            "Official amendment record replaces Chapter II with short-term residence-permit rules and states immediate entry into force; it was published 26 June 2026.",
-            "Accepted external reference to the amendment text; not a consolidation."
+            "Official published text replaces Chapter II with short-term residence-permit rules and states immediate entry into force; Gazette issue dated 26 June 2026.",
+            "Complete Icelandic legal text retained at [is-32](../documents/legislation/is-32-725-2026-amendment.md); accepted as this amendment only, not a consolidation."
           ],
           "category": "catalogue",
           "source_identity_id": "is:url:ee67f636fae12a9ab4c4",
           "representation_ids": [
-            "is:url:ee67f636fae12a9ab4c4#url:is:e9f959784edc"
+            "is:url:ee67f636fae12a9ab4c4#local:is:2e47a57cbc2b",
+            "is:url:ee67f636fae12a9ab4c4#url:is:bd24a7d79dc9"
           ]
         }
       ],
@@ -2463,7 +2552,8 @@
           "category": "acceptance",
           "source_identity_id": "is:url:ee67f636fae12a9ab4c4",
           "representation_ids": [
-            "is:url:ee67f636fae12a9ab4c4#url:is:e9f959784edc"
+            "is:url:ee67f636fae12a9ab4c4#local:is:2e47a57cbc2b",
+            "is:url:ee67f636fae12a9ab4c4#url:is:bd24a7d79dc9"
           ]
         }
       ],
@@ -2472,7 +2562,7 @@
     {
       "id": "is-33",
       "title": "Courts Act No. 50/2016",
-      "source_type": "unspecified",
+      "source_type": "court legislation",
       "official_urls": [
         "https://althingi.is/lagas/nuna/2016050.html"
       ],
@@ -2506,7 +2596,7 @@
           "line": 41,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -2543,7 +2633,7 @@
     {
       "id": "is-34",
       "title": "Act No. 91/1991 on Civil Procedure",
-      "source_type": "unspecified",
+      "source_type": "civil procedure",
       "official_urls": [
         "https://althingi.is/lagas/nuna/1991091.html"
       ],
@@ -2577,7 +2667,7 @@
           "line": 42,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -2614,7 +2704,7 @@
     {
       "id": "is-35",
       "title": "Waiting time at the Directorate of Immigration",
-      "source_type": "unspecified",
+      "source_type": "current processing status",
       "official_urls": [
         "https://island.is/en/o/directorate-of-immigration/waiting-time"
       ],
@@ -2648,7 +2738,7 @@
           "line": 43,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",
@@ -2685,7 +2775,7 @@
     {
       "id": "is-36",
       "title": "Visa Act No. 37/2026",
-      "source_type": "unspecified",
+      "source_type": "visa legislation",
       "official_urls": [
         "https://althingi.is/lagas/nuna/2026037.html"
       ],
@@ -2719,7 +2809,7 @@
           "line": 44,
           "table_headers": [
             "ID",
-            "Official source",
+            "Official source locator",
             "Source class",
             "Relationship to Danish EU-residence seed",
             "Verification status",

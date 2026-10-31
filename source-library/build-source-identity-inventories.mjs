@@ -144,6 +144,15 @@ function normalizedArtifactPath(value, country) {
   if(raw.split('/').includes('..')) return '';
   return /^(documents|sources)\//.test(raw) ? raw : '';
 }
+function languagesForLocation(item, location, keySet, country, fallbackLanguage = 'unspecified') {
+  const wanted = keySet === URL_KEYS ? normalizedUrl(location) : normalizedArtifactPath(location,country);
+  const matching = (item?.representations||[]).filter(rep => directValues(rep,keySet).some(value => {
+    const actual = keySet === URL_KEYS ? normalizedUrl(value) : normalizedArtifactPath(value,country);
+    return actual && actual === wanted;
+  }));
+  const explicit = [...new Set(matching.flatMap(rep => languageCodes(rep.language)).filter(language => language !== 'unspecified'))];
+  return explicit.length ? explicit : languagesOf(item,fallbackLanguage);
+}
 function representationSpecs(item, sourceIdentityId, country, fallbackLanguage = 'unspecified') {
   const specs = [];
   if (Array.isArray(item?.representations) && item.representations.length) {
@@ -164,7 +173,7 @@ function representationSpecs(item, sourceIdentityId, country, fallbackLanguage =
   for(const rep of item?.representations||[]) for(const value of directValues(rep,PATH_KEYS)) { const p=normalizedArtifactPath(value,country); if(p&&!paths.includes(p)) paths.push(p); }
   const languages = languagesOf(item, fallbackLanguage);
   for (const url of urls) {
-    for (const language of languages) {
+    for (const language of languagesForLocation(item,url,URL_KEYS,country,languages[0]||fallbackLanguage)) {
       const edition = editionOf(item);
       const location = `${url}|${language}|${edition}`;
       const id = `${sourceIdentityId}#url:${slug(language)}:${digest(location).slice(0,12)}`;
@@ -172,7 +181,7 @@ function representationSpecs(item, sourceIdentityId, country, fallbackLanguage =
     }
   }
   for (const localPath of paths) {
-    for (const language of languages) {
+    for (const language of languagesForLocation(item,localPath,PATH_KEYS,country,languages[0]||fallbackLanguage)) {
       const edition = editionOf(item,localPath);
       const id = `${sourceIdentityId}#local:${slug(language)}:${digest(`${localPath}|${edition}`).slice(0,12)}`;
       if (!specs.some(spec => spec.representation_id === id)) specs.push({kind:'local_artifact',language,edition,url:null,path:localPath,representation_id:id,acceptance_status:statusForRecord(item)});
@@ -217,7 +226,7 @@ function sourceListRows(text, filePath) {
       const titleCell=row[tableHeaders.findIndex(name=>/title|official source|source record|source$/.test(name))] || row[1] || rawId;
       const url=[...row.join(' ').matchAll(/https?:\/\/[^\s)\]>|]+/g)].map(m=>m[0].replace(/[.,;]+$/,''))[0]||'';
       const cleanTitle=titleCell.replace(/\[([^\]]+)\]\([^)]*\)/g,'$1').replace(/`/g,'').trim();
-      rows.push({id:rawId,title:cleanTitle,official_url:url,catalogue_reference:{path:filePath,line:j+1,table_headers:header,cells:row},raw_source_list_status:row.join(' | ')});
+      rows.push({id:rawId,title:cleanTitle,source_type:cellsByName['source class']||'',official_url:url,catalogue_reference:{path:filePath,line:j+1,table_headers:header,cells:row},raw_source_list_status:row.join(' | ')});
     }
     i++; // the parser consumes this table in its inner loop
   }
@@ -411,6 +420,8 @@ async function loadCountry(country, extraDocumentPaths = []) {
       const languageSuffix=/^[-_](?:en|fr|nl|de|it|es|pt|sv|fi|da|no|is|hr|cs|sk|sl|el|et|lv|lt|mt|hu|pl|ro|bg)$/i.test(suffix);
       if(base===normalizedId || languageSuffix) {
         const relative=path.relative(ROOT,absolute).split(path.sep).join('/');
+        const normalizedRelative=relative.startsWith(`${country}/`)?relative.slice(country.length+1):relative;
+        if(row.source_records.some(record=>collectStrings(record,PATH_KEYS).some(value=>normalizedArtifactPath(value,country)===normalizedRelative))) continue;
         const firstRecord=row.source_records.find(x=>x&&typeof x==='object')||{};
         const suffixLanguage=languageSuffix?suffix.slice(1):'';
         const language=suffixLanguage||row.inferred_language||languagesOf(firstRecord)[0]||'unspecified';
@@ -523,7 +534,7 @@ async function loadCountry(country, extraDocumentPaths = []) {
   const acceptanceOut={...acceptance,identity_links:identityLinks,identity_link_schema_version:1};
   // Keep legacy objects intact while giving every row with a known ID the same identity pointer.
   const manifestOut=enrichTree(manifest,identityLinks);
-  const inventory={schema_version:1,jurisdiction:iso,jurisdiction_name:country,updated:'2026-10-29',identity_rule:'Existing catalogue IDs are preserved. Exact official URLs, CELEX and ELI identities are joined; language, edition, link and local-copy representations remain distinct. Potential cross-record matches are surfaced instead of silently merged.',source_count:entries.length,unique_identity_count:new Set(entries.map(x=>x.source_identity_id)).size,unresolved_identity_entry_count:entries.filter(x=>x.identity_resolution_status==='unresolved').length,unresolved_identity_matches:unresolvedMatches,source_list_file:files.includes('source-list.md')?'references/source-list.md':null,entries};
+  const inventory={schema_version:1,jurisdiction:iso,jurisdiction_name:country,updated:'2026-10-31',identity_rule:'Existing catalogue IDs are preserved. Exact official URLs, CELEX and ELI identities are joined; language, edition, link and local-copy representations remain distinct. Potential cross-record matches are surfaced instead of silently merged.',source_count:entries.length,unique_identity_count:new Set(entries.map(x=>x.source_identity_id)).size,unresolved_identity_entry_count:entries.filter(x=>x.identity_resolution_status==='unresolved').length,unresolved_identity_matches:unresolvedMatches,source_list_file:files.includes('source-list.md')?'references/source-list.md':null,entries};
   const reportBlock=renderSourceListBlock(inventory);
   let sourceListOut=sourceListText;
   if(!sourceListText) sourceListOut=`# ${country[0].toUpperCase()+country.slice(1)} source list\n\nThis list is synchronized with the canonical machine-readable entries in [candidate-manifest.json](candidate-manifest.json). Acceptance remains recorded separately in [source-acceptance.json](source-acceptance.json).\n\n`;
