@@ -2,7 +2,7 @@
   "schema_version": 1,
   "jurisdiction": "CZ",
   "jurisdiction_name": "czechia",
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "identity_rule": "Existing catalogue IDs are preserved. Exact official URLs, CELEX and ELI identities are joined; language, edition, link and local-copy representations remain distinct. Potential cross-record matches are surfaced instead of silently merged.",
   "source_count": 67,
   "unique_identity_count": 67,
@@ -21,12 +21,14 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
+        "pending",
         "accepted_external_reference",
-        "pending"
+        "accepted_local_copy"
       ],
       "representation_ids": [
         "cz:url:9db65f7bbd8e93c69492#local:cs:90ed7326598c",
-        "cz:url:9db65f7bbd8e93c69492#url:cs:2a775d771391"
+        "cz:url:9db65f7bbd8e93c69492#url:cs:2a775d771391",
+        "cz:url:9db65f7bbd8e93c69492#local:cs:14248fbfd1d5"
       ],
       "representations": [
         {
@@ -44,12 +46,22 @@
           "kind": "official_reference",
           "language": "cs",
           "edition": "2020-02-01",
-          "url": "https://e-sbirka.gov.cz/sb/2010/429",
+          "url": "https://e-sbirka.gov.cz/sb/2010/429/2020-02-01",
           "path": null,
           "representation_id": "cz:url:9db65f7bbd8e93c69492#url:cs:2a775d771391",
           "acceptance_status": [
-            "accepted_external_reference",
-            "pending"
+            "accepted_external_reference"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "cs",
+          "edition": "2020-02-01",
+          "url": null,
+          "path": "documents/legislation/cz-decree-429-2010.md",
+          "representation_id": "cz:url:9db65f7bbd8e93c69492#local:cs:14248fbfd1d5",
+          "acceptance_status": [
+            "accepted_local_copy"
           ]
         }
       ],
@@ -68,10 +80,16 @@
           ],
           "cells": [
             "`cz-decree-429-2010`",
-            "[Decree 429/2010 — e-Sbírka](https://e-sbirka.gov.cz/sb/2010/429); [PSP metadata](https://www.psp.cz/sqw/sbirka.sqw?cz=429&r=2010)",
-            "Accepted only as an official instrument locator, corroborated by PSP metadata. The current consolidation/cutoff and applicability to EU-family visa and residence routes remain unresolved. See the open whole-portal human-review offer. Locator note: [Decree 429/2010 disposition](../documents/legislation/cz-decree-429-2010-locator.md)."
+            "[Decree 429/2010 locator](https://e-sbirka.gov.cz/sb/2010/429); [PSP metadata](https://www.psp.cz/sqw/sbirka.sqw?cz=429&r=2010)",
+            "Full dated legal text retained at documents/legislation/cz-decree-429-2010.md. URLs are provenance metadata, not source documents. Currentness/cutoff verified; EU-family route applicability remains open. Separate scope note: ../documents/legislation/cz-decree-429-2010-locator.md."
           ],
           "category": "catalogue"
+        },
+        {
+          "path": "references/source-list.md",
+          "line": 127,
+          "category": "retained_local_text",
+          "local_copy_path": "documents/legislation/cz-decree-429-2010.md"
         }
       ],
       "acceptance_references": [
@@ -252,12 +270,14 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
+        "pending",
         "accepted_external_reference",
-        "pending"
+        "accepted_local_copy"
       ],
       "representation_ids": [
         "cz:url:0f5f21776315a85599c5#local:cs:75cd423a3e65",
-        "cz:url:0f5f21776315a85599c5#url:cs:25ebaf5282ab"
+        "cz:url:0f5f21776315a85599c5#url:cs:25ebaf5282ab",
+        "cz:url:0f5f21776315a85599c5#local:cs:8bbed3589c82"
       ],
       "representations": [
         {
@@ -274,13 +294,23 @@
         {
           "kind": "official_reference",
           "language": "cs",
-          "edition": "undated",
-          "url": "https://e-sbirka.gov.cz/sb/1995/117",
+          "edition": "2026-09-01",
+          "url": "https://e-sbirka.gov.cz/sb/1995/117/2026-09-01",
           "path": null,
           "representation_id": "cz:url:0f5f21776315a85599c5#url:cs:25ebaf5282ab",
           "acceptance_status": [
-            "accepted_external_reference",
-            "pending"
+            "accepted_external_reference"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "cs",
+          "edition": "2026-09-01",
+          "url": null,
+          "path": "documents/legislation/cz-esbirka-1995-117.md",
+          "representation_id": "cz:url:0f5f21776315a85599c5#local:cs:8bbed3589c82",
+          "acceptance_status": [
+            "accepted_local_copy"
           ]
         }
       ],
@@ -288,6 +318,12 @@
         {
           "path": "references/source-register.json",
           "json_pointer": "/documents/66"
+        },
+        {
+          "path": "references/source-list.md",
+          "line": 126,
+          "category": "retained_local_text",
+          "local_copy_path": "documents/legislation/cz-esbirka-1995-117.md"
         }
       ],
       "acceptance_references": [
@@ -310,12 +346,14 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
+        "pending",
         "accepted_external_reference",
-        "pending"
+        "accepted_local_copy"
       ],
       "representation_ids": [
         "cz:url:a1d8abffe213495cbe11#local:cs:90ed7326598c",
-        "cz:url:a1d8abffe213495cbe11#url:cs:d6d0254bc661"
+        "cz:url:a1d8abffe213495cbe11#url:cs:d6d0254bc661",
+        "cz:url:a1d8abffe213495cbe11#local:cs:4c185b9e14dd"
       ],
       "representations": [
         {
@@ -332,13 +370,23 @@
         {
           "kind": "official_reference",
           "language": "cs",
-          "edition": "undated",
-          "url": "https://e-sbirka.gov.cz/sb/1997/48",
+          "edition": "2026-10-01",
+          "url": "https://e-sbirka.gov.cz/sb/1997/48/2026-10-01",
           "path": null,
           "representation_id": "cz:url:a1d8abffe213495cbe11#url:cs:d6d0254bc661",
           "acceptance_status": [
-            "accepted_external_reference",
-            "pending"
+            "accepted_external_reference"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "cs",
+          "edition": "2026-10-01",
+          "url": null,
+          "path": "documents/legislation/cz-esbirka-1997-48.md",
+          "representation_id": "cz:url:a1d8abffe213495cbe11#local:cs:4c185b9e14dd",
+          "acceptance_status": [
+            "accepted_local_copy"
           ]
         }
       ],
@@ -346,6 +394,12 @@
         {
           "path": "references/source-register.json",
           "json_pointer": "/documents/65"
+        },
+        {
+          "path": "references/source-list.md",
+          "line": 125,
+          "category": "retained_local_text",
+          "local_copy_path": "documents/legislation/cz-esbirka-1997-48.md"
         }
       ],
       "acceptance_references": [
@@ -878,12 +932,14 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
+        "pending",
         "accepted_external_reference",
-        "pending"
+        "accepted_local_copy"
       ],
       "representation_ids": [
         "cz:url:5663814b7cdfdceadf39#local:cs:75cd423a3e65",
-        "cz:url:5663814b7cdfdceadf39#url:cs:eec874d8d2ca"
+        "cz:url:5663814b7cdfdceadf39#url:cs:eec874d8d2ca",
+        "cz:url:5663814b7cdfdceadf39#local:cs:4bf8c8dc134e"
       ],
       "representations": [
         {
@@ -900,13 +956,23 @@
         {
           "kind": "official_reference",
           "language": "cs",
-          "edition": "undated",
-          "url": "https://e-sbirka.gov.cz/sb/2004/435",
+          "edition": "2026-07-01",
+          "url": "https://e-sbirka.gov.cz/sb/2004/435/2026-07-01",
           "path": null,
           "representation_id": "cz:url:5663814b7cdfdceadf39#url:cs:eec874d8d2ca",
           "acceptance_status": [
-            "accepted_external_reference",
-            "pending"
+            "accepted_external_reference"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "cs",
+          "edition": "2026-07-01",
+          "url": null,
+          "path": "documents/legislation/cz-esbirka-2004-435.md",
+          "representation_id": "cz:url:5663814b7cdfdceadf39#local:cs:4bf8c8dc134e",
+          "acceptance_status": [
+            "accepted_local_copy"
           ]
         }
       ],
@@ -914,6 +980,12 @@
         {
           "path": "references/source-register.json",
           "json_pointer": "/documents/64"
+        },
+        {
+          "path": "references/source-list.md",
+          "line": 124,
+          "category": "retained_local_text",
+          "local_copy_path": "documents/legislation/cz-esbirka-2004-435.md"
         }
       ],
       "acceptance_references": [
