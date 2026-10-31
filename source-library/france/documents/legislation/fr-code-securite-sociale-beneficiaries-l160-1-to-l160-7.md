@@ -4,7 +4,7 @@
 
 **Code identifier:** `LEGITEXT000006073189`  
 **Scope retained:** Current text of Articles L160-1, L160-1-1 and L160-2 to L160-7.  
-**Official current version observed:** Légifrance displayed the section in force through 2026-10-09; Article L160-1-1 was checked on its individual page in force 2026-10-30; checked 2026-10-30.
+**Official version evidence:** The 2026-10-30 capture recorded a section cutoff of 2026-10-09. A separate recheck on 2026-10-31 could not reproduce that cutoff: the live section request returned HTTP 403, while Légifrance search results surfaced a dated full-section snapshot from 2026-09-09. The official individual Article L160-1-1 record reports the provision in force since 2025-12-31. Treat this as a dated official text copy, not proof of section-wide currentness on 2026-10-31.
 
 **Official locator (provenance/navigation only):** https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073189/LEGISCTA000031668675/
 
