@@ -168,14 +168,14 @@ function representationSpecs(item, sourceIdentityId, country, fallbackLanguage =
       const edition = editionOf(item);
       const location = `${url}|${language}|${edition}`;
       const id = `${sourceIdentityId}#url:${slug(language)}:${digest(location).slice(0,12)}`;
-      if (!specs.some(spec => spec.representation_id === id)) specs.push({kind:'official_reference',language,edition,url,path:null,representation_id:id,acceptance_status:statusForRecord(item)});
+      if (!specs.some(spec => spec.kind==='official_reference' && spec.url===url && spec.language===language)) specs.push({kind:'official_reference',language,edition,url,path:null,representation_id:id,acceptance_status:statusForRecord(item)});
     }
   }
   for (const localPath of paths) {
     for (const language of languages) {
       const edition = editionOf(item,localPath);
       const id = `${sourceIdentityId}#local:${slug(language)}:${digest(`${localPath}|${edition}`).slice(0,12)}`;
-      if (!specs.some(spec => spec.representation_id === id)) specs.push({kind:'local_artifact',language,edition,url:null,path:localPath,representation_id:id,acceptance_status:statusForRecord(item)});
+      if (!specs.some(spec => spec.kind==='local_artifact' && spec.path===localPath && spec.language===language)) specs.push({kind:'local_artifact',language,edition,url:null,path:localPath,representation_id:id,acceptance_status:statusForRecord(item)});
     }
   }
   return specs;
