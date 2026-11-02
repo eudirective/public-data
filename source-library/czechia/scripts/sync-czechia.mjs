@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Retrieve official Czech guidance and individual court decisions, then preserve review-only candidates.
+// Retrieve official Czech guidance, individual court decisions, and oversight reports, then preserve review-only candidates.
 // e-Sbírka consolidated legal texts are acquired by sync_esbirka_open_data.py.
 import { createHash } from 'node:crypto';
 import { mkdir, readFile, readdir, copyFile } from 'node:fs/promises';
@@ -14,8 +14,8 @@ const DOCUMENTS = path.join(ROOT, 'documents');
 const MANIFEST_PATH = path.join(ROOT, 'references', 'source-register.json');
 const STATE_PATH = path.join(WORK, 'state.json');
 const REPORT_PATH = path.join(WORK, 'latest-report.json');
-const VERSION = '0.4.3';
-const HTML_CONVERSION_VERSION = '0.4.0';
+const VERSION = '0.4.4';
+const HTML_CONVERSION_VERSION = '0.4.1';
 const MAX_SOURCE_BYTES = 25 * 1024 * 1024;
 const sha = bytes => createHash('sha256').update(bytes).digest('hex');
 const safe = value => String(value).toLowerCase().replace(/[^a-z0-9._-]+/g, '-').replace(/^-|-$/g, '');
@@ -46,6 +46,7 @@ function candidateClass(source) {
   const type = source.source_type;
   if (type === 'national_legislation' || type === 'constitutional_text' || type === 'national_implementing_legislation') return 'legislation';
   if (type === 'individual_court_decision') return 'case_law';
+  if (type === 'official_oversight_report') return 'oversight';
   if (type === 'official_guidance' || type === 'official_procedure_guidance' || type === 'official_public_service_guidance' || type === 'official_consular_guidance') return 'guidance';
   if (type === 'official_application_form_pdf' || type === 'official_forms_directory') return 'forms';
   if (type === 'official_guidance_directory' || type === 'official_mission_directory' || type === 'discovery_repository') return 'discovery';
@@ -183,6 +184,37 @@ function convertHtml(fragment, baseUrl = '') {
   }
   return out.replace(/[\t\u00a0 ]+\n/g, '\n').replace(/\n[\t ]+/g, '\n').replace(/\n{3,}/g, '\n\n').replace(/[ \t]{2,}/g, ' ').replace(/^#{1,6}(?:\s*#+)?\s*$/gm, '').replace(/^#{1,6} \*+$/gm, '').replace(/\n{3,}/g, '\n\n').trim();
 }
+function convertHtmlPreservingParagraphs(fragment, baseUrl = '') {
+  const tokens = fragment.match(/<!--[\s\S]*?-->|<![^>]*>|<[^>]*>|[^<]+/g) || [];
+  const stack = []; let out = '';
+  const boundary = () => { out = out.replace(/[ \t]+$/g, ''); if (out && !out.endsWith('\n')) out += '\n'; };
+  for (const token of tokens) {
+    if (token.startsWith('<!--') || /^<!/i.test(token)) continue;
+    if (!token.startsWith('<')) { if (!stack.some(item => item.skip)) out += decodeEntities(token).replace(/\u00a0/g, ' '); continue; }
+    const closing = /^<\//.test(token), name = token.match(/^<\/?\s*([\w:-]+)/)?.[1]?.toLowerCase();
+    if (!name) continue;
+    if (!closing) {
+      const hint = `${attr(token, 'id')} ${attr(token, 'class')}`.toLowerCase();
+      const skip = ['script', 'style', 'noscript', 'svg', 'nav', 'header', 'footer', 'aside', 'form', 'button', 'select', 'option'].includes(name) || /breadcrumb|cookie|skiplink|pagination|share|toolbar|sidebar|menu|navigation|social/.test(hint);
+      const link = name === 'a' && !skip ? linkTarget(attr(token, 'href'), baseUrl) : '';
+      stack.push({ name, skip, link, linkStart: out.length });
+      if (skip) continue;
+      if (['br', 'p', 'div', 'section', 'article', 'li', 'tr', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'].includes(name)) boundary();
+      if (/^h[1-6]$/.test(name)) out += `${'#'.repeat(Number(name[1]))} `;
+      if (name === 'li') out += '- ';
+      if (name === 'br') out += '\n';
+    } else {
+      const position = stack.map(item => item.name).lastIndexOf(name);
+      if (position < 0) continue;
+      const row = stack[position]; stack.splice(position);
+      if (row.skip) continue;
+      if (row.link) { const label = out.slice(row.linkStart).trim(); out = out.slice(0, row.linkStart) + `[${label}](${row.link})`; }
+      if (['br', 'p', 'div', 'section', 'article', 'li', 'tr', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'].includes(name)) boundary();
+    }
+  }
+  const lines = out.replace(/\r\n?/g, '\n').split('\n').map(line => line.replace(/[\t\u00a0 ]+/g, ' ').trim());
+  return lines.join('\n').replace(/\n{3,}/g, '\n\n').trim();
+}
 function pageTitle(html, fallback) {
   const value = html.match(/<title\b[^>]*>([\s\S]*?)<\/title\s*>/i)?.[1] || html.match(/<h1\b[^>]*>([\s\S]*?)<\/h1\s*>/i)?.[1] || fallback;
   return convertHtml(value).replace(/\s*[|–-]\s*(?:Ministry|Portal|Government).*$/i, '').trim() || fallback;
@@ -307,6 +339,7 @@ async function replayActMarkdown(source, row, bytes) {
 async function renderSavedMarkdown(source, row, bytes) {
   const format = row.format || path.extname(String(row.raw_path || '')).slice(1).replace(/^\./, '');
   if (source.source_type === 'individual_court_decision') return makeCourtMarkdown(source, row, bytes);
+  if (source.source_type === 'official_oversight_report') return makeOversightMarkdown(source, row, bytes);
   if (format === 'pdf') {
     const retrievalDate = row.retrieval_as_of || row.final_url?.match(/\/(\d{4}-\d{2}-\d{2})\.pdf(?:$|\?)/)?.[1];
     if (!retrievalDate) throw new Error('saved stable-download candidate has no consolidation date');
@@ -340,6 +373,24 @@ async function makeCourtMarkdown(source, response, bytes) {
     markdown: `# ${source.title}\n\n- Source ID: \`${source.id}\`\n- Source type: \`${source.source_type}\`\n- Content language: \`${source.language}\`\n- Court: ${source.publisher_identifier?.publisher || 'Official Czech court'}\n- Case identifier: \`${expected}\`\n- Official decision URL: ${source.url}\n- Retrieved URL: ${response.final_url || source.url}\n- Source format: official court ${format.toUpperCase()}\n- Source response SHA-256: \`${sha(bytes)}\`\n- Conversion: Czechia court decision ${format.toUpperCase()} to Markdown ${HTML_CONVERSION_VERSION}\n- Scope: ${source.scope_note || 'Individual official decision; not a complete case-law search.'}\n- Coverage: ${method}; page layout, signatures, tables and footnote placement may not be preserved.\n\n> Review candidate. This copy records one official decision. Do not generalize its outcome beyond the judgment’s facts, procedural posture, applicable law and stated limits.\n\n${content}\n`
   };
 }
+async function makeOversightMarkdown(source, response, bytes) {
+  const html = decodeHtml(bytes, response.content_type || '');
+  const reportBody = extractElement(html, 'p', '', 'text_dokumentu');
+  if (!reportBody || reportBody.length < 1000) throw new Error(`No stable official oversight report body found for ${source.id}.`);
+  const content = convertHtmlPreservingParagraphs(reportBody, response.final_url || source.url);
+  if (content.length < 1000) throw new Error(`Official oversight report exposed too little text (${content.length} characters).`);
+  const expected = source.case_identifier;
+  const normalize = value => String(value).normalize('NFKC').replace(/\s+/g, '').toLowerCase();
+  if (!expected || !normalize(content).includes(normalize(expected))) throw new Error(`Official oversight report does not contain expected identifier ${expected || '(missing)'}.`);
+  for (const term of source.required_content_terms || []) {
+    if (!content.toLocaleLowerCase('cs').includes(String(term).toLocaleLowerCase('cs'))) throw new Error(`Official oversight report is missing expected content marker: ${term}.`);
+  }
+  const method = 'official Czech Ombudsman report body extraction from p.text_dokumentu';
+  return {
+    method,
+    markdown: `# ${source.title}\n\n- Source ID: \`${source.id}\`\n- Source type: \`${source.source_type}\`\n- Content language: \`${source.language}\`\n- Publisher: ${source.publisher_identifier?.publisher || 'Public Defender of Rights of the Czech Republic'}\n- Case identifier: \`${expected}\`\n- Official record URL: ${source.url}\n- Retrieved URL: ${response.final_url || source.url}\n- Official linked report: ${source.attachment_url || 'not separately recorded'}\n- Source format: official record HTML\n- Source response SHA-256: \`${sha(bytes)}\`\n- Conversion: Czechia oversight report HTML to Markdown ${HTML_CONVERSION_VERSION}\n- Scope: ${source.scope_note}\n- Coverage: ${method}; page chrome and navigation are omitted; layout and footnote placement may not be preserved.\n\n> Historical oversight report. Its factual and legal analysis concerns the law in force for the 2009–2010 visa applications; it is not current procedure or a statement of current law.\n\n${content}\n`
+  };
+}
 function makeMarkdown(source, html, body, method, sourceHash = '') {
   const title = pageTitle(html, source.title), heading = pageHeading(html), content = convertHtml(body, source.retrieved_url || source.url);
   if (!source.expected_heading) throw new Error(`Manifest is missing expected_heading for ${source.id}.`);
@@ -360,7 +411,7 @@ const mode = process.argv.find(arg => ['--check', '--sync', '--verify', '--recon
 if (mode === '--ack') {
   const id = process.argv[process.argv.indexOf('--ack') + 1];
   const source = manifest.documents.find(item => item.id === id);
-  if (!source || source.monitor_only || !['guidance', 'case_law'].includes(candidateClass(source))) throw new Error('--ack requires a retrieved official guidance or individual court decision candidate ID.');
+  if (!source || source.monitor_only || !['guidance', 'case_law', 'oversight'].includes(candidateClass(source))) throw new Error('--ack requires a retrieved official guidance, court decision, or oversight report candidate ID.');
   const row = state.sources[id];
   if (!row?.raw_path || !row?.candidate_path) throw new Error(`Cannot acknowledge ${id}: no saved official retrieval state exists.`);
   const raw = await readFile(workFile(row.raw_path, 'raw'));
@@ -439,10 +490,12 @@ if (mode === '--ack') {
   const legislation = manifest.documents.filter(item => !item.monitor_only && item.retrieval_method === 'czech_legacy_date_bound_pdf');
   const guidance = manifest.documents.filter(item => !item.monitor_only && item.retrieval_method === 'czech_official_guidance_html_adapter');
   const courtDecisions = manifest.documents.filter(item => !item.monitor_only && item.retrieval_method === 'czech_official_case_document_adapter');
+  const oversightReports = manifest.documents.filter(item => !item.monitor_only && item.retrieval_method === 'czech_official_oversight_html_adapter');
   for (const source of manifest.documents) {
     if (source.monitor_only) { monitorOnly.push({ source_id: source.id, status: 'discovery_channel_not_fetched' }); continue; }
   }
-  const queue = [...guidance.map(source => ({ source, lane: 'guidance' })), ...courtDecisions.map(source => ({ source, lane: 'court_decision' })), ...legislation.map(source => ({ source, lane: 'stable_url_pdf' }))]; let cursor = 0;
+  const onlyId = process.argv.find(arg => arg.startsWith('--only='))?.slice('--only='.length);
+  const queue = [...guidance.map(source => ({ source, lane: 'guidance' })), ...courtDecisions.map(source => ({ source, lane: 'court_decision' })), ...oversightReports.map(source => ({ source, lane: 'oversight_report' })), ...legislation.map(source => ({ source, lane: 'stable_url_pdf' }))].filter(task => !onlyId || task.source.id === onlyId); let cursor = 0;
   async function worker() {
     while (cursor < queue.length) {
       const task = queue[cursor++], { source, lane } = task;
@@ -455,7 +508,9 @@ if (mode === '--ack') {
           ? makeActMarkdown(source, response, asOfDate, response.content)
           : lane === 'court_decision'
             ? await makeCourtMarkdown({ ...source, retrieved_url: response.final_url }, response, response.bytes)
-            : makeMarkdown({ ...source, retrieved_url: response.final_url }, html, extracted.html, extracted.method, sourceHash);
+            : lane === 'oversight_report'
+              ? await makeOversightMarkdown({ ...source, retrieved_url: response.final_url }, response, response.bytes)
+              : makeMarkdown({ ...source, retrieved_url: response.final_url }, html, extracted.html, extracted.method, sourceHash);
         const markdownBytes = Buffer.from(converted.markdown, 'utf8'), markdownHash = sha(markdownBytes);
         const previous = state.sources[source.id] || {}, sourceUnchanged = previous.source_bytes_sha256 === sourceHash, markdownUnchanged = previous.markdown_sha256 === markdownHash;
         const status = sourceUnchanged && markdownUnchanged ? 'unchanged' : !sourceUnchanged && markdownUnchanged ? 'source_changed_markdown_unchanged' : 'candidate_ready';
@@ -486,12 +541,12 @@ if (mode === '--ack') {
     }
   }
   await Promise.all([worker(), worker()]);
-  const report = { report_version: 3, pack: manifest.pack, pack_version: VERSION, mode, checked_at: checkedAt, source_record_count: manifest.source_record_count, pending_review_artifact_count: manifest.pending_review_artifact_count, guidance_target_count: guidance.length, court_decision_target_count: courtDecisions.length, stable_url_pdf_target_count: legislation.length, retrieved_count: observations.length, failed_count: failures.length, blocked_law_count: blocked.length, monitor_only_target_count: monitorOnly.length, observations, blocked, monitor_only: monitorOnly, failures, actions: ['Review source identity, page scope, and temporary Markdown conversions before acknowledgement.', 'Court decisions are retrieved only from allowlisted official NSS endpoints and must match the expected case identifier.', 'Czech legislation uses the e-Sbírka page-data adapter; preserve the informative-text caveat and resolve source-specific legal scope before acceptance.', 'A successful retrieval or conversion does not establish currentness, legal force, completeness, or applicability.'] };
+  const report = { report_version: 3, pack: manifest.pack, pack_version: VERSION, mode, checked_at: checkedAt, source_record_count: manifest.source_record_count, pending_review_artifact_count: manifest.pending_review_artifact_count, guidance_target_count: guidance.length, court_decision_target_count: courtDecisions.length, oversight_report_target_count: oversightReports.length, stable_url_pdf_target_count: legislation.length, retrieved_count: observations.length, failed_count: failures.length, blocked_law_count: blocked.length, monitor_only_target_count: monitorOnly.length, observations, blocked, monitor_only: monitorOnly, failures, actions: ['Review source identity, page scope, and temporary Markdown conversions before acknowledgement.', 'Court decisions are retrieved only from allowlisted official NSS endpoints and must match the expected case identifier.', 'Ombudsman reports are extracted from the identified report-body region and must match the expected case identifier and configured content markers.', 'Czech legislation uses the e-Sbírka page-data adapter; preserve the informative-text caveat and resolve source-specific legal scope before acceptance.', 'A successful retrieval or conversion does not establish currentness, legal force, completeness, or applicability.'] };
   if (mode === '--sync') {
     await atomic(STATE_PATH, `${JSON.stringify(state, null, 2)}\n`);
     await atomic(REPORT_PATH, `${JSON.stringify(report, null, 2)}\n`);
   }
-  const summary = { mode, guidance_targets: guidance.length, court_decision_targets: courtDecisions.length, stable_url_pdf_targets: legislation.length, retrieved: observations.length, failed: failures.length, law_targets_blocked: blocked.length, monitor_only: monitorOnly.length, report: REPORT_PATH };
+  const summary = { mode, guidance_targets: guidance.length, court_decision_targets: courtDecisions.length, oversight_report_targets: oversightReports.length, stable_url_pdf_targets: legislation.length, retrieved: observations.length, failed: failures.length, law_targets_blocked: blocked.length, monitor_only: monitorOnly.length, report: REPORT_PATH };
   console.log(JSON.stringify(mode === '--check' ? { ...report, read_only: true } : summary, null, 2));
   if (failures.length) process.exitCode = 1;
 }
