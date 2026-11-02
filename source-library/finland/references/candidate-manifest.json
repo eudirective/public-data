@@ -6,7 +6,7 @@
   "scope": "Official Finnish sources related to EU, EEA and Swiss free movement; third-country family members; visa and consular routes; administrative procedure, access to information, remedies, oversight, privacy, legal aid and administrative courts. This is a bounded discovery register, not a statement of legal equivalence or complete coverage.",
   "status": "partially_retrieved_review_candidates",
   "retrieval_status": "Thirty-four external references are accepted with narrow scopes; two Finnish current-law texts are accepted as dated local documents. One obsolete Migri route is dispositioned as already represented and wrong scope. Two oversight source records remain under human review. Twenty-one converted and two changed local page/text artifacts remain unaccepted in the Monitor archive; no topic coverage or country completion is claimed.",
-  "accepted_source_count": 2,
+  "accepted_source_count": 3,
   "candidate_source_count": 37,
   "official_hosts": [
     "dvv.fi",
@@ -808,12 +808,13 @@
         "record": "616/2019; current ELI: http://data.finlex.fi/eli/sd/2019/616/ajantasa/2026-10-09/fin",
         "source_identity_id": "fi:url:651d9576b87a816ddadb",
         "representation_ids": [
+          "fi:url:651d9576b87a816ddadb#local:fi:1af5b7981aa9",
           "fi:url:651d9576b87a816ddadb#url:fi:b8df93a657ba"
         ]
       },
       "functional_relationship": "related_source",
-      "verification_status": "Official Finlex open-data API returned an identity-matching Akoma Ntoso consolidation dated 9 October 2026. Use the government-published edition with its cutoff; review source identity and the relevant text without requiring a full amendment-chain comparison.",
-      "retrieval_status": "converted_review_candidate",
+      "verification_status": "Finlex Akoma Ntoso XML identifies the 2026-10-09 Finnish consolidation. All 61 section bodies match the pinned Legalize candidate after formatting-only normalization. This verifies the dated consolidation; Act 875/2026 was published after it and its decree-set commencement remains unverified.",
+      "retrieval_status": "accepted_local_copy",
       "retrieval_shape": "Finlex REST API Akoma Ntoso consolidated-statute XML",
       "note": "Potentially relevant to police processing in immigration and entry-ban matters; ancillary and subject to scope review.",
       "monitor_retrieval_status": "discovery_surface_no_text",
@@ -822,20 +823,26 @@
       "monitor_resolved_url": "https://www.finlex.fi/fi/lainsaadanto/2019/616",
       "monitor_converted_sha256": "6d88cebbbe6d2fcdbece1b3cd8492c99c0b95fba82fb091fd8db43dab7b77f0d",
       "retrieved": true,
-      "accepted": false,
-      "source_sha256": "ede30b5b4570d29f1b58748fec32e4efce5d14dd6e4686331c76c9a483562424",
-      "converted_sha256": "6d88cebbbe6d2fcdbece1b3cd8492c99c0b95fba82fb091fd8db43dab7b77f0d",
-      "source_bytes": 1388533,
+      "accepted": true,
+      "source_sha256": "a052f857aee861690881e1f6aa7f548c15871699559e63263bf34dfbf1ed7b9f",
+      "converted_sha256": "edec5660157052bc7f99f4ce7e7e8ea0d4f631b4d462f6e0062c8c69a20efcd4",
+      "source_bytes": 182875,
       "raw_capture_path": "temp/finland/raw/fi-police-personal-data-act-a052f857aee861690881e1f6aa7f548c15871699559e63263bf34dfbf1ed7b9f.xml",
       "monitor_conversion_note": "The broad HTML pass saved the official page response but its generic converter extracted only a portal shell; the full text is recorded separately in the source-specific Finlex capture lane.",
       "external_reference_accepted": true,
       "monitor_archive_path": "candidates/public-data/finland/candidates/fi-police-personal-data-act-616-2019-current.md",
-      "local_candidate_status": "archived_unaccepted_conversion",
+      "local_candidate_status": "accepted_dated_local_copy",
       "monitor_shell_archive_path": "candidates/public-data/finland/monitor-candidates/fi-police-personal-data-act.md",
       "source_identity_id": "fi:url:651d9576b87a816ddadb",
       "representation_ids": [
+        "fi:url:651d9576b87a816ddadb#local:fi:1af5b7981aa9",
         "fi:url:651d9576b87a816ddadb#url:fi:b8df93a657ba"
-      ]
+      ],
+      "accepted_local_copy_sha256": "36864ea752df56cfbed2c4561694fa610171b5e69a4049632b1ee9892bd99e2b",
+      "accepted_local_copy_path": "source-library/finland/documents/legislation/fi-police-personal-data-act-616-2019-current-fi.md",
+      "local_copy_accepted": true,
+      "local_copy_status": "Accepted dated Finlex text; all 61 section bodies checked against the pinned Legalize candidate; API-to-Markdown conversion replay verified. Act 875/2026 commencement remains open.",
+      "latest_conversion_candidate_path": "temp/finland/derived/fi-police-personal-data-act-review-candidate.md"
     },
     {
       "id": "fi-migri-eu-registration",
@@ -1616,12 +1623,12 @@
       ]
     }
   ],
-  "retrieved_review_candidate_count": 23,
-  "converted_review_candidate_count": 21,
+  "retrieved_review_candidate_count": 22,
+  "converted_review_candidate_count": 20,
   "monitor_capture_ledger": "captures/public-data/finland/retrieval-manifest.json",
   "source_specific_capture_manifest": "references/finlex-retrieval-manifest.json",
   "accepted_external_reference_count": 34,
-  "accepted_local_copy_count": 2,
+  "accepted_local_copy_count": 3,
   "monitor_inventory_snapshot_archive_path": "candidates/public-data/finland/candidate-manifest.json",
   "schema_version": 1,
   "source_identity_inventory_schema_version": 1,
@@ -4950,12 +4957,33 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference"
+        "accepted_external_reference",
+        "accepted_local_copy",
+        "pending"
       ],
       "representation_ids": [
+        "fi:url:651d9576b87a816ddadb#local:fi:1af5b7981aa9",
         "fi:url:651d9576b87a816ddadb#url:fi:b8df93a657ba"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fi",
+          "edition": "2019",
+          "url": null,
+          "path": "documents/legislation/fi-police-personal-data-act-616-2019-current-fi.md",
+          "representation_id": "fi:url:651d9576b87a816ddadb#local:fi:1af5b7981aa9",
+          "acceptance_status": [
+            "accepted_external_reference",
+            "accepted_local_copy",
+            "pending"
+          ],
+          "source_identity_id": "fi:url:651d9576b87a816ddadb",
+          "representation_ids": [
+            "fi:url:651d9576b87a816ddadb#local:fi:1af5b7981aa9",
+            "fi:url:651d9576b87a816ddadb#url:fi:b8df93a657ba"
+          ]
+        },
         {
           "kind": "official_reference",
           "language": "fi",
@@ -4964,10 +4992,13 @@
           "path": null,
           "representation_id": "fi:url:651d9576b87a816ddadb#url:fi:b8df93a657ba",
           "acceptance_status": [
-            "accepted_external_reference"
+            "accepted_external_reference",
+            "accepted_local_copy",
+            "pending"
           ],
           "source_identity_id": "fi:url:651d9576b87a816ddadb",
           "representation_ids": [
+            "fi:url:651d9576b87a816ddadb#local:fi:1af5b7981aa9",
             "fi:url:651d9576b87a816ddadb#url:fi:b8df93a657ba"
           ]
         }
@@ -4978,6 +5009,7 @@
           "json_pointer": "/documents/14",
           "source_identity_id": "fi:url:651d9576b87a816ddadb",
           "representation_ids": [
+            "fi:url:651d9576b87a816ddadb#local:fi:1af5b7981aa9",
             "fi:url:651d9576b87a816ddadb#url:fi:b8df93a657ba"
           ]
         },
@@ -4986,6 +5018,7 @@
           "json_pointer": "/sources/14",
           "source_identity_id": "fi:url:651d9576b87a816ddadb",
           "representation_ids": [
+            "fi:url:651d9576b87a816ddadb#local:fi:1af5b7981aa9",
             "fi:url:651d9576b87a816ddadb#url:fi:b8df93a657ba"
           ]
         }
@@ -4997,6 +5030,7 @@
           "category": "acceptance",
           "source_identity_id": "fi:url:651d9576b87a816ddadb",
           "representation_ids": [
+            "fi:url:651d9576b87a816ddadb#local:fi:1af5b7981aa9",
             "fi:url:651d9576b87a816ddadb#url:fi:b8df93a657ba"
           ]
         }
