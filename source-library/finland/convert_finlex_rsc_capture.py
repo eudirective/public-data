@@ -26,7 +26,7 @@ OUTPUT_MANIFEST = PACK / "references" / "finlex-rsc-retrieval-manifest.json"
 ALLOWED_HOSTS = {"www.finlex.fi", "finlex.fi"}
 RSC_REF = re.compile(r"^\$L([0-9a-f]+)$")
 ELI_PATTERN = re.compile(r"http://data\.finlex\.fi/eli/sd/(\d{4}/\d+)/ajantasa/(\d{4}-\d{2}-\d{2})/fin(?:\\\\?/|[\"'<>\s])")
-SECTION_NUMBER = re.compile(r"^\s*\d+[a-z]?\s*§", re.IGNORECASE)
+SECTION_NUMBER = re.compile(r"^\s*\d+\s*[a-z]?\s*§", re.IGNORECASE)
 CHAPTER_NUMBER = re.compile(r"^\s*\d+\s+luku\b", re.IGNORECASE)
 
 
@@ -385,13 +385,20 @@ def sync() -> None:
     atomic_write(CAPTURE_LIST, (json.dumps(captures, ensure_ascii=False, indent=2) + "\n").encode("utf-8"))
 
 
-def run(mode: str) -> None:
+def run(mode: str, selected_ids: set[str] | None = None) -> None:
     captures = json.loads(CAPTURE_LIST.read_text(encoding="utf-8"))
     previous = json.loads(OUTPUT_MANIFEST.read_text(encoding="utf-8")) if OUTPUT_MANIFEST.exists() else {"records": []}
     old_by_id = {item["id"]: item for item in previous.get("records", [])}
+    all_records = captures["records"]
+    if selected_ids:
+        found = {record["id"] for record in all_records if record["id"] in selected_ids}
+        missing = selected_ids - found
+        if missing:
+            raise SystemExit("capture list has no record(s): " + ", ".join(sorted(missing)))
+    selected_records = [record for record in all_records if not selected_ids or record["id"] in selected_ids]
     results = []
     errors = []
-    for record in captures["records"]:
+    for record in selected_records:
         try:
             raw_path = local_path(record["raw_html_path"])
             raw_html = raw_path.read_bytes()
@@ -423,17 +430,18 @@ def run(mode: str) -> None:
         except Exception as exc:
             errors.append(f"{record.get('id', '<unknown>')}: {exc}")
     if mode != "verify" and not errors:
+        retained = [item for item in old_by_id.values() if selected_ids and item["id"] not in selected_ids]
         manifest = {
             "manifest_version": 1,
             "publisher": "Finlex / Legal Register Centre",
             "retrieval_method": "Official current-text page HTML, with law text extracted from the Finnish Next.js RSC subtree; hash-pinned raw snapshots and offline deterministic replay.",
             "review_status": "All outputs are unaccepted review candidates.",
-            "records": results,
+            "records": retained + results,
             "accepted_source_count": 0,
         }
         atomic_write(OUTPUT_MANIFEST, (json.dumps(manifest, ensure_ascii=False, indent=2) + "\n").encode("utf-8"))
     if mode == "verify":
-        extra = set(old_by_id) - {record["id"] for record in captures["records"]}
+        extra = set(old_by_id) - {record["id"] for record in all_records} if not selected_ids else set()
         if extra:
             errors.append("retrieval manifest contains records absent from capture list: " + ", ".join(sorted(extra)))
     if errors:
@@ -441,10 +449,11 @@ def run(mode: str) -> None:
 
 
 if __name__ == "__main__":
-    mode = sys.argv[1] if len(sys.argv) > 1 else "convert"
+    mode = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith("--") else "convert"
+    selected_ids = {arg.split("=", 1)[1] for arg in sys.argv[1:] if arg.startswith("--id=") and arg.split("=", 1)[1]}
     if mode == "sync":
         sync()
     elif mode in {"convert", "verify"}:
-        run(mode)
+        run(mode, selected_ids or None)
     else:
-        raise SystemExit("usage: convert_finlex_rsc_capture.py [sync|convert|verify]")
+        raise SystemExit("usage: convert_finlex_rsc_capture.py [sync|convert|verify] [--id=SOURCE_ID]")
