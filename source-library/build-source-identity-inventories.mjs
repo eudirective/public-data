@@ -291,7 +291,7 @@ function addToMap(map,id,item,ref) {
   if(ref) prior[ref.category==='acceptance'?'acceptance_references':'catalogue_references'].push(ref);
   map.set(id,prior);
 }
-async function loadCountry(country, extraDocumentPaths = []) {
+async function loadCountry(country, extraDocumentPaths = [], inventoryUpdated = '2026-10-29') {
   const iso=ISO[country], refDir=path.join(ROOT,country,'references');
   const records=new Map(), sourceListPath=path.join(refDir,'source-list.md');
   const files=await readdir(refDir).catch(()=>[]);
@@ -523,7 +523,7 @@ async function loadCountry(country, extraDocumentPaths = []) {
   const acceptanceOut={...acceptance,identity_links:identityLinks,identity_link_schema_version:1};
   // Keep legacy objects intact while giving every row with a known ID the same identity pointer.
   const manifestOut=enrichTree(manifest,identityLinks);
-  const inventory={schema_version:1,jurisdiction:iso,jurisdiction_name:country,updated:'2026-10-29',identity_rule:'Existing catalogue IDs are preserved. Exact official URLs, CELEX and ELI identities are joined; language, edition, link and local-copy representations remain distinct. Potential cross-record matches are surfaced instead of silently merged.',source_count:entries.length,unique_identity_count:new Set(entries.map(x=>x.source_identity_id)).size,unresolved_identity_entry_count:entries.filter(x=>x.identity_resolution_status==='unresolved').length,unresolved_identity_matches:unresolvedMatches,source_list_file:files.includes('source-list.md')?'references/source-list.md':null,entries};
+  const inventory={schema_version:1,jurisdiction:iso,jurisdiction_name:country,updated:inventoryUpdated,identity_rule:'Existing catalogue IDs are preserved. Exact official URLs, CELEX and ELI identities are joined; language, edition, link and local-copy representations remain distinct. Potential cross-record matches are surfaced instead of silently merged.',source_count:entries.length,unique_identity_count:new Set(entries.map(x=>x.source_identity_id)).size,unresolved_identity_entry_count:entries.filter(x=>x.identity_resolution_status==='unresolved').length,unresolved_identity_matches:unresolvedMatches,source_list_file:files.includes('source-list.md')?'references/source-list.md':null,entries};
   const reportBlock=renderSourceListBlock(inventory);
   let sourceListOut=sourceListText;
   if(!sourceListText) sourceListOut=`# ${country[0].toUpperCase()+country.slice(1)} source list\n\nThis list is synchronized with the canonical machine-readable entries in [candidate-manifest.json](candidate-manifest.json). Acceptance remains recorded separately in [source-acceptance.json](source-acceptance.json).\n\n`;
@@ -548,11 +548,14 @@ async function main() {
   const countryArg=process.argv.find(arg=>arg.startsWith('--country='));
   const selectedCountry=countryArg?countryArg.slice('--country='.length).toLowerCase():'';
   if(selectedCountry && !Object.hasOwn(ISO,selectedCountry)) throw new Error(`Unknown country: ${selectedCountry}`);
+  const updatedArg=process.argv.find(arg=>arg.startsWith('--updated='));
+  const inventoryUpdated=updatedArg?updatedArg.slice('--updated='.length):'2026-10-29';
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(inventoryUpdated)) throw new Error(`Invalid inventory update date: ${inventoryUpdated}`);
   const extraFileArg=process.argv.find(arg=>arg.startsWith('--extra-document-paths='));
   const extraDocumentMap=extraFileArg?await parseJson(path.resolve(extraFileArg.slice('--extra-document-paths='.length))):{};
   const countries=selectedCountry?[selectedCountry]:Object.keys(ISO);
   const packs=[];
-  for(const country of countries) packs.push(await loadCountry(country,extraDocumentMap[country]||[]));
+  for(const country of countries) packs.push(await loadCountry(country,extraDocumentMap[country]||[],inventoryUpdated));
   const mismatches=[];
   for(const pack of packs) {
     const expectedFiles=[

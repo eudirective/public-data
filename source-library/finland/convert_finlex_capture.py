@@ -673,7 +673,10 @@ def run(mode: str) -> None:
             "retrieval_method": "Per-record official Finlex Akoma Ntoso XML API or official current-text page captured through browser-rendered main content; raw responses are retained under project-root temp/.",
             "reuse_terms": "https://www.finlex.fi/en/data-protection",
             "records": manifest_records,
-            "accepted_source_count": 0,
+            "accepted_source_count": sum(
+                bool(item.get("accepted_document_path") and item.get("accepted_document_sha256"))
+                for item in manifest_records
+            ),
         }
         atomic_write(OUTPUT_MANIFEST, (json.dumps(manifest, ensure_ascii=False, indent=2) + "\n").encode("utf-8"))
     if errors:

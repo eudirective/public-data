@@ -46,5 +46,5 @@ Canonical rows: **38**; provisional unique IDs: **37**; unresolved entries: **2*
 | `fi-openness-act` | `fi:url:ee8a5257665cc1517fb9` | resolved | official_reference/fi/undated | accepted_external_reference | — |
 | `fi-parliamentary-ombudsman` | `fi:url:f6e2c42676e9aec8745d` | resolved | official_reference/en/undated<br>official_reference/fi/undated<br>official_reference/sv/undated | accepted_external_reference | — |
 | `fi-police-communications-order-2025` | `fi:url:6f54bcb17c8b443a1333` | resolved | official_reference/fi/undated | accepted_external_reference | — |
-| `fi-police-personal-data-act` | `fi:url:651d9576b87a816ddadb` | resolved | official_reference/fi/undated | accepted_external_reference | — |
+| `fi-police-personal-data-act` | `fi:url:651d9576b87a816ddadb` | resolved | local_artifact/fi/2019 (`documents/legislation/fi-police-personal-data-act-616-2019-current-fi.md`)<br>official_reference/fi/undated | accepted_external_reference, accepted_local_copy, pending | — |
 <!-- source-identity-inventory:end -->
