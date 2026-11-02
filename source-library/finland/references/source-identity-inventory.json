@@ -2,7 +2,7 @@
   "schema_version": 1,
   "jurisdiction": "FI",
   "jurisdiction_name": "finland",
-  "updated": "2026-10-31",
+  "updated": "2026-10-29",
   "identity_rule": "Existing catalogue IDs are preserved. Exact official URLs, CELEX and ELI identities are joined; language, edition, link and local-copy representations remain distinct. Potential cross-record matches are surfaced instead of silently merged.",
   "source_count": 38,
   "unique_identity_count": 37,
@@ -2349,12 +2349,28 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference"
+        "accepted_external_reference",
+        "accepted_local_copy",
+        "pending"
       ],
       "representation_ids": [
+        "fi:url:651d9576b87a816ddadb#local:fi:1af5b7981aa9",
         "fi:url:651d9576b87a816ddadb#url:fi:b8df93a657ba"
       ],
       "representations": [
+        {
+          "kind": "local_artifact",
+          "language": "fi",
+          "edition": "2019",
+          "url": null,
+          "path": "documents/legislation/fi-police-personal-data-act-616-2019-current-fi.md",
+          "representation_id": "fi:url:651d9576b87a816ddadb#local:fi:1af5b7981aa9",
+          "acceptance_status": [
+            "accepted_external_reference",
+            "accepted_local_copy",
+            "pending"
+          ]
+        },
         {
           "kind": "official_reference",
           "language": "fi",
@@ -2363,7 +2379,9 @@
           "path": null,
           "representation_id": "fi:url:651d9576b87a816ddadb#url:fi:b8df93a657ba",
           "acceptance_status": [
-            "accepted_external_reference"
+            "accepted_external_reference",
+            "accepted_local_copy",
+            "pending"
           ]
         }
       ],
