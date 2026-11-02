@@ -11,7 +11,7 @@
     {
       "id": "is-01",
       "title": "Althingi Lagasafn version index and SGML bundles",
-      "source_type": "legislation archive",
+      "source_type": "unspecified",
       "official_urls": [
         "https://althingi.is/lagasafn/zip-skra-af-lagasafni"
       ],
@@ -82,7 +82,7 @@
     {
       "id": "is-02",
       "title": "Foreign Nationals Act No. 80/2016",
-      "source_type": "national legislation",
+      "source_type": "unspecified",
       "official_urls": [
         "https://althingi.is/lagas/nuna/2016080.html"
       ],
@@ -153,7 +153,7 @@
     {
       "id": "is-03",
       "title": "Administrative Procedure Act No. 37/1993",
-      "source_type": "national legislation",
+      "source_type": "unspecified",
       "official_urls": [
         "https://althingi.is/lagas/nuna/1993037.html"
       ],
@@ -224,7 +224,7 @@
     {
       "id": "is-04",
       "title": "Act No. 2/1993 on the EEA",
-      "source_type": "EEA framework legislation",
+      "source_type": "unspecified",
       "official_urls": [
         "https://althingi.is/lagas/nuna/1993002.html"
       ],
@@ -295,7 +295,7 @@
     {
       "id": "is-05",
       "title": "Regulation No. 540/2017 official record and amendment index",
-      "source_type": "regulation",
+      "source_type": "unspecified",
       "official_urls": [
         "https://reglugerd.is/reglugerdir/eftir-raduneytum/domsmala--og-mannrettindaraduneyti/nr/20605"
       ],
@@ -308,6 +308,9 @@
       ],
       "representation_ids": [
         "is:url:2bfdee90e64f06e4abf7#local:en:eae0b40aea19",
+        "is:url:2bfdee90e64f06e4abf7#local:is:06144babb7c0",
+        "is:url:2bfdee90e64f06e4abf7#local:unspecified:06144babb7c0",
+        "is:url:2bfdee90e64f06e4abf7#url:en:fb38398fc06c",
         "is:url:2bfdee90e64f06e4abf7#url:is:976a2b9daaf8"
       ],
       "representations": [
@@ -324,6 +327,62 @@
           "source_identity_id": "is:url:2bfdee90e64f06e4abf7",
           "representation_ids": [
             "is:url:2bfdee90e64f06e4abf7#local:en:eae0b40aea19",
+            "is:url:2bfdee90e64f06e4abf7#local:is:06144babb7c0",
+            "is:url:2bfdee90e64f06e4abf7#local:unspecified:06144babb7c0",
+            "is:url:2bfdee90e64f06e4abf7#url:en:fb38398fc06c",
+            "is:url:2bfdee90e64f06e4abf7#url:is:976a2b9daaf8"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "is",
+          "edition": "undated",
+          "url": null,
+          "path": "documents/guidance/is-05.md",
+          "representation_id": "is:url:2bfdee90e64f06e4abf7#local:is:06144babb7c0",
+          "acceptance_status": [],
+          "source_identity_id": "is:url:2bfdee90e64f06e4abf7",
+          "representation_ids": [
+            "is:url:2bfdee90e64f06e4abf7#local:en:eae0b40aea19",
+            "is:url:2bfdee90e64f06e4abf7#local:is:06144babb7c0",
+            "is:url:2bfdee90e64f06e4abf7#local:unspecified:06144babb7c0",
+            "is:url:2bfdee90e64f06e4abf7#url:en:fb38398fc06c",
+            "is:url:2bfdee90e64f06e4abf7#url:is:976a2b9daaf8"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "unspecified",
+          "edition": "undated",
+          "url": null,
+          "path": "documents/guidance/is-05.md",
+          "representation_id": "is:url:2bfdee90e64f06e4abf7#local:unspecified:06144babb7c0",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "is:url:2bfdee90e64f06e4abf7",
+          "representation_ids": [
+            "is:url:2bfdee90e64f06e4abf7#local:en:eae0b40aea19",
+            "is:url:2bfdee90e64f06e4abf7#local:is:06144babb7c0",
+            "is:url:2bfdee90e64f06e4abf7#local:unspecified:06144babb7c0",
+            "is:url:2bfdee90e64f06e4abf7#url:en:fb38398fc06c",
+            "is:url:2bfdee90e64f06e4abf7#url:is:976a2b9daaf8"
+          ]
+        },
+        {
+          "kind": "official_reference",
+          "language": "en",
+          "edition": "undated",
+          "url": "https://reglugerd.is/reglugerdir/eftir-raduneytum/domsmala--og-mannrettindaraduneyti/nr/20605",
+          "path": null,
+          "representation_id": "is:url:2bfdee90e64f06e4abf7#url:en:fb38398fc06c",
+          "acceptance_status": [],
+          "source_identity_id": "is:url:2bfdee90e64f06e4abf7",
+          "representation_ids": [
+            "is:url:2bfdee90e64f06e4abf7#local:en:eae0b40aea19",
+            "is:url:2bfdee90e64f06e4abf7#local:is:06144babb7c0",
+            "is:url:2bfdee90e64f06e4abf7#local:unspecified:06144babb7c0",
+            "is:url:2bfdee90e64f06e4abf7#url:en:fb38398fc06c",
             "is:url:2bfdee90e64f06e4abf7#url:is:976a2b9daaf8"
           ]
         },
@@ -340,6 +399,9 @@
           "source_identity_id": "is:url:2bfdee90e64f06e4abf7",
           "representation_ids": [
             "is:url:2bfdee90e64f06e4abf7#local:en:eae0b40aea19",
+            "is:url:2bfdee90e64f06e4abf7#local:is:06144babb7c0",
+            "is:url:2bfdee90e64f06e4abf7#local:unspecified:06144babb7c0",
+            "is:url:2bfdee90e64f06e4abf7#url:en:fb38398fc06c",
             "is:url:2bfdee90e64f06e4abf7#url:is:976a2b9daaf8"
           ]
         }
@@ -368,6 +430,9 @@
           "source_identity_id": "is:url:2bfdee90e64f06e4abf7",
           "representation_ids": [
             "is:url:2bfdee90e64f06e4abf7#local:en:eae0b40aea19",
+            "is:url:2bfdee90e64f06e4abf7#local:is:06144babb7c0",
+            "is:url:2bfdee90e64f06e4abf7#local:unspecified:06144babb7c0",
+            "is:url:2bfdee90e64f06e4abf7#url:en:fb38398fc06c",
             "is:url:2bfdee90e64f06e4abf7#url:is:976a2b9daaf8"
           ]
         }
@@ -380,6 +445,9 @@
           "source_identity_id": "is:url:2bfdee90e64f06e4abf7",
           "representation_ids": [
             "is:url:2bfdee90e64f06e4abf7#local:en:eae0b40aea19",
+            "is:url:2bfdee90e64f06e4abf7#local:is:06144babb7c0",
+            "is:url:2bfdee90e64f06e4abf7#local:unspecified:06144babb7c0",
+            "is:url:2bfdee90e64f06e4abf7#url:en:fb38398fc06c",
             "is:url:2bfdee90e64f06e4abf7#url:is:976a2b9daaf8"
           ]
         }
@@ -389,7 +457,7 @@
     {
       "id": "is-06",
       "title": "Stjórnartíðindi official electronic gazette",
-      "source_type": "official gazette",
+      "source_type": "unspecified",
       "official_urls": [
         "https://stjornartidindi.is/AdvertList.aspx"
       ],
@@ -460,7 +528,7 @@
     {
       "id": "is-07",
       "title": "EFTA EEA-Lex: Directive 2004/38/EC and JCD 158/2007",
-      "source_type": "EEA incorporation",
+      "source_type": "unspecified",
       "official_urls": [
         "https://efta.int/eea-lex/32004l0038"
       ],
@@ -531,7 +599,7 @@
     {
       "id": "is-08",
       "title": "Residence right of EEA/EFTA family members",
-      "source_type": "residence guidance",
+      "source_type": "unspecified",
       "official_urls": [
         "https://island.is/en/residence-right-of-family-members-of-eea-efta-citizens"
       ],
@@ -544,6 +612,7 @@
       ],
       "representation_ids": [
         "is:url:b2026863c55f6ee47cd4#local:en:bc4fcbbc2e40",
+        "is:url:b2026863c55f6ee47cd4#local:unspecified:4193c959c9c2",
         "is:url:b2026863c55f6ee47cd4#url:en:04f70efcc7c6"
       ],
       "representations": [
@@ -560,6 +629,24 @@
           "source_identity_id": "is:url:b2026863c55f6ee47cd4",
           "representation_ids": [
             "is:url:b2026863c55f6ee47cd4#local:en:bc4fcbbc2e40",
+            "is:url:b2026863c55f6ee47cd4#local:unspecified:4193c959c9c2",
+            "is:url:b2026863c55f6ee47cd4#url:en:04f70efcc7c6"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "unspecified",
+          "edition": "undated",
+          "url": null,
+          "path": "documents/guidance/is-08.md",
+          "representation_id": "is:url:b2026863c55f6ee47cd4#local:unspecified:4193c959c9c2",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "is:url:b2026863c55f6ee47cd4",
+          "representation_ids": [
+            "is:url:b2026863c55f6ee47cd4#local:en:bc4fcbbc2e40",
+            "is:url:b2026863c55f6ee47cd4#local:unspecified:4193c959c9c2",
             "is:url:b2026863c55f6ee47cd4#url:en:04f70efcc7c6"
           ]
         },
@@ -576,6 +663,7 @@
           "source_identity_id": "is:url:b2026863c55f6ee47cd4",
           "representation_ids": [
             "is:url:b2026863c55f6ee47cd4#local:en:bc4fcbbc2e40",
+            "is:url:b2026863c55f6ee47cd4#local:unspecified:4193c959c9c2",
             "is:url:b2026863c55f6ee47cd4#url:en:04f70efcc7c6"
           ]
         }
@@ -604,6 +692,7 @@
           "source_identity_id": "is:url:b2026863c55f6ee47cd4",
           "representation_ids": [
             "is:url:b2026863c55f6ee47cd4#local:en:bc4fcbbc2e40",
+            "is:url:b2026863c55f6ee47cd4#local:unspecified:4193c959c9c2",
             "is:url:b2026863c55f6ee47cd4#url:en:04f70efcc7c6"
           ]
         }
@@ -616,6 +705,7 @@
           "source_identity_id": "is:url:b2026863c55f6ee47cd4",
           "representation_ids": [
             "is:url:b2026863c55f6ee47cd4#local:en:bc4fcbbc2e40",
+            "is:url:b2026863c55f6ee47cd4#local:unspecified:4193c959c9c2",
             "is:url:b2026863c55f6ee47cd4#url:en:04f70efcc7c6"
           ]
         }
@@ -625,7 +715,7 @@
     {
       "id": "is-09",
       "title": "Supporting documents and authentication",
-      "source_type": "application evidence",
+      "source_type": "unspecified",
       "official_urls": [
         "https://island.is/en/residence-right-of-family-members-of-eea-efta-citizens/supporting-documents"
       ],
@@ -638,6 +728,7 @@
       ],
       "representation_ids": [
         "is:url:c42a5ebf85bad985c756#local:en:b2ef8b588da7",
+        "is:url:c42a5ebf85bad985c756#local:unspecified:728e5d8e6c9b",
         "is:url:c42a5ebf85bad985c756#url:en:c8465fd232c2"
       ],
       "representations": [
@@ -654,6 +745,24 @@
           "source_identity_id": "is:url:c42a5ebf85bad985c756",
           "representation_ids": [
             "is:url:c42a5ebf85bad985c756#local:en:b2ef8b588da7",
+            "is:url:c42a5ebf85bad985c756#local:unspecified:728e5d8e6c9b",
+            "is:url:c42a5ebf85bad985c756#url:en:c8465fd232c2"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "unspecified",
+          "edition": "undated",
+          "url": null,
+          "path": "documents/guidance/is-09.md",
+          "representation_id": "is:url:c42a5ebf85bad985c756#local:unspecified:728e5d8e6c9b",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "is:url:c42a5ebf85bad985c756",
+          "representation_ids": [
+            "is:url:c42a5ebf85bad985c756#local:en:b2ef8b588da7",
+            "is:url:c42a5ebf85bad985c756#local:unspecified:728e5d8e6c9b",
             "is:url:c42a5ebf85bad985c756#url:en:c8465fd232c2"
           ]
         },
@@ -670,6 +779,7 @@
           "source_identity_id": "is:url:c42a5ebf85bad985c756",
           "representation_ids": [
             "is:url:c42a5ebf85bad985c756#local:en:b2ef8b588da7",
+            "is:url:c42a5ebf85bad985c756#local:unspecified:728e5d8e6c9b",
             "is:url:c42a5ebf85bad985c756#url:en:c8465fd232c2"
           ]
         }
@@ -698,6 +808,7 @@
           "source_identity_id": "is:url:c42a5ebf85bad985c756",
           "representation_ids": [
             "is:url:c42a5ebf85bad985c756#local:en:b2ef8b588da7",
+            "is:url:c42a5ebf85bad985c756#local:unspecified:728e5d8e6c9b",
             "is:url:c42a5ebf85bad985c756#url:en:c8465fd232c2"
           ]
         }
@@ -710,6 +821,7 @@
           "source_identity_id": "is:url:c42a5ebf85bad985c756",
           "representation_ids": [
             "is:url:c42a5ebf85bad985c756#local:en:b2ef8b588da7",
+            "is:url:c42a5ebf85bad985c756#local:unspecified:728e5d8e6c9b",
             "is:url:c42a5ebf85bad985c756#url:en:c8465fd232c2"
           ]
         }
@@ -719,7 +831,7 @@
     {
       "id": "is-10",
       "title": "Rights and obligations of residence-card holders",
-      "source_type": "residence guidance",
+      "source_type": "unspecified",
       "official_urls": [
         "https://island.is/en/residence-right-of-family-members-of-eea-efta-citizens/residence-card"
       ],
@@ -732,6 +844,7 @@
       ],
       "representation_ids": [
         "is:url:9beefac051c07e398197#local:en:f5c7db28e530",
+        "is:url:9beefac051c07e398197#local:unspecified:2725e220469a",
         "is:url:9beefac051c07e398197#url:en:5969cf67f391"
       ],
       "representations": [
@@ -748,6 +861,24 @@
           "source_identity_id": "is:url:9beefac051c07e398197",
           "representation_ids": [
             "is:url:9beefac051c07e398197#local:en:f5c7db28e530",
+            "is:url:9beefac051c07e398197#local:unspecified:2725e220469a",
+            "is:url:9beefac051c07e398197#url:en:5969cf67f391"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "unspecified",
+          "edition": "undated",
+          "url": null,
+          "path": "documents/guidance/is-10.md",
+          "representation_id": "is:url:9beefac051c07e398197#local:unspecified:2725e220469a",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "is:url:9beefac051c07e398197",
+          "representation_ids": [
+            "is:url:9beefac051c07e398197#local:en:f5c7db28e530",
+            "is:url:9beefac051c07e398197#local:unspecified:2725e220469a",
             "is:url:9beefac051c07e398197#url:en:5969cf67f391"
           ]
         },
@@ -764,6 +895,7 @@
           "source_identity_id": "is:url:9beefac051c07e398197",
           "representation_ids": [
             "is:url:9beefac051c07e398197#local:en:f5c7db28e530",
+            "is:url:9beefac051c07e398197#local:unspecified:2725e220469a",
             "is:url:9beefac051c07e398197#url:en:5969cf67f391"
           ]
         }
@@ -792,6 +924,7 @@
           "source_identity_id": "is:url:9beefac051c07e398197",
           "representation_ids": [
             "is:url:9beefac051c07e398197#local:en:f5c7db28e530",
+            "is:url:9beefac051c07e398197#local:unspecified:2725e220469a",
             "is:url:9beefac051c07e398197#url:en:5969cf67f391"
           ]
         }
@@ -804,6 +937,7 @@
           "source_identity_id": "is:url:9beefac051c07e398197",
           "representation_ids": [
             "is:url:9beefac051c07e398197#local:en:f5c7db28e530",
+            "is:url:9beefac051c07e398197#local:unspecified:2725e220469a",
             "is:url:9beefac051c07e398197#url:en:5969cf67f391"
           ]
         }
@@ -813,7 +947,7 @@
     {
       "id": "is-11",
       "title": "Permanent residence for EEA/EFTA family members",
-      "source_type": "residence guidance",
+      "source_type": "unspecified",
       "official_urls": [
         "https://island.is/en/permanent-residence-for-family-members-of-eea-efta-citizens"
       ],
@@ -826,6 +960,7 @@
       ],
       "representation_ids": [
         "is:url:54d3385afc558478dda5#local:en:3e1ac7a58f97",
+        "is:url:54d3385afc558478dda5#local:unspecified:9cc498c3a4b8",
         "is:url:54d3385afc558478dda5#url:en:cd9a8effd103"
       ],
       "representations": [
@@ -842,6 +977,24 @@
           "source_identity_id": "is:url:54d3385afc558478dda5",
           "representation_ids": [
             "is:url:54d3385afc558478dda5#local:en:3e1ac7a58f97",
+            "is:url:54d3385afc558478dda5#local:unspecified:9cc498c3a4b8",
+            "is:url:54d3385afc558478dda5#url:en:cd9a8effd103"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "unspecified",
+          "edition": "undated",
+          "url": null,
+          "path": "documents/guidance/is-11.md",
+          "representation_id": "is:url:54d3385afc558478dda5#local:unspecified:9cc498c3a4b8",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "is:url:54d3385afc558478dda5",
+          "representation_ids": [
+            "is:url:54d3385afc558478dda5#local:en:3e1ac7a58f97",
+            "is:url:54d3385afc558478dda5#local:unspecified:9cc498c3a4b8",
             "is:url:54d3385afc558478dda5#url:en:cd9a8effd103"
           ]
         },
@@ -858,6 +1011,7 @@
           "source_identity_id": "is:url:54d3385afc558478dda5",
           "representation_ids": [
             "is:url:54d3385afc558478dda5#local:en:3e1ac7a58f97",
+            "is:url:54d3385afc558478dda5#local:unspecified:9cc498c3a4b8",
             "is:url:54d3385afc558478dda5#url:en:cd9a8effd103"
           ]
         }
@@ -886,6 +1040,7 @@
           "source_identity_id": "is:url:54d3385afc558478dda5",
           "representation_ids": [
             "is:url:54d3385afc558478dda5#local:en:3e1ac7a58f97",
+            "is:url:54d3385afc558478dda5#local:unspecified:9cc498c3a4b8",
             "is:url:54d3385afc558478dda5#url:en:cd9a8effd103"
           ]
         }
@@ -898,6 +1053,7 @@
           "source_identity_id": "is:url:54d3385afc558478dda5",
           "representation_ids": [
             "is:url:54d3385afc558478dda5#local:en:3e1ac7a58f97",
+            "is:url:54d3385afc558478dda5#local:unspecified:9cc498c3a4b8",
             "is:url:54d3385afc558478dda5#url:en:cd9a8effd103"
           ]
         }
@@ -907,7 +1063,7 @@
     {
       "id": "is-12",
       "title": "Directorate of Immigration applications and forms",
-      "source_type": "forms index",
+      "source_type": "unspecified",
       "official_urls": [
         "https://island.is/en/o/directorate-of-immigration/applications-and-forms"
       ],
@@ -915,8 +1071,7 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference",
-        "discovery"
+        "accepted_external_reference"
       ],
       "representation_ids": [
         "is:url:616421fea0aa0d3c2bd5#url:en:50076fc2da05"
@@ -979,7 +1134,7 @@
     {
       "id": "is-13",
       "title": "EEA/EFTA family-card processing guidance",
-      "source_type": "processing guidance",
+      "source_type": "unspecified",
       "official_urls": [
         "https://island.is/en/o/directorate-of-immigration/have-applied-eea-efta"
       ],
@@ -992,6 +1147,7 @@
       ],
       "representation_ids": [
         "is:url:304413837be9dc0f05d4#local:en:0332874abf84",
+        "is:url:304413837be9dc0f05d4#local:unspecified:61336559d53b",
         "is:url:304413837be9dc0f05d4#url:en:2685e762e62a"
       ],
       "representations": [
@@ -1008,6 +1164,24 @@
           "source_identity_id": "is:url:304413837be9dc0f05d4",
           "representation_ids": [
             "is:url:304413837be9dc0f05d4#local:en:0332874abf84",
+            "is:url:304413837be9dc0f05d4#local:unspecified:61336559d53b",
+            "is:url:304413837be9dc0f05d4#url:en:2685e762e62a"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "unspecified",
+          "edition": "undated",
+          "url": null,
+          "path": "documents/guidance/is-13.md",
+          "representation_id": "is:url:304413837be9dc0f05d4#local:unspecified:61336559d53b",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "is:url:304413837be9dc0f05d4",
+          "representation_ids": [
+            "is:url:304413837be9dc0f05d4#local:en:0332874abf84",
+            "is:url:304413837be9dc0f05d4#local:unspecified:61336559d53b",
             "is:url:304413837be9dc0f05d4#url:en:2685e762e62a"
           ]
         },
@@ -1024,6 +1198,7 @@
           "source_identity_id": "is:url:304413837be9dc0f05d4",
           "representation_ids": [
             "is:url:304413837be9dc0f05d4#local:en:0332874abf84",
+            "is:url:304413837be9dc0f05d4#local:unspecified:61336559d53b",
             "is:url:304413837be9dc0f05d4#url:en:2685e762e62a"
           ]
         }
@@ -1052,6 +1227,7 @@
           "source_identity_id": "is:url:304413837be9dc0f05d4",
           "representation_ids": [
             "is:url:304413837be9dc0f05d4#local:en:0332874abf84",
+            "is:url:304413837be9dc0f05d4#local:unspecified:61336559d53b",
             "is:url:304413837be9dc0f05d4#url:en:2685e762e62a"
           ]
         }
@@ -1064,6 +1240,7 @@
           "source_identity_id": "is:url:304413837be9dc0f05d4",
           "representation_ids": [
             "is:url:304413837be9dc0f05d4#local:en:0332874abf84",
+            "is:url:304413837be9dc0f05d4#local:unspecified:61336559d53b",
             "is:url:304413837be9dc0f05d4#url:en:2685e762e62a"
           ]
         }
@@ -1073,7 +1250,7 @@
     {
       "id": "is-14",
       "title": "EEA/EFTA registration at Registers Iceland",
-      "source_type": "registration guidance",
+      "source_type": "unspecified",
       "official_urls": [
         "https://island.is/en/registration-of-eea-efta-foreign-nationals"
       ],
@@ -1086,6 +1263,7 @@
       ],
       "representation_ids": [
         "is:url:b00e85cba6c91e19cf3a#local:en:4a9ae343b915",
+        "is:url:b00e85cba6c91e19cf3a#local:unspecified:392cf503796e",
         "is:url:b00e85cba6c91e19cf3a#url:en:6ed8e1765ead"
       ],
       "representations": [
@@ -1102,6 +1280,24 @@
           "source_identity_id": "is:url:b00e85cba6c91e19cf3a",
           "representation_ids": [
             "is:url:b00e85cba6c91e19cf3a#local:en:4a9ae343b915",
+            "is:url:b00e85cba6c91e19cf3a#local:unspecified:392cf503796e",
+            "is:url:b00e85cba6c91e19cf3a#url:en:6ed8e1765ead"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "unspecified",
+          "edition": "undated",
+          "url": null,
+          "path": "documents/guidance/is-14.md",
+          "representation_id": "is:url:b00e85cba6c91e19cf3a#local:unspecified:392cf503796e",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "is:url:b00e85cba6c91e19cf3a",
+          "representation_ids": [
+            "is:url:b00e85cba6c91e19cf3a#local:en:4a9ae343b915",
+            "is:url:b00e85cba6c91e19cf3a#local:unspecified:392cf503796e",
             "is:url:b00e85cba6c91e19cf3a#url:en:6ed8e1765ead"
           ]
         },
@@ -1118,6 +1314,7 @@
           "source_identity_id": "is:url:b00e85cba6c91e19cf3a",
           "representation_ids": [
             "is:url:b00e85cba6c91e19cf3a#local:en:4a9ae343b915",
+            "is:url:b00e85cba6c91e19cf3a#local:unspecified:392cf503796e",
             "is:url:b00e85cba6c91e19cf3a#url:en:6ed8e1765ead"
           ]
         }
@@ -1146,6 +1343,7 @@
           "source_identity_id": "is:url:b00e85cba6c91e19cf3a",
           "representation_ids": [
             "is:url:b00e85cba6c91e19cf3a#local:en:4a9ae343b915",
+            "is:url:b00e85cba6c91e19cf3a#local:unspecified:392cf503796e",
             "is:url:b00e85cba6c91e19cf3a#url:en:6ed8e1765ead"
           ]
         }
@@ -1158,6 +1356,7 @@
           "source_identity_id": "is:url:b00e85cba6c91e19cf3a",
           "representation_ids": [
             "is:url:b00e85cba6c91e19cf3a#local:en:4a9ae343b915",
+            "is:url:b00e85cba6c91e19cf3a#local:unspecified:392cf503796e",
             "is:url:b00e85cba6c91e19cf3a#url:en:6ed8e1765ead"
           ]
         }
@@ -1167,7 +1366,7 @@
     {
       "id": "is-15",
       "title": "Moving from Nordic countries to Iceland",
-      "source_type": "Nordic registration",
+      "source_type": "unspecified",
       "official_urls": [
         "https://island.is/en/moving-from-nordic-countries-to-iceland"
       ],
@@ -1238,7 +1437,7 @@
     {
       "id": "is-16",
       "title": "Moving to Iceland and returning Icelandic citizens",
-      "source_type": "moving guidance",
+      "source_type": "unspecified",
       "official_urls": [
         "https://island.is/en/life-events/moving"
       ],
@@ -1251,6 +1450,7 @@
       ],
       "representation_ids": [
         "is:url:d6a02eb524ab4688c768#local:en:9d27fb85bb53",
+        "is:url:d6a02eb524ab4688c768#local:unspecified:7f9c7442862e",
         "is:url:d6a02eb524ab4688c768#url:en:18edf00dfea7"
       ],
       "representations": [
@@ -1267,6 +1467,24 @@
           "source_identity_id": "is:url:d6a02eb524ab4688c768",
           "representation_ids": [
             "is:url:d6a02eb524ab4688c768#local:en:9d27fb85bb53",
+            "is:url:d6a02eb524ab4688c768#local:unspecified:7f9c7442862e",
+            "is:url:d6a02eb524ab4688c768#url:en:18edf00dfea7"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "unspecified",
+          "edition": "undated",
+          "url": null,
+          "path": "documents/guidance/is-16.md",
+          "representation_id": "is:url:d6a02eb524ab4688c768#local:unspecified:7f9c7442862e",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "is:url:d6a02eb524ab4688c768",
+          "representation_ids": [
+            "is:url:d6a02eb524ab4688c768#local:en:9d27fb85bb53",
+            "is:url:d6a02eb524ab4688c768#local:unspecified:7f9c7442862e",
             "is:url:d6a02eb524ab4688c768#url:en:18edf00dfea7"
           ]
         },
@@ -1283,6 +1501,7 @@
           "source_identity_id": "is:url:d6a02eb524ab4688c768",
           "representation_ids": [
             "is:url:d6a02eb524ab4688c768#local:en:9d27fb85bb53",
+            "is:url:d6a02eb524ab4688c768#local:unspecified:7f9c7442862e",
             "is:url:d6a02eb524ab4688c768#url:en:18edf00dfea7"
           ]
         }
@@ -1311,6 +1530,7 @@
           "source_identity_id": "is:url:d6a02eb524ab4688c768",
           "representation_ids": [
             "is:url:d6a02eb524ab4688c768#local:en:9d27fb85bb53",
+            "is:url:d6a02eb524ab4688c768#local:unspecified:7f9c7442862e",
             "is:url:d6a02eb524ab4688c768#url:en:18edf00dfea7"
           ]
         }
@@ -1323,6 +1543,7 @@
           "source_identity_id": "is:url:d6a02eb524ab4688c768",
           "representation_ids": [
             "is:url:d6a02eb524ab4688c768#local:en:9d27fb85bb53",
+            "is:url:d6a02eb524ab4688c768#local:unspecified:7f9c7442862e",
             "is:url:d6a02eb524ab4688c768#url:en:18edf00dfea7"
           ]
         }
@@ -1332,7 +1553,7 @@
     {
       "id": "is-17",
       "title": "Entry requirements to Iceland",
-      "source_type": "entry guidance",
+      "source_type": "unspecified",
       "official_urls": [
         "https://island.is/en/entry-requirements-to-iceland"
       ],
@@ -1345,6 +1566,7 @@
       ],
       "representation_ids": [
         "is:url:16656e098d2be48bc8d7#local:en:bd1dc4672615",
+        "is:url:16656e098d2be48bc8d7#local:unspecified:508b3ba8c100",
         "is:url:16656e098d2be48bc8d7#url:en:6f204ca78cdc"
       ],
       "representations": [
@@ -1361,6 +1583,24 @@
           "source_identity_id": "is:url:16656e098d2be48bc8d7",
           "representation_ids": [
             "is:url:16656e098d2be48bc8d7#local:en:bd1dc4672615",
+            "is:url:16656e098d2be48bc8d7#local:unspecified:508b3ba8c100",
+            "is:url:16656e098d2be48bc8d7#url:en:6f204ca78cdc"
+          ]
+        },
+        {
+          "kind": "local_artifact",
+          "language": "unspecified",
+          "edition": "undated",
+          "url": null,
+          "path": "documents/guidance/is-17.md",
+          "representation_id": "is:url:16656e098d2be48bc8d7#local:unspecified:508b3ba8c100",
+          "acceptance_status": [
+            "accepted_local_copy"
+          ],
+          "source_identity_id": "is:url:16656e098d2be48bc8d7",
+          "representation_ids": [
+            "is:url:16656e098d2be48bc8d7#local:en:bd1dc4672615",
+            "is:url:16656e098d2be48bc8d7#local:unspecified:508b3ba8c100",
             "is:url:16656e098d2be48bc8d7#url:en:6f204ca78cdc"
           ]
         },
@@ -1377,6 +1617,7 @@
           "source_identity_id": "is:url:16656e098d2be48bc8d7",
           "representation_ids": [
             "is:url:16656e098d2be48bc8d7#local:en:bd1dc4672615",
+            "is:url:16656e098d2be48bc8d7#local:unspecified:508b3ba8c100",
             "is:url:16656e098d2be48bc8d7#url:en:6f204ca78cdc"
           ]
         }
@@ -1405,6 +1646,7 @@
           "source_identity_id": "is:url:16656e098d2be48bc8d7",
           "representation_ids": [
             "is:url:16656e098d2be48bc8d7#local:en:bd1dc4672615",
+            "is:url:16656e098d2be48bc8d7#local:unspecified:508b3ba8c100",
             "is:url:16656e098d2be48bc8d7#url:en:6f204ca78cdc"
           ]
         }
@@ -1417,6 +1659,7 @@
           "source_identity_id": "is:url:16656e098d2be48bc8d7",
           "representation_ids": [
             "is:url:16656e098d2be48bc8d7#local:en:bd1dc4672615",
+            "is:url:16656e098d2be48bc8d7#local:unspecified:508b3ba8c100",
             "is:url:16656e098d2be48bc8d7#url:en:6f204ca78cdc"
           ]
         }
@@ -1426,7 +1669,7 @@
     {
       "id": "is-18",
       "title": "Apply for an Icelandic Schengen C visa",
-      "source_type": "visas and missions",
+      "source_type": "unspecified",
       "official_urls": [
         "https://island.is/en/get-a-visa/where-to-apply-schengen"
       ],
@@ -1497,7 +1740,7 @@
     {
       "id": "is-19",
       "title": "Residence permit for spouse",
-      "source_type": "national family route",
+      "source_type": "unspecified",
       "official_urls": [
         "https://island.is/en/residence-permit-for-spouse"
       ],
@@ -1568,7 +1811,7 @@
     {
       "id": "is-20",
       "title": "Kærunefnd útlendingamála appeal guidance",
-      "source_type": "appeal authority",
+      "source_type": "unspecified",
       "official_urls": [
         "https://knu.is/hvernig-get-eg-kaert"
       ],
@@ -1639,7 +1882,7 @@
     {
       "id": "is-21",
       "title": "Published KNU decisions and opinions",
-      "source_type": "administrative case-law",
+      "source_type": "unspecified",
       "official_urls": [
         "https://stjornarradid.is/gogn/urskurdir-og-alit-"
       ],
@@ -1710,7 +1953,7 @@
     {
       "id": "is-22",
       "title": "Information Act No. 140/2012",
-      "source_type": "public access",
+      "source_type": "unspecified",
       "official_urls": [
         "https://althingi.is/lagas/nuna/2012140.html"
       ],
@@ -1781,7 +2024,7 @@
     {
       "id": "is-23",
       "title": "Icelandic Parliamentary Ombudsman",
-      "source_type": "oversight",
+      "source_type": "unspecified",
       "official_urls": [
         "https://umbodsmadur.is/en"
       ],
@@ -1852,7 +2095,7 @@
     {
       "id": "is-24",
       "title": "Data Protection Act No. 90/2018",
-      "source_type": "privacy legislation",
+      "source_type": "unspecified",
       "official_urls": [
         "https://althingi.is/lagas/nuna/2018090.html"
       ],
@@ -1923,7 +2166,7 @@
     {
       "id": "is-25",
       "title": "Data Protection Authority public guidance",
-      "source_type": "privacy oversight",
+      "source_type": "unspecified",
       "official_urls": [
         "https://island.is/en/o/the-data-protection-authority/submit-a-tip"
       ],
@@ -1994,7 +2237,7 @@
     {
       "id": "is-26",
       "title": "Rules No. 3/2022 on online publication of court decisions and orders (current portal route)",
-      "source_type": "court publication rules",
+      "source_type": "unspecified",
       "official_urls": [
         "https://gamli.domstolar.is/domstolasyslan/reglur/reglur-um-utgafu-doma-og-urskurda-a-vefsidum-domstola"
       ],
@@ -2065,7 +2308,7 @@
     {
       "id": "is-27",
       "title": "Icelandic Courts portal",
-      "source_type": "court-case discovery",
+      "source_type": "unspecified",
       "official_urls": [
         "https://island.is/s/domstolar"
       ],
@@ -2073,8 +2316,7 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference",
-        "discovery"
+        "accepted_external_reference"
       ],
       "representation_ids": [
         "is:url:a1f5517132ea960b158d#url:is:e43c89244cbd"
@@ -2137,7 +2379,7 @@
     {
       "id": "is-28",
       "title": "Ísland.is general terms",
-      "source_type": "service portal terms",
+      "source_type": "unspecified",
       "official_urls": [
         "https://island.is/en/o/digital-iceland/notendaskilmalar-islandis-terms-and-conditions-stefnur-og-skilmalar-1"
       ],
@@ -2145,8 +2387,7 @@
       "identity_resolution_status": "resolved",
       "identity_resolution_basis": "catalogued official URL",
       "status_categories": [
-        "accepted_external_reference",
-        "discovery"
+        "accepted_external_reference"
       ],
       "representation_ids": [
         "is:url:a7887defa5ecafde271f#url:en:3959fc8cd92b"
@@ -2209,7 +2450,7 @@
     {
       "id": "is-29",
       "title": "Ministry of Justice immigration overview",
-      "source_type": "official authority directory",
+      "source_type": "unspecified",
       "official_urls": [
         "https://stjornarradid.is/verkefni/utlendingar"
       ],
@@ -2280,7 +2521,7 @@
     {
       "id": "is-30",
       "title": "Regulation 669/2026",
-      "source_type": "regulation amendment",
+      "source_type": "unspecified",
       "official_urls": [
         "https://reglugerd.is/reglugerdir/allar/nr/0669-2026"
       ],
@@ -2374,7 +2615,7 @@
     {
       "id": "is-31",
       "title": "Regulation 724/2026",
-      "source_type": "regulation amendment",
+      "source_type": "unspecified",
       "official_urls": [
         "https://reglugerd.is/reglugerdir/eftir-raduneytum/dmr/nr/25017"
       ],
@@ -2468,7 +2709,7 @@
     {
       "id": "is-32",
       "title": "Regulation 725/2026",
-      "source_type": "regulation amendment",
+      "source_type": "unspecified",
       "official_urls": [
         "https://reglugerd.is/reglugerdir/eftir-raduneytum/dmr/nr/25018"
       ],
@@ -2562,7 +2803,7 @@
     {
       "id": "is-33",
       "title": "Courts Act No. 50/2016",
-      "source_type": "court legislation",
+      "source_type": "unspecified",
       "official_urls": [
         "https://althingi.is/lagas/nuna/2016050.html"
       ],
@@ -2633,7 +2874,7 @@
     {
       "id": "is-34",
       "title": "Act No. 91/1991 on Civil Procedure",
-      "source_type": "civil procedure",
+      "source_type": "unspecified",
       "official_urls": [
         "https://althingi.is/lagas/nuna/1991091.html"
       ],
@@ -2704,7 +2945,7 @@
     {
       "id": "is-35",
       "title": "Waiting time at the Directorate of Immigration",
-      "source_type": "current processing status",
+      "source_type": "unspecified",
       "official_urls": [
         "https://island.is/en/o/directorate-of-immigration/waiting-time"
       ],
@@ -2775,7 +3016,7 @@
     {
       "id": "is-36",
       "title": "Visa Act No. 37/2026",
-      "source_type": "visa legislation",
+      "source_type": "unspecified",
       "official_urls": [
         "https://althingi.is/lagas/nuna/2026037.html"
       ],

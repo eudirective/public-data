@@ -37,3 +37,5 @@ Accept a retained copy only after all of these are recorded: official publisher 
 - [Code de justice administrative, Article R. 312-18](../documents/legislation/fr-cja-r312-18-visa-jurisdiction.md)
 - [Code de justice administrative, Article R. 421-1](../documents/legislation/fr-cja-r421-1-deadline.md)
 - [Code des relations entre le public et l’administration, Article L. 411-1](../documents/legislation/fr-crpa-l411-1-appeals.md)
+- [CESEDA legislative Book II selected text: Articles L200-1 to L200-5, L221-1, L221-2, L231-1, L231-2, L232-1, L233-1 to L233-3, L233-5, L234-1 and L234-2](../documents/legislation/fr-ceseda-book-ii-legislative-eu-family-selected-text-2026-10-31.md)
+- [CESEDA regulatory Book II selected text: Articles R221-1, R221-2, R233-14 to R233-18 and R234-1](../documents/legislation/fr-ceseda-book-ii-regulatory-eu-family-selected-text-2026-10-31.md)
