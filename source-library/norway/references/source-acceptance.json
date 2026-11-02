@@ -1577,7 +1577,7 @@
       "local_copy_accepted": true,
       "source_document": {
         "path": "documents/references/no-54-current-e-s-worker-mobility-act-lov-2012-12-14-81.md",
-        "sha256": "96cf4e00e2f76ea9f57518a80ebc6c8dd30bf41b793f632f9d2e6b0469f768c2",
+        "sha256": "412a68485ed00f083c27cd17b15a3007fa11664b5fb2f8b981d7076d1254238f",
         "bytes": 3027,
         "kind": "independent_source_reference_note",
         "reproduces_source_text": false
